@@ -4,6 +4,7 @@ import AgGridStyles from "ag-grid-community/styles/ag-grid.css";
 import AgThemeAlpineStyles from "ag-grid-community/styles/ag-theme-alpine.css";
 import { useLoaderData } from "@remix-run/react";
 import { romdata } from '~/../outputs/romdata.json' //note destructuring
+import { CellClickedEvent } from 'ag-grid-community'
 
 /** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
 // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
@@ -11,6 +12,14 @@ const columnDefs = [...new Set(romdata.flatMap(Object.keys))].map(field => ({ fi
 console.log(columnDefs)
 /** @type {import('ag-grid-community').GridOptions} */
 const gridOptions = {
+  onCellClicked: (event: CellClickedEvent) =>
+    fetch('runGame', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(event.data.path, event.data.defaultGoodMerge)
+    }),
   columnDefs: columnDefs,
   defaultColDef: {
     flex: 1,
@@ -21,6 +30,8 @@ const gridOptions = {
 export async function loader() {
   return json({ romdata })
 }
+
+
 export default function Index() {
   const data = useLoaderData()
   const rowData = data.romdata
