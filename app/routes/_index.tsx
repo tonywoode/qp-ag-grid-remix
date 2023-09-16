@@ -9,17 +9,20 @@ import { CellClickedEvent } from 'ag-grid-community'
 /** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
 // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
 const columnDefs = [...new Set(romdata.flatMap(Object.keys))].map(field => ({ field }))
-console.log(columnDefs)
+console.log('Creating these columns from romdata:')
+console.table(columnDefs)
 /** @type {import('ag-grid-community').GridOptions} */
 const gridOptions = {
-  onCellClicked: (event: CellClickedEvent) =>
+  onCellClicked: (event: CellClickedEvent) => {
+    console.log(event.data)
     fetch('runGame', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(event.data.path, event.data.defaultGoodMerge)
-    }),
+      body: JSON.stringify({ gamePath: event.data.path, defaultGoodMerge: event.data.defaultGoodMerge })
+    })
+  },
   columnDefs: columnDefs,
   defaultColDef: {
     flex: 1,
