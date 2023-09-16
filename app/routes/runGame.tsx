@@ -6,7 +6,7 @@ export async function action({ request }: ActionArgs) {
   //you can move the below above here oncce you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const node7z = await import('node-7z-archive')
-  const { extractArchive } = node7z
+  const { onlyArchive } = node7z
   const { gamePath, defaultGoodMerge } = await request.json()
   console.log(gamePath, defaultGoodMerge)
   //TODO: this should be a .env variable with a ui to set (or something on romdata conversation?)
@@ -23,7 +23,8 @@ export async function action({ request }: ActionArgs) {
   createDirIfNotExist(tempDir)
   const outputDirectory = tempDir
 
-  await extractArchive(gamePathMacOS, outputDirectory)
+  //TODO: now this only extacts if there's a defaultGoodMerge set in the romdata, but we should always extract the best fittinng file
+  await onlyArchive(gamePathMacOS, outputDirectory, defaultGoodMerge)
     .then(result => {
       console.log(result)
     })
@@ -33,6 +34,9 @@ export async function action({ request }: ActionArgs) {
   return null
 }
 
+/**
+ * Consider that some people remove all temp dirs on their system, either you can rename your extraction dir, or try this...
+ */
 async function createDirIfNotExist(dirPath: string) {
   const fnName = createDirIfNotExist.name
   try {
