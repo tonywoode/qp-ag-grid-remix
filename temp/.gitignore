@@ -1,0 +1,5 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+# This is for source control, if you're an end user you can delete this file as you wish
