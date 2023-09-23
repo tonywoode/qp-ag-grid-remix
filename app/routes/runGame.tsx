@@ -8,9 +8,9 @@ export async function action({ request }: ActionArgs) {
   const node7z = await import('node-7z-archive')
   const { extractArchive, onlyArchive, listArchive } = node7z
   const { gamePath, defaultGoodMerge } = await request.json()
-  console.log(gamePath, defaultGoodMerge)
-  //TODO: this should be a .env variable with a ui to set (or something on romdata conversation?)
+  console.log(`recieved from grid`, { gamePath, defaultGoodMerge })
   const gamePathMacOS = path.join(
+    //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
     '/Volumes/Untitled/Games',
     gamePath
       .replace(/^[A-Z]:/, '')
@@ -24,20 +24,15 @@ export async function action({ request }: ActionArgs) {
   const outputDirectory = tempDir
 
   if (defaultGoodMerge) {
-    //TODO: now this only extacts if there's a defaultGoodMerge set in the romdata, but we should always extract the best fittinng file
+    //meaning row in the grid contains a pre-selected preferred rom to extract
     await onlyArchive(gamePathMacOS, outputDirectory, defaultGoodMerge)
-      .then(result => {
-        console.log(result)
-      })
-      .catch(err => {
-        console.log(err)
-      })
+      .then(result => console.log(`7z invoked:`, result))
+      .catch(err => console.error(err))
   } else {
-    listArchive(gamePathMacOS)
+    listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
       .progress(async (files: string[]) => {
-        console.log('files: ', files)
         const filenames = files.map(file => file.name)
-        console.log('filenames: ', filenames)
+        console.log(`7z listing: `, filenames)
 
         //example country code choices
         const countryCodes = ['UK', 'E', 'U']
@@ -71,7 +66,7 @@ async function createDirIfNotExist(dirPath: string) {
   const fnName = createDirIfNotExist.name
   try {
     const stats = await fs.stat(dirPath)
-    if (stats.isDirectory()) console.log(`${fnName}: Extraction Dir Exists: ${dirPath}`)
+    if (stats.isDirectory()) console.log(`extraction Dir: ${dirPath}`)
     else console.error(`${fnName}: ${dirPath} exists but is not a dir`)
   } catch (error) {
     if (error.code === 'ENOENT') {
