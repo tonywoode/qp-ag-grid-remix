@@ -1,9 +1,9 @@
 import type { ActionArgs } from '@remix-run/node'
 import path from 'path'
-import { chooseFittingRom } from '~/utils/goodMergeChooser'
+import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 const fs = require('fs').promises
 export async function action({ request }: ActionArgs) {
-  //you can move the below above here oncce you upgrade remix, top level await will work
+  //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const node7z = await import('node-7z-archive')
   const { extractArchive, onlyArchive, listArchive } = node7z
@@ -12,10 +12,7 @@ export async function action({ request }: ActionArgs) {
   const gamePathMacOS = path.join(
     //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
     '/Volumes/Untitled/Games',
-    gamePath
-      .replace(/^[A-Z]:/, '')
-      .split('\\')
-      .join('/')
+    gamePath.replace(/^[A-Z]:/, '').split('\\').join('/') // prettier-ignore
   )
   //   const archivePath = '/Volumes/Untitled/Games/Sega Games/Genesis Games/GoodGEN_3_GM/Atomic Robo-Kid.7z'
   //   const filePathInsideArchive = 'Atomic Robo-Kid (U) [c][!].gen'
@@ -25,19 +22,25 @@ export async function action({ request }: ActionArgs) {
 
   if (defaultGoodMerge) {
     //meaning row in the grid contains a pre-selected preferred rom to extract
-    await onlyArchive(gamePathMacOS, outputDirectory, defaultGoodMerge)
-      .then(result => console.log(`7z invoked:`, result))
-      .catch(err => console.error(err))
+    await extractRom(gamePathMacOS, outputDirectory, defaultGoodMerge)
   } else {
     listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
       .progress(async (files: string[]) => {
         const filenames = files.map(file => file.name)
         console.log(`7z listing: `, filenames)
-
-        //example country code choices
-        const countryCodes = ['UK', 'E', 'U']
-        const pickedRom = chooseFittingRom(filenames, countryCodes)
-        console.log(`computer picked this rom`, pickedRom)
+        if (filenames.length === 1) {
+          extractRom(gamePathMacOS, outputDirectory, filenames[0])
+          return
+        }
+        //example country code choices, TODO: type this well; invert numbering, make fallbacks clearer, link to goodmerge doc
+        //this needs a file of its own, the country codes in the goodmerge doc don't marry up with those in the wild, eg: w for world in genesis
+        const fallbackCountryCodes = { PD: 1, Unl: 2, Unk: 3 } // would rather get these than wrong language
+        //world actually prob means there's only one country code in the rom?
+        const countryCodePrefs = { B: 4, A: 5, 4: 6, U: 7, W: 8, E: 9, UK: 10 }
+        const countryCodes = { ...fallbackCountryCodes, ...countryCodePrefs }
+        console.log(`sending country code choices to GoodMerge chooser`, countryCodes)
+        const pickedRom = chooseGoodMergeRom(filenames, countryCodes)
+        console.log(`computer picked this rom:`, pickedRom)
         //unarchive the picked rom
         // onlyArchive(gamePathMacOS, outputDirectory, pickedRom)
         //   .then(result => {
@@ -57,8 +60,13 @@ export async function action({ request }: ActionArgs) {
       })
   }
   return null
-}
 
+  async function extractRom(gamePath, outputDirectory, romInArchive) {
+    await onlyArchive(gamePath, outputDirectory, romInArchive)
+      .then(result => console.log(`7z invoked:`, result))
+      .catch(err => console.error(err))
+  }
+}
 /**
  * Consider that some people remove all temp dirs on their system, either you can rename your extraction dir, or try this...
  */

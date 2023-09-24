@@ -1,55 +1,67 @@
-function evaluateCountryCodes(filename, countryCodes) {
-  const countryMap = {
-    J: 'Japan & Korea',
-    A: 'Australia',
-    B: 'non USA (Genesis)',
-    C: 'China',
-    E: 'Europe',
-    F: 'France',
-    //removed F: 'World (Genesis)', - see below
-    G: 'Germany',
-    GR: 'Greece',
-    HK: 'Hong Kong',
-    H: 'Holland',
-    FC: 'French Canadian',
-    FN: 'Finland',
-    I: 'Italy',
-    K: 'Korea',
-    NL: 'Netherlands',
-    PD: 'Public Domain',
-    S: 'Spain',
-    SW: 'Sweden',
-    U: 'USA',
-    UK: 'England',
-    Unk: 'Unknown Country',
-    Unl: 'Unlicensed'
-  }
+const countryMap = {
+  //TODO: do I need this in the backend at all?
+  J: 'Japan & Korea',
+  A: 'Australia',
+  B: 'non USA (Genesis)',
+  C: 'China',
+  E: 'Europe',
+  F: 'France',
+  //removed F: 'World (Genesis)', - deal with it below
+  G: 'Germany',
+  GR: 'Greece',
+  HK: 'Hong Kong',
+  H: 'Holland',
+  FC: 'French Canadian',
+  FN: 'Finland',
+  I: 'Italy',
+  K: 'Korea',
+  NL: 'Netherlands',
+  PD: 'Public Domain',
+  S: 'Spain',
+  SW: 'Sweden',
+  U: 'USA',
+  UK: 'England',
+  Unk: 'Unknown Country',
+  Unl: 'Unlicensed'
+}
 
-  const countryWeights = {
-    J: 5, // Example: Japan & Korea have higher weight
-    A: 3, // Example: Australia has medium weight
-    U: 1 // Example: USA has lower weight
-    // Add weights for other country codes as needed
-  }
-
-  const fallbacks = ['Unk', 'Unl', 'PD']
-  if (filename.includes('F') && filename.includes('Genesis')) {
-    fallbacks.push('F')
-  }
-
+function evaluateCountryCodes(filename, countryWeights) {
+  if (filename.includes('(F)') && filename.includes('Genesis')) fallbacks.push('F')
+  console.log(`looking for matching countrycodes:,`, { filename })
   let score = 0
+  // Stage 1: Highest priority - Exact match of country codes in parentheses
+  for (const code in countryWeights) {
+    const regex = new RegExp(`\\((${code})\\)`, 'i')
 
-  for (const code of countryCodes) {
-    if (countryMap[code] && filename.includes(countryMap[code])) {
-      score += countryWeights[code] || 0 // Add the weight if defined, otherwise add 0
+    if (regex.test(filename)) {
+      console.log(`   stage 1 matched:`, code, `with`, regex, `assigning score:`, countryWeights[code] * 3)
+      score += countryWeights[code] * 3 // Higher weight for exact matches
     }
   }
 
-  for (const fallback of fallbacks) {
-    if (filename.includes(countryMap[fallback])) {
-      score += countryWeights[fallback] || 0 // Add the weight if defined, otherwise add 0
+  // Stage 2: Combination of codes in parentheses
+  for (const code1 in countryWeights) {
+    for (const code2 in countryWeights) {
+      if (code1 !== code2) {
+        const regex = new RegExp(`\\((${code1}.*${code2})\\)`, 'i')
+        if (regex.test(filename)) {
+          console.log( `    stage 2 matched:`, code1, `and`, code2, `with`, regex, `assigning score:`, countryWeights[code1] + countryWeights[code2]) // prettier-ignore
+          score += countryWeights[code1] + countryWeights[code2]
+        }
+      }
     }
   }
+
+  // Stage 3: Single code with other characters in parentheses
+  for (const code in countryWeights) {
+    const regex = new RegExp(`\\((${code})[^${Object.keys(countryWeights).join('')}]*\\)`, 'i')
+    if (regex.test(filename)) {
+      console.log(`   stage 3 matched:`, code, `with`, regex, `assigning score:`, countryWeights[code] / 2)
+      score += countryWeights[code] / 2 // Lower weight for potential matches
+    }
+  }
+  console.log(` final country score:`, [filename, score])
+  //if the score is less than 3
 
   return score
 }
@@ -75,24 +87,32 @@ function evaluateStandardCodes(filename) {
   return 0 // Return 0 if none of the priority conditions are met
 }
 
-export function chooseFittingRom(filenames, countryCodes) {
-  let bestScore = -1
-  let bestFilename = null
+export function chooseGoodMergeRom(filenames, countryCodes) {
+  const filesByCountryScore = new Set()
 
   for (const filename of filenames) {
     const countryScore = evaluateCountryCodes(filename, countryCodes)
-    const standardScore = evaluateStandardCodes(filename)
-
-    // Combine scores (e.g., using weighted averages if needed)
-    const combinedScore = countryScore + standardScore
-
-    if (combinedScore > bestScore) {
-      bestScore = combinedScore
-      bestFilename = filename
-    }
+    filesByCountryScore.add({ [filename]: countryScore })
   }
+  console.log(`filesByCountryScore`, filesByCountryScore)
 
-  return bestFilename
+  // for (const filename of filenames) {
+  let bestScore = -1
+  let bestFilename = null
+  //   const countryScore = evaluateCountryCodes(filename, countryCodes)
+  //   filesByCountryScore.add({ [filename]: countryScore })
+
+  //   const standardScore = evaluateStandardCodes(filename)
+  //   // Combine scores (e.g., using weighted averages if needed)
+  //   const combinedScore = countryScore + standardScore
+
+  //   if (combinedScore > bestScore) {
+  //     bestScore = combinedScore
+  //     bestFilename = filename
+  //   }
+  // }
+
+  //   return bestFilename
 }
 
 // Example usage
