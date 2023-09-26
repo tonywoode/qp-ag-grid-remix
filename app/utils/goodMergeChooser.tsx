@@ -67,35 +67,71 @@ function evaluateCountryCodes(filename, countryWeights) {
 }
 
 function evaluateStandardCodes(filename) {
-  const priorityCodes = ['!', 'f', 'a', 'p', 'h']
-
-  // Extract standard codes from the filename
-  const standardCodes = filename.match(/\[.\]/g)
-
+  const priorityCodes = ['h', 'p', 'a', 'f', '!']
+  const regex = /\[([^\]]+)\]/g
+  const standardCodes = [...filename.matchAll(regex)].map(match => match[1])
+  console.log(`standardCodes`, standardCodes)
   // Check if the filename contains any of the priority codes
-  for (const code of priorityCodes) {
-    if (standardCodes && standardCodes.includes(`[${code}]`)) {
-      return priorityCodes.indexOf(code) + 1 // Return priority level (1 for highest, 5 for lowest)
+  let standardScore = 0
+  let foundAnExclamationMark = false
+  let alreadyParsedAnotherCodeThatWasntExclaaationMark = false
+  const highestFCode = 0
+  for (const standard of standardCodes) {
+    for (const priority of priorityCodes) {
+      if (standard.startsWith(priority)) {
+        console.log(`Standard code '${standard}' starts with priority character '${priority}'`)
+        if (priority === '!') {
+          foundAnExclamationMark = true
+        } else {
+          alreadyParsedAnotherCodeThatWasntExclaaationMark = true
+        }
+        //goal here is to bump up priority of a ! plus f*, where the higest f number will get run
+        // I think all other standard codes don't have this effect, a single ! SHOULD trump everything otherwise
+        if (foundAnExclamationMark && priority !== '!') {
+          //we already found our !, let's hope all roms put this FIRST - NO data shows they dont: 'Alisia Dragoon (U) [p1][!].gen', but maybe that doesn't matter here?
+          if (priority.startsWith('f')) {
+            // Find the highest number following [f]
+            const fixedNum = priority.replace('f', '')
+            if (typeof fixedNum === 'number') {
+              if (fixedNum > highestFCode) highestFCode === fixedNum
+            }
+            if (highestFCode !== 0) {
+              standardScore += highestFCode
+            }
+          }
+        }
+        //if the priroty code is a !, make it really important
+        if (priority.startsWith('!') && !alreadyParsedAnotherCodeThatWasntExclaaationMark) {
+          standardScore = +15
+        } else {
+          standardScore += priorityCodes.indexOf(priority) + 1
+        }
+      }
     }
   }
-
+  //and then its what to do about the multiplier: ultimately i'd rather run a (J)[!] than an (E)[*], we want to priorise anything that will work,
+  // and so ! trumps everything, but we need to check firstly if we have a rom from a region we WANT that has a !,
+  // and secondly if we've a fixed rom (from the region we want) that's a !
   // If none of the priority codes are found, check if 'b' is the only option
-  if (!standardCodes || (standardCodes.length === 1 && standardCodes[0] === '[b]')) {
-    return 6 // Return a low priority level for 'b'
-  }
-
-  return 0 // Return 0 if none of the priority conditions are met
+  // [update] do we need this anymore? If there's only one rom, it'll get run, hmm...but if the choices are all [b] we still want to pick the most fitting
+  // if (!standardCodes || (standardCodes.length === 1 && standardCodes[0] === '[b]')) {
+  //   return 6 // Return a low priority level for 'b'
+  // }
+  return standardScore // Return 0 if none of the priority conditions are met
 }
 
 export function chooseGoodMergeRom(filenames, countryCodes) {
   const filesByCountryScore = new Set()
-
   for (const filename of filenames) {
     const countryScore = evaluateCountryCodes(filename, countryCodes)
     filesByCountryScore.add({ [filename]: countryScore })
   }
   console.log(`filesByCountryScore`, filesByCountryScore)
 
+  for (const filename of filenames) {
+    const standardScore = evaluateStandardCodes(filename)
+    console.log(`standardScore`, { filename, standardScore })
+  }
   // for (const filename of filenames) {
   let bestScore = -1
   let bestFilename = null
