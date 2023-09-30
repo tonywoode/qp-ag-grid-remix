@@ -20,9 +20,27 @@ const gamePathMacOS = gamePath => {
 const archivePathsMacOS = archivePaths.map(gamePathMacOS)
 const allFilesInArchives = []
 for (const archivePath of archivePathsMacOS) {
-  await listArchive(archivePath).progress(files => {
-    const filenames = files.map(file => file.name)
-    allFilesInArchives.push(...filenames)
-  })
+  await listArchive(archivePath)
+    .progress(files => {
+      const filenames = files.map(file => file.name)
+      allFilesInArchives.push(...filenames)
+    })
+    .catch(err => console.err(`error listing archive ${archivePath}: `, err))
 }
-console.dir(allFilesInArchives, { maxArrayLength: null }) //print all to console
+//console.dir(allFilesInArchives, { maxArrayLength: null }) //all filenames array
+
+//but let's also try and extract the unique portions to see what we can learn
+function parseCodes(fileName) {
+  const regex = /(?:\(([^)]+)\)|\[([^\]]+)\])/g //match either of the following: (parens) [brackets], capture contents of parens/brackets
+  const matches = [...fileName.matchAll(regex)]
+  const parensCodes = matches.map(match => match[1]).filter(Boolean)
+  const bracketCodes = matches.map(match => match[2]).filter(Boolean)
+  const padding = ' '.repeat(Math.max(0, 80 - fileName.length))
+  const codePadding = ' '.repeat(Math.max(0, 40 - parensCodes.join(', ').length))
+
+  return `${fileName}${padding}Codes:             (${parensCodes.join(', ')})${codePadding}${
+    bracketCodes.length ? '[' + bracketCodes.join(', ') + ']' : ''
+  }`
+}
+const allCodesInArchive = allFilesInArchives.map(parseCodes)
+console.dir(allCodesInArchive, { maxArrayLength: null }) //print all to console, pipe output to file if you want
