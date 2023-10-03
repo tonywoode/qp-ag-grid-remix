@@ -74,8 +74,8 @@ function evaluateStandardCodes(filename) {
   // Check if the filename contains any of the priority codes
   let standardScore = 0
   let foundAnExclamationMark = false
-  let alreadyParsedAnotherCodeThatWasntExclaaationMark = false
-  const highestFCode = 0
+  let alreadyParsedAnotherCodeThatWasntExclamationMark = false
+  let highestFCode = 0
   for (const standard of standardCodes) {
     for (const priority of priorityCodes) {
       if (standard.startsWith(priority)) {
@@ -83,7 +83,7 @@ function evaluateStandardCodes(filename) {
         if (priority === '!') {
           foundAnExclamationMark = true
         } else {
-          alreadyParsedAnotherCodeThatWasntExclaaationMark = true
+          alreadyParsedAnotherCodeThatWasntExclamationMark = true
         }
         //goal here is to bump up priority of a ! plus f*, where the higest f number will get run
         // I think all other standard codes don't have this effect, a single ! SHOULD trump everything otherwise
@@ -93,7 +93,7 @@ function evaluateStandardCodes(filename) {
             // Find the highest number following [f]
             const fixedNum = priority.replace('f', '')
             if (typeof fixedNum === 'number') {
-              if (fixedNum > highestFCode) highestFCode === fixedNum
+              if (fixedNum > highestFCode) highestFCode = fixedNum
             }
             if (highestFCode !== 0) {
               standardScore += highestFCode
@@ -101,7 +101,7 @@ function evaluateStandardCodes(filename) {
           }
         }
         //if the priroty code is a !, make it really important
-        if (priority.startsWith('!') && !alreadyParsedAnotherCodeThatWasntExclaaationMark) {
+        if (priority.startsWith('!') && !alreadyParsedAnotherCodeThatWasntExclamationMark) {
           standardScore = +15
         } else {
           standardScore += priorityCodes.indexOf(priority) + 1
@@ -159,19 +159,20 @@ export function chooseGoodMergeRom(filenames, countryCodes) {
 // const chosenRom = chooseFittingRom(filenames, countryCodes, standardCodes)
 // console.log(chosenRom)
 
-/*
-               ..................
+/* updated version found at https://github.com/asfdfdfd/GoodCodes/blob/master/GoodCodes%20(U)%20%5B!%5D.txt
+see also https://emulation.gametechwiki.com/index.php/GoodTools
+..................
 ...............: STANDARD CODES ::...............
 :                                               :\
-:   [a] Alternate        [p] Pirate             :\
-:   [b] Bad Dump         [t] Trained            :\
-:   [f] Fixed            [T] Translation        :\
-:   [h] Hack             (-) Unknown Year       :\
-:   [o] Overdump         [!] Verified Good Dump :\
+:   [a?] Alternate       [p?] Pirate            :\
+:   [b?] Bad Dump        [t?] Trained           :\
+:   [f?] Fixed           [T-] OldTranslation    :\
+:   [o?] Overdump        [T+] NewerTranslation  :\
+:   [h?] Hack            (-) Unknown Year       :\
+:   [!p] Pending Dump    [!] Verified Good Dump :\
 :  (M#) Multilanguage (# of Languages)          :\
 : (###) Checksum       (??k) ROM Size           :\
-:  ZZZ_ Unclassified   (Unl) Unlicensed		:\
-:   (-) Unknown Year                            :\
+:                      (Unl) Unlicensed         :\
 :...............................................:\
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -184,20 +185,21 @@ export function chooseGoodMergeRom(filenames, countryCodes) {
 : [ [BF] Bung Fix   ]  [ (NP) Nintendo Power  ] :\
 : `-----------------'  `----------------------' :\
 :                      .--------Atari---------. :\
-: .-----Genesis-----.  [ (PAL) Euro  Version  ] :\
+: .-----Genesis-----.  [ (PAL) Euro Version   ] :\
 : [ (1) Japan       ]  `----------------------' :\
-: [ (4) USA         ]  .-----Thomson MO5------. :\
-: [ (5) NTSC Only   ]  [ (Y) Year unknown     ] :\
+: [ (4) USA         ]  .---------GBA----------. :\
+: [ (5) NTSC Only   ]  [ [hI??] Intro hacks   ] :\
+: [ [R-] Countries  ]  [ [f_?] EEPROMV124 fix ] :\
 : [ (8) PAL Only    ]  `----------------------' :\
 : [ (B) non USA     ]  .--------Coleco--------. :\
 : [ [c] Checksum    ]  [ (Adam) ADAM Version  ] :\
 : [ [x] Bad Checksum]  `----------------------' :\
-: [ [R-] Countries  ]                           :\
 : `-----------------'                           :\
-:                      .-------Nintendo-------. :\
+:                      .--------NES/FC--------. :\
 : .--NeoGeo Pocket--.  [ (PC10) PlayChoice 10 ] :\
 : [ [M] Mono Only   ]  [   (VS) Versus        ] :\
-: `-----------------'  `----------------------' :\
+: `-----------------'  [ [hFFE] FFE Copier fmt] :\
+:                      `----------------------' :\
 :...............................................:\
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -210,13 +212,12 @@ export function chooseGoodMergeRom(filenames, countryCodes) {
 :   (C) China             (NL) Netherlands      :\
 :   (E) Europe            (PD) Public Domain    :\
 :   (F) France             (S) Spain            :\
-:   (F) World (Genesis)                         :\
-:  (FC) French Canadian   (SW) Sweden           :\
+:  (FC) French Canadian   (Sw) Sweden           :\
 :  (FN) Finland            (U) USA              :\
 :   (G) Germany           (UK) England          :\
 :  (GR) Greece           (Unk) Unknown Country  :\
 :  (HK) Hong Kong          (I) Italy		:\
-:  (H)  Holland          (Unl) Unlicensed       :\
+:  (D)  Dutch            (Unl) Unlicensed       :\
 :...............................................:\
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -329,7 +330,9 @@ export function chooseGoodMergeRom(filenames, countryCodes) {
 : All codes developed by Cowering for the       :\
 : Goodxxxx series ROM file renaming utilities.  :\
 :                                               :\
-: Visit #rareroms on NewNet in IRC!             :\ 
+: Visit #rareroms on UnitedUsers in IRC!        :\ 
+:                                               :\
+: Document version: 1.0.0                       :\
 :...............................................:\
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 */
