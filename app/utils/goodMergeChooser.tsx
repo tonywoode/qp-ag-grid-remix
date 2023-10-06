@@ -34,18 +34,51 @@ function sortFilenamesBySpecialCodes(filenames) {
   })
 }
 
+/*
+* highest weighting given to finding the countrycode on its own 
+* second run where we try and match a combination of codes, slightly lower weighting since lower confidence that its a combo of our choices
+* third run with even lower weighting seeking just one of our countrycodes accompanied by other chars that might represent country codes that we did not choose (this still might be the best-choice rom) 
+*/
 function sortFilenamesByCountryCodes(filenames, countryCodes) {
   function evaluateCountryCodes(filename, countryWeights) {
-    const countryCodeRegex = /\(([A-Z]+)\)/
-    const match = filename.match(countryCodeRegex)
+    if (filename.includes('(F)') && filename.includes('Genesis')) fallbacks.push('F')
+    console.log(`looking for matching countrycodes:,`, { filename })
+    let score = 0
+    // Stage 1: Highest priority - Exact match of country codes in parentheses
+    for (const code in countryWeights) {
+      const regex = new RegExp(`\\((${code})\\)`, 'i')
 
-    if (match) {
-      const countryCode = match[1]
-      const countryPriority = countryWeights[countryCode] || 0
-      return countryPriority
+      if (regex.test(filename)) {
+        console.log(`   stage 1 matched:`, code, `with`, regex, `assigning score:`, countryWeights[code] * 3)
+        score += countryWeights[code] * 3 // Higher weight for exact matches
+      }
     }
 
-    return 0
+    // Stage 2: Combination of codes in parentheses
+    for (const code1 in countryWeights) {
+      for (const code2 in countryWeights) {
+        if (code1 !== code2) {
+          const regex = new RegExp(`\\((${code1}.*${code2})\\)`, 'i')
+          if (regex.test(filename)) {
+            console.log( `    stage 2 matched:`, code1, `and`, code2, `with`, regex, `assigning score:`, countryWeights[code1] + countryWeights[code2]) // prettier-ignore
+            score += countryWeights[code1] + countryWeights[code2]
+          }
+        }
+      }
+    }
+
+    // Stage 3: Single code with other characters in parentheses
+    for (const code in countryWeights) {
+      const regex = new RegExp(`\\((${code})[^${Object.keys(countryWeights).join('')}]*\\)`, 'i')
+      if (regex.test(filename)) {
+        console.log(`   stage 3 matched:`, code, `with`, regex, `assigning score:`, countryWeights[code] / 2)
+        score += countryWeights[code] / 2 // Lower weight for potential matches
+      }
+    }
+    console.log(` final country score:`, [filename, score])
+    //if the score is less than 3
+
+    return score
   }
 
   return filenames.sort((filename1, filename2) => {
@@ -113,21 +146,21 @@ function chooseGoodMergeRom(filenames, countryCodes) {
 
 // Example usage
 const filenames = [
-  'Adventures of Batman and Robin, The (E) [!].gen',
-  'Adventures of Batman and Robin, The (E) [f1].gen',
-  'Adventures of Batman and Robin, The (U) [!].gen',
-  'Adventures of Batman and Robin, The (U) [b1].gen',
-  'Adventures of Batman and Robin, The (U) [b2].gen',
-  'Adventures of Batman and Robin, The (U) [b3].gen',
-  'Adventures of Batman and Robin, The (U) [b4].gen',
-  'Adventures of Batman and Robin, The (U) [f1+1C].gen',
-  'Adventures of Batman and Robin, The (U) [f1+2C].gen',
-  'Adventures of Batman and Robin, The (U) [f1].gen',
-  'Adventures of Batman and Robin, The (U) [f2+C].gen',
-  'Adventures of Batman and Robin, The (U) [f2].gen',
-  'Adventures of Batman and Robin, The (U) [p1][!].gen',
-  'Adventures of Batman and Robin, The (U) [p2][!].gen'
+  'After Burner II (J) [!].gen',
+  'After Burner II (J) [h1C].gen',
+  'After Burner II (J) [p1][!].gen',
+  'After Burner II (J) [p2][!].gen',
+  'After Burner II (UE) [!].gen',
+  'After Burner II (UE) [b1].gen',
+  'After Burner II (UE) [b2].gen',
+  'After Burner II (UE) [h1C].gen',
+  'After Burner II (UE) [h2C].gen',
+  'After Burner II (UE) [h3C].gen',
+  'After Burner II (UE) [h4C].gen',
+  'After Burner II (UE) [h5C].gen',
+  'After Burner II (UE) [T+Por].gen'
 ]
+
 const fallbackCountryCodes = { PD: 1, Unl: 2, Unk: 3 }
 const countryCodePrefs = { B: 4, A: 5, 4: 6, U: 7, W: 8, E: 9, UK: 10 }
 const countryCodes = { ...fallbackCountryCodes, ...countryCodePrefs }
