@@ -31,13 +31,28 @@ export async function action({ request }: ActionArgs) {
         console.log(`7z listing: `, filenames)
         //example country code choices, TODO: type this well; invert numbering, make fallbacks clearer, link to goodmerge doc
         //this needs a file of its own, the country codes in the goodmerge doc don't marry up with those in the wild, eg: w for world in genesis
-        const fallbackCountryCodes = { PD: 1, Unl: 2, Unk: 3 } // would rather get these than wrong language
+
+        //TODO: i think the fallback codes are Genesis-specific?
+        const fallbackCountryCodes = new Map([
+          ['PD', 1],
+          ['Unl', 2],
+          ['Unk', 3]
+        ]) // would rather get these than wrong language
         //world actually prob means there's only one country code in the rom?
-        const countryCodePrefs = { B: 4, A: 5, 4: 6, U: 7, W: 8, E: 9, UK: 10 }
-        const countryCodes = { ...fallbackCountryCodes, ...countryCodePrefs }
+        const countryCodePrefs = new Map([
+          ['B', 4],
+          ['A', 5],
+          ['4', 6],
+          ['U', 7],
+          ['W', 8],
+          ['E', 9],
+          ['UK', 10]
+        ])
+        const countryCodes = new Map([...fallbackCountryCodes, ...countryCodePrefs])
         console.log(`sending country code choices to GoodMerge chooser`, countryCodes)
         const pickedRom = chooseGoodMergeRom(filenames, countryCodes)
         console.log(`computer picked this rom:`, pickedRom)
+
         extractRom(gamePathMacOS, outputDirectory, pickedRom) //but why did i use onlyArchive below?
         //unarchive the picked rom
         // onlyArchive(gamePathMacOS, outputDirectory, pickedRom)
