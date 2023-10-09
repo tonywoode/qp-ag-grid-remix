@@ -105,7 +105,7 @@ function sortFilenamesByStandardCodes(filenames) {
   })
 }
 
-export function chooseGoodMergeRom(filenames, countryCodes) {
+export function sortGoodMergeRoms(filenames, countryCodes) {
   const sortedByNumberPriority = sortFilenamesByNumberPriority([...filenames])
   console.log('Sorted by number priority:', sortedByNumberPriority)
   const sortedByCountryCodes = sortFilenamesByCountryCodes(sortedByNumberPriority, countryCodes)
@@ -113,7 +113,13 @@ export function chooseGoodMergeRom(filenames, countryCodes) {
   const sortedByStandardCodes = sortFilenamesByStandardCodes(sortedByCountryCodes)
   console.log('Sorted by Standard Codes:', sortedByStandardCodes)
 
-  return sortedByStandardCodes[0]
+  return sortedByStandardCodes
+}
+
+export function chooseGoodMergeRom(filenames, countryCodes) {
+  if (filenames.length === 1) return filenames[0]
+  const sortedFilenames = sortGoodMergeRoms(filenames, countryCodes)
+  return sortedFilenames[0]
 }
 
 // Example usage

@@ -29,10 +29,6 @@ export async function action({ request }: ActionArgs) {
       .progress(async (files: string[]) => {
         const filenames = files.map(file => file.name)
         console.log(`7z listing: `, filenames)
-        if (filenames.length === 1) {
-          extractRom(gamePathMacOS, outputDirectory, filenames[0])
-          return
-        }
         //example country code choices, TODO: type this well; invert numbering, make fallbacks clearer, link to goodmerge doc
         //this needs a file of its own, the country codes in the goodmerge doc don't marry up with those in the wild, eg: w for world in genesis
         const fallbackCountryCodes = { PD: 1, Unl: 2, Unk: 3 } // would rather get these than wrong language
@@ -42,6 +38,7 @@ export async function action({ request }: ActionArgs) {
         console.log(`sending country code choices to GoodMerge chooser`, countryCodes)
         const pickedRom = chooseGoodMergeRom(filenames, countryCodes)
         console.log(`computer picked this rom:`, pickedRom)
+        extractRom(gamePathMacOS, outputDirectory, pickedRom) //but why did i use onlyArchive below?
         //unarchive the picked rom
         // onlyArchive(gamePathMacOS, outputDirectory, pickedRom)
         //   .then(result => {
