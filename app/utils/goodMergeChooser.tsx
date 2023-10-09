@@ -1,10 +1,5 @@
 const sharedScores = {} // Initialize an object to store the scores
 
-function extractCodes(filename) {
-  const regex = /\[([^\]]+)\]/g
-  return [...filename.matchAll(regex)].map(match => match[1])
-}
-
 function sortByNumberPriority(filenames) {
   return filenames.sort((filename1, filename2) => {
     function extractNumbers(filename) {
@@ -72,118 +67,92 @@ function sortByCountryCodes(filenames, countryCodes) {
   })
 }
 
-function sortByStandardCodes(filenames) {
-  const logAndReturn = (filename, score) => {
-    //console.log(filename, score)
-    return score
+function scoreStandardCodes(filename, priorityCodes) {
+  const logAndReturn = (filename, score) => /*console.log(filename, score) || */ score
+  const regex = /\[([^\]]+)\]/g
+  const standardCodes = [...filename.matchAll(regex)].map(match => match[1])
+
+  const hasBCode = standardCodes.some(code => /^b\d*$/.test(code))
+  if (hasBCode) return -1 // Deprioritize any and all [b*] entries
+
+  if (standardCodes.length === 0) return logAndReturn(filename, sharedScores[filename])
+
+  if (standardCodes.length === 1 && standardCodes[0].includes('!')) {
+    const bestPossibleScore = 100
+
+    if (sharedScores[filename] > 0) return logAndReturn(filename, bestPossibleScore)
+    else {
+      const makeItMoreImportant = 1
+      const moreImportant = priorityCodes.get('!') + makeItMoreImportant
+      return logAndReturn(filename, moreImportant)
+    }
   }
 
-  function evaluateStandardCodes(filename) {
-    const priorityCodes = new Map([
-      ['h', 1],
-      ['p', 2],
-      ['a', 3],
-      ['f', 4],
-      ['!', 5]
-    ])
+  let maxPriority = 0
 
-    const regex = /\[([^\]]+)\]/g
-    const standardCodes = [...filename.matchAll(regex)].map(match => match[1])
+  for (const standard of standardCodes) {
+    for (const [code, priorityValue] of priorityCodes) {
+      if (standard.startsWith(code)) {
+        if (priorityValue > maxPriority) {
+          maxPriority = priorityValue
 
-    const hasBCode = standardCodes.some(code => /^b\d*$/.test(code))
-    if (hasBCode) return -1 // Deprioritize any and all [b*] entries
-
-    if (standardCodes.length === 0) return logAndReturn(filename, sharedScores[filename])
-
-    if (standardCodes.length === 1 && standardCodes[0].includes('!')) {
-      const bestPossibleScore = 100
-
-      if (sharedScores[filename] > 0) return logAndReturn(filename, bestPossibleScore)
-      else {
-        const makeItMoreImportant = 1
-        const moreImportant = priorityCodes.get('!') + makeItMoreImportant
-        return logAndReturn(filename, moreImportant)
-      }
-    }
-
-    let maxPriority = 0
-
-    for (const standard of standardCodes) {
-      for (const [code, priorityValue] of priorityCodes) {
-        if (standard.startsWith(code)) {
-          if (priorityValue > maxPriority) {
-            maxPriority = priorityValue
-
-            if (sharedScores[filename] > 0) return maxPriority + sharedScores[filename]
-          }
+          if (sharedScores[filename] > 0) return maxPriority + sharedScores[filename]
         }
       }
     }
-
-    return logAndReturn(filename, maxPriority)
   }
 
+  return logAndReturn(filename, maxPriority)
+}
+
+function sortByStandardCodes(filenames, priorityCodes) {
   return filenames.sort((filename1, filename2) => {
-    const standardScore1 = evaluateStandardCodes(filename1)
-    const standardScore2 = evaluateStandardCodes(filename2)
+    const standardScore1 = scoreStandardCodes(filename1, priorityCodes)
+    const standardScore2 = scoreStandardCodes(filename2, priorityCodes)
 
     return standardScore2 - standardScore1
   })
 }
 
-export function sortGoodMergeRoms(filenames, countryCodes) {
+export function sortGoodMergeRoms(filenames, countryCodes, priorityCodes) {
   const sortedByNumberPriority = sortByNumberPriority([...filenames])
   console.log('Sorted by number priority:', sortedByNumberPriority)
   const sortedByCountryCodes = sortByCountryCodes(sortedByNumberPriority, countryCodes)
   console.log('Sorted by country codes:', sortedByCountryCodes)
-  const sortedByStandardCodes = sortByStandardCodes(sortedByCountryCodes)
+  const sortedByStandardCodes = sortByStandardCodes(sortedByCountryCodes, priorityCodes)
   console.log('Sorted by Standard Codes:', sortedByStandardCodes)
 
   return sortedByStandardCodes
 }
 
-export function chooseGoodMergeRom(filenames, countryCodes) {
+/**
+ * Pass a list of filenames in a goodmerge zip, a map of (goodMerge) countryCode priorities, and a map of (goodmerge) standardCode priorities,
+ * and this function will return the best rom to use, we can additionally. You can also directly call the sortGoodMergeRoms function if you want to see the arraysorting
+ * @param {string[]} filenames
+ * @param {Map<string, number>} countryCodes
+ * @param {Map<string, number>} priorityCodes
+ * @returns {string}
+ *
+ * Example usage
+ * const filenames = [
+ *   'After Burner II (J) [!].gen', 'After Burner II (J) [h1C].gen', 'After Burner II (J) [p1][!].gen', 'After Burner II (J) [p2][!].gen', 'After Burner II (UE) [!].gen',
+ *   'After Burner II (UE) [b1].gen', 'After Burner II (UE) [b2].gen', 'After Burner II (UE) [h1C].gen', 'After Burner II (UE) [h2C].gen', 'After Burner II (UE) [h3C].gen',
+ *   'After Burner II (UE) [h4C].gen', 'After Burner II (UE) [h5C].gen', 'After Burner II (UE) [T+Por].gen'
+ * ]
+ * const fallbackCountryCodes = new Map([ ['PD', 1], ['Unl', 2], ['Unk', 3] ])
+ * const countryCodePrefs = new Map([ ['B', 4], ['A', 5], ['4', 6], ['U', 7], ['W', 8], ['E', 9], ['UK', 10] ])
+ * const countryCodes = new Map([...fallbackCountryCodes, ...countryCodePrefs])
+ * const priorityCodes = new Map([ ['h', 1], ['p', 2], ['a', 3], ['f', 4], ['!', 5] //highest priority ])
+ * const pickedRom = chooseGoodMergeRom(filenames, countryCodes, priorityCodes)
+ * console.log(`computer picked this rom:`, pickedRom)
+ */
+export function chooseGoodMergeRom(filenames, countryCodes, priorityCodes) {
   if (filenames.length === 1) return filenames[0]
-  const sortedFilenames = sortGoodMergeRoms(filenames, countryCodes)
+  const sortedFilenames = sortGoodMergeRoms(filenames, countryCodes, priorityCodes)
   return sortedFilenames[0]
 }
 
-// Example usage
-const filenames = [
-  'After Burner II (J) [!].gen',
-  'After Burner II (J) [h1C].gen',
-  'After Burner II (J) [p1][!].gen',
-  'After Burner II (J) [p2][!].gen',
-  'After Burner II (UE) [!].gen',
-  'After Burner II (UE) [b1].gen',
-  'After Burner II (UE) [b2].gen',
-  'After Burner II (UE) [h1C].gen',
-  'After Burner II (UE) [h2C].gen',
-  'After Burner II (UE) [h3C].gen',
-  'After Burner II (UE) [h4C].gen',
-  'After Burner II (UE) [h5C].gen',
-  'After Burner II (UE) [T+Por].gen'
-]
 
-const fallbackCountryCodes = new Map([
-  ['PD', 1],
-  ['Unl', 2],
-  ['Unk', 3]
-])
-
-const countryCodePrefs = new Map([
-  ['B', 4],
-  ['A', 5],
-  ['4', 6],
-  ['U', 7],
-  ['W', 8],
-  ['E', 9],
-  ['UK', 10]
-])
-
-const countryCodes = new Map([...fallbackCountryCodes, ...countryCodePrefs])
-const pickedRom = chooseGoodMergeRom(filenames, countryCodes)
-console.log(`computer picked this rom:`, pickedRom)
 
 /* updated version found at https://github.com/asfdfdfd/GoodCodes/blob/master/GoodCodes%20(U)%20%5B!%5D.txt
 see also https://emulation.gametechwiki.com/index.php/GoodTools

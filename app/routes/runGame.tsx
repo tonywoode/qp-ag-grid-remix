@@ -2,12 +2,11 @@ import type { ActionArgs } from '@remix-run/node'
 import path from 'path'
 import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '../utils/createDirIfNotExist'
-const fs = require('fs').promises
 export async function action({ request }: ActionArgs) {
   //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const node7z = await import('node-7z-archive')
-  const { extractArchive, onlyArchive, listArchive } = node7z
+  const { onlyArchive, listArchive } = node7z
   const { gamePath, defaultGoodMerge } = await request.json()
   console.log(`recieved from grid`, { gamePath, defaultGoodMerge })
   const gamePathMacOS = path.join(
@@ -29,39 +28,34 @@ export async function action({ request }: ActionArgs) {
       .progress(async (files: string[]) => {
         const filenames = files.map(file => file.name)
         console.log(`7z listing: `, filenames)
-        //example country code choices, TODO: type this well; invert numbering, make fallbacks clearer, link to goodmerge doc
-        //this needs a file of its own, the country codes in the goodmerge doc don't marry up with those in the wild, eg: w for world in genesis
-
-        //TODO: i think the fallback codes are Genesis-specific?
         const fallbackCountryCodes = new Map([
+          // would rather get these than wrong language TODO: think the fallback codes are Genesis-specific?
           ['PD', 1],
           ['Unl', 2],
           ['Unk', 3]
-        ]) // would rather get these than wrong language
-        //world actually prob means there's only one country code in the rom?
+        ])
         const countryCodePrefs = new Map([
           ['B', 4],
           ['A', 5],
           ['4', 6],
           ['U', 7],
-          ['W', 8],
+          ['W', 8], //world actually prob means there's only one country code in the rom?
           ['E', 9],
-          ['UK', 10]
+          ['UK', 10] //highest priority
         ])
         const countryCodes = new Map([...fallbackCountryCodes, ...countryCodePrefs])
-        console.log(`sending country code choices to GoodMerge chooser`, countryCodes)
-        const pickedRom = chooseGoodMergeRom(filenames, countryCodes)
+        const priorityCodes = new Map([
+          ['h', 1],
+          ['p', 2],
+          ['a', 3],
+          ['f', 4],
+          ['!', 5] //highest priority
+        ])
+        console.log(`sending goodMerge country and priority choices to GoodMerge chooser`, countryCodes, priorityCodes)
+        const pickedRom = chooseGoodMergeRom(filenames, countryCodes, priorityCodes)
         console.log(`computer picked this rom:`, pickedRom)
 
-        extractRom(gamePathMacOS, outputDirectory, pickedRom) //but why did i use onlyArchive below?
-        //unarchive the picked rom
-        // onlyArchive(gamePathMacOS, outputDirectory, pickedRom)
-        //   .then(result => {
-        //     console.log(result)
-        //   })
-        //   .catch(err => {
-        //     console.log(err)
-        //   })
+        extractRom(gamePathMacOS, outputDirectory, pickedRom)
 
         return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
       })
