@@ -1,4 +1,3 @@
-let fallbacks = [] // Added a global array to store fallbacks
 const sharedScores = {} // Initialize an object to store the scores
 
 function extractCodes(filename) {
@@ -23,47 +22,27 @@ function sortFilenamesByNumberPriority(filenames) {
   })
 }
 
-function sortFilenamesBySpecialCodes(filenames) {
-  const priorityOrder = { '!': 0, p: 1, a: 2, f: 3, h: 4 }
-
-  return filenames.sort((filename1, filename2) => {
-    const getPriority = code => priorityOrder[code[1]] || 5
-    const code1 = extractCodes(filename1)
-    const code2 = extractCodes(filename2)
-
-    return getPriority(code1) - getPriority(code2)
-  })
-}
-
 function sortFilenamesByCountryCodes(filenames, countryCodes) {
   function evaluateCountryCodes(filename, countryWeights) {
-    if (filename.includes('(F)') && filename.includes('Genesis')) fallbacks.push('F')
     let score = 0
 
     for (const code in countryWeights) {
       const regex = new RegExp(`\\((${code})\\)`, 'i')
-
-      if (regex.test(filename)) {
-        score += countryWeights[code] * 3
-      }
+      if (regex.test(filename)) score += countryWeights[code] * 3
     }
 
     for (const code1 in countryWeights) {
       for (const code2 in countryWeights) {
         if (code1 !== code2) {
           const regex = new RegExp(`\\((${code1}.*${code2})\\)`, 'i')
-          if (regex.test(filename)) {
-            score += countryWeights[code1] + countryWeights[code2]
-          }
+          if (regex.test(filename)) score += countryWeights[code1] + countryWeights[code2]
         }
       }
     }
 
     for (const code in countryWeights) {
       const regex = new RegExp(`\\((${code})[^${Object.keys(countryWeights).join('')}]*\\)`, 'i')
-      if (regex.test(filename)) {
-        score += countryWeights[code] / 2
-      }
+      if (regex.test(filename)) score += countryWeights[code] / 2
     }
 
     return score
@@ -81,56 +60,41 @@ function sortFilenamesByCountryCodes(filenames, countryCodes) {
 }
 
 function sortFilenamesByStandardCodes(filenames) {
+  const logAndReturn = (filename, score) => {
+    //console.log(filename, score)
+    return score
+  }
   function evaluateStandardCodes(filename) {
     const priorityCodes = ['h', 'p', 'a', 'f', '!']
     const regex = /\[([^\]]+)\]/g
     const standardCodes = [...filename.matchAll(regex)].map(match => match[1])
-
-    console.log(standardCodes)
-    // Check if any entry in standardCodes starts with 'b' followed by digits
     const hasBCode = standardCodes.some(code => /^b\d*$/.test(code))
-    if (hasBCode) {
-      return -1 // Return -1 to prioritize [b*] entries
-    }
-    // Return the country score if there are no standard codes, because i'd sooner try to run Batman (E) over Batman (J)[!]
-    if (standardCodes.length === 0) {
-      return sharedScores[filename]
-    }
+    if (hasBCode) return -1 //deprioritize any and all [b*] entries
+    if (standardCodes.length === 0) return logAndReturn(filename, sharedScores[filename]) //Return country score if no standard codes: i'd sooner try to run Batman (E) over Batman (J)[!]
     if (standardCodes.length === 1 && standardCodes[0].includes('!')) {
-      //     console.log(filename, sharedScores[filename])
-      if (sharedScores[filename] > 0) {
-        console.log(filename, 100)
-        return 100
-      } else {
+      const bestPossibleScore = 100 //if a [!] is on its own
+      if (sharedScores[filename] > 0) return logAndReturn(filename, bestPossibleScore)
+      else {
         const oneForArrayIndexOneToMakeItMoreImportant = 2
         const moreImportant = priorityCodes.indexOf('!') + oneForArrayIndexOneToMakeItMoreImportant
-        console.log(filename, moreImportant)
-        return moreImportant
+        return logAndReturn(filename, moreImportant)
       }
     }
-
+    // having dealt with the best and worst cases, rate other individual standard codes
     let maxPriority = 0
-
     for (const standard of standardCodes) {
       for (const priority of priorityCodes) {
         if (standard.startsWith(priority)) {
-          // if (priority === '!') {
-          //   return 15
-          // } else {
           const priorityValue = priorityCodes.indexOf(priority) + 1
           if (priorityValue > maxPriority) {
             maxPriority = priorityValue
-            if (sharedScores[filename] > 0) {
-              console.log(filename, maxPriority + sharedScores[filename])
-              return maxPriority + sharedScores[filename]
-            }
+            if (sharedScores[filename] > 0) return maxPriority + sharedScores[filename]
           }
         }
       }
     }
 
-    console.log(filename, maxPriority)
-    return maxPriority
+    return logAndReturn(filename, maxPriority)
   }
 
   return filenames.sort((filename1, filename2) => {
@@ -143,17 +107,11 @@ function sortFilenamesByStandardCodes(filenames) {
 
 export function chooseGoodMergeRom(filenames, countryCodes) {
   const sortedByNumberPriority = sortFilenamesByNumberPriority([...filenames])
-  console.log('Sorted by number priority:')
-  console.log(sortedByNumberPriority)
-  const sortedBySpecialCodes = sortFilenamesBySpecialCodes(sortedByNumberPriority)
-  console.log('Sorted by special codes:')
-  console.log(sortedBySpecialCodes)
-  const sortedByCountryCodes = sortFilenamesByCountryCodes(sortedBySpecialCodes, countryCodes)
-  console.log('Sorted by country codes:')
-  console.log(sortedByCountryCodes)
+  console.log('Sorted by number priority:', sortedByNumberPriority)
+  const sortedByCountryCodes = sortFilenamesByCountryCodes(sortedByNumberPriority, countryCodes)
+  console.log('Sorted by country codes:', sortedByCountryCodes)
   const sortedByStandardCodes = sortFilenamesByStandardCodes(sortedByCountryCodes)
-  console.log('Sorted by Standard Codes:')
-  console.log(sortedByStandardCodes)
+  console.log('Sorted by Standard Codes:', sortedByStandardCodes)
 
   return sortedByStandardCodes[0]
 }
