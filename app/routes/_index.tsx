@@ -6,6 +6,11 @@ import { useLoaderData } from "@remix-run/react";
 import { romdata } from '~/../outputs/romdata.json' //note destructuring
 import { CellClickedEvent } from 'ag-grid-community'
 
+//configure and export logging per-domain feature
+import { createFeatureLogger } from '~/utils/featureLogger'
+const loggerConfig = [{ feature: 'goodMergeChoosing', enabled: true }]
+export const logger = createFeatureLogger(loggerConfig)
+
 /** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
 // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
 const columnDefs = [...new Set(romdata.flatMap(Object.keys))].map(field => ({ field }))

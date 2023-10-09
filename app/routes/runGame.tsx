@@ -2,13 +2,14 @@ import type { ActionArgs } from '@remix-run/node'
 import path from 'path'
 import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '../utils/createDirIfNotExist'
+import { logger } from './_index'
 export async function action({ request }: ActionArgs) {
   //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const node7z = await import('node-7z-archive')
   const { onlyArchive, listArchive } = node7z
   const { gamePath, defaultGoodMerge } = await request.json()
-  console.log(`recieved from grid`, { gamePath, defaultGoodMerge })
+  console.log(`received from grid`, { gamePath, defaultGoodMerge })
   const gamePathMacOS = path.join(
     //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
     '/Volumes/Untitled/Games',
@@ -51,9 +52,14 @@ export async function action({ request }: ActionArgs) {
           ['f', 4],
           ['!', 5] //highest priority
         ])
-        console.log(`sending goodMerge country and priority choices to GoodMerge chooser`, countryCodes, priorityCodes)
-        const pickedRom = chooseGoodMergeRom(filenames, countryCodes, priorityCodes)
-        console.log(`computer picked this rom:`, pickedRom)
+        logger.log(
+          `goodMergeChoosing`,
+          `sending goodMerge country and priority choices to GoodMerge chooser`,
+          countryCodes,
+          priorityCodes
+        )
+        const pickedRom = chooseGoodMergeRom(filenames, countryCodes, priorityCodes, logger)
+        logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
 
         extractRom(gamePathMacOS, outputDirectory, pickedRom)
 

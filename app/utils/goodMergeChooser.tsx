@@ -114,13 +114,13 @@ function sortByStandardCodes(filenames, priorityCodes) {
   })
 }
 
-export function sortGoodMergeRoms(filenames, countryCodes, priorityCodes) {
+export function sortGoodMergeRoms(filenames, countryCodes, priorityCodes, logger) {
   const sortedByNumberPriority = sortByNumberPriority([...filenames])
-  console.log('Sorted by number priority:', sortedByNumberPriority)
+  logger.log('goodMergeChoosing', 'Sorted by number priority:', sortedByNumberPriority)
   const sortedByCountryCodes = sortByCountryCodes(sortedByNumberPriority, countryCodes)
-  console.log('Sorted by country codes:', sortedByCountryCodes)
+  logger.log('goodMergeChoosing', 'Sorted by country codes:', sortedByCountryCodes)
   const sortedByStandardCodes = sortByStandardCodes(sortedByCountryCodes, priorityCodes)
-  console.log('Sorted by Standard Codes:', sortedByStandardCodes)
+  logger.log('goodMergeChoosing', 'Sorted by Standard Codes:', sortedByStandardCodes)
 
   return sortedByStandardCodes
 }
@@ -146,9 +146,9 @@ export function sortGoodMergeRoms(filenames, countryCodes, priorityCodes) {
  * const pickedRom = chooseGoodMergeRom(filenames, countryCodes, priorityCodes)
  * console.log(`computer picked this rom:`, pickedRom)
  */
-export function chooseGoodMergeRom(filenames, countryCodes, priorityCodes) {
+export function chooseGoodMergeRom(filenames, countryCodes, priorityCodes, logger) {
   if (filenames.length === 1) return filenames[0]
-  const sortedFilenames = sortGoodMergeRoms(filenames, countryCodes, priorityCodes)
+  const sortedFilenames = sortGoodMergeRoms(filenames, countryCodes, priorityCodes, logger)
   return sortedFilenames[0]
 }
 
