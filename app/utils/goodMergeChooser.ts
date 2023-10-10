@@ -152,8 +152,6 @@ export function chooseGoodMergeRom(filenames, countryCodes, priorityCodes, logge
   return sortedFilenames[0]
 }
 
-
-
 /* updated version found at https://github.com/asfdfdfd/GoodCodes/blob/master/GoodCodes%20(U)%20%5B!%5D.txt
 see also https://emulation.gametechwiki.com/index.php/GoodTools
 or the subtely different: https://en-academic.com/dic.nsf/enwiki/400631

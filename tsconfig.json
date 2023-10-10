@@ -1,5 +1,12 @@
 {
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "tools/goodMergeFolderAudit.mjs"],
+  "include": [
+    "remix.env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "tools/goodMergeFolderAudit.mjs",
+    "tools/goodMergePickerTester.mjs",
+    "app/utils/goodMergeChooser.ts"
+  ],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "isolatedModules": true,
