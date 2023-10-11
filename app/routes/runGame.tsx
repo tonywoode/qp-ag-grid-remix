@@ -9,7 +9,7 @@ export async function action({ request }: ActionArgs) {
   const node7z = await import('node-7z-archive')
   const { onlyArchive, listArchive } = node7z
   const { gamePath, defaultGoodMerge } = await request.json()
-  console.log(`received from grid`, { gamePath, defaultGoodMerge })
+  logger.log(`gridOperations`, `received from grid`, { gamePath, defaultGoodMerge })
   const gamePathMacOS = path.join(
     //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
     '/Volumes/Untitled/Games',
@@ -28,7 +28,7 @@ export async function action({ request }: ActionArgs) {
     listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
       .progress(async (files: string[]) => {
         const filenames = files.map(file => file.name)
-        console.log(`7z listing: `, filenames)
+        logger.log(`fileOperations`, `7z listing: `, filenames)
         const fallbackCountryCodes = new Map([
           // would rather get these than wrong language TODO: think the fallback codes are Genesis-specific?
           ['PD', 1],
@@ -61,22 +61,18 @@ export async function action({ request }: ActionArgs) {
         const pickedRom = chooseGoodMergeRom(filenames, countryCodes, priorityCodes, logger)
         logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
 
-        extractRom(gamePathMacOS, outputDirectory, pickedRom)
+        extractRom(gamePathMacOS, outputDirectory, pickedRom, logger)
 
         return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
       })
-      .then(archivePathsSpec => {
-        console.log('listed this archive: ', archivePathsSpec)
-      })
-      .catch(err => {
-        console.log('error listing archive: ', err)
-      })
+      .then(archivePathsSpec => logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec))
+      .catch(err => console.error('error listing archive: ', err))
   }
   return null
 
-  async function extractRom(gamePath, outputDirectory, romInArchive) {
+  async function extractRom(gamePath, outputDirectory, romInArchive, logger) {
     await onlyArchive(gamePath, outputDirectory, romInArchive)
-      .then(result => console.log(`7z invoked:`, result))
+      .then(result => logger.log(`fileOperations`, `7z invoked:`, result))
       .catch(err => console.error(err))
   }
 }

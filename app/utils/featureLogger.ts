@@ -20,18 +20,18 @@
 import util from 'util'
 
 const colorOptions = [
-  '\x1b[38;2;255;165;0m', // Orange
-  '\x1b[38;2;255;255;0m', // Yellow
-  '\x1b[38;2;0;255;0m', // Green
-  '\x1b[38;2;0;255;255m', // Cyan
   '\x1b[38;2;0;0;255m', // Blue
-  '\x1b[38;2;128;0;128m', // Purple
+  '\x1b[38;2;255;255;0m', // Yellow
   '\x1b[38;2;255;20;147m', // Deep Pink
+  '\x1b[38;2;0;255;255m', // Cyan
+  '\x1b[38;2;255;165;0m', // Orange
+  '\x1b[38;2;128;0;128m', // Purple
   '\x1b[38;2;255;182;193m', // Light Pink
   '\x1b[38;2;255;222;173m', // Navajo White
   '\x1b[38;2;143;188;143m', // Dark Sea Green
   '\x1b[38;2;173;216;230m', // Light Blue
-  '\x1b[38;2;255;69;0m' // Red-Orange
+  '\x1b[38;2;255;69;0m', // Red-Orange
+  '\x1b[38;2;0;255;0m' // Green
 ]
 
 export function createFeatureLogger(config) {

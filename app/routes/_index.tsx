@@ -8,7 +8,11 @@ import { CellClickedEvent } from 'ag-grid-community'
 
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
-const loggerConfig = [{ feature: 'goodMergeChoosing', enabled: true }]
+const loggerConfig = [
+  { feature: 'gridOperations', enabled: true },
+  { feature: 'fileOperations', enabled: true },
+  { feature: 'goodMergeChoosing', enabled: true }
+]
 export const logger = createFeatureLogger(loggerConfig)
 
 /** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
