@@ -1,3 +1,4 @@
+import { execSync } from 'child_process'
 import type { ActionArgs } from '@remix-run/node'
 import path from 'path'
 import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
@@ -62,7 +63,18 @@ export async function action({ request }: ActionArgs) {
         logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
 
         extractRom(gamePathMacOS, outputDirectory, pickedRom, logger)
+        const outputFile = path.join(outputDirectory, pickedRom)
+        const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
+        const libretroCore = '/Users/twoode/Library/Application Support/RetroArch/cores/picodrive_libretro.dylib'
+        const flagsToEmu = '-v -f'
+        const command = `"${retroarchExe}" "${outputFile}" -L "${libretroCore}" ${flagsToEmu}`
 
+        try {
+          const output = await execSync(command) // Execute synchronously, remember spawnSync too
+          console.log(`Output: ${output}`)
+        } catch (error) {
+          console.error(`Error executing command: ${error}`)
+        }
         return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
       })
       .then(archivePathsSpec => logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec))
@@ -72,8 +84,7 @@ export async function action({ request }: ActionArgs) {
 
   async function extractRom(gamePath, outputDirectory, romInArchive, logger) {
     await onlyArchive(gamePath, outputDirectory, romInArchive)
-      .then(result => logger.log(`fileOperations`, `7z invoked:`, result))
+      .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
       .catch(err => console.error(err))
   }
 }
-
