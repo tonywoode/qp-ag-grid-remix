@@ -4,6 +4,7 @@ import path from 'path'
 import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '../utils/createDirIfNotExist'
 import { logger } from './_index'
+import { run } from '@remix-run/dev/dist/cli/run'
 export async function action({ request }: ActionArgs) {
   //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
@@ -24,7 +25,9 @@ export async function action({ request }: ActionArgs) {
 
   if (defaultGoodMerge) {
     //meaning row in the grid contains a pre-selected preferred rom to extract
-    await extractRom(gamePathMacOS, outputDirectory, defaultGoodMerge)
+    await extractRom(gamePathMacOS, outputDirectory, defaultGoodMerge, logger)
+    const outputFile = path.join(outputDirectory, defaultGoodMerge)
+    runGame(outputFile)
   } else {
     listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
       .progress(async (files: string[]) => {
@@ -64,17 +67,8 @@ export async function action({ request }: ActionArgs) {
 
         extractRom(gamePathMacOS, outputDirectory, pickedRom, logger)
         const outputFile = path.join(outputDirectory, pickedRom)
-        const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
-        const libretroCore = '/Users/twoode/Library/Application Support/RetroArch/cores/picodrive_libretro.dylib'
-        const flagsToEmu = '-v -f'
-        const command = `"${retroarchExe}" "${outputFile}" -L "${libretroCore}" ${flagsToEmu}`
+        await runGame(outputFile)
 
-        try {
-          const output = await execSync(command) // Execute synchronously, remember spawnSync too
-          console.log(`Output: ${output}`)
-        } catch (error) {
-          console.error(`Error executing command: ${error}`)
-        }
         return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
       })
       .then(archivePathsSpec => logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec))
@@ -86,5 +80,19 @@ export async function action({ request }: ActionArgs) {
     await onlyArchive(gamePath, outputDirectory, romInArchive)
       .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
       .catch(err => console.error(err))
+  }
+
+  async function runGame(outputFile: string) {
+    const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
+    const libretroCore = '/Users/twoode/Library/Application Support/RetroArch/cores/picodrive_libretro.dylib'
+    const flagsToEmu = '-v -f'
+    const command = `"${retroarchExe}" "${outputFile}" -L "${libretroCore}" ${flagsToEmu}`
+
+    try {
+      const output = await execSync(command) // Execute synchronously, remember spawnSync too
+      console.log(`Output: ${output}`)
+    } catch (error) {
+      console.error(`Error executing command: ${error}`)
+    }
   }
 }
