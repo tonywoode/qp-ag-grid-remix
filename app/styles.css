@@ -37,5 +37,19 @@ html {
   .rag-amber-outer .rag-element {
     background-color: lightsalmon;
   }
+
+  .container {
+    display: flex;
+  }
+  
+  .tree-view {
+    flex: 1;
+    width: 3%;
+  }
+  
+  .grid-view {
+    flex: 2;
+    width: 97%;
+  }
   
   
