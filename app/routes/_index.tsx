@@ -3,6 +3,9 @@ import { AgGridReact } from "ag-grid-react";
 import reactSplitStyles from '~/styles/react-split.css'
 import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import reactTabsStyles from 'react-tabs/style/react-tabs.css'
+
 import { useLoaderData } from '@remix-run/react'
 import { romdata } from '~/../outputs/romdata.json' //note destructuring
 import { CellClickedEvent } from 'ag-grid-community'
@@ -75,7 +78,19 @@ export default function Index() {
       <div className="ag-theme-alpine">
         <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
       </div>
-      <div>hello</div>
+      <Tabs>
+        <TabList>
+          <Tab>Title 1</Tab>
+          <Tab>Title 2</Tab>
+        </TabList>
+
+        <TabPanel>
+          <h2>Any content 1</h2>
+        </TabPanel>
+        <TabPanel>
+          <h2>Any content 2</h2>
+        </TabPanel>
+      </Tabs>
     </Split>
   )
 }
@@ -83,7 +98,8 @@ export function links() {
   return [
     { rel: 'stylesheet', href: AgGridStyles },
     { rel: 'stylesheet', href: AgThemeAlpineStyles },
-    { rel: 'stylesheet', href: reactSplitStyles }
+    { rel: 'stylesheet', href: reactSplitStyles },
+    { rel: 'stylesheet', href: reactTabsStyles }
   ]
 }
 
