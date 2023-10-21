@@ -1,11 +1,14 @@
 import { json, type V2_MetaFunction } from "@remix-run/node";
 import { AgGridReact } from "ag-grid-react";
-import AgGridStyles from "ag-grid-community/styles/ag-grid.css";
-import AgThemeAlpineStyles from "ag-grid-community/styles/ag-theme-alpine.css";
-import { useLoaderData } from "@remix-run/react";
+import reactSplitStyles from '~/styles/react-split.css'
+import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
+import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
+import { useLoaderData } from '@remix-run/react'
 import { romdata } from '~/../outputs/romdata.json' //note destructuring
 import { CellClickedEvent } from 'ag-grid-community'
 import { Tree } from 'react-arborist'
+import { Resizable, ResizableBox } from 'react-resizable'
+import Split from 'react-split'
 
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
@@ -67,23 +70,19 @@ export default function Index() {
   const data = useLoaderData()
   const rowData = data.romdata
   return (
-    <div className="container" style={{ height: '100vh', display: 'flex' }}>
-      <div className="tree-view" style={{ flexBasis: '33%', borderRight: '1px solid #ccc', padding: '10px' }}>
-        <Tree initialData={treeData} />
-      </div>
-      <div
-        className="ag-theme-alpine grid-view"
-        style={{ flexBasis: '66%', flexGrow: 1, height: '100%', width: '100%' }}
-      >
+    <Split style={{ height: 'calc(100vh - 4em)', display: 'flex' }}>
+      <Tree initialData={treeData} />
+      <div className="ag-theme-alpine">
         <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
       </div>
-    </div>
+    </Split>
   )
 }
 export function links() {
   return [
-    { rel: "stylesheet", href: AgGridStyles },
-    { rel: "stylesheet", href: AgThemeAlpineStyles },
-  ];
+    { rel: 'stylesheet', href: AgGridStyles },
+    { rel: 'stylesheet', href: AgThemeAlpineStyles },
+    { rel: 'stylesheet', href: reactSplitStyles }
+  ]
 }
 
