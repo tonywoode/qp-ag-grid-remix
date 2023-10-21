@@ -70,11 +70,12 @@ export default function Index() {
   const data = useLoaderData()
   const rowData = data.romdata
   return (
-    <Split style={{ height: 'calc(100vh - 4em)', display: 'flex' }}>
+    <Split sizes={[10, 70, 20]} style={{ height: 'calc(100vh - 4em)', display: 'flex' }}>
       <Tree initialData={treeData} />
       <div className="ag-theme-alpine">
         <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
       </div>
+      <div>hello</div>
     </Split>
   )
 }
