@@ -5,6 +5,9 @@ import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
+import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
+import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
+import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
 
 import { useLoaderData } from '@remix-run/react'
 import { romdata } from '~/../outputs/romdata.json' //note destructuring
@@ -73,25 +76,43 @@ export default function Index() {
   const data = useLoaderData()
   const rowData = data.romdata
   return (
-    <Split sizes={[10, 70, 20]} style={{ height: 'calc(100vh - 4em)', display: 'flex' }}>
-      <Tree initialData={treeData} />
-      <div className="ag-theme-alpine">
-        <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
-      </div>
-      <Tabs>
-        <TabList>
-          <Tab>Title 1</Tab>
-          <Tab>Title 2</Tab>
-        </TabList>
+    <>
+      <Menu menuButton={<MenuButton className="box-border border-2 border-gray-500 rounded px-2 m-3">Menu</MenuButton>}>
+        <MenuItem>New File</MenuItem>
+        <SubMenu label="Edit">
+          <MenuItem>Cut</MenuItem>
+          <MenuItem>Copy</MenuItem>
+          <MenuItem>Paste</MenuItem>
+          <SubMenu label="Find">
+            <MenuItem>Find...</MenuItem>
+            <MenuItem>Find Next</MenuItem>
+            <MenuItem>Find Previous</MenuItem>
+          </SubMenu>
+        </SubMenu>
+        <MenuDivider className="h-px bg-gray-200 mx-2.5 my-1.5" />
+        <MenuItem>Print...</MenuItem>
+      </Menu>
+      <Split sizes={[10, 70, 20]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+        <Tree initialData={treeData} />
+        <div className="ag-theme-alpine">
+          <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
+        </div>
+        <Tabs>
+          <TabList>
+            <Tab>Title 1</Tab>
+            <Tab>Title 2</Tab>
+          </TabList>
 
-        <TabPanel>
-          <h2>Any content 1</h2>
-        </TabPanel>
-        <TabPanel>
-          <h2>Any content 2</h2>
-        </TabPanel>
-      </Tabs>
-    </Split>
+          <TabPanel>
+            <h2>Any content 1</h2>
+          </TabPanel>
+          <TabPanel>
+            <h2>Any content 2</h2>
+          </TabPanel>
+        </Tabs>
+      </Split>
+      <h1 className="m-2 text-xs font-mono underline">Number of Games: {romdata.length}</h1>
+    </>
   )
 }
 export function links() {
@@ -99,7 +120,9 @@ export function links() {
     { rel: 'stylesheet', href: AgGridStyles },
     { rel: 'stylesheet', href: AgThemeAlpineStyles },
     { rel: 'stylesheet', href: reactSplitStyles },
-    { rel: 'stylesheet', href: reactTabsStyles }
+    { rel: 'stylesheet', href: reactTabsStyles },
+    { rel: 'stylesheet', href: reactMenuStyles },
+    { rel: 'stylesheet', href: reactMenuTransitionStyles }
   ]
 }
 
