@@ -1,4 +1,4 @@
-const fs = require('fs')
+import * as fs from 'fs'
 
 // Function to parse a single romdata line
 function parseRomDataLine(line) {
@@ -47,7 +47,7 @@ function parseRomDataLine(line) {
 }
 
 // Read romdata file and convert to JSON
-function convertRomDataToJSON(filename) {
+export function convertRomDataToJSON(filename) {
   const data = fs.readFileSync(filename, 'latin1')
   const lines = data.split('\n').filter(Boolean)
 
@@ -62,15 +62,6 @@ function convertRomDataToJSON(filename) {
 }
 
 // Write JSON to file
-function saveToJsonFile(data, filename) {
+export function saveToJSONFile(data, filename) {
   fs.writeFileSync(filename, JSON.stringify(data, null, 2))
 }
-
-// Usage
-const inputFile = 'inputs/Romdata.dat'
-const outputFile = 'outputs/romdata.json'
-
-const jsonData = convertRomDataToJSON(inputFile)
-saveToJsonFile(jsonData, outputFile)
-
-console.log(`Conversion complete. Output saved to ${outputFile}`)
