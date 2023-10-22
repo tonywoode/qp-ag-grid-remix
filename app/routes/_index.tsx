@@ -1,5 +1,7 @@
-import { json, type V2_MetaFunction } from "@remix-run/node";
-import { AgGridReact } from "ag-grid-react";
+import { useLoaderData } from '@remix-run/react'
+import electron from '~/electron.server'
+import { json, type V2_MetaFunction } from '@remix-run/node'
+import { AgGridReact } from 'ag-grid-react'
 import reactSplitStyles from '~/styles/react-split.css'
 import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
@@ -8,8 +10,6 @@ import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
-
-import { useLoaderData } from '@remix-run/react'
 import { romdata } from '~/../outputs/romdata.json' //note destructuring
 import { CellClickedEvent } from 'ag-grid-community'
 import { Tree } from 'react-arborist'
@@ -49,8 +49,12 @@ const gridOptions = {
     editable: true
   }
 }
-export async function loader() {
-  return json({ romdata })
+
+export function loader() {
+  return {
+    romdata,
+    userDataPath: electron.app.getPath('userData')
+  }
 }
 
 const treeData = [
@@ -111,10 +115,13 @@ export default function Index() {
           </TabPanel>
         </Tabs>
       </Split>
-      <h1 className="m-2 text-xs font-mono underline">Number of Games: {romdata.length}</h1>
+      <h1 className="m-2 text-xs font-mono underline">
+        Number of Games: {romdata.length}, User data path: {data.userDataPath}
+      </h1>
     </>
   )
 }
+
 export function links() {
   return [
     { rel: 'stylesheet', href: AgGridStyles },
@@ -125,4 +132,3 @@ export function links() {
     { rel: 'stylesheet', href: reactMenuTransitionStyles }
   ]
 }
-

@@ -1,58 +1,35 @@
-# Welcome to Remix!
+# remix-electron-template
 
-- [Remix Docs](https://remix.run/docs)
+Welcome to your new remix-electron project!
 
-## Development
+- [remix-electron docs](https://github.com/itsMapleLeaf/remix-electron)
+- [Remix docs](https://remix.run/docs)
 
-From your terminal:
+## Getting Started
 
-```sh
-npm run dev
-```
+1. To install our app's dependencies, run the following command:
 
-This starts your app in development mode, rebuilding assets on file changes.
+   ```sh
+   npm install
+   ```
 
-## Deployment
+1. To start the app in development mode, run the dev script:
 
-First, build your app for production:
+   ```sh
+   npm run dev
+   ```
 
-```sh
-npm run build
-```
+## Scripts
 
-Then run the app in production mode:
+The following scripts are defined in the `package.json` file:
 
-```sh
-npm start
-```
+- `prepare`: This sets up remix dependencies after an install. Don't remove this!
+- `dev`: Starts the app with hot reloading. Uses nodemon to restart the app when main process files change.
+- `build`: Builds the app for production. Uses [Electron Builder](https://www.electron.build/) to create a distributable package.
+- `start`: Starts the app in production mode. Make sure you ran `build` first.
 
-Now you'll need to pick a host to deploy it to.
+## Debugging in VSCode
 
-### DIY
+See this guide: https://gist.github.com/kiliman/a9d7c874af03369a1d105a92560d89e9
 
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over relevant code/assets from your current app to the new project that's pre-configured for your target server.
-
-Most importantly, this means everything in the `app/` directory, but if you've further customized your current application outside of there it may also include:
-
-- Any assets you've added/updated in `public/`
-- Any updated versions of root files such as `.eslintrc.js`, etc.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+Choose the `dev` script to debug in dev, and `start` to debug in production.

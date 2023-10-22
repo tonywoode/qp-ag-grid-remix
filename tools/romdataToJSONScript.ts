@@ -1,3 +1,4 @@
+//run with npx tsx ./tools/romdataToJSONScript.ts
 import { convertRomDataToJSON, saveToJSONFile } from '../app/utils/romdataToJSON'
 
 // Usage
