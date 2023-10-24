@@ -1,4 +1,4 @@
-import { useLoaderData } from '@remix-run/react'
+import { Form, useLoaderData } from '@remix-run/react'
 import electron from '~/electron.server'
 import { json, type V2_MetaFunction } from '@remix-run/node'
 import { AgGridReact } from 'ag-grid-react'
@@ -18,6 +18,7 @@ import Split from 'react-split'
 
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
+
 const loggerConfig = [
   { feature: 'gridOperations', enabled: true },
   { feature: 'fileOperations', enabled: true },
@@ -50,11 +51,20 @@ const gridOptions = {
   }
 }
 
-export function loader() {
+export async function loader() {
   return {
     romdata,
     userDataPath: electron.app.getPath('userData')
   }
+}
+
+export const action = async () => {
+  const result = await electron.dialog.showOpenDialog({
+    title: 'select origingal QuickPlay data folder',
+    properties: ['openDirectory']
+  })
+  console.log(result)
+  return result
 }
 
 const treeData = [
@@ -96,6 +106,9 @@ export default function Index() {
         <MenuDivider className="h-px bg-gray-200 mx-2.5 my-1.5" />
         <MenuItem>Print...</MenuItem>
       </Menu>
+      <Form method="post">
+        <button className="box-border border-2 border-gray-500 px-2 m-3">Pick Original QP data folder</button>
+      </Form>
       <Split sizes={[10, 70, 20]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
         <Tree initialData={treeData} />
         <div className="ag-theme-alpine">
