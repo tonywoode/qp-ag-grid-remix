@@ -1,0 +1,50 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mayjinsen 3",
+      "mameName": "mayjin3",
+      "path": "{gamesDir}\\MAME\\ROMS\\mayjin3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seta / Able Corporation",
+      "year": "2000",
+      "gameType": "Tabletop / Shougi",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mayjinsen",
+      "mameName": "mayjinsn",
+      "path": "{gamesDir}\\MAME\\ROMS\\mayjinsn.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seta",
+      "year": "1994",
+      "gameType": "Tabletop / Shougi",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Mayjinsen 2",
+      "mameName": "mayjisn2",
+      "path": "{gamesDir}\\MAME\\ROMS\\mayjisn2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seta",
+      "year": "1994",
+      "gameType": "Tabletop / Shougi",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

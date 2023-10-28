@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Neo-Geo Cup '98 - The Road to the Victory",
+      "mameName": "neocup98",
+      "path": "{gamesDir}\\MAME\\ROMS\\neocup98.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1998",
+      "gameType": "Sports / Soccer",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Sidekicks / Tokuten Ou",
+      "mameName": "ssideki",
+      "path": "{gamesDir}\\MAME\\ROMS\\ssideki.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1992",
+      "gameType": "Sports / Soccer",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - Real Fight Football (NGM-061 ~ NGH-061)",
+      "mameName": "ssideki2",
+      "path": "{gamesDir}\\MAME\\ROMS\\ssideki2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1994",
+      "gameType": "Sports / Soccer",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Sidekicks 3 - The Next Glory / Tokuten Ou 3 - Eikou e no Michi",
+      "mameName": "ssideki3",
+      "path": "{gamesDir}\\MAME\\ROMS\\ssideki3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1995",
+      "gameType": "Sports / Soccer",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "The Ultimate 11 - The SNK Football Championship / Tokuten Ou - Honoo no Libero",
+      "mameName": "ssideki4",
+      "path": "{gamesDir}\\MAME\\ROMS\\ssideki4.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1996",
+      "gameType": "Sports / Soccer",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

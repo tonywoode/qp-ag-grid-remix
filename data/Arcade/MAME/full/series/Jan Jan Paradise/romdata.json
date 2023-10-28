@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Jan Jan Paradise 2",
+      "mameName": "jjparad2",
+      "path": "{gamesDir}\\MAME\\ROMS\\jjparad2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Electro Design",
+      "year": "1997",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Jan Jan Paradise",
+      "mameName": "jjparads",
+      "path": "{gamesDir}\\MAME\\ROMS\\jjparads.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Electro Design",
+      "year": "1996",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

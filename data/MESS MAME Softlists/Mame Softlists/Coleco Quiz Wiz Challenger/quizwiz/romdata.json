@@ -1,0 +1,95 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "1: 1001 Questions",
+      "mameName": "1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\quizwiz\\1.7z",
+      "emulatorName": "MAME Coleco Quiz Wiz Challenger -SOFTLIST quizwiz",
+      "companyName": "Coleco",
+      "year": "1980",
+      "comment": " pinout:00001111",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "2: The World of Sports",
+      "mameName": "2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\quizwiz\\2.7z",
+      "emulatorName": "MAME Coleco Quiz Wiz Challenger -SOFTLIST quizwiz",
+      "companyName": "Coleco",
+      "year": "1980",
+      "comment": " pinout:11001001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "3: Movies and TV",
+      "mameName": "3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\quizwiz\\3.7z",
+      "emulatorName": "MAME Coleco Quiz Wiz Challenger -SOFTLIST quizwiz",
+      "companyName": "Coleco",
+      "year": "1980",
+      "comment": " pinout:10001110",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "4: People and Places",
+      "mameName": "4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\quizwiz\\4.7z",
+      "emulatorName": "MAME Coleco Quiz Wiz Challenger -SOFTLIST quizwiz",
+      "companyName": "Coleco",
+      "year": "1980",
+      "comment": " pinout:10001111",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "5: Trivia",
+      "mameName": "5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\quizwiz\\5.7z",
+      "emulatorName": "MAME Coleco Quiz Wiz Challenger -SOFTLIST quizwiz",
+      "companyName": "Coleco",
+      "year": "1980",
+      "comment": " pinout:11001110",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "6: Music and Books",
+      "mameName": "6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\quizwiz\\6.7z",
+      "emulatorName": "MAME Coleco Quiz Wiz Challenger -SOFTLIST quizwiz",
+      "companyName": "Coleco",
+      "year": "1980",
+      "comment": " pinout:01101011",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "10: Super Heroes",
+      "mameName": "10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\quizwiz\\10.7z",
+      "emulatorName": "MAME Coleco Quiz Wiz Challenger -SOFTLIST quizwiz",
+      "companyName": "Coleco",
+      "year": "1980",
+      "comment": " pinout:10001111",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "General Knowledge",
+      "mameName": "genknow",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\quizwiz\\genknow.7z",
+      "emulatorName": "MAME Coleco Quiz Wiz Challenger -SOFTLIST quizwiz",
+      "companyName": "Coleco",
+      "year": "1981",
+      "comment": " pinout:00001111",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

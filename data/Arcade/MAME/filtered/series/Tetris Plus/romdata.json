@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Tetris Plus",
+      "mameName": "tetrisp",
+      "path": "{gamesDir}\\MAME\\ROMS\\tetrisp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco / BPS",
+      "year": "1995",
+      "gameType": "Puzzle / Drop",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Tetris Plus 2 (World)",
+      "mameName": "tetrisp2",
+      "path": "{gamesDir}\\MAME\\ROMS\\tetrisp2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco / The Tetris Company",
+      "year": "1997",
+      "gameType": "Puzzle / Drop",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

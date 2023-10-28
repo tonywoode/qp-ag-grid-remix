@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Vs. Super Mario Bros. (set SM4-4 E)",
+      "mameName": "suprmrio",
+      "path": "{gamesDir}\\MAME\\ROMS\\suprmrio.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nintendo",
+      "year": "1986",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

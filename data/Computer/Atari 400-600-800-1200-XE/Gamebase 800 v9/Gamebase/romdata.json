@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gamebase Atari 800",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase Atari 800.jpg",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "Atari 800",
+      "timesPlayed": "19",
+      "paramMode": "0"
+    }
+  ]
+}

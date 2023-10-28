@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Asteroids Deluxe (rev 1)",
+      "mameName": "astdelux1",
+      "parentName": "astdelux",
+      "path": "{gamesDir}\\MAME\\ROMS\\astdelux.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1980",
+      "gameType": "Shooter / Field",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "F-15 Strike Eagle (rev. 2.2 02/25/91)",
+      "mameName": "f15se",
+      "path": "{gamesDir}\\MAME\\ROMS\\f15se.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Microprose Games Inc.",
+      "year": "1991",
+      "gameType": "Shooter / Flying 1st Person",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "SunA Quiz 6000 Academy (940620-6)",
+      "mameName": "sunaq",
+      "path": "{gamesDir}\\MAME\\ROMS\\sunaq.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SunA",
+      "year": "1994",
+      "gameType": "Quiz / English",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Zero (set 2, Defender bootleg)",
+      "mameName": "zero2",
+      "parentName": "defender",
+      "path": "{gamesDir}\\MAME\\ROMS\\defender.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Amtec)",
+      "year": "1980",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

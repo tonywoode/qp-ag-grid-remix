@@ -1,0 +1,110 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Capcom Vs. SNK 2 Millionaire Fighting 2001 (Rev A) (GDL-0007A)",
+      "mameName": "cvs2mf",
+      "parentName": "cvs2",
+      "path": "{gamesDir}\\MAME\\CHDs\\cvs2\\gdl-0007a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom / SNK",
+      "year": "2001",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Daytona USA Deluxe '93",
+      "mameName": "daytona93",
+      "parentName": "daytona",
+      "path": "{gamesDir}\\MAME\\ROMS\\daytona.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1993",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Naomi House of the Dead 2 Bios",
+      "mameName": "hod2bios",
+      "path": "{gamesDir}\\MAME\\ROMS\\hod2bios.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "System / BIOS",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "BIOS"
+    },
+    {
+      "name": "San Francisco Rush 2049: Special Edition",
+      "mameName": "sf2049se",
+      "parentName": "sf2049",
+      "path": "{gamesDir}\\MAME\\CHDs\\sf2049\\sf2049se.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1998",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Tiger Heli (bootleg set 1)",
+      "mameName": "tigerhb1",
+      "parentName": "tigerh",
+      "path": "{gamesDir}\\MAME\\ROMS\\tigerh.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1985",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Virtua Fighter 2 (Revision A)",
+      "mameName": "vf2a",
+      "parentName": "vf2",
+      "path": "{gamesDir}\\MAME\\ROMS\\vf2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "World Class Bowling (v1.6)",
+      "mameName": "wcbowl16",
+      "parentName": "wcbowl",
+      "path": "{gamesDir}\\MAME\\ROMS\\wcbowl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Incredible Technologies",
+      "year": "1995",
+      "gameType": "Sports / Bowling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    }
+  ]
+}

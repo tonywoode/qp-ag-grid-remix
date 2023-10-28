@@ -1,0 +1,18 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Vortex Blaster 2",
+      "mameName": "vortexbl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cass\\vortexbl.7z",
+      "emulatorName": "MAME Sega SC-3000 -SOFTLIST sc3000_cass",
+      "companyName": "Trident Technological System",
+      "year": "1984",
+      "comment": "usage:Requires BASIC Level 3 cartridge",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

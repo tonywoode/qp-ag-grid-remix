@@ -1,0 +1,316 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Analise Economica",
+      "mameName": "analeco",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\analeco.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-30",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Analise Financiera",
+      "mameName": "analfin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\analfin.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-28",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Analise Patrimonial",
+      "mameName": "anapatri",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\anapatri.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-24",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Batalha Aeronaval",
+      "mameName": "bataero",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\bataero.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-15",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Batalha de Matematica",
+      "mameName": "batmate",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\batmate.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-7",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Calculo Financiero",
+      "mameName": "calcfin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\calcfin.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-25",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Calculo de Preco de Venda",
+      "mameName": "calcprec",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\calcprec.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-18",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Calendario",
+      "mameName": "calendar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\calendar.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-21",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Carro Maluco",
+      "mameName": "carro",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\carro.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-11",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Comparacao de Recitas",
+      "mameName": "compara",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\compara.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-26",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Guerra de Robos",
+      "mameName": "guerrobo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\guerrobo.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-14",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Invasores do Espaco",
+      "mameName": "invasor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\invasor.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-9",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jipe de Guerra",
+      "mameName": "jipeguer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\jipeguer.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-10",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jogo da Forca II",
+      "mameName": "jogforc2",
+      "parentName": "jogforca",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\jogforca.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-13",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jogo da Forca I",
+      "mameName": "jogforca",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\jogforca.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-12",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Livro Razao Geral",
+      "mameName": "livroraz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\livroraz.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-27",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jogo de Memoria",
+      "mameName": "memoria",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\memoria.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-1",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Olimpiada de Matematica",
+      "mameName": "olimpmat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\olimpmat.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-8",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Othello",
+      "mameName": "othello",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\othello.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-4",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Perseguicao Policial",
+      "mameName": "persegui",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\persegui.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-3",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Quebra Cabecas",
+      "mameName": "quebra",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\quebra.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-6",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rede Pert - Caminho Critico",
+      "mameName": "redepert",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\redepert.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-20",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Resta Um",
+      "mameName": "resta",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\resta.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-5",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Senha",
+      "mameName": "senha",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\senha.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with TLOAD,serial:F-2",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Teoria da Estimativa Estatistica",
+      "mameName": "teoria",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\teoria.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load with LOAD,serial:F-22",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Manual do BASIC",
+      "mameName": "manualba",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\manualba.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load all programs with TLOAD part_id:Compositor de Musica,part_id:Aterrissagem em Marte,part_id:Bombardeio na Cidade,part_id:Matematica para Jardim de Infancia,part_id:Batalha com Tanques",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "50 Programas Para Voce",
+      "mameName": "50progs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\50progs.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load all programs with LOAD + the name in parentheses (e.g. LOAD APRE) part_id:Apresentacao (APRE),part_id:Desenhando (DESE),part_id:Some sounds (SONS),part_id:Grafimania (GRAF),part_id:Dente-de-leao (DENT),part_id:Caleidoscopio (CALE),part_id:3 telas (TELA),part_id:Teias (TEIA),part_id:Reflexo (REFL),part_id:Linhas (LINH),part_id:Cicloide (CICL),part_id:Senoides (SENO),part_id:Histograma (HIST),part_id:Jogo de dados (DADO),part_id:Frases (FRAS),part_id:Numero oculto (NUME),part_id:Reverso (REVE),part_id:Calendario (CALE),part_id:Tira-letras (TIRA),part_id:Espelho (ESPE),part_id:Negativo (NEGT),part_id:Moldura (MOLD),part_id:Ordenador alfabetico (SORT),part_id:Conversor arabicos-romanos (ROMA),part_id:Palpites para loto (LOTO),part_id:C.P.F. (CPF),part_id:Conversao graus Celsius-Fahrenheit-Celsius (CFC),part_id:Palindromas (PALI),part_id:Agenda telefonica (AGEN),part_id:Econometro (ECON),part_id:Alfabeto I (ALFI),part_id:Alfabeto II (ALII),part_id:Codigo Morse (MORS),part_id:Cebolinha (CEBO),part_id:Numeros primos (PRIM),part_id:Fatorial (FACT),part_id:Calculo de pi (PI),part_id:Triangulos (TRAI),part_id:Raiz de polinomios (RAIZ),part_id:Fatores primos (FAPR),part_id:Conversao de base (BASE),part_id:Regressao linear (RLIN),part_id:Exponenciais (EXPO),part_id:Soma de matrizes (MATR),part_id:Teste de aritmetica (ARIT),part_id:Grafico de funcoes (GRSI),part_id:Invasao das formigas (FORM),part_id:Graficos simulados (GSIM),part_id:Calculo de volumes (VOLM),part_id:Demo printer (IMPR)",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Curso de BASIC",
+      "mameName": "cursobas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mc1000_cass\\cursobas.7z",
+      "emulatorName": "Retroarch CCE MC-1000 -SOFTLIST mc1000_cass (MAME)",
+      "companyName": "CCE Soft",
+      "year": "198?",
+      "comment": "usage:Load all programs with LOAD part_id:Side A Part 1,part_id:Side A Part 2,part_id:Side B Part 1,part_id:Side B Part 2",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

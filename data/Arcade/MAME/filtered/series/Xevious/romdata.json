@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Solvalou (Japan)",
+      "mameName": "solvalou",
+      "path": "{gamesDir}\\MAME\\ROMS\\solvalou.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1991",
+      "gameType": "Shooter / Flying 1st Person",
+      "rating": "70 to 80 (Good)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Vs. Super Xevious",
+      "mameName": "supxevs",
+      "path": "{gamesDir}\\MAME\\ROMS\\supxevs.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1986",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Xevious 3D/G (Japan, XV31/VER.A)",
+      "mameName": "xevi3dg",
+      "path": "{gamesDir}\\MAME\\ROMS\\xevi3dg.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1995",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Xevious (Namco)",
+      "mameName": "xevious",
+      "path": "{gamesDir}\\MAME\\ROMS\\xevious.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1982",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

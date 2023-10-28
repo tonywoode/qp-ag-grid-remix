@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Shu Zi Le Yuan (V113FR)",
+      "mameName": "iqblockf",
+      "parentName": "iqblock",
+      "path": "{gamesDir}\\MAME\\ROMS\\iqblock.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1996",
+      "gameType": "Puzzle / Drop",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Raiden Fighters (Italy)",
+      "mameName": "rdftit",
+      "parentName": "rdft",
+      "path": "{gamesDir}\\MAME\\ROMS\\rdft.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seibu Kaihatsu",
+      "year": "1996",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Thayer's Quest (set 2)",
+      "mameName": "thayersa",
+      "parentName": "thayers",
+      "path": "{gamesDir}\\MAME\\CHDs\\thayers\\thayers.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "RDI Video Systems",
+      "year": "1984",
+      "gameType": "Platform / Run Jump",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

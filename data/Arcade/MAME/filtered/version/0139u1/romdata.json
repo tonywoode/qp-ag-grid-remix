@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Air Race (prototype)",
+      "mameName": "airrace",
+      "path": "{gamesDir}\\MAME\\ROMS\\airrace.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1985",
+      "gameType": "Driving / Plane",
+      "rating": "20 to 30 (Bad)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "The Last Starfighter (prototype)",
+      "mameName": "laststar",
+      "path": "{gamesDir}\\MAME\\ROMS\\laststar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1984",
+      "gameType": "Shooter / Flying 1st Person",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

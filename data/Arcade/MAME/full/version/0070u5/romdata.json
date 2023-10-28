@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Final Lap 3 (World, set 1)",
+      "mameName": "finalap3",
+      "path": "{gamesDir}\\MAME\\ROMS\\finalap3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1992",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "R2D Tank",
+      "mameName": "r2dtank",
+      "path": "{gamesDir}\\MAME\\ROMS\\r2dtank.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sigma Enterprises Inc.",
+      "year": "1980",
+      "gameType": "Shooter / Field",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Stadium Cross (World)",
+      "mameName": "scross",
+      "path": "{gamesDir}\\MAME\\ROMS\\scross.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1992",
+      "gameType": "Driving / Race (chase view) Bike",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Street Fighter Zero 2 Alpha (Brazil 960813)",
+      "mameName": "sfz2alb",
+      "parentName": "sfz2al",
+      "path": "{gamesDir}\\MAME\\ROMS\\sfz2al.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1996",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Street Fighter II Turbo (USA 940323)",
+      "mameName": "ssf2tu",
+      "parentName": "ssf2t",
+      "path": "{gamesDir}\\MAME\\ROMS\\ssf2t.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Vampire Hunter 2: Darkstalkers Revenge (Japan 970929)",
+      "mameName": "vhunt2",
+      "path": "{gamesDir}\\MAME\\ROMS\\vhunt2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1997",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "X-Men Vs. Street Fighter (Brazil 961023)",
+      "mameName": "xmvsfb",
+      "parentName": "xmvsf",
+      "path": "{gamesDir}\\MAME\\ROMS\\xmvsf.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1996",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

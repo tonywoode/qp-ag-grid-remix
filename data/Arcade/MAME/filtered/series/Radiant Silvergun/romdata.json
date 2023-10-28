@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Radiant Silvergun (JUET 980523 V1.000)",
+      "mameName": "rsgun",
+      "path": "{gamesDir}\\MAME\\ROMS\\rsgun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Treasure",
+      "year": "1998",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "747 (12K)",
+      "mameName": "747",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\747.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Bug Byte",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adventure (12K)",
+      "mameName": "adventre",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\adventre.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Program Power",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adventures (Adventure/Dungeon/House/Intergalactic)",
+      "mameName": "adventrs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\adventrs.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Africa Diamond (10K)",
+      "mameName": "africadi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\africadi.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Ramtronics",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Atom Database",
+      "mameName": "atdbase",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\atdbase.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "AtomStore (12K)",
+      "mameName": "atstore",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\atstore.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Program Power",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Atom Synthesiser (5K)",
+      "mameName": "atsynth",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\atsynth.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Backgammon",
+      "mameName": "backgamm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\backgamm.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Bug Byte",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Breakout (4K)",
+      "mameName": "breakout",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\breakout.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Bug Byte",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Business Game",
+      "mameName": "busgame",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\busgame.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Program Power",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Centipede",
+      "mameName": "centiped",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\centiped.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Micromania",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Atomic Chuckie Egg (32K)",
+      "mameName": "chuckie",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\chuckie.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Retro Software",
+      "year": "2012",
+      "parameters": "-L cores\\mame_libretro.dll \" atom -cass1 %ROMMAME%\"",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"CHUCKIE\" part_id:Monochrome,part_id:Colour",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cylon Attack",
+      "mameName": "cylonatt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\cylonatt.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "A&F Software",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Death Satellite (12K)",
+      "mameName": "deathsat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\deathsat.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "A&F Software",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Defender",
+      "mameName": "defender",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\defender.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Micromania",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Demon Dungeon (5K)",
+      "mameName": "demondun",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\demondun.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Program Power",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Early Warning",
+      "mameName": "earlywar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\earlywar.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "A&F Software",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galaforce (32K)",
+      "mameName": "gala",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\gala.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Retro Software",
+      "year": "2012",
+      "parameters": "-L cores\\mame_libretro.dll \" atom -cass1 %ROMMAME%\"",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"LOADER\" part_id:Monochrome,part_id:Colour",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galaxian (12K)",
+      "mameName": "galaxian",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\galaxian.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Bug Byte",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games Pack 1 (Asteroids/Sub Hunt/Breakout)",
+      "mameName": "gamepk1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\gamepk1.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games Pack 3 (Rat Trap/Lunar Lander/Black Box)",
+      "mameName": "gamepk3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\gamepk3.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games Pack 4 (Star Trek/Four Row/Space Attack)",
+      "mameName": "gamepk4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\gamepk4.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games Pack 8 (Stargate/Gomoku/Robots)",
+      "mameName": "gamepk8",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\gamepk8.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games Pack 9 (Snapper/Minotaur/Babies)",
+      "mameName": "gamepk9",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\gamepk9.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games Pack 10 (Breakout/Mastermind/Snake/Simon/Moon/Hectic/Ski-Run/Track/Squash/Bombs-Away)",
+      "mameName": "gamepk10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\gamepk10.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hard Hat Harry (32K)",
+      "mameName": "hardhath",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\hardhath.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Retro Software",
+      "year": "2011",
+      "parameters": "-L cores\\mame_libretro.dll \" atom -cass1 %ROMMAME%\"",
+      "comment": "author:Tom Walker,usage:Load with *RUN\"LOADER\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hyperfire (12K)",
+      "mameName": "hyperfir",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\hyperfir.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Program Power",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hyper Viper (12K)",
+      "mameName": "hypervpr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\hypervpr.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Retro Software",
+      "year": "2011",
+      "parameters": "-L cores\\mame_libretro.dll \" atom -cass1 %ROMMAME%\"",
+      "comment": "author:Kenton Price,usage:Load with *RUN\"LOADER\" part_id:Monochrome,part_id:Colour",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jet Set Miner (12K)",
+      "mameName": "jetsetmn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\jetsetmn.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Retro Software",
+      "year": "2009",
+      "parameters": "-L cores\\mame_libretro.dll \" atom -cass1 %ROMMAME%\"",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"LOADER\" part_id:Monochrome,part_id:Colour",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Atomic Joe Blade (32K)",
+      "mameName": "joeblade",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\joeblade.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Retro Software",
+      "year": "2014",
+      "parameters": "-L cores\\mame_libretro.dll \" atom -cass1 %ROMMAME%\"",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"LOADER\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jungle Journey (32K)",
+      "mameName": "jungle",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\jungle.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Retro Software",
+      "year": "2012",
+      "parameters": "-L cores\\mame_libretro.dll \" atom -cass1 %ROMMAME%\"",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"JUNGLE\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Labyrinth (12K)",
+      "mameName": "labyrint",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\labyrint.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Bug Byte",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Minefield",
+      "mameName": "minefld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\minefld.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "A&F Software",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Omega Mission",
+      "mameName": "omegamis",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\omegamis.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Micromania",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Peeko-Computer",
+      "mameName": "peekocom",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\peekocom.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Acornsoft",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pinball (6K)",
+      "mameName": "pinball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\pinball.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Bug Byte",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Protector",
+      "mameName": "protectr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\protectr.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Micromania",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Repton (32K)",
+      "mameName": "repton",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\repton.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Retro Software",
+      "year": "2013",
+      "parameters": "-L cores\\mame_libretro.dll \" atom -cass1 %ROMMAME%\"",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"LOADER\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Fighter (6K)",
+      "mameName": "spfightr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\spfightr.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Program Power",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Swarm",
+      "mameName": "swarm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\swarm.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Program Power",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tangled",
+      "mameName": "tangled",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\tangled.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "A&F Software",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Atom Typist (7K)",
+      "mameName": "typist",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\typist.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Bug Byte",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "UFO Bomber (7K)",
+      "mameName": "ufobombr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\ufobombr.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "Bug Byte",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zodiac (12K)",
+      "mameName": "zodiac",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_cass\\zodiac.7z",
+      "emulatorName": "Retroarch Acorn Atom -SOFTLIST atom_cass (MAME)",
+      "companyName": "A&F Software",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bomb Bee",
+      "mameName": "bombbee",
+      "path": "{gamesDir}\\MAME\\ROMS\\bombbee.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1979",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Cutie Q",
+      "mameName": "cutieq",
+      "path": "{gamesDir}\\MAME\\ROMS\\cutieq.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1979",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Gee Bee (Japan)",
+      "mameName": "geebee",
+      "path": "{gamesDir}\\MAME\\ROMS\\geebee.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1978",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "30 to 40 (Amendable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Gee Bee (Europe)",
+      "mameName": "geebeeb",
+      "parentName": "geebee",
+      "path": "{gamesDir}\\MAME\\ROMS\\geebee.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco (F.lli Bertolino license)",
+      "year": "1978",
+      "gameType": "Ball & Paddle / Breakout",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Gee Bee (US)",
+      "mameName": "geebeeg",
+      "parentName": "geebee",
+      "path": "{gamesDir}\\MAME\\ROMS\\geebee.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco (Gremlin license)",
+      "year": "1978",
+      "gameType": "Ball & Paddle / Breakout",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Cliff Hanger (set 1)",
+      "mameName": "cliffhgr",
+      "path": "{gamesDir}\\MAME\\CHDs\\cliffhgr\\cliffhgr.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Stern Electronics",
+      "year": "1983",
+      "gameType": "Platform / Run Jump",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

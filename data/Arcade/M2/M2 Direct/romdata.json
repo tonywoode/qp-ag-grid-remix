@@ -1,0 +1,25 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "LOAD M2 0.9",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\LOAD M2 0.9.png",
+      "emulatorName": "M2 MULTICPU V0.9 Win32",
+      "language": "English",
+      "parameters": " ",
+      "timesPlayed": "9",
+      "paramMode": "1"
+    },
+    {
+      "name": "LOAD M2 1.0",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\LOAD M2 1.0.png",
+      "emulatorName": "M2 MULTICPU V1.0 Win32",
+      "language": "English",
+      "parameters": " ",
+      "timesPlayed": "12",
+      "paramMode": "1"
+    }
+  ]
+}

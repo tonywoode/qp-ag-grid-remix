@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Boulder Dash / Boulder Dash Part 2 (World)",
+      "mameName": "bouldash",
+      "path": "{gamesDir}\\MAME\\ROMS\\bouldash.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation (licensed from First Star)",
+      "year": "1990",
+      "gameType": "Maze / Digging",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Crackshot (version 2.0)",
+      "mameName": "cracksht",
+      "path": "{gamesDir}\\MAME\\ROMS\\cracksht.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Exidy",
+      "year": "1985",
+      "gameType": "Shooter / Gun",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Vimana (World, set 1)",
+      "mameName": "vimana",
+      "path": "{gamesDir}\\MAME\\ROMS\\vimana.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Toaplan",
+      "year": "1991",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

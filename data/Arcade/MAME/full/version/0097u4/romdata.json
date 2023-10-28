@@ -1,0 +1,81 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gaiapolis (ver EAF)",
+      "mameName": "gaiapols",
+      "path": "{gamesDir}\\MAME\\ROMS\\gaiapols.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1993",
+      "gameType": "Fighter / Vertical",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Draw Poker - Joker's Wild (Standard)",
+      "mameName": "mdrawpkr",
+      "path": "{gamesDir}\\MAME\\ROMS\\mdrawpkr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Meyco Games, Inc.",
+      "year": "1984",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mechanized Attack (US)",
+      "mameName": "mechattu",
+      "parentName": "mechatt",
+      "path": "{gamesDir}\\MAME\\ROMS\\mechatt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Raiden DX (Hong Kong, set 2)",
+      "mameName": "raidendxa2",
+      "parentName": "raidendx",
+      "path": "{gamesDir}\\MAME\\ROMS\\raidendx.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seibu Kaihatsu (Metrotainment license)",
+      "year": "1994",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Tenkomori Shooting (World, TKM2/VER.A1)",
+      "mameName": "tenkomor",
+      "path": "{gamesDir}\\MAME\\ROMS\\tenkomor.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1998",
+      "gameType": "Multiplay / Mini-Games",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

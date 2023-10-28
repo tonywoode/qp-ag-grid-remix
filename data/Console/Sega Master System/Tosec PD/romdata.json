@@ -1,0 +1,239 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "6 Button Controller Test by Charles MacDonald (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\6 Button Controller Test by Charles MacDonald (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "64 Color Palette Test (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\64 Color Palette Test (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chkstate Demo by Dave (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Chkstate Demo by Dave (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - BrMSX (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - BrMSX (SG-1000) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - BrSMS (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - BrSMS (SG-1000) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - Expo SALT Logo (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - Expo SALT Logo (SG-1000) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - How Do They Do That With HTML (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - How Do They Do That With HTML (SG-1000) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - Jiraiya (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - Jiraiya (SG-1000) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - Never (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - Never (SG-1000) (PD).sg",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - Newo (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - Newo (SG-1000) (PD).sg",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - Shurato (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - Shurato (SG-1000) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - Skybaby's SMS List (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - Skybaby's SMS List (SG-1000) (PD).sg",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fudebrowser - Winnie Cooper (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Fudebrowser - Winnie Cooper (SG-1000) (PD).sg",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Happy Looser by Zoop (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Happy Looser by Zoop (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maechiko's Omikuji (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Maechiko's Omikuji (SG-1000) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maechiko's S_Sniper (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Maechiko's S_Sniper (SG-1000) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Only Words by Mike Gordon (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Only Words by Mike Gordon (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PFR Detect V1.00 by Eric R. Quinn (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\PFR Detect V1.00 by Eric R. Quinn (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PFR Detect V2.00 by Eric R. Quinn (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\PFR Detect V2.00 by Eric R. Quinn (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scroll Test Program by Charles MacDonald (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Scroll Test Program by Charles MacDonald (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SMS Power Demo Build 31 by Zoop (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\SMS Power Demo Build 31 by Zoop (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SMS Tetris Release 2 by Heliophobe (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\SMS Tetris Release 2 by Heliophobe (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SMS Tetris Release 3 by Heliophobe (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\SMS Tetris Release 3 by Heliophobe (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SMS Tetris Release 4 by Heliophobe (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\SMS Tetris Release 4 by Heliophobe (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "SMSC Text Demo (v2) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\SMSC Text Demo (v2) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snail Music Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Snail Music Demo (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "V Counter Test by Charles MacDonald (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\V Counter Test by Charles MacDonald (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winnie Cooper (SG-1000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Winnie Cooper (SG-1000) (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zoop's Birthday Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\SegaMasterSystem_PDroms\\Zoop's Birthday Demo (PD).sms",
+      "emulatorName": "RetroArch Sega Master System (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

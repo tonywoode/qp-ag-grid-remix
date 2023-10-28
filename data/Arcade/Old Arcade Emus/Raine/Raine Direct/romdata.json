@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "LOAD RAINE",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\LOAD RAINE.png",
+      "emulatorName": "Raine Win32",
+      "language": "English",
+      "parameters": " ",
+      "timesPlayed": "11",
+      "paramMode": "1"
+    }
+  ]
+}

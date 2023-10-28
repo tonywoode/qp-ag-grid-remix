@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mighty! Pang (Euro 001010)",
+      "mameName": "mpang",
+      "path": "{gamesDir}\\MAME\\ROMS\\mpang.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mitchell (Capcom license)",
+      "year": "2000",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Pang (World)",
+      "mameName": "pang",
+      "path": "{gamesDir}\\MAME\\ROMS\\pang.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mitchell",
+      "year": "1989",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Pang! 3 (Euro 950601)",
+      "mameName": "pang3",
+      "path": "{gamesDir}\\MAME\\ROMS\\pang3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mitchell",
+      "year": "1995",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Pang (World 900914)",
+      "mameName": "spang",
+      "path": "{gamesDir}\\MAME\\ROMS\\spang.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mitchell",
+      "year": "1990",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

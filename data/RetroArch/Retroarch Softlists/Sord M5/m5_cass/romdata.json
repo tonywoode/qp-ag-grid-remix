@@ -1,0 +1,225 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Barricade",
+      "mameName": "barricad",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\barricad.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Barrier Attack",
+      "mameName": "barrier",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\barrier.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Baseball",
+      "mameName": "baseball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\baseball.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "parameters": "-L cores\\mame_libretro.dll \" m5 -cass1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Biorhythm Diagnosis",
+      "mameName": "biorhyth",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\biorhyth.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blackjack",
+      "mameName": "blackjac",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\blackjac.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cowboy",
+      "mameName": "cowboy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\cowboy.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Graphic Designer",
+      "mameName": "graphic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\graphic.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jogging",
+      "mameName": "jogging",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\jogging.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Last Day of the Earth",
+      "mameName": "lastday",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\lastday.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mini Star Trek",
+      "mameName": "startrek",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\startrek.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Tone",
+      "mameName": "mustone",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\mustone.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Number Search",
+      "mameName": "numsrch",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\numsrch.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sidewinder",
+      "mameName": "sidewind",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\sidewind.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Slot Machine",
+      "mameName": "slotmach",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\slotmach.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Snaky",
+      "mameName": "snaky",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\snaky.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Solitaire",
+      "mameName": "solitair",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\solitair.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Three Circles",
+      "mameName": "3circles",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\3circles.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tower of Hanoi",
+      "mameName": "hanoi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\hanoi.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "comment": "usage:Mount together with \"BASIC-I\" and load with CHAIN",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TV Adjust",
+      "mameName": "tvadjust",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\tvadjust.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zac Banic",
+      "mameName": "zacbanic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\m5_cass\\zacbanic.7z",
+      "emulatorName": "Retroarch Sord m.5 (Japan) -SOFTLIST m5_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "parameters": "-L cores\\mame_libretro.dll \" m5 -cass1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

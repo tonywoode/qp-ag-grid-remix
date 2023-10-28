@@ -1,0 +1,104 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Amiga 1000 (PAL)",
+      "mameName": "a1000",
+      "path": "{gamesDir}\\MAME\\ROMS\\a1000.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Commodore",
+      "year": "1985",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Dreamcast (USA, NTSC)",
+      "mameName": "dc",
+      "parentName": "dcjp",
+      "path": "{gamesDir}\\MAME\\ROMS\\dcjp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1999",
+      "gameType": "Home Systems / Game Console",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Dreamcast (Europe, PAL)",
+      "mameName": "dceu",
+      "parentName": "dcjp",
+      "path": "{gamesDir}\\MAME\\ROMS\\dcjp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1999",
+      "gameType": "Home Systems / Game Console",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Dreamcast (Japan, NTSC)",
+      "mameName": "dcjp",
+      "path": "{gamesDir}\\MAME\\ROMS\\dcjp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "Home Systems / Game Console",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Dancing Stage Euro Mix 2 (G*C23 VER. EAA)",
+      "mameName": "dsem2",
+      "path": "{gamesDir}\\MAME\\CHDs\\dsem2\\c23eaa02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2002",
+      "gameType": "Rhythm / Dance",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Maximum Force (No Gore version)",
+      "mameName": "maxf_ng",
+      "parentName": "maxforce",
+      "path": "{gamesDir}\\MAME\\CHDs\\maxforce\\maxforce.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "MEGA ST (UK)",
+      "mameName": "megast_uk",
+      "parentName": "st",
+      "path": "{gamesDir}\\MAME\\ROMS\\st.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1987",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

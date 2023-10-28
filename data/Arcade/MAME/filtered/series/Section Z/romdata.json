@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Section Z (set 1)",
+      "mameName": "sectionz",
+      "path": "{gamesDir}\\MAME\\ROMS\\sectionz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1985",
+      "gameType": "Shooter / Flying",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Side Arms - Hyper Dyne (World, 861129)",
+      "mameName": "sidearms",
+      "path": "{gamesDir}\\MAME\\ROMS\\sidearms.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1986",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Die Hard Arcade (UET 960515 V1.000)",
+      "mameName": "diehard",
+      "path": "{gamesDir}\\MAME\\ROMS\\diehard.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1996",
+      "gameType": "Fighter / 2.5D",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

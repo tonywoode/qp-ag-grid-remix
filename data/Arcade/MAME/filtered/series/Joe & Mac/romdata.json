@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Caveman Ninja (World ver 4)",
+      "mameName": "cninja",
+      "path": "{gamesDir}\\MAME\\ROMS\\cninja.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1991",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Joe & Mac Returns (World, Version 1.1, 1994.05.27)",
+      "mameName": "joemacr",
+      "path": "{gamesDir}\\MAME\\ROMS\\joemacr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East",
+      "year": "1994",
+      "gameType": "Platform / Run Jump",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

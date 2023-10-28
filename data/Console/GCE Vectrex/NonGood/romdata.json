@@ -1,0 +1,847 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "3D Colour Test",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\3D Colour Test.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4DROTCUB",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\4DROTCUB.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4k pack1 (01)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\4k pack1 (01).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4k pack2 (01)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\4k pack2 (01).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "all32k",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\all32k.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alligator People",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Alligator People.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ARTCART1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\ARTCART1.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "astro",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\astro.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "beckys_message",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\beckys_message.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BEDLAM",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\BEDLAM.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BLACK1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\BLACK1.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BLACK2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\BLACK2.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "boxer",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\boxer.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Breakout (michael)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Breakout (michael).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "demo 1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\demo 1.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "demo 2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\demo 2.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "demo 3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\demo 3.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "demo 4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\demo 4.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "demo 5",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\demo 5.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DEMO1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\DEMO1.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DEMO2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\DEMO2.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DEMO3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\DEMO3.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DEMO4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\DEMO4.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "DEMO5",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\DEMO5.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demo6",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Demo6.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DUALVEC1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\DUALVEC1.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DUALVEC2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\DUALVEC2.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ETCH",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\ETCH.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ETCsH",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\ETCsH.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "exec",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\exec.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FROGGER",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\FROGGER.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "kokos_retribution",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\kokos_retribution.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kousokusen",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Kousokusen.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LEFT",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\LEFT.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lineart 01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\lineart 01.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lineart 02",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\lineart 02.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lineart 03",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\lineart 03.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lineart 04",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\lineart 04.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lineart01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\lineart01.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lineart02",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\lineart02.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lineart03",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\lineart03.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lineart04",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\lineart04.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LOADER",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\LOADER.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mail Plane (USA) (Proto)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Mail Plane (USA) (Proto).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Storm (JUE)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Mine Storm (JUE).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MINE-2D",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\MINE-2D.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MineStorm",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\MineStorm.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nebula Commander (2005)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Nebula Commander (2005).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "OMEGA CHASE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\OMEGA CHASE.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "One, Two, Vec-Fu Demo - By Michael Borrmann",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\One, Two, Vec-Fu Demo - By Michael Borrmann.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paratroopers by Anonymous (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Paratroopers by Anonymous (PD).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PDM",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\PDM.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pimmelsafari2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\pimmelsafari2.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitcher's Duel (USA) (Proto)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Pitcher's Duel (USA) (Proto).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PRELUDE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\PRELUDE.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Protector & YASI (050712)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Protector & YASI (050712).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pythagorean Theorem",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Pythagorean Theorem.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "revector",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\revector.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "revival_Performance VX",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\revival_Performance VX.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RIGHT",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\RIGHT.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SFPD beta",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\SFPD beta.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SkipBoot",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\SkipBoot.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sledge",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\sledge.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snow Challenge",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Snow Challenge.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPACE WARS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\SPACE WARS.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space_Frenzy",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Space_Frenzy.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPACEWAR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\SPACEWAR.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPECTRUM",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\SPECTRUM.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SSlingTE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\SSlingTE.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STar SLING FE (special edition)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\STar SLING FE (special edition).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STARHAWK",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\STARHAWK.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TESsT",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\TESsT.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "test",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\test.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tsu-dl",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\tsu-dl.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "utg",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\utg.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VECATHLON 0.07",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\VECATHLON 0.07.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VecFlash - Memory (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\VecFlash - Memory (PD).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VecFu",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\VecFu.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vecmania.bin",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Vecmania.bin.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vecmon",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vecmon.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vectopia.bin",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Vectopia.bin.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vector Sports Boxing Final version (2002)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Vector Sports Boxing Final version (2002).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vector21",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Vector21.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vectrex City Bomber Freeware Edition",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Vectrex City Bomber Freeware Edition.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vectrex demo for VecVox",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Vectrex demo for VecVox.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vectrex multi1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vectrex multi1.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vectrex multi2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vectrex multi2.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vectrex multi3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vectrex multi3.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vectrex Thrust 1.01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Vectrex Thrust 1.01.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VecVox Driver Demo by Alex Herbert (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\VecVox Driver Demo by Alex Herbert (PD).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VecVox Xmas",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\VecVox Xmas.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vfm",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vfm.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vfm_auto.men",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vfm_auto.men.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vix-dl",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vix-dl.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vol1_nona",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vol1_nona.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vol2_kingpin",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vol2_kingpin.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vol3_beth",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vol3_beth.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vol4_yoehl",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vol4_yoehl.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vol5_ztagger",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\vol5_ztagger.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "voz_vectrex",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\voz_vectrex.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "War of The Robots (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\War of The Robots (Beta).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "War of The Robots (Freeware Edition)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\War of The Robots (Freeware Edition).zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WAR OF THE ROBOTS-BOW TO THE QUEEN",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\WAR OF THE ROBOTS-BOW TO THE QUEEN.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zoaxmas",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\Zoaxmas.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-ATTACK",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVect\\ZZZ-UNK-ATTACK.zip",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

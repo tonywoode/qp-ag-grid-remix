@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Choky! Choky!",
+      "mameName": "chokchok",
+      "path": "{gamesDir}\\MAME\\ROMS\\chokchok.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SemiCom",
+      "year": "1995",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dream World",
+      "mameName": "dreamwld",
+      "path": "{gamesDir}\\MAME\\ROMS\\dreamwld.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SemiCom",
+      "year": "2000",
+      "gameType": "Platform / Run Jump",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Racin' Force (ver EAC)",
+      "mameName": "racinfrc",
+      "path": "{gamesDir}\\MAME\\ROMS\\racinfrc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1994",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Racin' Force (ver UAB)",
+      "mameName": "racinfrcu",
+      "parentName": "racinfrc",
+      "path": "{gamesDir}\\MAME\\ROMS\\racinfrc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1994",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "WEC Le Mans 24 (v2.00, set 1)",
+      "mameName": "wecleman",
+      "path": "{gamesDir}\\MAME\\ROMS\\wecleman.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1986",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "WEC Le Mans 24 (v2.00, set 2)",
+      "mameName": "weclemana",
+      "parentName": "wecleman",
+      "path": "{gamesDir}\\MAME\\ROMS\\wecleman.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1986",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "WEC Le Mans 24 (v1.26)",
+      "mameName": "weclemanb",
+      "parentName": "wecleman",
+      "path": "{gamesDir}\\MAME\\ROMS\\wecleman.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1986",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

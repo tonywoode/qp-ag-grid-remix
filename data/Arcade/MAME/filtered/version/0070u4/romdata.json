@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Final Lap 2",
+      "mameName": "finalap2",
+      "path": "{gamesDir}\\MAME\\ROMS\\finalap2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1990",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Final Lap (Rev E)",
+      "mameName": "finallap",
+      "path": "{gamesDir}\\MAME\\ROMS\\finallap.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1987",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Four Trax",
+      "mameName": "fourtrax",
+      "path": "{gamesDir}\\MAME\\ROMS\\fourtrax.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1989",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Suzuka 8 Hours 2 (World, Rev B)",
+      "mameName": "suzuk8h2",
+      "path": "{gamesDir}\\MAME\\ROMS\\suzuk8h2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1993",
+      "gameType": "Driving / Race (chase view) Bike",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

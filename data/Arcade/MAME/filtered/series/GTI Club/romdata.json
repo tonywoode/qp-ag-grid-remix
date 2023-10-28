@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "GTI Club (ver EAA)",
+      "mameName": "gticlub",
+      "path": "{gamesDir}\\MAME\\ROMS\\gticlub.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

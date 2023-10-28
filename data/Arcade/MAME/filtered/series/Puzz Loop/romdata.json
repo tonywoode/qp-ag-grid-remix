@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Puzz Loop (Europe, v0.94)",
+      "mameName": "puzzloop",
+      "path": "{gamesDir}\\MAME\\ROMS\\puzzloop.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mitchell",
+      "year": "1998",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Puzz Loop 2 (Euro 010302)",
+      "mameName": "pzloop2",
+      "path": "{gamesDir}\\MAME\\ROMS\\pzloop2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mitchell (Capcom license)",
+      "year": "2001",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,1743 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "20y by Snorpung",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\20y by Snorpung.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4 in 1 (Europe) (4B-002) (Unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\4 in 1 (Europe) (4B-002) (Unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4 in 1 (Europe) (4B-005) (Unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\4 in 1 (Europe) (4B-005) (Unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Penguin (U) [tr Fr Emulation-151]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Amazing Penguin (U) [tr Fr Emulation-151].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AN_AWESOME_HACK_by_Smallhacker_(pokemon_gold_hack)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\AN_AWESOME_HACK_by_Smallhacker_(pokemon_gold_hack).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astro Rabby (J) [T+Rus_Chief-NET]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Astro Rabby (J) [T+Rus_Chief-NET].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ateliere BY tokyo7600",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Ateliere BY tokyo7600.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ATV Racing & Karate Joe (Europe) (Alternate) (Unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\ATV Racing & Karate Joe (Europe) (Alternate) (Unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bass [b]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\bass [b].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "battlecity (CHS)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\battlecity (CHS).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "BattleTanx (Europe) (En,Fr,De)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\BattleTanx (Europe) (En,Fr,De).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beast Fighter (Asia) (Unl) [b]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Beast Fighter (Asia) (Unl) [b].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beast Fighter (Asia) (Unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Beast Fighter (Asia) (Unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bomb_raider_2_gameboy",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\bomb_raider_2_gameboy.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman GB (U) [S][!] [T+Rus_Chief-NET]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Bomberman GB (U) [S][!] [T+Rus_Chief-NET].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Quest (E) (M3) [C][!] [T+Rus_Magic Team]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Bomberman Quest (E) (M3) [C][!] [T+Rus_Magic Team].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Selection (Korea)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Bomberman Selection (Korea).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Korean",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bugs Bunny (U) [!][T+Rus_Cool-Spot]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Bugs Bunny (U) [!][T+Rus_Cool-Spot].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bugs Bunny, The - Crazy Castle II (USA) [Hack by Frank Maggiore v3.0] (~Ultimate Bugs Bunny, The - Crazy Castle II)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Bugs Bunny, The - Crazy Castle II (USA) [Hack by Frank Maggiore v3.0] (~Ultimate Bugs Bunny, The - Crazy Castle II).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bugs Bunny, The - Crazy Castle II (USA) [Hack by Frank Maggiore+Willj168 v1.0] (~Ultimate Bugs Bunny, The - Crazy Castle II - Mayhem Edition)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Bugs Bunny, The - Crazy Castle II (USA) [Hack by Frank Maggiore+Willj168 v1.0] (~Ultimate Bugs Bunny, The - Crazy Castle II - Mayhem Edition).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cardcaptor Sakura - Itsumo Sakura-chan to Issho (Japan) (Rev B)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Cardcaptor Sakura - Itsumo Sakura-chan to Issho (Japan) (Rev B).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carl Lewis Athletics 2000 (Europe) (En,Fr,De,Es,It,Nl) [b]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Carl Lewis Athletics 2000 (Europe) (En,Fr,De,Es,It,Nl) [b].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castle Quest (U) [tr rus chief.net]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Castle Quest (U) [tr rus chief.net].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castle_Quest_(U)_[!] [T+Rus_Chief-Net]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Castle_Quest_(U)_[!] [T+Rus_Chief-Net].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castlevania Adventure, The ('89) (rus)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Castlevania Adventure, The ('89) (rus).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castlevania Adventure, The (Europe) [Hack by Hiro1112 v1.0] (Speed Up)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Castlevania Adventure, The (Europe) [Hack by Hiro1112 v1.0] (Speed Up).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castlevania II - Belmont's Revenge (RUS) [tr rus chief]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Castlevania II - Belmont's Revenge (RUS) [tr rus chief].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chessmaster, The (Europe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Chessmaster, The (Europe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chou Majin Eiyuuden Wataru - Mazekko Monster (Japan) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Chou Majin Eiyuuden Wataru - Mazekko Monster (Japan) (Beta).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cool Hand (Europe) (Fr,De)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Cool Hand (Europe) (Fr,De).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cool Hand (Europe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Cool Hand (Europe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crystalis (U) [C][!] [T+Rus_Chief-NET]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Crystalis (U) [C][!] [T+Rus_Chief-NET].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Daffy Duck - Fowl Play (U) [C][!] [T+Rus]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Daffy Duck - Fowl Play (U) [C][!] [T+Rus].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "darkwing duck (germany)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\darkwing duck (germany).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "German",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DeathrayFreeVersion2009",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\DeathrayFreeVersion2009.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "debitiru (CHT)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\debitiru (CHT).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "detective conan (CHS)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\detective conan (CHS).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "digimon 02 jade (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\digimon 02 jade (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "digimon 2 (unl) (hacked)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\digimon 2 (unl) (hacked).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "digimon 2 (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\digimon 2 (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "digimon 4 (unl) (hacked)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\digimon 4 (unl) (hacked).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "digimon 4 (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\digimon 4 (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "digimon 5 (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\digimon 5 (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "digimon 5 crystal (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\digimon 5 crystal (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diva Starz (Europe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Diva Starz (Europe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diva Starz (France)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Diva Starz (France).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "French",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diva Starz (Germany)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Diva Starz (Germany).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "German",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DK Bongos controller with Game Boy Player",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\DK Bongos controller with Game Boy Player.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donald Duck - Quack Attack (U) (M5) [C][!] [T+Rus_ver0.5 by -V-]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Donald Duck - Quack Attack (U) (M5) [C][!] [T+Rus_ver0.5 by -V-].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donald Duck - Quack Attack (U) (M5) [C][!] [T+Rus_ver1.0 by -V-]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Donald Duck - Quack Attack (U) (M5) [C][!] [T+Rus_ver1.0 by -V-].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey_Kong_GB_-_Dinky_Kong_and_Dixie_Kong_(J)_[C][!]_(Color_Palette_Hack_by_Blaziken257)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Donkey_Kong_GB_-_Dinky_Kong_and_Dixie_Kong_(J)_[C][!]_(Color_Palette_Hack_by_Blaziken257).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Dragon (J) [!][T+Rus_Cool-Spot]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Double Dragon (J) [!][T+Rus_Cool-Spot].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dq monsters",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\dq monsters.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dracula 2008-07-20",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\dracula 2008-07-20.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dracula xpmck-18",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\dracula xpmck-18.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dracula",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\dracula.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DRAGON BALL Z FIGHTING 2005 (C)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\DRAGON BALL Z FIGHTING 2005 (C).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Chinese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Driver (Europe) (En,Fr,De,Es,It)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Driver (Europe) (En,Fr,De,Es,It).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DrumTechFreeVersion2009",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\DrumTechFreeVersion2009.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dukes of Hazzard, The - Racing for Home (Europe) (En,Fr,De)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Dukes of Hazzard, The - Racing for Home (Europe) (En,Fr,De).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dynablaster (F) [Emulation-151",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Dynablaster (F) [Emulation-151.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "French",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "empty.xsv",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\empty.xsv.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fairy Kitty no Kaiun Jiten - Yousei no Kuni no Uranai Shugyou (Japan) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Fairy Kitty no Kaiun Jiten - Yousei no Kuni no Uranai Shugyou (Japan) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fifa road to the world cup '98 (europe) (rev a)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\fifa road to the world cup '98 (europe) (rev a).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Fantasy Adventure (U) [tr reus chief.net]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Final Fantasy Adventure (U) [tr reus chief.net].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Fantasy Legend III text & graphics update v1.5 (FFL3 Hack)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Final Fantasy Legend III text & graphics update v1.5 (FFL3 Hack).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final_Fantasy_Adventure_(U) [T+Rus_Chief-NET]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Final_Fantasy_Adventure_(U) [T+Rus_Chief-NET].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger (USA) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Frogger (USA) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frogger (usa)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\frogger (usa).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fruitless",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\fruitless.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "full time soccer (hacked) (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\full time soccer (hacked) (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fushigi no DungeonX",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Fushigi no DungeonX.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fxbank",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\fxbank.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gaia master (CHS)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\gaia master (CHS).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game Boy Controller Kensa Cartridge (Japan) [b]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Game Boy Controller Kensa Cartridge (Japan) [b].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game Boy Gallery 4 (Australia)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Game Boy Gallery 4 (Australia).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gb digimon (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\gb digimon (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GB_Elite",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\GB_Elite.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GBamaTron",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\GBamaTron.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GBC_MENU_Multicart",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\GBC_MENU_Multicart.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gejmboj (2010)(Snorpung)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\gejmboj (2010)(Snorpung).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GOLD28",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\GOLD28.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hamster Paradise 2 (Japan) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Hamster Paradise 2 (Japan) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "harry potter (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\harry potter (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harvest Moon 2 GBC (PL)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Harvest Moon 2 GBC (PL).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harvest Moon GBC (PL)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Harvest Moon GBC (PL).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "helloworld",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\helloworld.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heroes of Might and Magic (U) (M3) [C][!] [T+Rus_ver090 by SergeyK]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Heroes of Might and Magic (U) (M3) [C][!] [T+Rus_ver090 by SergeyK].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ice age (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\ice age (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ice age ii (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\ice age ii (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ikinari boper 1.5",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\ikinari boper 1.5.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jml-joul",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\jml-joul.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jml-mce",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\jml-mce.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jml-sam",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\jml-sam.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jml-stor",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\jml-stor.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jswJTJS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\jswJTJS.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jswSPACE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\jswSPACE.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JSWv2b3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\JSWv2b3.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "kindaichi (CHT)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\kindaichi (CHT).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "king of fighters 2003 (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\king of fighters 2003 (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kisekae Series 2 - Oshare Nikki (Japan) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Kisekae Series 2 - Oshare Nikki (Japan) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kung-Fu Master (U)[T+Rus_Cool-Spot]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Kung-Fu Master (U)[T+Rus_Cool-Spot].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "kunio (CHS)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\kunio (CHS).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of the River King GB (Australia)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Legend of the River King GB (Australia).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Zelda, The - Link's Awakening (Canada)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Legend of Zelda, The - Link's Awakening (Canada).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Zelda, The - Link's Awakening DX (France) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Legend of Zelda, The - Link's Awakening DX (France) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "French",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Zelda, The - Link's Awakening DX (Germany) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Legend of Zelda, The - Link's Awakening DX (Germany) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "German",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Zelda, The - Link's Awakening DX (Rus_Sahalin)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Legend of Zelda, The - Link's Awakening DX (Rus_Sahalin).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Zelda, The - Oracle of Ages [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Legend of Zelda, The - Oracle of Ages [a].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Zelda, The - Oracle of Ages",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Legend of Zelda, The - Oracle of Ages.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lei nu ji shen (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\lei nu ji shen (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lemmings (Europe) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Lemmings (Europe) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Litti's Summer Sports (Germany)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Litti's Summer Sports (Germany).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "German",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Little Nicky",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Little Nicky.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Looney Tunes Collector - Martian Alert! (E) (M6) [C][!] [T+Rus_ver095 by SergeyK]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Looney Tunes Collector - Martian Alert! (E) (M6) [C][!] [T+Rus_ver095 by SergeyK].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Man meets machine - Alternative Party 2009",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Man meets machine - Alternative Party 2009.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MazezaM1.2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\MazezaM1.2.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Megami Tensei Gaiden - Last Bible II (Japan) [En by EsperKnight v1.0]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Megami Tensei Gaiden - Last Bible II (Japan) [En by EsperKnight v1.0].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "merryc 2008-07-13",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\merryc 2008-07-13.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "merryc 2008-07-20",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\merryc 2008-07-20.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "merryc",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\merryc.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "metal slug 2001 (unl) (a2)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\metal slug 2001 (unl) (a2).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "metal slug 2001 (unl) (a3)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\metal slug 2001 (unl) (a3).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metroid II - Return of Samus (World) [Graphic Hack by Shaktool v1.0] (~Metroid II - Justin Bailey)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Metroid II - Return of Samus (World) [Graphic Hack by Shaktool v1.0] (~Metroid II - Justin Bailey).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mGB1_2_3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\mGB1_2_3.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mGB1_2_4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\mGB1_2_4.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mickey Mouse (J)[T+Rus_Cool-Spot]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Mickey Mouse (J)[T+Rus_Cool-Spot].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mickey's Dangerous Chase (U) [!][T+Rus_v1.01 by Bhlady]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Mickey's Dangerous Chase (U) [!][T+Rus_v1.01 by Bhlady].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mo shou zheng ba 3 - hun luan zhi jie (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\mo shou zheng ba 3 - hun luan zhi jie (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monsters, Inc. (Europe) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Monsters, Inc. (Europe) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Motocrossmaniac",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Motocrossmaniac.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr. Driller (Europe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Mr. Driller (Europe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "muddygb11",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\muddygb11.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Muppets, The (Europe) (En,Fr,De,Es,It,Nl,Sv) (AP9P)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Muppets, The (Europe) (En,Fr,De,Es,It,Nl,Sv) (AP9P).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MusicTechV2FreeVersion2009",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\MusicTechV2FreeVersion2009.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nectaris GB (Japan) [En by TransBRC v1.11]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Nectaris GB (Japan) [En by TransBRC v1.11].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "neoFFL2 v3.003 (FFL2 Hack)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\neoFFL2 v3.003 (FFL2 Hack).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "nerdrix1.0",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\nerdrix1.0.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Net de Gate - Minigame @ 100 (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Net de Gate - Minigame @ 100 (Japan).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nettou Samurai Spirits (Japan) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Nettou Samurai Spirits (Japan) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "nightfall-eurasia",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\nightfall-eurasia.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "nightfall-eurasia-1k",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\nightfall-eurasia-1k.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja_Taro_(U)_[!] [T+Rus_Chief-NET]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Ninja_Taro_(U)_[!] [T+Rus_Chief-NET].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NinjaTaro (Prototype)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\NinjaTaro (Prototype).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "oh! (2009)(Snorpung)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\oh! (2009)(Snorpung).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "oldschool",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\oldschool.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pocket Monsters - Pikachu (Japan) (Rev D)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Pocket Monsters - Pikachu (Japan) (Rev D).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokemon - Crystal Version (USA, Europe) (Rev A) [Enhancement Mod v1.5 by Flash] (All Pokemon Edition)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Pokemon - Crystal Version (USA, Europe) (Rev A) [Enhancement Mod v1.5 by Flash] (All Pokemon Edition).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokemon - Red Version (USA, Europe) [Hack by Koolboyman v4.0Final] (~Pokemon - Brown)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Pokemon - Red Version (USA, Europe) [Hack by Koolboyman v4.0Final] (~Pokemon - Brown).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokemon - Red Version (USA, Europe) [Hack by PokeGlitch v1.0] (~Pokemon - Team Rocket Edition)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Pokemon - Red Version (USA, Europe) [Hack by PokeGlitch v1.0] (~Pokemon - Team Rocket Edition).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokemon Card GB2 - GR Dan Sanjou! (Japan) [En by Jazz v2.0Beta] (~Pokemon Trading Card Game 2) (Incomplete)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Pokemon Card GB2 - GR Dan Sanjou! (Japan) [En by Jazz v2.0Beta] (~Pokemon Trading Card Game 2) (Incomplete).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokemon Gold (PL)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Pokemon Gold (PL).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokemon Red (PL)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Pokemon Red (PL).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokemon Red (UE) [S][!]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Pokemon Red (UE) [S][!].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokemon_Prism_Beta_II_(Pokemon_Gold_Hack)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Pokemon_Prism_Beta_II_(Pokemon_Gold_Hack).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pong",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\pong.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pounder2_001",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\pounder2_001.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "powerpuff battle",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\powerpuff battle.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Powerpuff Girls, The - Bad Mojo Jojo (Europe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Powerpuff Girls, The - Bad Mojo Jojo (Europe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Powerpuff Girls, The - Bad Mojo Jojo (USA) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Powerpuff Girls, The - Bad Mojo Jojo (USA) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Powerpuff Girls, The - Battle Him (USA) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Powerpuff Girls, The - Battle Him (USA) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "powerpuff girls, the - l'affreux mojo jojo (france)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\powerpuff girls, the - l'affreux mojo jojo (france).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "French",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Powerpuff Girls, The - Paint the Townsville Green (USA) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Powerpuff Girls, The - Paint the Townsville Green (USA) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pushpin1.0",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\pushpin1.0.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puyo Puyo (Japan) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Puyo Puyo (Japan) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PV4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\PV4.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rockman DX3 (with avatar of emenies) (C)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Rockman DX3 (with avatar of emenies) (C).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Chinese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rodland (Europe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Rodland (Europe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rtype",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\rtype.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "saishuu gensou (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\saishuu gensou (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "san goku shi - act c (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\san goku shi - act c (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "san guo zhi - ao shi tian jia (unl) (alt)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\san guo zhi - ao shi tian jia (unl) (alt).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "san guo zhi - ao shi tian jia (unl) (bad maybe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\san guo zhi - ao shi tian jia (unl) (bad maybe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sanrio Uranai Party (Japan) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Sanrio Uranai Party (Japan) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "scotland 2008-07-13",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\scotland 2008-07-13.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "scotland",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\scotland.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Senkai Ibonroku Juntei Taisen - TV Animation Senkaiden Houshin Engi Yori (C)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Senkai Ibonroku Juntei Taisen - TV Animation Senkaiden Houshin Engi Yori (C).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Chinese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shanghai (Japan) (Activision)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Shanghai (Japan) (Activision).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "shi kong xing shou (multicart rip) (unl) [c]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\shi kong xing shou (multicart rip) (unl) [c].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "shin san guo shi 2 (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\shin san guo shi 2 (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "shining force (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\shining force (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Simpsons, The - Escape from Camp Deadly (U) [!] [T+Rus]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Simpsons, The - Escape from Camp Deadly (U) [!] [T+Rus].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sky dragon (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\sky dragon (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sludgeon099002",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\sludgeon099002.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sludgeon2_003",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\sludgeon2_003.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SMARTCOM (Europe) (Unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\SMARTCOM (Europe) (Unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "smartcom128k_furrtek",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\smartcom128k_furrtek.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "smartcom128kemu_furrtek",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\smartcom128kemu_furrtek.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snoopy Tennis (Europe) (En,Fr,De,Es,It,Nl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Snoopy Tennis (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invasion & Painter (Europe) (Unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Space Invasion & Painter (Europe) (Unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SpeedyG",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\SpeedyG.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "stepgirl B15",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\stepgirl B15.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "stone age (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\stone age (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "super breakout (usa)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\super breakout (usa).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Land (JUE) (V1.0) [!] [T+Rus]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Super Mario Land (JUE) (V1.0) [!] [T+Rus].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Land (JUE) (V1.1) [!] [T+Rus by Lupus]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Super Mario Land (JUE) (V1.1) [!] [T+Rus by Lupus].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Land (World) (Rev A) [Difficulty Mod v1.0 by Frank Maggiore] (Harder Enemies)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Super Mario Land (World) (Rev A) [Difficulty Mod v1.0 by Frank Maggiore] (Harder Enemies).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Land (World) (Rev A) [Hack by Frank Maggiore v1.1] (~Super Super Mario Land)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Super Mario Land (World) (Rev A) [Hack by Frank Maggiore v1.1] (~Super Super Mario Land).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Land (World) [Difficulty Mod v1.0 by Frank Maggiore] (Harder Enemies)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Super Mario Land (World) [Difficulty Mod v1.0 by Frank Maggiore] (Harder Enemies).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Land (World) [Hack by Frank Maggiore v1.1] (~Super Super Mario Land)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Super Mario Land (World) [Hack by Frank Maggiore v1.1] (~Super Super Mario Land).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Land (World) [Hack by Hiro1112 v3.0] (New GFX Edition)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Super Mario Land (World) [Hack by Hiro1112 v3.0] (New GFX Edition).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "super robot taisen final vol.1 (unl) (alt)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\super robot taisen final vol.1 (unl) (alt).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sylvanian Families - Otogi no Kuni no Pendant (Japan) [En by Watercrown v1.1b] (~Sylvanian Families - The Fairyland Pendant)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Sylvanian Families - Otogi no Kuni no Pendant (Japan) [En by Watercrown v1.1b] (~Sylvanian Families - The Fairyland Pendant).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sylvanian Melodies - Mori no Nakama to Odori Mashi! (Japan) [En by Watercrown v1.0]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Sylvanian Melodies - Mori no Nakama to Odori Mashi! (Japan) [En by Watercrown v1.0].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "the legend of zelda - link's awakening",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\the legend of zelda - link's awakening.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tintin03",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Tintin03.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "translation (CHS)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\translation (CHS).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trick Boarder (Europe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Trick Boarder (Europe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tsume Shougi - Kamiki Godan (Japan) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Tsume Shougi - Kamiki Godan (Japan) (Beta).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "wwf_attitude_(nude_sable_hack)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\wwf_attitude_(nude_sable_hack).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "X-Men - Wolverine's Rage (Europe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\X-Men - Wolverine's Rage (Europe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yossi no Tamago (J)(CHI)(SKY LEAGUE)[!]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Yossi no Tamago (J)(CHI)(SKY LEAGUE)[!].zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yu-Gi-Oh! - Dark Duel Stories (Europe)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Yu-Gi-Oh! - Dark Duel Stories (Europe).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev B)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev B).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zelda tr CHS V1.0",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Zelda tr CHS V1.0.zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "zhong zhuan qi bing (unl)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\zhong zhuan qi bing (unl).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zoids - Jashin Fukkatsu! Genobreaker Hen (Japan) (Rev A)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodGBX\\Zoids - Jashin Fukkatsu! Genobreaker Hen (Japan) (Rev A).zip",
+      "emulatorName": "RetroArch Nintendo Game Boy/Color (SameBoy)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

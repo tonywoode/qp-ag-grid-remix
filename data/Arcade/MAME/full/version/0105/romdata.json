@@ -1,0 +1,60 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "PC/AT 586 (PIIX4)",
+      "mameName": "at586",
+      "parentName": "ibm5170",
+      "path": "{gamesDir}\\MAME\\ROMS\\ibm5170.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "<generic>",
+      "year": "1990",
+      "gameType": "Professional Systems / Business Computer & Terminal",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Nintendo 64",
+      "mameName": "n64",
+      "path": "{gamesDir}\\MAME\\ROMS\\n64.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nintendo",
+      "year": "1996",
+      "gameType": "Home Systems / Game Console",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Cosmac VIP (VP-711)",
+      "mameName": "vip",
+      "path": "{gamesDir}\\MAME\\ROMS\\vip.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "RCA",
+      "year": "1977",
+      "gameType": "Development Systems / Training Board",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "WonderSwan",
+      "mameName": "wswan",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Bandai",
+      "year": "1999",
+      "gameType": "Portable Systems / Handheld Game Console",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

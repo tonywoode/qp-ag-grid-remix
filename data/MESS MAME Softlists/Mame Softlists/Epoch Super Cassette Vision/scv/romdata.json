@@ -1,0 +1,361 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Astro Wars - Invader from Space",
+      "mameName": "astrwrs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\astrwrs.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom8k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Astro Wars II - Battle in Galaxy",
+      "mameName": "astrwrs2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\astrwrs2.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom8k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BASIC Nyuumon",
+      "mameName": "basic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\basic.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom32k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Baseball",
+      "mameName": "baseball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\baseball.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Boulder Dash",
+      "mameName": "bdash",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\bdash.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Comic Circus",
+      "mameName": "comicirc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\comicirc.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Doraemon",
+      "mameName": "doraemon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\doraemon.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom64k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dragon Ball - Dragon Dai Hikyou",
+      "mameName": "dball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\dball.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1986",
+      "comment": " slot:rom128k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dragon Slayer",
+      "mameName": "dslayer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\dslayer.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1986",
+      "comment": " slot:rom32k_ram",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Elevator Fight",
+      "mameName": "elevfght",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\elevfght.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nekketsu Kung Fu Road / Kung Fu Road",
+      "mameName": "kungfurd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\kungfurd.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom64k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lupin III",
+      "mameName": "lupin3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\lupin3.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mappy",
+      "mameName": "mappy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\mappy.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1986",
+      "comment": " slot:rom32k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Milky Princess",
+      "mameName": "milkyprn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\milkyprn.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom32k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Miner 2049er",
+      "mameName": "mine2049",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\mine2049.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Y Monster Land",
+      "mameName": "y2mnstld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\y2mnstld.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1986",
+      "comment": " slot:rom128k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nebula",
+      "mameName": "nebula",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\nebula.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nebula (Alt)",
+      "mameName": "nebulaa",
+      "parentName": "nebula",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\nebula.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pole Position II",
+      "mameName": "polepos2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\polepos2.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom128k_ram",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pop & Chips",
+      "mameName": "popchips",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\popchips.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom32k_ram",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Professional Wrestling",
+      "mameName": "prowrest",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\prowrest.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1986",
+      "comment": " slot:rom128k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Punch Boy",
+      "mameName": "punchboy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\punchboy.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Real Graphic Mahjongg",
+      "mameName": "rgmahjon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\rgmahjon.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sky Kid",
+      "mameName": "skykid",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\skykid.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1986",
+      "comment": " slot:rom64k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Speeder",
+      "mameName": "starspdr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\starspdr.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom64k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Shougi Nyuumon",
+      "mameName": "shogi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\shogi.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom32k_ram",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Sansuu Puter",
+      "mameName": "sansupyu",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\sansupyu.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom32k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Soccer",
+      "mameName": "soccer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\soccer.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Soccer (Alt)",
+      "mameName": "soccera",
+      "parentName": "soccer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\soccer.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Golf",
+      "mameName": "suprgolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\suprgolf.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ton Ton Ball",
+      "mameName": "ttball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\ttball.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Wheelie Racer",
+      "mameName": "wheelrcr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\scv\\wheelrcr.7z",
+      "emulatorName": "MAME Epoch Super Cassette Vision -SOFTLIST scv",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": " slot:rom16k",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

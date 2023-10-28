@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Alpha Mission II / ASO II - Last Guardian (NGM-007 ~ NGH-007)",
+      "mameName": "alpham2",
+      "path": "{gamesDir}\\MAME\\ROMS\\alpham2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1991",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "ASO - Armored Scrum Object",
+      "mameName": "aso",
+      "path": "{gamesDir}\\MAME\\ROMS\\aso.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1985",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

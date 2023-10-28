@@ -1,0 +1,63 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dynamite Baseball '99 (Japan, Rev B)",
+      "mameName": "dybb99",
+      "path": "{gamesDir}\\MAME\\ROMS\\dybb99.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1999",
+      "gameType": "Sports / Baseball",
+      "language": "Korean",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dynamite Baseball NAOMI (Japan)",
+      "mameName": "dybbnao",
+      "path": "{gamesDir}\\MAME\\ROMS\\dybbnao.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "Sports / Baseball",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dynamite Baseball",
+      "mameName": "dynabb",
+      "path": "{gamesDir}\\MAME\\ROMS\\dynabb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1996",
+      "gameType": "Sports / Baseball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dynamite Baseball 97 (Revision A)",
+      "mameName": "dynabb97",
+      "path": "{gamesDir}\\MAME\\ROMS\\dynabb97.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1997",
+      "gameType": "Sports / Baseball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

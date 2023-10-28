@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mahjong Gakuensai (Japan)",
+      "mameName": "gakusai",
+      "path": "{gamesDir}\\MAME\\ROMS\\gakusai.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "MakeSoft",
+      "year": "1997",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mahjong Gakuensai 2 (Japan)",
+      "mameName": "gakusai2",
+      "path": "{gamesDir}\\MAME\\ROMS\\gakusai2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "MakeSoft",
+      "year": "1998",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

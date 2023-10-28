@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Power Spikes (China)",
+      "mameName": "pspikesc",
+      "parentName": "pspikes",
+      "path": "{gamesDir}\\MAME\\ROMS\\pspikes.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1991",
+      "gameType": "Sports / Volleyball",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Rastan Saga (Japan Rev 1, Earlier code base)",
+      "mameName": "rastsagaa",
+      "parentName": "rastan",
+      "path": "{gamesDir}\\MAME\\ROMS\\rastan.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1987",
+      "gameType": "Platform / Fighter Scrolling",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

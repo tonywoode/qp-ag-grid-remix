@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Galaxy Force 2",
+      "mameName": "gforce2",
+      "path": "{gamesDir}\\MAME\\ROMS\\gforce2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1988",
+      "gameType": "Shooter / Flying (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Power Drift (World, Rev A)",
+      "mameName": "pdrift",
+      "path": "{gamesDir}\\MAME\\ROMS\\pdrift.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1988",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Street Fighter EX Plus (USA 970407)",
+      "mameName": "sfexp",
+      "path": "{gamesDir}\\MAME\\ROMS\\sfexp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom / Arika",
+      "year": "1997",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Woodpecker (set 1)",
+      "mameName": "woodpeck",
+      "path": "{gamesDir}\\MAME\\ROMS\\woodpeck.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Amenip (Palcom Queen River)",
+      "year": "1981",
+      "gameType": "Platform / Run Jump",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

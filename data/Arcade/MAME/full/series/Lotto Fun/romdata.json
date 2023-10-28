@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Lotto Fun 2",
+      "mameName": "lottof2",
+      "path": "{gamesDir}\\MAME\\ROMS\\lottof2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "HAR",
+      "year": "1993",
+      "gameType": "Casino / Lottery",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Lotto Fun",
+      "mameName": "lottofun",
+      "path": "{gamesDir}\\MAME\\ROMS\\lottofun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "H.A.R. Management",
+      "year": "1987",
+      "gameType": "Casino / Lottery",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

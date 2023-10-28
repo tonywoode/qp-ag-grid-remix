@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "A. D. 2083",
+      "mameName": "ad2083",
+      "path": "{gamesDir}\\MAME\\ROMS\\ad2083.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midcoin",
+      "year": "1983",
+      "gameType": "Shooter / Field",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Cyber Tank (v1.4)",
+      "mameName": "cybertnk",
+      "path": "{gamesDir}\\MAME\\ROMS\\cybertnk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Coreland",
+      "year": "1988",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "The Lost Castle In Darkmist",
+      "mameName": "darkmist",
+      "path": "{gamesDir}\\MAME\\ROMS\\darkmist.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seibu Kaihatsu (Taito license)",
+      "year": "1986",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Express Raider (World, Rev 4)",
+      "mameName": "exprraid",
+      "path": "{gamesDir}\\MAME\\ROMS\\exprraid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1986",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Welltris (World?, 2 players)",
+      "mameName": "welltris",
+      "path": "{gamesDir}\\MAME\\ROMS\\welltris.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1991",
+      "gameType": "Puzzle / Drop",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

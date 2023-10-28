@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Burning Force (Japan, old version)",
+      "mameName": "burnforco",
+      "parentName": "burnforc",
+      "path": "{gamesDir}\\MAME\\ROMS\\burnforc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1989",
+      "gameType": "Shooter / Driving (chase view)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Space Harrier (Rev A, 8751 315-5163A)",
+      "mameName": "sharrier",
+      "path": "{gamesDir}\\MAME\\ROMS\\sharrier.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1985",
+      "gameType": "Shooter / Flying (chase view)",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Super Glob (Pac-Man hardware) (German bootleg)",
+      "mameName": "sprglbpg",
+      "parentName": "suprglob",
+      "path": "{gamesDir}\\MAME\\ROMS\\suprglob.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Software Labor)",
+      "year": "1984",
+      "gameType": "Platform / Run Jump",
+      "language": "German",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

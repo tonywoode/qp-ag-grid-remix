@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)",
+      "mameName": "pbobbl2n",
+      "path": "{gamesDir}\\MAME\\ROMS\\pbobbl2n.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito (SNK license)",
+      "year": "1999",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Puzzle Bobble (Japan, B-System)",
+      "mameName": "pbobble",
+      "path": "{gamesDir}\\MAME\\ROMS\\pbobble.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1994",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Puzzle Bobble 2 (Ver 2.3O 1995/07/31)",
+      "mameName": "pbobble2",
+      "path": "{gamesDir}\\MAME\\ROMS\\pbobble2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1995",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Puzzle Bobble 3 (Ver 2.1O 1996/09/27)",
+      "mameName": "pbobble3",
+      "path": "{gamesDir}\\MAME\\ROMS\\pbobble3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Puzzle Bobble 4 (Ver 2.04O 1997/12/19)",
+      "mameName": "pbobble4",
+      "path": "{gamesDir}\\MAME\\ROMS\\pbobble4.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1997",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Puzzle Bobble / Bust-A-Move (Neo-Geo, NGM-083)",
+      "mameName": "pbobblen",
+      "path": "{gamesDir}\\MAME\\ROMS\\pbobblen.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1994",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Puzzle Bobble (V2.05O 1999/2/24 18:00)",
+      "mameName": "spuzbobl",
+      "path": "{gamesDir}\\MAME\\CHDs\\spuzbobl\\spuzbobl.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1999",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

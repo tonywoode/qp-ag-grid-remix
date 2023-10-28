@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gun Force II (US)",
+      "mameName": "gunforc2",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunforc2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1994",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gunforce - Battle Fire Engulfed Terror Island (World)",
+      "mameName": "gunforce",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunforce.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1991",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

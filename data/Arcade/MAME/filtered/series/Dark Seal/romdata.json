@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dark Seal (World revision 3)",
+      "mameName": "darkseal",
+      "path": "{gamesDir}\\MAME\\ROMS\\darkseal.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1990",
+      "gameType": "Maze / Fighter",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Wizard Fire (Over Sea v2.1)",
+      "mameName": "wizdfire",
+      "path": "{gamesDir}\\MAME\\ROMS\\wizdfire.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

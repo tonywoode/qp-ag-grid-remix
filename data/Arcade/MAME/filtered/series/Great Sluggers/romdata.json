@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Great Sluggers '94",
+      "mameName": "gslgr94u",
+      "path": "{gamesDir}\\MAME\\ROMS\\gslgr94u.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1994",
+      "gameType": "Sports / Baseball",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Great Sluggers (Japan)",
+      "mameName": "gslugrsj",
+      "path": "{gamesDir}\\MAME\\ROMS\\gslugrsj.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1993",
+      "gameType": "Sports / Baseball",
+      "rating": "70 to 80 (Good)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

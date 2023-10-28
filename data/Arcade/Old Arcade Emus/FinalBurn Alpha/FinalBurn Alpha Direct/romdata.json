@@ -1,0 +1,17 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "LOAD FinalBurn Alpha",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\LOAD FinalBurn Alpha.png",
+      "emulatorName": "FinalBurn Alpha Win32",
+      "language": "English",
+      "parameters": " ",
+      "comment": "Use a space and overwrite emulators",
+      "timesPlayed": "11",
+      "paramMode": "1"
+    }
+  ]
+}

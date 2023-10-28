@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Suzuka 8 Hours 2 (World, Rev B)",
+      "mameName": "suzuk8h2",
+      "path": "{gamesDir}\\MAME\\ROMS\\suzuk8h2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1993",
+      "gameType": "Driving / Race (chase view) Bike",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Suzuka 8 Hours 2 (Japan, Rev B)",
+      "mameName": "suzuk8h2j",
+      "parentName": "suzuk8h2",
+      "path": "{gamesDir}\\MAME\\ROMS\\suzuk8h2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1993",
+      "gameType": "Driving / Race (chase view) Bike",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Suzuka 8 Hours (World, Rev C)",
+      "mameName": "suzuka8h",
+      "path": "{gamesDir}\\MAME\\ROMS\\suzuka8h.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1992",
+      "gameType": "Driving / Race (chase view) Bike",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Suzuka 8 Hours (Japan, Rev B)",
+      "mameName": "suzuka8hj",
+      "parentName": "suzuka8h",
+      "path": "{gamesDir}\\MAME\\ROMS\\suzuka8h.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1992",
+      "gameType": "Driving / Race (chase view) Bike",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

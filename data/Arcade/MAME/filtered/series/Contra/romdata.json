@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Contra (US / Asia, set 1)",
+      "mameName": "contra",
+      "path": "{gamesDir}\\MAME\\ROMS\\contra.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1987",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Contra (PlayChoice-10)",
+      "mameName": "pc_cntra",
+      "path": "{gamesDir}\\MAME\\ROMS\\pc_cntra.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami (Nintendo of America license)",
+      "year": "1988",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Contra",
+      "mameName": "scontra",
+      "path": "{gamesDir}\\MAME\\ROMS\\scontra.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1988",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

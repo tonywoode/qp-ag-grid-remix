@@ -1,0 +1,95 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Kaiun Quiz (Japan, KW1/VER.A)",
+      "mameName": "kaiunqz",
+      "path": "{gamesDir}\\MAME\\ROMS\\kaiunqz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1999",
+      "gameType": "Quiz / Japanese",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Super World Stadium 2000 (Japan, SS01/VER.A)",
+      "mameName": "sws2000",
+      "path": "{gamesDir}\\MAME\\ROMS\\sws2000.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2000",
+      "gameType": "Sports / Baseball",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super World Stadium 2001 (Japan, SS11/VER.A)",
+      "mameName": "sws2001",
+      "parentName": "sws2000",
+      "path": "{gamesDir}\\MAME\\ROMS\\sws2000.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2001",
+      "gameType": "Sports / Baseball",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super World Stadium '98 (Japan, SS81/VER.A)",
+      "mameName": "sws98",
+      "path": "{gamesDir}\\MAME\\ROMS\\sws98.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1998",
+      "gameType": "Sports / Baseball",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Shin Nihon Pro Wrestling Toukon Retsuden 3 Arcade Edition (Japan, TR1/VER.A)",
+      "mameName": "toukon3",
+      "path": "{gamesDir}\\MAME\\ROMS\\toukon3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco / Tomy",
+      "year": "1997",
+      "gameType": "Sports / Wrestling",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Trivia Master (set 3)",
+      "mameName": "trvmstrb",
+      "parentName": "trvmstr",
+      "path": "{gamesDir}\\MAME\\ROMS\\trvmstr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Enerdyne Technologies Inc.",
+      "year": "1985",
+      "gameType": "Quiz / English * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    }
+  ]
+}

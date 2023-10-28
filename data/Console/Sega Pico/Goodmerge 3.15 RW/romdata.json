@@ -1,0 +1,672 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "6000-nin no Sensei-tachi ga Tsukutta Tanoshii Shougakkou Tanken 1",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\6000-nin no Sensei-tachi ga Tsukutta Tanoshii Shougakkou Tanken 1.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventures in Letterland with Jack & Jill",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Adventures in Letterland with Jack & Jill.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Caps Software",
+      "gameType": "Educational / Interactive Book",
+      "rating": "80",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anpanman to Chinou Up",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Anpanman to Chinou Up.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bakuryuu Sentai Abaranger",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Bakuryuu Sentai Abaranger.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Berenstain Bears', The - A School Day",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Berenstain Bears', The - A School Day.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Realtime / Sega",
+      "year": "1995",
+      "gameType": "Educational / General Early Childhood",
+      "rating": "80",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chibi Maruko-chan - Issho ni Asobou yo",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Chibi Maruko-chan - Issho ni Asobou yo.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crayola Crayons - Create a World",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Crayola Crayons - Create a World.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Sega",
+      "gameType": "Home / Design",
+      "rating": "100",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crayon Shinchan Oekaki Note",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Crayon Shinchan Oekaki Note.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Disney Princess - Princess ni Naritai!",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Disney Princess - Princess ni Naritai!.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Disney Princess Ariel",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Disney Princess Ariel.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dolucky no Oekaki House",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Dolucky no Oekaki House.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donald no Terebi Shou",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Donald no Terebi Shou.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon - Chiiku Asobi Dora-Land",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Doraemon - Chiiku Asobi Dora-Land.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon - Ensoku Imohori Undoukai",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Doraemon - Ensoku Imohori Undoukai.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon - Nobita no Machinaka Dokidoki Tanken!",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Doraemon - Nobita no Machinaka Dokidoki Tanken!.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon - Nobita to Maigo no Kyouryuu",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Doraemon - Nobita to Maigo no Kyouryuu.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon - Quiz ni Challenge!",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Doraemon - Quiz ni Challenge!.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon - Time Machine de Daibouken",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Doraemon - Time Machine de Daibouken.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon - Youchien wa Tanoshii na",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Doraemon - Youchien wa Tanoshii na.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ecco Jr. and the Great Ocean Treasure Hunt",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Ecco Jr. and the Great Ocean Treasure Hunt.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Sega",
+      "year": "1994",
+      "gameType": "Educational / General Early Childhood",
+      "rating": "80",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Exciting! Hataraku Norimono-tachi",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Exciting! Hataraku Norimono-tachi.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gakken no O-benkyou Soft - Hiragana",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Gakken no O-benkyou Soft - Hiragana.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gakken no O-benkyou Soft Tasizan Hikizan",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Gakken no O-benkyou Soft Tasizan Hikizan.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Great Counting Caper with The 3 Blind Mice, The",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Great Counting Caper with The 3 Blind Mice, The.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Caps Software",
+      "gameType": "Educational / Math",
+      "rating": "80",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heisei Kyouiku Iinkai Jr.",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Heisei Kyouiku Iinkai Jr..7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heisei Ten Sai Baka Bon Minna De Famiri-Restutoranni-Kun",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Heisei Ten Sai Baka Bon Minna De Famiri-Restutoranni-Kun.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hello Kitty no Suteki na O-tanjoubi",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Hello Kitty no Suteki na O-tanjoubi.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kabutcho Challenge Fishing - Kabutcho Tsuri Gakkou",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Kabutcho Challenge Fishing - Kabutcho Tsuri Gakkou.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kamen Rider Agito & Kuuga - Wild Battle",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Kamen Rider Agito & Kuuga - Wild Battle.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kantan Wakuwaku Keyboard",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Kantan Wakuwaku Keyboard.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kikansha Thomas Ni Notte",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Kikansha Thomas Ni Notte.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kuma no Pooh-san - Tanoshii Tashizan - Hikizan",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Kuma no Pooh-san - Tanoshii Tashizan - Hikizan.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lego Fun to Build - Block Asobi",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Lego Fun to Build - Block Asobi.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lion King, The - Adventures at Pride Rock",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Lion King, The - Adventures at Pride Rock.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magic Crayons",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Magic Crayons.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Math Antics with Disney's 101 Dalmatians",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Math Antics with Disney's 101 Dalmatians.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Sega",
+      "year": "1994",
+      "gameType": "Educational / Math",
+      "rating": "80",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "McDonald de Asobo!",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\McDonald de Asobo!.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mickey no Tokyo Disneyland Stamp Rally",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Mickey no Tokyo Disneyland Stamp Rally.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mickey's Blast Into the Past",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Mickey's Blast Into the Past.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Disney / Sega",
+      "year": "1994",
+      "gameType": "Educational / Interactive Book",
+      "rating": "80",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minna de O-ryouri O-saihou",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Minna de O-ryouri O-saihou.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Muppets on the Go!",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Muppets on the Go!.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Sega",
+      "year": "1996",
+      "gameType": "Educational / Interactive Book",
+      "rating": "80",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Musical Zoo",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Musical Zoo.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Sega",
+      "gameType": "Educational / Interactive Book",
+      "rating": "80",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nippon Mukasi Banasi",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Nippon Mukasi Banasi.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ongaku Daisuki Snoopy",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Ongaku Daisuki Snoopy.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pepe's Puzzles",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Pepe's Puzzles.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pico Baseball",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Pico Baseball.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pico Sampler",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Pico Sampler.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pico Soccer Mezase Soccer Senshu",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Pico Soccer Mezase Soccer Senshu.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Plarail Pico - Plarail de Asobou!",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Plarail Pico - Plarail de Asobou!.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pocahontas - Riverbend Adventures",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Pocahontas - Riverbend Adventures.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Realtime / Sega",
+      "year": "1995",
+      "gameType": "Home / Design",
+      "rating": "100",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pooh-san no Hajimete no Eigo",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Pooh-san no Hajimete no Eigo.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pooh-san no Ichinichi",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Pooh-san no Ichinichi.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Professor Pico und das Malkasten Puzzle",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Professor Pico und das Malkasten Puzzle.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Richard Scarry's - Huckle and Lowly's Busiest Day Ever",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Richard Scarry's - Huckle and Lowly's Busiest Day Ever.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Realtime / Sega",
+      "gameType": "Educational / General Early Childhood",
+      "rating": "100",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sansuu - Eigo de Mojars ni Chousen - Image Training for the Right Side of the Brain",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Sansuu - Eigo de Mojars ni Chousen - Image Training for the Right Side of the Brain.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scholastic's The Magic School Bus - Going Places",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Scholastic's The Magic School Bus - Going Places.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Educational",
+      "rating": "100",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sesame Street - Alphabet Avenue",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Sesame Street - Alphabet Avenue.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Educational / General Early Childhood",
+      "rating": "80",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shima Shima Tora no Shimajirou - Shimajirou to Yume no Kuni e Daibouken",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Shima Shima Tora no Shimajirou - Shimajirou to Yume no Kuni e Daibouken.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shima Shima Tora no Shimajirou - Tanoshii Ichinichi",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Shima Shima Tora no Shimajirou - Tanoshii Ichinichi.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smart Alex and Smart Alice - Curious Kids",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Smart Alex and Smart Alice - Curious Kids.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Sega",
+      "year": "1996",
+      "gameType": "Educational / Interactive Book",
+      "rating": "80",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snoopy no Gakugeikai",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Snoopy no Gakugeikai.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic The Hedgehog's Gameworld",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Sonic The Hedgehog's Gameworld.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Sega / Sega",
+      "year": "1996",
+      "gameType": "Educational / General Early Childhood",
+      "rating": "80",
+      "language": "English",
+      "comment": "Early Childhood",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soreike! Anpanman - Eigoto Nakayoshi 2 - Tanoshii Carnival",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Soreike! Anpanman - Eigoto Nakayoshi 2 - Tanoshii Carnival.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soreike! Anpanman no Medalympic World 2",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Soreike! Anpanman no Medalympic World 2.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soreike! Anpanman no Medalympic World",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Soreike! Anpanman no Medalympic World.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soreike! Anpanman no Ohanashi Daisuki Anpanman",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Soreike! Anpanman no Ohanashi Daisuki Anpanman.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soreike! Anpanman to Kotoba Asobi",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Soreike! Anpanman to Kotoba Asobi.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tails and the Music Maker",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Tails and the Music Maker.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Realtime / Sega",
+      "year": "1994",
+      "gameType": "Educational / Music",
+      "rating": "80",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tomica Pico - Bokura no Machi Tomica Town de Asobou!",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Tomica Pico - Bokura no Machi Tomica Town de Asobou!.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tottoko Hamtarou - Oekaki Ippai! Ham-chans!",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Tottoko Hamtarou - Oekaki Ippai! Ham-chans!.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toy Story 2 - Woody Sousaku Daisakusen!!",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Toy Story 2 - Woody Sousaku Daisakusen!!.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultraman Dyna D",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Ultraman Dyna D.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultraman Kids - Tobidase! Space Picnic",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Ultraman Kids - Tobidase! Space Picnic.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Year at Pooh Corner, A",
+      "path": "{gamesDir}\\Goodsets\\new\\GoodPico_3.15_GM_RW2016\\Year at Pooh Corner, A.7z",
+      "emulatorName": "RetroArch Sega Pico (PicoDrive)",
+      "companyName": "Disney / Sega",
+      "year": "1994",
+      "gameType": "Educational / Interactive Book",
+      "rating": "100",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

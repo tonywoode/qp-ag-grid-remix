@@ -1,0 +1,2267 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Acquire",
+      "mameName": "acquire",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\acquire.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Andromeda Conquest",
+      "mameName": "androm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\androm.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Temple of Apshai",
+      "mameName": "apshai",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\apshai.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Automated Simulations",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "B-1 Bomber Game",
+      "mameName": "b1bomb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\b1bomb.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Batter Up",
+      "mameName": "batter",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\batter.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Hayden Book Company",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Baseball Strategy",
+      "mameName": "bbstrat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\bbstrat.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blackjack",
+      "mameName": "bjack",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\bjack.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Commodore Business Machines, Inc.",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Casino Blackjack 5.7",
+      "mameName": "bjack1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\bjack1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Speakeasy Software",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Arcade Pak #3 Bomber Attack",
+      "mameName": "bomba",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\bomba.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Avalon Hill",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bridge",
+      "mameName": "bridge",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\bridge.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Petsoft",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bulls and Bears",
+      "mameName": "bullb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\bullb.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Speakeasy Software",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PET Checkers",
+      "mameName": "checkers",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\checkers.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "CMS Software Systems",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Conflict 2500",
+      "mameName": "conflict",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\conflict.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 1",
+      "mameName": "cur1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 2",
+      "mameName": "cur2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 3",
+      "mameName": "cur3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 4",
+      "mameName": "cur4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 5",
+      "mameName": "cur5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur5.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 6",
+      "mameName": "cur6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur6.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 7",
+      "mameName": "cur7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur7.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 8",
+      "mameName": "cur8",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur8.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 9",
+      "mameName": "cur9",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur9.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 10",
+      "mameName": "cur10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur10.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 11",
+      "mameName": "cur11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur11.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 12",
+      "mameName": "cur12",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur12.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 13",
+      "mameName": "cur13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur13.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 14",
+      "mameName": "cur14",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur14.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 15",
+      "mameName": "cur15",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur15.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 16",
+      "mameName": "cur16",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur16.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 17",
+      "mameName": "cur17",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur17.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 18",
+      "mameName": "cur18",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur18.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 19",
+      "mameName": "cur19",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur19.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 20",
+      "mameName": "cur20",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur20.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 21",
+      "mameName": "cur21",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur21.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 22",
+      "mameName": "cur22",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur22.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 23",
+      "mameName": "cur23",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur23.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 24",
+      "mameName": "cur24",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur24.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 25",
+      "mameName": "cur25",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur25.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 26",
+      "mameName": "cur26",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur26.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 27",
+      "mameName": "cur27",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur27.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 28",
+      "mameName": "cur28",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur28.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 29",
+      "mameName": "cur29",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur29.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursor 30",
+      "mameName": "cur30",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\cur30.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "The Code Works",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Draw Poker",
+      "mameName": "dpoker",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\dpoker.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Commodore Business Machines, Inc.",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adjectives 1",
+      "mameName": "eaadj1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaadj1n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adjectives 2",
+      "mameName": "eaadj2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaadj2n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adjectives 3",
+      "mameName": "eaadj3n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaadj3n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adjectives 4",
+      "mameName": "eaadj4n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaadj4n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity rRecords, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adverbs 1",
+      "mameName": "eaadv1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaadv1n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adverbs 2",
+      "mameName": "eaadv2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaadv2n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adverbs 3",
+      "mameName": "eaadv3n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaadv3n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adverbs 4",
+      "mameName": "eaadv4n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaadv4n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Contractions 1",
+      "mameName": "eacon1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eacon1n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Contractions 2",
+      "mameName": "eacon2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eacon2n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Contractions 3",
+      "mameName": "eacon3n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eacon3n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Contractions 4",
+      "mameName": "eacon4n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eacon4n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Flash Spelling",
+      "mameName": "eaflasn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaflasn.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Homonyms 1",
+      "mameName": "eahom1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eahom1n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Homonyms 2",
+      "mameName": "eahom2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eahom2n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Homonyms 3",
+      "mameName": "eahom3n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eahom3n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Homonyms 4",
+      "mameName": "eahom4n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eahom4n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nouns 1",
+      "mameName": "eanou1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eanou1n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nouns 2",
+      "mameName": "eanou2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eanou2n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nouns 3",
+      "mameName": "eanou3n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eanou3n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nouns 4",
+      "mameName": "eanou4n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eanou4n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pronouns 1",
+      "mameName": "eapro1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eapro1n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pronouns 2",
+      "mameName": "eapro2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eapro2n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pronouns 3",
+      "mameName": "eapro3n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eapro3n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pronouns 4",
+      "mameName": "eapro4n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eapro4n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Scrambled Letters",
+      "mameName": "eascrln",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eascrln.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Synonyms 1",
+      "mameName": "easyn1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\easyn1n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Synonyms 2",
+      "mameName": "easyn2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\easyn2n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Synonyms 3",
+      "mameName": "easyn3n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\easyn3n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Synonyms 4",
+      "mameName": "easyn4n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\easyn4n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Verbs 1",
+      "mameName": "eaver1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaver1n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Verbs 2",
+      "mameName": "eaver2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaver2n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Verbs 3",
+      "mameName": "eaver3n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaver3n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Verbs 4",
+      "mameName": "eaver4n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\eaver4n.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Activity Records, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Escape from the Death Planet",
+      "mameName": "escape",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\escape.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Fantasy Games Software",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GALAXY!",
+      "mameName": "galaxy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\galaxy.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galaxy Games",
+      "mameName": "galxyg",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\galxyg.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Commodore Business Machines, Inc.",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Guns of Fort Defiance",
+      "mameName": "gunsfd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\gunsfd.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Commodore Business Machines, Inc.",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 1",
+      "mameName": "ksm01",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm01.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 2",
+      "mameName": "ksm02",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm02.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 3",
+      "mameName": "ksm03",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm03.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 4",
+      "mameName": "ksm04",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm04.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 5",
+      "mameName": "ksm05",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm05.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 9",
+      "mameName": "ksm09",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm09.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 10",
+      "mameName": "ksm10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm10.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 11",
+      "mameName": "ksm11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm11.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 12",
+      "mameName": "ksm12",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm12.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Math Part 13",
+      "mameName": "ksm13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksm13.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Vocabulary Part 1",
+      "mameName": "ksv01",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksv01.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Vocabulary Part 2",
+      "mameName": "ksv02",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksv02.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Vocabulary Part 3",
+      "mameName": "ksv03",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksv03.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Vocabulary Part 4",
+      "mameName": "ksv04",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksv04.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Vocabulary Part 5",
+      "mameName": "ksv05",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksv05.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Vocabulary Part 6",
+      "mameName": "ksv06",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksv06.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Vocabulary Part 7",
+      "mameName": "ksv07",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksv07.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Word Relationships Part 1",
+      "mameName": "ksw01",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksw01.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "College Board Word Relationships Part 2",
+      "mameName": "ksw02",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ksw02.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Krell Software",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Microchess 2.0",
+      "mameName": "mchess2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mchess2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-ware",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Add-Facts 0-5",
+      "mameName": "miead",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\miead.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Alphabet",
+      "mameName": "mieal",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mieal.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Book Shelf",
+      "mameName": "miebo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\miebo.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Careers",
+      "mameName": "mieca",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mieca.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Column Add",
+      "mameName": "mieco",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mieco.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fractions",
+      "mameName": "miefr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\miefr.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lightbulbs",
+      "mameName": "mieli",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mieli.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ruler - Fractions",
+      "mameName": "mieru",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mieru.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Synonyms",
+      "mameName": "miesy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\miesy.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Verbs - Being",
+      "mameName": "mieve",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mieve.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Word Scrambler",
+      "mameName": "miewo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\miewo.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputers in Education",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Microsail",
+      "mameName": "micros",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\micros.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-ware",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adding with Objects",
+      "mameName": "meadd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\meadd.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Agreement of Subject and Verb",
+      "mameName": "meagr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\meagr.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Antonym Machine",
+      "mameName": "meant",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\meant.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Count 'Em",
+      "mameName": "mecou",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mecou.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Direction and Distance",
+      "mameName": "medir",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\medir.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "H A I K U",
+      "mameName": "mehai",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mehai.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hat in the Ring - A Presidential Election Game",
+      "mameName": "mehat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mehat.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Higher Same Lower",
+      "mameName": "mehig",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mehig.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Homonym Machine",
+      "mameName": "mehom",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mehom.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Identifying Complete Sentences",
+      "mameName": "meide",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\meide.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Its - It's Your - Your're",
+      "mameName": "meits",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\meits.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Marching Capital Letters",
+      "mameName": "memac",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\memac.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Matching Capital Letters Light Pen",
+      "mameName": "memacl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\memacl.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Making an Outline",
+      "mameName": "memak",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\memak.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Matching Rhythms",
+      "mameName": "memat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\memat.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Math Bid Game",
+      "mameName": "memath",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\memath.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Friendly Shrink",
+      "mameName": "mepet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mepet.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context A1",
+      "mameName": "mesa1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesa1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context A2",
+      "mameName": "mesa2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesa2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context A3",
+      "mameName": "mesa3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesa3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context A4",
+      "mameName": "mesa4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesa4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context A5",
+      "mameName": "mesa5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesa5.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context A6",
+      "mameName": "mesa6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesa6.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context A7",
+      "mameName": "mesa7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesa7.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context B1",
+      "mameName": "mesb1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesb1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context B2",
+      "mameName": "mesb2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesb2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context B3",
+      "mameName": "mesb3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesb3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context B4",
+      "mameName": "mesb4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesb4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context B5",
+      "mameName": "mesb5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesb5.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context B6",
+      "mameName": "mesb6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesb6.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context B7",
+      "mameName": "mesb7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesb7.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context C1",
+      "mameName": "mesc1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesc1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context C2",
+      "mameName": "mesc2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesc2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context C3",
+      "mameName": "mesc3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesc3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context C4",
+      "mameName": "mesc4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesc4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context C5",
+      "mameName": "mesc5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesc5.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context C6",
+      "mameName": "mesc6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesc6.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context C7",
+      "mameName": "mesc7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesc7.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context D1",
+      "mameName": "mesd1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesd1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context D2",
+      "mameName": "mesd2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesd2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context D3",
+      "mameName": "mesd3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesd3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context D4",
+      "mameName": "mesd4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesd4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context D5",
+      "mameName": "mesd5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesd5.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context D6",
+      "mameName": "mesd6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesd6.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context D7",
+      "mameName": "mesd7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesd7.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context E1",
+      "mameName": "mese1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mese1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context E2",
+      "mameName": "mese2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mese2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context E3",
+      "mameName": "mese3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mese3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context E4",
+      "mameName": "mese4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mese4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context E5",
+      "mameName": "mese5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mese5.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context E6",
+      "mameName": "mese6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mese6.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Words in Context E7",
+      "mameName": "mese7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mese7.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Story Problems in Addition Subtraction",
+      "mameName": "mesto",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesto.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Synonym Game",
+      "mameName": "mesyn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mesyn.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "To Too Two",
+      "mameName": "metot",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\metot.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Usage - Exercise Thirteen",
+      "mameName": "meusa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\meusa.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Working With Basic Addition Facts",
+      "mameName": "mewoa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mewoa.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Working With Basic Multiplication Facts",
+      "mameName": "mewom",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mewom.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Micro-Ed, Inc.",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bar Graphs",
+      "mameName": "mpbar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mpbar.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microphys",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Coord. Geometry I",
+      "mameName": "mpcoo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mpcoo.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microphys",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Geometrical Areas",
+      "mameName": "mpgeo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mpgeo.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microphys",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Projectile Motion Analyis",
+      "mameName": "mppro",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mppro.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microphys",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Trigonometry I",
+      "mameName": "mptr1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mptr1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microphys",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Trigonometry II",
+      "mameName": "mptr2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mptr2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microphys",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Types of Variation",
+      "mameName": "mptyp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\mptyp.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microphys",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Midway Campaign",
+      "mameName": "midway",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\midway.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "North Atlantic Convoy Raider",
+      "mameName": "nacr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\nacr.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Osero / Reverse",
+      "mameName": "oserev",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\oserev.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Commodore Business Machines, Inc.",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Just Rolling Along / Smile for a Picture",
+      "mameName": "owww1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\owww1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Our Weird and Wacky World",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "A Mile Wide Pie / Take Me Out To The Ball Game For Some Salad !",
+      "mameName": "owww2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\owww2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Our Weird and Wacky World",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Beware of Attack Rabbit! / A Pet That's Hard to Pat",
+      "mameName": "owww3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\owww3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Our Weird and Wacky World",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "A Sneaky Snake / The Moscow Circus",
+      "mameName": "owww4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\owww4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Our Weird and Wacky World",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Very Lost in Space / Who Says '7' is a Lucky Number",
+      "mameName": "owww5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\owww5.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Our Weird and Wacky World",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sherlock Bones, Dog Detective / Crazy, Crumbling Creations",
+      "mameName": "owww6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\owww6.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Our Weird and Wacky World",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "A Cup of Coffee for $141,000 / Bite Right",
+      "mameName": "owww7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\owww7.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Our Weird and Wacky World",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PET Chess 8000",
+      "mameName": "petches",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\petches.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Philidor Software",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Planet Miners",
+      "mameName": "planet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\planet.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-A-1",
+      "mameName": "ppda1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppda1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-A-2",
+      "mameName": "ppda2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppda2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-A-3",
+      "mameName": "ppda3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppda3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-A-4",
+      "mameName": "ppda4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppda4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-D-1",
+      "mameName": "ppdd1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppdd1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-D-2",
+      "mameName": "ppdd2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppdd2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-M-1",
+      "mameName": "ppdm1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppdm1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-M-2",
+      "mameName": "ppdm2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppdm2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-M-3",
+      "mameName": "ppdm3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppdm3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-M-4",
+      "mameName": "ppdm4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppdm4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-M-5",
+      "mameName": "ppdm5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppdm5.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-S-1",
+      "mameName": "ppds1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppds1.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-S-2",
+      "mameName": "ppds2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppds2.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-S-3",
+      "mameName": "ppds3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppds3.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals D-S-4",
+      "mameName": "ppds4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppds4.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pet Professor Whole Numbers Fractions Decimals WN-S-5",
+      "mameName": "ppwns5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ppwns5.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cow Bay Computing",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Prospector",
+      "mameName": "prosp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\prosp.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cascade Computerware",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Santa Paravia and Fiumaccio",
+      "mameName": "santap",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\santap.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Folklife Terminal Club",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Seawolf",
+      "mameName": "seawolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\seawolf.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Creative Software",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Ace",
+      "mameName": "spacea",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\spacea.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "PerSoft",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Fight",
+      "mameName": "spacef",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\spacef.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Commodore Business Machines, Inc.",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Invaders",
+      "mameName": "spacei",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\spacei.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Unknown",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Squiggle, Big Time / Monitor",
+      "mameName": "sqbtmon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\sqbtmon.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Commodore Business Machines, Inc.",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soundware Backgammon",
+      "mameName": "swback",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\swback.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cap Electronics",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Supermon",
+      "mameName": "supermon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\supermon.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Toronto PET User Group",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soundware Checkers",
+      "mameName": "swchec",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\swchec.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cap Electronics",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soundware Minute Waltz",
+      "mameName": "swminu",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\swminu.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Cap Electronics",
+      "year": "1979?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tanktics",
+      "mameName": "tankt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\tankt.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Target Pong/Off-The-Wall",
+      "mameName": "targoff",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\targoff.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Commodore Business Machines, Inc.",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Telengard",
+      "mameName": "telng",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\telng.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Microcomputer Games",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Time Chess",
+      "mameName": "timec",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\timec.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Unknown",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Time Trek",
+      "mameName": "timet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\timet.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Programma International",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "A Treasure Trove of Games",
+      "mameName": "ttgames",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\ttgames.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Commodore Business Machines, Inc.",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Visible Music Monitor",
+      "mameName": "vmm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\vmm.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "A B Computers",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Word Processor",
+      "mameName": "wordproc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pet_cass\\wordproc.7z",
+      "emulatorName": "MAME Commodore PET 2001-4 -SOFTLIST pet_cass",
+      "companyName": "Programma International",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

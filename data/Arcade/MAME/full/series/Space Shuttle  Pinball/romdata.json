@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Space Station (L-5)",
+      "mameName": "spstn_l5",
+      "path": "{gamesDir}\\MAME\\ROMS\\spstn_l5.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1988",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Space Shuttle (L-7)",
+      "mameName": "sshtl_l7",
+      "path": "{gamesDir}\\MAME\\ROMS\\sshtl_l7.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1984",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Beastorizer (USA)",
+      "mameName": "beastrzr",
+      "path": "{gamesDir}\\MAME\\ROMS\\beastrzr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Eighting / Raizing",
+      "year": "1997",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Bloody Roar 2 (World)",
+      "mameName": "bldyror2",
+      "path": "{gamesDir}\\MAME\\ROMS\\bldyror2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Eighting / Raizing",
+      "year": "1998",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Concept",
+      "mameName": "concept",
+      "path": "{gamesDir}\\MAME\\ROMS\\concept.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Corvus Systems",
+      "year": "1982",
+      "gameType": "Professional Systems / Business Computer & Terminal",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends (NGM-2420)",
+      "mameName": "kof98",
+      "path": "{gamesDir}\\MAME\\ROMS\\kof98.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1998",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Korosuke Roller (Japan)",
+      "mameName": "korosuke",
+      "parentName": "crush",
+      "path": "{gamesDir}\\MAME\\ROMS\\crush.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Alpha Denshi Co. / Kural Electric, Ltd.",
+      "year": "1981",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Tomy Tutor",
+      "mameName": "tutor",
+      "path": "{gamesDir}\\MAME\\ROMS\\tutor.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tomy",
+      "year": "1983?",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

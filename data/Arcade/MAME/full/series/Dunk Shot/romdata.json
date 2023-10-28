@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dunk Shot (Rev C, FD1089A 317-0022)",
+      "mameName": "dunkshot",
+      "path": "{gamesDir}\\MAME\\ROMS\\dunkshot.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1987",
+      "gameType": "Sports / Basketball",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Dunk Shot (Rev A, FD1089A 317-0022)",
+      "mameName": "dunkshota",
+      "parentName": "dunkshot",
+      "path": "{gamesDir}\\MAME\\ROMS\\dunkshot.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1987",
+      "gameType": "Sports / Basketball",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Dunk Shot (FD1089A 317-0022)",
+      "mameName": "dunkshoto",
+      "parentName": "dunkshot",
+      "path": "{gamesDir}\\MAME\\ROMS\\dunkshot.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1986",
+      "gameType": "Sports / Basketball",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    }
+  ]
+}

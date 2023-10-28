@@ -1,0 +1,55 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "6809 Language Module 1.0 (1984)(Microsoft)(En)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Memo 5 Cartridges (TOSEC-v0.11_CM)\\6809 Language Module 1.0 (1984)(Microsoft)(En).zip",
+      "emulatorName": "MAME Thomson MO5 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blitz (1985)(To Tek)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Memo 5 Cartridges (TOSEC-v0.11_CM)\\Blitz (1985)(To Tek).zip",
+      "emulatorName": "MAME Thomson MO5 -cartridge",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colocalc (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Memo 5 Cartridges (TOSEC-v0.11_CM)\\Colocalc (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Desassembleur Dump & Patch v4.0 (1986)(Daniel Coulom)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Memo 5 Cartridges (TOSEC-v0.11_CM)\\Desassembleur Dump & Patch v4.0 (1986)(Daniel Coulom)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Glouton (198x)(-)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Memo 5 Cartridges (TOSEC-v0.11_CM)\\Glouton (198x)(-).zip",
+      "emulatorName": "MAME Thomson MO5 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Logo v1.0 (1984)(Soli)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Memo 5 Cartridges (TOSEC-v0.11_CM)\\Logo v1.0 (1984)(Soli).zip",
+      "emulatorName": "MAME Thomson MO5 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

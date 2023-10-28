@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Armed Police Batrider (Europe) (Fri Feb 13 1998)",
+      "mameName": "batrider",
+      "path": "{gamesDir}\\MAME\\ROMS\\batrider.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Raizing / Eighting",
+      "year": "1998",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Battle Bakraid - Unlimited Version (USA) (Tue Jun 8 1999)",
+      "mameName": "bbakraid",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbakraid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Eighting",
+      "year": "1999",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Funcube 2 (v1.1)",
+      "mameName": "funcube2",
+      "path": "{gamesDir}\\MAME\\ROMS\\funcube2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2001",
+      "gameType": "Multiplay / Compilation",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Funcube 4 (v1.0)",
+      "mameName": "funcube4",
+      "path": "{gamesDir}\\MAME\\ROMS\\funcube4.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2001",
+      "gameType": "Multiplay / Compilation",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Noboranka (Japan)",
+      "mameName": "nob",
+      "path": "{gamesDir}\\MAME\\ROMS\\nob.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Coreland / Data East Corporation",
+      "year": "1986",
+      "gameType": "Climbing",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

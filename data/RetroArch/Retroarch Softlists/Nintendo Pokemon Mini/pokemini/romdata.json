@@ -1,0 +1,463 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Lunch Time (USA, GameCube)",
+      "mameName": "lunchtme",
+      "parentName": "snorlax",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\snorlax.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2003",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pichu Bros. Mini (Jpn)",
+      "mameName": "pichubro",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pichubro.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pichu Bros. Mini - Hoppip's Jump Match (Jpn, Preview)",
+      "mameName": "pichuhop",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pichuhop.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pichu Bros. Mini - Netsukikyuu (Jpn, Preview)",
+      "mameName": "pichunts",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pichunts.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pichu Bros. Mini - Skateboard (Jpn, Preview)",
+      "mameName": "pichuskt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pichuskt.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Anime Card Daisakusen (Jpn)",
+      "mameName": "pokeacrd",
+      "parentName": "pokezcrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pokezcrd.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Race Mini (Jpn)",
+      "mameName": "pokerace",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pokerace.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Race Mini (Jpn, Preview)",
+      "mameName": "pokeracep",
+      "parentName": "pokerace",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pokerace.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Sodateyasan Mini (Jpn)",
+      "mameName": "pokesoda",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pokesoda.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Zany Cards (Aus, Euro, USA)",
+      "mameName": "pokezcrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pokezcrd.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Zany Cards (Fra)",
+      "mameName": "pokezcrdf",
+      "parentName": "pokezcrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pokezcrd.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Zany Cards (Ger)",
+      "mameName": "pokezcrdg",
+      "parentName": "pokezcrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pokezcrd.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini (Euro)",
+      "mameName": "pparty",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pparty.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini (Jpn)",
+      "mameName": "ppartyj",
+      "parentName": "pparty",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pparty.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini (Aus, USA)",
+      "mameName": "ppartyu",
+      "parentName": "pparty",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pparty.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Pinball Mini (Aus, Euro, USA)",
+      "mameName": "ppinb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppinb.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Pinball Mini (Jpn)",
+      "mameName": "ppinbj",
+      "parentName": "ppinb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppinb.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Pinball Mini (Jpn, Preview)",
+      "mameName": "ppinbjp",
+      "parentName": "ppinb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppinb.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Pinball Mini (USA, GameCube Preview)",
+      "mameName": "ppinbp",
+      "parentName": "ppinb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppinb.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini - Baseline Judge (Euro, GameCube)",
+      "mameName": "pptbasej",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pptbasej.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini - Baseline Judge (Jpn, GameCube)",
+      "mameName": "pptbasejj",
+      "parentName": "pptbasej",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pptbasej.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini - Baseline Judge (USA, GameCube)",
+      "mameName": "pptbaseju",
+      "parentName": "pptbasej",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pptbasej.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini - Chansey's Dribble (Euro, GameCube)",
+      "mameName": "pptdribl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pptdribl.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini - Ricochet Dribble (Jpn, GameCube)",
+      "mameName": "pptdriblj",
+      "parentName": "pptdribl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pptdribl.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini - Ricochet Dribble (USA, GameCube)",
+      "mameName": "pptdriblu",
+      "parentName": "pptdribl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pptdribl.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini - Pikachu's Rocket Start (Euro, GameCube)",
+      "mameName": "pptrocks",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pptrocks.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini - Rocket Start (USA, GameCube)",
+      "mameName": "pptrocksu",
+      "parentName": "pptrocks",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pptrocks.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Party Mini - Slowking's Judge (Euro, GameCube)",
+      "mameName": "pptslowj",
+      "parentName": "pptbasej",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\pptbasej.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Puzzle Collection (Aus, Euro, USA)",
+      "mameName": "ppuzzlc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppuzzlc.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Puzzle Collection (USA, GameCube Preview)",
+      "mameName": "ppuzzlcp",
+      "parentName": "ppuzzlc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppuzzlc.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Puzzle Collection (Fra)",
+      "mameName": "ppuzzlcf",
+      "parentName": "ppuzzlc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppuzzlc.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Puzzle Collection (Fra, GameCube Preview)",
+      "mameName": "ppuzzlcfp",
+      "parentName": "ppuzzlc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppuzzlc.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Puzzle Collection (Ger)",
+      "mameName": "ppuzzlcg",
+      "parentName": "ppuzzlc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppuzzlc.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Puzzle Collection (Ger, GameCube Preview)",
+      "mameName": "ppuzzlcgp",
+      "parentName": "ppuzzlc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppuzzlc.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Puzzle Collection (Jpn)",
+      "mameName": "ppuzzlcj",
+      "parentName": "ppuzzlc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppuzzlc.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Puzzle Collection (Jpn, GameCube)",
+      "mameName": "ppuzzlcj1",
+      "parentName": "ppuzzlc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppuzzlc.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Puzzle Collection Vol. 2 (Jpn)",
+      "mameName": "ppuzzlc2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ppuzzlc2.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Tetris (Euro)",
+      "mameName": "ptetris",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ptetris.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokmon Shock Tetris (Jpn)",
+      "mameName": "ptetrisj",
+      "parentName": "ptetris",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\ptetris.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Snorlax's Lunch Time (Euro, GameCube)",
+      "mameName": "snorlax",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\snorlax.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2003",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Snorlax's Lunch Time (Jpn, GameCube)",
+      "mameName": "snorlaxj",
+      "parentName": "snorlax",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\snorlax.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2003",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Togepi no Daibouken (Jpn)",
+      "mameName": "togepi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\togepi.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Togepi no Daibouken (Jpn, Preview)",
+      "mameName": "togepip",
+      "parentName": "togepi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pokemini\\togepi.7z",
+      "emulatorName": "Retroarch Nintendo Pokemon Mini -SOFTLIST pokemini (MAME)",
+      "companyName": "Nintendo",
+      "year": "2002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

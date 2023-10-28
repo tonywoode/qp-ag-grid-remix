@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Guts n' Glory (prototype)",
+      "mameName": "guts",
+      "path": "{gamesDir}\\MAME\\ROMS\\guts.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1989",
+      "gameType": "Shooter / Gallery",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Maze Invaders (prototype)",
+      "mameName": "mazeinv",
+      "path": "{gamesDir}\\MAME\\ROMS\\mazeinv.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1981",
+      "gameType": "Maze",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

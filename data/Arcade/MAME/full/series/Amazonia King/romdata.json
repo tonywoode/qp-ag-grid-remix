@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Amazonia King II (V202BR)",
+      "mameName": "amazoni2",
+      "path": "{gamesDir}\\MAME\\ROMS\\amazoni2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "2002",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Amazonia King (V104BR)",
+      "mameName": "amazonia",
+      "path": "{gamesDir}\\MAME\\ROMS\\amazonia.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1999",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

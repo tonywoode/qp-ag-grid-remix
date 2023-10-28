@@ -1,0 +1,79 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Virtua Cop (Revision B)",
+      "mameName": "vcop",
+      "path": "{gamesDir}\\MAME\\ROMS\\vcop.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1994",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Cop 2",
+      "mameName": "vcop2",
+      "path": "{gamesDir}\\MAME\\ROMS\\vcop2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Cop 3 (Rev B) (GDX-0003B)",
+      "mameName": "vcop3",
+      "path": "{gamesDir}\\MAME\\CHDs\\vcop3\\gdx-0003b.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2003",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Cop 3 (Rev A) (GDX-0003A)",
+      "mameName": "vcop3a",
+      "parentName": "vcop3",
+      "path": "{gamesDir}\\MAME\\CHDs\\vcop3\\gdx-0003a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2003",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Cop (Revision A)",
+      "mameName": "vcopa",
+      "parentName": "vcop",
+      "path": "{gamesDir}\\MAME\\ROMS\\vcop.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1994",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

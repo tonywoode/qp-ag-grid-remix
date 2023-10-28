@@ -1,0 +1,498 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Assembleur 6809 (v1.0)",
+      "mameName": "asm6809",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\asm6809.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "comment": "alt_title:6809 Language Module",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Assembleur 6809 (v1.0, Alt)",
+      "mameName": "asm6809a",
+      "parentName": "asm6809",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\asm6809.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "comment": "alt_title:6809 Language Module",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Assembleur 6809 (v1.0, Alt 2)",
+      "mameName": "asm6809b",
+      "parentName": "asm6809",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\asm6809.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "comment": "alt_title:6809 Language Module",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "6809 MacroAssembler (v3.6)",
+      "mameName": "macroasm",
+      "parentName": "asm6809",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\asm6809.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Puls",
+      "year": "2006",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Agenda",
+      "mameName": "agenda",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\agenda.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Answare",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Agenda (Alt)",
+      "mameName": "agendaa",
+      "parentName": "agenda",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\agenda.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Answare",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Agenda (Alt 2)",
+      "mameName": "agendab",
+      "parentName": "agenda",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\agenda.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Answare",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Carnet d'Adresses",
+      "mameName": "carnet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\carnet.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Answare",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Carnet d'Adresses (Alt)",
+      "mameName": "carneta",
+      "parentName": "carnet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\carnet.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Answare",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Colorcalc",
+      "mameName": "colorclc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\colorclc.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Colorcalc (Alt)",
+      "mameName": "colorclca",
+      "parentName": "colorclc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\colorclc.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Colorpaint",
+      "mameName": "colorpnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\colorpnt.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Desassembleur - Dump et Patch (v4.0)",
+      "mameName": "desass",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\desass.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Daniel Coulom",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LOGO (v1.0)",
+      "mameName": "logo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\logo.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LOGO (v1.0, Alt)",
+      "mameName": "logoa",
+      "parentName": "logo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\logo.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LOGO (v1.0, Alt 2)",
+      "mameName": "logob",
+      "parentName": "logo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\logo.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LSEG-EDL (v3.2)",
+      "mameName": "lsegedl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\lsegedl.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "ASELEC",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LSEG-EDL (v3.2, Alt)",
+      "mameName": "lsegedla",
+      "parentName": "lsegedl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\lsegedl.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "ASELEC",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Melodia",
+      "mameName": "melodia",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\melodia.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Melodia (Alt)",
+      "mameName": "melodiaa",
+      "parentName": "melodia",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\melodia.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pictor",
+      "mameName": "pictor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\pictor.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pictor (Alt)",
+      "mameName": "pictora",
+      "parentName": "pictor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\pictor.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "La Grille",
+      "mameName": "grille",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\grille.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "ASELEC",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "La Maison d'Amedee",
+      "mameName": "maison",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\maison.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "ASELEC",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "La Peche a la Barre",
+      "mameName": "peche",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\peche.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "ASELEC",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Airbus",
+      "mameName": "airbus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\airbus.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Airbus (Alt)",
+      "mameName": "airbusa",
+      "parentName": "airbus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\airbus.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blitz! - Jeu d'Echecs",
+      "mameName": "blitz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\blitz.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "parameters": "mo5 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blitz! - Jeu d'Echecs (Alt)",
+      "mameName": "blitza",
+      "parentName": "blitz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\blitz.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "parameters": "mo5 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blitz! - Jeu d'Echecs (Alt 2)",
+      "mameName": "blitzb",
+      "parentName": "blitz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\blitz.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Controle Aerien",
+      "mameName": "controle",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\controle.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gemini",
+      "mameName": "gemini",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\gemini.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gemini (Alt)",
+      "mameName": "geminia",
+      "parentName": "gemini",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\gemini.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Glouton",
+      "mameName": "glouton",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\glouton.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Hebdogiciel",
+      "year": "1986",
+      "parameters": "mo5 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Glouton (Alt)",
+      "mameName": "gloutona",
+      "parentName": "glouton",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\glouton.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Hebdogiciel",
+      "year": "1986",
+      "parameters": "mo5 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Glouton (Alt 2)",
+      "mameName": "gloutonb",
+      "parentName": "glouton",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\glouton.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "Hebdogiciel",
+      "year": "1986",
+      "parameters": "mo5 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Melimemot",
+      "mameName": "melimemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\melimemo.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Melimemot (Alt)",
+      "mameName": "melimemoa",
+      "parentName": "melimemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\melimemo.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Miner 2049er",
+      "mameName": "mine2049",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\mine2049.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Miner 2049er (Alt)",
+      "mameName": "mine2049a",
+      "parentName": "mine2049",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\mine2049.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Motus",
+      "mameName": "motus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\motus.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Motus (Alt)",
+      "mameName": "motusa",
+      "parentName": "motus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\motus.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Trap",
+      "mameName": "trap",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\trap.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Trap (Alt)",
+      "mameName": "trapa",
+      "parentName": "trap",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\trap.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tridi444",
+      "mameName": "tridi444",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\tridi444.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tridi444 (Alt)",
+      "mameName": "tridi444a",
+      "parentName": "tridi444",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mo5_cart\\tridi444.7z",
+      "emulatorName": "MAME Thomson MO5 -SOFTLIST mo5_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

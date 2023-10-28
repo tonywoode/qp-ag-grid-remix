@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Monster Bash (2 board version)",
+      "mameName": "monsterb2",
+      "parentName": "monsterb",
+      "path": "{gamesDir}\\MAME\\ROMS\\monsterb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1982",
+      "gameType": "Platform / Shooter",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "One + Two",
+      "mameName": "onetwo",
+      "path": "{gamesDir}\\MAME\\ROMS\\onetwo.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Barko",
+      "year": "1997",
+      "gameType": "Puzzle / Match * Mature *",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

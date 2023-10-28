@@ -1,0 +1,301 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Barbarian II",
+      "mameName": "barb2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\barb2.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Palace Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Batman",
+      "mameName": "batman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\batman.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Ocean Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Burnin' Rubber",
+      "mameName": "brubber",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\brubber.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Ocean Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Copter 271",
+      "mameName": "coptr271",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\coptr271.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Loriciel Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Crazy Cars II",
+      "mameName": "crzycrs2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\crzycrs2.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Titus Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dick Tracy",
+      "mameName": "dicktr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\dicktr.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Titus Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fire & Forget II",
+      "mameName": "firefor2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\firefor2.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Titus Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Klax",
+      "mameName": "klax",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\klax.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Domark",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mystical",
+      "mameName": "mystical",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\mystical.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Infogrames",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Navy Seals",
+      "mameName": "navyseal",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\navyseal.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Ocean Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pang",
+      "mameName": "pang",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\pang.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Ocean Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Panza Kick Boxing",
+      "mameName": "panzakb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\panzakb.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Loriciel Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pinball Magic",
+      "mameName": "pinmagic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\pinmagic.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Loriciel Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Plotting",
+      "mameName": "plotting",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\plotting.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Ocean Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pro Tennis Tour",
+      "mameName": "protennt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\protennt.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Ubisoft",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Skeet Shoot",
+      "mameName": "skeetsh",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\skeetsh.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Trojan",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Switchblade",
+      "mameName": "switchbl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\switchbl.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Gremlin Graphics",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tennis Cup II",
+      "mameName": "tennisc2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\tennisc2.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Loriciel Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Enforcer",
+      "mameName": "enforcer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\enforcer.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Trojan",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tintin On The Moon",
+      "mameName": "tintin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\tintin.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Infogrames",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Wild Streets",
+      "mameName": "wildstrt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\wildstrt.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Titus Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "World of Sports",
+      "mameName": "worldspt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\worldspt.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "EPYX",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Burnin' Rubber + Locomotive BASIC",
+      "mameName": "sysuk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\sysuk.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Amstrad",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Locomotive BASIC + ParaDOS",
+      "mameName": "sysukpd",
+      "parentName": "sysuk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\sysuk.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "<homebrew>",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Burnin' Rubber + Locomotive BASIC (Fra)",
+      "mameName": "sysfr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\sysfr.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Amstrad",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BASIC Cartouche (Fra, with OS v3)",
+      "mameName": "sysfrv3",
+      "parentName": "sysfr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\sysfr.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Amstrad",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Locomotive BASIC + ParaDOS (Fra)",
+      "mameName": "sysfrpd",
+      "parentName": "sysfr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\sysfr.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "<homebrew>",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Burnin' Rubber + Locomotive BASIC (Spa)",
+      "mameName": "syses",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\syses.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "Amstrad",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Locomotive BASIC + ParaDOS (Spa)",
+      "mameName": "sysespd",
+      "parentName": "syses",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gx4000\\syses.7z",
+      "emulatorName": "Retroarch Amstrad GX4000 -SOFTLIST gx4000 (MAME)",
+      "companyName": "<homebrew>",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

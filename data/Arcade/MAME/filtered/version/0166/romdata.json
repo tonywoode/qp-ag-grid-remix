@@ -1,0 +1,51 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "GP Rider (World, FD1094 317-0163) (Twin setup)",
+      "mameName": "gprider",
+      "path": "{gamesDir}\\MAME\\ROMS\\gprider.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1990",
+      "gameType": "Driving / Race (chase view) Bike",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Route 16 (set 1)",
+      "mameName": "route16",
+      "path": "{gamesDir}\\MAME\\ROMS\\route16.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tehkan / Sun Electronics (Centuri license)",
+      "year": "1981",
+      "gameType": "Maze",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Waku Waku Sonic Patrol Car",
+      "mameName": "soniccar",
+      "path": "{gamesDir}\\MAME\\ROMS\\soniccar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1991",
+      "gameType": "Electromechanical / Kiddy Ride",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

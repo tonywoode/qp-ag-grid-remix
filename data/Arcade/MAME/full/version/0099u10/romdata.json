@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Chuugokuryuu II (ver. 100J, Japan)",
+      "mameName": "drgw2j",
+      "parentName": "drgw2",
+      "path": "{gamesDir}\\MAME\\ROMS\\drgw2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1997",
+      "gameType": "Puzzle / Match",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Gouketsuji Ichizoku 2 (Japan, Ver. 94/04/08)",
+      "mameName": "pwrinst2j",
+      "parentName": "pwrinst2",
+      "path": "{gamesDir}\\MAME\\ROMS\\pwrinst2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atlus",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Surprise Attack (Asia ver. L)",
+      "mameName": "suratka",
+      "parentName": "suratk",
+      "path": "{gamesDir}\\MAME\\ROMS\\suratk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1990",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

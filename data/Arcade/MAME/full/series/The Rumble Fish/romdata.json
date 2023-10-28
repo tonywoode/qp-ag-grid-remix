@@ -1,0 +1,65 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "The Rumble Fish",
+      "mameName": "rumblef",
+      "path": "{gamesDir}\\MAME\\ROMS\\rumblef.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sammy / Dimps",
+      "year": "2004",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "The Rumble Fish 2",
+      "mameName": "rumblef2",
+      "path": "{gamesDir}\\MAME\\ROMS\\rumblef2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sammy / Dimps",
+      "year": "2005",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "The Rumble Fish (prototype)",
+      "mameName": "rumblefp",
+      "parentName": "rumblef",
+      "path": "{gamesDir}\\MAME\\ROMS\\rumblef.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sammy / Dimps",
+      "year": "2004",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "The Rumble Fish 2 (prototype)",
+      "mameName": "rumblf2p",
+      "parentName": "rumblef2",
+      "path": "{gamesDir}\\MAME\\ROMS\\rumblef2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sammy / Dimps",
+      "year": "2005",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

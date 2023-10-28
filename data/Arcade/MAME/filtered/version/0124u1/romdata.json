@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Chase Bombers (World)",
+      "mameName": "cbombers",
+      "path": "{gamesDir}\\MAME\\ROMS\\cbombers.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1994",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Multi Game III",
+      "mameName": "multigm3",
+      "path": "{gamesDir}\\MAME\\ROMS\\multigm3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seo Jin",
+      "year": "1992",
+      "gameType": "Multiplay / Compilation",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Off Road Challenge (v1.63)",
+      "mameName": "offroadc",
+      "path": "{gamesDir}\\MAME\\ROMS\\offroadc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1997",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

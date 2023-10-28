@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Space Harrier (Rev A, 8751 315-5163A)",
+      "mameName": "sharrier",
+      "path": "{gamesDir}\\MAME\\ROMS\\sharrier.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1985",
+      "gameType": "Shooter / Flying (chase view)",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

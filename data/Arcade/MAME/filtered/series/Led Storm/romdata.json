@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Led Storm Rally 2011 (World)",
+      "mameName": "leds2011",
+      "path": "{gamesDir}\\MAME\\ROMS\\leds2011.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1988",
+      "gameType": "Driving / Race",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

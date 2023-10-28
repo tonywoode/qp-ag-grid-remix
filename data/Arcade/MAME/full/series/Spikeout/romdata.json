@@ -1,0 +1,63 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Slashout",
+      "mameName": "slasho",
+      "path": "{gamesDir}\\MAME\\ROMS\\slasho.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2000",
+      "gameType": "Fighter / 3D",
+      "language": "Korean",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Slashout (GDS-0004)",
+      "mameName": "slashout",
+      "path": "{gamesDir}\\MAME\\CHDs\\slashout\\gds-0004.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2000",
+      "gameType": "Fighter / 3D",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Spikeout Final Edition",
+      "mameName": "spikeofe",
+      "path": "{gamesDir}\\MAME\\ROMS\\spikeofe.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "Fighter / 3D",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Spikeout (Revision C)",
+      "mameName": "spikeout",
+      "path": "{gamesDir}\\MAME\\ROMS\\spikeout.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "Fighter / 3D",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

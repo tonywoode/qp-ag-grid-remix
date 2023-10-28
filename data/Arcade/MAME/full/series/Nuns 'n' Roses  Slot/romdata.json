@@ -1,0 +1,110 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Nuns 'n' Roses (Bellfruit) (Scorpion 5)",
+      "mameName": "sc5nunsb",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5nunsb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "BFM",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Nuns 'n' Roses (Mazooma) (Scorpion 5) (set 1)",
+      "mameName": "sc5nunsm",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5nunsm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mazooma",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Nuns 'n' Roses (Mazooma) (Scorpion 5) (set 2)",
+      "mameName": "sc5nunsma",
+      "parentName": "sc5nunsm",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5nunsm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mazooma",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Nuns 'n' Roses (Mazooma) (Scorpion 5) (set 3)",
+      "mameName": "sc5nunsmb",
+      "parentName": "sc5nunsm",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5nunsm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mazooma",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Nuns 'n' Roses (Mazooma) (Scorpion 5) (set 4)",
+      "mameName": "sc5nunsmc",
+      "parentName": "sc5nunsm",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5nunsm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mazooma",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Nuns 'n' Roses (Mazooma) (Scorpion 5) (set 5)",
+      "mameName": "sc5nunsmd",
+      "parentName": "sc5nunsm",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5nunsm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mazooma",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Nuns 'n' Roses (Mazooma) (Scorpion 5) (set 6)",
+      "mameName": "sc5nunsme",
+      "parentName": "sc5nunsm",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5nunsm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mazooma",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

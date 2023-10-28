@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Air Duel (World, M82-A-A + M82-B-A)",
+      "mameName": "airduel",
+      "path": "{gamesDir}\\MAME\\ROMS\\airduel.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1990",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Attack Pla Rail (Japan, AP1/VER.A)",
+      "mameName": "aplarail",
+      "path": "{gamesDir}\\MAME\\ROMS\\aplarail.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco / Tomy",
+      "year": "1998",
+      "gameType": "Driving / 1st Person",
+      "rating": "30 to 40 (Amendable)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Led Storm Rally 2011 (World)",
+      "mameName": "leds2011",
+      "path": "{gamesDir}\\MAME\\ROMS\\leds2011.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1988",
+      "gameType": "Driving / Race",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Lightning Swords",
+      "mameName": "ltswords",
+      "path": "{gamesDir}\\MAME\\ROMS\\ltswords.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1991",
+      "gameType": "Fighter / 2D",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

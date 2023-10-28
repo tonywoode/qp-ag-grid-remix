@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Cool Minigame Collection",
+      "mameName": "coolmini",
+      "path": "{gamesDir}\\MAME\\ROMS\\coolmini.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SemiCom",
+      "year": "1999",
+      "gameType": "Multiplay / Mini-Games",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Cool Riders",
+      "mameName": "coolridr",
+      "path": "{gamesDir}\\MAME\\ROMS\\coolridr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Driving / Race (chase view) Bike",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gradius IV: Fukkatsu (ver JAC)",
+      "mameName": "gradius4",
+      "path": "{gamesDir}\\MAME\\ROMS\\gradius4.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Midnight Run: Road Fighters 2 (EAA, Euro v1.11)",
+      "mameName": "midnrun",
+      "path": "{gamesDir}\\MAME\\ROMS\\midnrun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1995",
+      "gameType": "Driving / 1st Person",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Thrill Drive (JAE)",
+      "mameName": "thrilld",
+      "path": "{gamesDir}\\MAME\\ROMS\\thrilld.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

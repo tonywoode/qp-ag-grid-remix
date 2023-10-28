@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gamebase Plus4",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase Plus4.gif",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "plus4",
+      "timesPlayed": "9",
+      "paramMode": "0"
+    }
+  ]
+}

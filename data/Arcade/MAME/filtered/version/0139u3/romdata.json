@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Shinobi / FZ-2006 (Korean System 16 bootleg) (ISG Selection Master Type 2006)",
+      "mameName": "shinfz",
+      "path": "{gamesDir}\\MAME\\ROMS\\shinfz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (ISG)",
+      "year": "2008",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Touchmaster 2000 Plus (v4.63 Standard)",
+      "mameName": "tm2k",
+      "path": "{gamesDir}\\MAME\\ROMS\\tm2k.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway Games Inc.",
+      "year": "1996",
+      "gameType": "Multiplay / Compilation",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Flash Point (set 2, Japan) (FD1094 317-0127A)",
+      "mameName": "fpoint",
+      "path": "{gamesDir}\\MAME\\ROMS\\fpoint.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1989",
+      "gameType": "Puzzle / Drop",
+      "rating": "60 to 70 (Passable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "PK Scramble",
+      "mameName": "pkscram",
+      "path": "{gamesDir}\\MAME\\ROMS\\pkscram.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cosmo Electronics Corporation",
+      "year": "1993",
+      "gameType": "Sports / Soccer",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

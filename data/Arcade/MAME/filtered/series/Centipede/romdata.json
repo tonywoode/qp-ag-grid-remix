@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Centipede (revision 4)",
+      "mameName": "centiped",
+      "path": "{gamesDir}\\MAME\\ROMS\\centiped.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1980",
+      "gameType": "Shooter / Gallery",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

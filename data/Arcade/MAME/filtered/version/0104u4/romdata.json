@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dragon Breed (M81 PCB version)",
+      "mameName": "dbreed",
+      "path": "{gamesDir}\\MAME\\ROMS\\dbreed.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1989",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Magical Error wo Sagase",
+      "mameName": "magerror",
+      "path": "{gamesDir}\\MAME\\ROMS\\magerror.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Technosoft / Jaleco",
+      "year": "1994",
+      "gameType": "Puzzle / Misc.",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Victor 21",
+      "mameName": "victor21",
+      "path": "{gamesDir}\\MAME\\ROMS\\victor21.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Subsino / Buffy",
+      "year": "1990",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "G.E.A.",
+      "mameName": "victor5",
+      "path": "{gamesDir}\\MAME\\ROMS\\victor5.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Subsino",
+      "year": "1991",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Victor 6 (v2.3N)",
+      "mameName": "victor6",
+      "path": "{gamesDir}\\MAME\\ROMS\\victor6.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "American Alpha",
+      "year": "1995",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Victor 6 (v2.3)",
+      "mameName": "victor6a",
+      "parentName": "victor6",
+      "path": "{gamesDir}\\MAME\\ROMS\\victor6.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "American Alpha",
+      "year": "1995",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Victor 6 (v1.2)",
+      "mameName": "victor6b",
+      "parentName": "victor6",
+      "path": "{gamesDir}\\MAME\\ROMS\\victor6.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "American Alpha",
+      "year": "1995",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

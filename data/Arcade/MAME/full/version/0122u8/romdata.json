@@ -1,0 +1,79 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Galaxy Games BIOS",
+      "mameName": "galgbios",
+      "path": "{gamesDir}\\MAME\\ROMS\\galgbios.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Creative Electronics & Software",
+      "year": "1998",
+      "gameType": "System / BIOS",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "BIOS"
+    },
+    {
+      "name": "Lock-On (rev. C)",
+      "mameName": "lockonc",
+      "parentName": "lockon",
+      "path": "{gamesDir}\\MAME\\ROMS\\lockon.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tatsumi",
+      "year": "1986",
+      "gameType": "Shooter / Flying 1st Person",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Progressive Music Trivia (Question set 4)",
+      "mameName": "promutrvc",
+      "parentName": "promutrv",
+      "path": "{gamesDir}\\MAME\\ROMS\\promutrv.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Enerdyne Technologies Inc.",
+      "year": "1985",
+      "gameType": "Quiz / English",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Puzzlet (Japan)",
+      "mameName": "puzzlet",
+      "path": "{gamesDir}\\MAME\\ROMS\\puzzlet.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Unies Corporation",
+      "year": "2000",
+      "gameType": "Puzzle / Sliding * Mature *",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Wheels Runner",
+      "mameName": "wheelrun",
+      "path": "{gamesDir}\\MAME\\ROMS\\wheelrun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "International Games",
+      "year": "19??",
+      "gameType": "Driving / Race Track",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

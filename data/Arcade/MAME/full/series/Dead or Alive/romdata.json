@@ -1,0 +1,95 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dead or Alive (Model 2B, Revision B)",
+      "mameName": "doa",
+      "path": "{gamesDir}\\MAME\\ROMS\\doa.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1996",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dead or Alive 2",
+      "mameName": "doa2",
+      "parentName": "doa2m",
+      "path": "{gamesDir}\\MAME\\ROMS\\doa2m.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1999",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dead or Alive 2 (Rev A)",
+      "mameName": "doa2a",
+      "parentName": "doa2m",
+      "path": "{gamesDir}\\MAME\\ROMS\\doa2m.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1999",
+      "gameType": "Fighter / Versus",
+      "language": "Korean",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dead or Alive 2 Millennium",
+      "mameName": "doa2m",
+      "path": "{gamesDir}\\MAME\\ROMS\\doa2m.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "2000",
+      "gameType": "Fighter / Versus",
+      "language": "Korean",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dead or Alive (Model 2A, Revision A)",
+      "mameName": "doaa",
+      "parentName": "doa",
+      "path": "{gamesDir}\\MAME\\ROMS\\doa.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1996",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dead Or Alive ++ (Japan)",
+      "mameName": "doapp",
+      "path": "{gamesDir}\\MAME\\ROMS\\doapp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1998",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

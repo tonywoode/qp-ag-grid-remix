@@ -1,0 +1,33 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Amstrad CPC464+",
+      "mameName": "cpc464p",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Amstrad plc",
+      "year": "1990",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Amstrad CPC6128+",
+      "mameName": "cpc6128p",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Amstrad plc",
+      "year": "1990",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

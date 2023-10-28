@@ -1,0 +1,96 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Intrepid (set 1)",
+      "mameName": "intrepid",
+      "path": "{gamesDir}\\MAME\\ROMS\\intrepid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nova Games Ltd.",
+      "year": "1983",
+      "gameType": "Maze",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Intrepid (set 2)",
+      "mameName": "intrepid2",
+      "parentName": "intrepid",
+      "path": "{gamesDir}\\MAME\\ROMS\\intrepid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nova Games Ltd.",
+      "year": "1983",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Intrepid (Elsys bootleg, set 1)",
+      "mameName": "intrepidb",
+      "parentName": "intrepid",
+      "path": "{gamesDir}\\MAME\\ROMS\\intrepid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Elsys)",
+      "year": "1984",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Intrepid (Loris bootleg)",
+      "mameName": "intrepidb2",
+      "parentName": "intrepid",
+      "path": "{gamesDir}\\MAME\\ROMS\\intrepid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Loris)",
+      "year": "1984",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Intrepid (Elsys bootleg, set 2)",
+      "mameName": "intrepidb3",
+      "parentName": "intrepid",
+      "path": "{gamesDir}\\MAME\\ROMS\\intrepid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Elsys)",
+      "year": "1984",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Zarya Vostoka",
+      "mameName": "zaryavos",
+      "path": "{gamesDir}\\MAME\\ROMS\\zaryavos.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nova Games of Canada",
+      "year": "1984",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

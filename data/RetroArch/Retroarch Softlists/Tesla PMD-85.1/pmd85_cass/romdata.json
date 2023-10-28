@@ -1,0 +1,599 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Auto",
+      "mameName": "auto",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\auto.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bludit",
+      "mameName": "bludiste",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\bludiste.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bombarder",
+      "mameName": "bombard",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\bombard.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Boulder Dash",
+      "mameName": "bdash",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\bdash.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "VBG Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Faraonova Hbroka",
+      "mameName": "faraonov",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\faraonov.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Flappy",
+      "mameName": "flappy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\flappy.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "VBG Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fred",
+      "mameName": "fred",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\fred.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "VBG Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galaxia",
+      "mameName": "galaxia",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\galaxia.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "Ceres Soft",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hlpa",
+      "mameName": "hlipa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\hlipa.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "ZO Svazarmu",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Horc a pavouci",
+      "mameName": "horac",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\horac.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "ZO Svazarmu",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Karel",
+      "mameName": "karel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\karel.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kuriatko",
+      "mameName": "kuriatko",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\kuriatko.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Manic Miner",
+      "mameName": "manicmin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\manicmin.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "VBG Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Msto robot",
+      "mameName": "mestorob",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\mestorob.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pampuch & Duch",
+      "mameName": "pampuch",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\pampuch.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Penetrator",
+      "mameName": "penetrat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\penetrat.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "VBG Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pexeso",
+      "mameName": "pexeso",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\pexeso.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "Petisoft",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pikvorky",
+      "mameName": "piskvork",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\piskvork.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Princ Jaso",
+      "mameName": "princjas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\princjas.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "Ceres Soft",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Saboter",
+      "mameName": "saboter",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\saboter.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "VBG Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tava - HRA s Nahodou a Prirodou",
+      "mameName": "tava",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\tava.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zaby",
+      "mameName": "zaby",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\zaby.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ZED",
+      "mameName": "zed",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\zed.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GRDEMO",
+      "mameName": "grdemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\grdemo.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "KURCA",
+      "mameName": "kurca",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\kurca.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "WURMI",
+      "mameName": "wurmi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\wurmi.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BASIC20 Demo",
+      "mameName": "bas20dem",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\bas20dem.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "cirkus-sasa-tomasa",
+      "mameName": "cirkus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\cirkus.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Copy Tape",
+      "mameName": "copytape",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\copytape.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DAM+2",
+      "mameName": "dam2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\dam2.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DAT PMD",
+      "mameName": "datpmd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\datpmd.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Development Utils",
+      "mameName": "devutils",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\devutils.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Evidence",
+      "mameName": "evidence",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\evidence.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lemmings (256k)",
+      "mameName": "lemm256k",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\lemm256k.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lemmings",
+      "mameName": "lemmings",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\lemmings.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games 1",
+      "mameName": "games1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\games1.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games 2",
+      "mameName": "games2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\games2.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games 3",
+      "mameName": "games3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\games3.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games by 4004/482 ZO Svazarmu",
+      "mameName": "game4004",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\game4004.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games by Libor Lasota",
+      "mameName": "gameslib",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\gameslib.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games by RM-TEAM",
+      "mameName": "gamesrm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\gamesrm.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games by VBG Software",
+      "mameName": "gamesvbg",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\gamesvbg.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GR v1.00",
+      "mameName": "gr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\gr.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GRED",
+      "mameName": "gred",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\gred.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GREP",
+      "mameName": "grep",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\grep.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "HRY1",
+      "mameName": "hry1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\hry1.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "HRY2",
+      "mameName": "hry2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\hry2.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "K-Studio",
+      "mameName": "kstudio",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\kstudio.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Karel (Alt)",
+      "mameName": "karela",
+      "parentName": "karel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\karel.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Karel (Alt 2)",
+      "mameName": "karelb",
+      "parentName": "karel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\karel.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Krivky",
+      "mameName": "krivky",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\krivky.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LOGO",
+      "mameName": "logo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\logo.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MRS",
+      "mameName": "mrs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\mrs.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Musica",
+      "mameName": "musica",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\musica.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rozne",
+      "mameName": "rozne",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\rozne.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rozne (Pascal)",
+      "mameName": "rozne_1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\rozne_1.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Skladatel",
+      "mameName": "skladate",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\skladate.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Texted",
+      "mameName": "texted",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\texted.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Vegrap",
+      "mameName": "vegrap",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pmd85_cass\\vegrap.7z",
+      "emulatorName": "Retroarch Tesla PMD-85.1 -SOFTLIST pmd85_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Birdiy",
+      "mameName": "birdiy",
+      "path": "{gamesDir}\\MAME\\ROMS\\birdiy.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mama Top",
+      "year": "1983",
+      "gameType": "Climbing",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

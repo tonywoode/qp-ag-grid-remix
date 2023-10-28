@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Doki Doki Penguin Land",
+      "mameName": "dokidoki",
+      "path": "{gamesDir}\\MAME\\ROMS\\dokidoki.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1985",
+      "gameType": "Platform / Run Jump",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Dynamic Shoot Kyousou",
+      "mameName": "dynashot",
+      "path": "{gamesDir}\\MAME\\ROMS\\dynashot.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1988",
+      "gameType": "Sports / Soccer",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Five a Side Soccer (ver UAA)",
+      "mameName": "fiveside",
+      "path": "{gamesDir}\\MAME\\ROMS\\fiveside.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1995",
+      "gameType": "Sports / Soccer",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Street Fighter II - The New Challengers (bootleg of Japanese MegaDrive version)",
+      "mameName": "ssf2mdb",
+      "path": "{gamesDir}\\MAME\\ROMS\\ssf2mdb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg / Capcom",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "rating": "30 to 40 (Amendable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

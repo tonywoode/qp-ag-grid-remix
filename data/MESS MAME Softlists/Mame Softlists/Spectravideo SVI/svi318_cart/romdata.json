@@ -1,0 +1,64 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Flipper Slipper",
+      "mameName": "flipper",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\svi318_cart\\flipper.7z",
+      "emulatorName": "MAME Spectravideo SVI-318 (PAL) -SOFTLIST svi318_cart",
+      "companyName": "Spectravideo",
+      "year": "1983",
+      "parameters": "svi318 -cart1 %ROMMAME%",
+      "comment": "serial:SD291C",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Frantic Freddy",
+      "mameName": "ffreddy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\svi318_cart\\ffreddy.7z",
+      "emulatorName": "MAME Spectravideo SVI-318 (PAL) -SOFTLIST svi318_cart",
+      "companyName": "Spectravideo",
+      "year": "1983",
+      "parameters": "svi318 -cart1 %ROMMAME%",
+      "comment": "serial:SD232C",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sector Alpha",
+      "mameName": "secalpha",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\svi318_cart\\secalpha.7z",
+      "emulatorName": "MAME Spectravideo SVI-318 (PAL) -SOFTLIST svi318_cart",
+      "companyName": "Spectravideo",
+      "year": "1983",
+      "parameters": "svi318 -cart1 %ROMMAME%",
+      "comment": "serial:SD220C",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Cross Force",
+      "mameName": "supxfrce",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\svi318_cart\\supxfrce.7z",
+      "emulatorName": "MAME Spectravideo SVI-318 (PAL) -SOFTLIST svi318_cart",
+      "companyName": "Spectravideo",
+      "year": "1983",
+      "comment": "serial:SD237C",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pre-Release",
+      "mameName": "prerelea",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\svi318_cart\\prerelea.7z",
+      "emulatorName": "MAME Spectravideo SVI-318 (PAL) -SOFTLIST svi318_cart",
+      "companyName": "Five Finger Punch",
+      "year": "2015",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

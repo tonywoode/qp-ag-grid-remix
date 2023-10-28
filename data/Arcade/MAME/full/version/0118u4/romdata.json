@@ -1,0 +1,51 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Final Fight (USA, set 1)",
+      "mameName": "ffightu",
+      "parentName": "ffight",
+      "path": "{gamesDir}\\MAME\\ROMS\\ffight.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1989",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Interstellar Laser Fantasy",
+      "mameName": "istellar",
+      "path": "{gamesDir}\\MAME\\CHDs\\istellar\\istellar.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Funai/Gakken",
+      "year": "1983",
+      "gameType": "Shooter / 1st Person",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Undercover Cops - Alpha Renewal Version",
+      "mameName": "uccopsar",
+      "parentName": "uccops",
+      "path": "{gamesDir}\\MAME\\ROMS\\uccops.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    }
+  ]
+}

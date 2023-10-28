@@ -1,0 +1,94 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Sega Rally 2",
+      "mameName": "srally2",
+      "path": "{gamesDir}\\MAME\\ROMS\\srally2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Sega Rally 2 DX",
+      "mameName": "srally2x",
+      "path": "{gamesDir}\\MAME\\ROMS\\srally2x.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Sega Rally Championship - Twin/DX (Revision C)",
+      "mameName": "srallyc",
+      "path": "{gamesDir}\\MAME\\ROMS\\srallyc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Sega Rally Championship - Twin/DX (Revision B)",
+      "mameName": "srallycb",
+      "parentName": "srallyc",
+      "path": "{gamesDir}\\MAME\\ROMS\\srallyc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Sega Rally Championship - DX (Revision A)",
+      "mameName": "srallycdx",
+      "parentName": "srallyc",
+      "path": "{gamesDir}\\MAME\\ROMS\\srallyc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Sega Rally Championship - DX",
+      "mameName": "srallycdxa",
+      "parentName": "srallyc",
+      "path": "{gamesDir}\\MAME\\ROMS\\srallyc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

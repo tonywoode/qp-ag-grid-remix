@@ -1,0 +1,30 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Amstrad PC1640 System Discs",
+      "mameName": "system",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pc1640_flop\\system.7z",
+      "emulatorName": "MAME Amstrad PC1640 SD -SOFTLIST pc1640_flop",
+      "companyName": "Amstrad",
+      "year": "1987",
+      "comment": " part_id:MICROSOFT MS DOS OPERATING SYSTEM - Startup & Utilities v3.2,part_id:GEM STARTUP v2.1U,part_id:GEM DESKTOP v2.0U / Locomotive BASIC 2 v1.2,part_id:GEM PAINT v2.0U / GEM Output v1.23 & Supplementary Programs",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Amstrad PC1640 System Discs (Fra)",
+      "mameName": "system_fr",
+      "parentName": "system",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pc1640_flop\\system.7z",
+      "emulatorName": "MAME Amstrad PC1640 SD -SOFTLIST pc1640_flop",
+      "companyName": "Amstrad",
+      "year": "1987",
+      "comment": " part_id:System Disc 1,part_id:System Disc 2,part_id:System Disc 3,part_id:System Disc 4",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

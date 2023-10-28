@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Steel Gunner (Rev B)",
+      "mameName": "sgunner",
+      "path": "{gamesDir}\\MAME\\ROMS\\sgunner.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1990",
+      "gameType": "Shooter / Gun",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Steel Gunner 2 (US)",
+      "mameName": "sgunner2",
+      "path": "{gamesDir}\\MAME\\ROMS\\sgunner2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1991",
+      "gameType": "Shooter / Gun",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

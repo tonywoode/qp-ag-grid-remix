@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Arabian Fight (World)",
+      "mameName": "arabfgt",
+      "path": "{gamesDir}\\MAME\\ROMS\\arabfgt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Flame Gunner",
+      "mameName": "flamegun",
+      "path": "{gamesDir}\\MAME\\ROMS\\flamegun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gaps Inc.",
+      "year": "1999",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Mace: The Dark Age (boot ROM 1.0ce, HDD 1.0b)",
+      "mameName": "mace",
+      "path": "{gamesDir}\\MAME\\CHDs\\mace\\mace.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Paca Paca Passion 2 (Japan, PKS1/VER.A)",
+      "mameName": "pacapp2",
+      "path": "{gamesDir}\\MAME\\ROMS\\pacapp2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Produce / Namco",
+      "year": "1999",
+      "gameType": "Rhythm / Misc.",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Paca Paca Passion Special (Japan, PSP1/VER.A)",
+      "mameName": "pacappsp",
+      "path": "{gamesDir}\\MAME\\ROMS\\pacappsp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Produce / Namco",
+      "year": "1999",
+      "gameType": "Rhythm / Misc.",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

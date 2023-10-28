@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gunbird (World)",
+      "mameName": "gunbird",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunbird.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Psikyo",
+      "year": "1994",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gunbird 2",
+      "mameName": "gunbird2",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunbird2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Psikyo",
+      "year": "1998",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

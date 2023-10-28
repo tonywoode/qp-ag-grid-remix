@@ -1,0 +1,33 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "BeBox Dual603-66",
+      "mameName": "bebox",
+      "path": "{gamesDir}\\MAME\\ROMS\\bebox.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Be Inc",
+      "year": "1995",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Dragon 128 (Beta)",
+      "mameName": "dgnbeta",
+      "path": "{gamesDir}\\MAME\\ROMS\\dgnbeta.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dragon Data Ltd",
+      "year": "1984",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Night Gal Summer (Japan 850702 NGS 0-01)",
+      "mameName": "ngalsumr",
+      "path": "{gamesDir}\\MAME\\ROMS\\ngalsumr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1985",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Night Bunny (Japan 840601 MRN 2-10)",
+      "mameName": "ngtbunny",
+      "path": "{gamesDir}\\MAME\\ROMS\\ngtbunny.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1984",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Night Gal (Japan 840920 AG 1-00)",
+      "mameName": "nightgal",
+      "path": "{gamesDir}\\MAME\\ROMS\\nightgal.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1984",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Royal Night [BET] (Japan 840220 RN 2-00)",
+      "mameName": "royalngt",
+      "parentName": "ngtbunny",
+      "path": "{gamesDir}\\MAME\\ROMS\\ngtbunny.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Royal Denshi",
+      "year": "1984",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Sexy Gal (Japan 850501 SXG 1-00)",
+      "mameName": "sexygal",
+      "path": "{gamesDir}\\MAME\\ROMS\\sexygal.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1985",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Sweet Gal (Japan 850510 SWG 1-02)",
+      "mameName": "sweetgal",
+      "parentName": "sexygal",
+      "path": "{gamesDir}\\MAME\\ROMS\\sexygal.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1985",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

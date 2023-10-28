@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Konek-Gorbunok",
+      "mameName": "konek",
+      "path": "{gamesDir}\\MAME\\ROMS\\konek.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Terminal",
+      "year": "1988",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "30 to 40 (Amendable)",
+      "language": "Russian",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

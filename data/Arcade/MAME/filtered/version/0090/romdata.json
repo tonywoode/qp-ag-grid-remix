@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Buccaneers (set 1)",
+      "mameName": "buccanrs",
+      "path": "{gamesDir}\\MAME\\ROMS\\buccanrs.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Duintronic",
+      "year": "1989",
+      "gameType": "Fighter / 2D",
+      "rating": "20 to 30 (Bad)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "The Crystal of Kings",
+      "mameName": "crysking",
+      "path": "{gamesDir}\\MAME\\ROMS\\crysking.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "BrezzaSoft",
+      "year": "2001",
+      "gameType": "Fighter / 2.5D",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Evolution Soccer",
+      "mameName": "evosocc",
+      "path": "{gamesDir}\\MAME\\ROMS\\evosocc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Evoga",
+      "year": "2001",
+      "gameType": "Sports / Soccer",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Progear (USA 010117)",
+      "mameName": "progear",
+      "path": "{gamesDir}\\MAME\\ROMS\\progear.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (Capcom license)",
+      "year": "2001",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Rad Mobile (World)",
+      "mameName": "radm",
+      "path": "{gamesDir}\\MAME\\ROMS\\radm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1990",
+      "gameType": "Driving / 1st Person",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Riot",
+      "mameName": "riot",
+      "path": "{gamesDir}\\MAME\\ROMS\\riot.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "NMK",
+      "year": "1992",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Area 51: Site 4 (HD Rev 2.01, September 7, 1998)",
+      "mameName": "a51site4",
+      "path": "{gamesDir}\\MAME\\CHDs\\a51site4\\a51site4-2_01.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1998",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Alpine Surfer (Rev. AF2 Ver.A)",
+      "mameName": "alpinesa",
+      "path": "{gamesDir}\\MAME\\ROMS\\alpinesa.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1996",
+      "gameType": "Sports / Skiing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Psychic Force 2012",
+      "mameName": "pf2012",
+      "path": "{gamesDir}\\MAME\\ROMS\\pf2012.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1997",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

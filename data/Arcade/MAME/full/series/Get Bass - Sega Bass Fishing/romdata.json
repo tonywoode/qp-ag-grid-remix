@@ -1,0 +1,94 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Sega Bass Fishing (Japan)",
+      "mameName": "bass",
+      "path": "{gamesDir}\\MAME\\ROMS\\bass.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1997",
+      "gameType": "Sports / Fishing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Sega Bass Fishing Challenge Version A",
+      "mameName": "basschal",
+      "path": "{gamesDir}\\MAME\\ROMS\\basschal.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2009",
+      "gameType": "Sports / Fishing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Sega Bass Fishing Challenge",
+      "mameName": "basschalo",
+      "parentName": "basschal",
+      "path": "{gamesDir}\\MAME\\ROMS\\basschal.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2009",
+      "gameType": "Sports / Fishing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Sega Bass Fishing Deluxe (Japan)",
+      "mameName": "bassdx",
+      "parentName": "bass",
+      "path": "{gamesDir}\\MAME\\ROMS\\bass.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1997",
+      "gameType": "Sports / Fishing",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Get Bass",
+      "mameName": "getbass",
+      "parentName": "bass",
+      "path": "{gamesDir}\\MAME\\ROMS\\bass.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1997",
+      "gameType": "Sports / Fishing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Sega Marine Fishing",
+      "mameName": "smarinef",
+      "path": "{gamesDir}\\MAME\\ROMS\\smarinef.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2000",
+      "gameType": "Sports / Fishing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Spy Hunter",
+      "mameName": "spyhunt",
+      "path": "{gamesDir}\\MAME\\ROMS\\spyhunt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Bally Midway",
+      "year": "1983",
+      "gameType": "Shooter / Driving Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Spy Hunter II (rev 2)",
+      "mameName": "spyhunt2",
+      "path": "{gamesDir}\\MAME\\ROMS\\spyhunt2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Bally Midway",
+      "year": "1987",
+      "gameType": "Shooter / Driving (chase view)",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

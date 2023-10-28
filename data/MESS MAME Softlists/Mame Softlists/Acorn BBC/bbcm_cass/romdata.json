@@ -1,0 +1,58 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Crazy Rider",
+      "mameName": "crazyrid",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_cass\\crazyrid.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_cass",
+      "companyName": "Superior Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Exile",
+      "mameName": "exile",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_cass\\exile.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_cass",
+      "companyName": "Superior Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Repton Infinity",
+      "mameName": "reptonin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_cass\\reptonin.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_cass",
+      "companyName": "Superior Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Stryker's Run",
+      "mameName": "strykrun",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_cass\\strykrun.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_cass",
+      "companyName": "Superior Software",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Welcome",
+      "mameName": "welcome",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_cass\\welcome.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_cass",
+      "companyName": "BBC Soft",
+      "year": "1986",
+      "comment": " part_id:Welcome,part_id:Utilities",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

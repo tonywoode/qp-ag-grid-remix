@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Avengers In Galactic Storm (US)",
+      "mameName": "avengrgs",
+      "path": "{gamesDir}\\MAME\\ROMS\\avengrgs.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1995",
+      "gameType": "Fighter / Versus",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "DownTown / Mokugeki (set 1)",
+      "mameName": "downtown",
+      "path": "{gamesDir}\\MAME\\ROMS\\downtown.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seta",
+      "year": "1989",
+      "gameType": "Fighter / Vertical",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Metamorphic Force (ver EAA)",
+      "mameName": "metamrph",
+      "path": "{gamesDir}\\MAME\\ROMS\\metamrph.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1993",
+      "gameType": "Fighter / 2.5D",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Martial Champion (ver EAB)",
+      "mameName": "mtlchamp",
+      "path": "{gamesDir}\\MAME\\ROMS\\mtlchamp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1993",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Rohga Armor Force (Asia/Europe v5.0)",
+      "mameName": "rohga",
+      "path": "{gamesDir}\\MAME\\ROMS\\rohga.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1991",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Varth: Operation Thunderstorm (World 920714)",
+      "mameName": "varth",
+      "path": "{gamesDir}\\MAME\\ROMS\\varth.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1992",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

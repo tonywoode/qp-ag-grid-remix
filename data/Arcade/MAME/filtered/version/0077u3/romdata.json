@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Kingdom Grandprix",
+      "mameName": "kingdmgp",
+      "path": "{gamesDir}\\MAME\\ROMS\\kingdmgp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Raizing / Eighting",
+      "year": "1994",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Glass (Ver 1.1, Break Edition, Version 1994)",
+      "mameName": "glass",
+      "path": "{gamesDir}\\MAME\\ROMS\\glass.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "OMK / Gaelco",
+      "year": "1994",
+      "gameType": "Shooter / Field * Mature *",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Glass (Ver 1.0, Break Edition) (set 1)",
+      "mameName": "glass10",
+      "parentName": "glass",
+      "path": "{gamesDir}\\MAME\\ROMS\\glass.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "OMK / Gaelco",
+      "year": "1993",
+      "gameType": "Shooter / Field * Mature *",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Glass (Ver 1.0, Break Edition) (set 2)",
+      "mameName": "glass10a",
+      "parentName": "glass",
+      "path": "{gamesDir}\\MAME\\ROMS\\glass.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "OMK / Gaelco",
+      "year": "1993",
+      "gameType": "Shooter / Field * Mature *",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Glass (Ver 1.1, Break Edition, Version 1994) (censored, unprotected)",
+      "mameName": "glasskr",
+      "parentName": "glass",
+      "path": "{gamesDir}\\MAME\\ROMS\\glass.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "OMK / Gaelco (Promat license)",
+      "year": "1994",
+      "gameType": "Shooter / Field * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Painted Lady (Splash) (Ver. 1.3 US)",
+      "mameName": "paintlad",
+      "parentName": "splash",
+      "path": "{gamesDir}\\MAME\\ROMS\\splash.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gaelco / OMK Software",
+      "year": "1992",
+      "gameType": "Misc. * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Splash! (Ver. 1.2 World)",
+      "mameName": "splash",
+      "path": "{gamesDir}\\MAME\\ROMS\\splash.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gaelco / OMK Software",
+      "year": "1992",
+      "gameType": "Misc. * Mature *",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Splash! (Ver. 1.0 World)",
+      "mameName": "splash10",
+      "parentName": "splash",
+      "path": "{gamesDir}\\MAME\\ROMS\\splash.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gaelco / OMK Software",
+      "year": "1992",
+      "gameType": "Misc. * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

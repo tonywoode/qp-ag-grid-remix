@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Fireball II",
+      "mameName": "fball_ii",
+      "path": "{gamesDir}\\MAME\\ROMS\\fball_ii.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Bally",
+      "year": "1981",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Fireball Classic",
+      "mameName": "fbclass",
+      "path": "{gamesDir}\\MAME\\ROMS\\fbclass.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Bally",
+      "year": "1984",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    }
+  ]
+}

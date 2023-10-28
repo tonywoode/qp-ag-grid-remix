@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gyruss",
+      "mameName": "gyruss",
+      "path": "{gamesDir}\\MAME\\ROMS\\gyruss.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1983",
+      "gameType": "Shooter / Flying (chase view)",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Krull",
+      "mameName": "krull",
+      "path": "{gamesDir}\\MAME\\ROMS\\krull.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gottlieb",
+      "year": "1983",
+      "gameType": "Shooter / Field",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

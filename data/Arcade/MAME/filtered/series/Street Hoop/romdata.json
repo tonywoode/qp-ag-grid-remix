@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Hoops '96 (Europe/Asia 2.0)",
+      "mameName": "hoops96",
+      "path": "{gamesDir}\\MAME\\ROMS\\hoops96.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1996",
+      "gameType": "Sports / Basketball",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Street Hoop / Street Slam / Dunk Dream (DEM-004 ~ DEH-004)",
+      "mameName": "strhoop",
+      "path": "{gamesDir}\\MAME\\ROMS\\strhoop.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1994",
+      "gameType": "Sports / Basketball",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

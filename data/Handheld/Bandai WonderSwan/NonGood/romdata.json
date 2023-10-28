@@ -1,0 +1,63 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Crazy Climber (J) [M][!] [T+Rus_Cool-Spot]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodWSX\\Crazy Climber (J) [M][!] [T+Rus_Cool-Spot].zip",
+      "emulatorName": "RetroArch Bandai WonderSwan/Color (Mednafen/Beetle Cygne)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "display a picture sample 2006 Tharo Herberg",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodWSX\\display a picture sample 2006 Tharo Herberg.zip",
+      "emulatorName": "RetroArch Bandai WonderSwan/Color (Mednafen/Beetle Cygne)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Starship_full_WS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodWSX\\Starship_full_WS.zip",
+      "emulatorName": "RetroArch Bandai WonderSwan/Color (Mednafen/Beetle Cygne)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Starship_full_WSC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodWSX\\Starship_full_WSC.zip",
+      "emulatorName": "RetroArch Bandai WonderSwan/Color (Mednafen/Beetle Cygne)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taikyoku Igo - Heisei Kiin (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodWSX\\Taikyoku Igo - Heisei Kiin (Japan).zip",
+      "emulatorName": "RetroArch Bandai WonderSwan/Color (Mednafen/Beetle Cygne)",
+      "language": "Japanese",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trump Collection 2 - Bottom-Up Teki Sekaiisshuu no Tabi (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodWSX\\Trump Collection 2 - Bottom-Up Teki Sekaiisshuu no Tabi (Japan).zip",
+      "emulatorName": "RetroArch Bandai WonderSwan/Color (Mednafen/Beetle Cygne)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wonderswan Color Clean Example 2008 orion_",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodWSX\\Wonderswan Color Clean Example 2008 orion_.zip",
+      "emulatorName": "RetroArch Bandai WonderSwan/Color (Mednafen/Beetle Cygne)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

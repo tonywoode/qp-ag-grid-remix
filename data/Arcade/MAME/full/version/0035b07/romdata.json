@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "The Battle-Road",
+      "mameName": "battroad",
+      "path": "{gamesDir}\\MAME\\ROMS\\battroad.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1984",
+      "gameType": "Shooter / Driving Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Block Block (bootleg)",
+      "mameName": "blockbl",
+      "parentName": "block",
+      "path": "{gamesDir}\\MAME\\ROMS\\block.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1991",
+      "gameType": "Ball & Paddle / Breakout",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "The NewZealand Story (World, new version) (newer PCB)",
+      "mameName": "tnzs",
+      "path": "{gamesDir}\\MAME\\ROMS\\tnzs.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1988",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

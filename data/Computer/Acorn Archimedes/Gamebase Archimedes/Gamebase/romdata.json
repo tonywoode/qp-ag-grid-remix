@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gamebase Archimedes",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase Archimedes.jpg",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "Archimedes",
+      "timesPlayed": "7",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dance Dance Revolution 2nd Mix (GN895 VER. JAA)",
+      "mameName": "ddr2m",
+      "path": "{gamesDir}\\MAME\\CHDs\\ddr2m\\895jaa02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Rhythm / Dance",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Fisherman's Bait 2 - A Bass Challenge (GE865 VER. UAB)",
+      "mameName": "fbait2bc",
+      "path": "{gamesDir}\\MAME\\CHDs\\fbait2bc\\865uab02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Sports / Fishing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Fisherman's Bait - A Bass Challenge (GE765 VER. UAB)",
+      "mameName": "fbaitbc",
+      "path": "{gamesDir}\\MAME\\CHDs\\fbaitbc\\765uab02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Sports / Fishing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Fisherman's Bait - Marlin Challenge (GX889 VER. EA)",
+      "mameName": "fbaitmc",
+      "path": "{gamesDir}\\MAME\\CHDs\\fbaitmc\\889ea.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Sports / Fishing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Guitar Freaks (GQ886 VER. EAC)",
+      "mameName": "gtrfrks",
+      "path": "{gamesDir}\\MAME\\CHDs\\gtrfrks\\886__c02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Rhythm / Instruments",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

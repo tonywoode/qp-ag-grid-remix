@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "LOAD MAMEUI",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Load MameUI.jpg",
+      "emulatorName": "MameUI64 Win32",
+      "language": "English",
+      "parameters": " ",
+      "timesPlayed": "25",
+      "paramMode": "1"
+    }
+  ]
+}

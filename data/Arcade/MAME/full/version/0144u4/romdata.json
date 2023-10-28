@@ -1,0 +1,89 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Alphatronic PC",
+      "mameName": "alphatro",
+      "path": "{gamesDir}\\MAME\\ROMS\\alphatro.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Triumph-Adler",
+      "year": "1983",
+      "gameType": "Professional Systems / Business Computer & Terminal",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Chess Traveller",
+      "mameName": "chesstrv",
+      "path": "{gamesDir}\\MAME\\ROMS\\chesstrv.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Acetronic",
+      "year": "1980",
+      "gameType": "Portable Systems / Chess Machine",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Champion Sensory Chess Challenger (English)",
+      "mameName": "csc",
+      "path": "{gamesDir}\\MAME\\ROMS\\csc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Fidelity Electronics",
+      "year": "1981",
+      "gameType": "Portable Systems / Chess Machine",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Apricot F1e",
+      "mameName": "f1e",
+      "parentName": "f1",
+      "path": "{gamesDir}\\MAME\\ROMS\\f1.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ACT",
+      "year": "1984",
+      "gameType": "Professional Systems / Business Computer & Terminal",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Apricot F2",
+      "mameName": "f2",
+      "parentName": "f1",
+      "path": "{gamesDir}\\MAME\\ROMS\\f1.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ACT",
+      "year": "1984",
+      "gameType": "Professional Systems / Business Computer & Terminal",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Itazura Tenshi (Japan)",
+      "mameName": "itaten",
+      "path": "{gamesDir}\\MAME\\ROMS\\itaten.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu / Alice",
+      "year": "1984",
+      "gameType": "Puzzle / Outline",
+      "rating": "60 to 70 (Passable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

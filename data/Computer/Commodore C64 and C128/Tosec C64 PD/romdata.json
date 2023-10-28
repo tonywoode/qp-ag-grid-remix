@@ -1,0 +1,719 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Ad Infinitum",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Ad Infinitum.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventure",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Adventure.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "AMC",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\AMC",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ancipital",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\ancipital.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ardok The Barbarian -Hawk",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Ardok The Barbarian -Hawk.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ArtOfChina_d1",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\ArtOfChina_d1.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "ArtOfChina_d2",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\ArtOfChina_d2.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Asterix And The Magic Cauldron -TS",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Asterix And The Magic Cauldron -TS.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Attack Of The Mutant Camels [HES]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Attack Of The Mutant Camels [HES].prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aussie Games -DSD d1",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Aussie Games -DSD d1.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aussie Games -DSD d2",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Aussie Games -DSD d2.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aussie Games -DSD d3",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Aussie Games -DSD d3.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batalyx",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Batalyx",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Big Mac",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Big Mac.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blow Up The Earth -TBT",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Blow Up The Earth -TBT.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "bomber",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\bomber.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bop'n Rumble -ESI",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Bop'n Rumble -ESI.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bop'n Wrestle -Nepa+PSE",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Bop'n Wrestle -Nepa+PSE.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cheekyt1",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\cheekyt1.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "cheekyt2",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\cheekyt2.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cloux -F4CG",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Cloux -F4CG.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cloux -Lxt",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Cloux -Lxt.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cloux -P",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Cloux -P.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cloux -SCS+TRC",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Cloux -SCS+TRC.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Convention Blues",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Convention Blues.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Causeway -Rem",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Cosmic Causeway -Rem.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Creeps1",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Creeps1.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Darkon II -FLT",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Darkon II -FLT.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Duck Shoot",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Duck Shoot.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Exploding Fist II -Rem",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Exploding Fist II -Rem.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fearless Fred",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Fearless Fred.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fist+ -Rem",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Fist+ -Rem.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FIST2_A",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\FIST2_A.TAP",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FIST2_B",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\FIST2_B.TAP",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Formula 1 Simulator",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Formula 1 Simulator.tap",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frustration",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Frustration.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gridrunner",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Gridrunner",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hellgate",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Hellgate",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hellgate_T",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Hellgate_T",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hero Of The Golden Talisman",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Hero Of The Golden Talisman.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hobbit -OUG d1",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Hobbit -OUG d1.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hobbit -OUG d2",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Hobbit -OUG d2.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Horace Goes Skiing -Supersoft",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Horace Goes Skiing -Supersoft.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hover_Bovver",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Hover_Bovver",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hummdinger",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Hummdinger.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hungry Horace",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Hungry Horace.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Iridis_Alpha",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Iridis_Alpha",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Iridis_Alpha_T",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Iridis_Alpha_T",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kikstart II",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Kikstart II.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kik-Start",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Kik-Start.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Laser_Zone",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Laser_Zone",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Laserwheel",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Laserwheel.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lazer_Duel",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Lazer_Duel.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lord Of The Rings d1",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Lord Of The Rings d1.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lord Of The Rings d2",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Lord Of The Rings d2.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mama_Llama",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Mama_Llama",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Matrix",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Matrix",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mugsy's Revenge -MrZ",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Mugsy's Revenge -MrZ.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "P_O_D",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\P_O_D.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RetOTMC",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\RetOTMC",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RevOTMC",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\RevOTMC",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rock'n Wrestle -DD",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Rock'n Wrestle -DD.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rollaround",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Rollaround.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rox 64 (Swedish)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Rox 64 (Swedish).prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rox 64",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Rox 64.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "s.western",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\s.western.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sabotage",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\sabotage.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "saboteur",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\saboteur.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "saboteur_ii",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\saboteur_ii.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "sabre_wulf",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\sabre_wulf.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "sagave_platforms_prv",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\sagave_platforms_prv.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sailing",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\sailing.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "saint_dragon",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\saint_dragon.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "salamander",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\salamander.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "saliva_kid",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\saliva_kid.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "samantha_fox_strip_poker",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\samantha_fox_strip_poker.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "samber",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\samber.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "samurai.warrior",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\samurai.warrior.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "samurai_warrior",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\samurai_warrior.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "santa_paravia",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\santa_paravia.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "santolus",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\santolus.t64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sheep_In_Space",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Sheep_In_Space",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectipede",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Spectipede.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Hassle -Cart",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Street Hassle -Cart.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trailblazer_[Rem]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Trailblazer_[Rem].d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Video_Meanies",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Video_Meanies.prg",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "voidrunner",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\voidrunner",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Way Of The Exploding Fist -Rem",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Way Of The Exploding Fist -Rem.d64",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Way Of The Exploding Fist",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\C64\\Way Of The Exploding Fist.tap",
+      "emulatorName": "CCS64 (NEW EXE NAME)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

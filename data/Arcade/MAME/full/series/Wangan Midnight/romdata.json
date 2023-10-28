@@ -1,0 +1,108 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Wangan Midnight (WMN1 Ver. A)",
+      "mameName": "wanganmd",
+      "path": "{gamesDir}\\MAME\\CHDs\\wanganmd\\wmn1-a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2001",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Wangan Midnight R (WMR1 Ver. A)",
+      "mameName": "wanganmr",
+      "path": "{gamesDir}\\MAME\\CHDs\\wanganmr\\wmr1-a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2002",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Wangan Midnight Maximum Tune (Export) (Rev B) (GDX-0009B)",
+      "mameName": "wangmid",
+      "path": "{gamesDir}\\MAME\\CHDs\\wangmid\\gdx-0009b.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2004",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Wangan Midnight Maximum Tune 2 (Export) (Rev A) (GDX-0016A)",
+      "mameName": "wangmid2",
+      "path": "{gamesDir}\\MAME\\CHDs\\wangmid2\\gdx-0016a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2005",
+      "gameType": "Driving / Race (chase view)",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Wangan Midnight Maximum Tune 2 (Japan) (GDX-0015)",
+      "mameName": "wangmid2j",
+      "parentName": "wangmid2",
+      "path": "{gamesDir}\\MAME\\CHDs\\wangmid2\\gdx-0015.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2005",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Wangan Midnight Maximum Tune 2 (Japan) (Rev A) (GDX-0015A)",
+      "mameName": "wangmid2ja",
+      "parentName": "wangmid2",
+      "path": "{gamesDir}\\MAME\\CHDs\\wangmid2\\gdx-0015a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2005",
+      "gameType": "Driving / Race (chase view)",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Wangan Midnight Maximum Tune (Japan) (Rev B) (GDX-0008B)",
+      "mameName": "wangmidj",
+      "parentName": "wangmid",
+      "path": "{gamesDir}\\MAME\\CHDs\\wangmid\\gdx-0008b.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2004",
+      "gameType": "Driving / Race (chase view)",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

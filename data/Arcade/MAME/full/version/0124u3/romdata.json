@@ -1,0 +1,66 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Aero Fighters (bootleg set 2)",
+      "mameName": "aerfboo2",
+      "parentName": "aerofgt",
+      "path": "{gamesDir}\\MAME\\ROMS\\aerofgt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1992",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Led Storm Rally 2011 (US)",
+      "mameName": "leds2011u",
+      "parentName": "leds2011",
+      "path": "{gamesDir}\\MAME\\ROMS\\leds2011.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1988",
+      "gameType": "Driving / Race",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Nandemo Seal Iinkai",
+      "mameName": "nndmseal",
+      "path": "{gamesDir}\\MAME\\ROMS\\nndmseal.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "I'Max / Jaleco",
+      "year": "1997",
+      "gameType": "Print Club",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Shinobi (set 5, System 16B) (unprotected)",
+      "mameName": "shinobi5",
+      "parentName": "shinobi",
+      "path": "{gamesDir}\\MAME\\ROMS\\shinobi.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1987",
+      "gameType": "Platform / Fighter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

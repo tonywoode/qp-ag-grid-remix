@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Galaxy Game",
+      "mameName": "galgame",
+      "path": "{gamesDir}\\MAME\\ROMS\\galgame.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Computer Recreations, Inc",
+      "year": "1971",
+      "gameType": "Shooter / Flying",
+      "rating": "0 to 10 (Worst)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

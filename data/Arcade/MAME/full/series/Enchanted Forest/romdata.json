@@ -1,0 +1,79 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Enchanted Forest (12XF528902, US)",
+      "mameName": "eforest",
+      "path": "{gamesDir}\\MAME\\ROMS\\eforest.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1996",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Enchanted Forest (4VXFC818, NSW)",
+      "mameName": "eforesta",
+      "parentName": "eforest",
+      "path": "{gamesDir}\\MAME\\ROMS\\eforest.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1995",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Enchanted Forest (3VXFC5343, New Zealand)",
+      "mameName": "eforestb",
+      "parentName": "eforest",
+      "path": "{gamesDir}\\MAME\\ROMS\\eforest.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1996",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Enchanted Forest (0400122V, NSW/ACT)",
+      "mameName": "eforsta5",
+      "path": "{gamesDir}\\MAME\\ROMS\\eforsta5.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1995",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Phantom Pays (4VXFC5431, New Zealand)",
+      "mameName": "phantomp",
+      "path": "{gamesDir}\\MAME\\ROMS\\phantomp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1998",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

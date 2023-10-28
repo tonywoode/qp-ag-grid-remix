@@ -1,0 +1,74 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "SimpliCalc",
+      "mameName": "simpcalc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vic1001_flop\\simpcalc.7z",
+      "emulatorName": "MAME Commodore VIC-1001 (Japan) -SOFTLIST vic1001_flop NTSC only",
+      "companyName": "Commodore",
+      "year": "1981",
+      "comment": "serial:VIC-3301,ram:16K",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "VicFile",
+      "mameName": "vicfile",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vic1001_flop\\vicfile.7z",
+      "emulatorName": "MAME Commodore VIC-1001 (Japan) -SOFTLIST vic1001_flop NTSC only",
+      "companyName": "Commodore",
+      "year": "1981",
+      "comment": "serial:VIC-3304,ram:16K",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "VicFile (Alt)",
+      "mameName": "vicfilea",
+      "parentName": "vicfile",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vic1001_flop\\vicfile.7z",
+      "emulatorName": "MAME Commodore VIC-1001 (Japan) -SOFTLIST vic1001_flop NTSC only",
+      "companyName": "Commodore",
+      "year": "1981",
+      "comment": "serial:VIC-3304,ram:16K",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "VicWriter",
+      "mameName": "vicwrite",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vic1001_flop\\vicwrite.7z",
+      "emulatorName": "MAME Commodore VIC-1001 (Japan) -SOFTLIST vic1001_flop NTSC only",
+      "companyName": "Commodore",
+      "year": "1981",
+      "comment": "serial:VIC-3305,ram:8K",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SpeakEasy",
+      "mameName": "speakez",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vic1001_flop\\speakez.7z",
+      "emulatorName": "MAME Commodore VIC-1001 (Japan) -SOFTLIST vic1001_flop NTSC only",
+      "companyName": "Personal Peripheral Products",
+      "year": "1983",
+      "parameters": "vic1001 -flop1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Data 20 Display Manager",
+      "mameName": "data20dm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vic1001_flop\\data20dm.7z",
+      "emulatorName": "MAME Commodore VIC-1001 (Japan) -SOFTLIST vic1001_flop NTSC only",
+      "companyName": "Data 20 Corporation",
+      "year": "1982",
+      "parameters": "vic1001 -flop1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

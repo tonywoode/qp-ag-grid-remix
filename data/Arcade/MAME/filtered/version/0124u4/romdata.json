@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Jumping Pop (Nics, Korean hack of Plump Pop)",
+      "mameName": "jpopnics",
+      "path": "{gamesDir}\\MAME\\ROMS\\jpopnics.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nics",
+      "year": "1992",
+      "gameType": "Ball & Paddle",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

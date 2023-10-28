@@ -1,0 +1,51 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Rail Chase (World)",
+      "mameName": "rchase",
+      "path": "{gamesDir}\\MAME\\ROMS\\rchase.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1991",
+      "gameType": "Shooter / Gun",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Rail Chase 2 (Revision A)",
+      "mameName": "rchase2",
+      "path": "{gamesDir}\\MAME\\ROMS\\rchase2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1995",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Rail Chase (Japan)",
+      "mameName": "rchasej",
+      "parentName": "rchase",
+      "path": "{gamesDir}\\MAME\\ROMS\\rchase.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1991",
+      "gameType": "Shooter / Gun",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

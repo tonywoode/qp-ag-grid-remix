@@ -1,0 +1,239 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "3D Tetris",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\3D Tetris.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galactic Pinball",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Galactic Pinball.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Golf",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Golf.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Insmouse no Yakata",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Insmouse no Yakata.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jack Bros.",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Jack Bros..7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mario Clash",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Mario Clash.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mario's Tennis",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Mario's Tennis.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nester's Funky Bowling",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Nester's Funky Bowling.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Panic Bomber",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Panic Bomber.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Public Domain.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Red Alarm",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Red Alarm.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SD Gundam Dimension War",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\SD Gundam Dimension War.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders Virtual Collection",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Space Invaders Virtual Collection.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Squash",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Space Squash.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teleroboxer",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Teleroboxer.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tobidase! Panibomb",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Tobidase! Panibomb.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vertical Force",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Vertical Force.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtual Bowling",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Virtual Bowling.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtual Boy Wario Land",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Virtual Boy Wario Land.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtual Fishing",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Virtual Fishing.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtual Lab",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Virtual Lab.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtual League Baseball",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Virtual League Baseball.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "V-Tetris",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\V-Tetris.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Waterworld",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\GoodVBoy_3.1415\\Waterworld.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Insmedit",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\Tools\\Insmedit.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "IPSWin20",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\Tools\\IPSWin20.7z",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bound High! (JU)",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\Unreleased_Prototypes\\Bound High! (JU).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Faceball.Remastered.v1.0",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\Unreleased_Prototypes\\Faceball.Remastered.v1.0.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NikoChan Battle (J) (Prototype)",
+      "path": "{gamesDir}\\Goodsets\\same\\GoodVboy_3.1415_+extras_GM_RW2016\\Unreleased_Prototypes\\NikoChan Battle (J) (Prototype).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen/Beetle VB)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Deathsmiles (2007/10/09 MASTER VER)",
+      "mameName": "deathsml",
+      "path": "{gamesDir}\\MAME\\ROMS\\deathsml.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2007",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Deathsmiles MegaBlack Label (2008/10/06 MEGABLACK LABEL VER)",
+      "mameName": "dsmbl",
+      "path": "{gamesDir}\\MAME\\ROMS\\dsmbl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2008",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

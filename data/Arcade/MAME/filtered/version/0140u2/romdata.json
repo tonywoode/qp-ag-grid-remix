@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Espgaluda (2003/10/15 Master Ver)",
+      "mameName": "espgal",
+      "path": "{gamesDir}\\MAME\\ROMS\\espgal.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2003",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.)",
+      "mameName": "ket",
+      "path": "{gamesDir}\\MAME\\ROMS\\ket.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2002",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "The King of Dragons (World 910805)",
+      "mameName": "kod",
+      "path": "{gamesDir}\\MAME\\ROMS\\kod.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Mega Man: The Power Battle (CPS1, USA 951006)",
+      "mameName": "megaman",
+      "path": "{gamesDir}\\MAME\\ROMS\\megaman.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1995",
+      "gameType": "Fighter / Versus Co-op",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

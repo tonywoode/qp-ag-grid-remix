@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Thunder Dragon (8th Jan. 1992, unprotected)",
+      "mameName": "tdragon",
+      "path": "{gamesDir}\\MAME\\ROMS\\tdragon.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "NMK (Tecmo license)",
+      "year": "1991",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

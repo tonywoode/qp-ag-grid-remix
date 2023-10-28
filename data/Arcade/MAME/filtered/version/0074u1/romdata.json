@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "beatmania complete MIX (ver JA-B)",
+      "mameName": "bmcompmx",
+      "path": "{gamesDir}\\MAME\\CHDs\\bmcompmx\\858jaa11.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Rhythm / Instruments",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "beatmania CORE REMIX (ver JA-A)",
+      "mameName": "bmcorerm",
+      "path": "{gamesDir}\\MAME\\CHDs\\bmcorerm\\a05jaa11.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Rhythm / Instruments",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Driving Force (Pac-Man conversion)",
+      "mameName": "drivfrcp",
+      "path": "{gamesDir}\\MAME\\ROMS\\drivfrcp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Shinkai Inc. (Magic Electronics Inc. license)",
+      "year": "1984",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Porky",
+      "mameName": "porky",
+      "path": "{gamesDir}\\MAME\\ROMS\\porky.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Shinkai Inc. (Magic Electronics Inc. license)",
+      "year": "1985",
+      "gameType": "Shooter / Driving Horizontal",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

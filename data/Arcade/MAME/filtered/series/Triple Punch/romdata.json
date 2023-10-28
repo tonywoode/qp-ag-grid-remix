@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Triple Punch (set 1)",
+      "mameName": "triplep",
+      "path": "{gamesDir}\\MAME\\ROMS\\triplep.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "K.K. International",
+      "year": "1982",
+      "gameType": "Maze / Outline",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "X-Men: Children of the Atom (Euro 950331)",
+      "mameName": "xmcota",
+      "path": "{gamesDir}\\MAME\\ROMS\\xmcota.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "X-Men (4 Players ver UBB)",
+      "mameName": "xmen",
+      "path": "{gamesDir}\\MAME\\ROMS\\xmen.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    }
+  ]
+}

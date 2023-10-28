@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Magic Sound Tracker Player",
+      "mameName": "magicsnd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aleste\\magicsnd.7z",
+      "emulatorName": "Retroarch Patisonic Aleste 520EX -SOFTLIST aleste (MAME)",
+      "companyName": "<unknown>",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MSX-DOS + Developer Tools",
+      "mameName": "msxdos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aleste\\msxdos.7z",
+      "emulatorName": "Retroarch Patisonic Aleste 520EX -SOFTLIST aleste (MAME)",
+      "companyName": "Microsoft - Patisonic",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MSX Games",
+      "mameName": "msxgames",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aleste\\msxgames.7z",
+      "emulatorName": "Retroarch Patisonic Aleste 520EX -SOFTLIST aleste (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

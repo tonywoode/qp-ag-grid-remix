@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Rampage (Rev 3, 8/27/86)",
+      "mameName": "rampage",
+      "path": "{gamesDir}\\MAME\\ROMS\\rampage.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Bally Midway",
+      "year": "1986",
+      "gameType": "Platform / Fighter",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Rampage (Rev 2, 8/4/86)",
+      "mameName": "rampage2",
+      "parentName": "rampage",
+      "path": "{gamesDir}\\MAME\\ROMS\\rampage.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Bally Midway",
+      "year": "1986",
+      "gameType": "Platform / Fighter",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Rampage: World Tour (rev 1.3)",
+      "mameName": "rmpgwt",
+      "path": "{gamesDir}\\MAME\\ROMS\\rmpgwt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1997",
+      "gameType": "Platform / Fighter",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Rampage: World Tour (rev 1.1)",
+      "mameName": "rmpgwt11",
+      "parentName": "rmpgwt",
+      "path": "{gamesDir}\\MAME\\ROMS\\rmpgwt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1997",
+      "gameType": "Platform / Fighter",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    }
+  ]
+}

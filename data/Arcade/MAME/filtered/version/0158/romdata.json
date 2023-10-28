@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Pop'n Music 3 (ver JA-A)",
+      "mameName": "popn3",
+      "path": "{gamesDir}\\MAME\\CHDs\\popn3\\980hdda01.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Rhythm / Misc.",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Star Trek (Head On hardware)",
+      "mameName": "startrks",
+      "path": "{gamesDir}\\MAME\\ROMS\\startrks.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Sidam)",
+      "year": "198?",
+      "gameType": "Maze / Shooter Small",
+      "rating": "20 to 30 (Bad)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Come Back Toto",
+      "mameName": "toto",
+      "path": "{gamesDir}\\MAME\\ROMS\\toto.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SoftClub",
+      "year": "1996",
+      "gameType": "Platform / Run Jump",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

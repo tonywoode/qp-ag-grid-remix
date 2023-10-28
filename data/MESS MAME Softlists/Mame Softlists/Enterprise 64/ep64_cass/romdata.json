@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "3D Star Fighter",
+      "mameName": "3dstarfg",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ep64_cass\\3dstarfg.7z",
+      "emulatorName": "MAME Enterprise Sixty Four -SOFTLIST ep64_cass",
+      "companyName": "Code Masters",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Airwolf",
+      "mameName": "airwolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ep64_cass\\airwolf.7z",
+      "emulatorName": "MAME Enterprise Sixty Four -SOFTLIST ep64_cass",
+      "companyName": "Elite",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nodes of Yesod",
+      "mameName": "nodes",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ep64_cass\\nodes.7z",
+      "emulatorName": "MAME Enterprise Sixty Four -SOFTLIST ep64_cass",
+      "companyName": "Odin Computer Graphics",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

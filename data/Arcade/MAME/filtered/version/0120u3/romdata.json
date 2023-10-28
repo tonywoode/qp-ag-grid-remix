@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Trog (rev LA5 03/29/91)",
+      "mameName": "trog",
+      "path": "{gamesDir}\\MAME\\ROMS\\trog.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1990",
+      "gameType": "Maze",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Astro Bomber",
+      "mameName": "astrobom",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gamepock\\astrobom.7z",
+      "emulatorName": "Retroarch Epoch Game Pocket Computer -SOFTLIST gamepock (MAME)",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": "serial:1",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Block Maze",
+      "mameName": "blockmaz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gamepock\\blockmaz.7z",
+      "emulatorName": "Retroarch Epoch Game Pocket Computer -SOFTLIST gamepock (MAME)",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": "serial:2",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokekon Mahjongg",
+      "mameName": "pokemahj",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gamepock\\pokemahj.7z",
+      "emulatorName": "Retroarch Epoch Game Pocket Computer -SOFTLIST gamepock (MAME)",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": "serial:3",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pokekon Reversi",
+      "mameName": "pokereve",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gamepock\\pokereve.7z",
+      "emulatorName": "Retroarch Epoch Game Pocket Computer -SOFTLIST gamepock (MAME)",
+      "companyName": "Epoch",
+      "year": "1984",
+      "comment": "serial:4",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soukoban - Store Keepers",
+      "mameName": "sokoban",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\gamepock\\sokoban.7z",
+      "emulatorName": "Retroarch Epoch Game Pocket Computer -SOFTLIST gamepock (MAME)",
+      "companyName": "Epoch",
+      "year": "1985",
+      "comment": "serial:5",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

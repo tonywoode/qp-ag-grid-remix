@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "The Amstrad PC Collection",
+      "mameName": "amstcoll",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pc1512_flop\\amstcoll.7z",
+      "emulatorName": "Retroarch Amstrad PC1512 SD -SOFTLIST pc1512_flop (MAME)",
+      "companyName": "U.S. Gold",
+      "year": "1986",
+      "comment": " part_id:The Dam Busters,part_id:Bruce Lee,part_id:PSI-5 Trading Company,part_id:Tag-Team Wrestling",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Applications (Fra)",
+      "mameName": "applicat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pc1512_flop\\applicat.7z",
+      "emulatorName": "Retroarch Amstrad PC1512 SD -SOFTLIST pc1512_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "comment": " part_id:Applications,part_id:Calcomat,part_id:Evolution,part_id:Superbase",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Amstrad PC1512 System Discs",
+      "mameName": "system",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pc1512_flop\\system.7z",
+      "emulatorName": "Retroarch Amstrad PC1512 SD -SOFTLIST pc1512_flop (MAME)",
+      "companyName": "Amstrad",
+      "year": "1986",
+      "comment": " part_id:MICROSOFT MS DOS OPERATING SYSTEM - START UP & UTILITIES v3.2,part_id:GEM STARTUP v2.1U,part_id:GEM DESKTOP v2.0U / Locomotive BASIC 2 v1.2,part_id:GEM PAINT v2.0U,part_id:System Disc 5 (Hard Disk Utilities)",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Amstrad PC1512 System Discs (Fra)",
+      "mameName": "system_fr",
+      "parentName": "system",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pc1512_flop\\system.7z",
+      "emulatorName": "Retroarch Amstrad PC1512 SD -SOFTLIST pc1512_flop (MAME)",
+      "companyName": "Amstrad",
+      "year": "1986",
+      "comment": " part_id:System Disc 1,part_id:System Disc 2,part_id:System Disc 3,part_id:System Disc 4,part_id:System Disc 5 (Hard Disk Utilities)",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

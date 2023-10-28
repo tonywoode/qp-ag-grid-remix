@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dynasty Wars (USA, B-Board 89624B-?)",
+      "mameName": "dynwar",
+      "path": "{gamesDir}\\MAME\\ROMS\\dynwar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1989",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Warriors of Fate (World 921031)",
+      "mameName": "wof",
+      "path": "{gamesDir}\\MAME\\ROMS\\wof.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    }
+  ]
+}

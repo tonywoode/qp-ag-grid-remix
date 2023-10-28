@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "PC/AT 486 (VGA, MF2 Keyboard)",
+      "mameName": "at486",
+      "parentName": "ibm5170",
+      "path": "{gamesDir}\\MAME\\ROMS\\ibm5170.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "<generic>",
+      "year": "1990",
+      "gameType": "Professional Systems / Business Computer & Terminal",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "BeBox Dual603-133",
+      "mameName": "bebox2",
+      "parentName": "bebox",
+      "path": "{gamesDir}\\MAME\\ROMS\\bebox.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Be Inc",
+      "year": "1996",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

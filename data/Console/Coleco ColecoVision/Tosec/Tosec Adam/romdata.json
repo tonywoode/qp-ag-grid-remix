@@ -1,0 +1,375 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "2010 - The Ultimate Text Adventure (1984-85)(MGM - United Artists Entertainment Co.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\2010 - The Ultimate Text Adventure (1984-85)(MGM - United Artists Entertainment Co.).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adam Links Golf (1986)(Superior Software)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Adam Links Golf (1986)(Superior Software).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Addictus (1989)(Reedy Software)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Addictus (1989)(Reedy Software).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Best of B.C. - Featuring B.C's Quest For Tires And B.C. II - Gog's Revenge (1985)(Sydney Development)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Best of B.C. - Featuring B.C's Quest For Tires And B.C. II - Gog's Revenge (1985)(Sydney Development).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "12",
+      "paramMode": "0"
+    },
+    {
+      "name": "Best of Electronic Arts, The (19xx)(Electronic Arts)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Best of Electronic Arts, The (19xx)(Electronic Arts)(PD).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Campaign '84 (1983)(Sunrise Software Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Campaign '84 (1983)(Sunrise Software Inc.).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cartsoft #01 (198x)(U.K. ADAM Subscribers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Cartsoft #01 (198x)(U.K. ADAM Subscribers).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cartsoft #04 (198x)(U.K. ADAM Subscribers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Cartsoft #04 (198x)(U.K. ADAM Subscribers).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cartsoft #05 (198x)(U.K. ADAM Subscribers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Cartsoft #05 (198x)(U.K. ADAM Subscribers).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cartsoft #07 (198x)(U.K. ADAM Subscribers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Cartsoft #07 (198x)(U.K. ADAM Subscribers).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cartsoft #08 (198x)(U.K. ADAM Subscribers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Cartsoft #08 (198x)(U.K. ADAM Subscribers).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cartsoft #14 (198x)(U.K. ADAM Subscribers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Cartsoft #14 (198x)(U.K. ADAM Subscribers).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cartsoft #16 (198x)(U.K. ADAM Subscribers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Cartsoft #16 (198x)(U.K. ADAM Subscribers).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cartsoft #19 (198x)(U.K. ADAM Subscribers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Cartsoft #19 (198x)(U.K. ADAM Subscribers).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Catalog Program (198x)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Catalog Program (198x)(Coleco).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chess Champ (1988)(Digital Express)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Chess Champ (1988)(Digital Express).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copycart+ 01 (1985)(MMSG)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Copycart+ 01 (1985)(MMSG).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copycart+ 02 (1985)(MMSG)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Copycart+ 02 (1985)(MMSG).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copycart+ 02 (1985)(MMSG)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Copycart+ 02 (1985)(MMSG)[a].zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copycart+ 03 (1985)(MMSG)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Copycart+ 03 (1985)(MMSG).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copycart+ 04 (1985)(MMSG)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Copycart+ 04 (1985)(MMSG).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copycart+ 05 (1985)(MMSG)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Copycart+ 05 (1985)(MMSG).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copycart+ 06 (1985)(MMSG)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Copycart+ 06 (1985)(MMSG).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CP-M 2.2 v1.50 (1976-84)(Digital Research - Coleco Industries Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\CP-M 2.2 v1.50 (1976-84)(Digital Research - Coleco Industries Inc.).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dam Busters, The (1984)(Sydney Development Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Dam Busters, The (1984)(Sydney Development Corp.).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diablo (1983-84)(Image Microcorp - Extended Software)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Diablo (1983-84)(Image Microcorp - Extended Software).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong Jr (1982-83)(Nintendo of America Inc.)[5 screen version]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Donkey Kong Jr (1982-83)(Nintendo of America Inc.)[5 screen version].zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon's Lair (1983)(Magicom, Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Dragon's Lair (1983)(Magicom, Inc).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "13",
+      "paramMode": "0"
+    },
+    {
+      "name": "Evolution (1983)(Sydney Development Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Evolution (1983)(Sydney Development Corp.).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Family Feud - Question Pack Niad53 (1984-86)(The Family Company)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Family Feud - Question Pack Niad53 (1984-86)(The Family Company)[b].zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Family Feud - Writer (1986)(Walters Software Co.)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Family Feud - Writer (1986)(Walters Software Co.)[b].zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Family Fued - Questions Pack (1984-86)(Walters Software Co.)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Family Fued - Questions Pack (1984-86)(Walters Software Co.)[b].zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jeopardy (19xx)(-)(proto)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Jeopardy (19xx)(-)(proto).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Modem Chess (1993)(Bonafide Software)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Modem Chess (1993)(Bonafide Software).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NIAD Public Domain Volume 36 (1989)(NIAD)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\NIAD Public Domain Volume 36 (1989)(NIAD)(PD).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phrase Craze (1988)(Reedy Software)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Phrase Craze (1988)(Reedy Software).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Richard Scarry's Best Electronic Wordbook Ever (1984)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Richard Scarry's Best Electronic Wordbook Ever (1984)(Coleco).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SmartPrint Plus (1992)(Swift - M.A.L.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\SmartPrint Plus (1992)(Swift - M.A.L.).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Cosmo Fighter (1996-97)(Marcel de Kogel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Super Cosmo Fighter (1996-97)(Marcel de Kogel)(PD).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Supergame - Buck Rogers - Planet Of Zoom (1983)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Supergame - Buck Rogers - Planet Of Zoom (1983)(Sega).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Supergame - Cabbage Patch Kids - Park Adventure (1983-84)(O.A.A. Inc. - Coleco)[128k]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Supergame - Cabbage Patch Kids - Park Adventure (1983-84)(O.A.A. Inc. - Coleco)[128k].zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Supergame - Cabbage Patch Kids - Park Adventure (1983-84)(O.A.A. Inc. - Coleco)[a][128k]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Supergame - Cabbage Patch Kids - Park Adventure (1983-84)(O.A.A. Inc. - Coleco)[a][128k].zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Supergame - Super Subroc (1982-84)(Sega - Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Supergame - Super Subroc (1982-84)(Sega - Coleco).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Supergame - Super Zaxxon (1982-84)(Sega - Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Supergame - Super Zaxxon (1982-84)(Sega - Coleco).zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Supergame - Trolls Tale (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Supergame - Trolls Tale (19xx)(-)[b].zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Temple Of Apshai (1985)(Epyx)[patched]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ADAM (TOSEC-v0.41_CM)\\Temple Of Apshai (1985)(Epyx)[patched].zip",
+      "emulatorName": "MAME Coleco Adam -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bagman",
+      "mameName": "bagman",
+      "path": "{gamesDir}\\MAME\\ROMS\\bagman.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Valadon Automation",
+      "year": "1982",
+      "gameType": "Platform / Run Jump",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Super Bagman",
+      "mameName": "sbagman",
+      "path": "{gamesDir}\\MAME\\ROMS\\sbagman.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Valadon Automation",
+      "year": "1984",
+      "gameType": "Platform / Run Jump",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bishoujo Senshi Sailormoon Sailorstars - Fuwafuwa Panic 2",
+      "mameName": "sailrfp2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\sailrfp2.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0112-JPN,release:19960927,alt_title:  ~2 slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Crayon Shin-chan - Nagagutsu Dobon!!",
+      "mameName": "crayon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\crayon.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "parameters": "snes -cart sufami -cart2 %ROMMAME%",
+      "comment": "serial:SFT-0113-JPN,release:19960927,alt_title:  !! slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GeGeGe no Kitarou - Youkai Donjara",
+      "mameName": "gegege",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\gegege.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "parameters": "snes -cart sufami -cart2 %ROMMAME%",
+      "comment": "serial:SFT-0106-JPN,release:19960719,alt_title:  slot:strom",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gekisou Sentai Carranger - Zenkai! Racer Senshi",
+      "mameName": "carrangr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\carrangr.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0109-JPN,release:19960823,alt_title: ! slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Poi Poi Ninja World",
+      "mameName": "poipoi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\poipoi.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0103-JPN,release:19960628,alt_title: slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SD Gundam Generation - Axis Senki",
+      "mameName": "sdgunas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\sdgunas.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0107-JPN,release:19960823,alt_title:SD  slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SD Gundam Generation - Babylonia Kenkoku Senki",
+      "mameName": "sdgunbks",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\sdgunbks.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0108-JPN,release:19960823,alt_title:SD  slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SD Gundam Generation - Colony Kakutouki",
+      "mameName": "sdgunck",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\sdgunck.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0111-JPN,release:19960927,alt_title:SD  slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SD Gundam Generation - Gryps Senki",
+      "mameName": "sdgungs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\sdgungs.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0105-JPN,release:19960726,alt_title:SD  slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SD Gundam Generation - Ichinen Sensouki",
+      "mameName": "sdgunis",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\sdgunis.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0104-JPN,release:19960726,alt_title:SD  slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SD Gundam Generation - Zanscare Senki",
+      "mameName": "sdgunzs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\sdgunzs.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0110-JPN,release:19960927,alt_title:SD  slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SD Ultra Battle - Ultraman Densetsu",
+      "mameName": "ubattleu",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\ubattleu.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0101-JPN,release:19960628,alt_title:SD  slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SD Ultra Battle - Seven Densetsu",
+      "mameName": "ubattle7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\snes_strom\\ubattle7.7z",
+      "emulatorName": "MAME Nintendo Super Entertainment System / Super Famicom (NTSC) -SOFTLIST snes_strom",
+      "companyName": "Bandai",
+      "year": "1996",
+      "comment": "serial:SFT-0102-JPN,release:19960628,alt_title:SD  slot:strom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

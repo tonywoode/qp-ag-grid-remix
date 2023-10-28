@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Enigma II",
+      "mameName": "enigma2",
+      "path": "{gamesDir}\\MAME\\ROMS\\enigma2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Game Plan (Zilec Electronics license)",
+      "year": "1981",
+      "gameType": "Shooter / Gallery",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Enigma II (Space Invaders hardware)",
+      "mameName": "enigma2a",
+      "parentName": "enigma2",
+      "path": "{gamesDir}\\MAME\\ROMS\\enigma2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Zilec Electronics",
+      "year": "1984",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Taiko No Tatsujin 10 (T101001-NA-A)",
+      "mameName": "taiko10",
+      "path": "{gamesDir}\\MAME\\CHDs\\taiko10\\tk10100-1-na-dvd0-a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2007",
+      "gameType": "Rhythm / Instruments",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Taiko No Tatsujin 7 (TK71-NA-A)",
+      "mameName": "taiko7",
+      "path": "{gamesDir}\\MAME\\CHDs\\taiko7\\tk71dvd0.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2005",
+      "gameType": "Rhythm / Instruments",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Taiko No Tatsujin 8 (TK8100-1-NA-A)",
+      "mameName": "taiko8",
+      "path": "{gamesDir}\\MAME\\CHDs\\taiko8\\tk8100-1-na-dvd0-a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2006",
+      "gameType": "Rhythm / Instruments",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Taiko No Tatsujin 9 (TK91001-NA-A)",
+      "mameName": "taiko9",
+      "path": "{gamesDir}\\MAME\\CHDs\\taiko9\\tk9100-1-na-dvd0-a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2006",
+      "gameType": "Rhythm / Instruments",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

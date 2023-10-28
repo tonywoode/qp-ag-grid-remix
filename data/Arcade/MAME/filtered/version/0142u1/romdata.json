@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "FamicomBox",
+      "mameName": "famibox",
+      "path": "{gamesDir}\\MAME\\ROMS\\famibox.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nintendo",
+      "year": "1986",
+      "gameType": "Multiplay / Compilation",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Water-Nymph (Ver. 1.4)",
+      "mameName": "wtrnymph",
+      "path": "{gamesDir}\\MAME\\ROMS\\wtrnymph.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Subsino",
+      "year": "1996",
+      "gameType": "Puzzle / Drop",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

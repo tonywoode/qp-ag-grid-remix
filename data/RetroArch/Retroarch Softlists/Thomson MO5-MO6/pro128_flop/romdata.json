@@ -1,0 +1,27 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "MicroFloppy Compilation",
+      "mameName": "microflp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pro128_flop\\microflp.7z",
+      "emulatorName": "Retroarch Olivetti / Thomson Prodest PC 128 -SOFTLIST pro128_flop (MAME)",
+      "companyName": "Olivetti Prodest",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sortileges",
+      "mameName": "sortelig",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pro128_flop\\sortelig.7z",
+      "emulatorName": "Retroarch Olivetti / Thomson Prodest PC 128 -SOFTLIST pro128_flop (MAME)",
+      "companyName": "Olivetti Prodest",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

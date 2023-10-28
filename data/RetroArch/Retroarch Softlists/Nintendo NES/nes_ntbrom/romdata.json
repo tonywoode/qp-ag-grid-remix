@@ -1,0 +1,29 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Nantettatte!! Baseball '91 Kaimaku Hen (Jpn)",
+      "mameName": "ntb_91",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\nes_ntbrom\\ntb_91.7z",
+      "emulatorName": "Retroarch Nintendo Entertainment System / Famicom (NTSC) -SOFTLIST nes_ntbrom (MAME)",
+      "companyName": "Sunsoft",
+      "year": "1991",
+      "comment": "release:19910531,alt_title:!!   '91 slot:ntbrom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nantettatte!! Baseball OB Allstar Hen (Jpn)",
+      "mameName": "ntb_ob",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\nes_ntbrom\\ntb_ob.7z",
+      "emulatorName": "Retroarch Nintendo Entertainment System / Famicom (NTSC) -SOFTLIST nes_ntbrom (MAME)",
+      "companyName": "Sunsoft",
+      "year": "1991",
+      "comment": "release:19910228,alt_title:!!  OB slot:ntbrom",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

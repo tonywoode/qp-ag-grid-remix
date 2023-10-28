@@ -1,0 +1,94 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Cyber Troopers Virtual-On (USA, Revision B)",
+      "mameName": "von",
+      "path": "{gamesDir}\\MAME\\ROMS\\von.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1996",
+      "gameType": "Shooter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Virtual On 2: Oratorio Tangram (Revision B)",
+      "mameName": "von2",
+      "path": "{gamesDir}\\MAME\\ROMS\\von2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "Shooter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Virtual On 2: Oratorio Tangram (ver 5.4g)",
+      "mameName": "von254g",
+      "parentName": "von2",
+      "path": "{gamesDir}\\MAME\\ROMS\\von2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "Shooter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Virtual On 2: Oratorio Tangram (Revision A)",
+      "mameName": "von2a",
+      "parentName": "von2",
+      "path": "{gamesDir}\\MAME\\ROMS\\von2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1998",
+      "gameType": "Shooter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Cyber Troopers Virtual-On (Japan, Revision B)",
+      "mameName": "vonj",
+      "parentName": "von",
+      "path": "{gamesDir}\\MAME\\ROMS\\von.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1996",
+      "gameType": "Shooter / Versus",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Virtual On Oratorio Tangram M.S.B.S. ver5.66 2000 Edition",
+      "mameName": "vonot",
+      "path": "{gamesDir}\\MAME\\ROMS\\vonot.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2000",
+      "gameType": "Shooter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

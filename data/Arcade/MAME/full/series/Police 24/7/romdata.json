@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Police 24/7 (ver EAA)",
+      "mameName": "p911e",
+      "parentName": "p911",
+      "path": "{gamesDir}\\MAME\\CHDs\\p911\\a00eaa02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Police 24/7 (ver EAA, alt)",
+      "mameName": "p911ea",
+      "parentName": "p911",
+      "path": "{gamesDir}\\MAME\\CHDs\\p911\\a00eaa02_ea.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

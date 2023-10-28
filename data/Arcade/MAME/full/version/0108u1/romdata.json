@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Reaktor (Track & Field conversion)",
+      "mameName": "reaktor",
+      "path": "{gamesDir}\\MAME\\ROMS\\reaktor.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Zilec",
+      "year": "1987",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Ninja Ryukenden (Japan, set 2)",
+      "mameName": "ryukendna",
+      "parentName": "shadoww",
+      "path": "{gamesDir}\\MAME\\ROMS\\shadoww.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1989",
+      "gameType": "Fighter / 2.5D",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Space Bugger (set 2)",
+      "mameName": "sbuggera",
+      "parentName": "sbugger",
+      "path": "{gamesDir}\\MAME\\ROMS\\sbugger.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Game-A-Tron",
+      "year": "1981",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Silent Dragon (US)",
+      "mameName": "silentdu",
+      "parentName": "silentd",
+      "path": "{gamesDir}\\MAME\\ROMS\\silentd.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito America Corporation",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "B.Rap Boys (World)",
+      "mameName": "brapboys",
+      "path": "{gamesDir}\\MAME\\ROMS\\brapboys.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "B.Rap Boys Special (Japan)",
+      "mameName": "brapboysj",
+      "parentName": "brapboys",
+      "path": "{gamesDir}\\MAME\\ROMS\\brapboys.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "B.Rap Boys Special (US)",
+      "mameName": "brapboysu",
+      "parentName": "brapboys",
+      "path": "{gamesDir}\\MAME\\ROMS\\brapboys.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "DJ Boy (set 1)",
+      "mameName": "djboy",
+      "path": "{gamesDir}\\MAME\\ROMS\\djboy.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko (American Sammy license)",
+      "year": "1989",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "DJ Boy (set 2)",
+      "mameName": "djboya",
+      "parentName": "djboy",
+      "path": "{gamesDir}\\MAME\\ROMS\\djboy.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko (American Sammy license)",
+      "year": "1989",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "DJ Boy (Japan)",
+      "mameName": "djboyj",
+      "parentName": "djboy",
+      "path": "{gamesDir}\\MAME\\ROMS\\djboy.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko (Sega license)",
+      "year": "1989",
+      "gameType": "Fighter / 2.5D",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

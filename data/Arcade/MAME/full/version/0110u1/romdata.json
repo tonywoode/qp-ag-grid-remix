@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Fishin' Frenzy (prototype)",
+      "mameName": "fishfren",
+      "path": "{gamesDir}\\MAME\\ROMS\\fishfren.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Time Warner Interactive",
+      "year": "1995",
+      "gameType": "Sports / Fishing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Freeze (Atari) (prototype, English voice, 96/10/25)",
+      "mameName": "freezeat",
+      "path": "{gamesDir}\\MAME\\ROMS\\freezeat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Freeze (Atari) (prototype, 96/10/18)",
+      "mameName": "freezeat2",
+      "parentName": "freezeat",
+      "path": "{gamesDir}\\MAME\\ROMS\\freezeat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

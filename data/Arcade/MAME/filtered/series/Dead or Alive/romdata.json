@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dead Or Alive ++ (Japan)",
+      "mameName": "doapp",
+      "path": "{gamesDir}\\MAME\\ROMS\\doapp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1998",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

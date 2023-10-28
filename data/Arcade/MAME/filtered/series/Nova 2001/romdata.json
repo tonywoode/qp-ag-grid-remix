@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Ark Area",
+      "mameName": "arkarea",
+      "path": "{gamesDir}\\MAME\\ROMS\\arkarea.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "UPL",
+      "year": "1988",
+      "gameType": "Shooter / Field",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Nova 2001 (Japan)",
+      "mameName": "nova2001",
+      "path": "{gamesDir}\\MAME\\ROMS\\nova2001.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "UPL",
+      "year": "1983",
+      "gameType": "Shooter / Field",
+      "rating": "70 to 80 (Good)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

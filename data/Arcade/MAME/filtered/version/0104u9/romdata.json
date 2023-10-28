@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Ninja Kazan (World)",
+      "mameName": "kazan",
+      "path": "{gamesDir}\\MAME\\ROMS\\kazan.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1988",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Puzzle Uo Poko (International)",
+      "mameName": "uopoko",
+      "path": "{gamesDir}\\MAME\\ROMS\\uopoko.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (Jaleco license)",
+      "year": "1998",
+      "gameType": "Puzzle / Drop",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

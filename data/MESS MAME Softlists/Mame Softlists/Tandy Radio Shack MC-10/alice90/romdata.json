@@ -1,0 +1,99 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Budget Familial",
+      "mameName": "budget",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\alice90\\budget.7z",
+      "emulatorName": "MAME Tandy Radio Shack Alice 90 -SOFTLIST alice90",
+      "companyName": "Matra Datasysteme",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dessine-moi",
+      "mameName": "dessine",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\alice90\\dessine.7z",
+      "emulatorName": "MAME Tandy Radio Shack Alice 90 -SOFTLIST alice90",
+      "companyName": "Matra Datasysteme",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fringale",
+      "mameName": "fringale",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\alice90\\fringale.7z",
+      "emulatorName": "MAME Tandy Radio Shack Alice 90 -SOFTLIST alice90",
+      "companyName": "Matra Datasysteme",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galixian",
+      "mameName": "galixian",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\alice90\\galixian.7z",
+      "emulatorName": "MAME Tandy Radio Shack Alice 90 -SOFTLIST alice90",
+      "companyName": "Sprites",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "IVA: Incrustation Video",
+      "mameName": "iva",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\alice90\\iva.7z",
+      "emulatorName": "MAME Tandy Radio Shack Alice 90 -SOFTLIST alice90",
+      "companyName": "Matra Datasysteme",
+      "year": "1985",
+      "comment": " part_id:Tape 1,part_id:Tape 2",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Monopolic",
+      "mameName": "monop",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\alice90\\monop.7z",
+      "emulatorName": "MAME Tandy Radio Shack Alice 90 -SOFTLIST alice90",
+      "companyName": "Matra Datasysteme",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Plan de Vol",
+      "mameName": "planvol",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\alice90\\planvol.7z",
+      "emulatorName": "MAME Tandy Radio Shack Alice 90 -SOFTLIST alice90",
+      "companyName": "Matra Datasysteme",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "T'Extra - Traitement de Texte",
+      "mameName": "textra",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\alice90\\textra.7z",
+      "emulatorName": "MAME Tandy Radio Shack Alice 90 -SOFTLIST alice90",
+      "companyName": "Matra Datasysteme",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "T'Extra - Traitement de Texte (Hacked?)",
+      "mameName": "textraa",
+      "parentName": "textra",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\alice90\\textra.7z",
+      "emulatorName": "MAME Tandy Radio Shack Alice 90 -SOFTLIST alice90",
+      "companyName": "Matra Datasysteme",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

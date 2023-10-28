@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Tank 8 (set 1)",
+      "mameName": "tank8",
+      "path": "{gamesDir}\\MAME\\ROMS\\tank8.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari (Kee Games)",
+      "year": "1976",
+      "gameType": "Maze / Shooter Small",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "8P sim"
+    },
+    {
+      "name": "Ultra Tank",
+      "mameName": "ultratnk",
+      "path": "{gamesDir}\\MAME\\ROMS\\ultratnk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari (Kee Games)",
+      "year": "1978",
+      "gameType": "Shooter / Versus",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

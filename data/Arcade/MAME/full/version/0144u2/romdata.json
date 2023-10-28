@@ -1,0 +1,51 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "MK-83",
+      "mameName": "mk83",
+      "parentName": "x820ii",
+      "path": "{gamesDir}\\MAME\\ROMS\\x820ii.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Scomar",
+      "year": "1983",
+      "gameType": "Professional Systems / Business Computer & Terminal",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Space Gun (Japan)",
+      "mameName": "spacegunj",
+      "parentName": "spacegun",
+      "path": "{gamesDir}\\MAME\\ROMS\\spacegun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1990",
+      "gameType": "Shooter / Gun",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Space Gun (US)",
+      "mameName": "spacegunu",
+      "parentName": "spacegun",
+      "path": "{gamesDir}\\MAME\\ROMS\\spacegun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito America Corporation",
+      "year": "1990",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

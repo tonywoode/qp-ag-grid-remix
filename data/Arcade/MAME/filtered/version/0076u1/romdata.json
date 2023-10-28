@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "beatmania (ver JA-B)",
+      "mameName": "bm1stmix",
+      "path": "{gamesDir}\\MAME\\CHDs\\bm1stmix\\753jaa11.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1997",
+      "gameType": "Rhythm / Instruments",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Cosmo",
+      "mameName": "cosmo",
+      "path": "{gamesDir}\\MAME\\ROMS\\cosmo.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "TDS & MINTS",
+      "year": "1979",
+      "gameType": "Shooter / Gallery",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Championship Sprint (rev 3)",
+      "mameName": "csprint",
+      "path": "{gamesDir}\\MAME\\ROMS\\csprint.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1986",
+      "gameType": "Driving / Race Track",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Superior Soldiers (US)",
+      "mameName": "ssoldier",
+      "path": "{gamesDir}\\MAME\\ROMS\\ssoldier.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem America",
+      "year": "1993",
+      "gameType": "Fighter / Versus",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "S.T.U.N. Runner (rev 6)",
+      "mameName": "stunrun",
+      "path": "{gamesDir}\\MAME\\ROMS\\stunrun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1989",
+      "gameType": "Shooter / Driving (chase view)",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

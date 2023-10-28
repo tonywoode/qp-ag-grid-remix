@@ -1,0 +1,1150 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "DISK1",
+      "mameName": "disk1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\disk1.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK2",
+      "mameName": "disk2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\disk2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK4",
+      "mameName": "disk4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\disk4.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk_03",
+      "mameName": "prog3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\prog3.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DIsk_10",
+      "mameName": "prog10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\prog10.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "COM-AY",
+      "mameName": "comay",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\comay.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CPM370",
+      "mameName": "cpm370",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\cpm370.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "disk_1",
+      "mameName": "progd1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd1.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk10",
+      "mameName": "progd10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd10.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Program Disk11",
+      "mameName": "progd11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd11.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk12",
+      "mameName": "progd12",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd12.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk13",
+      "mameName": "progd13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd13.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk15",
+      "mameName": "progd15",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd15.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK16",
+      "mameName": "progd16",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd16.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk17",
+      "mameName": "progd17",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd17.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk18",
+      "mameName": "progd18",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd18.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "disk19",
+      "mameName": "progd19",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd19.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk_2",
+      "mameName": "progd2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk24",
+      "mameName": "progd24",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd24.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk25",
+      "mameName": "progd25",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd25.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk26",
+      "mameName": "progd26",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd26.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk27",
+      "mameName": "progd27",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd27.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk3",
+      "mameName": "progd3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd3.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk31",
+      "mameName": "progd31",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd31.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk32",
+      "mameName": "progd32",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd32.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk33",
+      "mameName": "progd33",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd33.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Program Disk4",
+      "mameName": "progd4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd4.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk5",
+      "mameName": "progd5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd5.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk6",
+      "mameName": "progd6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd6.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Program Disk7",
+      "mameName": "progd7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd7.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk8",
+      "mameName": "progd8",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd8.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Program Disk9",
+      "mameName": "progd9",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\progd9.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "IDE-RTC",
+      "mameName": "idertc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\idertc.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LIST-7",
+      "mameName": "list7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\list7.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "multifnt",
+      "mameName": "multifnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\multifnt.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OSDOS241",
+      "mameName": "osdos241",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\osdos241.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "osdos360",
+      "mameName": "osdos360",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\osdos360.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SEXSHOP",
+      "mameName": "sexshop",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\sexshop.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "sound",
+      "mameName": "sound",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\sound.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "games10",
+      "mameName": "games10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\games10.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "games11",
+      "mameName": "games11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\games11.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "games13",
+      "mameName": "games13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\games13.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GAMES",
+      "mameName": "games",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\games.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Archiv9",
+      "mameName": "archiv9",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\archiv9.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK11",
+      "mameName": "disk11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\disk11.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK14",
+      "mameName": "disk14",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\disk14.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK7",
+      "mameName": "disk7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\disk7.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK9",
+      "mameName": "disk9",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\disk9.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GOLOVIN2",
+      "mameName": "golovin2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\golovin2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "INFORM",
+      "mameName": "inform",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\inform.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "KOROV1",
+      "mameName": "korov1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\korov1.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PROFY",
+      "mameName": "profi1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\profi1.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GAME1715",
+      "mameName": "game1715",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\game1715.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk_8",
+      "mameName": "disk8",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\disk8.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ASM_BAS__P26-128",
+      "mameName": "asmbas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\asmbas.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TBASIC410__04",
+      "mameName": "tbasic41",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\tbasic41.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TBAS-128",
+      "mameName": "tbas128",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\tbas128.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "C_34",
+      "mameName": "c",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\c.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "C_2__P34-128",
+      "mameName": "c1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\c1.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "C",
+      "mameName": "c2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\c2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DTASM__21",
+      "mameName": "dtasm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\dtasm.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ARIFM80",
+      "mameName": "arifm80",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\arifm80.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PASCALMT__33",
+      "mameName": "pascalmt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\pascalmt.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PAS_MT",
+      "mameName": "pascalm1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\pascalm1.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PASCALMT",
+      "mameName": "pascalm2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\pascalm2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TASM400__03",
+      "mameName": "tasm400",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\tasm400.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TASM",
+      "mameName": "tasm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\tasm.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TASM-AS",
+      "mameName": "tasmas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\tasmas.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TASM410",
+      "mameName": "tasm410",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\tasm410.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TP128_1__TURBO128",
+      "mameName": "tp128",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\tp128.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TP128_2__P2",
+      "mameName": "tp128a",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\tp128a.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TPASCAL__TURBO128",
+      "mameName": "turbo128",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\turbo128.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Corona_220__LIST-7",
+      "mameName": "coronal7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\coronal7.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GRAF__20",
+      "mameName": "graf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\graf.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GRAFIKA-1",
+      "mameName": "grafika",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\grafika.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LAYCAD1__DISK4",
+      "mameName": "laycad1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\laycad1.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LAYCAD2__DISK12",
+      "mameName": "laycad2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\laycad2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LAYCAD3__09",
+      "mameName": "laycad3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\laycad3.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS_l_1__01",
+      "mameName": "ordos1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ordos1.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS_l_2__04",
+      "mameName": "ordos2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ordos2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PMAST002__35",
+      "mameName": "pmast2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\pmast2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "REBUS",
+      "mameName": "rebus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\rebus.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SuperCalc_3__32",
+      "mameName": "supercl3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\supercl3.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TABLE",
+      "mameName": "sctable",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\sctable.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SURED_30__P15-128",
+      "mameName": "sured30",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\sured30.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SURED_30_src__LIST-4",
+      "mameName": "sured30s",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\sured30s.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "AltDOS_1__AltDos",
+      "mameName": "altdos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\altdos.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "AltDOS_2__C150696",
+      "mameName": "altdosa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\altdosa.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MONITOR_410__M410",
+      "mameName": "mon410",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\mon410.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS_240_Utils__01",
+      "mameName": "ordosut",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ordosut.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS_400_2__DISK10",
+      "mameName": "ordos40a",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ordos40a.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS_400_3__DISK6",
+      "mameName": "ordos40b",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ordos40b.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS403",
+      "mameName": "ordos403",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ordos403.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "parameters": "-L cores\\mame_libretro.dll \" orion128 -disk1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS_403_Src__25",
+      "mameName": "ordos403s",
+      "parentName": "ordos403",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ordos403.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS_403_Src__P25-128",
+      "mameName": "ordos403sa",
+      "parentName": "ordos403",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ordos403.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS_610__ORDOS6",
+      "mameName": "ordos610",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ordos610.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OSDOS_OSDOS60k_320__RusEmulatotsRu01",
+      "mameName": "osdos60k",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\osdos60k.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OSDOS_241__02",
+      "mameName": "osdos24a",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\osdos24a.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OSDOS_261_1__OSDOS",
+      "mameName": "osdos26a",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\osdos26a.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OSDOS_261_2__DISK8",
+      "mameName": "osdos26b",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\osdos26b.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OSDOS_360__30",
+      "mameName": "osdos36a",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\osdos36a.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OSDOS_370_2__OSDOS370",
+      "mameName": "osdos370",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\osdos370.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OSDOS_370_3__CPM370",
+      "mameName": "cpm37a",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\cpm37a.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OSDOS362",
+      "mameName": "osdos362",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\osdos362.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OMSK2",
+      "mameName": "omsk2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\omsk2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SEXSHOP (Alt)",
+      "mameName": "sexshopa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\sexshopa.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CHDRV_VI53",
+      "mameName": "chdrv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\chdrv.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "IBM-DISK",
+      "mameName": "ibmdisk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\ibmdisk.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "programs",
+      "mameName": "prog",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\prog.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ATLAS504_2__ATL",
+      "mameName": "atlas504",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\atlas504.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ATLAS520__10",
+      "mameName": "atlas520",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\atlas520.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ATLAS530__ATL530",
+      "mameName": "atlas530",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\atlas530.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ATLAS600_1__10",
+      "mameName": "atlas600",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\atlas600.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ATLAS600",
+      "mameName": "atlas60a",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_flop\\atlas60a.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_flop (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

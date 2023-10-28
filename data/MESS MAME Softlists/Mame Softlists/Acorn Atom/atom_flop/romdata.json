@@ -1,0 +1,169 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Atomic Chuckie Egg (32K)",
+      "mameName": "chuckie",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\chuckie.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2012",
+      "parameters": "atom -flop1 %ROMMAME%",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"runme\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Egghead in Space (32K)",
+      "mameName": "egghead",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\egghead.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2016",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"EHRUN\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "F14 Tomcat (32K)",
+      "mameName": "f14",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\f14.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2015",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"F14RUN\"",
+      "timesPlayed": "5",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galaforce (32K)",
+      "mameName": "gala",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\gala.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2012",
+      "parameters": "atom -flop1 %ROMMAME%",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"runme\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galaxians (12K)",
+      "mameName": "galxians",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\galxians.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Aardvark",
+      "year": "1982",
+      "comment": "usage:Load with *RUN\"GALAXI\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hard Hat Harry (32K)",
+      "mameName": "hardhath",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\hardhath.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2011",
+      "parameters": "atom -flop1 %ROMMAME%",
+      "comment": "author:Tom Walker,usage:Load with *RUN\"LOADER\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hyper Viper (12K)",
+      "mameName": "hypervpr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\hypervpr.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2011",
+      "parameters": "atom -flop1 %ROMMAME%",
+      "comment": "author:Kenton Price,usage:Load with *RUN\"LOADER\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jet Set Miner (12K)",
+      "mameName": "jetsetmn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\jetsetmn.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2009",
+      "parameters": "atom -flop1 %ROMMAME%",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"LOADER\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jet Set Willy (32K)",
+      "mameName": "jsw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\jsw.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2015",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"JSWRUN\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jet Set Willy 2 (32K)",
+      "mameName": "jsw2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\jsw2.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2015",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"JSW2RUN\"",
+      "timesPlayed": "2",
+      "paramMode": "1"
+    },
+    {
+      "name": "Atomic Joe Blade (32K)",
+      "mameName": "joeblade",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\joeblade.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2014",
+      "parameters": "atom -flop1 %ROMMAME%",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"JOE\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jungle Journey (32K)",
+      "mameName": "jungle",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\jungle.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2012",
+      "parameters": "atom -flop1 %ROMMAME%",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"runme\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Manic Miner (32K)",
+      "mameName": "manicmin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\manicmin.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2017",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"MMRUN\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Repton (32K)",
+      "mameName": "repton",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\atom_flop\\repton.7z",
+      "emulatorName": "MAME Acorn Atom -SOFTLIST atom_flop",
+      "companyName": "Retro Software",
+      "year": "2013",
+      "parameters": "atom -flop1 %ROMMAME%",
+      "comment": "author:Kees van Oss,usage:Load with *RUN\"runme\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

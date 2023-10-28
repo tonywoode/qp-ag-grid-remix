@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.)",
+      "mameName": "ket",
+      "path": "{gamesDir}\\MAME\\ROMS\\ket.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2002",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

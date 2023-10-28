@@ -1,0 +1,47 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Commodore 1551 Test Demo",
+      "mameName": "1551demo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_flop\\1551demo.7z",
+      "emulatorName": "MAME Commodore 264 (Prototype) -SOFTLIST plus4_flop NTSC only",
+      "companyName": "Commodore",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ACE: Air Combat Emulator",
+      "mameName": "ace",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_flop\\ace.7z",
+      "emulatorName": "MAME Commodore 264 (Prototype) -SOFTLIST plus4_flop NTSC only",
+      "companyName": "Cascade",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Typing Professor",
+      "mameName": "typingpr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_flop\\typingpr.7z",
+      "emulatorName": "MAME Commodore 264 (Prototype) -SOFTLIST plus4_flop NTSC only",
+      "companyName": "Commodore",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zork II: The Wizard of Frobozz (R48)",
+      "mameName": "zork2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_flop\\zork2.7z",
+      "emulatorName": "MAME Commodore 264 (Prototype) -SOFTLIST plus4_flop NTSC only",
+      "companyName": "Commodore",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Quiz Do Re Mi Fa Grand Prix (Japan)",
+      "mameName": "qdrmfgp",
+      "path": "{gamesDir}\\MAME\\CHDs\\qdrmfgp\\gq460a08.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1994",
+      "gameType": "Quiz / Music Japanese",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Quiz Do Re Mi Fa Grand Prix 2 - Shin-Kyoku Nyuukadayo (Japan)",
+      "mameName": "qdrmfgp2",
+      "path": "{gamesDir}\\MAME\\CHDs\\qdrmfgp2\\ge557a09.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1995",
+      "gameType": "Quiz / Music Japanese",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

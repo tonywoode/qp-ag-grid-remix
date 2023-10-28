@@ -1,0 +1,50 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Air Combat 22 (Rev. ACS1 Ver.B, Japan)",
+      "mameName": "airco22b",
+      "path": "{gamesDir}\\MAME\\ROMS\\airco22b.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1995",
+      "gameType": "Shooter / Flying (chase view)",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Air Combat (US)",
+      "mameName": "aircomb",
+      "path": "{gamesDir}\\MAME\\ROMS\\aircomb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1992",
+      "gameType": "Shooter / Flying (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Air Combat (Japan)",
+      "mameName": "aircombj",
+      "parentName": "aircomb",
+      "path": "{gamesDir}\\MAME\\ROMS\\aircomb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1992",
+      "gameType": "Shooter / Flying (chase view)",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

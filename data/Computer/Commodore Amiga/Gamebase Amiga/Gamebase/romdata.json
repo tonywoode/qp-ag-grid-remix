@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gamebase Amiga",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase Amiga.gif",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "GAMEBASE AMIGA",
+      "timesPlayed": "122",
+      "paramMode": "1"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Captain Commando (World 911202)",
+      "mameName": "captcomm",
+      "path": "{gamesDir}\\MAME\\ROMS\\captcomm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Terminator 2 - Judgment Day (rev LA4 08/03/92)",
+      "mameName": "term2",
+      "path": "{gamesDir}\\MAME\\ROMS\\term2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1991",
+      "gameType": "Shooter / Gun",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Tokio / Scramble Formation (newer)",
+      "mameName": "tokio",
+      "path": "{gamesDir}\\MAME\\ROMS\\tokio.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1986",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

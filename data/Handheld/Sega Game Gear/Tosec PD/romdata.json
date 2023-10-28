@@ -1,0 +1,175 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Chaos 89 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Chaos 89 (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogs by Charles Doty (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Frogs by Charles Doty (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gamegear Text Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Gamegear Text Demo (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GG Nibbles by Martin Konrad (v1) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\GG Nibbles by Martin Konrad (v1) (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GG Nibbles by Martin Konrad (v2) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\GG Nibbles by Martin Konrad (v2) (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GG Nibbles by Martin Konrad (v3) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\GG Nibbles by Martin Konrad (v3) (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GG Nibbles by Martin Konrad (v4) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\GG Nibbles by Martin Konrad (v4) (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.0 - Secret of Monkey Island (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.0 - Secret of Monkey Island (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.1 - Secret of Monkey Island (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.1 - Secret of Monkey Island (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.2 - Secret of Monkey Island (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.2 - Secret of Monkey Island (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.3 - Secret of Monkey Island (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.3 - Secret of Monkey Island (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.3 - Shadow of the Beast (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.3 - Shadow of the Beast (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.5 - Secret of Monkey Island (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.5 - Secret of Monkey Island (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.5 - Shadow of the Beast (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.5 - Shadow of the Beast (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.6 - Secret of Monkey Island (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.6 - Secret of Monkey Island (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.6 - Shadow of the Beast (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.6 - Shadow of the Beast (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.7 - Secret of Monkey Island (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.7 - Secret of Monkey Island (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.7 - Shadow of the Beast (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.7 - Shadow of the Beast (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.8 - Secret of Monkey Island (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.8 - Secret of Monkey Island (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG V1.8 - Shadow of the Beast (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Mod2PSG V1.8 - Shadow of the Beast (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Windows for GG by Victor Kemp (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\gamegear_PDroms\\Windows for GG by Victor Kemp (PD).gg",
+      "emulatorName": "RetroArch Sega Game Gear (Gearsystem)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    }
+  ]
+}

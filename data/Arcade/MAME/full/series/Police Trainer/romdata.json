@@ -1,0 +1,96 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Police Trainer 2",
+      "mameName": "policet2",
+      "path": "{gamesDir}\\MAME\\CHDs\\policet2\\pt2.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Team Play/Phantom Entertainment",
+      "year": "2003",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Police Trainer (Rev 1.3)",
+      "mameName": "policetr",
+      "path": "{gamesDir}\\MAME\\ROMS\\policetr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "P&P Marketing",
+      "year": "1996",
+      "gameType": "Shooter / Gun",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Police Trainer (Rev 1.0)",
+      "mameName": "policetr10",
+      "parentName": "policetr",
+      "path": "{gamesDir}\\MAME\\ROMS\\policetr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "P&P Marketing",
+      "year": "1996",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Police Trainer (Rev 1.1)",
+      "mameName": "policetr11",
+      "parentName": "policetr",
+      "path": "{gamesDir}\\MAME\\ROMS\\policetr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "P&P Marketing",
+      "year": "1996",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Police Trainer (Rev 1.3B Newer)",
+      "mameName": "policetr13a",
+      "parentName": "policetr",
+      "path": "{gamesDir}\\MAME\\ROMS\\policetr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "P&P Marketing",
+      "year": "1996",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Police Trainer (Rev 1.3B)",
+      "mameName": "policetr13b",
+      "parentName": "policetr",
+      "path": "{gamesDir}\\MAME\\ROMS\\policetr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "P&P Marketing",
+      "year": "1996",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

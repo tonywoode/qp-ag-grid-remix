@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bishi Bashi Championship Mini Game Senshuken (ver JAA, 3 Players)",
+      "mameName": "bishi",
+      "path": "{gamesDir}\\MAME\\ROMS\\bishi.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Multiplay / Mini-Games",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    }
+  ]
+}

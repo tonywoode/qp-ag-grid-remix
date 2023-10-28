@@ -1,0 +1,383 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "7eme Dan, Le (19xx)(Jean-Pierre Ferrand)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\7eme Dan, Le (19xx)(Jean-Pierre Ferrand)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airfox (1988)(Starsoft)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Airfox (1988)(Starsoft)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alphabet (19xx)(Crabes)(De)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Alphabet (19xx)(Crabes)(De).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atlantid (19xx)(J. A. Canavaggia)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Atlantid (19xx)(J. A. Canavaggia)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Attac On Kixi (1984)(G.Morgan Software)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Attac On Kixi (1984)(G.Morgan Software).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bozy (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Bozy (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bucanneer (1986)(M.J.Wade)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Bucanneer (1986)(M.J.Wade).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Car Maniac (19xx)(-)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Car Maniac (19xx)(-)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Caspak (19xx)(-)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Caspak (19xx)(-)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chuckford (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Chuckford (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Classic Racing (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Classic Racing (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dedal (19xx)(-)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Dedal (19xx)(-)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digger (1984)(M.C. Lothlorien)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Digger (1984)(M.C. Lothlorien).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dinky Kong (19xx)(Evern Software)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Dinky Kong (19xx)(Evern Software).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fly For Your Life (19xx)(Braynstorm Software)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Fly For Your Life (19xx)(Braynstorm Software).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frelon (1984)(Loriciels)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Frelon (1984)(Loriciels)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gubbie (1985)(Alexander Aghassipour)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Gubbie (1985)(Alexander Aghassipour).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jeux Olympiques (19xx)(-)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Jeux Olympiques (19xx)(-)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kryllis (19xx)(Cosmos Computer Software)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Kryllis (19xx)(Cosmos Computer Software).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Megabase (19xx)(-)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Megabase (19xx)(-)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Millionaire (1984)(R.Piechaud - Ere Informatique)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Millionaire (1984)(R.Piechaud - Ere Informatique)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr. Wimpy (1984)(Ocean Software Ltd)[b]",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Mr. Wimpy (1984)(Ocean Software Ltd)[b].zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mysterious Adventures - Timemachine (19xx)(Digital Fantasia)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Mysterious Adventures - Timemachine (19xx)(Digital Fantasia).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mystery Tower (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Mystery Tower (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neptune (19xx)(-)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Neptune (19xx)(-)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Operation Gremlin (19xx)(-)[incomplete]",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Operation Gremlin (19xx)(-)[incomplete].zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Oriclisp v1.0 (1986)(F.Frances)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Oriclisp v1.0 (1986)(F.Frances).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Orion (1983)(M. C. Lothlorien)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Orion (1983)(M. C. Lothlorien).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Othello v0.0 (1983)(Anders Bostrom)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Othello v0.0 (1983)(Anders Bostrom).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-man (19xx)(Christophe Devalland)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Pac-man (19xx)(Christophe Devalland)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Picture Book (1984)(Softbacks)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Picture Book (1984)(Softbacks).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reversi Champion (1984)(Loriciels)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Reversi Champion (1984)(Loriciels)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ring Of Darkness (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Ring Of Darkness (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Simon (19xx)(-)[incomplete]",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Simon (19xx)(-)[incomplete].zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slalom (19xx)(Jan Bolhoj)(Dk)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Slalom (19xx)(Jan Bolhoj)(Dk).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sokobac (19xx)(-)(Fr)[incomplete]",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Sokobac (19xx)(-)(Fr)[incomplete].zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Special Operations (1984)(M.C.Lothlorien)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Special Operations (1984)(M.C.Lothlorien).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Story Book (1984)(Softbacks)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Story Book (1984)(Softbacks).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tansoft Language Master Class Series French (1983)(Gruneberg Linkworld Language)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Tansoft Language Master Class Series French (1983)(Gruneberg Linkworld Language).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tansoft Language Master Class Series German (1983)(Gruneberg Linkworld Language)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Tansoft Language Master Class Series German (1983)(Gruneberg Linkworld Language).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tenis (19xx)(J.A.Orostivar)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Tenis (19xx)(J.A.Orostivar).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Transat 1 (1984)(No Man's Land)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Transat 1 (1984)(No Man's Land).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordsearch (19xx)(CDS Micro Systems)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Wordsearch (19xx)(CDS Micro Systems).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordworth (1986)(Huggybear Software)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Wordworth (1986)(Huggybear Software).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xeragone (19xx)(Hebdogiciel)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Xeragone (19xx)(Hebdogiciel)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zamcopter (1986)(Hebdogiciel)(Fr)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\Zamcopter (1986)(Hebdogiciel)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZipnZap (1998)(Twilight)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Tangerine ORIC 1-Atmos-Telestrat - Tapesets (TOSEC-v0.44_CM)\\ZipnZap (1998)(Twilight)(PD).zip",
+      "emulatorName": "MAME Tangerine Oric Atmos -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

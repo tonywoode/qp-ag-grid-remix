@@ -1,0 +1,120 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "ADAM Demonstration Cartridge",
+      "mameName": "adamdemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\adamdemo.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ADAM Diagnostics",
+      "mameName": "adamdiag",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\adamdiag.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "198?",
+      "parameters": "-L cores\\mame_libretro.dll \" adam -cart1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ADAM Diagnostics (Alt)",
+      "mameName": "adamdiaga",
+      "parentName": "adamdiag",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\adamdiag.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ADAM Final Test",
+      "mameName": "adamtest",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\adamtest.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ADAM Final Test (Alt)",
+      "mameName": "adamtesta",
+      "parentName": "adamtest",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\adamtest.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ADAM Printer 1 Hour Cycle Burn-In Test",
+      "mameName": "burnprn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\burnprn.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Data Drive Burn-In DDP Test",
+      "mameName": "burnddp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\burnddp.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blank DDP Restorer (v1.4)",
+      "mameName": "ddpblank",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\ddpblank.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Buck Rogers DDP Restorer (v1.4)",
+      "mameName": "ddpbuck",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\ddpbuck.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SmartBASIC DDP Restorer (v1.4)",
+      "mameName": "ddpbasic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\ddpbasic.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ADAM Tape Util (v22)",
+      "mameName": "adamtape",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\adam_cart\\adamtape.7z",
+      "emulatorName": "Retroarch Coleco Adam -SOFTLIST adam_cart (MAME)",
+      "companyName": "Coleco",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

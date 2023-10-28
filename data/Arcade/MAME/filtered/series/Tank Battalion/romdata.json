@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Vs. Battle City",
+      "mameName": "btlecity",
+      "path": "{gamesDir}\\MAME\\ROMS\\btlecity.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1985",
+      "gameType": "Maze / Shooter Small",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Tank Battalion",
+      "mameName": "tankbatt",
+      "path": "{gamesDir}\\MAME\\ROMS\\tankbatt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1980",
+      "gameType": "Maze / Shooter Small",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Tank Force (US, 2 Players)",
+      "mameName": "tankfrce",
+      "path": "{gamesDir}\\MAME\\ROMS\\tankfrce.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1991",
+      "gameType": "Maze / Shooter Small",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Solomon's Key (US)",
+      "mameName": "solomon",
+      "path": "{gamesDir}\\MAME\\ROMS\\solomon.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1986",
+      "gameType": "Puzzle / Maze",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

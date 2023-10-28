@@ -1,0 +1,36 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mahjong The Mysterious Orient Part 2 - Exotic Dream",
+      "mameName": "mjmyorn2",
+      "path": "{gamesDir}\\MAME\\ROMS\\mjmyorn2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dynax",
+      "year": "1993",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mahjong The Mysterious Orient",
+      "mameName": "mjmyornt",
+      "parentName": "mjmyorn2",
+      "path": "{gamesDir}\\MAME\\ROMS\\mjmyorn2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dynax",
+      "year": "1992",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

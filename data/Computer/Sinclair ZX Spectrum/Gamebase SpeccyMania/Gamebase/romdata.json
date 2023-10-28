@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gamebase SpeccyMania",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase SpeccyMania.gif",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "SpeccyMania",
+      "timesPlayed": "88",
+      "paramMode": "0"
+    }
+  ]
+}

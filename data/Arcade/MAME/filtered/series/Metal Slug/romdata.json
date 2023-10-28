@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Metal Slug 5 (JAMMA PCB)",
+      "mameName": "ms5pcb",
+      "path": "{gamesDir}\\MAME\\ROMS\\ms5pcb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK Playmore",
+      "year": "2003",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Metal Slug - Super Vehicle-001",
+      "mameName": "mslug",
+      "path": "{gamesDir}\\MAME\\ROMS\\mslug.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nazca",
+      "year": "1996",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Metal Slug 2 - Super Vehicle-001/II (NGM-2410 ~ NGH-2410)",
+      "mameName": "mslug2",
+      "path": "{gamesDir}\\MAME\\ROMS\\mslug2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1998",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Metal Slug 3 (NGM-2560)",
+      "mameName": "mslug3",
+      "path": "{gamesDir}\\MAME\\ROMS\\mslug3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "2000",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Metal Slug 4 (NGM-2630)",
+      "mameName": "mslug4",
+      "path": "{gamesDir}\\MAME\\ROMS\\mslug4.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mega / Playmore",
+      "year": "2002",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Metal Slug 5 (NGM-2680)",
+      "mameName": "mslug5",
+      "path": "{gamesDir}\\MAME\\ROMS\\mslug5.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK Playmore",
+      "year": "2003",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Metal Slug X - Super Vehicle-001 (NGM-2500 ~ NGH-2500)",
+      "mameName": "mslugx",
+      "path": "{gamesDir}\\MAME\\ROMS\\mslugx.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1999",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Apple IIgs (ROM03)",
+      "mameName": "apple2gs",
+      "path": "{gamesDir}\\MAME\\ROMS\\apple2gs.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Apple Computer",
+      "year": "1989",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Apple IIgs (ROM01)",
+      "mameName": "apple2gsr1",
+      "parentName": "apple2gs",
+      "path": "{gamesDir}\\MAME\\ROMS\\apple2gs.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Apple Computer",
+      "year": "1987",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Mortal Kombat (Yawdim bootleg, set 1)",
+      "mameName": "mkyawdim",
+      "parentName": "mk",
+      "path": "{gamesDir}\\MAME\\ROMS\\mk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Yawdim)",
+      "year": "1992",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Champion Base Ball",
+      "mameName": "champbas",
+      "path": "{gamesDir}\\MAME\\ROMS\\champbas.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Alpha Denshi Co. (Sega license)",
+      "year": "1983",
+      "gameType": "Sports / Baseball",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Champion Base Ball Part-2 (set 1)",
+      "mameName": "champbb2",
+      "path": "{gamesDir}\\MAME\\ROMS\\champbb2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Alpha Denshi Co. (Sega license)",
+      "year": "1983",
+      "gameType": "Sports / Baseball",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

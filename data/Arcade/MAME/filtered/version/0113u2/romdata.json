@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "beatmania 7th MIX (ver JA-B)",
+      "mameName": "bm7thmix",
+      "path": "{gamesDir}\\MAME\\CHDs\\bm7thmix\\b07jaa11.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Rhythm / Instruments",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "beatmania Club MIX (ver JA-A)",
+      "mameName": "bmclubmx",
+      "path": "{gamesDir}\\MAME\\CHDs\\bmclubmx\\993hdda01.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Rhythm / Instruments",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Sky Robo",
+      "mameName": "skyrobo",
+      "path": "{gamesDir}\\MAME\\ROMS\\skyrobo.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1989",
+      "gameType": "Shooter / Walking",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

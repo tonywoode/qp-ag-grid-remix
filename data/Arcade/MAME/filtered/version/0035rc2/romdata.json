@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Flying Shark (World)",
+      "mameName": "fshark",
+      "path": "{gamesDir}\\MAME\\ROMS\\fshark.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Toaplan / Taito Corporation",
+      "year": "1987",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "The Irritating Maze / Ultra Denryu Iraira Bou",
+      "mameName": "irrmaze",
+      "path": "{gamesDir}\\MAME\\ROMS\\irrmaze.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK / Saurus",
+      "year": "1997",
+      "gameType": "Maze",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Rally Bike / Dash Yarou",
+      "mameName": "rallybik",
+      "path": "{gamesDir}\\MAME\\ROMS\\rallybik.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Toaplan / Taito Corporation",
+      "year": "1988",
+      "gameType": "Driving / Race Bike",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Shock Troopers - 2nd Squad",
+      "mameName": "shocktr2",
+      "path": "{gamesDir}\\MAME\\ROMS\\shocktr2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Saurus",
+      "year": "1998",
+      "gameType": "Shooter / Walking",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Street Smart (US version 2)",
+      "mameName": "streetsm",
+      "path": "{gamesDir}\\MAME\\ROMS\\streetsm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Fighter / Versus Co-op",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Wardner (World)",
+      "mameName": "wardner",
+      "path": "{gamesDir}\\MAME\\ROMS\\wardner.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Toaplan / Taito Corporation Japan",
+      "year": "1987",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

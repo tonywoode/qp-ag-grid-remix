@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Multi Champ Deluxe (ver. 0106, 06/01/2000)",
+      "mameName": "mchampdx",
+      "path": "{gamesDir}\\MAME\\ROMS\\mchampdx.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ESD",
+      "year": "2000",
+      "gameType": "Multiplay / Mini-Games * Mature *",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Multi Champ Deluxe (ver. 1126, 26/11/1999)",
+      "mameName": "mchampdxa",
+      "parentName": "mchampdx",
+      "path": "{gamesDir}\\MAME\\ROMS\\mchampdx.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ESD",
+      "year": "1999",
+      "gameType": "Multiplay / Mini-Games * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Multi Champ Deluxe (ver. 1114, 14/11/1999)",
+      "mameName": "mchampdxb",
+      "parentName": "mchampdx",
+      "path": "{gamesDir}\\MAME\\ROMS\\mchampdx.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ESD",
+      "year": "1999",
+      "gameType": "Multiplay / Mini-Games * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Multi Champ (World, ver. 2.5)",
+      "mameName": "multchmp",
+      "path": "{gamesDir}\\MAME\\ROMS\\multchmp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ESD",
+      "year": "1999",
+      "gameType": "Multiplay / Mini-Games",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Multi Champ (World, older)",
+      "mameName": "multchmpa",
+      "parentName": "multchmp",
+      "path": "{gamesDir}\\MAME\\ROMS\\multchmp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ESD",
+      "year": "1998",
+      "gameType": "Multiplay / Mini-Games",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Multi Champ (Korea, older)",
+      "mameName": "multchmpk",
+      "parentName": "multchmp",
+      "path": "{gamesDir}\\MAME\\ROMS\\multchmp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ESD",
+      "year": "1998",
+      "gameType": "Multiplay / Mini-Games",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

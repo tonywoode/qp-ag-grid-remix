@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Raimais (World)",
+      "mameName": "raimais",
+      "path": "{gamesDir}\\MAME\\ROMS\\raimais.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1988",
+      "gameType": "Maze",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

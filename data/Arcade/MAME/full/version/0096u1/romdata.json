@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Burning Rival (World)",
+      "mameName": "brival",
+      "path": "{gamesDir}\\MAME\\ROMS\\brival.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1992",
+      "gameType": "Fighter / Versus",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Kickle Cubele",
+      "mameName": "kikcubicb",
+      "parentName": "kikcubic",
+      "path": "{gamesDir}\\MAME\\ROMS\\kikcubic.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1988",
+      "gameType": "Puzzle / Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Martial Champion (ver AAA)",
+      "mameName": "mtlchampa",
+      "parentName": "mtlchamp",
+      "path": "{gamesDir}\\MAME\\ROMS\\mtlchamp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1993",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Raiden Fighters 2 - Operation Hell Dive (Germany)",
+      "mameName": "rdft2",
+      "path": "{gamesDir}\\MAME\\ROMS\\rdft2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seibu Kaihatsu (Tuning license)",
+      "year": "1997",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

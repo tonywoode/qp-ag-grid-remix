@@ -1,0 +1,1999 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "180",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\0\\180.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "221B_Baker_Street",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\0\\221B_Baker_Street.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Action_Biker",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Action_Biker.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Air_Strike_II",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Air_Strike_II.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airline",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Airline.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien_Ambush",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Alien_Ambush.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alley_Cat",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Alley_Cat.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amaurote",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Amaurote.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Andromeda",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Andromeda.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aquanaut",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Aquanaut.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AR_City_Guild",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\AR_City_Guild.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AR_City_Intro",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\AR_City_Intro.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AR_City_Smithy",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\AR_City_Smithy.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AR_City_Tavern_Dance",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\AR_City_Tavern_Dance.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AR_City_Tavern_Dragon",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\AR_City_Tavern_Dragon.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AR_City_Tavern_Treasure",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\AR_City_Tavern_Treasure.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arcade_Fruit_Machine_Simul",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Arcade_Fruit_Machine_Simul.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Archon",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Archon.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astro_Chase",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Astro_Chase.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atomia",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Atomia.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Axilox",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Axilox.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Axis_Slotmachine",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\A\\Axis_Slotmachine.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ballblaster",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Ballblaster.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ballblazer",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Ballblazer.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ballistic_Interceptor",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Ballistic_Interceptor.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Banner_Catch",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Banner_Catch.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Basil_the_Great_Mouse_Det",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Basil_the_Great_Mouse_Det.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Behind_Jaggi_Lines",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Behind_Jaggi_Lines.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Biathlon",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Biathlon.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bilbo",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Bilbo.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black_Lamp",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Black_Lamp.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black_Lamp_Ingame",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Black_Lamp_Ingame.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blinkys_Scary_School",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Blinkys_Scary_School.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blip",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Blip.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blue_Max",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Blue_Max.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blue_Max_2001",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Blue_Max_2001.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BMX_Simulator",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\BMX_Simulator.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomb_Fusion",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Bomb_Fusion.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boulder_Dash",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Boulder_Dash.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boulder_Dash_2",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Boulder_Dash_2.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bristles",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Bristles.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bruce_Lee",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\B\\Bruce_Lee.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capt_Stickys_Gold",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Capt_Stickys_Gold.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capture_the_Flag",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Capture_the_Flag.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capture_the_Flag_Sirius",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Capture_the_Flag_Sirius.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Car_S_A",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Car_S_A.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carnival_Massacre",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Carnival_Massacre.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cavehunt",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Cavehunt.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cavelord",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Cavelord.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Caverns_of_Khafka",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Caverns_of_Khafka.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chicken",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Chicken.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chimera",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Chimera.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chop_Suey",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Chop_Suey.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Civilization",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Civilization.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Claim_Jumper",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Claim_Jumper.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clowns_and_Balloons",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Clowns_and_Balloons.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colony",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Colony.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Conan",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Conan.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic_Tunnels",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Cosmic_Tunnels.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crumbles_Crisis",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Crumbles_Crisis.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Czarny_Orzel",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Czarny_Orzel.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Czaszki",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\C\\Czaszki.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dan_Strikes_Back",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Dan_Strikes_Back.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Darts",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Darts.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deathland",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Deathland.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Decathlon",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Decathlon.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deneb",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Deneb.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diamonds",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Diamonds.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digi_Duck",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Digi_Duck.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digiloo_Digiley",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Digiloo_Digiley.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Domain_Of_The_Undead",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Domain_Of_The_Undead.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Draconus",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Draconus.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Droga_Wojownika_Preview",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Droga_Wojownika_Preview.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Drol",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Drol.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dziedzictwo_Gigantow",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\D\\Dziedzictwo_Gigantow.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Easy_Money",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\E\\Easy_Money.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Electrician",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\E\\Electrician.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elektra_Glide",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\E\\Elektra_Glide.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elevator_Repairman",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\E\\Elevator_Repairman.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Emil_Hilf",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\E\\Emil_Hilf.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eureka",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\E\\Eureka.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Extirpator",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\E\\Extirpator.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Feud",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\F\\Feud.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire_Chief",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\F\\Fire_Chief.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire_Power",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\F\\Fire_Power.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flip_and_Flop",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\F\\Flip_and_Flop.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Floor_Walker",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\F\\Floor_Walker.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frantic",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\F\\Frantic.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\F\\Frogger.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger_II",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\F\\Frogger_II.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game_of_Live",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Game_of_Live.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gauntlet",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Gauntlet.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Geografia",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Geografia.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Getaway",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Getaway.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghost_Chaser",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Ghost_Chaser.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghostbusters",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Ghostbusters.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Global_War",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Global_War.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Globetrotter",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Globetrotter.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Goonies",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Goonies.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grand_Prix_Simulator",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Grand_Prix_Simulator.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Groove",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Groove.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gunfight",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Gunfight.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gyruss",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\G\\Gyruss.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hans_Kloss",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\H\\Hans_Kloss.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HardBall",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\H\\HardBall.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hazard_Run",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\H\\Hazard_Run.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heart_Break",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\H\\Heart_Break.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heavy_Metal",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\H\\Heavy_Metal.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Herbert",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\H\\Herbert.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hydraulik",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\H\\Hydraulik.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Inny_Swiat",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\I\\Inny_Swiat.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "International_Karate",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\I\\International_Karate.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Its_a_Sin",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\I\\Its_a_Sin.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James_Bond",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\James_Bond.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jet_Action",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\Jet_Action.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jet_Boot_Jack",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\Jet_Boot_Jack.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jet_Set_Willy",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\Jet_Set_Willy.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jigsaws",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\Jigsaws.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jocky_Wilsons_Darts_Chall",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\Jocky_Wilsons_Darts_Chall.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jocky_Wilsons_Darts_Compen",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\Jocky_Wilsons_Darts_Compen.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jump",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\Jump.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jumping_Jacks_Big_Adventur",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\Jumping_Jacks_Big_Adventur.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jungle_Hunt",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\J\\Jungle_Hunt.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kasiarz",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\K\\Kasiarz.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Keystone_Kapers",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\K\\Keystone_Kapers.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Killa_Cycle",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\K\\Killa_Cycle.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King_Of_Killers",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\K\\King_Of_Killers.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King_of_the_Ring",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\K\\King_of_the_Ring.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krazy_Kopter",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\K\\Krazy_Kopter.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Las_Vegas_Casino",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\L\\Las_Vegas_Casino.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Last_V8",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\L\\Last_V8.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Leggit",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\L\\Leggit.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Living_Daylights",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\L\\Living_Daylights.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Loco",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\L\\Loco.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "M_U_L_E",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\M_U_L_E.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Major_Bronx",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Major_Bronx.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mario_Bros",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Mario_Bros.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Master_of_the_Lamps",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Master_of_the_Lamps.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Master_of_Time",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Master_of_Time.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mediator",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Mediator.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Milk_Race",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Milk_Race.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mines",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Mines.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Miny",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Miny.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Montezumas_Revenge",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Montezumas_Revenge.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moon_Patrol",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Moon_Patrol.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mountain_Bike",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Mountain_Bike.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr_Do",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Mr_Do.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr_Robot_and_His_Robot_Fac",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\M\\Mr_Robot_and_His_Robot_Fac.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nadral",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\N\\Nadral.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nemos_Vault",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\N\\Nemos_Vault.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\N\\Ninja.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja_Commando",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\N\\Ninja_Commando.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Olimpicon",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\O\\Olimpicon.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Olympic_Skier",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\O\\Olympic_Skier.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "On_Track",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\O\\On_Track.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "One_Man_and_His_Droid",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\O\\One_Man_and_His_Droid.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Operation_Blood",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\O\\Operation_Blood.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Operation_Blood_Ingame",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\O\\Operation_Blood_Ingame.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Osadnicy",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\O\\Osadnicy.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac_Man",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pac_Man.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac_Man_Eric_Wolz",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pac_Man_Eric_Wolz.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pacific_Coast_Highway",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pacific_Coast_Highway.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Panther",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Panther.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paradise_Threat",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Paradise_Threat.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pengon",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pengon.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Perly_Szeherezady",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Perly_Szeherezady.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitfall_II",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pitfall_II.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Plaque_Man",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Plaque_Man.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Plastron",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Plastron.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker_Sam",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Poker_Sam.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pro_Mountain_Biker_Ingame",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pro_Mountain_Biker_Ingame.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Professor_IQ",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Professor_IQ.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Protector",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Protector.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Protector_II",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Protector_II.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pyramid",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pyramid.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pyramid_End",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pyramid_End.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pyramid_Game_Over",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pyramid_Game_Over.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pyramid_Ingame",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pyramid_Ingame.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pyramid_Intro",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\P\\Pyramid_Intro.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quasimodo",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\Q\\Quasimodo.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rampage",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\R\\Rampage.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reachout",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\R\\Reachout.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rebound",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\R\\Rebound.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Red_Max",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\R\\Red_Max.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robin_Hood",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\R\\Robin_Hood.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rockford",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\R\\Rockford.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ruff_And_Reddy",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\R\\Ruff_And_Reddy.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Saper",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Saper.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sargon_II",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Sargon_II.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Schreckenstein",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Schreckenstein.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Screaming_Wings",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Screaming_Wings.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sea_Chase",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Sea_Chase.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Seawolf_II",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Seawolf_II.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Seven_Cities_of_Gold",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Seven_Cities_of_Gold.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SEX_Versi",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\SEX_Versi.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shadow_World",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Shadow_World.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shamus",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Shamus.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shamus_Case_II",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Shamus_Case_II.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sidewinder_2",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Sidewinder_2.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Simple_Minds",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Simple_Minds.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sisyphos",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Sisyphos.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slingshot",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Slingshot.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Softoy",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Softoy.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space_Lobsters",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Space_Lobsters.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spaceball",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Spaceball.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Special_Delivery",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Special_Delivery.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speed_Hawk",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Speed_Hawk.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spelunker",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Spelunker.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiky_Harold",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Spiky_Harold.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy_Games_Ingame",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Spy_Games_Ingame.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy_Hunter",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Spy_Hunter.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy_Master",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Spy_Master.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy_vs_Spy",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Spy_vs_Spy.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy_vs_Spy_Arctic_Antics",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Spy_vs_Spy_Arctic_Antics.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy_vs_Spy_Island_Caper",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Spy_vs_Spy_Island_Caper.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star_Intruder",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Star_Intruder.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star_Raiders_II",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Star_Raiders_II.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Starquake",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Starquake.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stealth",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Stealth.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Storm",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Storm.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strip_Poker",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Strip_Poker.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strzyga",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Strzyga.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Submission",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Submission.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super_Soccer",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\S\\Super_Soccer.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tagalon",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\T\\Tagalon.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tail_of_Beta_Lyrae",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\T\\Tail_of_Beta_Lyrae.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tapper",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\T\\Tapper.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tarzan_of_the_Apes",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\T\\Tarzan_of_the_Apes.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taxicab_Hill",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\T\\Taxicab_Hill.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tiger_Attack",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\T\\Tiger_Attack.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trans_Muter",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\T\\Trans_Muter.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tube_Baddies",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\T\\Tube_Baddies.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tumble_Bugs",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\T\\Tumble_Bugs.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vanguard",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\V\\Vanguard.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Warhawk",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\W\\Warhawk.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Whistlers_Brothers",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\W\\Whistlers_Brothers.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "William_Tell",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\W\\William_Tell.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winter_Games_88_Biathlon",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\W\\Winter_Games_88_Biathlon.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winter_Games_88_Bobsled",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\W\\Winter_Games_88_Bobsled.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winter_Games_88_Downhill",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\W\\Winter_Games_88_Downhill.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winter_Games_88_Ski_Jump",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\W\\Winter_Games_88_Ski_Jump.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winter_Games_88_Slalom",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\W\\Winter_Games_88_Slalom.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zeppelin",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\Z\\Zeppelin.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zero_War",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\Z\\Zero_War.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zorro",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\Z\\Zorro.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zumbaja_Game_Over",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\Z\\Zumbaja_Game_Over.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zumbaja_Ingame",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\Z\\Zumbaja_Ingame.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zumbaja_Menu",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\Z\\Zumbaja_Menu.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zybex",
+      "path": "{gamesDir}\\Gamebase Games\\Atari800\\Atari 800\\Music\\Z\\Zybex.sap",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Backfire! (set 2)",
+      "mameName": "backfirea",
+      "parentName": "backfire",
+      "path": "{gamesDir}\\MAME\\ROMS\\backfire.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1995",
+      "gameType": "Driving / Race",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "E.D.F. : Earth Defense Force (North America)",
+      "mameName": "edfu",
+      "parentName": "edf",
+      "path": "{gamesDir}\\MAME\\ROMS\\edf.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1991",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Enduro Racer (YM2203) (FD1089B 317-0013A)",
+      "mameName": "enduror1",
+      "parentName": "enduror",
+      "path": "{gamesDir}\\MAME\\ROMS\\enduror.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1986",
+      "gameType": "Driving / Race (chase view) Bike",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

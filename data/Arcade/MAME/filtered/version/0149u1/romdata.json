@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Arcadia (NMK)",
+      "mameName": "arcadian",
+      "path": "{gamesDir}\\MAME\\ROMS\\arcadian.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "NMK",
+      "year": "1994",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Carnival King (v1.00.11)",
+      "mameName": "carnking",
+      "path": "{gamesDir}\\MAME\\CHDs\\carnking\\carnival_king_v_1.00.11.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Incredible Technologies",
+      "year": "2002",
+      "gameType": "Shooter / Gun",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Desert Dan",
+      "mameName": "desertdn",
+      "path": "{gamesDir}\\MAME\\ROMS\\desertdn.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video Optics",
+      "year": "1982",
+      "gameType": "Fighter / Vertical",
+      "rating": "0 to 10 (Worst)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Golden Tee Fore! 2003 (v3.00.10)",
+      "mameName": "gtfore03",
+      "path": "{gamesDir}\\MAME\\CHDs\\gtfore03\\golf_fore_2003_v3.00.10.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Incredible Technologies",
+      "year": "2002",
+      "gameType": "Sports / Golf",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Golden Tee Fore! 2006 Complete (v6.00.01)",
+      "mameName": "gtfore06",
+      "path": "{gamesDir}\\MAME\\CHDs\\gtfore06\\golf_fore_complete_v6.00.01.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Incredible Technologies",
+      "year": "2005",
+      "gameType": "Sports / Golf",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Hidden Catch 2000 (AT89c52 protected)",
+      "mameName": "hidnc2k",
+      "path": "{gamesDir}\\MAME\\ROMS\\hidnc2k.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Eolith",
+      "year": "1999",
+      "gameType": "Puzzle / Misc.",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Pit Boss Superstar III 30 (9233-00-01)",
+      "mameName": "pbss330",
+      "path": "{gamesDir}\\MAME\\ROMS\\pbss330.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Merit",
+      "year": "1993",
+      "gameType": "Multiplay / Compilation",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Cleopatra Fortune Plus (GDL-0012)",
+      "mameName": "cleoftp",
+      "path": "{gamesDir}\\MAME\\CHDs\\cleoftp\\gdl-0012.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Altron",
+      "year": "2002",
+      "gameType": "Puzzle / Match",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Cleopatra Fortune (Ver 2.1J 1996/09/05)",
+      "mameName": "cleopatr",
+      "path": "{gamesDir}\\MAME\\ROMS\\cleopatr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1996",
+      "gameType": "Puzzle / Drop",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

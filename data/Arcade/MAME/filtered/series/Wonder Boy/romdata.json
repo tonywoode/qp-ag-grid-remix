@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)",
+      "mameName": "wb3",
+      "path": "{gamesDir}\\MAME\\ROMS\\wb3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega / Westone",
+      "year": "1988",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Wonder Boy in Monster Land (Japan New Ver., MC-8123, 317-0043)",
+      "mameName": "wbml",
+      "path": "{gamesDir}\\MAME\\ROMS\\wbml.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega / Westone",
+      "year": "1987",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "80 to 90 (Very Good)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Wonder Boy (set 1, 315-5177)",
+      "mameName": "wboy",
+      "path": "{gamesDir}\\MAME\\ROMS\\wboy.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Escape (Sega license)",
+      "year": "1986",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

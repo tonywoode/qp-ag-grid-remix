@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Green Beret",
+      "mameName": "gberet",
+      "path": "{gamesDir}\\MAME\\ROMS\\gberet.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1985",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Venture (version 5 set 1)",
+      "mameName": "venture",
+      "path": "{gamesDir}\\MAME\\ROMS\\venture.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Exidy",
+      "year": "1981",
+      "gameType": "Maze / Shooter Small",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

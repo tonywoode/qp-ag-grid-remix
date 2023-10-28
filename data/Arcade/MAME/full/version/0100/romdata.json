@@ -1,0 +1,49 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "G-LOC R360",
+      "mameName": "glocr360",
+      "parentName": "gloc",
+      "path": "{gamesDir}\\MAME\\ROMS\\gloc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1990",
+      "gameType": "Shooter / Flying 1st Person",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Macintosh SE",
+      "mameName": "macse",
+      "path": "{gamesDir}\\MAME\\ROMS\\macse.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Apple Computer",
+      "year": "1987",
+      "gameType": "Professional Systems / Business Computer & Terminal",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Rebus",
+      "mameName": "rebus",
+      "path": "{gamesDir}\\MAME\\ROMS\\rebus.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Microhard",
+      "year": "1995",
+      "gameType": "Puzzle / Match",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

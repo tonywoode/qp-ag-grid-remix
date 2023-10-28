@@ -1,0 +1,93 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "CD-ROM Drive Updater 2.0 (700B04)",
+      "mameName": "cr589fw",
+      "path": "{gamesDir}\\MAME\\CHDs\\cr589fw\\700b04.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Utilities / Update",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "CD-ROM Drive Updater (700A04)",
+      "mameName": "cr589fwa",
+      "path": "{gamesDir}\\MAME\\CHDs\\cr589fwa\\700a04.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Utilities / Update",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Eco Fighters (USA 940215)",
+      "mameName": "ecofghtru",
+      "parentName": "ecofghtr",
+      "path": "{gamesDir}\\MAME\\ROMS\\ecofghtr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1993",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Guitar Freaks 7th Mix (G*B17 VER. JAA)",
+      "mameName": "gtrfrk7m",
+      "path": "{gamesDir}\\MAME\\CHDs\\gtrfrk7m\\b17jaa02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Rhythm / Instruments",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Time Machine (v2.0) (MPU4 Video)",
+      "mameName": "v4time",
+      "path": "{gamesDir}\\MAME\\ROMS\\v4time.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Barcrest",
+      "year": "1989",
+      "gameType": "Casino",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Wave Shark (UAB, USA v1.04)",
+      "mameName": "waveshrk",
+      "parentName": "jetwave",
+      "path": "{gamesDir}\\MAME\\ROMS\\jetwave.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Driving / Boat",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

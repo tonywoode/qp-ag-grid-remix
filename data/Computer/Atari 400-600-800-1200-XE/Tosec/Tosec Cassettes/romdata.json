@@ -1,0 +1,391 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Air-Raid! (1982)(Chuck Gibke)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Air-Raid! (1982)(Chuck Gibke).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airstrike II (1983)(English)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Airstrike II (1983)(English).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airstrike II 16k (19xx)(English)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Airstrike II 16k (19xx)(English).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airwolf (19xx)(Elite)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Airwolf (19xx)(Elite).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amaurote (1987)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Amaurote (1987)(Mastertronic).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aztec (1986)(Datamost Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Aztec (1986)(Datamost Inc.).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Basic Turbo 2000 (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Basic Turbo 2000 (19xx)(-).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blue Max (1983)(Synapse)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Blue Max (1983)(Synapse).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boulder Dash 3 (1984)(First Star)[m Piotr]",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Boulder Dash 3 (1984)(First Star)[m Piotr].zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Captain Cosmo (1982)(Nexa Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Captain Cosmo (1982)(Nexa Corp.).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Centipede (1982)(Atari)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Centipede (1982)(Atari).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Cosmic (19xx)(-).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crypts of Plombous (1982)(Cosmi)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Crypts of Plombous (1982)(Cosmi).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crystal Castles (1984)(Atari)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Crystal Castles (1984)(Atari).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dropzone (1984)(U.S. Gold)[h Hacki]",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Dropzone (1984)(U.S. Gold)[h Hacki].zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flying Ace (1982)(Avalon Hill)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Flying Ace (1982)(Avalon Hill).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Forbidden Forest (1983)(Cosmi)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Forbidden Forest (1983)(Cosmi).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gremlins (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Gremlins (19xx)(-).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Bond (1984)(Parker Bros)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\James Bond (1984)(Parker Bros).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jet Boot Jack (1983)(English)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Jet Boot Jack (1983)(English).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jet Boot Jack (1983)(English)[a]",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Jet Boot Jack (1983)(English)[a].zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jigsaws - Baa Baa Black Sheep (1981)(Thorn EMI)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Jigsaws - Baa Baa Black Sheep (1981)(Thorn EMI).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Laser Hawk (1986)(Red Rat)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Laser Hawk (1986)(Red Rat).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja (1986)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Ninja (1986)(Mastertronic).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja Master, The (1986)(Firebird)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Ninja Master, The (1986)(Firebird).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Panther (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Panther (19xx)(-).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Popeye (1983)(Parker Bros)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Popeye (1983)(Parker Bros).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Preliminary Monty 16k (19xx)(Steve & Bruce)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Preliminary Monty 16k (19xx)(Steve & Bruce).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Preppie! (1982)(Adventure International)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Preppie! (1982)(Adventure International).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quasimodo (1984)(Synapse)[h]",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Quasimodo (1984)(Synapse)[h].zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "River Raid (1983)(Activision)[h AtariSezam]",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\River Raid (1983)(Activision)[h AtariSezam].zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rythmizer AT1 (1986)(Munsie)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Rythmizer AT1 (1986)(Munsie).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shamus (1982)(Synapse)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Shamus (1982)(Synapse).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sqoid (1988)(Bit-Soft)[h]",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Sqoid (1988)(Bit-Soft)[h].zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stealth (1984)(Broderbund)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Stealth (1984)(Broderbund).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Cobra (1983)(Parker Bros)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Super Cobra (1983)(Parker Bros).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tapper (1985)(Sega)[cr Phlegm Hacker]",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Tapper (1985)(Sega)[cr Phlegm Hacker].zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World Karate Championship (1986)(Epyx)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\World Karate Championship (1986)(Epyx).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zybex (19xx)(Zeppelin)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\Zybex (19xx)(Zeppelin).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-ace of aces (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\ZZZ-UNK-ace of aces (19xx)(-).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-adax",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\ZZZ-UNK-adax.zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-casboot (2001)(Jindroush)(Cz)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\ZZZ-UNK-casboot (2001)(Jindroush)(Cz).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-casdup20 (1982)(Vervan)",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\ZZZ-UNK-casdup20 (1982)(Vervan).zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-easy_80",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\ZZZ-UNK-easy_80.zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-m_mus_ma",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\ZZZ-UNK-m_mus_ma.zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-mulkeybo",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\ZZZ-UNK-mulkeybo.zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-shap&col",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\ZZZ-UNK-shap&col.zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-turbo 2000",
+      "path": "{gamesDir}\\TOSEC\\Atari 8bit - Cassettes (TOSEC-v0.02_CM)\\ZZZ-UNK-turbo 2000.zip",
+      "emulatorName": "Altirra",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

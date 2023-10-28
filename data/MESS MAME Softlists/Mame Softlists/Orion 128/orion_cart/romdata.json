@@ -1,0 +1,28 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "ROMDISK",
+      "mameName": "romdisk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cart\\romdisk.7z",
+      "emulatorName": "MAME Orion 128 -SOFTLIST orion_cart",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ORDOS403",
+      "mameName": "ordos403",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cart\\ordos403.7z",
+      "emulatorName": "MAME Orion 128 -SOFTLIST orion_cart",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "parameters": "orion128 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Long Hu Bang (China, V035C)",
+      "mameName": "lhb",
+      "path": "{gamesDir}\\MAME\\ROMS\\lhb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1995",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Long Hu Bang II (Hong Kong, V185H)",
+      "mameName": "lhb2",
+      "path": "{gamesDir}\\MAME\\ROMS\\lhb2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1996",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Long Hu Bang (China, V033C)",
+      "mameName": "lhbv33c",
+      "parentName": "lhb",
+      "path": "{gamesDir}\\MAME\\ROMS\\lhb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1995",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mahjong Long Hu Zheng Ba 2 (set 1)",
+      "mameName": "lhzb2",
+      "path": "{gamesDir}\\MAME\\ROMS\\lhzb2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1998",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Mahjong Long Hu Zheng Ba 2 (VS221M)",
+      "mameName": "lhzb2a",
+      "parentName": "lhzb2",
+      "path": "{gamesDir}\\MAME\\ROMS\\lhzb2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1998",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Long Hu Zheng Ba 3",
+      "mameName": "lhzb3",
+      "path": "{gamesDir}\\MAME\\ROMS\\lhzb3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "200?",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Long Hu Zheng Ba 4",
+      "mameName": "lhzb4",
+      "path": "{gamesDir}\\MAME\\ROMS\\lhzb4.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "200?",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Mahjong Ryukobou (Japan, V030J)",
+      "mameName": "ryukobou",
+      "parentName": "lhb",
+      "path": "{gamesDir}\\MAME\\ROMS\\lhb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS / Alta",
+      "year": "1995",
+      "gameType": "Tabletop / Mahjong",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

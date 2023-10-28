@@ -1,0 +1,111 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Armored Warriors (Euro 941024)",
+      "mameName": "armwar",
+      "path": "{gamesDir}\\MAME\\ROMS\\armwar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1994",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Competition Golf Final Round (Japan, old version)",
+      "mameName": "compgolfo",
+      "parentName": "compgolf",
+      "path": "{gamesDir}\\MAME\\ROMS\\compgolf.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East",
+      "year": "1985",
+      "gameType": "Sports / Golf",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Golden Tee Golf (Trackball, v1.0)",
+      "mameName": "gtgt1",
+      "parentName": "gtg",
+      "path": "{gamesDir}\\MAME\\ROMS\\gtg.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Strata/Incredible Technologies",
+      "year": "1989",
+      "gameType": "Sports / Golf",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Jong Tou Ki (Japan)",
+      "mameName": "jantouki",
+      "path": "{gamesDir}\\MAME\\ROMS\\jantouki.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dynax",
+      "year": "1990",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Miss Mister World '96 (Nude)",
+      "mameName": "missmw96",
+      "parentName": "missw96",
+      "path": "{gamesDir}\\MAME\\ROMS\\missw96.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Comad",
+      "year": "1996",
+      "gameType": "Puzzle / Outline * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Space Thunderbird",
+      "mameName": "spctbird",
+      "parentName": "mooncrst",
+      "path": "{gamesDir}\\MAME\\ROMS\\mooncrst.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Fortrek)",
+      "year": "1981?",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Yosaku To Donbei (set 2)",
+      "mameName": "yosakdona",
+      "parentName": "yosakdon",
+      "path": "{gamesDir}\\MAME\\ROMS\\yosakdon.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Wing",
+      "year": "1979",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

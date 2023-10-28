@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Densha de GO! (Ver 2.2 J)",
+      "mameName": "dendego",
+      "path": "{gamesDir}\\MAME\\ROMS\\dendego.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1996",
+      "gameType": "Driving / 1st Person",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Densha de GO! 2 Kousoku-hen (Ver 2.5 J)",
+      "mameName": "dendego2",
+      "path": "{gamesDir}\\MAME\\ROMS\\dendego2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1998",
+      "gameType": "Driving / 1st Person",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Densha de GO! 2 Kousoku-hen 3000-bandai (Ver 2.20 J)",
+      "mameName": "dendego23k",
+      "parentName": "dendego2",
+      "path": "{gamesDir}\\MAME\\ROMS\\dendego2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1998",
+      "gameType": "Driving / 1st Person",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Densha de GO! EX (Ver 2.4 J)",
+      "mameName": "dendegox",
+      "parentName": "dendego",
+      "path": "{gamesDir}\\MAME\\ROMS\\dendego.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1996",
+      "gameType": "Driving / 1st Person",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

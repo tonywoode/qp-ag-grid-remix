@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "beatmania 6th MIX (ver JA-A)",
+      "mameName": "bm6thmix",
+      "path": "{gamesDir}\\MAME\\CHDs\\bm6thmix\\a21jaa11.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Rhythm / Instruments",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dunk Mania (World, DM2/VER.C)",
+      "mameName": "dunkmnia",
+      "path": "{gamesDir}\\MAME\\ROMS\\dunkmnia.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1995",
+      "gameType": "Sports / Basketball",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Mille Miglia 2: Great 1000 Miles Rally (95/05/24)",
+      "mameName": "gtmr2",
+      "path": "{gamesDir}\\MAME\\ROMS\\gtmr2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko",
+      "year": "1995",
+      "gameType": "Driving / Race",
+      "rating": "80 to 90 (Very Good)",
+      "language": "Italian",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Harem",
+      "mameName": "harem",
+      "path": "{gamesDir}\\MAME\\ROMS\\harem.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "I.G.R.",
+      "year": "1983",
+      "gameType": "Shooter / Field",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Sengoku 3 / Sengoku Densho 2001",
+      "mameName": "sengoku3",
+      "path": "{gamesDir}\\MAME\\ROMS\\sengoku3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Noise Factory / SNK",
+      "year": "2001",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Bowling (World, V101XCM)",
+      "mameName": "vbowl",
+      "path": "{gamesDir}\\MAME\\ROMS\\vbowl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1996",
+      "gameType": "Sports / Bowling",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Zupapa!",
+      "mameName": "zupapa",
+      "path": "{gamesDir}\\MAME\\ROMS\\zupapa.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "2001",
+      "gameType": "Platform / Run Jump",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Clutch Hitter (Japan) (FD1094 317-0175)",
+      "mameName": "cltchitrj",
+      "parentName": "cltchitr",
+      "path": "{gamesDir}\\MAME\\ROMS\\cltchitr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1991",
+      "gameType": "Sports / Baseball",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Laser Ghost (World) (FD1094 317-0166)",
+      "mameName": "lghost",
+      "path": "{gamesDir}\\MAME\\ROMS\\lghost.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1990",
+      "gameType": "Shooter / Gun",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Michael Jackson's Moonwalker (Japan) (FD1094/8751 317-0157)",
+      "mameName": "mwalkj",
+      "parentName": "mwalk",
+      "path": "{gamesDir}\\MAME\\ROMS\\mwalk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1990",
+      "gameType": "Maze / Fighter",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Senkyu (Japan set 2)",
+      "mameName": "senkyua",
+      "parentName": "senkyu",
+      "path": "{gamesDir}\\MAME\\ROMS\\senkyu.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seibu Kaihatsu",
+      "year": "1995",
+      "gameType": "Puzzle / Drop",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

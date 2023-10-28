@@ -1,0 +1,2327 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "2001",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\2001.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "2001_V2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\2001_V2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3d Demo (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\3d Demo (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3d Demo 06-2003 (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\3d Demo 06-2003 (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "80´s Neon Nights by Sampo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\80´s Neon Nights by Sampo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A Bug's Lynx (DoctorY, Rygar & Fadest)(2009-04-20 release date).lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\A Bug's Lynx (DoctorY, Rygar & Fadest)(2009-04-20 release date).lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "A Bug's Lynx (DoctorY, Rygar & Fadest)(2009-04-20 release date).lyx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\A Bug's Lynx (DoctorY, Rygar & Fadest)(2009-04-20 release date).lyx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A Bug's Lynx (DoctorY, Rygar & Fadest)(2009-04-20 release date).o",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\A Bug's Lynx (DoctorY, Rygar & Fadest)(2009-04-20 release date).o.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "abc music creator",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\abc music creator.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Vs Predator (1994)(Images)(proto)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Alien Vs Predator (1994)(Images)(proto).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anti A-Bomb Aircraft Artillery (2005)(Sampo)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Anti A-Bomb Aircraft Artillery (2005)(Sampo).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "aqualynx test",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\aqualynx test.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "arkanoid alpha test",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\arkanoid alpha test.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atari LYNX Simpsons Music Generator Demo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Atari LYNX Simpsons Music Generator Demo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ATARI",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\ATARI.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "atomix (2006)(Cooper)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\atomix (2006)(Cooper).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ATTACK 02-2007",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\ATTACK 02-2007.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Attack",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Attack.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bali2_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\bali2_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bars (2007)(Cooper)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\bars (2007)(Cooper).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baseball Heroes (USA, Europe)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Baseball Heroes (USA, Europe).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battling Chimera Taquin",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Battling Chimera Taquin.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Befok - Maze (20021012) by Jum Hig (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Befok - Maze (20021012) by Jum Hig (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Befok - Packraw (20021012) by Jum Hig (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Befok - Packraw (20021012) by Jum Hig (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Befok (20021012) by Jum Hig (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Befok (20021012) by Jum Hig (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Befok by Jum High (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Befok by Jum High (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bitchy XXX demo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Bitchy XXX demo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "blob",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\blob.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Block Out (USA, Europe)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Block Out (USA, Europe).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bobo (2007)(Cooper)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\bobo (2007)(Cooper).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bombe",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\bombe.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Booster (2005) (jum)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Booster (2005) (jum).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Booster (WIP 2005-12-28)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Booster (WIP 2005-12-28).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "booster_01",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\booster_01.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "booster_03",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\booster_03.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BRK",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\BRK.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "building",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\building.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bullet",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\bullet.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cape4_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\cape4_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CARDHEAD",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\CARDHEAD.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CARDHEAD-",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\CARDHEAD-.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cardtest",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\cardtest.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cart",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\cart.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cart1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\cart1.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Centipede (USA) (Prototype)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Centipede (USA) (Prototype).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cf - Oooh, what is it going to be",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\cf - Oooh, what is it going to be.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Charge Field 2 - charges animated",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Charge Field 2 - charges animated.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Charge Field 2 - meters",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Charge Field 2 - meters.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "chip8",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\chip8.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter (2000) by Jum Hig (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Choplifter (2000) by Jum Hig (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter by Jum High (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Choplifter by Jum High (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "chopper 4 lynx (2005) (James Higgs)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\chopper 4 lynx (2005) (James Higgs).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clicks! Version 6",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Clicks! Version 6.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "clock",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\clock.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Collision logicielle test",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Collision logicielle test.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "columns (2007)(Cooper)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\columns (2007)(Cooper).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Conquistador",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Conquistador.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dead",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\dead.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "demonsgate [prototype]",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\demonsgate [prototype].zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "devoecosmostea_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\devoecosmostea_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "diaporama",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\diaporama.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "disney_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\disney_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dolphin_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\dolphin_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dynalynx v0.4",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Dynalynx v0.4.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "elvira1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\elvira1.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "elvirot 0.2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\elvirot 0.2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eye of the Beholder (USA) (Prototype)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Eye of the Beholder (USA) (Prototype).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "eyeofbeholderddemo256",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\eyeofbeholderddemo256.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fahne",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\fahne.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fidelity Ultimate Chess Challenge, The (USA, Europe)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Fidelity Ultimate Chess Challenge, The (USA, Europe).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fighter2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\fighter2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "first",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\first.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fission_01",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\fission_01.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fission_02",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\fission_02.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fission_031",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\fission_031.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fission_05",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\fission_05.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fission_06",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\fission_06.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fruitbasket_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\fruitbasket_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "garci (2007)(Cooper)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\garci (2007)(Cooper).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gauntlet 4-6-90",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Gauntlet 4-6-90.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gif pour lynx - cercle de feu",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gif pour lynx - cercle de feu.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gif pour lynx - galaxie",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gif pour lynx - galaxie.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gif pour lynx - la marche de l'alien",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gif pour lynx - la marche de l'alien.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gif pour lynx - marche pas",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gif pour lynx - marche pas.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gif pour lynx - mickey",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gif pour lynx - mickey.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gif pour lynx - perdu",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gif pour lynx - perdu.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gif pour lynx - smurf",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gif pour lynx - smurf.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gif pour lynx - spirale",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gif pour lynx - spirale.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_0.0_test",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_0.0_test.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_0.2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_0.2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_0.3",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_0.3.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_0.3_romeo0.1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_0.3_romeo0.1.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_0.3_romeo0.2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_0.3_romeo0.2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_0.4",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_0.4.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_03.1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_03.1.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_05",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_05.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_06",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_06.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_061",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_061.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "globshoot_062",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\globshoot_062.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gnop 0.4SE",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gnop 0.4SE.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gnop 0.6",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gnop 0.6.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GOTBALLS (LNX)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\GOTBALLS (LNX).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "GOTBALLS (O)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\GOTBALLS (O).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gras",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gras.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gravitar physics techdemo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gravitar physics techdemo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gwn_demo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\gwn_demo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hallo Welt! (1996) by Bjoern Spruck (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Hallo Welt! (1996) by Bjoern Spruck (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hallo Welt! 2 (1996) by Bjoern Spruck (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Hallo Welt! 2 (1996) by Bjoern Spruck (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INSERT [a]",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\INSERT [a].zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "insert",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\insert.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "IRQ_TEST",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\IRQ_TEST.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jellybeans (2005-08-24)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jellybeans (2005-08-24).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_avion",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_avion.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_boule a facettes",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_boule a facettes.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_cameleon",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_cameleon.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_chaumiere",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_chaumiere.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_cheval",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_cheval.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_dauphin",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_dauphin.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_des",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_des.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_diapo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_diapo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_dino",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_dino.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_dragon",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_dragon.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_fesse",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_fesse.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_hamster",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_hamster.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_homme qui court",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_homme qui court.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_lac",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_lac.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_lion",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_lion.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_lune",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_lune.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_lunette",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_lunette.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_manga",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_manga.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_matrix",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_matrix.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_montagne",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_montagne.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_mouton",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_mouton.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_oie",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_oie.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_old mickey",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_old mickey.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_pere noel",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_pere noel.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_reussite",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_reussite.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_san diego",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_san diego.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_sexy",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_sexy.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_soustif",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_soustif.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_spirale",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_spirale.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_test",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_test.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_tunel",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_tunel.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_walking",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_walking.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jp_roms_zombie",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\jp_roms_zombie.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JumTro #1 by Jum High '98 (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\JumTro #1 by Jum High '98 (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Karateboy minidemo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Karateboy minidemo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "kimura_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\kimura_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kistenschieben v0.2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Kistenschieben v0.2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "klondike 2008-11-11",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\klondike 2008-11-11.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "klondike 2008-11-27",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\klondike 2008-11-27.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "knight (2005)(Cooper)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\knight (2005)(Cooper).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "knight moves",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\knight moves.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Knightmare minidemo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Knightmare minidemo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "La marche de l alien",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\La marche de l alien.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "leer",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\leer.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "limny",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\limny.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "loader",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\loader.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lunar (2004) by Fadest (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Lunar (2004) by Fadest (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynx Cart Demo 1.1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Lynx Cart Demo 1.1.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynx II Production Test Program V0.02 (USA) (Prototype)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Lynx II Production Test Program V0.02 (USA) (Prototype).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynx Reloaded - Björn Spruck 2003",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Lynx Reloaded - Björn Spruck 2003.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynxopoly beta test",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Lynxopoly beta test.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maria Brink Vertical Taquin",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Maria Brink Vertical Taquin.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Marlboro Go! (Europe) (Prototype)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Marlboro Go! (Europe) (Prototype).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "minimal",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\minimal.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moon Patrol (20000821) by Jum Hig (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Moon Patrol (20000821) by Jum Hig (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moon Runner by Jum High (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Moon Runner by Jum High (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ms. Pac-Man (USA, Europe)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Ms. Pac-Man (USA, Europe).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "multcart",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\multcart.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "multipong1k_1player",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\multipong1k_1player.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "multipong1k_2player",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\multipong1k_2player.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "orgna012",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\orgna012.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "othello.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\othello.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "othello.lyx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\othello.lyx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "othello.o",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\othello.o.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ottelo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\ottelo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "palette",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\palette.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pamela",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\pamela.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paperboy (USA, Europe)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Paperboy (USA, Europe).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paraply minidemo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Paraply minidemo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "partym",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\partym.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "peugeot",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\peugeot.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "phobyx1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\phobyx1.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "play_smp",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\play_smp.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "playsmp1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\playsmp1.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "playsmp2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\playsmp2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker Game (2005-04-10)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Poker Game (2005-04-10).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker Game (2005-06-20)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Poker Game (2005-06-20).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker Game (2005-07-10)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Poker Game (2005-07-10).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker Game 256 (2005-04-10)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Poker Game 256 (2005-04-10).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker Game 256 (2005-06-20)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Poker Game 256 (2005-06-20).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker Game 256 (2005-07-10)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Poker Game 256 (2005-07-10).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker Game 512 (2005-06-20)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Poker Game 512 (2005-06-20).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker Game 512 (2005-07-10)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Poker Game 512 (2005-07-10).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong 4 Fun v0.20",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Pong 4 Fun v0.20.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PONR_II",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\PONR_II.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "projet",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\projet.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PUSH 02-2007",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\PUSH 02-2007.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "push",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\push.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puyo Puyo 2 (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Puyo Puyo 2 (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "puyo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\puyo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rapide_racer.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\rapide_racer.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rapide_racer.lyx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\rapide_racer.lyx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rapide_racer.o",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\rapide_racer.o.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Return of the Space Coyote, The (20060624) (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Return of the Space Coyote, The (20060624) (PD).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "rgc2010 promotion (philippe H)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\rgc2010 promotion (philippe H).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rgc2010",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\rgc2010.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robo-Squash (USA, Europe)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Robo-Squash (USA, Europe).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "scrolldemo_01.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\scrolldemo_01.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "scrolldemo_01.o",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\scrolldemo_01.o.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "seastars_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\seastars_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "second",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\second.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shanghai (USA, Europe)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Shanghai (USA, Europe).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "shore_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\shore_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "shuttle_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\shuttle_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sinscrol",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\sinscrol.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sintab_8",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\sintab_8.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "snake (2007)(Cooper)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\snake (2007)(Cooper).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-07-12",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-07-12.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-07-19",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-07-19.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-07-24 fixed",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-07-24 fixed.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-07-24",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-07-24.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-07-27",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-07-27.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-07-29",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-07-29.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-07-31 cheat mode",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-07-31 cheat mode.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-07-31",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-07-31.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-08-01",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-08-01.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-08-03",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-08-03.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-08-09",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-08-09.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-08-11",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-08-11.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-08-12",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-08-12.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-08-13",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-08-13.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-08-14",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-08-14.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-08-17",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-08-17.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-08-31",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-08-31.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solitaire 2009-09-28",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\solitaire 2009-09-28.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "soltest6",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\soltest6.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sound driver demo1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Sound driver demo1.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sound driver demo2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Sound driver demo2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sound driver demo3",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Sound driver demo3.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Domino revival",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Space Domino revival.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "space lock [2005-04-25]",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\space lock [2005-04-25].zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "space lock [2005-05-16]",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\space lock [2005-05-16].zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "space lock Demo (lnx)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\space lock Demo (lnx).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "space lock Demo (o)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\space lock Demo (o).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sprite driver demo 4",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Sprite driver demo 4.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "stars",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\stars.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sudoku (2007)(Cooper)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\sudoku (2007)(Cooper).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "surprise",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\surprise.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "swap (2007)(Cooper)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\swap (2007)(Cooper).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tank",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tank.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "taq3",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\taq3.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taquin",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Taquin.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teen Dance.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Teen Dance.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teen Dance.o",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Teen Dance.o.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tempest",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tempest.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "test2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\test2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "test3",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\test3.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tetris 2005-04-11.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tetris 2005-04-11.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tetris 2005-04-11.lyx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tetris 2005-04-11.lyx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tetris 2006-01-03",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tetris 2006-01-03.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tetris.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tetris.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tetris.o",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tetris.o.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tetrisnoid proto version alpha 02-2006",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tetrisnoid proto version alpha 02-2006.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The return to the space coyote",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\The return to the space coyote.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "the_end_pal_8_83",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\the_end_pal_8_83.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "thedeep",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\thedeep.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "third",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\third.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TIPOVER 02-2007",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\TIPOVER 02-2007.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tipover",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tipover.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "trisnoid alpha",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\trisnoid alpha.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tron 6 fun v0.15",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Tron 6 fun v0.15.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TST_SPR2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\TST_SPR2.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tuto_wav",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tuto_wav.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tutowav",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\tutowav.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "v6SE",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\v6SE.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "v7SE",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\v7SE.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "wav",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\wav.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yastuna1 2008-05-28.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\yastuna1 2008-05-28.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yastuna1 2008-05-28.lyx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\yastuna1 2008-05-28.lyx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yastuna1.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\yastuna1.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yastuna1.lyx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\yastuna1.lyx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yastuna2  2007-04-16.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\yastuna2  2007-04-16.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yastuna2  2007-04-16.lyx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\yastuna2  2007-04-16.lyx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yastuna2  2007-05-14.lnx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\yastuna2  2007-05-14.lnx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yastuna2  2007-05-14.lyx",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\yastuna2  2007-05-14.lyx.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zaku Public Demo (2005-11-13)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Zaku Public Demo (2005-11-13).zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zone Lynx Demo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\Zone Lynx Demo.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Multi Pong 1k by Bjoern Spruck",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGoodLynx\\ZZZ-UNK-Multi Pong 1k by Bjoern Spruck.zip",
+      "emulatorName": "RetroArch Atari Lynx (Handy)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

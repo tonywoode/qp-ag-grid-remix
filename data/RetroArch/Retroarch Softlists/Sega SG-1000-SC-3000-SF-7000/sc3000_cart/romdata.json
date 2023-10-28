@@ -1,0 +1,277 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "BASIC Level III (Jpn)",
+      "mameName": "basic3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\basic3.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1985",
+      "comment": " slot:level3",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BASIC Level III (Export)",
+      "mameName": "basic3e",
+      "parentName": "basic3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\basic3.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1985",
+      "comment": " slot:level3",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BASIC Level 2 (Jpn)",
+      "mameName": "basic2",
+      "parentName": "basic3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\basic3.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sega Music Editor (Euro?)",
+      "mameName": "music",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\music.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "198?",
+      "comment": " slot:music_editor",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music (Jpn)",
+      "mameName": "musicj",
+      "parentName": "music",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\music.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-101,alt_title: slot:music_editor",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuugaku Hisshuu Eitango ~ Chuugaku 1-Nen (Jpn)",
+      "mameName": "chueit1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\chueit1n.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-103,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuugaku Hisshuu Eisakubun ~ Chuugaku 1-Nen (Jpn)",
+      "mameName": "chueis1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\chueis1n.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-104,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuugaku Hisshuu Eisakubun ~ Chuugaku 1-Nen (Jpn, Alt)",
+      "mameName": "chueis1na",
+      "parentName": "chueis1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\chueis1n.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-104,alt_title:()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuugaku Hisshuu Eibunpou ~ Chuugaku 1-Nen (Jpn)",
+      "mameName": "chueib1n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\chueib1n.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-105,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tanoshii Sansu ~ Shougaku 4-Nen Jou (Jpn)",
+      "mameName": "tansan4j",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\tansan4j.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-106,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tanoshii Sansu ~ Shougaku 4-Nen Jou (Jpn, Alt)",
+      "mameName": "tansan4ja",
+      "parentName": "tansan4j",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\tansan4j.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-106,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kagaku ~ Gensokigou Master (Jpn)",
+      "mameName": "kagaku",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\kagaku.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-107,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nihonshi Nenpyou (Jpn)",
+      "mameName": "nihonshi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\nihonshi.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-108,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sekaishi Nenpyou ~ Monbushou Shidouyouryou Junkyo (Jpn)",
+      "mameName": "sekaishi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\sekaishi.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-109,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuugaku Hisshuu Eitango ~ Chuugaku 2-Nen (Jpn)",
+      "mameName": "chueit2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\chueit2n.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-110,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuugaku Hisshuu Eitango ~ Chuugaku 2-Nen (Jpn, Alt)",
+      "mameName": "chueit2na",
+      "parentName": "chueit2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\chueit2n.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-110,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuugaku Hisshuu Eisakubun ~ Chuugaku 2-Nen (Jpn)",
+      "mameName": "chueis2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\chueis2n.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-111,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuugaku Hisshuu Eisakubun ~ Chuugaku 2-Nen (Jpn, Alt)",
+      "mameName": "chueis2na",
+      "parentName": "chueis2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\chueis2n.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-111,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuugaku Hisshuu Eibunpou ~ Chuugaku 2-Nen (Jpn)",
+      "mameName": "chueib2n",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\chueib2n.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-112,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tanoshii Sansu ~ Shougaku 4-Nen Ge (Jpn)",
+      "mameName": "tansan4g",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\tansan4g.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-113,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tanoshii Sansu ~ Shougaku 5-Nen Ge (Jpn)",
+      "mameName": "tansan5g",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\tansan5g.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-114,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tanoshii Sansu ~ Shougaku 6-Nen Ge (Jpn)",
+      "mameName": "tansan6g",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\tansan6g.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-115,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tanoshii Sansuu ~ Shougaku 5-Nen Jou (Jpn)",
+      "mameName": "tansan5j",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\tansan5j.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-116,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tanoshii Sansuu ~ Shougaku 6-Nen Jou (Jpn)",
+      "mameName": "tansan6j",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sc3000_cart\\tansan6j.7z",
+      "emulatorName": "Retroarch Sega SC-3000 -SOFTLIST sc3000_cart (MAME)",
+      "companyName": "Sega",
+      "year": "1983",
+      "comment": "serial:E-117,alt_title: ()",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

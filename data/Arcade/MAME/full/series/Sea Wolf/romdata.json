@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Sea Wolf (set 1)",
+      "mameName": "seawolf",
+      "path": "{gamesDir}\\MAME\\ROMS\\seawolf.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dave Nutting Associates / Midway",
+      "year": "1976",
+      "gameType": "Shooter / Gallery",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Sea Wolf II",
+      "mameName": "seawolf2",
+      "path": "{gamesDir}\\MAME\\ROMS\\seawolf2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dave Nutting Associates / Midway",
+      "year": "1978",
+      "gameType": "Shooter / Gallery",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Sea Wolf (set 2)",
+      "mameName": "seawolfo",
+      "parentName": "seawolf",
+      "path": "{gamesDir}\\MAME\\ROMS\\seawolf.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dave Nutting Associates / Midway",
+      "year": "1976",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bomb Jack (set 2)",
+      "mameName": "bombjack2",
+      "parentName": "bombjack",
+      "path": "{gamesDir}\\MAME\\ROMS\\bombjack.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tehkan",
+      "year": "1984",
+      "gameType": "Platform / Run Jump",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Moon Cresta (Nichibutsu)",
+      "mameName": "mooncrst",
+      "path": "{gamesDir}\\MAME\\ROMS\\mooncrst.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1980",
+      "gameType": "Shooter / Gallery",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Super Cobra (bootleg)",
+      "mameName": "scobrab",
+      "parentName": "scobra",
+      "path": "{gamesDir}\\MAME\\ROMS\\scobra.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Karateco)",
+      "year": "1981",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

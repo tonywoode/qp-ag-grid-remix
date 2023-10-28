@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Vs. Ninja Jajamaru Kun (Japan)",
+      "mameName": "jajamaru",
+      "path": "{gamesDir}\\MAME\\ROMS\\jajamaru.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1985",
+      "gameType": "Platform / Shooter",
+      "rating": "30 to 40 (Amendable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "JT-104 (title screen modification of Rad Action)",
+      "mameName": "jt104",
+      "parentName": "ninjakd2",
+      "path": "{gamesDir}\\MAME\\ROMS\\ninjakd2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "UPL (United Amusements license)",
+      "year": "1987",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

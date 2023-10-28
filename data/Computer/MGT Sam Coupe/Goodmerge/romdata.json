@@ -1,0 +1,1368 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "18 Rated Poker for 512k (19xx) (Supplement Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\18 Rated Poker for 512k (19xx) (Supplement Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventures of Captain Comic, The (19xx) (Lars)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Adventures of Captain Comic, The (19xx) (Lars).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Allan Stevens (~1994)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Allan Stevens (~1994).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alternative Module Player & Tunes (1994) (Aley Keprt)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Alternative Module Player & Tunes (1994) (Aley Keprt).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amiga MODS Disk (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Amiga MODS Disk (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AMRAD Amateur Radio Logbook (1994) (Spencer)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\AMRAD Amateur Radio Logbook (1994) (Spencer).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arcadia Disk Magazine (1991)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Arcadia Disk Magazine (1991).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arnie's Samples (1991)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Arnie's Samples (1991).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Basic Scrolly Pokers by Chris White (1992)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Basic Scrolly Pokers by Chris White (1992).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bats 'n' Balls by David Gommerman (1992) (Revelation)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Bats 'n' Balls by David Gommerman (1992) (Revelation).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Best of KAPSA I-V, The (1993) (KAPSA)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Best of KAPSA I-V, The (1993) (KAPSA).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beta DOS 1.0 For the Plus D (1990) (Betasoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Beta DOS 1.0 For the Plus D (1990) (Betasoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blinky Samples (1997) (Edwin Blink)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Blinky Samples (1997) (Edwin Blink).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blitz Magazine (1997) (Persona)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Blitz Magazine (1997) (Persona).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blokker (19xx) (Stephen McGreal)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Blokker (19xx) (Stephen McGreal).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blondie and Dagwood, Arkanoid, Prince of the Yolk Folk (199x)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Blondie and Dagwood, Arkanoid, Prince of the Yolk Folk (199x).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blue Disk Show, The (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Blue Disk Show, The (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boing & Sphera (1992) (Noesis Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Boing & Sphera (1992) (Noesis Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bombed Out,Nuclear Waste,Magic Caves,Blockade (1990) (Enigma)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Bombed Out,Nuclear Waste,Magic Caves,Blockade (1990) (Enigma).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "22",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bowin and the Count Dracula (1991) (Lucosoft and Revelation)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Bowin and the Count Dracula (1991) (Lucosoft and Revelation).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bunnik 2K MOD Slide (2000) (Edwin Blink)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Bunnik 2K MOD Slide (2000) (Edwin Blink).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colour Clipart Samples (Nov 1995) (Steve's Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Colour Clipart Samples (Nov 1995) (Steve's Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COMET to ASCII by Simon Cooke (1995)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\COMET to ASCII by Simon Cooke (1995).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COMET Z80 Assembler (1992) (Revelation)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\COMET Z80 Assembler (1992) (Revelation).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Comms Loader (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Comms Loader (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Curse of the Serpent's Eye, The (1994) (Dream World)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Curse of the Serpent's Eye, The (1994) (Dream World).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender - Persona and Digital Reality (1998) (Chris Pile)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Defender - Persona and Digital Reality (1998) (Chris Pile).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender Compilation (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Defender Compilation (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diaz Demo 2 (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Diaz Demo 2 (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dino Sourcerer (1993) (Softdisk Inc.)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Dino Sourcerer (1993) (Softdisk Inc.).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dissasembler (1993) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Dissasembler (1993) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Domino Box (1992) (Supplement Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Domino Box (1992) (Supplement Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Driver Icons (1995) (Saturn Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Driver Icons (1995) (Saturn Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dyzonium, WaterWorks, WOP Gamma, Bugulators (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Dyzonium, WaterWorks, WOP Gamma, Bugulators (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Easydisc (1995) (Saturn Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Easydisc (1995) (Saturn Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "E-Copier (1993) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\E-Copier (1993) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ENCELADUS Magazine (1990-94) (Relion Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\ENCELADUS Magazine (1990-94) (Relion Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "E-Tracker Program Disk (19xx) (FRED Publishing)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\E-Tracker Program Disk (19xx) (FRED Publishing).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "E-Tracker Tunes (19xx) (ESI)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\E-Tracker Tunes (19xx) (ESI).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "E-Tunes Player (19xx) (Andrew Collier)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\E-Tunes Player (19xx) (Andrew Collier).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "EXPLOSION (1996)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\EXPLOSION (1996).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fashoom! (1997) (Sad Snail Productions)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Fashoom! (1997) (Sad Snail Productions).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fastline Public Domain Library (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Fastline Public Domain Library (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flight of Fantasy and Occult Connection Adventures (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Flight of Fantasy and Occult Connection Adventures (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Font Loader (1991) (Phantom Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Font Loader (1991) (Phantom Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Football League Manager (1994) (Key Software-FRED Publishing)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Football League Manager (1994) (Key Software-FRED Publishing).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FRED & Samco Disc, The Best of (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\FRED & Samco Disc, The Best of (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FRED Magazine (1990-97)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\FRED Magazine (1990-97).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fredatives 3 (1992)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Fredatives 3 (1992).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fredatives 4 (1992)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Fredatives 4 (1992).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game Dos - DVar 8.92n3 (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Game Dos - DVar 8.92n3 (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GamesMaster (19xx) (Betasoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\GamesMaster (19xx) (Betasoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0",
+      "defaultGoodMerge": "GamesMaster 1.52 (1992) (Betasoft).sad"
+    },
+    {
+      "name": "GM-Calc (19xx) (GM Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\GM-Calc (19xx) (GM Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Golden Sword of Bhakhor, The (1997) (Persona)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Golden Sword of Bhakhor, The (1997) (Persona).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "H-DOS HD Loader (1996)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\H-DOS HD Loader (1996).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hexagonia",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Hexagonia.7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Highway Code, Quizball + Editor (1991) (Revelation)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Highway Code, Quizball + Editor (1991) (Revelation).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ICONMASTER by Steve Taylor (1993) (Revelation)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\ICONMASTER by Steve Taylor (1993) (Revelation).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Images SAM Software - Pictures & Demos (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Images SAM Software - Pictures & Demos (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Images SAM Software - Roboblob & Give a Dog a Bone (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Images SAM Software - Roboblob & Give a Dog a Bone (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Impatience - Triltex Viking (1991) (Fred Publishing)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Impatience - Triltex Viking (1991) (Fred Publishing).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "In Comet Format by Chris White (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\In Comet Format by Chris White (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jigsaw Disk - Jigsaw Creator (1992) (Colony Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Jigsaw Disk - Jigsaw Creator (1992) (Colony Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Juggler Demo (1990)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Juggler Demo (1990).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "KEdisk (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\KEdisk (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lemmings (1992) (DMA-Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Lemmings (1992) (DMA-Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lovehearts (19xx) (Supplement Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Lovehearts (19xx) (Supplement Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Manic Miner (1992) (Revelation Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Manic Miner (1992) (Revelation Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Manic Miner, Splat, Mr Pac, Snake Mania, Craft Compilation (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Manic Miner, Splat, Mr Pac, Snake Mania, Craft Compilation (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Map Print Routines by Chris White (1990)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Map Print Routines by Chris White (1990).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MasterBASIC (1994) (Betasoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\MasterBASIC (1994) (Betasoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MasterDOS (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\MasterDOS (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MasterDOS File Manager (1991)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\MasterDOS File Manager (1991).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MDOS & MBASIC for Formatting Discs in 2 Drives (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\MDOS & MBASIC for Formatting Discs in 2 Drives (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Megaboot (Atom HD Interface) (1999) (M.Groen)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Megaboot (Atom HD Interface) (1999) (M.Groen).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Megadisk 1 - Puzzles (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Megadisk 1 - Puzzles (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metempsychosis (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Metempsychosis (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mike AJ (1991)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Mike AJ (1991).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mind Games II (199x) (Enigma Variations)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Mind Games II (199x) (Enigma Variations).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Misc. Games 1 (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Misc. Games 1 (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Misc. Utilities (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Misc. Utilities (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mono Clipart Samples (Nov 1995) (Steve's Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Mono Clipart Samples (Nov 1995) (Steve's Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mouse Flash 1.1 for MDOS (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Mouse Flash 1.1 for MDOS (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Music Disk (19xx) (Unk)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Music Disk (19xx) (Unk).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Music Player 2.1 (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Music Player 2.1 (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neil Holmes' Boing! Graphics (1992) (Noesis Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Neil Holmes' Boing! Graphics (1992) (Noesis Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Network Sigma (1996) (Saturn Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Network Sigma (1996) (Saturn Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Oh No More Lemmings (19xx) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Oh No More Lemmings (19xx) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "7",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ore Warz II (1990) (William McGugan)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Ore Warz II (1990) (William McGugan).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outlet - Sam & Spectrum Mag (1990-92)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Outlet - Sam & Spectrum Mag (1990-92).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outwrite (1992) (Rj Will Kinson, Chezron Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Outwrite (1992) (Rj Will Kinson, Chezron Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Park DBS (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Park DBS (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PAX (1996) (Glenco)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\PAX (1996) (Glenco).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC Suite (1991) (Spencer)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\PC Suite (1991) (Spencer).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC2SAM (1994) (ColonySoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\PC2SAM (1994) (ColonySoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PDS Boot Disk (1998) (Rob Holman)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\PDS Boot Disk (1998) (Rob Holman).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Personal Filing System (1994) (Hilton Comp. Services)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Personal Filing System (1994) (Hilton Comp. Services).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pipe Mania, EFPOTRM, Klax, Tetris, Defenders of Earth (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Pipe Mania, EFPOTRM, Klax, Tetris, Defenders of Earth (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Porno (19xx) (SAM Psychopaths Incorporated)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Porno (19xx) (SAM Psychopaths Incorporated).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prince of Persia (19xx) (Revelation, Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Prince of Persia (19xx) (Revelation, Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Print Routines+Tables+Testers by Chris White (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Print Routines+Tables+Testers by Chris White (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Printer Port Music Sample Player (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Printer Port Music Sample Player (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Public Domain.7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public the Third (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Public the Third (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Raytrace (1994) (Colonysoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Raytrace (1994) (Colonysoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Recover-E (1995)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Recover-E (1995).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RGB Viewer Pics (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\RGB Viewer Pics (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Adventure Club (1991-93)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Adventure Club (1991-93).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Adventure System (1992) (Axxent Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Adventure System (1992) (Axxent Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Amateur Programming & Electronics (1992)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Amateur Programming & Electronics (1992).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam C (1995) (FRED Publishing)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam C (1995) (FRED Publishing).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Cards (1994) (Supplement Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Cards (1994) (Supplement Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam CD2 Utility (1990) (Kobrahsoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam CD2 Utility (1990) (Kobrahsoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam D I C E for MasterDOS (1991) (Kobrahsoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam D I C E for MasterDOS (1991) (Kobrahsoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Demo Disk (1990)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Demo Disk (1990).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Mouse Disk (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Mouse Disk (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam News Disk (1992) (SAM Computers LTD)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam News Disk (1992) (SAM Computers LTD).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Paint (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Paint (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Paper Magazine (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Paper Magazine (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Prime (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Prime (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Public Quarterly (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Public Quarterly (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Small C by Rumspft (1995) (Fred Publishing)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Small C by Rumspft (1995) (Fred Publishing).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Spectrum Games (1993) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Spectrum Games (1993) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Supplement Magazine (1990-95)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Supplement Magazine (1990-95).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam Utils (1993)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam Utils (1993).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sam X (19xx) (Supplement Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sam X (19xx) (Supplement Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SamCo Birthday Packs (1991) ",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\SamCo Birthday Packs (1991) .7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SamCo News Disk (1992)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\SamCo News Disk (1992).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SamCo-Tech PC Contracts (1989)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\SamCo-Tech PC Contracts (1989).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Samsational Complete Guide to SAM PD Software (1992) (SCPDSA)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Samsational Complete Guide to SAM PD Software (1992) (SCPDSA).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satellite'92 (1992)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Satellite'92 (1992).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SC Compressor 2 (1991) (Steve's Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\SC Compressor 2 (1991) (Steve's Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SC DTP (1991) (Steve's Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\SC DTP (1991) (Steve's Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SC Filer (1991) (Steve's Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\SC Filer (1991) (Steve's Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SC Monitor Pro 1.2, TurboMon 1.0 (1992) (Steve's Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\SC Monitor Pro 1.2, TurboMon 1.0 (1992) (Steve's Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sci-Fi Screens (1994) (ColonySoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sci-Fi Screens (1994) (ColonySoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Screens Shots (1991)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Screens Shots (1991).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Screens Viewer (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Screens Viewer (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Secretary Word Processor, The (1992) (A.N.Stevens)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Secretary Word Processor, The (1992) (A.N.Stevens).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sega Graphic Converters (1992) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sega Graphic Converters (1992) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shanghai (1990) (Fuxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Shanghai (1990) (Fuxsoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Simon Cooke (~1993)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Simon Cooke (~1993).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Small C - Compiler (19xx) (Rumsoft)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Small C - Compiler (19xx) (Rumsoft).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SoulMagician (1992) (Pc-Act)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\SoulMagician (1992) (Pc-Act).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sound Machine (1991) (Paul Angel)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Sound Machine (1991) (Paul Angel).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Source Code Samples (1990) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Source Code Samples (1990) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speccy Emulators (1991) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Speccy Emulators (1991) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speccy EmulFiles (1991) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Speccy EmulFiles (1991) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speccy Utils (1991) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Speccy Utils (1991) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectrum & SAM Computing (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Spectrum & SAM Computing (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectrum 128 - Myth and Escape From Singe's Castle (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Spectrum 128 - Myth and Escape From Singe's Castle (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectrum Emulator (Sept 04) (1990)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Spectrum Emulator (Sept 04) (1990).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectrum Games (128K) (1991)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Spectrum Games (128K) (1991).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectrum Games (48K) (1991)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Spectrum Games (48K) (1991).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectrum Games Compilations (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Spectrum Games Compilations (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speed King Hacking (1991) (Chris White)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Speed King Hacking (1991) (Chris White).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SpellMaster (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\SpellMaster (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Steffan Drisson's Multiple Stuff (1991)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Steffan Drisson's Multiple Stuff (1991).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stuart's Leonardi's Rotater Stuff (1990)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Stuart's Leonardi's Rotater Stuff (1990).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stuart's Leonardi's Vector Stuff (1990)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Stuart's Leonardi's Vector Stuff (1990).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris (1990) (Lord Insanity)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Tetris (1990) (Lord Insanity).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Triltex (1991) (Fred Software)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Triltex (1991) (Fred Software).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TurboMON (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\TurboMON (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Various Unused GFX (1991) (Evolution)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Various Unused GFX (1991) (Evolution).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Visually (19xx) (Zenith Graphics)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Visually (19xx) (Zenith Graphics).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Witching Hour Demo by Chris White (19xx)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Witching Hour Demo by Chris White (19xx).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wobbles Painful History, The (2001) (The Wobbles)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Wobbles Painful History, The (2001) (The Wobbles).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WOP Gamma (1998) (Andrew Fish)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\WOP Gamma (1998) (Andrew Fish).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZAT-FRED Disc (19xx) (ZAT Magazine)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\ZAT-FRED Disc (19xx) (ZAT Magazine).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zenith (19xx) (Zenith Graphics)",
+      "path": "{gamesDir}\\Computer Classics\\Sam Coupe Games\\GoodSAMC_203_GM\\Zenith (19xx) (Zenith Graphics).7z",
+      "emulatorName": "MAME MGT SAM Coupe -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

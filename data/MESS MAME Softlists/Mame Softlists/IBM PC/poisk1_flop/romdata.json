@@ -1,0 +1,27 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "One Track System 1.4 (alternate OS)",
+      "mameName": "ots14",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\poisk1_flop\\ots14.7z",
+      "emulatorName": "MAME Electronmash Poisk-1 -SOFTLIST poisk1_flop",
+      "companyName": "MMV",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Software for B623 sound card",
+      "mameName": "sound",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\poisk1_flop\\sound.7z",
+      "emulatorName": "MAME Electronmash Poisk-1 -SOFTLIST poisk1_flop",
+      "companyName": "Electronmash ???",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

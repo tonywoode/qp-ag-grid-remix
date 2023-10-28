@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Paca Paca Passion (Japan, PPP1/VER.A2)",
+      "mameName": "pacapp",
+      "path": "{gamesDir}\\MAME\\ROMS\\pacapp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Produce / Namco",
+      "year": "1999",
+      "gameType": "Rhythm / Misc.",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Paca Paca Passion 2 (Japan, PKS1/VER.A)",
+      "mameName": "pacapp2",
+      "path": "{gamesDir}\\MAME\\ROMS\\pacapp2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Produce / Namco",
+      "year": "1999",
+      "gameType": "Rhythm / Misc.",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Paca Paca Passion Special (Japan, PSP1/VER.A)",
+      "mameName": "pacappsp",
+      "path": "{gamesDir}\\MAME\\ROMS\\pacappsp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Produce / Namco",
+      "year": "1999",
+      "gameType": "Rhythm / Misc.",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

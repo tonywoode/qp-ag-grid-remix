@@ -1,0 +1,91 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "PC DOS 2.1",
+      "mameName": "pcdos21",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_flop\\pcdos21.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_flop (MAME)",
+      "companyName": "IBM",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Wordstar for PCjr (Release 1.00)",
+      "mameName": "wordstar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_flop\\wordstar.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_flop (MAME)",
+      "companyName": "Micropro International",
+      "year": "1987",
+      "comment": "usage:boot from PC DOS 2.1 and then load wordstar",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Exploring The IBM PCjr",
+      "mameName": "explore",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_flop\\explore.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_flop (MAME)",
+      "companyName": "IBM",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "IBM PCjr Sampler",
+      "mameName": "sampler",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_flop\\sampler.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_flop (MAME)",
+      "companyName": "IBM",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ProComm (Version 2.4.3)",
+      "mameName": "procm24",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_flop\\procm24.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_flop (MAME)",
+      "companyName": "Datastorm Technologies, Inc.",
+      "year": "1988",
+      "comment": "usage:boot from PC DOS 2.1 and then load, using: prcmpgm",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Turbo Pascal 3.02A",
+      "mameName": "tpascal3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_flop\\tpascal3.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_flop (MAME)",
+      "companyName": "Borland Inc.",
+      "year": "1985",
+      "comment": "usage:boot from PC DOS 2.1 and then load, using: nu",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ZBasic 4.02",
+      "mameName": "zbasic4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_flop\\zbasic4.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_flop (MAME)",
+      "companyName": "Zedcor, Inc.",
+      "year": "1987",
+      "comment": "usage:boot from PC DOS 2.1 and then load, using: zbasic",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "King's Quest",
+      "mameName": "kingqst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_flop\\kingqst.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_flop (MAME)",
+      "companyName": "Sierra",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

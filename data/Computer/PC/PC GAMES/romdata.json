@@ -1,0 +1,87 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "FarCry",
+      "path": "{gamesDir}\\PC Games\\FAR CRY\\Bin32\\FarCry.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "30",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grand Theft Auto 3",
+      "path": "{gamesDir}\\PC Games\\Grand Theft Auto 3 - Liberty City\\gta3.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "25",
+      "paramMode": "0"
+    },
+    {
+      "name": "Half Life 2",
+      "path": "{gamesDir}\\PC Games\\Half-Life 2 Bronze\\hl2.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "13",
+      "paramMode": "0"
+    },
+    {
+      "name": "Half Life 2 Episode 1",
+      "path": "{gamesDir}\\PC Games\\Half-Life 2 Episode One\\hl2ep1.lnk",
+      "emulatorName": "Windows Explorer (for Shortcuts)",
+      "language": "English",
+      "timesPlayed": "46",
+      "paramMode": "0"
+    },
+    {
+      "name": "Halo",
+      "path": "{gamesDir}\\PC Games\\Halo\\myHaloRunner.bat",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "82",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jedi Outcast",
+      "path": "{gamesDir}\\PC Games\\JEDIOUTCAST\\GameData\\jk2sp.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "22",
+      "paramMode": "0"
+    },
+    {
+      "name": "MaxPayne2",
+      "path": "{gamesDir}\\PC Games\\Max Payne 2\\MaxPayne2.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grand Theft Auto: San Andreas",
+      "path": "{gamesDir}\\PC Games\\SanAndreas\\GTA San Andreas\\gta_sa.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "57",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grand Theft Auto: Vice City",
+      "path": "{gamesDir}\\PC Games\\Vice_City\\gta-vc.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "19",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carmageddon TDR 2000",
+      "path": "{gamesDir}\\PC Games\\Carmageddon TDR2000\\TDR2000.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "67",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gamebase 64",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase 64.gif",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "gbc_v09",
+      "timesPlayed": "51",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gamebase C128",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase C128.gif",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "c128",
+      "timesPlayed": "16",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "280 Zzzap & Dodgem (19xx)(Bally)[release number 2001]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\280 Zzzap & Dodgem (19xx)(Bally)[release number 2001].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Maze & Tic-Tac-Toe (19xx)(Bally)[release number 5001]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Amazing Maze & Tic-Tac-Toe (19xx)(Bally)[release number 5001].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Artillery Duel (1982)(Bally)[release number 5005]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Artillery Duel (1982)(Bally)[release number 5005].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astro Battle AKA Space Invaders (1981)(Astrovision)[o][release number 2009]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Astro Battle AKA Space Invaders (1981)(Astrovision)[o][release number 2009].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bally Basic (19xx)(Bally)[release number 6002]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Bally Basic (19xx)(Bally)[release number 6002].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bally Pin AKA Astrocade Pinball (1981)(Bally)[o][release number 3005]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Bally Pin AKA Astrocade Pinball (1981)(Bally)[o][release number 3005].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blackjack & Poker & Acey-Duecy (19xx)(Bally)[release number 5002]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Blackjack & Poker & Acey-Duecy (19xx)(Bally)[release number 5002].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blast Droids (19xx)(Esoterica)",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Blast Droids (19xx)(Esoterica).zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clowns & Brickyard (19xx)(Bally)[release number 2004]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Clowns & Brickyard (19xx)(Bally)[release number 2004].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Raider (19xx)(Astrovision)[release number 2019]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Cosmic Raider (19xx)(Astrovision)[release number 2019].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dogpatch (19xx)(Bally)[release number 2010]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Dogpatch (19xx)(Bally)[release number 2010].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elementary Math & Bingo Math AKA Speed Math & Bingo Math (19xx)(Bally)[release number 4001]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Elementary Math & Bingo Math AKA Speed Math & Bingo Math (19xx)(Bally)[release number 4001].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Football (19xx)(Bally)[release number 3002]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Football (19xx)(Bally)[release number 3002].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galactic Invasion AKA Galaxian (1981)(Astrovision)[release number 2011]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Galactic Invasion AKA Galaxian (1981)(Astrovision)[release number 2011].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grand Prix AKA Grand Prix & Demolition Derby (19xx)(Bally)[release number 2014]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Grand Prix AKA Grand Prix & Demolition Derby (19xx)(Bally)[release number 2014].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gunfight & Checkmate & Calculator & Scribbling (1978)(Bally)[release number 6001]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Gunfight & Checkmate & Calculator & Scribbling (1978)(Bally)[release number 6001].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Incredible Wizard, The (1981)(Astrovision)[release number 2017]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Incredible Wizard, The (1981)(Astrovision)[release number 2017].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Letter Match & Spell 'n Score & Crosswords (19xx)(Bally)[release number 4002]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Letter Match & Spell 'n Score & Crosswords (19xx)(Bally)[release number 4002].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Machine Language Manager (1981)(Bit Fiddlers)",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Machine Language Manager (1981)(Bit Fiddlers).zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Muncher (19xx)(Esoterica)",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Muncher (19xx)(Esoterica).zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Panzer Attack & Red Baron (19xx)(Bally)[release number 2003]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Panzer Attack & Red Baron (19xx)(Bally)[release number 2003].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Seawolf & Missile (19xx)(Bally)[o][release number 2002]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Seawolf & Missile (19xx)(Bally)[o][release number 2002].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Fortress (19xx)(Bally)[release number 2012]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Space Fortress (19xx)(Bally)[release number 2012].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Battle (19xx)(Astrovision)[o][release number 2005]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Star Battle (19xx)(Astrovision)[o][release number 2005].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tornado Baseball, Tennis, Hockey & Handball (19xx)(Bally)[release number 3001]",
+      "path": "{gamesDir}\\TOSEC\\Bally Astrocade (TOSEC-v0.52_CM)\\Tornado Baseball, Tennis, Hockey & Handball (19xx)(Bally)[release number 3001].zip",
+      "emulatorName": "MAME Bally Professional Arcade -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

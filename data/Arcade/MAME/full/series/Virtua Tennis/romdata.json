@@ -1,0 +1,91 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Power Smash 3 / Virtua Tennis 3 (Export)",
+      "mameName": "psmash3",
+      "path": "{gamesDir}\\MAME\\CHDs\\psmash3\\dvp-0005a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2006",
+      "gameType": "Sports / Tennis",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Tennis 2 / Power Smash 2 (Rev A)",
+      "mameName": "vtenis2c",
+      "path": "{gamesDir}\\MAME\\ROMS\\vtenis2c.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2001",
+      "gameType": "Sports / Tennis",
+      "language": "Korean",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Tennis / Power Smash",
+      "mameName": "vtennis",
+      "path": "{gamesDir}\\MAME\\ROMS\\vtennis.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1999",
+      "gameType": "Sports / Tennis",
+      "language": "Korean",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Tennis 2 / Power Smash 2 (Rev A) (GDS-0015A)",
+      "mameName": "vtennis2",
+      "path": "{gamesDir}\\MAME\\CHDs\\vtennis2\\gds-0015a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2001",
+      "gameType": "Sports / Tennis",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Tennis 3 (Japan)",
+      "mameName": "vtennis3",
+      "path": "{gamesDir}\\MAME\\CHDs\\vtennis3\\dvp-0005c.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2006",
+      "gameType": "Sports / Tennis",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Virtua Tennis / Power Smash (GDS-0011)",
+      "mameName": "vtennisg",
+      "path": "{gamesDir}\\MAME\\CHDs\\vtennisg\\gds-0011.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1999",
+      "gameType": "Sports / Tennis",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "World Trophy Soccer (Arcadia, V 3.0)",
+      "mameName": "ar_socc",
+      "path": "{gamesDir}\\MAME\\ROMS\\ar_socc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Arcadia Systems",
+      "year": "1989",
+      "gameType": "Sports / Soccer",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Cookie & Bibi 3",
+      "mameName": "cookbib3",
+      "path": "{gamesDir}\\MAME\\ROMS\\cookbib3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SemiCom",
+      "year": "1997",
+      "gameType": "Puzzle / Toss",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

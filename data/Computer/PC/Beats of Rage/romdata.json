@@ -1,0 +1,23 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "OpenBOR",
+      "path": "P:\\PC\\BoR\\OpenBOR\\OpenBOR.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "123",
+      "paramMode": "0"
+    },
+    {
+      "name": "Out Rage",
+      "path": "{gamesDir}\\BoR\\OpenBoR\\outRage\\Game.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    }
+  ]
+}

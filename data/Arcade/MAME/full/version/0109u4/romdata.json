@@ -1,0 +1,110 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Arian Mission",
+      "mameName": "arian",
+      "parentName": "aso",
+      "path": "{gamesDir}\\MAME\\ROMS\\aso.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1985",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "3-D Bowling",
+      "mameName": "bowl3d",
+      "path": "{gamesDir}\\MAME\\ROMS\\bowl3d.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Meadows Games, Inc.",
+      "year": "1978",
+      "gameType": "Sports / Bowling",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Dark Horse Legend (GX706 VER. JAA)",
+      "mameName": "darkhleg",
+      "path": "{gamesDir}\\MAME\\CHDs\\darkhleg\\706jaa02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Sports / Horse Racing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Konami 80's Gallery (GC826 VER. JAA)",
+      "mameName": "konam80j",
+      "parentName": "konam80s",
+      "path": "{gamesDir}\\MAME\\CHDs\\konam80s\\826jaa01.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Multiplay / Compilation",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Konami 80's AC Special (GC826 VER. EAA)",
+      "mameName": "konam80s",
+      "path": "{gamesDir}\\MAME\\CHDs\\konam80s\\826eaa01.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Multiplay / Compilation",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Jikkyou Powerful Pro Yakyuu EX (GX802 VER. JAB)",
+      "mameName": "powyakex",
+      "path": "{gamesDir}\\MAME\\CHDs\\powyakex\\802jab02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Sports / Baseball",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "System 573 BIOS",
+      "mameName": "sys573",
+      "path": "{gamesDir}\\MAME\\ROMS\\sys573.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1997",
+      "gameType": "System / BIOS",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "BIOS"
+    }
+  ]
+}

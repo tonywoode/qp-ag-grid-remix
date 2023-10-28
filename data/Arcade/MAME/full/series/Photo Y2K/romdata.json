@@ -1,0 +1,80 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Photo Y2K 2 (Flash 3-in-1)",
+      "mameName": "pgm3in1",
+      "path": "{gamesDir}\\MAME\\ROMS\\pgm3in1.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "2004",
+      "gameType": "Puzzle / Misc.",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Photo Y2K (ver. 105)",
+      "mameName": "photoy2k",
+      "path": "{gamesDir}\\MAME\\ROMS\\photoy2k.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1999",
+      "gameType": "Puzzle / Misc.",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Photo Y2K (ver. 102, Japanese Board)",
+      "mameName": "photoy2k102",
+      "parentName": "photoy2k",
+      "path": "{gamesDir}\\MAME\\ROMS\\photoy2k.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1999",
+      "gameType": "Puzzle / Misc.",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Photo Y2K (ver. 104)",
+      "mameName": "photoy2k104",
+      "parentName": "photoy2k",
+      "path": "{gamesDir}\\MAME\\ROMS\\photoy2k.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1999",
+      "gameType": "Puzzle / Misc.",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Photo Y2K 2",
+      "mameName": "py2k2",
+      "path": "{gamesDir}\\MAME\\ROMS\\py2k2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "2001",
+      "gameType": "Puzzle / Misc.",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

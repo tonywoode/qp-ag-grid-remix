@@ -1,0 +1,106 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Noraut Joker Poker (V3.010a)",
+      "mameName": "noraut3a",
+      "path": "{gamesDir}\\MAME\\ROMS\\noraut3a.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Noraut Ltd.",
+      "year": "2002",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Noraut Joker Poker (V3.011a)",
+      "mameName": "noraut3b",
+      "path": "{gamesDir}\\MAME\\ROMS\\noraut3b.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Noraut Ltd.",
+      "year": "2003",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Noraut Joker Poker (original)",
+      "mameName": "norautjo",
+      "path": "{gamesDir}\\MAME\\ROMS\\norautjo.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Noraut Ltd.",
+      "year": "198?",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Noraut Joker Poker (alt)",
+      "mameName": "norautjp",
+      "parentName": "norautp",
+      "path": "{gamesDir}\\MAME\\ROMS\\norautp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Noraut Ltd.",
+      "year": "1988",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Noraut Joker Poker (Prologic HW)",
+      "mameName": "norautpl",
+      "path": "{gamesDir}\\MAME\\ROMS\\norautpl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video Fun Games Ltd.",
+      "year": "198?",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Noraut Red Hot Joker Poker (alt HW)",
+      "mameName": "norautra",
+      "path": "{gamesDir}\\MAME\\ROMS\\norautra.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Noraut Ltd.",
+      "year": "198?",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Noraut Red Hot Joker Poker",
+      "mameName": "norautrh",
+      "path": "{gamesDir}\\MAME\\ROMS\\norautrh.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Noraut Ltd.",
+      "year": "1988",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

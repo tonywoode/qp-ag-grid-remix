@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "The Combatribes (bootleg set 2)",
+      "mameName": "ctribeb2",
+      "parentName": "ctribe",
+      "path": "{gamesDir}\\MAME\\ROMS\\ctribe.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1990",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Terra Force (Japan, bootleg with additional Z80)",
+      "mameName": "terrafjb",
+      "parentName": "terraf",
+      "path": "{gamesDir}\\MAME\\ROMS\\terraf.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1987",
+      "gameType": "Shooter / Flying",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Turbo Out Run (deluxe cockpit) (FD1094 317-0109)",
+      "mameName": "toutrun1",
+      "parentName": "toutrun",
+      "path": "{gamesDir}\\MAME\\ROMS\\toutrun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1989",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Wonder Boy III - Monster Lair (set 5, Japan, System 16A) (FD1089A 317-0086)",
+      "mameName": "wb35",
+      "parentName": "wb3",
+      "path": "{gamesDir}\\MAME\\ROMS\\wb3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega / Westone",
+      "year": "1988",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

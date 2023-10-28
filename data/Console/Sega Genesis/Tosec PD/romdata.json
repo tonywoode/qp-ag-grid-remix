@@ -1,0 +1,519 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "AstroDuel (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\AstroDuel (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bastard!! (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Bastard!! (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Berzerk (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Berzerk (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Berzerk V1.00 by Paul Lee (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Berzerk V1.00 by Paul Lee (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor 3D Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Censor 3D Demo (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor C64 Picture Demo (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Censor C64 Picture Demo (PD) [a1].bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor C64 Picture Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Censor C64 Picture Demo (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor Intro (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Censor Intro (PD) [a1].bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor Intro 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Censor Intro 1 (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor Movie Trailer Demo (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Censor Movie Trailer Demo (PD) [a1].bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor Movie Trailer Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Censor Movie Trailer Demo (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor Smiley Face Demo (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Censor Smiley Face Demo (PD) [a1].bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor Smiley Face Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Censor Smiley Face Demo (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Egypt 32X Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Egypt 32X Demo (PD).32x",
+      "emulatorName": "RetroArch Sega Genesis/32X (PicoDrive)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elite Demo - Game (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Elite Demo - Game (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elite Demo - Soaker (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Elite Demo - Soaker (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elite Demo - Viewer (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Elite Demo - Viewer (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flavio's Color Bar Screen (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Flavio's Color Bar Screen (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flavio's DMA Test (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Flavio's DMA Test (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flavio's GYM Player V1.0 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Flavio's GYM Player V1.0 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flavio's Raster Effects Test (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Flavio's Raster Effects Test (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Graphics & Joystick Sampler by Charles Doty (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Graphics & Joystick Sampler by Charles Doty (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hard Wired (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Hard Wired (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hentai Collection 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Hentai Collection 1 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "How to Make a Jump'n'Run Game by Kaneda (V1.0) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\How to Make a Jump'n'Run Game by Kaneda (V1.0) (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "How to Use Map by Kaneda (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\How to Use Map by Kaneda (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jizz Wars (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Jizz Wars (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Joystick Test Program (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Joystick Test Program (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jump 'n' Run Demo (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Jump 'n' Run Demo (PD) [a1].bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jump 'n' Run Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Jump 'n' Run Demo (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jump'n'Run V1.1 by Kaneda (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Jump'n'Run V1.1 by Kaneda (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jump'n'Run V2.0 by Kaneda (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Jump'n'Run V2.0 by Kaneda (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jum's Genny PSG Jukebox (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Jum's Genny PSG Jukebox (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jungle Demo by Charles Coty (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Jungle Demo by Charles Coty (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magical Christmas Greetings Demo (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Magical Christmas Greetings Demo (PD) [a1].bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magical Christmas Greetings Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Magical Christmas Greetings Demo (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Demo V0.01 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Mine Demo V0.01 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Demo V0.02 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Mine Demo V0.02 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Demo V0.03 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Mine Demo V0.03 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moonbase V0.04 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Moonbase V0.04 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moonbase V0.05 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Moonbase V0.05 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moonbase V0.06 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Moonbase V0.06 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neozeed Color Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Neozeed Color Demo (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ooga Booga! from y2kode (2nd Version) by Kaneda (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Ooga Booga! from y2kode (2nd Version) by Kaneda (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong Demo 6 by Paul Lee (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Pong Demo 6 by Paul Lee (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong Demo Code 1 by P Bosquet (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Pong Demo Code 1 by P Bosquet (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quadrant V0.00 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Quadrant V0.00 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quadrant V0.01 (PD) (JUE)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Quadrant V0.01 (PD) (JUE).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quadrant V0.02 (PD) (JUE)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Quadrant V0.02 (PD) (JUE).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Racing Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Racing Demo (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Road Wars 2000 V07 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Road Wars 2000 V07 (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sample Program - Indian Picture (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Sample Program - Indian Picture (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SegGala V0.06 (padded) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\SegGala V0.06 (padded) (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SegGala V0.06 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\SegGala V0.06 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGCC Demo 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\SGCC Demo 1 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGCC Demo 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\SGCC Demo 2 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGCC Demo 3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\SGCC Demo 3 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGCC Demo 4 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\SGCC Demo 4 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGCC Demo 5 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\SGCC Demo 5 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGCC Demo 6 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\SGCC Demo 6 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spacewar V0.00 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Spacewar V0.00 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spacewar V0.01 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Spacewar V0.01 (PD).smd",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Fucker (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\Street Fucker (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "YM 2612 Editor by K. Banks (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\sega_gen_PDroms\\YM 2612 Editor by K. Banks (PD).bin",
+      "emulatorName": "RetroArch Sega Genesis (Genesis Plus GX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Street Fighter EX2 Plus (USA 990611)",
+      "mameName": "sfex2p",
+      "path": "{gamesDir}\\MAME\\ROMS\\sfex2p.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom / Arika",
+      "year": "1999",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

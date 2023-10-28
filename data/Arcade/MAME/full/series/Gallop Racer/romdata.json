@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gallop Racer (English Ver 10.17.K)",
+      "mameName": "glpracr",
+      "path": "{gamesDir}\\MAME\\ROMS\\glpracr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1996",
+      "gameType": "Sports / Horse Racing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Gallop Racer 2 (Export)",
+      "mameName": "glpracr2",
+      "path": "{gamesDir}\\MAME\\ROMS\\glpracr2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1997",
+      "gameType": "Sports / Horse Racing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gallop Racer 2 (Japan)",
+      "mameName": "glpracr2j",
+      "parentName": "glpracr2",
+      "path": "{gamesDir}\\MAME\\ROMS\\glpracr2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1997",
+      "gameType": "Sports / Horse Racing",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gallop Racer 2 Link HW (Japan)",
+      "mameName": "glpracr2l",
+      "parentName": "glpracr2",
+      "path": "{gamesDir}\\MAME\\ROMS\\glpracr2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1997",
+      "gameType": "Sports / Horse Racing",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gallop Racer 3 (Export)",
+      "mameName": "glpracr3",
+      "path": "{gamesDir}\\MAME\\ROMS\\glpracr3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1999",
+      "gameType": "Sports / Horse Racing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gallop Racer 3 (Japan)",
+      "mameName": "glpracr3j",
+      "parentName": "glpracr3",
+      "path": "{gamesDir}\\MAME\\ROMS\\glpracr3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1999",
+      "gameType": "Sports / Horse Racing",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gallop Racer (Japanese Ver 9.01.12)",
+      "mameName": "glpracrj",
+      "parentName": "glpracr",
+      "path": "{gamesDir}\\MAME\\ROMS\\glpracr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1996",
+      "gameType": "Sports / Horse Racing",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

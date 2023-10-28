@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Aquarium (US)",
+      "mameName": "aquarium",
+      "path": "{gamesDir}\\MAME\\ROMS\\aquarium.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Excellent System",
+      "year": "1996",
+      "gameType": "Puzzle / Drop",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Captain Flag (Japan)",
+      "mameName": "captflag",
+      "path": "{gamesDir}\\MAME\\ROMS\\captflag.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1993",
+      "gameType": "Electromechanical / Redemption",
+      "rating": "40 to 50 (Decent)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "CPS3 Multi-game bootleg for HD6417095 type SH2 (V4)",
+      "mameName": "cps3boot",
+      "path": "{gamesDir}\\MAME\\CHDs\\cps3boot\\UniCD-CPS3_for_standard_SH2_V4.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1999",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gallop Racer 3 (Export)",
+      "mameName": "glpracr3",
+      "path": "{gamesDir}\\MAME\\ROMS\\glpracr3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1999",
+      "gameType": "Sports / Horse Racing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

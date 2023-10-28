@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Rival Schools: United By Fate (Euro 971117)",
+      "mameName": "rvschool",
+      "path": "{gamesDir}\\MAME\\ROMS\\rvschool.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1997",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Street Fighter III 3rd Strike: Fight for the Future (Euro 990608)",
+      "mameName": "sfiii3",
+      "path": "{gamesDir}\\MAME\\CHDs\\sfiii3\\cap-33s-2.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1999",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

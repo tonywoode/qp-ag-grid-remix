@@ -1,0 +1,683 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Baseball Stars",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Baseball Stars.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Big Bang Pro Wrestling",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Big Bang Pro Wrestling.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bikkuriman 2000",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Bikkuriman 2000.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Biomotor Unitron",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Biomotor Unitron.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Yumekobo / SNK",
+      "year": "1999",
+      "comment": "1st Person",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Bust-A-Move Pocket",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Bust-A-Move Pocket.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Taito / SNK",
+      "year": "1999",
+      "rating": "82",
+      "comment": "3rd Person",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Cool Boarders Pocket",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Cool Boarders Pocket.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cool Cool Jam",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Cool Cool Jam.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cotton - Fantastic Night Dreams",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Cotton - Fantastic Night Dreams.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Success / SNK",
+      "year": "2000",
+      "gameType": "Action",
+      "comment": "Horizontal Scrolling",
+      "timesPlayed": "2",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Crush Roller",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Crush Roller.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "ADK Corporation / SNK",
+      "year": "1999",
+      "gameType": "Action",
+      "comment": "Overhead",
+      "timesPlayed": "2",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Dark Arms - Beast Buster 1999",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Dark Arms - Beast Buster 1999.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Noise / SNK",
+      "year": "1999",
+      "comment": "Overhead",
+      "timesPlayed": "2",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Delta Warp",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Delta Warp.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Densetsu no Ogre Battle",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Densetsu no Ogre Battle.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Quest / SNK",
+      "year": "2000",
+      "rating": "72",
+      "comment": "Isometric",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Densha De GO! 2",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Densha De GO! 2.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Taito / SNK",
+      "year": "1999",
+      "gameType": "Simulation",
+      "comment": "1st Person",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Dive Alert",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Dive Alert.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dokodemo Mahjong",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Dokodemo Mahjong.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dynamite Slugger",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Dynamite Slugger.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Evolution - Eternal Dungeons",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Evolution - Eternal Dungeons.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "ESP / Sega",
+      "year": "2000",
+      "gameType": "Role-Playing",
+      "comment": "Overhead",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Faselei!",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Faselei!.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Sacnoth / SNK",
+      "year": "1999",
+      "gameType": "Strategy",
+      "comment": "Isometric",
+      "timesPlayed": "5",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Fatal Fury F-Contact",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Fatal Fury F-Contact.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "SNK / SNK",
+      "year": "1999",
+      "rating": "72",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Gals Fighters",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Gals Fighters.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Yumekobo / SNK",
+      "year": "2000",
+      "gameType": "Action",
+      "rating": "82",
+      "comment": "3rd Person",
+      "timesPlayed": "3",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Ganbare NeoPoke Kun",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Ganbare NeoPoke Kun.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "SNK / SNK",
+      "year": "2000",
+      "gameType": "Action",
+      "comment": "3rd Person",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Infinity Cure",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Infinity Cure.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kikouseki Unitron",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Kikouseki Unitron.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Yumekobo / Yumekobo",
+      "year": "2000",
+      "comment": "1st Person",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "King of Fighters R-1",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\King of Fighters R-1.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters R-2",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\King of Fighters R-2.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "SNK / SNK",
+      "year": "1999",
+      "gameType": "Action",
+      "rating": "78",
+      "comment": "3rd Person",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "King of Fighters, The - Battle De Paradise",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\King of Fighters, The - Battle De Paradise.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Koi Koi Mahjong",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Koi Koi Mahjong.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Last Blade, The - Beyond the Destiny",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Last Blade, The - Beyond the Destiny.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "SNK / SNK",
+      "year": "2000",
+      "gameType": "Action",
+      "comment": "Horizontal Scrolling",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Magical Drop Pocket",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Magical Drop Pocket.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Master of Syougi",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Master of Syougi.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Melon Chan's Growth Diary",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Melon Chan's Growth Diary.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Memories Off Pure",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Memories Off Pure.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metal Slug - 1st Mission",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Metal Slug - 1st Mission.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Ukiyotei / SNK",
+      "year": "1999",
+      "gameType": "Action",
+      "rating": "76",
+      "comment": "3rd Person",
+      "timesPlayed": "3",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Metal Slug - 2nd Mission",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Metal Slug - 2nd Mission.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Ukiyotei / SNK",
+      "year": "2000",
+      "gameType": "Action",
+      "rating": "82",
+      "comment": "Platform",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Mezase! Kanji Ou",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Mezase! Kanji Ou.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mizuki Shigeru Youkai Shashin Kan",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Mizuki Shigeru Youkai Shashin Kan.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neo DerbyChamp",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Neo DerbyChamp.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neo Geo Pocket BIOS",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Neo Geo Pocket BIOS.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neo Poke Pro Yakyuu",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Neo Poke Pro Yakyuu.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neo Turf Masters",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Neo Turf Masters.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "SNK / SNK",
+      "year": "1999",
+      "rating": "84",
+      "comment": "3rd Person",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "NeoGeo Cup '98",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\NeoGeo Cup '98.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "SNK / SNK",
+      "year": "1999",
+      "gameType": "Sports",
+      "comment": "Overhead",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Nige-ron-pa",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Nige-ron-pa.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Oekaki",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Oekaki.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachinko Hissyou Guide Pocket Parlor",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pachinko Hissyou Guide Pocket Parlor.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachi-slot Aruze Oukoku Porcano 2",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pachi-slot Aruze Oukoku Porcano 2.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachisuro Aruze Oogoku Pocket - Dekahel",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pachisuro Aruze Oogoku Pocket - Dekahel.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachisuro Aruze Oogoku Pocket - E-Cup",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pachisuro Aruze Oogoku Pocket - E-Cup.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachisuro Aruze Oogoku Pocket - Hanabi",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pachisuro Aruze Oogoku Pocket - Hanabi.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachisuro Aruze Oogoku Pocket - Oelsol",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pachisuro Aruze Oogoku Pocket - Oelsol.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachisuro Aruze Oogoku Pocket - Ohanabi",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pachisuro Aruze Oogoku Pocket - Ohanabi.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachisuro Aruze Oogoku Pocket - Ward of Lights",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pachisuro Aruze Oogoku Pocket - Ward of Lights.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachisuro Azuze Oogoku Pocket - Azteca",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pachisuro Azuze Oogoku Pocket - Azteca.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Man",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pac-Man.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Namco / SNK",
+      "year": "1999",
+      "gameType": "Action",
+      "rating": "78",
+      "comment": "Overhead",
+      "timesPlayed": "3",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Party Mail",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Party Mail.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Picture Puzzle",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Picture Puzzle.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pocket Love If",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pocket Love If.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pocket Reversi",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pocket Reversi.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pocket Tennis - Pocket Sports Series",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Pocket Tennis - Pocket Sports Series.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Public Domain.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puyo Pop",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Puyo Pop.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle Link 2",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Puzzle Link 2.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Yumekobo / SNK",
+      "year": "2000",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Puzzle Link",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Puzzle Link.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Yumekobo / SNK",
+      "year": "1999",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Real Casino Series - Neo Baccarat",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Real Casino Series - Neo Baccarat.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Real Casino Series - Neo Cherry Master",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Real Casino Series - Neo Cherry Master.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Real Casino Series - Neo Dragon's Wild",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Real Casino Series - Neo Dragon's Wild.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Real Casino Series - Neo Mystery Bonus",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Real Casino Series - Neo Mystery Bonus.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Real Casino Series - Neo Twenty One",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Real Casino Series - Neo Twenty One.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rockman Battle & Fighters",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Rockman Battle & Fighters.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Samurai Shodown! - Pocket Fighting Series",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Samurai Shodown! - Pocket Fighting Series.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Samurai Shodown! 2 - Pocket Fighting Series",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Samurai Shodown! 2 - Pocket Fighting Series.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "SNK / SNK",
+      "year": "1999",
+      "gameType": "Action",
+      "rating": "72",
+      "comment": "Horizontal Scrolling",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Shanghai Mini",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Shanghai Mini.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "SNK / SNK",
+      "year": "1999",
+      "gameType": "Strategy",
+      "comment": "Isometric",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "SNK Vs. Capcom - Card Fighters Clash 2 - Expand Edition",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\SNK Vs. Capcom - Card Fighters Clash 2 - Expand Edition.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNK Vs. Capcom - Card Fighters Clash",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\SNK Vs. Capcom - Card Fighters Clash.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNK Vs. Capcom - The Match of The Millennium",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\SNK Vs. Capcom - The Match of The Millennium.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "Capcom / SNK",
+      "year": "1999",
+      "gameType": "Action",
+      "rating": "92",
+      "comment": "3rd Person",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Sonic The Hedgehog - Pocket Adventure",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Sonic The Hedgehog - Pocket Adventure.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "companyName": "SNK / SNK",
+      "year": "1999",
+      "gameType": "Action",
+      "rating": "90",
+      "comment": "3rd Person",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Soreike! Hanafuda Doujyou",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Soreike! Hanafuda Doujyou.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super 12 in 1",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Super 12 in 1.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Real Mahjong",
+      "path": "{gamesDir}\\Console Classics\\NeoGeo Pocket Colour Games\\GoodNGPx_314_GM\\Super Real Mahjong.7z",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen/Beetle NeoPop)",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

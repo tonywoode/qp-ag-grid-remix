@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Breakers",
+      "mameName": "breakers",
+      "path": "{gamesDir}\\MAME\\ROMS\\breakers.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Visco",
+      "year": "1996",
+      "gameType": "Fighter / Versus",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Breakers Revenge",
+      "mameName": "breakrev",
+      "path": "{gamesDir}\\MAME\\ROMS\\breakrev.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Visco",
+      "year": "1998",
+      "gameType": "Fighter / Versus",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

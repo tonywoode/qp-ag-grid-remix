@@ -1,0 +1,29 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Codename: Kids Next Door",
+      "mameName": "kidsnedo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\juicebox\\kidsnedo.7z",
+      "emulatorName": "MAME Mattel Juice Box -SOFTLIST juicebox",
+      "companyName": "4Kids Entertainment",
+      "year": "2004",
+      "comment": "serial:H2683",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Yu-Gi-Oh!",
+      "mameName": "yugioh",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\juicebox\\yugioh.7z",
+      "emulatorName": "MAME Mattel Juice Box -SOFTLIST juicebox",
+      "companyName": "4Kids Entertainment",
+      "year": "2004",
+      "comment": "serial:H2685",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

@@ -1,0 +1,1783 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "1000 Bornes (1985) (Free Game Blot)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\1000 Bornes (1985) (Free Game Blot).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3D Sub (1985) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\3D Sub (1985) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "5eme Axe, Le (1985) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\5eme Axe, Le (1985) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "6809 Language Module (1984) (Microsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\6809 Language Module (1984) (Microsoft).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "7 Magiciens, Les (1984) (To Tek)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\7 Magiciens, Les (1984) (To Tek).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "A Demi Mot (1985) (Nathan Ecoles)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\A Demi Mot (1985) (Nathan Ecoles).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Affaire en Or, Une (198x) (Free Game Blot)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Affaire en Or, Une (198x) (Free Game Blot).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Affaire Vera Cruz, L' (198x) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Affaire Vera Cruz, L' (198x) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Affine (1984) (USTL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Affine (1984) (USTL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aigle d'or, L' (1985) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Aigle d'or, L' (1985) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Air Attack (1985) (Microids)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Air Attack (1985) (Microids).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aire (1985) (Nathan Ecoles)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Aire (1985) (Nathan Ecoles).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Allemand (Sich Vorstellen) (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Allemand (Sich Vorstellen) (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amperemetre (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Amperemetre (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Androides (1985) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Androides (1985) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anglais (1984) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Anglais (1984) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Angles, Les (1985) (Vifi-Nathan Ecoles)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Angles, Les (1985) (Vifi-Nathan Ecoles).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Animaux (1985) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Animaux (1985) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arkanoid (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Arkanoid (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ascens (1985) (Collectif d'Idee Irem)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Ascens (1985) (Collectif d'Idee Irem).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Asterix et la Potion Magique (198x) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Asterix et la Potion Magique (198x) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astromus (1984) (Logimus)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Astromus (1984) (Logimus).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atomik (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Atomik (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Auto-initiation au BASIC MO5 (1984) (Cedic-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Auto-initiation au BASIC MO5 (1984) (Cedic-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Avenger (1986) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Avenger (1986) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Backgammon (1984) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Backgammon (1984) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baladins (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Baladins (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Balthazar (1987) (Titus)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Balthazar (1987) (Titus).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Barry McGuigan Championship Boxing (198x) (Microids)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Barry McGuigan Championship Boxing (198x) (Microids).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beachhead (1985) (Access Software)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Beachhead (1985) (Access Software).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blitz (1985) (To Tek)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Blitz (1985) (To Tek).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blitzkrieg (198x) (Francis Mallard)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Blitzkrieg (198x) (Francis Mallard).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buds 1 2 3 (1984) (To Tek)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Buds 1 2 3 (1984) (To Tek).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Calcul Algebrique (1985) (Edumicro)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Calcul Algebrique (1985) (Edumicro).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Calcul Mental (1984) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Calcul Mental (1984) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cap Horn (1986) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Cap Horn (1986) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cap sur Dakar (1985) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Cap sur Dakar (1985) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carre Magique (1984) (CNDP, Nathan Ecoles)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Carre Magique (1984) (CNDP, Nathan Ecoles).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cartciel (1984) (Answare)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Cartciel (1984) (Answare).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carte de France, La (1983) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Carte de France, La (1983) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chateau Noir et Dragon Rouge (1985) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Chateau Noir et Dragon Rouge (1985) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chiffres et les Lettres, Les (198x) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Chiffres et les Lettres, Les (198x) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cible (1984) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Cible (1984) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cocotte (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Cocotte (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Coliseum (1985) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Coliseum (1985) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colocalc (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Colocalc (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Compte est rond, Le (1984) (Hatier)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Compte est rond, Le (1984) (Hatier).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Concordance des Temps (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Concordance des Temps (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Concours d'algebre (198x) (C & D Missenard)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Concours d'algebre (198x) (C & D Missenard).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Concours d'geometrie (198x)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Concours d'geometrie (198x).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Conversion Images (198x) (Edouard Foller)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Conversion Images (198x) (Edouard Foller).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Coq inn (1984) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Coq inn (1984) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Corps Humain, Le (1985) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Corps Humain, Le (1985) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Course aux Lettres, La (198x) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Course aux Lettres, La (198x) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crocky 2 (1984) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Crocky 2 (1984) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube Basique, Le (1984) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Cube Basique, Le (1984) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyprien dans la Course aux Lettres (1984) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Cyprien dans la Course aux Lettres (1984) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dakar 4x4 (1986) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Dakar 4x4 (1986) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defi (1984) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Defi (1984) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Delos Attack (1989) (Christopher Lesur)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Delos Attack (1989) (Christopher Lesur).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Devant Derriere (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Devant Derriere (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Devin (1984) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Devin (1984) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dialogue avec une sauterelle (1983) (Nathan Ecoles)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Dialogue avec une sauterelle (1983) (Nathan Ecoles).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diamant and Fractions (1986) (Christopher Lesur)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Diamant and Fractions (1986) (Christopher Lesur).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dianne, Mission Rubidiums (1985) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Dianne, Mission Rubidiums (1985) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dieux du Stade, Les (1985) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Dieux du Stade, Les (1985) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Divisibilite (198x) (CDDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Divisibilite (198x) (CDDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Division, Les (198x) (Nathan Ecoles)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Division, Les (198x) (Nathan Ecoles).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dossier Boerhaave (1986) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Dossier Boerhaave (1986) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dribble (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Dribble (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Duel au Colorado (198x) (Chip)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Duel au Colorado (198x) (Chip).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Echecs (198x) (Cobra Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Echecs (198x) (Cobra Soft).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Electricite (1984)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Electricite (1984).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eliminator (1984) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Eliminator (1984) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Emploi du Subjonctif (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Emploi du Subjonctif (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "En allant a l'ecole, Cycliste (1985) (Cedic)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\En allant a l'ecole, Cycliste (1985) (Cedic).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Enduro Racer (1988) (Sega, FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Enduro Racer (1988) (Sega, FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Energic (1985) (Guy Dechelette)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Energic (1985) (Guy Dechelette).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ensemble Z (198x)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Ensemble Z (198x).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au calcul (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Entrainement au calcul (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Equation de droite (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Equation de droite (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Equations & Inequations (198x)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Equations & Inequations (198x).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Equations de droites (1986) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Equations de droites (1986) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Equichim (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Equichim (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Escalier pour l'infini (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Escalier pour l'infini (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Espagnol (198x)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Espagnol (198x).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Etude de la vitesse instantannee (1984) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Etude de la vitesse instantannee (1984) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Europe Facts (1985) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Europe Facts (1985) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Extension BASIC MO5 (1986) (D.G. Vevy)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Extension BASIC MO5 (1986) (D.G. Vevy).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F-15 Strike Eagle (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\F-15 Strike Eagle (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FBI (1984) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\FBI (1984) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Felonies (1986) (Ere Informatique)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Felonies (1986) (Ere Informatique).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipper (1984) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Flipper (1984) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Formule 1 (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Formule 1 (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fox (198x) (CFX)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Fox (198x) (CFX).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frises (1985) (Cedic-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Frises (1985) (Cedic-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frontier (198x) (CDDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Frontier (198x) (CDDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game Over (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Game Over (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Geodyssee (1985) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Geodyssee (1985) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Geometrie (1985) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Geometrie (1985) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Geste d'Artillac, La (1985) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Geste d'Artillac, La (1985) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghostbuster (1989) (Christopher Lesur)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Ghostbuster (1989) (Christopher Lesur).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Golf (198x)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Golf (198x).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gravitron (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Gravitron (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Green Beret (1986) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Green Beret (1986) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grsang (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Grsang (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Histogra (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Histogra (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Histoire de France (198x) (MPS Diffusion)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Histoire de France (198x) (MPS Diffusion).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HMS Cobra (198x) (Cobra Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\HMS Cobra (198x) (Cobra Soft).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Horloge (1984) (USTL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Horloge (1984) (USTL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Identite (1985) (USTL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Identite (1985) (USTL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Imperialis (1985) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Imperialis (1985) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Indiana Thom (198x) (Sprites)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Indiana Thom (198x) (Sprites).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Initiation aux Echecs (1984) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Initiation aux Echecs (1984) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Interieur Exterieur (198x) (Francoise Monnet)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Interieur Exterieur (198x) (Francoise Monnet).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Invasion des chiffres, L' (198x) (Nathan Ecoles)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Invasion des chiffres, L' (198x) (Nathan Ecoles).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Island (1984) (Micro Application & Informatics)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Island (1984) (Micro Application & Informatics).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Debug - Le Grand Saut (1986) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\James Debug - Le Grand Saut (1986) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jauge (1984) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Jauge (1984) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jeu de Boole (198x) (Hatier)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Jeu de Boole (198x) (Hatier).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jeu de Dames Americain (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Jeu de Dames Americain (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jumpman (1997) (Alexandre Pukall)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Jumpman (1997) (Alexandre Pukall).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jungle Hero (198x) (SoftBook)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Jungle Hero (198x) (SoftBook).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kanicula (1984) (To Tek)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Kanicula (1984) (To Tek).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Karate (1985) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Karate (1985) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Khronos (1986) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Khronos (1986) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krakout (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Krakout (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Labyrinthe Survie (1984) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Labyrinthe Survie (1984) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Logo (1984) (Soli)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Logo (1984) (Soli).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lorann (1985) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Lorann (1985) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ludo OP1 (1985) (Edumicro)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Ludo OP1 (1985) (Edumicro).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Malediction de Thaar, La (1986) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Malediction de Thaar, La (1986) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mandragore (1984) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Mandragore (1984) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Megawatt (1987) (EDF)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Megawatt (1987) (EDF).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Melodimus (1984) (Logimus)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Melodimus (1984) (Logimus).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mes premiers mots croises (1983) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Mes premiers mots croises (1983) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mesure du Temps (1985) (Cedic-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Mesure du Temps (1985) (Cedic-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Meteo 7 (1984) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Meteo 7 (1984) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Micro Scrabble (1985) (Leisure Genius)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Micro Scrabble (1985) (Leisure Genius).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Microscillo (1984) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Microscillo (1984) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine aux Diamants, La (198x) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Mine aux Diamants, La (198x) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Miner 2049er (1985) (International Computer Group)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Miner 2049er (1985) (International Computer Group).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minotaure 3D (1985) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Minotaure 3D (1985) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minotaure Educatif (1984) (Hatier)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Minotaure Educatif (1984) (Hatier).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mission pas Possible (198x) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Mission pas Possible (198x) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mission(s) en Rafale (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Mission(s) en Rafale (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "Spanish",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mon General (198x) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Mon General (198x) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mongolfiere (1985) (Cedic-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Mongolfiere (1985) (Cedic-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monopolic (198x) (Free Game Blot)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Monopolic (198x) (Free Game Blot).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monopoly (198x) (Leisure Genius)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Monopoly (198x) (Leisure Genius).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster mine (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Monster mine (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monte Carlo (1984) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Monte Carlo (1984) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mot pour le compte, Un (1983) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Mot pour le compte, Un (1983) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Multiplication (1985) (Cedic-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Multiplication (1985) (Cedic-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Multiplications casse-tete (1984) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Multiplications casse-tete (1984) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Navire (1985) (USTL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Navire (1985) (USTL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nuit des Templiers, La (1986) (FIL, Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Nuit des Templiers, La (1986) (FIL, Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Numero 10 (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Numero 10 (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Numero 10, Mexico 86 (1986) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Numero 10, Mexico 86 (1986) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ordidactic (1984) (Ere Informatique)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Ordidactic (1984) (Ere Informatique).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ordre de grandeur (198x) (Nathan Ecoles)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Ordre de grandeur (198x) (Nathan Ecoles).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Orthographe Lexicale (1984) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Orthographe Lexicale (1984) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Man (1986) (Theophile)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pac-Man (1986) (Theophile).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Panique Atomique chez Novasprite (1985) (Novasoft)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Panique Atomique chez Novasprite (1985) (Novasoft).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pascal base (1985) (Free Game Blot)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pascal base (1985) (Free Game Blot).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pendu, Le (1982-84) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pendu, Le (1982-84) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pilot et Pingo (198x) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pilot et Pingo (198x) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pingo (198x) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pingo (198x) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Planete Inconnue, La (1986) (FIL, Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Planete Inconnue, La (1986) (FIL, Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pluriel des noms simples (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pluriel des noms simples (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Plus beau puzzle, Le (1985) (Cedic-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Plus beau puzzle, Le (1985) (Cedic-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker (198x)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Poker (198x).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Politique Economique (1984) (Answare)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Politique Economique (1984) (Answare).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong 7300 (198x)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pong 7300 (198x).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poseidon (1986) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Poseidon (1986) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pour 20 Millions de Dollars (198x) (SoftBook)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pour 20 Millions de Dollars (198x) (SoftBook).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Premier pas vers le BASIC 1 (1984) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Premier pas vers le BASIC 1 (1984) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Premier pas vers le BASIC 2 (1984) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Premier pas vers le BASIC 2 (1984) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Preterit star (198x) (Hatier)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Preterit star (198x) (Hatier).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prologic (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Prologic (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain Roms (Miscellaneous)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Public Domain Roms (Miscellaneous).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pulsar (1985) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pulsar (1985) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pulsar II (1984) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Pulsar II (1984) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quadrille (198x) (Francoise Monnet)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Quadrille (198x) (Francoise Monnet).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ranger des Nombres (1985) (Cedic-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Ranger des Nombres (1985) (Cedic-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Recherche dans un Dictionnaire (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Recherche dans un Dictionnaire (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renegade (1988) (Ocean)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Renegade (1988) (Ocean).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Repere (1985) (USTL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Repere (1985) (USTL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Roger & Paulo (1984) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Roger & Paulo (1984) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Runway (1986) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Runway (1986) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Runway 2 (1986) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Runway 2 (1986) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rythmamus (1984) (Logimus)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Rythmamus (1984) (Logimus).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sapiens (1986) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Sapiens (1986) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satel (198x) (CNDP)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Satel (198x) (CNDP).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sauts (1985) (Francoise Monnet)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Sauts (1985) (Francoise Monnet).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scrontch (1985) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Scrontch (1985) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Signes dans l'espace, Des (1983) (Vifi-Nathan)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Signes dans l'espace, Des (1983) (Vifi-Nathan).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slap Fight (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Slap Fight (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sorcery (1986) (Virgin Games)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Sorcery (1986) (Virgin Games).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sortileges (1986) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Sortileges (1986) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spix (1984) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Spix (1984) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sport d'ete (1988) (Wise Owl Software)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Sport d'ete (1988) (Wise Owl Software).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stone Zone (198x) (SoftBook)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Stone Zone (198x) (SoftBook).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Tennis (1985) (Answare)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Super Tennis (1985) (Answare).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taquin+ (1984) (To Tek)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Taquin+ (1984) (To Tek).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Temple de Quauthli, Le (1986) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Temple de Quauthli, Le (1986) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thermometre (1985) (USTL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Thermometre (1985) (USTL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Third World War (198x) (Free Game Blot)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Third World War (198x) (Free Game Blot).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Top Chrono (1985) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Top Chrono (1985) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Top Gun (1987) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Top Gun (1987) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Torann Mission Blue 5 (198x) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Torann Mission Blue 5 (198x) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toutankhamon (1985) (No Man's Land)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Toutankhamon (1985) (No Man's Land).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tresor du Pirate, Le (1984) (Free Game Blot)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Tresor du Pirate, Le (1984) (Free Game Blot).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tyrann (1985) (Norsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Tyrann (1985) (Norsoft).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vampire (1986) (Infogrames)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Vampire (1986) (Infogrames).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vecteurs (1985) (USTL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Vecteurs (1985) (USTL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vol Solo (1985) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Vol Solo (1985) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Votez Pour Moi (1985) (Coktel Vision)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Votez Pour Moi (1985) (Coktel Vision).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vox Basic (1984) (Ere Informatique)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Vox Basic (1984) (Ere Informatique).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wizball (1988) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Wizball (1988) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yeti (1984) (Loriciels)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Yeti (1984) (Loriciels).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yie Ar Kung Fu 2 (1986) (FIL)",
+      "path": "{gamesDir}\\Computer Classics\\MO5 Games\\GoodMO5_31415GOODMERGED\\Yie Ar Kung Fu 2 (1986) (FIL).7z",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

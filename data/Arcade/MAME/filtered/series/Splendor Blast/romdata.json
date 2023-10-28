@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Splendor Blast II",
+      "mameName": "splndrbt2",
+      "path": "{gamesDir}\\MAME\\ROMS\\splndrbt2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Alpha Denshi Co.",
+      "year": "1985",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

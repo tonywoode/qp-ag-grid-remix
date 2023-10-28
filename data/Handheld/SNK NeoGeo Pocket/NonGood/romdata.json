@@ -1,0 +1,263 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "20090605_gears_of_fate_(28-05-2009)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\20090605_gears_of_fate_(28-05-2009).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bikkuriman 2000 - Viva! Pocket Festiva! (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Bikkuriman 2000 - Viva! Pocket Festiva! (Japan).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "capital",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\capital.zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crush Roller (World) (En,Ja)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Crush Roller (World) (En,Ja).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Densha_de_Go!_2_on_Neo_Geo_Pocket_(Japan)_(Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Densha_de_Go!_2_on_Neo_Geo_Pocket_(Japan)_(Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fatal Fury F-Contact (World) (En,Ja) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Fatal Fury F-Contact (World) (En,Ja) (Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters R-1 & Melon-chan no Seichou Nikki (Japan)(Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\King of Fighters R-1 & Melon-chan no Seichou Nikki (Japan)(Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters R-2 (World) (En,Ja) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\King of Fighters R-2 (World) (En,Ja) (Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters R-2 Version 2 (World) (En,Ja) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\King of Fighters R-2 Version 2 (World) (En,Ja) (Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King_of_Fighters_R-1_&_Melon-chan_no_Seichou_Nikki_(Japan)(Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\King_of_Fighters_R-1_&_Melon-chan_no_Seichou_Nikki_(Japan)(Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "KOF R2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\KOF R2.zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magical Drop Pocket (Japan) (Beta) [redump]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Magical Drop Pocket (Japan) (Beta) [redump].zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magical Drop Pocket (Japan) (Demo) [b]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Magical Drop Pocket (Japan) (Demo) [b].zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Melon-chan no Seichou Nikki (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Melon-chan no Seichou Nikki (Japan).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Memories Off - Pure (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Memories Off - Pure (Japan).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metal Slug - 2nd Mission (World) (En,Ja) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Metal Slug - 2nd Mission (World) (En,Ja) (Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "METALSLUG1ST_",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\METALSLUG1ST_.zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mezase! Kanji Ou (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Mezase! Kanji Ou (Japan).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neo Cherry Master Color - Real Casino Series (World) (En,Ja) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Neo Cherry Master Color - Real Casino Series (World) (En,Ja) (Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neo_Cherry_Master_Color_-_Real_Casino_Series_(World)_(En,Ja)_(Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Neo_Cherry_Master_Color_-_Real_Casino_Series_(World)_(En,Ja)_(Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Oekaki Puzzle (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Oekaki Puzzle (Japan).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (Japan).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prize Game - PP-AA01 Pusher Program (Japan)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Prize Game - PP-AA01 Pusher Program (Japan).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNK Vs Capcom - Card Fighters Clash - Capcom Version (UE) [T+Br1.00_Maggot]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\SNK Vs Capcom - Card Fighters Clash - Capcom Version (UE) [T+Br1.00_Maggot].zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNK Vs Capcom - Card Fighters Clash - SNK Version (UE) [T+Br1.00_Maggot]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\SNK Vs Capcom - Card Fighters Clash - SNK Version (UE) [T+Br1.00_Maggot].zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNK vs. Capcom - Card Fighters Clash 2 - Expand Edition (2001)(SNK)(Jp)[tr Eng1.0_3-19-08fixed_CFC2]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\SNK vs. Capcom - Card Fighters Clash 2 - Expand Edition (2001)(SNK)(Jp)[tr Eng1.0_3-19-08fixed_CFC2].zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNK vs. Capcom - Card Fighters Clash 2 - Expand Edition (2001)(SNK)(Jp)[tr Eng1.0_CFC2]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\SNK vs. Capcom - Card Fighters Clash 2 - Expand Edition (2001)(SNK)(Jp)[tr Eng1.0_CFC2].zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan) (Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNK vs. Capcom - Gekitotsu Card Fighters (Japan) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\SNK vs. Capcom - Gekitotsu Card Fighters (Japan) (Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNKvsCAPCOM1(YULIANGMAX)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\SNKvsCAPCOM1(YULIANGMAX).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic the Hedgehog - Pocket Adventure (World) (Beta)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodNGPX\\Sonic the Hedgehog - Pocket Adventure (World) (Beta).zip",
+      "emulatorName": "RetroArch SNK Neo Geo Pocket/Color (Mednafen NeoPop)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    }
+  ]
+}

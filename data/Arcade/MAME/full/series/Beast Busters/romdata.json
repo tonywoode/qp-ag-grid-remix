@@ -1,0 +1,81 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Beast Busters 2nd Nightmare",
+      "mameName": "bbust2",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbust2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1998",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Beast Busters (World)",
+      "mameName": "bbusters",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbusters.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Gun",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Beast Busters (Japan, Version 2)",
+      "mameName": "bbustersj",
+      "parentName": "bbusters",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbusters.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Gun",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Beast Busters (US, Version 3)",
+      "mameName": "bbustersu",
+      "parentName": "bbusters",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbusters.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Beast Busters (US, Version 2)",
+      "mameName": "bbustersua",
+      "parentName": "bbusters",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbusters.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Qix (Rev 2)",
+      "mameName": "qix",
+      "path": "{gamesDir}\\MAME\\ROMS\\qix.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito America Corporation",
+      "year": "1981",
+      "gameType": "Puzzle / Outline",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Super Qix (World/Japan, V1.2)",
+      "mameName": "sqix",
+      "path": "{gamesDir}\\MAME\\ROMS\\sqix.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko / Taito",
+      "year": "1987",
+      "gameType": "Puzzle / Outline",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Twin Qix (Ver 1.0A 1995/01/17, prototype)",
+      "mameName": "twinqix",
+      "path": "{gamesDir}\\MAME\\ROMS\\twinqix.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito America Corporation",
+      "year": "1995",
+      "gameType": "Puzzle / Outline",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,2559 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "1000 Bornes (1985)(Free Game Blot)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\1000 Bornes (1985)(Free Game Blot).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3d Sub (1985)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\3d Sub (1985)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "5eme Axe, Le (1985)(Loriciels)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\5eme Axe, Le (1985)(Loriciels)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "7 magiciens, Les (1984)(To Tek)(M5)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\7 magiciens, Les (1984)(To Tek)(M5).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A Demi Mot (1985)(Nathan Ecoles)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\A Demi Mot (1985)(Nathan Ecoles).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adresse des Fichiers .bin sur Disques (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Adresse des Fichiers .bin sur Disques (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adresses SAVEM sur MO5 (198x)(Deplombsoft)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Adresses SAVEM sur MO5 (198x)(Deplombsoft)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adrto7 (1985)(-)(PD)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Adrto7 (1985)(-)(PD)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Affaire en Or, Une (198x)(Free Game Blot)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Affaire en Or, Une (198x)(Free Game Blot).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Affine (1984)(USTL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Affine (1984)(USTL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aigle d'Or, L' (1985)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Aigle d'Or, L' (1985)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Air attack (1985)(Microids)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Air attack (1985)(Microids).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aire (1985)(Nathan Ecoles)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Aire (1985)(Nathan Ecoles).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amperemetre (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Amperemetre (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Androides (1985)(Infogrames)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Androides (1985)(Infogrames).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Androides (1985)(Infogrames)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Androides (1985)(Infogrames)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anglais (1984)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Anglais (1984)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Angles, Les (1985)(Nathan Ecoles)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Angles, Les (1985)(Nathan Ecoles).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Animaux (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Animaux (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Araignees (198x)(Microtom)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Araignees (198x)(Microtom)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arkanoid (1987)(FIL)[t]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Arkanoid (1987)(FIL)[t].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ascens (1985)(Collectif d'Idee Irem)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Ascens (1985)(Collectif d'Idee Irem).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Asterix et la Potion Magique (198x)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Asterix et la Potion Magique (198x)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astromus (1984)(Logimus)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Astromus (1984)(Logimus).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astromus (1984)(Logimus)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Astromus (1984)(Logimus)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atomik (1987)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Atomik (1987)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Auto-initiation au Basic MO5 (1984)(Cedic Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Auto-initiation au Basic MO5 (1984)(Cedic Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Avenger (1986)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Avenger (1986)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Backgammon (1984)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Backgammon (1984)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baladins (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Baladins (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Balthazar (1987)(Titus)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Balthazar (1987)(Titus).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Barry Boxing (198x)(Microids)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Barry Boxing (198x)(Microids).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beach Head (1985)(Access Software)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Beach Head (1985)(Access Software).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blitz Krieg (198x)(Francis Mallard)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Blitz Krieg (198x)(Francis Mallard)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomber (1986)(Hebdogiciel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Bomber (1986)(Hebdogiciel)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buds 1 2 3 (1984)(TO Tek)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Buds 1 2 3 (1984)(TO Tek).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Business (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Business (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Calcul Algebrique (1985)(Edumicro)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Calcul Algebrique (1985)(Edumicro).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Calcul Mental (1984)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Calcul Mental (1984)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cap Horn (198x)(Coktel Vision)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cap Horn (198x)(Coktel Vision).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cap sur Dakar (198x)(Coktel Vision)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cap sur Dakar (198x)(Coktel Vision).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carre Magique (1984)(Nathan Ecoles)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Carre Magique (1984)(Nathan Ecoles).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carre Magique (1984)(Nathan Ecoles)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Carre Magique (1984)(Nathan Ecoles)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carre Magique (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Carre Magique (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carte de France, La (1983)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Carte de France, La (1983)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carte de France, La (1985)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Carte de France, La (1985)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carte du Ciel (1983)(Answare)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Carte du Ciel (1983)(Answare).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cassebrique (1986)(Christophe Vaillant)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cassebrique (1986)(Christophe Vaillant)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Catalog (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Catalog (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chardata (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Chardata (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chateau Noir et Dragon Rouge (1985)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Chateau Noir et Dragon Rouge (1985)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chiffres et des Lettres, Des (198x)(Vifi-Nathan)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Chiffres et des Lettres, Des (198x)(Vifi-Nathan)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cible (1984)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cible (1984)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cocotte (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cocotte (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Coliseum (1985)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Coliseum (1985)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Compte Est Rond, Le (1984)(Hatier)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Compte Est Rond, Le (1984)(Hatier).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Concours d'Algebre (198x)(C & D Missenard)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Concours d'Algebre (198x)(C & D Missenard)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Concours de Geometrie (198x)(C & D Missenard)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Concours de Geometrie (198x)(C & D Missenard)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Conte (1985)(Alain Lambert)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Conte (1985)(Alain Lambert).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Conte (1985)(Alain Lambert)[h]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Conte (1985)(Alain Lambert)[h].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Conversion Images (198x)(Edouard Foller)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Conversion Images (198x)(Edouard Foller).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copie de Fichiers Data (198x)(Deplombsoft)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Copie de Fichiers Data (198x)(Deplombsoft)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Coq Inn (1984)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Coq Inn (1984)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Corps Humain, Le (1985)(Infogrames)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Corps Humain, Le (1985)(Infogrames).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Course aux Lettres, La (198x)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Course aux Lettres, La (198x)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Creadata (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Creadata (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crocky 2 (1984)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Crocky 2 (1984)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crocky 2 (1984)(Loriciels)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Crocky 2 (1984)(Loriciels)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube Basique, Le (1984)(Infogrames)(Tape 1 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cube Basique, Le (1984)(Infogrames)(Tape 1 of 4).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube Basique, Le (1984)(Infogrames)(Tape 2 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cube Basique, Le (1984)(Infogrames)(Tape 2 of 4).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube Basique, Le (1984)(Infogrames)(Tape 3 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cube Basique, Le (1984)(Infogrames)(Tape 3 of 4).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube Basique, Le (1984)(Infogrames)(Tape 4 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cube Basique, Le (1984)(Infogrames)(Tape 4 of 4).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube Basique, Le (1984)(Infogrames)[a](Tape 1 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cube Basique, Le (1984)(Infogrames)[a](Tape 1 of 4).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube Basique, Le (1984)(Infogrames)[a](Tape 2 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cube Basique, Le (1984)(Infogrames)[a](Tape 2 of 4).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube Basique, Le (1984)(Infogrames)[a](Tape 3 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cube Basique, Le (1984)(Infogrames)[a](Tape 3 of 4).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube Basique, Le (1984)(Infogrames)[a](Tape 4 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cube Basique, Le (1984)(Infogrames)[a](Tape 4 of 4).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyprien dans la Course aux Lettres (1984)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Cyprien dans la Course aux Lettres (1984)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dakar 4x4 (198x)(Coktel Vision)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Dakar 4x4 (198x)(Coktel Vision).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Decode (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Decode (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defi (1984)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Defi (1984)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Delos Attack (1989)(Christophe Lesur)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Delos Attack (1989)(Christophe Lesur).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Depart (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Depart (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Departge (1986)(Ecole Jules Ferry)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Departge (1986)(Ecole Jules Ferry)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deper (198x)(Deplombsoft)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Deper (198x)(Deplombsoft)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deper (198x)(Deplombsoft)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Deper (198x)(Deplombsoft)(PD)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Destruc (198x)(-)(PD)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Destruc (198x)(-)(PD)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Devant Derriere (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Devant Derriere (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Devin (1984)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Devin (1984)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dialogue avec une Sauterelle (1983)(Nathan Ecole)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Dialogue avec une Sauterelle (1983)(Nathan Ecole).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diamant+fractions (198x)(-)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Diamant+fractions (198x)(-).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dianne (1985)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Dianne (1985)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Divisibilite (198x)(CDDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Divisibilite (198x)(CDDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Division, Les (198x)(Nathan Ecoles)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Division, Les (198x)(Nathan Ecoles).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dribble (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Dribble (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Duel au Colorado (198x)(Chip)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Duel au Colorado (198x)(Chip).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dump (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Dump (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Echec v3.7 (198x)(Cobra Soft)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Echec v3.7 (198x)(Cobra Soft).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Electricite (1984)(-)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Electricite (1984)(-).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eliminator (1984)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Eliminator (1984)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eliminator (1984)(Loriciels)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Eliminator (1984)(Loriciels)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Emploi du Subjonctif (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Emploi du Subjonctif (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "En allant a l'Ecole, Cycliste (1985)(Cedic)(Tape 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\En allant a l'Ecole, Cycliste (1985)(Cedic)(Tape 1 of 2).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "En allant a l'Ecole, Cycliste (1985)(Cedic)(Tape 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\En allant a l'Ecole, Cycliste (1985)(Cedic)(Tape 2 of 2).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Enduro Racer (1988)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Enduro Racer (1988)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Energic (198x)(Guy Dechelette)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Energic (198x)(Guy Dechelette).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Energic (198x)(Guy Dechelette)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Energic (198x)(Guy Dechelette)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ensemble Z (198x)(-)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Ensemble Z (198x)(-).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 1 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 1 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 10 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 10 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 2 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 2 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 3 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 3 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 4 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 4 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 5 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 5 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 6 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 6 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 7 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 7 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 8 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 8 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Entrainement au Calcul (198x)(CNDP)(Tape 9 of 10)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Entrainement au Calcul (198x)(CNDP)(Tape 9 of 10).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Equations (198x)(-)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Equations (198x)(-).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Equations de Droites (1986)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Equations de Droites (1986)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Equations de Droites (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Equations de Droites (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Equichim (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Equichim (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Escalier pour l'Infini (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Escalier pour l'Infini (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Espagnol (198x)(-)(Tape 1 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Espagnol (198x)(-)(Tape 1 of 3).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Espagnol (198x)(-)(Tape 2 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Espagnol (198x)(-)(Tape 2 of 3).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Espagnol (198x)(-)(Tape 3 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Espagnol (198x)(-)(Tape 3 of 3).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Espagnol (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Espagnol (19xx)(-).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Etude de la Vitesse Instantannee (1984)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Etude de la Vitesse Instantannee (1984)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Extension Basic MO5 (1986)(D.G. Vevy)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Extension Basic MO5 (1986)(D.G. Vevy).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Extension Basic MO5 (1986)(D.G. Vevy)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Extension Basic MO5 (1986)(D.G. Vevy)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F15 strike eagle (1987)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\F15 strike eagle (1987)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FBI (1984)(Infogrames)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\FBI (1984)(Infogrames).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Felonies (1986)(Ere Informatique)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Felonies (1986)(Ere Informatique).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Felonies (1986)(Ere Informatique)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Felonies (1986)(Ere Informatique)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipper (1984)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Flipper (1984)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Formule 1 (1987)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Formule 1 (1987)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fox (198x)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Fox (198x)(-)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frises (1985)(Cedic-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Frises (1985)(Cedic-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frontier (198x)(CDDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Frontier (198x)(CDDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game Over (1987)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Game Over (1987)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Geodyssee (198x)(Coktel Vision)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Geodyssee (198x)(Coktel Vision).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Geometrie (1985)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Geometrie (1985)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Geste d'Artillac, La (198x)(Infogrames)[b](Tape 1 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Geste d'Artillac, La (198x)(Infogrames)[b](Tape 1 of 3).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Geste d'Artillac, La (198x)(Infogrames)[b](Tape 2 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Geste d'Artillac, La (198x)(Infogrames)[b](Tape 2 of 3).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Geste d'Artillac, La (198x)(Infogrames)[b](Tape 3 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Geste d'Artillac, La (198x)(Infogrames)[b](Tape 3 of 3).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghostbuster (1989)(Christophe Lesur)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Ghostbuster (1989)(Christophe Lesur).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Golf (198x)(-)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Golf (198x)(-).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gravitron (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Gravitron (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gravitron (1985)(FIL)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Gravitron (1985)(FIL)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Green Berret (1986)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Green Berret (1986)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grignote 2, La (1989)(Remi Coulom)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Grignote 2, La (1989)(Remi Coulom)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grsang (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Grsang (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Histogra (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Histogra (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Histoire de France (198x)(MPS Diffusion)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Histoire de France (198x)(MPS Diffusion).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HMS Cobra (198x)(Cobra Soft)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\HMS Cobra (198x)(Cobra Soft).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Horloge (1984)(USTL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Horloge (1984)(USTL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Identif (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Identif (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Identif (198x)(-)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Identif (198x)(-)(PD)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Identite (1985)(USTL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Identite (1985)(USTL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Imperialis (198x)(Coktel Vision)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Imperialis (198x)(Coktel Vision).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Impri (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Impri (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Indiana Thom (198x)(Sprites)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Indiana Thom (198x)(Sprites).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Inequations (198x)(-)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Inequations (198x)(-).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Initiation aux Echecs (1984)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Initiation aux Echecs (1984)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Interieur Exterieur (198x)(Francoise Monnet)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Interieur Exterieur (198x)(Francoise Monnet).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Invasion des Chiffres, L' (198x)(Nathan Ecoles)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Invasion des Chiffres, L' (198x)(Nathan Ecoles).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Isabelle et le Dragon (198x)(Hebdogiciel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Isabelle et le Dragon (198x)(Hebdogiciel)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Island (1984)(Micro Application & Informatics)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Island (1984)(Micro Application & Informatics).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jauge (1984)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Jauge (1984)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jeu de Boole (198x)(Hatier)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Jeu de Boole (198x)(Hatier).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jeu de Dames Americain (1987)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Jeu de Dames Americain (1987)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jungle hero (198x)(SoftBook)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Jungle hero (198x)(SoftBook).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kanicula (1984)(To Tek)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Kanicula (1984)(To Tek).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Karate (198x)(Infogrames)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Karate (198x)(Infogrames)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Khronos (1986)(Coktel Vision)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Khronos (1986)(Coktel Vision).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krakout (1987)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Krakout (1987)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "labyrinthe (1986)(Daniel Coulom)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\labyrinthe (1986)(Daniel Coulom)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Labyrinthe Survie (1984)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Labyrinthe Survie (1984)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Liratt (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Liratt (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lirfic (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Lirfic (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lorann (198x)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Lorann (198x)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ludo OP1 (1985)(Edumicro)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Ludo OP1 (1985)(Edumicro).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Malediction de Thaar, La (1986)(Coktel Vision)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Malediction de Thaar, La (1986)(Coktel Vision).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maledizione di Thaar, La (1986)(Coktel Vision)(It)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Maledizione di Thaar, La (1986)(Coktel Vision)(It).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mandragore (1984)(Infogrames)[b](Tape 1 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mandragore (1984)(Infogrames)[b](Tape 1 of 3).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mandragore (1984)(Infogrames)[b](Tape 2 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mandragore (1984)(Infogrames)[b](Tape 2 of 3).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mandragore (1984)(Infogrames)[b](Tape 3 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mandragore (1984)(Infogrames)[b](Tape 3 of 3).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Marathon Cosmique (198x)(J. Campagne)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Marathon Cosmique (198x)(J. Campagne)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mcass (1985)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mcass (1985)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mdsk (1985)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mdsk (1985)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Megawatt (1987)(EDF)(Tape 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Megawatt (1987)(EDF)(Tape 1 of 2).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Megawatt (1987)(EDF)(Tape 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Megawatt (1987)(EDF)(Tape 2 of 2).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Melodimus (1984)(Logimus)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Melodimus (1984)(Logimus).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Melodimus (1984)(Logimus)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Melodimus (1984)(Logimus)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Memory (1985)(Daniel Coulom)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Memory (1985)(Daniel Coulom)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mes Premiers Mots Croises v1.1 (1983)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mes Premiers Mots Croises v1.1 (1983)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mes Premiers Mots Croises v1.2 (1983)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mes Premiers Mots Croises v1.2 (1983)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mes Premiers Mots Croises v1.2 (1983)(Vifi-Nathan)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mes Premiers Mots Croises v1.2 (1983)(Vifi-Nathan)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mesure du temps (1985)(Cedic-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mesure du temps (1985)(Cedic-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Meteo 7 (1984)(Infogrames)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Meteo 7 (1984)(Infogrames).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Micro scrabble (1985)(Leisure Genius)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Micro scrabble (1985)(Leisure Genius).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Microscillo (1984)(Infogrames)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Microscillo (1984)(Infogrames).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minidesa (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Minidesa (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minotaure 3d (1985)(Loriciels)[cr]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Minotaure 3d (1985)(Loriciels)[cr].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minotaure Educatif (1984)(Hatier)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Minotaure Educatif (1984)(Hatier).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minotaure Educatif (1984)(Hatier)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Minotaure Educatif (1984)(Hatier)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minotaure Educatif (1984)(Hatier)[a2]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Minotaure Educatif (1984)(Hatier)[a2].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mission en Rafale (1987)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mission en Rafale (1987)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mission pas Possible (198x)(Infogrames)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mission pas Possible (198x)(Infogrames).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mission U-72 (1986)(Hebdogiciel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mission U-72 (1986)(Hebdogiciel)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Modifatt (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Modifatt (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mon General (198x)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mon General (198x)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mongolfiere (1985)(Cedic-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mongolfiere (1985)(Cedic-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moniteur Pour MO5 (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Moniteur Pour MO5 (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monopolic (198x)(Free Game Blot)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Monopolic (198x)(Free Game Blot).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monopoly (198x)(Leisure Genius)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Monopoly (198x)(Leisure Genius).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster Mine (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Monster Mine (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monte Carlo (1984)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Monte Carlo (1984)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mot pour le Compte, Un (1983)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mot pour le Compte, Un (1983)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mpendu (1984)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Mpendu (1984)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Multiplication (1985)(Cedic-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Multiplication (1985)(Cedic-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Multiplications Casse-Tete (1984)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Multiplications Casse-Tete (1984)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Multiplications Casse-Tete (1984)(Vifi-Nathan)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Multiplications Casse-Tete (1984)(Vifi-Nathan)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Navire (1985)(USTL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Navire (1985)(USTL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nombre cache, Le (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Nombre cache, Le (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nuit des Templiers, La (1986)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Nuit des Templiers, La (1986)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Numero 10 (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Numero 10 (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Numero 10 (1985)(FIL)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Numero 10 (1985)(FIL)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Numero 10, Mexico 86 (1986)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Numero 10, Mexico 86 (1986)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ordidactic (1984)(Ere Informatique)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Ordidactic (1984)(Ere Informatique).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ordre de grandeur (198x)(Nathan Ecoles)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Ordre de grandeur (198x)(Nathan Ecoles).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Orthographe Lexicale (1984)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Orthographe Lexicale (1984)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-man (1986)(Theophile)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pac-man (1986)(Theophile).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pacman 2 (1985-98)(Remi Coulom)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pacman 2 (1985-98)(Remi Coulom)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pascal base v1.0 (1985)(Free Game Blot)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pascal base v1.0 (1985)(Free Game Blot).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pendu, Le (1982)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pendu, Le (1982)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phone8 (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Phone8 (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Picture Print (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Picture Print (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pilot et Pingo (198x)(Infogrames)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pilot et Pingo (198x)(Infogrames).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Planete Inconnue, La (198x)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Planete Inconnue, La (198x)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pluriel des Noms Simples (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pluriel des Noms Simples (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Plus Beau Puzzle, Le (1985)(Cedic-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Plus Beau Puzzle, Le (1985)(Cedic-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Politique Economique (1984)(Answare)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Politique Economique (1984)(Answare).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Popeye (1988)(Christophe Lesur)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Popeye (1988)(Christophe Lesur)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poseidon (1986)(Coktel Vision)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Poseidon (1986)(Coktel Vision).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poseidone (1986)(Coktel Vision)(It)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Poseidone (1986)(Coktel Vision)(It).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pour Vingt Millions de Dollars (198x)(SoftBook)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pour Vingt Millions de Dollars (198x)(SoftBook).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pourcentages (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pourcentages (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Premier pas vers le basic 1 (1984)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Premier pas vers le basic 1 (1984)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Premier pas vers le basic 2 (1984)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Premier pas vers le basic 2 (1984)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Preterit star (198x)(Hatier)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Preterit star (198x)(Hatier).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pro23 (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pro23 (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prologic (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Prologic (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Protege (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Protege (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Protege (198x)(-)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Protege (198x)(-)(PD)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puissance 4 (198x)(Remi Coulom)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Puissance 4 (198x)(Remi Coulom)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pulsar (1985)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Pulsar (1985)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quadrille (198x)(Francoise Monnet)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Quadrille (198x)(Francoise Monnet).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quaero (1985)(Hebdogiciel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Quaero (1985)(Hebdogiciel)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ranger des Nombres (1985)(Cedic-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Ranger des Nombres (1985)(Cedic-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Recherche Dans un Dictionnaire (198x)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Recherche Dans un Dictionnaire (198x)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renegade (1988)(Ocean)(Tape 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Renegade (1988)(Ocean)(Tape 1 of 2).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renegade (1988)(Ocean)(Tape 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Renegade (1988)(Ocean)(Tape 2 of 2).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Repere (1985)(USTL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Repere (1985)(USTL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resolution de Systemes d'Equations (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Resolution de Systemes d'Equations (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reverse (198x)(Sylvain Huet-Daniel Coulom)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Reverse (198x)(Sylvain Huet-Daniel Coulom)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Roger & Paulo (1985)(Infogrames)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Roger & Paulo (1985)(Infogrames)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Runway (1986)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Runway (1986)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Runway 2 (1986)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Runway 2 (1986)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rythmamus (1984)(Logimus)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Rythmamus (1984)(Logimus).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rythmamus (1984)(Logimus)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Rythmamus (1984)(Logimus)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sapiens (1986)(Loriciels)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Sapiens (1986)(Loriciels)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satel (1985)(CNDP)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Satel (1985)(CNDP).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sauts (198x)(Francoise Monnet)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Sauts (198x)(Francoise Monnet).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scrontch (1984)(Vifi-Nathan)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Scrontch (1984)(Vifi-Nathan)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scrutdsk (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Scrutdsk (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scrutdsk (198x)(-)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Scrutdsk (198x)(-)(PD)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scrutmo5 (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Scrutmo5 (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Securite sociale en jeu, La (198x)(-)(Fr-De)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Securite sociale en jeu, La (198x)(-)(Fr-De).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sich Vorstellen (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Sich Vorstellen (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sich Vorstellen (1985)(FIL)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Sich Vorstellen (1985)(FIL)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Signes Dans l'Espace, Des (1983)(Vifi-Nathan)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Signes Dans l'Espace, Des (1983)(Vifi-Nathan).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slap Fighter (1987)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Slap Fighter (1987)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spix (1984)(Infogrames)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Spix (1984)(Infogrames).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sport d'Ete (1988)(Wise Owl Software)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Sport d'Ete (1988)(Wise Owl Software).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Sar (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Star Sar (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stone Zone (198x)(SoftBook)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Stone Zone (198x)(SoftBook).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strip 21 (198x)(Patrick Lahbib)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Strip 21 (198x)(Patrick Lahbib)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Tennis (1985)(Answare)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Super Tennis (1985)(Answare).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "T2 (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\T2 (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taquin+ (1984)(To Tek)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Taquin+ (1984)(To Tek).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tarot (1986)(Daniel Coulom)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Tarot (1986)(Daniel Coulom)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Temple de Quauthli, Le (1986)(Loriciels)(Tape 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Temple de Quauthli, Le (1986)(Loriciels)(Tape 1 of 2).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Temple de Quauthli, Le (1986)(Loriciels)(Tape 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Temple de Quauthli, Le (1986)(Loriciels)(Tape 2 of 2).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thermometre (1985)(USTL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Thermometre (1985)(USTL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Third World War (198x)(Free Game Blot)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Third World War (198x)(Free Game Blot).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Top chrono (1985)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Top chrono (1985)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Top Chrono (1985)(Loriciels)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Top Chrono (1985)(Loriciels)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Top gun (1987)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Top gun (1987)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Torann (198x)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Torann (198x)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toutankhamon (1985)(No Man's Land)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Toutankhamon (1985)(No Man's Land).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Traitement de Texte (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Traitement de Texte (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tresor du Pirate (1984)(Free Game Blot)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Tresor du Pirate (1984)(Free Game Blot).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Triangle Quelconque (198x)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Triangle Quelconque (198x)(-)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tyrann (1985)(Loriciels)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Tyrann (1985)(Loriciels)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vampire (1986)(Infogrames)[b]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Vampire (1986)(Infogrames)[b].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vecteurs (1985)(USTL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Vecteurs (1985)(USTL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vol Solo (1985)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Vol Solo (1985)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Votez pour Moi (1985)(Answare)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Votez pour Moi (1985)(Answare).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vox (1984)(Ere Informatique)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Vox (1984)(Ere Informatique).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Voyage au Centre du MO5 (1985)(Hebdogiciel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Voyage au Centre du MO5 (1985)(Hebdogiciel)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Voyage au Centre du MO5 (1985)(Hebdogiciel)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Voyage au Centre du MO5 (1985)(Hebdogiciel)(PD)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wizball (1988)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Wizball (1988)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yahtzee (1986)(Hebdogiciel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Yahtzee (1986)(Hebdogiciel)(PD).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yeti (1984)(Loriciels)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Yeti (1984)(Loriciels).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yeti (1984)(Loriciels)[a]",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Yeti (1984)(Loriciels)[a].zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yie Ar Kung Fu 2 (1986)(FIL)",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\Yie Ar Kung Fu 2 (1986)(FIL).zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ_Martiens",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\ZZZ_Martiens.zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ_Vision1",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\ZZZ_Vision1.zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ_Vision2",
+      "path": "{gamesDir}\\TOSEC\\Thomson MO5 - Tapes (TOSEC-v0.30_CM)\\ZZZ_Vision2.zip",
+      "emulatorName": "MAME Thomson MO5 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

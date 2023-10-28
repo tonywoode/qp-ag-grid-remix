@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Grudge Match (Yankee Game Technology)",
+      "mameName": "grmatch",
+      "path": "{gamesDir}\\MAME\\ROMS\\grmatch.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Yankee Game Technology",
+      "year": "1989",
+      "gameType": "Sports / Wrestling",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

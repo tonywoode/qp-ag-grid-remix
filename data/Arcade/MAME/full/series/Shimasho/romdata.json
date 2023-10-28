@@ -1,0 +1,65 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Lovely Pop Mahjong JangJang Shimasho (Japan)",
+      "mameName": "janjans1",
+      "path": "{gamesDir}\\MAME\\ROMS\\janjans1.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Visco",
+      "year": "1996",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Lovely Pop Mahjong JangJang Shimasho 2 (Japan)",
+      "mameName": "janjans2",
+      "path": "{gamesDir}\\MAME\\ROMS\\janjans2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Visco",
+      "year": "2000",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Koi Koi Shimasho",
+      "mameName": "koikois",
+      "path": "{gamesDir}\\MAME\\ROMS\\koikois.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Visco",
+      "year": "1995",
+      "gameType": "Tabletop / Hanafuda",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Koi Koi Shimasho 2 - Super Real Hanafuda (Japan)",
+      "mameName": "koikois2",
+      "path": "{gamesDir}\\MAME\\ROMS\\koikois2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Visco",
+      "year": "1997",
+      "gameType": "Tabletop / Hanafuda * Mature *",
+      "rating": "90 to 100 (Best Games)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

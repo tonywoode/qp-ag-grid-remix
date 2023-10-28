@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Quiz Panicuru Fantasy",
+      "mameName": "quizpani",
+      "path": "{gamesDir}\\MAME\\ROMS\\quizpani.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "NMK",
+      "year": "1993",
+      "gameType": "Quiz / Japanese",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Space Attack / Head On",
+      "mameName": "sspacaho",
+      "path": "{gamesDir}\\MAME\\ROMS\\sspacaho.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1979",
+      "gameType": "Multiplay / Compilation",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

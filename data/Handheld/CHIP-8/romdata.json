@@ -1,0 +1,214 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "15 Puzzle (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\15PUZZLE.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blinky (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\BLINKY.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blitz (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\BLITZ.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Brix (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\BRIX.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Connect 4(Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\CONNECT4.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Guess (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\GUESS.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hidden (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\HIDDEN.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Invaders (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\INVADERS.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kaleid (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\KALEID.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maze (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\MAZE.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Merlin (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\MERLIN.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Missile (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\MISSILE.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\PONG.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong 2 (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\PONG2.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\PUZZLE.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Syzygy (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\SYZYGY.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tank (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\TANK.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\TETRIS.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tic Tac (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\TICTAC.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "UFO (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\UFO.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "V Brix (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\VBRIX.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vers (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\VERS.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wipeoff (Chip-8)",
+      "path": "{gamesDir}\\RetroArch Games\\chip-8 games\\WIPEOFF.ch8",
+      "emulatorName": "RetroArch Chip-8 (Emux)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

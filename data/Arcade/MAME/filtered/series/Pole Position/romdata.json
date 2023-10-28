@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Final Lap 2",
+      "mameName": "finalap2",
+      "path": "{gamesDir}\\MAME\\ROMS\\finalap2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1990",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Final Lap 3 (World, set 1)",
+      "mameName": "finalap3",
+      "path": "{gamesDir}\\MAME\\ROMS\\finalap3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1992",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Final Lap R (Rev. B)",
+      "mameName": "finalapr",
+      "path": "{gamesDir}\\MAME\\ROMS\\finalapr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1995",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Final Lap (Rev E)",
+      "mameName": "finallap",
+      "path": "{gamesDir}\\MAME\\ROMS\\finallap.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1987",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Pole Position (World)",
+      "mameName": "polepos",
+      "path": "{gamesDir}\\MAME\\ROMS\\polepos.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1982",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Pole Position II (Japan)",
+      "mameName": "polepos2",
+      "path": "{gamesDir}\\MAME\\ROMS\\polepos2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1983",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

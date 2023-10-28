@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Alien Challenge (World)",
+      "mameName": "aliencha",
+      "path": "{gamesDir}\\MAME\\ROMS\\aliencha.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Brave Blade (World)",
+      "mameName": "brvblade",
+      "path": "{gamesDir}\\MAME\\ROMS\\brvblade.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Eighting / Raizing",
+      "year": "2000",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Puzzle Break",
+      "mameName": "pzlbreak",
+      "path": "{gamesDir}\\MAME\\ROMS\\pzlbreak.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SemiCom / Tirano",
+      "year": "1997",
+      "gameType": "Puzzle / Misc.",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

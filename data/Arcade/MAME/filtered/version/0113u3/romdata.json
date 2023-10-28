@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bestri (Korea, set 1)",
+      "mameName": "bestri",
+      "path": "{gamesDir}\\MAME\\ROMS\\bestri.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "F2 System",
+      "year": "1998",
+      "gameType": "Multiplay / Compilation",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Guitar Freaks 2nd Mix Ver 1.01 (GQ883 VER. JAD)",
+      "mameName": "gtrfrk2m",
+      "path": "{gamesDir}\\MAME\\CHDs\\gtrfrk2m\\929jbb02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Rhythm / Instruments",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "SD Fighters (Korea)",
+      "mameName": "sdfight",
+      "path": "{gamesDir}\\MAME\\ROMS\\sdfight.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SemiCom / Tirano",
+      "year": "1996",
+      "gameType": "Fighter / Versus",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Wonder League Star - Sok-Magicball Fighting (Korea)",
+      "mameName": "wlstar",
+      "path": "{gamesDir}\\MAME\\ROMS\\wlstar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mijin",
+      "year": "1995",
+      "gameType": "Sports / Baseball",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

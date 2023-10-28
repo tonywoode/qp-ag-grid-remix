@@ -1,0 +1,80 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Air Trix (Rev A)",
+      "mameName": "airtrix",
+      "path": "{gamesDir}\\MAME\\ROMS\\airtrix.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2000",
+      "gameType": "Sports / Skateboarding",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Air Trix (original)",
+      "mameName": "airtrixo",
+      "parentName": "airtrix",
+      "path": "{gamesDir}\\MAME\\ROMS\\airtrix.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2000",
+      "gameType": "Sports / Skateboarding",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Top Skater (Export, Revision A)",
+      "mameName": "topskatr",
+      "path": "{gamesDir}\\MAME\\ROMS\\topskatr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1997",
+      "gameType": "Sports / Skateboarding",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Top Skater (Japan)",
+      "mameName": "topskatrj",
+      "parentName": "topskatr",
+      "path": "{gamesDir}\\MAME\\ROMS\\topskatr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1997",
+      "gameType": "Sports / Skateboarding",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Top Skater (USA, Revision A)",
+      "mameName": "topskatru",
+      "parentName": "topskatr",
+      "path": "{gamesDir}\\MAME\\ROMS\\topskatr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1997",
+      "gameType": "Sports / Skateboarding",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

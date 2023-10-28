@@ -1,0 +1,107 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Adresar",
+      "mameName": "adresar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\adresar.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "Ei Racunari",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bioritam",
+      "mameName": "bioritam",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\bioritam.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "Ei Racunari",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lavirint",
+      "mameName": "lavirint",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\lavirint.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "Ei Racunari",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lopov i Bankar",
+      "mameName": "lopovbnk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\lopovbnk.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "Ei Racunari",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Osvajaci Svemira",
+      "mameName": "osvajaci",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\osvajaci.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "Ei Racunari",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pecom Ratuje",
+      "mameName": "pecomrat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\pecomrat.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "Ei Racunari",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sam Svoj Kompozitor",
+      "mameName": "kompozit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\kompozit.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "Ei Racunari",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sljive",
+      "mameName": "sljive",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\sljive.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "Ei Racunari",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Suvi Ajnc",
+      "mameName": "suviajnc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\suviajnc.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "Ei Racunari",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Trka Konja",
+      "mameName": "trkakonj",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pecom_cass\\trkakonj.7z",
+      "emulatorName": "Retroarch Ei Nis Pecom 32 -SOFTLIST pecom_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

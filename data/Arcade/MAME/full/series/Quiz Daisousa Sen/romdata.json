@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Quiz Meitantei Neo & Geo - Quiz Daisousa Sen part 2 (NGM-042 ~ NGH-042)",
+      "mameName": "quizdai2",
+      "path": "{gamesDir}\\MAME\\ROMS\\quizdai2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1992",
+      "gameType": "Quiz / Japanese",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Quiz Daisousa Sen - The Last Count Down (NGM-023 ~ NGH-023)",
+      "mameName": "quizdais",
+      "path": "{gamesDir}\\MAME\\ROMS\\quizdais.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1991",
+      "gameType": "Quiz / Japanese",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Quiz Daisousa Sen - The Last Count Down (Korean release)",
+      "mameName": "quizdaisk",
+      "parentName": "quizdais",
+      "path": "{gamesDir}\\MAME\\ROMS\\quizdais.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1991",
+      "gameType": "Quiz / Japanese",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

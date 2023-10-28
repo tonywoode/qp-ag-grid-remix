@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Heavy Barrel (US)",
+      "mameName": "hbarrel",
+      "path": "{gamesDir}\\MAME\\ROMS\\hbarrel.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East USA",
+      "year": "1987",
+      "gameType": "Shooter / Walking",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Heavy Barrel (World)",
+      "mameName": "hbarrelw",
+      "parentName": "hbarrel",
+      "path": "{gamesDir}\\MAME\\ROMS\\hbarrel.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1987",
+      "gameType": "Shooter / Walking",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Midnight Resistance (World)",
+      "mameName": "midres",
+      "path": "{gamesDir}\\MAME\\ROMS\\midres.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1989",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Midnight Resistance (bootleg with 68705)",
+      "mameName": "midresb",
+      "parentName": "midres",
+      "path": "{gamesDir}\\MAME\\ROMS\\midres.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1989",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Midnight Resistance (Joystick bootleg)",
+      "mameName": "midresbj",
+      "parentName": "midres",
+      "path": "{gamesDir}\\MAME\\ROMS\\midres.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1989",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Midnight Resistance (Japan)",
+      "mameName": "midresj",
+      "parentName": "midres",
+      "path": "{gamesDir}\\MAME\\ROMS\\midres.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1989",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Midnight Resistance (US)",
+      "mameName": "midresu",
+      "parentName": "midres",
+      "path": "{gamesDir}\\MAME\\ROMS\\midres.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East USA",
+      "year": "1989",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Excite League (FD1094 317-0079)",
+      "mameName": "exctleag",
+      "path": "{gamesDir}\\MAME\\ROMS\\exctleag.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1988",
+      "gameType": "Sports / Baseball",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Major League",
+      "mameName": "mjleague",
+      "path": "{gamesDir}\\MAME\\ROMS\\mjleague.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1985",
+      "gameType": "Sports / Baseball",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super League (FD1094 317-0045)",
+      "mameName": "suprleag",
+      "path": "{gamesDir}\\MAME\\ROMS\\suprleag.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1987",
+      "gameType": "Sports / Baseball",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

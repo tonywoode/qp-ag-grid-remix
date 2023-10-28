@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gals Pinball",
+      "mameName": "galspnbl",
+      "path": "{gamesDir}\\MAME\\ROMS\\galspnbl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Comad",
+      "year": "1996",
+      "gameType": "Pinball * Mature *",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Hot Pinball",
+      "mameName": "hotpinbl",
+      "path": "{gamesDir}\\MAME\\ROMS\\hotpinbl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Comad & New Japan System",
+      "year": "1995",
+      "gameType": "Pinball * Mature *",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

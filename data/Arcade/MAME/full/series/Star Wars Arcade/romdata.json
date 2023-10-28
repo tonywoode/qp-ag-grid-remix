@@ -1,0 +1,64 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Star Wars Pod Racer",
+      "mameName": "podrace",
+      "path": "{gamesDir}\\MAME\\ROMS\\podrace.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2001",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Star Wars Arcade",
+      "mameName": "swa",
+      "path": "{gamesDir}\\MAME\\ROMS\\swa.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1993",
+      "gameType": "Shooter / Flying 1st Person",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Star Wars Trilogy (Revision A)",
+      "mameName": "swtrilgy",
+      "path": "{gamesDir}\\MAME\\ROMS\\swtrilgy.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega / LucasArts",
+      "year": "1998",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Star Wars Trilogy",
+      "mameName": "swtrilgya",
+      "parentName": "swtrilgy",
+      "path": "{gamesDir}\\MAME\\ROMS\\swtrilgy.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega / LucasArts",
+      "year": "1998",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

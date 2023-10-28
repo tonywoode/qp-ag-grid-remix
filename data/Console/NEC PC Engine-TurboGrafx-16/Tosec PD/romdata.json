@@ -1,0 +1,2831 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "1941 Counter Attack (SGX) Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\1941 Counter Attack (SGX) Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine SuperGrafx (Mednafen/Beetle SGX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1943 Kai Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\1943 Kai Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4 Seconds of Speech Sound Demo by Trilinear (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\4 Seconds of Speech Sound Demo by Trilinear (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "7 Wizards V0.7 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\7 Wizards V0.7 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aero Blasters Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Aero Blasters Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "After Burner II Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\After Burner II Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airman (Megaman2) Sound Demo by Trilinear (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Airman (Megaman2) Sound Demo by Trilinear (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Akumajou Dracula X2 Demo by Aramis (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Akumajou Dracula X2 Demo by Aramis (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Akumajou Dracula X2 Remix by Aramis (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Akumajou Dracula X2 Remix by Aramis (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aldynes (SGX) Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Aldynes (SGX) Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine SuperGrafx (Mednafen/Beetle SGX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Crush Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Alien Crush Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aoi (Blue) Blink Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Aoi (Blue) Blink Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atomic Robokid Special Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Atomic Robokid Special Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bari Bari Densetsu Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Bari Bari Densetsu Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Barunba Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Barunba Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batman Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Batman Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battle Ace (SGX) Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Battle Ace (SGX) Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine SuperGrafx (Mednafen/Beetle SGX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battle Lode Runner Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Battle Lode Runner Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Be Ball Backup RAM Generator (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Be Ball Backup RAM Generator (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Be Ball Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Be Ball Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Benkei Gaiden Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Benkei Gaiden Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blockos by Mooz (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Blockos by Mooz (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blodia Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Blodia Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bloody Wolf Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Bloody Wolf Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blox Graphics Slideshow (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Blox Graphics Slideshow (2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman '93 Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Bomberman '93 Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman '94 Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Bomberman '94 Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Backup RAM Generator (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Bomberman Backup RAM Generator (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Bomberman Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bouncing Ball Demo (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Bouncing Ball Demo (2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bouncing Ball Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Bouncing Ball Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bravoman Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Bravoman Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Break In Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Break In Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burning Angels Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Burning Angels Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cadash Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Cadash Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cart Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Cart Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Champion Wrestler Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Champion Wrestler Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chenille Demo by JyCet (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Chenille Demo by JyCet (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "City Bomber V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\City Bomber V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "City Bomber Vx.x (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\City Bomber Vx.x (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "City Hunter Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\City Hunter Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Collision 8 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Collision 8 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Coryoon Child of Dragon Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Coryoon Child of Dragon Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crash by Bt Gardner (Beta) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Crash by Bt Gardner (Beta) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crash by Bt Gardner (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Crash by Bt Gardner (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crash by Bt Gardner (Pre-Release) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Crash by Bt Gardner (Pre-Release) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crash by Bt Gardner V1.01 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Crash by Bt Gardner V1.01 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CubMan V1.0 by Aramis (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\CubMan V1.0 by Aramis (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyber Core Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Cyber Core Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyber Cross Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Cyber Cross Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyber Knight Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Cyber Knight Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dai Makai Mura (SGX) Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Dai Makai Mura (SGX) Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine SuperGrafx (Mednafen/Beetle SGX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Darius Plus Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Darius Plus Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Detana!! Twinbee Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Detana!! Twinbee Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Devil's Crush Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Devil's Crush Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digit Print Sample (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Digit Print Sample (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digital Champ Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Digital Champ Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Direct Pixel Plotter by Gravis Zero (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Direct Pixel Plotter by Gravis Zero (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Don Doko Don Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Don Doko Don Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon Meikyu Daisakusen Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Doraemon Meikyu Daisakusen Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Dungeons Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Double Dungeons Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Ring Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Double Ring Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Download Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Download Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon 2 Win (Felcia) Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Dragon 2 Win (Felcia) Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon 2 Win Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Dragon 2 Win Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Fighter Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Dragon Fighter Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Saber Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Dragon Saber Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Spirit Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Dragon Spirit Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon's Curse Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Dragon's Curse Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Drop Rock Hora Hora Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Drop Rock Hora Hora Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dungeon Explorer Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Dungeon Explorer Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eagan's Rendered Sprite Demo by Eagan Rackley (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Eagan's Rendered Sprite Demo by Eagan Rackley (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Energy Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Energy Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1 Circus '91 - World Championship Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\F1 Circus '91 - World Championship Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1 Circus '92 - The Speed of Sound Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\F1 Circus '92 - The Speed of Sound Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1 Circus Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\F1 Circus Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1 Triple Battle Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\F1 Triple Battle Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fantasy Zone Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Fantasy Zone Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Felicia Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Felicia Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fibonacci Demo (Older) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Fibonacci Demo (Older) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fibonacci Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Fibonacci Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fighting Run Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Fighting Run Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Blaster Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Final Blaster Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Lap Twin Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Final Lap Twin Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Match Tennis Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Final Match Tennis Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Soldier Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Final Soldier Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Pro Wrestling 2nd Bout Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Fire Pro Wrestling 2nd Bout Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Pro Wrestling 3 - Legend Bout Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Fire Pro Wrestling 3 - Legend Bout Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Pro Wrestling Combination Tag Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Fire Pro Wrestling Combination Tag Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FireTag Walking Demo V0.2 by Ozzy_98 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\FireTag Walking Demo V0.2 by Ozzy_98 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FireTag Walking Demo V0.3 by Ozzy_98 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\FireTag Walking Demo V0.3 by Ozzy_98 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipit by David Shadoff (Aug 07 2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Flipit by David Shadoff (Aug 07 2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipit by David Shadoff (Aug 12 2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Flipit by David Shadoff (Aug 12 2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipit by David Shadoff (Aug 17 2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Flipit by David Shadoff (Aug 17 2001) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipit by David Shadoff (Aug 19 2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Flipit by David Shadoff (Aug 19 2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipit by David Shadoff (Aug 27 2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Flipit by David Shadoff (Aug 27 2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipit by David Shadoff (Aug 31 2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Flipit by David Shadoff (Aug 31 2001) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FMV Demo by Ishan (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\FMV Demo by Ishan (PD) [a1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FMV Demo by Ishan (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\FMV Demo by Ishan (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FMV Test Demo by FagEmul (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\FMV Test Demo by FagEmul (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Formation Armed F Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Formation Armed F Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fractal Test Demo V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Fractal Test Demo V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fractal Test Demo Vx.x (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Fractal Test Demo Vx.x (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "French Staff V0.1 by FagEmul (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\French Staff V0.1 by FagEmul (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "French Staff V0.2 by FagEmul (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\French Staff V0.2 by FagEmul (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gai Flame Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Gai Flame Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga '88 Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga '88 Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Remix Demo 2 by Aramis (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Remix Demo 2 by Aramis (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Remix Demo by Aramis V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Remix Demo by Aramis V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Remix Demo by Aramis Vx.x (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Remix Demo by Aramis Vx.x (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Sound Rips V1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Sound Rips V1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Sound Rips V2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Sound Rips V2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Test Demo V0.01 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Test Demo V0.01 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Test Demo V0.02 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Test Demo V0.02 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Test Demo V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Test Demo V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Test Demo V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Test Demo V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga Test Demo V0.3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Galaga Test Demo V0.3 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game of Life (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Game of Life (PD) [a1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game of Life (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Game of Life (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ganbare! Golf Boys Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Ganbare! Golf Boys Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Genpei Tourmaden Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Genpei Tourmaden Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Genpei Tourmaden Volume 2 Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Genpei Tourmaden Volume 2 Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoldMage Build 01.07.31 Alpha by Trilinear (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\GoldMage Build 01.07.31 Alpha by Trilinear (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gomola Speed Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Gomola Speed Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gradius Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Gradius Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gunhed Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Gunhed Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hani in the Sky Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Hani in the Sky Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hani on the Road Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Hani on the Road Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HUC Scrolling Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\HUC Scrolling Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HuCnoid V0.1 by JyCet (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\HuCnoid V0.1 by JyCet (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HuCnoid V0.2 by JyCet (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\HuCnoid V0.2 by JyCet (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HuCnoid V0.3 by JyCet (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\HuCnoid V0.3 by JyCet (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hu-Go! Spinning Logo (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Hu-Go! Spinning Logo (PD) [a1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hu-Go! Spinning Logo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Hu-Go! Spinning Logo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hyperdyne Sidearms Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Hyperdyne Sidearms Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Image Fight Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Image Fight Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ishan's 2nd PCE Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Ishan's 2nd PCE Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jamanoid V.50 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Jamanoid V.50 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jamanoid V.60 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Jamanoid V.60 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jamanoid V.62 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Jamanoid V.62 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jamanoid V.63 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Jamanoid V.63 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jamanoid V.xx (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Jamanoid V.xx (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jimmu Densho Yaksa Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Jimmu Densho Yaksa Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jyuohki Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Jyuohki Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kaiser's Quest Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Kaiser's Quest Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kato Chan & Ken Chan Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Kato Chan & Ken Chan Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Katutobi Takuhai Kun Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Katutobi Takuhai Kun Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kiki Kai Kai Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Kiki Kai Kai Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Casino Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\King of Casino Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters 97 Artshow 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\King of Fighters 97 Artshow 1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters 97 Artshow 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\King of Fighters 97 Artshow 2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters 98 Artshow (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\King of Fighters 98 Artshow (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters '98 Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\King of Fighters '98 Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Knight Rider Special Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Knight Rider Special Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krunch V.08 by Frank Caputo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Krunch V.08 by Frank Caputo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krunch V0.2 by Frank Caputo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Krunch V0.2 by Frank Caputo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krunch V0.4 by Frank Caputo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Krunch V0.4 by Frank Caputo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krunch V0.8 by Frank Caputo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Krunch V0.8 by Frank Caputo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krunch V1.0 by Frank Caputo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Krunch V1.0 by Frank Caputo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kung Fu, The Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Kung Fu, The Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Hero Tonma Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Legend of Hero Tonma Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Zelda Title Screen (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Legend of Zelda Title Screen (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Link Collision By GravisZro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Link Collision By GravisZro (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Link Map Test Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Link Map Test Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Link Overworld Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Link Overworld Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Link Walking Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Link Walking Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Linkn Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Linkn Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Liquid Kids Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Liquid Kids Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Madoo Granzort (SGX) Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Madoo Granzort (SGX) Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine SuperGrafx (Mednafen/Beetle SGX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maerchen Maze Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Maerchen Maze Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magic PCE Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Magic PCE Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magic Team Demo 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Magic Team Demo 1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magic Team Demo 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Magic Team Demo 2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magical Chase Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Magical Chase Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Majin Eiyu Wataru Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Majin Eiyu Wataru Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Makai Hakkenden Shada Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Makai Hakkenden Shada Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mario Demo By Aramis (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Mario Demo By Aramis (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mario Remix 2001 V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Mario Remix 2001 V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mechanized Assault Unit - Valkrye (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Mechanized Assault Unit - Valkrye (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mesopotamia Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Mesopotamia Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MML Music - Boogi Bug (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\MML Music - Boogi Bug (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momo Tarou Densetsu Gaiden Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Momo Tarou Densetsu Gaiden Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momo Tarou Densetsu II Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Momo Tarou Densetsu II Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momo Tarou Densetsu Turbo II Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Momo Tarou Densetsu Turbo II Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momo Tarou Densetsu Turbo Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Momo Tarou Densetsu Turbo Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momo Tarou Katsu Geki Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Momo Tarou Katsu Geki Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster Pro Wrestling Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Monster Pro Wrestling Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Morita Shogi PC Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Morita Shogi PC Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moto Roader II Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Moto Roader II Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moto Roader Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Moto Roader Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr. Heli no Dai Bouken Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Mr. Heli no Dai Bouken Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Muchie (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Muchie (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Muchie Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Muchie Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Naxat Stadium Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Naxat Stadium Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Necros no Yousai Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Necros no Yousai Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nectaris Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Nectaris Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nekketsu Koukou Dodgeball Bu Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Nekketsu Koukou Dodgeball Bu Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia II Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Neutopia II Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Neutopia Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "New Adventure Island Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\New Adventure Island Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja Gaiden Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Ninja Gaiden Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja Spirit Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Ninja Spirit Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja Warriors, The Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Ninja Warriors, The Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Operation Wolf Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Operation Wolf Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Orbit by Bt Gardner (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Orbit by Bt Gardner (PD) [a1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Orbit by Bt Gardner (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Orbit by Bt Gardner (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ordyne Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Ordyne Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outlive Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Outlive Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "OutRun Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\OutRun Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Override Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Override Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "P-47 - The Freedom Fighter Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\P-47 - The Freedom Fighter Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Land Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pac-Land Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Palette Rotation Demo by Eagan Rackley (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Palette Rotation Demo by Eagan Rackley (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paranoia Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Paranoia Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Parasol Stars Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Parasol Stars Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Parodius Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Parodius Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pc Denjin - Punkic Cyborgs Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pc Denjin - Punkic Cyborgs Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pc Genjin 2 Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pc Genjin 2 Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pc Genjin 3 Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pc Genjin 3 Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pc Genjin Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pc Genjin Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PCE Invaders V0.9 by Zeograd (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\PCE Invaders V0.9 by Zeograd (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PCE Invaders V1.0 by Zeograd (PD) [T-French]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\PCE Invaders V1.0 by Zeograd (PD) [T-French].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PCE Invaders V1.0 by Zeograd (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\PCE Invaders V1.0 by Zeograd (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PCE Invaders Vx.x by Zeograd (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\PCE Invaders Vx.x by Zeograd (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phantasy Star Title Screen Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Phantasy Star Title Screen Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phantasy Star WIP Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Phantasy Star WIP Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Photograph Boy Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Photograph Boy Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ping Demo (04-07-2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Ping Demo (04-07-2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ping Demo (11-01-2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Ping Demo (11-01-2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong - The Hu-Go! Game (10-30-2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pong - The Hu-Go! Game (10-30-2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong - The Hu-Go! Game (4-28-2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pong - The Hu-Go! Game (4-28-2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong - The Hu-Go! Game (5-04-2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pong - The Hu-Go! Game (5-04-2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong - The Hu-Go! Game (8-17-2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pong - The Hu-Go! Game (8-17-2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong - The Hu-Go! Game (9-14-2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pong - The Hu-Go! Game (9-14-2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong Demo With Fractal (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pong Demo With Fractal (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong MML Hack - The Hu-Go! (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pong MML Hack - The Hu-Go! (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Populous Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Populous Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Drift Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Power Drift Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Golf Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Power Golf Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League II Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Power League II Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League III Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Power League III Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League IV Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Power League IV Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Power League Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League V Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Power League V Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League V Sound Rips 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Power League V Sound Rips 2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Sports Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Power Sports Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pro Yakyuu World Stadium Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Pro Yakyuu World Stadium Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Psycho Chaser Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Psycho Chaser Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzznic Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Puzznic Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rabio Lepus Special Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Rabio Lepus Special Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Racing Damashi Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Racing Damashi Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Raiden Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Raiden Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rally-X Test Move Car V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Rally-X Test Move Car V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rally-X Test Move Car V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Rally-X Test Move Car V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rally-X Test Move Car V0.3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Rally-X Test Move Car V0.3 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rally-X Test Scroll V0.01 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Rally-X Test Scroll V0.01 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rally-X Test Scroll V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Rally-X Test Scroll V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rally-X Test Scroll V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Rally-X Test Scroll V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Random Sprites by JyCet (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Random Sprites by JyCet (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Random Sprites by JyCet V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Random Sprites by JyCet V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RPG V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\RPG V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "RPG V0.3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\RPG V0.3 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RPG V0.4 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\RPG V0.4 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RPG V0.5 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\RPG V0.5 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RPG V0.6 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\RPG V0.6 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "R-Type II Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\R-Type II Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "R-Type Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\R-Type Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "S.C.I. - Special Criminal Investigation Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\S.C.I. - Special Criminal Investigation Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sadakichi Saban Hideyoshi no Ougon Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Sadakichi Saban Hideyoshi no Ougon Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Salamander Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Salamander Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scroll Demo V0.1 by David Michel (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Scroll Demo V0.1 by David Michel (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scroll Demo V0.2 by David Michel (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Scroll Demo V0.2 by David Michel (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scroll Map Demo V0.1 by FagEmul (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Scroll Map Demo V0.1 by FagEmul (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scroll Text Demo V0.1 by FagEmul (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Scroll Text Demo V0.1 by FagEmul (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shanghai Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Shanghai Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shinobi Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Shinobi Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shiryou Sensen Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Shiryou Sensen Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shoot Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Shoot Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Silent Debuggers, The Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Silent Debuggers, The Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 1 V0.1 (PD) [h1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 1 V0.1 (PD) [h1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 1 V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 1 V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 1 V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 1 V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 2 V0.1 (PD) [h1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 2 V0.1 (PD) [h1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 2 V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 2 V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 2 V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 2 V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 3 V0.1 (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 3 V0.1 (PD) [a1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 3 V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 3 V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 3 V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 3 V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 4 V0.1 (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 4 V0.1 (PD) [a1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 4 V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 4 V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 4 V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 4 V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 5 V0.1 (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 5 V0.1 (PD) [a1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 5 V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 5 V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 5 V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 5 V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 6 V0.1 (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 6 V0.1 (PD) [a1].pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 6 V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 6 V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show Part 6 V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Slide Show Part 6 V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "SlideShow (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\SlideShow (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Small Demo of Bomberman V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Small Demo of Bomberman V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Small Demo of Bomberman V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Small Demo of Bomberman V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soldier Blade Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Soldier Blade Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Son Son II Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Son Son II Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic 1 Green Hill Sound Demo by Trilinear (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Sonic 1 Green Hill Sound Demo by Trilinear (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soukoban World Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Soukoban World Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Harrier Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Space Harrier Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders Fukkatsu no Hi Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Space Invaders Fukkatsu no Hi Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spin Pair Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Spin Pair Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiral Wave Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Spiral Wave Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Splatterhouse Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Splatterhouse Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Springy Ball Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Springy Ball Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Starwave Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Starwave Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Fighter II Champion Edition Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Street Fighter II Champion Edition Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "String Print Sample (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\String Print Sample (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Fighter Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Super Fighter Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Metal Crusher Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Super Metal Crusher Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Star Soldier (J) Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Super Star Soldier (J) Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Star Soldier (U) Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Super Star Soldier (U) Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Volley Ball Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Super Volley Ball Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Susano Oh Densetsu Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Susano Oh Densetsu Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Takeda Shingen Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Takeda Shingen Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tank Demo V0.1 by David Michel (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tank Demo V0.1 by David Michel (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tatsujin Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tatsujin Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tenseiryu Saint Dragon Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tenseiryu Saint Dragon Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terra Cresta II Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Terra Cresta II Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris V0.0 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tetris V0.0 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tetris V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris V0.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tetris V0.2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris V0.3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tetris V0.3 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris V0.4 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tetris V0.4 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Text Sample 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Text Sample 1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Text Sample 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Text Sample 2 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thunder Blade Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Thunder Blade Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tiger Road Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tiger Road Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tiger Shark Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tiger Shark Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Time Cruise 2 Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Time Cruise 2 Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tower of Druaga, The Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Tower of Druaga, The Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Valkyrie no Densetsu Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Valkyrie no Densetsu Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Veigues Tactical Gladiator Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Veigues Tactical Gladiator Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vertical Scroll Text by Ishan V0.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Vertical Scroll Text by Ishan V0.1 (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vertical Scroll Text by Ishan Vx.x (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Vertical Scroll Text by Ishan Vx.x (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vertical Scroll Text with Fractal (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Vertical Scroll Text with Fractal (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Victory Run Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Victory Run Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vigilante Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Vigilante Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Violent Soldier Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Violent Soldier Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Walker Sprite Demo by Bt Garner (199x) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Walker Sprite Demo by Bt Garner (199x) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Walker Sprite Demo by Bt Garner (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Walker Sprite Demo by Bt Garner (2000) (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winning Shot Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Winning Shot Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wonder Momo Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Wonder Momo Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World Court Tennis Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\World Court Tennis Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Write Printing Sample Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Write Printing Sample Demo (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xevious Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Xevious Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Youkai Douchuuki Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Youkai Douchuuki Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zero 4 Champ Sound Rips (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\PCEngine_PDroms\\Zero 4 Champ Sound Rips (PD).pce",
+      "emulatorName": "RetroArch NEC PC Engine (Mednafen/Beetle PCE Fast)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

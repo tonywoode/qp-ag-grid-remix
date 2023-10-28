@@ -1,0 +1,2423 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "15 Puzzle 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\15 Puzzle 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "15 Puzzle 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\15 Puzzle 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "15 Puzzle 3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\15 Puzzle 3 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "15 Puzzle 4 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\15 Puzzle 4 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "2.68 MHz Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\2.68 MHz Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3D Stereo World - Find the Hidden Images (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\3D Stereo World - Find the Hidden Images (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adult Manga 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Adult Manga 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adult Manga 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Adult Manga 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airwolf 92 (PD) [h1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Airwolf 92 (PD) [h1].smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airwolf 92 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Airwolf 92 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alkaid Alpha Flight - Merry Christmas (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Alkaid Alpha Flight - Merry Christmas (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anarchy 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anarchy 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anarchy Logo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anarchy Logo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anarchy Scroller (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anarchy Scroller (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Angel Eyes (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Angel Eyes (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anime (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anime (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - 3d Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - 3d Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Bouncing Ball Trainer (Alternate Music) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Bouncing Ball Trainer (Alternate Music) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Bouncing Ball Trainer (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Bouncing Ball Trainer (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - C64 Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - C64 Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Christmas Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Christmas Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Gameboy Smart Card DOS for SWC DX (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Gameboy Smart Card DOS for SWC DX (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Hand Held Smart Card Multi-DOS (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Hand Held Smart Card Multi-DOS (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Mode 7 Interactive Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Mode 7 Interactive Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Mode 7 Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Mode 7 Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Mode 7 Trainer (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Mode 7 Trainer (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Plasma Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Plasma Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Rotating Mode 7 Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Rotating Mode 7 Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Sine-dot Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Sine-dot Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Slither Scroller Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Slither Scroller Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Starfield Trainer (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Starfield Trainer (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Text Scroller (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Text Scroller (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - The Raider Bros. Demo (Parallax) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - The Raider Bros. Demo (Parallax) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - The Raider Bros. Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - The Raider Bros. Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - The Raider Bros. Demo (Rotator) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - The Raider Bros. Demo (Rotator) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - The Raider Bros. Demo (Zoomer) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - The Raider Bros. Demo (Zoomer) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox - Wavy Scroller Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox - Wavy Scroller Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anthrox 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Anthrox 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astro Hawk (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Astro Hawk (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Axeley - First Swiss Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Axeley - First Swiss Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AYT BBS Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\AYT BBS Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AYT Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\AYT Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baseline - Simple Text Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Baseline - Simple Text Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baseline Trainer (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Baseline Trainer (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beauty Girl Slide Show 12 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Beauty Girl Slide Show 12 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bio Worm (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Bio Worm (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bling Blang Blong (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Bling Blang Blong (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blue Sky (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Blue Sky (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cadence BBS Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Cadence BBS Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CD - I (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\CD - I (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor - Follow the Leader (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Censor - Follow the Leader (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor - Sid Player Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Censor - Sid Player Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor - Wireframe Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Censor - Wireframe Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Censor 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Censor 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cobra Girls Vol. 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Cobra Girls Vol. 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Columns (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Columns (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Commander (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Commander (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Commodore 64 Collection (E) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Commodore 64 Collection (E) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Commodore 64 Collection (J) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Commodore 64 Collection (J) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Console Cat (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Console Cat (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Console Connections (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Console Connections (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Console Elite Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Console Elite Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Console Horizon 1996 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Console Horizon 1996 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Console Horizons - PlayXTR Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Console Horizons - PlayXTR Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Console Horizons Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Console Horizons Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Console Horizons Demo 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Console Horizons Demo 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Console World - Feb. '94 Charts (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Console World - Feb. '94 Charts (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Console World - Mar. '94 Charts (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Console World - Mar. '94 Charts (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copier - Backup Ad. (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Copier - Backup Ad. (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Copper Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Copper Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cream (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Cream (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crystal Anthraxus Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Crystal Anthraxus Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cynix 1st Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Cynix 1st Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cynix 2nd Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Cynix 2nd Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Danger Zone (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Danger Zone (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Danger Zone 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Danger Zone 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Darkness Dual Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Darkness Dual Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dennougai no Arukikata (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Dennougai no Arukikata (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Desire BBS Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Desire BBS Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Destero Porno (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Destero Porno (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Detonation Trainers 5-in-1 Pack (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Detonation Trainers 5-in-1 Pack (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diver (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Diver (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diver's Selection Vol.1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Diver's Selection Vol.1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diver's Selection Vol.2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Diver's Selection Vol.2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dousei (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Dousei (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dwarf (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Dwarf (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eagle Soft (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Eagle Soft (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ellen Chan Photo Session 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Ellen Chan Photo Session 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ellen Chan Photo Session 3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Ellen Chan Photo Session 3 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Emulation Camp Demo #1 - RSRSNES Advert (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Emulation Camp Demo #1 - RSRSNES Advert (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Emulation Camp Demo #2 - SNIDE Advert (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Emulation Camp Demo #2 - SNIDE Advert (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Evangelion Disk 00 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Evangelion Disk 00 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Evil (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Evil (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Few 256 Color Pics, A (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Few 256 Color Pics, A (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Insect (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Final Insect (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "First Drop (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\First Drop (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flex Scroller (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Flex Scroller (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flight 402 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Flight 402 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flying Saucer Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Flying Saucer Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frognes (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Frognes (PD).fig",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fuzzy Shooting (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Fuzzy Shooting (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game King - Takahashi Meijin Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Game King - Takahashi Meijin Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Goodbye, Anthrox (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Goodbye, Anthrox (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Graphic Show H.K. (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Graphic Show H.K. (PD).058",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Happy New Year 94 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Happy New Year 94 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Happy New Year 96 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Happy New Year 96 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hardcore Manga Slide Show (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Hardcore Manga Slide Show (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "H-DMA Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\H-DMA Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "H-DMA Fish Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\H-DMA Fish Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hentai Columns (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Hentai Columns (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hong Kong 97 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Hong Kong 97 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hot Teens Slideshow (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Hot Teens Slideshow (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hunters Demo, The (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Hunters Demo, The (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hysteria (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Hysteria (PD).fig",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Illusion - Hidden Surprise Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Illusion - Hidden Surprise Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Illusion Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Illusion Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Infernal Byte Systems - Zoom Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Infernal Byte Systems - Zoom Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Infernal's Evil Demo! (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Infernal's Evil Demo! (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Infinity Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Infinity Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Inquisition, The - Simple Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Inquisition, The - Simple Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Internal Byte Systems - Zoom 3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Internal Byte Systems - Zoom 3 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "International Console Service - Scroller (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\International Console Service - Scroller (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Intro-1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Intro-1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Intro-2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Intro-2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Intro-3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Intro-3 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Intro-4 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Intro-4 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Intro-5 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Intro-5 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Intro-6 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Intro-6 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Irokazu Koujyou 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Irokazu Koujyou 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jack Chou Picture Gallery (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Jack Chou Picture Gallery (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JAF & DH - Sleep City BBS Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\JAF & DH - Sleep City BBS Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Joystick Sampler with Still Picture (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Joystick Sampler with Still Picture (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jumyou Ga Chijimaru (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Jumyou Ga Chijimaru (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kamaitachi no Yoru (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kamaitachi no Yoru (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kami Demo 3 - Island Platformer (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kami Demo 3 - Island Platformer (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "KDD CG Collection (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\KDD CG Collection (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kid Icarus Angel Land Story (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kid Icarus Angel Land Story (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kim 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kim 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Knights of Xentar Slideshow (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Knights of Xentar Slideshow (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kuon no Kizuna 01 - Miki (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kuon no Kizuna 01 - Miki (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kuon no Kizuna 02 - Mio (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kuon no Kizuna 02 - Mio (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kuon no Kizuna 03 - Aya (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kuon no Kizuna 03 - Aya (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kuon no Kizuna 04 - Kikuno (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kuon no Kizuna 04 - Kikuno (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kuon no Kizuna 06 - Yasuko (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kuon no Kizuna 06 - Yasuko (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kuon no Kizuna 07 - Touko (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Kuon no Kizuna 07 - Touko (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lee's Album 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lee's Album 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lee's Album 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lee's Album 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend - SNDS Info, Incredible Hulk Walkthru (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Legend - SNDS Info, Incredible Hulk Walkthru (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend - SNDS Info, Spike McFang Walkthru (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Legend - SNDS Info, Spike McFang Walkthru (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Let's Go Freeze (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Let's Go Freeze (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Let's Go Freeze 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Let's Go Freeze 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Logic Entertainment - Parallel Playground (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Logic Entertainment - Parallel Playground (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lotto (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lotto (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynch Mob - Name of the Game (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lynch Mob - Name of the Game (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynch Mob - Scroller (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lynch Mob - Scroller (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynch Mob's Music Pack 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lynch Mob's Music Pack 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynch Mob's Music Pack 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lynch Mob's Music Pack 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynch Mob's Music Pack 3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lynch Mob's Music Pack 3 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynch Mob's Music Pack 4 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lynch Mob's Music Pack 4 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lynch Mob's Music Pack 5 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms1\\Lynch Mob's Music Pack 5 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magical - Pic Play (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Magical - Pic Play (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magical - Wavy Palm Trees Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Magical - Wavy Palm Trees Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magical Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Magical Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MagicMon (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\MagicMon (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magicode (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Magicode (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Markers (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Markers (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maze (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Maze (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mickey Madness Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Mickey Madness Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mighty Max Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Mighty Max Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Miracle - Wavy Scroller (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Miracle - Wavy Scroller (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mode 7 and Sprite Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Mode 7 and Sprite Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mode7 Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Mode7 Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Modular Escape (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Modular Escape (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mystic Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Mystic Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Napalm - Laughing Skull Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Napalm - Laughing Skull Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neon Genesis Evangelion Asuka Slideshow (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Neon Genesis Evangelion Asuka Slideshow (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neon Genesis Evangelion Slideshow E (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Neon Genesis Evangelion Slideshow E (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NESquik - New Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\NESquik - New Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NESquik - New Demo (PD) [o1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\NESquik - New Demo (PD) [o1].smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Netsex Slide Show #1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Netsex Slide Show #1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Netsex Slide Show #2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Netsex Slide Show #2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Netsex Slide Show #3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Netsex Slide Show #3 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nightfall - Party Slide Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Nightfall - Party Slide Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nights into Dreams Slideshow (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Nights into Dreams Slideshow (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nintendo Super Famicon 95 (Scrolling Clouds Kami Demo 2) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Nintendo Super Famicon 95 (Scrolling Clouds Kami Demo 2) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nuke (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Nuke (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Numbers Pirate BBS Ad (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Numbers Pirate BBS Ad (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Man (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Pac-Man (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paradox (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Paradox (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Party '92 Slide Show, The (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Party '92 Slide Show, The (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Party 4 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Party 4 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Photo Album of Xu Ruo Xuan (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Photo Album of Xu Ruo Xuan (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Plasma (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Plasma (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Pong (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Premiere - Dull Text Trainer (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Premiere - Dull Text Trainer (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Premiere - Rotating Logo Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Premiere - Rotating Logo Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Premiere Intro #2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Premiere Intro #2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prime (PD) (Beta)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Prime (PD) (Beta).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Puzzle (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quartex (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Quartex (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quartex - The Great Waldo Search Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Quartex - The Great Waldo Search Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quebecod BBS Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Quebecod BBS Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Queenie Manga SlideShow (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Queenie Manga SlideShow (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Qwertie's Mode 7 Test (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Qwertie's Mode 7 Test (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Qwertie's Test Cart (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Qwertie's Test Cart (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rape Games (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Rape Games (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rapid Fire Counter (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Rapid Fire Counter (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Red 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Red 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Red 3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Red 3 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Respect - Scrolling Trainer Template (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Respect - Scrolling Trainer Template (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rightworks Sig. CG-1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Rightworks Sig. CG-1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Riverse Kids (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Riverse Kids (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rock Fall (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Rock Fall (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RPG1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\RPG1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RTS - Mode 7 Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\RTS - Mode 7 Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RTS - Tracks Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\RTS - Tracks Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Running Long Jump (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Running Long Jump (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sabotage Music Sources (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Sabotage Music Sources (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sakura Wars (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Sakura Wars (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shock-01 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Shock-01 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shock-02 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Shock-02 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shoot (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Shoot (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shoot Your Load (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Shoot Your Load (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sidmania (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Sidmania (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sidmania (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Sidmania (PD) [a1].smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Siren Manga Volume 1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Siren Manga Volume 1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show 1 (AKA Graphic Show 2) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Slide Show 1 (AKA Graphic Show 2) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slide Show 2 (AKA Graphic Show) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Slide Show 2 (AKA Graphic Show) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SM Choukyousi Hitomi Test (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SM Choukyousi Hitomi Test (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SM Choukyousi Hitomi Vol 2 Remix (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SM Choukyousi Hitomi Vol 2 Remix (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SM Choukyousi Hitomi Vol 2 Trial (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SM Choukyousi Hitomi Vol 2 Trial (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SM Choukyousi Hitomi Vol 2.5 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SM Choukyousi Hitomi Vol 2.5 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SM Choukyousi Hitomi Vol 2.5 2 - Maki no Love Love Panic (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SM Choukyousi Hitomi Vol 2.5 2 - Maki no Love Love Panic (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SM Choukyousi Hitomi Vol 3 Test (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SM Choukyousi Hitomi Vol 3 Test (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SM Choukyousi Hitomi Vol 3.04 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SM Choukyousi Hitomi Vol 3.04 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SM Choukyousi Hitomi Vol 3.04 (PD) [f1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SM Choukyousi Hitomi Vol 3.04 (PD) [f1].smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SM Choukyousi Hitomi Vol 3.10 (PD) [f1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SM Choukyousi Hitomi Vol 3.10 (PD) [f1].smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smile Writer (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Smile Writer (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smile Writer (V1.1) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Smile Writer (V1.1) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smile! - Super Colors Beta (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Smile! - Super Colors Beta (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smile! Christmas Demo 1994 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Smile! Christmas Demo 1994 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snake Blasters (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Snake Blasters (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sneakers - Starfield Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Sneakers - Starfield Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sneakers - The Falling Leaves Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Sneakers - The Falling Leaves Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sneakers Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Sneakers Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNES Demo NOT (AKA Cynix is Back) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SNES Demo NOT (AKA Cynix is Back) (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNES Trainer Charts (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SNES Trainer Charts (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNES Type Font 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SNES Type Font 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNES Type Font 3 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SNES Type Font 3 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNES Wish (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SNES Wish (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNIDE - A Cow for Lil (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SNIDE - A Cow for Lil (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNIDE - Logo #1 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SNIDE - Logo #1 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNIDE - Logo #2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SNIDE - Logo #2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic Still Picture (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Sonic Still Picture (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SOS (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\SOS (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Ship (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Space Ship (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spc Explorer 95 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Spc Explorer 95 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spike Mix (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Spike Mix (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Wars Dark Force Slide Show (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Star Wars Dark Force Slide Show (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Wars Portfolio (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Star Wars Portfolio (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Static (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Static (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Gameboy Loader by Anthrox (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Super Gameboy Loader by Anthrox (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Ota Quiz (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Super Ota Quiz (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Pong (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Super Pong (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Street Fighter 2 - Turbo Picture Show (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Super Street Fighter 2 - Turbo Picture Show (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Syobo Syobo CG Collection (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Super Syobo Syobo CG Collection (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Swap Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Swap Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taurus Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Taurus Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teddy Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Teddy Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teddy Demo 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Teddy Demo 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tegami - A Letter #1 by Kami (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Tegami - A Letter #1 by Kami (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tekken 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Tekken 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Test - Frog Picture (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Test - Frog Picture (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Therapy Christmas Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Therapy Christmas Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Therapy Party Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Therapy Party Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thingy - Bogus (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Thingy - Bogus (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tic-Tac-Toe (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Tic-Tac-Toe (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tic-Tac-Toe - Test Version (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Tic-Tac-Toe - Test Version (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Titans Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Titans Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toc Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Toc Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toilet (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Toilet (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trendline - Flashing Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Trendline - Flashing Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TRSI Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\TRSI Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tut Sphere - Test Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Tut Sphere - Test Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tweetie Still Picture (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Tweetie Still Picture (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Unitrax - BBS Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Unitrax - BBS Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Unitrax Entertainment System Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Unitrax Entertainment System Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Unknown BBS Demo, The (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Unknown BBS Demo, The (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "View PCX - Fairlight DBM (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\View PCX - Fairlight DBM (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Voxel (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Voxel (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VSMC Beta Pre-Release (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\VSMC Beta Pre-Release (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VSMC System Explorer (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\VSMC System Explorer (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VSMC v0.70 Beta Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\VSMC v0.70 Beta Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Web Ring Intro (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Web Ring Intro (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "What A Chess (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\What A Chess (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wildcard (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Wildcard (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World of Manga 2 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\World of Manga 2 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "X-Mas (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\X-Mas (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "You Win! - Beautiful Girl Slideshow 9 (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\You Win! - Beautiful Girl Slideshow 9 (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zone (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Zone (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZOOM (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\ZOOM (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zophar's Domain Two Years Demo (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\snes_PDroms2\\Zophar's Domain Two Years Demo (PD).smc",
+      "emulatorName": "RetroArch Nintendo SNES/Super Famicom (Higan/nside)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

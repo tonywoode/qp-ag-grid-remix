@@ -1,0 +1,66 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "7 e Mezzo",
+      "mameName": "7mezzo",
+      "path": "{gamesDir}\\MAME\\ROMS\\7mezzo.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "gameType": "Casino / Cards",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Emeraldia (World)",
+      "mameName": "emeralda",
+      "path": "{gamesDir}\\MAME\\ROMS\\emeralda.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1993",
+      "gameType": "Puzzle / Drop",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Indiana Jones and the Temple of Doom (Cocktail)",
+      "mameName": "indytempc",
+      "parentName": "indytemp",
+      "path": "{gamesDir}\\MAME\\ROMS\\indytemp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1985",
+      "gameType": "Maze / Fighter",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Magic Fly",
+      "mameName": "magicfly",
+      "path": "{gamesDir}\\MAME\\ROMS\\magicfly.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "P&A Games",
+      "year": "198?",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dragon Saber (World, older?)",
+      "mameName": "dsabera",
+      "parentName": "dsaber",
+      "path": "{gamesDir}\\MAME\\ROMS\\dsaber.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1990",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dragon Saber (Japan, Rev B)",
+      "mameName": "dsaberj",
+      "parentName": "dsaber",
+      "path": "{gamesDir}\\MAME\\ROMS\\dsaber.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1990",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dragon Spirit (new version (DS3))",
+      "mameName": "dspirit",
+      "path": "{gamesDir}\\MAME\\ROMS\\dspirit.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1987",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Dragon Spirit (old version (DS1))",
+      "mameName": "dspirit1",
+      "parentName": "dspirit",
+      "path": "{gamesDir}\\MAME\\ROMS\\dspirit.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1987",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Dragon Spirit (DS2)",
+      "mameName": "dspirit2",
+      "parentName": "dspirit",
+      "path": "{gamesDir}\\MAME\\ROMS\\dspirit.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1987",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

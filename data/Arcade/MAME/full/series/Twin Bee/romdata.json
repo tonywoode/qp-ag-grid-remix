@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bells & Whistles (World, version L)",
+      "mameName": "blswhstl",
+      "path": "{gamesDir}\\MAME\\ROMS\\blswhstl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1991",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Bells & Whistles (Asia, version M)",
+      "mameName": "blswhstla",
+      "parentName": "blswhstl",
+      "path": "{gamesDir}\\MAME\\ROMS\\blswhstl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1991",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Detana!! Twin Bee (Japan, version J)",
+      "mameName": "detatwin",
+      "parentName": "blswhstl",
+      "path": "{gamesDir}\\MAME\\ROMS\\blswhstl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1991",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Twin Bee Yahhoo! (ver JAA)",
+      "mameName": "tbyahhoo",
+      "path": "{gamesDir}\\MAME\\ROMS\\tbyahhoo.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1995",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "TwinBee (ROM version)",
+      "mameName": "twinbee",
+      "path": "{gamesDir}\\MAME\\ROMS\\twinbee.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1985",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Search Eye (English / Korean)",
+      "mameName": "searcheya",
+      "parentName": "searchey",
+      "path": "{gamesDir}\\MAME\\ROMS\\searchey.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Yun Sung",
+      "year": "1999",
+      "gameType": "Puzzle / Misc.",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Search Eye Plus V2.0",
+      "mameName": "searchp2",
+      "path": "{gamesDir}\\MAME\\ROMS\\searchp2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Yun Sung",
+      "year": "1999",
+      "gameType": "Puzzle / Misc.",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

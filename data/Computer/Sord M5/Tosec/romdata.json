@@ -1,0 +1,103 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dragon Attack (1983)(Takara Ltd.)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Dragon Attack (1983)(Takara Ltd.).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fruit Search (1983)(Takara Ltd.)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Fruit Search (1983)(Takara Ltd.).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heavy Boxing (1983)(Takara Ltd.)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Heavy Boxing (1983)(Takara Ltd.).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pooyan (19xx)(Konami)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Pooyan (19xx)(Konami).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Real Tennis (1983)(Takara Ltd.)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Real Tennis (1983)(Takara Ltd.).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Step Up (1983)(Takara Ltd.)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Step Up (1983)(Takara Ltd.).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "8",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Cobra (19xx)(Konami)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Super Cobra (19xx)(Konami).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Up Up Balloon (1983)(Takara-Monkey Punch)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Up Up Balloon (1983)(Takara-Monkey Punch).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wonder Hole (1982)(Irem Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Wonder Hole (1982)(Irem Corp.).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Word Maze (19xx)(Sord)",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\Word Maze (19xx)(Sord).zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-GRC1_TANKBATT",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\ZZZ-UNK-GRC1_TANKBATT.zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-GRC3_GUTTANG",
+      "path": "{gamesDir}\\TOSEC\\Sord M5 (TOSEC-v0.10_CM)\\ZZZ-UNK-GRC3_GUTTANG.zip",
+      "emulatorName": "MAME Sord m.5 (Europe) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

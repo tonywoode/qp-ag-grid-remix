@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Fortress 2 Blue Arcade (ver 1.01 / pcb ver 3.05)",
+      "mameName": "fort2b",
+      "path": "{gamesDir}\\MAME\\ROMS\\fort2b.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Eolith",
+      "year": "2001",
+      "gameType": "Shooter / Command",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Hang Pilot (ver JAB)",
+      "mameName": "hangplt",
+      "path": "{gamesDir}\\MAME\\ROMS\\hangplt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1997",
+      "gameType": "Sports / Hang Gliding",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Ikari III - The Rescue (World, 8-Way Joystick)",
+      "mameName": "ikari3",
+      "path": "{gamesDir}\\MAME\\ROMS\\ikari3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Walking",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Thunder Cross (set 3)",
+      "mameName": "thunderxb",
+      "parentName": "thunderx",
+      "path": "{gamesDir}\\MAME\\ROMS\\thunderx.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1988",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

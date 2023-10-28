@@ -1,0 +1,123 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bust a Move 2 - Dance Tengoku Mix (Japanese ROM ver. 1999/07/17 10:00:00)",
+      "mameName": "bam2",
+      "path": "{gamesDir}\\MAME\\CHDs\\bam2\\bam2.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Metro / Enix / Namco",
+      "year": "1999",
+      "gameType": "Rhythm / Dance",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Hanabi de Doon! - Don-chan Puzzle",
+      "mameName": "doncdoon",
+      "path": "{gamesDir}\\MAME\\ROMS\\doncdoon.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aruze",
+      "year": "2003",
+      "gameType": "Puzzle / Match",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Galaxi (v2.0)",
+      "mameName": "galaxi",
+      "path": "{gamesDir}\\MAME\\ROMS\\galaxi.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "B.R.L.",
+      "year": "2000",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Hi Pai Paradise",
+      "mameName": "hipai",
+      "path": "{gamesDir}\\MAME\\ROMS\\hipai.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aruze / Seta",
+      "year": "2003",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Killer Instinct 2 (v1.3k, upgrade kit)",
+      "mameName": "kinst2k3",
+      "parentName": "kinst2",
+      "path": "{gamesDir}\\MAME\\CHDs\\kinst2\\kinst2.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Rare",
+      "year": "1995",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Kurukuru Fever",
+      "mameName": "kurufev",
+      "path": "{gamesDir}\\MAME\\ROMS\\kurufev.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aruze / Takumi",
+      "year": "2003",
+      "gameType": "Puzzle / Drop",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Mayjinsen 3",
+      "mameName": "mayjin3",
+      "path": "{gamesDir}\\MAME\\ROMS\\mayjin3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seta / Able Corporation",
+      "year": "2000",
+      "gameType": "Tabletop / Shougi",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Pool 10 (Italian, set 3)",
+      "mameName": "pool10c",
+      "parentName": "pool10",
+      "path": "{gamesDir}\\MAME\\ROMS\\pool10.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "C.M.C.",
+      "year": "1996",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

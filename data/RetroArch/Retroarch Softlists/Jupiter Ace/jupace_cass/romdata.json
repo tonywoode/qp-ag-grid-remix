@@ -1,0 +1,18 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Snake + Superbat",
+      "mameName": "m_snake",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\jupace_cass\\m_snake.7z",
+      "emulatorName": "Retroarch Jupiter Ace -SOFTLIST jupace_cass (MAME)",
+      "companyName": "Waylandsoft",
+      "year": "1985",
+      "comment": " part_id:Side A (Snake),part_id:Side A (Superbat)",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

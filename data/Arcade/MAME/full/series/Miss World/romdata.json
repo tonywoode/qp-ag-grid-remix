@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Miss World 2002",
+      "mameName": "missw02",
+      "path": "{gamesDir}\\MAME\\ROMS\\missw02.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Daigom",
+      "year": "2002",
+      "gameType": "Puzzle / Outline * Mature *",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Miss World '96 (Nude) (C-3000A PCB, set 1)",
+      "mameName": "missw96",
+      "path": "{gamesDir}\\MAME\\ROMS\\missw96.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Comad",
+      "year": "1996",
+      "gameType": "Puzzle / Outline * Mature *",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Miss World '96 (Nude) (C-3000A PCB, set 2)",
+      "mameName": "missw96a",
+      "parentName": "missw96",
+      "path": "{gamesDir}\\MAME\\ROMS\\missw96.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Comad",
+      "year": "1996",
+      "gameType": "Puzzle / Outline * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Miss World '96 (Nude) (C-3000A PCB, set 3)",
+      "mameName": "missw96b",
+      "parentName": "missw96",
+      "path": "{gamesDir}\\MAME\\ROMS\\missw96.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Comad",
+      "year": "1996",
+      "gameType": "Puzzle / Outline * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Miss World '96 (Nude) (C-3000B PCB)",
+      "mameName": "missw96c",
+      "parentName": "missw96",
+      "path": "{gamesDir}\\MAME\\ROMS\\missw96.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Comad",
+      "year": "1996",
+      "gameType": "Puzzle / Outline * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Pop'n Stage (ver JB-A)",
+      "mameName": "popnstage",
+      "path": "{gamesDir}\\MAME\\CHDs\\popnstage\\970jba11.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Rhythm / Misc.",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

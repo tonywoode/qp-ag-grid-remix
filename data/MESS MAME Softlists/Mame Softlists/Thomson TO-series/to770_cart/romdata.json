@@ -1,0 +1,17 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "BASIC 128 (v1.0)",
+      "mameName": "basic128",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to770_cart\\basic128.7z",
+      "emulatorName": "MAME Thomson TO7/70 -SOFTLIST to770_cart",
+      "companyName": "Thomson",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

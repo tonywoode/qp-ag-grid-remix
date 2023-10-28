@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Crazy War",
+      "mameName": "crazywar",
+      "path": "{gamesDir}\\MAME\\ROMS\\crazywar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Eolith",
+      "year": "2002",
+      "gameType": "Maze / Digging",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dancing Stage featuring TRUE KiSS DESTiNATiON (G*884 VER. JAA)",
+      "mameName": "dsftkd",
+      "path": "{gamesDir}\\MAME\\CHDs\\dsftkd\\884jaa02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Rhythm / Dance",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Salary Man Champ (GCA18 VER. JAA)",
+      "mameName": "salarymc",
+      "path": "{gamesDir}\\MAME\\CHDs\\salarymc\\a18jaa02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Multiplay / Mini-Games",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    }
+  ]
+}

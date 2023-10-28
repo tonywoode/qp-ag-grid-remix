@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Crystal Gal 2 (Japan 860620)",
+      "mameName": "crystal2",
+      "path": "{gamesDir}\\MAME\\ROMS\\crystal2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1986",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Crystal Gal (Japan 860512)",
+      "mameName": "crystalg",
+      "path": "{gamesDir}\\MAME\\ROMS\\crystalg.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1986",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

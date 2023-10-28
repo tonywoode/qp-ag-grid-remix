@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "B.Rap Boys (World)",
+      "mameName": "brapboys",
+      "path": "{gamesDir}\\MAME\\ROMS\\brapboys.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Red Earth (Euro 961121)",
+      "mameName": "redearth",
+      "path": "{gamesDir}\\MAME\\CHDs\\redearth\\cap-wzd-5.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1996",
+      "gameType": "Fighter / Versus Co-op",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Street Fighter III 2nd Impact: Giant Attack (USA 970930)",
+      "mameName": "sfiii2",
+      "path": "{gamesDir}\\MAME\\CHDs\\sfiii2\\cap-3ga000.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1997",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

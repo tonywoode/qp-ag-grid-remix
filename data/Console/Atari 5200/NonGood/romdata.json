@@ -1,0 +1,2063 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "5200 Game Release #1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\5200 Game Release #1.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "5200 Game Release #4",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\5200 Game Release #4.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "5200_JrPac_throttle",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\5200_JrPac_throttle.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "5200_MsPac_throttle",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\5200_MsPac_throttle.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "5200_SuperPacMan",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\5200_SuperPacMan.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Activision Decathlon",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Activision Decathlon.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "adv2demo final 2007-01-19",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\adv2demo final 2007-01-19.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventure II - limited-play demo of Adventure II as it was shown at the Oklahoma Video Game Expo 2005",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Adventure II - limited-play demo of Adventure II as it was shown at the Oklahoma Video Game Expo 2005.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventure II demo 01-2006",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Adventure II demo 01-2006.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventure II demo 11-2005",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Adventure II demo 11-2005.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventure II Philly Classic 5 demo A5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Adventure II Philly Classic 5 demo A5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "analog5200 v2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\analog5200 v2.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Archon (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Archon (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Asteroids_VE_Revision_2__Atari_5200_",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Asteroids_VE_Revision_2__Atari_5200_.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BCs Quest For Tires (XL Conversion) selfpublished",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\BCs Quest For Tires (XL Conversion) selfpublished.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef Drop 5200 demo (20040805)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef Drop 5200 demo (20040805).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef Drop 5200 demo (20040811)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef Drop 5200 demo (20040811).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef Drop Plus - The Return of Peter Pepper_demo",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef Drop Plus - The Return of Peter Pepper_demo.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef Drop Plus - The Return of Peter Pepper_demo2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef Drop Plus - The Return of Peter Pepper_demo2.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef Drop Plus - The Return of Peter Pepper_demo3",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef Drop Plus - The Return of Peter Pepper_demo3.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef Drop Plus - The Return of Peter Pepper_demo4",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef Drop Plus - The Return of Peter Pepper_demo4.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef_Drop__fixed_level3",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef_Drop__fixed_level3.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef_Drop__fixed_level3_",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef_Drop__fixed_level3_.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef_Drop__fixed_level3_new",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef_Drop__fixed_level3_new.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beef_Drop_5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Beef_Drop_5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blaster 5200 (Proto)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Blaster 5200 (Proto).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "blaster32_5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\blaster32_5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blueprint (1982)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Blueprint (1982).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bounty Bob Strikes Back! (U) [a1]",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Bounty Bob Strikes Back! (U) [a1].zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bounty Bob Strikes Back!",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Bounty Bob Strikes Back!.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "BurgerTime 5200 (early version)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\BurgerTime 5200 (early version).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040403",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040403.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040408",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040408.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040422",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040422.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040424",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040424.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040428",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040428.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040504",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040504.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040507",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040507.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040515",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040515.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040516",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040516.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040519",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040519.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040526",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040526.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040603",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040603.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040623",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040623.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040624",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040624.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040625",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040625.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040627",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040627.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040714",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040714.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040715",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040715.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgetime 5200 20040727",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Burgetime 5200 20040727.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buried Bucks (XL Conversion)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Buried Bucks (XL Conversion).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Captain Beeble 5200 (New) Conversion by Kenfuzed (2004) (InHome Software)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Captain Beeble 5200 (New) Conversion by Kenfuzed (2004) (InHome Software).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castle Crisis (2004) (AtariAge) (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Castle Crisis (2004) (AtariAge) (PD).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Caverns of Mars (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Caverns of Mars (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Championship Lode Runner (2000) (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Championship Lode Runner (2000) (PD).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chess (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Chess (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "chess5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\chess5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "chicken",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\chicken.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cosmi5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\cosmi5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "crazyotto(beta1)(32k)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\crazyotto(beta1)(32k).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "crazyotto(beta1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\crazyotto(beta1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "crystal castles (conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\crystal castles (conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diagnostic11",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Diagnostic11.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dk52(green)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Dk52(green).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dkong52",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\dkong52.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Donkey Kong (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong Jr (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Donkey Kong Jr (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "freecell",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\freecell.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger nobutton",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Frogger nobutton.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galactic Chase",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Galactic Chase.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gateway to Apshai (2006)(classics)[selfpublished]",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Gateway to Apshai (2006)(classics)[selfpublished].zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gorfdigj",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\gorfdigj.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gyruss (autofire hack)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Gyruss (autofire hack).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "H.E.R.O",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\H.E.R.O.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hang 5200 (32kb)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hang 5200 (32kb).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hang 5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hang 5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 32k version",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 32k version.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 5200 (0.1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 5200 (0.1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 5200 (0.2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 5200 (0.2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 5200 (0.3)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 5200 (0.3).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 5200 (0.4)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 5200 (0.4).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 5200 (0.5) Complete with 2nd maze",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 5200 (0.5) Complete with 2nd maze.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 5200 (0.5)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 5200 (0.5).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 5200 (RC1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 5200 (RC1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 5200 32k version (0.5) Complete with 2nd maze",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 5200 32k version (0.5) Complete with 2nd maze.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hangly-Man 5200 32k version Complete with 2nd maze",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Hangly-Man 5200 32k version Complete with 2nd maze.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HanglymanPlus(vs1)(chaser_eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\HanglymanPlus(vs1)(chaser_eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HanglymanPlus(vs1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\HanglymanPlus(vs1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HanglymanPlus(Vs2)(chaser_eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\HanglymanPlus(Vs2)(chaser_eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HanglymanPlus(Vs2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\HanglymanPlus(Vs2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "hanglypollux",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\hanglypollux.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HanglyPolluxPlus(vs2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\HanglyPolluxPlus(vs2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HanglyPolluxPlus(vs2a)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\HanglyPolluxPlus(vs2a).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "hanglypolluxplus32k",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\hanglypolluxplus32k.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "jmjr5200b",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\jmjr5200b.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jumpman Jr (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Jumpman Jr (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jumpong v2 (2004)(James Higgs)(PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Jumpong v2 (2004)(James Higgs)(PD).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kaboom no 1812 overture",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Kaboom no 1812 overture.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lake 5 by Jeffry Johnston (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Lake 5 by Jeffry Johnston (PD).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lake 7 by Jeffry Johnston (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Lake 7 by Jeffry Johnston (PD).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lake 8 by Jeffry Johnston (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Lake 8 by Jeffry Johnston (PD).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "menu",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\menu.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "menu_wish_list_5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\menu_wish_list_5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Missile Command 5200 (4482) (PAL) (Proto)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Missile Command 5200 (4482) (PAL) (Proto).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Missile Command 5200 Hack",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Missile Command 5200 Hack.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "missile",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\missile.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MULE (USB Cart Only, Bank #126)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\MULE (USB Cart Only, Bank #126).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MULE (USB Cart Only, Bank #127)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\MULE (USB Cart Only, Bank #127).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Otto_5200_throttle (32k)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Otto_5200_throttle (32k).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Otto_5200_throttle",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Otto_5200_throttle.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.1 (32kb)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.1 (32kb).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.1.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.2 (32kb)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.2 (32kb).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.2.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.3 (32kb)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.3 (32kb).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.3",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.3.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.4 (32kb)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.4 (32kb).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.4",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.4.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.5 (32kb)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.5 (32kb).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.5 fixed (32kb)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.5 fixed (32kb).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.5 fixed",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.5 fixed.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Plus 5200 v0.5",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac Plus 5200 v0.5.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac_Pollux_5200_Ver_.1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac_Pollux_5200_Ver_.1.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac_Pollux_5200_Ver_.95",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac_Pollux_5200_Ver_.95.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac_Pollux_5200_Ver_1.0",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac_Pollux_5200_Ver_1.0.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac_Pollux_Ver1.0_bugfix_4_Kat5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pac_Pollux_Ver1.0_bugfix_4_Kat5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pacfx32k(chaser_eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pacfx32k(chaser_eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pacfx32k(ghost-eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pacfx32k(ghost-eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pacman(chaser_eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pacman(chaser_eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pacman(ghost-eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pacman(ghost-eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pacmanplus(32k)(chaser_eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pacmanplus(32k)(chaser_eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pacmanplus(32k)(ghost-eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pacmanplus(32k)(ghost-eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pacmanplus(chaser_eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pacmanplus(chaser_eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pacmanplus(ghost-eyes)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pacmanplus(ghost-eyes).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pacpolluxplus",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pacpolluxplus.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pacpolluxplus_bugfix_4_Kat5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pacpolluxplus_bugfix_4_Kat5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pasthip",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pasthip.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs1 (32k)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs1 (32k).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs1(no monkey)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs1(no monkey).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs1.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs2 (32k)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs2 (32k).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs2.1 (32k)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs2.1 (32k).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs2.1",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs2.1.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs2.2 (32k)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs2.2 (32k).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs2.2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs2.2.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs2.3 (32k)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs2.3 (32k).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs2.3",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs2.3.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PiratePete_vs2.bin",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PiratePete_vs2.bin.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pitfall (classics fix)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\pitfall (classics fix).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitfall!",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pitfall!.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitfall_II_level2_start__32k_",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pitfall_II_level2_start__32k_.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PolePosition(Fuji)(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PolePosition(Fuji)(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PolePosition(Fuji)(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PolePosition(Fuji)(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PolePosition(Fuji)(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PolePosition(Fuji)(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PolePosition(Fuji)(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PolePosition(Fuji)(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PolePosition(Fuji)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PolePosition(Fuji).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PolePosition(Track_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PolePosition(Track_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PolePosition(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PolePosition(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PolePosition(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PolePosition(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PolePosition(Tread_C)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PolePosition(Tread_C).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PONG_5200__EPROM_32k_",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PONG_5200__EPROM_32k_.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PONG_PATCHED",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\PONG_PATCHED.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong5 (2000) (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Pong5 (2000) (PD).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Preppie (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Preppie (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Preppie 5200 (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Preppie 5200 (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Q-bert",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Q-bert.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rally speedway (2006)(classics)[self-published]",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\rally speedway (2006)(classics)[self-published].zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rast5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\rast5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Real Sports Basketball 5200 Final",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Real Sports Basketball 5200 Final.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Real Sports Basketball 5200 Rev 1 (Proto)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Real Sports Basketball 5200 Rev 1 (Proto).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RealsportsBasketballRev1fixed",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\RealsportsBasketballRev1fixed.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RMT demo 5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\RMT demo 5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satans Hollow (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Satans Hollow (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snow5200(32k)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Snow5200(32k).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (1980) 32k",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (1980) 32k.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (1980)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (1980).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (DX) bw-g",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (DX) bw-g.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (DX) bw-r",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (DX) bw-r.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (DX)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (DX).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (LS) 32k",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (LS) 32k.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (LS)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (LS).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (SB) 32k",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (SB) 32k.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (SB) b 32k",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (SB) b 32k.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (SB) b",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (SB) b.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders (SB)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders (SB).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders Arcade (new)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders Arcade (new).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders Arcade",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Space Invaders Arcade.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy Hunter (XL Conversion)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Spy Hunter (XL Conversion).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Raiders 5200 (22383) (PAL) (Proto)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Star Raiders 5200 (22383) (PAL) (Proto).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Bros (1985) (Nintendo)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Super Mario Bros (1985) (Nintendo).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Pac Man Final (XL)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Super Pac Man Final (XL).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "super pac-man 32k 2007-04-08",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\super pac-man 32k 2007-04-08.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super_Pac_Man__Adj.Bluetime__32k_",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Super_Pac_Man__Adj.Bluetime__32k_.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super_Pac_Man__Adj.Bluetime_2_chip_image_",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Super_Pac_Man__Adj.Bluetime_2_chip_image_.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Superfly 5200",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Superfly 5200.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "superfly5200(2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\superfly5200(2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tapper (Conv)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Tapper (Conv).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tapper",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\tapper.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "test demo version",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\test demo version.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris (2000) (PD)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Tetris (2000) (PD).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "timerun52",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\timerun52.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer10(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer10(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer10(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer10(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer10(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer10(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer10(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer10(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer10",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer10.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer2(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer2(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer2(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer2(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer2(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer2(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer2(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer2(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer2",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer2.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer3(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer3(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer3(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer3(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer3(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer3(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer3(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer3(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer3",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer3.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer4(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer4(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer4(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer4(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer4(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer4(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer4(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer4(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer4",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer4.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer5(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer5(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer5(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer5(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer5(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer5(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer5(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer5(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer5",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer5.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer6(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer6(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer6(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer6(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer6(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer6(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer6(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer6(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer6",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer6.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer7(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer7(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer7(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer7(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer7(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer7(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer7(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer7(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer7",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer7.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer8(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer8(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer8(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer8(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer8(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer8(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer8(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer8(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer8",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer8.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer9(speedup1)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer9(speedup1).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer9(speedup2)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer9(speedup2).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer9(Tread_A)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer9(Tread_A).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer9(Tread_B)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer9(Tread_B).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TopRacer9",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\TopRacer9.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tr52",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\tr52.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xagon (XL Conversion)",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Xagon (XL Conversion).zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "XEGS Bounty Bob Strikes Back",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\XEGS Bounty Bob Strikes Back.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "xmas",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\xmas.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "xmas5200 updated",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\xmas5200 updated.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zaxxon",
+      "path": "{gamesDir}\\NONGOOD\\NonGood Atari Sets\\NonGood5200\\Zaxxon.zip",
+      "emulatorName": "MAME Atari 5200 -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

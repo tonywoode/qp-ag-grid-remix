@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Guitar Freaks 2nd Mix Ver 1.01 (GQ883 VER. JAD)",
+      "mameName": "gtrfrk2m",
+      "path": "{gamesDir}\\MAME\\CHDs\\gtrfrk2m\\929jbb02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Rhythm / Instruments",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Guitar Freaks (GQ886 VER. EAC)",
+      "mameName": "gtrfrks",
+      "path": "{gamesDir}\\MAME\\CHDs\\gtrfrks\\886__c02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Rhythm / Instruments",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

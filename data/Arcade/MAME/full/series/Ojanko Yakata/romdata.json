@@ -1,0 +1,49 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Ojanko Yakata 2bankan (Japan)",
+      "mameName": "ojanko2",
+      "path": "{gamesDir}\\MAME\\ROMS\\ojanko2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "V-System Co.",
+      "year": "1987",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Ojanko High School (Japan)",
+      "mameName": "ojankohs",
+      "path": "{gamesDir}\\MAME\\ROMS\\ojankohs.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "V-System Co.",
+      "year": "1988",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Ojanko Yakata (Japan)",
+      "mameName": "ojankoy",
+      "path": "{gamesDir}\\MAME\\ROMS\\ojankoy.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "V-System Co.",
+      "year": "1986",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bomber Man World / New Dyna Blaster - Global Quest",
+      "mameName": "bbmanw",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbmanw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1992",
+      "gameType": "Maze",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Dynablaster / Bomber Man",
+      "mameName": "dynablst",
+      "path": "{gamesDir}\\MAME\\ROMS\\dynablst.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem (licensed from Hudson Soft)",
+      "year": "1991",
+      "gameType": "Maze",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Neo Bomberman",
+      "mameName": "neobombe",
+      "path": "{gamesDir}\\MAME\\ROMS\\neobombe.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Hudson",
+      "year": "1997",
+      "gameType": "Maze",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

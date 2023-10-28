@@ -1,0 +1,751 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "A Bird & A Sign (WIP)  2010-11-02",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\A Bird & A Sign (WIP)  2010-11-02.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BLOX 2 (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\BLOX 2 (PD).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bound High! (JU) [!]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Bound High! (JU) [!].zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bound High! [b1] [gccVB] (JU)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Bound High! [b1] [gccVB] (JU).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bound High! [b2] [VUCC] (JU)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Bound High! [b2] [VUCC] (JU).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capitan sevilla II Demo v0.1 (2010)(Ruben Garcera)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Capitan sevilla II Demo v0.1 (2010)(Ruben Garcera).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capitan sevilla II Demo WIP (2010-10-18)(Ruben Garcera)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Capitan sevilla II Demo WIP (2010-10-18)(Ruben Garcera).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capitan sevilla II Demo WIP (2010-10-19)(Ruben Garcera)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Capitan sevilla II Demo WIP (2010-10-19)(Ruben Garcera).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capitan sevilla II Demo WIP (2010-10-20)(Ruben Garcera)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Capitan sevilla II Demo WIP (2010-10-20)(Ruben Garcera).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capitan sevilla II Demo WIP (2010-10-21)(Ruben Garcera)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Capitan sevilla II Demo WIP (2010-10-21)(Ruben Garcera).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capitan sevilla II Demo WIP (2010-10-22)(Ruben Garcera)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Capitan sevilla II Demo WIP (2010-10-22)(Ruben Garcera).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capitan sevilla II Demo WIP (2010-10-27)(Ruben Garcera)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Capitan sevilla II Demo WIP (2010-10-27)(Ruben Garcera).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capitan sevilla II Demo WIP (2010-11-17)(Ruben Garcera)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Capitan sevilla II Demo WIP (2010-11-17)(Ruben Garcera).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-03-27",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-03-27.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-03-28",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-03-28.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-03-29",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-03-29.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-03-30",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-03-30.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-03-31",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-03-31.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-04-01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-04-01.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-04-02",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-04-02.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-04-14",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-04-14.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-04-27",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-04-27.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-04-28",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-04-28.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-04-29",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-04-29.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-12-28",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-12-28.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2010-12-30",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2010-12-30.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2011-01-02",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2011-01-02.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2011-02-08 [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2011-02-08 [a].zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "castle of doom 2011-02-08",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\castle of doom 2011-02-08.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "channelsweeper 2010-01-31 v1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\channelsweeper 2010-01-31 v1.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "channelsweeper 2010-01-31 v2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\channelsweeper 2010-01-31 v2.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "channelsweeper 2010-02-01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\channelsweeper 2010-02-01.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "channelsweeper 2010-02-02",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\channelsweeper 2010-02-02.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "chu-chu rocket 2010-01-26",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\chu-chu rocket 2010-01-26.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "chu-chu rocket 2010-01-27",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\chu-chu rocket 2010-01-27.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "chu-chu rocket 2010-01-28",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\chu-chu rocket 2010-01-28.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "chu-chu rocket 2010-02-21",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\chu-chu rocket 2010-02-21.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gosub 2 2010-09-23",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\gosub 2 2010-09-23.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-14",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-14.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-15",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-15.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-16",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-16.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-17",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-17.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-18",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-18.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-19",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-19.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-20",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-20.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-21",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-21.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-22",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-22.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-23",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-23.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-24",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-24.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-25",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-25.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-26",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-26.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-07-27",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-07-27.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-08-12 (256kb)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-08-12 (256kb).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-08-12",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-08-12.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-08-13",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-08-13.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-09-22",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-09-22.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-09-23",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-09-23.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GoSub 3D 2010-10-08 (2010)(Chris Read)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\GoSub 3D 2010-10-08 (2010)(Chris Read).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gosubi_2009-08-27",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\gosubi_2009-08-27.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "hunter",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\hunter.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "ic 2009-12-29 v1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\ic 2009-12-29 v1.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ic 2009-12-29 v2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\ic 2009-12-29 v2.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ic 2009-12-30 v1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\ic 2009-12-30 v1.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ic 2009-12-30 v2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\ic 2009-12-30 v2.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ic 2009-12-31",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\ic 2009-12-31.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ic",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\ic.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lh 2009-12-10",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\lh 2009-12-10.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mandelbrot explorer v1.0 (2010)(Collin 'Fwirt' Skiles)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\mandelbrot explorer v1.0 (2010)(Collin 'Fwirt' Skiles).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mandelbrot explorer v1.1 (2010)(Collin 'Fwirt' Skiles)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\mandelbrot explorer v1.1 (2010)(Collin 'Fwirt' Skiles).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "pong invaders v1.0",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\pong invaders v1.0.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sample Soft for VUE Programming (v1.0)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Sample Soft for VUE Programming (v1.0).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sample Soft for VUE Programming (v1.1)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Sample Soft for VUE Programming (v1.1).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sample Soft for VUE Programming (v1.1a)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Sample Soft for VUE Programming (v1.1a).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sample Soft for VUE Programming (v1.2)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Sample Soft for VUE Programming (v1.2).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SOVIET UNION 2010 (2010)(Matej Horvat)(2010-10-30)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\SOVIET UNION 2010 (2010)(Matej Horvat)(2010-10-30).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SOVIET UNION 2010 (2010)(Matej Horvat)(2010-11-14)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\SOVIET UNION 2010 (2010)(Matej Horvat)(2010-11-14).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soviet Union 2010 alpha 2010-08-12",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Soviet Union 2010 alpha 2010-08-12.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soviet Union 2010 alpha2 2010-10-03",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\Soviet Union 2010 alpha2 2010-10-03.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "super_bounce",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\super_bounce.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-16 v2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-16 v2.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-16",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-16.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-17 v2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-17 v2.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-17",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-17.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-18",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-18.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-19",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-19.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-20",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-20.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-21",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-21.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-22",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-22.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tic tac toe ten 2010-05-23",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tic tac toe ten 2010-05-23.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tt 2010-05-31",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\tt 2010-05-31.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VUE Debugger Sample (2010)(Williamson, David)(PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\VUE Debugger Sample (2010)(Williamson, David)(PD).zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yeti3d 2010-01-02",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\yeti3d 2010-01-02.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "yeti3d 2010-01-13",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodVboy\\yeti3d 2010-01-13.zip",
+      "emulatorName": "RetroArch Nintendo Virtual Boy (Mednafen VB)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

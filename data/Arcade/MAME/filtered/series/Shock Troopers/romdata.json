@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Shock Troopers - 2nd Squad",
+      "mameName": "shocktr2",
+      "path": "{gamesDir}\\MAME\\ROMS\\shocktr2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Saurus",
+      "year": "1998",
+      "gameType": "Shooter / Walking",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Shock Troopers (set 1)",
+      "mameName": "shocktro",
+      "path": "{gamesDir}\\MAME\\ROMS\\shocktro.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Saurus",
+      "year": "1997",
+      "gameType": "Shooter / Walking",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

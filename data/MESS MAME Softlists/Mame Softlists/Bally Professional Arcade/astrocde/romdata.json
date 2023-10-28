@@ -1,0 +1,1123 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "280 Zzzap / Dodgem",
+      "mameName": "280zzap",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\280zzap.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "A Hard Day's Night (Prototype)",
+      "mameName": "hardday",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\hardday.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler and George Moses",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ADS System Monitor (Prototype)",
+      "mameName": "adssm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\adssm.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Amazing Maze / Tic-Tac-Toe",
+      "mameName": "amazmaze",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\amazmaze.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Artillery Duel",
+      "mameName": "artiduel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\artiduel.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Artillery Duel (Prototype 19820523)",
+      "mameName": "artiduelp1",
+      "parentName": "artiduel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\artiduel.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Artillery Duel (Prototype Alt)",
+      "mameName": "artiduelp2",
+      "parentName": "artiduel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\artiduel.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Artillery Duel (Prototype Alt 2)",
+      "mameName": "artiduelp3",
+      "parentName": "artiduel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\artiduel.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Astro Battle",
+      "mameName": "astrobat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\astrobat.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bally BASIC",
+      "mameName": "bbasic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\bbasic.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bally BASIC (Astrovision)",
+      "mameName": "astrobas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\astrobas.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrovision",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bally BASIC Demo",
+      "mameName": "bbasdemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\bbasdemo.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bally Color BASIC (Prototype)",
+      "mameName": "colorbas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\colorbas.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bally Pin",
+      "mameName": "ballypin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\ballypin.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BioRhythm",
+      "mameName": "biorhy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\biorhy.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrovision",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Black Jack / Acey Deucey / Poker",
+      "mameName": "blckjack",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\blckjack.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blue RAM BASIC 1.0 (Prototype)",
+      "mameName": "brb10p",
+      "parentName": "brb10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\brb10.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Perkins Engineering",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blue RAM BASIC 1.0",
+      "mameName": "brb10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\brb10.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Perkins Engineering",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blue RAM BASIC 1.1",
+      "mameName": "brb11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\brb11.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Perkins Engineering",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blast Droids",
+      "mameName": "bstdroid",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\bstdroid.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Esoterica",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bowling (Prototype)",
+      "mameName": "bowling",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\bowling.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Brickyard / Clowns",
+      "mameName": "brckyard",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\brckyard.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Can't Buy Me Love (Prototype)",
+      "mameName": "buylove",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\buylove.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler and George Moses",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Candyman",
+      "mameName": "candyman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\candyman.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "L&M Software and Mike White",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Checkers (Prototype)",
+      "mameName": "checkers",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\checkers.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Claim Jumper",
+      "mameName": "claim",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\claim.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "L&M Software and Mike White",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Coloring Book (Prototype)",
+      "mameName": "colbook",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\colbook.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Conan The Barbarian!",
+      "mameName": "conan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\conan.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade and Dave Carson Software",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Conan The Barbarian! (Prototype)",
+      "mameName": "conanp",
+      "parentName": "conan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\conan.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cosmic Raiders",
+      "mameName": "cosmicrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\cosmicrd.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cosmic Raiders (Proto, Alt)",
+      "mameName": "cosmicrda",
+      "parentName": "cosmicrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\cosmicrd.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cosmic Raiders (Proto, Alt 2)",
+      "mameName": "cosmicrdb",
+      "parentName": "cosmicrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\cosmicrd.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cosmic Raiders (Proto v3.5)",
+      "mameName": "cosmicrd35",
+      "parentName": "cosmicrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\cosmicrd.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cosmic Raiders (Proto v3.6)",
+      "mameName": "cosmicrd36",
+      "parentName": "cosmicrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\cosmicrd.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Crazy Climber",
+      "mameName": "cclimber",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\cclimber.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Riff Raff Games",
+      "year": "2011",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dealer Demo",
+      "mameName": "dealdemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\dealdemo.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dogpatch",
+      "mameName": "dogpatch",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\dogpatch.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Eight Days A Week (Prototype)",
+      "mameName": "eightday",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\eightday.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler and George Moses",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fawn Dungeon (Prototype, first version)",
+      "mameName": "fawn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\fawn.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Barry McCleave",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fawn Dungeon (Prototype, second version)",
+      "mameName": "fawna",
+      "parentName": "fawn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\fawn.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Barry McCleave",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Football",
+      "mameName": "football",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\football.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fun With Vectors - Ziggy (Prototype JX label)",
+      "mameName": "ziggyjx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\ziggyjx.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fun With Vectors - Ziggy (Prototype MO label)",
+      "mameName": "ziggymo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\ziggymo.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galactic Invasion",
+      "mameName": "galactic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\galactic.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrovision",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galaxian",
+      "mameName": "galaxian",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\galaxian.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrovision",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Golddigger, Goldrush (Prototype, 19840811))",
+      "mameName": "golddig",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\golddig.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Dave Carson and Ken Lill",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Golddigger, Goldrush (Prototype Alt)",
+      "mameName": "golddiga",
+      "parentName": "golddig",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\golddig.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Dave Carson and Ken Lill",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Golddigger, Goldrush (Prototype Alt 2)",
+      "mameName": "golddigb",
+      "parentName": "golddig",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\golddig.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Dave Carson and Ken Lill",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Grand Prix",
+      "mameName": "grandprx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\grandprx.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrovision",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "I Feel Fine (Prototype)",
+      "mameName": "feelfine",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\feelfine.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler and George Moses",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ICBM Attack",
+      "mameName": "icbmatk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\icbmatk.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Spectre Systems",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ICBM Attack (Prototype)",
+      "mameName": "icbmatkp",
+      "parentName": "icbmatk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\icbmatk.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Spectre Systems",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Let It Be (Prototype)",
+      "mameName": "letitbe",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\letitbe.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler and George Moses",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Letter Match / Spell 'n Score / Crosswords",
+      "mameName": "lttrmtch",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\lttrmtch.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Life",
+      "mameName": "life",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\life.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Machine Language Manager",
+      "mameName": "mlangman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\mlangman.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "The Bit Fiddlers",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mazeman",
+      "mameName": "mazeman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\mazeman.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Dave Carson Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mazeman (Prototype)",
+      "mameName": "mazemanp",
+      "parentName": "mazeman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\mazeman.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Dave Carson Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Missile Attack",
+      "mameName": "matk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\matk.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Spectre Systems and Mike White",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ms. Candyman",
+      "mameName": "mscandy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\mscandy.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "L&M Software",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Muncher",
+      "mameName": "muncher",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\muncher.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade, Phillip Harris, and Alternative Engineering",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Maker",
+      "mameName": "musicmak",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\musicmak.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade and Dave Carson Software",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Maker (Prototype v3.7)",
+      "mameName": "musicmakp",
+      "parentName": "musicmak",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\musicmak.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Maker (Prototype Alt)",
+      "mameName": "musicmakp2",
+      "parentName": "musicmak",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\musicmak.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "No-Die!",
+      "mameName": "nodie",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\nodie.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade, Dave Carson, and Mike White",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pac-Man (Prototype)",
+      "mameName": "pacman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\pacman.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pac-Man (Prototype Alt)",
+      "mameName": "pacmana",
+      "parentName": "pacman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\pacman.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pacmaze (Prototype)",
+      "mameName": "pacmaze",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\pacmaze.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Dave Carson Software",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Paperback Writer (Prototype)",
+      "mameName": "paperbck",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\paperbck.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler and George Moses",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pirate's Chase",
+      "mameName": "pirate",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\pirate.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rainbow v2 (Prototype)",
+      "mameName": "rainbow2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\rainbow2.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Hanson",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Red Baron / Panzer Attack",
+      "mameName": "redbaron",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\redbaron.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sea Devil",
+      "mameName": "seadevil",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\seadevil.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "L&M Software",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Seawolf / Missile",
+      "mameName": "seawolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\seawolf.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "She Loves You (Prototype)",
+      "mameName": "sheloves",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\sheloves.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler and George Moses",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sloshed!",
+      "mameName": "sloshed",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\sloshed.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "New Image and Mike White",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sneaky Snake",
+      "mameName": "sneaky",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\sneaky.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "New Image",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soccer",
+      "mameName": "soccer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\soccer.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "<unknown>",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soccer (Prototype)",
+      "mameName": "soccerp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\soccerp.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soccer (Prototype, Alt)",
+      "mameName": "soccera",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\soccera.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soccer (Prototype, Alt 2)",
+      "mameName": "soccera2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\soccera2.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soccer (Prototype, Alt 3)",
+      "mameName": "soccera3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\soccera3.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soccer (Prototype, Alt 4)",
+      "mameName": "soccera4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\soccera4.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Solar Conqueror",
+      "mameName": "solarcnq",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\solarcnq.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Solar Conqueror (Prototype v2.8)",
+      "mameName": "solarcnqp28",
+      "parentName": "solarcnq",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\solarcnq.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Solar Conqueror (Prototype v3.9)",
+      "mameName": "solarcnqp39",
+      "parentName": "solarcnq",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\solarcnq.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Solar Conqueror (Prototype)",
+      "mameName": "solarcnqp",
+      "parentName": "solarcnq",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\solarcnq.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Songs (Prototype)",
+      "mameName": "songs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\songs.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Songs (Prototype Alt)",
+      "mameName": "songsa",
+      "parentName": "songs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\songs.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Songs (Prototype, Unfinished)",
+      "mameName": "songsu",
+      "parentName": "songs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\songs.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Fortress",
+      "mameName": "spacefrt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\spacefrt.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Fortress (Prototype)",
+      "mameName": "spacefrtp",
+      "parentName": "spacefrt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\spacefrt.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Invaders",
+      "mameName": "spaceinv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\spaceinv.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Invaders (Prototype)",
+      "mameName": "spaceinvp",
+      "parentName": "spaceinv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\spaceinv.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "197?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Speed Math / Bingo Math",
+      "mameName": "spedmath",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\spedmath.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Battle",
+      "mameName": "starbttl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\starbttl.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1979",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Stweek",
+      "mameName": "stweek",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\stweek.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Slope",
+      "mameName": "sslope",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\sslope.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Esoterica and Mike White",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tests",
+      "mameName": "tests",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\tests.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Incredible Wizard",
+      "mameName": "wizard",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\wizard.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Astrocade",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tornado Baseball / Handball / Hockey / Tennis",
+      "mameName": "baseball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\baseball.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Bally",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Treasure Cove",
+      "mameName": "treasure",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\treasure.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Esoterica",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Treasure Cove (Prototype)",
+      "mameName": "treasurep",
+      "parentName": "treasure",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\treasure.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Esoterica",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Video Story Book (Prototype)",
+      "mameName": "vidstory",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\vidstory.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "VIPERSoft BASIC",
+      "mameName": "viperb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\viperb.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Alternative Engineering",
+      "year": "1981",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "VIPERSoft BASIC (Prototype)",
+      "mameName": "viperbp",
+      "parentName": "viperb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\viperb.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Alternative Engineering",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "War (Second Printing)",
+      "mameName": "war",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\war.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Riff Raff Games",
+      "year": "2012",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Yesterday (Prototype, no vibrato)",
+      "mameName": "yesternv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\yesternv.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler and George Moses",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Yesterday (Prototype, with vibrato)",
+      "mameName": "yesterv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\astrocde\\yesterv.7z",
+      "emulatorName": "MAME Bally Professional Arcade -SOFTLIST astrocde",
+      "companyName": "Richard Degler and George Moses",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

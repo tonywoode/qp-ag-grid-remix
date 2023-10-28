@@ -1,0 +1,243 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Advanced Dungeons and Dragons: Treasue of Tarmin",
+      "mameName": "addtot",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\addtot.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "TRS Hobbies, Inc.",
+      "year": "1982",
+      "comment": "serial:4023",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Aquarius BASIC ROM",
+      "mameName": "basic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\basic.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Microsoft",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Astrosmash",
+      "mameName": "astrsmah",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\astrsmah.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "comment": "serial:4003",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Biorhythms",
+      "mameName": "biorhtms",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\biorhtms.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1983",
+      "comment": "serial:4673",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Burgertime",
+      "mameName": "btime",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\btime.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Data East",
+      "year": "1982",
+      "comment": "serial:4653",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chess",
+      "mameName": "chess",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\chess.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "comment": "serial:4594",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Extended BASIC",
+      "mameName": "ebasic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\ebasic.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Microsoft",
+      "year": "1982",
+      "comment": "serial:4392",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dos BASIC",
+      "mameName": "dosbasic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\dosbasic.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Microsoft",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fileform",
+      "mameName": "fileform",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\fileform.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "comment": "serial:4177",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Finform",
+      "mameName": "finform",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\finform.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "comment": "serial:4178",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Aquarius LOGO",
+      "mameName": "logo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\logo.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1983",
+      "comment": "serial:4391",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MarqueeDemo",
+      "mameName": "demo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\demo.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Melody Chase",
+      "mameName": "melchase",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\melchase.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "comment": "serial:4652",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Night Stalker",
+      "mameName": "nstalker",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\nstalker.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "comment": "serial:4595",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Shark!",
+      "mameName": "shark",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\shark.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Snafu",
+      "mameName": "snafu",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\snafu.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "comment": "serial:4028",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Speller",
+      "mameName": "speller",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\speller.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1983",
+      "comment": "serial:4682",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tron Deadly Discs",
+      "mameName": "tron",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\tron.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Walt Disney",
+      "year": "1982",
+      "comment": "serial:4024",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Utopia",
+      "mameName": "utopia",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\utopia.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "comment": "serial:4596",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Word Processor",
+      "mameName": "word",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\word.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Balen",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zero-in",
+      "mameName": "zeroin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\zeroin.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Mattel",
+      "year": "1982",
+      "comment": "serial:4895C",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Quick Disk",
+      "mameName": "quikdisk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\aquarius\\quikdisk.7z",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -SOFTLIST aquarius",
+      "companyName": "Radofin Electronics",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

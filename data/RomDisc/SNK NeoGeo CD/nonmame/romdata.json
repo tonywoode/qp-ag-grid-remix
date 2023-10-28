@@ -1,0 +1,455 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "2020 Super Baseball (1995-02-25)(SNK)[!][NGCD-030]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\2020 Super Baseball (1995-02-25)(SNK)[!][NGCD-030].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aero Fighters 2 (1994-09-29)(SNK)[!][NGCD-075]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Aero Fighters 2 (1994-09-29)(SNK)[!][NGCD-075].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aero Fighters 3 (1995-12-08)(SNK)[!][NGCD-097]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Aero Fighters 3 (1995-12-08)(SNK)[!][NGCD-097].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aggressors of Dark Kombat (1995-01-13)(ADK)[!][ADCD-008]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Aggressors of Dark Kombat (1995-01-13)(ADK)[!][ADCD-008].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alpha Mission II (1994-09-09)(SNK)[!][NGCD-007]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Alpha Mission II (1994-09-09)(SNK)[!][NGCD-007].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Art of Fighting (1994-09-09)(SNK)[!][NGCD-044]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Art of Fighting (1994-09-09)(SNK)[!][NGCD-044].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Art of Fighting 2 (1994-09-09)(SNK)[!][NGCD-056]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Art of Fighting 2 (1994-09-09)(SNK)[!][NGCD-056].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "15",
+      "paramMode": "0"
+    },
+    {
+      "name": "Art of Fighting 3 - Path of the Warrior (1996-09-14)(SNK)[!][NGCD-096]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Art of Fighting 3 - Path of the Warrior (1996-09-14)(SNK)[!][NGCD-096].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baseball Stars 2 (1994-09-09)(SNK)(en-jp)[!][NGCD-041]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Baseball Stars 2 (1994-09-09)(SNK)(en-jp)[!][NGCD-041].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bust-A-Move (1995-04-27)(SNK)[!][NGCD-083]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Bust-A-Move (1995-04-27)(SNK)[!][NGCD-083].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Dragon (1995-06-02)(SNK)[!][NGCD-082]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Double Dragon (1995-06-02)(SNK)[!][NGCD-082].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fatal Fury 3 - Road to the Final Victory (1995-04-28)(SNK)(M4)[!][NGCD-069 MT B03]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Fatal Fury 3 - Road to the Final Victory (1995-04-28)(SNK)(M4)[!][NGCD-069 MT B03].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fatal Fury 3 - Road to the Final Victory (1995-04-28)(SNK)[!][NGCD-069]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Fatal Fury 3 - Road to the Final Victory (1995-04-28)(SNK)[!][NGCD-069].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fatal Fury Special (1994-09-09)(SNK)(en-jp)[!][NGCD-058]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Fatal Fury Special (1994-09-09)(SNK)(en-jp)[!][NGCD-058].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Football Frenzy (1994-09-09)(SNK)(en-jp)[!][NGCD-034]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Football Frenzy (1994-09-09)(SNK)(en-jp)[!][NGCD-034].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaxy Fight - Universal Warriors (1995-04-21)(Sunsoft)[!][NGCD-078]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Galaxy Fight - Universal Warriors (1995-04-21)(Sunsoft)[!][NGCD-078].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghost Pilots (1995-03-17)(SNK)[!][NGCD-020]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Ghost Pilots (1995-03-17)(SNK)[!][NGCD-020].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kabuki Klash (1995-11-24)(Hudson)[!][NGCD-092]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Kabuki Klash (1995-11-24)(Hudson)[!][NGCD-092].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Karnov's Revenge (1994-12-22)(SNK)[!][DECD-003]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Karnov's Revenge (1994-12-22)(SNK)[!][DECD-003].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters '94, The (1994-11-02)(SNK)[!][NGCD-055 MT B01]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\King of Fighters '94, The (1994-11-02)(SNK)[!][NGCD-055 MT B01].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters '94, The (1994-11-02)(SNK)[!][NGCD-055E MT B04]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\King of Fighters '94, The (1994-11-02)(SNK)[!][NGCD-055E MT B04].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters '95, The (1995-09-29)(SNK)(en-jp)[!][NGCD-084]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\King of Fighters '95, The (1995-09-29)(SNK)(en-jp)[!][NGCD-084].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters '96, The (1996-10-25)(SNK)[!][NGCD-214]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\King of Fighters '96, The (1996-10-25)(SNK)[!][NGCD-214].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters '97, The (1997-10-30)(SNK)[!][NGCD-2320]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\King of Fighters '97, The (1997-10-30)(SNK)[!][NGCD-2320].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Fighters '98, The - Dream Match Never Ends (1998-12-23)(SNK)[!][NGCD-2420]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\King of Fighters '98, The - Dream Match Never Ends (1998-12-23)(SNK)[!][NGCD-2420].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of the Monsters 2 - The Next Thing (1994-09-09)(SNK)[!][NGCD-039]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\King of the Monsters 2 - The Next Thing (1994-09-09)(SNK)[!][NGCD-039].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Last Blade, The (1998-03-26)(SNK)[!][NGCD-234]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Last Blade, The (1998-03-26)(SNK)[!][NGCD-234].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Last Resort (1994-09-09)(SNK)[!][NGCD-024]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Last Resort (1994-09-09)(SNK)[!][NGCD-024].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "League Bowling (1994-09-09)(SNK)[!][NGCD-019]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\League Bowling (1994-09-09)(SNK)[!][NGCD-019].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mahjong Kyo Retsuden - Nishi Nihon Hen (1994-09-09)(SNK)(Jp)[!][NGCD-004]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Mahjong Kyo Retsuden - Nishi Nihon Hen (1994-09-09)(SNK)(Jp)[!][NGCD-004].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metal Slug (1996-07-05)(SNK)[!][NGCD-201]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Metal Slug (1996-07-05)(SNK)[!][NGCD-201].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "NAM-1975 (1994-09-09)(SNK)[!][NGCD-001]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\NAM-1975 (1994-09-09)(SNK)[!][NGCD-001].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neo Geo CD Special (1996-12-22)(SNK)[!][NGCD-205]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Neo Geo CD Special (1996-12-22)(SNK)[!][NGCD-205].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Spikes II (1995-03-18)(Video System)[!][NGCD-068]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Power Spikes II (1995-03-18)(Video System)[!][NGCD-068].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pulstar (1995-10-27)(SNK)[!][NGCD-089]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Pulstar (1995-10-27)(SNK)[!][NGCD-089].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quest of the Jong Master (1995-03-31)(SNK)[!][AICD-048]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Quest of the Jong Master (1995-03-31)(SNK)[!][AICD-048].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quiz King of Fighters (1995-04-07)(Saurus)(Jp)[!][NGCD-080]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Quiz King of Fighters (1995-04-07)(Saurus)(Jp)[!][NGCD-080].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Real Bout Fatal Fury (1996-02-23)(SNK)[!][NGCD-095]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Real Bout Fatal Fury (1996-02-23)(SNK)[!][NGCD-095].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Samurai Shodown (1994-09-09)(SNK)[!][NGCD-045]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Samurai Shodown (1994-09-09)(SNK)[!][NGCD-045].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Samurai Shodown II (1994-12-15)(SNK)(M3)[!][NGCD-063]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Samurai Shodown II (1994-12-15)(SNK)(M3)[!][NGCD-063].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Samurai Shodown III (1995-12-29)(SNK)[!][NGCD-087]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Samurai Shodown III (1995-12-29)(SNK)[!][NGCD-087].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Samurai Shodown RPG (1997-06-27)(SNK)(Jp)[!][NGCD-0850]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Samurai Shodown RPG (1997-06-27)(SNK)(Jp)[!][NGCD-0850].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Savage Reign (1995-06-16)(SNK)[!][NGCD-059]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Savage Reign (1995-06-16)(SNK)[!][NGCD-059].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soccer Brawl (1995-03-31)(SNK)[!][NGCD-031]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Soccer Brawl (1995-03-31)(SNK)[!][NGCD-031].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stakes Winner (1996-03-23)(Saurus)[!][NGCD-088]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Stakes Winner (1996-03-23)(Saurus)[!][NGCD-088].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Hoop (1995-01-20)(Data East)[!][DECD-004]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Street Hoop (1995-01-20)(Data East)[!][DECD-004].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Sidekicks (1995-03-31)(SNK)[!][NGCD-052]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Super Sidekicks (1995-03-31)(SNK)[!][NGCD-052].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Sidekicks 2 (1994-09-09)(SNK)(M3)[!][NGCD-061]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Super Sidekicks 2 (1994-09-09)(SNK)(M3)[!][NGCD-061].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Sidekicks 3 - The Next Glory (1995-06-23)(SNK)[!][NGCD-081]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Super Sidekicks 3 - The Next Glory (1995-06-23)(SNK)[!][NGCD-081].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Viewpoint (1995-02-25)(SNK)[!][AICD-051]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Viewpoint (1995-02-25)(SNK)[!][AICD-051].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wind Jammers (1995-01-20)(SNK)[!][DECD-002]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\Wind Jammers (1995-01-20)(SNK)[!][DECD-002].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World Heroes 2 Jet (1994-11-11)(ADK)[!][ADCD-007]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\World Heroes 2 Jet (1994-11-11)(ADK)[!][ADCD-007].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World Heroes Perfect - The Ultimate Heroes (1995-07-21)(ADK)(en-jp)[!][ADCD-009]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Games\\World Heroes Perfect - The Ultimate Heroes (1995-07-21)(ADK)(en-jp)[!][ADCD-009].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neo Geo CD demo (2005-02-03)(Doty, Charles)",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Unofficial\\Demos\\Neo Geo CD demo (2005-02-03)(Doty, Charles).zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frog Feast (demo) (2005-04-24)(Rastersoft)",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Unofficial\\Games\\Frog Feast (demo) (2005-04-24)(Rastersoft).zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Joy Joy Kid (2005-02-09)(Neo Geo Conversion Project)[cart conversion]",
+      "path": "{gamesDir}\\SNK Games\\NEO-GEO CD\\Unofficial\\Games\\Joy Joy Kid (2005-02-09)(Neo Geo Conversion Project)[cart conversion].zip",
+      "emulatorName": "Nebula NeoGeoCD QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

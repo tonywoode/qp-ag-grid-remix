@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Wizard of Wor",
+      "mameName": "wow",
+      "path": "{gamesDir}\\MAME\\ROMS\\wow.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dave Nutting Associates / Midway",
+      "year": "1980",
+      "gameType": "Maze / Shooter Small",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

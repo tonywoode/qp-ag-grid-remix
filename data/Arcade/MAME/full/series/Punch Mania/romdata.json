@@ -1,0 +1,110 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Fighting Mania (QG918 VER. EAA)",
+      "mameName": "fghtmn",
+      "path": "{gamesDir}\\MAME\\CHDs\\fghtmn\\918xxb02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Sports / Boxing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Fighting Mania (QG918 VER. AAA)",
+      "mameName": "fghtmna",
+      "parentName": "fghtmn",
+      "path": "{gamesDir}\\MAME\\CHDs\\fghtmn\\918xxb02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Sports / Boxing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Fighting Mania (QG918 VER. KAA)",
+      "mameName": "fghtmnk",
+      "parentName": "fghtmn",
+      "path": "{gamesDir}\\MAME\\CHDs\\fghtmn\\918xxb02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Sports / Boxing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Fighting Mania (QG918 VER. UAA)",
+      "mameName": "fghtmnu",
+      "parentName": "fghtmn",
+      "path": "{gamesDir}\\MAME\\CHDs\\fghtmn\\918xxb02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Sports / Boxing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Punch Mania: Hokuto No Ken (GQ918 VER. JAB)",
+      "mameName": "pnchmn",
+      "parentName": "fghtmn",
+      "path": "{gamesDir}\\MAME\\CHDs\\fghtmn\\918xxb02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Sports / Boxing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Punch Mania 2: Hokuto No Ken (GQA09 JAA)",
+      "mameName": "pnchmn2",
+      "path": "{gamesDir}\\MAME\\CHDs\\pnchmn2\\a09jaa02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Sports / Boxing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Punch Mania: Hokuto No Ken (GQ918 VER. JAB ALT CD)",
+      "mameName": "pnchmna",
+      "parentName": "fghtmn",
+      "path": "{gamesDir}\\MAME\\CHDs\\fghtmn\\918jab02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Sports / Boxing",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

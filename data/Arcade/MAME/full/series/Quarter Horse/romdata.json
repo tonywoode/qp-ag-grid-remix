@@ -1,0 +1,65 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Quarter Horse Classic",
+      "mameName": "qc",
+      "path": "{gamesDir}\\MAME\\ROMS\\qc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ArJay Exports/Prestige Games",
+      "year": "1995",
+      "gameType": "Casino",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Quarter Horse (set 1, Pioneer PR-8210)",
+      "mameName": "quarterh",
+      "path": "{gamesDir}\\MAME\\CHDs\\quarterh\\quarterh.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Electro-Sport",
+      "year": "1983",
+      "gameType": "Casino",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Quarter Horse (set 2, Pioneer PR-8210)",
+      "mameName": "quarterha",
+      "parentName": "quarterh",
+      "path": "{gamesDir}\\MAME\\CHDs\\quarterh\\quarterh.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Electro-Sport",
+      "year": "1983",
+      "gameType": "Casino",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Quarter Horse (set 3, Pioneer LD-V2000)",
+      "mameName": "quarterhb",
+      "parentName": "quarterh",
+      "path": "{gamesDir}\\MAME\\CHDs\\quarterh\\quarterh.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Electro-Sport",
+      "year": "1983",
+      "gameType": "Casino",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Astroblast",
+      "mameName": "astrblst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\astrblst.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Mark Data Products",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Doodle Bug",
+      "mameName": "doodlbug",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\doodlbug.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Computerware",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DOSPlus v4.9B",
+      "mameName": "dospls49",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\dospls49.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "3S",
+      "year": "1989",
+      "comment": " slot:dragon_fdc",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DOSPlus v4.8",
+      "mameName": "dospls48",
+      "parentName": "dospls49",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\dospls49.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "3S",
+      "year": "1989",
+      "comment": " slot:dragon_fdc",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DASM/Demon",
+      "mameName": "dasmdemn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\dasmdemn.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Compusense",
+      "year": "1983",
+      "parameters": "-L cores\\mame_libretro.dll \" dragon32 -cart1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "EDIT+",
+      "mameName": "editplus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\editplus.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Compusense",
+      "year": "1983",
+      "parameters": "-L cores\\mame_libretro.dll \" dragon32 -cart1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cumana DOS v2.0",
+      "mameName": "cdos20",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\cdos20.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Cumana",
+      "year": "198?",
+      "comment": " slot:dragon_fdc",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Alldream",
+      "mameName": "alldream",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\alldream.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1984",
+      "parameters": "-L cores\\mame_libretro.dll \" dragon32 -cart1 %ROMMAME%\"",
+      "comment": "developer:Grosvenor Software,author:Mike Kerry,serial:A0516",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Berserk",
+      "mameName": "berserk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\berserk.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Mark Data Products,author:Ron Krebs,serial:A0100",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cave Hunter",
+      "mameName": "cavehntr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\cavehntr.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Mark Data Products,author:Ron Krebs",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cosmic Invaders",
+      "mameName": "cosmcinv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\cosmcinv.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Spectral Associates,serial:A0102",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cyrus Chess",
+      "mameName": "cyrus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\cyrus.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Intelligent Software,author:David Levy & Richard Lang,serial:A0108",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Demonstration",
+      "mameName": "demo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\demo.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "serial:A0109",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DOS-Dream",
+      "mameName": "dosdream",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\dosdream.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1986",
+      "comment": "author:M.J. Kerry",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Quick Diagnostic ROM",
+      "mameName": "qdiagrom",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\qdiagrom.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dragon DOS v1.0",
+      "mameName": "drgndos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\drgndos.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1983",
+      "comment": " slot:dragon_fdc",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dragon DOS v4.0",
+      "mameName": "drgndos4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\drgndos4.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Eurohard S.A.",
+      "year": "1985",
+      "comment": " slot:dragon_fdc",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dragon DOS v4.0 (Spa)",
+      "mameName": "drgndos4s",
+      "parentName": "drgndos4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\drgndos4.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Eurohard S.A.",
+      "year": "1985",
+      "comment": " slot:dragon_fdc",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dragon DOS v4.1",
+      "mameName": "drgndos41",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\drgndos41.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Eurohard S.A.",
+      "year": "1985",
+      "comment": " slot:dragon_fdc",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ghost Attack",
+      "mameName": "ghost",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\ghost.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Computerware,author:B.J. Chambless,serial:A0103",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Meteoroids",
+      "mameName": "meteors",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\meteors.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Spectral Associates",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Prestel for Dragon Alpha",
+      "mameName": "prestel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\prestel.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rail Runner",
+      "mameName": "railrunr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\railrunr.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Computerware,author:B.J. Chambless,serial:A0111",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Starship Chameleon",
+      "mameName": "starship",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\starship.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Dragon Data",
+      "year": "1982",
+      "comment": "developer:Computerware,author:Kenneth Kalish,serial:A0106",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cash Planner",
+      "mameName": "cashplan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\cashplan.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "FarmFax",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dairy Prediction",
+      "mameName": "dairy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\dairy.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "FarmFax",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rotation Formulation Dairy",
+      "mameName": "rotation",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\rotation.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "FarmFax",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SuperDOS E6",
+      "mameName": "sprdose6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\sprdose6.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "PNP",
+      "year": "198?",
+      "comment": " slot:dragon_fdc",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Toolkit",
+      "mameName": "toolkit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\toolkit.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "Premier Microsystems",
+      "year": "1983",
+      "comment": "author:S.J Purdy",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sound Extension Module",
+      "mameName": "sound",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\dragon_cart\\sound.7z",
+      "emulatorName": "Retroarch Dragon 32 -SOFTLIST dragon_cart (MAME)",
+      "companyName": "J.C.B. (Microsystems)",
+      "year": "1983",
+      "comment": " slot:jcbsnd",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

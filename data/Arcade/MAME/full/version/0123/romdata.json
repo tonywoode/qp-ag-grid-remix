@@ -1,0 +1,77 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Aleste 520EX",
+      "mameName": "al520ex",
+      "parentName": "cpc464",
+      "path": "{gamesDir}\\MAME\\ROMS\\cpc464.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Patisonic",
+      "year": "1993",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Vs. Janshi Brandnew Stars (MegaSystem32 Version)",
+      "mameName": "bnstars",
+      "parentName": "bnstars1",
+      "path": "{gamesDir}\\MAME\\ROMS\\bnstars1.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1997",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Amstrad GX4000",
+      "mameName": "gx4000",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Amstrad plc",
+      "year": "1990",
+      "gameType": "Home Systems / Game Console",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "MTX 500",
+      "mameName": "mtx500",
+      "parentName": "mtx512",
+      "path": "{gamesDir}\\MAME\\ROMS\\mtx512.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Memotech Ltd",
+      "year": "1983",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "RS 128",
+      "mameName": "rs128",
+      "parentName": "mtx512",
+      "path": "{gamesDir}\\MAME\\ROMS\\mtx512.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Memotech Ltd",
+      "year": "1984",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Band Hero (Europe) (En,Fr,De,Es,It)",
+      "path": "{gamesDir}\\Nintendo Games\\Nintendo_DS\\No Intro Nintendo DS (Decrypted) (20200229-233627)\\Band Hero (Europe) (En,Fr,De,Es,It).zip",
+      "emulatorName": "RetroArch Nintendo DS (Desmume)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kayou Generation, The (Japan)",
+      "path": "{gamesDir}\\Nintendo Games\\Nintendo_DS\\No Intro Nintendo DS (Decrypted) (20200229-233627)\\Kayou Generation, The (Japan).zip",
+      "emulatorName": "RetroArch Nintendo DS (Desmume)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster Band (USA) (En,Fr,De,Es,It)",
+      "path": "{gamesDir}\\Nintendo Games\\Nintendo_DS\\No Intro Nintendo DS (Decrypted) (20200229-233627)\\Monster Band (USA) (En,Fr,De,Es,It).zip",
+      "emulatorName": "RetroArch Nintendo DS (Desmume)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Music Monstars - The Ultimate Music Machine (Europe) (En,Fr,De,Es,It)",
+      "path": "{gamesDir}\\Nintendo Games\\Nintendo_DS\\No Intro Nintendo DS (Decrypted) (20200229-233627)\\Music Monstars - The Ultimate Music Machine (Europe) (En,Fr,De,Es,It).zip",
+      "emulatorName": "RetroArch Nintendo DS (Desmume)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Red Bull BC One (Europe) (En,Fr,De,Es,It)",
+      "path": "{gamesDir}\\Nintendo Games\\Nintendo_DS\\No Intro Nintendo DS (Decrypted) (20200229-233627)\\Red Bull BC One (Europe) (En,Fr,De,Es,It).zip",
+      "emulatorName": "RetroArch Nintendo DS (Desmume)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rhythm 'n Notes (Europe) (En,Fr,Es,It)",
+      "path": "{gamesDir}\\Nintendo Games\\Nintendo_DS\\No Intro Nintendo DS (Decrypted) (20200229-233627)\\Rhythm 'n Notes (Europe) (En,Fr,Es,It).zip",
+      "emulatorName": "RetroArch Nintendo DS (Desmume)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rhythm Paradise (Europe) (En,Es,It)",
+      "path": "{gamesDir}\\Nintendo Games\\Nintendo_DS\\No Intro Nintendo DS (Decrypted) (20200229-233627)\\Rhythm Paradise (Europe) (En,Es,It).zip",
+      "emulatorName": "RetroArch Nintendo DS (Desmume)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultimate Band (Europe) (En,Fr,De,Es,It,Nl)",
+      "path": "{gamesDir}\\Nintendo Games\\Nintendo_DS\\No Intro Nintendo DS (Decrypted) (20200229-233627)\\Ultimate Band (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "emulatorName": "RetroArch Nintendo DS (Desmume)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

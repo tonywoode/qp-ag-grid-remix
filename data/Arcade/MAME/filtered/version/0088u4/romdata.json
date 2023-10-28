@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)",
+      "mameName": "hotrod",
+      "path": "{gamesDir}\\MAME\\ROMS\\hotrod.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1988",
+      "gameType": "Driving / Race",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Astro Chase (Max-A-Flex)",
+      "mameName": "mf_achas",
+      "path": "{gamesDir}\\MAME\\ROMS\\mf_achas.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Exidy / First Star Software",
+      "year": "1982",
+      "gameType": "Shooter / Field",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Boulder Dash (Max-A-Flex)",
+      "mameName": "mf_bdash",
+      "path": "{gamesDir}\\MAME\\ROMS\\mf_bdash.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Exidy / First Star Software",
+      "year": "1984",
+      "gameType": "Maze / Digging",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Bristles (Max-A-Flex)",
+      "mameName": "mf_brist",
+      "path": "{gamesDir}\\MAME\\ROMS\\mf_brist.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Exidy / First Star Software",
+      "year": "1983",
+      "gameType": "Platform / Run Jump",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Flip & Flop (Max-A-Flex)",
+      "mameName": "mf_flip",
+      "path": "{gamesDir}\\MAME\\ROMS\\mf_flip.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Exidy / First Star Software",
+      "year": "1983",
+      "gameType": "Platform / Run Jump",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Twin Squash",
+      "mameName": "twinsqua",
+      "path": "{gamesDir}\\MAME\\ROMS\\twinsqua.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1991",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

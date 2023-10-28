@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Oolite",
+      "path": "P:\\PC\\Oolite\\oolite.app\\oolite.exe",
+      "emulatorName": "Windows Start Command (for .exe and shortcuts)",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    }
+  ]
+}

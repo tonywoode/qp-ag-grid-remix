@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "The Couples (set 1)",
+      "mameName": "couple",
+      "path": "{gamesDir}\\MAME\\ROMS\\couple.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Merit",
+      "year": "1988",
+      "gameType": "Puzzle / Match * Mature *",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Joinem",
+      "mameName": "joinem",
+      "path": "{gamesDir}\\MAME\\ROMS\\joinem.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Global Corporation",
+      "year": "1983",
+      "gameType": "Maze",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Toushin Blazers (Japan)",
+      "mameName": "karatblzj",
+      "parentName": "karatblz",
+      "path": "{gamesDir}\\MAME\\ROMS\\karatblz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Super Trio",
+      "mameName": "suprtrio",
+      "path": "{gamesDir}\\MAME\\ROMS\\suprtrio.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gameace",
+      "year": "1994",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "World Club Champion Football Serie A 2002-2003 Ver.2.12 (Export) (CDV-10002)",
+      "mameName": "wccf212e",
+      "path": "{gamesDir}\\MAME\\CHDs\\wccf212e\\cdv-10002.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Hitmaker / Sega",
+      "year": "2004",
+      "gameType": "Sports / Soccer",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "World Club Champion Football Serie A 2002-2003 Ver.2.34 (Japan) (CDV-10008)",
+      "mameName": "wccf234j",
+      "path": "{gamesDir}\\MAME\\CHDs\\wccf234j\\cdv-10008.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Hitmaker / Sega",
+      "year": "2004",
+      "gameType": "Sports / Soccer",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "World Club Champion Football European Clubs 2004-2005 (Japan) (CDV-10013)",
+      "mameName": "wccf310j",
+      "path": "{gamesDir}\\MAME\\CHDs\\wccf310j\\cdv-10013.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2005",
+      "gameType": "Sports / Soccer",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "World Club Champion Football European Clubs 2004-2005 Ver.3.22 (Export) (CDV-10015P)",
+      "mameName": "wccf322e",
+      "path": "{gamesDir}\\MAME\\CHDs\\wccf322e\\cdv-10015p.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2005",
+      "gameType": "Sports / Soccer",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "World Club Champion Football European Clubs 2004-2005 Ver.1.1 (Export) (CDV-10015)",
+      "mameName": "wccf331e",
+      "parentName": "wccf322e",
+      "path": "{gamesDir}\\MAME\\CHDs\\wccf322e\\cdv-10015.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2005",
+      "gameType": "Sports / Soccer",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "World Club Champion Football European Clubs 2005-2006 (Export) (CDV-10027)",
+      "mameName": "wccf420e",
+      "path": "{gamesDir}\\MAME\\CHDs\\wccf420e\\cdv-10027.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2006",
+      "gameType": "Sports / Soccer",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

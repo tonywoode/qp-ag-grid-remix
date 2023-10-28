@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Rave Racer (Rev. RV2, World)",
+      "mameName": "raveracw",
+      "path": "{gamesDir}\\MAME\\ROMS\\raveracw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1995",
+      "gameType": "Driving / 1st Person",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Ridge Racer 2 (Rev. RRS2, World)",
+      "mameName": "ridgera2",
+      "path": "{gamesDir}\\MAME\\ROMS\\ridgera2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1994",
+      "gameType": "Driving / 1st Person",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Ridge Racer (Rev. RR3, World)",
+      "mameName": "ridgerac",
+      "path": "{gamesDir}\\MAME\\ROMS\\ridgerac.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1993",
+      "gameType": "Driving / 1st Person",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

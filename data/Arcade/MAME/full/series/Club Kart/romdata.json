@@ -1,0 +1,122 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Club Kart: European Session (2003, Rev A)",
+      "mameName": "clubk2k3",
+      "path": "{gamesDir}\\MAME\\ROMS\\clubk2k3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2003",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Club Kart: European Session (2003, prototype)",
+      "mameName": "clubk2kp",
+      "parentName": "clubk2k3",
+      "path": "{gamesDir}\\MAME\\ROMS\\clubk2k3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2003",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Club Kart for Cycraft (Rev A) (GDS-0029A)",
+      "mameName": "clubkcyc",
+      "path": "{gamesDir}\\MAME\\CHDs\\clubkcyc\\gds-0029a.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2003",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Club Kart Prize (Export, Japan)",
+      "mameName": "clubkprz",
+      "path": "{gamesDir}\\MAME\\ROMS\\clubkprz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2003",
+      "gameType": "Driving / Race (chase view)",
+      "language": "Russian",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Club Kart Prize Version B (Export, Japan)",
+      "mameName": "clubkpzb",
+      "path": "{gamesDir}\\MAME\\ROMS\\clubkpzb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2004",
+      "gameType": "Driving / Race (chase view)",
+      "language": "Russian",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Club Kart: European Session (Rev D)",
+      "mameName": "clubkrt",
+      "path": "{gamesDir}\\MAME\\ROMS\\clubkrt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2001",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Club Kart: European Session (Rev C)",
+      "mameName": "clubkrtc",
+      "parentName": "clubkrt",
+      "path": "{gamesDir}\\MAME\\ROMS\\clubkrt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2001",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Club Kart: European Session",
+      "mameName": "clubkrto",
+      "parentName": "clubkrt",
+      "path": "{gamesDir}\\MAME\\ROMS\\clubkrt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2001",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

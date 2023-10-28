@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Animal Catch",
+      "mameName": "animalc",
+      "path": "{gamesDir}\\MAME\\ROMS\\animalc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sammy",
+      "year": "2000",
+      "gameType": "Misc.",
+      "rating": "20 to 30 (Bad)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Itazura Monkey",
+      "mameName": "itazuram",
+      "path": "{gamesDir}\\MAME\\ROMS\\itazuram.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sammy",
+      "year": "2000",
+      "gameType": "Shooter / Misc.",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Pye-nage Taikai",
+      "mameName": "pyenaget",
+      "path": "{gamesDir}\\MAME\\ROMS\\pyenaget.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sammy",
+      "year": "2000",
+      "gameType": "Shooter / Misc.",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Taihou de Doboon",
+      "mameName": "tdoboon",
+      "path": "{gamesDir}\\MAME\\ROMS\\tdoboon.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sammy",
+      "year": "2000",
+      "gameType": "Shooter / Misc.",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

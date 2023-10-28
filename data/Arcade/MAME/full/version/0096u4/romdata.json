@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Super Bishi Bashi Championship (ver JAA, 2 Players)",
+      "mameName": "sbishi",
+      "path": "{gamesDir}\\MAME\\ROMS\\sbishi.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Multiplay / Mini-Games",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    }
+  ]
+}

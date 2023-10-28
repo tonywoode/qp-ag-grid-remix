@@ -1,0 +1,95 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Adonis (0200751V, NSW/ACT)",
+      "mameName": "adonis",
+      "path": "{gamesDir}\\MAME\\ROMS\\adonis.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1998",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Dolphin Treasure (0200424V, NSW/ACT)",
+      "mameName": "dolphntr",
+      "path": "{gamesDir}\\MAME\\ROMS\\dolphntr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1996",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Dolphin Treasure (0100424V, NSW/ACT)",
+      "mameName": "dolphntra",
+      "parentName": "dolphntr",
+      "path": "{gamesDir}\\MAME\\ROMS\\dolphntr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1996",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Dolphin Treasure - Cash Express (AHG1607, US)",
+      "mameName": "dolphntrce",
+      "parentName": "dolphntr",
+      "path": "{gamesDir}\\MAME\\ROMS\\dolphntr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1999",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Dolphin Treasure - Cash Express (AHG1606, US)",
+      "mameName": "dolphntrcea",
+      "parentName": "dolphntr",
+      "path": "{gamesDir}\\MAME\\ROMS\\dolphntr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1999",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Dolphin Treasure - Cash Express (AHG1519, US)",
+      "mameName": "dolphntrceb",
+      "parentName": "dolphntr",
+      "path": "{gamesDir}\\MAME\\ROMS\\dolphntr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aristocrat",
+      "year": "1999",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

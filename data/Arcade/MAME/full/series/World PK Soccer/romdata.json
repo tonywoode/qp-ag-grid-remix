@@ -1,0 +1,51 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Kick for the Goal",
+      "mameName": "kftgoal",
+      "parentName": "wpksoc",
+      "path": "{gamesDir}\\MAME\\ROMS\\wpksoc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1994",
+      "gameType": "Electromechanical / Misc.",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "World PK Soccer",
+      "mameName": "wpksoc",
+      "path": "{gamesDir}\\MAME\\ROMS\\wpksoc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1995",
+      "gameType": "Electromechanical / Misc.",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "World PK Soccer V2 (ver 1.1)",
+      "mameName": "wpksocv2",
+      "path": "{gamesDir}\\MAME\\ROMS\\wpksocv2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1996",
+      "gameType": "Sports / Soccer",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

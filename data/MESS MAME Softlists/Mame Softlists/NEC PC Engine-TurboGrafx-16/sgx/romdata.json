@@ -1,0 +1,62 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "1941 - Counter Attack",
+      "mameName": "1941",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sgx\\1941.7z",
+      "emulatorName": "MAME NEC SuperGrafx -SOFTLIST sgx",
+      "companyName": "Hudson",
+      "year": "1991",
+      "comment": "serial:HC91048,release:19910823,alt_title:1941",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Aldynes",
+      "mameName": "aldynes",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sgx\\aldynes.7z",
+      "emulatorName": "MAME NEC SuperGrafx -SOFTLIST sgx",
+      "companyName": "Hudson",
+      "year": "1991",
+      "comment": "serial:HC91044,release:19910222,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Battle Ace",
+      "mameName": "battlace",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sgx\\battlace.7z",
+      "emulatorName": "MAME NEC SuperGrafx -SOFTLIST sgx",
+      "companyName": "Hudson",
+      "year": "1989",
+      "comment": "serial:HC89026,release:19891130,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dai Makaimura",
+      "mameName": "daimakai",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sgx\\daimakai.7z",
+      "emulatorName": "MAME NEC SuperGrafx -SOFTLIST sgx",
+      "companyName": "NEC Avenue",
+      "year": "1990",
+      "comment": "serial:NAPH-1008,release:19900727,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Madou Ou Granzort",
+      "mameName": "granzort",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\sgx\\granzort.7z",
+      "emulatorName": "MAME NEC SuperGrafx -SOFTLIST sgx",
+      "companyName": "Hudson",
+      "year": "1990",
+      "comment": "serial:HC90029,release:19900406,alt_title:",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    }
+  ]
+}

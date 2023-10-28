@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "1943: The Battle of Midway Mark II (US)",
+      "mameName": "1943mii",
+      "path": "{gamesDir}\\MAME\\ROMS\\1943mii.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1987",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Ufo Robo Dangar (4/07/1987)",
+      "mameName": "dangar",
+      "path": "{gamesDir}\\MAME\\ROMS\\dangar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1986",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Kyuukoukabakugekitai - Dive Bomber Squad (Japan, prototype)",
+      "mameName": "divebomb",
+      "path": "{gamesDir}\\MAME\\ROMS\\divebomb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1989",
+      "gameType": "Shooter / Flying",
+      "rating": "70 to 80 (Good)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "River Patrol (Japan)",
+      "mameName": "rpatrol",
+      "path": "{gamesDir}\\MAME\\ROMS\\rpatrol.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Orca",
+      "year": "1981",
+      "gameType": "Driving / Boat",
+      "rating": "60 to 70 (Passable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Side by Side 2 (Ver 2.6 OK)",
+      "mameName": "sidebs2",
+      "path": "{gamesDir}\\MAME\\ROMS\\sidebs2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1997",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

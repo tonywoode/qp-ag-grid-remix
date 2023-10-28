@@ -1,0 +1,887 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Anteta Barcode Reader v5.1",
+      "mameName": "abcode",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\abcode.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Anteta",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Airnav Professional 2C",
+      "mameName": "airnav",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\airnav.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Angler Pack",
+      "mameName": "anglerpa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\anglerpa.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Skyfact Software",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "AutoScribe Plus v4.11",
+      "mameName": "ascribe4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\ascribe4.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Widget Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "AutoScribe Plus v5.11",
+      "mameName": "ascribe5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\ascribe5.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Widget Software",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Assembler Pack v1.0",
+      "mameName": "assem",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\assem.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "A.R. Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Barcode Printer I v1.42",
+      "mameName": "bcprinte",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\bcprinte.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Gaascom Ltd.",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cipher v7.604",
+      "mameName": "cipher",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\cipher.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "British Telecom",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Clipboard Inspection System",
+      "mameName": "clip",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\clip.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Rafiq Mahmood",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Coastal v3.1",
+      "mameName": "coastal3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\coastal3.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Maritek Ltd",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Coastal v4.2",
+      "mameName": "coastal4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\coastal4.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Maritek Ltd",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Data Organiser v2.4",
+      "mameName": "dataorg",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\dataorg.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Data Organiser v2.5 (Spanish)",
+      "mameName": "dataorgs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\dataorgs.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Data Organiser v2.52 (German)",
+      "mameName": "datorgd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\datorgd.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Data Organiser v2.52 (Italian)",
+      "mameName": "datorgi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\datorgi.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ferret Helper v5.1N",
+      "mameName": "ferreth",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\ferreth.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Ferret Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FileMaster v3.75",
+      "mameName": "fm375",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\fm375.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Widget Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FileMaster v3.76",
+      "mameName": "fm376",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\fm376.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Widget Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FileMaster v3.762",
+      "mameName": "fm3762",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\fm3762.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Widget Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FileMaster",
+      "mameName": "fmalt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\fmalt.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Widget Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Finance Pack",
+      "mameName": "finance",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\finance.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Aware",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Finance Pack II",
+      "mameName": "finance2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\finance2.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Aware",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Finger Organiser v1.3",
+      "mameName": "finger13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\finger13.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Finger Organiser v1.4",
+      "mameName": "finger14",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\finger14.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Finger Organiser v1.4 (Italian)",
+      "mameName": "finge14i",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\finge14i.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Finger Organiser v1.5 (German)",
+      "mameName": "finge15d",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\finge15d.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Flightmaster v2.19",
+      "mameName": "flightma",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\flightma.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Software 2000, Inc.",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Flightmaster v2.28",
+      "mameName": "flightmb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\flightmb.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Software 2000, Inc.",
+      "year": "1994",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FnKey v3.1",
+      "mameName": "fnkey31",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\fnkey31.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Cubsoft",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FnKey v4.0",
+      "mameName": "fnkey40",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\fnkey40.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Cubsoft",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FilePak v2.0",
+      "mameName": "filepak",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\filepak.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "KA",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Form Master",
+      "mameName": "formmast",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\formmast.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Cascade Systems Ltd.",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Formulator v1.1",
+      "mameName": "formul11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\formul11.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Formulator v2.1",
+      "mameName": "formul21",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\formul21.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Games Organiser v0.2",
+      "mameName": "gamesorg",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\gamesorg.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Games Organiser (Italian)",
+      "mameName": "gorgit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\gorgit.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games Pack",
+      "mameName": "gpack",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\gpack.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "S.I.S. Ltd, Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games Pack (Mick Andon)",
+      "mameName": "gpackma",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\gpackma.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Mick Andon",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Harvester Superchip v1.2",
+      "mameName": "schip12",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\schip12.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Harvester Superchip 1.1 (Spanish)",
+      "mameName": "schip11s",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\schip11s.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Harvester Superchip 1.2 (Italian)",
+      "mameName": "schip12i",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\schip12i.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Informed Organiser 2.3 (Spanish)",
+      "mameName": "infor23s",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\infor23s.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Informed Organiser 2.3 (Italian)",
+      "mameName": "infor23i",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\infor23i.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Letter Organiser 3.11 (Italian)",
+      "mameName": "letor311",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\letor311.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Letter Organiser 3.2 (Spanish)",
+      "mameName": "letor32s",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\letor32s.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Scientific Organiser v1.01",
+      "mameName": "scior101",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\scior101.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "S.A.F.E.",
+      "mameName": "safe",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\safe.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "S.A.M.S. v1.3",
+      "mameName": "sams13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\sams13.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "S.L.E.P",
+      "mameName": "slep",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\slep.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "S.O.L.D. v1.2",
+      "mameName": "sold12",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\sold12.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Harvester Information Systems",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Inkasencki v6.1",
+      "mameName": "inkas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\inkas.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "<unknown>",
+      "year": "199?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jotter v2.5",
+      "mameName": "jotter25",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\jotter25.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Camel Systems Ltd",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Maths Pack",
+      "mameName": "maths",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\maths.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Numbase v1.23",
+      "mameName": "numbase",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\numbase.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Eidersoft",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Textbase",
+      "mameName": "textbase",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\textbase.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Eidersoft",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Personal Finance",
+      "mameName": "persfin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\persfin.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Willow Enterprises Ltd",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Portfolio Pack",
+      "mameName": "portfoli",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\portfoli.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "DIP, Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Result Vers 4L",
+      "mameName": "result",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\result.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Terrace Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SDRP 01.05",
+      "mameName": "sdrp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\sdrp.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Datacom Group Ltd.",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Concise Oxford Spelling Checker v0.1",
+      "mameName": "cosc1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\cosc1.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Concise Oxford Spelling Checker v2.0",
+      "mameName": "cosc2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\cosc2.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "National Survey Software v4.3",
+      "mameName": "nss43",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\nss43.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Neil Draycott (?)",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pure Finance Pack",
+      "mameName": "purefin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\purefin.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "DIP",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Prakpak French Vocabulary I",
+      "mameName": "prakfrvc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\prakfrvc.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Mackay",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Prudential Rate Book v2.33",
+      "mameName": "prudent",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\prudent.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Prudential Plc.",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pocket Spreadsheet v1.2",
+      "mameName": "ssheet12",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\ssheet12.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pocket Spreadsheet v1.3",
+      "mameName": "ssheet13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\ssheet13.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pocket Spreadsheet v3.3",
+      "mameName": "ssheet33",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\ssheet33.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pocket Spreadsheet v3.4",
+      "mameName": "ssheet34",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\ssheet34.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Top Finance v2.1",
+      "mameName": "topfin21",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\topfin21.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Aware",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Top Finance v2.2",
+      "mameName": "topfin22",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\topfin22.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Aware",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Travel Pack v1.2",
+      "mameName": "travel12",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\travel12.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Organised Solutions Ltd, Psion",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Travel Pack v1.5",
+      "mameName": "travel15",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\travel15.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Organised Solutions Ltd, Psion",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Travel Pack v2.0",
+      "mameName": "travel20",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\travel20.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Organised Solutions Ltd, Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "XBase v2.0",
+      "mameName": "xbase20",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\xbase20.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Cubsoft",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "XBase v3.0",
+      "mameName": "xbase30",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\xbase30.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Cubsoft",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Formulator (Alt)",
+      "mameName": "xforma",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\xforma.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion Ltd",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Formulator Top",
+      "mameName": "xformtop",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\xformtop.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion Ltd",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dial-Link",
+      "mameName": "diallink",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\diallink.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Widget Software",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Digitron SF10 v1.10",
+      "mameName": "digit110",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\digit110.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Silvertree Eng., Digitron Inst.",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Digitron SF10 v1.14",
+      "mameName": "digit114",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\digit114.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Silvertree Eng., Digitron Inst.",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Digitron SF12 v2.7",
+      "mameName": "digit27",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\digit27.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Silvertree Eng., Digitron Inst.",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FlashPak Driver v1.9",
+      "mameName": "fpakdriv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\fpakdriv.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Psion",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "KDG Mobrey MSP100 v1.0",
+      "mameName": "msp100",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\msp100.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "KDG Mobrey",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "One-Way Interface",
+      "mameName": "onewayin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\onewayin.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "On-Line Design Inc",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PsiTex v2.000",
+      "mameName": "psitex20",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\psitex20.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Microtima",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SigSet v2.01",
+      "mameName": "sigset20",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\sigset20.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Microtima",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sony Lisa-1 v3.0",
+      "mameName": "sonylisa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\psion2\\sonylisa.7z",
+      "emulatorName": "Retroarch Psion Organiser II CM -SOFTLIST psion2 (MAME)",
+      "companyName": "Sony",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

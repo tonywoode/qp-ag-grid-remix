@@ -1,0 +1,109 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Cartridge BASIC",
+      "mameName": "basic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\basic.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "Microsoft",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ColorPaint",
+      "mameName": "colorpnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\colorpnt.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "IBM",
+      "year": "1984",
+      "comment": "usage:Boot from a DOS floppy and type 'G'",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CrossFire",
+      "mameName": "xfire",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\xfire.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "Sierra On-Line",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fraction Fever",
+      "mameName": "fracfevr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\fracfevr.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "Spinnaker",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lotus 123jr",
+      "mameName": "lotus123",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\lotus123.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "Lotus Development",
+      "year": "1984",
+      "comment": "usage:Mount both carts and a DOS floppy and type 'TUTOR'",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mine Shaft",
+      "mameName": "mineshft",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\mineshft.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "Sierra On-Line",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mouser",
+      "mameName": "mouser",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\mouser.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "Gebelli",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pitfall II",
+      "mameName": "pitfall2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\pitfall2.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "Activision",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "River Raid",
+      "mameName": "riveraid",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\riveraid.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "Activision",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ScubaVenture",
+      "mameName": "scubavnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\ibmpcjr_cart\\scubavnt.7z",
+      "emulatorName": "Retroarch IBM PC Jr -SOFTLIST ibmpcjr_cart (MAME)",
+      "companyName": "Gebelli",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

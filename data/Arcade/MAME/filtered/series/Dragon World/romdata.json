@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dragon World II (ver. 110X, Export)",
+      "mameName": "drgw2",
+      "path": "{gamesDir}\\MAME\\ROMS\\drgw2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1997",
+      "gameType": "Puzzle / Match",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Chuugokuryuu 2001 [Dragon World 2001] (V100?, Japan)",
+      "mameName": "dw2001",
+      "path": "{gamesDir}\\MAME\\ROMS\\dw2001.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "2001",
+      "gameType": "Puzzle / Match",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

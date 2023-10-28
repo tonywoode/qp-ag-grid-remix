@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mach Breakers - Numan Athletics 2 (Japan, MB1)",
+      "mameName": "machbrkrj",
+      "parentName": "machbrkr",
+      "path": "{gamesDir}\\MAME\\ROMS\\machbrkr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1995",
+      "gameType": "Sports / Track & Field",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Numan Athletics (World)",
+      "mameName": "numanath",
+      "path": "{gamesDir}\\MAME\\ROMS\\numanath.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1993",
+      "gameType": "Sports / Track & Field",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Numan Athletics (Japan)",
+      "mameName": "numanathj",
+      "parentName": "numanath",
+      "path": "{gamesDir}\\MAME\\ROMS\\numanath.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1993",
+      "gameType": "Sports / Track & Field",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    }
+  ]
+}

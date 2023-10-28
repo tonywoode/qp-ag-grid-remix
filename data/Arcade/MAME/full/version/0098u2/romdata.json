@@ -1,0 +1,96 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "AmeriDarts (set 2)",
+      "mameName": "amerdart2",
+      "parentName": "amerdart",
+      "path": "{gamesDir}\\MAME\\ROMS\\amerdart.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Ameri",
+      "year": "1989",
+      "gameType": "Sports / Darts",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Flash Point (set 2, Japan) (FD1094 317-0127A)",
+      "mameName": "fpoint",
+      "path": "{gamesDir}\\MAME\\ROMS\\fpoint.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1989",
+      "gameType": "Puzzle / Drop",
+      "rating": "60 to 70 (Passable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Line of Fire / Bakudan Yarou (US) (FD1094 317-0135)",
+      "mameName": "loffireu",
+      "parentName": "loffire",
+      "path": "{gamesDir}\\MAME\\ROMS\\loffire.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1989",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Mahjong Chuukanejyo (China)",
+      "mameName": "mjchuuka",
+      "path": "{gamesDir}\\MAME\\ROMS\\mjchuuka.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dynax",
+      "year": "1998",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "PK Scramble",
+      "mameName": "pkscram",
+      "path": "{gamesDir}\\MAME\\ROMS\\pkscram.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cosmo Electronics Corporation",
+      "year": "1993",
+      "gameType": "Sports / Soccer",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Street Fighter Zero (Asia 950627)",
+      "mameName": "sfza",
+      "parentName": "sfa",
+      "path": "{gamesDir}\\MAME\\ROMS\\sfa.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1995",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

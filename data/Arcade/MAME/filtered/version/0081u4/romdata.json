@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Densha de GO! (Ver 2.2 J)",
+      "mameName": "dendego",
+      "path": "{gamesDir}\\MAME\\ROMS\\dendego.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1996",
+      "gameType": "Driving / 1st Person",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Densha de GO! 2 Kousoku-hen (Ver 2.5 J)",
+      "mameName": "dendego2",
+      "path": "{gamesDir}\\MAME\\ROMS\\dendego2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1998",
+      "gameType": "Driving / 1st Person",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Ghostlop (prototype)",
+      "mameName": "ghostlop",
+      "path": "{gamesDir}\\MAME\\ROMS\\ghostlop.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Landing Gear (Ver 4.2 O)",
+      "mameName": "landgear",
+      "path": "{gamesDir}\\MAME\\ROMS\\landgear.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1995",
+      "gameType": "Driving / Plane",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Lord of Gun (USA)",
+      "mameName": "lordgun",
+      "path": "{gamesDir}\\MAME\\ROMS\\lordgun.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1994",
+      "gameType": "Shooter / Gun",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Rider",
+      "mameName": "suprridr",
+      "path": "{gamesDir}\\MAME\\ROMS\\suprridr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation (Venture Line license)",
+      "year": "1983",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

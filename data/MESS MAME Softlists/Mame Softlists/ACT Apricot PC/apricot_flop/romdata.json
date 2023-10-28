@@ -1,0 +1,49 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Demonstration Pictures",
+      "mameName": "demopics",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apricot_flop\\demopics.7z",
+      "emulatorName": "MAME ACT Apricot PC -SOFTLIST apricot_flop",
+      "companyName": "ACT",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MS-DOS 2.11 BIOS VR2.7",
+      "mameName": "dos211_27",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apricot_flop\\dos211_27.7z",
+      "emulatorName": "MAME ACT Apricot PC -SOFTLIST apricot_flop",
+      "companyName": "ACT",
+      "year": "1985",
+      "comment": " part_id:Disk 1 (Manager & Tools),part_id:Disk 2 (Disk & Editors),part_id:Disk 3 (SuperWriter),part_id:Disk 4 (Async & MS-Basic),part_id:Disk 5 (SuperCalc & SuperPlanner)",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MS-DOS 2.11 BIOS VR3.1",
+      "mameName": "dos211_31",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apricot_flop\\dos211_31.7z",
+      "emulatorName": "MAME ACT Apricot PC -SOFTLIST apricot_flop",
+      "companyName": "ACT",
+      "year": "1985",
+      "comment": " part_id:Disk 1 (Activity & Tutor),part_id:Disk 2 (Activity & Editors),part_id:Disk 3 (Async & Diary),part_id:Disk 4 (GW-Basic & Sketch)",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "QUEST - The Adventure",
+      "mameName": "quest",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apricot_flop\\quest.7z",
+      "emulatorName": "MAME ACT Apricot PC -SOFTLIST apricot_flop",
+      "companyName": "Quest Automation Ltd",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

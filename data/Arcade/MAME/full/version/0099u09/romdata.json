@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dynamite Dux (set 1) (8751 317-0095)",
+      "mameName": "ddux1",
+      "parentName": "ddux",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddux.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1988",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Magic Bubble (Adult version, YS-1302 PCB)",
+      "mameName": "magicbuba",
+      "parentName": "magicbub",
+      "path": "{gamesDir}\\MAME\\ROMS\\magicbub.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Yun Sung",
+      "year": "199?",
+      "gameType": "Puzzle / Toss * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

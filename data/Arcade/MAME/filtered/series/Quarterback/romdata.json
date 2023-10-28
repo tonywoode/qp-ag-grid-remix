@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "All American Football (rev E)",
+      "mameName": "aafb",
+      "path": "{gamesDir}\\MAME\\ROMS\\aafb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Leland Corporation",
+      "year": "1989",
+      "gameType": "Sports / Amer. Football",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Quarterback (set 1)",
+      "mameName": "quarterb",
+      "path": "{gamesDir}\\MAME\\ROMS\\quarterb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Leland Corporation",
+      "year": "1987",
+      "gameType": "Sports / Amer. Football",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "John Elway's Team Quarterback (set 1)",
+      "mameName": "teamqb",
+      "path": "{gamesDir}\\MAME\\ROMS\\teamqb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Leland Corporation",
+      "year": "1988",
+      "gameType": "Sports / Amer. Football",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    }
+  ]
+}

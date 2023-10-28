@@ -1,0 +1,4575 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Adventure #1 - Adventureland - SYS 32592 (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Adventure #1 - Adventureland - SYS 32592 (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventure #2 - Pirate's Cove - SYS 32592 (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Adventure #2 - Pirate's Cove - SYS 32592 (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventure #3 - Mission Impossible - SYS 32592 (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Adventure #3 - Mission Impossible - SYS 32592 (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventure #4 - Voodoo Castle - SYS 32592 (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Adventure #4 - Voodoo Castle - SYS 32592 (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventure #5 - The Count - SYS 32592 (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Adventure #5 - The Count - SYS 32592 (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AE (1982)(Broderbund) (1 of 2) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\AE (1982)(Broderbund) (1 of 2) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AE (1982)(Broderbund) (1 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\AE (1982)(Broderbund) (1 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "AE (1982)(Broderbund) (2 of 2) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\AE (1982)(Broderbund) (2 of 2) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AE (1982)(Broderbund) (2 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\AE (1982)(Broderbund) (2 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aggressor (NTSC) (1982)(HES) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Aggressor (NTSC) (1982)(HES) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aggressor (NTSC) (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Aggressor (NTSC) (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aggressor (PAL) (1982)(HES) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Aggressor (PAL) (1982)(HES) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aggressor (PAL) (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Aggressor (PAL) (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien (1981)(Commodore) (bad dump) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Alien (1981)(Commodore) (bad dump) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Alien (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "9",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Blitz (1981)(Tensor) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Alien Blitz (1981)(Tensor) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Blitz (1981)(Tensor)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Alien Blitz (1981)(Tensor).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Sidestep (1983)(OEM)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Alien Sidestep (1983)(OEM).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alphabet Zoo (1982)(Spinnaker) (1 of 2) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Alphabet Zoo (1982)(Spinnaker) (1 of 2) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alphabet Zoo (1982)(Spinnaker) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Alphabet Zoo (1982)(Spinnaker) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alphabet Zoo (1982)(Spinnaker) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Alphabet Zoo (1982)(Spinnaker) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Maze (Y)(Machine Language) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Amazing Maze (Y)(Machine Language) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Maze (Y)(Machine Language) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Amazing Maze (Y)(Machine Language) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Maze (Y)(Machine Language)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Amazing Maze (Y)(Machine Language).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amidar (Y)(F. Janke) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Amidar (Y)(F. Janke) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amidar (Y)(F. Janke)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Amidar (Y)(F. Janke).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amok! (1981)(UMI) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Amok! (1981)(UMI) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amok! (1981)(UMI)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Amok! (1981)(UMI).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ape Escape (1982)(Spectravideo) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Ape Escape (1982)(Spectravideo) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ape Escape (1982)(Spectravideo) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Ape Escape (1982)(Spectravideo) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ape Escape (1982)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Ape Escape (1982)(Spectravideo).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Apple Panic (1982)(Creative) (1 of 2) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Apple Panic (1982)(Creative) (1 of 2) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Apple Panic (1982)(Creative) (1 of 2) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Apple Panic (1982)(Creative) (1 of 2) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Apple Panic (1982)(Creative) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Apple Panic (1982)(Creative) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Apple Panic (1982)(Creative) (2 of 2) [o1] [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Apple Panic (1982)(Creative) (2 of 2) [o1] [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Apple Panic (1982)(Creative) (2 of 2) [o1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Apple Panic (1982)(Creative) (2 of 2) [o1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Apple Panic (1982)(Creative) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Apple Panic (1982)(Creative) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Apple Panic (1982)(Creative) [a][merged][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Apple Panic (1982)(Creative) [a][merged][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Apple Panic (NTSC)(1982)(Creative) [1 part]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Apple Panic (NTSC)(1982)(Creative) [1 part].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arachnoid (1982)(UMI) (1 of 2) [bad load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Arachnoid (1982)(UMI) (1 of 2) [bad load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arachnoid (1982)(UMI) (1 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Arachnoid (1982)(UMI) (1 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arachnoid (1982)(UMI) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Arachnoid (1982)(UMI) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arachnoid (1982)(UMI) (2 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Arachnoid (1982)(UMI) (2 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arachnoid (1982)(UMI) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Arachnoid (1982)(UMI) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arachnoid (1982)(UMI) [merged]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Arachnoid (1982)(UMI) [merged].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arcadia (Y)(-) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Arcadia (Y)(-) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arcadia (Y)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Arcadia (Y)(-).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Artillery Duel (1983)(Xonox) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Artillery Duel (1983)(Xonox) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Artillery Duel (1983)(Xonox) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Artillery Duel (1983)(Xonox) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Assam - SYS 700 (Y)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Assam - SYS 700 (Y)(-).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astroblitz (NTSC) (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Astroblitz (NTSC) (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astroblitz (PAL) (1982)(Creative) [no load-address][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Astroblitz (PAL) (1982)(Creative) [no load-address][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astroblitz (PAL) (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Astroblitz (PAL) (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atlantis (NTSC) (1983)(Imagic) (not working) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Atlantis (NTSC) (1983)(Imagic) (not working) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atlantis (NTSC) (1983)(Imagic) (not working) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Atlantis (NTSC) (1983)(Imagic) (not working) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atlantis (NTSC) (1983)(Imagic) (not working)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Atlantis (NTSC) (1983)(Imagic) (not working).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atlantis (PAL) (1983)(Imagic) (not working) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Atlantis (PAL) (1983)(Imagic) (not working) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atlantis (PAL) (1983)(Imagic) (not working)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Atlantis (PAL) (1983)(Imagic) (not working).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Attack of the Mutant Camels (1983)(HES) [might be hacked Matrix]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Attack of the Mutant Camels (1983)(HES) [might be hacked Matrix].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Avenger (1981)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Avenger (1981)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Avenger (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Avenger (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bandits (NTSC)(1983)(Sirius) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Bandits (NTSC)(1983)(Sirius) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bandits (NTSC)(1983)(Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Bandits (NTSC)(1983)(Sirius).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bank Robber (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Bank Robber (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BASIC v4 (Y)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\BASIC v4 (Y)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BASIC v5 (Y)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\BASIC v5 (Y)(-).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battlezone (1983)(Atari) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Battlezone (1983)(Atari) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battlezone (1983)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Battlezone (1983)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bewitched (1995)(Zapac) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Bewitched (1995)(Zapac) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bewitched (1995)(Zapac)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Bewitched (1995)(Zapac).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Hole (NTSC) (1982)(Creative) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Black Hole (NTSC) (1982)(Creative) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Hole (NTSC) (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Black Hole (NTSC) (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Hole (PAL) (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Black Hole (PAL) (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers - Planet of Zoom (1983)(Sega) (1 of 2) ",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Buck Rogers - Planet of Zoom (1983)(Sega) (1 of 2) .zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers - Planet of Zoom (1983)(Sega) (1 of 2) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Buck Rogers - Planet of Zoom (1983)(Sega) (1 of 2) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers - Planet of Zoom (1983)(Sega) (1 of 2) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Buck Rogers - Planet of Zoom (1983)(Sega) (1 of 2) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers - Planet of Zoom (1983)(Sega) (2 of 2) ",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Buck Rogers - Planet of Zoom (1983)(Sega) (2 of 2) .zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers - Planet of Zoom (1983)(Sega) (2 of 2) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Buck Rogers - Planet of Zoom (1983)(Sega) (2 of 2) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers - Planet of Zoom (1983)(Sega) (2 of 2) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Buck Rogers - Planet of Zoom (1983)(Sega) (2 of 2) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers - Planet of Zoom (1983)(Sega) [merged]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Buck Rogers - Planet of Zoom (1983)(Sega) [merged].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bug Crusher (1983)(OEM) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Bug Crusher (1983)(OEM) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bug Crusher (1983)(OEM) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Bug Crusher (1983)(OEM) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bug Crusher (1983)(OEM)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Bug Crusher (1983)(OEM).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buti Toolkit (Y)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Buti Toolkit (Y)(-).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cannonball Blitz (1982)(Sierra) (1 of 2) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cannonball Blitz (1982)(Sierra) (1 of 2) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cannonball Blitz (1982)(Sierra) (1 of 2) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cannonball Blitz (1982)(Sierra) (1 of 2) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cannonball Blitz (1982)(Sierra) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cannonball Blitz (1982)(Sierra) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cannonball Blitz (1982)(Sierra) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cannonball Blitz (1982)(Sierra) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capture the Flag (NTSC)(1983)(Sirius) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Capture the Flag (NTSC)(1983)(Sirius) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capture the Flag (NTSC)1983)(Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Capture the Flag (NTSC)1983)(Sirius).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cassette Turbo (Y)(-) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cassette Turbo (Y)(-) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cassette Turbo (Y)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cassette Turbo (Y)(-).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Catch-a-Snatch (Y)(-) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Catch-a-Snatch (Y)(-) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Catch-a-Snatch (Y)(-) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Catch-a-Snatch (Y)(-) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Catch-a-Snatch (Y)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Catch-a-Snatch (Y)(-).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cave-In (1982)(Spectravideo) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cave-In (1982)(Spectravideo) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cave-In (1982)(Spectravision) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cave-In (1982)(Spectravision) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cave-In (1982)(Spectravision)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cave-In (1982)(Spectravision).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Centipede (1983)(Atari) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Centipede (1983)(Atari) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Centipede (1983)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Centipede (1983)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter - SYS 40961 (1982)(Creative) [h][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Choplifter - SYS 40961 (1982)(Creative) [h][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter - SYS 40961 (1982)(Creative) [no load-address][h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Choplifter - SYS 40961 (1982)(Creative) [no load-address][h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter (NTSC) (1982)(Creative) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Choplifter (NTSC) (1982)(Creative) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter (NTSC) (1982)(Creative) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Choplifter (NTSC) (1982)(Creative) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter (NTSC) (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Choplifter (NTSC) (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter (PAL) (1982)(Creative) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Choplifter (PAL) (1982)(Creative) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chuck Norris Superkicks (1983)(Xonox) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Chuck Norris Superkicks (1983)(Xonox) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chuck Norris Superkicks (1983)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Chuck Norris Superkicks (1983)(Xonox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cloud Burst (1982)(UMI) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cloud Burst (1982)(UMI) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cloud Burst (1982)(UMI) [no load-address][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cloud Burst (1982)(UMI) [no load-address][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cloud Burst (1982)(UMI)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cloud Burst (1982)(UMI).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clowns (1982)(Commodore) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Clowns (1982)(Commodore) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clowns (1982)(Commodore) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Clowns (1982)(Commodore) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clowns (1982)(Commodore) [b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Clowns (1982)(Commodore) [b].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clowns (1982)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Clowns (1982)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clowns (1982)(Commodore) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Clowns (1982)(Commodore) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clowns (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Clowns (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Combasic - SYS 45056 (1982)(S. Klandt)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Combasic - SYS 45056 (1982)(S. Klandt).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Commodore Artist (1982)(Commodore) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Commodore Artist (1982)(Commodore) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Commodore Artist (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Commodore Artist (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Computer War (1983)(Thorn EMI) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Computer War (1983)(Thorn EMI) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Computer War (1983)(Thorn EMI) [h][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Computer War (1983)(Thorn EMI) [h][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Computer War (1983)(Thorn EMI)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Computer War (1983)(Thorn EMI).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Congo Bongo (1983)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Congo Bongo (1983)(Sega).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Cruncher (1982)(Commodore) [a1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Cruncher (1982)(Commodore) [a1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Cruncher (1982)(Commodore) [a1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Cruncher (1982)(Commodore) [a1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Cruncher (1982)(Commodore) [a2]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Cruncher (1982)(Commodore) [a2].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Cruncher (1982)(Commodore) [f]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Cruncher (1982)(Commodore) [f].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Cruncher (1982)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Cruncher (1982)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Cruncher (1982)(Commodore) [t]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Cruncher (1982)(Commodore) [t].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Cruncher (1982)(Commodore) [t][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Cruncher (1982)(Commodore) [t][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Cruncher (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Cruncher (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Jailbreak (1982)(Commodore) [a][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Jailbreak (1982)(Commodore) [a][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Jailbreak (1982)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Jailbreak (1982)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Jailbreak (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cosmic Jailbreak (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Creepy Corridors (1983)(Sierra)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Creepy Corridors (1983)(Sierra).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crossfire (NTSC) (1981)(Sierra)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Crossfire (NTSC) (1981)(Sierra).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crossfire (PAL) (1981)(Sierra) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Crossfire (PAL) (1981)(Sierra) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crossfire (PAL) (1981)(Sierra)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Crossfire (PAL) (1981)(Sierra).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyclons (1983)(Boone)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Cyclons (1983)(Boone).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dancing Bear, the (NTSC)(1983)(Koala Technologies) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Dancing Bear, the (NTSC)(1983)(Koala Technologies) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dancing Bear, the (NTSC)(1983)(Koala Technologies) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Dancing Bear, the (NTSC)(1983)(Koala Technologies) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deadly Duck (1982)(Sirius) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Deadly Duck (1982)(Sirius) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deadly Duck (1982)(Sirius) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Deadly Duck (1982)(Sirius) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deadly Duck (1982)(Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Deadly Duck (1982)(Sirius).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deadly Skies (1983)(Tronix) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Deadly Skies (1983)(Tronix) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deadly Skies (1983)(Tronix)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Deadly Skies (1983)(Tronix).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender (1983)(Atari) (1 of 2) [bad load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Defender (1983)(Atari) (1 of 2) [bad load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender (1983)(Atari) (1 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Defender (1983)(Atari) (1 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender (1983)(Atari) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Defender (1983)(Atari) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender (1983)(Atari) (2 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Defender (1983)(Atari) (2 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender (1983)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Defender (1983)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender (1983)(Atari) [merged]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Defender (1983)(Atari) [merged].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demon Attack (NTSC) (1983)(Imagic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Demon Attack (NTSC) (1983)(Imagic).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demon Attack (PAL) (1983)(Imagic) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Demon Attack (PAL) (1983)(Imagic) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demon Attack (PAL) (1983)(Imagic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Demon Attack (PAL) (1983)(Imagic).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dig Dug (1983)(Atari) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Dig Dug (1983)(Atari) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dig Dug (1983)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Dig Dug (1983)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong (1983)(Atari) (1 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Donkey Kong (1983)(Atari) (1 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong (1983)(Atari) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Donkey Kong (1983)(Atari) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong (1983)(Atari) (2 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Donkey Kong (1983)(Atari) (2 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong (1983)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Donkey Kong (1983)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong (1983)(Atari) [merged][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Donkey Kong (1983)(Atari) [merged][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dot Gobbler (NTSC)(-)(Machine Language) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Dot Gobbler (NTSC)(-)(Machine Language) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dot Gobbler (NTSC)(-)(Machine Language) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Dot Gobbler (NTSC)(-)(Machine Language) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dot Gobbler (NTSC)(-)(Machine Language)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Dot Gobbler (NTSC)(-)(Machine Language).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragonfire (1983)(Imagic) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Dragonfire (1983)(Imagic) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragonfire (1983)(Imagic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Dragonfire (1983)(Imagic).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Droids (1983)(T.G. Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Droids (1983)(T.G. Software).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "E.T. - The Extra Terrestrial (1983)(H. Jans) (8k) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\E.T. - The Extra Terrestrial (1983)(H. Jans) (8k) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "E.T. - The Extra Terrestrial (1983)(H. Jans) (8K) [b1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\E.T. - The Extra Terrestrial (1983)(H. Jans) (8K) [b1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "E.T. - The Extra Terrestrial (1983)(H. Jans) (8K) [b2][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\E.T. - The Extra Terrestrial (1983)(H. Jans) (8K) [b2][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "E.T. - The Extra Terrestrial (1983)(H. Jans) (8K)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\E.T. - The Extra Terrestrial (1983)(H. Jans) (8K).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ExBASIC Level II (1982)(Andreas Dipke & Michael Krause)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\ExBASIC Level II (1982)(Andreas Dipke & Michael Krause).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Face Maker (1983)(HES) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Face Maker (1983)(HES) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Face maker (1983)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Face maker (1983)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fast Eddie (1982)(Sirius) [a][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Fast Eddie (1982)(Sirius) [a][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fast Eddie (1982)(Sirius) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Fast Eddie (1982)(Sirius) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fast Eddie (1982)(Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Fast Eddie (1982)(Sirius).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Orbit & Bumper Bash (NTSC)(1983)(Sirius) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Final Orbit & Bumper Bash (NTSC)(1983)(Sirius) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Orbit & Bumper Bash (NTSC)(1983)(Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Final Orbit & Bumper Bash (NTSC)(1983)(Sirius).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipper 1.0 (Y)(Micro Digital) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Flipper 1.0 (Y)(Micro Digital) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipper 1.0 (Y)(Micro Digital) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Flipper 1.0 (Y)(Micro Digital) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fourth Encounter, the (1983)(Thorn Emi) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Fourth Encounter, the (1983)(Thorn Emi) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fourth Encounter, the (1983)(Thorn Emi)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Fourth Encounter, the (1983)(Thorn Emi).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frantic (Y)(Imagine) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Frantic (Y)(Imagine) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger (1983)(Parker) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Frogger (1983)(Parker) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger (1983)(Parker)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Frogger (1983)(Parker).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fun with Music (1983)(Epyx)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Fun with Music (1983)(Epyx).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaxian (1983)(Atari)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Galaxian (1983)(Atari).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Garden Wars (1982)(Commodore) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Garden Wars (1982)(Commodore) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Garden Wars (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Garden Wars (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghost Manors (1983)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Ghost Manors (1983)(Xonox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gold Fever (1983)(Tronix) [o1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Gold Fever (1983)(Tronix) [o1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gold Fever (1983)(Tronix) [o2]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Gold Fever (1983)(Tronix) [o2].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gold Fever (1983)(Tronix)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Gold Fever (1983)(Tronix).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gorf (1982)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Gorf (1982)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gorf (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Gorf (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gridrunner (NTSC) (1982)(HES) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Gridrunner (NTSC) (1982)(HES) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gridrunner (NTSC) (1982)(HES) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Gridrunner (NTSC) (1982)(HES) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gridrunner (PAL) (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Gridrunner (PAL) (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Handy Toolkit (Nl) (Y)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Handy Toolkit (Nl) (Y)(-).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "Dutch",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HesMon 1.1 (1982)(HES) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\HesMon 1.1 (1982)(HES) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HesMon 1.1 (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\HesMon 1.1 (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heswriter (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Heswriter (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hires Toolkit - SYS 45056 (1982)(TSP)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Hires Toolkit - SYS 45056 (1982)(TSP).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Home Babysitter II (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Home Babysitter II (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Household Finance (1983)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Household Finance (1983)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "IFR - Flight Simulator (1983)(Academy) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\IFR - Flight Simulator (1983)(Academy) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "IFR - Flight Simulator (1983)(Academy)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\IFR - Flight Simulator (1983)(Academy).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "In The Chips (NTSC)(1983)(Creative) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\In The Chips (NTSC)(1983)(Creative) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "In The Chips (NTSC)(1983)(Creative) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\In The Chips (NTSC)(1983)(Creative) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jawbreaker II (NTSC) (1983)(Sierra) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jawbreaker II (NTSC) (1983)(Sierra) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jawbreaker II (NTSC) (1983)(Sierra)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jawbreaker II (NTSC) (1983)(Sierra).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jawbreaker II (PAL) (1983)(Sierra) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jawbreaker II (PAL) (1983)(Sierra) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jawbreaker II (PAL) (1983)(Sierra)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jawbreaker II (PAL) (1983)(Sierra).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jelly Monsters v1 (1981)(Commodore) [f]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jelly Monsters v1 (1981)(Commodore) [f].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jelly Monsters v1 (1981)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jelly Monsters v1 (1981)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jelly Monsters v1 (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jelly Monsters v1 (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jelly Monsters v2 (1981)(Commodore) [a2] [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jelly Monsters v2 (1981)(Commodore) [a2] [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jelly Monsters v2 (1981)(Commodore) [f]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jelly Monsters v2 (1981)(Commodore) [f].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jelly Monsters v2 (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jelly Monsters v2 (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jungle Hunt (1984)(Atari) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jungle Hunt (1984)(Atari) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jungle Hunt (1984)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jungle Hunt (1984)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jupiter Lander - VIC Super Lander (1981)(Commodore) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jupiter Lander - VIC Super Lander (1981)(Commodore) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jupiter Lander - VIC Super Lander (1981)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jupiter Lander - VIC Super Lander (1981)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jupiter Lander - VIC Super Lander (1981)(Commodore) [no load-address][a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jupiter Lander - VIC Super Lander (1981)(Commodore) [no load-address][a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jupiter Lander - VIC Super Lander (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Jupiter Lander - VIC Super Lander (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kids on keys (1983)(HES) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Kids on keys (1983)(HES) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kids on Keys (1983)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Kids on Keys (1983)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kindercomp (1983)(HES) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Kindercomp (1983)(HES) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kindercomp (1983)(HES) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Kindercomp (1983)(HES) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-razy Antics (1982)(CBS) [merged][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-razy Antics (1982)(CBS) [merged][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-razy Antiks (1982)(CBS) (1 of 2) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-razy Antiks (1982)(CBS) (1 of 2) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-razy Antiks (1982)(CBS) (1 of 2) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-razy Antiks (1982)(CBS) (1 of 2) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-razy Antiks (1982)(CBS) (1 of 2) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-razy Antiks (1982)(CBS) (1 of 2) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-razy Antiks (1982)(CBS) (2 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-razy Antiks (1982)(CBS) (2 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-razy Antiks (1982)(CBS) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-razy Antiks (1982)(CBS) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-Star Patrol (1982)(CBS) (1 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-Star Patrol (1982)(CBS) (1 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-Star Patrol (1982)(CBS) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-Star Patrol (1982)(CBS) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-Star Patrol (1982)(CBS) (2 of 2) [b][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-Star Patrol (1982)(CBS) (2 of 2) [b][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-Star Patrol (1982)(CBS) (2 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-Star Patrol (1982)(CBS) (2 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-Star Patrol (1982)(CBS) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-Star Patrol (1982)(CBS) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "K-Star Patrol (1982)(CBS) [merged]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\K-Star Patrol (1982)(CBS) [merged].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LADS Assembler - SYS 48641 (Y)(-) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\LADS Assembler - SYS 48641 (Y)(-) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lazer Zone (1983)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lazer Zone (1983)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lode Runner (1983)(Broderbund) (1 of 2) [h][bad load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lode Runner (1983)(Broderbund) (1 of 2) [h][bad load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lode Runner (1983)(Broderbund) (1 of 2) [h][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lode Runner (1983)(Broderbund) (1 of 2) [h][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lode Runner (1983)(Broderbund) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lode Runner (1983)(Broderbund) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lode Runner (1983)(Broderbund) (2 of 2) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lode Runner (1983)(Broderbund) (2 of 2) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lode Runner (1983)(Broderbund) (2 of 2) [h][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lode Runner (1983)(Broderbund) (2 of 2) [h][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lode Runner (1983)(Broderbund) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lode Runner (1983)(Broderbund) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lode Runner (1983)(Broderbund) [merged]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lode Runner (1983)(Broderbund) [merged].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lunar Leeper (1981)(Sierra) (1 of 2) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lunar Leeper (1981)(Sierra) (1 of 2) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lunar Leeper (1981)(Sierra) (1 of 2) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lunar Leeper (1981)(Sierra) (1 of 2) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lunar Leeper (1981)(Sierra) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lunar Leeper (1981)(Sierra) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lunar Leeper (1981)(Sierra) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Lunar Leeper (1981)(Sierra) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mastertype (1983)(Broderbund) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mastertype (1983)(Broderbund) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mastertype (1983)(Broderbund) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mastertype (1983)(Broderbund) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maze (1983)(HES) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Maze (1983)(HES) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maze (1983)(HES) [a][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Maze (1983)(HES) [a][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maze (1983)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Maze (1983)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Medieval Joust (1983)(Thorn EMI) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Medieval Joust (1983)(Thorn EMI) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Medieval Joust (1983)(Thorn EMI)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Medieval Joust (1983)(Thorn EMI).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Meteor Run (1982)(UMI) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Meteor Run (1982)(UMI) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Meteor Run (1982)(UMI) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Meteor Run (1982)(UMI) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Meteor Run (1982)(UMI) (2 of2) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Meteor Run (1982)(UMI) (2 of2) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Meteor Run (1982)(UMI) (2 of2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Meteor Run (1982)(UMI) (2 of2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Midnight Drive AKA Road Race (1981)(Commodore) [a1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Midnight Drive AKA Road Race (1981)(Commodore) [a1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Midnight Drive AKA Road Race (1981)(Commodore) [a1][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Midnight Drive AKA Road Race (1981)(Commodore) [a1][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Midnight Drive AKA Road Race (1981)(Commodore) [a2][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Midnight Drive AKA Road Race (1981)(Commodore) [a2][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Midnight Drive AKA Road Race (1981)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Midnight Drive AKA Road Race (1981)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Midnight Drive AKA Road Race (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Midnight Drive AKA Road Race (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Madness (1983)(Thorn Emi)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mine Madness (1983)(Thorn Emi).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Miner 2049'er (PAL)(1984)(Reston) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Miner 2049'er (PAL)(1984)(Reston) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Miner 2049'er (PAL)(1984)(Reston)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Miner 2049'er (PAL)(1984)(Reston).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mole Attack (1981)(Commodore) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mole Attack (1981)(Commodore) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mole Attack (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mole Attack (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Money Wars (1982)(Commodore) [a1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Money Wars (1982)(Commodore) [a1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Money Wars (1982)(Commodore) [a2][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Money Wars (1982)(Commodore) [a2][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Money Wars (1982)(Commodore) [a3][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Money Wars (1982)(Commodore) [a3][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Money Wars (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Money Wars (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster Maze (1982)(Epyx) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Monster Maze (1982)(Epyx) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster Maze (1982)(Epyx)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Monster Maze (1982)(Epyx).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moon Patrol (1983)(Atari) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Moon Patrol (1983)(Atari) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moon Patrol (1983)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Moon Patrol (1983)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mosquito Infestation (1982)(HES) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mosquito Infestation (1982)(HES) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mosquito Infestation (1982)(HES) [o1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mosquito Infestation (1982)(HES) [o1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mosquito Infestation (1982)(HES) [o2]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mosquito Infestation (1982)(HES) [o2].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mosquito Infestation (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mosquito Infestation (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Motocross Racer (1983)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Motocross Racer (1983)(Xonox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mountain King (NTSC)(1983)(Beyond) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mountain King (NTSC)(1983)(Beyond) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mountain King (NTSC)(1983)(Beyond) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mountain King (NTSC)(1983)(Beyond) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ms Pacman (1983)(Atari) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Ms Pacman (1983)(Atari) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ms Pacman (1983)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Ms Pacman (1983)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mutant Herd (1982)(Thorn EMI) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mutant Herd (1982)(Thorn EMI) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mutant Herd (1982)(Thorn EMI)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Mutant Herd (1982)(Thorn EMI).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Number Crunch (1982)(Spectravision)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Number Crunch (1982)(Spectravision).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Number Nabber & Shape Grabber (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Number Nabber & Shape Grabber (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Omega Race (1982)(Commodore) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Omega Race (1982)(Commodore) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Omega Race (1982)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Omega Race (1982)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Omega Race (1982)(Commodore) [t]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Omega Race (1982)(Commodore) [t].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Omega Race (1982)(Commodore) [t][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Omega Race (1982)(Commodore) [t][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Omega Race (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Omega Race (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outworld (1981)(Tensor) (1 of 2) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Outworld (1981)(Tensor) (1 of 2) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outworld (1981)(Tensor) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Outworld (1981)(Tensor) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outworld (1981)(Tensor) (2 of 2) [o1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Outworld (1981)(Tensor) (2 of 2) [o1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outworld (1981)(Tensor) (2 of 2) [o2][a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Outworld (1981)(Tensor) (2 of 2) [o2][a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outworld (1981)(Tensor) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Outworld (1981)(Tensor) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pacman (1983)(Atari) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pacman (1983)(Atari) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pacman (1983)(Atari) [a1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pacman (1983)(Atari) [a1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pacman (1983)(Atari) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pacman (1983)(Atari) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pacman (1983)(Atari)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pacman (1983)(Atari).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paratrooper (Y)(-) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Paratrooper (Y)(-) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paratrooper (Y)(-) [no load-address][h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Paratrooper (Y)(-) [no load-address][h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Personal Finance (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Personal Finance (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PET Loader (Y)(-) (8K)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\PET Loader (Y)(-) (8K).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pharaoh's Curse (1983)(HES) (1 of 2) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pharaoh's Curse (1983)(HES) (1 of 2) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pharaohs Curse (1983)(HES) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pharaohs Curse (1983)(HES) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pharaohs Curse (1983)(HES) (2 of 2) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pharaohs Curse (1983)(HES) (2 of 2) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pharaohs Curse (1983)(HES) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pharaohs Curse (1983)(HES) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pinball (1982)(Commodore) (paddles) (1 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pinball (1982)(Commodore) (paddles) (1 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pinball (1982)(Commodore) (paddles) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pinball (1982)(Commodore) (paddles) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pinball (1982)(Commodore) (paddles) (2 of 2) [no load-address][b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pinball (1982)(Commodore) (paddles) (2 of 2) [no load-address][b].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pinball (1982)(Commodore) (paddles) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pinball (1982)(Commodore) (paddles) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pinball (NTSC)(1982)(Commodore) (paddles) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pinball (NTSC)(1982)(Commodore) (paddles) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pinball (NTSC)(1982)(Commodore) (paddles) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pinball (NTSC)(1982)(Commodore) (paddles) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pipes (1983)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pipes (1983)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker (1981)(Commodore) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Poker (1981)(Commodore) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker (1981)(Commodore) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Poker (1981)(Commodore) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker (1981)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Poker (1981)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Poker (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Polaris (1983)(Tigervision)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Polaris (1983)(Tigervision).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pole Position (1983)(Atari) (1 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pole Position (1983)(Atari) (1 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pole Position (1983)(Atari) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pole Position (1983)(Atari) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pole Position (1983)(Atari) (2 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pole Position (1983)(Atari) (2 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pole Position (1983)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Pole Position (1983)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Predator (1982)(HES) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Predator (1982)(HES) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Predator (1982)(HES) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Predator (1982)(HES) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Predator (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Predator (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Princess and Frog (1983)(Romox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Princess and Frog (1983)(Romox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Programmer's Aid Cartridge (SYS 28681)(Y)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Programmer's Aid Cartridge (SYS 28681)(Y)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Protector (1983)(HES) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Protector (1983)(HES) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Protector (1983)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Protector (1983)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Q-Bert (1983)(Parker) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Q-Bert (1983)(Parker) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Q-Bert (1983)(Parker)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Q-Bert (1983)(Parker).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quackers (1982)(Interesting) [a][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Quackers (1982)(Interesting) [a][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quackers (1982)(Interresting) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Quackers (1982)(Interresting) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quackers (1982)(Interresting)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Quackers (1982)(Interresting).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quick Brown Fox - SYS 32692 (1982)(Quick Brown Fox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Quick Brown Fox - SYS 32692 (1982)(Quick Brown Fox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Raid on Fort Knox - Bank Robber (1982)(Commodore) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Raid on Fort Knox - Bank Robber (1982)(Commodore) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Raid on Fort Knox - Bank Robber (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Raid on Fort Knox - Bank Robber (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rat Hotel (1982)(Creative) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Rat Hotel (1982)(Creative) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rat Hotel (1982)(Creative) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Rat Hotel (1982)(Creative) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rat Hotel (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Rat Hotel (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renaissance (1982)(Umi) (1 of 2) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Renaissance (1982)(Umi) (1 of 2) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renaissance (1982)(Umi) (1 of 2) [o][no load-address][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Renaissance (1982)(Umi) (1 of 2) [o][no load-address][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renaissance (1982)(Umi) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Renaissance (1982)(Umi) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renaissance (1982)(Umi) (2 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Renaissance (1982)(Umi) (2 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renaissance (1982)(Umi) (2 of 2) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Renaissance (1982)(Umi) (2 of 2) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renaissance (1982)(Umi) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Renaissance (1982)(Umi) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renaissance (1982)(Umi) [1 part]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Renaissance (1982)(Umi) [1 part].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renaissance (1982)(Umi) [merged][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Renaissance (1982)(Umi) [merged][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "River Rescue (1982)(Thorn Emi) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\River Rescue (1982)(Thorn Emi) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "River Rescue (1982)(Thorn Emi) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\River Rescue (1982)(Thorn Emi) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "River Rescue (1982)(Thorn Emi) [h][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\River Rescue (1982)(Thorn Emi) [h][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "River Rescue (1982)(Thorn Emi) [h][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\River Rescue (1982)(Thorn Emi) [h][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "River Rescue (1982)(Thorn Emi)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\River Rescue (1982)(Thorn Emi).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robin Hood (1983)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robin Hood (1983)(Xonox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robot Panic (1982)(HES) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robot Panic (1982)(HES) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robot Panic (1982)(HES) [a][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robot Panic (1982)(HES) [a][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robot Panic (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robot Panic (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robotron; 2084 (1983)(Atari) (1 of 2) [o][bad load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robotron; 2084 (1983)(Atari) (1 of 2) [o][bad load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robotron; 2084 (1983)(Atari) (1 of 2) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robotron; 2084 (1983)(Atari) (1 of 2) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robotron; 2084 (1983)(Atari) (1 of 2) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robotron; 2084 (1983)(Atari) (1 of 2) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robotron; 2084 (1983)(Atari) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robotron; 2084 (1983)(Atari) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robotron; 2084 (1983)(Atari) [merged]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robotron; 2084 (1983)(Atari) [merged].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robotron; 2084 (19830 (Atari) (2 of 2) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Robotron; 2084 (19830 (Atari) (2 of 2) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sammon $2000 (Y)(-) (8K)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sammon $2000 (Y)(-) (8K).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sargon II (1979) (Hayden Book) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sargon II (1979) (Hayden Book) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sargon II (1979) (Hayden Book) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sargon II (1979) (Hayden Book) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sargon II (1979) (Hayden Book) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sargon II (1979) (Hayden Book) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sargon II (1979) (Hayden Book)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sargon II (1979) (Hayden Book).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satellite Patrol (1982)(HES) [o1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Satellite Patrol (1982)(HES) [o1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satellite Patrol (1982)(HES) [o2]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Satellite Patrol (1982)(HES) [o2].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satellite Patrol (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Satellite Patrol (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satellites and Meteorites! (NTSC)(1982)(RLM) (1 of 2) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Satellites and Meteorites! (NTSC)(1982)(RLM) (1 of 2) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satellites and Meteorites! (NTSC)(1982)(RLM) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Satellites and Meteorites! (NTSC)(1982)(RLM) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satellites and Meteorites! (NTSC)(1982)(RLM) (2 of 2) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Satellites and Meteorites! (NTSC)(1982)(RLM) (2 of 2) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satellites and Meteorites! (NTSC)(1982)(RLM) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Satellites and Meteorites! (NTSC)(1982)(RLM) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satellites and Meteorites! (PAL) (1982)(RLM) [1 part]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Satellites and Meteorites! (PAL) (1982)(RLM) [1 part].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scorpion (1983)(Tronix) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Scorpion (1983)(Tronix) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scorpion (1983)(Tronix) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Scorpion (1983)(Tronix) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scorpion (1983)(Tronix)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Scorpion (1983)(Tronix).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scram 20 (1983)(Nalin Sharma) [f]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Scram 20 (1983)(Nalin Sharma) [f].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scram 20 (1983)(Nalin Sharma) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Scram 20 (1983)(Nalin Sharma) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scram 20 (1983)(Nalin Sharma) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Scram 20 (1983)(Nalin Sharma) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Screenmaster (1982)(MA)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Screenmaster (1982)(MA).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Seafox (1983)(Broderbund) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Seafox (1983)(Broderbund) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Seafox (1983)(Broderbund) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Seafox (1983)(Broderbund) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Seawolf (1982)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Seawolf (1982)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Seawolf (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Seawolf (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Serpentine (NTSC) (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Serpentine (NTSC) (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Serpentine (PAL) (1982)(Creative) [sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Serpentine (PAL) (1982)(Creative) [sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Serpentine (PAL) (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Serpentine (PAL) (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Serpentine (PAL) (1982)(Creative)[no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Serpentine (PAL) (1982)(Creative)[no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shamus (1982)(HES) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Shamus (1982)(HES) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shamus (1983)(HES) [h] [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Shamus (1983)(HES) [h] [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shamus (1983)(HES) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Shamus (1983)(HES) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shamus (1983)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Shamus (1983)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sir Lancelot (1983)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sir Lancelot (1983)(Xonox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skibbereen (NTSC) (1982)(UMI)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Skibbereen (NTSC) (1982)(UMI).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skibbereen (PAL) (1982)(UMI) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Skibbereen (PAL) (1982)(UMI) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skibbereen (PAL) (1982)(UMI)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Skibbereen (PAL) (1982)(UMI).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sky Blazer (1983)(Broderbund) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sky Blazer (1983)(Broderbund) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sky Blazer (1983)(Broderbund) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sky Blazer (1983)(Broderbund) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sky is Falling, the (1981)(Commodore) (paddles) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sky is Falling, the (1981)(Commodore) (paddles) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sky is Falling, the (1981)(Commodore) (paddles) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sky is Falling, the (1981)(Commodore) (paddles) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sky is Falling, the (1981)(Commodore) (paddles)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sky is Falling, the (1981)(Commodore) (paddles).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snakebyte (1982)(Sirius) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Snakebyte (1982)(Sirius) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snakebyte (1982)(Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Snakebyte (1982)(Sirius).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Ric-O-Shay (Y)(OEM) [b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Space Ric-O-Shay (Y)(OEM) [b].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Snake (Nl) (1982)(Handic) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Space Snake (Nl) (1982)(Handic) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "Dutch",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Snake (Nl) (1982)(Handic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Space Snake (Nl) (1982)(Handic).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "Dutch",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speed Math & Bingo Math (1982)(Commodore) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Speed Math & Bingo Math (1982)(Commodore) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speed Math & Bingo Math (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Speed Math & Bingo Math (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spider City (NTSC)(1983)(Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spider City (NTSC)(1983)(Sirius).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spider City (PAL)(1983)(Sirius) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spider City (PAL)(1983)(Sirius) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiders of Mars (1982)(UMI) (1 of 2) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spiders of Mars (1982)(UMI) (1 of 2) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiders of Mars (1982)(UMI) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spiders of Mars (1982)(UMI) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiders of Mars (1982)(UMI) (2 of 2) [o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spiders of Mars (1982)(UMI) (2 of 2) [o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiders of Mars (1982)(UMI) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spiders of Mars (1982)(UMI) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiders of Mars (1982)(UMI) [1 part]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spiders of Mars (1982)(UMI) [1 part].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiders of Mars (1982)(UMI) [1 part][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spiders of Mars (1982)(UMI) [1 part][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiders of Mars (1982)(UMI) [merged][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spiders of Mars (1982)(UMI) [merged][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spike's Peak (1983)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spike's Peak (1983)(Xonox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spills and Fills (1983)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Spills and Fills (1983)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Springer (1983)(Tigervision) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Springer (1983)(Tigervision) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Springer (1983)(Tigervision) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Springer (1983)(Tigervision) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Squish'em (1983)(Sirius) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Squish'em (1983)(Sirius) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Squish'em (1983)(Sirius) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Squish'em (1983)(Sirius) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Battle (1981)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Star Battle (1981)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Post (1982)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Star Post (1982)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Post (1982)(Commodore) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Star Post (1982)(Commodore) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Post (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Star Post (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Trek - S.O.S. (1983)(Sega) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Star Trek - S.O.S. (1983)(Sega) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Trek - S.O.S. (1983)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Star Trek - S.O.S. (1983)(Sega).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Story Machine (1983)(HES) (1 of 2) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Story Machine (1983)(HES) (1 of 2) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Story Machine (1983)(HES) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Story Machine (1983)(HES) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Story Machine (1983)(HES) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Story Machine (1983)(HES) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sub Chase (1982)(Umi) [o1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sub Chase (1982)(Umi) [o1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sub Chase (1982)(Umi) [o2]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sub Chase (1982)(Umi) [o2].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sub Chase (1982)(Umi)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Sub Chase (1982)(Umi).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Submarine Commander (1983)(Thorn Emi) (1 of 2) [h][o][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Submarine Commander (1983)(Thorn Emi) (1 of 2) [h][o][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Submarine Commander (1983)(Thorn Emi) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Submarine Commander (1983)(Thorn Emi) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Submarine Commander (1983)(Thorn Emi) (2 of 2) [no load-address][h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Submarine Commander (1983)(Thorn Emi) (2 of 2) [no load-address][h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Submarine Commander (1983)(Thorn Emi) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Submarine Commander (1983)(Thorn Emi) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Submarine Commander (1983)(Thorn Emi) [merged][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Submarine Commander (1983)(Thorn Emi) [merged][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Amok! (Y)(UMI) [a1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Amok! (Y)(UMI) [a1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Amok! (Y)(UMI) [a2][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Amok! (Y)(UMI) [a2][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Amok! (Y)(UMI)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Amok! (Y)(UMI).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Expander (Y)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Expander (Y)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Expander (Y)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Expander (Y)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Smash (1982)(Commodore) (paddles) [a1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Smash (1982)(Commodore) (paddles) [a1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Smash (1982)(Commodore) (paddles) [a1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Smash (1982)(Commodore) (paddles) [a1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Smash (1982)(Commodore) (paddles) [a2]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Smash (1982)(Commodore) (paddles) [a2].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Smash (1982)(Commodore) (paddles) [a2][sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Smash (1982)(Commodore) (paddles) [a2][sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Smash (1982)(Commodore) (paddles)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Super Smash (1982)(Commodore) (paddles).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Synthesound (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Synthesound (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tank Atak (1982) (Supersoft 1982) [merged][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tank Atak (1982) (Supersoft 1982) [merged][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tank Atak (1982) (Supersoft) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tank Atak (1982) (Supersoft) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tank Atak (1982) (Supersoft) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tank Atak (1982) (Supersoft) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tank Atak (1982) (Supersoft) [1 part]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tank Atak (1982) (Supersoft) [1 part].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tank Atak (1982) (Supersoft) [a][no load-address][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tank Atak (1982) (Supersoft) [a][no load-address][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terraguard (1982)(Creative) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Terraguard (1982)(Creative) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terraguard (1982)(Creative) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Terraguard (1982)(Creative) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terraguard (1982)(Creative) [o1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Terraguard (1982)(Creative) [o1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terraguard (1982)(creative) [o2][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Terraguard (1982)(creative) [o2][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terraguard (1982)(Creative) [sd] [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Terraguard (1982)(Creative) [sd] [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terraguard (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Terraguard (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Threshold (1981)(Sierra)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Threshold (1981)(Sierra).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Titan (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Titan (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tomarc the Barbarian (1984)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tomarc the Barbarian (1984)(Xonox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tooth Invaders (1983)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tooth Invaders (1983)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Topper (NTSC) (1983)(Romox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Topper (NTSC) (1983)(Romox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trashman (1982)(Creative) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Trashman (1982)(Creative) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trashman (1982)(Creative) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Trashman (1982)(Creative) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trashman (1982)(Creative) [1 part] [a][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Trashman (1982)(Creative) [1 part] [a][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trashman (1982)(Creative) [1 part] [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Trashman (1982)(Creative) [1 part] [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trashman (1982)(Creative) [1 part]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Trashman (1982)(Creative) [1 part].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turmoil (1982)(Sirius) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Turmoil (1982)(Sirius) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turmoil (1982)(Sirius) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Turmoil (1982)(Sirius) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turmoil (1982)(Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Turmoil (1982)(Sirius).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turtle Graphics (1982)(HES) [a1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Turtle Graphics (1982)(HES) [a1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turtle Graphics (1982)(HES) [a2]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Turtle Graphics (1982)(HES) [a2].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turtle Graphics (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Turtle Graphics (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tutankham (1983)(Parker) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tutankham (1983)(Parker) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tutankham (1983)(Parker) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tutankham (1983)(Parker) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tutankham (1983)(Parker)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Tutankham (1983)(Parker).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Type Attack (1982)(Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Type Attack (1982)(Sirius).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Typo (1983)(Romox)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Typo (1983)(Romox).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VC Extra (Y)(-) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VC Extra (Y)(-) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VC Extra (Y)(-) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VC Extra (Y)(-) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VC Extra (Y)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VC Extra (Y)(-).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VC Songs-Cartridge - Inventio-Pac (De)(Y)(HG) [b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VC Songs-Cartridge - Inventio-Pac (De)(Y)(HG) [b].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VC Songs-Cartridge - Inventio-Pac (De)(Y)(HG) [b][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VC Songs-Cartridge - Inventio-Pac (De)(Y)(HG) [b][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VC Songs-Cartridge - The Mad Boogy (De)(Y)(HG) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VC Songs-Cartridge - The Mad Boogy (De)(Y)(HG) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VC Songs-Cartridge - The Mad Boogy (De)(Y)(HG)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VC Songs-Cartridge - The Mad Boogy (De)(Y)(HG).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VC Songs-Cartridge - The Synthe-Song (De)(Y)(HG)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VC Songs-Cartridge - The Synthe-Song (De)(Y)(HG).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC 20 Micromon v1.2 (1983)(Bill Yee) [b load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC 20 Micromon v1.2 (1983)(Bill Yee) [b load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC 20 Micromon v1.2 (1983)(Bill Yee)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC 20 Micromon v1.2 (1983)(Bill Yee).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Color Test (De) (Y)(-) (maybe no cart) [f]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Color Test (De) (Y)(-) (maybe no cart) [f].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Color Test (De) (Y)(-) (maybe no cart)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Color Test (De) (Y)(-) (maybe no cart).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Debug 98 - SYS 40960 (1998)(Flat Earth Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Debug 98 - SYS 40960 (1998)(Flat Earth Software).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Forth v1.00 (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Forth v1.00 (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Forth v1.10 (1982)(HES)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Forth v1.10 (1982)(HES).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Graph (Y)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Graph (Y)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Menagerie (1982)(Commodore) [a1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Menagerie (1982)(Commodore) [a1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Menagerie (1982)(Commodore) [a2][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Menagerie (1982)(Commodore) [a2][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Menagerie (1982)(Commodore) [a3][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Menagerie (1982)(Commodore) [a3][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Menagerie (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Menagerie (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Music Composer, the (1982)(Thorn Emi) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Music Composer, the (1982)(Thorn Emi) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Music Composer, the (1982)(Thorn Emi) [h][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Music Composer, the (1982)(Thorn Emi) [h][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Music composer, the (1982)(Thorn Emi)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Music composer, the (1982)(Thorn Emi).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Rabbit (1982)(Eastern House) [b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Rabbit (1982)(Eastern House) [b].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Radar Rat Race (1981)(Commodore) [a1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Radar Rat Race (1981)(Commodore) [a1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Radar Rat Race (1981)(Commodore) [a1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Radar Rat Race (1981)(Commodore) [a1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Radar Rat Race (1981)(Commodore) [a2]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Radar Rat Race (1981)(Commodore) [a2].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Radar Rat Race (1981)(Commodore) [h Rally-X]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Radar Rat Race (1981)(Commodore) [h Rally-X].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Radar Rat Race (1981)(Commodore) [h Rally-X][b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Radar Rat Race (1981)(Commodore) [h Rally-X][b].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Radar Rat Race (1981)(Commodore) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Radar Rat Race (1981)(Commodore) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Radar Rat Race (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Radar Rat Race (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Radar Rat Racer (1981)(Commodore) [h Car Race]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Radar Rat Racer (1981)(Commodore) [h Car Race].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Radar Rat Racer (1981)(Commodore) [h Car Race][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Radar Rat Racer (1981)(Commodore) [h Car Race][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Stat (Y)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Stat (Y)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Super Slot (1981)(Commodore) [a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Super Slot (1981)(Commodore) [a].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Super Slot (1981)(Commodore) [a][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Super Slot (1981)(Commodore) [a][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VIC Super Slot (1981)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VIC Super Slot (1981)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VICMon $6000 - SYS 24576 (Y)(Commodore) [b load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VICMon $6000 - SYS 24576 (Y)(Commodore) [b load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VICMon $6000 - SYS 24576 (Y)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VICMon $6000 - SYS 24576 (Y)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VICMon $B000 - SYS 45056 (Y)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VICMon $B000 - SYS 45056 (Y)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VICMon 2 $6000 (Y)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VICMon 2 $6000 (Y)(-).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VICTerm 4.0 (1982)(Commodore) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VICTerm 4.0 (1982)(Commodore) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VICTerm 4.0 (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VICTerm 4.0 (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VicTool - SYS 45056 (1982)(VCC) [o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VicTool - SYS 45056 (1982)(VCC) [o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VicTool - SYS 45056 (1982)(VCC)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\VicTool - SYS 45056 (1982)(VCC).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Video Vermin (1982)(Umi) [b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Video Vermin (1982)(Umi) [b].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Video Vermin (1982)(Umi)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Video Vermin (1982)(Umi).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Videomania (1982)(Creative) [a1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Videomania (1982)(Creative) [a1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Videomania (1982)(Creative) [a1][o1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Videomania (1982)(Creative) [a1][o1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Videomania (1982)(Creative) [a1][o2][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Videomania (1982)(Creative) [a1][o2][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Videomania (1982)(Creative) [a1][o3][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Videomania (1982)(Creative) [a1][o3][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Videomania (1982)(Creative) [h][b][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Videomania (1982)(Creative) [h][b][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Videomania (1982)(Creative)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Videomania (1982)(Creative).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Visible Solar System (1982) (Commodore) [a2]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Visible Solar System (1982) (Commodore) [a2].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Visible Solar System (1982)(Commodore) [a1]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Visible Solar System (1982)(Commodore) [a1].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Visible Solar System (1982)(Commodore) [a1][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Visible Solar System (1982)(Commodore) [a1][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Visible Solar System (1982)(Commodore) [a2][no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Visible Solar System (1982)(Commodore) [a2][no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Visible Solar System (1982)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Visible Solar System (1982)(Commodore).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wacky Waiters - SYS 48896 (Y)(-) [a][o]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Wacky Waiters - SYS 48896 (Y)(-) [a][o].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wacky Waiters - SYS 48896 (Y)(-) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Wacky Waiters - SYS 48896 (Y)(-) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordcraft 2.0 (Y)(UMI) (8K) (1 of 2) [b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Wordcraft 2.0 (Y)(UMI) (8K) (1 of 2) [b].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordcraft 2.0 (Y)(UMI) (8K) (1 of 2) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Wordcraft 2.0 (Y)(UMI) (8K) (1 of 2) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordcraft 2.0 (Y)(UMI) (8K) (1 of 2) [h][sd]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Wordcraft 2.0 (Y)(UMI) (8K) (1 of 2) [h][sd].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordcraft 2.0 (Y)(UMI) (8K) (1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Wordcraft 2.0 (Y)(UMI) (8K) (1 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordcraft 2.0 (Y)(UMI) (8K) (2 of 2) [h]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Wordcraft 2.0 (Y)(UMI) (8K) (2 of 2) [h].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordcraft 2.0 (Y)(UMI) (8K) (2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Wordcraft 2.0 (Y)(UMI) (8K) (2 of 2).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World at War, a (PAL)(Y)(Handic) [no load-address]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\World at War, a (PAL)(Y)(Handic) [no load-address].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World at War, a (PAL)(Y)(Handic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\World at War, a (PAL)(Y)(Handic).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Write Now! - SYS 41000 (1983)(CardCo)",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\Write Now! - SYS 41000 (1983)(CardCo).zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Personal Finance (Y) (-) [b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore Vic-20 - Cartridges (TOSEC-v0.14_CM)\\ZZZ-UNK-Personal Finance (Y) (-) [b].zip",
+      "emulatorName": "MAME Commodore VIC-20 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

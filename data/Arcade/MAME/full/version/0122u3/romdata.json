@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mutant Fighter (World ver EM-3)",
+      "mameName": "mutantf3",
+      "parentName": "mutantf",
+      "path": "{gamesDir}\\MAME\\ROMS\\mutantf.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1992",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "The Simpsons (2 Players Asia)",
+      "mameName": "simpsons2pa",
+      "parentName": "simpsons",
+      "path": "{gamesDir}\\MAME\\ROMS\\simpsons.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

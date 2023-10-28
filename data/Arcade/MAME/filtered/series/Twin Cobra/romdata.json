@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Twin Cobra II (Ver 2.1O 1995/11/30)",
+      "mameName": "tcobra2",
+      "path": "{gamesDir}\\MAME\\ROMS\\tcobra2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1995",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Twin Cobra (World)",
+      "mameName": "twincobr",
+      "path": "{gamesDir}\\MAME\\ROMS\\twincobr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Toaplan / Taito Corporation",
+      "year": "1987",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

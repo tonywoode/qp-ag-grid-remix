@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Merlins Money Maze",
+      "mameName": "merlinmm",
+      "path": "{gamesDir}\\MAME\\ROMS\\merlinmm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Zilec-Zenitone",
+      "year": "1986",
+      "gameType": "Maze",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

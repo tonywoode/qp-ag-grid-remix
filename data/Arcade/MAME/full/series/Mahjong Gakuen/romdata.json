@@ -1,0 +1,50 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Chi-Toitsu",
+      "mameName": "7toitsu",
+      "parentName": "mgakuen",
+      "path": "{gamesDir}\\MAME\\ROMS\\mgakuen.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Yuga",
+      "year": "1988",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mahjong Gakuen",
+      "mameName": "mgakuen",
+      "path": "{gamesDir}\\MAME\\ROMS\\mgakuen.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Yuga",
+      "year": "1988",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mahjong Gakuen 2 Gakuen-chou no Fukushuu",
+      "mameName": "mgakuen2",
+      "path": "{gamesDir}\\MAME\\ROMS\\mgakuen2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Face",
+      "year": "1989",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

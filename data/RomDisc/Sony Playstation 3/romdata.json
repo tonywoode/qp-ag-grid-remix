@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Golden Axe - Beast Rider",
+      "mameName": "Golden Axe - Beast Rider (USA) (En,Fr,Es,It)",
+      "path": "{gamesDir}\\Sony Games\\PS3\\Golden Axe_ Beast Rider [BLUS30209]\\PS3_GAME\\USRDIR\\EBOOT.BIN",
+      "emulatorName": "RPCS3",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gran Turismo 5",
+      "mameName": "Gran Turismo 5 (USA) (En,Ja,Fr,Es,Pt) (v02.00)",
+      "path": "{gamesDir}\\Sony Games\\PS3\\Gran Turismo 5 [BCUS98114]\\PS3_GAME\\USRDIR\\EBOOT.BIN",
+      "emulatorName": "RPCS3",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gran Turismo 5 Prologue",
+      "mameName": "Gran Turismo 5 - Prologue (USA) (En,Fr)",
+      "path": "{gamesDir}\\Sony Games\\PS3\\GRAN TURISMO 5 Prologue [BCUS98158]\\PS3_GAME\\USRDIR\\EBOOT.BIN",
+      "emulatorName": "RPCS3",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gran Turismo 6",
+      "mameName": "Gran Turismo 6 (USA) (En,Ja,Fr)",
+      "path": "{gamesDir}\\Sony Games\\PS3\\Gran Turismo6 [BCUS98296]\\PS3_GAME\\USRDIR\\EBOOT.BIN",
+      "emulatorName": "RPCS3",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minecraft - PlayStation 3 Edition",
+      "mameName": "Minecraft - PlayStation 3 Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Ru,Tr)",
+      "path": "{gamesDir}\\Sony Games\\PS3\\Minecraft - PlayStation 3 Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Ru,Tr)\\PS3_GAME\\USRDIR\\EBOOT.BIN",
+      "emulatorName": "RPCS3",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    }
+  ]
+}

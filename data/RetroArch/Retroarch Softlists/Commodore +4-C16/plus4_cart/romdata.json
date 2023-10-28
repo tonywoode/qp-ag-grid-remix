@@ -1,0 +1,189 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Atomic Mission",
+      "mameName": "atomicmi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\atomicmi.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T116005",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jack Attack",
+      "mameName": "jackattk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\jackattk.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T116002",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pirate Adventure",
+      "mameName": "piratead",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\piratead.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T116004",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Strange Odyssey",
+      "mameName": "strngeod",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\strngeod.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T116006",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Viduzzles",
+      "mameName": "viduzzle",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\viduzzle.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T116001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Calc/Plus",
+      "mameName": "calcplus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\calcplus.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T112003",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Commodore 16 Keyboard Tutorial",
+      "mameName": "c16kbtut",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\c16kbtut.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T113016",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Diag 264 (PAL)",
+      "mameName": "diag264p",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\diag264p.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "crock",
+      "year": "2012",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Diag 264 (NTSC)",
+      "mameName": "diag264n",
+      "parentName": "diag264p",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\diag264p.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "crock",
+      "year": "2012",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Financial Advisor",
+      "mameName": "finadvis",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\finadvis.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T232001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LOGO: A Language for Learning",
+      "mameName": "logo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\logo.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T263001,video:NTSC",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Octasoft BASIC 7.0 (Hun)",
+      "mameName": "basic7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\basic7.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Novotrade",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Script/Plus",
+      "mameName": "scriptpl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\scriptpl.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": "serial:T112001",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Speedy",
+      "mameName": "speedy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\speedy.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "<unknown>",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TurboPlus",
+      "mameName": "turbopls",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\turbopls.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Kingsoft",
+      "year": "1987",
+      "comment": "author:Andreas Arens",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Burn In",
+      "mameName": "burnin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\burnin.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Diagnostic Test",
+      "mameName": "diagtest",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\plus4_cart\\diagtest.7z",
+      "emulatorName": "Retroarch Commodore 264 (Prototype) -SOFTLIST plus4_cart NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

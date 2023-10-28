@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Geo Storm (Japan)",
+      "mameName": "geostorm",
+      "parentName": "gunforc2",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunforc2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1994",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gun Force II (US)",
+      "mameName": "gunforc2",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunforc2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1994",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gunforce - Battle Fire Engulfed Terror Island (World)",
+      "mameName": "gunforce",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunforce.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1991",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gunforce - Battle Fire Engulfed Terror Island (Japan)",
+      "mameName": "gunforcej",
+      "parentName": "gunforce",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunforce.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem",
+      "year": "1991",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gunforce - Battle Fire Engulfed Terror Island (US)",
+      "mameName": "gunforceu",
+      "parentName": "gunforce",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunforce.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Irem America",
+      "year": "1991",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

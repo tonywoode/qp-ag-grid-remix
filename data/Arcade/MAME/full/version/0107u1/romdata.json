@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Crystal Castles (version 1)",
+      "mameName": "ccastles1",
+      "parentName": "ccastles",
+      "path": "{gamesDir}\\MAME\\ROMS\\ccastles.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1983",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Crystal Castles (version 3, French)",
+      "mameName": "ccastlesf",
+      "parentName": "ccastles",
+      "path": "{gamesDir}\\MAME\\ROMS\\ccastles.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1983",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Crystal Castles (version 3, German)",
+      "mameName": "ccastlesg",
+      "parentName": "ccastles",
+      "path": "{gamesDir}\\MAME\\ROMS\\ccastles.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1983",
+      "gameType": "Maze",
+      "language": "German",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Crystal Castles (version 3, Spanish)",
+      "mameName": "ccastlesp",
+      "parentName": "ccastles",
+      "path": "{gamesDir}\\MAME\\ROMS\\ccastles.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1983",
+      "gameType": "Maze",
+      "language": "Spanish",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Dungeons & Dragons: Shadow over Mystara (Brazil 960223)",
+      "mameName": "ddsomb",
+      "parentName": "ddsom",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddsom.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1996",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Poke Champ (set 1)",
+      "mameName": "pokechmp",
+      "path": "{gamesDir}\\MAME\\ROMS\\pokechmp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "D.G.R.M.",
+      "year": "1995",
+      "gameType": "Sports / Pool * Mature *",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "TomCat (Star Wars hardware, prototype)",
+      "mameName": "tomcatsw",
+      "parentName": "tomcat",
+      "path": "{gamesDir}\\MAME\\ROMS\\tomcat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1983",
+      "gameType": "Shooter / Flying",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

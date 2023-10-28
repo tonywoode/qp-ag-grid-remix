@@ -1,0 +1,1081 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "256 Games Pack for Einstein 256",
+      "mameName": "256games",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\256games.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Agrovator",
+      "mameName": "agrovatr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\agrovatr.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Syntaxsoft",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Alice and the March Hare",
+      "mameName": "alice",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\alice.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Orion Software",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Assembly Language Course",
+      "mameName": "assembly",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\assembly.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Glentop",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Boardello",
+      "mameName": "boardelo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\boardelo.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Bubble Bus",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Basic Tutorial",
+      "mameName": "basic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\basic.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Castle Quest & Quest",
+      "mameName": "castle",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\castle.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chuckie Egg",
+      "mameName": "chuckie",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\chuckie.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CP/M+",
+      "mameName": "cpm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\cpm.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Duncan Elvin",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Colour Fantasia",
+      "mameName": "fantasia",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\fantasia.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Cracker (v2.31c)",
+      "mameName": "cracker",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\cracker.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursed Chambers & ZRIM",
+      "mameName": "cchamber",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\cchamber.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cursed Chambers & ZRIM (Alt)",
+      "mameName": "cchambera",
+      "parentName": "cchamber",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\cchamber.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dan Diamond Trilogy",
+      "mameName": "diamond",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\diamond.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Disc",
+      "mameName": "disc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\disc.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Emsoft",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disco Dan",
+      "mameName": "discodan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\discodan.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Eazidraw",
+      "mameName": "eazidraw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\eazidraw.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Supasoft",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fire!!! / Para-Shoot / Apocalypse / Headache / Gold Miner / Kentucky Derby",
+      "mameName": "6in1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\6in1.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Einstein Compendium",
+      "mameName": "eincomp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\eincomp.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Emsoft",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Einstein Micro Plox",
+      "mameName": "microplx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\microplx.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Henry Philippe",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Escape from Merlin 8",
+      "mameName": "merlin8",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\merlin8.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fathom's Deep",
+      "mameName": "fathom",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\fathom.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Flight Simulation",
+      "mameName": "fsim",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\fsim.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "ScreenSoft",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fu-Kung in Las Vegas",
+      "mameName": "fukung",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\fukung.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Games Compendium",
+      "mameName": "gamecomp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\gamecomp.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Get Lost & Mr Fixit",
+      "mameName": "lostfix",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\lostfix.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gronks",
+      "mameName": "gronks",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\gronks.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Heli-Maths",
+      "mameName": "helimath",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\helimath.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Screensoft",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hitchhikers Guide to the Galaxy",
+      "mameName": "hitchikr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\hitchikr.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Infocom",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hustler",
+      "mameName": "hustler",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\hustler.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Bubble Bus",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Island of Artuan",
+      "mameName": "artuan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\artuan.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jet Set Willy",
+      "mameName": "jetsetw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\jetsetw.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Software Projects",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kuma Disc Utility (v1.0)",
+      "mameName": "kumautil",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\kumautil.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lazy Jones",
+      "mameName": "lazyj",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\lazyj.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Terminal Software",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Les Flics",
+      "mameName": "lesflics",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\lesflics.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Electric Software",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Manic Miner",
+      "mameName": "manicmin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\manicmin.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Software Projects",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Manik Panik & Galaxoids",
+      "mameName": "manikpan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\manikpan.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mathe-Magic & Scoop",
+      "mameName": "mathmag",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\mathmag.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Maths Quest & Alphabet Quest",
+      "mameName": "mathsq",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\mathsq.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Maxima",
+      "mameName": "maxima",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\maxima.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Miner Dick",
+      "mameName": "minedick",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\minedick.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mouse Art",
+      "mameName": "mouseart",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\mouseart.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Emsoft",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Composer",
+      "mameName": "musicomp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\musicomp.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Workshop",
+      "mameName": "mworkshp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\mworkshp.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Screensoft",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Workshop (Alt)",
+      "mameName": "mworkshpa",
+      "parentName": "mworkshp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\mworkshp.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Screensoft",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nightmare Park & Commando Plain",
+      "mameName": "nightmar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\nightmar.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Oh Mummy!",
+      "mameName": "ohmummy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\ohmummy.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pakman & Millipede",
+      "mameName": "pakman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\pakman.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Panzer Attack",
+      "mameName": "panzer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\panzer.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Lothlorien",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pete's Utilities",
+      "mameName": "peteutil",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\peteutil.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Programmers Kit",
+      "mameName": "progkit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\progkit.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Punchy",
+      "mameName": "punchy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\punchy.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Quantum",
+      "mameName": "quantum",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\quantum.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "River Bandits",
+      "mameName": "riverbnd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\riverbnd.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rocket / Giant Maths / Mighty Writer",
+      "mameName": "rocket",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\rocket.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Roverball",
+      "mameName": "roverbal",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\roverbal.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Qoko 2",
+      "mameName": "qoko2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\qoko2.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Orion Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Screen Plus",
+      "mameName": "screenpl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\screenpl.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Syntaxsoft",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Southern Belle",
+      "mameName": "southbel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\southbel.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Trap",
+      "mameName": "spactrap",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\spactrap.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Special Operations",
+      "mameName": "specops",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\specops.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Lothlorien",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spectrum Emulator Disk 1",
+      "mameName": "specemu",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\specemu.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Syntaxsoft",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spell n' Build",
+      "mameName": "spelbuld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\spelbuld.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spellbreaker",
+      "mameName": "spellbrk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\spellbrk.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Infocom",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spreadsheet",
+      "mameName": "spreadsh",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\spreadsh.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Computers",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Starcross",
+      "mameName": "starx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\starx.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Infocom",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Starquake",
+      "mameName": "starq",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\starq.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Merlin Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Stepper",
+      "mameName": "stepper",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\stepper.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "KH Scriven",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Superchess",
+      "mameName": "schess",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\schess.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SuperFORTH (v1.12)",
+      "mameName": "sforth",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\sforth.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Six Game Pack (Tatung)",
+      "mameName": "super6t",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\super6t.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Six Game Pack (Tatung, Alt)",
+      "mameName": "super6ta",
+      "parentName": "super6t",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\super6t.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super 6 Games (Bell)",
+      "mameName": "super6b",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\super6b.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Bell Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Superstore",
+      "mameName": "supstore",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\supstore.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Suspended",
+      "mameName": "suspend",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\suspend.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "A.C.E. Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "System 5",
+      "mameName": "system5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\system5.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Crystal Research",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "System 80",
+      "mameName": "sys80",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\sys80.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tasprint",
+      "mameName": "tasprint",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\tasprint.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tasman Software",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tasword",
+      "mameName": "tasword",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\tasword.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tasman Software",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Time Trap",
+      "mameName": "timetrap",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\timetrap.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung Einsoft",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Toado & Fruckles",
+      "mameName": "toadofru",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\toadofru.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Syntaxsoft",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tombs of Karnak & Encounter",
+      "mameName": "tombkarn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\tombkarn.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tournament Snooker",
+      "mameName": "snooker",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\snooker.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Hard Software",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Traditional 16+ Maths & Cyfax",
+      "mameName": "tmathcyf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\tmathcyf.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Solo Software",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tycoon & Pelmanism",
+      "mameName": "tycoon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\tycoon.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Wishbringer",
+      "mameName": "wishbrin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\wishbrin.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Infocom",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Word Processor 40",
+      "mameName": "wordproc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\wordproc.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Surrey Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "X-master",
+      "mameName": "xmaster",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\xmaster.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Xanagrams & Quadrax",
+      "mameName": "xanagram",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\xanagram.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Xtaldos 1.31",
+      "mameName": "xtaldos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\xtaldos.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Tatung",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zen Editor/Assembler",
+      "mameName": "zen",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\zen.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Kuma Software",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zork I - The Great Underground Empire",
+      "mameName": "zork1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\zork1.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Infocom",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zork II",
+      "mameName": "zork2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\zork2.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Infocom",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zork III - The Dungeon Master",
+      "mameName": "zork3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\zork3.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "Infocom",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "100 Metres Sprint & Karate",
+      "mameName": "100mkara",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\100mkara.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "19??",
+      "comment": "author:Mario Castro",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Conan & Boxing",
+      "mameName": "conanbox",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\conanbox.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "19??",
+      "comment": "author:Mario Castro",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lottery",
+      "mameName": "lottery",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\lottery.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "2005",
+      "comment": "author:Mario Castro",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ski-Jump & Nubble Trubble",
+      "mameName": "skinubbl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\skinubbl.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "19??",
+      "comment": "author:Mario Castro",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Trek",
+      "mameName": "startrek",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\startrek.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "19??",
+      "comment": "author:Mario Castro,usage:Start with Tatung-Xtaldos 1.31",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sword Feud",
+      "mameName": "swordfeu",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\swordfeu.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "19??",
+      "comment": "author:Mario Castro",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BBC BASIC (v2.31)",
+      "mameName": "bbcbasic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\bbcbasic.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "1984?",
+      "comment": "author:R.T. Russell",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Einstein Disk International 1",
+      "mameName": "eindisk1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\eindisk1.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "19??",
+      "comment": "author:Andrew Dunipace",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Einstein Disk International 2",
+      "mameName": "eindisk2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\eindisk2.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "19??",
+      "comment": "author:Andrew Dunipace",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Einstein Disk International 3",
+      "mameName": "eindisk3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\eindisk3.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "198?",
+      "comment": "author:Andrew Dunipace?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Game Compilation (Cracked)",
+      "mameName": "gamecmp1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\gamecmp1.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Steam Computer Software Volume 22 (v1.05)",
+      "mameName": "steamv22",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\einstein\\steamv22.7z",
+      "emulatorName": "Retroarch Tatung Einstein TC-01 -SOFTLIST einstein (MAME)",
+      "companyName": "<homebrew>",
+      "year": "1983",
+      "comment": "author:Dave Rand",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

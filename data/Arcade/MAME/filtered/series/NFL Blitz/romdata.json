@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "NFL Blitz (boot ROM 1.2)",
+      "mameName": "blitz",
+      "path": "{gamesDir}\\MAME\\CHDs\\blitz\\blitz.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway Games",
+      "year": "1997",
+      "gameType": "Sports / Amer. Football",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "NFL Blitz 2000 Gold Edition (ver 1.2, Sep 22 1999)",
+      "mameName": "blitz2k",
+      "path": "{gamesDir}\\MAME\\CHDs\\blitz2k\\blitz2k.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway Games",
+      "year": "1999",
+      "gameType": "Sports / Amer. Football",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "NFL Blitz '99 (ver 1.30, Sep 22 1998)",
+      "mameName": "blitz99",
+      "path": "{gamesDir}\\MAME\\CHDs\\blitz99\\blitz99.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway Games",
+      "year": "1998",
+      "gameType": "Sports / Amer. Football",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Crown Jewels (Z055) (QPS) (Scorpion 5) (set 1)",
+      "mameName": "sc5cjqps",
+      "parentName": "sc5crnjw",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5crnjw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "QPS",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Crown Jewels (Z055) (QPS) (Scorpion 5) (set 2)",
+      "mameName": "sc5cjqpsa",
+      "parentName": "sc5crnjw",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5crnjw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "QPS",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Crown Jewels (Z055) (QPS) (Scorpion 5) (set 3)",
+      "mameName": "sc5cjqpsb",
+      "parentName": "sc5crnjw",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5crnjw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "QPS",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Crown Jewels (Z055) (QPS) (Scorpion 5) (set 4)",
+      "mameName": "sc5cjqpsc",
+      "parentName": "sc5crnjw",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5crnjw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "QPS",
+      "year": "200?",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Crown Jewels (PR1608) (Bellfruit) (Scorpion 5) (set 1)",
+      "mameName": "sc5crnjw",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5crnjw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "BFM",
+      "year": "2004",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Crown Jewels (PR1608) (Bellfruit) (Scorpion 5) (set 2)",
+      "mameName": "sc5crnjwa",
+      "parentName": "sc5crnjw",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5crnjw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "BFM",
+      "year": "2004",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Crown Jewels (PR1608) (Bellfruit) (Scorpion 5) (set 3)",
+      "mameName": "sc5crnjwb",
+      "parentName": "sc5crnjw",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc5crnjw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "BFM",
+      "year": "2004",
+      "gameType": "Electromechanical / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

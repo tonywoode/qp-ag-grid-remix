@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Pit Fighter (rev 9)",
+      "mameName": "pitfight",
+      "path": "{gamesDir}\\MAME\\ROMS\\pitfight.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1990",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    },
+    {
+      "name": "Touchmaster 4000 (v6.03 Standard)",
+      "mameName": "tm4k",
+      "path": "{gamesDir}\\MAME\\ROMS\\tm4k.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway Games Inc.",
+      "year": "1998",
+      "gameType": "Multiplay / Compilation",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Uncle Poo",
+      "mameName": "unclepoo",
+      "path": "{gamesDir}\\MAME\\ROMS\\unclepoo.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Diatec",
+      "year": "1983",
+      "gameType": "Maze",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Lady Master of Kung Fu",
+      "mameName": "ladymstr",
+      "path": "{gamesDir}\\MAME\\ROMS\\ladymstr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko / Taito",
+      "year": "1985",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Teeter Torture (prototype)",
+      "mameName": "teetert",
+      "path": "{gamesDir}\\MAME\\ROMS\\teetert.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Exidy",
+      "year": "1982",
+      "gameType": "Shooter / Gallery",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

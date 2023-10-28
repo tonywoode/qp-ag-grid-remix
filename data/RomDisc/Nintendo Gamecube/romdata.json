@@ -1,0 +1,4403 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "18 Wheeler - American Pro Trucker",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\18 Wheeler - American Pro Trucker.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4x4 Evo 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\4x4 Evo 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Action Replay Version 1.14b",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Action Replay Version 1.14b.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventures of Jimmy Neutron Boy Genius, The - Attack of the Twonkies",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Adventures of Jimmy Neutron Boy Genius, The - Attack of the Twonkies.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adventures of Jimmy Neutron Boy Genius, The - Jet Fusion",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Adventures of Jimmy Neutron Boy Genius, The - Jet Fusion.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aggressive Inline",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Aggressive Inline.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Hominid",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Alien Hominid.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Amazing Island",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Amazing Island.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "American Chopper 2 - Full Throttle",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\American Chopper 2 - Full Throttle.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Animal Crossing",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Animal Crossing.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Animaniacs - The Great Edgar Hunt",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Animaniacs - The Great Edgar Hunt.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ant Bully, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ant Bully, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "20",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aquaman - Battle for Atlantis",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Aquaman - Battle for Atlantis.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Army Men - Air Combat - The Elite Missions",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Army Men - Air Combat - The Elite Missions.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Army Men - Sarge's War",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Army Men - Sarge's War.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "ATV Quad Power Racing 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\ATV Quad Power Racing 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Auto Modellista",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Auto Modellista.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Avatar - The Last Airbender",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Avatar - The Last Airbender.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Backyard Baseball",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Backyard Baseball.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Backyard Football",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Backyard Football.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bad Boys - Miami Takedown",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Bad Boys - Miami Takedown.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baten Kaitos - Eternal Wings and the Lost Ocean Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Baten Kaitos - Eternal Wings and the Lost Ocean Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baten Kaitos - Eternal Wings and the Lost Ocean Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Baten Kaitos - Eternal Wings and the Lost Ocean Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baten Kaitos Origins Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Baten Kaitos Origins Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baten Kaitos Origins Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Baten Kaitos Origins Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BatMan - Dark Tomorrow",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\BatMan - Dark Tomorrow.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batman - Rise Of Sin Tzu",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Batman - Rise Of Sin Tzu.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "24",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batman - Vengeance",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Batman - Vengeance.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batman Begins",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Batman Begins.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battalion Wars",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Battalion Wars.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battle Stadium D.O.N (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Battle Stadium D.O.N (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beyblade - Super Tournament Battle",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Beyblade - Super Tournament Battle.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beyond Good & Evil",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Beyond Good & Evil.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Big Air Freestyle",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Big Air Freestyle.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Big Mutha Truckers",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Big Mutha Truckers.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Billy Hatcher and the Giant Egg",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Billy Hatcher and the Giant Egg.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bionicle - The Game",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Bionicle - The Game.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bionicle Heroes",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Bionicle Heroes.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black & Bruised",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Black & Bruised.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bleach - Tasogare Ni Mamieru Shinigami (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Bleach - Tasogare Ni Mamieru Shinigami (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BloodRayne",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\BloodRayne.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bloody Roar - Primal Fury",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Bloody Roar - Primal Fury.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "BlowOut",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\BlowOut.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BMX XXX",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\BMX XXX.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boboboubo Boubobo Dassutsu Hajike Royale (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Boboboubo Boubobo Dassutsu Hajike Royale (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomber Man Land 2 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Bomber Man Land 2 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Generations",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Bomberman Generations.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Bomberman Jetters",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Bomberman Jetters.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Buffy The Vampire Slayer - Chaos Bleeds",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Buffy The Vampire Slayer - Chaos Bleeds.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burnout 2 - Point Of Impact",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Burnout 2 - Point Of Impact.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "8",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burnout",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Burnout.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "40",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bust-a-Move 3000",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Bust-a-Move 3000.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cabela's - Big Game Hunter 2005 Adventures",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Cabela's - Big Game Hunter 2005 Adventures.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cabela's - Dangerous Hunts 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Cabela's - Dangerous Hunts 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cabela's - Outdoor Adventures",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Cabela's - Outdoor Adventures.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Call of Duty - Finest Hour",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Call of Duty - Finest Hour.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Call of Duty 2 - Big Red One",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Call of Duty 2 - Big Red One.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Capcom Vs SNK 2 EO",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Capcom Vs SNK 2 EO.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Captain Tsubasa Ougonsedai No Chousen (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Captain Tsubasa Ougonsedai No Chousen (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carmen Sandiego - The Secret of the Stolen Drums",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Carmen Sandiego - The Secret of the Stolen Drums.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cars",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Cars.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Casper - Spirit Dimensions",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Casper - Spirit Dimensions.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Catwoman",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Catwoman.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cel Damage",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Cel Damage.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Charinko Hero (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Charinko Hero (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Charlie and the Chocolate Factory",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Charlie and the Chocolate Factory.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Charlie's Angels",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Charlie's Angels.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chibi-Robo!",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Chibi-Robo!.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chicken Little",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Chicken Little.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chronicles of Narnia, The - The Lion, The Witch and the Wardrobe",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Chronicles of Narnia, The - The Lion, The Witch and the Wardrobe.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Codename - Kids Next Door - Operation VIDEOGAME",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Codename - Kids Next Door - Operation VIDEOGAME.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Conflict - Desert Storm II",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Conflict - Desert Storm II.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Conflict - Desert Storm",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Conflict - Desert Storm.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Crash Bandicoot - The Wrath of Cortex",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Crash Bandicoot - The Wrath of Cortex.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crash Nitro Kart",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Crash Nitro Kart.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Crash Tag Team Racing",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Crash Tag Team Racing.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Crazy Taxi",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Crazy Taxi.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Croket! Ban no Kiki wo Sukuu (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Croket! Ban no Kiki wo Sukuu (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cubivore - Survival of the Fittest",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Cubivore - Survival of the Fittest.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cubix Robots For Everyone - Showdown",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Cubix Robots For Everyone - Showdown.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Curious George",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Curious George.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Custom Robo",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Custom Robo.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Dakar 2 - The World's Ultimate Rally",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dakar 2 - The World's Ultimate Rally.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dance Dance Revolution - Mario Mix",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dance Dance Revolution - Mario Mix.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dark Summit",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dark Summit.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Darkened Skye",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Darkened Skye.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dave Mirra Freestyle BMX 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dave Mirra Freestyle BMX 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dead To Rights",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dead To Rights.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Def Jam - Fight for NY",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Def Jam - Fight for NY.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Defender",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Defender.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Densetsu no Quiz Oh Ketteisen (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Densetsu no Quiz Oh Ketteisen (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Derby Tsuku 3 - Derby Uma o Tsukurou! (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Derby Tsuku 3 - Derby Uma o Tsukurou! (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Die Hard - Vendetta",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Die Hard - Vendetta.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digimon - Rumble Arena 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Digimon - Rumble Arena 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Digimon World 4",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Digimon World 4.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Dinotopia - The Sunstone Odyssey",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dinotopia - The Sunstone Odyssey.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Disney's Donald Duck - Goin Quackers",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Disney's Donald Duck - Goin Quackers.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Disney's Hide And Sneak",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Disney's Hide And Sneak.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Disney's Magical Mirror - Starring Mickey Mouse",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Disney's Magical Mirror - Starring Mickey Mouse.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Disney's Meet the Robinsons",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Disney's Meet the Robinsons.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Disney's PK - Out of the Shadows",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Disney's PK - Out of the Shadows.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Disney's Tarzan - Untamed",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Disney's Tarzan - Untamed.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dokapon DX (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dokapon DX (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong Jungle Beat",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Donkey Kong Jungle Beat.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Konga 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Donkey Konga 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Donkey Konga 3 - Tabe-houdai! Haru Mogitate 50 Kyoku",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Donkey Konga 3 - Tabe-houdai! Haru Mogitate 50 Kyoku.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Konga 3 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Donkey Konga 3 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dora the Explorer - Journey to the Purple Planet",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dora the Explorer - Journey to the Purple Planet.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon Minna de Asobou! (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Doraemon Minna de Asobou! (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Downtown Run",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Downtown Run.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dr Muto",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dr Muto.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Ball Z - Budokai 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dragon Ball Z - Budokai 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Ball Z - Budokai",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dragon Ball Z - Budokai.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Ball Z - Sagas",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dragon Ball Z - Sagas.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Drive (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dragon Drive (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon's Lair 3D - Return to the Lair",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dragon's Lair 3D - Return to the Lair.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dream Mix TV - World Fighters (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Dream Mix TV - World Fighters (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Driven",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Driven.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Drome Racers",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Drome Racers.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Duel Masters Nettou! Battle Arena (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Duel Masters Nettou! Battle Arena (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ed, Edd N Eddy - The Mis-Edventures",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ed, Edd N Eddy - The Mis-Edventures.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Egg Mania - Eggstreme Madness",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Egg Mania - Eggstreme Madness.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eisei Meijin 6 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Eisei Meijin 6 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Enter the Matrix Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Enter the Matrix Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Enter the Matrix Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Enter the Matrix Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ESPN MLS ExtraTime 2002",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\ESPN MLS ExtraTime 2002.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eternal Darkness - Sanity's Requiem",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Eternal Darkness - Sanity's Requiem.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Evolution Skateboarding",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Evolution Skateboarding.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Evolution Snowboarding",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Evolution Snowboarding.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Evolution Worlds",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Evolution Worlds.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1 2002",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\F1 2002.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Fairly OddParents, The - Breakin' Da Rules",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fairly OddParents, The - Breakin' Da Rules.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fairly OddParents, The - Shadow Showdown",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fairly OddParents, The - Shadow Showdown.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Family Stadium 2003 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Family Stadium 2003 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fantastic 4",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fantastic 4.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fifa 06",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fifa 06.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fifa Football 2002",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fifa Football 2002.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fifa Football 2004",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fifa Football 2004.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fifa Football 2005",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fifa Football 2005.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fifa Street 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fifa Street 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fight Night - Round 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fight Night - Round 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Fantasy - Crystal Chronicles",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Final Fantasy - Crystal Chronicles.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Finding Nemo",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Finding Nemo.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Emblem - Path Of Radiance",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fire Emblem - Path Of Radiance.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fireblade",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Fireblade.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flushed Away",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Flushed Away.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Freaky Flyers Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Freaky Flyers Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Freaky Flyers Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Freaky Flyers Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Freedom Fighters",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Freedom Fighters.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Freekstyle",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Freekstyle.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Freestyle - MetalX",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Freestyle - MetalX.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Frogger - Ancient Shadow",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Frogger - Ancient Shadow.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Frogger Beyond",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Frogger Beyond.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger's Adventures - The Rescue",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Frogger's Adventures - The Rescue.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Future Tactics - The Uprising",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Future Tactics - The Uprising.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F-Zero GX",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\F-Zero GX.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Gakuen Toshi Vara Noir Roses (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Gakuen Toshi Vara Noir Roses (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gauntlet - Dark Legacy",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Gauntlet - Dark Legacy.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Geist",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Geist.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Gekitou Pro Yakyuu (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Gekitou Pro Yakyuu (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gekituisenki - Zero Fighter (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Gekituisenki - Zero Fighter (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Generation of Chaos Exceed (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Generation of Chaos Exceed (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Giftpia (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Giftpia (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gladius",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Gladius.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Go! Go! Hypergrind",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Go! Go! Hypergrind.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Goblin Commander - Unleash the Horde",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Goblin Commander - Unleash the Horde.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Godzilla - Destroy All Monsters Melee",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Godzilla - Destroy All Monsters Melee.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "GoldenEye - Rogue Agent Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\GoldenEye - Rogue Agent Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "GoldenEye - Rogue Agent Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\GoldenEye - Rogue Agent Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Grim Adventures Of Billy & Mandy, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Grim Adventures Of Billy & Mandy, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grooverider - Slot Car Thunder",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Grooverider - Slot Car Thunder.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GT Cube (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\GT Cube (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GT Cube",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\GT Cube.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GUN",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\GUN.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Happy Feet",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Happy Feet.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harry Potter - Quidditch World Cup",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Harry Potter - Quidditch World Cup.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harry Potter And The Chamber Of Secrets",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Harry Potter And The Chamber Of Secrets.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harry Potter and the Goblet of Fire",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Harry Potter and the Goblet of Fire.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harry Potter and the Philosopher's Stone",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Harry Potter and the Philosopher's Stone.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harry Potter And The Prisoner Of Azkaban",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Harry Potter And The Prisoner Of Azkaban.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harvest Moon - Another Wonderful Life",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Harvest Moon - Another Wonderful Life.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harvest Moon - Magical Melody",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Harvest Moon - Magical Melody.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Haunted Mansion, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Haunted Mansion, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hello Kitty - Roller Rescue",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hello Kitty - Roller Rescue.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hikaru no Go 3 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hikaru no Go 3 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hitman 2 - Silent Assassin",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hitman 2 - Silent Assassin.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hobbit, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hobbit, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Homeland (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Homeland (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hot Wheels - Velocity X",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hot Wheels - Velocity X.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Hot Wheels - World Race",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hot Wheels - World Race.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Hudson Selection Vol.1 - Cubic Lode Runner (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hudson Selection Vol.1 - Cubic Lode Runner (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hudson Selection Vol.2 - Star Soldier (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hudson Selection Vol.2 - Star Soldier (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hudson Selection Vol.3 - PC Genjin (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hudson Selection Vol.3 - PC Genjin (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hudson Selection Vol.4 - Adventure Island (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hudson Selection Vol.4 - Adventure Island (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hunter - The Reckoning",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Hunter - The Reckoning.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Ice Age 2 - The Meltdown",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ice Age 2 - The Meltdown.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ikaruga",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ikaruga.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Incredible Hulk, The - Ultimate Destruction",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Incredible Hulk, The - Ultimate Destruction.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Incredibles, The - Rise Of The Underminer",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Incredibles, The - Rise Of The Underminer.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Incredibles, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Incredibles, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "I-Ninja",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\I-Ninja.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Intellivision Lives!",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Intellivision Lives!.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Interactive Multi-Game Demo Disc - July 2002",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Interactive Multi-Game Demo Disc - July 2002.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Interactive Multi-Game Demo Disc - March 2002",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Interactive Multi-Game Demo Disc - March 2002.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Interactive Multi-Game Demo Disc - Version 10",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Interactive Multi-Game Demo Disc - Version 10.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Interactive Multi-Game Demo Disc - Version 35",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Interactive Multi-Game Demo Disc - Version 35.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Italian Job, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Italian Job, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Bond 007 - Agent Under Fire",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\James Bond 007 - Agent Under Fire.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "James Bond 007 - Everything or Nothing",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\James Bond 007 - Everything or Nothing.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Bond 007 - From Russia with Love",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\James Bond 007 - From Russia with Love.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Bond 007 - Nightfire",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\James Bond 007 - Nightfire.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Jeremy McGrath - Supercross World",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Jeremy McGrath - Supercross World.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jikkyou Powerful Major League (NTCS-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Jikkyou Powerful Major League (NTCS-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jikkyou Powerful Pro Yakyuu 10 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Jikkyou Powerful Pro Yakyuu 10 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jikkyou Powerful Pro Yakyuu 11 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Jikkyou Powerful Pro Yakyuu 11 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jikkyou Powerful Pro Yakyuu 11 Chou Ketteiban (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Jikkyou Powerful Pro Yakyuu 11 Chou Ketteiban (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jikkyou Powerful Pro Yakyuu 12 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Jikkyou Powerful Pro Yakyuu 12 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jikkyou Powerful Pro Yakyuu 9 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Jikkyou Powerful Pro Yakyuu 9 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jikkyou World Soccer 2002 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Jikkyou World Soccer 2002 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Judge Dredd - Dredd Vs. Death",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Judge Dredd - Dredd Vs. Death.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Kao the Kangaroo - Round 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Kao the Kangaroo - Round 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kelly Slater's Pro Surfer",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Kelly Slater's Pro Surfer.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Killer7 Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Killer7 Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Killer7 Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Killer7 Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King Arthur",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\King Arthur.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kirby Air Ride",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Kirby Air Ride.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Kiwame Mahjong DX2 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Kiwame Mahjong DX2 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Konjiki no Gashbell Yujyo Tag Battle 2 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Konjiki no Gashbell Yujyo Tag Battle 2 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kururin Squash (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Kururin Squash (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kururin Squash!",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Kururin Squash!.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Golfer (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Legend of Golfer (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend Of Spyro, The - A New Beginning",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Legend Of Spyro, The - A New Beginning.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "20",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Zelda, The - Collector's Edition",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Legend of Zelda, The - Collector's Edition.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Zelda, The - Four Swords Adventures",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Legend of Zelda, The - Four Swords Adventures.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Legend Of Zelda, The - Ocarina of Time - Multi CD",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Legend Of Zelda, The - Ocarina of Time - Multi CD.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend Of Zelda, The - Ocarina Of Time Master Quest",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Legend Of Zelda, The - Ocarina Of Time Master Quest.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend Of Zelda, The - The Wind Waker",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Legend Of Zelda, The - The Wind Waker.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend Of Zelda, The - Twilight Princess",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Legend Of Zelda, The - Twilight Princess.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lego Star Wars - The Video Game",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lego Star Wars - The Video Game.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "31",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lego Star Wars II - The Original Trilogy",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lego Star Wars II - The Original Trilogy.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "20",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lemony Snicket's A Series of Unfortunate Events",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lemony Snicket's A Series of Unfortunate Events.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Looney Tunes - Back In Action",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Looney Tunes - Back In Action.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lord Of The Rings, The - The Return of the King",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lord Of The Rings, The - The Return of the King.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lord of the Rings, The - The Third Age Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lord of the Rings, The - The Third Age Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lord of the Rings, The - The Third Age Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lord of the Rings, The - The Third Age Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lord Of The Rings, The - The Two Towers",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lord Of The Rings, The - The Two Towers.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lost Kingdoms II",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lost Kingdoms II.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lost Kingdoms",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lost Kingdoms.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lotus Challenge",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lotus Challenge.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Luigi's Mansion",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Luigi's Mansion.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "46",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lupin the Third (Disc 1) (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lupin the Third (Disc 1) (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lupin the Third (Disc 2) (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Lupin the Third (Disc 2) (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Madagascar",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Madagascar.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mario Kart - Bonus Disc",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mario Kart - Bonus Disc.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mario Kart - Double Dash",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mario Kart - Double Dash.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "70",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Mario Party 5",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mario Party 5.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Mario Party 6",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mario Party 6.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Mario Party 7",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mario Party 7.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Mario Power Tennis",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mario Power Tennis.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Mario Superstar Baseball",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mario Superstar Baseball.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Marvel Nemesis - Rise of the Imperfects",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Marvel Nemesis - Rise of the Imperfects.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mat Hoffman's Pro Bmx 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mat Hoffman's Pro Bmx 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Medabots Infinity",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Medabots Infinity.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Medal Of Honor - Frontline",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Medal Of Honor - Frontline.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Mega Man - Network Transmission",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mega Man - Network Transmission.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mega Man Anniversary Collection",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mega Man Anniversary Collection.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mega Man X - Command Mission",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mega Man X - Command Mission.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Men In Black II - Alien Escape",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Men In Black II - Alien Escape.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metal Arms - Glitch In The System",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Metal Arms - Glitch In The System.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Metal Gear Solid - The Twin Snakes Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Metal Gear Solid - The Twin Snakes Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metal Gear Solid - The Twin Snakes Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Metal Gear Solid - The Twin Snakes Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metroid Prime 2 - Echoes",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Metroid Prime 2 - Echoes.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Metroid Prime 2 Demo Disc",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Metroid Prime 2 Demo Disc.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metroid Prime",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Metroid Prime.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Micro Machines",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Micro Machines.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Midway Arcade Treasures 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Midway Arcade Treasures 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Midway Arcade Treasures 3",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Midway Arcade Treasures 3.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Minority Report - Everybody Runs",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Minority Report - Everybody Runs.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mission Impossible - Operation Surma",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mission Impossible - Operation Surma.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mobile Suit Gundam - Gundam vs. Z Gundam (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mobile Suit Gundam - Gundam vs. Z Gundam (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mobile Suit Gundam - Senshitachi no Kiseki (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mobile Suit Gundam - Senshitachi no Kiseki (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momotarou Dentetsu 11 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Momotarou Dentetsu 11 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momotarou Dentetsu 12 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Momotarou Dentetsu 12 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster 4x4 - Masters Of Metal",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Monster 4x4 - Masters Of Metal.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster House",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Monster House.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster Jam - Maximum Destruction",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Monster Jam - Maximum Destruction.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monsters Inc - Scream Arena",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Monsters Inc - Scream Arena.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Mortal Kombat - Deadly Alliance",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mortal Kombat - Deadly Alliance.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mortal Kombat - Deception",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mortal Kombat - Deception.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr. Driller - Drill Land (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mr. Driller - Drill Land (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Muppets Party Cruise",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Muppets Party Cruise.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Muscle Champion Kinnikutou no Kessen (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Muscle Champion Kinnikutou no Kessen (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mutsu To Nohohon (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mutsu To Nohohon (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MVP Baseball 2005",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\MVP Baseball 2005.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MX Superfly",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\MX Superfly.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mystic Heroes",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Mystic Heroes.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Namco Museum - 50th Anniversary",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Namco Museum - 50th Anniversary.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Namco Museum",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Namco Museum.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Naruto - Clash Of Ninja 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Naruto - Clash Of Ninja 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Naruto - Clash of Ninja",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Naruto - Clash of Ninja.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Naruto Gekitou Ninja Taisen 3 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Naruto Gekitou Ninja Taisen 3 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Naruto Gektiou Ninja Taisen! 4 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Naruto Gektiou Ninja Taisen! 4 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nascar - Dirt To Daytona",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Nascar - Dirt To Daytona.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nascar 2005 - Chase For The Cup",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Nascar 2005 - Chase For The Cup.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nascar Thunder 2003",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Nascar Thunder 2003.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "NBA 2K2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\NBA 2K2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "NBA Courtside 2002",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\NBA Courtside 2002.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "NBA Live 2003",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\NBA Live 2003.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "NBA street Vol 3",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\NBA street Vol 3.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "NCAA Football 2003",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\NCAA Football 2003.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ND Demo",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\ND Demo\\ND Demo.gcm",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Need For Speed - Carbon",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Need For Speed - Carbon.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Need for Speed - Hot Pursuit 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Need for Speed - Hot Pursuit 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Need For Speed - Most Wanted",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Need For Speed - Most Wanted.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Need For Speed - Underground 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Need For Speed - Underground 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Need For Speed - Underground",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Need For Speed - Underground.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nicktoons - Battle for Volcano Island",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Nicktoons - Battle for Volcano Island.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nicktoons Unite!",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Nicktoons Unite!.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nintendo Gamecube Preview Disc - May 2003",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Nintendo Gamecube Preview Disc - May 2003.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nintendo Gamecube Tech Demo",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Nintendo Gamecube Tech Demo.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nintendo Puzzle Collection (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Nintendo Puzzle Collection (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Odama",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Odama.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ohenro-San - Hosshin no Dojo (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ohenro-San - Hosshin no Dojo (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "One Piece - Grand Adventure",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\One Piece - Grand Adventure.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "One Piece - Grand Battle 3 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\One Piece - Grand Battle 3 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "One Piece - Grand Battle!",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\One Piece - Grand Battle!.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "One Piece - Pirates' Carnival",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\One Piece - Pirates' Carnival.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outlaw Golf",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Outlaw Golf.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Over The Hedge",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Over The Hedge.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Man Fever",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pac-Man Fever.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Man Vs",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pac-Man Vs.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Man World 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pac-Man World 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Man World 3",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pac-Man World 3.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paper Mario - The Thousand-Year Door",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Paper Mario - The Thousand-Year Door.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Peter Jackson's King Kong - The Official Game of the Movie",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Peter Jackson's King Kong - The Official Game of the Movie.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phantasy Star Online Episode I & II",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Phantasy Star Online Episode I & II.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Phantasy Star Online Episode III - CARD Revolution",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Phantasy Star Online Episode III - CARD Revolution.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Piglet's Big Game",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Piglet's Big Game.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pikmin 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pikmin 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pikmin",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pikmin.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitfall - The Lost Expedition",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pitfall - The Lost Expedition.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "13",
+      "paramMode": "0"
+    },
+    {
+      "name": "PN 03",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\PN 03.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokémon Colosseum",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pokémon Colosseum.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokémon XD - Gale of Darkness",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pokémon XD - Gale of Darkness.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Polar Express, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Polar Express, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pool Edge (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pool Edge (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pool Paradise",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Pool Paradise.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Rangers - Dino Thunder",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Power Rangers - Dino Thunder.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prince Of Persia - The Sands Of Time",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Prince Of Persia - The Sands Of Time.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "7",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prince Of Persia - The Two Thrones",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Prince Of Persia - The Two Thrones.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prince of Persia - Warrior Within",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Prince of Persia - Warrior Within.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puyo Pop Fever",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Puyo Pop Fever.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Radirgy Generic (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Radirgy Generic (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rally Championship",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Rally Championship.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rampage - Total Destruction",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Rampage - Total Destruction.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ratatouille",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ratatouille.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rave Master",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Rave Master.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rayman 3 - Hoodlum Havoc",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Rayman 3 - Hoodlum Havoc.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rayman Arena",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Rayman Arena.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Red Faction II",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Red Faction II.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reign Of Fire",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Reign Of Fire.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil - Code Veronica X Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil - Code Veronica X Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil - Code Veronica X Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil - Code Veronica X Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil 3 - Nemesis",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil 3 - Nemesis.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil 4 Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil 4 Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil 4 Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil 4 Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil Zero Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil Zero Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Resident Evil Zero Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Resident Evil Zero Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ribbit King",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ribbit King.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Road Trip - The Arcade Edition",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Road Trip - The Arcade Edition.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Roadkill",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Roadkill.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robocop Aratanaru Kiki (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Robocop Aratanaru Kiki (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robotech - Battlecry",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Robotech - Battlecry.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robots",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Robots.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rocket Power - Beach Bandits",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Rocket Power - Beach Bandits.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rocky",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Rocky.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rogue Ops",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Rogue Ops.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "R-Racing Evolution",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\R-Racing Evolution.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rugrats - Royal Ransom",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Rugrats - Royal Ransom.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Samurai Jack - The Shadow Of Aku",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Samurai Jack - The Shadow Of Aku.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scaler",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Scaler.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scooby-Doo! - Mystery Mayhem",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Scooby-Doo! - Mystery Mayhem.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scooby-Doo! - Night Of 100 Frights",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Scooby-Doo! - Night Of 100 Frights.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scooby-Doo! - Unmasked",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Scooby-Doo! - Unmasked.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scorpion King, The - Rise Of The Akkadian",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Scorpion King, The - Rise Of The Akkadian.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SD Gundam Gashapon Wars (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SD Gundam Gashapon Wars (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SD Gundam Gashapon Wars",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SD Gundam Gashapon Wars.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sea World - Shamu's Deep Sea Adventures",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sea World - Shamu's Deep Sea Adventures.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Second Sight",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Second Sight.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Serious Sam - The Next Encounter",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Serious Sam - The Next Encounter.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shadow The Hedgehog",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Shadow The Hedgehog.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shaman King - Soul Fight (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Shaman King - Soul Fight (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shark Tale",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Shark Tale.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shikigami no Shiro 2 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Shikigami no Shiro 2 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shinseiki GPX Cyber Formula (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Shinseiki GPX Cyber Formula (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shrek - Extra Large",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Shrek - Extra Large.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shrek - Smash N' Crash Racing",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Shrek - Smash N' Crash Racing.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shrek - SuperSlam",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Shrek - SuperSlam.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shrek 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Shrek 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Simpsons, The - Hit And Run",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Simpsons, The - Hit And Run.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Simpsons, The - Road Rage",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Simpsons, The - Road Rage.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sims 2, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sims 2, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sims, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sims, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skies Of Arcadia Legends",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Skies Of Arcadia Legends.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smashing Drive",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Smashing Drive.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smuggler's Run - Warzones",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Smuggler's Run - Warzones.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic Adventure 2 Battle",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sonic Adventure 2 Battle.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic Adventure DX - Director's Cut",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sonic Adventure DX - Director's Cut.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic Gems Collection",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sonic Gems Collection.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic Heroes",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sonic Heroes.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic Mega Collection",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sonic Mega Collection.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic Riders",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sonic Riders.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soulcalibur II",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Soulcalibur II.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Raiders",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Space Raiders.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spartan - Total Warrior",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Spartan - Total Warrior.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spawn - Armageddon",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Spawn - Armageddon.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Special Jinsei Game (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Special Jinsei Game (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speed Kings",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Speed Kings.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sphinx and the Cursed Mummy",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sphinx and the Cursed Mummy.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spider-Man 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Spider-Man 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spider-Man",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Spider-Man.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spirits & Spells",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Spirits & Spells.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SpongeBob SquarePants - Battle For Bikini Bottom",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SpongeBob SquarePants - Battle For Bikini Bottom.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SpongeBob SquarePants - Creature From The Krusty Krab",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SpongeBob SquarePants - Creature From The Krusty Krab.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SpongeBob SquarePants - Lights, Camera, Pants!",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SpongeBob SquarePants - Lights, Camera, Pants!.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SpongeBob Squarepants - Revenge Of The Flying Dutchman",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SpongeBob Squarepants - Revenge Of The Flying Dutchman.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SpongeBob SquarePants Movie Game, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SpongeBob SquarePants Movie Game, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy Hunter",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Spy Hunter.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spyro - A Hero's Tail",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Spyro - A Hero's Tail.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spyro - Enter The Dragonfly",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Spyro - Enter The Dragonfly.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SSX 3",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SSX 3.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SSX On Tour",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SSX On Tour.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SSX Tricky",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SSX Tricky.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Fox - Assault",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Star Fox - Assault.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Fox Adventures",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Star Fox Adventures.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Wars - Bounty Hunter",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Star Wars - Bounty Hunter.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Wars - The Clone Wars",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Star Wars - The Clone Wars.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Wars Jedi Knight II - Jedi Outcast",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Star Wars Jedi Knight II - Jedi Outcast.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Wars Rogue Squadron II - Rogue Leader",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Star Wars Rogue Squadron II - Rogue Leader.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Wars Rogue Squadron III  - Rebel Strike",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Star Wars Rogue Squadron III  - Rebel Strike.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Starsky & Hutch",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Starsky & Hutch.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Hoops",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Street Hoops.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Racing Syndicate",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Street Racing Syndicate.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sum Of All Fears, The",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Sum Of All Fears, The.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Summoner - A Goddess Reborn",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Summoner - A Goddess Reborn.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Bubble Pop",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Super Bubble Pop.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Strikers",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Super Mario Strikers.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Super Mario Sunshine",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Super Mario Sunshine.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "11",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Monkey Ball 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Super Monkey Ball 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Super Monkey Ball Adventure",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Super Monkey Ball Adventure.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Super Monkey Ball",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Super Monkey Ball.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Super Robot Taisen Jishi (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Super Robot Taisen Jishi (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Smash Bros Melee",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Super Smash Bros Melee.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Superman - Shadow Of Apokolips",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Superman - Shadow Of Apokolips.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Surf's Up",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Surf's Up.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SX Superstar",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\SX Superstar.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tak - The Great JuJu Challenge",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tak - The Great JuJu Challenge.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tak 2 - The Staff Of Dreams",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tak 2 - The Staff Of Dreams.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tak And The Power Of Juju",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tak And The Power Of Juju.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tales of Symphonia Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tales of Symphonia Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tales of Symphonia Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tales of Symphonia Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taz - Wanted",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Taz - Wanted.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teen Titans",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Teen Titans.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles - Mutant Melee",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Teenage Mutant Ninja Turtles - Mutant Melee.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles 2 - Battle Nexus Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Teenage Mutant Ninja Turtles 2 - Battle Nexus Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles 2 - Battle Nexus Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Teenage Mutant Ninja Turtles 2 - Battle Nexus Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teenage Mutant Ninja Turtles 3 - Mutant Nightmare",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Teenage Mutant Ninja Turtles 3 - Mutant Nightmare.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tengai Makyou 2 - Manji Maru (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tengai Makyou 2 - Manji Maru (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terminator 3 - The Redemption",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Terminator 3 - The Redemption.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris Worlds",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tetris Worlds.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Tower of Druaga (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\The Tower of Druaga (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TimeSplitters - Future Perfect",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\TimeSplitters - Future Perfect.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TimeSplitters 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\TimeSplitters 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TMNT - The Movie",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\TMNT - The Movie.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom And Jerry - War Of The Whiskers",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom And Jerry - War Of The Whiskers.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Clancy's Ghost Recon 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom Clancy's Ghost Recon 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Clancy's Ghost Recon",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom Clancy's Ghost Recon.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Clancy's Rainbow Six - Lockdown",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom Clancy's Rainbow Six - Lockdown.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Clancy's Rainbow Six 3",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom Clancy's Rainbow Six 3.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Clancy's Splinter Cell - Chaos Theory Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom Clancy's Splinter Cell - Chaos Theory Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Clancy's Splinter Cell - Chaos Theory Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom Clancy's Splinter Cell - Chaos Theory Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Clancy's Splinter Cell - Double Agent Disc 1",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom Clancy's Splinter Cell - Double Agent Disc 1.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Clancy's Splinter Cell - Double Agent Disc 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom Clancy's Splinter Cell - Double Agent Disc 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Clancy's Splinter Cell - Pandora Tomorrow",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tom Clancy's Splinter Cell - Pandora Tomorrow.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tomb Raider - Legend",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tomb Raider - Legend.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tonka - Rescue Patrol",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tonka - Rescue Patrol.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tony Hawk's American Wasteland",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tony Hawk's American Wasteland.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 3",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tony Hawk's Pro Skater 3.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 4",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tony Hawk's Pro Skater 4.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tony Hawk's Underground 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tony Hawk's Underground 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tony Hawk's Underground",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tony Hawk's Underground.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Top Gun - Combat Zones",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Top Gun - Combat Zones.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TransWorld Surf - Next Wave",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\TransWorld Surf - Next Wave.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trigger Man",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Trigger Man.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "True Crime - New York City",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\True Crime - New York City.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "True Crime - Streets Of LA",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\True Crime - Streets Of LA.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tube Slider",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Tube Slider.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turok - Evolution",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Turok - Evolution.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ty The Tasmanian Tiger 2 - Bush Rescue",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ty The Tasmanian Tiger 2 - Bush Rescue.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ty The Tasmanian Tiger 3 - Night Of The Quinkan",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ty The Tasmanian Tiger 3 - Night Of The Quinkan.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ty The Tasmanian Tiger",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ty The Tasmanian Tiger.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultimate Muscle - Legends vs New Generation",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ultimate Muscle - Legends vs New Generation.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultimate Spider-Man",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Ultimate Spider-Man.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Universal Studios Theme Parks Adventure",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Universal Studios Theme Parks Adventure.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Urbz, The - Sims In The City",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Urbz, The - Sims In The City.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Viewtiful Joe - Red Hot Rumble",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Viewtiful Joe - Red Hot Rumble.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Viewtiful Joe 2",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Viewtiful Joe 2.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Viewtiful Joe",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Viewtiful Joe.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtua Quest",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Virtua Quest.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wallace & Gromit In Project Zoo",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Wallace & Gromit In Project Zoo.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wario World",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Wario World.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "7",
+      "paramMode": "0"
+    },
+    {
+      "name": "WarioWare, Inc - Mega Party Game$!",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\WarioWare, Inc - Mega Party Game$!.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Warrior Blade - Rastan vs. Barbarian (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Warrior Blade - Rastan vs. Barbarian (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wave Race - Blue Storm",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Wave Race - Blue Storm.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "Whirl Tour",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Whirl Tour.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winnie the Pooh's Rumbly Tumbly Adventure",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Winnie the Pooh's Rumbly Tumbly Adventure.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winning Eleven 6 - Final Evolution (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Winning Eleven 6 - Final Evolution (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Worms 3D",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Worms 3D.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Worms Blast",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Worms Blast.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wreckless - The Yakuza Missions",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Wreckless - The Yakuza Missions.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WTA Tour Tennis",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\WTA Tour Tennis.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "X2 - Wolverine's Revenge",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\X2 - Wolverine's Revenge.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "XG3 - Extreme G Racing",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\XG3 - Extreme G Racing.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "XGRA - Extreme-G Racing Association",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\XGRA - Extreme-G Racing Association.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "XIII",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\XIII.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "X-Men - Next Dimension",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\X-Men - Next Dimension.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "X-Men 3 - The Official Game",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\X-Men 3 - The Official Game.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "X-Men Legends II - Rise of Apocalypse",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\X-Men Legends II - Rise of Apocalypse.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "4"
+    },
+    {
+      "name": "X-Men Legends",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\X-Men Legends.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yu-Gi-Oh! The Falsebound Kingdom",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Yu-Gi-Oh! The Falsebound Kingdom.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zapper - One Wicked Cricket",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Zapper - One Wicked Cricket.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zatch Bell! Mamodo Battles",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Zatch Bell! Mamodo Battles.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zatch Bell! Mamodo Fury",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Zatch Bell! Mamodo Fury.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zoids - Battle Legends",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Zoids - Battle Legends.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zoids - Full Metal Clash (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Zoids - Full Metal Clash (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zoids VS. (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Zoids VS. (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zoids Vs. 3 (NTSC-J)",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\Zoids Vs. 3 (NTSC-J).gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZooCube",
+      "path": "{gamesDir}\\Nintendo Games\\Gamecube\\ZooCube.gcz",
+      "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

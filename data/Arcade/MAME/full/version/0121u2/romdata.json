@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Guts n' Glory (prototype)",
+      "mameName": "guts",
+      "path": "{gamesDir}\\MAME\\ROMS\\guts.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1989",
+      "gameType": "Shooter / Gallery",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Hang-On",
+      "mameName": "hangon1",
+      "parentName": "hangon",
+      "path": "{gamesDir}\\MAME\\ROMS\\hangon.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1985",
+      "gameType": "Driving / Race (chase view) Bike",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Maze Invaders (prototype)",
+      "mameName": "mazeinv",
+      "path": "{gamesDir}\\MAME\\ROMS\\mazeinv.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1981",
+      "gameType": "Maze",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Next Fase (bootleg of Phoenix)",
+      "mameName": "nextfase",
+      "parentName": "phoenix",
+      "path": "{gamesDir}\\MAME\\ROMS\\phoenix.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Petaco S.A.)",
+      "year": "1981",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Sky Kid (Sipem)",
+      "mameName": "skykids",
+      "parentName": "skykid",
+      "path": "{gamesDir}\\MAME\\ROMS\\skykid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco (Sipem license)",
+      "year": "1985",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Burger Time (World, set 2)",
+      "mameName": "supbtimea",
+      "parentName": "supbtime",
+      "path": "{gamesDir}\\MAME\\ROMS\\supbtime.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1990",
+      "gameType": "Platform / Run Jump",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

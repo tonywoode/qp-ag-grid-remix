@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Taisen Puzzle-dama (ver JAA)",
+      "mameName": "puzldama",
+      "parentName": "crzcross",
+      "path": "{gamesDir}\\MAME\\ROMS\\crzcross.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1994",
+      "gameType": "Puzzle / Drop",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Susume! Taisen Puzzle-Dama (GV027 Japan 1.20)",
+      "mameName": "susume",
+      "parentName": "lacrazyc",
+      "path": "{gamesDir}\\MAME\\CHDs\\lacrazyc\\gv027j1.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Puzzle / Drop",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Tokimeki Memorial Taisen Puzzle-dama (ver JAB)",
+      "mameName": "tkmmpzdm",
+      "path": "{gamesDir}\\MAME\\ROMS\\tkmmpzdm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1995",
+      "gameType": "Puzzle / Drop",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Taisen Tokkae-dama (ver JAA)",
+      "mameName": "tokkae",
+      "path": "{gamesDir}\\MAME\\ROMS\\tokkae.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Puzzle / Misc.",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bang Bang Busters (2010 NCI release)",
+      "mameName": "b2b",
+      "path": "{gamesDir}\\MAME\\ROMS\\b2b.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Visco",
+      "year": "2000",
+      "gameType": "Platform / Run Jump",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Brick Zone (v6.0, Joystick)",
+      "mameName": "brickzn",
+      "path": "{gamesDir}\\MAME\\ROMS\\brickzn.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SunA",
+      "year": "1992",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Castle Of Dracula",
+      "mameName": "cdracula",
+      "path": "{gamesDir}\\MAME\\ROMS\\cdracula.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Yun Sung (Escape license)",
+      "year": "1994",
+      "gameType": "Puzzle / Toss",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Spider",
+      "mameName": "spider",
+      "path": "{gamesDir}\\MAME\\ROMS\\spider.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Buena Vision",
+      "year": "1994",
+      "gameType": "Puzzle / Outline",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Willow (World)",
+      "mameName": "willow",
+      "path": "{gamesDir}\\MAME\\ROMS\\willow.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1989",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

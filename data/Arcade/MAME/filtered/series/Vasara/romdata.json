@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Vasara",
+      "mameName": "vasara",
+      "path": "{gamesDir}\\MAME\\ROMS\\vasara.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Visco",
+      "year": "2000",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Vasara 2 (set 1)",
+      "mameName": "vasara2",
+      "path": "{gamesDir}\\MAME\\ROMS\\vasara2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Visco",
+      "year": "2001",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

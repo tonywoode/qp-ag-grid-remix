@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Magical Spot",
+      "mameName": "magspot",
+      "path": "{gamesDir}\\MAME\\ROMS\\magspot.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Universal",
+      "year": "1980",
+      "gameType": "Shooter / Gallery",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Maximum Force v1.05",
+      "mameName": "maxforce",
+      "path": "{gamesDir}\\MAME\\CHDs\\maxforce\\maxforce.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Shooter / Gun",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Sengeki Striker (Asia)",
+      "mameName": "sengekis",
+      "path": "{gamesDir}\\MAME\\ROMS\\sengekis.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko / Warashi",
+      "year": "1997",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

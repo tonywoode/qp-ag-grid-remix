@@ -1,0 +1,84 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Pooyan",
+      "mameName": "pooyan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pv1000\\pooyan.7z",
+      "emulatorName": "Retroarch Casio PV-1000 -SOFTLIST pv1000 (MAME)",
+      "companyName": "Casio",
+      "year": "1982",
+      "comment": "serial:GPA-101,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Cobra",
+      "mameName": "scobra",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pv1000\\scobra.7z",
+      "emulatorName": "Retroarch Casio PV-1000 -SOFTLIST pv1000 (MAME)",
+      "companyName": "Casio",
+      "year": "1981",
+      "comment": "serial:GPA-102,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tutankham",
+      "mameName": "tutankhm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pv1000\\tutankhm.7z",
+      "emulatorName": "Retroarch Casio PV-1000 -SOFTLIST pv1000 (MAME)",
+      "companyName": "Casio",
+      "year": "1982",
+      "comment": "serial:GPA-103,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Amidar",
+      "mameName": "amidar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pv1000\\amidar.7z",
+      "emulatorName": "Retroarch Casio PV-1000 -SOFTLIST pv1000 (MAME)",
+      "companyName": "Casio",
+      "year": "1982",
+      "comment": "serial:GPA-104,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Warp & Warp",
+      "mameName": "warpwarp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pv1000\\warpwarp.7z",
+      "emulatorName": "Retroarch Casio PV-1000 -SOFTLIST pv1000 (MAME)",
+      "companyName": "Casio",
+      "year": "1981",
+      "comment": "serial:GPA-106,alt_title:&",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Turpin",
+      "mameName": "turpin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pv1000\\turpin.7z",
+      "emulatorName": "Retroarch Casio PV-1000 -SOFTLIST pv1000 (MAME)",
+      "companyName": "Casio",
+      "year": "1981?",
+      "comment": "serial:GPA-107,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Excite Mahjong",
+      "mameName": "excitemj",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pv1000\\excitemj.7z",
+      "emulatorName": "Retroarch Casio PV-1000 -SOFTLIST pv1000 (MAME)",
+      "companyName": "Casio",
+      "year": "1982",
+      "comment": "serial:GPA-115,alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

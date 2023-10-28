@@ -1,0 +1,100 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Jack the Nipper II: In Coconut Capers",
+      "mameName": "jacknip2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\c64_cass\\jacknip2.7z",
+      "emulatorName": "Retroarch Commodore 64 (NTSC) -SOFTLIST c64_cass NTSC only (MAME)",
+      "companyName": "Gremlin Graphics",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CMK 49 Computer Musical Keyboard",
+      "mameName": "cmk49",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\c64_cass\\cmk49.7z",
+      "emulatorName": "Retroarch Commodore 64 (NTSC) -SOFTLIST c64_cass NTSC only (MAME)",
+      "companyName": "Siel",
+      "year": "198?",
+      "parameters": "-L cores\\mame_libretro.dll \" c64 -cass1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mono-64",
+      "mameName": "mono64",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\c64_cass\\mono64.7z",
+      "emulatorName": "Retroarch Commodore 64 (NTSC) -SOFTLIST c64_cass NTSC only (MAME)",
+      "companyName": "Novel International",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Poly-64",
+      "mameName": "poly64",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\c64_cass\\poly64.7z",
+      "emulatorName": "Retroarch Commodore 64 (NTSC) -SOFTLIST c64_cass NTSC only (MAME)",
+      "companyName": "Novel International",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Get Ready to Read with BJ Bear",
+      "mameName": "getrdyrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\c64_cass\\getrdyrd.7z",
+      "emulatorName": "Retroarch Commodore 64 (NTSC) -SOFTLIST c64_cass NTSC only (MAME)",
+      "companyName": "Commodore",
+      "year": "1984",
+      "comment": " part_id:Level 1,part_id:Level 2,part_id:Level 3,part_id:Level 4",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Midway Campaign",
+      "mameName": "midway",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\c64_cass\\midway.7z",
+      "emulatorName": "Retroarch Commodore 64 (NTSC) -SOFTLIST c64_cass NTSC only (MAME)",
+      "companyName": "Avalon Hill",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Robbers of the Lost Tomb",
+      "mameName": "robbers",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\c64_cass\\robbers.7z",
+      "emulatorName": "Retroarch Commodore 64 (NTSC) -SOFTLIST c64_cass NTSC only (MAME)",
+      "companyName": "Timeworks",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Smoothtalker 64",
+      "mameName": "smoothtk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\c64_cass\\smoothtk.7z",
+      "emulatorName": "Retroarch Commodore 64 (NTSC) -SOFTLIST c64_cass NTSC only (MAME)",
+      "companyName": "Personal Peripheral Products",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Speakeasy",
+      "mameName": "speakez",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\c64_cass\\speakez.7z",
+      "emulatorName": "Retroarch Commodore 64 (NTSC) -SOFTLIST c64_cass NTSC only (MAME)",
+      "companyName": "Personal Peripheral Products",
+      "year": "1983",
+      "parameters": "-L cores\\mame_libretro.dll \" c64 -cass1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

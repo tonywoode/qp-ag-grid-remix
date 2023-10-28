@@ -1,0 +1,4783 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "3D Construction Kit Demogame (Demo) (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\3D Construction Kit Demogame (Demo) (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3-D Ghost Chase (19xx)(Tynesoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\3-D Ghost Chase (19xx)(Tynesoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3-D Quasars (1986)(Solar Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\3-D Quasars (1986)(Solar Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3-D Quasars (1986)(Solar Software)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\3-D Quasars (1986)(Solar Software)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3D Time Trek (19xx)(-)[G1000]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\3D Time Trek (19xx)(-)[G1000].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "7Up Spot (1996)(Assasins)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\7Up Spot (1996)(Assasins)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A Bolcsek Kove (1988)(Tihor Miklos)[cr PPCS]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\A Bolcsek Kove (1988)(Tihor Miklos)[cr PPCS].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A Bosszu - The Revenge (19xx)(Science Fiction)(Plus4)(Hu)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\A Bosszu - The Revenge (19xx)(Science Fiction)(Plus4)(Hu)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A Gengszter (19xx)(-)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\A Gengszter (19xx)(-)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A Pince (1988)(Angyal Jozsef)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\A Pince (1988)(Angyal Jozsef)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A.C.E. - Air Combat Emulator (1985)(Section 16)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\A.C.E. - Air Combat Emulator (1985)(Section 16).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "A-07 (1987)(BrainTron Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\A-07 (1987)(BrainTron Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A-07 (1987)(BrainTron Software)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\A-07 (1987)(BrainTron Software)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aardvark (1986)(Bug-Byte)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Aardvark (1986)(Bug-Byte).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aardvark (1986)(Bug-Byte)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Aardvark (1986)(Bug-Byte)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aardvark (1986)(Bug-Byte)[h Floppy Robby]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Aardvark (1986)(Bug-Byte)[h Floppy Robby].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aardvark (1986)(Bug-Byte)[SYS4992][title screen]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Aardvark (1986)(Bug-Byte)[SYS4992][title screen].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aardvark (1986)(Bug-Byte)[title screen]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Aardvark (1986)(Bug-Byte)[title screen].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ace (1986)(Cascade Games)[cr CMS & KNM]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ace (1986)(Cascade Games)[cr CMS & KNM].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ace 2 (198x)(Cascade Games)[cr Bitsoft]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ace 2 (198x)(Cascade Games)[cr Bitsoft].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "AcidFlipper (1992)(EDC)(PD)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\AcidFlipper (1992)(EDC)(PD)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ack Ack Attack (198x)(Tynesoft)[cr The Electronic Duo]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ack Ack Attack (198x)(Tynesoft)[cr The Electronic Duo].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Advinman (19xx)(-)(PD)[demo for adventure building system]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Advinman (19xx)(-)(PD)[demo for adventure building system].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Affen Wurf (19xx)(-)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Affen Wurf (19xx)(-)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Against In The Underground (19xx)(SchinKengrell-Soft)[h Terrorists]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Against In The Underground (19xx)(SchinKengrell-Soft)[h Terrorists].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airwolf (1985)(Elite)[t TTC]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Airwolf (1985)(Elite)[t TTC].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airwolf II (1989)(Elite)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Airwolf II (1989)(Elite).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airwolf II (1989)(Elite)[t Ed-Softworx]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Airwolf II (1989)(Elite)[t Ed-Softworx].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alex (1988)(Novotrade Deltasoft)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Alex (1988)(Novotrade Deltasoft)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Attack (1985)(J.P. Shay)[SYS8446]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Alien Attack (1985)(J.P. Shay)[SYS8446].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Invasion (1987)(Kingsoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Alien Invasion (1987)(Kingsoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Invasion (1987)(Kingsoft)[t]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Alien Invasion (1987)(Kingsoft)[t].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aliens (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Aliens (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Almacska (19xx)(-)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Almacska (19xx)(-)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alom, Edes Alom (19xx)(-)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Alom, Edes Alom (19xx)(-)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amoba - Two Players Version (1995)(Scorpions)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Amoba - Two Players Version (1995)(Scorpions)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amoba (1992)(EDC)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Amoba (1992)(EDC)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amoba (1992)(TPSH)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Amoba (1992)(TPSH)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amoba (19xx)(-)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Amoba (19xx)(-)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amoba (19xx)(Novotrade Rt. Deltasoft)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Amoba (19xx)(Novotrade Rt. Deltasoft)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amoba 2 (1996)(Scorpions)(Plus4)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Amoba 2 (1996)(Scorpions)(Plus4)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Apollo Mission (1985)(Tynesoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Apollo Mission (1985)(Tynesoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arca-Noid (19xx)(M&M)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Arca-Noid (19xx)(M&M)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arca-Noid (19xx)(M&M)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Arca-Noid (19xx)(M&M)(PD)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Archivum (1988)(Boszik Istvan)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Archivum (1988)(Boszik Istvan)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arena 3000 (1985)(Microdeal)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Arena 3000 (1985)(Microdeal).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arena 3000 (1985)(Microdeal)[SYS9708]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Arena 3000 (1985)(Microdeal)[SYS9708].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aromo (1986)(Novotrade Software)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Aromo (1986)(Novotrade Software)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arrow Of Death Part 1 (1990)(Pigmy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Arrow Of Death Part 1 (1990)(Pigmy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arrow Of Death Part 2 (1990)(Pigmy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Arrow Of Death Part 2 (1990)(Pigmy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arthur Noid (1988)(Mr Chip)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Arthur Noid (1988)(Mr Chip).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Artur Kalandjai (1988)(-)(Plus4)(Hu)[cr Batya]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Artur Kalandjai (1988)(-)(Plus4)(Hu)[cr Batya].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Assault Of The Cosmic Nippelzipps (1986)(Dillingersoft)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Assault Of The Cosmic Nippelzipps (1986)(Dillingersoft)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Asteroid Belt (1985)(Argus Press Software)[SYS11739]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Asteroid Belt (1985)(Argus Press Software)[SYS11739].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astro Plumber (19xx)(Blue Ribbon Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Astro Plumber (19xx)(Blue Ribbon Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astro Plumber (19xx)(Blue Ribbon Software)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Astro Plumber (19xx)(Blue Ribbon Software)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ATA (1992)(TDC)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ATA (1992)(TDC)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atlantis (1985)(Anirog Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Atlantis (1985)(Anirog Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atlantis (1985)(Anirog Software)[cr Bramasoft Cracker Service]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Atlantis (1985)(Anirog Software)[cr Bramasoft Cracker Service].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atomix (1990)(VHS Team)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Atomix (1990)(VHS Team)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atomix (1990)(VHS Team)[p][t TMCH]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Atomix (1990)(VHS Team)[p][t TMCH].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Auf Wiedersehen Monty (19xx)(Gremlin Graphics)[cr The Raven]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Auf Wiedersehen Monty (19xx)(Gremlin Graphics)[cr The Raven].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Auf Wiedersehen Monty (19xx)(Gremlin Graphics)[cr The Raven][a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Auf Wiedersehen Monty (19xx)(Gremlin Graphics)[cr The Raven][a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Auriga (1986)(Players)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Auriga (1986)(Players).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Auto Zone (1987)(Howlin Mad)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Auto Zone (1987)(Howlin Mad).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AutoBahn (19xx)(Patrick Strassen)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\AutoBahn (19xx)(Patrick Strassen).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aztec Tomb (19xx)(Pigmysoft)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Aztec Tomb (19xx)(Pigmysoft)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baby Berks (19xx)(Jon Williams)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Baby Berks (19xx)(Jon Williams).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baby Berks (19xx)(Jon Williams)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Baby Berks (19xx)(Jon Williams)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ball (1996)(Scorpions)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ball (1996)(Scorpions)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ball-X (1991)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ball-X (1991)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bandits At Zero (1986)(Mr Chip)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bandits At Zero (1986)(Mr Chip).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Barbarian (19xx)(Muffbusters)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Barbarian (19xx)(Muffbusters)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Barbarian (19xx)(SF)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Barbarian (19xx)(SF)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Barbarian 3 (19xx)(Terrorists)[b][p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Barbarian 3 (19xx)(Terrorists)[b][p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baseball (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Baseball (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baseball (19xx)(-)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Baseball (19xx)(-)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battle (1987)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Battle (1987)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beamphobia (19xx)(GOTU Design)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Beamphobia (19xx)(GOTU Design)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Berks (1985)(CRL Group)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Berks (1985)(CRL Group).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Berks III (1985)(CRL Group)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Berks III (1985)(CRL Group).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bernat Anyomozo (1989)(Novotrade Octasoft)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bernat Anyomozo (1989)(Novotrade Octasoft)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Big Mac (1985)(Mastertronics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Big Mac (1985)(Mastertronics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Big Mac (1985)(Mastertronics)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Big Mac (1985)(Mastertronics)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bigyulabolt (19xx)(-)(Hu)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bigyulabolt (19xx)(-)(Hu)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bio Invaders (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bio Invaders (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Thunder (19xx)(BrainTron Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Black Thunder (19xx)(BrainTron Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blagger (1985)(Brandon James)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Blagger (1985)(Brandon James).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blaze (1985)(Romik Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Blaze (1985)(Romik Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blitz (1985)(C.B.M. UK)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Blitz (1985)(C.B.M. UK).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Block Memory (19xx)(Skoro Design)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Block Memory (19xx)(Skoro Design)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Block Shoot (19xx)(NST)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Block Shoot (19xx)(NST)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blockout (19xx)(CSORY)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Blockout (19xx)(CSORY)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blue Angel (1991)(The Vortex)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Blue Angel (1991)(The Vortex)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BMX Simulator (1986)(Codemasters)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\BMX Simulator (1986)(Codemasters).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BMX Simulator (1986)(Codemasters)[cr N.I.K.S.]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\BMX Simulator (1986)(Codemasters)[cr N.I.K.S.].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bobby Bearing (19xx)(Plasma & Ceekay)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bobby Bearing (19xx)(Plasma & Ceekay)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bombjack (1986)(Elite)(Side A)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bombjack (1986)(Elite)(Side A).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bombjack (1986)(Elite)(Side B)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bombjack (1986)(Elite)(Side B).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bombjack II (19xx)(Elite)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bombjack II (19xx)(Elite).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bongo (19xx)(Kingsoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bongo (19xx)(Kingsoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boogieball (19xx)(Delta System)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Boogieball (19xx)(Delta System)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boogie-Woogie Spiders (1986)(Braintron)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Boogie-Woogie Spiders (1986)(Braintron).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boogie-Woogie Spiders (1986)(Braintron)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Boogie-Woogie Spiders (1986)(Braintron)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boomber II (1993)(St.GLS)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Boomber II (1993)(St.GLS)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Booty (1986)(Firebird)[SYS4120]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Booty (1986)(Firebird)[SYS4120].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boulder Dash (1984)(First Star Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Boulder Dash (1984)(First Star Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boulder Dash (1984)(First Star Software)[h Hawk]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Boulder Dash (1984)(First Star Software)[h Hawk].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boulder Dash II (1985)(First Star Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Boulder Dash II (1985)(First Star Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bowling (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bowling (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Brainfade (1992)(Skull Team)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Brainfade (1992)(Skull Team)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BrainTech (1995)(Mayday Software)[b][cr Absence]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\BrainTech (1995)(Mayday Software)[b][cr Absence].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Break Dance (1989)(A.C. Softgroup)(Hu)[cr Headbanger Crackers]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Break Dance (1989)(A.C. Softgroup)(Hu)[cr Headbanger Crackers].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Break Out (1988)(Thomas Bohlen)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Break Out (1988)(Thomas Bohlen).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Brians Soccer (1987)(CDS)(Plus4)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Brians Soccer (1987)(CDS)(Plus4).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bridge Head - Legionnaire 2 (1986)(Kingsoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bridge Head - Legionnaire 2 (1986)(Kingsoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubble Trouble (1986)(Players)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bubble Trouble (1986)(Players).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubble Trouble (1986)(Players)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bubble Trouble (1986)(Players)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubble Works (1990)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Bubble Works (1990)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burger House (1986)(Ed. Foglia)(Sp)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Burger House (1986)(Ed. Foglia)(Sp).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cannon (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cannon (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Canoe Slalom (1986)(Anco)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Canoe Slalom (1986)(Anco).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Captain Fizz Meets The Blastertrons (1990)(Muffbusters)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Captain Fizz Meets The Blastertrons (1990)(Muffbusters)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carnage (1994)(Scorpions)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Carnage (1994)(Scorpions)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castle Master (1992)(TGMS Design)(Hu-En)[docs]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Castle Master (1992)(TGMS Design)(Hu-En)[docs].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castle Master (19xx)(TGMS)[b][p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Castle Master (19xx)(TGMS)[b][p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Catacomb (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Catacomb (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cave Fighter (1985)(Bubble Bus Software)(Side A)[SYS8192]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cave Fighter (1985)(Bubble Bus Software)(Side A)[SYS8192].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cave Fighter (1985)(Bubble Bus Software)(Side B)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cave Fighter (1985)(Bubble Bus Software)(Side B).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cave Guennie (1990)(A-System)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cave Guennie (1990)(A-System)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Championship Chase (19xx)(Plus 4 Club)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Championship Chase (19xx)(Plus 4 Club)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Championship Wrestling (1987)(Epyx)[cr HCS]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Championship Wrestling (1987)(Epyx)[cr HCS].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chaos (1992-93)(Prisioners, Pound, EVS, S&S, Muff)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Chaos (1992-93)(Prisioners, Pound, EVS, S&S, Muff)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chipy (19xx)(-)[cr Obelix]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Chipy (19xx)(-)[cr Obelix].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter (1990)(Muffbusters)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Choplifter (1990)(Muffbusters)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chopper War (1986)(Illusion)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Chopper War (1986)(Illusion).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Citadel Of Chaos (1992)(FYC)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Citadel Of Chaos (1992)(FYC)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Climb It (19xx)(Tynesoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Climb It (19xx)(Tynesoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clowns (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Clowns (19xx)(-)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Coloris (1992)(Genius)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Coloris (1992)(Genius)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colossus 4 Chess (1985)(M.Bryant)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Colossus 4 Chess (1985)(M.Bryant).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colossus 4 Chess (1985)(M.Bryant)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Colossus 4 Chess (1985)(M.Bryant)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Columns (1992)(Synergy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Columns (1992)(Synergy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Commando (1986)(Elite)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Commando (1986)(Elite).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Commando (19xx)(TCFS)(Plus4)[a][p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Commando (19xx)(TCFS)(Plus4)[a][p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Commando (19xx)(TCFS)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Commando (19xx)(TCFS)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Convoy (19xx)(Colossus-Soft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Convoy (19xx)(Colossus-Soft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cops N' Robbers (1988)(Atlantis Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cops N' Robbers (1988)(Atlantis Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Corman (1985)(C.B.M. UK)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Corman (1985)(C.B.M. UK).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Corman (1985)(C.B.M. UK)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Corman (1985)(C.B.M. UK)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Terror (19xx)(-)(De-En)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cosmic Terror (19xx)(-)(De-En).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cowboy Duell (19xx)(-)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cowboy Duell (19xx)(-)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crackball - The Second Version (1988)(48-tpi)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Crackball - The Second Version (1988)(48-tpi)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cracks Of Fire (19xx)(Supersoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cracks Of Fire (19xx)(Supersoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crater (1990)(CSM)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Crater (1990)(CSM)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crazy Factory (19xx)(-)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Crazy Factory (19xx)(-)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crazy Golf (1984)(CBM)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Crazy Golf (1984)(CBM).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crazy Tennis (1988)(Toman Zoltan)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Crazy Tennis (1988)(Toman Zoltan).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Creature Crawl (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Creature Crawl (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crillion (1989)(Kingsoft)[a][cr Obelix]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Crillion (1989)(Kingsoft)[a][cr Obelix].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crillion (1989)(Kingsoft)[cr Obelix]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Crillion (1989)(Kingsoft)[cr Obelix].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cross It II (1994)(Gentlemen Software)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cross It II (1994)(Gentlemen Software)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cruncher (1985)(J.P. Shay)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cruncher (1985)(J.P. Shay).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crystals (1990)(Olly)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Crystals (1990)(Olly)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Csavargas A Gombak Birodalmaban (1988)(Greensoft)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Csavargas A Gombak Birodalmaban (1988)(Greensoft)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Csillagharcos (19xx)(-)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Csillagharcos (19xx)(-)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cuthbert (19xx)(Microdeal)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cuthbert (19xx)(Microdeal).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cuthbert in Space (19xx)(Microdeal)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cuthbert in Space (19xx)(Microdeal).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyber Hordes Gold (1992)(GOTU)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cyber Hordes Gold (1992)(GOTU)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyborg (1985)(Rino Marketing)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cyborg (1985)(Rino Marketing).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyborg (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cyborg (19xx)(-)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyborg Wars (19xx)(-)(En-De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Cyborg Wars (19xx)(-)(En-De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Daley Thompson's Star Events (1985)(Ocean)(Side A)[G2111]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Daley Thompson's Star Events (1985)(Ocean)(Side A)[G2111].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Daley Thompson's Star Events (1985)(Ocean)(Side B)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Daley Thompson's Star Events (1985)(Ocean)(Side B).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dame (1993)(DCD)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dame (1993)(DCD)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dame (1993)(DCD)(PD)[docs]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dame (1993)(DCD)(PD)[docs].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Danger Diamonds (1986)(CSJ Computersoft Jonigk)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Danger Diamonds (1986)(CSJ Computersoft Jonigk).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Danger Zone (1986)(Codemasters)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Danger Zone (1986)(Codemasters).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dangerous Mission (1992)(Moldi)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dangerous Mission (1992)(Moldi)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dangerous Pyramid (19xx)(AMA-Productions)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dangerous Pyramid (19xx)(AMA-Productions)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Danger-Willi (1987)(Michael Potsch)[cr Kali & PPCS]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Danger-Willi (1987)(Michael Potsch)[cr Kali & PPCS].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dark Side, The (1991)(Tarzan)(PD)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dark Side, The (1991)(Tarzan)(PD)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "David's Midnight Magic (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\David's Midnight Magic (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Death Race (1985)(Atlantis Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Death Race (1985)(Atlantis Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Death River (19xx)(-)[G1000]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Death River (19xx)(-)[G1000].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DeathShips (1993)(Kuni)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\DeathShips (1993)(Kuni)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DecStone (1992)(TGH)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\DecStone (1992)(TGH)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Decton (1991)(TGH)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Decton (1991)(TGH)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deeper Dungeon (19xx)(International Education)(It)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Deeper Dungeon (19xx)(International Education)(It).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender Of The Crown (19xx)(SCH & TMCH)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Defender Of The Crown (19xx)(SCH & TMCH)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender Of The Crown (19xx)(SCH)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Defender Of The Crown (19xx)(SCH)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demolition (19xx)(Joerg Dierks)[cr Bitsoft]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Demolition (19xx)(Joerg Dierks)[cr Bitsoft].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demonok Birodalma (1989)(Novotrade Rt. Octasoft)(Hu)[cr DDT][t DDT]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Demonok Birodalma (1989)(Novotrade Rt. Octasoft)(Hu)[cr DDT][t DDT].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demonok Birodalma (1989)(Novotrade Rt. Octasoft)(Hu)[cr DDT][t DDT][intro]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Demonok Birodalma (1989)(Novotrade Rt. Octasoft)(Hu)[cr DDT][t DDT][intro].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demonsdom (19xx)(CSM)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Demonsdom (19xx)(CSM)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Der Maurer (19xx)(J Goy Guben)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Der Maurer (19xx)(J Goy Guben)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dex (1989)(Novotrade Deltasoft)(Hu)[cr TTS][t TTS]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dex (1989)(Novotrade Deltasoft)(Hu)[cr TTS][t TTS].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dex II (1990)(TTS)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dex II (1990)(TTS)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diabolo (1985)(Jens Engel)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Diabolo (1985)(Jens Engel).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diagon (1984)(Bug-Byte)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Diagon (1984)(Bug-Byte).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diamantenfieber (19xx)(-)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Diamantenfieber (19xx)(-)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diamond Mine (19xx)(Blue Ribbon Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Diamond Mine (19xx)(Blue Ribbon Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diamond Mine 2 (19xx)(Blue Ribbon Software)[cr Great Byte LTD]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Diamond Mine 2 (19xx)(Blue Ribbon Software)[cr Great Byte LTD].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diamond Town (1991)(Terrorists)(Hu)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Diamond Town (1991)(Terrorists)(Hu)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Die Maus (19xx)(TW-Software)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Die Maus (19xx)(TW-Software)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Die Seefahrt (1989)(Kingsoft)[cr Obelix]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Die Seefahrt (1989)(Kingsoft)[cr Obelix].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digital Ball (1989)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Digital Ball (1989)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digital Ball (1989)(-)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Digital Ball (1989)(-)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dingbat (1988)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dingbat (1988)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dingbat (1988)(Mastertronic)[G3000]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dingbat (1988)(Mastertronic)[G3000].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dirty Den (1986)(Probe Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dirty Den (1986)(Probe Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dixi A Megmento (1987)(Kosir Attila)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dixi A Megmento (1987)(Kosir Attila)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DizasterBlaster (19xx)(Shaun Southern)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\DizasterBlaster (19xx)(Shaun Southern).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dizzy - Prince Of The Yolkfolk (19xx)(TGMS)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dizzy - Prince Of The Yolkfolk (19xx)(TGMS)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dizzy 3 (1992)(TGMS)[f][p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dizzy 3 (1992)(TGMS)[f][p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dizzy 3 (1992)(TGMS)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dizzy 3 (1992)(TGMS)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dizzy 4 (19xx)(TGMS)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dizzy 4 (19xx)(TGMS)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dizzy Dice (1988)(Players)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dizzy Dice (1988)(Players)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Domingo (1989)(Wolfsoft Supertronic)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Domingo (1989)(Wolfsoft Supertronic)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Domino (1991)(TGMS)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Domino (1991)(TGMS)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dooly (1987)(Falcon Software)[t Coby]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dooly (1987)(Falcon Software)[t Coby].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doomdark's Revenge (19xx)(Pigmy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Doomdark's Revenge (19xx)(Pigmy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dorks Dilemma (19xx)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dorks Dilemma (19xx)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Blocks (1993)(TBC)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Double Blocks (1993)(TBC)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Driller (1990)(Pigmy)(Plus4)[f][p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Driller (1990)(Pigmy)(Plus4)[f][p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Driller (1990)(Pigmy)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Driller (1990)(Pigmy)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Droid One (1986)(Bug-Byte)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Droid One (1986)(Bug-Byte).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dudaorro Patric (1989)(Novotrade Octasoft)(Hu)[a][cr Muffbusters)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dudaorro Patric (1989)(Novotrade Octasoft)(Hu)[a][cr Muffbusters).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dudaorro Patric (1989)(Novotrade Octasoft)(Hu)[cr Muffbusters]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dudaorro Patric (1989)(Novotrade Octasoft)(Hu)[cr Muffbusters].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Duotris (1992)(TYCB)(Plus4)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Duotris (1992)(TYCB)(Plus4)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dynamoid (1990)(CSM)[a][b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dynamoid (1990)(CSM)[a][b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dynamoid (1990)(CSM)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Dynamoid (1990)(CSM)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Earth Invaders (1992)(MOI)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Earth Invaders (1992)(MOI)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elite (19xx)(Pigmyspft)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Elite (19xx)(Pigmyspft)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elite Squad (1991)(EVS)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Elite Squad (1991)(EVS)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eliza (19xx)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Eliza (19xx)(-)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elvarazsolt Kastely (1987)(Vages Software)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Elvarazsolt Kastely (1987)(Vages Software)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Enchanted Isle (19xx)(Crackerbox)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Enchanted Isle (19xx)(Crackerbox)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "EndZone 2 (19xx)(Alternative)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\EndZone 2 (19xx)(Alternative)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eoroid Professional (19xx)(Deltaware)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Eoroid Professional (19xx)(Deltaware).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eoroid Professional (19xx)(Deltaware)[b][docs]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Eoroid Professional (19xx)(Deltaware)[b][docs].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Erik The Viking (1990)(Pigmy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Erik The Viking (1990)(Pigmy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "European Games (1987)(Crazyman Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\European Games (1987)(Crazyman Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ewox (1993)(GOTU)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ewox (1993)(GOTU)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Exorcist, The (1984)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Exorcist, The (1984)(Commodore).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Exorcist, The (1984)(Commodore)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Exorcist, The (1984)(Commodore)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Explosive Net (1994)(Moldi)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Explosive Net (1994)(Moldi)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Exsperma (1990)(FYC)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Exsperma (1990)(FYC)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Extasy (19xx)(Muffbusters)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Extasy (19xx)(Muffbusters)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Extasy (19xx)(Muffbusters)(PD)[m Terrorists]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Extasy (19xx)(Muffbusters)(PD)[m Terrorists].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fantasmi (1986)(Editions Fermont)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Fantasmi (1986)(Editions Fermont)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ferrox (1984)(C.B.M. UK)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ferrox (1984)(C.B.M. UK).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Finders Keepers (1986)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Finders Keepers (1986)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Ant (19xx)(-)[SYS6915]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Fire Ant (19xx)(-)[SYS6915].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Firm Base (1990)(CSM)(Plus4)(PD)[cr Skoro][t Skoro]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Firm Base (1990)(CSM)(Plus4)(PD)[cr Skoro][t Skoro].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flash Gordon (1990)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Flash Gordon (1990)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipper Environment Editor (1992)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Flipper Environment Editor (1992)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipper Environment Editor (1992)(TCFS)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Flipper Environment Editor (1992)(TCFS)(PD)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Footballer Of The Year (1986)(Gremlin)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Footballer Of The Year (1986)(Gremlin).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Formula 1 Simulator (1985)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Formula 1 Simulator (1985)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fortress Underground (1987)(Joerg Dierks)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Fortress Underground (1987)(Joerg Dierks).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Freddy Hardest In South Manhattan (1990)(TGMS)(Plus4)[a][p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Freddy Hardest In South Manhattan (1990)(TGMS)(Plus4)[a][p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Freddy Hardest In South Manhattan (1990)(TGMS)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Freddy Hardest In South Manhattan (1990)(TGMS)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frenesis (1987)(Tony Takoushi)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Frenesis (1987)(Tony Takoushi).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frog Jump (19xx)(Playvision Projects)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Frog Jump (19xx)(Playvision Projects).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fury (1986)(Firebird)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Fury (1986)(Firebird).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Future Knight (198x)(-)[cr TTL]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Future Knight (198x)(-)[cr TTL].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaxians (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Galaxians (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Giana Sister (1989)(T+K Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Giana Sister (1989)(T+K Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gibson Game '92 v1.1 (19xx)(Coroners)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Gibson Game '92 v1.1 (19xx)(Coroners).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Go Ahead! (1994)(GS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Go Ahead! (1994)(GS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Golf (1984)(Atari)[tr Hu]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Golf (1984)(Atari)[tr Hu].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Golf Royal (1989)(-)[cr Fish & Wolf]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Golf Royal (1989)(-)[cr Fish & Wolf].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grand Master (1982)(Kingsoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Grand Master (1982)(Kingsoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grand Master (1985)(Kingsoft)[SYS1426]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Grand Master (1985)(Kingsoft)[SYS1426].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grand Master (19xx)(Robot Software)[G3793]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Grand Master (19xx)(Robot Software)[G3793].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gremlins (19xx)(Pigmy)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Gremlins (19xx)(Pigmy)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gridrunner (1989)(Muffbusters)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Gridrunner (1989)(Muffbusters)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gunlaw (1987)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Gunlaw (1987)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gunslinger (19xx)(Tynesoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Gunslinger (19xx)(Tynesoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Guzzler (1986)(Players)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Guzzler (1986)(Players).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gwnn (1987)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Gwnn (1987)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Halallabirinthus (1989)(Novotrade)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Halallabirinthus (1989)(Novotrade)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Harvey Headbanger (1986)(Firebird)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Harvey Headbanger (1986)(Firebird).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Head Over Heels (1990)(Muffbusters)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Head Over Heels (1990)(Muffbusters)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HeadHunters (1992)(Kuni)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\HeadHunters (1992)(Kuni)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Helicopters (1993)(Skoro-soft)(Hu-En)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Helicopters (1993)(Skoro-soft)(Hu-En)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Helicopters 2 (1994)(Synergy)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Helicopters 2 (1994)(Synergy)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Helix (1988)(Falcon Soft)(NTSC)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Helix (1988)(Falcon Soft)(NTSC).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Helix (1988)(Falcon Soft)(PAL)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Helix (1988)(Falcon Soft)(PAL).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Helix (1988)(Falcon Soft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Helix (1988)(Falcon Soft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hell 2, The (19xx)(SCN)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hell 2, The (19xx)(SCN)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hell 3, The (1995)(SCN)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hell 3, The (1995)(SCN)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hell, The (19xx)(Assassin)(PD)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hell, The (19xx)(Assassin)(PD)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hexaeder (19xx)(-)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hexaeder (19xx)(-)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hexenkuche (1990)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hexenkuche (1990)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hobbit, The (1989)(Pigmysoft)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hobbit, The (1989)(Pigmysoft)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hollywood Poker - Denise (1987)(Golden Games)[h H.C.S.]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hollywood Poker - Denise (1987)(Golden Games)[h H.C.S.].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hollywood Poker - Isabell (1987)(Golden Games)[h H.C.S.]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hollywood Poker - Isabell (1987)(Golden Games)[h H.C.S.].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hollywood Poker - Lorence (1987)(Golden Games)[h H.C.S.]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hollywood Poker - Lorence (1987)(Golden Games)[h H.C.S.].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hollywood Poker - Stephanie (1987)(Golden Games)[h H.C.S.]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hollywood Poker - Stephanie (1987)(Golden Games)[h H.C.S.].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hos Lovag (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hos Lovag (19xx)(-)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hunter (1993)(GOTU)(PD)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hunter (1993)(GOTU)(PD)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hustler (1985)(Bubble Bus Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hustler (1985)(Bubble Bus Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hustler (1985)(Bubble Bus Software)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Hustler (1985)(Bubble Bus Software)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Icicle Works (1985)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Icicle Works (1985)(Commodore).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Idolabirintus (1987)(Novotrade-Octasoft)(Hu)[cr KNM & CMS]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Idolabirintus (1987)(Novotrade-Octasoft)(Hu)[cr KNM & CMS].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Idoregesz (1989)(Muffbusters)(Plus4)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Idoregesz (1989)(Muffbusters)(Plus4)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ikari Warriors (1987)(Elite)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ikari Warriors (1987)(Elite).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Indoor Soccer (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Indoor Soccer (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Indoor Sports (19xx)(Tynesoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Indoor Sports (19xx)(Tynesoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Into The Deep (1986)(B.O'Shaughnessy)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Into The Deep (1986)(B.O'Shaughnessy).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Into The Eagles Nest (1990)(Muffbusters)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Into The Eagles Nest (1990)(Muffbusters)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Invaders (1984)(C.B.M.)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Invaders (1984)(C.B.M.).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Invincible, The (1988)(Kosir Attila)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Invincible, The (1988)(Kosir Attila)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jack Attack (1983)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Jack Attack (1983)(Commodore).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jet Set Willy (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Jet Set Willy (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jetbrix (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Jetbrix (19xx)(-)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jumbo (1988)(Deltasoft)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Jumbo (1988)(Deltasoft)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kane (1986)(Mastertronic)[SYS15868]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Kane (1986)(Mastertronic)[SYS15868].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Karate King (1986)(Kingsoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Karate King (1986)(Kingsoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kazik And The Ghosts (1986)(Braintron)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Kazik And The Ghosts (1986)(Braintron).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kenny Dalglish Soccer Manager (1990)(TGMS)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Kenny Dalglish Soccer Manager (1990)(TGMS)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kikstart - Off-Road Simulator (1986)(Mastertronic)[SYS8192]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Kikstart - Off-Road Simulator (1986)(Mastertronic)[SYS8192].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kikstart Strecken Editor (1988)(TCFS)[tr Nl]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Kikstart Strecken Editor (1988)(TCFS)[tr Nl].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Killapede (1986)(Players)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Killapede (1986)(Players).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King Of Kings, The (19xx)(Hartmut Ott)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\King Of Kings, The (19xx)(Hartmut Ott).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Knight's Move (1986)(Livewire Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Knight's Move (1986)(Livewire Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krakout (19xx)(Thomas Sasvari)(PD)[t TCFS]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Krakout (19xx)(Thomas Sasvari)(PD)[t TCFS].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kryptonite (19xx)(Terrorists)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Kryptonite (19xx)(Terrorists)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kung Fu Kid (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Kung Fu Kid (19xx)(-)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Labirinth (19xx)(Skoro)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Labirinth (19xx)(Skoro).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lancer-Lord (1990)(Muffbusters)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Lancer-Lord (1990)(Muffbusters)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Laser Squad II (1992)(TGMS)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Laser Squad II (1992)(TGMS)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Laza! (19xx)(Mr Chip Software)[cr Section 9]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Laza! (19xx)(Mr Chip Software)[cr Section 9].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Leaper (1986)(Bug-Byte)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Leaper (1986)(Bug-Byte).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legionnaire (19xx)(Kingsoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Legionnaire (19xx)(Kingsoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Leonardo (19xx)(Coroners)[f][p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Leonardo (19xx)(Coroners)[f][p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Liberator (1986)(Magnificent Seven Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Liberator (1986)(Magnificent Seven Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lloyd Game (1992)(Methabolix)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Lloyd Game (1992)(Methabolix)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Loco Co-Co (1986)(Illusion Software)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Loco Co-Co (1986)(Illusion Software)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Loco Co-Co (1986)(Illusion Software)[SYS5389]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Loco Co-Co (1986)(Illusion Software)[SYS5389].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Locomotion (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Locomotion (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Logic (1990)(CSM)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Logic (1990)(CSM)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Logical Ball (1992)(EDC)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Logical Ball (1992)(EDC)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Logomaze (1996)(Assassin)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Logomaze (1996)(Assassin)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mad Maze (1986)(Axel Computing)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Mad Maze (1986)(Axel Computing).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magician's Curse 3, The (1988)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Magician's Curse 3, The (1988)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magician's Curse, The (1986)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Magician's Curse, The (1986)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magician's Curse, The (1986)(Gremlin Graphics)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Magician's Curse, The (1986)(Gremlin Graphics)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magnet-X (19xx)(EVS)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Magnet-X (19xx)(EVS)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Major Blink (1985)(CRL Group)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Major Blink (1985)(CRL Group).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Major Blink (1985)(CRL Group)[t TTC]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Major Blink (1985)(CRL Group)[t TTC].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maltese Joe Plays 3-D Pool (19xx)(Pigmy)[a][p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Maltese Joe Plays 3-D Pool (19xx)(Pigmy)[a][p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maltese Joe Plays 3-D Pool (19xx)(Pigmy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Maltese Joe Plays 3-D Pool (19xx)(Pigmy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maniac Garden, The (1989)(HJD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Maniac Garden, The (1989)(HJD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maniax (19xx)(Kingsoft)[cr Men Of Science]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Maniax (19xx)(Kingsoft)[cr Men Of Science].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Master Golf (1987)(Hans Magnus Rohleder)[b][cr Terrorists]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Master Golf (1987)(Hans Magnus Rohleder)[b][cr Terrorists].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Master Mind (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Master Mind (19xx)(-)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Master-Dame (1989)(P. Wirbelauer)(De)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Master-Dame (1989)(P. Wirbelauer)(De).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Matrix (1986)(Llamasoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Matrix (1986)(Llamasoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Matrix (1986)(Llamasoft)[t TTC]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Matrix (1986)(Llamasoft)[t TTC].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Matrix (1994)(Noldi)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Matrix (1994)(Noldi)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Melyur (1992)(GOTU)(Hu)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Melyur (1992)(GOTU)(Hu)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Meno Jeno (1988)(Deltasoft)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Meno Jeno (1988)(Deltasoft)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mesel Az Erdo (19xx)(-)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Mesel Az Erdo (19xx)(-)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Microchess #3 (1988)(Norgayer Software)(Plus4)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Microchess #3 (1988)(Norgayer Software)(Plus4).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mindbreaker (19xx)(United Force)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Mindbreaker (19xx)(United Force)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Field (19xx)(Synergy)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Mine Field (19xx)(Synergy)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Sweeper (1995)(ATI)(Plus4)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Mine Sweeper (1995)(ATI)(Plus4)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Sweeper (1995)(ATI)(Plus4)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Mine Sweeper (1995)(ATI)(Plus4)(PD)[a].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mitoszok Gyemantja (19xx)(-)(Hu)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Mitoszok Gyemantja (19xx)(-)(Hu)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Molecule Man (1987)(Mastertronic)(Plus4)[cr Ko-Ko & Boombay]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Molecule Man (1987)(Mastertronic)(Plus4)[cr Ko-Ko & Boombay].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monty On The Run (19xx)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Monty On The Run (19xx)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moon Buggy (1985)(Jef)[cr Opi]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Moon Buggy (1985)(Jef)[cr Opi].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Motor Mania (1990)(Muffbusters)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Motor Mania (1990)(Muffbusters)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mysterious Adventure No. 8 (1989)(Pigmysoft)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Mysterious Adventure No. 8 (1989)(Pigmysoft)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nathrium Chlorid (1989)(FYC)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nathrium Chlorid (1989)(FYC)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nautilus (1988)(MCB Software)[a][t Dokysoft]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nautilus (1988)(MCB Software)[a][t Dokysoft].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nautilus (1988)(MCB Software)[t Dokysoft]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nautilus (1988)(MCB Software)[t Dokysoft].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nectar Of The Gods, The (19xx)(Doug Rogers)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nectar Of The Gods, The (19xx)(Doug Rogers).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nest Of Fleas, The (19xx)(Silver Ghost)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nest Of Fleas, The (19xx)(Silver Ghost).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nibbly '92 (19xx)(Double Density)[cr Success][p][t Success]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nibbly '92 (19xx)(Double Density)[cr Success][p][t Success].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nibbly '92 (19xx)(Pussycats)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nibbly '92 (19xx)(Pussycats)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja Master (1986)(Firebird)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ninja Master (1986)(Firebird).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nintendo Worx (19xx)(-)(PD)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nintendo Worx (19xx)(-)(PD)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nuclear Ball (1991)(Hawk)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nuclear Ball (1991)(Hawk)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nucleon (1990)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Nucleon (1990)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Oliver Otthona (1988)(Novotrade Octasoft)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Oliver Otthona (1988)(Novotrade Octasoft)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Olympic Skier (19xx)(Shaun Southern)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Olympic Skier (19xx)(Shaun Southern).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "One On One (1989)(Crown)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\One On One (1989)(Crown)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Othello (1993)(ATI)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Othello (1993)(ATI)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Out On A Limb 1 (1984)(Anirog Software)[SYS4100]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Out On A Limb 1 (1984)(Anirog Software)[SYS4100].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Out On A Limb 2 (1984)(Anirog Software)[SYS4100]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Out On A Limb 2 (1984)(Anirog Software)[SYS4100].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Out On A Limb 3 (1984)(Anirog Software)[SYS4100]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Out On A Limb 3 (1984)(Anirog Software)[SYS4100].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Overload (19xx)(Sex'n'Spirit)[a][cr SLW][t SLW]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Overload (19xx)(Sex'n'Spirit)[a][cr SLW][t SLW].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Overload (19xx)(Sex'n'Spirit)[cr SLW][t SLW]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Overload (19xx)(Sex'n'Spirit)[cr SLW][t SLW].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "P.O.D. - Proof Of Destruction (1986)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\P.O.D. - Proof Of Destruction (1986)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac Man (19xx)(Christian Prieth)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pac Man (19xx)(Christian Prieth)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pacmanic (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pacmanic (19xx)(-)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pancho (1985)(C.B.M. UK)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pancho (1985)(C.B.M. UK).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Panik 16 (1986)(Atlantis Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Panik 16 (1986)(Atlantis Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paperboy (1986)(Elite)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Paperboy (1986)(Elite).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paratroopers (1989)(Muffbusters)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Paratroopers (1989)(Muffbusters)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paratroopers (1992)(FYC)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Paratroopers (1992)(FYC)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Patt Ball (1989)(TCFS)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Patt Ball (1989)(TCFS)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pegged (1997)(Assassin)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pegged (1997)(Assassin)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pengo (1996)(Absence)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pengo (1996)(Absence)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Petch (1984)(Colosoftware)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Petch (1984)(Colosoftware).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PETChess 4000 (19xx)(Scorpions)[a][p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\PETChess 4000 (19xx)(Scorpions)[a][p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PETChess 4000 (19xx)(Scorpions)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\PETChess 4000 (19xx)(Scorpions)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pheenix (19xx)(Alternative Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pheenix (19xx)(Alternative Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pin Point (1986)(Home Soft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pin Point (1986)(Home Soft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ping (1992)(Synergy)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ping (1992)(Synergy)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ping (1992)(Synergy)(PD)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ping (1992)(Synergy)(PD)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pipe Dream (1992)(TLS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pipe Dream (1992)(TLS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pipe Mania (1992)(TCFS)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pipe Mania (1992)(TCFS)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Planet Search (19xx)(Simon Pick)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Planet Search (19xx)(Simon Pick).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Platina (1989)(Steve Soft)(Hu)[cr PPCS]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Platina (1989)(Steve Soft)(Hu)[cr PPCS].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Play Your Cards Right (19xx)(CSM)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Play Your Cards Right (19xx)(CSM)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Poker (1989)(LBM System)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Poker (1989)(LBM System)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pokoli Torony (1988)(Peter Mutschler)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pokoli Torony (1988)(Peter Mutschler)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ponk (1995)(Proky)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ponk (1995)(Proky)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Powerball (1986)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Powerball (1986)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prisoner (19xx)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Prisoner (19xx)(-)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Professional Amoeba (1992)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Professional Amoeba (1992)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Project Nova (1986)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Project Nova (1986)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pulsar (1984)(Kingsoft)[SYS16304]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pulsar (1984)(Kingsoft)[SYS16304].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Punchy (1984)(Mr Micro)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Punchy (1984)(Mr Micro).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Punchy (1984)(Mr Micro)[t Chronos]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Punchy (1984)(Mr Micro)[t Chronos].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Punk Puzzle (1992)(FYC)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Punk Puzzle (1992)(FYC)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Purple Turtles (1984)(Quicksilva)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Purple Turtles (1984)(Quicksilva).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Purple Turtles (1984)(Quicksilva)[m][tr It]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Purple Turtles (1984)(Quicksilva)[m][tr It].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle (1994)(Core)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Puzzle (1994)(Core)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle 2 (1994)(Synergy)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Puzzle 2 (1994)(Synergy)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle 3 (1995)(Scorpions)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Puzzle 3 (1995)(Scorpions)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle 4 (19xx)(Scorpions)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Puzzle 4 (19xx)(Scorpions)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle Shuffle (1990)(Muffbusters)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Puzzle Shuffle (1990)(Muffbusters)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzlenoid (1991)(Hawk)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Puzzlenoid (1991)(Hawk)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzznic (19xx)(TCFS)[cr Chromance][p][t Chromance]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Puzznic (19xx)(TCFS)[cr Chromance][p][t Chromance].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pyramid Guy (19xx)(Terrorists)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Pyramid Guy (19xx)(Terrorists)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rablo-Rulett (1987)(Novotrade Deltasoft)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Rablo-Rulett (1987)(Novotrade Deltasoft)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Raffles (19xx)(Tynesoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Raffles (19xx)(Tynesoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Raid Over Russia (1985)(Scarabaeus)[cr Dr. Mabuse]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Raid Over Russia (1985)(Scarabaeus)[cr Dr. Mabuse].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rakontakota (1988)(Riszpong Tilogramma Software)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Rakontakota (1988)(Riszpong Tilogramma Software)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ramazuri (1988)(Muffbusters)(Plus4)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ramazuri (1988)(Muffbusters)(Plus4)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Raster Runner (1992)(TCFS & Chain)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Raster Runner (1992)(TCFS & Chain)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reach For The Sky (1986)(Gremlin Graphics)[SYS8192]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Reach For The Sky (1986)(Gremlin Graphics)[SYS8192].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reflex (1988)(Players)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Reflex (1988)(Players).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Renaissance (19xx)(FYC)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Renaissance (19xx)(FYC)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rescue From Zylon (1985)(Mark J. Moore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Rescue From Zylon (1985)(Mark J. Moore).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Revs (19xx)(Pigmy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Revs (19xx)(Pigmy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rig Attack (19xx)(Tynesoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Rig Attack (19xx)(Tynesoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Road Warrior (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Road Warrior (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robin Of Sherwood (19xx)(Pigmysoft)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Robin Of Sherwood (19xx)(Pigmysoft)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robo Knight (1987)(US Gold)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Robo Knight (1987)(US Gold).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rockmania (1990)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Rockmania (1990)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rogue Trooper (1993)(CSORY)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Rogue Trooper (1993)(CSORY)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Roller Kong (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Roller Kong (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rolling Stones 2, The (19xx)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Rolling Stones 2, The (19xx)(-)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Room Ten Leisure Complex (19xx)(CRL Group)[SYS16330]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Room Ten Leisure Complex (19xx)(CRL Group)[SYS16330].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rozsaszin Parduc (1988)(Novotrade)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Rozsaszin Parduc (1988)(Novotrade)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rubik Kocka (1989)(Sagi)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Rubik Kocka (1989)(Sagi)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Saboteur (1987)(Alternative Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Saboteur (1987)(Alternative Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Safe Guard (19xx)(G.Drees)[cr Skoro]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Safe Guard (19xx)(G.Drees)[cr Skoro].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Saloon Shootout (1987)(-)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Saloon Shootout (1987)(-)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sanxion (1991)(TYCB)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Sanxion (1991)(TYCB)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scroll Adventure (1989)(Muffbusters)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Scroll Adventure (1989)(Muffbusters)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Secret Mission (1988)(Andras Szigethy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Secret Mission (1988)(Andras Szigethy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sensible Hugo In Transylvania (19xx)(EVS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Sensible Hugo In Transylvania (19xx)(EVS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sensitive (19xx)(W.C. Club)[p][t Chromance]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Sensitive (19xx)(W.C. Club)[p][t Chromance].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shark Attack (1986)(Firebird)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Shark Attack (1986)(Firebird).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shit Game (1991)(220v)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Shit Game (1991)(220v)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shoot Down (1990)(CSM)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Shoot Down (1990)(CSM)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Simple Puzzle (1992)(Moldi)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Simple Puzzle (1992)(Moldi)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sir Knight (19xx)(Tynesoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Sir Knight (19xx)(Tynesoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skramble (19xx)(-)(It)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Skramble (19xx)(-)(It).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skyhawk (1986)(Bug-Byte)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Skyhawk (1986)(Bug-Byte).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slipper (1993)(Scorpions)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Slipper (1993)(Scorpions)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snooker (1987)(Anco)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Snooker (1987)(Anco).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snowball (1983)(Level 9)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Snowball (1983)(Level 9).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soccer Boss (1990)(HOT)(Plus4)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Soccer Boss (1990)(HOT)(Plus4)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soccer Director (1990)(Muffbusters)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Soccer Director (1990)(Muffbusters)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soko-ban (1988)(Kocka)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Soko-ban (1988)(Kocka)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Fiends (1985)(Magnificent Seven)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Space Fiends (1985)(Magnificent Seven).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Warrior (1992)(Kuni)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Space Warrior (1992)(Kuni)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectipede (1985)(T Kelly)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Spectipede (1985)(T Kelly).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiky Harold (1986)(Firebird)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Spiky Harold (1986)(Firebird).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiky Harold 2 (19xx)(Firebird)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Spiky Harold 2 (19xx)(Firebird).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Squirm (1985)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Squirm (1985)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Wars (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Star Wars (19xx)(-)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Starfight II (1987)(Kosir Attila)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Starfight II (1987)(Kosir Attila)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Starforce Nova (1987)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Starforce Nova (1987)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stellar 7 (1990)(Bubi)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Stellar 7 (1990)(Bubi)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stone Age (1994)(WLS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Stone Age (1994)(WLS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stone Age (1994)(WLS)(PD)[docs]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Stone Age (1994)(WLS)(PD)[docs].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stonepuzzle (1991)(FYC)[t Skoro]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Stonepuzzle (1991)(FYC)[t Skoro].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stonepuzzle Editor v1.1 (1993)(Skoro)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Stonepuzzle Editor v1.1 (1993)(Skoro)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strawberry Fields (1986)(Frank Bingley)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Strawberry Fields (1986)(Frank Bingley).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Olympics (1986)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Street Olympics (1986)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Summer Time (1993)(Coroners)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Summer Time (1993)(Coroners)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SunStar (1987)(CRL)[cr TBL]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\SunStar (1987)(CRL)[cr TBL].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Cobra (1987)(Novotrade-Octasoft)(Hu)[cr Supy]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Super Cobra (1987)(Novotrade-Octasoft)(Hu)[cr Supy].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Pipeline (1993)(CNS)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Super Pipeline (1993)(CNS)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sword Of Destiny (1985)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Sword Of Destiny (1985)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tapper (19xx)(Braintron)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tapper (19xx)(Braintron).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taskforce (1989)(Players)[cr Obelix]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Taskforce (1989)(Players)[cr Obelix].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taskforce (1989)(Players)[t Obelix]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Taskforce (1989)(Players)[t Obelix].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tazz (1986)(Bubble Bus Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tazz (1986)(Bubble Bus Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terra Cognita (198x)(Code Masters)[cr Cola]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Terra Cognita (198x)(Code Masters)[cr Cola].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terra-X (1990)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Terra-X (1990)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tervihar (19xx)(Lavina)(Hu)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tervihar (19xx)(Lavina)(Hu)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris (1990)(VTX)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tetris (1990)(VTX)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thrust (1987)(Firebird)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Thrust (1987)(Firebird).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Time Cristal (1994)(Reddi Design)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Time Cristal (1994)(Reddi Design)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Timeslip (19xx)(English Software)[cr Floppy Robby]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Timeslip (19xx)(English Software)[cr Floppy Robby].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Time-Zone (1990)(T+K Software)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Time-Zone (1990)(T+K Software)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tir Na Nog (19xx)(Andras Szigelhy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tir Na Nog (19xx)(Andras Szigelhy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Thumb (1986)(Kingsoft)[a][b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tom Thumb (1986)(Kingsoft)[a][b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom Thumb (1986)(Kingsoft)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tom Thumb (1986)(Kingsoft)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tomb Of Tarrabash, The (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tomb Of Tarrabash, The (19xx)(-).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Torpedo Alley (1986)(Firebird)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Torpedo Alley (1986)(Firebird).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Total Eclipse (19xx)(-)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Total Eclipse (19xx)(-)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Total Eclipse 2 (19xx)(Terrorists)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Total Eclipse 2 (19xx)(Terrorists)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ToyBalls (1992)(DS)(Plus4)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ToyBalls (1992)(DS)(Plus4)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trailblazer - The Megablazer (1991)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Trailblazer - The Megablazer (1991)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trailblazer (1986)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Trailblazer (1986)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tramp Kid (19xx)(EDC)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tramp Kid (19xx)(EDC)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trans Logic (1995)(GS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Trans Logic (1995)(GS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trans World (1991)(Pigmy)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Trans World (1991)(Pigmy)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trap (1992)(TGH)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Trap (1992)(TGH)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trap (1992)(TGH)(PD)[t Genius]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Trap (1992)(TGH)(PD)[t Genius].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Treasure Island (1985)(CBM & Mr Micro)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Treasure Island (1985)(CBM & Mr Micro).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trouble For Bubble (19xx)(Tronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Trouble For Bubble (19xx)(Tronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tube Runner (19xx)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tube Runner (19xx)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tutti Frutti (1985)(Mr Chip)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tutti Frutti (1985)(Mr Chip).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Twin Kingdom Valley (1985)(Bug-Byte)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Twin Kingdom Valley (1985)(Bug-Byte).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Twin Kingdom Valley (1989)(Crown)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Twin Kingdom Valley (1989)(Crown)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Twin-down (19xx)(Argus Designs)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Twin-down (19xx)(Argus Designs).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Two To One (1990)(Kingsoft)[t Obelix]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Two To One (1990)(Kingsoft)[t Obelix].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tycoon Tex (1985)(Gremlin Graphics)[cr Illegal Alien]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tycoon Tex (1985)(Gremlin Graphics)[cr Illegal Alien].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tycoon Tex (1985)(Gremlin Graphics)[t TTC]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Tycoon Tex (1985)(Gremlin Graphics)[t TTC].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ufo Vadasz (1988)(Octasoft)(Hu)[cr CSM]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ufo Vadasz (1988)(Octasoft)(Hu)[cr CSM].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Uj Vadnyugat (1990)(SF)(Plus4)(Hu)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Uj Vadnyugat (1990)(SF)(Plus4)(Hu)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultimate Tron II (1990)(Attila)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Ultimate Tron II (1990)(Attila)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Umo, L' (19xx)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Umo, L' (19xx)(-)[b].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Urkaland (1989)(Novotrade-Octasoft)(Hu)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Urkaland (1989)(Novotrade-Octasoft)(Hu).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Uveggolyo (1989)(TCFS)(Plus4)(Hu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Uveggolyo (1989)(TCFS)(Plus4)(Hu)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vegas Jackpot (1985)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Vegas Jackpot (1985)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Very Shit Game (1993)(Skoro Design)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Very Shit Game (1993)(Skoro Design)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Video Meanies (1986)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Video Meanies (1986)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Video Poker (1986)(Mastertronic)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Video Poker (1986)(Mastertronic).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Voidrunner (19xx)(Yak)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Voidrunner (19xx)(Yak)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Volleyball - The Arcade Game (1997)(Assassin)(Plus4)(Hu-En)(PD)[docs]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Volleyball - The Arcade Game (1997)(Assassin)(Plus4)(Hu-En)(PD)[docs].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Volleyball - The Arcade Game (1997)(Assassin)(Plus4)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Volleyball - The Arcade Game (1997)(Assassin)(Plus4)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Walaki (1987)(Octasoft)(Hu)[cr TPPC]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Walaki (1987)(Octasoft)(Hu)[cr TPPC].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Way To Running (1994)(Synergy)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Way To Running (1994)(Synergy)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Who Dares Wins II (1986)(Tynesoft)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Who Dares Wins II (1986)(Tynesoft).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WildFire (1992)(TCFS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\WildFire (1992)(TCFS)(PD).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wimbledon (19xx)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Wimbledon (19xx)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wizard Of Wor (19xx)(TCFS)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Wizard Of Wor (19xx)(TCFS)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wolf Pack (1985)(Illusion)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Wolf Pack (1985)(Illusion).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World Cup (1984)(Artic Computing)[SYS14100]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\World Cup (1984)(Artic Computing)[SYS14100].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wrath Of Kahn, The (1987)(Robsoft Programming)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Wrath Of Kahn, The (1987)(Robsoft Programming).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xargon Wars (19xx)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Xargon Wars (19xx)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xargon's Revenge (1985)(Gremlin Graphics)[cr Opi]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Xargon's Revenge (1985)(Gremlin Graphics)[cr Opi].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "XCellor 8 (1986)(Gremlin Graphics)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\XCellor 8 (1986)(Gremlin Graphics).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xzap (19xx)(Commodore)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Xzap (19xx)(Commodore).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yie Ar Kung Fu (1987)(Crazyman Software)",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Yie Ar Kung Fu (1987)(Crazyman Software).zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zombie (1991)(Terrorists)[p]",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\Zombie (1991)(Terrorists)[p].zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-african_adventure",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-african_adventure.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-airwulf",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-airwulf.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Apollo_Mission",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Apollo_Mission.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-astro_dif",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-astro_dif.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Atomic Mission",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Atomic Mission.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Auriga",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Auriga.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-auto_zone3",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-auto_zone3.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-balloon_shoot",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-balloon_shoot.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-baton",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-baton.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-battle_star_g100a",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-battle_star_g100a.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-big_apple",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-big_apple.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Bounder",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Bounder.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-bugs_bunny",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-bugs_bunny.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-chip_fabrik",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-chip_fabrik.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-chip_fatory",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-chip_fatory.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-circus",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-circus.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Cuthbert_Tombs",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Cuthbert_Tombs.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-destructor",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-destructor.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Enterprise",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Enterprise.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-GRAPHICS",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-GRAPHICS.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Logictrn",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Logictrn.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Magic Monkey",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Magic Monkey.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Mr. Puniverse 3",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Mr. Puniverse 3.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Pacmania",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Pacmania.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Sotet Mancs",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Sotet Mancs.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-TRAILBLA",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-TRAILBLA.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-Twindown-loader",
+      "path": "{gamesDir}\\TOSEC\\Commodore C16, C116 & Plus-4 - Games - Prg (TOSEC-v0.41_CM)\\ZZZ-UNK-Twindown-loader.zip",
+      "emulatorName": "VICE Commodore PLUS/4",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Taisen Idol-Mahjong Final Romance 2 (Japan)",
+      "mameName": "fromanc2",
+      "path": "{gamesDir}\\MAME\\ROMS\\fromanc2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1995",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Taisen Mahjong Final Romance 4 (Japan)",
+      "mameName": "fromanc4",
+      "path": "{gamesDir}\\MAME\\ROMS\\fromanc4.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1998",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Idol-Mahjong Final Romance (Japan)",
+      "mameName": "fromance",
+      "path": "{gamesDir}\\MAME\\ROMS\\fromance.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1991",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Taisen Mahjong Final Romance R (Japan)",
+      "mameName": "fromancr",
+      "path": "{gamesDir}\\MAME\\ROMS\\fromancr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1995",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

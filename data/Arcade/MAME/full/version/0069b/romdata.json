@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Evil Stone",
+      "mameName": "evilston",
+      "path": "{gamesDir}\\MAME\\ROMS\\evilston.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Spacy Industrial, Ltd.",
+      "year": "1990",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Final Fight (Japan 900305)",
+      "mameName": "ffightj2",
+      "parentName": "ffight",
+      "path": "{gamesDir}\\MAME\\ROMS\\ffight.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1989",
+      "gameType": "Fighter / 2.5D",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Glass (Ver 1.0, Break Edition) (set 1)",
+      "mameName": "glass10",
+      "parentName": "glass",
+      "path": "{gamesDir}\\MAME\\ROMS\\glass.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "OMK / Gaelco",
+      "year": "1993",
+      "gameType": "Shooter / Field * Mature *",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Mustache Boy (Japan)",
+      "mameName": "mustache",
+      "path": "{gamesDir}\\MAME\\ROMS\\mustache.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seibu Kaihatsu (March license)",
+      "year": "1987",
+      "gameType": "Maze",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Space Cruiser",
+      "mameName": "spacecr",
+      "path": "{gamesDir}\\MAME\\ROMS\\spacecr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1981",
+      "gameType": "Shooter / Gallery",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Tri-Pool (Casino Tech)",
+      "mameName": "tripool",
+      "path": "{gamesDir}\\MAME\\ROMS\\tripool.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Noma (Casino Tech license)",
+      "year": "1981",
+      "gameType": "Sports / Pool",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Tri-Pool (Costal Games)",
+      "mameName": "tripoola",
+      "parentName": "tripool",
+      "path": "{gamesDir}\\MAME\\ROMS\\tripool.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Noma (Costal Games license)",
+      "year": "1981",
+      "gameType": "Sports / Pool",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Arkanoid (World, older)",
+      "mameName": "arkanoid",
+      "path": "{gamesDir}\\MAME\\ROMS\\arkanoid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1986",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Tournament Arkanoid (US)",
+      "mameName": "arkatour",
+      "path": "{gamesDir}\\MAME\\ROMS\\arkatour.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito America Corporation (Romstar license)",
+      "year": "1987",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Arkanoid - Revenge of DOH (World)",
+      "mameName": "arknoid2",
+      "path": "{gamesDir}\\MAME\\ROMS\\arknoid2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1987",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Arkanoid Returns (Ver 2.02O 1997/02/10)",
+      "mameName": "arkretrn",
+      "path": "{gamesDir}\\MAME\\ROMS\\arkretrn.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1997",
+      "gameType": "Ball & Paddle / Breakout",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

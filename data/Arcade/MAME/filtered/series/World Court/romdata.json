@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Super World Court (World)",
+      "mameName": "swcourt",
+      "path": "{gamesDir}\\MAME\\ROMS\\swcourt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1992",
+      "gameType": "Sports / Tennis",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "World Court (Japan)",
+      "mameName": "wldcourt",
+      "path": "{gamesDir}\\MAME\\ROMS\\wldcourt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1988",
+      "gameType": "Sports / Tennis",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

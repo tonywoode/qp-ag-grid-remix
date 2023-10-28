@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Robocop (World revision 4)",
+      "mameName": "robocop",
+      "path": "{gamesDir}\\MAME\\ROMS\\robocop.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1988",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Robocop 2 (Euro/Asia v0.10)",
+      "mameName": "robocop2",
+      "path": "{gamesDir}\\MAME\\ROMS\\robocop2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

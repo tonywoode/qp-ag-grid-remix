@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gold Medalist (set 2)",
+      "mameName": "goldmedla",
+      "parentName": "goldmedl",
+      "path": "{gamesDir}\\MAME\\ROMS\\goldmedl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1988",
+      "gameType": "Sports / Track & Field",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Phraze Craze (6221-40, U5-0A)",
+      "mameName": "phrcraze",
+      "path": "{gamesDir}\\MAME\\ROMS\\phrcraze.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Merit",
+      "year": "1986",
+      "gameType": "Quiz / English",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Party Time: Gonta the Diver II / Ganbare! Gonta!! 2 (World Release)",
+      "mameName": "prtytime",
+      "path": "{gamesDir}\\MAME\\ROMS\\prtytime.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mitchell",
+      "year": "1995",
+      "gameType": "Misc. * Mature *",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Tic Tac Trivia (6221-23, U5-0C Horizontal)",
+      "mameName": "tictac",
+      "path": "{gamesDir}\\MAME\\ROMS\\tictac.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Merit",
+      "year": "1985",
+      "gameType": "Quiz / English",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Trivia ? Whiz (6221-05, Edition 2)",
+      "mameName": "trvwz2",
+      "path": "{gamesDir}\\MAME\\ROMS\\trvwz2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Merit",
+      "year": "1985",
+      "gameType": "Quiz / English",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Trivia ? Whiz (6221-00)",
+      "mameName": "trvwzh",
+      "path": "{gamesDir}\\MAME\\ROMS\\trvwzh.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Merit",
+      "year": "1985",
+      "gameType": "Quiz / English",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Versus Net Soccer (ver JAB)",
+      "mameName": "vsnetscrj",
+      "parentName": "vsnetscr",
+      "path": "{gamesDir}\\MAME\\ROMS\\vsnetscr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Sports / Soccer",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

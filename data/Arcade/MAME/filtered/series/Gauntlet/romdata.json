@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gauntlet II",
+      "mameName": "gaunt2",
+      "path": "{gamesDir}\\MAME\\ROMS\\gaunt2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1986",
+      "gameType": "Maze / Shooter Large",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Gauntlet Dark Legacy (version DL 2.52)",
+      "mameName": "gauntdl",
+      "path": "{gamesDir}\\MAME\\CHDs\\gauntdl\\gauntdl.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway Games",
+      "year": "1999",
+      "gameType": "Maze / Shooter Large",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Gauntlet Legends (version 1.6)",
+      "mameName": "gauntleg",
+      "path": "{gamesDir}\\MAME\\CHDs\\gauntleg\\gauntleg.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1998",
+      "gameType": "Maze / Shooter Large",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Gauntlet (rev 14)",
+      "mameName": "gauntlet",
+      "path": "{gamesDir}\\MAME\\ROMS\\gauntlet.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1985",
+      "gameType": "Maze / Shooter Large",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Gauntlet (PlayChoice-10)",
+      "mameName": "pc_gntlt",
+      "path": "{gamesDir}\\MAME\\ROMS\\pc_gntlt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari / Tengen (Nintendo of America license)",
+      "year": "1985",
+      "gameType": "Maze / Shooter Large",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

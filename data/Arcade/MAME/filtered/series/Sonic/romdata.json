@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Sonic The Hedgehog 2 (Mega Play)",
+      "mameName": "mp_soni2",
+      "path": "{gamesDir}\\MAME\\ROMS\\mp_soni2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1993",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Sonic The Hedgehog (Mega Play)",
+      "mameName": "mp_sonic",
+      "path": "{gamesDir}\\MAME\\ROMS\\mp_sonic.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1993",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

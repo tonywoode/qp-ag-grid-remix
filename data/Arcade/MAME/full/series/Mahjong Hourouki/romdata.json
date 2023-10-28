@@ -1,0 +1,49 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mahjong Hourouki Part 1 - Seisyun Hen (Japan)",
+      "mameName": "hourouki",
+      "path": "{gamesDir}\\MAME\\ROMS\\hourouki.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Home Data",
+      "year": "1987",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mahjong Hourouki Gaiden (Japan)",
+      "mameName": "mhgaiden",
+      "path": "{gamesDir}\\MAME\\ROMS\\mhgaiden.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Home Data",
+      "year": "1987",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mahjong Hourouki Okite (Japan)",
+      "mameName": "mjhokite",
+      "path": "{gamesDir}\\MAME\\ROMS\\mjhokite.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Home Data",
+      "year": "1988",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

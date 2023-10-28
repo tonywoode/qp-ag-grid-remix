@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Discs of Tron (Upright)",
+      "mameName": "dotron",
+      "path": "{gamesDir}\\MAME\\ROMS\\dotron.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Bally Midway",
+      "year": "1983",
+      "gameType": "Sports / Misc.",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Tron (8/9)",
+      "mameName": "tron",
+      "path": "{gamesDir}\\MAME\\ROMS\\tron.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Bally Midway",
+      "year": "1982",
+      "gameType": "Multiplay",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "DoDonPachi Dai-Ou-Jou V101 (2002.04.05.Master Ver)",
+      "mameName": "ddpdoj",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddpdoj.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2002",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Rumba Lumber",
+      "mameName": "rumba",
+      "path": "{gamesDir}\\MAME\\ROMS\\rumba.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1984",
+      "gameType": "Maze",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

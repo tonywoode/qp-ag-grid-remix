@@ -1,0 +1,15 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "eXoDOS",
+      "path": "P:\\PC\\eXoDOS\\MEAGRE.exe",
+      "emulatorName": "Windows Explorer (for shortcuts)",
+      "language": "English",
+      "timesPlayed": "106",
+      "paramMode": "0"
+    }
+  ]
+}

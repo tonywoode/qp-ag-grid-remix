@@ -1,0 +1,4951 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "- girl",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\- girl.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1337 v1.10 (2010)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\1337 v1.10 (2010).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1337 v1.20 (2010)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\1337 v1.20 (2010).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1815",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\1815.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1KCOLORS (2005)(Stephane Geley)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\1KCOLORS (2005)(Stephane Geley).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1ksnake by stephaneDOTgeleyATfreeDOTfr",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\1ksnake by stephaneDOTgeleyATfreeDOTfr.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1kspace 1.1 by stephaneDOTgeleyATfreeDOTfr",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\1kspace 1.1 by stephaneDOTgeleyATfreeDOTfr.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1KSUDOKU",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\1KSUDOKU.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4800BD",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\4800BD.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4kFire 1.1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\4kFire 1.1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4KGYRO",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\4KGYRO.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4kQix 1.0",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\4kQix 1.0.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "6502 Man CMPI DEMO",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\6502 Man CMPI DEMO.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "7eme Dan, Le (19xx)(Jean-Pierre Ferrand)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\7eme Dan, Le (19xx)(Jean-Pierre Ferrand)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ACROBAT",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ACROBAT.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Acrobate",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Acrobate.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AGENT0013.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AGENT0013.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "agent0013.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\agent0013.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "AGENT13.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AGENT13.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "AGENT13.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AGENT13.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "aigle",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\aigle.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AIGLON.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AIGLON.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "aiglon.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\aiglon.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Air",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Air.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Airfox (1988)(Starsoft)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Airfox (1988)(Starsoft)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alan (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Alan (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ALCH6INV",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ALCH6INV.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alle_Jahre (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Alle_Jahre (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ALNSTORM-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ALNSTORM-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alphabet (19xx)(Crabes)(de)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Alphabet (19xx)(Crabes)(de).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ALTITUDE0.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ALTITUDE0.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ALTITUDE0.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ALTITUDE0.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "amnukor_jeu",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\amnukor_jeu.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "amnukor_util",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\amnukor_util.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "amnukor_voya",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\amnukor_voya.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ANAGRAME",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ANAGRAME.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AND-10-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AND-10-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ANNEAUX.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ANNEAUX.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ANNEAUX.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ANNEAUX.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ANNEAUX-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ANNEAUX-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AntiISDA Warrior II",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AntiISDA Warrior II.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AntiISDA Warrior",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AntiISDA Warrior.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Antiisda Warrior2 (dat)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Antiisda Warrior2 (dat).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AntiISDA_Warrior",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AntiISDA_Warrior.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AntiISDA_Warrior-",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AntiISDA_Warrior-.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AntiISDA_--Warrior",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AntiISDA_--Warrior.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ANUBIS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ANUBIS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Asembler-bejsik (bas)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Asembler-bejsik (bas).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Asembler-Bejsik (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Asembler-Bejsik (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ataka",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ataka.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ATCIROPA",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ATCIROPA.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atlantid (19xx)(J. A. Canavaggia)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Atlantid (19xx)(J. A. Canavaggia)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "atsymbo2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\atsymbo2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Attac On Kixi (1984)(G.Morgan Software)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Attac On Kixi (1984)(G.Morgan Software).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "audio tracker 0.2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\audio tracker 0.2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Audio Tracker 0.3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Audio Tracker 0.3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Audio Tracker 0.4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Audio Tracker 0.4.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Audio Tracker 0.5",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Audio Tracker 0.5.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Audio Tracker 0.6",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Audio Tracker 0.6.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AUTOSTRA-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\AUTOSTRA-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Axayac (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Axayac (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BALLES.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BALLES.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "balles.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\balles.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BARON",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BARON.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BARONSTRAT",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BARONSTRAT.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bas2txt",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\bas2txt.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BASICHELPER",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BASICHELPER.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BASICHELPER{BAS}",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BASICHELPER{BAS}.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BASICHELPERADD",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BASICHELPERADD.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BASICHELPERADD{BAS}",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BASICHELPERADD{BAS}.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BDDISK",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BDDISK.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beethovens_Fifth",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Beethovens_Fifth.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Big Text",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Big Text.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bignum",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\bignum.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BILLARD-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BILLARD-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bin2tap (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Bin2tap (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BinaryShow",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BinaryShow.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blondine (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Blondine (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BOMBER-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BOMBER-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BORIS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BORIS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bourree_1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Bourree_1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bourree_2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Bourree_2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BOUTEILLE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BOUTEILLE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BOUTEILLE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BOUTEILLE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Box 1.1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Box 1.1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bozy (19xx)(-)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Bozy (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BRACONNIER",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BRACONNIER.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BRACSTRAT",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BRACSTRAT.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Braque",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Braque.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Braque_",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Braque_.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Brazil (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Brazil (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BREAKMACHI-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BREAKMACHI-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BreakOric1K",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BreakOric1K.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BREAKOUT-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BREAKOUT-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bretagne",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Bretagne.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Brians_Song",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Brians_Song.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BRIQUES.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BRIQUES.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BRIQUES.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BRIQUES.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bristow1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\bristow1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BUILDER-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BUILDER-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BULLES.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BULLES.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BULLES.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BULLES.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BUNKER.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\BUNKER.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bunker.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Bunker.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CAMBOLAG",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CAMBOLAG.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Camemb",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Camemb.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Camscr",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Camscr.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Car Maniac (19xx)(-)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Car Maniac (19xx)(-)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CARACTORIC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CARACTORIC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CARAMBOLAGE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CARAMBOLAGE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "carmagic",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\carmagic.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CARN3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CARN3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "carnaval",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\carnaval.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Caspak (19xx)(-)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Caspak (19xx)(-)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cassetete",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\cassetete.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CATEGORIC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CATEGORIC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CATERPILA-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CATERPILA-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CENTRNUCL",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CENTRNUCL.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cenucl",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\cenucl.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "chameleoric",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\chameleoric.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Charlie (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Charlie (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CHARPENT.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CHARPENT.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CHARPENT.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CHARPENT.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CHARPENTIER.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CHARPENTIER.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CHARPENTIER.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CHARPENTIER.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CHASE-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CHASE-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cherveiche",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Cherveiche.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CHESS2-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CHESS2-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CHESSIII-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CHESSIII-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Christmas (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Christmas (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chuckford (19xx)(-)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Chuckford (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CIDRE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CIDRE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CIDRE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CIDRE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CIRO",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CIRO.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "citeinter",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\citeinter.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CITEINTERDITE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CITEINTERDITE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ClasInst",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ClasInst.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Classic Racing (19xx)(-)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Classic Racing (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "classic",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\classic.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cobra.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\cobra.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cobra.wav",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\cobra.wav.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COBRAINV",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\COBRAINV.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CobraInvader",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CobraInvader.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COEUR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\COEUR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COLORS2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\COLORS2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colour_My_World",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Colour_My_World.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COLUMNS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\COLUMNS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COMBATTANT.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\COMBATTANT.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COMBATTANT.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\COMBATTANT.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COMPILER",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\COMPILER.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "compo2004",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\compo2004.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CORSAIRES.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\CORSAIRES.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Corsaires.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Corsaires.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Corvus (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Corvus (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmo1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Cosmo1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmo3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Cosmo3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COSMOS99 1.00",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\COSMOS99 1.00.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COSMOS99",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\COSMOS99.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "crcfix",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\crcfix.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "cryptsh1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\cryptsh1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cryptsh2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\cryptsh2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ct",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ct.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cube by Frances (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Cube by Frances (PD).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyclotron by Dbug (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Cyclotron by Dbug (PD).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DAMS-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DAMS-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DAORIC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DAORIC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DATA",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DATA.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dbug_circles",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\dbug_circles.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Decombin",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Decombin.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dedal (19xx)(-)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Dedal (19xx)(-)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "delta",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\delta.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DETECTIV-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DETECTIV-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "detective story intro",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\detective story intro.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "detective story jeu",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\detective story jeu.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DIAMANT 2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DIAMANT 2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DIAMant-P1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DIAMant-P1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digger (1984)(M.C. Lothlorien)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Digger (1984)(M.C. Lothlorien).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dimjeu",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\dimjeu.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dinky Kong (19xx)(Evern Software)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Dinky Kong (19xx)(Evern Software).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DOMINO.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DOMINO.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Domino.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Domino.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Domino_",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Domino_.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DontPanic!",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DontPanic!.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DOTSRECORD",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DOTSRECORD.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dptlq",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\dptlq.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DRACULA-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\DRACULA-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "durendal",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\durendal.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "EcrEvol",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\EcrEvol.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ElDuet_BAS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ElDuet_BAS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ElDuetReplay",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ElDuetReplay.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elize (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Elize (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Encounters",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Encounters.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "english1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\english1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "english2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\english2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ENTER",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ENTER.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ENTRAP-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ENTRAP-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ENVAHISS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ENVAHISS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FEUCROIS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\FEUCROIS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flash (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Flash (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flash3 (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Flash3 (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fly For Your Life (19xx)(Braynstorm Software)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Fly For Your Life (19xx)(Braynstorm Software).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fractand",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\fractand.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FRAGILE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\FRAGILE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FRAGILE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\FRAGILE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frelon (1984)(Loriciels)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Frelon (1984)(Loriciels)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frelon",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\frelon.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "french1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\french1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "french2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\french2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "french3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\french3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "french4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\french4.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frigate commander",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\frigate commander.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frog",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\frog.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fuchs and Gans (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Fuchs and Gans (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fughetta",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Fughetta.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fugue_1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Fugue_1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FunctionKeys",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\FunctionKeys.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GARDEN",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\GARDEN.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GASTRONO",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\GASTRONO.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gaudeamus (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Gaudeamus (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GAZONMAN",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\GAZONMAN.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GAZONMOM",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\GAZONMOM.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Getron",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Getron.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "God_Rest_Ye",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\God_Rest_Ye.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gosuboric",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\gosuboric.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grave (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Grave (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GRIDORIC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\GRIDORIC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gubbie (1985)(Alexander Aghassipour)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Gubbie (1985)(Alexander Aghassipour).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HANAPS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\HANAPS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hardcopy",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Hardcopy.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "hic",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\hic.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HIRESMOVE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\HIRESMOVE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hiressav",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Hiressav.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HIRSVBIN",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\HIRSVBIN.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HOBBI-FR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\HOBBI-FR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "hobbit",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\hobbit.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HONEYKON-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\HONEYKON-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hopper (dat)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Hopper (dat).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HYPCATFR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\HYPCATFR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HYPERSP4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\HYPERSP4.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INAVAUBE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INAVAUBE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INDIANA.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INDIANA.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INDIANA.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INDIANA.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INIT11",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INIT11.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INSCOD1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INSCOD1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INSECT-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INSECT-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INSOBAS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INSOBAS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INSOBIN",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INSOBIN.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INSOLOAD",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INSOLOAD.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Insp (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Insp (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Instoutc",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Instoutc.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "instrum",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\instrum.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "instrum1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\instrum1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INVADERS.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INVADERS.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INVADERS.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INVADERS.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INVASION.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INVASION.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "invasion.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\invasion.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INVASION",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INVASION.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "INVASION146",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\INVASION146.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Invention_1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Invention_1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Invention_10",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Invention_10.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Invention_4 (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Invention_4 (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Invention_8",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Invention_8.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "irq",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\irq.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "isometric",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\isometric.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JACKMANS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\JACKMANS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jesu_Joy",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Jesu_Joy.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JETATTAC.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\JETATTAC.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JETATTAC.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\JETATTAC.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jeux Olympiques (19xx)(-)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Jeux Olympiques (19xx)(-)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JOGGER",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\JOGGER.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JohnsonsCopy",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\JohnsonsCopy.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JUMP CAR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\JUMP CAR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jump",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Jump.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jumpfox (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Jumpfox (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JUMPFOX.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\JUMPFOX.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JumpFox.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\JumpFox.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jupiter",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Jupiter.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jupiter_2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Jupiter_2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "karaoke",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\karaoke.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "KARTING",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\KARTING.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "keops",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\keops.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kheops",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Kheops.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kompresor (bas)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Kompresor (bas).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kompresor (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Kompresor (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "KONG",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\KONG.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "KrazyApe",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\KrazyApe.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kryllis (19xx)(Cosmos Computer Software)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Kryllis (19xx)(Cosmos Computer Software).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "KRYPTON.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\KRYPTON.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krypton.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Krypton.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LABY5.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LABY5.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "laby5.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\laby5.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LABYRINTHE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LABYRINTHE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Labyrinthe.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Labyrinthe.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LABYSTRAT",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LABYSTRAT.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lakomata zmiq",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\lakomata zmiq.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LANDER-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LANDER-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LASVEGAS.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LASVEGAS.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LASVEGAS.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LASVEGAS.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LCONTREL.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LCONTREL.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LContreL.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LContreL.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lcp2004 (dsk)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Lcp2004 (dsk).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LIGHTRAC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LIGHTRAC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LIGHTTRACK",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LIGHTTRACK.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LILLAJAC-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LILLAJAC-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "linker",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\linker.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Linker-",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Linker-.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LODERUNER",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LODERUNER.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LONCHAMP",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LONCHAMP.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LONGCHAMP",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LONGCHAMP.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LOTO DATA",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\LOTO DATA.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lotoric",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\lotoric.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lune",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Lune.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ManoirDump",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ManoirDump.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "masqdord",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\masqdord.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "masqdorj",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\masqdorj.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "matematika",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\matematika.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MAZECHASE-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MAZECHASE-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MazezaM1.03",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MazezaM1.03.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Megabase (19xx)(-)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Megabase (19xx)(-)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MEMORIC.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MEMORIC.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MEMORIC.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MEMORIC.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Memoric",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Memoric.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MEMORY.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MEMORY.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MEMORY.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MEMORY.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Menuet_1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Menuet_1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Merge_Daw",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Merge_Daw.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "meri",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\meri.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "METEORUN-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\METEORUN-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "METHLOTO-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\METHLOTO-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MICRORIC1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MICRORIC1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MICRORIC2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MICRORIC2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MICRORIC3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MICRORIC3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Microwave (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Microwave (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "midipsg",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\midipsg.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Millionaire (1984)(R.Piechaud - Ere Informatique)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Millionaire (1984)(R.Piechaud - Ere Informatique)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MINERMAN",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MINERMAN.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MISGALAC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MISGALAC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MISLGALA",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MISLGALA.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mission Delta",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Mission Delta.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MONEYBAG-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MONEYBAG-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MONITEUR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MONITEUR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monitor",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Monitor.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "montseg1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\montseg1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "montseg2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\montseg2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Montsegur (1985)(Norsoft)(Fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Montsegur (1985)(Norsoft)(Fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MORDOR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MORDOR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MORDOR1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MORDOR1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MORPION.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MORPION.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MORPION.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MORPION.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MORPION_",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MORPION_.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mozaika",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Mozaika.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mp (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Mp (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr. Wimpy (1984)(Ocean Software Ltd)[b]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Mr. Wimpy (1984)(Ocean Software Ltd)[b].zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MUMPYE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MUMPYE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MUMPYE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MUMPYE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MUSEDMUS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MUSEDMUS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Musette_1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Musette_1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MUSIQUE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MUSIQUE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MUSIQUE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\MUSIQUE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Musketari",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Musketari.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "muzikalna kl. 2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\muzikalna kl. 2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "muzikalna klawia",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\muzikalna klawia.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mystery Tower (19xx)(-)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Mystery Tower (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neptune (19xx)(-)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Neptune (19xx)(-)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NEPTUNE-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\NEPTUNE-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NiamaVreme",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\NiamaVreme.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NIBBLE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\NIBBLE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NIBBLER.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\NIBBLER.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nibbler.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Nibbler.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NIM.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\NIM.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NIM.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\NIM.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NONOS.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\NONOS.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nonos.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Nonos.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "nucleaire",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\nucleaire.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "nuclearpp_en",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\nuclearpp_en.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NUMEROLOGIE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\NUMEROLOGIE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "OILLEAK.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\OILLEAK.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "oilleak.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\oilleak.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "OILLEAK",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\OILLEAK.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ol",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Ol.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Operation Gremlin (19xx)(-)[incomplete]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Operation Gremlin (19xx)(-)[incomplete].zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Oric - MultBoot",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Oric - MultBoot.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "oric2mfm",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\oric2mfm.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "oric2wav",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\oric2wav.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ORICA.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ORICA.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ORICA.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ORICA.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "oricbklo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\oricbklo.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "oric-contiki1.0",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\oric-contiki1.0.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ORICDOS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ORICDOS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "orickong",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\orickong.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Oriclisp v1.0 (1986)(F.Frances)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Oriclisp v1.0 (1986)(F.Frances).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "oricwars",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\oricwars.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Orion (1983)(M. C. Lothlorien)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Orion (1983)(M. C. Lothlorien).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Othello v0.0 (1983)(Anders Bostrom)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Othello v0.0 (1983)(Anders Bostrom).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "OUBLIETTE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\OUBLIETTE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "OUBLIETTE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\OUBLIETTE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Overture",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Overture.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PACMAN-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PACMAN-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Panic (dat)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Panic (dat).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PARACHUT",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PARACHUT.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PARADISE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PARADISE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PARANAUD.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PARANAUD.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "paranaud.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\paranaud.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "paranaud_",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\paranaud_.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PARSEC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PARSEC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PASTBLAS-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PASTBLAS-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PEINTURE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PEINTURE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PEINTURE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PEINTURE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PENDU",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PENDU.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "persp",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\persp.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PHARAON-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PHARAON-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PHARAONS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PHARAONS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Picture Book (1984)(Softbacks)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Picture Book (1984)(Softbacks).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PIEDTRUCHE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PIEDTRUCHE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "piedtruche.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\piedtruche.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PIERREETOILE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PIERREETOILE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PILCHASSE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PILCHASSE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PILCHASSE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PILCHASSE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PILOTE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PILOTE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PILOTE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PILOTE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pir6",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\pir6.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PLUSMOIN-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PLUSMOIN-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "POIDEAL",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\POIDEAL.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PONTLEVIS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PONTLEVIS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "POURSUIT.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\POURSUIT.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "POURSUIT.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\POURSUIT.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prelude",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Prelude.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "prikazka",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\prikazka.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PRISON.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PRISON.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PRISON.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PRISON.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Promenade (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Promenade (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Proton Defence",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Proton Defence.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PUCKMAN by chris (alpha)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PUCKMAN by chris (alpha).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PYRAMIDE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PYRAMIDE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PYRAMIDE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\PYRAMIDE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RABBIT-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\RABBIT-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "raider",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\raider.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "RamDisqu",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\RamDisqu.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "randos2002",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\randos2002.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rat (dat)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Rat (dat).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "raw2mfm",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\raw2mfm.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rdv",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\rdv.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "REDEFCAR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\REDEFCAR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "REFLEXE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\REFLEXE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Repcobin",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Repcobin.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rhet01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\rhet01.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ring Of Darkness (19xx)(-)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Ring Of Darkness (19xx)(-).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ripped!!! (ORIC 1 or ATMOS) DEMO by Twilighte",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Ripped!!! (ORIC 1 or ATMOS) DEMO by Twilighte.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ROADRUN-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ROADRUN-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rock'n'roll (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Rock'n'roll (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ROT90dro",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ROT90dro.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rotpi",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Rotpi.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ROULETTE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ROULETTE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sampler1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\sampler1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sampler2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\sampler2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SAUCISSE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SAUCISSE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SAUCISSE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SAUCISSE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SAVTRAME",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SAVTRAME.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SCOTYARD",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SCOTYARD.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "scuba",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\scuba.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sdos22",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\sdos22.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SEAWOLF",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SEAWOLF.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SEDORIC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SEDORIC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SEDORIC3 [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SEDORIC3 [a].zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SEDORIC3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SEDORIC3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SLALOM T",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SLALOM T.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SluchkaVGradinata",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SluchkaVGradinata.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "smqtanica",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\smqtanica.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNXMUSE1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SNXMUSE1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNXMUSE2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SNXMUSE2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SNXMUSE3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SNXMUSE3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "solid",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\solid.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SOLITRIANGLE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SOLITRIANGLE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonata",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Sonata.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "songs1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\songs1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sorcerer",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\sorcerer.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sp99D1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\sp99D1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPACE HOPPER",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPACE HOPPER.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "space1999",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\space1999.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPACE99 1.00",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPACE99 1.00.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPACE99.DSK",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPACE99.DSK.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "space99.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\space99.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space99b",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Space99b.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "space99c",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\space99c.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spaint (bas)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Spaint (bas).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spaint (dsk)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Spaint (dsk).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPAINT 2003 Peter (TheSpider) [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPAINT 2003 Peter (TheSpider) [a].zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPAINT 2003 Peter (TheSpider)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPAINT 2003 Peter (TheSpider).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Special Operations (1984)(M.C.Lothlorien)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Special Operations (1984)(M.C.Lothlorien).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPHARAONS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPHARAONS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "spiderdemo-",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\spiderdemo-.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPIKILLER.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPIKILLER.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPIKILLER.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPIKILLER.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPRITY.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPRITY.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SPRITY.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SPRITY.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star_Trek",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Star_Trek.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star_Wars",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Star_Wars.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STARTER-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STARTER-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "StarTrek.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\StarTrek.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "StarTrek.wav",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\StarTrek.wav.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "StarTrek",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\StarTrek.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "st-frenc.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\st-frenc.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "st-frenc.wav",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\st-frenc.wav.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "st-frenc",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\st-frenc.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stormlord (2010)(Twilighte)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Stormlord (2010)(Twilighte).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Story Book (1984)(Softbacks)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Story Book (1984)(Softbacks).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRAMORP",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRAMORP.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATMIN",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATMIN.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATMIND",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATMIND.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stratmon-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Stratmon-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATMUR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATMUR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATOOLS-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATOOLS-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stratori",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Stratori.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATREVERSE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATREVERSE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATSED [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATSED [a].zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "stratsed [a2]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\stratsed [a2].zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stratsed [a3]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Stratsed [a3].zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATSED",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATSED.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATSED_",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATSED_.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATZD",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATZD.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRATZFR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRATZFR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRBRIQUE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRBRIQUE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "STRMONST",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\STRMONST.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SUDOKU1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SUDOKU1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SUDOKU2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SUDOKU2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sweet_Home (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Sweet_Home (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sym2bin",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Sym2bin.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "symetrie",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\symetrie.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SYNTHETISEUR",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\SYNTHETISEUR.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "t42",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\t42.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TACATAC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TACATAC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TANGRAMORIC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TANGRAMORIC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TANK.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TANK.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TANK.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TANK.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tansoft Language Master Class Series French (1983)(Gruneberg Linkworld Language)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Tansoft Language Master Class Series French (1983)(Gruneberg Linkworld Language).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tansoft Language Master Class Series German (1983)(Gruneberg Linkworld Language)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Tansoft Language Master Class Series German (1983)(Gruneberg Linkworld Language).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TAQUIN",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TAQUIN.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TARAKUND-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TARAKUND-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TELECRAN",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TELECRAN.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TELEPHONE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TELEPHONE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TELEPHONE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TELEPHONE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tenis (19xx)(J.A.Orostivar)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Tenis (19xx)(J.A.Orostivar).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "testdoors",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\testdoors.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "testdoors2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\testdoors2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TETRIS [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TETRIS [a].zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TETRIS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TETRIS.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The_Entertainer",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\The_Entertainer.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Theofic3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Theofic3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "THEORIC1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\THEORIC1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "THEORIC2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\THEORIC2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "THEORIC3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\THEORIC3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "THEORIC4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\THEORIC4.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "THEORIC5",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\THEORIC5.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "THEORIC6",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\THEORIC6.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "THEORIC7",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\THEORIC7.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "THEORIC8",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\THEORIC8.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tiercbin",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Tiercbin.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TIGRE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TIGRE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TIGRE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TIGRE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TILTMAN.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TILTMAN.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TILTMAN.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TILTMAN.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TILTMAN_",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TILTMAN_.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TIRCROISE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TIRCROISE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TIRLASER-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TIRLASER-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "titan",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\titan.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TITRAGE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TITRAGE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TOMMY",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TOMMY.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TOUTANCARTON",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TOUTANCARTON.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TRACE.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TRACE.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TRACE.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TRACE.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TrambinA",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TrambinA.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TrambinO",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TrambinO.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tramesra",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Tramesra.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TRAMLOAD",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TRAMLOAD.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TRAMSAVE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TRAMSAVE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Transat 1 (1984)(No Man's Land)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Transat 1 (1984)(No Man's Land).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "triathl",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\triathl.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trihex",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Trihex.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TRIOLYMP",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\TRIOLYMP.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "try",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\try.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "txt2bas",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\txt2bas.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tyranna",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\tyranna.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tyrannb",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\tyrannb.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tyrmaps10",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\tyrmaps10.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VERIFY",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\VERIFY.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VEUVE NOIRE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\VEUVE NOIRE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VOLNUIT.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\VOLNUIT.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VOLNUIT.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\VOLNUIT.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Voyage4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Voyage4.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VOYAGES",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\VOYAGES.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "vp",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\vp.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WALL",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\WALL.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WallDefence",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\WallDefence.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WARPLANE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\WARPLANE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Weihnachtsbaum (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Weihnachtsbaum (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "wire",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\wire.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wonderful_Time",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Wonderful_Time.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordsearch (19xx)(CDS Micro Systems)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Wordsearch (19xx)(CDS Micro Systems).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wordworth (1986)(Huggybear Software)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Wordworth (1986)(Huggybear Software).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WYX",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\WYX.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "x2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\x2.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "xenon1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\xenon1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "xenon3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\xenon3.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xeragone (19xx)(Hebdogiciel)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Xeragone (19xx)(Hebdogiciel)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "XERAGONE",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\XERAGONE.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yeti (tap)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Yeti (tap).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZAGORSK.dsk",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ZAGORSK.dsk.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZAGORSK.tap",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ZAGORSK.tap.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zamcopter (1986)(Hebdogiciel)(fr)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\Zamcopter (1986)(Hebdogiciel)(fr).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZAMCOPTR-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ZAMCOPTR-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZAXXON",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ZAXXON.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZEBBIE-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ZEBBIE-1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZipnZap (1998)(Twilight)(PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ZipnZap (1998)(Twilight)(PD).zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZODIAC",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ZODIAC.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "zorgons",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\zorgons.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "zork1.dat",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\zork1.dat.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "zork1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\zork1.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-JSWSpace",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodOric\\ZZZ-UNK-JSWSpace.zip",
+      "emulatorName": "MAME Tangerine Oric 1 -cassette",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Hyperdrive",
+      "mameName": "hyprdriv",
+      "path": "{gamesDir}\\MAME\\CHDs\\hyprdriv\\hyprdriv.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway Games",
+      "year": "1998",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Tecmo World Cup (Mega Play)",
+      "mameName": "mp_twc",
+      "path": "{gamesDir}\\MAME\\ROMS\\mp_twc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1993",
+      "gameType": "Sports / Soccer",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "NBA Maximum Hangtime (rev 1.03 06/09/97)",
+      "mameName": "nbamht",
+      "path": "{gamesDir}\\MAME\\ROMS\\nbamht.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1996",
+      "gameType": "Sports / Basketball",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Pirate Treasure",
+      "mameName": "piratetr",
+      "path": "{gamesDir}\\MAME\\ROMS\\piratetr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tong Electronic",
+      "year": "1982",
+      "gameType": "Maze",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Vapor TRX",
+      "mameName": "vaportrx",
+      "path": "{gamesDir}\\MAME\\CHDs\\vaportrx\\vaportrx.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1998",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Atari Football (revision 2)",
+      "mameName": "atarifb",
+      "path": "{gamesDir}\\MAME\\ROMS\\atarifb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1978",
+      "gameType": "Sports / Amer. Football",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Battle Lane! Vol. 5 (set 1)",
+      "mameName": "battlane",
+      "path": "{gamesDir}\\MAME\\ROMS\\battlane.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Technos Japan (Taito license)",
+      "year": "1986",
+      "gameType": "Shooter / Driving Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Burger Time (Data East set 1)",
+      "mameName": "btime",
+      "path": "{gamesDir}\\MAME\\ROMS\\btime.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1982",
+      "gameType": "Platform / Run Jump",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Mariner",
+      "mameName": "mariner",
+      "path": "{gamesDir}\\MAME\\ROMS\\mariner.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Amenip",
+      "year": "1981",
+      "gameType": "Shooter / Misc. Horizontal",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Rolling Thunder (rev 3)",
+      "mameName": "rthunder",
+      "path": "{gamesDir}\\MAME\\ROMS\\rthunder.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1986",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Wild Fang / Tecmo Knight",
+      "mameName": "wildfang",
+      "path": "{gamesDir}\\MAME\\ROMS\\wildfang.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tecmo",
+      "year": "1989",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

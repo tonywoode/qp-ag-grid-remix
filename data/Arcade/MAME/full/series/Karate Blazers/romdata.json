@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Karate Blazers (World, set 1)",
+      "mameName": "karatblz",
+      "path": "{gamesDir}\\MAME\\ROMS\\karatblz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Karate Blazers (World, set 2)",
+      "mameName": "karatblza",
+      "parentName": "karatblz",
+      "path": "{gamesDir}\\MAME\\ROMS\\karatblz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Karate Blazers (bootleg with Street Smart sound hardware)",
+      "mameName": "karatblzbl",
+      "parentName": "karatblz",
+      "path": "{gamesDir}\\MAME\\ROMS\\karatblz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Karate Blazers (US)",
+      "mameName": "karatblzu",
+      "parentName": "karatblz",
+      "path": "{gamesDir}\\MAME\\ROMS\\karatblz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1991",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    }
+  ]
+}

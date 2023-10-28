@@ -1,0 +1,185 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Transfer",
+      "mameName": "transfer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\transfer.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "comment": "usage:Load with Microsoft BASIC 1.0",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "L'Affaire Sydney",
+      "mameName": "sydney",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\sydney.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Infogrames",
+      "year": "1986",
+      "parameters": "to8 -flop1 %ROMMAME%",
+      "comment": " part_id:Disk 1,part_id:Disk 2",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Beach Head",
+      "mameName": "beachead",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\beachead.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blue War",
+      "mameName": "bluewar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\bluewar.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Free Game Blot",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Erebus",
+      "mameName": "erebus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\erebus.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "EH Services",
+      "year": "1986",
+      "parameters": "to8 -flop1 %ROMMAME%",
+      "comment": " part_id:Disk 1 Side A,part_id:Disk 1 Side B,part_id:Disk 2 Side A,part_id:Disk 2 Side B",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Histoire de Theatre",
+      "mameName": "histheat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\histheat.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Free Game Blot",
+      "year": "1985",
+      "parameters": "to8 -flop1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Histoire de Theatre (Alt)",
+      "mameName": "histheata",
+      "parentName": "histheat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\histheat.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Free Game Blot",
+      "year": "1985",
+      "parameters": "to8 -flop1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Karate",
+      "mameName": "karate",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\karate.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Infogrames",
+      "year": "1985",
+      "parameters": "to8 -flop1 %ROMMAME%",
+      "comment": "usage:Load with Microsoft BASIC 1.0",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Karate (Alt)",
+      "mameName": "karatea",
+      "parentName": "karate",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\karate.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Infogrames",
+      "year": "1985",
+      "comment": "usage:Load with Microsoft BASIC 1.0",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Las Vegas",
+      "mameName": "lasvegas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\lasvegas.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Infogrames",
+      "year": "1985",
+      "parameters": "to8 -flop1 %ROMMAME%",
+      "comment": " part_id:Disk 1 Side A,part_id:Disk 1 Side B,part_id:Disk 2 Side A,part_id:Disk 2 Side B",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "La Malediction de Thaar",
+      "mameName": "malthaar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\malthaar.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Coktel Vision",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Meurtres sur l'Atlantique",
+      "mameName": "meurtatl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\meurtatl.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Cobrasoft",
+      "year": "1986",
+      "parameters": "to8 -flop1 %ROMMAME%",
+      "comment": " part_id:Side A,part_id:Side B",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "La Mine aux Diamants",
+      "mameName": "minediam",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\minediam.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Infogrames",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mini Bridge",
+      "mameName": "mbridge",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\mbridge.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Edition Informatique Logiciel (EDIL)",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mini Bridge (Alt)",
+      "mameName": "mbridgea",
+      "parentName": "mbridge",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\mbridge.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Edition Informatique Logiciel (EDIL)",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "San Pablo",
+      "mameName": "sanpablo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_qd\\sanpablo.7z",
+      "emulatorName": "MAME Thomson TO8 -SOFTLIST to7_qd",
+      "companyName": "Coktel Vision",
+      "year": "1985",
+      "parameters": "to8 -flop1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

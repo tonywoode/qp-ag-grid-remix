@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mobil Suit Gundam Final Shooting (Japan)",
+      "mameName": "gdfs",
+      "path": "{gamesDir}\\MAME\\ROMS\\gdfs.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Banpresto",
+      "year": "1995",
+      "gameType": "Shooter / Gun",
+      "rating": "70 to 80 (Good)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Hot Mind (Hard Times hardware)",
+      "mameName": "hotmind",
+      "path": "{gamesDir}\\MAME\\ROMS\\hotmind.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Playmark",
+      "year": "1995",
+      "gameType": "Puzzle / Misc.",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

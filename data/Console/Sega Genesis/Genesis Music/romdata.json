@@ -1,0 +1,3743 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "3 Ninjas Kick Back",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\1\\3 Ninjas Kick Back\\3 Ninjas Kick Back.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Action 52",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Action 52\\Action 52.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aero the Acro-Bat 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Aero the Acro-Bat 2\\Aero the Acro-Bat 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aero the Acro-Bat",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Aero the Acro-Bat\\Aero the Acro-Bat.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aerobiz",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Aerobiz (Air Management)\\Aerobiz.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aerobiz Supersonic",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Aerobiz Supersonic\\Aerobiz Supersonic.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "After Burner II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\After Burner II\\After Burner II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Air Buster",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Air Buster (Aero Blasters)\\Air Buster.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Air Diver",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Air Diver\\Air Diver.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aladdin",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Aladdin\\Aladdin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alex Kidd in the Enchanted Castle",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Alex Kidd in the Enchanted Castle\\Alex Kidd in the Enchanted Castle.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien 3",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Alien 3\\Alien 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Storm",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Alien Storm\\Alien Storm.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alisia Dragoon",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Alisia Dragoon\\Alisia Dragoon.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Altered Beast",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Altered Beast\\Altered Beast.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "American Gladiators",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\American Gladiators\\American Gladiators.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Animaniacs",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Animaniacs\\Animaniacs.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Awesome Possum",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\apossum\\Awesome Possum.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arcus Odyssey",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Arcus Odyssey\\Arcus Odyssey.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arnold Palmer Tournament Golf",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Arnold Palmer Tournament Golf\\Arnold Palmer Tournament Golf.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arrow Flash",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Arrow Flash\\Arrow Flash.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Art of Fighting",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Art of Fighting\\Art of Fighting.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Asterix and the Great Rescue",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Asterix and the Great Rescue\\Asterix and the Great Rescue.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atomic Robo-Kid",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Atomic Robo-Kid\\Atomic Robo-Kid.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atomic Runner",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Atomic Runner (Chelnov)\\Atomic Runner.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ATP Tour Championship Tennis",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\ATP Tour Championship Tennis\\ATP Tour Championship Tennis.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AWS Pro Moves Soccer",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\AWS Pro Moves Soccer\\AWS Pro Moves Soccer.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Monaco GP II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\Ayrton Senna's Super Monaco GP II\\Super Monaco GP II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Addams Family",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\The Addams Family\\The Addams Family.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Adventures of Batman and Robin",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\The Adventures of Batman and Robin\\The Adventures of Batman and Robin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Adventures of Mighty Max",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\The Adventures of Mighty Max\\The Adventures of Mighty Max.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Aquatic Games",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\a\\The Aquatic Games\\The Aquatic Games.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ballz",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Ballz\\Ballz.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batman - Revenge of the Joker",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Batman - Revenge of the Joker\\Batman - Revenge of the Joker.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batman Forever",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Batman Forever\\Batman Forever.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batman Returns",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Batman Returns\\Batman Returns.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batman",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Batman\\Batman.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battle Squadron",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Battle Squadron\\Battle Squadron.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battlemaster",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Battlemaster\\Battlemaster.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battletech",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Battletech\\Battletech.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battletoads - Double Dragon",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Battletoads - Double Dragon\\Battletoads - Double Dragon.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battletoads",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Battletoads\\Battletoads.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beast Wrestler",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Beast Wrestler\\Beast Wrestler.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beavis and Butthead",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Beavis and Butthead\\Beavis and Butthead.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beyond Oasis",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Beyond Oasis\\Beyond Oasis.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bible Adventures",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\BibleAdventures\\Bible Adventures.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bio-Hazard Battle",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bio-Hazard Battle\\Bio-Hazard Battle.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Uchuu Senkan Gomora",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bio-Ship Paladin\\Uchuu Senkan Gomora.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blades of Vengeance",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Blades of Vengeance\\Blades of Vengeance.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blaster Master 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Blaster Master 2\\Blaster Master 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blockout",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Blockout\\Blockout.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BOB",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\BOB\\BOB.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bonanza Brothers",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bonanza Brothers\\Bonanza Brothers.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boogerman",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Boogerman\\Boogerman.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boxing Legends of the Ring",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Boxing Legends of the Ring\\Boxing Legends of the Ring.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bram Stoker's Dracula",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bram Stoker's Dracula\\Bram Stoker's Dracula.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Brutal",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Brutal - Paws of Fury\\Brutal.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 01 - Menu",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 01 - Menu.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 02 - Alien Forest",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 02 - Alien Forest.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 03 - Waldos Starship",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 03 - Waldos Starship.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 04 - The Volcano",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 04 - The Volcano.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 05 - Marine Temple",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 05 - Marine Temple.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 06 - The Spaceport",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 06 - The Spaceport.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 07 - Bonus Level",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 07 - Bonus Level.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 08 - Bonus Level Time Over",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 08 - Bonus Level Time Over.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 09 - Continue",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 09 - Continue.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 10 - Game Over",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 10 - Game Over.vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 11 - Unknown (Sound Code 00)",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 11 - Unknown (Sound Code 00).vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 12 - Unknown (Sound Code 08)",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 12 - Unknown (Sound Code 08).vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix - 13 - Unknown (Sound Code 12)",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix - 13 - Unknown (Sound Code 12).vgm",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubba 'n' Stix\\Bubba 'n' Stix.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubble and Squeak",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubble and Squeak\\Bubble and Squeak.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubsy",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Bubsy in Claws Encounters of the Furred Kind\\Bubsy.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burning Force",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\b\\Burning Force\\Burning Force.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cadash",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Cadash\\Cadash.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Caliber 50",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Caliber 50\\Caliber 50.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "California Games",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\California Games\\California Games.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Captain America and the Avengers",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Captain America and the Avengers\\Captain America and the Avengers.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castle of Illusion",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Castle of Illusion Starring Mickey Mouse\\Castle of Illusion.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Castlevania Bloodlines",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Castlevania - Bloodlines\\Castlevania Bloodlines.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chakan",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Chakan - The Forever Man\\Chakan.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Championship Bowling",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Championship Bowling\\Championship Bowling.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Championship Pro-Am",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Championship Pro-Am\\Championship Pro-Am.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chase HQ II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Chase HQ II\\Chase HQ II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chester Cheetah",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Chester Cheetah - Too Cool to Fool\\Chester Cheetah.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chester Cheetah 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Chester Cheetah - Wild Wild Quest\\Chester Cheetah 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chi Chi's Pro Challenge",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Chi Chi's Pro Challenge\\Chi Chi's Pro Challenge.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chiki Chiki Boys",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Chiki Chiki Boys\\Chiki Chiki Boys.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chuck Rock II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Chuck Rock II - Son of Chuck\\Chuck Rock II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chuck Rock",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Chuck Rock\\Chuck Rock.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clay Fighter",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\clay fighter\\Clay Fighter.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Coach K College Basketball",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Coach K College Basketball\\Coach K College Basketball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Columns III",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Columns III - Revenge of Columns\\Columns III.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Columns",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Columns\\Columns.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Combat Cars",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Combat Cars\\Combat Cars.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Comix Zone",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Comix Zone\\Comix Zone.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Contra Hard Corps",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Contra Hard Corps\\Contra Hard Corps.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cool Spot",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Cool Spot\\Cool Spot.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Carnage",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Cosmic Carnage\\Cosmic Carnage.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crack Down",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Crack Down\\Crack Down.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CrossFire",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\CrossFire\\CrossFire.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crue Ball",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Crüe Ball\\Crue Ball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crusader of Centy",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Crusader of Centy\\Crusader of Centy.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyberball",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Cyberball\\Cyberball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Corporation",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Cyber-Cop\\Corporation.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyborg Justice",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\c\\Cyborg Justice\\Cyborg Justice.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dark Castle",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dark Castle\\Dark Castle.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dashin' Desperadoes",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dashin' Desperadoes\\Dashin' Desperadoes.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deadly Moves",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Deadly Moves\\Deadly Moves.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DecapAttack",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\DecapAttack\\DecapAttack.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demolition Man",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Demolition Man\\Demolition Man.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Desert Strike",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Desert Strike - Return to the Gulf\\Desert Strike.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Devilish",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Devilish\\Devilish.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dick Tracy",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dick Tracy\\Dick Tracy.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dino Land",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dino Land\\Dino Land.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dinosaurs for Hire",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dinosaurs for Hire\\Dinosaurs for Hire.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DJ Boy",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\DJ Boy\\DJ Boy.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Dragon 3",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Double Dragon 3 - The Rosetta Stone\\Double Dragon 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Dragon V",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Double Dragon V - The Shadow Falls\\Double Dragon V.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Dragon",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Double Dragon\\Double Dragon.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Dribble",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Double Dribble\\Double Dribble.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dr. Robotnik's Mean Bean Machine",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dr Robotnik's Mean Bean Machine\\Dr. Robotnik's Mean Bean Machine.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon's Fury",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dragon's Fury\\Dragon's Fury.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon's Revenge",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dragon's Revenge\\Dragon's Revenge.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dune - The Battle for Arrakis",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dune - The Battle for Arrakis\\Dune - The Battle for Arrakis.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Warriors of the Eternal Sun",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dungeons & Dragons - Warriors of the Eternal Sun\\Warriors of the Eternal Sun.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dynamite Duke",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dynamite Duke\\Dynamite Duke.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dynamite Headdy",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\d\\Dynamite Headdy\\Dynamite Headdy.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Earnest Evans",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Earnest Evans\\Earnest Evans.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Earthworm Jim 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Earthworm Jim 2\\Earthworm Jim 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Earthworm Jim",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Earthworm Jim\\Earthworm Jim.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ecco - The Tides of Time",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Ecco - The Tides of Time\\Ecco - The Tides of Time.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ecco Jr.",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Ecco Jr\\Ecco Jr..m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ecco the Dolphin",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Ecco the Dolphin\\Ecco the Dolphin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "El Viento",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\El Viento\\El Viento.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Elemental Master",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Elemental Master\\Elemental Master.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ESWAT",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\ESWAT - City Under Siege\\ESWAT.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eternal Champions",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Eternal Champions\\Eternal Champions.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Exile",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Exile\\Exile.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Exo-Squad",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\e\\Exo-Squad\\Exo-Squad.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\F1\\F1.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F-15 Strike Eagle II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\F-15 Strike Eagle II\\F-15 Strike Eagle II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fantasia",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\fantasia\\Fantasia.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fatal Fury 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Fatal Fury 2\\Fatal Fury 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fatal Fury",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Fatal Fury\\Fatal Fury.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fatal Labyrinth",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Fatal Labyrinth\\Fatal Labyrinth.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fatal Rewind",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Fatal Rewind (The Killing Game Show)\\Fatal Rewind.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ferrari Grand Prix Challenge",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Ferrari Grand Prix Challenge (F1 Hero MD)\\Ferrari Grand Prix Challenge.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fifa Soccer 95",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Fifa_Soccer_95\\Fifa Soccer 95.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fighting Masters",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Fighting Masters\\Fighting Masters.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Zone",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Final Zone\\Final Zone.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Shark",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Fire Shark\\Fire Shark.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flashback",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Flashback - The Quest for Identity\\Flashback.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flicky",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Flicky\\Flicky.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Forgotten Worlds",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\Forgotten Worlds\\Forgotten Worlds.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Faery Tale Adventure",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\The Faery Tale Adventure\\The Faery Tale Adventure.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Flintstones",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\f\\The Flintstones\\The Flintstones.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gadget Twins",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Gadget Twins\\Gadget Twins.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gaiares",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Gaiares\\Gaiares.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gain Ground",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Gain Ground\\Gain Ground.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaxy Force II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Galaxy Force II\\Galaxy Force II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Garfield",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Garfield - Caught in the Act\\Garfield.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gargoyles",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Gargoyles\\Gargoyles.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gauntlet IV",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Gauntlet IV\\Gauntlet IV.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gemfire",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Gemfire\\Gemfire.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Genghis Khan II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Genghis Khan II - Clan of the Grey Wolf\\Genghis Khan II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghostbusters",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Ghostbusters\\Ghostbusters.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghouls 'n Ghosts",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Ghouls 'n Ghosts\\Ghouls 'n Ghosts.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "G-LOC",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\G-LOC\\G-LOC.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gods",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Gods\\Gods.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Golden Axe II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Golden Axe II\\Golden Axe II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Golden Axe",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Golden Axe\\Golden Axe.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Granada",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Granada\\Granada.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Greendog",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Greendog - The Beached Surfer Dude\\Greendog.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grind Stormer",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Grind Stormer\\Grind Stormer.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Growl",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\Growl\\Growl.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Great Circus Mystery",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\The Great Circus Mystery\\The Great Circus Mystery.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Great Waldo Search",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\The Great Waldo Search\\The Great Waldo Search.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Legend of Galahad",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\g\\The Legend of Galahad\\The Legend of Galahad.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heavy Nova",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\h\\Heavy Nova\\Heavy Nova.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hellfire",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\h\\Hellfire\\Hellfire.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Herzog Zwei",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\h\\Herzog Zwei\\Herzog Zwei.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "High Seas Havoc",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\h\\High Seas Havoc\\High Seas Havoc.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hit the Ice",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\h\\Hit the Ice\\Hit the Ice.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hook",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\h\\Hook\\Hook.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Humans",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\h\\The Humans\\The Humans.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Insector X",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\i\\Insector X\\Insector X.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Izzy's Quest for the Olympic Rings",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\i\\Izzys\\Izzy's Quest for the Olympic Rings.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Immortal",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\i\\The Immortal\\The Immortal.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Incredible Hulk",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\i\\The Incredible Hulk\\The Incredible Hulk.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Bond 007",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\James Bond 007 - The Duel\\James Bond 007.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Buster Douglas Knockout Boxing",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\James Buster Douglas Knockout Boxing\\James Buster Douglas Knockout Boxing.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Pond - Underwater Agent",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\James Pond - Underwater Agent\\James Pond - Underwater Agent.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Pond 3 - Operation Starfish",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\James Pond 3 - Operation Starfish\\James Pond 3 - Operation Starfish.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Pond II - Codename RoboCod",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\James Pond II - Codename RoboCod\\James Pond II - Codename RoboCod.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grand Slam",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\Jennifer Capriati Tennis\\Grand Slam.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jewel Master",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\Jewel Master\\Jewel Master.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Joe & Mac",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\Joe & Mac\\Joe & Mac.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "John Madden Football '92",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\John Madden Football '92\\John Madden Football '92.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "John Madden Football '93",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\John Madden Football '93\\John Madden Football '93.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "John Madden Football",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\John Madden Football\\John Madden Football.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Junction",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\Junction\\Junction.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jungle Strike",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\Jungle Strike\\Jungle Strike.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jurassic Park",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\Jurassic Park\\Jurassic Park.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strider Returns",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\Strider Returns - Journey From Darkness\\Strider Returns.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Jungle Book",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\j\\The Jungle Book\\The Jungle Book.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ka-Ge-Ki",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\k\\Ka-Ge-Ki - Fists of Steel\\Ka-Ge-Ki.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kid Chameleon",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\k\\Kid Chameleon\\Kid Chameleon.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of the Monsters 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\k\\King of the Monsters 2\\King of the Monsters 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of the Monsters",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\k\\King of the Monsters\\King of the Monsters.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King Salmon",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\k\\King Salmon\\King Salmon.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King's Bounty",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\k\\King's Bounty - The Conqueror's Quest\\King's Bounty.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Knuckles' Chaotix",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\k\\Knuckles' Chaotix\\Knuckles' Chaotix.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Krusty's Super Fun House",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\k\\Krusty's Super Fun House\\Krusty's Super Fun House.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Landstalker",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Landstalker\\Landstalker.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Last Action Hero",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Last Action Hero\\Last Action Hero.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Last Battle",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Last Battle (Hokuto no Ken)\\Last Battle.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lemmings 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Lemmings 2 - The Tribes\\Lemmings 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lemmings",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Lemmings\\Lemmings.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lethal Enforcers II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Lethal Enforcers II - Gun Fighters\\Lethal Enforcers II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lethal Enforcers",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Lethal Enforcers\\Lethal Enforcers.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Liberty or Death",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Liberty or Death\\Liberty or Death.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Light Crusader",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Light Crusader\\Light Crusader.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thunder Force IV",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Lightening Force\\Thunder Force IV.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lotus II RECS",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\Lotus II RECS\\Lotus II RECS.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Lawnmower Man",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\The Lawnmower Man\\The Lawnmower Man.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Lion King",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\The Lion King\\The Lion King.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Lost Vikings",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\l\\The Lost Vikings\\The Lost Vikings.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Global Gladiators",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Global Gladiators\\Global Gladiators.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "M.U.S.H.A.",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\M.U.S.H.A\\M.U.S.H.A..m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Marble Madness",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Marble Madness\\Marble Madness.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Marko's Magic Football",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Marko's Magic Football\\Marko's Magic Football.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Marvel Land",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Marvel Land\\Marvel Land.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mary Shelley's Frankenstein",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mary Shelley's Frankenstein\\Mary Shelley's Frankenstein.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Master of Monsters",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Master of Monsters\\Master of Monsters.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mazin Saga",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mazin Saga\\Mazin Saga.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "McDonald's Treasure Land Adventure",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\McDonald's Treasure Land Adventure\\McDonald's Treasure Land Adventure.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mega Bomberman",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mega Bomberman\\Mega Bomberman.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mega Turrican",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mega Turrican\\Mega Turrican.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mercs - Arcade Mode",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mercs\\Mercs - Arcade Mode.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mercs - Original Mode",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mercs\\Mercs - Original Mode.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mercs",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mercs\\Mercs.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metal Head",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Metal Head\\Metal Head.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Michael Jackson's Moonwalker",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Michael Jackson's Moonwalker\\Michael Jackson's Moonwalker.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mickey Mania",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mickey Mania\\Mickey Mania.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Midnight Resistance",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Midnight Resistance\\Midnight Resistance.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Might and Magic II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Might and Magic - Gates to Another World\\Might and Magic II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mighty Morphin Power Rangers - The Movie",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mighty Morphin Power Rangers - The Movie\\Mighty Morphin Power Rangers - The Movie.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mighty Morphin Power Rangers",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mighty Morphin Power Rangers\\Mighty Morphin Power Rangers.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Minnesota Fats",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Minnesota Fats - Pool Legend\\Minnesota Fats.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mortal Kombat 3",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mortal Kombat 3\\Mortal Kombat 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mortal Kombat II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mortal Kombat II\\Mortal Kombat II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mortal Kombat",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mortal Kombat\\Mortal Kombat.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ms. Pac-Man",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\ms pac-man\\Ms. Pac-Man.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mutant League Football",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mutant League Football\\Mutant League Football.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mystic Defender",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mystic Defender\\Mystic Defender.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mystical Fighter",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\m\\Mystical Fighter\\Mystical Fighter.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NBA Jam",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\NBA Jam\\NBA Jam.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NBA Live 95",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\NBA Live 95\\NBA Live 95.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NBA Live 96",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\NBA Live 96\\NBA Live 96.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NBA Live 97",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\NBA Live 97\\NBA Live 97.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NFL '95",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\NFL '95\\NFL '95.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NHL All-Star Hockey '95",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\NHL All-Star Hockey '95\\NHL All-Star Hockey '95.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nigel Mansell's World Championship Racing",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\Nigel Mansell's World Championship Racing\\Nigel Mansell's World Championship Racing.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "No Escape",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\No Escape\\No Escape.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nobunaga's Ambition",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\Nobunaga's Ambition\\Nobunaga's Ambition.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prime Time NFL",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\Prime Time NFL (NFL '98)\\Prime Time NFL.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Uncharted Waters - New Horizons",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\n\\Uncharted Waters - New Horizons\\Uncharted Waters - New Horizons.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Onslaught",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\o\\Onslaught\\Onslaught.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Operation Europe",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\o\\Operation Europe\\Operation Europe.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outrun 2019",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\o\\Outrun 2019\\Outrun 2019.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "OutRun",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\o\\OutRun\\OutRun.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outrunners",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\o\\Outrunners\\Outrunners.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Ooze",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\o\\The Ooze\\The Ooze.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Attack",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Pac-Attack\\Pac-Attack.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Man 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Pac-Man 2 - The New Adventures\\Pac-Man 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Mania",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Pac-Mania\\Pac-Mania.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paperboy II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Paperboy II\\Paperboy II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Real Basketball",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Pat Riley Basketball\\Super Real Basketball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pebble Beach Golf Links",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Pebble Beach Golf Links\\Pebble Beach Golf Links.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phantasy Star II (English)",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Phantasy Star II\\Phantasy Star II (English).m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phantasy Star III",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Phantasy Star III - Generations of Doom\\Phantasy Star III.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phantasy Star IV",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Phantasy Star IV\\Phantasy Star IV.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phelios",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Phelios\\Phelios.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pink Goes to Hollywood",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Pink Goes to Hollywood\\Pink Goes to Hollywood.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pinocchio",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Pinocchio\\Pinocchio.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitfall",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Pitfall - The Mayan Adventure\\Pitfall.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pocahontas",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Pocahontas\\Pocahontas.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gouketsuji Ichizoku",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Power Instinct\\Gouketsuji Ichizoku.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Powerball",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Powerball\\Powerball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Predator 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Predator 2\\Predator 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puggsy",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\Puggsy\\Puggsy.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Pirates of Dark Water",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\The Pirates of Dark Water\\The Pirates of Dark Water.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Punisher",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\p\\The Punisher\\The Punisher.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quack Shot",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\q\\Quack Shot\\Quack Shot.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quad Challenge",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\q\\Quad Challenge\\Quad Challenge.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Race Drivin'",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Race Drivin'\\Race Drivin'.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Radical Rex",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Radical Rex\\Radical Rex.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Raiden Trad",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Raiden Trad\\Raiden Trad.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rambo III",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Rambo III\\Rambo III.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rampart",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Rampart\\Rampart.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ranger-X",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Ranger-X\\Ranger-X.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rastan Saga II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Rastan Saga II\\Rastan Saga II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Red Zone",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Red Zone\\Red Zone.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stimpy's Invention",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Ren & Stimpy - Stimpy's Invention\\Stimpy's Invention.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Revenge of Shinobi",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Revenge of Shinobi\\Revenge of Shinobi.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Busytown",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Richard Scarry's Busytown\\Busytown.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rings of Power",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Rings of Power\\Rings of Power.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Risky Woods",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Risky Woods\\Risky Woods.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ristar - The Shooting Star",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Ristar - The Shooting Star\\Ristar - The Shooting Star.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Road Rash 3",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Road Rash 3 - Tour de Force\\Road Rash 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Road Rash II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Road Rash II\\Road Rash II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Road Rash",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Road Rash\\Road Rash.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robocop 3",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Robocop 3\\Robocop 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robocop versus The Terminator",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Robocop versus The Terminator\\Robocop versus The Terminator.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rock n' Roll Racing",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Rock n' Roll Racing\\Rock n' Roll Racing.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rocket Knight Adventures",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Rocket Knight Adventures\\Rocket Knight Adventures.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rolling Thunder 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Rolling Thunder 2\\Rolling Thunder 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rolling Thunder 3",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Rolling Thunder 3\\Rolling Thunder 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Romance of the Three Kingdoms II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\r\\Romance of the Three Kingdoms II\\Romance of the Three Kingdoms II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cagey Capers",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Cagey Capers\\Cagey Capers.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Saint Sword",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Saint Sword\\Saint Sword.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Samurai Shodown",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Samurai Shodown (Samurai Spirits)\\Samurai Shodown.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Saturday Night Slam Masters",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Saturday Night Slam Masters\\Saturday Night Slam Masters.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SD Valis",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\SD Valis (Syd of Valis)\\SD Valis.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shadow Blasters",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shadow Blasters (Shiten Myouou)\\Shadow Blasters.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shadow Dancer",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shadow Dancer\\Shadow Dancer.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shadow of the Beast II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shadow of the Beast II\\Shadow of the Beast II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shadow of the Beast",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shadow of the Beast\\Shadow of the Beast.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stellar Assault",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shadow Squadron\\Stellar Assault.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shadowrun",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shadowrun\\Shadowrun.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shining Force II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shining Force II\\Shining Force II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shining Force",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shining Force\\Shining Force.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shining in the Darkness",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shining in the Darkness\\Shining in the Darkness.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shinobi III",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shinobi III\\Shinobi III.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shove It!",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Shove It!\\Shove It!.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Side Pocket",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Side Pocket\\Side Pocket.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skeleton Krew",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Skeleton Krew\\Skeleton Krew.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skitchin'",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Skitchin'\\Skitchin'.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snake Rattle 'n' Roll",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Snake Rattle 'n' Roll\\Snake Rattle 'n' Roll.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Socket",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Socket\\Socket.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sol-Deace",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sol-Deace\\Sol-Deace.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic 3D Blast",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sonic 3D Blast\\Sonic 3D Blast.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic Spinball",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sonic Spinball\\Sonic Spinball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic the Hedgehog 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sonic the Hedgehog 2\\Sonic the Hedgehog 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic 3 & Knuckles (With Sonic 3 Bonus Tracks)",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sonic the Hedgehog 3 and Knuckles\\Sonic 3 & Knuckles (With Sonic 3 Bonus Tracks).m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic 3 & Knuckles",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sonic the Hedgehog 3 and Knuckles\\Sonic 3 & Knuckles.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sonic the Hedgehog",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sonic the Hedgehog\\Sonic the Hedgehog.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sorcerer's Kingdom",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sorcerer's Kingdom\\Sorcerer's Kingdom.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Harrier II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Space Harrier II\\Space Harrier II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders '91",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Space Invaders '91\\Space Invaders '91.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sparkster",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sparkster\\Sparkster.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speedball 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Speedball 2 - Brutal Deluxe\\Speedball 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spider-Man TAS",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Spider-Man - The Animated Series\\Spider-Man TAS.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maximum Carnage",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Spider-Man & Venom - Maximum Carnage\\Maximum Carnage.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Separation Anxiety",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Spider-Man & Venom - Separation Anxiety\\Separation Anxiety.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spider-Man & X-Men",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Spider-Man & X-Men - Arcade's Revenge\\Spider-Man & X-Men.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiritual Warfare",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\SpiritualWarfare\\Spiritual Warfare.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Splatterhouse 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Splatterhouse 2\\Splatterhouse 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Splatterhouse 3",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Splatterhouse 3\\Splatterhouse 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spot Goes to Hollywood",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Spot Goes to Hollywood\\Spot Goes to Hollywood.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Trek DS9",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Star Trek DS9 - Crossroads of Time\\Star Trek DS9.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Trek TNG",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Star Trek TNG - Echoes from the Past\\Star Trek TNG.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stargate",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Stargate\\Stargate.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Steel Empire",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Steel Empire\\Steel Empire.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Fighter II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Street Fighter II' - Special Champion Edition\\Street Fighter II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Smart",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Street Smart\\Street Smart.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Streets of Rage 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Streets of Rage 2\\Streets of Rage 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Streets of Rage 3",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Streets of Rage 3\\Streets of Rage 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Streets of Rage",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Streets of Rage\\Streets of Rage.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strider",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Strider\\Strider.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sub-Terrania",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sub-Terrania\\Sub-Terrania.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sunset Riders",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sunset Riders\\Sunset Riders.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Baseball 2020",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super Baseball 2020\\Super Baseball 2020.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Hang-On",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super Hang-On\\Super Hang-On.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super High Impact",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super High Impact\\Super High Impact.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Hydlide",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super Hydlide\\Super Hydlide.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Monaco GP",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super Monaco GP\\Super Monaco GP.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Off Road",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super Off Road\\Super Off Road.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Smash TV",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super Smash TV\\Super Smash TV.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Street Fighter II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super Street Fighter II\\Super Street Fighter II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Thunder Blade",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super Thunder Blade\\Super Thunder Blade.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Volleyball",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Super Volleyball\\Super Volleyball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Superman",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Superman\\Superman.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sword Of Sodan",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sword Of Sodan\\Sword Of Sodan.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sword of Vermilion",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\Sword of Vermilion\\Sword of Vermilion.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bart vs The Space Mutants",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\The Simpsons - Bart vs The Space Mutants\\Bart vs The Space Mutants.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bart's Nightmare",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\s\\The Simpsons - Bart's Nightmare\\Bart's Nightmare.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "T2 - The Arcade Game",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\T2 - The Arcade Game\\T2 - The Arcade Game.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TaleSpin",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\TaleSpin\\TaleSpin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Target Earth",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Target Earth\\Target Earth.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Task Force Harrier EX",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Task Force Harrier EX\\Task Force Harrier EX.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tecmo Super Baseball",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tecmo Super Baseball\\Tecmo Super Baseball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tecmo Super Bowl II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tecmo Super Bowl II - Special Edition\\Tecmo Super Bowl II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tecmo Super Bowl III",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tecmo Super Bowl III - Final Edition\\Tecmo Super Bowl III.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tecmo Super Bowl",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tecmo Super Bowl\\Tecmo Super Bowl.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tecmo World Cup",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tecmo World Cup\\Tecmo World Cup.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TMNT - The Hyperstone Heist",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Teenage Mutant Ninja Turtles - The Hyperstone Heist\\TMNT - The Hyperstone Heist.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "TMNT - Tournament Fighters",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Teenage Mutant Ninja Turtles - Tournament Fighters\\TMNT - Tournament Fighters.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terminator 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Terminator 2 - Judgment Day\\Terminator 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Terminator",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\The Terminator\\The Terminator.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Tick",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\The Tick\\The Tick.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thunder Force II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Thunder Force II\\Thunder Force II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thunder Force III",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Thunder Force III\\Thunder Force III.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thunder Fox",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Thunder Fox\\Thunder Fox.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tinhead",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tinhead\\Tinhead.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Acme All Stars",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tiny Toon Adventures - Acme All-Stars\\Acme All Stars.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tiny Toon Adventures - Buster's Hidden Treasure",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tiny Toon Adventures - Buster's Hidden Treasure\\Tiny Toon Adventures - Buster's Hidden Treasure.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slime World",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Todd's Adventures in Slime World\\Slime World.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ToeJam & Earl 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\ToeJam & Earl in Panic on Funkotron\\ToeJam & Earl 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ToeJam & Earl",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\ToeJam and Earl\\ToeJam & Earl.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toki - Going Ape Spit",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Toki - Going Ape Spit\\Toki - Going Ape Spit.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tom and Jerry",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tom and Jerry - Frantic Antics!\\Tom and Jerry.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Top Gear 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Top Gear 2\\Top Gear 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toughman Contest",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Toughman Contest\\Toughman Contest.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toxic Crusaders",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Toxic Crusaders\\Toxic Crusaders.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toy Story",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Toy Story\\Toy Story.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toys",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Toys\\Toys.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Trampoline Terror!",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Trampoline Terror!\\Trampoline Terror!.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Traysia",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Traysia\\Traysia.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Truxton",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Truxton\\Truxton.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turrican",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Turrican\\Turrican.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Twin Cobra",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Twin Cobra\\Twin Cobra.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Two Crude Dudes",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Two Crude Dudes\\Two Crude Dudes.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mega-Lo-Mania",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\t\\Tyrants\\Mega-Lo-Mania.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultimate Qix",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\u\\Ultimate Qix\\Ultimate Qix.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Universal Soldier",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\u\\Universal Soldier\\Universal Soldier.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Valis III",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Valis III\\Valis III.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Valis",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Valis\\Valis.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vapor Trail",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Vapor Trail\\Vapor Trail.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vectorman 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Vectorman 2\\Vectorman 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vectorman",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Vectorman\\Vectorman.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Viewpoint",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Viewpoint\\Viewpoint.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtua Fighter 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Virtua Fighter 2\\Virtua Fighter 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtua Racing Deluxe",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Virtua Racing Deluxe\\Virtua Racing Deluxe.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtua Racing",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Virtua Racing\\Virtua Racing.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtual Bart",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Virtual Bart\\Virtual Bart.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virtual Pinball",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\Virtual Pinball\\Virtual Pinball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VR Troopers",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\v\\VR Troopers\\VR Troopers.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wardner",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Wardner\\Wardner.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Warrior of Rome II",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Warrior of Rome II\\Warrior of Rome II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Warrior of Rome",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Warrior of Rome\\Warrior of Rome.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Warsong",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Warsong\\Warsong.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wayne's World",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Wayne's World\\Wayne's World.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WeaponLord",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\WeaponLord\\WeaponLord.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Whip Rush",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Whip Rush\\Whip Rush.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wimbledon Championship Tennis",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Wimbledon Championship Tennis\\Wimbledon Championship Tennis.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gynoug",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Wings of Wor\\Gynoug.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wiz 'n' Liz",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Wiz 'n' Liz\\Wiz 'n' Liz.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wolfchild",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Wolfchild\\Wolfchild.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wonder Boy in Monster World",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\Wonder Boy in Monster World\\Wonder Boy in Monster World.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World Championship Soccer",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\World Championship Soccer\\World Championship Soccer.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World Cup USA 94",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\World Cup USA 94\\World Cup USA 94.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World Heroes",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\World Heroes\\World Heroes.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World of Illusion",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\World of Illusion\\World of Illusion.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "European League Soccer",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\World Trophy Soccer\\European League Soccer.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WWF Royal Rumble",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\w\\WWF Royal Rumble\\WWF Royal Rumble.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "X-Men 2",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\x\\X-Men 2 - Clone Wars\\X-Men 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "X-Men",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\x\\X-Men\\X-Men.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ys III - Wanderers From Ys",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\y\\Ys III - Wanderers From Ys\\Ys III - Wanderers From Ys.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zaxxon's Motherbase 2000",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\z\\Zaxxon's Motherbase 2000 (Parasquad, Motherbase)\\Zaxxon's Motherbase 2000.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zero the Kamikaze Squirrel",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\z\\Zero the Kamikaze Squirrel\\Zero the Kamikaze Squirrel.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zero Tolerance",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\z\\Zero Tolerance\\Zero Tolerance.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zombies Ate My Neighbors",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\z\\Zombies Ate My Neighbors\\Zombies Ate My Neighbors.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zool",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\z\\Zool - Ninja of the Nth Dimension\\Zool.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zoom!",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\z\\Zoom!\\Zoom!.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zoop",
+      "path": "{gamesDir}\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Music\\z\\Zoop\\Zoop.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

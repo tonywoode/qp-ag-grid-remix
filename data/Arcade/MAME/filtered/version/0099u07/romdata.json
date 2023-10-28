@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Indian Battle",
+      "mameName": "indianbt",
+      "path": "{gamesDir}\\MAME\\ROMS\\indianbt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1980",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Jolly Jogger",
+      "mameName": "jollyjgr",
+      "path": "{gamesDir}\\MAME\\ROMS\\jollyjgr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1982",
+      "gameType": "Maze / Outline",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

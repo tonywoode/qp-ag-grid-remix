@@ -1,0 +1,953 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Aero Blasters",
+      "mameName": "aeroblst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\aeroblst.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Alien Crush",
+      "mameName": "acrush",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\acrush.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ballistix",
+      "mameName": "ballistx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\ballistx.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Battle Royale",
+      "mameName": "batlroyl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\batlroyl.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blazing Lazers",
+      "mameName": "blazlazr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\blazlazr.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bloody Wolf",
+      "mameName": "blodwolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\blodwolf.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bomberman '93",
+      "mameName": "bombmn93",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\bombmn93.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Hudson Soft",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bomberman",
+      "mameName": "bombman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\bombman.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bonk III - Bonk's Big Adventure",
+      "mameName": "bonk3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\bonk3.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1993",
+      "parameters": "-L cores\\mame_libretro.dll \" tg16 -cart1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bonk's Adventure",
+      "mameName": "bonk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\bonk.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bonk's Revenge",
+      "mameName": "bonk2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\bonk2.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Boxyboy",
+      "mameName": "boxyboy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\boxyboy.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bravoman",
+      "mameName": "bravoman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\bravoman.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cadash",
+      "mameName": "cadash",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\cadash.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Working Designs",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Champions Forever Boxing",
+      "mameName": "forevbox",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\forevbox.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chew Man Fu",
+      "mameName": "chewman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\chewman.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "China Warrior",
+      "mameName": "chinawar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\chinawar.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cratermaze",
+      "mameName": "cratermz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\cratermz.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cyber Core",
+      "mameName": "cybrcore",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\cybrcore.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Darkwing Duck",
+      "mameName": "darkwing",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\darkwing.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Davis Cup Tennis",
+      "mameName": "daviscup",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\daviscup.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "parameters": "-L cores\\mame_libretro.dll \" tg16 -cart1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dead Moon",
+      "mameName": "deadmoon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\deadmoon.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Deep Blue",
+      "mameName": "deepblue",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\deepblue.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Devil's Crush - Naxat Pinball",
+      "mameName": "devlcrsh",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\devlcrsh.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Double Dungeons - W",
+      "mameName": "ddungw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\ddungw.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dragon Spirit",
+      "mameName": "dspirit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\dspirit.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dragon's Curse",
+      "mameName": "dragcrse",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\dragcrse.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Drop.Off",
+      "mameName": "dropoff",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\dropoff.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dungeon Explorer",
+      "mameName": "dungexpl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\dungexpl.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Falcon",
+      "mameName": "falcon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\falcon.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fantasy Zone",
+      "mameName": "fantzone",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\fantzone.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Final Lap Twin",
+      "mameName": "finallap",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\finallap.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Galaga '90",
+      "mameName": "galaga90",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\galaga90.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gunboat",
+      "mameName": "gunboat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\gunboat.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hit the Ice - VHL - The Official Video Hockey League",
+      "mameName": "hitice",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\hitice.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Impossamole",
+      "mameName": "impossam",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\impossam.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "J.J. & Jeff",
+      "mameName": "jjnjeff",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\jjnjeff.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jack Nicklaus' Turbo Golf",
+      "mameName": "nicklaus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\nicklaus.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Accolade",
+      "year": "1990",
+      "parameters": "-L cores\\mame_libretro.dll \" tg16 -cart1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jackie Chan's Action Kung Fu",
+      "mameName": "jchan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\jchan.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Hudson Soft",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Keith Courage in Alpha Zones",
+      "mameName": "keithcor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\keithcor.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "King of Casino",
+      "mameName": "kingcasn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\kingcasn.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Klax",
+      "mameName": "klax",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\klax.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Tengen",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Legend of Hero Tonma",
+      "mameName": "loht",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\loht.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Legendary Axe II",
+      "mameName": "legaxe2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\legaxe2.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Legendary Axe",
+      "mameName": "legaxe",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\legaxe.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Magical Chase",
+      "mameName": "magchase",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\magchase.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Military Madness",
+      "mameName": "miltrymd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\miltrymd.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Moto Roader",
+      "mameName": "motoroad",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\motoroad.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "parameters": "-L cores\\mame_libretro.dll \" tg16 -cart1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Neutopia",
+      "mameName": "neutopia",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\neutopia.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Neutopia II",
+      "mameName": "neutopi2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\neutopi2.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "New Adventure Island",
+      "mameName": "advislnd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\advislnd.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Night Creatures",
+      "mameName": "nightcr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\nightcr.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ninja Spirit",
+      "mameName": "nspirit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\nspirit.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Order of the Griffon",
+      "mameName": "griffon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\griffon.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ordyne",
+      "mameName": "ordyne",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\ordyne.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pac-Land",
+      "mameName": "pacland",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\pacland.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Panza Kick Boxing",
+      "mameName": "panzakb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\panzakb.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Parasol Stars - The Story of Bubble Bobble III",
+      "mameName": "parasol",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\parasol.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Working Designs",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Power Golf",
+      "mameName": "pgolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\pgolf.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Psychosis",
+      "mameName": "psychos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\psychos.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "R-Type",
+      "mameName": "rtype",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\rtype.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "parameters": "-L cores\\mame_libretro.dll \" tg16 -cart1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Raiden",
+      "mameName": "raiden",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\raiden.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Samurai-Ghost",
+      "mameName": "samuraig",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\samuraig.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Shockman",
+      "mameName": "shockman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\shockman.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sidearms - Hyper Dyne",
+      "mameName": "sidearms",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\sidearms.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Radiance Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Silent Debuggers",
+      "mameName": "silentd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\silentd.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Hudson Soft",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sinistron",
+      "mameName": "sinistrn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\sinistrn.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soldier Blade",
+      "mameName": "soldblad",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\soldblad.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Somer Assault",
+      "mameName": "somerass",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\somerass.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Atlus",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sonic Spike - World Championship Beach Volleyball",
+      "mameName": "wbeach",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\wbeach.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Harrier",
+      "mameName": "sharrier",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\sharrier.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Splatterhouse",
+      "mameName": "splatth",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\splatth.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Star Soldier",
+      "mameName": "sssoldr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\sssoldr.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Volleyball",
+      "mameName": "svolley",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\svolley.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Taito Chase H.Q.",
+      "mameName": "chasehq",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\chasehq.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Takin' It to the Hoop",
+      "mameName": "taknhoop",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\taknhoop.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TaleSpin",
+      "mameName": "talespin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\talespin.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tiger Road",
+      "mameName": "tigerrod",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\tigerrod.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Time Cruise",
+      "mameName": "timcrus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\timcrus.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Timeball",
+      "mameName": "timeball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\timeball.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tricky Kick",
+      "mameName": "tricky",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\tricky.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Turrican",
+      "mameName": "turrican",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\turrican.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "Ballistic",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TV Sports Basketball",
+      "mameName": "tvbasket",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\tvbasket.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TV Sports Football",
+      "mameName": "tvfootbl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\tvfootbl.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TV Sports Hockey",
+      "mameName": "tvhockey",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\tvhockey.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Veigues - Tactical Gladiator",
+      "mameName": "veigues",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\veigues.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Victory Run",
+      "mameName": "victoryr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\victoryr.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Vigilante",
+      "mameName": "vigilant",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\vigilant.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "World Class Baseball",
+      "mameName": "wcbasebl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\wcbasebl.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "World Court Tennis",
+      "mameName": "wctennis",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\wctennis.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "World Sports Competition",
+      "mameName": "wscomp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\wscomp.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "TTI",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Yo, Bro",
+      "mameName": "yobro",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\yobro.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Turbografx CD Super System Card (v3.0)",
+      "mameName": "scdsys",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\scdsys.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "19??",
+      "comment": " slot:cdsys3u",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Turbografx CD System Card (v2.0)",
+      "mameName": "cdsys",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\tg16\\cdsys.7z",
+      "emulatorName": "Retroarch NEC TurboGrafx 16 -SOFTLIST tg16 (MAME)",
+      "companyName": "NEC",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

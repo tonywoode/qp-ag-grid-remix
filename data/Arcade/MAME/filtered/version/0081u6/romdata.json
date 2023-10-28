@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Neratte Chu",
+      "mameName": "nratechu",
+      "path": "{gamesDir}\\MAME\\ROMS\\nratechu.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seta",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Eagle Shot",
+      "mameName": "speglsht",
+      "path": "{gamesDir}\\MAME\\ROMS\\speglsht.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seta",
+      "year": "1994",
+      "gameType": "Sports / Golf",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    }
+  ]
+}

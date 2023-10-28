@@ -1,0 +1,637 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Aoki Ookami to Shiroki Mejika - Simulation War Game",
+      "mameName": "simulwar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\simulwar.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Koei)",
+      "year": "1985",
+      "comment": "alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Neo Heroic Fantasia Arion",
+      "mameName": "arion",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\arion.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (ASCII)",
+      "year": "198?",
+      "comment": "alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Back to the Future",
+      "mameName": "backtof",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\backtof.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "Pony / Data West",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Black Onyx",
+      "mameName": "blckonyx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\blckonyx.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "BPS (Bullet-Proof Software)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Eiyuu Densetsu Saga",
+      "mameName": "eiyuden",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\eiyuden.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "Arrow Soft",
+      "year": "198?",
+      "comment": "alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Excite Bike",
+      "mameName": "excitbik",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\excitbik.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Hudson Soft)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Fire Crystal",
+      "mameName": "firecrys",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\firecrys.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "BPS (Bullet-Proof Software)",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gomoku Narabe",
+      "mameName": "gomokuna",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\gomokuna.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "Renju",
+      "year": "198?",
+      "comment": "alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hover Attack",
+      "mameName": "hoveratk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\hoveratk.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hurry Fox",
+      "mameName": "hfox",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\hfox.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "Arrow Soft",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kitahei",
+      "mameName": "kitahei",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\kitahei.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "SPS",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LayDock",
+      "mameName": "laydock",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\laydock.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Macadam",
+      "mameName": "macadam",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\macadam.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mappy",
+      "mameName": "mappy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\mappy.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mrchen Veil I",
+      "mameName": "marchen",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\marchen.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Moonchild",
+      "mameName": "moonchld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\moonchld.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Murder Club",
+      "mameName": "murdclub",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\murdclub.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mugen no Shinzou",
+      "mameName": "mugen",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\mugen.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Xtal Soft)",
+      "year": "198?",
+      "comment": "alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mugen no Shinzou II",
+      "mameName": "mugen2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\mugen2.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Xtal Soft)",
+      "year": "198?",
+      "comment": "alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nobo",
+      "mameName": "nobo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\nobo.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nobunaga no Yabou",
+      "mameName": "nobunaga",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\nobunaga.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Koei)",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Penguin-kun Wars",
+      "mameName": "penguinw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\penguinw.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (ASCII)",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Professional Mahjong (v2.1)",
+      "mameName": "profmj",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\profmj.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Chat Noir)",
+      "year": "198?",
+      "comment": "alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Professional Mahjong (v2.1, Alt)",
+      "mameName": "profmja",
+      "parentName": "profmj",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\profmj.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Chat Noir)",
+      "year": "198?",
+      "comment": "alt_title:",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Relics",
+      "mameName": "relics",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\relics.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sound Gal Music Editor (v1.0A)",
+      "mameName": "soundgal",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\soundgal.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "EA-Z Communication",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Tower of Druaga",
+      "mameName": "druaga",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\druaga.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Dempa Shinbunsha)",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Triton",
+      "mameName": "triton",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\triton.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Sein Soft)",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Xevious",
+      "mameName": "xevious",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\xevious.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ys 3 - Wanderers from Ys",
+      "mameName": "ys3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\ys3.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": " (Nihon Falcom)",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kaleidoscope Demo",
+      "mameName": "kaleidos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\kaleidos.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "Hot-B",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super MZ Demo 1",
+      "mameName": "mzdemo1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\mzdemo1.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 1 - '90/4",
+      "mameName": "dustbx01",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx01.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 2",
+      "mameName": "dustbx02",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx02.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 3",
+      "mameName": "dustbx03",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx03.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 4",
+      "mameName": "dustbx04",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx04.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 5",
+      "mameName": "dustbx05",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx05.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 6",
+      "mameName": "dustbx06",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx06.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 7",
+      "mameName": "dustbx07",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx07.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 8",
+      "mameName": "dustbx08",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx08.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 9",
+      "mameName": "dustbx09",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx09.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 10",
+      "mameName": "dustbx10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx10.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 11",
+      "mameName": "dustbx11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx11.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 12",
+      "mameName": "dustbx12",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx12.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 13",
+      "mameName": "dustbx13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx13.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 14",
+      "mameName": "dustbx14",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx14.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 15",
+      "mameName": "dustbx15",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx15.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dust Box Vol. 16",
+      "mameName": "dustbx16",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\dustbx16.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BASIC-M25 (6Z002) V1.0A",
+      "mameName": "basicv1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\basicv1.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "Sharp",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BASIC-M25 (6Z002) V2.0B",
+      "mameName": "basicv2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\basicv2.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "Sharp",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fenix Shell (v0.2)",
+      "mameName": "fenix",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\fenix.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Multiplan v1.07",
+      "mameName": "multplan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\multplan.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Personal CP/M (V1.0A)",
+      "mameName": "pcpm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\pcpm.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Telephone Soft (6Z006) V1.1A",
+      "mameName": "telephona",
+      "parentName": "telephon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\telephon.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Telephone Soft (6Z006) V2.0B",
+      "mameName": "telephon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\telephon.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Yukar K2",
+      "mameName": "yukark2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\yukark2.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Unknown Disk 1 (SMALLC)",
+      "mameName": "unk1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\unk1.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Unknown Disk 2 (MZ-1E30)",
+      "mameName": "unk2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\unk2.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Unknown Disk 3 (SB02)",
+      "mameName": "unk3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\unk3.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Unknown Disk 4 (SB03)",
+      "mameName": "unk4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\unk4.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Unknown Disk 5 (??)",
+      "mameName": "unk5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\unk5.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Unknown Disk 6 (Brown)",
+      "mameName": "unk6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mz2500\\unk6.7z",
+      "emulatorName": "MAME Sharp MZ-2500 -SOFTLIST mz2500",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

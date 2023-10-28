@@ -1,0 +1,18 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Challenge!",
+      "mameName": "challeng",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\mpu1000\\challeng.7z",
+      "emulatorName": "Retroarch Acetronic MPU-2000 -SOFTLIST mpu1000 (MAME)",
+      "companyName": "Acetronic?",
+      "year": "19??",
+      "comment": "serial:9 slot:std",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

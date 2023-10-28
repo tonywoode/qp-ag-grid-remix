@@ -1,0 +1,27 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "VC1 7 in 1",
+      "mameName": "7in1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vii\\7in1.7z",
+      "emulatorName": "Retroarch Vii -SOFTLIST vii (MAME)",
+      "companyName": "Chintendo",
+      "year": "2007",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "VC2 10 in 1",
+      "mameName": "10in1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vii\\10in1.7z",
+      "emulatorName": "Retroarch Vii -SOFTLIST vii (MAME)",
+      "companyName": "Chintendo",
+      "year": "2007",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

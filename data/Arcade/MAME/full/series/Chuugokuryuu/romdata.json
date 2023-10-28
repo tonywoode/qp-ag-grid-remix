@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Chuugokuryuu Pretty Chance [Dragon World Pretty Chance] (V101, Japan)",
+      "mameName": "dwpc",
+      "path": "{gamesDir}\\MAME\\ROMS\\dwpc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "2001",
+      "gameType": "Puzzle / Match * Mature *",
+      "rating": "70 to 80 (Good)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

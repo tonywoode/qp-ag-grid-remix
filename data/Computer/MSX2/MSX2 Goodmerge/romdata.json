@@ -1,0 +1,1551 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "1942 (1986) (Ascii)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\1942 (1986) (Ascii).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Capcom / Zemina",
+      "year": "1987",
+      "gameType": "Action",
+      "rating": "64",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "A-Class Mahjong (1988) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\A-Class Mahjong (1988) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Acrojet (1988) (System Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Acrojet (1988) (System Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "MicroProse / SystemSoft",
+      "year": "1988",
+      "gameType": "Simulation",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-4 Players"
+    },
+    {
+      "name": "Akumajyo Drakyula - Vampire Killer (1986) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Akumajyo Drakyula - Vampire Killer (1986) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Konami / Konami",
+      "year": "1986",
+      "gameType": "Action",
+      "rating": "74",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Aleste (1988) (Compile)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Aleste (1988) (Compile).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "American Soccer (1987) (Taito)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\American Soccer (1987) (Taito).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Andorogynus (1988) (Telenet)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Andorogynus (1988) (Telenet).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arctic (1989) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Arctic (1989) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Artdink Corporation / Pony Canyon",
+      "year": "1989",
+      "gameType": "Strategy",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Arkanoid 2 (1987) (Taito)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Arkanoid 2 (1987) (Taito).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Taito / Nidecom Soft",
+      "year": "1988",
+      "language": "English",
+      "comment": "Keyboard",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Arsene Lupin 3rd - Babiron no Ougon Densetsu (1988) (Toho)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Arsene Lupin 3rd - Babiron no Ougon Densetsu (1988) (Toho).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arsene Lupin 3rd - Cariostoro no Siro (1987) (Toho)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Arsene Lupin 3rd - Cariostoro no Siro (1987) (Toho).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arugiisu no Yoku (1988) (Kogado)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Arugiisu no Yoku (1988) (Kogado).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ashiguine 1 (1987) (Bit2)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Ashiguine 1 (1987) (Bit2).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ashiguine 2 (1987) (T&E Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Ashiguine 2 (1987) (T&E Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ashiguine 3 (1987) (Micro Cabin)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Ashiguine 3 (1987) (Micro Cabin).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "A-Train (1989) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\A-Train (1989) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubble Bobble (1987) (Taito)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Bubble Bobble (1987) (Taito).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Taito / Taito",
+      "year": "1987",
+      "gameType": "Action",
+      "rating": "64",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Cheese 2 (1985) (Nipon Electronics)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Cheese 2 (1985) (Nipon Electronics).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1985",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cockpit, The (1987) (Taito)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Cockpit, The (1987) (Taito).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crimuzon (1987) (Scap Trust)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Crimuzon (1987) (Scap Trust).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Daikoukai Jidai (1990) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Daikoukai Jidai (1990) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1990",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Daisenryaku (1986) (Micro Cabin)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Daisenryaku (1986) (Micro Cabin).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1986",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Darwin 4078 (1987) (Hudson)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Darwin 4078 (1987) (Hudson).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deep Forest (1987) (Xain)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Deep Forest (1987) (Xain).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dires (1987) (Telenet)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Dires (1987) (Telenet).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Vision (1988) (Hard)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Double Vision (1988) (Hard).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Buster (1987) (Namcot)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Dragon Buster (1987) (Namcot).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Namco / Namco",
+      "year": "1987",
+      "gameType": "Action",
+      "rating": "76",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Dragon Quest 1 (1986) (Enix)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Dragon Quest 1 (1986) (Enix).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1986",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Quest 2 (1987) (Enix)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Dragon Quest 2 (1987) (Enix).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Slayer 4 (1987) (Falcom)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Dragon Slayer 4 (1987) (Falcom).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Druid (1988) (Jaleco)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Druid (1988) (Jaleco).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dynamite Bowl (1987) (Toshiba Emi)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Dynamite Bowl (1987) (Toshiba Emi).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Softvision / Toshiba EMI",
+      "year": "1987",
+      "gameType": "Sports",
+      "rating": "64",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-5 Players"
+    },
+    {
+      "name": "Eidolon (1986) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Eidolon (1986) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Lucasfilm / Pony Canyon",
+      "year": "1986",
+      "language": "English",
+      "comment": "Keyboard",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Erusurid - Elslid (1988) (NCS)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Erusurid - Elslid (1988) (NCS).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Europe War (1992) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Europe War (1992) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1992",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F15 Strike Eagle (1987) (System Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\F15 Strike Eagle (1987) (System Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "MicroProse / SystemSoft",
+      "year": "1987",
+      "rating": "70",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Famicle Parodic (1988) (Bit2)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Famicle Parodic (1988) (Bit2).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Family Billiard (1987) (Pack In Video)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Family Billiard (1987) (Pack In Video).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Family Boxing (1988) (Sony)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Family Boxing (1988) (Sony).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Wood Place / Sony",
+      "year": "1988",
+      "gameType": "Sports",
+      "rating": "80",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Family Stadium (1989) (Namcot)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Family Stadium (1989) (Namcot).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fantasy Zone 2 (1987) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Fantasy Zone 2 (1987) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Sega / Pony Canyon",
+      "year": "1989",
+      "gameType": "Action",
+      "language": "English",
+      "comment": "Keyboard",
+      "timesPlayed": "2",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Fire Ball (1988) (Humming Bird Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Fire Ball (1988) (Humming Bird Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fleet Commander 2 (1990) (Ascii)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Fleet Commander 2 (1990) (Ascii).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1990",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gakuen Monogatari - High School Story (1988) (Great)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Gakuen Monogatari - High School Story (1988) (Great).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gambler Jikichushinpa 2 (1988) (Gamearts)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Gambler Jikichushinpa 2 (1988) (Gamearts).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ganbare Goemon (1987) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Ganbare Goemon (1987) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Konami / Konami",
+      "year": "1987",
+      "gameType": "Action",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Garakuta (1988) (Wachi Electronics)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Garakuta (1988) (Wachi Electronics).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Garyuuou (1987) (Xain)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Garyuuou (1987) (Xain).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gekitotsu Pennant Race (1988) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Gekitotsu Pennant Race (1988) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gekitotsu Pennant Race 2 (1989) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Gekitotsu Pennant Race 2 (1989) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Genchohisi (1992) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Genchohisi (1992) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1992",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Genghis Khan (1988) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Genghis Khan (1988) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Positive / Positive",
+      "year": "1991",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Girly Block (1988) (Telenet)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Girly Block (1988) (Telenet).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gitahei (1986) (Micro Cabin)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Gitahei (1986) (Micro Cabin).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1986",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hacker (1988) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Hacker (1988) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Activision / Activision",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hai no Majutsushi (1989) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Hai no Majutsushi (1989) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Halnote (1987) (Hal)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Halnote (1987) (Hal).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hardball (1987) (Sony)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Hardball (1987) (Sony).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Accolade / Sony",
+      "year": "1987",
+      "gameType": "Sports",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Heroes of The Lance (1991) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Heroes of The Lance (1991) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "U.S. Gold / Pony Canyon",
+      "year": "1991",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "High School Kimengumi (1987) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\High School Kimengumi (1987) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hinotori (1987) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Hinotori (1987) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hole In One Special (1987) (Hal)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Hole In One Special (1987) (Hal).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "HAL / HAL",
+      "year": "1987",
+      "rating": "56",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Hydlide 3 (1987) (T&E Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Hydlide 3 (1987) (T&E Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "T & E Soft / T&E Soft",
+      "year": "1987",
+      "rating": "72",
+      "language": "English",
+      "comment": "Keyboard",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Ide Yousuke no Jissen Mahjong (1988) (Pack In Video)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Ide Yousuke no Jissen Mahjong (1988) (Pack In Video).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ikari (1987) (SNK)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Ikari (1987) (SNK).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "SNK / SNK",
+      "year": "1987",
+      "gameType": "Action",
+      "rating": "70",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Inindo Tado Nobunaga (1991) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Inindo Tado Nobunaga (1991) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1991",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Isin no Arashi (1989) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Isin no Arashi (1989) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Koei / Koei",
+      "year": "1989",
+      "gameType": "Strategy",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Japanese MSX-Write II (1988) (Ascii)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Japanese MSX-Write II (1988) (Ascii).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jyansei (1986) (Sony)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Jyansei (1986) (Sony).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1986",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kenpelen Chess (1988) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Kenpelen Chess (1988) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Andromeda / Pony Canyon",
+      "year": "1988",
+      "gameType": "Strategy",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kikikaikai (1987) (Sony)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Kikikaikai (1987) (Sony).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Taito / Taito",
+      "year": "1987",
+      "gameType": "Action",
+      "rating": "54",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "King Kong 2 (1986) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\King Kong 2 (1986) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1986",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "King's Valley 2 (1988) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\King's Valley 2 (1988) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Konami / Konami",
+      "year": "1988",
+      "rating": "82",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Kisei (1987) (Sony)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Kisei (1987) (Sony).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kontora - Contra (1989) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Kontora - Contra (1989) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Konami / Konami",
+      "year": "1989",
+      "gameType": "Action",
+      "rating": "52",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Koronis Rift (1987) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Koronis Rift (1987) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Lucasfilm / Activision",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kyotoryu no Tera Satsujin Jiken (1988) (Taito)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Kyotoryu no Tera Satsujin Jiken (1988) (Taito).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Labyrinth (1987) (Pack In Video)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Labyrinth (1987) (Pack In Video).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Lucasfilm / Pack-In-Video",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Lempereur (1990) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Lempereur (1990) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Koei / Koei",
+      "year": "1990",
+      "rating": "92",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Mad Rider (1987) (Carry Lab)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Mad Rider (1987) (Carry Lab).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maison Ikkoku (1987) (Micro Cabin)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Maison Ikkoku (1987) (Micro Cabin).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Micro Cabin / Micro Cabin",
+      "year": "1988",
+      "gameType": "Adventure",
+      "rating": "60",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Maison Ikkoku Final (1988) (Micro Cabin)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Maison Ikkoku Final (1988) (Micro Cabin).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Makaijima - Higemaru (1987) (Capcom)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Makaijima - Higemaru (1987) (Capcom).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Capcom / Capcom",
+      "year": "1987",
+      "rating": "76",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Malaya no Hibou (1988) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Malaya no Hibou (1988) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metal Gear 1 (1987) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Metal Gear 1 (1987) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Konami / Konami",
+      "year": "1987",
+      "gameType": "Action",
+      "rating": "84",
+      "language": "English",
+      "comment": "Keyboard",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Metal Gear 2 - Solid Snake (1990) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Metal Gear 2 - Solid Snake (1990) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Konami / Konami",
+      "year": "1990",
+      "gameType": "Action",
+      "rating": "82",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mirai - Future (1987) (Xain)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Mirai - Future (1987) (Xain).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Missisippi Satsujin Jiken (1987) (Jaleco)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Missisippi Satsujin Jiken (1987) (Jaleco).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Activision / Jaleco",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moero! Netto Yakyu'88 (1988) (Jaleco)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Moero! Netto Yakyu'88 (1988) (Jaleco).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mon Mon Monstar (1989) (Hot-B)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Mon Mon Monstar (1989) (Hot-B).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MSX Basic-Kun Plus (1988) (Ascii)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\MSX Basic-Kun Plus (1988) (Ascii).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nekketsu Judo (1989) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Nekketsu Judo (1989) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja Kun (1987) (Hal)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Ninja Kun (1987) (Hal).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nobunaga no Yabou - Bushouhuunroku (1991) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Nobunaga no Yabou - Bushouhuunroku (1991) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1991",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nobunaga no Yabou - Senkokugunyuden (1989) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Nobunaga no Yabou - Senkokugunyuden (1989) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nobunaga no Yabou - Zenkokuhan (1987) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Nobunaga no Yabou - Zenkokuhan (1987) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ogre (1986) (System Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Ogre (1986) (System Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Origin Systems / SystemSoft",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Outrun (1988) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Outrun (1988) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Sega / Pony Canyon",
+      "year": "1988",
+      "gameType": "Driving",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Pachipro Densetsu (1988) (Hal)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Pachipro Densetsu (1988) (Hal).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Mania (1989) (Namcot)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Pac-Mania (1989) (Namcot).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Namco / Grandslam",
+      "year": "1988",
+      "gameType": "Action",
+      "rating": "60",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Penguin-Kun Wars 2 (1988) (Ascii)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Penguin-Kun Wars 2 (1988) (Ascii).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Predator (1988) (Pack In Video)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Predator (1988) (Pack In Video).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Klon / Pack-In-Video",
+      "year": "1987",
+      "gameType": "Action",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pro Baseball Fan (1987) (Telenet)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Pro Baseball Fan (1987) (Telenet).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Professional Mahjong Gokuh (1988) (Chatnoir)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Professional Mahjong Gokuh (1988) (Chatnoir).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Project A2 (1987) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Project A2 (1987) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quarth (1990) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Quarth (1990) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Konami / Konami",
+      "year": "1990",
+      "gameType": "Action",
+      "rating": "86",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Quinpl (1988) (Bit2)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Quinpl (1988) (Bit2).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Bit² / Bit²",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Rastan Saga (1988) (Taito)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Rastan Saga (1988) (Taito).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Taito / Taito",
+      "year": "1988",
+      "gameType": "Action",
+      "rating": "64",
+      "language": "English",
+      "comment": "Keyboard",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Relics (1986) (Bothtec)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Relics (1986) (Bothtec).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1986",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Replicart (1987) (Sony)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Replicart (1987) (Sony).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Return of Ishtar, The (1988) (Namcot)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Return of Ishtar, The (1988) (Namcot).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Namco / Namco",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Return of Jelda (1987) (Carry Lab)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Return of Jelda (1987) (Carry Lab).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rick & Mick's Adventure (1987) (Humming Bird Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Rick & Mick's Adventure (1987) (Humming Bird Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Romancia (1986) (Falcom)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Romancia (1986) (Falcom).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Nihon Falcom / Nihon Falcom",
+      "year": "1986",
+      "gameType": "Action",
+      "rating": "60",
+      "language": "English",
+      "comment": "Keyboard",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Royal Blood (1991) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Royal Blood (1991) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1991",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sangokusi 1 (1988) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Sangokusi 1 (1988) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sangokusi 2 (1991) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Sangokusi 2 (1991) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1991",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Satujinkurakubu - Murder Club (1988) (Micro Cabin)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Satujinkurakubu - Murder Club (1988) (Micro Cabin).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scramble Formation (1987) (Taito)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Scramble Formation (1987) (Taito).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Taito / Taito",
+      "year": "1987",
+      "gameType": "Action",
+      "rating": "80",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Seikima 2 Special (1987) (Sony)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Seikima 2 Special (1987) (Sony).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shanghai (1987) (System Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Shanghai (1987) (System Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Activision / SystemSoft",
+      "year": "1988",
+      "gameType": "Strategy",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1-2 Players"
+    },
+    {
+      "name": "Shougi Sinan 2 (1988) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Shougi Sinan 2 (1988) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Siryousensen - War Of The Dead (1987) (Victor)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Siryousensen - War Of The Dead (1987) (Victor).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Fun Project / Victor Musical Industries",
+      "year": "1987",
+      "language": "English",
+      "comment": "Keyboard",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Space Manbow (1989) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Space Manbow (1989) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Konami / Konami",
+      "year": "1990",
+      "gameType": "Action",
+      "rating": "78",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Star Virgin (1988) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Star Virgin (1988) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strategic Mars (1989) (dB-Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Strategic Mars (1989) (dB-Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Suikoden (1989) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Suikoden (1989) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Daisenryaku (1988) (Micro Cabin)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Super Daisenryaku (1988) (Micro Cabin).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Lode Runner (1987) (Irem)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Super Lode Runner (1987) (Irem).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Rambo Special (1986) (Pack In Video)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Super Rambo Special (1986) (Pack In Video).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Pack-In / Pack-In-Video",
+      "year": "1986",
+      "rating": "52",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Super Runner (1987) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Super Runner (1987) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Triton (1986) (Sein)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Super Triton (1986) (Sein).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1986",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Synthe Saurus 1.1 (1988) (Bit2)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Synthe Saurus 1.1 (1988) (Bit2).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Taiyouno Sinden - Astekai (1987) (Falcom)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Taiyouno Sinden - Astekai (1987) (Falcom).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Teitoku no Ketsudan (1991) (Koei)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Teitoku no Ketsudan (1991) (Koei).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1991",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tengoku Yoitoko (1987) (Taito)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Tengoku Yoitoko (1987) (Taito).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris (1988) (Bps)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Tetris (1988) (Bps).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Bullet-Proof Software / Bullet-Proof Software",
+      "year": "1988",
+      "rating": "56",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Topple Zip (1987) (Bothtec)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Topple Zip (1987) (Bothtec).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turikichi Sampei Burumarine-Hen (1988) (Cross Media)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Turikichi Sampei Burumarine-Hen (1988) (Cross Media).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turikichi Sampei Turisennin-Hen (1989) (Cross Media)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Turikichi Sampei Turisennin-Hen (1989) (Cross Media).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1989",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultima Exodus (1987) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Ultima Exodus (1987) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Origin Systems / Pony Canyon",
+      "year": "1988",
+      "gameType": "Role-Playing",
+      "rating": "50",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Urusei Yatsura (1987) (Micro Cabin)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Urusei Yatsura (1987) (Micro Cabin).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Usas (1987) (Konami)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Usas (1987) (Konami).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Victorious Nine 2 (1987) (Taito)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Victorious Nine 2 (1987) (Taito).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Taito / Taito",
+      "year": "1987",
+      "gameType": "Sports",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Wizardry (1988) (Ascii)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Wizardry (1988) (Ascii).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Woody Poco (1987) (dB-Soft)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Woody Poco (1987) (dB-Soft).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xevious - Fardraut Saga (1989) (Namcot)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Xevious - Fardraut Saga (1989) (Namcot).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Namco / Namco",
+      "year": "1988",
+      "gameType": "Action",
+      "rating": "72",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Yaksa (1987) (Wolf Team)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Yaksa (1987) (Wolf Team).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yuureikun (1988) (System Sacom)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Yuureikun (1988) (System Sacom).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zanac-EX (1986) (Pony Cannon)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Zanac-EX (1986) (Pony Cannon).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Compile / Pony Canyon",
+      "year": "1986",
+      "gameType": "Action",
+      "rating": "92",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0",
+      "players": "1 Player"
+    },
+    {
+      "name": "Zoids (1988) (Toshiba Emi)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Zoids (1988) (Toshiba Emi).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Electronic Pencil  , The / Martech",
+      "year": "1986",
+      "gameType": "Action",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zombie Hunter (1989) (Hi-Score)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Zombie Hunter (1989) (Hi-Score).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "companyName": "Hi-Score / Hi-Score Media Work",
+      "year": "1988",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zukkoke Yajikita Onmitsudoutyuu (1987) (Hal)",
+      "path": "{gamesDir}\\Computer Classics\\MSX Games\\GoodMSX2_09993_GM\\Zukkoke Yajikita Onmitsudoutyuu (1987) (Hal).7z",
+      "emulatorName": "RetroArch MSX2 (BlueMSX)",
+      "year": "1987",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gamebase AmstradMania",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase AmstradMania.gif",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "AmstradMania",
+      "timesPlayed": "31",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gamebase CPC",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase CPC.gif",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "Amstrad CPC",
+      "timesPlayed": "35",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gamebase Amstrad GX4000",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase Amstrad GX4000.jpg",
+      "emulatorName": "Gamebase Frontend",
+      "language": "English",
+      "parameters": "gx4000",
+      "timesPlayed": "12",
+      "paramMode": "0"
+    }
+  ]
+}

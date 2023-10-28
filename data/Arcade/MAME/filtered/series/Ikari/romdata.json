@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Ikari Warriors (US JAMMA)",
+      "mameName": "ikari",
+      "path": "{gamesDir}\\MAME\\ROMS\\ikari.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1986",
+      "gameType": "Shooter / Walking",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Ikari III - The Rescue (World, 8-Way Joystick)",
+      "mameName": "ikari3",
+      "path": "{gamesDir}\\MAME\\ROMS\\ikari3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Walking",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Victory Road",
+      "mameName": "victroad",
+      "path": "{gamesDir}\\MAME\\ROMS\\victroad.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1986",
+      "gameType": "Shooter / Walking",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

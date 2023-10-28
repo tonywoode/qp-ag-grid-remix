@@ -1,0 +1,15 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gamebase Apple2Mania",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Gamebase Apple2Mania.gif",
+      "emulatorName": "Gamebase Frontend",
+      "parameters": "Apple2Mania_V2",
+      "timesPlayed": "25",
+      "paramMode": "0"
+    }
+  ]
+}

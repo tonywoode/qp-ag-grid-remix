@@ -1,0 +1,51 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Land Maker (Ver 2.02O 1998/06/02, prototype)",
+      "mameName": "landmakrp",
+      "parentName": "landmakr",
+      "path": "{gamesDir}\\MAME\\ROMS\\landmakr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1998",
+      "gameType": "Puzzle / Toss",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Sonic The Hedgehog (Mega Play)",
+      "mameName": "mp_sonic",
+      "path": "{gamesDir}\\MAME\\ROMS\\mp_sonic.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1993",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Sonic The Hedgehog (Mega-Tech, set 1)",
+      "mameName": "mt_sonic",
+      "path": "{gamesDir}\\MAME\\ROMS\\mt_sonic.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1991",
+      "gameType": "Platform / Run Jump Scrolling",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

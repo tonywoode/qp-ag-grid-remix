@@ -1,0 +1,96 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Freeze (Atari) (prototype, 96/10/07)",
+      "mameName": "freezeat3",
+      "parentName": "freezeat",
+      "path": "{gamesDir}\\MAME\\ROMS\\freezeat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Freeze (Atari) (prototype, 96/10/03)",
+      "mameName": "freezeat4",
+      "parentName": "freezeat",
+      "path": "{gamesDir}\\MAME\\ROMS\\freezeat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Freeze (Atari) (prototype, 96/09/20, AMOA-96)",
+      "mameName": "freezeat5",
+      "parentName": "freezeat",
+      "path": "{gamesDir}\\MAME\\ROMS\\freezeat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Freeze (Atari) (prototype, 96/09/07, Jamma-96)",
+      "mameName": "freezeat6",
+      "parentName": "freezeat",
+      "path": "{gamesDir}\\MAME\\ROMS\\freezeat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Freeze (Atari) (prototype, Japanese voice, 96/10/25)",
+      "mameName": "freezeatjp",
+      "parentName": "freezeat",
+      "path": "{gamesDir}\\MAME\\ROMS\\freezeat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari Games",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Racin' Force (ver EAC)",
+      "mameName": "racinfrc",
+      "path": "{gamesDir}\\MAME\\ROMS\\racinfrc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1994",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

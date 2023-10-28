@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Tetris the Absolute The Grand Master 2",
+      "mameName": "tgm2",
+      "path": "{gamesDir}\\MAME\\ROMS\\tgm2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Arika",
+      "year": "2000",
+      "gameType": "Puzzle / Drop",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Thunder Cross II (World)",
+      "mameName": "thndrx2",
+      "path": "{gamesDir}\\MAME\\ROMS\\thndrx2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1991",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Vamf x1/2 (Europe)",
+      "mameName": "vamphalf",
+      "path": "{gamesDir}\\MAME\\ROMS\\vamphalf.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Danbi / F2 System",
+      "year": "1999",
+      "gameType": "Fighter / 2.5D",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

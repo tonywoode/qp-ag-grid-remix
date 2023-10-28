@@ -1,0 +1,175 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "alien quest (19xx)(-)(part 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\alien quest (19xx)(-)(part 1 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "alien quest (19xx)(-)(part 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\alien quest (19xx)(-)(part 2 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "aquarius basic rom (1982)(microsoft)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\aquarius basic rom (1982)(microsoft).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "astrosmash (1982)(mattel)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\astrosmash (1982)(mattel).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "cute cubes (19xx)(k. baker)(part 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\cute cubes (19xx)(k. baker)(part 1 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cute cubes (19xx)(k. baker)(part 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\cute cubes (19xx)(k. baker)(part 2 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "fileform (1982)(mattel)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\fileform (1982)(mattel).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "fileform (1982)(mattel)[a]",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\fileform (1982)(mattel)[a].zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "macho man (19xx)(k. baker)(part 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\macho man (19xx)(k. baker)(part 1 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "macho man (19xx)(k. baker)(part 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\macho man (19xx)(k. baker)(part 2 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mould (19xx)(-)(part 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\mould (19xx)(-)(part 1 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mould (19xx)(-)(part 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\mould (19xx)(-)(part 2 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "night stalker (1982)(mattel)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\night stalker (1982)(mattel).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "snafu (1982) (mattel)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\snafu (1982) (mattel).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "stalactites (1984)(k. baker)(part 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\stalactites (1984)(k. baker)(part 1 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "stalactites (1984)(k. baker)(part 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\stalactites (1984)(k. baker)(part 2 of 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "torment (19xx)(-)(part 1)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\torment (19xx)(-)(part 1).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "torment (19xx)(-)(part 2)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\torment (19xx)(-)(part 2).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tron - deadly discs (1982)(mattel)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\tron - deadly discs (1982)(mattel).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "utopia (1982)(mattel)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\utopia (1982)(mattel).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "window (2000)(-)(pd)",
+      "path": "{gamesDir}\\TOSEC\\Mattel Aquarius (TOSEC-v0.40_CM)\\window (2000)(-)(pd).zip",
+      "emulatorName": "MAME Mattel Aquarius (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

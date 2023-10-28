@@ -1,0 +1,79 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Comet (L-4)",
+      "mameName": "comet_l4",
+      "parentName": "comet_l5",
+      "path": "{gamesDir}\\MAME\\ROMS\\comet_l5.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1985",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Comet (L-5)",
+      "mameName": "comet_l5",
+      "path": "{gamesDir}\\MAME\\ROMS\\comet_l5.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1985",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Cyclone (L-4)",
+      "mameName": "cycln_l4",
+      "parentName": "cycln_l5",
+      "path": "{gamesDir}\\MAME\\ROMS\\cycln_l5.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1988",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Cyclone (L-5)",
+      "mameName": "cycln_l5",
+      "path": "{gamesDir}\\MAME\\ROMS\\cycln_l5.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1988",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Hurricane (L-2)",
+      "mameName": "hurr_l2",
+      "path": "{gamesDir}\\MAME\\ROMS\\hurr_l2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1991",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    }
+  ]
+}

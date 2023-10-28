@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "AV Hanafuda Hana no Ageman (Japan 900716)",
+      "mameName": "hnageman",
+      "path": "{gamesDir}\\MAME\\CHDs\\hnageman\\hnageman.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu / AV Japan",
+      "year": "1990",
+      "gameType": "Tabletop / Hanafuda * Mature *",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "AV Hanafuda Hana no Christmas Eve (Japan 901204)",
+      "mameName": "hnxmasev",
+      "path": "{gamesDir}\\MAME\\CHDs\\hnxmasev\\hnxmasev.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu / AV Japan",
+      "year": "1990",
+      "gameType": "Tabletop / Hanafuda",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

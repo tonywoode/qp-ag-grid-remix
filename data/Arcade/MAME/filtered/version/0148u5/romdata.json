@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Let's Attack Crazy Cross (GV027 Asia 1.10)",
+      "mameName": "lacrazyc",
+      "path": "{gamesDir}\\MAME\\CHDs\\lacrazyc\\gv027-a1.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Puzzle / Drop",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Stunt Air",
+      "mameName": "stuntair",
+      "path": "{gamesDir}\\MAME\\ROMS\\stuntair.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nuova Videotron",
+      "year": "1983",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

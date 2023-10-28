@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Guardian Storm (horizontal, not encrypted)",
+      "mameName": "grdnstrm",
+      "path": "{gamesDir}\\MAME\\ROMS\\grdnstrm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Afega (Apples Industries license)",
+      "year": "1998",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Tetris (Photon System)",
+      "mameName": "phtetris",
+      "path": "{gamesDir}\\MAME\\ROMS\\phtetris.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "gameType": "Puzzle / Drop",
+      "rating": "30 to 40 (Amendable)",
+      "language": "Russian",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Space Walk",
+      "mameName": "spacwalk",
+      "path": "{gamesDir}\\MAME\\ROMS\\spacwalk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1978",
+      "gameType": "Ball & Paddle",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

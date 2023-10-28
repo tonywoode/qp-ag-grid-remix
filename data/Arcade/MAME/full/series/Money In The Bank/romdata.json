@@ -1,0 +1,21 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Money In The Bank (NSW, Australia)",
+      "mameName": "moneybnk",
+      "path": "{gamesDir}\\MAME\\ROMS\\moneybnk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "199?",
+      "gameType": "Casino / Reels",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

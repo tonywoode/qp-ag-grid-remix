@@ -1,0 +1,807 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Akira (1994)(ICE)[!]",
+      "path": "{gamesDir}\\CD32\\CD32\\Akira (1994)(ICE)[!].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "687",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alfred Chicken (E)(1993)(Mindscape)[!][CDD2971]",
+      "path": "{gamesDir}\\CD32\\CD32\\Alfred Chicken (E)(1993)(Mindscape)[!][CDD2971].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Breed - Tower Assault (E)(1993)(Team 17)[!][inc. Alien Breed II - The Horror Continues][CDR00345]",
+      "path": "{gamesDir}\\CD32\\CD32\\Alien Breed - Tower Assault (E)(1993)(Team 17)[!][inc. Alien Breed II - The Horror Continues][CDR00345].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "72",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Breed 3D (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Alien Breed 3D (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Breed Special Edition & Qwak (E)(1994)(Team 17)(M5)[!][CDD3186]",
+      "path": "{gamesDir}\\CD32\\CD32\\Alien Breed Special Edition & Qwak (E)(1994)(Team 17)(M5)[!][CDD3186].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "14",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amiga CD32 Gamer Vol. 02 (1994-06)(Paragon Publishing)[!][CDR00128]",
+      "path": "{gamesDir}\\CD32\\CD32\\Amiga CD32 Gamer Vol. 02 (1994-06)(Paragon Publishing)[!][CDR00128].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amiga CD32 Gamer Vol. 03 (1994-08)(Paragon Publishing)[!][CDR00171]",
+      "path": "{gamesDir}\\CD32\\CD32\\Amiga CD32 Gamer Vol. 03 (1994-08)(Paragon Publishing)[!][CDR00171].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amiga CD32 Gamer Vol. 04 (1994-09)(Paragon Publishing)[!][CDR00222]",
+      "path": "{gamesDir}\\CD32\\CD32\\Amiga CD32 Gamer Vol. 04 (1994-09)(Paragon Publishing)[!][CDR00222].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amiga CD32 Gamer Vol. 06 (1994-11)(Paragon Publishing)[!][CDR00329]",
+      "path": "{gamesDir}\\CD32\\CD32\\Amiga CD32 Gamer Vol. 06 (1994-11)(Paragon Publishing)[!][CDR00329].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amiga CD32 Gamer Vol. 14 (1995-07)(Paragon Publishing)[!][CDR00897]",
+      "path": "{gamesDir}\\CD32\\CD32\\Amiga CD32 Gamer Vol. 14 (1995-07)(Paragon Publishing)[!][CDR00897].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amiga CD32 Gamer Vol. 21 (1996-02)(Paragon Publishing)[CDR02379]",
+      "path": "{gamesDir}\\CD32\\CD32\\Amiga CD32 Gamer Vol. 21 (1996-02)(Paragon Publishing)[CDR02379].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amos PD Volume 1 (1994)(Weird Science)[CDD4201]",
+      "path": "{gamesDir}\\CD32\\CD32\\Amos PD Volume 1 (1994)(Weird Science)[CDD4201].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arabian Nights (Europe) (En,Fr,De,It)",
+      "path": "{gamesDir}\\CD32\\CD32\\Arabian Nights (Europe) (En,Fr,De,It).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "8",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arcade Pool (Europe) (En,Fr,De,It)",
+      "path": "{gamesDir}\\CD32\\CD32\\Arcade Pool (Europe) (En,Fr,De,It).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Banshee (E)(1994)(Core Design)(M4)[!][CDD4103]",
+      "path": "{gamesDir}\\CD32\\CD32\\Banshee (E)(1994)(Core Design)(M4)[!][CDD4103].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Base Jumpers (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Base Jumpers (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battletoads (E)(1994)(Mindscape)[!][CDD3904]",
+      "path": "{gamesDir}\\CD32\\CD32\\Battletoads (E)(1994)(Mindscape)[!][CDD3904].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beavers (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Beavers (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "10",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beneath a Steel Sky (Europe) (En,Fr,De,It)",
+      "path": "{gamesDir}\\CD32\\CD32\\Beneath a Steel Sky (Europe) (En,Fr,De,It).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Benefactor (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Benefactor (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Viper (Europe) (En,De,It)",
+      "path": "{gamesDir}\\CD32\\CD32\\Black Viper (Europe) (En,De,It).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubba 'n' Stix (1994)(Core Design)[!][CDD3297]",
+      "path": "{gamesDir}\\CD32\\CD32\\Bubba 'n' Stix (1994)(Core Design)[!][CDD3297].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubble and Squeak (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Bubble and Squeak (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bump 'N' Burn (E)(1994)(Grandslam)[!][10332211]",
+      "path": "{gamesDir}\\CD32\\CD32\\Bump 'N' Burn (E)(1994)(Grandslam)[!][10332211].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cannon Fodder (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Cannon Fodder (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "CD32 Top 100 Games (1994)(U.S. Dreams)[p]",
+      "path": "{gamesDir}\\CD32\\CD32\\CD32 Top 100 Games (1994)(U.S. Dreams)[p].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chambers of Shaolin (E)(1993)(Unique)[!]",
+      "path": "{gamesDir}\\CD32\\CD32\\Chambers of Shaolin (E)(1993)(Unique)[!].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chaos Engine, The (1993)(Renegade)(M4)[!][CDD3446][Spectacular Voyage bundle]",
+      "path": "{gamesDir}\\CD32\\CD32\\Chaos Engine, The (1993)(Renegade)(M4)[!][CDD3446][Spectacular Voyage bundle].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chuck Rock (E)(1994)(Core Design)[!][CDD3296]",
+      "path": "{gamesDir}\\CD32\\CD32\\Chuck Rock (E)(1994)(Core Design)[!][CDD3296].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Communicator (Germany) (En,De)",
+      "path": "{gamesDir}\\CD32\\CD32\\Communicator (Germany) (En,De).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dangerous Streets & Wing Commander (E)(1993)(Commodore)(M4)[!][CDD2996]",
+      "path": "{gamesDir}\\CD32\\CD32\\Dangerous Streets & Wing Commander (E)(1993)(Commodore)(M4)[!][CDD2996].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Darkseed v1.1 (E)(1994)(Cyberdreams)[!][CDD4925]",
+      "path": "{gamesDir}\\CD32\\CD32\\Darkseed v1.1 (E)(1994)(Cyberdreams)[!][CDD4925].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deep Core v1.01 (E)(1993)(ICE)[!][CDD2998]",
+      "path": "{gamesDir}\\CD32\\CD32\\Deep Core v1.01 (E)(1993)(ICE)[!][CDD2998].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dennis (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Dennis (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "D-Generation v1.0 (E)(1993-09-17)(Mindscape)[!][H-3072]",
+      "path": "{gamesDir}\\CD32\\CD32\\D-Generation v1.0 (E)(1993-09-17)(Mindscape)[!][H-3072].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Diggers & Oscar (E)(1993)(Commodore)[!][AMIGA-CD-V2]",
+      "path": "{gamesDir}\\CD32\\CD32\\Diggers & Oscar (E)(1993)(Commodore)[!][AMIGA-CD-V2].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donk! - The Samurai Duck! (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Donk! - The Samurai Duck! (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragonstone (1995)(Core Design)(M3)[!][CDD5013]",
+      "path": "{gamesDir}\\CD32\\CD32\\Dragonstone (1995)(Core Design)(M3)[!][CDD5013].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Eric Schwartz Productions CD Archive (1995)(Amiga Library Services)",
+      "path": "{gamesDir}\\CD32\\CD32\\Eric Schwartz Productions CD Archive (1995)(Amiga Library Services).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fields of Glory (E)(1994)(MicroProse)(M3)[CDR00296]",
+      "path": "{gamesDir}\\CD32\\CD32\\Fields of Glory (E)(1994)(MicroProse)(M3)[CDR00296].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Force (E)(M)(1993)(ICE)[!][CDD2999]",
+      "path": "{gamesDir}\\CD32\\CD32\\Fire Force (E)(M)(1993)(ICE)[!][CDD2999].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frontier - Elite II (1994)(GameTek)[!][FRONTIER ELITE CD32 CDMA2]",
+      "path": "{gamesDir}\\CD32\\CD32\\Frontier - Elite II (1994)(GameTek)[!][FRONTIER ELITE CD32 CDMA2].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Global Effect (1994)(Millennium)[!][CDD3342]",
+      "path": "{gamesDir}\\CD32\\CD32\\Global Effect (1994)(Millennium)[!][CDD3342].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gloom (E)(1995)(Guildhall Leisure)[!][GH19]",
+      "path": "{gamesDir}\\CD32\\CD32\\Gloom (E)(1995)(Guildhall Leisure)[!][GH19].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Grandslam Gamer Gold Collection (1995)(Grandslam)[!][GAMEGOLD01 CD32 CDM01]",
+      "path": "{gamesDir}\\CD32\\CD32\\Grandslam Gamer Gold Collection (1995)(Grandslam)[!][GAMEGOLD01 CD32 CDM01].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gulp! (Europe) (En,Fr,De,Es,It)",
+      "path": "{gamesDir}\\CD32\\CD32\\Gulp! (Europe) (En,Fr,De,Es,It).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HeroQuest II - Legacy Of Sorasil (Europe) (En,Fr,De)",
+      "path": "{gamesDir}\\CD32\\CD32\\HeroQuest II - Legacy Of Sorasil (Europe) (En,Fr,De).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Humans 3 - Evolution - Lost In Time... (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Humans 3 - Evolution - Lost In Time... (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "insight Technology (1993)(Commodore)[CDTV compatible][CDRM-1142110]",
+      "path": "{gamesDir}\\CD32\\CD32\\insight Technology (1993)(Commodore)[CDTV compatible][CDRM-1142110].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "International Karate + (E)(1994)(System 3)[!][CDD3215]",
+      "path": "{gamesDir}\\CD32\\CD32\\International Karate + (E)(1994)(System 3)[!][CDD3215].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Pond 3 - Operation Starfi5h (E)(1994)(Millennium)[!][BR00302-01]",
+      "path": "{gamesDir}\\CD32\\CD32\\James Pond 3 - Operation Starfi5h (E)(1994)(Millennium)[!][BR00302-01].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "John Barnes European Football (Europe) (En,Fr,De,Es,It)",
+      "path": "{gamesDir}\\CD32\\CD32\\John Barnes European Football (Europe) (En,Fr,De,Es,It).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jungle Strike (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Jungle Strike (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kid Chaos (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Kid Chaos (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Labyrinth of Time, The (E)(1993)(Electronic Arts)[!][CDD2907]",
+      "path": "{gamesDir}\\CD32\\CD32\\Labyrinth of Time, The (E)(1993)(Electronic Arts)[!][CDD2907].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lamborghini American Challenge (E)(1994-12)(Titus - Paragon Publishing)[!][CDR00363][Amiga CD32 Special 1]",
+      "path": "{gamesDir}\\CD32\\CD32\\Lamborghini American Challenge (E)(1994-12)(Titus - Paragon Publishing)[!][CDR00363][Amiga CD32 Special 1].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "Last Ninja 3 (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Last Ninja 3 (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Liberation - Captive II  (E)(v2.00-1.92)(1993)(Mindscape)[!][CDD2955]",
+      "path": "{gamesDir}\\CD32\\CD32\\Liberation - Captive II  (E)(v2.00-1.92)(1993)(Mindscape)[!][CDD2955].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lost Vikings, The (E)(1993)(Interplay)[LOSTVIKINGS 01 1]",
+      "path": "{gamesDir}\\CD32\\CD32\\Lost Vikings, The (E)(1993)(Interplay)[LOSTVIKINGS 01 1].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mean Arenas (E)(1993)(ICE)[!][CDD2886]",
+      "path": "{gamesDir}\\CD32\\CD32\\Mean Arenas (E)(1993)(ICE)[!][CDD2886].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Microcosm (E)(1994)(Psygnosis)[!][MICROCOSM-CD32 14]",
+      "path": "{gamesDir}\\CD32\\CD32\\Microcosm (E)(1994)(Psygnosis)[!][MICROCOSM-CD32 14].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Morph (E)(1993)(Millenium)[!][CDD2675]",
+      "path": "{gamesDir}\\CD32\\CD32\\Morph (E)(1993)(Millenium)[!][CDD2675].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Myth - History in the Making (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Myth - History in the Making (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nick Faldos Championship Golf (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Nick Faldos Championship Golf (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Out to Lunch (1994)(Mindscape)[!][CS090033]",
+      "path": "{gamesDir}\\CD32\\CD32\\Out to Lunch (1994)(Mindscape)[!][CS090033].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Overkill & Lunar-C (E)(1993)(Mindscape)[!][CDD2797]",
+      "path": "{gamesDir}\\CD32\\CD32\\Overkill & Lunar-C (E)(1993)(Mindscape)[!][CDD2797].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PGA European Tour (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\PGA European Tour (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Premiere (E)(1994)(Core Design)[!][CDD3302]",
+      "path": "{gamesDir}\\CD32\\CD32\\Premiere (E)(1994)(Core Design)[!][CDD3302].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Prey - An Alien Encounter (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Prey - An Alien Encounter (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Project-X & F17 Challenge (Europe) (En,Fr,De,It,Da) (v2.0)",
+      "path": "{gamesDir}\\CD32\\CD32\\Project-X & F17 Challenge (Europe) (En,Fr,De,It,Da) (v2.0).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quik the Thunder Rabbit (E)(1994)(Titus)[!][CDR00535]",
+      "path": "{gamesDir}\\CD32\\CD32\\Quik the Thunder Rabbit (E)(1994)(Titus)[!][CDR00535].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rise of the Robots (E)(1994)(Time Warner)[!]",
+      "path": "{gamesDir}\\CD32\\CD32\\Rise of the Robots (E)(1994)(Time Warner)[!].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Roadkill (E)(1995)(Acid Software)[!][GH32]",
+      "path": "{gamesDir}\\CD32\\CD32\\Roadkill (E)(1995)(Acid Software)[!][GH32].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ryder Cup - Johnnie Walker (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Ryder Cup - Johnnie Walker (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sabre Team (Europe) (En,Fr,De,Es,It)",
+      "path": "{gamesDir}\\CD32\\CD32\\Sabre Team (Europe) (En,Fr,De,Es,It).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Seek & Destroy (1993)(Mindscape)[!][CDD3065]",
+      "path": "{gamesDir}\\CD32\\CD32\\Seek & Destroy (1993)(Mindscape)[!][CDD3065].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Seven Gates of Jambala, The (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Seven Gates of Jambala, The (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shadow Fighter (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Shadow Fighter (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Simon the Sorcerer (E)(1994)(Adventure Soft)[!][CDD4166]",
+      "path": "{gamesDir}\\CD32\\CD32\\Simon the Sorcerer (E)(1994)(Adventure Soft)[!][CDD4166].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skeleton Krew (1995)(Core Design)(M4)[!][CDD5880]",
+      "path": "{gamesDir}\\CD32\\CD32\\Skeleton Krew (1995)(Core Design)(M4)[!][CDD5880].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Socrates - Interactive Patient Education (1994)(Network One)[CDRM1184870]",
+      "path": "{gamesDir}\\CD32\\CD32\\Socrates - Interactive Patient Education (1994)(Network One)[CDRM1184870].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speris Legacy, The (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Speris Legacy, The (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Crusader (1994)(Gametek)[GCR-102-0009]",
+      "path": "{gamesDir}\\CD32\\CD32\\Star Crusader (1994)(Gametek)[GCR-102-0009].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strip Pot (E)(1994)(Pixel Blue)[!][Certificate 18]",
+      "path": "{gamesDir}\\CD32\\CD32\\Strip Pot (E)(1994)(Pixel Blue)[!][Certificate 18].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Subwar 2050 (E)(1993)(MicroProse)(M3)[!][CDD5418]",
+      "path": "{gamesDir}\\CD32\\CD32\\Subwar 2050 (E)(1993)(MicroProse)(M3)[!][CDD5418].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Summer Olympix (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Summer Olympix (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Putty (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Super Putty (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Skidmarks (1995)(Acid Software)[!][GH 1]",
+      "path": "{gamesDir}\\CD32\\CD32\\Super Skidmarks (1995)(Acid Software)[!][GH 1].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Stardust (1994)(Team 17)[!][CDR00344]",
+      "path": "{gamesDir}\\CD32\\CD32\\Super Stardust (1994)(Team 17)[!][CDR00344].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Street Fighter 2 Turbo (cd32)",
+      "path": "{gamesDir}\\CD32\\CD32\\Super Street Fighter 2 Turbo (cd32).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Superfrog (E)(v1.1)(1994)(Team 17)(M4)[CDD4979][inc. Arcade Pool demo]",
+      "path": "{gamesDir}\\CD32\\CD32\\Superfrog (E)(v1.1)(1994)(Team 17)(M4)[CDD4979][inc. Arcade Pool demo].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Surf Ninjas (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Surf Ninjas (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Syndicate (Europe) (En,Fr,It)",
+      "path": "{gamesDir}\\CD32\\CD32\\Syndicate (Europe) (En,Fr,It).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Total Carnage (E)(1994)(ICE)[!][CDD3489]",
+      "path": "{gamesDir}\\CD32\\CD32\\Total Carnage (E)(1994)(ICE)[!][CDD3489].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "UFO - Enemy Unknown (Europe) (En,Fr,De)",
+      "path": "{gamesDir}\\CD32\\CD32\\UFO - Enemy Unknown (Europe) (En,Fr,De).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultimate Body Blows (1994)(Team 17)(M4)[!][CDD3321]",
+      "path": "{gamesDir}\\CD32\\CD32\\Ultimate Body Blows (1994)(Team 17)(M4)[!][CDD3321].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Universe (1994)(Core Design)(M4)[!][CDD4533]",
+      "path": "{gamesDir}\\CD32\\CD32\\Universe (1994)(Core Design)(M4)[!][CDD4533].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vital Light (E)(1995-04)(Millenium)[!][10328981]",
+      "path": "{gamesDir}\\CD32\\CD32\\Vital Light (E)(1995-04)(Millenium)[!][10328981].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wembley International Soccer (Europe)",
+      "path": "{gamesDir}\\CD32\\CD32\\Wembley International Soccer (Europe).zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zool - Ninja of the Nth Dimension (1993)(Gremlin)[!][ZOOL 1 02]",
+      "path": "{gamesDir}\\CD32\\CD32\\Zool - Ninja of the Nth Dimension (1993)(Gremlin)[!][ZOOL 1 02].zip",
+      "emulatorName": "UAE CD32 QP Multiloader",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    }
+  ]
+}

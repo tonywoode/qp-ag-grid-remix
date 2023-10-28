@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Street Fighter EX (Euro 961219)",
+      "mameName": "sfex",
+      "path": "{gamesDir}\\MAME\\ROMS\\sfex.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom / Arika",
+      "year": "1996",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Street Fighter EX2 (USA 980526)",
+      "mameName": "sfex2",
+      "path": "{gamesDir}\\MAME\\ROMS\\sfex2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom / Arika",
+      "year": "1998",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Street Fighter EX2 Plus (USA 990611)",
+      "mameName": "sfex2p",
+      "path": "{gamesDir}\\MAME\\ROMS\\sfex2p.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom / Arika",
+      "year": "1999",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Street Fighter EX Plus (USA 970407)",
+      "mameName": "sfexp",
+      "path": "{gamesDir}\\MAME\\ROMS\\sfexp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom / Arika",
+      "year": "1997",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

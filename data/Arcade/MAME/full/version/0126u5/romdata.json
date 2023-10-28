@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Defender (White label)",
+      "mameName": "defenderw",
+      "parentName": "defender",
+      "path": "{gamesDir}\\MAME\\ROMS\\defender.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1980",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Dong Fang Zhi Zhu (Hong Kong, V011H)",
+      "mameName": "drgnwrldv11h",
+      "parentName": "drgnwrld",
+      "path": "{gamesDir}\\MAME\\ROMS\\drgnwrld.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "IGS",
+      "year": "1995",
+      "gameType": "Puzzle / Match * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Final Fight 2 (SNES bootleg)",
+      "mameName": "ffight2b",
+      "path": "{gamesDir}\\MAME\\ROMS\\ffight2b.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1996",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Free Kick (bootleg set 2)",
+      "mameName": "freekickb2",
+      "parentName": "freekick",
+      "path": "{gamesDir}\\MAME\\ROMS\\freekick.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1987",
+      "gameType": "Ball & Paddle / Breakout",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Sonic Blast Man 2 Special Turbo (SNES bootleg)",
+      "mameName": "sblast2b",
+      "path": "{gamesDir}\\MAME\\ROMS\\sblast2b.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1997",
+      "gameType": "Fighter / 2.5D",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

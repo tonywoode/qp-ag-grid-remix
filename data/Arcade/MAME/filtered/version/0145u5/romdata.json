@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "1941: Counter Attack (World 900227)",
+      "mameName": "1941",
+      "path": "{gamesDir}\\MAME\\ROMS\\1941.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1990",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Janken Man Kattara Ageru",
+      "mameName": "jankenmn",
+      "path": "{gamesDir}\\MAME\\ROMS\\jankenmn.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sunwise",
+      "year": "1991",
+      "gameType": "Misc.",
+      "rating": "20 to 30 (Bad)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Lucky Boom",
+      "mameName": "luckboom",
+      "path": "{gamesDir}\\MAME\\ROMS\\luckboom.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Playmark",
+      "year": "1996",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Rastan (World Rev 1)",
+      "mameName": "rastan",
+      "path": "{gamesDir}\\MAME\\ROMS\\rastan.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1987",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "6809 Language Module (v2.0)",
+      "mameName": "6809lang",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\6809lang.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1986",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "6809 Language Module (v1.1)",
+      "mameName": "6809langa",
+      "parentName": "6809lang",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\6809lang.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "6809 Language Module (v1.0)",
+      "mameName": "6809langb",
+      "parentName": "6809lang",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\6809lang.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "6809 MacroAssembler (v3.6)",
+      "mameName": "macroasm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\macroasm.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Puls",
+      "year": "2006",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Agenda",
+      "mameName": "agenda",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\agenda.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Answare",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BASIC (v1.0)",
+      "mameName": "basic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\basic.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Thomson",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Budget Familial",
+      "mameName": "budgfami",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\budgfami.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Answare",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Calculatrice",
+      "mameName": "calctric",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\calctric.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Answare",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Caractor",
+      "mameName": "caractor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\caractor.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK Editions",
+      "year": "1983",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Caractor II",
+      "mameName": "caractr2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\caractr2.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Colorcalc",
+      "mameName": "colorclc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\colorclc.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Colorpaint",
+      "mameName": "colorpnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\colorpnt.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Colorpaint (Ger)",
+      "mameName": "colorpnt_de",
+      "parentName": "colorpnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\colorpnt.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Thomson",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Compactor (title screen hack)",
+      "mameName": "compactr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\compactr.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "<hack (J.L. Pronost)>",
+      "year": "1989",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FORTH-TO7 (v1.0)",
+      "mameName": "forthto7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\forthto7.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK Editions",
+      "year": "1983",
+      "comment": "alt_title:FORTH-79 S.E.F.I. 1.0",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gerez vos Fiches",
+      "mameName": "gerezfic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\gerezfic.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Answare",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gerez vos Fiches (Alt)",
+      "mameName": "gerezfica",
+      "parentName": "gerezfic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\gerezfic.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Answare",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gerez votre Bibliotheque-Discotheque-Videotheque",
+      "mameName": "gerezbib",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\gerezbib.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Answare",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gestion Privee",
+      "mameName": "gestpriv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\gestpriv.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Answare",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LOGO (v1.0)",
+      "mameName": "logo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\logo.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan + TO TEK International",
+      "year": "1984",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LOGO (v1.0, Alt)",
+      "mameName": "logoa",
+      "parentName": "logo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\logo.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan + TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LOGO-TO7 (Ger, v2.8E)",
+      "mameName": "logode",
+      "parentName": "logo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\logo.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Thomson",
+      "year": "1986",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LSEG-EDL (v3.51)",
+      "mameName": "lsegedl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\lsegedl.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "ASELEC",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LSEG-EDL (v3.11)",
+      "mameName": "lsegedl311",
+      "parentName": "lsegedl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\lsegedl.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "ASELEC",
+      "year": "1985",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Melodia",
+      "mameName": "melodia",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\melodia.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Phonemia",
+      "mameName": "phonemia",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\phonemia.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pictor",
+      "mameName": "pictor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\pictor.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1983",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Polyphonia",
+      "mameName": "polyphon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\polyphon.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Praxitele",
+      "mameName": "praxitel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\praxitel.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1985",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Prolog (v1.0)",
+      "mameName": "prolog",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\prolog.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Scriptor",
+      "mameName": "scriptor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\scriptor.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Studio",
+      "mameName": "studio",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\studio.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1986",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Synthetia",
+      "mameName": "synthet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\synthet.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Videotex Interactif",
+      "mameName": "videotex",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\videotex.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Les Chiffres et les Lettres",
+      "mameName": "chiflett",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\chiflett.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Airbus",
+      "mameName": "airbus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\airbus.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Atomium",
+      "mameName": "atomium",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\atomium.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blitz!",
+      "mameName": "blitz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\blitz.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Choplifter",
+      "mameName": "choplift",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\choplift.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "timesPlayed": "2",
+      "paramMode": "1"
+    },
+    {
+      "name": "Controle Aerien",
+      "mameName": "controle",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\controle.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Crypto",
+      "mameName": "crypto",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\crypto.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Echo",
+      "mameName": "echo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\echo.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Enigmatika",
+      "mameName": "enigmati",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\enigmati.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "Answare",
+      "year": "1984",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gemini",
+      "mameName": "gemini",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\gemini.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Logicod",
+      "mameName": "logicod",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\logicod.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Melimemot",
+      "mameName": "melimemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\melimemo.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI Nathan",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Miner 2049er",
+      "mameName": "mine2049",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\mine2049.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "France Image Logiciel (FIL)",
+      "year": "1985",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "comment": "usage:Press Accent key to get through the pre-game menus",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Motus",
+      "mameName": "motus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\motus.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Motus (Alt)",
+      "mameName": "motusa",
+      "parentName": "motus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\motus.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Quest",
+      "mameName": "quest",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\quest.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1983",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Survivor",
+      "mameName": "survivor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\survivor.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Threshold (French/English)",
+      "mameName": "threshld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\threshld.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "parameters": "to7 -cart1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Threshold (English)",
+      "mameName": "threshlde",
+      "parentName": "threshld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\threshld.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Threshold (English, Alt)",
+      "mameName": "threshldea",
+      "parentName": "threshld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\threshld.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "TO TEK International",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Trap",
+      "mameName": "trap",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\trap.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tridi444",
+      "mameName": "tridi444",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\to7_cart\\tridi444.7z",
+      "emulatorName": "MAME Thomson TO7 -SOFTLIST to7_cart",
+      "companyName": "VIFI-Nathan",
+      "year": "1982",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

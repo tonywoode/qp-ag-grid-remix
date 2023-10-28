@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Pit Boss II (9221-01C)",
+      "mameName": "pitboss2",
+      "path": "{gamesDir}\\MAME\\ROMS\\pitboss2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Merit",
+      "year": "1988",
+      "gameType": "Multiplay / Compilation",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Super Pit Boss (9221-02A)",
+      "mameName": "spitboss",
+      "path": "{gamesDir}\\MAME\\ROMS\\spitboss.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Merit",
+      "year": "1988",
+      "gameType": "Multiplay / Compilation",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Touchmaster (v3.00 Euro)",
+      "mameName": "tm",
+      "path": "{gamesDir}\\MAME\\ROMS\\tm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway Games Inc. / CES Inc.",
+      "year": "1996",
+      "gameType": "Multiplay / Compilation",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Touchmaster 3000 (v5.02 Standard)",
+      "mameName": "tm3k",
+      "path": "{gamesDir}\\MAME\\ROMS\\tm3k.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway Games Inc.",
+      "year": "1997",
+      "gameType": "Multiplay / Compilation",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

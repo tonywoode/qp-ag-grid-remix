@@ -1,0 +1,51 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Jurassic Park (5.01)",
+      "mameName": "jupk_501",
+      "parentName": "jupk_513",
+      "path": "{gamesDir}\\MAME\\ROMS\\jupk_513.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East",
+      "year": "1993",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Jurassic Park (5.13)",
+      "mameName": "jupk_513",
+      "path": "{gamesDir}\\MAME\\ROMS\\jupk_513.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East",
+      "year": "1993",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Jurassic Park (5.01 Germany)",
+      "mameName": "jupk_g51",
+      "parentName": "jupk_513",
+      "path": "{gamesDir}\\MAME\\ROMS\\jupk_513.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East",
+      "year": "1993",
+      "gameType": "Electromechanical / Pinball",
+      "language": "German",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    }
+  ]
+}

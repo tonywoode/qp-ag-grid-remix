@@ -1,0 +1,167 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "DISK",
+      "mameName": "disk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\disk.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK2",
+      "mameName": "disk2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\disk2.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK3",
+      "mameName": "disk3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\disk3.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DISK4",
+      "mameName": "disk4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\disk4.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "asm",
+      "mameName": "asm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\asm.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "chiwork",
+      "mameName": "chiwork",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\chiwork.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "cpm",
+      "mameName": "cpm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\cpm.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "dicts",
+      "mameName": "dicts",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\dicts.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "editor",
+      "mameName": "editor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\editor.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ep",
+      "mameName": "ep",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\ep.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "games1",
+      "mameName": "games1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\games1.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "games2",
+      "mameName": "games2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\games2.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "games3",
+      "mameName": "games3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\games3.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "games4",
+      "mameName": "games4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\games4.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "microdos",
+      "mameName": "microdos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\microdos.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "system1",
+      "mameName": "system1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\korvet_flop\\system1.7z",
+      "emulatorName": "MAME PK8020 Korvet -SOFTLIST korvet_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

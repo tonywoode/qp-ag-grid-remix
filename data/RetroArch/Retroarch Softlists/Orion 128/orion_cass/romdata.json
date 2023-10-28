@@ -1,0 +1,827 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "21$",
+      "mameName": "21",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\21.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ADVENTR$",
+      "mameName": "adventr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\adventr.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "AIRFGHT$",
+      "mameName": "airfght",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\airfght.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ALMAZ$",
+      "mameName": "almaz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\almaz.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ALMAZ2$",
+      "mameName": "almaz2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\almaz2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ALMAZH$",
+      "mameName": "almazh",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\almazh.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BOMBER$",
+      "mameName": "bomber",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\bomber.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BOULDER$",
+      "mameName": "boulder",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\boulder.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BURAN$",
+      "mameName": "buran",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\buran.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CAVE$",
+      "mameName": "cave",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\cave.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CHESS$",
+      "mameName": "chess",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\chess.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CHESS2$",
+      "mameName": "chess2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\chess2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CHESS3$",
+      "mameName": "chess3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\chess3.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CHESS4$",
+      "mameName": "chess4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\chess4.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "COPTER$",
+      "mameName": "copter",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\copter.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DIGGER$",
+      "mameName": "digger",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\digger.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DINAMIT$",
+      "mameName": "dinamit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\dinamit.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DOLT$",
+      "mameName": "dolt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\dolt.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DOWNEAR$",
+      "mameName": "downear",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\downear.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DURANT$",
+      "mameName": "durant",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\durant.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FAETON$",
+      "mameName": "faeton",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\faeton.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FISHER$",
+      "mameName": "fisher",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\fisher.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GRAN$",
+      "mameName": "gran",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\gran.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "HANDICR$",
+      "mameName": "handicr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\handicr.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "JET-SET$",
+      "mameName": "jetset",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\jetset.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "KLAD$",
+      "mameName": "klad",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\klad.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "KORT$",
+      "mameName": "kort",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\kort.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "KREST1$",
+      "mameName": "krest1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\krest1.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "KREST2$",
+      "mameName": "krest2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\krest2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "KROT$",
+      "mameName": "krot",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\krot.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "KZNVA$",
+      "mameName": "kznva",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\kznva.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LADDER$",
+      "mameName": "ladder",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\ladder.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LAND$",
+      "mameName": "land",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\land.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LAND2$",
+      "mameName": "land2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\land2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LAND3$",
+      "mameName": "land3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\land3.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LAND5$",
+      "mameName": "land5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\land5.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LK-LEND$",
+      "mameName": "lklend",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\lklend.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "LODERUN$",
+      "mameName": "loderun",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\loderun.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "M_MINER$",
+      "mameName": "mminer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\mminer.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MAGIE$",
+      "mameName": "magie",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\magie.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MANNER$",
+      "mameName": "manner",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\manner.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MARS$",
+      "mameName": "mars",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\mars.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MOLE$",
+      "mameName": "mole",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\mole.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MOONFOX$",
+      "mameName": "moonfox",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\moonfox.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "NARDY$",
+      "mameName": "nardy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\nardy.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "OTELLO$",
+      "mameName": "otello",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\otello.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PACMAN$",
+      "mameName": "pacman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\pacman.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PAUK$",
+      "mameName": "pauk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\pauk.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PINGVIN$",
+      "mameName": "pingvin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\pingvin.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PITON$",
+      "mameName": "piton",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\piton.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "POKER$",
+      "mameName": "poker",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\poker.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "POOL$",
+      "mameName": "pool",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\pool.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "RACES$",
+      "mameName": "races",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\races.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "RALLY$",
+      "mameName": "rally",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\rally.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "RANGER$",
+      "mameName": "ranger",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\ranger.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "REVERSI$",
+      "mameName": "reversi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\reversi.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "RICOS$",
+      "mameName": "ricos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\ricos.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SABOTER$",
+      "mameName": "saboter",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\saboter.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SCDL$",
+      "mameName": "scdl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\scdl.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SHAR$",
+      "mameName": "shar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\shar.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SHASHKI$",
+      "mameName": "shashki",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\shashki.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SOKOBAN$",
+      "mameName": "sokoban",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\sokoban.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SPEAKER$",
+      "mameName": "speaker",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\speaker.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SPKING$",
+      "mameName": "spking",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\spking.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "STARWAR$",
+      "mameName": "starwar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\starwar.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "STRIKER$",
+      "mameName": "striker",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\striker.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SYNT$",
+      "mameName": "synt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\synt.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TENNIS$",
+      "mameName": "tennis",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\tennis.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TETRIS$",
+      "mameName": "tetris",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\tetris.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TETRIS2$",
+      "mameName": "tetris2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\tetris2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TETRIS3$",
+      "mameName": "tetris3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\tetris3.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "THRUSTA$",
+      "mameName": "thrusta",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\thrusta.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TUTAN$",
+      "mameName": "tutan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\tutan.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "UDAV$",
+      "mameName": "udav",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\udav.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "US_07_9$",
+      "mameName": "us079",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\us079.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "VALLEY$",
+      "mameName": "valley",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\valley.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "VAVILON$",
+      "mameName": "vavilon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\vavilon.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "VITAMIN$",
+      "mameName": "vitamin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\vitamin.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "WAR$",
+      "mameName": "war",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\war.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "XONIX$",
+      "mameName": "xonix",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\xonix.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ZOO$",
+      "mameName": "zoo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\zoo.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ZOO2$",
+      "mameName": "zoo2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\orion_cass\\zoo2.7z",
+      "emulatorName": "Retroarch Orion 128 -SOFTLIST orion_cass (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

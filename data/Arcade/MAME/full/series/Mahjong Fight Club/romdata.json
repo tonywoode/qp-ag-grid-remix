@@ -1,0 +1,36 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mahjong Fight Club (ver JAD)",
+      "mameName": "mfightc",
+      "path": "{gamesDir}\\MAME\\CHDs\\mfightc\\c09d04.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2002",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Mahjong Fight Club (ver JAC)",
+      "mameName": "mfightcc",
+      "parentName": "mfightc",
+      "path": "{gamesDir}\\MAME\\CHDs\\mfightc\\c09c04.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2002",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

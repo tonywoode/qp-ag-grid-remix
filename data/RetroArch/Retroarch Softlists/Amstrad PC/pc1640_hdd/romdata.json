@@ -1,0 +1,17 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Amstrad PC1640 HD20",
+      "mameName": "hd20",
+      "path": "{gamesDir}\\MAME\\Software List CHDs\\pc1640_hdd\\hd20\\40095.chd",
+      "emulatorName": "Retroarch Amstrad PC1640 HD20 -SOFTLIST pc1640_hdd (MAME)",
+      "companyName": "Amstrad",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "GTI Club (ver EAA)",
+      "mameName": "gticlub",
+      "path": "{gamesDir}\\MAME\\ROMS\\gticlub.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "GTI Club: Corso Italiano (ver JAB)",
+      "mameName": "gticlub2",
+      "path": "{gamesDir}\\MAME\\CHDs\\gticlub2\\941b02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Driving / Race",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "GTI Club: Corso Italiano (ver EAA)",
+      "mameName": "gticlub2ea",
+      "parentName": "gticlub2",
+      "path": "{gamesDir}\\MAME\\CHDs\\gticlub2\\941a02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Driving / Race",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "GTI Club (ver AAA)",
+      "mameName": "gticluba",
+      "parentName": "gticlub",
+      "path": "{gamesDir}\\MAME\\ROMS\\gticlub.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "GTI Club (ver JAA)",
+      "mameName": "gticlubj",
+      "parentName": "gticlub",
+      "path": "{gamesDir}\\MAME\\ROMS\\gticlub.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "GTI Club (ver UAA)",
+      "mameName": "gticlubu",
+      "parentName": "gticlub",
+      "path": "{gamesDir}\\MAME\\ROMS\\gticlub.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1996",
+      "gameType": "Driving / Race (chase view)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

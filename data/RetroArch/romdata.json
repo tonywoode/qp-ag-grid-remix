@@ -1,0 +1,266 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "2048",
+      "path": "P:\\SCREENSHOTS\\RetroArch\\2048.png",
+      "emulatorName": "RetroArch 2048",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cave Story",
+      "path": "{gamesDir}\\RetroArch Games\\Cave Story\\CaveStory\\Doukutsu.exe",
+      "emulatorName": "RetroArch Cave Story (NXEngine)",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Craft",
+      "path": "P:\\SCREENSHOTS\\RetroArch\\craft.png",
+      "emulatorName": "RetroArch Craft",
+      "language": "English",
+      "timesPlayed": "13",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dinothawr",
+      "path": "{gamesDir}\\RetroArch Games\\DinoThawr\\dinothawr\\dinothawr\\dinothawr\\dinothawr.game",
+      "emulatorName": "RetroArch Dinothawr",
+      "language": "English",
+      "timesPlayed": "7",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doom 2",
+      "path": "{gamesDir}\\RetroArch Games\\PrBoom\\prboom\\DOOM2.WAD",
+      "emulatorName": "RetroArch Doom (PrBoom)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doom 64",
+      "path": "{gamesDir}\\RetroArch Games\\PrBoom\\DOOM64\\Doom64.WAD",
+      "emulatorName": "RetroArch Doom (PrBoom)",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doom",
+      "path": "{gamesDir}\\RetroArch Games\\PrBoom\\prboom\\DOOM.WAD",
+      "emulatorName": "RetroArch Doom (PrBoom)",
+      "language": "English",
+      "timesPlayed": "15",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Doom",
+      "path": "{gamesDir}\\RetroArch Games\\PrBoom\\prboom\\PLUTONIA(final doom).WAD",
+      "emulatorName": "RetroArch Doom (PrBoom)",
+      "language": "English",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flashback",
+      "path": "{gamesDir}\\RetroArch Games\\Flashback (reminiscence)\\DATA\\LEVEL1.MAP",
+      "emulatorName": "RetroArch Flashback (REminiscence)",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Floppy Bird",
+      "path": "{gamesDir}\\RetroArch Games\\ChaiLove\\Floppy Bird.chailove",
+      "emulatorName": "RetroArch ChaiLove",
+      "timesPlayed": "14",
+      "paramMode": "0"
+    },
+    {
+      "name": "Game Of Life",
+      "path": "{gamesDir}\\RetroArch Games\\lutro\\lutro-game-of-life",
+      "emulatorName": "RetroArch Lutro",
+      "language": "English",
+      "timesPlayed": "9",
+      "paramMode": "0"
+    },
+    {
+      "name": "Iyfct",
+      "path": "{gamesDir}\\RetroArch Games\\lutro\\lutro-iyfct",
+      "emulatorName": "RetroArch Lutro",
+      "language": "English",
+      "timesPlayed": "10",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mrboom",
+      "path": "P:\\SCREENSHOTS\\RetroArch\\mrboom.png",
+      "emulatorName": "RetroArch Mr.Boom (Bomberman)",
+      "language": "English",
+      "timesPlayed": "11",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tomb Raider",
+      "path": "{gamesDir}\\RetroArch Games\\Tomb Raider\\LEVEL2.PSX",
+      "emulatorName": "RetroArch Tomb Raider (OpenLara)",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Platformer",
+      "path": "{gamesDir}\\RetroArch Games\\lutro\\lutro-platformer",
+      "emulatorName": "RetroArch Lutro",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pong",
+      "path": "{gamesDir}\\RetroArch Games\\lutro\\lutro-pong",
+      "emulatorName": "RetroArch Lutro",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Powder Toy",
+      "path": "P:\\SCREENSHOTS\\RetroArch\\powder-toy.png",
+      "emulatorName": "RetroArch The Powder Toy",
+      "language": "English",
+      "timesPlayed": "18",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quake1",
+      "path": "{gamesDir}\\RetroArch Games\\Quake\\id1\\PAK1.PAK",
+      "emulatorName": "RetroArch Quake 1 (TyrQuake)",
+      "language": "English",
+      "timesPlayed": "9",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quake2 (needs pak files)",
+      "path": "./qp.exe",
+      "emulatorName": "RetroArch Quake 2 (vitaQuake 2)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quake3i (needs pak files)",
+      "path": "./qp.exe",
+      "emulatorName": "RetroArch Quake 3 (vitaQuake 3)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snake",
+      "path": "{gamesDir}\\RetroArch Games\\lutro\\lutro-snake",
+      "emulatorName": "RetroArch Lutro",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris",
+      "path": "{gamesDir}\\RetroArch Games\\lutro\\lutro-tetris",
+      "emulatorName": "RetroArch Lutro",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ultimate Doom",
+      "path": "{gamesDir}\\RetroArch Games\\PrBoom\\prboom\\UltimateDOOM.WAD",
+      "emulatorName": "RetroArch Doom (PrBoom)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rick Dangerous",
+      "path": "{gamesDir}\\RetroArch Games\\xrick\\data.zip",
+      "emulatorName": "RetroArch Rick Dangerous (XRick)",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "8 Bit Panda",
+      "path": "{gamesDir}\\RetroArch Games\\TIC-80\\8 Bit Panda.tic",
+      "emulatorName": "RetroArch TIC-80",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bunnymark-js",
+      "path": "{gamesDir}\\RetroArch Games\\TIC-80\\bunnymark-js.tic",
+      "emulatorName": "RetroArch TIC-80",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "bunnymark-moon",
+      "path": "{gamesDir}\\RetroArch Games\\TIC-80\\bunnymark-moon.tic",
+      "emulatorName": "RetroArch TIC-80",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "bunnymark-squirrel",
+      "path": "{gamesDir}\\RetroArch Games\\TIC-80\\bunnymark-squirrel.tic",
+      "emulatorName": "RetroArch TIC-80",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "bunnymark-wren",
+      "path": "{gamesDir}\\RetroArch Games\\TIC-80\\bunnymark-wren.tic",
+      "emulatorName": "RetroArch TIC-80",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dangerous Dave",
+      "path": "{gamesDir}\\RetroArch Games\\TIC-80\\Dangerous Dave.tic",
+      "emulatorName": "RetroArch TIC-80",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shadow Over the Twelve Lands",
+      "path": "{gamesDir}\\RetroArch Games\\TIC-80\\Shadow Over the Twelve Lands.tic",
+      "emulatorName": "RetroArch TIC-80",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stele",
+      "path": "{gamesDir}\\RetroArch Games\\TIC-80\\Stele.tic",
+      "emulatorName": "RetroArch TIC-80",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Touhou - Bad Apple",
+      "path": "{gamesDir}\\RetroArch Games\\TIC-80\\Touhou - Bad Apple.tic",
+      "emulatorName": "RetroArch TIC-80",
+      "timesPlayed": "5",
+      "paramMode": "0"
+    },
+    {
+      "name": "OutRun",
+      "path": "{gamesDir}\\RetroArch Games\\CannonBall\\CannonBall.game",
+      "emulatorName": "RetroArch CannonBall",
+      "timesPlayed": "12",
+      "paramMode": "0"
+    }
+  ]
+}

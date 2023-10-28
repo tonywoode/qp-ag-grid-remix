@@ -1,0 +1,593 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "3-D Crazy Coaster (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\3-D Crazy Coaster (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Simulation / Space Combat",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3-D Mine Storm (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\3-D Mine Storm (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3-D Narrow Escape (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\3-D Narrow Escape (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "All Good Things by John Dondzila (1996)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\All Good Things by John Dondzila (1996).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1996",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Animaction (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Animaction (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Home / Design",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Armor Attack (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Armor Attack (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Art Master (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Art Master (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Home / Design",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bedlam (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Bedlam (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Berzerk (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Berzerk (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Birds of Prey by John Dondzila (1999)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Birds of Prey by John Dondzila (1999).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1999",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blitz! - Action Football (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Blitz! - Action Football (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Sports / Football Amer.",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Clean Sweep (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Clean Sweep (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Maze",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Chasm (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Cosmic Chasm (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dark Tower (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Dark Tower (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Engine Analyzer (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Engine Analyzer (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Exec Rom Dumper (2000) (Ronen Habot)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Exec Rom Dumper (2000) (Ronen Habot).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "2000",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fortress of Narzod (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Fortress of Narzod (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gravitrex by John Dondzila (2002)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Gravitrex by John Dondzila (2002).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "2002",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heads Up - Action Soccer (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Heads Up - Action Soccer (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Sports / Soccer",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hyperchase (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Hyperchase (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Driving",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Melody Master (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Melody Master (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Puzzle / Sliding",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Storm (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Mine Storm (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mine Storm II (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Mine Storm II (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nona3 by Manu (Mar 10) (2003)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Nona3 by Manu (Mar 10) (2003).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "2003",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Patriots by John Dondzila (1996)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Patriots by John Dondzila (1996).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1996",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Patriots III - BALListics Busters by John Dondzila (1996-2002)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Patriots III - BALListics Busters by John Dondzila (1996-2002).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Patriots Remix by John Dondzila (1999)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Patriots Remix by John Dondzila (1999).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1999",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Polar Rescue (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Polar Rescue (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pole Position (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Pole Position (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Driving / Race Track",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain (Chris Salomon)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Public Domain (Chris Salomon).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain (Christopher Tumber)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Public Domain (Christopher Tumber).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain (Jeff Woolsey)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Public Domain (Jeff Woolsey).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain (Manu)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Public Domain (Manu).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Public Domain.7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Repulse by John Dondzila (1999)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Repulse by John Dondzila (1999).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1999",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rip-Off (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Rip-Off (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rockaroids Remix - 3rd Rock by John Dondzila (1996)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Rockaroids Remix - 3rd Rock by John Dondzila (1996).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1996",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ronen's Game Cart (2000) (Ronen Habot)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Ronen's Game Cart (2000) (Ronen Habot).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "2000",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scorefont 3 by Manu (Aug 26) (2002)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Scorefont 3 by Manu (Aug 26) (2002).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "2002",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Scramble (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Scramble (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc. Horizontal",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Solar Quest (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Solar Quest (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Wars (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Space Wars (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spike (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Spike (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spike Hoppin' by John Dondzila (1998)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Spike Hoppin' by John Dondzila (1998).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1998",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spinball (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Spinball (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Pinball / 2D",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Castle (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Star Castle (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Fire Spirits by John Dondzila (1999)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Star Fire Spirits by John Dondzila (1999).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1999",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Hawk (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Star Hawk (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Seige by John Dondzila (1999)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Star Seige by John Dondzila (1999).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1999",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Ship (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Star Ship (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "companyName": "Milton Bradley",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Trek - The Motion Picture (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Star Trek - The Motion Picture (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "gameType": "Shooter / 1st Person",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tour De France (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Tour De France (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1983",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VecSports Kingpin Bowling by Manu (2002)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\VecSports Kingpin Bowling by Manu (2002).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "2002",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vector Vaders by John Dondzila (1996)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Vector Vaders by John Dondzila (1996).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1996",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vector Vaders Remix by John Dondzila (1999)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Vector Vaders Remix by John Dondzila (1999).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1999",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vectrace (2000) (Ronen Habot)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Vectrace (2000) (Ronen Habot).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "2000",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vectrex BIOS (1982)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Vectrex BIOS (1982).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "1982",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "VecVoice Demo by Richard Hutchinson (2002)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\VecVoice Demo by Richard Hutchinson (2002).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "2002",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Verzerk by Alex Herbert (2002)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Verzerk by Alex Herbert (2002).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "year": "2002",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vexperience - B.E.T.H. & Vecsports Boxing by Manu (2000)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Vexperience - B.E.T.H. & Vecsports Boxing by Manu (2000).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "companyName": "Manu Pärssinen / Good Deal Games",
+      "year": "2002",
+      "gameType": "Sports / Boxing",
+      "language": "English",
+      "comment": "Joystick/Gamepad",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Web Warp (1983)",
+      "path": "{gamesDir}\\Console Classics\\Vectrex Games\\GoodVECT_106_GM\\Web Warp (1983).7z",
+      "emulatorName": "MAME GCE Vectrex -cartridge",
+      "companyName": "Milton Bradley",
+      "year": "1982",
+      "gameType": "Shooter / Misc.",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

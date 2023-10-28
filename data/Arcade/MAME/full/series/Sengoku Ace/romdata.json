@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Sengoku Ace (Japan, set 1)",
+      "mameName": "sngkace",
+      "parentName": "samuraia",
+      "path": "{gamesDir}\\MAME\\ROMS\\samuraia.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Psikyo",
+      "year": "1993",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Sengoku Ace (Japan, set 2)",
+      "mameName": "sngkacea",
+      "parentName": "samuraia",
+      "path": "{gamesDir}\\MAME\\ROMS\\samuraia.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Psikyo",
+      "year": "1993",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

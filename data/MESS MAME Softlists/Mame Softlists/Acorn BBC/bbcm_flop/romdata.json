@@ -1,0 +1,71 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Welcome & Utilities Disc",
+      "mameName": "welcomem",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_flop\\welcomem.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_flop",
+      "companyName": "Acorn",
+      "year": "1986",
+      "comment": "format:ADFS",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Elite (Executive Edition)",
+      "mameName": "elitexec",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_flop\\elitexec.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_flop",
+      "companyName": "Acornsoft",
+      "year": "1986",
+      "comment": "format:DFS",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "AMX Super Art (Master)",
+      "mameName": "amxsartm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_flop\\amxsartm.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_flop",
+      "companyName": "Advanced Memory Systems",
+      "year": "1986",
+      "comment": "format:DFS",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FileStore Dealer Test Disc",
+      "mameName": "fsdd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_flop\\fsdd.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_flop",
+      "companyName": "Acorn",
+      "year": "1986",
+      "comment": "format:ADFS",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Enjoy The Silence",
+      "mameName": "enjoy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_flop\\enjoy.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_flop",
+      "companyName": "The Yorkshire Boys",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Retribution X",
+      "mameName": "retribx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\bbcm_flop\\retribx.7z",
+      "emulatorName": "MAME Acorn BBC Master 128 -SOFTLIST bbcm_flop",
+      "companyName": "The Yorkshire Boys",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

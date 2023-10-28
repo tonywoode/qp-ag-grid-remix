@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Chain Reaction (World, Version 2.2, 1995.09.25)",
+      "mameName": "chainrec",
+      "path": "{gamesDir}\\MAME\\ROMS\\chainrec.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East",
+      "year": "1995",
+      "gameType": "Puzzle / Toss",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Magical Drop (Japan, Version 1.1, 1995.06.21)",
+      "mameName": "magdrop",
+      "parentName": "chainrec",
+      "path": "{gamesDir}\\MAME\\ROMS\\chainrec.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East",
+      "year": "1995",
+      "gameType": "Puzzle / Toss",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Magical Drop II",
+      "mameName": "magdrop2",
+      "path": "{gamesDir}\\MAME\\ROMS\\magdrop2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Magical Drop III",
+      "mameName": "magdrop3",
+      "path": "{gamesDir}\\MAME\\ROMS\\magdrop3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1997",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Magical Drop Plus 1 (Japan, Version 2.1, 1995.09.12)",
+      "mameName": "magdropp",
+      "parentName": "chainrec",
+      "path": "{gamesDir}\\MAME\\ROMS\\chainrec.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East",
+      "year": "1995",
+      "gameType": "Puzzle / Toss",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

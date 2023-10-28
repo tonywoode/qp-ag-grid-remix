@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "D-Day (Jaleco set 1)",
+      "mameName": "ddayjlc",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddayjlc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1984",
+      "gameType": "Shooter / Field",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Senkyu (Japan set 1)",
+      "mameName": "senkyu",
+      "path": "{gamesDir}\\MAME\\ROMS\\senkyu.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seibu Kaihatsu",
+      "year": "1995",
+      "gameType": "Puzzle / Drop",
+      "rating": "70 to 80 (Good)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

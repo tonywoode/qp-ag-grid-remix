@@ -1,0 +1,66 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "The First Funky Fighter (North America, set 1)",
+      "mameName": "funkyfig",
+      "path": "{gamesDir}\\MAME\\ROMS\\funkyfig.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nakanihon / East Technology (Taito license)",
+      "year": "1993",
+      "gameType": "Fighter / Misc.",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Muroge Monaco (set 1)",
+      "mameName": "murogem",
+      "path": "{gamesDir}\\MAME\\ROMS\\murogem.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Poker De Win",
+      "mameName": "pkrdewin",
+      "parentName": "ampoker2",
+      "path": "{gamesDir}\\MAME\\ROMS\\ampoker2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1990",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "SAR - Search And Rescue (Japan)",
+      "mameName": "searcharj",
+      "parentName": "searchar",
+      "path": "{gamesDir}\\MAME\\ROMS\\searchar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Walking",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

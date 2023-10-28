@@ -1,0 +1,96 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Crazy Kong Part II (alternative levels)",
+      "mameName": "ckongpt2b",
+      "parentName": "ckongpt2",
+      "path": "{gamesDir}\\MAME\\ROMS\\ckongpt2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1981",
+      "gameType": "Platform / Run Jump",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Conqueror",
+      "mameName": "conquer",
+      "path": "{gamesDir}\\MAME\\ROMS\\conquer.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "gameType": "Not Classified",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Fantasy Land (set 2)",
+      "mameName": "fantlanda",
+      "parentName": "fantland",
+      "path": "{gamesDir}\\MAME\\ROMS\\fantland.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Electronic Devices Italy",
+      "year": "19??",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Mahjong Block Jongbou (Japan)",
+      "mameName": "jongbou",
+      "path": "{gamesDir}\\MAME\\ROMS\\jongbou.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1987",
+      "gameType": "Ball & Paddle / Breakout * Mature *",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Nibbler (rev 8)",
+      "mameName": "nibbler8",
+      "parentName": "nibbler",
+      "path": "{gamesDir}\\MAME\\ROMS\\nibbler.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Rock-Ola",
+      "year": "1982",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Super Qix (bootleg of V1.0, 8031 MCU)",
+      "mameName": "sqixb1",
+      "parentName": "sqix",
+      "path": "{gamesDir}\\MAME\\ROMS\\sqix.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1987",
+      "gameType": "Puzzle / Outline",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

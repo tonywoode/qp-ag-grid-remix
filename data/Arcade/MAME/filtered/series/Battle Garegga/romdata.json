@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Battle Bakraid - Unlimited Version (USA) (Tue Jun 8 1999)",
+      "mameName": "bbakraid",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbakraid.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Eighting",
+      "year": "1999",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)",
+      "mameName": "bgaregga",
+      "path": "{gamesDir}\\MAME\\ROMS\\bgaregga.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Raizing / Eighting",
+      "year": "1996",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "80 to 90 (Very Good)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

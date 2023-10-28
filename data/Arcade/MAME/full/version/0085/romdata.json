@@ -1,0 +1,36 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Columns II: The Voyage Through Time (Japan)",
+      "mameName": "column2j",
+      "parentName": "columns2",
+      "path": "{gamesDir}\\MAME\\ROMS\\columns2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1990",
+      "gameType": "Puzzle / Drop",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "FunVision",
+      "mameName": "fnvision",
+      "parentName": "crvision",
+      "path": "{gamesDir}\\MAME\\ROMS\\crvision.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video Technology",
+      "year": "1982",
+      "gameType": "Home Systems / Game Console",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "MS-DOS (Version 2.11, Tandy version 02.11.24)",
+      "mameName": "msdos211t",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\msdos211t.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Tandy",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MS-DOS (Version 2.11, Tandy version 02.11.24, Alt)",
+      "mameName": "msdos211ta",
+      "parentName": "msdos211t",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\msdos211t.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Tandy",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MS-DOS (Verson 3.20, Tandy version 03.20.21) (Tandy 1000 TX)",
+      "mameName": "msdos32tx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\msdos32tx.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Tandy",
+      "year": "1986",
+      "comment": "developer:Microsoft",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MS-DOS (Verson 3.30, Tandy Version 03.30.20)",
+      "mameName": "msdos33t",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\msdos33t.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Tandy",
+      "year": "1988",
+      "comment": " part_id:MS-DOS/GW-Basic 3.30,part_id:Supplemental Programs",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DeskMate (Tandy 1000)",
+      "mameName": "deskmate",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\deskmate.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Tandy",
+      "year": "1984",
+      "comment": "version:01.01.00",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DeskMate II (Tandy 3000)",
+      "mameName": "deskmate2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\deskmate2.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Tandy",
+      "year": "1986",
+      "comment": "version:01.00.00",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Personal DeskMate",
+      "mameName": "pdesk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\pdesk.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Tandy",
+      "year": "1986",
+      "comment": "version:01.01.00",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Personal DeskMate 2 (Tandy 1000 HX)",
+      "mameName": "pdesk2hx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\pdesk2hx.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Tandy",
+      "year": "1987",
+      "comment": "version:01.00.00",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Personal DeskMate 2 (Tandy 1000 HX, Alt)",
+      "mameName": "pdesk2hxa",
+      "parentName": "pdesk2hx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\pdesk2hx.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Tandy",
+      "year": "1987",
+      "comment": "version:01.00.00",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "King's Quest (Tandy)",
+      "mameName": "kingqst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\kingqst.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Sierra",
+      "year": "1984",
+      "comment": "version:01.01.00",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Transylvania (Tandy)",
+      "mameName": "transyl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\t1000\\transyl.7z",
+      "emulatorName": "Retroarch Tandy Radio Shack 1000 HX -SOFTLIST t1000 (MAME)",
+      "companyName": "Polarware",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

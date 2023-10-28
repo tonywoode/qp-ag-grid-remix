@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Genshi-Tou 1930's",
+      "mameName": "gensitou",
+      "parentName": "prehisle",
+      "path": "{gamesDir}\\MAME\\ROMS\\prehisle.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Prehistoric Isle in 1930 (World)",
+      "mameName": "prehisle",
+      "path": "{gamesDir}\\MAME\\ROMS\\prehisle.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Prehistoric Isle in 1930 (World, bootleg)",
+      "mameName": "prehisleb",
+      "parentName": "prehisle",
+      "path": "{gamesDir}\\MAME\\ROMS\\prehisle.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1989",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Prehistoric Isle in 1930 (Korea)",
+      "mameName": "prehislek",
+      "parentName": "prehisle",
+      "path": "{gamesDir}\\MAME\\ROMS\\prehisle.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK (Victor license)",
+      "year": "1989",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Prehistoric Isle in 1930 (US)",
+      "mameName": "prehisleu",
+      "parentName": "prehisle",
+      "path": "{gamesDir}\\MAME\\ROMS\\prehisle.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1989",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Prehistoric Isle 2",
+      "mameName": "preisle2",
+      "path": "{gamesDir}\\MAME\\ROMS\\preisle2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Yumekobo",
+      "year": "1999",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

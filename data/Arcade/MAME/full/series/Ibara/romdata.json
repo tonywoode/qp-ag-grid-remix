@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Ibara (2005/03/22 MASTER VER..)",
+      "mameName": "ibara",
+      "path": "{gamesDir}\\MAME\\ROMS\\ibara.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2005",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Ibara Kuro Black Label (2006/02/06. MASTER VER.)",
+      "mameName": "ibarablk",
+      "path": "{gamesDir}\\MAME\\ROMS\\ibarablk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2006",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Ibara Kuro Black Label (2006/02/06 MASTER VER.)",
+      "mameName": "ibarablka",
+      "parentName": "ibarablk",
+      "path": "{gamesDir}\\MAME\\ROMS\\ibarablk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2006",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER....)",
+      "mameName": "pinkswts",
+      "path": "{gamesDir}\\MAME\\ROMS\\pinkswts.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2006",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER...)",
+      "mameName": "pinkswtsa",
+      "parentName": "pinkswts",
+      "path": "{gamesDir}\\MAME\\ROMS\\pinkswts.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2006",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER.)",
+      "mameName": "pinkswtsb",
+      "parentName": "pinkswts",
+      "path": "{gamesDir}\\MAME\\ROMS\\pinkswts.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2006",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Pink Sweets: Ibara Sorekara (2006/xx/xx MASTER VER.)",
+      "mameName": "pinkswtsx",
+      "parentName": "pinkswts",
+      "path": "{gamesDir}\\MAME\\ROMS\\pinkswts.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Cave (AMI license)",
+      "year": "2006",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

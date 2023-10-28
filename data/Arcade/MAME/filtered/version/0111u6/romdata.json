@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Star Soldier: Vanishing Earth",
+      "mameName": "starsldr",
+      "path": "{gamesDir}\\MAME\\ROMS\\starsldr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Hudson / Seta",
+      "year": "1998",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Tower & Shaft",
+      "mameName": "twrshaft",
+      "path": "{gamesDir}\\MAME\\ROMS\\twrshaft.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Aruze",
+      "year": "2003",
+      "gameType": "Platform / Run Jump",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

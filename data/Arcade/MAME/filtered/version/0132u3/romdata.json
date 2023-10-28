@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Hyper Bishi Bashi Champ - 2 Player (GX908 1999/08/24 VER. JAA)",
+      "mameName": "hypbbc2p",
+      "path": "{gamesDir}\\MAME\\CHDs\\hypbbc2p\\908a02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Multiplay / Mini-Games",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Locomotive (Rev.A)",
+      "mameName": "suprloco",
+      "path": "{gamesDir}\\MAME\\ROMS\\suprloco.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1982",
+      "gameType": "Maze / Driving",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

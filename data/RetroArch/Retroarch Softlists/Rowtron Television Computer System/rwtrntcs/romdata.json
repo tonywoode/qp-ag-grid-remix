@@ -1,0 +1,29 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "SportsWorld",
+      "mameName": "sportwld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\rwtrntcs\\sportwld.7z",
+      "emulatorName": "Retroarch Rowtron Television Computer System -SOFTLIST rwtrntcs (MAME)",
+      "companyName": "Rowtron?",
+      "year": "19??",
+      "comment": "serial:No.1 slot:std",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Monster Munchers",
+      "mameName": "mmuncher",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\rwtrntcs\\mmuncher.7z",
+      "emulatorName": "Retroarch Rowtron Television Computer System -SOFTLIST rwtrntcs (MAME)",
+      "companyName": "Rowtron?",
+      "year": "19??",
+      "comment": "serial:No.26 slot:std",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

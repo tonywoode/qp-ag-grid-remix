@@ -1,0 +1,81 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "World Rally (Version 1.0, Checksum 0E56)",
+      "mameName": "wrally",
+      "path": "{gamesDir}\\MAME\\ROMS\\wrally.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gaelco",
+      "year": "1993",
+      "gameType": "Driving / Race",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "World Rally 2: Twin Racing",
+      "mameName": "wrally2",
+      "path": "{gamesDir}\\MAME\\ROMS\\wrally2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gaelco",
+      "year": "1995",
+      "gameType": "Driving / Race",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "World Rally (Version 1.0, Checksum 3873)",
+      "mameName": "wrallya",
+      "parentName": "wrally",
+      "path": "{gamesDir}\\MAME\\ROMS\\wrally.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gaelco",
+      "year": "1993",
+      "gameType": "Driving / Race",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "World Rally (US, 930217)",
+      "mameName": "wrallyat",
+      "parentName": "wrally",
+      "path": "{gamesDir}\\MAME\\ROMS\\wrally.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gaelco (Atari license)",
+      "year": "1993",
+      "gameType": "Driving / Race",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "World Rally (Version 1.0, Checksum 8AA2)",
+      "mameName": "wrallyb",
+      "parentName": "wrally",
+      "path": "{gamesDir}\\MAME\\ROMS\\wrally.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Gaelco",
+      "year": "1993",
+      "gameType": "Driving / Race",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

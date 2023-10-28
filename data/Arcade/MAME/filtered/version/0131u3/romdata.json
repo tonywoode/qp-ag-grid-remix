@@ -1,0 +1,81 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Aqua Jet (Rev. AJ2 Ver.B)",
+      "mameName": "aquajet",
+      "path": "{gamesDir}\\MAME\\ROMS\\aquajet.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1996",
+      "gameType": "Driving / Boat",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "High Impact Football (rev LA5 02/15/91)",
+      "mameName": "hiimpact",
+      "path": "{gamesDir}\\MAME\\ROMS\\hiimpact.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1990",
+      "gameType": "Sports / Amer. Football",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Microman Battle Charge (J 990326 V1.000)",
+      "mameName": "micrombc",
+      "path": "{gamesDir}\\MAME\\ROMS\\micrombc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1999",
+      "gameType": "Misc.",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Technical Bowling (J 971212 V1.000)",
+      "mameName": "techbowl",
+      "path": "{gamesDir}\\MAME\\ROMS\\techbowl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1997",
+      "gameType": "Sports / Bowling",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Wizard Fire (Over Sea v2.1)",
+      "mameName": "wizdfire",
+      "path": "{gamesDir}\\MAME\\ROMS\\wizdfire.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East Corporation",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

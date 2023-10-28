@@ -1,0 +1,77 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "disk2",
+      "mameName": "disk2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pyl601\\disk2.7z",
+      "emulatorName": "Retroarch Mikroelektronika Pyldin-601 -SOFTLIST pyl601 (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "disk3",
+      "mameName": "disk3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pyl601\\disk3.7z",
+      "emulatorName": "Retroarch Mikroelektronika Pyldin-601 -SOFTLIST pyl601 (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "disk4",
+      "mameName": "disk4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pyl601\\disk4.7z",
+      "emulatorName": "Retroarch Mikroelektronika Pyldin-601 -SOFTLIST pyl601 (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "disk5",
+      "mameName": "disk5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pyl601\\disk5.7z",
+      "emulatorName": "Retroarch Mikroelektronika Pyldin-601 -SOFTLIST pyl601 (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "games",
+      "mameName": "games",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pyl601\\games.7z",
+      "emulatorName": "Retroarch Mikroelektronika Pyldin-601 -SOFTLIST pyl601 (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "system",
+      "mameName": "system",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pyl601\\system.7z",
+      "emulatorName": "Retroarch Mikroelektronika Pyldin-601 -SOFTLIST pyl601 (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "sash",
+      "mameName": "sash",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pyl601\\sash.7z",
+      "emulatorName": "Retroarch Mikroelektronika Pyldin-601 -SOFTLIST pyl601 (MAME)",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Neo Print - '98 NeoPri Best 44 (Japan) (T4i 3.07)",
+      "mameName": "98best44",
+      "path": "{gamesDir}\\MAME\\ROMS\\98best44.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1998",
+      "gameType": "Print Club",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Neo Print (Japan) (T2d)",
+      "mameName": "neoprint",
+      "path": "{gamesDir}\\MAME\\ROMS\\neoprint.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1996",
+      "gameType": "Print Club",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Neo Print V1 (World) (E1a)",
+      "mameName": "npcartv1",
+      "path": "{gamesDir}\\MAME\\ROMS\\npcartv1.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1996",
+      "gameType": "Print Club",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

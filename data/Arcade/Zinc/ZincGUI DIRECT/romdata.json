@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "LOAD ZINc GUI",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\LOAD ZINc GUI.jpg",
+      "emulatorName": "ZINcGUI_DIRECT_LOADER",
+      "language": "English",
+      "parameters": " ",
+      "timesPlayed": "25",
+      "paramMode": "1"
+    }
+  ]
+}

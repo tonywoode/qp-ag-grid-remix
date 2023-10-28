@@ -1,0 +1,81 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Hatris (US)",
+      "mameName": "hatris",
+      "path": "{gamesDir}\\MAME\\ROMS\\hatris.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video System Co.",
+      "year": "1990",
+      "gameType": "Puzzle / Drop",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "IQ Pipe",
+      "mameName": "iqpipe",
+      "path": "{gamesDir}\\MAME\\ROMS\\iqpipe.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "AMT",
+      "year": "1991",
+      "gameType": "Not Classified",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Otenami Haiken (V2.04J 1999/02/01 18:00:00)",
+      "mameName": "otenamih",
+      "path": "{gamesDir}\\MAME\\CHDs\\otenamih\\otenamih.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Success",
+      "year": "1999",
+      "gameType": "Multiplay / Mini-Games",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Shanghai Sangokuhai Tougi (Ver 2.01J 2002/01/18 18:26:58)",
+      "mameName": "shangtou",
+      "path": "{gamesDir}\\MAME\\CHDs\\shangtou\\shanghaito.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Warashi / Sunsoft / Taito",
+      "year": "2002",
+      "gameType": "Puzzle / Match",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Samurai Nihon-Ichi (bootleg, harder)",
+      "mameName": "tsamuraih",
+      "parentName": "tsamurai",
+      "path": "{gamesDir}\\MAME\\ROMS\\tsamurai.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1985",
+      "gameType": "Fighter / 2D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

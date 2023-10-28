@@ -1,0 +1,4730 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "First Letters & Words",
+      "mameName": "1stltrwd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\1stltrwd.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "First Byte",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "First Shapes",
+      "mameName": "1stshape",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\1stshape.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "First Byte",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Three Stooges [cracked]",
+      "mameName": "3stooges",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\3stooges.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Cinemaware",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "4th & Inches (clean crack)",
+      "mameName": "4thinchs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\4thinchs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "8-16 Paint",
+      "mameName": "816paint",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\816paint.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Baudville",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Aaargh!",
+      "mameName": "aaargh",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\aaargh.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Arcadia Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ACS Demo Disk 1",
+      "mameName": "acsdemo1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\acsdemo1.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Chemical Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ACS Demo Disk 2",
+      "mameName": "acsdemo2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\acsdemo2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Chemical Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ACS Musique Disk",
+      "mameName": "acsmusiq",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\acsmusiq.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Chemical Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adventures of Sinbad",
+      "mameName": "adsinbad",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\adsinbad.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Aesop's Fables",
+      "mameName": "aesops",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\aesops.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Airball",
+      "mameName": "airball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\airball.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Microdeal",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Alien Mind",
+      "mameName": "alienmnd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\alienmnd.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PBI Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "All About America",
+      "mameName": "allabamr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\allabamr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1988",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ancient Land of Ys",
+      "mameName": "aloys",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\aloys.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Kyodai",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ancient Glory",
+      "mameName": "ancglry",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\ancglry.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Big Red Computer Club",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Animal Tracker",
+      "mameName": "animltrk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\animltrk.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Nature Boy Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Animasia 3D",
+      "mameName": "animsa3d",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\animsa3d.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Michael Lutynski",
+      "year": "1994",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disk Magazine Animations",
+      "mameName": "animsss",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\animsss.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Second Sight Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Animal Kingdom",
+      "mameName": "anmkingd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\anmkingd.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Arkanoid (clean crack)",
+      "mameName": "arkanoid",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\arkanoid.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Taito",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Arkanoid II: Revenge of Doh (clean crack)",
+      "mameName": "arknoid2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\arknoid2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Taito",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Arabian Nights",
+      "mameName": "arnights",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\arnights.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Art & Film Director",
+      "mameName": "artfilm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\artfilm.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "As The Link Turns",
+      "mameName": "atlt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\atlt.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Rogue Systems",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "AppleWorks GS v1.1",
+      "mameName": "awgs11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\awgs11.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Claris",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bouncing Bluster",
+      "mameName": "bblstr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bblstr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Fantasia Entertainment",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Black Cauldron",
+      "mameName": "bcauldrn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bcauldrn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Beagle Draw",
+      "mameName": "begldraw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\begldraw.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Beagle Brothers",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "BeagleWrite GS v3.2",
+      "mameName": "beglwrit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\beglwrit.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Beagle Bros.",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bouncin' Ferno",
+      "mameName": "bferno",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bferno.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bubble Ghost",
+      "mameName": "bghost",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bghost.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blackjack Academy",
+      "mameName": "blkjkac",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\blkjkac.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MicroIllusions",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blue Angels (unreleased)",
+      "mameName": "blueangl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\blueangl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Blue Helmet",
+      "mameName": "bluehlmt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bluehlmt.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Balance of Power - 1990s Edition",
+      "mameName": "bop90s",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bop90s.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Mindscape",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Bard's Tale II - The Destiny Knight",
+      "mameName": "brdtale2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\brdtale2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts / Interplay",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Bard's Tale - Tales of the Unknown (clean crack)",
+      "mameName": "brdtale",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\brdtale.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts / Interplay",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bridge 6.0 - Your Bid For Entertainment",
+      "mameName": "bridge",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bridge.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Artworx",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Battle Chess (clean crack)",
+      "mameName": "btlchess",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\btlchess.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Interplay",
+      "year": "1988",
+      "timesPlayed": "2",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bulla",
+      "mameName": "bulla",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bulla.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Summer 1990 Demo",
+      "mameName": "bwsum90",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bwsum90.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Corrosive Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Beyond Zork",
+      "mameName": "bzork",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\bzork.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Infocom",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Copy II Plus v9.1",
+      "mameName": "c2plus91",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\c2plus91.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Central Point Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Calendar Crafter",
+      "mameName": "calcraft",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\calcraft.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MECC",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "California Games [cracked]",
+      "mameName": "calgames",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\calgames.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "California Demo",
+      "mameName": "calidemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\calidemo.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "GS Alliance",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Captain Blood",
+      "mameName": "captbld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\captbld.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Mindscape",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Where in the USA is Carmen Sandiego?",
+      "mameName": "carmnusa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\carmnusa.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Where in the World is Carmen Sandiego?",
+      "mameName": "carmnwld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\carmnwld.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cavern Cobra (clean crack)",
+      "mameName": "cavcobra",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\cavcobra.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PBI Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cheap Paint v1.4",
+      "mameName": "chppaint",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\chppaint.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Earl Gehr",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Chessmaster 2100 v1.1 (clean crack)",
+      "mameName": "chsm2100",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\chsm2100.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "The Software Toolworks",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cinemaware Dealer Slide Show",
+      "mameName": "cinemwar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\cinemwar.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Cinemaware",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Club Backgammon",
+      "mameName": "clbbgmn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\clbbgmn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "California Dreams",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Le Demo IIgs Cliche",
+      "mameName": "cliche",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\cliche.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "GS<>IRC",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Clip Art Gallery",
+      "mameName": "clipgal",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\clipgal.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cogito",
+      "mameName": "cogito",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\cogito.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brutal Deluxe",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Coke Utilities",
+      "mameName": "cokeutil",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\cokeutil.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "French United Crackers Klan",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Color 'n' Canvas",
+      "mameName": "colrcnvs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\colrcnvs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sunburst Communications",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Color Plus v2.0",
+      "mameName": "colrplus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\colrplus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lynx Computer Products",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Columns v2.0",
+      "mameName": "columns",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\columns.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sound Barrier Systems",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TML Complete Pascal",
+      "mameName": "compascl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\compascl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "TML Systems",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Convert 3200",
+      "mameName": "conv3200",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\conv3200.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brutal Deluxe",
+      "year": "1996",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cosmocade - The Arcade of Tomorrow",
+      "mameName": "cosmocde",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\cosmocde.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Pangea Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cribbage King / Gin king v1.01 (no OS, not self booting) (clean crack)",
+      "mameName": "cribgin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\cribgin.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "The Software Toolworks",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Crystal Quest",
+      "mameName": "crstlqst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\crstlqst.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Cassidy & Greene",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cartooners",
+      "mameName": "crtoonrs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\crtoonrs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Cryllan Mission 2088 - The Second Scenario",
+      "mameName": "crylmsn2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\crylmsn2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Victory Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Cryllan Mission 2088",
+      "mameName": "crylnmsn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\crylnmsn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Victory Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dark Castle",
+      "mameName": "darkcstl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\darkcstl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Three-Sixty Pacific",
+      "year": "1989",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Deja Vu II",
+      "mameName": "dejavu2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dejavu2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Mindscape",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Deja Vu",
+      "mameName": "dejavu",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dejavu.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Mindscape",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Delta Demo",
+      "mameName": "deltadmo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\deltadmo.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Desktop Manager",
+      "mameName": "deskmgr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\deskmgr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "On Three",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Deskpak",
+      "mameName": "deskpak",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\deskpak.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Simple Software Systems",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Destroyer",
+      "mameName": "destryr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\destryr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DE Xmas",
+      "mameName": "dexmas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dexmas.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Digital Exodus",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Downhill Challenge",
+      "mameName": "dhilchl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dhilchl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Disc Commander",
+      "mameName": "disccmdr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\disccmdr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "So What Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Discquest v1.2",
+      "mameName": "discqst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\discqst.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sequential Systems",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Diversisoft",
+      "mameName": "diversft",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\diversft.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Diversified Software Research",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dungeon Master",
+      "mameName": "dngmster",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dngmster.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "FTL",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Defender of the Crown",
+      "mameName": "defcrown",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\defcrown.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Cinemaware",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Deluxe Paint II",
+      "mameName": "dpaint2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dpaint2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Draw Plus",
+      "mameName": "drawplus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\drawplus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Draw Tools v3.1",
+      "mameName": "drawtls",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\drawtls.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Pegasoft",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dream Vision",
+      "mameName": "dreamvsn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dreamvsn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "DreamWorld",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dream Zone",
+      "mameName": "dreamzne",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dreamzne.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Baudville",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dragon Wars",
+      "mameName": "drgnwars",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\drgnwars.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Interplay",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DreamGrafix",
+      "mameName": "drmgrafx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\drmgrafx.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "DreamWorld",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Drive Cleaner",
+      "mameName": "drvclean",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\drvclean.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Designer Prints",
+      "mameName": "dsgnprnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dsgnprnt.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MECC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Designer Puzzles",
+      "mameName": "dsgnpuzl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dsgnpuzl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MECC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Designasaurus",
+      "mameName": "dsgnsrus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dsgnsrus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Designware",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dueling Questions",
+      "mameName": "duelqust",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\duelqust.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Coyote Computing",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "DuelTris",
+      "mameName": "dueltris",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dueltris.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "DreamWorld",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Diversi-Tune",
+      "mameName": "dvrsitne",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dvrsitne.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Diversified Software Research",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Deluxe Write",
+      "mameName": "dwrite",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dwrite.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Design Your Own Home - Architecture",
+      "mameName": "dyoharch",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dyoharch.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Abracadata",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Design Your Own Home - Interiors",
+      "mameName": "dyohint",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dyohint.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Abracadata",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Design Your Own Home - Landscape",
+      "mameName": "dyohlscp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\dyohlscp.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Abracadata",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ECC Demo",
+      "mameName": "eccdemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\eccdemo.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "East Coast Connection",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Electric Crayon",
+      "mameName": "elecrayn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\elecrayn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Polarware",
+      "year": "1999",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Express v2.1",
+      "mameName": "express",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\express.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fantavision",
+      "mameName": "fantavsn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\fantavsn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fast Break",
+      "mameName": "fastbrk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\fastbrk.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Faxination",
+      "mameName": "faxinatn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\faxinatn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Vitesse Software",
+      "year": "1995",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Final Assault",
+      "mameName": "finalass",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\finalass.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Full Metal Planete",
+      "mameName": "fmplanet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\fmplanet.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Infogrames",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Foundation v1.02",
+      "mameName": "fndation",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\fndation.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lunar Productions",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Font Factory v1.3",
+      "mameName": "fntfac13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\fntfac13.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Font Factory v2.0",
+      "mameName": "fntfac20",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\fntfac20.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Formulate",
+      "mameName": "formulte",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\formulte.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fractal Explorer",
+      "mameName": "fractlex",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\fractlex.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Micro Eclat",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Future Shock 3D",
+      "mameName": "fshock3d",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\fshock3d.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Neeka Electronics",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gauntlet",
+      "mameName": "gauntlet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gauntlet.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Mindscape",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GBA Championship Basketball - Two-on-Two",
+      "mameName": "gbabsktb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gbabsktb.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Gamestar / Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Genesys v1.24 Updater",
+      "mameName": "gensy124",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gensy124.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Simple Software Systems International",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Genesys v1.2",
+      "mameName": "gensys12",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gensys12.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Simple Software Systems International",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Genesys v1.3",
+      "mameName": "gensys13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gensys13.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Simple Software Systems International",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Geographic Jigsaw",
+      "mameName": "geojigsw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\geojigsw.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Eclat Micro Products",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Geometry",
+      "mameName": "geometry",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\geometry.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Geo Puzzle USA",
+      "mameName": "geopzusa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\geopzusa.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PC Globe",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Geo Quiz",
+      "mameName": "geoquiz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\geoquiz.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PC Globe",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Global Express Atlas",
+      "mameName": "glbexpat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\glbexpat.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Golden Album - Jazz (for Music Studio)",
+      "mameName": "gldaljaz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gldaljaz.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "M.C.S.",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Golden Album - Rock (for Music Studio)",
+      "mameName": "gldalrck",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gldalrck.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "M.C.S.",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GNO-ME",
+      "mameName": "gnome",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gnome.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Procyon",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gnarly Golf [cracked]",
+      "mameName": "gnrlgolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gnrlgolf.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Fanfare by Britannica",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gold of the Americas",
+      "mameName": "goldamer",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\goldamer.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "SSG",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gold Rush",
+      "mameName": "goldrush",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\goldrush.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Grand Prix Circuit",
+      "mameName": "granprix",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\granprix.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Graphic Exchange",
+      "mameName": "graphex",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\graphex.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Roger Wagner Publishing",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Grizzly Bears",
+      "mameName": "grizbear",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\grizbear.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Advanced Ideas",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Greek Mythology",
+      "mameName": "grkmytho",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\grkmytho.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Graphics Supermarket",
+      "mameName": "grphsmkt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\grphsmkt.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Abracadata",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Graphics Studio",
+      "mameName": "grphstd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\grphstd.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GS Desk Accessories",
+      "mameName": "gsdeskac",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gsdeskac.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Beagle Bros.",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GS Font Editor",
+      "mameName": "gsfonted",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gsfonted.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Beagle Bros.",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GS Invaders v1.0",
+      "mameName": "gsinvd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gsinvd.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "David Ong Tat-Wee",
+      "year": "1994",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "GS Numerics",
+      "mameName": "gsnumrcs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gsnumrcs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Spring Branch Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Graphic Writer III v1.0",
+      "mameName": "gwrit310",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gwrit310.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Graphic Writer III v1.1",
+      "mameName": "gwrit311",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gwrit311.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Graphic Writer III v2.0 Update Disk",
+      "mameName": "gwrit320",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gwrit320.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Graphic Writer III",
+      "mameName": "gwrit3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gwrit3.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "DataPak",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Great Western Shootout",
+      "mameName": "gwshoot",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\gwshoot.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Fanfare by Britannica",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hacker II",
+      "mameName": "hacker2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\hacker2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Halls of Montezuma",
+      "mameName": "hallsmzm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\hallsmzm.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "SSG",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hot & Cool Jazz (for Instant Music)",
+      "mameName": "handcjaz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\handcjaz.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Instant Music",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hardball!",
+      "mameName": "hardball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\hardball.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hostage",
+      "mameName": "hostage",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\hostage.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Mindscape",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "HardPressed v1.02",
+      "mameName": "hrdprsed",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\hrdprsed.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Westcode Software",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hover Blade",
+      "mameName": "hvrblade",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\hvrblade.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MCX",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "HyperCard IIgs v1.1",
+      "mameName": "hypcrdgs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\hypcrdgs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "HyperStudio v2.0",
+      "mameName": "hypstd20",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\hypstd20.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Roger Wagner Publishing",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "HyperStudio v3.1",
+      "mameName": "hypstd31",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\hypstd31.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Roger Wagner Publishing",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Iconix",
+      "mameName": "iconix",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\iconix.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "So What Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Infolab Chemistry",
+      "mameName": "ilabchem",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\ilabchem.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Clifford West & Ramon Zamora",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Infolab Life Science",
+      "mameName": "ilablife",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\ilablife.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Clifford West & Ramon Zamora",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Immortal",
+      "mameName": "immortal",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\immortal.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Impossible Mission II",
+      "mameName": "impmiss2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\impmiss2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Independence",
+      "mameName": "independ",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\independ.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Instrument Designer",
+      "mameName": "instdes",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\instdes.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PyWare",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Instant Music",
+      "mameName": "instmus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\instmus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Instant Synthesizer",
+      "mameName": "instsynt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\instsynt.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "It's Only Rock'n'Roll (for Instant Music)",
+      "mameName": "iorock",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\iorock.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jam Session",
+      "mameName": "jamsessn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\jamsessn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "John Elway's Quarterback",
+      "mameName": "jelwayqb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\jelwayqb.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Melbourne House",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jigsaw",
+      "mameName": "jigsaw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\jigsaw.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Britannica Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jack Nicklaus Greatest 18 Holes of Major Championship Golf",
+      "mameName": "nicklaus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\nicklaus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jungle Safari",
+      "mameName": "jnglsfri",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\jnglsfri.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kaleidokubes",
+      "mameName": "kalkubes",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kalkubes.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Artworx",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kangeroo v1.3",
+      "mameName": "kangr13",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kangr13.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kangeroo v1.5 (French)",
+      "mameName": "kangr15f",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kangr15f.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Katie's Farm",
+      "mameName": "katiefrm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\katiefrm.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lawrence Productions",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Keef the Thief [cracked]",
+      "mameName": "keef",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\keef.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Naughty Dog / Electronic Arts",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kidstime II",
+      "mameName": "kidstim2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kidstim2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Great Wave Software",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kid Talk",
+      "mameName": "kidtalk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kidtalk.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "First Byte",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kid Writer Gold",
+      "mameName": "kidwritr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kidwritr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Spinnaker Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kinderama",
+      "mameName": "kindrama",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kindrama.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "King of Chicago",
+      "mameName": "kingchgo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kingchgo.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Cinemaware",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "King's Quest",
+      "mameName": "kingqst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kingqst.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "King's Quest II - Romancing The Throne",
+      "mameName": "kingqst2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kingqst2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "King's Quest III",
+      "mameName": "kingqst3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kingqst3.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "King's Quest IV",
+      "mameName": "kingqst4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\kingqst4.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Last Rites Demo",
+      "mameName": "lastrite",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lastrite.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Corrosive Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Life & Death",
+      "mameName": "lifedeth",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lifedeth.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "The Software Toolworks",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Life Guard",
+      "mameName": "lifegrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lifegrd.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Harbor Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lisa816 v5.433",
+      "mameName": "lisa816",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lisa816.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Hal Labs",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "List Plus",
+      "mameName": "listplus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\listplus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Land of the Unicorn",
+      "mameName": "lndunicn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lndunicn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Logowriter GS",
+      "mameName": "logowrgs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\logowrgs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Logo Computer Systems",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Lost Tribe",
+      "mameName": "lostribe",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lostribe.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lawrence Productions",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Learning Spoken English",
+      "mameName": "lrnspeng",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lrnspeng.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Coursemaker International",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Leisure Suit Larry in the Land of the Lounge Lizards",
+      "mameName": "lslarry",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lslarry.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Laser Force",
+      "mameName": "lsrforce",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lsrforce.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Fanfare by Britannica",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Last Ninja (clean crack)",
+      "mameName": "lstninja",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\lstninja.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Micol Advanced BASIC v3.0",
+      "mameName": "mabas30",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mabas30.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Micol Systems",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Micol Advanced BASIC v4.2",
+      "mameName": "mabas42",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mabas42.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Micol Systems",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Macs Headroom",
+      "mameName": "macshr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\macshr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Imperial Guild Kansas",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mad Match",
+      "mameName": "madmatch",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\madmatch.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Baudville",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Micol Advanced BASIC v5.0",
+      "mameName": "madvbas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\madvbas.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Micol Systems",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Magic Johnson's Basketball (unreleased)",
+      "mameName": "magicjhn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\magicjhn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Melbourne House",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Magical Myths",
+      "mameName": "magicmth",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\magicmth.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mancala",
+      "mameName": "mancala",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mancala.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "California Dreams",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Manhunter: New York [cracked]",
+      "mameName": "manhuntr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\manhuntr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Le Manoir de Mortevielle",
+      "mameName": "mortviel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mortviel.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lankhor",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Marble Madness",
+      "mameName": "marble",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\marble.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Math Blaster Plus!",
+      "mameName": "mathblst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mathblst.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Davidson and Associates",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Math and Me",
+      "mameName": "mathnme",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mathnme.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Davidson and Associates",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mathtalk",
+      "mameName": "mathtalk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mathtalk.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "First Byte",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mathtalk Fractions",
+      "mameName": "mathtkfr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mathtkfr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "First Byte",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mavis Beacon Teaches Typing",
+      "mameName": "mavisbcn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mavisbcn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "The Software Toolworks",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mazer II",
+      "mameName": "mazer2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mazer2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Big Red Computer Club",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "McGee At The Fun Fair",
+      "mameName": "mcgeeff",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mcgeeff.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lawrence Productions",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "McGee",
+      "mameName": "mcgee",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mcgee.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lawrence Productions",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Composer",
+      "mameName": "mcompos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mcompos.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "W. Juniel Clayburn III",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Construction Set",
+      "mameName": "mcs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mcs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1996",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MD-BASIC v1.1",
+      "mameName": "mdbasc11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mdbasc11.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Morgan Davis Group",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MD-BASIC v3.2",
+      "mameName": "mdbasc32",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mdbasc32.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Morgan Davis Group",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mean 18",
+      "mameName": "mean18",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mean18.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Medley v2.0",
+      "mameName": "medley",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\medley.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Milliken Publishing",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mercury",
+      "mameName": "mercury",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mercury.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MECC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Merlin 16+ v4.68",
+      "mameName": "merlin16",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\merlin16.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Roger Wagner Publishing",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mini Putt - The Ultimate Challenge",
+      "mameName": "miniputt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\miniputt.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mighty Marvel vs. The Forces of Evil",
+      "mameName": "mmarvel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mmarvel.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "ISM",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mixed Up Mother Goose",
+      "mameName": "mmmgoose",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mmmgoose.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Modulae",
+      "mameName": "modulae",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\modulae.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Monte Carlo",
+      "mameName": "monte",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\monte.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PBI Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Milestones 2000",
+      "mameName": "ms2000",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\ms2000.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Ken Franklin",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MS-DOS Tools v2.21",
+      "mameName": "msdostl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\msdostl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Peter Watson",
+      "year": "1994",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Studio Songs (for Music Studio)",
+      "mameName": "mssongs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mssongs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "<unknown>",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Milliken Story Teller",
+      "mameName": "mstrytel",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mstrytel.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Milliken Publishing",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Math Wizard",
+      "mameName": "mthwizrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mthwizrd.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Master Tracks Junior",
+      "mameName": "mtrksjr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mtrksjr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Passport Designs",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Master Tracks Pro",
+      "mameName": "mtrkspro",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mtrkspro.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Passport Designs",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Studio 2.0",
+      "mameName": "musstdio",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\musstdio.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Writer Pro v1.42",
+      "mameName": "muswrpro",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\muswrpro.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PyWare",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Writer v2",
+      "mameName": "muswrv2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\muswrv2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PyWare",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "My Paint",
+      "mameName": "mypaint",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mypaint.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Saddleback Graphics",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mr. Py and I",
+      "mameName": "mypyni",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\mypyni.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Pygraphics",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "National Geographic Kids Network",
+      "mameName": "natgeokn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\natgeokn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "National Geographic Society",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Neuromancer",
+      "mameName": "neuromnc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\neuromnc.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Interplay",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Newspaper Maker",
+      "mameName": "newspmkr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\newspmkr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nexus",
+      "mameName": "nexus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\nexus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Datasmith",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "NFC Megademo",
+      "mameName": "nfcmega",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\nfcmega.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "NinjaForce",
+      "year": "1997",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Notes 'n' Files",
+      "mameName": "notefile",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\notefile.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Datapak Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nathan Page Studio Jazz (for Diversi-Tune)",
+      "mameName": "npagjazz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\npagjazz.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Nathan Hugo's Music",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "NoiseTracker GS",
+      "mameName": "ntgs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\ntgs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Nucleus",
+      "mameName": "nucleus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\nucleus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Oil Landers",
+      "mameName": "oillandr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\oillandr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Omega",
+      "mameName": "omega",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\omega.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Origin Systems",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Once Upon A Time II",
+      "mameName": "onceuat2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\onceuat2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Compu-Teach",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Once Upon A Time III",
+      "mameName": "onceuat3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\onceuat3.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Compu-Teach",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Once Upon A Time",
+      "mameName": "onceuat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\onceuat.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Compu-Teach",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "One Arm Battle",
+      "mameName": "onearm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\onearm.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Ken Franklin",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Paint 256",
+      "mameName": "paint256",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\paint256.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Godfreys Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Paperboy",
+      "mameName": "paperboy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\paperboy.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Mindscape",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Passengers on the Wind",
+      "mameName": "passengr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\passengr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Infogrames",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Photonix II v2.3",
+      "mameName": "photonx2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\photonx2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association / Toolbox",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pick 'n Pile",
+      "mameName": "pickpile",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pickpile.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Procyon",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Picture Ripper",
+      "mameName": "picripr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\picripr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Ninja Force",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pinball Wizard",
+      "mameName": "pinballw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pinballw.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pipe Dream (clean crack)",
+      "mameName": "pipedrm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pipedrm.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lucasfilm Games",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pirates!",
+      "mameName": "pirates",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pirates.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Microprose",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Platinum Paint v1.0.1",
+      "mameName": "platpnt1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\platpnt1.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Beagle Bros.",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Platinum Paint v2.0",
+      "mameName": "platpnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\platpnt.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Beagle Bros.",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Plotting",
+      "mameName": "plotting",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\plotting.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Once Product",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Plunder",
+      "mameName": "plunder",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\plunder.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Ken Franklin",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "PMP UnZip",
+      "mameName": "pmpunzip",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pmpunzip.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Paul Parkhurst",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Project Neptune (unreleased)",
+      "mameName": "pneptune",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pneptune.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Panzer Battles",
+      "mameName": "pnzrbtls",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pnzrbtls.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "SSG",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Police Quest",
+      "mameName": "pquest",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pquest.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Poly Sons 5",
+      "mameName": "polysons",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\polysons.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Babar de Saint Cyr",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Postcards",
+      "mameName": "postcrds",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\postcrds.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Print Shop",
+      "mameName": "printshp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\printshp.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Prism",
+      "mameName": "prism",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\prism.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "New Concepts",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Print Shop Companion",
+      "mameName": "prntshcm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\prntshcm.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Probe GS",
+      "mameName": "probegs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\probegs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "KPW Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ProSel-16",
+      "mameName": "prosel16",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\prosel16.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Glen E. Bredon",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ProSel-16 v8.40",
+      "mameName": "psel1684",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\psel1684.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Glen E. Bredon",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ProSel-16 v8.9",
+      "mameName": "psel1689",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\psel1689.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Glen E. Bredon",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Print Shop Graphics Library - Border",
+      "mameName": "psglbrdr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\psglbrdr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Print Shop Graphics Library - Party Library",
+      "mameName": "psglprty",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\psglprty.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Print Shop Graphics Library - Sampler Edition",
+      "mameName": "psglsamp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\psglsamp.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Print Shop Graphics Library - Special Edition",
+      "mameName": "psglse",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\psglse.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Print Shop InCider Data",
+      "mameName": "psincidr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\psincidr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Print Shop Lovers Utility Set",
+      "mameName": "pslutil",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pslutil.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Big Red Computer Club",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Puzznic (unreleased)",
+      "mameName": "puzznic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\puzznic.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Taito",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Paintworks Gold v1.0 [cr Digital Gang]",
+      "mameName": "pwgold10",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pwgold10.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Paintworks Gold v1.5",
+      "mameName": "pwksgold",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pwksgold.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Paintworks Plus",
+      "mameName": "pwplus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\pwplus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Qix",
+      "mameName": "qix",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\qix.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Taito",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Quest for the Hoard",
+      "mameName": "qsthoard",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\qsthoard.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Pegasoft",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Questmaster 1 - The Prism of Heheutotol",
+      "mameName": "qstmstr1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\qstmstr1.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Miles Computing",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Questron II",
+      "mameName": "qustron2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\qustron2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "SSI",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rade",
+      "mameName": "rade",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\rade.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Morgan Davis Group",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rastan [cr East Coast Connection]",
+      "mameName": "rastana",
+      "parentName": "rastan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\rastan.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Taito",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rastan [cr Computist Magazine][t lives]",
+      "mameName": "rastan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\rastan.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Taito",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Reach for the Stars",
+      "mameName": "rchstars",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\rchstars.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "SSG",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Readable Classic Tales",
+      "mameName": "readable",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\readable.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Read-a-Rama",
+      "mameName": "readarma",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\readarma.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Reader Rabbit",
+      "mameName": "readerrb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\readerrb.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "The Learning Company",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Reading About Fish",
+      "mameName": "readfish",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\readfish.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Reading Magic",
+      "mameName": "readmagc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\readmagc.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Tom Snyder Productions",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Reading About Reptiles",
+      "mameName": "readrept",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\readrept.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Read & Rhyme",
+      "mameName": "readrhym",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\readrhym.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Hunt for Red October",
+      "mameName": "redoctbr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\redoctbr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "The Software Toolworks",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Revolution '76",
+      "mameName": "revo76",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\revo76.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Britannica Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rocket Ranger",
+      "mameName": "rktrangr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\rktrangr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Cinemaware",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Roadwar 2000",
+      "mameName": "roadwr2k",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\roadwr2k.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "SSI",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Runaway Robots",
+      "mameName": "rrobots",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\rrobots.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PBI Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Revenge of the Bobs",
+      "mameName": "rvgbobs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\rvgbobs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "NinjaForce",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Apple IIgs Sales Demo",
+      "mameName": "salesdmo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\salesdmo.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Salvation Supreme",
+      "mameName": "salvatns",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\salvatns.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Vitesse Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Secrets of Bahras [cr Club 96]",
+      "mameName": "sbahras",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sbahras.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Victory Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sea Strike",
+      "mameName": "seastrke",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\seastrke.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PBI Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sensei",
+      "mameName": "sensei",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sensei.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Miami Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Shanghai",
+      "mameName": "shanghai",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\shanghai.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Harrier Demo",
+      "mameName": "shardemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\shardemo.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Shufflepuck Cafe (unreleased)",
+      "mameName": "shflpuck",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\shflpuck.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Shanghai II - Dragon's Eye",
+      "mameName": "shangha2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\shangha2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Big Red Computer Club",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Shoebox v1.1",
+      "mameName": "shoebox",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\shoebox.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Show Off",
+      "mameName": "showoff",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\showoff.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brderbund",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sierra Games Demo",
+      "mameName": "sierra",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sierra.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Signature GS",
+      "mameName": "signatre",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\signatre.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Quality Computers",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Silpheed",
+      "mameName": "silpheed",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\silpheed.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sinbad and the Throne of the Falcon",
+      "mameName": "sinbad",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sinbad.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Cinemaware",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Six Pack",
+      "mameName": "sixpack",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sixpack.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Quality Computers",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Skate Or Die!",
+      "mameName": "skatedie",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\skatedie.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Silent Service",
+      "mameName": "slntsvce",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\slntsvce.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Microprose",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Solitaire Royale",
+      "mameName": "sltroyal",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sltroyal.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Spectrum Holobyte",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Smart Money v1.5",
+      "mameName": "smartmny",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\smartmny.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Smoothtalker (French)",
+      "mameName": "smthtkfr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\smthtkfr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "First Byte",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Smoothtalker",
+      "mameName": "smthtlkr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\smthtlkr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "First Byte",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SoundSmith",
+      "mameName": "sndsmith",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sndsmith.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Huibert Aalbars",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Snoopy's Reading Machine",
+      "mameName": "snoopyrm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\snoopyrm.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "School Publishing Company",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soft Switch",
+      "mameName": "softswtc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\softswtc.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Roger Wagner Publishing",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Solarian",
+      "mameName": "solarian",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\solarian.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Coloreez",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sonix v1.2",
+      "mameName": "sonix",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sonix.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "So What Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Ace",
+      "mameName": "spaceace",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spaceace.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "ReadySoft",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Cluster",
+      "mameName": "spaclstr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spaclstr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Miami Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Quest II - Vohaul's Revenge",
+      "mameName": "spquest2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spquest2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Quest",
+      "mameName": "spquest",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spquest.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Shark",
+      "mameName": "spacshrk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spacshrk.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Toolbox",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spectra Graphix Super Music",
+      "mameName": "specsmus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\specsmus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lynx Computer Products",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spectra Grafix 256",
+      "mameName": "spectgfx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spectgfx.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lynx Computer Products",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spelling Bee",
+      "mameName": "spellbee",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spellbee.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "First Byte",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Splat! v1.04",
+      "mameName": "splat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\splat.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Procyon",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Spirit of Excalibur",
+      "mameName": "spofexcl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spofexcl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Virgin Mastertronic",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Award Maker",
+      "mameName": "sprawmkr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sprawmkr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Shuttle Word Problems",
+      "mameName": "spshtlwr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spshtlwr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SoundSmith Data (songs for SoundSmith)",
+      "mameName": "ssdata",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\ssdata.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "<unknown>",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Superstar Ice Hockey (clean crack)",
+      "mameName": "sshockey",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sshockey.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Mindscape",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "FUN Instruments vols. 1-5 (for SoundSmith)",
+      "mameName": "ssinsts",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\ssinsts.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Huibert Aalbers",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "SoundSmith Christmas Songs",
+      "mameName": "ssxmas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\ssxmas.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "<unknown>",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Saga: One - Beyond the Boundary",
+      "mameName": "starsg1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\starsg1.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Masterplay",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Saga: Two - The Clathran Menace",
+      "mameName": "starsg2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\starsg2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Masterplay",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Stickybear Talking ABCs",
+      "mameName": "stbrtabc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\stbrtabc.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Weekly Reader Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Stickybear Talking Opposites",
+      "mameName": "stbrtopp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\stbrtopp.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Weekly Reader Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Stickybear Talking Shapes",
+      "mameName": "stbrtshp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\stbrtshp.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Weekly Reader Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Strategic Conquest",
+      "mameName": "strcnqst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\strcnqst.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PBI Software",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Strip Poker II",
+      "mameName": "spoker2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\spoker2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Artworx",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Street Sports Soccer",
+      "mameName": "strsoccr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\strsoccr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Stars & Planets",
+      "mameName": "strsplnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\strsplnt.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Advanced Ideas",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Storybook Viewer",
+      "mameName": "strybkwv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\strybkwv.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MECC",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Storybook Weaver World of Make Believe",
+      "mameName": "strywvmb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\strywvmb.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MECC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Storybook Weaver World of Adventure",
+      "mameName": "strywvwa",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\strywvwa.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MECC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sub Battle Simulator",
+      "mameName": "subbatl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\subbatl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Subversion v1.0",
+      "mameName": "subvrsn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\subvrsn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Point of View Computing",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Convert 4",
+      "mameName": "supconv4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\supconv4.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Menu Pack",
+      "mameName": "supmnpak",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\supmnpak.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Puzzles",
+      "mameName": "suprpzls",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\suprpzls.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Lynx Computer Products",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Softwood GSFile v2.0",
+      "mameName": "swgsfile",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\swgsfile.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Softwood Company",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Switch-It!",
+      "mameName": "switchit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\switchit.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Procyon",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Symbolix v1.9",
+      "mameName": "symbolix",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\symbolix.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "System Software v1.1",
+      "mameName": "sys11",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sys11.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "System Software v3.1",
+      "mameName": "sys31",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sys31.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "System Software v3.2",
+      "mameName": "sys32",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sys32.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "System Software v4.0",
+      "mameName": "sys40",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sys40.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "System Software v5.0.2",
+      "mameName": "sys502",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sys502.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "sys504",
+      "mameName": "sys504",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sys504.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "sys601",
+      "mameName": "sys601",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\sys601.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1993",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking First Dinosaur Reader",
+      "mameName": "talk1dno",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talk1dno.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking First Reader",
+      "mameName": "talk1rdr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talk1rdr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking First Words",
+      "mameName": "talk1wrd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talk1wrd.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking First Writer",
+      "mameName": "talk1wrt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talk1wrt.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking ABCs",
+      "mameName": "talkabcs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkabcs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Alpha Chimp",
+      "mameName": "talkachm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkachm.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Addition & Subtraction",
+      "mameName": "talkadsb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkadsb.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Animals",
+      "mameName": "talkanml",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkanml.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Clock",
+      "mameName": "talkclck",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkclck.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Colors and Shapes",
+      "mameName": "talkclsh",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkclsh.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Classroom",
+      "mameName": "talkclsr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkclsr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Dinosaurs",
+      "mameName": "talkdino",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkdino.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Money",
+      "mameName": "talkmony",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkmony.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Multiplication & Division",
+      "mameName": "talkmuld",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkmuld.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Numbers",
+      "mameName": "talknumb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talknumb.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Reading Railroad",
+      "mameName": "talkrail",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkrail.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking School Bus",
+      "mameName": "talksbus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talksbus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Speller II",
+      "mameName": "talkspl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talkspl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Talking Tools",
+      "mameName": "talktool",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\talktool.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "The Byte Works",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "tarot",
+      "mameName": "tarot",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tarot.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Toolbox",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Task Force [cr DreamWorld Society][t health]",
+      "mameName": "taskfrce",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\taskfrce.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Fanfare by Britannica Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tass Times in Tonetown",
+      "mameName": "tastimes",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tastimes.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Toolbox Mag #1",
+      "mameName": "tboxmag1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tboxmag1.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Toolbox",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Toolbox Mag #2",
+      "mameName": "tboxmag2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tboxmag2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Toolbox",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Toolbox Mag #3",
+      "mameName": "tboxmag3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tboxmag3.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Toolbox",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Toolbox Mag #4",
+      "mameName": "tboxmag4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tboxmag4.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Toolbox",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Toolbox Mag #5",
+      "mameName": "tboxmag5",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tboxmag5.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Toolbox",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Toolbox Mag #6",
+      "mameName": "tboxmag6",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tboxmag6.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Toolbox",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Toolbox Mag #7",
+      "mameName": "tboxmag7",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tboxmag7.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Toolbox",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Test Drive II: The Duel [cr The Torcher Chamber]",
+      "mameName": "td2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\td2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Teenage Queen",
+      "mameName": "teenqn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\teenqn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Infogrames",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Teleworks Plus",
+      "mameName": "telework",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\telework.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tetris",
+      "mameName": "tetris",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tetris.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Spectrum Holobyte",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Beam",
+      "mameName": "thebeam",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\thebeam.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Chemical Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Gate",
+      "mameName": "thegate",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\thegate.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Manager v1.2",
+      "mameName": "themgr12",
+      "parentName": "themgr15",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\themgr15.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Manager v1.5",
+      "mameName": "themgr15",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\themgr15.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Thexder v2.7 (clean crack)",
+      "mameName": "thexder",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\thexder.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Thexder v1 (no OS, not self booting) (clean crack)",
+      "mameName": "thexdero",
+      "parentName": "thexder",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\thexder.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Sierra",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Third Courier",
+      "mameName": "thrdcrir",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\thrdcrir.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Accolade",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Timelord (demo)",
+      "mameName": "timelord",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\timelord.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "DreamWorld",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Tinies",
+      "mameName": "tinies",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tinies.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Brutal Deluxe",
+      "year": "1994",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TML BASIC",
+      "mameName": "tmlbasic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tmlbasic.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "TML Systems",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TML Pascal II",
+      "mameName": "tmlpasc2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tmlpasc2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "TML Systems",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tomahawk [cr The Gryphon]",
+      "mameName": "tomahawk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tomahawk.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Datasoft",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Top Draw",
+      "mameName": "topdraw",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\topdraw.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Styleware",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Your Tour of the Apple IIgs (revised, beta)",
+      "mameName": "tourbeta",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tourbeta.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Your Tour of the Apple IIgs (original)",
+      "mameName": "tourv1",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tourv1.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Your Tour of the Apple IIgs (revised)",
+      "mameName": "tour",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tour.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Apple Computer, Inc.",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Trans Prog III",
+      "mameName": "transprg",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\transprg.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Seven Hills Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TrianGO",
+      "mameName": "triango",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\triango.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "California Dreams",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Transylvania III",
+      "mameName": "transyl3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\transyl3.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Polarware",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Transylvania",
+      "mameName": "transyl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\transyl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Polarware",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "TTC Demo",
+      "mameName": "ttcdemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\ttcdemo.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "TTC",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tunnels of Armageddon",
+      "mameName": "tunarmg",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\tunarmg.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "California Dreams",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Twilight II v1.1",
+      "mameName": "twilght2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\twilght2.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "DYA",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Tower of Myraglen",
+      "mameName": "twrmyrgl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\twrmyrgl.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PBI Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Typing Tutor IV",
+      "mameName": "typtutor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\typtutor.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Simon & Schuster",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Ugly Duckling",
+      "mameName": "uglyduck",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\uglyduck.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "The Byte Works",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "UniDOS 3.3 Plus v2.0.1",
+      "mameName": "unidos33p",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\unidos33p.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Microsparc, Inc.",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "UniDOS Plus v2.1",
+      "mameName": "unidosplus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\unidosplus.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Microsparc, Inc.",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Uninvited [cr The Torcher Chamber]",
+      "mameName": "uninvite",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\uninvite.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Mindscape",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Universe Master v1.01",
+      "mameName": "univmstr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\univmstr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Econ Technologies",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "USA Geography",
+      "mameName": "usageogr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\usageogr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MECC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Utility Works",
+      "mameName": "utilwks",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\utilwks.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "George R. Wilde",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Vegas Craps",
+      "mameName": "vgscraps",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\vgscraps.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "California Dreams",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Vindicators (unreleased)",
+      "mameName": "vindctrs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\vindctrs.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Tengen / Atari Games",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Virus M.D. v2.1",
+      "mameName": "virusmd",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\virusmd.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Morgan Davis Group",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Visualizer v1.08",
+      "mameName": "visulizr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\visulizr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "PBI Software",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Volcanoes Deluxe",
+      "mameName": "vlcnodlx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\vlcnodlx.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Earthwave Services",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Warlock",
+      "mameName": "warlock",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\warlock.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Three-Sixty Pacific",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "War in Middle Earth",
+      "mameName": "warmidle",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\warmidle.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Melbourne House",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Writer's Choice Elite",
+      "mameName": "wcelite",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\wcelite.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Activision",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Whales",
+      "mameName": "whales",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\whales.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Advanced Ideas",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Windwalker [cr Club 96]",
+      "mameName": "windwlkr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\windwlkr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Origin Systems",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Wings",
+      "mameName": "wings",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\wings.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Vitesse Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "World Games",
+      "mameName": "wldgames",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\wldgames.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "World Tour Golf",
+      "mameName": "wltrgolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\wltrgolf.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Winter Games",
+      "mameName": "wingames",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\wingames.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Epyx",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Word Master",
+      "mameName": "wordmstr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\wordmstr.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Unicorn Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "WordPerfect v2.1",
+      "mameName": "wordpfct",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\wordpfct.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "WordPerfect Corp.",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "World Geograph",
+      "mameName": "worldgeo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\worldgeo.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "MECC",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Weather Forecast",
+      "mameName": "wxforcst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\wxforcst.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Weather Station",
+      "mameName": "wxstatn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\wxstatn.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Orange Cherry",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Xenocide",
+      "mameName": "xenocide",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\xenocide.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Pangea Software / Micro Revelations",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Xmas Demo",
+      "mameName": "xmasdemo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\xmasdemo.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Free Tools Association / GS Alliance",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zany Golf",
+      "mameName": "zanygolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\zanygolf.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Electronic Arts",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ZZ Copy v2.21",
+      "mameName": "zzcopy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\apple2gs\\zzcopy.7z",
+      "emulatorName": "MAME Apple IIgs (ROM03) -SOFTLIST apple2gs",
+      "companyName": "Miami Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

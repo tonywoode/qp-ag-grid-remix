@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Eleven Beat",
+      "mameName": "11beat",
+      "path": "{gamesDir}\\MAME\\ROMS\\11beat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Hudson",
+      "year": "1998",
+      "gameType": "Sports / Soccer",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Kick Boy",
+      "mameName": "kickboy",
+      "path": "{gamesDir}\\MAME\\ROMS\\kickboy.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nichibutsu",
+      "year": "1983",
+      "gameType": "Maze / Shooter Small",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Sogeki (ver JAA)",
+      "mameName": "sogeki",
+      "parentName": "sscopex",
+      "path": "{gamesDir}\\MAME\\CHDs\\sscopex\\a13b02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Silent Scope (ver xxD, Ver 1.33)",
+      "mameName": "sscope",
+      "path": "{gamesDir}\\MAME\\ROMS\\sscope.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Silent Scope 2 : Dark Silhouette (ver UAD)",
+      "mameName": "sscope2",
+      "path": "{gamesDir}\\MAME\\ROMS\\sscope2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Silent Scope (ver xxA, Ver 1.00)",
+      "mameName": "sscopea",
+      "parentName": "sscope",
+      "path": "{gamesDir}\\MAME\\ROMS\\sscope.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Silent Scope (ver xxB, Ver 1.20)",
+      "mameName": "sscopeb",
+      "parentName": "sscope",
+      "path": "{gamesDir}\\MAME\\ROMS\\sscope.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Silent Scope (ver xxC, Ver 1.30)",
+      "mameName": "sscopec",
+      "parentName": "sscope",
+      "path": "{gamesDir}\\MAME\\ROMS\\sscope.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2000",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Silent Scope Fortune Hunter",
+      "mameName": "sscopefh",
+      "path": "{gamesDir}\\MAME\\CHDs\\sscopefh\\ccca02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2002",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Silent Scope EX (ver UAA)",
+      "mameName": "sscopex",
+      "path": "{gamesDir}\\MAME\\CHDs\\sscopex\\a13c02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

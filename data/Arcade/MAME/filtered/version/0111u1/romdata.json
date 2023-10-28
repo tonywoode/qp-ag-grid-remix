@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Moon War (prototype on Frenzy hardware)",
+      "mameName": "moonwarp",
+      "path": "{gamesDir}\\MAME\\ROMS\\moonwarp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Stern Electronics",
+      "year": "1981",
+      "gameType": "Shooter / Flying",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Puzz Loop 2 (Euro 010302)",
+      "mameName": "pzloop2",
+      "path": "{gamesDir}\\MAME\\ROMS\\pzloop2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mitchell (Capcom license)",
+      "year": "2001",
+      "gameType": "Puzzle / Toss",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

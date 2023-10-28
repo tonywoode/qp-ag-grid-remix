@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Ace Driver: Racing Evolution (Rev. AD2)",
+      "mameName": "acedrvrw",
+      "path": "{gamesDir}\\MAME\\ROMS\\acedrvrw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1994",
+      "gameType": "Driving / Race 1st Person",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Ace Driver: Victory Lap (Rev. ADV2)",
+      "mameName": "victlapw",
+      "path": "{gamesDir}\\MAME\\ROMS\\victlapw.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1996",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

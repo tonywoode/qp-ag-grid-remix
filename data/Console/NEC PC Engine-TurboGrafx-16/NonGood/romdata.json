@@ -1,0 +1,1311 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "256-Colour Slideshow by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\256-Colour Slideshow by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4 channel PCM driver v1.05 (2010)(Tomaitheous)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\4 channel PCM driver v1.05 (2010)(Tomaitheous).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "512-Colour Test by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\512-Colour Test by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Air_Zonk_WF_view",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Air_Zonk_WF_view.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aldynes (1991)(Hudson Soft)(Jp)[b2]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Aldynes (1991)(Hudson Soft)(Jp)[b2].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "animated demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\animated demo.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Axelay 1 Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Axelay 1 Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Axelay BG Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Axelay BG Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Axelay Clouds Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Axelay Clouds Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Axelay FG Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Axelay FG Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Axelay SuperGrafx Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Axelay SuperGrafx Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battle Ace (J) (SGX) (J-CheatMenu)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Battle Ace (J) (SGX) (J-CheatMenu).zip",
+      "emulatorName": "RetroArch NEC PC Engine SuperGrafx (Mednafen/Beetle SGX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bbpce-attract",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\bbpce-attract.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bg2 Tomaitheous '06",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\bg2 Tomaitheous '06.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bg2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\bg2.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bg3 Tomaitheous '06",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\bg3 Tomaitheous '06.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "bg3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\bg3.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "blur_and_water_effects - blur1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\blur_and_water_effects - blur1.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "blur_and_water_effects - blur2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\blur_and_water_effects - blur2.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "blur_and_water_effects - water1a",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\blur_and_water_effects - water1a.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "blur_and_water_effects - water2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\blur_and_water_effects - water2.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "blur_and_water_effects - water3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\blur_and_water_effects - water3.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "blur_effects 1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\blur_effects 1.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "blur_effects 2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\blur_effects 2.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Raster Car Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Bomberman Raster Car Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Raster CDROM Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Bomberman Raster CDROM Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Raster Grid Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Bomberman Raster Grid Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Raster Strider1 Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Bomberman Raster Strider1 Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Raster Strider2 Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Bomberman Raster Strider2 Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomberman Raster Strider3 Demo by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Bomberman Raster Strider3 Demo by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubblegum Crash! - Knight Sabers 2034 (J) [tr En1.0_Dave Shadoff&others]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Bubblegum Crash! - Knight Sabers 2034 (J) [tr En1.0_Dave Shadoff&others].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cardangels Girls SlideShow by Raph99 (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Cardangels Girls SlideShow by Raph99 (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "cf2editor",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\cf2editor.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chew Man Fu (U) [T+Spa_lukas]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Chew Man Fu (U) [T+Spa_lukas].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "CHEW-MAN-FU (U) [T+Fre_generation IX]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\CHEW-MAN-FU (U) [T+Fre_generation IX].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "chuckrock music",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\chuckrock music.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Circus Lido (J) [T+Rus0.7_Cool-Spot]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Circus Lido (J) [T+Rus0.7_Cool-Spot].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Columns (J) [T+Rus by Multisoft]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Columns (J) [T+Rus by Multisoft].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dai makai mura (SGX) Debug menu",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Dai makai mura (SGX) Debug menu.zip",
+      "emulatorName": "RetroArch NEC PC Engine SuperGrafx (Mednafen/Beetle SGX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Daimakaimura (J) (SGX) (J-Debug)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Daimakaimura (J) (SGX) (J-Debug).zip",
+      "emulatorName": "RetroArch NEC PC Engine SuperGrafx (Mednafen/Beetle SGX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Damage Tracker Version 1.00 by DamageX (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Damage Tracker Version 1.00 by DamageX (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dead Moon - Tsuki Sekai no Akumu (J) [T-BR] {T-Lhotian G-Romhack BR}{100%}{2001}",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Dead Moon - Tsuki Sekai no Akumu (J) [T-BR] {T-Lhotian G-Romhack BR}{100%}{2001}.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Die Hard (J) [T+Eng_Spinner 8]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Die Hard (J) [T+Eng_Spinner 8].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "DMP3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\DMP3.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "downland_v001",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\downland_v001.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "downland_v002",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\downland_v002.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "downland_v003",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\downland_v003.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "downland_v004",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\downland_v004.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon's Curse (U) [h1] [T+Spa100_Pkt]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Dragon's Curse (U) [h1] [T+Spa100_Pkt].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon's Curse (U) [h1] [T+Spa100_Umb]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Dragon's Curse (U) [h1] [T+Spa100_Umb].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon's Curse (U) [T+Spa100_Umb]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Dragon's Curse (U) [T+Spa100_Umb].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Enshoku (beta) (2005)(TJ Edmister)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Enshoku (beta) (2005)(TJ Edmister).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Enshoku by TJ Edmister and Mike",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Enshoku by TJ Edmister and Mike.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FireTag V.01 [PD]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\FireTag V.01 [PD].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fractal Engine v1.0 by Chris Covell",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Fractal Engine v1.0 by Chris Covell.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gaia no Monshou (J) [tr Eng 1.0e Mr D.] (no GoodPCE insert mr. Cowering plz. It is FORBIDDEN)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Gaia no Monshou (J) [tr Eng 1.0e Mr D.] (no GoodPCE insert mr. Cowering plz. It is FORBIDDEN).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Girls From Quiz Toukou Shashin by Raph99 (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Girls From Quiz Toukou Shashin by Raph99 (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gomola Speed (J) [!]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Gomola Speed (J) [!].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gradius (J) [T+Fre_terminus]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Gradius (J) [T+Fre_terminus].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gradius (J) [Tr Fr1.0 Terminus]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Gradius (J) [Tr Fr1.0 Terminus].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Greyscale Mode Test for PCE by by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Greyscale Mode Test for PCE by by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gunstar",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Gunstar.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hidden PC-Engine Pics",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Hidden PC-Engine Pics.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "HiRes Slideshow by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\HiRes Slideshow by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Humpball 1.0 (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Humpball 1.0 (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jackie Chan's Action Kung-Fu (R) [T+Rus_Mario Soft]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Jackie Chan's Action Kung-Fu (R) [T+Rus_Mario Soft].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "J-IDOLS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\J-IDOLS.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jyuohki (h_T)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Jyuohki (h_T).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "KEITH COURAGE IN ALPHA ZONES (U) [T+Fre_generation IX BETA]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\KEITH COURAGE IN ALPHA ZONES (U) [T+Fre_generation IX BETA].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Keith Courage in Alpha Zones (U) [T+Gre] [a1]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Keith Courage in Alpha Zones (U) [T+Gre] [a1].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Keith Courage in Alpha Zones (U) [T+Gre] [a2]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Keith Courage in Alpha Zones (U) [T+Gre] [a2].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "king of casino (U) [T+Fre_nec-ro-pole]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\king of casino (U) [T+Fre_nec-ro-pole].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Klax (U) [T+Gre1.1]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Klax (U) [T+Gre1.1].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Klax (U) [T-Gre1.0]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Klax (U) [T-Gre1.0].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lady sword (J) [T+Eng_Filler et al]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\lady sword (J) [T+Eng_Filler et al].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lady Sword (Japan) (Alt) [t]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Lady Sword (Japan) (Alt) [t].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lady Sword (Japan) (Alt) [tr Eng] [t]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Lady Sword (Japan) (Alt) [tr Eng] [t].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lady Sword (Japan) (Alt) [tr Eng]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Lady Sword (Japan) (Alt) [tr Eng].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lady Sword (Japan) [t]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Lady Sword (Japan) [t].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lady Sword (Japan) [tr Eng] [t]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Lady Sword (Japan) [tr Eng] [t].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lady Sword (Japan) [tr Eng]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Lady Sword (Japan) [tr Eng].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "LODE RUNNER - USHINA WARETA MAIKYUU (J) [T+Por_monkey]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\LODE RUNNER - USHINA WARETA MAIKYUU (J) [T+Por_monkey].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maison Ikkoku (J) [tr en v1.01 2008-04-13 Dave Shadoff]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Maison Ikkoku (J) [tr en v1.01 2008-04-13 Dave Shadoff].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mario Demo (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Mario Demo (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Meteor Blaster 1.0 by MindRec Communications (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Meteor Blaster 1.0 by MindRec Communications (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momo Tarou Densetsu Gaiden (J) [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Momo Tarou Densetsu Gaiden (J) [a].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momo Tarou Densetsu Gaiden (J)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Momo Tarou Densetsu Gaiden (J).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momo Tarou Densetsu Turbo (J)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Momo Tarou Densetsu Turbo (J).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neo Power PC-E Flash Card Menu v1.10",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Neo Power PC-E Flash Card Menu v1.10.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia (U) [a1] [T+Fre100]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Neutopia (U) [a1] [T+Fre100].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia (U) [a1] [T+Spa100_Pkt]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Neutopia (U) [a1] [T+Spa100_Pkt].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia (U) [a1][T+Por99%_Raptor_Z]{no header}",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Neutopia (U) [a1][T+Por99%_Raptor_Z]{no header}.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia (U) [h2] [T+Spa100_Pkt]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Neutopia (U) [h2] [T+Spa100_Pkt].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NEUTOPIA (U) [T+Rus_chief-net]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\NEUTOPIA (U) [T+Rus_chief-net].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia (U) [T+Spa_lukas]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Neutopia (U) [T+Spa_lukas].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia (U) [tr Pt99%_CBT]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Neutopia (U) [tr Pt99%_CBT].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "NEUTOPIA",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\NEUTOPIA.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia_(U) [T+Rus_Chief-NET ver.1.0]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Neutopia_(U) [T+Rus_Chief-NET ver.1.0].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "orbit2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\orbit2.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "parallax9 scrolls",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\parallax9 scrolls.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "parallax9",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\parallax9.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC Genjin - Pithecanthropus Computerurus (J) (Round Select)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\PC Genjin - Pithecanthropus Computerurus (J) (Round Select).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pc Genjin (Round Select)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Pc Genjin (Round Select).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "PCE music player using Azasel format",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\PCE music player using Azasel format.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC-Engine BRAM (Backup RAM) Tool",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\PC-Engine BRAM (Backup RAM) Tool.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC-Engine Screen Dimension Test Demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\PC-Engine Screen Dimension Test Demo.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC-Engine Split-Resolution Demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\PC-Engine Split-Resolution Demo.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pcmplay (Plays back at about 22096 Hz)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\pcmplay (Plays back at about 22096 Hz).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phantasy Star Demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Phantasy Star Demo.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pong",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\pong.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle Boy (J) [tr En 1.0 KingMike]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Puzzle Boy (J) [tr En 1.0 KingMike].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzznic (J) [T+Gre]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Puzznic (J) [T+Gre].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rpg_b-1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\rpg_b-1.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sample SlideShow by SkyRank (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Sample SlideShow by SkyRank (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGX Demo VPC #1 Tomaitheous '06",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\SGX Demo VPC #1 Tomaitheous '06.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGX Demo VPC #2 Tomaitheous '06",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\SGX Demo VPC #2 Tomaitheous '06.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGX Demo VPC #2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\SGX Demo VPC #2.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SGX Transparency Demo 1 by Tomaitheous Gun (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\SGX Transparency Demo 1 by Tomaitheous Gun (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sgx_test",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sgx_test.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sgx_test_(a1)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sgx_test_(a1).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sgx_test_",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sgx_test_.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sgx3b [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sgx3b [a].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sgx3b",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sgx3b.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "shadow warrior",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\shadow warrior.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "ShockMan (U) [T+Fre]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\ShockMan (U) [T+Fre].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SHOCKMAN (U) [T+Fre_terminus]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\SHOCKMAN (U) [T+Fre_terminus].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ShockMan (U) [T+Spa_lukas]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\ShockMan (U) [T+Spa_lukas].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "shoot01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\shoot01.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "simple C driver for SGX_test_by_Xavier",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\simple C driver for SGX_test_by_Xavier.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sinwave [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sinwave [a].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sinwave",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sinwave.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Son Son II (J) [tr Eng1.0b]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Son Son II (J) [tr Eng1.0b].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sonic_demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sonic_demo.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "SoundGen Tool for PCE v1.01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\SoundGen Tool for PCE v1.01.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speech Demo (-)(16ton)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Speech Demo (-)(16ton).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Speech Demo (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Speech Demo (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Splatterhouse (Japan) [Hack by Guemmai v1.0] (~Splatterhouse Chrome)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Splatterhouse (Japan) [Hack by Guemmai v1.0] (~Splatterhouse Chrome).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Splatterhouse (U) [tr Fre1.0_Terminus]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Splatterhouse (U) [tr Fre1.0_Terminus].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Splatterhouse Chrome (Splatterhouse Hack)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Splatterhouse Chrome (Splatterhouse Hack).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "sprite_silhouette [a]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sprite_silhouette [a].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sprite_silhouette",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\sprite_silhouette.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Mario Bros (J) [T+Por_monkey]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Super Mario Bros (J) [T+Por_monkey].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tatsujin (Japan) (Proto)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Tatsujin (Japan) (Proto).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Crest of Gaia (Gaia no Monshou) [tr En 1.0e Derrick Sobodash]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\The Crest of Gaia (Gaia no Monshou) [tr En 1.0e Derrick Sobodash].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The TurboGrafx-16 Phantasy Star - WHAT (2004)(damage_X)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\The TurboGrafx-16 Phantasy Star - WHAT (2004)(damage_X).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Timeball (U) (T-BR) (T-Altieres G-Nenhum) (2005)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Timeball (U) (T-BR) (T-Altieres G-Nenhum) (2005).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tongueman's Logic (DEMO)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Tongueman's Logic (DEMO).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tongueman's Logic (FINAL 1.0)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Tongueman's Logic (FINAL 1.0).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tower of Druaga, The - Druaga no Tou (J) [tr En 1.1 Procyon Lotor]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Tower of Druaga, The - Druaga no Tou (J) [tr En 1.1 Procyon Lotor].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vertical Shoot Demo v0.03a (2005) (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Vertical Shoot Demo v0.03a (2005) (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vigilante (J) [T+Spa100_3mundo]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Vigilante (J) [T+Spa100_3mundo].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "Japanese",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vigilante (U) [T+Por100] [b1]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Vigilante (U) [T+Por100] [b1].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vigilante (U) [T+Por100] [b2]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Vigilante (U) [T+Por100] [b2].zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "water_effects_1a",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\water_effects_1a.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "water_effects_2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\water_effects_2.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "water_effects_3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\water_effects_3.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wavy Big PCE Pics by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Wavy Big PCE Pics by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wavy Diver PCE Pics by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Wavy Diver PCE Pics by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wavy Flag PCE Pics by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Wavy Flag PCE Pics by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wavy Orca PCE Pics by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Wavy Orca PCE Pics by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wavy Seal PCE Pics by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Wavy Seal PCE Pics by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wavy Sky PCE Pics by Chris Covell (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\Wavy Sky PCE Pics by Chris Covell (PD).zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WHAT",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodPCE\\WHAT.zip",
+      "emulatorName": "RetroArch NEC PC Engine FX (Mednafen/Beetle PC-FX)",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

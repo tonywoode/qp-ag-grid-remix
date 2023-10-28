@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dynamite League (US)",
+      "mameName": "dleague",
+      "path": "{gamesDir}\\MAME\\ROMS\\dleague.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito America Corporation",
+      "year": "1990",
+      "gameType": "Sports / Baseball",
+      "rating": "60 to 70 (Passable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Fantasy Zone II - The Tears of Opa-Opa (System 16C version)",
+      "mameName": "fantzn2x",
+      "path": "{gamesDir}\\MAME\\ROMS\\fantzn2x.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega / M2",
+      "year": "2008",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Space Invaders Multigame (M8.03D)",
+      "mameName": "invmulti",
+      "path": "{gamesDir}\\MAME\\ROMS\\invmulti.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "hack (Braze Technologies)",
+      "year": "2002",
+      "gameType": "Multiplay / Compilation",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Raiden (set 1)",
+      "mameName": "raiden",
+      "path": "{gamesDir}\\MAME\\ROMS\\raiden.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seibu Kaihatsu",
+      "year": "1990",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super ABC (Pac-Man multigame kit, Sep. 03 1999)",
+      "mameName": "superabc",
+      "path": "{gamesDir}\\MAME\\ROMS\\superabc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "hack (Two-Bit Score)",
+      "year": "1999",
+      "gameType": "Multiplay / Compilation",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "War Gods (HD 10/09/1996 - Dual Resolution)",
+      "mameName": "wargods",
+      "path": "{gamesDir}\\MAME\\CHDs\\wargods\\wargods_11-07-1996.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1995",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

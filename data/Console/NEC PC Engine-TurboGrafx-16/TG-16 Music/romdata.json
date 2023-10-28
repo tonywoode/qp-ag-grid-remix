@@ -1,0 +1,2215 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "1552 - Tenka Tairan",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\1552 - Tenka Tairan.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1941 - Counter Attack",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\1941 - Counter Attack.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1943 Kai",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\1943 Kai.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3x3 Eyes - Sanjiyan Henjou",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\3x3 Eyes - Sanjiyan Henjou.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aero Blasters",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Aero Blasters.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "After Burner 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\After Burner 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Akuma Jou Dracula X - Chi no Rondo",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Akuma Jou Dracula X - Chi no Rondo.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aldynes",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Aldynes.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alien Crush",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Alien Crush.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alshark",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Alshark.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Anearth Fantasy Stories - Seiya Monogatari",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Anearth Fantasy Stories - Seiya Monogatari.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ankoku Densetsu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ankoku Densetsu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aoi Blink",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Aoi Blink.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "A-Ressha de Ikou 3",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\A-Ressha de Ikou 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Armed Formation",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Armed Formation.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Atomic Robo-Kid Special",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Atomic Robo-Kid Special.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AV Poker - World Gambler",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\AV Poker - World Gambler.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Baribari Densetsu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Baribari Densetsu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Barunba",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Barunba.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Batman",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Batman.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battle Ace",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Battle Ace.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Battle Lode Runner",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Battle Lode Runner.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Be Ball",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Be Ball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Benkei Gaiden",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Benkei Gaiden.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bikkuriman World",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Bikkuriman World.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bishoujo Senshi Sailor Moon",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Bishoujo Senshi Sailor Moon.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blodia",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Blodia.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blood Gear",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Blood Gear.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Body Conquest 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Body Conquest 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomber Man '93",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Bomber Man '93.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomber Man '94",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Bomber Man '94.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bomber Man",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Bomber Man.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Break In",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Break In.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bubble Bobble 3 - Parasol Stars",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Bubble Bobble 3 - Parasol Stars.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burning Angels",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Burning Angels.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cadash",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cadash.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cal 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cal 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cal 3 - Kanketsu Hen",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cal 3 - Kanketsu Hen.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Champion Wrestler",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Champion Wrestler.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chase HQ",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Chase HQ.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chikudenya Toubei",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Chikudenya Toubei.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chouzetsu Rinjin Berabou Man",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Chouzetsu Rinjin Berabou Man.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "City Hunter",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\City Hunter.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Coryoon - Child of Dragon",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Coryoon - Child of Dragon.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Fantasy 4 - Ginga Shounen Densetsu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cosmic Fantasy 4 - Ginga Shounen Densetsu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cratermaze",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cratermaze.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cross Wiber - Cyber Combat Police",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cross Wiber - Cyber Combat Police.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyber Core",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cyber Core.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyber Cross",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cyber Cross.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyber Dodge",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cyber Dodge.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cyber Knight",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Cyber Knight.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dai Makai Mura",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dai Makai Mura.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Daisenpuu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Daisenpuu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Darius Plus",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Darius Plus.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dead Moon - Gessekai no Akumu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dead Moon - Gessekai no Akumu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dead of the Brain 1-2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dead of the Brain 1-2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "De-Ja",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\De-Ja.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Deta na!! Twin Bee",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Deta na!! Twin Bee.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Devil Crash",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Devil Crash.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Die Hard",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Die Hard.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Digital Champ",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Digital Champ.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Don Doko Don!",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Don Doko Don!.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon - Meikyuu Daisakusen",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Doraemon - Meikyuu Daisakusen.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doraemon - Nobita no Dorabian Night",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Doraemon - Nobita no Dorabian Night.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Double Dungeons",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Double Dungeons.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Doukyuusei",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Doukyuusei.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Download [in_he2]",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Download [in_he2].m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Download",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Download.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Egg!",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Egg!.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Half",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Half.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Knight & Graffiti",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Knight & Graffiti.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Knight 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Knight 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Knight 3",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Knight 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Saber",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Saber.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Slayer 6 - Eiyuu Densetsu 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Slayer 6 - Eiyuu Densetsu 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Slayer 8 - Kaze no Densetsu Xanadu 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Slayer 8 - Kaze no Densetsu Xanadu 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Slayer 8 - Kaze no Densetsu Xanadu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Slayer 8 - Kaze no Densetsu Xanadu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Spirit",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon Spirit.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon's Curse",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dragon's Curse.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Drop Rock Hora Horror [in_he2]",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Drop Rock Hora Horror [in_he2].m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Drop Rock Hora Horror",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Drop Rock Hora Horror.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dungeon Explorer 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dungeon Explorer 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dungeon Explorer",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Dungeon Explorer.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Emerald Dragon",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Emerald Dragon.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Energy",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Energy.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1 Circus '91 - World Championship",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\F1 Circus '91 - World Championship.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1 Circus '92 - The Speed of Sound",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\F1 Circus '92 - The Speed of Sound.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1 Circus",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\F1 Circus.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "F1 Triple Battle",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\F1 Triple Battle.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fantasy Zone",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Fantasy Zone.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fiend Hunter",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Fiend Hunter.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fighting Run",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Fighting Run.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Blaster",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Final Blaster.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Lap Twin",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Final Lap Twin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Match Tennis",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Final Match Tennis.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Final Soldier",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Final Soldier.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Pro Wrestling - Combination Tag",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Fire Pro Wrestling - Combination Tag.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Pro Wrestling 2 - Second Bout",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Fire Pro Wrestling 2 - Second Bout.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fire Pro Wrestling 3 - Legend Bout",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Fire Pro Wrestling 3 - Legend Bout.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Formation Soccer on J-League",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Formation Soccer on J-League.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fushigi no Umi no Nadia - Shinpi no Shima",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Fushigi no Umi no Nadia - Shinpi no Shima.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fushigi no Yume no Alice",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Fushigi no Yume no Alice.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GaiFrame",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\GaiFrame.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaga '88",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Galaga '88.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ganbare! Golf Boys",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ganbare! Golf Boys.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gekisha Boy",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Gekisha Boy.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Genpei Touma Den 2 - Kan no Ni",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Genpei Touma Den 2 - Kan no Ni.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Genpei Touma Den",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Genpei Touma Den.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghost Sweeper Mikami",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ghost Sweeper Mikami.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ginga Ojousama Densetsu Yuna 2 - Eien no Princess",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ginga Ojousama Densetsu Yuna 2 - Eien no Princess.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ginga Ojousama Densetsu Yuna",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ginga Ojousama Densetsu Yuna.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gomola Speed",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Gomola Speed.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gradius",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Gradius.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gunhed",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Gunhed.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hana Taaka Daka!!",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Hana Taaka Daka!!.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hany in the Sky",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Hany in the Sky.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hany on the Road",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Hany on the Road.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heavy Unit",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Heavy Unit.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hisou Kihei X-Serd",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Hisou Kihei X-Serd.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Image Fight",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Image Fight.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jackie Chan",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Jackie Chan.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jaseiken Necromancer",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Jaseiken Necromancer.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jinmu Denshou Yaksa",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Jinmu Denshou Yaksa.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Juu Oh Ki",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Juu Oh Ki.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kaizou Choujin Schbibinman 2 - Aratanaru Teki",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Kaizou Choujin Schbibinman 2 - Aratanaru Teki.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kaizou Choujin Schbibinman",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Kaizou Choujin Schbibinman.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kato-chan & Ken-chan",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Kato-chan & Ken-chan.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kattobi! Takuhai-kun",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Kattobi! Takuhai-kun.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kikikaikai",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Kikikaikai.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "King of Casino",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\King of Casino.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Knight Rider Special",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Knight Rider Special.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kyuukyoku Mahjong - Idol Graphic",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Kyuukyoku Mahjong - Idol Graphic.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kyuukyoku Mahjong 2 - Super Idol Graphic",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Kyuukyoku Mahjong 2 - Super Idol Graphic.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kyuukyoku Tiger",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Kyuukyoku Tiger.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lady Sword",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Lady Sword.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Legend of Hero Tonma",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Legend of Hero Tonma.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Madou Oh Granzort",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Madou Oh Granzort.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maerchen Maze",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Maerchen Maze.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Magical Chase",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Magical Chase.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mahjong Gokuu Special",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Mahjong Gokuu Special.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mahjong Haoh Den - Kaiser's Quest",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Mahjong Haoh Den - Kaiser's Quest.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maison Ikkoku - Omoide no Shashin",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Maison Ikkoku - Omoide no Shashin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Makai Hakken Den Shada",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Makai Hakken Den Shada.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Makyou Densetsu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Makyou Densetsu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mamono Hunter Youko - Makai kara no Tenkousei",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Mamono Hunter Youko - Makai kara no Tenkousei.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mamono Hunter Youko - Touki Yobigoe",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Mamono Hunter Youko - Touki Yobigoe.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maniac Pro Wrestling",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Maniac Pro Wrestling.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mashin Eiyuu Den Wataru",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Mashin Eiyuu Den Wataru.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mesopotamia",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Mesopotamia.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Metal Stocker - Neo Hardboiled Shooting",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Metal Stocker - Neo Hardboiled Shooting.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mizubaku Daibouken",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Mizubaku Daibouken.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momotarou Densetsu 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Momotarou Densetsu 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momotarou Densetsu Gaiden",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Momotarou Densetsu Gaiden.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momotarou Densetsu Turbo",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Momotarou Densetsu Turbo.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Momotarou Katsugeki",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Momotarou Katsugeki.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monster Pro Wrestling",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Monster Pro Wrestling.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Morita Shougi PC",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Morita Shougi PC.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moto Roader 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Moto Roader 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moto Roader",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Moto Roader.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr. Heli no Daibouken",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Mr. Heli no Daibouken.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Narazumono Sentou Butai Bloody Wolf",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Narazumono Sentou Butai Bloody Wolf.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Naxat Stadium",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Naxat Stadium.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nazo no Masquerade",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Nazo no Masquerade.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nectaris",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Nectaris.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nekketsu Koukou Dodgeball Bu - PC Bangai Hen",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Nekketsu Koukou Dodgeball Bu - PC Bangai Hen.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Neutopia 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Neutopia",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Neutopia.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ninja Ryuuken Den",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ninja Ryuuken Den.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Operation Wolf",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Operation Wolf.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ordyne",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ordyne.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Out Live",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Out Live.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Out Run",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Out Run.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Override",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Override.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "P-47 - The Freedom Fighter",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\P-47 - The Freedom Fighter.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pac-Land",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Pac-Land.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Paranoia",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Paranoia.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Parodius Da! Shinwa kara Owarai e",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Parodius Da! Shinwa kara Owarai e.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pastel Lime",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Pastel Lime.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC Denjin",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\PC Denjin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC Genjin 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\PC Genjin 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC Genjin 3",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\PC Genjin 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC Genjin",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\PC Genjin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PC Pachi-Slot - Idol Gambler",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\PC Pachi-Slot - Idol Gambler.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pomping World",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Pomping World.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Populous",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Populous.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Drift",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power Drift.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Eleven",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power Eleven.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Golf",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power Golf.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power League 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League 3",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power League 3.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League 4",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power League 4.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League 5",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power League 5.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power League",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power League.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Sports",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power Sports.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Power Tennis",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Power Tennis.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pro Tennis World Court",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Pro Tennis World Court.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pro Yakyuu World Stadium",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Pro Yakyuu World Stadium.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Psychic Detective 3 - Aya",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Psychic Detective 3 - Aya.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Psychic Detective 4 - Orgel",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Psychic Detective 4 - Orgel.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Psycho Chaser",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Psycho Chaser.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puyo Puyo CD",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Puyo Puyo CD.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzznic",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Puzznic.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quiz Toukou Shashin",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Quiz Toukou Shashin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rabio Lepus Special",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Rabio Lepus Special.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Racing Damashii",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Racing Damashii.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Raiden",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Raiden.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "R-Type Complete",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\R-Type Complete.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "R-Type I",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\R-Type I.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "R-Type II",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\R-Type II.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sadakichi 007 - Hideyoshi no Ougon",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Sadakichi 007 - Hideyoshi no Ougon.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Saigo no Nindou",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Saigo no Nindou.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Salamander",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Salamander.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sengoku Mahjong",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Sengoku Mahjong.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shanghai",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Shanghai.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shin Megami Tensei",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Shin Megami Tensei.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shinobi",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Shinobi.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Shiryou Sensen",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Shiryou Sensen.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Side Arms - Hyper Dyne",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Side Arms - Hyper Dyne.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Silent Debuggers",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Silent Debuggers.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snatcher - CD-ROMantic",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Snatcher - CD-ROMantic.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soldier Blade",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Soldier Blade.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Son Son 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Son Son 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Soukoban World",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Soukoban World.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Harrier",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Space Harrier.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invaders - Fukkatsu no Hi",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Space Invaders - Fukkatsu no Hi.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Special Criminal Investigation",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Special Criminal Investigation.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spin Pair",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Spin Pair.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spiral Wave",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Spiral Wave.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Splatterhouse",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Splatterhouse.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Street Fighter 2 Dash - Champion Edition",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Street Fighter 2 Dash - Champion Edition.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strip Fighter 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Strip Fighter 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Daisenryaku",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Super Daisenryaku.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Metal Crusher",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Super Metal Crusher.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Momotarou Dentetsu 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Super Momotarou Dentetsu 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Star Soldier (U)",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Super Star Soldier (U).m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Star Soldier",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Super Star Soldier.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Volleyball",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Super Volleyball.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Susano Oh Densetsu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Susano Oh Densetsu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Takahashi-meijin no Shin Boukenjima",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Takahashi-meijin no Shin Boukenjima.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Takeda Shingen",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Takeda Shingen.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tatsujin",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Tatsujin.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tatsunoko Fighter",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Tatsunoko Fighter.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tenchi o Kurau",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Tenchi o Kurau.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tengai Makyou - Fuun Kabuki Den",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Tengai Makyou - Fuun Kabuki Den.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tengai Makyou - Ziria",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Tengai Makyou - Ziria.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tengai Makyou 2 - Manjimaru",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Tengai Makyou 2 - Manjimaru.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tensei Ryuu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Tensei Ryuu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terra Cresta 2 - Mandra no Gyakushuu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Terra Cresta 2 - Mandra no Gyakushuu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Kung-Fu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\The Kung-Fu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Ninja Warriors",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\The Ninja Warriors.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "The Tower of Druaga",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\The Tower of Druaga.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thunder Blade",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Thunder Blade.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Time Cruise 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Time Cruise 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tokimeki Memorial",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Tokimeki Memorial.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Top o Nerae! Gunbuster 2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Top o Nerae! Gunbuster 2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Top o Nerae! Gunbuster",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Top o Nerae! Gunbuster.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tora e no Michi",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Tora e no Michi.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Valkyrie no Densetsu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Valkyrie no Densetsu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Veigues Tactical Gladiator",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Veigues Tactical Gladiator.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Victory Run",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Victory Run.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vigilante",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Vigilante.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Violent Soldier",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Violent Soldier.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Virgin Dream",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Virgin Dream.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Volfied",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Volfied.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winning Shot",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Winning Shot.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wonder Momo",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Wonder Momo.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "World Jockey",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\World Jockey.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "W-Ring - The Double Rings",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\W-Ring - The Double Rings.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xak 1-2",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Xak 1-2.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xevious - Fardraut Densetsu",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Xevious - Fardraut Densetsu.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yo, Bro",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Yo, Bro.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Youkai Douchuuki",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Youkai Douchuuki.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ys 1-2 - Ancient Ys Vanished",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ys 1-2 - Ancient Ys Vanished.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ys 3 - Wanderers From Ys",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ys 3 - Wanderers From Ys.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ys 4 - The Dawn of Ys",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Ys 4 - The Dawn of Ys.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zero-Yon Champ",
+      "path": "{gamesDir}\\Gamebase Games\\PC Engine\\TG16-PCE\\music\\Zero-Yon Champ.m3u",
+      "emulatorName": "Winamp",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

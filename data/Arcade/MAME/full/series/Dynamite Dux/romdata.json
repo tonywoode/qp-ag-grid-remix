@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Dynamite Dux (set 3, World) (FD1094 317-0096)",
+      "mameName": "ddux",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddux.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1988",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dynamite Dux (set 1) (8751 317-0095)",
+      "mameName": "ddux1",
+      "parentName": "ddux",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddux.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1988",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dynamite Dux (Datsu bootleg)",
+      "mameName": "dduxbl",
+      "parentName": "ddux",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddux.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Datsu)",
+      "year": "1989",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dynamite Dux (set 3, World) (bootleg of FD1094 317-0096 set)",
+      "mameName": "dduxd",
+      "parentName": "ddux",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddux.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1988",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dynamite Dux (set 2, Japan) (FD1094 317-0094)",
+      "mameName": "dduxj",
+      "parentName": "ddux",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddux.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1988",
+      "gameType": "Fighter / 2.5D",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dynamite Dux (set 2, Japan) (bootleg of FD1094 317-0094 set)",
+      "mameName": "dduxjd",
+      "parentName": "ddux",
+      "path": "{gamesDir}\\MAME\\ROMS\\ddux.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1988",
+      "gameType": "Fighter / 2.5D",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

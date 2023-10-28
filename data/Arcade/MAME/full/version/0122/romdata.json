@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Drakton (DKJr conversion)",
+      "mameName": "drktnjr",
+      "parentName": "drakton",
+      "path": "{gamesDir}\\MAME\\ROMS\\drakton.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Epos Corporation",
+      "year": "1984",
+      "gameType": "Shooter / Field",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Orbs (10/7/94 prototype?)",
+      "mameName": "orbs",
+      "path": "{gamesDir}\\MAME\\ROMS\\orbs.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "American Sammy",
+      "year": "1994",
+      "gameType": "Puzzle / Sliding",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Raiden II (Italy)",
+      "mameName": "raiden2i",
+      "parentName": "raiden2",
+      "path": "{gamesDir}\\MAME\\ROMS\\raiden2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Seibu Kaihatsu",
+      "year": "1993",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Soccer Brawl (NGM-031)",
+      "mameName": "socbrawl",
+      "path": "{gamesDir}\\MAME\\ROMS\\socbrawl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1991",
+      "gameType": "Sports / Soccer",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

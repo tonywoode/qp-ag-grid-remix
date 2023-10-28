@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Cat and Mouse (set 1)",
+      "mameName": "catnmous",
+      "path": "{gamesDir}\\MAME\\ROMS\\catnmous.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Zaccaria",
+      "year": "1982",
+      "gameType": "Shooter / 3rd Person",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Egg Hunt",
+      "mameName": "egghunt",
+      "path": "{gamesDir}\\MAME\\ROMS\\egghunt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Invi Image",
+      "year": "1995",
+      "gameType": "Puzzle / Drop",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Escape Kids (Asia, 4 Players)",
+      "mameName": "esckids",
+      "path": "{gamesDir}\\MAME\\ROMS\\esckids.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1991",
+      "gameType": "Sports / Track & Field",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P sim"
+    },
+    {
+      "name": "Gigandes",
+      "mameName": "gigandes",
+      "path": "{gamesDir}\\MAME\\ROMS\\gigandes.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "East Technology",
+      "year": "1989",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Laser Battle",
+      "mameName": "laserbat",
+      "path": "{gamesDir}\\MAME\\ROMS\\laserbat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Zaccaria",
+      "year": "1981",
+      "gameType": "Shooter / Field",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Metal Saver",
+      "mameName": "metlsavr",
+      "path": "{gamesDir}\\MAME\\ROMS\\metlsavr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "First Amusement",
+      "year": "1994",
+      "gameType": "Platform / Run Jump",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Water Balls",
+      "mameName": "watrball",
+      "path": "{gamesDir}\\MAME\\ROMS\\watrball.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ABM",
+      "year": "1996",
+      "gameType": "Puzzle / Toss",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

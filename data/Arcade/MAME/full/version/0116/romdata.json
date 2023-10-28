@@ -1,0 +1,117 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Atari 2600 (PAL)",
+      "mameName": "a2600p",
+      "parentName": "a2600",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1978",
+      "gameType": "Home Systems / Game Console",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Buzzard",
+      "mameName": "buzzard",
+      "parentName": "gyrodine",
+      "path": "{gamesDir}\\MAME\\ROMS\\gyrodine.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Crux",
+      "year": "1984",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "CreatiVision",
+      "mameName": "crvision",
+      "path": "{gamesDir}\\MAME\\ROMS\\crvision.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video Technology",
+      "year": "1982",
+      "gameType": "Home Systems / Game Console",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "SC-3000",
+      "mameName": "sc3000",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1983",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "SC-3000/Super Control Station SF-7000",
+      "mameName": "sf7000",
+      "parentName": "sc3000",
+      "path": "{gamesDir}\\MAME\\ROMS\\sc3000.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1983",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "SG-1000",
+      "mameName": "sg1000",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1983",
+      "gameType": "Home Systems / Game Console",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "SG-1000 II",
+      "mameName": "sg1000m2",
+      "parentName": "sg1000",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1984",
+      "gameType": "Home Systems / Game Console",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Gam*Boy II (Korea)",
+      "mameName": "smskr",
+      "parentName": "sms",
+      "path": "{gamesDir}\\MAME\\ROMS\\sms.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Samsung",
+      "year": "1991",
+      "gameType": "Home Systems / Game Console",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

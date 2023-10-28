@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Mortal Kombat (rev 5.0 T-Unit 03/19/93)",
+      "mameName": "mk",
+      "path": "{gamesDir}\\MAME\\ROMS\\mk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1992",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Mortal Kombat II (rev L3.1)",
+      "mameName": "mk2",
+      "path": "{gamesDir}\\MAME\\ROMS\\mk2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1993",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Mortal Kombat 3 (rev 2.1)",
+      "mameName": "mk3",
+      "path": "{gamesDir}\\MAME\\ROMS\\mk3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Mortal Kombat 3 (bootleg of Megadrive version)",
+      "mameName": "mk3mdb",
+      "path": "{gamesDir}\\MAME\\ROMS\\mk3mdb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg / Midway",
+      "year": "1996",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Mortal Kombat 4 (version 3.0)",
+      "mameName": "mk4",
+      "path": "{gamesDir}\\MAME\\ROMS\\mk4.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1997",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Ultimate Mortal Kombat 3 (rev 1.2)",
+      "mameName": "umk3",
+      "path": "{gamesDir}\\MAME\\ROMS\\umk3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "8P alt / 2P sim"
+    }
+  ]
+}

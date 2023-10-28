@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Fire Action",
+      "mameName": "fireact",
+      "path": "{gamesDir}\\MAME\\ROMS\\fireact.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito do Brasil",
+      "year": "1981",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Fire Action Deluxe",
+      "mameName": "fireactd",
+      "path": "{gamesDir}\\MAME\\ROMS\\fireactd.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito do Brasil",
+      "year": "198?",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    }
+  ]
+}

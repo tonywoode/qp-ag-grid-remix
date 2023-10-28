@@ -1,0 +1,64 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Hyper Crash (version D)",
+      "mameName": "hcrash",
+      "path": "{gamesDir}\\MAME\\ROMS\\hcrash.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1987",
+      "gameType": "Driving / Race (chase view)",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Super Monaco GP (US, Rev C) (FD1094 317-0125a)",
+      "mameName": "smgpu",
+      "parentName": "smgp",
+      "path": "{gamesDir}\\MAME\\ROMS\\smgp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1989",
+      "gameType": "Driving / Race 1st Person",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "TX-0 original demonstrator (64 kWords of RAM)",
+      "mameName": "tx0_64kw",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "MIT",
+      "year": "1956",
+      "gameType": "Professional Systems / Mainframe",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "TX-0 upgraded system (8 kWords of RAM)",
+      "mameName": "tx0_8kw",
+      "parentName": "tx0_64kw",
+      "path": "./qp.exe",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "MIT",
+      "year": "1962",
+      "gameType": "Professional Systems / Mainframe",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

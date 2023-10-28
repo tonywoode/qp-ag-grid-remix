@@ -1,0 +1,82 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Alien Storm (World, 2 Players) (FD1094 317-0154)",
+      "mameName": "astorm",
+      "path": "{gamesDir}\\MAME\\ROMS\\astorm.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1990",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Fantasy Zone (Rev A, unprotected)",
+      "mameName": "fantzone",
+      "path": "{gamesDir}\\MAME\\ROMS\\fantzone.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1986",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Space Invaders II (Midway, cocktail)",
+      "mameName": "invad2ct",
+      "path": "{gamesDir}\\MAME\\ROMS\\invad2ct.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1980",
+      "gameType": "Shooter / Gallery",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)",
+      "mameName": "sdi",
+      "path": "{gamesDir}\\MAME\\ROMS\\sdi.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1987",
+      "gameType": "Shooter / Command",
+      "rating": "60 to 70 (Passable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Side Arms - Hyper Dyne (World, 861129)",
+      "mameName": "sidearms",
+      "path": "{gamesDir}\\MAME\\ROMS\\sidearms.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1986",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

@@ -1,0 +1,1303 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "(Diamond Dash (bunny_6k) 2007 Daniel Bienvenu",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\(Diamond Dash (bunny_6k) 2007 Daniel Bienvenu.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1193802716-jeepers",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\1193802716-jeepers.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1197085708-cvbunny Daniel Bienvenu, 2007",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\1197085708-cvbunny Daniel Bienvenu, 2007.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1197085708-cvbunny_6k Daniel Bienvenu, 2007",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\1197085708-cvbunny_6k Daniel Bienvenu, 2007.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "1234164888-10years",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\1234164888-10years.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "20090608_shunting_puzzle_(pdrc_v4.01)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\20090608_shunting_puzzle_(pdrc_v4.01).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "421",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\421.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "adamcon15",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\adamcon15.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AntiISDA_Warrior v1.0 (10.10.2004)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\AntiISDA_Warrior v1.0 (10.10.2004).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "AntiISDA_Warrior v1.1 (02.03.2009)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\AntiISDA_Warrior v1.1 (02.03.2009).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bankruptcy Builder 2008-05-15",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Bankruptcy Builder 2008-05-15.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bankruptcy Builder 2008-05-17",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Bankruptcy Builder 2008-05-17.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bankruptcy Builder 2008-05-18",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Bankruptcy Builder 2008-05-18.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bankruptcy Builder 2008-07-20",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Bankruptcy Builder 2008-07-20.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "batlleship",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\batlleship.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bbears [Proto]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Bbears [Proto].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BEJEWELS",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\BEJEWELS.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beyond Terra demo attract mode",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Beyond Terra demo attract mode.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Onyx_001",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Black Onyx_001.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Onyx_002",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Black Onyx_002.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Onyx_003",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Black Onyx_003.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Onyx_004",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Black Onyx_004.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Onyx_005",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Black Onyx_005.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Black Onyx_006",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Black Onyx_006.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers Supergame (Adam)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Buck Rogers Supergame (Adam).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgertime (maybe proto)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Burgertime (maybe proto).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "canadian_mini_games_1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\canadian_mini_games_1.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq_level5",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq_level5.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq01.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq02",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq02.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq03",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq03.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq03b",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq03b.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq04",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq04.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq04b",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq04b.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq05",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq05.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq05b",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq05b.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq06",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq06.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq07",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq07.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvq12",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvq12.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ccjvqpc4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ccjvqpc4.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CG",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\CG.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CG2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\CG2.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Coleco Adam by Daniel Bienvenu (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Coleco Adam by Daniel Bienvenu (PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "colecotelstargemini",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\colecotelstargemini.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colecovision WIP prototype of Parker Brothers unreleased 'Orbit'",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Colecovision WIP prototype of Parker Brothers unreleased 'Orbit'.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colored gravity 2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Colored gravity 2.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colored gravity 3",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Colored gravity 3.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colored gravity 4",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Colored gravity 4.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colored gravity 5",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Colored gravity 5.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Colored gravity",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Colored gravity.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Conway's Game of Life (PD)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Conway's Game of Life (PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "CV_Mario_Bros_Music_SFX",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\CV_Mario_Bros_Music_SFX.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "cvthanks",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\cvthanks.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cye beta",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Cye beta.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cye final demo 2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Cye final demo 2.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cye final demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Cye final demo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cye4demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Cye4demo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "danielturbo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\danielturbo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "danslither",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\danslither.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dantructor",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\dantructor.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "danvictory",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\danvictory.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "deflektorkollection",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\deflektorkollection.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "diamonddash",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\diamonddash.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "doublebreakout",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\doublebreakout.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dracula xpmck-18",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\dracula xpmck-18.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dvik-joyrex_wip-teaser 2008-06-08",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\dvik-joyrex_wip-teaser 2008-06-08.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "dvik-joyrex_wip-teaser 2008-06-11",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\dvik-joyrex_wip-teaser 2008-06-11.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Early techdemo of ColecoVision naval game 2010-07-04 SK",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Early techdemo of ColecoVision naval game 2010-07-04 SK.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Early techdemo of ColecoVision naval game 2010-07-04",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Early techdemo of ColecoVision naval game 2010-07-04.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Early techdemo of ColecoVision naval game 2010-07-15 SKa",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Early techdemo of ColecoVision naval game 2010-07-15 SKa.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Early techdemo of ColecoVision naval game 2010-07-18 SKb",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Early techdemo of ColecoVision naval game 2010-07-18 SKb.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Early techdemo of ColecoVision naval game 2010-07-18",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Early techdemo of ColecoVision naval game 2010-07-18.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Early techdemo of ColecoVision naval game 2010-07-24 SKc",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Early techdemo of ColecoVision naval game 2010-07-24 SKc.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FRANTIC 2008-04-04",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\FRANTIC 2008-04-04.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "FRANTIC 2008-08-09",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\FRANTIC 2008-08-09.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frog feast 2006-10-21 beta4t",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\frog feast 2006-10-21 beta4t.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frog feast 2007-12-05 test rom result",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\frog feast 2007-12-05 test rom result.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frog feast 2007-12-13 test rom result",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\frog feast 2007-12-13 test rom result.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frog feast 2007-12-16 test rom result",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\frog feast 2007-12-16 test rom result.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frog feast 2007-12-22 test rom result",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\frog feast 2007-12-22 test rom result.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frog feast 2007-12-30 final rom coleco",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\frog feast 2007-12-30 final rom coleco.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "frog magi WIP by Dale Wick",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\frog magi WIP by Dale Wick.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gamepack 2002-09-14",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Gamepack 2002-09-14.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gamepack2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\gamepack2.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "gamepack2_prototype",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\gamepack2_prototype.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghost_Trap_(Colecovision)(2009-04-27)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Ghost_Trap_(Colecovision)(2009-04-27).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ghost_Trap_(Colecovision)(2009-04-29)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Ghost_Trap_(Colecovision)(2009-04-29).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ghostblasterrevb",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ghostblasterrevb.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ghostblasterrevb2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\ghostblasterrevb2.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "giftrun",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\giftrun.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "hustle_01",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\hustle_01.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "hustle_02",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\hustle_02.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jack B. Quick, side scrolling demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Jack B. Quick, side scrolling demo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Bond coleco",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\James Bond coleco.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JetBoat!30b (early demo)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\JetBoat!30b (early demo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "kobashi 2004 DESIRE IN ENVY",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\kobashi 2004 DESIRE IN ENVY.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lucifer xpmck-18",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\lucifer xpmck-18.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "lucifer",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\lucifer.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mapdemo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\mapdemo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mario_Bros_Early_Demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Mario_Bros_Early_Demo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MattPatrol_hack",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\MattPatrol_hack.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mazemaniac",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\mazemaniac.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MazezaM",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\MazezaM.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MazezaM1.1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\MazezaM1.1.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MERMAID",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\MERMAID.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mist Maid 4k for ColecoVision v1.0 Dale Wick, 2007",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Mist Maid 4k for ColecoVision v1.0 Dale Wick, 2007.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mist Maid 4k for ColecoVision v1.1 Dale Wick, 2007",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Mist Maid 4k for ColecoVision v1.1 Dale Wick, 2007.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mod2PSG replayer example",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Mod2PSG replayer example.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "mrchin_version_4 demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\mrchin_version_4 demo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ostrich Farmer0_1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Ostrich Farmer0_1.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ostrich Farmer0_2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Ostrich Farmer0_2.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PickinSticks",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\PickinSticks.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "pikinstiks",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\pikinstiks.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "PONG PD",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\PONG PD.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Puzzle Panic colecoù",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Puzzle Panic colecoù.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "REALMOON",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\REALMOON.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "REALMOON_32K",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\REALMOON_32K.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "result",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\result.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "reversi",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\reversi.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rpg68_001",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\rpg68_001.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rpg68_002",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\rpg68_002.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rpg68_003",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\rpg68_003.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rpg68-004",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\rpg68-004.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "rpg68-005",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\rpg68-005.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Schlange CV Demo Philipp Klaus Krause (Final)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Schlange CV Demo Philipp Klaus Krause (Final).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "SCJ3Demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\SCJ3Demo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Search for the stolen Crown Jewels 3 two levels Demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Search for the stolen Crown Jewels 3 two levels Demo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Search for the stolen Crown Jewels II beta Demo",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Search for the stolen Crown Jewels II beta Demo.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Search for the stolen Crown Jewels II Demo (2007 Philipp Klaus Krause)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Search for the stolen Crown Jewels II Demo (2007 Philipp Klaus Krause).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Search for the Stolen Crown Jewels II GameConsole Demo (2007 Philipp Klaus Krause)",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Search for the Stolen Crown Jewels II GameConsole Demo (2007 Philipp Klaus Krause).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "smoothc",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\smoothc.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smurf_cv [Proto]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Smurf_cv [Proto].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sonicmbox",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\sonicmbox.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spaz Attak - No Suttering 2009-02-09",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Spaz Attak - No Suttering 2009-02-09.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spaz Attak - Teaser 2009-02-03",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Spaz Attak - Teaser 2009-02-03.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spaz Attak - Teaser 2009-02-05",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Spaz Attak - Teaser 2009-02-05.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spaz Attak - with Death Eggs 2009-02-10",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Spaz Attak - with Death Eggs 2009-02-10.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spaz Attak - With Levels 2009-02-08",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Spaz Attak - With Levels 2009-02-08.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "spazatak 2009-02-22",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\spazatak 2009-02-22.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Squares! official demo (2007)[selfpublished]",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Squares! official demo (2007)[selfpublished].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Squares15Apr01 full version",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Squares15Apr01 full version.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sudoku_no_sound_v1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\sudoku_no_sound_v1.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "sudoku_no_sound_v2",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\sudoku_no_sound_v2.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Space Acer 2009-10-31",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Super Space Acer 2009-10-31.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Space Acer 2009Dec27",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Super Space Acer 2009Dec27.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Space Acer_2009Dec06",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Super Space Acer_2009Dec06.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Space Acer2011Jan24",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Super Space Acer2011Jan24.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tennis 2008-01-20",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Tennis 2008-01-20.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tennis 2008-01-22",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Tennis 2008-01-22.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terra_Attack 2007-03-10",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Terra_Attack 2007-03-10.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terra_Attack 2007-03-17",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Terra_Attack 2007-03-17.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Terra_Attack final version",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Terra_Attack final version.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "tunelayer",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\tunelayer.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tunnels & Trolls (very early techdemo) coleco",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Tunnels & Trolls (very early techdemo) coleco.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Venture_AE_Animated",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Venture_AE_Animated.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "warmfuzz",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\warmfuzz.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Waterville Rescue 2009-10-31",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Waterville Rescue 2009-10-31.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "WILD WESTERN! by Eduardo Mello",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\WILD WESTERN! by Eduardo Mello.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "wizardcards",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\wizardcards.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wrong Way! for ColecoVision - very early WIP v0.25",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Wrong Way! for ColecoVision - very early WIP v0.25.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yankbash",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\Yankbash.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "zap 0.1",
+      "path": "{gamesDir}\\NONGOOD\\Non Good - Others - Complete\\NonGoodCol\\zap 0.1.zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

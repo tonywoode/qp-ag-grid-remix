@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Astro Wars",
+      "mameName": "astrowar",
+      "path": "{gamesDir}\\MAME\\ROMS\\astrowar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Zaccaria / Zelco",
+      "year": "1980",
+      "gameType": "Shooter / Gallery",
+      "rating": "20 to 30 (Bad)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Cube Quest (01/04/84)",
+      "mameName": "cubeqst",
+      "path": "{gamesDir}\\MAME\\CHDs\\cubeqst\\cubeqst.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Simutrek",
+      "year": "1983",
+      "gameType": "Shooter / Flying",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Shogun Warriors (World)",
+      "mameName": "shogwarr",
+      "path": "{gamesDir}\\MAME\\ROMS\\shogwarr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko",
+      "year": "1992",
+      "gameType": "Fighter / Versus",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

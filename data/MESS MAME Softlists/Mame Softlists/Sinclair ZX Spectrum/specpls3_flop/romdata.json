@@ -1,0 +1,1299 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Action Force - International Heroes",
+      "mameName": "aforce",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\aforce.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Virgin Games",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Action Force II - International Heroes",
+      "mameName": "aforce2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\aforce2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Virgin Games",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Adidas Championship Tie-Break",
+      "mameName": "tiebreak",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\tiebreak.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Artura",
+      "mameName": "artura",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\artura.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Badlands",
+      "mameName": "badlands",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\badlands.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Domark",
+      "year": "1990",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Beverly Hills Cop",
+      "mameName": "bhcop",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\bhcop.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Tynesoft",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Bloodwych",
+      "mameName": "bloodwyc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\bloodwyc.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Image Works",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Boggit - Bored Too",
+      "mameName": "boggit",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\boggit.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "CRL Group",
+      "year": "1986",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Book of the Dead",
+      "mameName": "bookdead",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\bookdead.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "CRL Group",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Buffalo Bill's Rodeo Games",
+      "mameName": "bbrg",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\bbrg.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Tynesoft",
+      "year": "1989",
+      "comment": "alt_title:Buffalo Bill's Wild West Rodeo Show",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Butcher Hill",
+      "mameName": "butchill",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\butchill.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Carrier Command",
+      "mameName": "carrierc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\carrierc.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Rainbird Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chicago 30's",
+      "mameName": "chicag30",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\chicag30.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Combat School",
+      "mameName": "combatsc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\combatsc.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Corruption",
+      "mameName": "corruptn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\corruptn.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Rainbird Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cybernoid - The Fighting Machine",
+      "mameName": "cybernod",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\cybernod.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Hewson Consultants",
+      "year": "1988",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cybernoid II - The Revenge",
+      "mameName": "cyberno2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\cyberno2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Hewson Consultants",
+      "year": "1988",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dan Dare III - The Escape",
+      "mameName": "dandare3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\dandare3.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Virgin Games",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dark Fusion",
+      "mameName": "darkfusn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\darkfusn.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Deep",
+      "mameName": "deep",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\deep.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Deflektor",
+      "mameName": "deflektr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\deflektr.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dominator",
+      "mameName": "dominatr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\dominatr.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "System 3 Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Echelon",
+      "mameName": "echelon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\echelon.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Erik - The Phantom of the Opera",
+      "mameName": "erik",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\erik.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Crysys",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Escape from the Planet of the Robot Monsters",
+      "mameName": "eprom",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\eprom.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Domark",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Espionage",
+      "mameName": "espionag",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\espionag.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Grandslam Entertainments",
+      "year": "1988",
+      "comment": "alt_title:Espionage - The Computer Game (Box)",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "F-16 Combat Pilot",
+      "mameName": "f16comb",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\f16comb.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Digital Integration",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Federation",
+      "mameName": "federatn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\federatn.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "CRL Group",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Firefly",
+      "mameName": "firefly",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\firefly.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Fish!",
+      "mameName": "fish",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\fish.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Rainbird Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Football Director II",
+      "mameName": "footdir2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\footdir2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "D&H Games",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Footballer of the Year 2",
+      "mameName": "foty2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\foty2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Four Smash Hits From Hewson",
+      "mameName": "hewson4",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\hewson4.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Hewson",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Garfield - \"Big, Fat, Hairy Deal.\"",
+      "mameName": "garfield",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\garfield.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "The Edge",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gary Lineker's Hot-Shot!",
+      "mameName": "lineker",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\lineker.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gary Lineker's Super Skills",
+      "mameName": "linekskl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\linekskl.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gary Lineker's Super Star Soccer",
+      "mameName": "lineksss",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\lineksss.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gauntlet",
+      "mameName": "gauntlet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\gauntlet.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gauntlet II",
+      "mameName": "gauntlt2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\gauntlt2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gazza's Super Soccer",
+      "mameName": "gazza",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\gazza.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Empire Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gazza II",
+      "mameName": "gazza2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\gazza2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Empire Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ghouls 'n' Ghosts",
+      "mameName": "ghouls",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\ghouls.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "H.A.T.E. - Hostile All Terrain Encounter",
+      "mameName": "hate",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\hate.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "H.K.M. - Human Killing Machine",
+      "mameName": "hkm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\hkm.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Heroes of the Lance",
+      "mameName": "herolanc",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\herolanc.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hero Quest",
+      "mameName": "heroqst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\heroqst.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Iron Lord",
+      "mameName": "ironlord",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\ironlord.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ubi Soft",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Italia '90 - World Cup Soccer",
+      "mameName": "italia90",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\italia90.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Virgin Games",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Ivan 'Ironman' Stewart's Super Off Road",
+      "mameName": "offroad",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\offroad.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Virgin Games",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jack the Ripper",
+      "mameName": "jackrip",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\jackrip.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "CRL Group",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kenny Dalglish Soccer Match",
+      "mameName": "dalglish",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\dalglish.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Impressions",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kick Off",
+      "mameName": "kickoff",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\kickoff.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Anco Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Last Mohican",
+      "mameName": "lmohican",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\lmohican.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "CRL Group",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Light Corridor",
+      "mameName": "lightcor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\lightcor.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Infogrames",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Loads of Midnight",
+      "mameName": "lmidnght",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\lmidnght.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "CRL Group",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lone Wolf - The Mirror of Death",
+      "mameName": "lonewolf",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\lonewolf.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Aufiogenic Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lotus Esprit Turbo Challenge",
+      "mameName": "lotus",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\lotus.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Magic Knight Trilogy",
+      "mameName": "mknitril",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\mknitril.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Mastertronic",
+      "year": "1988",
+      "comment": "game:Finders Keepers + Spellbound + Knight Tyme",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Marauder",
+      "mameName": "marauder",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\marauder.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Hewson Consultants",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mask III - Venom Strikes Back",
+      "mameName": "mask3",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\mask3.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Masters of the Universe - The Movie",
+      "mameName": "masters",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\masters.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MegaApocalypse",
+      "mameName": "megapocl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\megapocl.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Martech Games",
+      "year": "1988",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mickey Mouse",
+      "mameName": "mickey",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\mickey.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Midnight Resistance",
+      "mameName": "midres",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\midres.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Monty Python's Flying Circus",
+      "mameName": "montypyt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\montypyt.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Virgin Games",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Ninja Warriors",
+      "mameName": "ninjawar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\ninjawar.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Virgin Games",
+      "year": "1990",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "North Star",
+      "mameName": "northstr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\northstr.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Obliterator",
+      "mameName": "obliter",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\obliter.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Melbourne House",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "P-47 Thunderbolt",
+      "mameName": "p47thun",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\p47thun.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Firebird Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "P.H.M. Pegasus",
+      "mameName": "phmpegas",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\phmpegas.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Electronic Arts",
+      "year": "1988",
+      "comment": "alt_title:P.H.M. Pegasus - Patrol Hydrofoil Missile Craft Simulation (Box)",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pac-Land",
+      "mameName": "pacland",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\pacland.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Grandslam Entertainments",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pang",
+      "mameName": "pang",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\pang.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Passing Shot",
+      "mameName": "passsht",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\passsht.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Image Works",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Pawn",
+      "mameName": "pawn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\pawn.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Rainbird Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pipe Mania",
+      "mameName": "pipmania",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\pipmania.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Empire Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pirate 3 +3",
+      "mameName": "pirate33",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\pirate33.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Pirate Software",
+      "year": "1987",
+      "comment": "games:Holiday in Sumaria + Call Me Psycho + Smash Out!",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Platoon",
+      "mameName": "platoon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\platoon.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Predator 2",
+      "mameName": "predatr2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\predatr2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Image Works",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pro Tennis Tour",
+      "mameName": "protennt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\protennt.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ubi Soft",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "A Question of Scruples - The Computer Edition",
+      "mameName": "qoscrup",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\qoscrup.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Leisure Genius",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "A Question of Sport",
+      "mameName": "qos",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\qos.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Elite Systems",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "R.B.I. Baseball 2",
+      "mameName": "rbibb2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\rbibb2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Domark",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rainbow Islands",
+      "mameName": "rbisland",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\rbisland.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1990",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Renegade",
+      "mameName": "renegade",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\renegade.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Imagine Software",
+      "year": "1987",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rex",
+      "mameName": "rex",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\rex.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Martech Games",
+      "year": "1988",
+      "timesPlayed": "2",
+      "paramMode": "1"
+    },
+    {
+      "name": "Road Blasters",
+      "mameName": "roadblst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\roadblst.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Robocop 2",
+      "mameName": "robocop2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\robocop2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Rolling Thunder",
+      "mameName": "rthunder",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\rthunder.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Run the Gauntlet",
+      "mameName": "rungaunt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\rungaunt.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Saint & Greavsie",
+      "mameName": "saintgrv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\saintgrv.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Grandslam Entertainments",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Scrabble Deluxe",
+      "mameName": "scrabdx",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\scrabdx.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Leisure Genius",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Shootacular Disk 2",
+      "mameName": "shootdsk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\shootdsk.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Alternative Software",
+      "year": "1988",
+      "comment": "game:Combat Zone, Firestorm, Dead or Alive",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sim City",
+      "mameName": "simcity",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\simcity.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Infogrames",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Skateball",
+      "mameName": "skatball",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\skatball.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ubi Soft",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Skull & Crossbones",
+      "mameName": "skullxbo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\skullxbo.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Domark",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Snoopy - The Cool Computer Game",
+      "mameName": "snoopy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\snoopy.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "The Edge",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Soldier of Light",
+      "mameName": "soldlght",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\soldlght.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "ACE Software",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Crusade",
+      "mameName": "spacecrs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\spacecrs.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1992",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Sportacular Disk 1",
+      "mameName": "sportdsk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\sportdsk.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Alternative Software",
+      "year": "1988",
+      "comment": "games:Soccer Boss, Olympic Spectacular, Indoor Soccer",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Spy Who Loved Me",
+      "mameName": "spywholm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\spywholm.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Domark",
+      "year": "1990",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Stalingrad",
+      "mameName": "stalingr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\stalingr.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "CCS",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Wars",
+      "mameName": "starwars",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\starwars.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Domark",
+      "year": "1987",
+      "parameters": "specpls3 -flop1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Wars - Return of the Jedi",
+      "mameName": "jedi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\jedi.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Domark",
+      "year": "1989",
+      "parameters": "specpls3 -flop1 %ROMMAME%",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Starglider",
+      "mameName": "starglid",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\starglid.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Rainbird Software",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Starring Charlie Chaplin",
+      "mameName": "cchaplin",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\cchaplin.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Subbuteo - The Computer Game",
+      "mameName": "subbuteo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\subbuteo.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Electronic Zoo",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "The Sun Computer Crosswords Volume 1",
+      "mameName": "sunxword",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\sunxword.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Akom",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Cars",
+      "mameName": "supercar",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\supercar.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Gremlin Graphics Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Cycle",
+      "mameName": "suprcycl",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\suprcycl.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Super Space Invaders",
+      "mameName": "ssinv",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\ssinv.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Domark",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tai-pan",
+      "mameName": "taipan",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\taipan.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1987",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Teenage Mutant Hero Turtles",
+      "mameName": "tmht",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\tmht.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Image Works",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Teenage Mutant Hero Turtles (3\")",
+      "mameName": "tmht3",
+      "parentName": "tmht",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\tmht.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Image Works",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Terminator 2 - Judgment Day",
+      "mameName": "term2",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\term2.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Thunder Blade",
+      "mameName": "tblade",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\tblade.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Thundercats",
+      "mameName": "thdrcats",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\thdrcats.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Elite Systems",
+      "year": "1987",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Total Recall",
+      "mameName": "totrecal",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\totrecal.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Total Recall (Guild Home Video Advert)",
+      "mameName": "totrecalgh",
+      "parentName": "totrecal",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\totrecal.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Ocean Software",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Trevor Brooking's World Cup Glory",
+      "mameName": "brooking",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\brooking.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Challenge Software",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Vigilante",
+      "mameName": "vigilant",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\vigilant.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "U.S. Gold",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Vixen",
+      "mameName": "vixen",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\vixen.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Martech Games",
+      "year": "1988",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "War in Middle Earth",
+      "mameName": "warmidle",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\warmidle.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Krome Studios Melbourne",
+      "year": "1989",
+      "comment": "alt_title:J.R.R. Tolkien's War in Middle Earth (Box)",
+      "timesPlayed": "1",
+      "paramMode": "1"
+    },
+    {
+      "name": "Welltris",
+      "mameName": "welltris",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\welltris.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Infogrames",
+      "year": "1991",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "World Championship Boxing Manager",
+      "mameName": "wcboxman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\wcboxman.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Goliath Games",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "X-Out",
+      "mameName": "xout",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\xout.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Rainbow Arts",
+      "year": "1990",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Xenon",
+      "mameName": "xenon",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\xenon.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Melbourne House",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Xybots",
+      "mameName": "xybots",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\xybots.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Domark",
+      "year": "1989",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pac-Mania (Euro, Aus)",
+      "mameName": "pacmania",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\specpls3_flop\\pacmania.7z",
+      "emulatorName": "MAME Amstrad ZX Spectrum +3 -SOFTLIST specpls3_flop",
+      "companyName": "Grandslam Entertainments",
+      "year": "1988",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

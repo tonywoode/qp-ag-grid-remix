@@ -1,0 +1,112 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Rolling Thunder 2",
+      "mameName": "rthun2",
+      "path": "{gamesDir}\\MAME\\ROMS\\rthun2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1990",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Rolling Thunder 2 (Japan)",
+      "mameName": "rthun2j",
+      "parentName": "rthun2",
+      "path": "{gamesDir}\\MAME\\ROMS\\rthun2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1990",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Rolling Thunder (rev 3)",
+      "mameName": "rthunder",
+      "path": "{gamesDir}\\MAME\\ROMS\\rthunder.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1986",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Rolling Thunder (oldest)",
+      "mameName": "rthunder0",
+      "parentName": "rthunder",
+      "path": "{gamesDir}\\MAME\\ROMS\\rthunder.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1986",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Rolling Thunder (rev 1)",
+      "mameName": "rthunder1",
+      "parentName": "rthunder",
+      "path": "{gamesDir}\\MAME\\ROMS\\rthunder.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1986",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Rolling Thunder (rev 2)",
+      "mameName": "rthunder2",
+      "parentName": "rthunder",
+      "path": "{gamesDir}\\MAME\\ROMS\\rthunder.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1986",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Rolling Thunder (rev 3, hack)",
+      "mameName": "rthundera",
+      "parentName": "rthunder",
+      "path": "{gamesDir}\\MAME\\ROMS\\rthunder.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1986",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

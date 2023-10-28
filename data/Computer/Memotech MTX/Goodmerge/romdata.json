@@ -1,0 +1,400 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "3D Tachyon Fighter (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\3D Tachyon Fighter (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "3D Turbo (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\3D Turbo (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Agrovator (1985) (Syntaxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Agrovator (1985) (Syntaxsoft).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alice in Wonderland (1983) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Alice in Wonderland (1983) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Arcazions (1985) (Chris Sawyer)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Arcazions (1985) (Chris Sawyer).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astromilon (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Astromilon (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Astro-Pac (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Astro-Pac (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "12",
+      "paramMode": "0"
+    },
+    {
+      "name": "Backgammon (1983) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Backgammon (1983) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blobbo (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Blobbo (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Brunword (Word Processor) (198x)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Brunword (Word Processor) (198x).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chamberoids (1984) (Megastar Games)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Chamberoids (1984) (Megastar Games).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Draughts (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Draughts (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "EdAsm (1985) (Syntaxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\EdAsm (1985) (Syntaxsoft).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Escape from Zarcos (1984) (Megastar Games)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Escape from Zarcos (1984) (Megastar Games).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fathoms Deep (1984)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Fathoms Deep (1984).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "3",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hawk Wars (1985) (Syntaxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Hawk Wars (1985) (Syntaxsoft).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Johnny Rebel (198x)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Johnny Rebel (198x).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "8",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kilopead (1983) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Kilopead (1983) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "KNUCKLES (1983) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\KNUCKLES (1983) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Little Devils (1985) (Syntaxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Little Devils (1985) (Syntaxsoft).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Man from G.R.A.N.N.Y, The (1985) (Syntaxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Man from G.R.A.N.N.Y, The (1985) (Syntaxsoft).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maxima (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Maxima (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Memotech Demo (1983) (Memotech)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Memotech Demo (1983) (Memotech).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Missile Kommand (1985) (Chris Sawyer-Syntaxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Missile Kommand (1985) (Chris Sawyer-Syntaxsoft).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mission Alphatron (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Mission Alphatron (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mission Omega (1985) (Chris Sawyer-Syntaxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Mission Omega (1985) (Chris Sawyer-Syntaxsoft).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MTX Assembler ROM (1984) (Memotech)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\MTX Assembler ROM (1984) (Memotech).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MTX BASIC ROM (1984) (Memotech)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\MTX BASIC ROM (1984) (Memotech).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MTX Chess (1983) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\MTX Chess (1983) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "MTX OS ROM (1984) (Memotech)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\MTX OS ROM (1984) (Memotech).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nemo (1983) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Nemo (1983) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Obloids (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Obloids (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Phaid (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Phaid (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pothole Pete (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Pothole Pete (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Public Domain Roms (Miscellaneous)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Public Domain Roms (Miscellaneous).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Qogo (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Qogo (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Qogo 2 (1985) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Qogo 2 (1985) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "6",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quazzia (1984) (Megastar Games)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Quazzia (1984) (Megastar Games).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reversi (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Reversi (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0",
+      "defaultGoodMerge": "Reversi (1984) (Continental Software).mtx"
+    },
+    {
+      "name": "Rolla Bearing (1985) (Megastar Games)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Rolla Bearing (1985) (Megastar Games).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "8",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sepulcri Scelerati (1985) (Chris Sawyer)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Sepulcri Scelerati (1985) (Chris Sawyer).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Snappo (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Snappo (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Command (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Star Command (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Minefield (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Super Minefield (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Surface Scanner (1984) (Megastar Games)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Surface Scanner (1984) (Megastar Games).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tapeworm (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Tapeworm (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Target Zone (1985) (Syntaxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Target Zone (1985) (Syntaxsoft).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Toado (1984) (Continental Software)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Toado (1984) (Continental Software).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wall, The (1985) (Syntaxsoft)",
+      "path": "{gamesDir}\\Computer Classics\\MTX Games\\GoodMTX_v31415GOODMERGED\\Wall, The (1985) (Syntaxsoft).7z",
+      "emulatorName": "MAME Memotech MTX 512 -snapshot",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

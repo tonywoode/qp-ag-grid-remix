@@ -1,0 +1,65 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Police 911 (ver UAD)",
+      "mameName": "p911",
+      "path": "{gamesDir}\\MAME\\CHDs\\p911\\a00uad02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Police 911 2 (VER. UAA:B)",
+      "mameName": "p9112",
+      "path": "{gamesDir}\\MAME\\CHDs\\p9112\\b11a02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Police 911 (ver KAC)",
+      "mameName": "p911kc",
+      "parentName": "p911",
+      "path": "{gamesDir}\\MAME\\CHDs\\p911\\a00kac02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Police 911 (ver UAC)",
+      "mameName": "p911uc",
+      "parentName": "p911",
+      "path": "{gamesDir}\\MAME\\CHDs\\p911\\a00uac02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2001",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

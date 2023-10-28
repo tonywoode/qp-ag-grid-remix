@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Fisherman's Bait 2 - A Bass Challenge (GE865 VER. UAB)",
+      "mameName": "fbait2bc",
+      "path": "{gamesDir}\\MAME\\CHDs\\fbait2bc\\865uab02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Sports / Fishing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Fisherman's Bait - A Bass Challenge (GE765 VER. UAB)",
+      "mameName": "fbaitbc",
+      "path": "{gamesDir}\\MAME\\CHDs\\fbaitbc\\765uab02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Sports / Fishing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Fisherman's Bait - Marlin Challenge (GX889 VER. EA)",
+      "mameName": "fbaitmc",
+      "path": "{gamesDir}\\MAME\\CHDs\\fbaitmc\\889ea.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1999",
+      "gameType": "Sports / Fishing",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

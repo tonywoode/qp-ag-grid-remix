@@ -1,0 +1,111 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Strider Hiryu 2 (Japan 991213)",
+      "mameName": "shiryu2",
+      "parentName": "strider2",
+      "path": "{gamesDir}\\MAME\\ROMS\\strider2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1999",
+      "gameType": "Platform / Fighter Scrolling",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Strider (USA, B-Board 89624B-2)",
+      "mameName": "strider",
+      "path": "{gamesDir}\\MAME\\ROMS\\strider.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1989",
+      "gameType": "Platform / Fighter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Strider 2 (USA 991213)",
+      "mameName": "strider2",
+      "path": "{gamesDir}\\MAME\\ROMS\\strider2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1999",
+      "gameType": "Platform / Fighter Scrolling",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Strider 2 (Asia 991213)",
+      "mameName": "strider2a",
+      "parentName": "strider2",
+      "path": "{gamesDir}\\MAME\\ROMS\\strider2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1999",
+      "gameType": "Platform / Fighter Scrolling",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Strider Hiryu (Japan)",
+      "mameName": "striderj",
+      "parentName": "strider",
+      "path": "{gamesDir}\\MAME\\ROMS\\strider.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1989",
+      "gameType": "Platform / Fighter Scrolling",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Strider Hiryu (Japan Resale Ver.)",
+      "mameName": "striderjr",
+      "parentName": "strider",
+      "path": "{gamesDir}\\MAME\\ROMS\\strider.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1989",
+      "gameType": "Platform / Fighter Scrolling",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Strider (USA, B-Board 89624B-3)",
+      "mameName": "striderua",
+      "parentName": "strider",
+      "path": "{gamesDir}\\MAME\\ROMS\\strider.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1989",
+      "gameType": "Platform / Fighter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

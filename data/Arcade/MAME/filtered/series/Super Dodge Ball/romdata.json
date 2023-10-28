@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Super Dodge Ball / Kunio no Nekketsu Toukyuu Densetsu",
+      "mameName": "sdodgeb",
+      "path": "{gamesDir}\\MAME\\ROMS\\sdodgeb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Technos Japan",
+      "year": "1996",
+      "gameType": "Sports / Dodgeball",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Dodge Ball (US)",
+      "mameName": "spdodgeb",
+      "path": "{gamesDir}\\MAME\\ROMS\\spdodgeb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Technos Japan",
+      "year": "1987",
+      "gameType": "Sports / Dodgeball",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

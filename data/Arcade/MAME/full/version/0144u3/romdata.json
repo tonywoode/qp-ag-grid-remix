@@ -1,0 +1,111 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Alien Crush (United Amusements PC Engine)",
+      "mameName": "aliencr",
+      "path": "{gamesDir}\\MAME\\ROMS\\aliencr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Hudson Soft",
+      "year": "1989",
+      "gameType": "Pinball",
+      "rating": "40 to 50 (Decent)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Exzisus (TAD license)",
+      "mameName": "exzisust",
+      "parentName": "exzisus",
+      "path": "{gamesDir}\\MAME\\ROMS\\exzisus.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation (TAD license)",
+      "year": "1987",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Guzzler (Swimmer Conversion)",
+      "mameName": "guzzlers",
+      "parentName": "guzzler",
+      "path": "{gamesDir}\\MAME\\ROMS\\guzzler.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Tehkan",
+      "year": "1983",
+      "gameType": "Maze",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Keith Courage In Alpha Zones (United Amusements PC Engine)",
+      "mameName": "keith",
+      "path": "{gamesDir}\\MAME\\ROMS\\keith.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Hudson Soft",
+      "year": "1989",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Macintosh PowerBook 180c",
+      "mameName": "macpb180c",
+      "parentName": "macpb160",
+      "path": "{gamesDir}\\MAME\\ROMS\\macpb160.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Apple Computer",
+      "year": "1992",
+      "gameType": "Portable Systems / Laptop & Portable Computer",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Pac-Land (United Amusements PC Engine)",
+      "mameName": "paclandp",
+      "path": "{gamesDir}\\MAME\\ROMS\\paclandp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1989",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Warriors of Fate (World 921031)",
+      "mameName": "wof",
+      "path": "{gamesDir}\\MAME\\ROMS\\wof.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Capcom",
+      "year": "1992",
+      "gameType": "Fighter / 2.5D",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "3P sim"
+    }
+  ]
+}

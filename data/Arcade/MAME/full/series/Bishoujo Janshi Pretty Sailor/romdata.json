@@ -1,0 +1,35 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bishoujo Janshi Pretty Sailor 18-kin (Japan)",
+      "mameName": "psailor1",
+      "path": "{gamesDir}\\MAME\\ROMS\\psailor1.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sphinx",
+      "year": "1994",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Bishoujo Janshi Pretty Sailor 2 (Japan)",
+      "mameName": "psailor2",
+      "path": "{gamesDir}\\MAME\\ROMS\\psailor2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sphinx",
+      "year": "1994",
+      "gameType": "Tabletop / Mahjong * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

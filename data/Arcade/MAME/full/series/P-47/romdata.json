@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "P-47 - The Phantom Fighter (World)",
+      "mameName": "p47",
+      "path": "{gamesDir}\\MAME\\ROMS\\p47.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1988",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "P-47 Aces",
+      "mameName": "p47aces",
+      "path": "{gamesDir}\\MAME\\ROMS\\p47aces.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1995",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "P-47 - The Freedom Fighter (Japan)",
+      "mameName": "p47j",
+      "parentName": "p47",
+      "path": "{gamesDir}\\MAME\\ROMS\\p47.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1988",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "P-47 - The Freedom Fighter (Japan, Export)",
+      "mameName": "p47je",
+      "parentName": "p47",
+      "path": "{gamesDir}\\MAME\\ROMS\\p47.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Jaleco",
+      "year": "1988",
+      "gameType": "Shooter / Flying Horizontal",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

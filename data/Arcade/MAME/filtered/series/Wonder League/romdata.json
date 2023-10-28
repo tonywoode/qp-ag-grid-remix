@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "MuHanSeungBu (SemiCom Baseball) (Korea)",
+      "mameName": "semibase",
+      "path": "{gamesDir}\\MAME\\ROMS\\semibase.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SemiCom / DMD",
+      "year": "1997",
+      "gameType": "Sports / Baseball",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Wonder League Star - Sok-Magicball Fighting (Korea)",
+      "mameName": "wlstar",
+      "path": "{gamesDir}\\MAME\\ROMS\\wlstar.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mijin",
+      "year": "1995",
+      "gameType": "Sports / Baseball",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Wonder League '96 (Korea)",
+      "mameName": "wondl96",
+      "path": "{gamesDir}\\MAME\\ROMS\\wondl96.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SemiCom",
+      "year": "1996",
+      "gameType": "Sports / Baseball",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

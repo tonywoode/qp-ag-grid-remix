@@ -1,0 +1,767 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "177 (1986)(macadamia)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\177 (1986)(macadamia).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4th Unit, The (Ja)(Y)(Data West)(Disk 1 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\4th Unit, The (Ja)(Y)(Data West)(Disk 1 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "4th Unit, The (Ja)(Y)(Data West)(Disk 2 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\4th Unit, The (Ja)(Y)(Data West)(Disk 2 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "5 Holy Girls (Ja)(y)(Studio Blue)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\5 Holy Girls (Ja)(y)(Studio Blue).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ancient Ys Vanished Omen (1987)(Falcom)(Disk 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Ancient Ys Vanished Omen (1987)(Falcom)(Disk 1 of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ancient Ys Vanished Omen (1987)(Falcom)(Disk 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Ancient Ys Vanished Omen (1987)(Falcom)(Disk 2 of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Brain Breaker (1985)(Enix)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Brain Breaker (1985)(Enix).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bu U Ma-Black Onyx-Thunderforce (Ja)(Y)(-)(Gamepack)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Bu U Ma-Black Onyx-Thunderforce (Ja)(Y)(-)(Gamepack).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Card Games (Ja)(1984)(Hudsonsoft)(not the real title)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Card Games (Ja)(1984)(Hudsonsoft)(not the real title).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crimsin (Ja)(1988)(Xtalsoft)(file 1 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Crimsin (Ja)(1988)(Xtalsoft)(file 1 of 3).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crimsin (Ja)(1988)(Xtalsoft)(file 2 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Crimsin (Ja)(1988)(Xtalsoft)(file 2 of 3).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Crimsin (Ja)(1988)(Xtalsoft)(file 3 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Crimsin (Ja)(1988)(Xtalsoft)(file 3 of 3).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dragon Buster (Ja)(Y)namco)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Dragon Buster (Ja)(Y)namco).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Euphory (Ja)(y)(Samcon Systems) ",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Euphory (Ja)(y)(Samcon Systems) .zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Euphory (Ja)(y)(Samcon Systems)(datafile)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Euphory (Ja)(y)(Samcon Systems)(datafile).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Exoa Ii-Warroid (1984)(Ascii)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Exoa Ii-Warroid (1984)(Ascii).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "File Master X1, The V0.8 (1987)(Kyoto Media)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\File Master X1, The V0.8 (1987)(Kyoto Media).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gaia (Ja)(Y)(-)(Disk 1 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Gaia (Ja)(Y)(-)(Disk 1 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gaia (Ja)(Y)(-)(Disk 2 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Gaia (Ja)(Y)(-)(Disk 2 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaxian X-1 (Y)(Namco)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Galaxian X-1 (Y)(Namco).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gall Force-Eternal Story (Ja)(Y)(-)(Disk 1 Of 3)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Gall Force-Eternal Story (Ja)(Y)(-)(Disk 1 Of 3).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gall Force-Eternal Story (Ja)(Y)(-)(Disk 2 Of 3)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Gall Force-Eternal Story (Ja)(Y)(-)(Disk 2 Of 3).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gall Force-Eternal Story (Ja)(Y)(-)(Disk 3 Of 3)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Gall Force-Eternal Story (Ja)(Y)(-)(Disk 3 Of 3).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gamepak 2- Vootoy, Zepelis, Madou, Star Bee (1985)(-)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Gamepak 2- Vootoy, Zepelis, Madou, Star Bee (1985)(-).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gate Of Labyrinth (1987)(Ymcat)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Gate Of Labyrinth (1987)(Ymcat).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Goonies, The (1986)(Konami)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Goonies, The (1986)(Konami).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gradius (Y)(Konami)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Gradius (Y)(Konami).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Haja No Fuuin (Ja)(y)(KGD Software Productions)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Haja No Fuuin (Ja)(y)(KGD Software Productions).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hydlide 3 - The Space Memories (y)(-)(File 1 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Hydlide 3 - The Space Memories (y)(-)(File 1 of 4).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hydlide 3 - The Space Memories (y)(-)(File 2 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Hydlide 3 - The Space Memories (y)(-)(File 2 of 4).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hydlide 3 - The Space Memories (y)(-)(File 3 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Hydlide 3 - The Space Memories (y)(-)(File 3 of 4).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hydlide 3 - The Space Memories (y)(-)(File 4 of 4)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Hydlide 3 - The Space Memories (y)(-)(File 4 of 4).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Hyper Olympics (Ja)(Y)(-)[Bad]",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Hyper Olympics (Ja)(Y)(-)[Bad].zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "In The World Of Relics (Ja)(y)(-)(file 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\In The World Of Relics (Ja)(y)(-)(file 1 of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "In The World Of Relics (Ja)(y)(-)(file 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\In The World Of Relics (Ja)(y)(-)(file 2 of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "irohamioedo (Ja)(-)(file 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\irohamioedo (Ja)(-)(file 1 of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "irohamioedo (Ja)(-)(file 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\irohamioedo (Ja)(-)(file 2 of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Issural-The Story Of Calvan (Ja)(1988)(Freedom Soft)(Disk 1 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Issural-The Story Of Calvan (Ja)(1988)(Freedom Soft)(Disk 1 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Issural-The Story Of Calvan (Ja)(1988)(Freedom Soft)(Disk 2 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Issural-The Story Of Calvan (Ja)(1988)(Freedom Soft)(Disk 2 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lode Runner (1984)(Broderbund)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Lode Runner (1984)(Broderbund).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maidum (Y)(Ncs)(Disk 1 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Maidum (Y)(Ncs)(Disk 1 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maidum (Y)(Ncs)(Disk 1 Of 2)[alt]",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Maidum (Y)(Ncs)(Disk 1 Of 2)[alt].zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Maidum (Y)(Ncs)(Disk 2 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Maidum (Y)(Ncs)(Disk 2 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mappy (Y)(Namco)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Mappy (Y)(Namco).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mikichan (Ja)(Y)(Championsoft)[Bad]",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Mikichan (Ja)(Y)(Championsoft)[Bad].zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reviver (Ja)(y)(Arsys)(File 1 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Reviver (Ja)(y)(Arsys)(File 1 of 3).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reviver (Ja)(y)(Arsys)(File 2 of 3)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Reviver (Ja)(y)(Arsys)(File 2 of 3).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reviver (Ja)(y)(Arsys)(File 3 of 3)(Data File)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Reviver (Ja)(y)(Arsys)(File 3 of 3)(Data File).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Riglas (1985)(Random House)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Riglas (1985)(Random House).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "shanghai (1986-87)(activision)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\shanghai (1986-87)(activision).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Harrier (Y)(Sega)(Disk 1 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Space Harrier (Y)(Sega)(Disk 1 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Harrier (Y)(Sega)(Disk 2 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Space Harrier (Y)(Sega)(Disk 2 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spare Change (1983)(Soft Pro International)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Spare Change (1983)(Soft Pro International).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Studio Cut (Ja)(Y)(Hard)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Studio Cut (Ja)(Y)(Hard).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Laydock-Mission Striker (Y)(T&E Soft)(Disk 1 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Super Laydock-Mission Striker (Y)(T&E Soft)(Disk 1 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Laydock-Mission Striker (Y)(T&E Soft)(Disk 2 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Super Laydock-Mission Striker (Y)(T&E Soft)(Disk 2 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tetris (1988)(Bps)[Bad]",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Tetris (1988)(Bps)[Bad].zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Thunderball (Y)(-)[Bad]",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Thunderball (Y)(-)[Bad].zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Timeparadox (Ja)(Y)(-)(Disk 1 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Timeparadox (Ja)(Y)(-)(Disk 1 of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Timeparadox (Ja)(Y)(-)(Disk 2 of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Timeparadox (Ja)(Y)(-)(Disk 2 of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tokyo Nampa Street (Ja)(Y)(Enix)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Tokyo Nampa Street (Ja)(Y)(Enix).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tower Of Druaga (Y)(Namco)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Tower Of Druaga (Y)(Namco).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turbo Alpha (Y)(-)[Bad]",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Turbo Alpha (Y)(-)[Bad].zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wingman 2a (Ja)(Y)(-)(Part 1 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Wingman 2a (Ja)(Y)(-)(Part 1 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wingman 2a (Ja)(Y)(-)(Part 2 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Wingman 2a (Ja)(Y)(-)(Part 2 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Woody Poco (1986)(Db-Soft)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Woody Poco (1986)(Db-Soft).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xevious (Y)(Namco)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Xevious (Y)(Namco).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Xevious (Y)(Namco)[alt]",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Xevious (Y)(Namco)[alt].zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zeta 5 (Ja)(Y)(Championsoft)(Disk 1 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Zeta 5 (Ja)(Y)(Championsoft)(Disk 1 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zeta 5 (Ja)(Y)(Championsoft)(Disk 2 Of 2)",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\Zeta 5 (Ja)(Y)(Championsoft)(Disk 2 Of 2).zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-CHACKN",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-CHACKN.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-CZ8FB02",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-CZ8FB02.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-D-SIDE",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-D-SIDE.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-EXPERTF1",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-EXPERTF1.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-EXPERTF2",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-EXPERTF2.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-EXPERTX1",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-EXPERTX1.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-FAIRIESA",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-FAIRIESA.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-FAIRIESB",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-FAIRIESB.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-FM_DATA",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-FM_DATA.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-FMMUSIC",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-FMMUSIC.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-GAME_E",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-GAME_E.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-GANDHARA",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-GANDHARA.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-HuBASIC",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-HuBASIC.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-LAGRANGE",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-LAGRANGE.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-LOGIN_DS",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-LOGIN_DS.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-NEWFMDRV",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-NEWFMDRV.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-NEWTYPE",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-NEWTYPE.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-OUJI_A",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-OUJI_A.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-OUJI_B",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-OUJI_B.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-POPLEM_A",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-POPLEM_A.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-POPLEM_B",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-POPLEM_B.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-PORTPIA",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-PORTPIA.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-SEIJOPAN",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-SEIJOPAN.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-WIB_SYS",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-WIB_SYS.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ZZZ-UNK-WIB_USR",
+      "path": "{gamesDir}\\TOSEC\\Sharp X1 (TOSEC-v0.20_CM)\\ZZZ-UNK-WIB_USR.zip",
+      "emulatorName": "MAME Sharp X1 (CZ-800C) -floppydisk1",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

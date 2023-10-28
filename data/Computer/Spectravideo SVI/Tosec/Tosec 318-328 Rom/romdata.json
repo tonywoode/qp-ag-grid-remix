@@ -1,0 +1,55 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Flipper Slipper (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Spectravideo SVI 318-328 - ROM (TOSEC-v0.01_CM)\\Flipper Slipper (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Spectravideo SVI-328 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frantic Freddy (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Spectravideo SVI 318-328 - ROM (TOSEC-v0.01_CM)\\Frantic Freddy (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Spectravideo SVI-328 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "2",
+      "paramMode": "0"
+    },
+    {
+      "name": "Music Mentor (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Spectravideo SVI 318-328 - ROM (TOSEC-v0.01_CM)\\Music Mentor (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Spectravideo SVI-328 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sector Alpha (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Spectravideo SVI 318-328 - ROM (TOSEC-v0.01_CM)\\Sector Alpha (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Spectravideo SVI-328 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Cross Force (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Spectravideo SVI 318-328 - ROM (TOSEC-v0.01_CM)\\Super Cross Force (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Spectravideo SVI-328 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Swedish Character Rom (19xx)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Spectravideo SVI 318-328 - ROM (TOSEC-v0.01_CM)\\Swedish Character Rom (19xx)(Spectravideo).zip",
+      "emulatorName": "MAME Spectravideo SVI-328 (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

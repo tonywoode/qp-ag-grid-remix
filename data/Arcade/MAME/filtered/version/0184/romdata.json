@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Super Crowns Golf (World)",
+      "mameName": "suprgolf",
+      "path": "{gamesDir}\\MAME\\ROMS\\suprgolf.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nasco",
+      "year": "1989",
+      "gameType": "Sports / Golf",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

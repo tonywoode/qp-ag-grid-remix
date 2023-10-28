@@ -1,0 +1,423 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Adventurium3 Demo (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Adventurium3 Demo (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Air Battle V0.4 by Daniel Bienvenu (July 10) (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Air Battle V0.4 by Daniel Bienvenu (July 10) (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Snake Beta 4 by Serge-Eric Tremblay (2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Amazing Snake Beta 4 by Serge-Eric Tremblay (2001) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Snake Beta 5 by Serge-Eric Tremblay (2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Amazing Snake Beta 5 by Serge-Eric Tremblay (2001) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Snake Beta by Serge-Eric Tremblay (2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Amazing Snake Beta by Serge-Eric Tremblay (2001) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BEJEWELED",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\BEJEWELED.ROM",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Breakout (Feb-02) (1999) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Breakout (Feb-02) (1999) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Breakout Paddle Demo by Daniel Bienvenu (Feb-12) (2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Breakout Paddle Demo by Daniel Bienvenu (Feb-12) (2001) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BUsTin-Out Demo 0.5 by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\BUsTin-Out Demo 0.5 by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BUsTin-Out Volume 0 (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\BUsTin-Out Volume 0 (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BUsTin-Out Volume 1 by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\BUsTin-Out Volume 1 by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BUsTin-Out Volume 2 by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\BUsTin-Out Volume 2 by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BUsTin-Out Volume 3 by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\BUsTin-Out Volume 3 by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chateau du Dragon, Le by Daniel Bienvenu (2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Chateau du Dragon, Le by Daniel Bienvenu (2001) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Christmas Demo by Daniel Bienvenu (dec-2001)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Christmas Demo by Daniel Bienvenu (dec-2001).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ColecoVision Noise Generator (1996) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\ColecoVision Noise Generator (1996) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "COPT",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\COPT.col",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmo Challenge by Marcel de Kogel (1997) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Cosmo Challenge by Marcel de Kogel (1997) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmo Fighter 2 by Marcel de Kogel (1996-97) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Cosmo Fighter 2 by Marcel de Kogel (1996-97) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmo Fighter 3 Demo by Marcel de Kogel (2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Cosmo Fighter 3 Demo by Marcel de Kogel (2001) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmo Trainer (1997) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Cosmo Trainer (1997) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dacman V1.3 by Daniel Bienvenu (Aug 08) (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Dacman V1.3 by Daniel Bienvenu (Aug 08) (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dacman V1.3 by Daniel Bienvenu (Aug 16) (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Dacman V1.3 by Daniel Bienvenu (Aug 16) (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dacman V1.x by Daniel Bienvenu (Aug 01) (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Dacman V1.x by Daniel Bienvenu (Aug 01) (2000) (PD).col",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dacman V1.x by Daniel Bienvenu (Jul 17) (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Dacman V1.x by Daniel Bienvenu (Jul 17) (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dacman V1.x by Daniel Bienvenu (Jul 29) (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Dacman V1.x by Daniel Bienvenu (Jul 29) (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Demon2 Demo by Yannick Proulx (2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Demon2 Demo by Yannick Proulx (2001) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "GENERIC",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\GENERIC.ROM",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "HHE",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\HHE.ROM",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "icvgm",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\icvgm.dat",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kevtris by Kevin Horton (1996) (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Kevtris by Kevin Horton (1996) (PD) [a1].rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kevtris by Kevin Horton (1996) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Kevtris by Kevin Horton (1996) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kill Barney in Tokyo (1997) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Kill Barney in Tokyo (1997) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Killer Instinct (1997) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Killer Instinct (1997) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Music Vol 1 by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Music Vol 1 by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nim by Daniel Bienvenu (Nov-03) (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Nim by Daniel Bienvenu (Nov-03) (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pere Noel by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Pere Noel by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Purple Dinosaur Massacre by John Dondzila (1996) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Purple Dinosaur Massacre by John Dondzila (1996) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Reversi Demo by Daniel Bienvenu (2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Reversi Demo by Daniel Bienvenu (2001) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sound FX Vol 1 by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Sound FX Vol 1 by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sound FX Vol 2 by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Sound FX Vol 2 by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invasion by John Dondzila (1998) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Space Invasion by John Dondzila (1998) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invasion Demo by John Dondzila (Feb-06) (1998) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Space Invasion Demo by John Dondzila (Feb-06) (1998) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectank Demo by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Spectank Demo by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Fortress by John Dondzila (1997) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Star Fortress by John Dondzila (1997) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stubby Demo by Yannick Proulx (2001) (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Stubby Demo by Yannick Proulx (2001) (PD) [a1].rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stubby Demo by Yannick Proulx (2001) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Stubby Demo by Yannick Proulx (2001) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Superpong Demo (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Superpong Demo (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tenchi Muyo Demo by Daniel Bienvenu (2000) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Tenchi Muyo Demo by Daniel Bienvenu (2000) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tic Tac Toe by Norman Nithman (1996) (PD) [a1]",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Tic Tac Toe by Norman Nithman (1996) (PD) [a1].rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tic Tac Toe by Norman Nithman (1996) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Tic Tac Toe by Norman Nithman (1996) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winky Trap (1997) (PD)",
+      "path": "{gamesDir}\\TOSEC\\PublicDomain Romsets\\Colecovision\\Winky Trap (1997) (PD).rom",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

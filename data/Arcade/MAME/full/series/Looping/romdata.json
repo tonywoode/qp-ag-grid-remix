@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Looping",
+      "mameName": "looping",
+      "path": "{gamesDir}\\MAME\\ROMS\\looping.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video Games GmbH",
+      "year": "1982",
+      "gameType": "Shooter / Flying",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Looping (Venture Line license, set 1)",
+      "mameName": "loopingv",
+      "parentName": "looping",
+      "path": "{gamesDir}\\MAME\\ROMS\\looping.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video Games GmbH (Venture Line license)",
+      "year": "1982",
+      "gameType": "Shooter / Flying",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Looping (Venture Line license, set 2)",
+      "mameName": "loopingva",
+      "parentName": "looping",
+      "path": "{gamesDir}\\MAME\\ROMS\\looping.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Video Games GmbH (Venture Line license)",
+      "year": "1982",
+      "gameType": "Shooter / Flying",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Sky Bumper",
+      "mameName": "skybump",
+      "path": "{gamesDir}\\MAME\\ROMS\\skybump.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Venture Line",
+      "year": "1982",
+      "gameType": "Shooter / Flying",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

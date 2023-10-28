@@ -1,0 +1,66 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Psychic Force 2012",
+      "mameName": "pf2012",
+      "path": "{gamesDir}\\MAME\\ROMS\\pf2012.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1997",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Psychic Force (Ver 2.4O)",
+      "mameName": "psyforce",
+      "path": "{gamesDir}\\MAME\\ROMS\\psyforce.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1995",
+      "gameType": "Fighter / Versus",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Psychic Force (Ver 2.4J)",
+      "mameName": "psyforcej",
+      "parentName": "psyforce",
+      "path": "{gamesDir}\\MAME\\ROMS\\psyforce.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1995",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Psychic Force EX (Ver 2.0J)",
+      "mameName": "psyforcex",
+      "parentName": "psyforce",
+      "path": "{gamesDir}\\MAME\\ROMS\\psyforce.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito",
+      "year": "1995",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

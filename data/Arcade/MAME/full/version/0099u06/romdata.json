@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Pinball Champ '95",
+      "mameName": "pbchmp95",
+      "parentName": "witch",
+      "path": "{gamesDir}\\MAME\\ROMS\\witch.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Veltmeijer Automaten",
+      "year": "1995",
+      "gameType": "Pinball",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Shuffleshot (v1.39)",
+      "mameName": "shufshot139",
+      "parentName": "shufshot",
+      "path": "{gamesDir}\\MAME\\ROMS\\shufshot.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Strata/Incredible Technologies",
+      "year": "1997",
+      "gameType": "Sports / Shuffleboard",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Sharpshooter (Rev 1.1)",
+      "mameName": "sshooter11",
+      "parentName": "sshooter",
+      "path": "{gamesDir}\\MAME\\ROMS\\sshooter.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "P&P Marketing",
+      "year": "1998",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Witch (Sega License)",
+      "mameName": "witchs",
+      "parentName": "witch",
+      "path": "{gamesDir}\\MAME\\ROMS\\witch.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega / Vic Tokai",
+      "year": "1992",
+      "gameType": "Pinball",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

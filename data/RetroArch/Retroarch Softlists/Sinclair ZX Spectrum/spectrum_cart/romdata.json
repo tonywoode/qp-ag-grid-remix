@@ -1,0 +1,219 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Backgammon",
+      "mameName": "backgamm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\backgamm.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Sinclair Research",
+      "year": "1983",
+      "comment": "developer:Psion Software,serial:G22/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Chess",
+      "mameName": "chess",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\chess.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Sinclair Research",
+      "year": "1983",
+      "comment": "developer:Psion Software,serial:G10/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Cookie",
+      "mameName": "cookie",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\cookie.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Ultimate Play the Game ~ Sinclair Research",
+      "year": "1983",
+      "comment": "serial:G30/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Horace & the Spiders",
+      "mameName": "horacesp",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\horacesp.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Sinclair Research",
+      "year": "1983",
+      "comment": "developer:Psion Software,serial:G24/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hungry Horace",
+      "mameName": "horace",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\horace.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Sinclair Research",
+      "year": "1982",
+      "comment": "developer:Psion Software,serial:G13/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Jet Pac",
+      "mameName": "jetpac",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\jetpac.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Ultimate Play the Game ~ Sinclair Research",
+      "year": "1983",
+      "comment": "serial:G27/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Planetoids",
+      "mameName": "planet",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\planet.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Sinclair Research",
+      "year": "1983",
+      "comment": "developer:Psion Software,serial:G12/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Pssst",
+      "mameName": "pssst",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\pssst.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Ultimate Play the Game ~ Sinclair Research",
+      "year": "1983",
+      "comment": "serial:G28/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Space Raiders",
+      "mameName": "spacerai",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\spacerai.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Sinclair Research",
+      "year": "1983",
+      "comment": "developer:Psion Software,serial:G9/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tranz Am",
+      "mameName": "tranzam",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\tranzam.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Ultimate Play the Game ~ Sinclair Research",
+      "year": "1983",
+      "comment": "serial:G29/R",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Gyruss (Prototype)",
+      "mameName": "gyruss",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\gyruss.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Parker Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Loco Motion (Prototype)",
+      "mameName": "locomotn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\locomotn.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Amazon Systems",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Montezuma's Revenge (Prototype)",
+      "mameName": "montezum",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\montezum.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Parker Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Montezuma's Revenge (Prototype, Alt)",
+      "mameName": "montezum1",
+      "parentName": "montezum",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\montezum.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Parker Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Popeye (Prototype)",
+      "mameName": "popeye",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\popeye.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Parker Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Q*Bert (Prototype)",
+      "mameName": "qbert",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\qbert.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Parker Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Return Of The Jedi - Death Star Battle (Prototype)",
+      "mameName": "jedi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\jedi.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Parker Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Wars (Prototype)",
+      "mameName": "starwars",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\starwars.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Parker Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Wars (Prototype, Alt)",
+      "mameName": "starwars1",
+      "parentName": "starwars",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\starwars.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Parker Software",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "ZX Spectrum Test Cartridge",
+      "mameName": "zxtest",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\spectrum_cart\\zxtest.7z",
+      "emulatorName": "Retroarch Sinclair ZX Spectrum -SOFTLIST spectrum_cart (MAME)",
+      "companyName": "Sinclair Research",
+      "year": "1983",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

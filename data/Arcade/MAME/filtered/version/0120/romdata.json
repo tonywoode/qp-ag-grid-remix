@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "World Heroes (ALM-005)",
+      "mameName": "wh1",
+      "path": "{gamesDir}\\MAME\\ROMS\\wh1.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Alpha Denshi Co.",
+      "year": "1992",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "World Heroes 2 Jet (ADM-007 ~ ADH-007)",
+      "mameName": "wh2j",
+      "path": "{gamesDir}\\MAME\\ROMS\\wh2j.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "ADK / SNK",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

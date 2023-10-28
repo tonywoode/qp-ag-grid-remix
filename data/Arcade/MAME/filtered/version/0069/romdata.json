@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Naughty Mouse (set 1)",
+      "mameName": "nmouse",
+      "path": "{gamesDir}\\MAME\\ROMS\\nmouse.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Amenip (Palcom Queen River)",
+      "year": "1981",
+      "gameType": "Platform / Run Jump",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Tunnel Hunt",
+      "mameName": "tunhunt",
+      "path": "{gamesDir}\\MAME\\ROMS\\tunhunt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1979",
+      "gameType": "Shooter / Flying 1st Person",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "World Class Bowling (v1.66)",
+      "mameName": "wcbowl",
+      "path": "{gamesDir}\\MAME\\ROMS\\wcbowl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Incredible Technologies",
+      "year": "1995",
+      "gameType": "Sports / Bowling",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Wolf Pack (prototype)",
+      "mameName": "wolfpack",
+      "path": "{gamesDir}\\MAME\\ROMS\\wolfpack.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1978",
+      "gameType": "Shooter / Gallery",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Madrigal CD",
+      "path": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Madrigal CD.jpg",
+      "emulatorName": "Madrigal CD",
+      "language": "English",
+      "comment": "???IPS>?/IPS>",
+      "timesPlayed": "7",
+      "paramMode": "0"
+    }
+  ]
+}

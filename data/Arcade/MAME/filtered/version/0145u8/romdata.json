@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bikkuri Card (Japan)",
+      "mameName": "bikkuric",
+      "path": "{gamesDir}\\MAME\\ROMS\\bikkuric.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Peni",
+      "year": "1987",
+      "gameType": "Puzzle / Match",
+      "rating": "30 to 40 (Amendable)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Funcube 5 (v1.0)",
+      "mameName": "funcube5",
+      "path": "{gamesDir}\\MAME\\ROMS\\funcube5.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "2002",
+      "gameType": "Multiplay / Compilation",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Jue Zhan Tian Huang",
+      "mameName": "jzth",
+      "path": "{gamesDir}\\MAME\\ROMS\\jzth.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "<unknown>",
+      "year": "2000",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Sharpshooter (Rev 1.9)",
+      "mameName": "sshooter",
+      "path": "{gamesDir}\\MAME\\ROMS\\sshooter.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "P&P Marketing",
+      "year": "1998",
+      "gameType": "Shooter / Gun",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

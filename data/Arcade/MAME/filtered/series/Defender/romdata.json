@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Defender (Red label)",
+      "mameName": "defender",
+      "path": "{gamesDir}\\MAME\\ROMS\\defender.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams",
+      "year": "1980",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Stargate",
+      "mameName": "stargate",
+      "path": "{gamesDir}\\MAME\\ROMS\\stargate.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Williams / Vid Kidz",
+      "year": "1981",
+      "gameType": "Shooter / Flying",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Strike Force (rev 1 02/25/91)",
+      "mameName": "strkforc",
+      "path": "{gamesDir}\\MAME\\ROMS\\strkforc.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Midway",
+      "year": "1991",
+      "gameType": "Shooter / Flying",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

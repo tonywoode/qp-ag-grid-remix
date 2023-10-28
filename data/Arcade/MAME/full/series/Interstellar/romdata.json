@@ -1,0 +1,21 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Interstellar Laser Fantasy",
+      "mameName": "istellar",
+      "path": "{gamesDir}\\MAME\\CHDs\\istellar\\istellar.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Funai/Gakken",
+      "year": "1983",
+      "gameType": "Shooter / 1st Person",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

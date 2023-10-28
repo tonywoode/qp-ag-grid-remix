@@ -1,0 +1,80 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Sega Network Taisen Mahjong MJ 2 (Rev G) (GDX-0006G)",
+      "mameName": "mj2",
+      "path": "{gamesDir}\\MAME\\CHDs\\mj2\\gdx-0006g.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2004",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Sega Network Taisen Mahjong MJ 2 (Rev C) (GDX-0006C)",
+      "mameName": "mj2c",
+      "parentName": "mj2",
+      "path": "{gamesDir}\\MAME\\CHDs\\mj2\\gdx-0006c.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2004",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Sega Network Taisen Mahjong MJ 2 (Rev F) (GDX-0006F)",
+      "mameName": "mj2f",
+      "parentName": "mj2",
+      "path": "{gamesDir}\\MAME\\CHDs\\mj2\\gdx-0006f.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2004",
+      "gameType": "Tabletop / Mahjong",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Sega Network Taisen Mahjong MJ 3 (Rev F) (GDX-0017F)",
+      "mameName": "mj3",
+      "path": "{gamesDir}\\MAME\\CHDs\\mj3\\gdx-0017f.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2005",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Sega Network Taisen Mahjong MJ 3 (Rev D) (GDX-0017D)",
+      "mameName": "mj3d",
+      "parentName": "mj3",
+      "path": "{gamesDir}\\MAME\\CHDs\\mj3\\gdx-0017d.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "2005",
+      "gameType": "Tabletop / Mahjong",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

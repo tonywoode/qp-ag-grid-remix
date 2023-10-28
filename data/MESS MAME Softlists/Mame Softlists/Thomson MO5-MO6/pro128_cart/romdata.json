@@ -1,0 +1,49 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Colorpaint",
+      "mameName": "colorpnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pro128_cart\\colorpnt.7z",
+      "emulatorName": "MAME Olivetti / Thomson Prodest PC 128 -SOFTLIST pro128_cart",
+      "companyName": "Olivetti Prodest?",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Colorpaint (Alt)",
+      "mameName": "colorpnta",
+      "parentName": "colorpnt",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pro128_cart\\colorpnt.7z",
+      "emulatorName": "MAME Olivetti / Thomson Prodest PC 128 -SOFTLIST pro128_cart",
+      "companyName": "Olivetti Prodest?",
+      "year": "198?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Scriptor",
+      "mameName": "scriptor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pro128_cart\\scriptor.7z",
+      "emulatorName": "MAME Olivetti / Thomson Prodest PC 128 -SOFTLIST pro128_cart",
+      "companyName": "Olivetti Prodest",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Scriptor (Alt)",
+      "mameName": "scriptora",
+      "parentName": "scriptor",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\pro128_cart\\scriptor.7z",
+      "emulatorName": "MAME Olivetti / Thomson Prodest PC 128 -SOFTLIST pro128_cart",
+      "companyName": "Olivetti Prodest",
+      "year": "1986",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

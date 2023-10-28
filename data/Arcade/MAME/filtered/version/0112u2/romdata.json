@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Asura Buster - Eternal Warriors (Japan)",
+      "mameName": "asurabus",
+      "path": "{gamesDir}\\MAME\\ROMS\\asurabus.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Fuuki",
+      "year": "2000",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Candy Puzzle (v1.0)",
+      "mameName": "cndypuzl",
+      "path": "{gamesDir}\\MAME\\CHDs\\cndypuzl\\cndypuzl.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "CD Express",
+      "year": "1995",
+      "gameType": "Puzzle / Toss",
+      "rating": "60 to 70 (Passable)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Dynamite Bomber (Korea, Rev 1.5)",
+      "mameName": "dynabomb",
+      "path": "{gamesDir}\\MAME\\ROMS\\dynabomb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Limenko",
+      "year": "2000",
+      "gameType": "Platform / Run Jump",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Search Eye Plus V2.0",
+      "mameName": "searchp2",
+      "path": "{gamesDir}\\MAME\\ROMS\\searchp2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Yun Sung",
+      "year": "1999",
+      "gameType": "Puzzle / Misc.",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

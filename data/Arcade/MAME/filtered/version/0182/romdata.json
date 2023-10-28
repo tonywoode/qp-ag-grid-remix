@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Hangzo (Japan, prototype)",
+      "mameName": "hangzo",
+      "path": "{gamesDir}\\MAME\\ROMS\\hangzo.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Hot-B",
+      "year": "1992",
+      "gameType": "Fighter / 2D",
+      "rating": "70 to 80 (Good)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Poly-Play (ZRE-PP)",
+      "mameName": "polyplay2",
+      "path": "{gamesDir}\\MAME\\ROMS\\polyplay2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "VEB Polytechnik Karl-Marx-Stadt",
+      "year": "1989",
+      "gameType": "Maze",
+      "rating": "20 to 30 (Bad)",
+      "language": "German",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

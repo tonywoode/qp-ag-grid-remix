@@ -1,0 +1,77 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Casino Fever 1k",
+      "mameName": "cfever1k",
+      "path": "{gamesDir}\\MAME\\ROMS\\cfever1k.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "High Video",
+      "year": "2000",
+      "gameType": "Casino / Cards",
+      "language": "Italian",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Casino Fever 4.0",
+      "mameName": "cfever40",
+      "path": "{gamesDir}\\MAME\\ROMS\\cfever40.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "High Video",
+      "year": "2000",
+      "gameType": "Casino / Cards",
+      "language": "Italian",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Casino Fever 5.0",
+      "mameName": "cfever50",
+      "path": "{gamesDir}\\MAME\\ROMS\\cfever50.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "High Video",
+      "year": "2000",
+      "gameType": "Casino / Cards",
+      "language": "Italian",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Casino Fever 5.1",
+      "mameName": "cfever51",
+      "path": "{gamesDir}\\MAME\\ROMS\\cfever51.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "High Video",
+      "year": "2000",
+      "gameType": "Casino / Cards",
+      "language": "Italian",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Casino Fever 6.1",
+      "mameName": "cfever61",
+      "path": "{gamesDir}\\MAME\\ROMS\\cfever61.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "High Video",
+      "year": "2000",
+      "gameType": "Casino / Cards",
+      "language": "Italian",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

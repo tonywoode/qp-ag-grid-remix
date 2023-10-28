@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Boot Hill",
+      "mameName": "boothill",
+      "path": "{gamesDir}\\MAME\\ROMS\\boothill.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dave Nutting Associates / Midway",
+      "year": "1977",
+      "gameType": "Shooter / Versus",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gun Fight (set 1)",
+      "mameName": "gunfight",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunfight.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dave Nutting Associates / Midway",
+      "year": "1975",
+      "gameType": "Shooter / Versus",
+      "rating": "10 to 20 (Horrible)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gun Fight (set 2)",
+      "mameName": "gunfighto",
+      "parentName": "gunfight",
+      "path": "{gamesDir}\\MAME\\ROMS\\gunfight.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dave Nutting Associates / Midway",
+      "year": "1975",
+      "gameType": "Shooter / Versus",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

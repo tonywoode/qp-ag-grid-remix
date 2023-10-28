@@ -1,0 +1,2007 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "2010 - The Graphic Action Game (1984)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\2010 - The Graphic Action Game (1984)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Adam's Musicbox Demo (1987)(-)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Adam's Musicbox Demo (1987)(-).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Air Battle v0.4 (2000)(Daniel Bienvenu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Air Battle v0.4 (2000)(Daniel Bienvenu)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alcazar - The Forgotten Fortress (1985)(Activision, Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Alcazar - The Forgotten Fortress (1985)(Activision, Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Alphabet Zoo (1983-84)(Spinnaker Software Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Alphabet Zoo (1983-84)(Spinnaker Software Corp.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Bumpman (1986)(Telegames)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Amazing Bumpman (1986)(Telegames).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "4",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Snake (2000)(S.E.T.)(PD)(beta)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Amazing Snake (2000)(S.E.T.)(PD)(beta).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Snake v0.4 (2000)(S.E.T.)(PD)(beta)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Amazing Snake v0.4 (2000)(S.E.T.)(PD)(beta).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Amazing Snake v0.5 (2000)(S.E.T.)(PD)(beta)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Amazing Snake v0.5 (2000)(S.E.T.)(PD)(beta).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Antarctic Adventure (1984)(Konami)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Antarctic Adventure (1984)(Konami).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Antarctic Adventure (1984)(Konami)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Antarctic Adventure (1984)(Konami)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aquattack (1984)(Interphase)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Aquattack (1984)(Interphase).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Aquattack (1984)(Interphase)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Aquattack (1984)(Interphase)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Artillery Duel (1983)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Artillery Duel (1983)(Xonox).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BC's Quest (1983)(Sierra-Sydney Development Corp)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\BC's Quest (1983)(Sierra-Sydney Development Corp).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BC's Quest for Tires II - Grog's Revenge (1984)(Sydney Development Corp)[a][24k]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\BC's Quest for Tires II - Grog's Revenge (1984)(Sydney Development Corp)[a][24k].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BC's Quest for Tires II - Grog's Revenge (1984)(Sydney Development Corp)[a][32k]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\BC's Quest for Tires II - Grog's Revenge (1984)(Sydney Development Corp)[a][32k].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "BC's Quest for Tires II - Grog's Revenge (1984)(Sydney Development Corp)[b][32k]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\BC's Quest for Tires II - Grog's Revenge (1984)(Sydney Development Corp)[b][32k].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Beamrider (1983)(-)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Beamrider (1983)(-).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Blockade Runner (1984)(Interphase)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Blockade Runner (1984)(Interphase).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Boulder Dash (1984)(Micro Lab-First Star Software)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Boulder Dash (1984)(Micro Lab-First Star Software).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "Brain Strainers (1984)(Carousel Software Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Brain Strainers (1984)(Carousel Software Inc.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Breakout (1999)(Daniel Bienvenu)(Fr)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Breakout (1999)(Daniel Bienvenu)(Fr)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Breakout Paddle Demo (2001)(Daniel Bienveny)(Fr)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Breakout Paddle Demo (2001)(Daniel Bienveny)(Fr)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers - Planet Of Zoom (1983)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Buck Rogers - Planet Of Zoom (1983)(Sega).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Buck Rogers - Planet Of Zoom (1983)(Sega)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Buck Rogers - Planet Of Zoom (1983)(Sega)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bump 'N' Jump (1982-84)(Data East USA, Inc.-Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Bump 'N' Jump (1982-84)(Data East USA, Inc.-Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bump 'N' Jump (1982-84)(Data East USA, Inc.-Coleco)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Bump 'N' Jump (1982-84)(Data East USA, Inc.-Coleco)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgertime (1982-83)(Data East USA, Inc.-Mattel Electronics)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Burgertime (1982-83)(Data East USA, Inc.-Mattel Electronics).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Burgertime (1982-84)(Data East USA, Inc.-Coleco)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Burgertime (1982-84)(Data East USA, Inc.-Coleco)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bustin Out v0.5 (2000)(Daniel Bienvenu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Bustin Out v0.5 (2000)(Daniel Bienvenu)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Bustin Out Volume 0 (2000)(Daniel Bienvenu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Bustin Out Volume 0 (2000)(Daniel Bienvenu)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cabbage Patch Kids - Adventures in the Park (1983-84)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Cabbage Patch Kids - Adventures in the Park (1983-84)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cabbage Patch Kids - Adventures in the Park (1983-84)(Coleco)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Cabbage Patch Kids - Adventures in the Park (1983-84)(Coleco)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cabbage Patch Kids Picture Show (1984)(O.A.A. Inc.-Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Cabbage Patch Kids Picture Show (1984)(O.A.A. Inc.-Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Campaign '84 (1983)(Sunrise Software Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Campaign '84 (1983)(Sunrise Software Inc.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Carnival (1982)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Carnival (1982)(Sega).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Centipede (1983)(Atari)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Centipede (1983)(Atari).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter (1982-84)(Broderbund-Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Choplifter (1982-84)(Broderbund-Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Choplifter (1982-84)(Broderbund-Coleco)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Choplifter (1982-84)(Broderbund-Coleco)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Chuck Norris - Super Kicks (1983)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Chuck Norris - Super Kicks (1983)(Xonox).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ColecoVision BIOS (1982)(CBS)[different font]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\ColecoVision BIOS (1982)(CBS)[different font].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ColecoVision BIOS (1982)(CBS)[no title delay]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\ColecoVision BIOS (1982)(CBS)[no title delay].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ColecoVision BIOS (1982)(CBS)[original]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\ColecoVision BIOS (1982)(CBS)[original].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ColecoVision Monitor Test (1982)(CBS)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\ColecoVision Monitor Test (1982)(CBS)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "ColecoVision Noise Generator (1996)(Marcel de Kogel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\ColecoVision Noise Generator (1996)(Marcel de Kogel)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Congo Bongo (1984)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Congo Bongo (1984)(Sega).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Avenger (1982)(Universal)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Cosmic Avenger (1982)(Universal).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Avenger (1982)(Universal)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Cosmic Avenger (1982)(Universal)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmic Crisis (1983)(Bit Corporation)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Cosmic Crisis (1983)(Bit Corporation).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmo Challenge (1997)(Marcel de Kogel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Cosmo Challenge (1997)(Marcel de Kogel)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmo Fighter 2 (1996-97)(Red Bullet)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Cosmo Fighter 2 (1996-97)(Red Bullet)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Cosmo Trainer (1997)(Marcel de Kogel)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Cosmo Trainer (1997)(Marcel de Kogel)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dacman (2000)(Daniel Bienvenu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Dacman (2000)(Daniel Bienvenu)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dacman v1.3 (2000)(Daniel Bienvenu)(PD)[08-08]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Dacman v1.3 (2000)(Daniel Bienvenu)(PD)[08-08].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dacman v1.x (2000)(Daniel Bienvenu)(PD)[07-17]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Dacman v1.x (2000)(Daniel Bienvenu)(PD)[07-17].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dacman v1.x (2000)(Daniel Bienvenu)(PD)[07-27]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Dacman v1.x (2000)(Daniel Bienvenu)(PD)[07-27].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dam Busters, The (1984)(Sydney Development Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Dam Busters, The (1984)(Sydney Development Corp.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dance Fantasy (1984)(SSC-Fisher-Price)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Dance Fantasy (1984)(SSC-Fisher-Price).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Decathlon (1983)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Decathlon (1983)(-)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Defender (1980-83)(Atari)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Defender (1980-83)(Atari).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Destructor (1984)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Destructor (1984)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong (1982)(Nintendo)[16k]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Donkey Kong (1982)(Nintendo)[16k].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong (1982)(Nintendo)[24k]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Donkey Kong (1982)(Nintendo)[24k].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Donkey Kong Jr (1982-83)(Nintendo of America Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Donkey Kong Jr (1982-83)(Nintendo of America Inc.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dr. Seuss's Fix-Up The Mix-Up Puzzler (1984)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Dr. Seuss's Fix-Up The Mix-Up Puzzler (1984)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "DragonFire (1984)(Imagic)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\DragonFire (1984)(Imagic).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Dukes of Hazzard, The (1984)(Warner Bros)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Dukes of Hazzard, The (1984)(Warner Bros).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Escape From The Mind Master (1983)(Epyx Corporation)(proto)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Escape From The Mind Master (1983)(Epyx Corporation)(proto).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Evolution (1983)(Sydney Development Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Evolution (1983)(Sydney Development Corp.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Facemaker (1983)(Spinnaker Software Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Facemaker (1983)(Spinnaker Software Corp.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Facemaker (1983)(Spinnaker Software Corp.)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Facemaker (1983)(Spinnaker Software Corp.)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fall Guy (1983)(-)(proto)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Fall Guy (1983)(-)(proto).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fathom (1983)(Imagic)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Fathom (1983)(Imagic).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Flipper Slipper (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Flipper Slipper (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fortune Builder (1984)(Circuits and Systems)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Fortune Builder (1984)(Circuits and Systems).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Fraction Fever (1983)(Spinnaker Software Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Fraction Fever (1983)(Spinnaker Software Corp.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frantic Freddy (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Frantic Freddy (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger (1982-83)(-)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Frogger (1982-83)(-).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger (1982-83)(-)[o]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Frogger (1982-83)(-)[o].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frogger II - ThreeDeep! (1984)(-)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Frogger II - ThreeDeep! (1984)(-).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "1",
+      "paramMode": "0"
+    },
+    {
+      "name": "From Out Of The Jungle (1982)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\From Out Of The Jungle (1982)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frontline (1983)(Taito)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Frontline (1983)(Taito).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Frontline (1983)(Taito)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Frontline (1983)(Taito)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaxian (1983)(Atari)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Galaxian (1983)(Atari).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaxian (1983)(Atari)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Galaxian (1983)(Atari)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Galaxian (1983)(Atari)[a2]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Galaxian (1983)(Atari)[a2].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gateway to Apshai (1984)(Epyx)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Gateway to Apshai (1984)(Epyx).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gorf (1981-83)(Bally Midway)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Gorf (1981-83)(Bally Midway).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gorf (1981-83)(Bally Midway)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Gorf (1981-83)(Bally Midway)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gust Buster (1983)(Sunrise Software Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Gust Buster (1983)(Sunrise Software Inc.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Gyruss (1984)(Parker Brothers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Gyruss (1984)(Parker Brothers).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "H.E.R.O. (1984)(Activision)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\H.E.R.O. (1984)(Activision).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heist, The (1983)(Livesay Computers, Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Heist, The (1983)(Livesay Computers, Inc.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Heist, The (1983)(Livesay Computers, Inc.)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Heist, The (1983)(Livesay Computers, Inc.)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Illusions (1984)(Nice Ideas)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Illusions (1984)(Nice Ideas).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Illusions (1984)(Nice Ideas)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Illusions (1984)(Nice Ideas)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Its Only Rock 'N' Roll (1984)(K-tel International UK Ltd)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Its Only Rock 'N' Roll (1984)(K-tel International UK Ltd).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "James Bond (1984)(Parker Brothers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\James Bond (1984)(Parker Brothers).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "JBulman Junior (1997)(Epyx)[h Daniel Bienvenu]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\JBulman Junior (1997)(Epyx)[h Daniel Bienvenu].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Juke Box (1984)(Spinnaker Software Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Juke Box (1984)(Spinnaker Software Corp.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jumpman Junior (1984)(Epyx)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Jumpman Junior (1984)(Epyx).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jumpman Junior (1984)(Epyx)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Jumpman Junior (1984)(Epyx)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Jungle Hunt (1982-83)(Taito - Atari)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Jungle Hunt (1982-83)(Taito - Atari).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ken Uston Blackjack-Poker (1983)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Ken Uston Blackjack-Poker (1983)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Ken Uston Blackjack-Poker (1983)(Coleco)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Ken Uston Blackjack-Poker (1983)(Coleco)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kevtris (1996)(CVRS)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Kevtris (1996)(CVRS)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kevtris (1996)(CVRS)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Kevtris (1996)(CVRS)(PD)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Keystone Kapers (1983-84)(Activision)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Keystone Kapers (1983-84)(Activision).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Kill Barney in Tokyo (1997)(Daniel Bienvenu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Kill Barney in Tokyo (1997)(Daniel Bienvenu)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Killer Instinct (1997)(Daniel Bienvenu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Killer Instinct (1997)(Daniel Bienvenu)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Lady Bug (1982)(Universal)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Lady Bug (1982)(Universal).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Learning With Leeper (1983)(Sierra On-Line Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Learning With Leeper (1983)(Sierra On-Line Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Linking Logic (1984)(Fisher-Price - SSC)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Linking Logic (1984)(Fisher-Price - SSC).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Logic Levels (1984)(Fisher-Price - SSC)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Logic Levels (1984)(Fisher-Price - SSC).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Looping (1983)(Ventureline)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Looping (1983)(Ventureline).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Looping (1983)(Ventureline)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Looping (1983)(Ventureline)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "M.A.S.H. (1983)(Fox Video Games)(proto)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\M.A.S.H. (1983)(Fox Video Games)(proto).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Memory Manor (1984)(Fisher-Price - SSC)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Memory Manor (1984)(Fisher-Price - SSC).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Memory Manor (1984)(Fisher-Price - SSC)[o]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Memory Manor (1984)(Fisher-Price - SSC)[o].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Meteoric Shower (1983)(Bit Corporation)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Meteoric Shower (1983)(Bit Corporation).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Miner 2049er (1983)(Livesay Computer Games, Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Miner 2049er (1983)(Livesay Computer Games, Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Miner 2049er (1983)(Livesay Computer Games, Inc)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Miner 2049er (1983)(Livesay Computer Games, Inc)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monkey Academy (1984)(Konami)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Monkey Academy (1984)(Konami).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monkey Academy (1984)(Konami)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Monkey Academy (1984)(Konami)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Monkey Academy (1984)(Konami)[o]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Monkey Academy (1984)(Konami)[o].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Montezuma's Revenge (1984)(Parker Brothers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Montezuma's Revenge (1984)(Parker Brothers).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moon Patrol (1982-84)(Billiams-Irata)(proto)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Moon Patrol (1982-84)(Billiams-Irata)(proto).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moonsweeper (1983)(Imagic)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Moonsweeper (1983)(Imagic).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Moonsweeper (1983)(Imagic)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Moonsweeper (1983)(Imagic)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Motocross Racer (1984)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Motocross Racer (1984)(Xonox).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Motocross Racer (1984)(Xonox)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Motocross Racer (1984)(Xonox)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mountain King (1983-84)(E.F. Dreyer, Inc - Sunrise Software Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Mountain King (1983-84)(E.F. Dreyer, Inc - Sunrise Software Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mousetrap (1982)(Exidy)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Mousetrap (1982)(Exidy).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mousetrap (1982)(Exidy)[o]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Mousetrap (1982)(Exidy)[o].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr Do! (1983)(Universal)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Mr Do! (1983)(Universal).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr Do! (1983)(Universal)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Mr Do! (1983)(Universal)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr Do's Castle (1983)(Universal)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Mr Do's Castle (1983)(Universal).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Mr Do's Castle (1983)(Universal)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Mr Do's Castle (1983)(Universal)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nim (2000)(Daniel Bienvenu)(PD)[11-03]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Nim (2000)(Daniel Bienvenu)(PD)[11-03].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nim (2000)(Daniel Bienvenu)(PD)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Nim (2000)(Daniel Bienvenu)(PD)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Nova Blast (1983)(Imagic)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Nova Blast (1983)(Imagic).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Oil's Well (1984)(Sierra On-Line Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Oil's Well (1984)(Sierra On-Line Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Oil's Well (1984)(Sierra On-Line Inc)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Oil's Well (1984)(Sierra On-Line Inc)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Omega Race (1981-83)(Bally Midway MFG. Co.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Omega Race (1981-83)(Bally Midway MFG. Co.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "One on One (1984)(Microlab)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\One on One (1984)(Microlab).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pepper II (1983)(Exidy)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Pepper II (1983)(Exidy).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pere Noel (2001)(Daniel Bienvenu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Pere Noel (2001)(Daniel Bienvenu)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitfall II - Lost Caverns (1983-84)(Activision)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Pitfall II - Lost Caverns (1983-84)(Activision).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitfall! (1983)(Activision)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Pitfall! (1983)(Activision)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitstop (1983)(Epyx)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Pitstop (1983)(Epyx).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitstop (1983)(Epyx)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Pitstop (1983)(Epyx)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Pitstop (1983)(Epyx)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Pitstop (1983)(Epyx)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Popeye (1983)(-)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Popeye (1983)(-)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Popeye (1983)(-)[a2]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Popeye (1983)(-)[a2].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Porky's (1983)(Fox Video Games)(proto)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Porky's (1983)(Fox Video Games)(proto).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Purple Dinosaur Massacre (1996)(John Dondzilla)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Purple Dinosaur Massacre (1996)(John Dondzilla)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Q-bert (1983)(Parker Brothers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Q-bert (1983)(Parker Brothers).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Q-bert (1983)(Parker Brothers)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Q-bert (1983)(Parker Brothers)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Q-bert (1983)(Parker Brothers)[h]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Q-bert (1983)(Parker Brothers)[h].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Q-bert II (1984)(Parker Brothers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Q-bert II (1984)(Parker Brothers).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Quest for Quintana Roo (1983)(Sunrise Software Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Quest for Quintana Roo (1983)(Sunrise Software Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "River Raid (1982-84)(Activision)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\River Raid (1982-84)(Activision)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robin Hood (1984)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Robin Hood (1984)(Xonox).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Robin Hood (1984)(Xonox)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Robin Hood (1984)(Xonox)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Roc 'N Rope (1983-84)(Konami)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Roc 'N Rope (1983-84)(Konami).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rock N Bolt (1984)(Activision)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Rock N Bolt (1984)(Activision).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rock N Bolt (1984)(Activision)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Rock N Bolt (1984)(Activision)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rocky Super-Action Boxing (1983)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Rocky Super-Action Boxing (1983)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Rolloverture (1983)(Sunrise Software Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Rolloverture (1983)(Sunrise Software Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sammy Lightfoot (1983)(Sierra On-Line Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Sammy Lightfoot (1983)(Sierra On-Line Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sammy Lightfoot (1983)(Sierra On-Line Inc)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Sammy Lightfoot (1983)(Sierra On-Line Inc)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sector Alpha (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Sector Alpha (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sector Alpha (1983)(Spectravideo)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Sector Alpha (1983)(Spectravideo)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sector Alpha (1983)(Spectravideo)[a2]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Sector Alpha (1983)(Spectravideo)[a2].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sewer Sam (1984)(Interphase)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Sewer Sam (1984)(Interphase).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Sir Lancelot (1983)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Sir Lancelot (1983)(Xonox).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Skiing (1986)(Telegames)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Skiing (1986)(Telegames).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slither (1983)(Century II)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Slither (1983)(Century II).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slither (1983)(Century II)[o]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Slither (1983)(Century II)[o].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slurpy (1984)(Emag Software)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Slurpy (1984)(Emag Software).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Slurpy (1984)(Emag Software)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Slurpy (1984)(Emag Software)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smurf Paint 'n Play Workshop (1983)(Peyo)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Smurf Paint 'n Play Workshop (1983)(Peyo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smurf Rescue (1982)(Peyo)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Smurf Rescue (1982)(Peyo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Smurf Rescue (1982)(Peyo)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Smurf Rescue (1982)(Peyo)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Fury (1983)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Space Fury (1983)(Sega).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Fury (1983)(Sega)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Space Fury (1983)(Sega)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invasion (1998)(John Dondzilla)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Space Invasion (1998)(John Dondzilla)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Invasion (demo) (1998)(John Dondzilla)(PD)[02-06]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Space Invasion (demo) (1998)(John Dondzilla)(PD)[02-06].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Space Panic (1983)(Universal)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Space Panic (1983)(Universal).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spectron (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Spectron (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy Hunter (1983-84)(Bally Midway MFG. Co.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Spy Hunter (1983-84)(Bally Midway MFG. Co.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Spy Hunter (1983-84)(Bally Midway MFG. Co.)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Spy Hunter (1983-84)(Bally Midway MFG. Co.)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Squish 'Em Sam! (1983)(Interphase - Sirius)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Squish 'Em Sam! (1983)(Interphase - Sirius).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Fortress (1997)(John Dondzilla)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Star Fortress (1997)(John Dondzilla)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Trek (1984)(Sega Enterprise, Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Star Trek (1984)(Sega Enterprise, Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Trek (1984)(Sega Enterprise, Inc)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Star Trek (1984)(Sega Enterprise, Inc)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Star Wars (1984)(Parker Brothers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Star Wars (1984)(Parker Brothers).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stern's Frenzy (1982-83)(Stern Electronics, Ltd.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Stern's Frenzy (1982-83)(Stern Electronics, Ltd.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stern's Frenzy (1982-83)(Stern Electronics, Ltd.)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Stern's Frenzy (1982-83)(Stern Electronics, Ltd.)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stern's Tutankham (1983)(Parker Brothers)(o)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Stern's Tutankham (1983)(Parker Brothers)(o).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Stern's Tutankham (1983)(Parker Brothers)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Stern's Tutankham (1983)(Parker Brothers).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strike It! (1983)(Bit Corporation)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Strike It! (1983)(Bit Corporation).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Strike It! (1983)(Bit Corporation)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Strike It! (1983)(Bit Corporation)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Subroc (1983)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Subroc (1983)(Sega).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Subroc (1983)(Sega)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Subroc (1983)(Sega)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Action Football (1984)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super Action Football (1984)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Action Football (1984)(Coleco)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super Action Football (1984)(Coleco)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Action Soccer (1984)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super Action Soccer (1984)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Cobra (1983)(-)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super Cobra (1983)(-)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Cobra (1983)(-)[b2]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super Cobra (1983)(-)[b2].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Controller Tester (1983)(Nuvatec)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super Controller Tester (1983)(Nuvatec).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Cross Force (1983)(Spectravideo)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super Cross Force (1983)(Spectravideo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super Cross Force (1983)(Spectravideo)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super Cross Force (1983)(Spectravideo)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super DK Junior (1983)(Nintendo)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super DK Junior (1983)(Nintendo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super DK! (1982)(Nintendo)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super DK! (1982)(Nintendo).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super-Action Baseball (1983)(Coleco)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super-Action Baseball (1983)(Coleco).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Super-Action Baseball (1983)(Coleco)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Super-Action Baseball (1983)(Coleco)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tank Wars (1983)(Bit Corporation)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tank Wars (1983)(Bit Corporation).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tapper (1984)(Bally Midway MFG. Co.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tapper (1984)(Bally Midway MFG. Co.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tapper (1984)(Bally Midway MFG. Co.)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tapper (1984)(Bally Midway MFG. Co.)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Telly Turtle (1984)(Carousel Software Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Telly Turtle (1984)(Carousel Software Inc.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tenchi Muyo Demo (2000)(Daniel Bienvenu)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tenchi Muyo Demo (2000)(Daniel Bienvenu)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Test Cartridge (19xx)(-)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Test Cartridge (19xx)(-).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Threshold (1983)(Sierra On-Line Inc)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Threshold (1983)(Sierra On-Line Inc).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tic Tac Toe (1996)(Norman Nithman)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tic Tac Toe (1996)(Norman Nithman)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tic Tac Toe (1996)(Norman Nithman)(PD)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tic Tac Toe (1996)(Norman Nithman)(PD)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Time Pilot (1983)(Konami)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Time Pilot (1983)(Konami).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tomarc the Barbarian (1984)(Xonox)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tomarc the Barbarian (1984)(Xonox).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tomarc the Barbarian (1984)(Xonox)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tomarc the Barbarian (1984)(Xonox)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tournament Tennis (1984)(D&L Research Imagic)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tournament Tennis (1984)(D&L Research Imagic).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Tunnels & Trolls (demo) (1983)(Flying Buffalo Inc)(Adam)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Tunnels & Trolls (demo) (1983)(Flying Buffalo Inc)(Adam).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Turbo (1982)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Turbo (1982)(Sega).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Up 'N Down (1984)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Up 'N Down (1984)(Sega).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Vampire (1982)(Exidy)[h]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Vampire (1982)(Exidy)[h].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Venture (1982)(Exidy)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Venture (1982)(Exidy).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Venture (1982)(Exidy)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Venture (1982)(Exidy)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Victory (1983)(Exidy)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Victory (1983)(Exidy).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Video Hustler (1984)(Coleco)(proto)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Video Hustler (1984)(Coleco)(proto).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "War Games (1983-84)(United Artists Corp.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\War Games (1983-84)(United Artists Corp.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "War Room (1983)(NAP Consumer Electronics)[24k]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\War Room (1983)(NAP Consumer Electronics)[24k].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "War Room (1983)(NAP Consumer Electronics)[32k]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\War Room (1983)(NAP Consumer Electronics)[32k].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wing War (1983)(Imagic)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Wing War (1983)(Imagic).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Winky Trap (1997)(JFD)(PD)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Winky Trap (1997)(JFD)(PD).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Wizard of Id's Wizmath (1984)(Sydney Development Corp. - Sierra On-Line Inc.)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Wizard of Id's Wizmath (1984)(Sydney Development Corp. - Sierra On-Line Inc.).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Word Feud (1984)(K-Tel)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Word Feud (1984)(K-Tel).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Yolks on You, The (1983)(Games Of The Century)(proto)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Yolks on You, The (1983)(Games Of The Century)(proto).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zaxxon (1982)(Sega)",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Zaxxon (1982)(Sega).zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zaxxon (1982)(Sega)[a]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Zaxxon (1982)(Sega)[a].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    },
+    {
+      "name": "Zenji (1984)(Activision)[b]",
+      "path": "{gamesDir}\\TOSEC\\Coleco ColecoVision (TOSEC-v0.41_CM)\\Zenji (1984)(Activision)[b].zip",
+      "emulatorName": "MAME Coleco ColecoVision (NTSC) -cartridge",
+      "language": "English",
+      "timesPlayed": "0",
+      "paramMode": "0"
+    }
+  ]
+}

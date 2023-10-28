@@ -1,0 +1,109 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Cobra Command (M.A.C.H. 3 hardware)",
+      "mameName": "cobram3",
+      "parentName": "cobra",
+      "path": "{gamesDir}\\MAME\\CHDs\\cobra\\cobra.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Data East",
+      "year": "1984",
+      "gameType": "Shooter / Flying 1st Person",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Dharma Doujou (Korea)",
+      "mameName": "dharmak",
+      "parentName": "dharma",
+      "path": "{gamesDir}\\MAME\\ROMS\\dharma.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Metro",
+      "year": "1994",
+      "gameType": "Puzzle / Misc.",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gals Panic II - Quiz Version",
+      "mameName": "gp2quiz",
+      "path": "{gamesDir}\\MAME\\ROMS\\gp2quiz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko",
+      "year": "1993",
+      "gameType": "Quiz / English * Mature *",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Gals Panic II' - Special Edition (Japan)",
+      "mameName": "gp2se",
+      "path": "{gamesDir}\\MAME\\ROMS\\gp2se.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kaneko",
+      "year": "1994",
+      "gameType": "Puzzle / Outline * Mature *",
+      "language": "Japanese",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Midnight Resistance (bootleg with 68705)",
+      "mameName": "midresb",
+      "parentName": "midres",
+      "path": "{gamesDir}\\MAME\\ROMS\\midres.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1989",
+      "gameType": "Platform / Shooter Scrolling",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Monster Zero",
+      "mameName": "monsterz",
+      "path": "{gamesDir}\\MAME\\ROMS\\monsterz.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Nihon Game",
+      "year": "1982",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Thunder Heroes",
+      "mameName": "theroes",
+      "path": "{gamesDir}\\MAME\\ROMS\\theroes.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Primetek Investments",
+      "year": "2001",
+      "gameType": "Fighter / 2.5D",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

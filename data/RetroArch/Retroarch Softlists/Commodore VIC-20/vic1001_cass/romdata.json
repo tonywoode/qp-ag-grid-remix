@@ -1,0 +1,28 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "3D Maze",
+      "mameName": "3dmaze",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vic1001_cass\\3dmaze.7z",
+      "emulatorName": "Retroarch Commodore VIC-1001 (Japan) -SOFTLIST vic1001_cass NTSC only (MAME)",
+      "companyName": "Mastertronic",
+      "year": "1984",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Speakeasy",
+      "mameName": "speakez",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vic1001_cass\\speakez.7z",
+      "emulatorName": "Retroarch Commodore VIC-1001 (Japan) -SOFTLIST vic1001_cass NTSC only (MAME)",
+      "companyName": "Personal Periapheral Products",
+      "year": "1983",
+      "parameters": "-L cores\\mame_libretro.dll \" vic1001 -cass1 %ROMMAME%\"",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

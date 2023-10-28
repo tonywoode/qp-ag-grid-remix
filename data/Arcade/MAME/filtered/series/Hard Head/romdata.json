@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Hard Head 2 (v2.0)",
+      "mameName": "hardhea2",
+      "path": "{gamesDir}\\MAME\\ROMS\\hardhea2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SunA",
+      "year": "1991",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Hard Head",
+      "mameName": "hardhead",
+      "path": "{gamesDir}\\MAME\\ROMS\\hardhead.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SunA",
+      "year": "1988",
+      "gameType": "Platform / Run Jump Scrolling",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

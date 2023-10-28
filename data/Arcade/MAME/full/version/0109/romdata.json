@@ -1,0 +1,65 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Astro Combat (older, PZ)",
+      "mameName": "acombato",
+      "parentName": "astrof",
+      "path": "{gamesDir}\\MAME\\ROMS\\astrof.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1979",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Apple //c (rev 4)",
+      "mameName": "apple2c4",
+      "parentName": "apple2c",
+      "path": "{gamesDir}\\MAME\\ROMS\\apple2c.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Apple Computer",
+      "year": "1986",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    },
+    {
+      "name": "Funky Bee (bootleg, harder)",
+      "mameName": "funkybeeb",
+      "parentName": "funkybee",
+      "path": "{gamesDir}\\MAME\\ROMS\\funkybee.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "1982",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Tano Dragon 64 (NTSC)",
+      "mameName": "tanodr64",
+      "parentName": "dragon32",
+      "path": "{gamesDir}\\MAME\\ROMS\\dragon32.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dragon Data Ltd / Tano Ltd",
+      "year": "1983",
+      "gameType": "Home Systems / Home Computer",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Non-arcade"
+    }
+  ]
+}

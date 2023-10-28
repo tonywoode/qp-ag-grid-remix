@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gun Dealer",
+      "mameName": "gundealr",
+      "path": "{gamesDir}\\MAME\\ROMS\\gundealr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dooyong",
+      "year": "1990",
+      "gameType": "Puzzle / Cards * Mature *",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Gun Dealer (alt card set)",
+      "mameName": "gundealra",
+      "parentName": "gundealr",
+      "path": "{gamesDir}\\MAME\\ROMS\\gundealr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dooyong",
+      "year": "1990",
+      "gameType": "Puzzle / Cards * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Gun Dealer (Yam! Yam!? hardware)",
+      "mameName": "gundealrbl",
+      "parentName": "gundealr",
+      "path": "{gamesDir}\\MAME\\ROMS\\gundealr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dooyong",
+      "year": "1990",
+      "gameType": "Puzzle / Cards * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Gun Dealer (Japan)",
+      "mameName": "gundealrt",
+      "parentName": "gundealr",
+      "path": "{gamesDir}\\MAME\\ROMS\\gundealr.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dooyong (Tecmo license)",
+      "year": "1990",
+      "gameType": "Puzzle / Cards * Mature *",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Gun Dealer '94",
+      "mameName": "gundl94",
+      "path": "{gamesDir}\\MAME\\ROMS\\gundl94.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dooyong",
+      "year": "1994",
+      "gameType": "Puzzle / Cards * Mature *",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Primella",
+      "mameName": "primella",
+      "parentName": "gundl94",
+      "path": "{gamesDir}\\MAME\\ROMS\\gundl94.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Dooyong (NTC license)",
+      "year": "1994",
+      "gameType": "Puzzle / Cards * Mature *",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

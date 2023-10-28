@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "The King of Fighters 2001 (NGM-262?)",
+      "mameName": "kof2001",
+      "path": "{gamesDir}\\MAME\\ROMS\\kof2001.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Eolith / SNK",
+      "year": "2001",
+      "gameType": "Fighter / Versus",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Metal Slug 4 (NGM-2630)",
+      "mameName": "mslug4",
+      "path": "{gamesDir}\\MAME\\ROMS\\mslug4.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Mega / Playmore",
+      "year": "2002",
+      "gameType": "Platform / Shooter Scrolling",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Snow Brothers 3 - Magical Adventure",
+      "mameName": "snowbro3",
+      "path": "{gamesDir}\\MAME\\ROMS\\snowbro3.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Syrmex",
+      "year": "2002",
+      "gameType": "Platform / Run Jump",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

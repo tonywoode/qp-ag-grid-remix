@@ -1,0 +1,51 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Gomoku Narabe Renju",
+      "mameName": "gomoku",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\myvision\\gomoku.7z",
+      "emulatorName": "MAME Nichibutsu My Vision (KH-1000) -SOFTLIST myvision",
+      "companyName": "Nihonbussan",
+      "year": "1983",
+      "comment": "label:CORTRIDGE LT-0319953,pcb:KH-1001-A",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hanafuda",
+      "mameName": "hanafuda",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\myvision\\hanafuda.7z",
+      "emulatorName": "MAME Nichibutsu My Vision (KH-1000) -SOFTLIST myvision",
+      "companyName": "Logitec Corp.",
+      "year": "1983",
+      "comment": "label:CORTRIDGE LT-0730853,pcb:KH-1001-A",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Mahjong Nichibutsu",
+      "mameName": "mahjong",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\myvision\\mahjong.7z",
+      "emulatorName": "MAME Nichibutsu My Vision (KH-1000) -SOFTLIST myvision",
+      "companyName": "Nihonbussan",
+      "year": "1983",
+      "comment": "label:CORTRIDGE LT-0334653,pcb:KH-1001-A",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tsumeshougi",
+      "mameName": "tsumesho",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\myvision\\tsumesho.7z",
+      "emulatorName": "MAME Nichibutsu My Vision (KH-1000) -SOFTLIST myvision",
+      "companyName": "Logitec Corp.",
+      "year": "1983",
+      "comment": "label:CORTRIDGE LT-0594253,pcb:KH-1001-A",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

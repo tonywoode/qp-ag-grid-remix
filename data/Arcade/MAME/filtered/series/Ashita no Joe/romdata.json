@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Legend of Success Joe / Ashita no Joe Densetsu",
+      "mameName": "legendos",
+      "path": "{gamesDir}\\MAME\\ROMS\\legendos.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1991",
+      "gameType": "Fighter / Versus",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Success Joe (World)",
+      "mameName": "scessjoe",
+      "path": "{gamesDir}\\MAME\\ROMS\\scessjoe.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation / Wave",
+      "year": "1990",
+      "gameType": "Sports / Boxing",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Blackjack",
+      "mameName": "blckjack",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\blckjack.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQS-101",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Star Track",
+      "mameName": "startrck",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\startrck.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Concentration",
+      "mameName": "concentr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\concentr.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQS-103",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Video Chess",
+      "mameName": "videochs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\videochs.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "19??",
+      "comment": "serial:QQS-105",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Microchess",
+      "mameName": "microchs",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\microchs.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Backgammon",
+      "mameName": "backgamm",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\backgamm.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQS-107",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Reversi",
+      "mameName": "reversi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\reversi.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Add 'Em Up",
+      "mameName": "addemup",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\addemup.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "19??",
+      "comment": "serial:QQE-201",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Compute-A-Color",
+      "mameName": "compaclr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\compaclr.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Hangman",
+      "mameName": "hangman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\hangman.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "19??",
+      "comment": "serial:QQE-203",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Knockdown",
+      "mameName": "knockdwn",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\knockdwn.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQE-206",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Edu-Basic",
+      "mameName": "edubasic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\edubasic.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Music Maestro",
+      "mameName": "mmaestro",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\mmaestro.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQE-208",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Regatta",
+      "mameName": "regatta",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\regatta.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQA-301",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Trailblazers",
+      "mameName": "trailblz",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\trailblz.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQA-302",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Dogfight",
+      "mameName": "dogfight",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\dogfight.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQA-303",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Showdown",
+      "mameName": "showdown",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\showdown.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQA-304",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Computer Maze",
+      "mameName": "compmaze",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\compmaze.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Breakthrough",
+      "mameName": "breakthr",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\breakthr.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQA-306",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Volleyball",
+      "mameName": "volley",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\volley.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1979",
+      "comment": "serial:QQA-307",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Biorhythm",
+      "mameName": "biorhy",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\biorhy.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1978",
+      "comment": "serial:QQK-401",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Calculator",
+      "mameName": "calculat",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\calculat.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Interact Electronics",
+      "year": "1979",
+      "comment": "serial:QQM-505",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Checkbook Balancer",
+      "mameName": "checkbk",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\checkbk.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Micro Video",
+      "year": "1978?",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "16K Diagnostic Tape",
+      "mameName": "diagtape",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\diagtape.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Micro Video",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Earth Outpost I",
+      "mameName": "earthout",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\earthout.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Micro Video",
+      "year": "1980",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Message Center",
+      "mameName": "message",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\message.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Micro Video",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Microsoft Basic v4.7",
+      "mameName": "basic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\basic.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Microsoft",
+      "year": "1978",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Touchdown",
+      "mameName": "tdown",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\interact\\tdown.7z",
+      "emulatorName": "Retroarch Interact Family Computer -SOFTLIST interact (MAME)",
+      "companyName": "Micro Video",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

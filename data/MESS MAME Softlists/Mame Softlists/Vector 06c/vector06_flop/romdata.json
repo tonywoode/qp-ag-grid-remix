@@ -1,0 +1,127 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "MicroDOS v3.1 BIOS T-34",
+      "mameName": "ost34",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\ost34.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "MicroDOS v3.1M BIOS T-72",
+      "mameName": "ost72",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\ost72.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "CD-Pacman",
+      "mameName": "cdpacman",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\cdpacman.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "1995",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Game 15 Part 1",
+      "mameName": "game15",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\game15.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Kombat Rabbits",
+      "mameName": "komrab",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\komrab.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "1995",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Lemmings",
+      "mameName": "lemmings",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\lemmings.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "1996",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Color Lines",
+      "mameName": "lines",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\lines.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Master Reversi",
+      "mameName": "mreversi",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\mreversi.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Puzznic",
+      "mameName": "puzznic",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\puzznic.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "1996",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Robocop",
+      "mameName": "robocop",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\robocop.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "1995",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Tetris 3D",
+      "mameName": "tet3d",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\tet3d.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "1996",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    },
+    {
+      "name": "Zoo",
+      "mameName": "zoo",
+      "path": "{gamesDir}\\MAME\\Software List ROMS\\vector06_flop\\zoo.7z",
+      "emulatorName": "MAME Vector 06c -SOFTLIST vector06_flop",
+      "companyName": "<unknown>",
+      "year": "19??",
+      "timesPlayed": "0",
+      "paramMode": "1"
+    }
+  ]
+}

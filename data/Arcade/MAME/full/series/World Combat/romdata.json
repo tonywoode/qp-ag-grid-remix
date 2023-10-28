@@ -1,0 +1,66 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "World Combat (ver AAD:B)",
+      "mameName": "wcombat",
+      "path": "{gamesDir}\\MAME\\CHDs\\wcombat\\c22d02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2002",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "World Combat (ver AAD:B, alt)",
+      "mameName": "wcombatb",
+      "parentName": "wcombat",
+      "path": "{gamesDir}\\MAME\\CHDs\\wcombat\\c22d02_alt.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2002",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "World Combat (ver JAA)",
+      "mameName": "wcombatj",
+      "parentName": "wcombat",
+      "path": "{gamesDir}\\MAME\\CHDs\\wcombat\\c22a02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2002",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "World Combat (ver KBC:B)",
+      "mameName": "wcombatk",
+      "parentName": "wcombat",
+      "path": "{gamesDir}\\MAME\\CHDs\\wcombat\\c22c02.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "2002",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

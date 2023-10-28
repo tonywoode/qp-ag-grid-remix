@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Plotting (US)",
+      "mameName": "plottingu",
+      "parentName": "plotting",
+      "path": "{gamesDir}\\MAME\\ROMS\\plotting.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito America Corporation",
+      "year": "1989",
+      "gameType": "Puzzle / Toss",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

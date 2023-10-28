@@ -1,0 +1,81 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Kyuukyoku no Othello",
+      "mameName": "kothello",
+      "path": "{gamesDir}\\MAME\\ROMS\\kothello.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Success",
+      "year": "1990",
+      "gameType": "Tabletop / Othello",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Othello (version 3.0)",
+      "mameName": "othello",
+      "path": "{gamesDir}\\MAME\\ROMS\\othello.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Success",
+      "year": "1984",
+      "gameType": "Tabletop / Othello",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Othello Shiyouyo (J 980423 V1.002)",
+      "mameName": "othellos",
+      "path": "{gamesDir}\\MAME\\ROMS\\othellos.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Success",
+      "year": "1998",
+      "gameType": "Tabletop / Othello",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Othello Derby (Japan)",
+      "mameName": "othldrby",
+      "path": "{gamesDir}\\MAME\\ROMS\\othldrby.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sunwise",
+      "year": "1995",
+      "gameType": "Tabletop / Othello",
+      "rating": "70 to 80 (Good)",
+      "language": "Japanese",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Super Othello",
+      "mameName": "sothello",
+      "path": "{gamesDir}\\MAME\\ROMS\\sothello.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Success / Fujiwara",
+      "year": "1986",
+      "gameType": "Tabletop / Othello",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

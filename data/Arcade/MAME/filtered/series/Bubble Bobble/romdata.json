@@ -1,0 +1,67 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bubble Memories: The Story Of Bubble Bobble III (Ver 2.4O 1996/02/15)",
+      "mameName": "bubblem",
+      "path": "{gamesDir}\\MAME\\ROMS\\bubblem.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1995",
+      "gameType": "Platform / Run Jump",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Bubble Bobble II (Ver 2.6O 1994/12/16)",
+      "mameName": "bublbob2",
+      "path": "{gamesDir}\\MAME\\ROMS\\bublbob2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation Japan",
+      "year": "1994",
+      "gameType": "Platform / Run Jump",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Bubble Bobble (Japan, Ver 0.1)",
+      "mameName": "bublbobl",
+      "path": "{gamesDir}\\MAME\\ROMS\\bublbobl.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1986",
+      "gameType": "Platform / Run Jump",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Rainbow Islands (new version)",
+      "mameName": "rbisland",
+      "path": "{gamesDir}\\MAME\\ROMS\\rbisland.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Taito Corporation",
+      "year": "1987",
+      "gameType": "Platform / Run Jump",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

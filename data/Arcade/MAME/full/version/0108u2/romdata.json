@@ -1,0 +1,97 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Carrera (Version 6.7)",
+      "mameName": "carrera",
+      "path": "{gamesDir}\\MAME\\ROMS\\carrera.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "BS Electronics",
+      "year": "19??",
+      "gameType": "Puzzle / Match",
+      "rating": "30 to 40 (Amendable)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Lethal Enforcers (ver EAB, 10/14/92 19:53)",
+      "mameName": "lethaleneab",
+      "parentName": "lethalen",
+      "path": "{gamesDir}\\MAME\\ROMS\\lethalen.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1992",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Lethal Enforcers (ver EAE, 11/19/92 16:24)",
+      "mameName": "lethaleneae",
+      "parentName": "lethalen",
+      "path": "{gamesDir}\\MAME\\ROMS\\lethalen.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1992",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Lethal Enforcers (ver UAA, 08/17/92 21:38)",
+      "mameName": "lethalenua",
+      "parentName": "lethalen",
+      "path": "{gamesDir}\\MAME\\ROMS\\lethalen.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1992",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Lethal Enforcers (ver unknown, US, 08/06/92 15:11, hacked/proto?)",
+      "mameName": "lethalenux",
+      "parentName": "lethalen",
+      "path": "{gamesDir}\\MAME\\ROMS\\lethalen.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1992",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Muroge Monaco (set 2)",
+      "mameName": "murogema",
+      "parentName": "murogem",
+      "path": "{gamesDir}\\MAME\\ROMS\\murogem.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "<unknown>",
+      "year": "198?",
+      "gameType": "Casino / Cards",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

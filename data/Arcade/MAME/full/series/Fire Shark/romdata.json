@@ -1,0 +1,36 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Fire Shark (Mega-Tech)",
+      "mameName": "mt_fshrk",
+      "path": "{gamesDir}\\MAME\\ROMS\\mt_fshrk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Toaplan / Sega",
+      "year": "1990",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Same! Same! Same! (1P set, NEW VER! hack)",
+      "mameName": "samesamenh",
+      "parentName": "fireshrk",
+      "path": "{gamesDir}\\MAME\\ROMS\\fireshrk.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "hack (trap15)",
+      "year": "2015",
+      "gameType": "Shooter / Flying Vertical",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

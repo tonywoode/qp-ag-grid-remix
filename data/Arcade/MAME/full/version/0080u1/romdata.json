@@ -1,0 +1,94 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Air Rescue (US)",
+      "mameName": "arescue",
+      "path": "{gamesDir}\\MAME\\ROMS\\arescue.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1992",
+      "gameType": "Shooter / Flying 1st Person",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    },
+    {
+      "name": "Buriki One (rev.B)",
+      "mameName": "buriki",
+      "path": "{gamesDir}\\MAME\\ROMS\\buriki.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1999",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    },
+    {
+      "name": "Hyper NeoGeo 64 Bios",
+      "mameName": "hng64",
+      "path": "{gamesDir}\\MAME\\ROMS\\hng64.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1997",
+      "gameType": "System / BIOS",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "BIOS"
+    },
+    {
+      "name": "Invasion (Sidam)",
+      "mameName": "invasion",
+      "parentName": "invaders",
+      "path": "{gamesDir}\\MAME\\ROMS\\invaders.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Sidam)",
+      "year": "19??",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Ninja Combat (NGH-009)",
+      "mameName": "ncombath",
+      "parentName": "ncombat",
+      "path": "{gamesDir}\\MAME\\ROMS\\ncombat.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Alpha Denshi Co.",
+      "year": "1990",
+      "gameType": "Fighter / 2.5D",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Super Earth Invasion (set 2)",
+      "mameName": "searthina",
+      "parentName": "invaders",
+      "path": "{gamesDir}\\MAME\\ROMS\\invaders.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg (Competitive Video)",
+      "year": "1980",
+      "gameType": "Shooter / Gallery",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

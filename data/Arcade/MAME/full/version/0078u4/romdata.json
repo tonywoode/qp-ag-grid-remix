@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Art of Fighting 2 / Ryuuko no Ken 2 (NGH-056)",
+      "mameName": "aof2a",
+      "parentName": "aof2",
+      "path": "{gamesDir}\\MAME\\ROMS\\aof2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends (Korean board, set 1)",
+      "mameName": "kof98k",
+      "parentName": "kof98",
+      "path": "{gamesDir}\\MAME\\ROMS\\kof98.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "SNK",
+      "year": "1998",
+      "gameType": "Fighter / Versus",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

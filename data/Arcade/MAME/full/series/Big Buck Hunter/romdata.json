@@ -1,0 +1,93 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Big Buck Hunter II - Sportsman's Paradise (v2.02.11)",
+      "mameName": "bbh2sp",
+      "path": "{gamesDir}\\MAME\\CHDs\\bbh2sp\\bbh2sp_v2.02.11.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Incredible Technologies",
+      "year": "2002",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Big Buck Hunter Pro v1.40",
+      "mameName": "bbh_140",
+      "parentName": "bbh_160",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbh_160.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Stern",
+      "year": "2010",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Big Buck Hunter Pro v1.50",
+      "mameName": "bbh_150",
+      "parentName": "bbh_160",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbh_160.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Stern",
+      "year": "2010",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Big Buck Hunter Pro v1.60",
+      "mameName": "bbh_160",
+      "path": "{gamesDir}\\MAME\\ROMS\\bbh_160.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Stern",
+      "year": "2010",
+      "gameType": "Electromechanical / Pinball",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "Pinball"
+    },
+    {
+      "name": "Big Buck Hunter Call of the Wild (v3.02.5)",
+      "mameName": "bbhcotw",
+      "path": "{gamesDir}\\MAME\\CHDs\\bbhcotw\\bbhcotw_v3.02.05_cf.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Incredible Technologies",
+      "year": "2006",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    },
+    {
+      "name": "Big Buck Hunter - Shooter's Challenge (v1.50.07)",
+      "mameName": "bbhsc",
+      "path": "{gamesDir}\\MAME\\CHDs\\bbhsc\\bbhsc_v1.50.07_cf.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Incredible Technologies",
+      "year": "2002",
+      "gameType": "Shooter / Gun",
+      "language": "English",
+      "comment": "preliminary",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "???"
+    }
+  ]
+}

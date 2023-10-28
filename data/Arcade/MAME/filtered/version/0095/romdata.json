@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Bio-hazard Battle (Mega Play)",
+      "mameName": "mp_bio",
+      "path": "{gamesDir}\\MAME\\ROMS\\mp_bio.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1993",
+      "gameType": "Shooter / Flying Horizontal",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Streets of Rage II (Mega Play)",
+      "mameName": "mp_sor2",
+      "path": "{gamesDir}\\MAME\\ROMS\\mp_sor2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1993",
+      "gameType": "Fighter / 2.5D",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Nagano Winter Olympics '98 (GX720 EAA)",
+      "mameName": "nagano98",
+      "path": "{gamesDir}\\MAME\\CHDs\\nagano98\\nagano98.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Konami",
+      "year": "1998",
+      "gameType": "Sports / Track & Field",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "4P alt"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Killer Instinct (v1.5d)",
+      "mameName": "kinst",
+      "path": "{gamesDir}\\MAME\\CHDs\\kinst\\kinst.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Rare",
+      "year": "1994",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Killer Instinct 2 (v1.4)",
+      "mameName": "kinst2",
+      "path": "{gamesDir}\\MAME\\CHDs\\kinst2\\kinst2.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Rare",
+      "year": "1995",
+      "gameType": "Fighter / Versus",
+      "rating": "80 to 90 (Very Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Killer Instinct (SNES bootleg)",
+      "mameName": "kinstb",
+      "path": "{gamesDir}\\MAME\\ROMS\\kinstb.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "bootleg",
+      "year": "199?",
+      "gameType": "Fighter / Versus",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

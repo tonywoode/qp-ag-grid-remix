@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Super Zaxxon (315-5013)",
+      "mameName": "szaxxon",
+      "path": "{gamesDir}\\MAME\\ROMS\\szaxxon.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1982",
+      "gameType": "Shooter / Flying Diagonal",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    },
+    {
+      "name": "Zaxxon (set 1, rev D)",
+      "mameName": "zaxxon",
+      "path": "{gamesDir}\\MAME\\ROMS\\zaxxon.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Sega",
+      "year": "1982",
+      "gameType": "Shooter / Flying Diagonal",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

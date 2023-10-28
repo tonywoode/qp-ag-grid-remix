@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Psyvariar -Medium Unit- (V2.04J 2000/02/15 11:00)",
+      "mameName": "psyvaria",
+      "path": "{gamesDir}\\MAME\\CHDs\\psyvaria\\psyvaria.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Success",
+      "year": "2000",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Psyvariar -Revision- (V2.04J 2000/08/11 22:00)",
+      "mameName": "psyvarrv",
+      "path": "{gamesDir}\\MAME\\CHDs\\psyvarrv\\psyvarrv.chd",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Success",
+      "year": "2000",
+      "gameType": "Shooter / Flying Vertical",
+      "rating": "90 to 100 (Best Games)",
+      "language": "English",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}

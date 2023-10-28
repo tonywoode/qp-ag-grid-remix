@@ -1,0 +1,22 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Winning Run Suzuka Grand Prix (Japan)",
+      "mameName": "winrungp",
+      "path": "{gamesDir}\\MAME\\ROMS\\winrungp.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Namco",
+      "year": "1989",
+      "gameType": "Driving / Race 1st Person",
+      "rating": "80 to 90 (Very Good)",
+      "language": "Japanese",
+      "comment": "imperfect",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "1P"
+    }
+  ]
+}

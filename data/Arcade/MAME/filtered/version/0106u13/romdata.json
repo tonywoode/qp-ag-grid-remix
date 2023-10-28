@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Digger Man (prototype)",
+      "mameName": "diggerma",
+      "path": "{gamesDir}\\MAME\\ROMS\\diggerma.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Kyle Hodgetts",
+      "year": "2000",
+      "gameType": "Maze / Digging",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Firebeast (prototype)",
+      "mameName": "firebeas",
+      "path": "{gamesDir}\\MAME\\ROMS\\firebeas.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Atari",
+      "year": "1983",
+      "gameType": "Platform / Shooter",
+      "rating": "50 to 60 (Not Good Enough)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P alt"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "versionInfo": {
+    "ROM DataFile JSON Version": "1.0"
+  },
+  "romdata": [
+    {
+      "name": "Zero Point (set 1)",
+      "mameName": "zeropnt",
+      "path": "{gamesDir}\\MAME\\ROMS\\zeropnt.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Unico",
+      "year": "1998",
+      "gameType": "Shooter / Gun",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    },
+    {
+      "name": "Zero Point 2",
+      "mameName": "zeropnt2",
+      "path": "{gamesDir}\\MAME\\ROMS\\zeropnt2.7z",
+      "emulatorName": "Mame64 Win32",
+      "companyName": "Unico",
+      "year": "1999",
+      "gameType": "Shooter / Gun",
+      "rating": "70 to 80 (Good)",
+      "language": "English",
+      "comment": "good",
+      "timesPlayed": "0",
+      "paramMode": "1",
+      "players": "2P sim"
+    }
+  ]
+}
