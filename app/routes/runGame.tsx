@@ -12,11 +12,18 @@ export async function action({ request }: ActionArgs) {
   const { onlyArchive, listArchive } = node7z
   const { gamePath, defaultGoodMerge } = await request.json()
   logger.log(`gridOperations`, `received from grid`, { gamePath, defaultGoodMerge })
-  const gamePathMacOS = path.join(
+
+  const macOSGamesDirPath = '/Volumes/Untitled/Games'
+  const gamesDirReplacedPath = path.join(
     //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
-    '/Volumes/Untitled/Games',
-    gamePath.replace(/^[A-Z]:/, '').split('\\').join('/') // prettier-ignore
+    gamePath.replace(/^\{gamesDir\}/, macOSGamesDirPath)
   )
+  const gamePathMacOS = path.normalize(gamesDirReplacedPath)
+
+  // const gamePathMacOS = path.join(
+  //   '/Volumes/Untitled/Games',
+  //   gamePath.replace(/^[A-Z]:/, '').split('\\').join('/') // prettier-ignore
+  // )
   //   const archivePath = '/Volumes/Untitled/Games/Sega Games/Genesis Games/GoodGEN_3_GM/Atomic Robo-Kid.7z'
   //   const filePathInsideArchive = 'Atomic Robo-Kid (U) [c][!].gen'
   const tempDir = path.join(process.cwd(), 'temp')
@@ -29,6 +36,7 @@ export async function action({ request }: ActionArgs) {
     const outputFile = path.join(outputDirectory, defaultGoodMerge)
     runGame(outputFile)
   } else {
+    console.log('listing archive', gamePathMacOS)
     listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
       .progress(async (files: string[]) => {
         const filenames = files.map(file => file.name)

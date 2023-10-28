@@ -10,7 +10,7 @@ import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
-import { romdata } from '~/../outputs/romdata.json' //note destructuring
+import { romdata } from '~/../data/Console/Sega Genesis/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { CellClickedEvent } from 'ag-grid-community'
 import { Tree } from 'react-arborist'
 import { Resizable, ResizableBox } from 'react-resizable'
@@ -28,7 +28,22 @@ export const logger = createFeatureLogger(loggerConfig)
 
 /** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
 // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
-const columnDefs = [...new Set(romdata.flatMap(Object.keys))].map(field => ({ field }))
+const columnDefs = [...new Set(romdata.flatMap(Object.keys))].map(field => {
+  //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir subsitiution is active
+  if (field === 'path') {
+    return {
+      field,
+      valueGetter: removeGamesDirPrefix
+    }
+  }
+  return { field }
+})
+
+function removeGamesDirPrefix(params) {
+  const originalValue = params.data.path // Assuming 'path' is the field in your data
+  const modifiedValue = originalValue.replace('{gamesDir}\\', '') // Replace '{gamesDir}\\' with the actual prefix you want to remove
+  return modifiedValue
+}
 console.log('Creating these columns from romdata:')
 console.table(columnDefs)
 /** @type {import('ag-grid-community').GridOptions} */
