@@ -2,8 +2,8 @@
 import { convertRomDataToJSON, saveToJSONFile } from '../app/utils/romdataToJSON'
 
 // Usage
-const inputFile = 'inputs/Romdata.dat'
-const outputFile = 'outputs/romdata.json'
+const inputFile = 'test/example_inputs/Romdata.dat'
+const outputFile = 'data/romdata.json'
 
 const jsonData = convertRomDataToJSON(inputFile)
 saveToJSONFile(jsonData, outputFile)

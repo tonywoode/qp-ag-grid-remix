@@ -24,7 +24,7 @@ blueLog(`
 * Prints out the sorted array and the picked rom for each archive 
 `)
 
-const romdataFile = 'outputs/romdata.json'
+const romdataFile = 'test/example_outputs/romdata.json'
 orangeLog('Reading romdata file:', romdataFile)
 const romdata = JSON.parse(await fs.readFile(romdataFile))
 const countryCodes = new Map([ ['PD', 1], ['Unl', 2], ['Unk', 3], ['B', 4], ['A', 5], ['4', 6], ['U', 7], ['W', 8], ['E', 9], ['UK', 10] ]) // prettier-ignore
