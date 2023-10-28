@@ -5,13 +5,14 @@ import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '../utils/createDirIfNotExist'
 import { logger } from './_index'
 import { run } from '@remix-run/dev/dist/cli/run'
+import emulators from '~/../dats/emulators.json'
 export async function action({ request }: ActionArgs) {
   //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const node7z = await import('node-7z-archive')
   const { onlyArchive, listArchive } = node7z
-  const { gamePath, defaultGoodMerge } = await request.json()
-  logger.log(`gridOperations`, `received from grid`, { gamePath, defaultGoodMerge })
+  const { gamePath, defaultGoodMerge, emulatorName } = await request.json()
+  logger.log(`gridOperations`, `received from grid`, { gamePath, defaultGoodMerge, emulatorName })
 
   const macOSGamesDirPath = '/Volumes/Untitled/Games'
   const gamesDirReplacedPath = path.join(
@@ -91,16 +92,38 @@ export async function action({ request }: ActionArgs) {
   }
 
   async function runGame(outputFile: string) {
-    const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
-    const libretroCore = '/Users/twoode/Library/Application Support/RetroArch/cores/picodrive_libretro.dylib'
-    const flagsToEmu = '-v -f'
-    const command = `"${retroarchExe}" "${outputFile}" -L "${libretroCore}" ${flagsToEmu}`
+    const matchedEmulator = matchEmulatorName(emulatorName, emulators)
+    if (matchedEmulator) {
+      const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
+      console.log('Retroarch Command Line:', retroarchCommandLine)
+      const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
+      const libretroCore = `/Users/twoode/Library/Application Support/RetroArch/${retroarchCommandLine}`
+      const flagsToEmu = '-v -f'
+      const command = `"${retroarchExe}" "${outputFile}" -L "${libretroCore}" ${flagsToEmu}`
+      try {
+        const output = await execSync(command) // Execute synchronously, remember spawnSync too
+        console.log(`Output: ${output}`)
+      } catch (error) {
+        console.error(`Error executing command: ${error}`)
+      }
+    } else {
+      console.log('Emulator not found')
+    }
+  }
 
-    try {
-      const output = await execSync(command) // Execute synchronously, remember spawnSync too
-      console.log(`Output: ${output}`)
-    } catch (error) {
-      console.error(`Error executing command: ${error}`)
+  function matchEmulatorName(emulatorName, emulators) {
+    return emulators.find(emulator => emulator.emulatorName === emulatorName)
+  }
+
+  function extractRetroarchCommandLine(emulatorJson) {
+    const { parameters } = emulatorJson
+    const libretroCoreMatch = parameters.match(/cores[^ ]+/)
+
+    if (libretroCoreMatch) {
+      const libretroCorePath = libretroCoreMatch[0].replace(/\\/g, '/')
+      return libretroCorePath.replace(/\.dll$/, '.dylib')
+    } else {
+      return 'No libretro core found in parameters string'
     }
   }
 }
