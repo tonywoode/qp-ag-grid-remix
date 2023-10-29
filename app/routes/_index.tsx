@@ -10,7 +10,7 @@ import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
-import { romdata } from '~/../data/Console/Nintendo SNES/Goodmerge 2.04 Tony/romdata.json' //note destructuring
+import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { CellClickedEvent } from 'ag-grid-community'
 import { Tree } from 'react-arborist'
 import { Resizable, ResizableBox } from 'react-resizable'

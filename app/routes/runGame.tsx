@@ -123,7 +123,7 @@ export async function action({ request }: ActionArgs) {
       const libretroCorePath = libretroCoreMatch[0].replace(/\\/g, '/')
       return libretroCorePath.replace(/\.dll$/, '.dylib')
     } else {
-      return 'No libretro core found in parameters string'
+      return 'No libretro core found in parameters string' //TODO: don't return a string as an error
     }
   }
 }

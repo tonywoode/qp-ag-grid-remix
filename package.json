@@ -27,7 +27,7 @@
     "ag-grid-react": "^30.2.0",
     "ini": "^4.1.1",
     "isbot": "^3.7.0",
-    "node-7z-archive": "git+https://github.com/tonywoode/node-7z-archive.git",
+    "node-7z-archive": "github:tonywoode/node-7z-archive",
     "react": "^18.2.0",
     "react-arborist": "^3.2.0",
     "react-dom": "^18.2.0",
