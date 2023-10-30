@@ -15,6 +15,8 @@ import { CellClickedEvent } from 'ag-grid-community'
 import { Tree } from 'react-arborist'
 import { Resizable, ResizableBox } from 'react-resizable'
 import Split from 'react-split'
+import { scanFolder } from '~/make_sidebar-data.server'
+import { Node } from '~/Node'
 
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
@@ -71,9 +73,12 @@ const gridOptions = {
 }
 
 export async function loader() {
+  const folderData = scanFolder('./data')
+  console.dir(folderData)
   return {
     romdata,
-    userDataPath: electron.app.getPath('userData')
+    userDataPath: electron.app.getPath('userData'),
+    folderData
   }
 }
 
@@ -86,28 +91,10 @@ export const action = async () => {
   return result
 }
 
-const treeData = [
-  {
-    id: '1',
-    name: 'public',
-    children: [{ id: 'c1-1', name: 'index.html' }]
-  },
-  {
-    id: '2',
-    name: 'src',
-    children: [
-      { id: 'c2-1', name: 'App.js' },
-      { id: 'c2-2', name: 'index.js' },
-      { id: 'c2-3', name: 'styles.css' }
-    ]
-  },
-  { id: '3', name: 'package.json' },
-  { id: '4', name: 'README.md' }
-]
-
 export default function Index() {
   const data = useLoaderData()
   const rowData = data.romdata
+  const folderData = data.folderData
   return (
     <>
       <Menu menuButton={<MenuButton className="box-border border-2 border-gray-500 rounded px-2 m-3">Menu</MenuButton>}>
@@ -128,8 +115,8 @@ export default function Index() {
       <Form method="post">
         <button className="box-border border-2 border-gray-500 px-2 m-3">Pick Original QP data folder</button>
       </Form>
-      <Split sizes={[10, 70, 20]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
-        <Tree initialData={treeData} />
+      <Split sizes={[20, 60, 20]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+        <Tree initialData={folderData}>{Node}</Tree>
         <div className="ag-theme-alpine">
           <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
         </div>
