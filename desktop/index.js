@@ -8,6 +8,7 @@ let win
 /** @param {string} url */
 async function createWindow(url) {
 	win = new BrowserWindow({ show: false })
+	win.maximize()
 	await win.loadURL(url)
 	win.show()
 
