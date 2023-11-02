@@ -74,7 +74,7 @@ export async function action({ request }: ActionArgs) {
         const pickedRom = chooseGoodMergeRom(filenames, countryCodes, priorityCodes, logger)
         logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
 
-        extractRom(gamePathMacOS, outputDirectory, pickedRom, logger)
+        await extractRom(gamePathMacOS, outputDirectory, pickedRom, logger)
         const outputFile = path.join(outputDirectory, pickedRom)
         await runGame(outputFile)
 
