@@ -17,6 +17,7 @@ import { Resizable, ResizableBox } from 'react-resizable'
 import Split from 'react-split'
 import { scanFolder } from '~/make_sidebar-data.server'
 import { Node } from '~/Node'
+import { Treeview } from '~/components/Treeview'
 
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
@@ -95,6 +96,7 @@ export default function Index() {
   const data = useLoaderData()
   const rowData = data.romdata
   const folderData = data.folderData
+  console.log('folderData', folderData)
   return (
     <>
       <Menu menuButton={<MenuButton className="box-border border-2 border-gray-500 rounded px-2 m-3">Menu</MenuButton>}>
@@ -115,8 +117,8 @@ export default function Index() {
       <Form method="post">
         <button className="box-border border-2 border-gray-500 px-2 m-3">Pick Original QP data folder</button>
       </Form>
-      <Split sizes={[20, 60, 20]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
-        <Tree initialData={folderData}>{Node}</Tree>
+      <Split sizes={[40, 50, 10]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+        <Treeview folderData={folderData} nodeData={Node}></Treeview>
         <div className="ag-theme-alpine">
           <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
         </div>

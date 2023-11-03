@@ -6,22 +6,27 @@ let idCounter = 1
 export function scanFolder(folderPath) {
   const items = fs.readdirSync(folderPath)
 
-  return items.map(item => {
-    const itemPath = path.join(folderPath, item)
-    const stats = fs.statSync(itemPath)
+  const folders = items
+    .filter(item => {
+      const itemPath = path.join(folderPath, item)
+      const stats = fs.statSync(itemPath)
+      return stats.isDirectory()
+    })
+    .map(item => {
+      const itemPath = path.join(folderPath, item)
+      const children = scanFolder(itemPath)
 
-    if (stats.isDirectory()) {
-      return {
-        id: idCounter++,
-        name: item,
-        children: scanFolder(itemPath)
-      }
-    } else {
-      return {
-        id: idCounter++,
-        name: item,
-        children: []
-      }
-    }
-  })
+      return children.length > 0
+        ? {
+            id: idCounter++,
+            name: item,
+            children
+          }
+        : {
+            id: idCounter++,
+            name: item
+          }
+    })
+
+  return folders
 }
