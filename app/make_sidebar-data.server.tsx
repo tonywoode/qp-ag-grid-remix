@@ -18,12 +18,12 @@ export function scanFolder(folderPath) {
 
       return children.length > 0
         ? {
-            id: idCounter++,
+            id: `${idCounter++}`,
             name: item,
             children
           }
         : {
-            id: idCounter++,
+            id: `${idCounter++}`,
             name: item
           }
     })
