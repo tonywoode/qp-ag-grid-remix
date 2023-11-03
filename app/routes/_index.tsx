@@ -75,7 +75,6 @@ const gridOptions = {
 
 export async function loader() {
   const folderData = scanFolder('./data')
-  console.dir(folderData)
   return {
     romdata,
     userDataPath: electron.app.getPath('userData'),
@@ -85,7 +84,7 @@ export async function loader() {
 
 export const action = async () => {
   const result = await electron.dialog.showOpenDialog({
-    title: 'select origingal QuickPlay data folder',
+    title: 'select original QuickPlay data folder',
     properties: ['openDirectory']
   })
   console.log(result)
@@ -96,7 +95,6 @@ export default function Index() {
   const data = useLoaderData()
   const rowData = data.romdata
   const folderData = data.folderData
-  console.log('folderData', folderData)
   return (
     <>
       <Menu menuButton={<MenuButton className="box-border border-2 border-gray-500 rounded px-2 m-3">Menu</MenuButton>}>
