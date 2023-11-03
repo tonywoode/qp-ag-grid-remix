@@ -15,16 +15,28 @@ export function scanFolder(folderPath) {
     .map(item => {
       const itemPath = path.join(folderPath, item)
       const children = scanFolder(itemPath)
+      console.log(process.cwd())
+      const folderInfoPath = path.join(itemPath, 'folderInfo.json')
+      let iconLink = null
+      if (fs.existsSync(folderInfoPath)) {
+        console.log('found folderInfo.json')
+        const folderInfo = require(path.join(process.cwd(), folderInfoPath))
+        console.log('folderInfo', folderInfo)
+        iconLink = path.join('Icons', folderInfo.folderInfo.iconLink)
+        console.log('iconLink', iconLink)
+      }
 
       return children.length > 0
         ? {
-            id: `${idCounter++}`,
+            id: `${idCounter++}`, //need to use string ids for react-arborist
             name: item,
+            iconLink,
             children
           }
         : {
             id: `${idCounter++}`,
-            name: item
+            name: item,
+            iconLink
           }
     })
 

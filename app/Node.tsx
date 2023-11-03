@@ -1,7 +1,9 @@
+import React from 'react'
 import { AiFillFolder, AiFillFile } from 'react-icons/ai'
 import { MdArrowRight, MdArrowDropDown } from 'react-icons/md'
 
 const Node = ({ node, style, dragHandle, tree }) => {
+  console.log('icon', node.data.iconLink)
   return (
     <div className="node-container" style={style} ref={dragHandle}>
       <div
@@ -22,7 +24,11 @@ const Node = ({ node, style, dragHandle, tree }) => {
               {node.isOpen ? <MdArrowDropDown /> : <MdArrowRight />}
             </span>
             <span className="file-folder-icon" style={{ marginRight: '6px' }}>
-              <AiFillFolder color="#f6cf60" />
+              {node.data.iconLink ? (
+                <img src={node.data.iconLink} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
+              ) : (
+                <AiFillFolder color="#f6cf60" />
+              )}
             </span>
           </>
         )}
