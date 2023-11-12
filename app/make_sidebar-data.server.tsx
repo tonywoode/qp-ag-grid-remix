@@ -19,11 +19,11 @@ export function scanFolder(folderPath) {
       const folderInfoPath = path.join(itemPath, 'folderInfo.json')
       let iconLink = null
       if (fs.existsSync(folderInfoPath)) {
-        console.log('found folderInfo.json')
+        // console.log('found folderInfo.json')
         const folderInfo = require(path.join(process.cwd(), folderInfoPath))
-        console.log('folderInfo', folderInfo)
+        // console.log('folderInfo', folderInfo)
         iconLink = path.join('Icons', folderInfo.folderInfo.iconLink)
-        console.log('iconLink', iconLink)
+        // console.log('iconLink', iconLink)
       }
 
       return children.length > 0

@@ -97,25 +97,29 @@ export default function Index() {
   const folderData = data.folderData
   return (
     <>
-      <Menu menuButton={<MenuButton className="box-border border-2 border-gray-500 rounded px-2 m-3">Menu</MenuButton>}>
-        <MenuItem>New File</MenuItem>
-        <SubMenu label="Edit">
-          <MenuItem>Cut</MenuItem>
-          <MenuItem>Copy</MenuItem>
-          <MenuItem>Paste</MenuItem>
-          <SubMenu label="Find">
-            <MenuItem>Find...</MenuItem>
-            <MenuItem>Find Next</MenuItem>
-            <MenuItem>Find Previous</MenuItem>
+      <div className="flex flex-row">
+        <Menu
+          menuButton={<MenuButton className="box-border border-2 border-gray-500 rounded px-2 m-3">Menu</MenuButton>}
+        >
+          <MenuItem>New File</MenuItem>
+          <SubMenu label="Edit">
+            <MenuItem>Cut</MenuItem>
+            <MenuItem>Copy</MenuItem>
+            <MenuItem>Paste</MenuItem>
+            <SubMenu label="Find">
+              <MenuItem>Find...</MenuItem>
+              <MenuItem>Find Next</MenuItem>
+              <MenuItem>Find Previous</MenuItem>
+            </SubMenu>
           </SubMenu>
-        </SubMenu>
-        <MenuDivider className="h-px bg-gray-200 mx-2.5 my-1.5" />
-        <MenuItem>Print...</MenuItem>
-      </Menu>
-      <Form method="post">
-        <button className="box-border border-2 border-gray-500 px-2 m-3">Pick Original QP data folder</button>
-      </Form>
-      <Split sizes={[40, 50, 10]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+          <MenuDivider className="h-px bg-gray-200 mx-2.5 my-1.5" />
+          <MenuItem>Print...</MenuItem>
+        </Menu>
+        <Form method="post">
+          <button className="box-border border-2 border-gray-500 px-2 m-3">Pick Original QP data folder</button>
+        </Form>
+      </div>
+      <Split sizes={[20, 70, 10]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
         <Treeview folderData={folderData} nodeData={Node}></Treeview>
         <div className="ag-theme-alpine">
           <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
