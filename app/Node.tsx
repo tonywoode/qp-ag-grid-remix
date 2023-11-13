@@ -8,7 +8,10 @@ const Node = ({ node, style, dragHandle, tree }) => {
     <div className="node-container" style={style} ref={dragHandle}>
       <div
         className="node-content"
-        onClick={() => node.isInternal && node.toggle()}
+        onClick={() => {
+          console.log('node', node)
+          return node.isInternal && node.toggle()
+        }}
         style={{ display: 'flex', alignItems: 'center' }}
       >
         {node.isLeaf ? (

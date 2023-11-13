@@ -15,9 +15,11 @@ export function scanFolder(folderPath) {
     .map(item => {
       const itemPath = path.join(folderPath, item)
       const children = scanFolder(itemPath)
-      console.log(process.cwd())
+      //console.log(process.cwd())
       const folderInfoPath = path.join(itemPath, 'folderInfo.json')
+      const romdataPath = path.join(itemPath, 'romdata.json')
       let iconLink = null
+      let romdataLink = null
       if (fs.existsSync(folderInfoPath)) {
         // console.log('found folderInfo.json')
         const folderInfo = require(path.join(process.cwd(), folderInfoPath))
@@ -25,6 +27,9 @@ export function scanFolder(folderPath) {
         iconLink = path.join('Icons', folderInfo.folderInfo.iconLink)
         // console.log('iconLink', iconLink)
       }
+      if (fs.existsSync(romdataPath)) {
+        romdataLink = path.join(romdataPath)
+      } //TODO: what action if it doesn't exist?
 
       return children.length > 0
         ? {
@@ -36,7 +41,8 @@ export function scanFolder(folderPath) {
         : {
             id: `${idCounter++}`,
             name: item,
-            iconLink
+            iconLink,
+            romdataLink
           }
     })
 
