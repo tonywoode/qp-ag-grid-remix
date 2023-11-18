@@ -3,17 +3,29 @@ import { AiFillFolder, AiFillFile } from 'react-icons/ai'
 import { MdArrowRight, MdArrowDropDown } from 'react-icons/md'
 
 const Node = ({ node, style, dragHandle, tree }) => {
-  console.log('icon', node.data.iconLink)
+  //console.log('icon', node.data.iconLink)
   return (
     <div className="node-container" style={style} ref={dragHandle}>
       <div
         className="node-content"
         onClick={() => {
           console.log('node', node)
+          console.log('romdataLink', node.data.romdataLink)
           return node.isInternal && node.toggle()
         }}
         style={{ display: 'flex', alignItems: 'center' }}
       >
+        <ul>
+          {' '}
+          <li>
+            {' '}
+            <a href={`../routes/grid`}>Your Name</a>{' '}
+          </li>{' '}
+          <li>
+            {' '}
+            <a href={`../routes/grid`}>Your Friend</a>{' '}
+          </li>{' '}
+        </ul>
         {node.isLeaf ? (
           <>
             <span className="arrow" style={{ marginRight: '2px' }}></span>

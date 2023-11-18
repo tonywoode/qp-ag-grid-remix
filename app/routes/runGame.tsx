@@ -3,7 +3,7 @@ import type { ActionArgs } from '@remix-run/node'
 import path from 'path'
 import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '../utils/createDirIfNotExist'
-import { logger } from './_index'
+import { logger } from './layout'
 import { run } from '@remix-run/dev/dist/cli/run'
 import emulators from '~/../dats/emulators.json'
 export async function action({ request }: ActionArgs) {

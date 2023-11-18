@@ -36,6 +36,7 @@ export function scanFolder(folderPath) {
             id: `${idCounter++}`, //need to use string ids for react-arborist
             name: item,
             iconLink,
+            romdataLink, //TODO: I think parents can have romdata?
             children
           }
         : {

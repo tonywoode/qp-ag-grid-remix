@@ -1,13 +1,6 @@
 import { cssBundleHref } from "@remix-run/css-bundle"
 import type { LinksFunction, MetaFunction } from "@remix-run/node"
-import {
-	Links,
-	LiveReload,
-	Meta,
-	Outlet,
-	Scripts,
-	ScrollRestoration,
-} from "@remix-run/react"
+import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
 import styles from '~/styles/styles.css'
 import tailwindStyles from '~/styles/tailwind.css'
 
@@ -21,19 +14,20 @@ export const links: LinksFunction = () => [
 
 export default function App() {
 	return (
-		<html lang="en">
-			<head>
-				<meta charSet="utf8" />
-				<meta name="viewport" content="width=device-width,initial-scale=1" />
-				<Meta />
-				<Links />
-			</head>
-			<body>
-				<Outlet />
-				<ScrollRestoration />
-				<Scripts />
-				{process.env.NODE_ENV === "development" && <LiveReload />}
-			</body>
-		</html>
-	)
+    <html lang="en">
+      <head>
+        <meta charSet="utf8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <Meta />
+        <Links />
+      </head>
+      <body>
+        <Link to="layout">layout</Link>
+        <Outlet />
+        <ScrollRestoration />
+        <Scripts />
+        {process.env.NODE_ENV === 'development' && <LiveReload />}
+      </body>
+    </html>
+  )
 }

@@ -1,4 +1,4 @@
-import { Form, useLoaderData } from '@remix-run/react'
+import { Form, Link, Outlet, useLoaderData } from '@remix-run/react'
 import electron from '~/electron.server'
 import { json, type V2_MetaFunction } from '@remix-run/node'
 import { AgGridReact } from 'ag-grid-react'
@@ -20,7 +20,7 @@ import { Node } from '~/Node'
 import { Treeview } from '~/components/Treeview'
 
 //configure and export logging per-domain feature
-import { createFeatureLogger } from '~/utils/featureLogger'
+import { createFeatureLogger } from '../utils/featureLogger'
 
 const loggerConfig = [
   { feature: 'gridOperations', enabled: true },
@@ -120,10 +120,24 @@ export default function Index() {
         </Form>
       </div>
       <Split sizes={[20, 70, 10]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
-        <Treeview folderData={folderData} nodeData={Node}></Treeview>
-        <div className="ag-theme-alpine">
-          <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
+        {/* <Treeview folderData={folderData} nodeData={Node}></Treeview> */}
+        <ul>
+          {' '}
+          <li>
+            {' '}
+            <Link to={`grid`}>Your Name</Link>{' '}
+          </li>{' '}
+          <li>
+            {' '}
+            <Link to={`grid`}>Your Friend</Link>{' '}
+          </li>{' '}
+        </ul>
+        <div>
+          <Outlet />
         </div>
+        {/* <div className="ag-theme-alpine">
+          <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
+        </div> */}
         <Tabs>
           <TabList>
             <Tab>Title 1</Tab>
