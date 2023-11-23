@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from '@remix-run/react'
 import { AiFillFolder, AiFillFile } from 'react-icons/ai'
 import { MdArrowRight, MdArrowDropDown } from 'react-icons/md'
 
@@ -19,11 +19,7 @@ const Node = ({ node, style, dragHandle, tree }) => {
           {' '}
           <li>
             {' '}
-            <a href={`../routes/grid`}>Your Name</a>{' '}
-          </li>{' '}
-          <li>
-            {' '}
-            <a href={`../routes/grid`}>Your Friend</a>{' '}
+            <Link to={`grid`}>Load the n64 romdata</Link>{' '}
           </li>{' '}
         </ul>
         {node.isLeaf ? (
