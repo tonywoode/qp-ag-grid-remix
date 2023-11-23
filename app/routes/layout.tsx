@@ -1,21 +1,17 @@
 import { Form, Link, Outlet, useLoaderData } from '@remix-run/react'
 import electron from '~/electron.server'
-import { json, type V2_MetaFunction } from '@remix-run/node'
-import { AgGridReact } from 'ag-grid-react'
 import reactSplitStyles from '~/styles/react-split.css'
-import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
-import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
+import { scanFolder } from '~/make_sidebar-data.server'
+//TODO: fix this its hardcoded so not correct!
 import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
-import { CellClickedEvent } from 'ag-grid-community'
 import { Tree } from 'react-arborist'
 import { Resizable, ResizableBox } from 'react-resizable'
 import Split from 'react-split'
-import { scanFolder } from '~/make_sidebar-data.server'
 import { Node } from '~/Node'
 import { Treeview } from '~/components/Treeview'
 
@@ -29,50 +25,6 @@ const loggerConfig = [
 ]
 export const logger = createFeatureLogger(loggerConfig)
 
-/** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
-// for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
-const columnDefs = [...new Set(romdata.flatMap(Object.keys))].map(field => {
-  //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir subsitiution is active
-  if (field === 'path') {
-    return {
-      field,
-      valueGetter: removeGamesDirPrefix
-    }
-  }
-  return { field }
-})
-
-function removeGamesDirPrefix(params) {
-  const originalValue = params.data.path // Assuming 'path' is the field in your data
-  const modifiedValue = originalValue.replace('{gamesDir}\\', '') // Replace '{gamesDir}\\' with the actual prefix you want to remove
-  return modifiedValue
-}
-console.log('Creating these columns from romdata:')
-console.table(columnDefs)
-/** @type {import('ag-grid-community').GridOptions} */
-const gridOptions = {
-  onCellClicked: (event: CellClickedEvent) => {
-    console.log(event.data)
-    fetch('runGame', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        gamePath: event.data.path,
-        defaultGoodMerge: event.data.defaultGoodMerge,
-        emulatorName: event.data.emulatorName
-      })
-    })
-  },
-  columnDefs: columnDefs,
-  defaultColDef: {
-    flex: 1,
-    minWidth: 150,
-    editable: true
-  }
-}
-
 export async function loader() {
   const folderData = scanFolder('./data')
   return {
@@ -81,7 +33,6 @@ export async function loader() {
     folderData
   }
 }
-
 export const action = async () => {
   const result = await electron.dialog.showOpenDialog({
     title: 'select original QuickPlay data folder',
@@ -93,8 +44,6 @@ export const action = async () => {
 
 export default function Index() {
   const data = useLoaderData()
-  const rowData = data.romdata
-  const folderData = data.folderData
   return (
     <>
       <div className="flex flex-row">
@@ -135,9 +84,6 @@ export default function Index() {
         <div>
           <Outlet />
         </div>
-        {/* <div className="ag-theme-alpine">
-          <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
-        </div> */}
         <Tabs>
           <TabList>
             <Tab>Title 1</Tab>
@@ -161,8 +107,6 @@ export default function Index() {
 
 export function links() {
   return [
-    { rel: 'stylesheet', href: AgGridStyles },
-    { rel: 'stylesheet', href: AgThemeAlpineStyles },
     { rel: 'stylesheet', href: reactSplitStyles },
     { rel: 'stylesheet', href: reactTabsStyles },
     { rel: 'stylesheet', href: reactMenuStyles },

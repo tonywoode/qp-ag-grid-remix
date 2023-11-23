@@ -1,10 +1,8 @@
 import { AgGridReact } from 'ag-grid-react'
 import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
-import { CellClickedEvent } from 'ag-grid-community'
-import { scanFolder } from '~/make_sidebar-data.server'
+import type { CellClickedEvent } from 'ag-grid-community'
 import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
-import electron from '~/electron.server'
 import { useLoaderData } from '@remix-run/react'
 
 /** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
@@ -51,18 +49,14 @@ const gridOptions = {
   }
 }
 export async function loader() {
-  const folderData = scanFolder('./data')
   return {
-    romdata,
-    userDataPath: electron.app.getPath('userData'),
-    folderData
+    romdata
   }
 }
 
 export default function Grid() {
   const data = useLoaderData()
   const rowData = data.romdata
-  const folderData = data.folderData
   return (
     <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
       <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
