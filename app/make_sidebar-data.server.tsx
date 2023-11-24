@@ -27,7 +27,9 @@ export function scanFolder(folderPath) {
         iconLink = path.join('Icons', folderInfo.folderInfo.iconLink)
         // console.log('iconLink', iconLink)
       }
+      // console.log('romdataPath', romdataPath)
       if (fs.existsSync(romdataPath)) {
+        // console.log('yeah its there')
         romdataLink = path.join(romdataPath)
       } //TODO: what action if it doesn't exist?
 

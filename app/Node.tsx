@@ -4,6 +4,8 @@ import { MdArrowRight, MdArrowDropDown } from 'react-icons/md'
 
 const Node = ({ node, style, dragHandle, tree }) => {
   //console.log('icon', node.data.iconLink)
+  const romdataStars = node.data.romdataLink?.replace(/\//g, '*')
+  console.log('romdataStars', romdataStars)
   return (
     <div className="node-container" style={style} ref={dragHandle}>
       <div
@@ -19,7 +21,7 @@ const Node = ({ node, style, dragHandle, tree }) => {
           {' '}
           <li>
             {' '}
-            <Link to={`grid`}>Load the n64 romdata</Link>{' '}
+            <Link to={`grid/` + encodeURI(romdataStars)}>Load the n64 romdata</Link>{' '}
           </li>{' '}
         </ul>
         {node.isLeaf ? (
@@ -36,7 +38,7 @@ const Node = ({ node, style, dragHandle, tree }) => {
             </span>
             <span className="file-folder-icon" style={{ marginRight: '6px' }}>
               {node.data.iconLink ? (
-                <img src={node.data.iconLink} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
+                <>{node.data.iconLink}</> // <img src={node.data.iconLink} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
               ) : (
                 <AiFillFolder color="#f6cf60" />
               )}
