@@ -17,13 +17,6 @@ const Node = ({ node, style, dragHandle, tree }) => {
         }}
         style={{ display: 'flex', alignItems: 'center' }}
       >
-        <ul>
-          {' '}
-          <li>
-            {' '}
-            <Link to={`grid/` + encodeURI(romdataStars)}>Load the n64 romdata</Link>{' '}
-          </li>{' '}
-        </ul>
         {node.isLeaf ? (
           <>
             <span className="arrow" style={{ marginRight: '2px' }}></span>
@@ -38,16 +31,24 @@ const Node = ({ node, style, dragHandle, tree }) => {
             </span>
             <span className="file-folder-icon" style={{ marginRight: '6px' }}>
               {node.data.iconLink ? (
-                <>{node.data.iconLink}</> // <img src={node.data.iconLink} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
+                <img src={node.data.iconLink} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
               ) : (
                 <AiFillFolder color="#f6cf60" />
               )}
             </span>
           </>
         )}
-        <span className="node-text">
-          <span>{node.data.name}</span>
-        </span>
+        {romdataStars ? (
+          <Link to={`grid/` + encodeURI(romdataStars)}>
+            <span className="node-text">
+              <span>{node.data.name}</span>
+            </span>
+          </Link>
+        ) : (
+          <span className="node-text">
+            <span>{node.data.name}</span>
+          </span>
+        )}
       </div>
     </div>
   )
