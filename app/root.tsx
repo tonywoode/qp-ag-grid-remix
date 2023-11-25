@@ -18,7 +18,6 @@ import { Tree } from 'react-arborist'
 import { Resizable, ResizableBox } from 'react-resizable'
 import Split from 'react-split'
 import { Node } from '~/Node'
-import { Treeview } from '~/components/Treeview'
 export const meta: MetaFunction = () => [{ title: 'New Remix App' }]
 
 export const links: LinksFunction = () => [
@@ -60,6 +59,7 @@ export const action = async () => {
 
 export default function App() {
   const data = useLoaderData()
+  console.log('data', data)
   return (
     <html lang="en">
       <head>

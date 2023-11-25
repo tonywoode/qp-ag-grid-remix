@@ -3,7 +3,7 @@ import { AiFillFolder, AiFillFile } from 'react-icons/ai'
 import { MdArrowRight, MdArrowDropDown } from 'react-icons/md'
 
 const Node = ({ node, style, dragHandle, tree }) => {
-  //console.log('icon', node.data.iconLink)
+  console.log('icon', node.data.iconLink)
   const romdataStars = node.data.romdataLink?.replace(/\//g, '*')
   //console.log('romdataStars', romdataStars)
   return (
@@ -27,7 +27,7 @@ const Node = ({ node, style, dragHandle, tree }) => {
           )}
           <span className="file-folder-icon" style={{ marginRight: '6px' }}>
             {node.data.iconLink ? (
-              <img src={node.data.iconLink} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
+              <img src={'/' + node.data.iconLink} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
             ) : (
               <AiFillFolder color={node.isLeaf ? '#6bc7f6' : '#f6cf60'} />
             )}
