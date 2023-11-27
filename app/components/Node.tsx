@@ -7,18 +7,16 @@ const Node = ({ node, style, dragHandle, tree }) => {
   const romdataStars = node.data.romdataLink?.replace(/\//g, '*') //restore folder paths from url encoding
   return (
     <div className="node-container" style={style} ref={dragHandle}>
-      <div
-        className="node-content"
-        onClick={() => {
-          console.log('node', node)
-          console.log('romdataLink', node.data.romdataLink)
-          return node.isInternal && node.toggle()
-        }}
-        style={{ display: 'flex', alignItems: 'center' }}
-      >
+      <div className="node-content" style={{ display: 'flex', alignItems: 'center' }}>
         <>
           {!node.isLeaf ? (
-            <span className="arrow" style={{ marginRight: '2px' }}>
+            <span
+              className="arrow"
+              style={{ marginRight: '2px' }}
+              onClick={() => {
+                return node.isInternal && node.toggle()
+              }}
+            >
               {node.isOpen ? <MdArrowDropDown /> : <MdArrowRight />}
             </span>
           ) : (

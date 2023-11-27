@@ -15,7 +15,7 @@ import { scanFolder } from '~/make_sidebar-data.server'
 import { Tree } from 'react-arborist'
 import { Resizable, ResizableBox } from 'react-resizable'
 import Split from 'react-split'
-import { Node } from '~/Node'
+import { Node } from '~/components/Node'
 export const meta: MetaFunction = () => [{ title: 'New Remix App' }]
 
 export const links: LinksFunction = () => [
@@ -123,7 +123,7 @@ export default function App() {
             </Tabs>
           </Split>
           <h1 className="m-2 text-xs font-mono underline">
-            Number of Games: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
+            Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
           </h1>
         </>
         <ScrollRestoration />
