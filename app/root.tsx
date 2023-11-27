@@ -1,6 +1,6 @@
 import { cssBundleHref } from "@remix-run/css-bundle"
 import type { LinksFunction, MetaFunction } from "@remix-run/node"
-import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
+import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useMatches } from '@remix-run/react'
 import styles from '~/styles/styles.css'
 import tailwindStyles from '~/styles/tailwind.css'
 import { Form, useLoaderData } from '@remix-run/react'
@@ -12,8 +12,6 @@ import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
 import { scanFolder } from '~/make_sidebar-data.server'
-//TODO: fix this its hardcoded so not correct!
-import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { Tree } from 'react-arborist'
 import { Resizable, ResizableBox } from 'react-resizable'
 import Split from 'react-split'
@@ -43,7 +41,7 @@ export const logger = createFeatureLogger(loggerConfig)
 export async function loader() {
   const folderData = scanFolder('./data')
   return {
-    romdata,
+    // romdata,
     userDataPath: electron.app.getPath('userData'),
     folderData
   }
@@ -59,7 +57,8 @@ export const action = async () => {
 
 export default function App() {
   const data = useLoaderData()
-  console.log('data', data)
+  const matches = useMatches()
+  let match = matches.find(match => 'romdata' in match.data)
   return (
     <html lang="en">
       <head>
@@ -124,7 +123,7 @@ export default function App() {
             </Tabs>
           </Split>
           <h1 className="m-2 text-xs font-mono underline">
-            Number of Games: {romdata.length}, User data path: {data.userDataPath}
+            Number of Games: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
           </h1>
         </>
         <ScrollRestoration />
