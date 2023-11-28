@@ -7,10 +7,10 @@ const Node = ({ node, style, dragHandle, tree }) => {
   console.log('icon', node.data.iconLink)
   const location = useLocation()
   const romdataStars = node.data.romdataLink?.replace(/\//g, '*') //restore folder paths from url encoding
-  const currentURL = location.pathname
-  const targetURL = `/grid/${encodeURI(romdataStars)}`
-  console.log('currentURL', currentURL)
-  console.log('targetURL', targetURL)
+  const currentURLStars = location.pathname
+  const targetURLStars = `/grid/${encodeURI(romdataStars)}`
+  // console.log('currentURL', currentURLStars)
+  // console.log('targetURL', targetURLStars)
   return (
     <div className="node-container" style={style} ref={dragHandle}>
       <div className="node-content" style={{ display: 'flex', alignItems: 'center' }}>
@@ -36,8 +36,8 @@ const Node = ({ node, style, dragHandle, tree }) => {
             )}
           </span>
         </>
-        {romdataStars && currentURL !== targetURL ? ( //don't naviagate if we already clicked here (causes the tree to collapse)
-          <Link to={`/grid/` + encodeURI(romdataStars)}>
+        {romdataStars && currentURLStars !== targetURLStars ? ( //don't navigate if we already clicked here (causes the tree to collapse)
+          <Link to={targetURLStars}>
             <span className="node-text">
               <span>{node.data.name}</span>
             </span>
