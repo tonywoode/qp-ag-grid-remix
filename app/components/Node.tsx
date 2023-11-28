@@ -1,10 +1,16 @@
 import { Link } from '@remix-run/react'
 import { AiFillFolder, AiFillFile } from 'react-icons/ai'
 import { MdArrowRight, MdArrowDropDown } from 'react-icons/md'
+import { useLocation } from '@remix-run/react'
 //a react-arborist node
 const Node = ({ node, style, dragHandle, tree }) => {
   console.log('icon', node.data.iconLink)
+  const location = useLocation()
   const romdataStars = node.data.romdataLink?.replace(/\//g, '*') //restore folder paths from url encoding
+  const currentURL = location.pathname
+  const targetURL = `/grid/${encodeURI(romdataStars)}`
+  console.log('currentURL', currentURL)
+  console.log('targetURL', targetURL)
   return (
     <div className="node-container" style={style} ref={dragHandle}>
       <div className="node-content" style={{ display: 'flex', alignItems: 'center' }}>
@@ -30,8 +36,8 @@ const Node = ({ node, style, dragHandle, tree }) => {
             )}
           </span>
         </>
-        {romdataStars ? (
-          <Link to={`grid/` + encodeURI(romdataStars)}>
+        {romdataStars && currentURL !== targetURL ? ( //don't naviagate if we already clicked here (causes the tree to collapse)
+          <Link to={`/grid/` + encodeURI(romdataStars)}>
             <span className="node-text">
               <span>{node.data.name}</span>
             </span>
