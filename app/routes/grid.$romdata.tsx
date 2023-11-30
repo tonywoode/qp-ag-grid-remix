@@ -10,7 +10,7 @@ import { loadRomdata } from '~/load_romdata.server'
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
   console.log('romdata link is now:', romdataLink)
-  const romdataBlob = loadRomdata(romdataLink)
+  const romdataBlob = await loadRomdata(romdataLink)
   const romdata = romdataBlob.romdata
   console.log('romdata in grid.$romdata is now:', romdata)
   return {

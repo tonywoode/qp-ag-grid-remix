@@ -13,7 +13,6 @@ const Node = ({ node, style, dragHandle, tree }) => {
   // console.log('targetURL', targetURLStars)
   const handleToggle = e => {
     console.log('e', e)
-    e.preventDefault()
     e.stopPropagation()
     const nodeId = tree.mostRecentNode
     // console.log('nodeId', nodeId)
