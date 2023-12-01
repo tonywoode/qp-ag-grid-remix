@@ -1,2 +1,2 @@
-import electron from "electron"
+import electron from 'electron'
 export default electron

@@ -1,10 +1,10 @@
 /** @type {import("@remix-run/dev").AppConfig} */
 module.exports = {
-    ignoredRouteFiles: ["**/.*"],
+  ignoredRouteFiles: ['**/.*'],
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // publicPath: "/build/",
   // serverBuildPath: "build/index.js",
-	serverModuleFormat: "cjs",
-	browserNodeBuiltinsPolyfill: { modules: { util: true } }
+  serverModuleFormat: 'cjs',
+  browserNodeBuiltinsPolyfill: { modules: { util: true } }
 }

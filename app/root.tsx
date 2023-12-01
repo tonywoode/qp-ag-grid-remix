@@ -1,5 +1,5 @@
-import { cssBundleHref } from "@remix-run/css-bundle"
-import type { LinksFunction, MetaFunction } from "@remix-run/node"
+import { cssBundleHref } from '@remix-run/css-bundle'
+import type { LinksFunction, MetaFunction } from '@remix-run/node'
 import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useMatches } from '@remix-run/react'
 import styles from '~/styles/styles.css'
 import tailwindStyles from '~/styles/tailwind.css'
