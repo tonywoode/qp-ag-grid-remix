@@ -55,8 +55,49 @@ export const action = async () => {
   return result
 }
 
+const menu = () => (
+  <Menu menuButton={<MenuButton className="box-border border-2 border-gray-500 rounded px-2 m-3">Menu</MenuButton>}>
+    <MenuItem>New File</MenuItem>
+    <SubMenu label="Edit">
+      <MenuItem>Cut</MenuItem>
+      <MenuItem>Copy</MenuItem>
+      <MenuItem>Paste</MenuItem>
+      <SubMenu label="Find">
+        <MenuItem>Find...</MenuItem>
+        <MenuItem>Find Next</MenuItem>
+        <MenuItem>Find Previous</MenuItem>
+      </SubMenu>
+    </SubMenu>
+    <MenuDivider className="h-px bg-gray-200 mx-2.5 my-1.5" />
+    <MenuItem>Print...</MenuItem>
+  </Menu>
+)
+
+const treeView = folderData => (
+  <Tree data={folderData} openByDefault={false} width={360} height={1000} indent={24} rowHeight={42} padding={0}>
+    {Node}
+  </Tree>
+)
+
+const mediaPanel = () => (
+  <Tabs>
+    <TabList>
+      <Tab>Title 1</Tab>
+      <Tab>Title 2</Tab>
+    </TabList>
+
+    <TabPanel>
+      <h2>Any content 1</h2>
+    </TabPanel>
+    <TabPanel>
+      <h2>Any content 2</h2>
+    </TabPanel>
+  </Tabs>
+)
+
 export default function App() {
   const data = useLoaderData()
+  const folderData = data.folderData
   const matches = useMatches()
   let match = matches.find(match => 'romdata' in match.data)
   return (
@@ -70,59 +111,19 @@ export default function App() {
       <body>
         <>
           <div className="flex flex-row">
-            <Menu
-              menuButton={
-                <MenuButton className="box-border border-2 border-gray-500 rounded px-2 m-3">Menu</MenuButton>
-              }
-            >
-              <MenuItem>New File</MenuItem>
-              <SubMenu label="Edit">
-                <MenuItem>Cut</MenuItem>
-                <MenuItem>Copy</MenuItem>
-                <MenuItem>Paste</MenuItem>
-                <SubMenu label="Find">
-                  <MenuItem>Find...</MenuItem>
-                  <MenuItem>Find Next</MenuItem>
-                  <MenuItem>Find Previous</MenuItem>
-                </SubMenu>
-              </SubMenu>
-              <MenuDivider className="h-px bg-gray-200 mx-2.5 my-1.5" />
-              <MenuItem>Print...</MenuItem>
-            </Menu>
+            {menu()}
             <Form method="post">
               <button className="box-border border-2 border-gray-500 px-2 m-3">Pick Original QP data folder</button>
             </Form>
           </div>
           <Split sizes={[20, 70, 10]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
-            <Tree
-              data={data.folderData}
-              openByDefault={false}
-              width={360}
-              height={1000}
-              indent={24}
-              rowHeight={42}
-              padding={0}
-            >
-              {Node}
-            </Tree>
+            {treeView(folderData)}
             <div>
               <Outlet />
             </div>
-            <Tabs>
-              <TabList>
-                <Tab>Title 1</Tab>
-                <Tab>Title 2</Tab>
-              </TabList>
-
-              <TabPanel>
-                <h2>Any content 1</h2>
-              </TabPanel>
-              <TabPanel>
-                <h2>Any content 2</h2>
-              </TabPanel>
-            </Tabs>
+            {mediaPanel()}
           </Split>
-          <h1 className="m-2 text-xs font-mono underline">
+          <h1 className="absolute m-2 text-xs font-mono underline">
             Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
           </h1>
         </>
