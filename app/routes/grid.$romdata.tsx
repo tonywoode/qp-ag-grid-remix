@@ -9,13 +9,9 @@ import { loadRomdata } from '~/load_romdata.server'
 
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
-  console.log('romdata link is now:', romdataLink)
   const romdataBlob = await loadRomdata(romdataLink)
   const romdata = romdataBlob.romdata
-  console.log('romdata in grid.$romdata is now:', romdata)
-  return {
-    romdata
-  }
+  return { romdata }
 }
 
 export default function Grid() {
@@ -25,13 +21,7 @@ export default function Grid() {
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => {
     //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir subsitiution is active
-    if (field === 'path') {
-      return {
-        field,
-        valueGetter: removeGamesDirPrefix
-      }
-    }
-    return { field }
+    return field === 'path' ? { field, valueGetter: removeGamesDirPrefix } : { field }
   })
   function removeGamesDirPrefix(params) {
     const originalValue = params.data.path // Assuming 'path' is the field in your data
@@ -46,9 +36,7 @@ export default function Grid() {
       console.log(event.data)
       fetch('../runGame', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           gamePath: event.data.path,
           defaultGoodMerge: event.data.defaultGoodMerge,
@@ -57,11 +45,7 @@ export default function Grid() {
       })
     },
     columnDefs: columnDefs,
-    defaultColDef: {
-      flex: 1,
-      minWidth: 150,
-      editable: true
-    }
+    defaultColDef: { flex: 1, minWidth: 150, editable: true }
   }
   return (
     <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>

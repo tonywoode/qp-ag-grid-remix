@@ -3,19 +3,14 @@ import { AiFillFolder, AiFillFile } from 'react-icons/ai'
 import { MdArrowRight, MdArrowDropDown } from 'react-icons/md'
 
 export function Node({ node, style, dragHandle, tree }) {
+  //a react-arborist node
   console.log('icon', node.data.iconLink)
   const location = useLocation()
   const romdataStars = node.data.romdataLink?.replace(/\//g, '*') //restore folder paths from url encoding
   const currentURLStars = location.pathname
   const targetURLStars = `/grid/${encodeURI(romdataStars)}`
-  const handleToggle = e => {
-    e.stopPropagation()
-    return node.isInternal && node.toggle()
-  }
-  const handleDoubleClick = e => {
-    e.preventDefault()
-    return node.toggle()
-  }
+  const handleToggle = e => { e.stopPropagation();return node.isInternal && node.toggle()} // prettier-ignore
+  const handleDoubleClick = e => { e.preventDefault();return node.toggle() } //prettier-ignore
 
   const renderNodeText = () => (
     <span className="node-text" onDoubleClick={handleDoubleClick}>
@@ -38,7 +33,7 @@ export function Node({ node, style, dragHandle, tree }) {
             <AiFillFolder color={node.isLeaf ? '#6bc7f6' : '#f6cf60'} />
           )}
         </span>
-        {romdataStars && currentURLStars !== targetURLStars ? (
+        {romdataStars && currentURLStars !== targetURLStars ? ( //don't navigate if we already clicked here (causes the tree to collapse)
           <Link to={targetURLStars}>{renderNodeText()}</Link>
         ) : (
           renderNodeText()

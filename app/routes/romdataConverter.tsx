@@ -6,8 +6,6 @@ export async function loader() {
   return 'Romdata Converter'
 }
 
-import { useState } from 'react'
-
 // function FileUpload() {
 //   if (typeof document !== 'undefined') window.showDirectoryPicker()
 // }
