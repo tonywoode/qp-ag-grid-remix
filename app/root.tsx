@@ -1,9 +1,8 @@
 import { cssBundleHref } from '@remix-run/css-bundle'
 import type { LinksFunction, MetaFunction } from '@remix-run/node'
-import { Link, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useMatches } from '@remix-run/react'
+import { Form, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches } from '@remix-run/react' // prettier-ignore
 import styles from '~/styles/styles.css'
 import tailwindStyles from '~/styles/tailwind.css'
-import { Form, useLoaderData } from '@remix-run/react'
 import electron from '~/electron.server'
 import reactSplitStyles from '~/styles/react-split.css'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
@@ -16,6 +15,9 @@ import { Tree } from 'react-arborist'
 import { Resizable, ResizableBox } from 'react-resizable'
 import Split from 'react-split'
 import { Node } from '~/components/Node'
+//configure and export logging per-domain feature
+import { createFeatureLogger } from '~/utils/featureLogger'
+
 export const meta: MetaFunction = () => [{ title: 'New Remix App' }]
 
 export const links: LinksFunction = () => [
@@ -27,9 +29,6 @@ export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: reactMenuStyles },
   { rel: 'stylesheet', href: reactMenuTransitionStyles }
 ]
-
-//configure and export logging per-domain feature
-import { createFeatureLogger } from '~/utils/featureLogger'
 
 const loggerConfig = [
   { feature: 'gridOperations', enabled: true },
@@ -96,7 +95,7 @@ const mediaPanel = () => (
 )
 
 export default function App() {
-  const data = useLoaderData()
+  const data = useLoaderData<typeof loader>()
   const folderData = data.folderData
   const matches = useMatches()
   let match = matches.find(match => 'romdata' in match.data)
