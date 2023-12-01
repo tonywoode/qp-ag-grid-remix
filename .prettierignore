@@ -11,3 +11,7 @@ node_modules
 /coverage
 
 package-lock.json
+
+/data
+/public
+/dats
