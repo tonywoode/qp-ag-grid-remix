@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import { loadIconBase64 } from './load_images.server'
 
 let idCounter = 1
 
@@ -18,6 +19,7 @@ export function scanFolder(folderPath) {
       //console.log(process.cwd())
       const folderInfoPath = path.join(itemPath, 'folderInfo.json')
       const romdataPath = path.join(itemPath, 'romdata.json')
+      let icon = null
       let iconLink = null
       let romdataLink = null
       if (fs.existsSync(folderInfoPath)) {
@@ -25,6 +27,7 @@ export function scanFolder(folderPath) {
         const folderInfo = require(path.join(process.cwd(), folderInfoPath))
         // console.log('folderInfo', folderInfo)
         iconLink = path.join('Icons', folderInfo.folderInfo.iconLink)
+        icon = loadIconBase64(iconLink)
         // console.log('iconLink', iconLink)
       }
       // console.log('romdataPath', romdataPath)
@@ -37,7 +40,8 @@ export function scanFolder(folderPath) {
         ? {
             id: `${idCounter++}`, //need to use string ids for react-arborist
             name: item,
-            iconLink,
+            iconLink, //theoretically not needed if we have the icon itself
+            icon,
             romdataLink, //TODO: I think parents can have romdata?
             children
           }
@@ -45,6 +49,7 @@ export function scanFolder(folderPath) {
             id: `${idCounter++}`,
             name: item,
             iconLink,
+            icon,
             romdataLink
           }
     })
