@@ -14,7 +14,7 @@ export function Node({ node, style, dragHandle, tree }) {
   const currentURLStars = location.pathname
   const targetURLStars = `/grid/${encodeURI(romdataStars)}`
   const renderNodeText = () => (
-    <span className="node-text" onDoubleClick={handleDoubleClick}>
+    <span className="node-text" onClick={handleClick} onDoubleClick={handleDoubleClick}>
       <span>{node.data.name}</span>
     </span>
   )
