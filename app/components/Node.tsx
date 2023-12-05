@@ -7,17 +7,24 @@ import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-preve
 export function Node({ node, style, dragHandle }) {
   const navigate = useNavigate()
   const location = useLocation()
-  const romdataStars = node.data.romdataLink?.replace(/\//g, '*')
-  const currentURLStars = location.pathname
-  const targetURLStars = `/grid/${encodeURI(romdataStars)}`
-  const cursorStyle = node.data.romdataLink ? { cursor: 'pointer' } : {}
-  const handleClick = () =>
-    romdataStars && currentURLStars !== targetURLStars ? navigate(targetURLStars) : node.toggle()
-  const handleDoubleClick = () => node.toggle()
-  const [handleSingleClick, handlePreventedDoubleClick] = useClickPreventionOnDoubleClick(
-    handleClick,
-    handleDoubleClick
-  )
+
+  const toggleNode = () => {
+    if (node.isLeaf && node.parent) {
+      node.parent.toggle()
+    } else {
+      node.toggle()
+    }
+  }
+
+  const [handleSingleClick, handlePreventedDoubleClick] = useClickPreventionOnDoubleClick(() => {
+    const romdataStars = node.data.romdataLink?.replace(/\//g, '*')
+    if (romdataStars && location.pathname !== `/grid/${encodeURI(romdataStars)}`) {
+      navigate(`/grid/${encodeURI(romdataStars)}`)
+    } else {
+      toggleNode()
+    }
+  }, toggleNode)
+
   return (
     <div className="node-container" style={style} ref={dragHandle}>
       <div className="node-content" style={{ display: 'flex', alignItems: 'center' }}>
@@ -33,7 +40,7 @@ export function Node({ node, style, dragHandle }) {
         )}
         <span
           className="file-folder-icon"
-          style={{ marginRight: '6px', ...cursorStyle }}
+          style={{ marginRight: '6px', cursor: node.data.romdataLink ? 'pointer' : 'default' }}
           onClick={handleSingleClick}
           onDoubleClick={handlePreventedDoubleClick}
         >
@@ -45,7 +52,7 @@ export function Node({ node, style, dragHandle }) {
         </span>
         <span
           className="node-text"
-          style={cursorStyle}
+          style={{ cursor: node.data.romdataLink ? 'pointer' : 'default' }}
           onClick={handleSingleClick}
           onDoubleClick={handlePreventedDoubleClick}
         >
