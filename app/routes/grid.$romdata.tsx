@@ -3,7 +3,7 @@ import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import type { CellClickedEvent } from 'ag-grid-community'
 //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
-import { useLoaderData } from '@remix-run/react'
+import { useLoaderData, useParams } from '@remix-run/react'
 import { loadRomdata } from '~/load_romdata.server'
 /** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
 
@@ -16,6 +16,7 @@ export async function loader({ params }) {
 
 export default function Grid() {
   const data = useLoaderData()
+  const params = useParams()
   const rowData = data.romdata
   console.log('rowData', rowData)
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
@@ -28,7 +29,7 @@ export default function Grid() {
     const modifiedValue = originalValue.replace('{gamesDir}\\', '') // Replace '{gamesDir}\\' with the actual prefix you want to remove
     return modifiedValue
   }
-  console.log('Creating these columns from romdata:')
+  console.log(`Creating these columns from romdata: ${params.romdata}`)
   console.table(columnDefs)
   /** @type {import('ag-grid-community').GridOptions} */
   const gridOptions = {

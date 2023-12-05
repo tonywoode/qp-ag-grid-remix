@@ -1,3 +1,4 @@
+// https://medium.com/trabe/prevent-click-events-on-double-click-with-react-with-and-without-hooks-6bf3697abc40
 import { cancellablePromise } from './cancellable-promise'
 import useCancellablePromises from './use-cacellable-promises'
 
