@@ -7,7 +7,7 @@ export const loadIconBase64 = iconPath => {
   try {
     const filePath = path.join(process.cwd(), 'assets', iconPath)
     if (!fs.existsSync(filePath)) {
-      console.error(`Error: Icon file does not exist: ${iconPath}`)
+      // console.error(`Error: Icon file does not exist: ${iconPath}`) //TODO: lots of icons not loading due to mame icons, but this is too noisy!
       return null
     }
     const fileData = fs.readFileSync(filePath)

@@ -1,5 +1,5 @@
 import { cssBundleHref } from '@remix-run/css-bundle'
-import type { LinksFunction, MetaFunction } from '@remix-run/node'
+import { json, type LinksFunction, type MetaFunction } from '@remix-run/node'
 import { Form, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useFetcher, useLoaderData, useMatches } from '@remix-run/react' // prettier-ignore
 import styles from '~/styles/styles.css'
 import tailwindStyles from '~/styles/tailwind.css'
@@ -18,6 +18,8 @@ import { Node } from '~/components/Node'
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
 import { useState, useEffect } from 'react'
+import { ScreenshotsTab } from '~/components/ScreenshotsTab'
+import { loadScreenshots } from './screenshots.server'
 
 export const meta: MetaFunction = () => [{ title: 'New Remix App' }]
 
@@ -40,11 +42,9 @@ export const logger = createFeatureLogger(loggerConfig)
 
 export async function loader() {
   const folderData = scanFolder('./data')
-  return {
-    // romdata,
-    userDataPath: electron.app.getPath('userData'),
-    folderData
-  }
+  const { screenshots } = loadScreenshots()
+  return json({ folderData, screenshots, userDataPath: electron.app.getPath('userData') })
+  // romdata,
 }
 export const action = async () => {
   const result = await electron.dialog.showOpenDialog({
@@ -79,18 +79,18 @@ const treeView = folderData => (
   </Tree>
 )
 
-const mediaPanel = () => (
+const mediaPanel = screenshots => (
   <Tabs>
     <TabList>
       <Tab>Title 1</Tab>
-      <Tab>Title 2</Tab>
+      <Tab>Screenshots</Tab>
     </TabList>
 
     <TabPanel>
       <h2>Any content 1</h2>
     </TabPanel>
     <TabPanel>
-      <h2>Any content 2</h2>
+      <ScreenshotsTab screenshots={screenshots} />
     </TabPanel>
   </Tabs>
 )
@@ -98,6 +98,7 @@ const mediaPanel = () => (
 export default function App() {
   const data = useLoaderData<typeof loader>()
   const folderData = data.folderData
+  const screenshots = data.screenshots
   const matches = useMatches()
   let match = matches.find(match => 'romdata' in match.data)
   const [isSplitLoaded, setIsSplitLoaded] = useState(false)
@@ -130,7 +131,7 @@ export default function App() {
                 <div>
                   <Outlet />
                 </div>
-                {mediaPanel()}
+                {mediaPanel(screenshots)}
               </Split>
               <h1 className="absolute m-2 text-xs font-mono underline">
                 Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
