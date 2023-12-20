@@ -1,6 +1,6 @@
 import { cssBundleHref } from '@remix-run/css-bundle'
 import type { LinksFunction, MetaFunction } from '@remix-run/node'
-import { Form, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches } from '@remix-run/react' // prettier-ignore
+import { Form, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useFetcher, useLoaderData, useMatches } from '@remix-run/react' // prettier-ignore
 import styles from '~/styles/styles.css'
 import tailwindStyles from '~/styles/tailwind.css'
 import electron from '~/electron.server'
@@ -17,6 +17,7 @@ import Split from 'react-split'
 import { Node } from '~/components/Node'
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
+import { useState, useEffect } from 'react'
 
 export const meta: MetaFunction = () => [{ title: 'New Remix App' }]
 
@@ -99,6 +100,13 @@ export default function App() {
   const folderData = data.folderData
   const matches = useMatches()
   let match = matches.find(match => 'romdata' in match.data)
+  const [isSplitLoaded, setIsSplitLoaded] = useState(false)
+  // sets isSplitLoaded after the initial render
+  //TODO:  this is causing lots of delay, using react-split-grid might be better https://github.com/nathancahill/split
+  useEffect(() => {
+    setIsSplitLoaded(true)
+  }, [])
+
   return (
     <html lang="en">
       <head>
@@ -115,16 +123,20 @@ export default function App() {
               <button className="box-border border-2 border-gray-500 px-2 m-3">Pick Original QP data folder</button>
             </Form>
           </div>
-          <Split sizes={[20, 70, 10]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
-            {treeView(folderData)}
-            <div>
-              <Outlet />
-            </div>
-            {mediaPanel()}
-          </Split>
-          <h1 className="absolute m-2 text-xs font-mono underline">
-            Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
-          </h1>
+          {isSplitLoaded && (
+            <>
+              <Split sizes={[20, 70, 10]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+                {treeView(folderData)}
+                <div>
+                  <Outlet />
+                </div>
+                {mediaPanel()}
+              </Split>
+              <h1 className="absolute m-2 text-xs font-mono underline">
+                Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
+              </h1>
+            </>
+          )}
         </>
         <ScrollRestoration />
         <Scripts />
