@@ -41,8 +41,8 @@ const loggerConfig = [
 export const logger = createFeatureLogger(loggerConfig)
 
 export async function loader() {
-  const folderData = scanFolder('./data')
-  const { screenshots } = loadScreenshots()
+  const folderData = await scanFolder('./data')
+  const { screenshots } = await loadScreenshots()
   return json({ folderData, screenshots, userDataPath: electron.app.getPath('userData') })
   // romdata,
 }
@@ -51,7 +51,6 @@ export const action = async () => {
     title: 'select original QuickPlay data folder',
     properties: ['openDirectory']
   })
-  console.log(result)
   return result
 }
 
