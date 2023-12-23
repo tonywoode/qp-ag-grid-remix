@@ -15,63 +15,34 @@ export async function loader({ params }) {
   const romdata = romdataBlob.romdata
   return { romdata }
 }
-function CustomCellRenderer(props) {
-  // const [editing, setEditing] = React.useState(false)
-  // const [timer, setTimer] = React.useState(null)
-
-  const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
-    () => {
-      console.log('single click')
-      // setTimer(
-      //   setTimeout(() => {
-      //     setEditing(true)
-      //   }, 500)
-      // ) // 500ms delay before entering edit mode
-    },
-    () => {
-      console.log('double click')
-      // if (timer) {
-      // clearTimeout(timer)
-      // setTimer(null)
-      // Handle short double-click here (launch game)
-      fetch('../runGame', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          gamePath: props.data.path,
-          defaultGoodMerge: props.data.defaultGoodMerge,
-          emulatorName: props.data.emulatorName
-        })
-      })
-    }
-  )
-  // React.useEffect(() => {
-  //   if (editing) {
-  //     props.api.startEditingCell({
-  //       rowIndex: props.node.rowIndex,
-  //       colKey: props.column.colId
-  //     })
-  //     setEditing(false)
-  //   }
-  // }, [editing, props.api, props.node.rowIndex, props.column.colId])
-
-  return (
-    <div onClick={handleSingleClick} onDoubleClick={handleDoubleClick}>
-      {props.value}
-    </div>
-  )
-}
+// function CustomCellRenderer(props) {
+//   return (
+//     <div onClick={handleSingleClick} onDoubleClick={handleDoubleClick}>
+//       {props.value}
+//     </div>
+//   )
+// }
 export default function Grid() {
   const data = useLoaderData()
   const params = useParams()
   const rowData = data.romdata
+  const [selectedRow, setSelectedRow] = React.useState(null)
+  const [lastClickedCell, setLastClickedCell] = React.useState(null)
   console.log('rowData', rowData)
+
+  const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
+    () => {
+      console.log('single click')
+    },
+    () => {
+      console.log('double click')
+    }
+  )
+
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => {
     //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir subsitiution is active
-    return field === 'path'
-      ? { field, valueGetter: removeGamesDirPrefix, cellRenderer: 'customCellRenderer' }
-      : { field, cellRenderer: 'customCellRenderer' }
+    return field === 'path' ? { field, valueGetter: removeGamesDirPrefix } : { field }
   })
   function removeGamesDirPrefix(params) {
     const originalValue = params.data.path // Assuming 'path' is the field in your data
@@ -82,9 +53,38 @@ export default function Grid() {
   console.table(columnDefs)
   /** @type {import('ag-grid-community').GridOptions} */
   const gridOptions = {
-    components: { customCellRenderer: CustomCellRenderer },
+    // components: { customCellRenderer: CustomCellRenderer },
     columnDefs: columnDefs,
-    defaultColDef: { flex: 1, minWidth: 150 }
+    defaultColDef: { flex: 1, minWidth: 150 },
+    rowSelection: 'multiple',
+    onRowSelected: event => {
+      setSelectedRow(event.node)
+    },
+    onCellClicked: event => {
+      handleSingleClick()
+      console.log(selectedRow)
+      console.log(event.node)
+      if (event.node === selectedRow) {
+        console.log('you single clicked in the selected row')
+        event.api.startEditingCell({
+          rowIndex: event.node.rowIndex,
+          colKey: event.column.colId
+        })
+      }
+      setLastClickedCell(event.cell)
+    },
+    onCellDoubleClicked: event => {
+      handleDoubleClick()
+      fetch('../runGame', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          gamePath: event.data.path,
+          defaultGoodMerge: event.data.defaultGoodMerge,
+          emulatorName: event.data.emulatorName
+        })
+      })
+    }
   }
   return (
     <>
