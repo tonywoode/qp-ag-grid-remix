@@ -29,16 +29,19 @@ export default function Grid() {
   const [selectedRow, setSelectedRow] = React.useState(null)
   const [lastClickedCell, setLastClickedCell] = React.useState(null)
   const [firstClick, setFirstClick] = React.useState(null)
+  const [isDoubleClick, setIsDoubleClick] = React.useState(false)
   console.log('rowData', rowData)
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     () => {
       console.log('single click')
       setFirstClick(true)
+      setIsDoubleClick(false) // Set isDoubleClick to false on single click
     },
     () => {
       console.log('double click')
       setFirstClick(false)
+      setIsDoubleClick(true) // Set isDoubleClick to true on double click
     }
   )
 
@@ -52,7 +55,7 @@ export default function Grid() {
     console.log(params.node)
     console.log(selectedRow)
     console.log(firstClick)
-    return params.node === selectedRow && firstClick
+    return params.node === selectedRow && firstClick && !isDoubleClick
   }
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => {
@@ -83,7 +86,8 @@ export default function Grid() {
       handleSingleClick()
       console.log(selectedRow)
       console.log(event.node)
-      if (firstClick !== true) {
+      console.log('is this a double click', isDoubleClick)
+      if (firstClick && !isDoubleClick) {
         console.log('you single clicked in the selected row')
         event.api.startEditingCell({
           rowIndex: event.node.rowIndex,
