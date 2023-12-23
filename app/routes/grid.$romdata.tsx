@@ -28,21 +28,38 @@ export default function Grid() {
   const rowData = data.romdata
   const [selectedRow, setSelectedRow] = React.useState(null)
   const [lastClickedCell, setLastClickedCell] = React.useState(null)
+  const [firstClick, setFirstClick] = React.useState(null)
   console.log('rowData', rowData)
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     () => {
       console.log('single click')
+      setFirstClick(true)
     },
     () => {
       console.log('double click')
+      setFirstClick(false)
     }
   )
 
+  React.useEffect(() => {
+    console.log('selectedRow', selectedRow)
+    setFirstClick(false)
+  }, [selectedRow])
+
+  const isEditable = params => {
+    console.log('heres that stuff')
+    console.log(params.node)
+    console.log(selectedRow)
+    console.log(firstClick)
+    return params.node === selectedRow && firstClick
+  }
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => {
     //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir subsitiution is active
-    return field === 'path' ? { field, valueGetter: removeGamesDirPrefix } : { field }
+    return field === 'path'
+      ? { field, valueGetter: removeGamesDirPrefix, editable: isEditable }
+      : { field, editable: isEditable }
   })
   function removeGamesDirPrefix(params) {
     const originalValue = params.data.path // Assuming 'path' is the field in your data
@@ -57,14 +74,16 @@ export default function Grid() {
     columnDefs: columnDefs,
     defaultColDef: { flex: 1, minWidth: 150 },
     rowSelection: 'multiple',
-    onRowSelected: event => {
-      setSelectedRow(event.node)
+    singleClickEdit: true,
+    enableGroupEdit: true,
+    onSelectionChanged: event => {
+      setSelectedRow(event.api.getSelectedNodes()[0])
     },
     onCellClicked: event => {
       handleSingleClick()
       console.log(selectedRow)
       console.log(event.node)
-      if (event.node === selectedRow) {
+      if (firstClick !== true) {
         console.log('you single clicked in the selected row')
         event.api.startEditingCell({
           rowIndex: event.node.rowIndex,
