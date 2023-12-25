@@ -7,7 +7,7 @@ export const delay = n => new Promise(resolve => setTimeout(resolve, n))
 const useClickPreventionOnDoubleClick = (onClick, onDoubleClick) => {
   const api = useCancellablePromises()
 
-  const handleClick = () => {
+  const handleClick = (...args) => {
     api.clearPendingPromises()
     const waitForClick = cancellablePromise(delay(300))
     api.appendPendingPromise(waitForClick)
@@ -15,7 +15,7 @@ const useClickPreventionOnDoubleClick = (onClick, onDoubleClick) => {
     return waitForClick.promise
       .then(() => {
         api.removePendingPromise(waitForClick)
-        onClick()
+        onClick(...args)
       })
       .catch(errorInfo => {
         api.removePendingPromise(waitForClick)
@@ -25,9 +25,9 @@ const useClickPreventionOnDoubleClick = (onClick, onDoubleClick) => {
       })
   }
 
-  const handleDoubleClick = () => {
+  const handleDoubleClick = (...args) => {
     api.clearPendingPromises()
-    onDoubleClick()
+    onDoubleClick(...args)
   }
 
   return [handleClick, handleDoubleClick]

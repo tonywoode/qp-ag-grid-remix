@@ -29,19 +29,41 @@ export default function Grid() {
   const [selectedRow, setSelectedRow] = React.useState(null)
   const [lastClickedCell, setLastClickedCell] = React.useState(null)
   const [firstClick, setFirstClick] = React.useState(null)
-  const [isDoubleClick, setIsDoubleClick] = React.useState(false)
+  const isDoubleClick = React.useRef(false)
   console.log('rowData', rowData)
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
-    () => {
+    event => {
+      // Pass the event to the function
       console.log('single click')
       setFirstClick(true)
-      setIsDoubleClick(false) // Set isDoubleClick to false on single click
+      isDoubleClick.current = false // Set isDoubleClick to false on single click
+      console.log(selectedRow)
+      console.log(event.node)
+      console.log('is this a double click', isDoubleClick.current)
+      console.log('you single clicked in the selected row')
+      event.api.startEditingCell({
+        rowIndex: event.node.rowIndex,
+        colKey: event.column.colId
+      })
+      setLastClickedCell(event.cell)
     },
-    () => {
+    event => {
+      // Pass the event to the function
       console.log('double click')
+      console.log('isDoubleClick.current', isDoubleClick.current)
       setFirstClick(false)
-      setIsDoubleClick(true) // Set isDoubleClick to true on double click
+      isDoubleClick.current = true // Set isDoubleClick to true on double click
+      fetch('../runGame', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          gamePath: event.data.path,
+          defaultGoodMerge: event.data.defaultGoodMerge,
+          emulatorName: event.data.emulatorName
+        })
+      })
+      isDoubleClick.current = false // Reset isDoubleClick.current to false after the double click action
     }
   )
 
@@ -50,12 +72,30 @@ export default function Grid() {
     setFirstClick(false)
   }, [selectedRow])
 
+  const { onMouseDown, onMouseUp } = useSingleAndDoubleClick(
+    () => {
+      console.log('single click')
+      setFirstClick(true)
+      isDoubleClick.current = false
+    },
+    () => {
+      console.log('double click')
+      setFirstClick(false)
+      isDoubleClick.current = true
+    }
+  )
+
   const isEditable = params => {
-    console.log('heres that stuff')
-    console.log(params.node)
-    console.log(selectedRow)
-    console.log(firstClick)
-    return params.node === selectedRow && firstClick && !isDoubleClick
+    console.log('params node id', params.node?.id)
+    console.log('selectedRow', selectedRow)
+    console.log('is it first click?', firstClick)
+    console.log('is it a double click?', isDoubleClick.current)
+    console.log('is it the same row?', params.node?.id === selectedRow?.id)
+    console.log(
+      'so is it editable?',
+      selectedRow && params.node.id === selectedRow.id && firstClick && !isDoubleClick.current
+    )
+    return selectedRow && params.node.id === selectedRow.id && firstClick && !isDoubleClick.current
   }
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => {
@@ -79,39 +119,25 @@ export default function Grid() {
     rowSelection: 'multiple',
     singleClickEdit: true,
     enableGroupEdit: true,
+    suppressClickEdit: true,
     onSelectionChanged: event => {
       setSelectedRow(event.api.getSelectedNodes()[0])
     },
     onCellClicked: event => {
-      handleSingleClick()
-      console.log(selectedRow)
-      console.log(event.node)
-      console.log('is this a double click', isDoubleClick)
-      if (firstClick && !isDoubleClick) {
-        console.log('you single clicked in the selected row')
-        event.api.startEditingCell({
-          rowIndex: event.node.rowIndex,
-          colKey: event.column.colId
-        })
-      }
-      setLastClickedCell(event.cell)
+      handleSingleClick(event) // Pass the event to the function
     },
     onCellDoubleClicked: event => {
-      handleDoubleClick()
-      fetch('../runGame', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          gamePath: event.data.path,
-          defaultGoodMerge: event.data.defaultGoodMerge,
-          emulatorName: event.data.emulatorName
-        })
-      })
+      handleDoubleClick(event) // Pass the event to the function
     }
   }
   return (
     <>
-      <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
+      <div
+        className="ag-theme-alpine"
+        style={{ height: '100%', width: '100%' }}
+        onMouseDown={onMouseDown}
+        onMouseUp={onMouseUp}
+      >
         <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
       </div>
       <Outlet />
@@ -124,4 +150,31 @@ export function links() {
     { rel: 'stylesheet', href: AgGridStyles },
     { rel: 'stylesheet', href: AgThemeAlpineStyles }
   ]
+}
+
+function useSingleAndDoubleClick(singleClickCallback, doubleClickCallback, delay = 250) {
+  const clicks = React.useRef(0)
+  const timeout = React.useRef(null)
+
+  return {
+    onMouseDown: () => {
+      clicks.current += 1
+      if (clicks.current === 1) {
+        timeout.current = setTimeout(() => {
+          singleClickCallback()
+          clicks.current = 0
+        }, delay)
+      } else if (clicks.current === 2) {
+        clearTimeout(timeout.current)
+        doubleClickCallback()
+        clicks.current = 0
+      }
+    },
+    onMouseUp: () => {
+      if (clicks.current === 2) {
+        clearTimeout(timeout.current)
+        clicks.current = 0
+      }
+    }
+  }
 }
