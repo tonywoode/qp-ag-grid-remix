@@ -40,7 +40,6 @@ export default function Grid() {
       isDoubleClick.current = false // Set isDoubleClick to false on single click
       console.log(selectedRow)
       console.log(event.node)
-      console.log('is this a double click', isDoubleClick.current)
       console.log('you single clicked in the selected row')
       event.api.startEditingCell({
         rowIndex: event.node.rowIndex,
@@ -48,42 +47,29 @@ export default function Grid() {
       })
       setLastClickedCell(event.cell)
     },
-    event => {
-      // Pass the event to the function
-      console.log('double click')
-      console.log('isDoubleClick.current', isDoubleClick.current)
-      setFirstClick(false)
-      isDoubleClick.current = true // Set isDoubleClick to true on double click
-      fetch('../runGame', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          gamePath: event.data.path,
-          defaultGoodMerge: event.data.defaultGoodMerge,
-          emulatorName: event.data.emulatorName
+      event => {
+        // Pass the event to the function
+        console.log('double click')
+        console.log('isDoubleClick.current', isDoubleClick.current) //TODO: this is always false
+        setFirstClick(false) //the nice effect of this is after running a game, clicking in the row again won't start editing
+        isDoubleClick.current = true
+        fetch('../runGame', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            gamePath: event.data.path,
+            defaultGoodMerge: event.data.defaultGoodMerge,
+            emulatorName: event.data.emulatorName
+          })
         })
-      })
-      isDoubleClick.current = false // Reset isDoubleClick.current to false after the double click action
-    }
+        isDoubleClick.current = false // Reset after the double click
+      }
   )
 
   React.useEffect(() => {
     console.log('selectedRow', selectedRow)
     setFirstClick(false)
   }, [selectedRow])
-
-  const { onMouseDown, onMouseUp } = useSingleAndDoubleClick(
-    () => {
-      console.log('single click')
-      setFirstClick(true)
-      isDoubleClick.current = false
-    },
-    () => {
-      console.log('double click')
-      setFirstClick(false)
-      isDoubleClick.current = true
-    }
-  )
 
   const isEditable = params => {
     console.log('params node id', params.node?.id)
@@ -105,8 +91,8 @@ export default function Grid() {
       : { field, editable: isEditable }
   })
   function removeGamesDirPrefix(params) {
-    const originalValue = params.data.path // Assuming 'path' is the field in your data
-    const modifiedValue = originalValue.replace('{gamesDir}\\', '') // Replace '{gamesDir}\\' with the actual prefix you want to remove
+    const originalValue = params.data.path
+    const modifiedValue = originalValue.replace('{gamesDir}\\', '')
     return modifiedValue
   }
   console.log(`Creating these columns from romdata: ${params.romdata}`)
@@ -123,21 +109,12 @@ export default function Grid() {
     onSelectionChanged: event => {
       setSelectedRow(event.api.getSelectedNodes()[0])
     },
-    onCellClicked: event => {
-      handleSingleClick(event) // Pass the event to the function
-    },
-    onCellDoubleClicked: event => {
-      handleDoubleClick(event) // Pass the event to the function
-    }
+    onCellClicked: event => handleSingleClick(event),
+    onCellDoubleClicked: event => handleDoubleClick(event)
   }
   return (
     <>
-      <div
-        className="ag-theme-alpine"
-        style={{ height: '100%', width: '100%' }}
-        onMouseDown={onMouseDown}
-        onMouseUp={onMouseUp}
-      >
+      <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
         <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
       </div>
       <Outlet />
@@ -150,31 +127,4 @@ export function links() {
     { rel: 'stylesheet', href: AgGridStyles },
     { rel: 'stylesheet', href: AgThemeAlpineStyles }
   ]
-}
-
-function useSingleAndDoubleClick(singleClickCallback, doubleClickCallback, delay = 250) {
-  const clicks = React.useRef(0)
-  const timeout = React.useRef(null)
-
-  return {
-    onMouseDown: () => {
-      clicks.current += 1
-      if (clicks.current === 1) {
-        timeout.current = setTimeout(() => {
-          singleClickCallback()
-          clicks.current = 0
-        }, delay)
-      } else if (clicks.current === 2) {
-        clearTimeout(timeout.current)
-        doubleClickCallback()
-        clicks.current = 0
-      }
-    },
-    onMouseUp: () => {
-      if (clicks.current === 2) {
-        clearTimeout(timeout.current)
-        clicks.current = 0
-      }
-    }
-  }
 }
