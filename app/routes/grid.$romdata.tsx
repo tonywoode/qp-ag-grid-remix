@@ -6,7 +6,7 @@ import type { CellClickedEvent } from 'ag-grid-community'
 import { Outlet, useLoaderData, useParams } from '@remix-run/react'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/load_romdata.server'
-import React from 'react'
+import { useState, useEffect } from 'react'
 /** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
 
 export async function loader({ params }) {
@@ -26,54 +26,47 @@ export default function Grid() {
   const data = useLoaderData()
   const params = useParams()
   const rowData = data.romdata
-  const [selectedRow, setSelectedRow] = React.useState(null)
-  const [lastClickedCell, setLastClickedCell] = React.useState(null)
-  const [firstClick, setFirstClick] = React.useState(null)
-  const isDoubleClick = React.useRef(false)
+  const [selectedRow, setSelectedRow] = useState(null)
+  // const [lastClickedCell, setLastClickedCell] = useState(null)
+  const [alreadyClicked, setAlreadyClicked] = useState(null)
   console.log('rowData', rowData)
+
+  //when the selected row changes, first click won't begin editing
+  useEffect(() => setAlreadyClicked(false), [selectedRow])
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     event => {
       // Pass the event to the function
       console.log('single click')
-      setFirstClick(true)
-      console.log(selectedRow)
-      console.log(event.node)
-      console.log('you single clicked in the selected row')
+      setAlreadyClicked(true)
       event.api.startEditingCell({
         rowIndex: event.node.rowIndex,
         colKey: event.column.colId
       })
       // setLastClickedCell(event.cell)
     },
-    event => {
-      // Pass the event to the function
-      console.log('double click')
-      setFirstClick(false) //the nice effect of this is after running a game, clicking in the row again won't start editing
-      fetch('../runGame', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          gamePath: event.data.path,
-          defaultGoodMerge: event.data.defaultGoodMerge,
-          emulatorName: event.data.emulatorName
+      event => {
+        // Pass the event to the function
+        console.log('double click')
+        setAlreadyClicked(false) //after running a game, clicking in the row again won't start editing
+        fetch('../runGame', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            gamePath: event.data.path,
+            defaultGoodMerge: event.data.defaultGoodMerge,
+            emulatorName: event.data.emulatorName
+          })
         })
-      })
-    }
+      }
   )
 
-  React.useEffect(() => {
-    console.log('selectedRow', selectedRow)
-    setFirstClick(false)
-  }, [selectedRow])
-
   const isEditable = params => {
-    console.log('params node id', params.node?.id)
+    console.log('node id', params.node?.id)
     console.log('selectedRow', selectedRow)
-    console.log('is it first click?', firstClick)
-    console.log('is it the same row?', params.node?.id === selectedRow?.id)
-    console.log('so is it editable?', selectedRow && params.node.id === selectedRow.id && firstClick)
-    return selectedRow && params.node.id === selectedRow.id && firstClick
+    const isEditable = selectedRow && params.node.id === selectedRow.id && alreadyClicked
+    console.log('is it editable?', isEditable)
+    return isEditable
   }
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => {
