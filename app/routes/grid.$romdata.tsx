@@ -37,7 +37,6 @@ export default function Grid() {
       // Pass the event to the function
       console.log('single click')
       setFirstClick(true)
-      isDoubleClick.current = false // Set isDoubleClick to false on single click
       console.log(selectedRow)
       console.log(event.node)
       console.log('you single clicked in the selected row')
@@ -45,25 +44,22 @@ export default function Grid() {
         rowIndex: event.node.rowIndex,
         colKey: event.column.colId
       })
-      setLastClickedCell(event.cell)
+      // setLastClickedCell(event.cell)
     },
-      event => {
-        // Pass the event to the function
-        console.log('double click')
-        console.log('isDoubleClick.current', isDoubleClick.current) //TODO: this is always false
-        setFirstClick(false) //the nice effect of this is after running a game, clicking in the row again won't start editing
-        isDoubleClick.current = true
-        fetch('../runGame', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            gamePath: event.data.path,
-            defaultGoodMerge: event.data.defaultGoodMerge,
-            emulatorName: event.data.emulatorName
-          })
+    event => {
+      // Pass the event to the function
+      console.log('double click')
+      setFirstClick(false) //the nice effect of this is after running a game, clicking in the row again won't start editing
+      fetch('../runGame', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          gamePath: event.data.path,
+          defaultGoodMerge: event.data.defaultGoodMerge,
+          emulatorName: event.data.emulatorName
         })
-        isDoubleClick.current = false // Reset after the double click
-      }
+      })
+    }
   )
 
   React.useEffect(() => {
@@ -75,13 +71,9 @@ export default function Grid() {
     console.log('params node id', params.node?.id)
     console.log('selectedRow', selectedRow)
     console.log('is it first click?', firstClick)
-    console.log('is it a double click?', isDoubleClick.current)
     console.log('is it the same row?', params.node?.id === selectedRow?.id)
-    console.log(
-      'so is it editable?',
-      selectedRow && params.node.id === selectedRow.id && firstClick && !isDoubleClick.current
-    )
-    return selectedRow && params.node.id === selectedRow.id && firstClick && !isDoubleClick.current
+    console.log('so is it editable?', selectedRow && params.node.id === selectedRow.id && firstClick)
+    return selectedRow && params.node.id === selectedRow.id && firstClick
   }
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => {
