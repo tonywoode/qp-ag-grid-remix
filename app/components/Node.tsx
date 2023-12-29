@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLocation, useNavigate } from '@remix-run/react'
 import { AiFillFolder } from 'react-icons/ai'
-import { MdArrowRight, MdArrowDropDown } from 'react-icons/md'
+import { FaPlusSquare, FaMinusSquare } from 'react-icons/fa'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 
 export function Node({ node, style, dragHandle }) {
@@ -28,16 +28,14 @@ export function Node({ node, style, dragHandle }) {
   return (
     <div className="node-container" style={style} ref={dragHandle}>
       <div className="node-content" style={{ display: 'flex', alignItems: 'center' }}>
-        {!node.isLeaf && (
-          <span
-            className="arrow"
-            style={{ marginRight: '2px' }}
-            onClick={handleSingleClick}
-            onDoubleClick={handlePreventedDoubleClick}
-          >
-            {node.isOpen ? <MdArrowDropDown /> : <MdArrowRight />}
-          </span>
-        )}
+        <span
+          className="arrow"
+          style={{ marginRight: '2px', width: '16px' }}
+          onClick={node.isLeaf ? undefined : toggleNode}
+        >
+          {!node.isLeaf &&
+            (node.isOpen ? <FaMinusSquare size={12} color="silver" /> : <FaPlusSquare size={12} color="silver" />)}
+        </span>
         <span
           className="file-folder-icon"
           style={{ marginRight: '6px', cursor: node.data.romdataLink ? 'pointer' : 'default' }}
