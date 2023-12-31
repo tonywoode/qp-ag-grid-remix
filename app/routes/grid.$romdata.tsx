@@ -15,45 +15,30 @@ export async function loader({ params }) {
   const romdata = romdataBlob.romdata
   return { romdata }
 }
-// function CustomCellRenderer(props) {
-//   return (
-//     <div onClick={handleSingleClick} onDoubleClick={handleDoubleClick}>
-//       {props.value}
-//     </div>
-//   )
-// }
+
 export default function Grid() {
   const data = useLoaderData()
   const params = useParams()
   const rowData = data.romdata
   const [clickedCell, setClickedCell] = useState(null)
-  const [selectedCell, setSelectedCell] = useState(null)
-  const [alreadyClicked, setAlreadyClicked] = useState(false)
   console.log('rowData', rowData)
-
-  //when the selected row changes, first click won't begin editing
-  useEffect(() => {
-    setSelectedCell(clickedCell) // Set the selected cell when the clicked cell changes
-    setAlreadyClicked(false)
-  }, [clickedCell])
-
+  const runGame = gameData => {
+    fetch('../runGame', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(gameData)
+    })
+  }
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     event => {
+      const rowIndex = event.node.rowIndex
+      const colKey = event.column.colId
       console.log('single click')
-      setAlreadyClicked(true)
-      setClickedCell({ rowIndex: event.node.rowIndex, colKey: event.column.colId }) // Set the clicked cell on single click
-      console.log('clicked cell', clickedCell)
-      console.log('selected cell', selectedCell)
-      event.api.startEditingCell({
-        rowIndex: event.node.rowIndex,
-        colKey: event.column.colId
-      })
-      // setLastClickedCell(event.cell)
+      setClickedCell({ rowIndex, colKey })
+      event.api.startEditingCell({ rowIndex, colKey })
     },
     event => {
-      // Pass the event to the function
       console.log('double click')
-      setAlreadyClicked(false) //after running a game, clicking in the row again won't start editing
       fetch('../runGame', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -66,41 +51,31 @@ export default function Grid() {
     }
   )
 
-  const isEditable = params => {
-    console.log('heres what you need')
-    console.log('current cell', params.node.rowIndex, params.column.colId)
-    console.log('second cell', selectedCell.rowIndex, selectedCell.colKey)
-    const isEditable =
-      selectedCell && params.node.rowIndex === selectedCell.rowIndex && params.column.colId === selectedCell.colKey
-    console.log('is it editable?', isEditable)
-    return isEditable
-  }
+  const isEditable = ({ node: { rowIndex }, column: { colId } }) =>
+    clickedCell && rowIndex === clickedCell.rowIndex && colId === clickedCell.colKey
+
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
-  const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => {
+  const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => ({
     //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir subsitiution is active
-    return field === 'path'
-      ? { field, valueGetter: removeGamesDirPrefix, editable: isEditable }
-      : { field, editable: isEditable }
-  })
-  function removeGamesDirPrefix(params) {
-    const originalValue = params.data.path
-    const modifiedValue = originalValue.replace('{gamesDir}\\', '')
-    return modifiedValue
+    field,
+    editable: isEditable,
+    valueGetter: field === 'path' ? removeGamesDirPrefix : undefined
+  }))
+
+  function removeGamesDirPrefix({ data: { path } }) {
+    return path.replace('{gamesDir}\\', '')
   }
+
   console.log(`Creating these columns from romdata: ${params.romdata}`)
   console.table(columnDefs)
   /** @type {import('ag-grid-community').GridOptions} */
   const gridOptions = {
-    // components: { customCellRenderer: CustomCellRenderer },
     columnDefs: columnDefs,
     defaultColDef: { flex: 1, minWidth: 150 },
     rowSelection: 'multiple',
     singleClickEdit: true,
     enableGroupEdit: true,
     suppressClickEdit: true,
-    onSelectionChanged: event => {
-      // setSelectedRow(event.api.getSelectedNodes()[0])
-    },
     onCellClicked: event => handleSingleClick(event),
     onCellDoubleClicked: event => handleDoubleClick(event)
   }
