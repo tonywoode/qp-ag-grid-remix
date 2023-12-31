@@ -26,45 +26,52 @@ export default function Grid() {
   const data = useLoaderData()
   const params = useParams()
   const rowData = data.romdata
-  const [selectedRow, setSelectedRow] = useState(null)
-  // const [lastClickedCell, setLastClickedCell] = useState(null)
-  const [alreadyClicked, setAlreadyClicked] = useState(null)
+  const [clickedCell, setClickedCell] = useState(null)
+  const [selectedCell, setSelectedCell] = useState(null)
+  const [alreadyClicked, setAlreadyClicked] = useState(false)
   console.log('rowData', rowData)
 
   //when the selected row changes, first click won't begin editing
-  useEffect(() => setAlreadyClicked(false), [selectedRow])
+  useEffect(() => {
+    setSelectedCell(clickedCell) // Set the selected cell when the clicked cell changes
+    setAlreadyClicked(false)
+  }, [clickedCell])
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     event => {
-      // Pass the event to the function
       console.log('single click')
       setAlreadyClicked(true)
+      setClickedCell({ rowIndex: event.node.rowIndex, colKey: event.column.colId }) // Set the clicked cell on single click
+      console.log('clicked cell', clickedCell)
+      console.log('selected cell', selectedCell)
       event.api.startEditingCell({
         rowIndex: event.node.rowIndex,
         colKey: event.column.colId
       })
       // setLastClickedCell(event.cell)
     },
-      event => {
-        // Pass the event to the function
-        console.log('double click')
-        setAlreadyClicked(false) //after running a game, clicking in the row again won't start editing
-        fetch('../runGame', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            gamePath: event.data.path,
-            defaultGoodMerge: event.data.defaultGoodMerge,
-            emulatorName: event.data.emulatorName
-          })
+    event => {
+      // Pass the event to the function
+      console.log('double click')
+      setAlreadyClicked(false) //after running a game, clicking in the row again won't start editing
+      fetch('../runGame', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          gamePath: event.data.path,
+          defaultGoodMerge: event.data.defaultGoodMerge,
+          emulatorName: event.data.emulatorName
         })
-      }
+      })
+    }
   )
 
   const isEditable = params => {
-    console.log('node id', params.node?.id)
-    console.log('selectedRow', selectedRow)
-    const isEditable = selectedRow && params.node.id === selectedRow.id && alreadyClicked
+    console.log('heres what you need')
+    console.log('current cell', params.node.rowIndex, params.column.colId)
+    console.log('second cell', selectedCell.rowIndex, selectedCell.colKey)
+    const isEditable =
+      selectedCell && params.node.rowIndex === selectedCell.rowIndex && params.column.colId === selectedCell.colKey
     console.log('is it editable?', isEditable)
     return isEditable
   }
@@ -92,7 +99,7 @@ export default function Grid() {
     enableGroupEdit: true,
     suppressClickEdit: true,
     onSelectionChanged: event => {
-      setSelectedRow(event.api.getSelectedNodes()[0])
+      // setSelectedRow(event.api.getSelectedNodes()[0])
     },
     onCellClicked: event => handleSingleClick(event),
     onCellDoubleClicked: event => handleDoubleClick(event)
