@@ -15,34 +15,30 @@ export async function loader({ params }) {
   return { romdata: romdataBlob.romdata }
 }
 
+const runGame = gameData => {
+  fetch('../runGame', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(gameData)
+  })
+}
+
 export default function Grid() {
-  const { romdata: rowData } = useLoaderData()
+  const { romdata } = useLoaderData()
   const params = useParams()
   const [clickedCell, setClickedCell] = useState(null)
-  console.log('rowData', rowData)
 
-  const runGame = gameData => {
-    fetch('../runGame', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(gameData)
-    })
-  }
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     event => {
-      const rowIndex = event.node.rowIndex
-      const colKey = event.column.colId
       console.log('single click')
-      setClickedCell({ rowIndex, colKey })
-      event.api.startEditingCell({ rowIndex, colKey })
+      const { node: { rowIndex }, column: { colId }, api } = event // prettier-ignore
+      setClickedCell({ rowIndex, colKey: colId })
+      api.startEditingCell({ rowIndex, colKey: colId })
     },
     event => {
       console.log('double click')
-      runGame({
-        gamePath: event.data.path,
-        defaultGoodMerge: event.data.defaultGoodMerge,
-        emulatorName: event.data.emulatorName
-      })
+      const { data: { path, defaultGoodMerge, emulatorName } } = event //prettier-ignore
+      runGame({ gamePath: path, defaultGoodMerge, emulatorName })
     }
   )
 
@@ -50,13 +46,13 @@ export default function Grid() {
     clickedCell && rowIndex === clickedCell.rowIndex && colId === clickedCell.colKey
 
   // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
-  const columnDefs = [...new Set(rowData.flatMap(Object.keys))].map(field => ({
-    //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir subsitiution is active
+  const columnDefs = [...new Set(romdata.flatMap(Object.keys))].map(field => ({
     field,
     editable: isEditable,
     valueGetter: field === 'path' ? removeGamesDirPrefix : undefined
   }))
 
+  //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir subsitiution is active
   function removeGamesDirPrefix({ data: { path } }) {
     return path.replace('{gamesDir}\\', '')
   }
@@ -77,7 +73,7 @@ export default function Grid() {
   return (
     <>
       <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
-        <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions} />
+        <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
       </div>
       <Outlet />
     </>

@@ -21,7 +21,7 @@ import { useState, useEffect } from 'react'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
 import { loadScreenshots } from './screenshots.server'
 
-export const meta: MetaFunction = () => [{ title: 'New Remix App' }]
+export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
