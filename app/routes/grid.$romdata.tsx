@@ -1,13 +1,12 @@
 import { AgGridReact } from 'ag-grid-react'
 import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
-import type { CellClickedEvent } from 'ag-grid-community'
+import type { CellClickedEvent, GridOptions, ColDef, ColGroupDef } from 'ag-grid-community'
 //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { Outlet, useLoaderData, useParams } from '@remix-run/react'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/load_romdata.server'
-import { useState, useEffect } from 'react'
-/** @type {(import('ag-grid-community').ColDef | import('ag-grid-community').ColGroupDef )[]} */
+import { useState } from 'react'
 
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
@@ -29,15 +28,15 @@ export default function Grid() {
   const [clickedCell, setClickedCell] = useState(null)
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
-    event => {
+    e => {
       console.log('single click')
-      const { node: { rowIndex }, column: { colId }, api } = event // prettier-ignore
+      const { node: { rowIndex }, column: { colId }, api }: CellClickedEvent = e // prettier-ignore
       setClickedCell({ rowIndex, colKey: colId })
       api.startEditingCell({ rowIndex, colKey: colId })
     },
-    event => {
+    e => {
       console.log('double click')
-      const { data: { path, defaultGoodMerge, emulatorName } } = event //prettier-ignore
+      const { data: { path, defaultGoodMerge, emulatorName } }: CellClickedEvent = e //prettier-ignore
       runGame({ gamePath: path, defaultGoodMerge, emulatorName })
     }
   )
@@ -45,22 +44,22 @@ export default function Grid() {
   const isEditable = ({ node: { rowIndex }, column: { colId } }) =>
     clickedCell && rowIndex === clickedCell.rowIndex && colId === clickedCell.colKey
 
-  // for column definitions, get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
-  const columnDefs = [...new Set(romdata.flatMap(Object.keys))].map(field => ({
+  // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
+  const columnDefs: (ColDef | ColGroupDef)[] = [...new Set(romdata.flatMap(Object.keys))].map(field => ({
     field,
     editable: isEditable,
     valueGetter: field === 'path' ? removeGamesDirPrefix : undefined
   }))
 
-  //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir subsitiution is active
+  //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir substitution is active
   function removeGamesDirPrefix({ data: { path } }) {
     return path.replace('{gamesDir}\\', '')
   }
 
   console.log(`Creating these columns from romdata: ${params.romdata}`)
   console.table(columnDefs)
-  /** @type {import('ag-grid-community').GridOptions} */
-  const gridOptions = {
+
+  const gridOptions: GridOptions = {
     columnDefs,
     defaultColDef: { flex: 1, minWidth: 150 },
     rowSelection: 'multiple',
