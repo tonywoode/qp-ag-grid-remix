@@ -12,16 +12,15 @@ import { useState, useEffect } from 'react'
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
-  const romdata = romdataBlob.romdata
-  return { romdata }
+  return { romdata: romdataBlob.romdata }
 }
 
 export default function Grid() {
-  const data = useLoaderData()
+  const { romdata: rowData } = useLoaderData()
   const params = useParams()
-  const rowData = data.romdata
   const [clickedCell, setClickedCell] = useState(null)
   console.log('rowData', rowData)
+
   const runGame = gameData => {
     fetch('../runGame', {
       method: 'POST',
@@ -39,14 +38,10 @@ export default function Grid() {
     },
     event => {
       console.log('double click')
-      fetch('../runGame', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          gamePath: event.data.path,
-          defaultGoodMerge: event.data.defaultGoodMerge,
-          emulatorName: event.data.emulatorName
-        })
+      runGame({
+        gamePath: event.data.path,
+        defaultGoodMerge: event.data.defaultGoodMerge,
+        emulatorName: event.data.emulatorName
       })
     }
   )
@@ -70,19 +65,19 @@ export default function Grid() {
   console.table(columnDefs)
   /** @type {import('ag-grid-community').GridOptions} */
   const gridOptions = {
-    columnDefs: columnDefs,
+    columnDefs,
     defaultColDef: { flex: 1, minWidth: 150 },
     rowSelection: 'multiple',
     singleClickEdit: true,
     enableGroupEdit: true,
     suppressClickEdit: true,
-    onCellClicked: event => handleSingleClick(event),
-    onCellDoubleClicked: event => handleDoubleClick(event)
+    onCellClicked: handleSingleClick,
+    onCellDoubleClicked: handleDoubleClick
   }
   return (
     <>
       <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
-        <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions}></AgGridReact>
+        <AgGridReact rowData={rowData} columnDefs={columnDefs} gridOptions={gridOptions} />
       </div>
       <Outlet />
     </>
