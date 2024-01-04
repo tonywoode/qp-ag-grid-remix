@@ -91,21 +91,23 @@ export function TreeView({ folderData }) {
   )
 }
 
-const mediaPanel = screenshots => (
-  <Tabs>
-    <TabList>
-      <Tab>Title 1</Tab>
-      <Tab>Screenshots</Tab>
-    </TabList>
+export function MediaPanel({ screenshots }) {
+  return (
+    <Tabs>
+      <TabList>
+        <Tab>Screenshots</Tab>
+        <Tab>Game Info</Tab>
+      </TabList>
 
-    <TabPanel>
-      <h2>Any content 1</h2>
-    </TabPanel>
-    <TabPanel>
-      <ScreenshotsTab screenshots={screenshots} />
-    </TabPanel>
-  </Tabs>
-)
+      <TabPanel>
+        <ScreenshotsTab screenshots={screenshots} />
+      </TabPanel>
+      <TabPanel>
+        <h2>Good Game, son</h2>
+      </TabPanel>
+    </Tabs>
+  )
+}
 
 export default function App() {
   const data = useLoaderData<typeof loader>()
@@ -143,7 +145,7 @@ export default function App() {
                 <div>
                   <Outlet />
                 </div>
-                {mediaPanel(screenshots)}
+                <MediaPanel screenshots={screenshots} />
               </Split>
               <h1 className="absolute m-2 text-xs font-mono underline">
                 Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
