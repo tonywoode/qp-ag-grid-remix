@@ -77,46 +77,19 @@ export function TreeView({ folderData }) {
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
 
   useEffect(() => {
-    const observer = new ResizeObserver(entries => {
-      for (let entry of entries) {
-        setDimensions({
-          width: entry.contentRect.width,
-          height: entry.contentRect.height
-        })
-      }
-    })
-
-    if (containerRef.current) {
-      observer.observe(containerRef.current)
-    }
-
-    return () => {
-      observer.disconnect()
-    }
+    const observer = new ResizeObserver(([entry]) => setDimensions(entry.contentRect))
+    containerRef.current && observer.observe(containerRef.current)
+    return () => observer.disconnect()
   }, [])
 
   return (
     <div ref={containerRef} style={{ width: '100%', height: '100%' }}>
-      <Tree
-        data={folderData}
-        openByDefault={false}
-        width={dimensions.width}
-        height={dimensions.height}
-        indent={24}
-        rowHeight={42}
-        padding={0}
-      >
+      <Tree data={folderData} openByDefault={false} width={dimensions.width} height={dimensions.height} rowHeight={42}>
         {Node}
       </Tree>
     </div>
   )
 }
-
-// const treeView = folderData => (
-//   <Tree data={folderData} openByDefault={false} width={1900} height={1200} indent={24} rowHeight={42} padding={0}>
-//     {Node}
-//   </Tree>
-// )
 
 const mediaPanel = screenshots => (
   <Tabs>
@@ -141,7 +114,7 @@ export default function App() {
   const matches = useMatches()
   let match = matches.find(match => 'romdata' in match.data)
   const [isSplitLoaded, setIsSplitLoaded] = useState(false)
-  // sets isSplitLoaded after the initial render
+  // sets isSplitLoaded after the initial render, to avoid flash of tabs while grid's rendering
   //TODO:  this is causing lots of delay, using react-split-grid might be better https://github.com/nathancahill/split
   useEffect(() => {
     setIsSplitLoaded(true)
@@ -165,7 +138,7 @@ export default function App() {
           </div>
           {isSplitLoaded && (
             <>
-              <Split sizes={[20, 70, 10]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+              <Split sizes={[18, 67, 15]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
                 <TreeView folderData={folderData} />
                 <div>
                   <Outlet />
