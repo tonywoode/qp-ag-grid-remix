@@ -150,6 +150,7 @@ export default function App() {
               </Split>
               <h1 className="absolute m-2 text-xs font-mono underline">
                 Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
+                {process.env.NODE_ENV === 'development' && ` : Current URL: ${window.location.href}`}
               </h1>
             </>
           )}
