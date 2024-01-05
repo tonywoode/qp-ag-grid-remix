@@ -17,7 +17,7 @@ import Split from 'react-split'
 import { Node } from '~/components/Node'
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useLayoutEffect } from 'react'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
 import { loadScreenshots } from './screenshots.server'
 
@@ -117,8 +117,9 @@ export default function App() {
   let match = matches.find(match => 'romdata' in match.data)
   const [isSplitLoaded, setIsSplitLoaded] = useState(false)
   // sets isSplitLoaded after the initial render, to avoid flash of tabs while grid's rendering
-  //TODO:  this is causing lots of delay, using react-split-grid might be better https://github.com/nathancahill/split
-  useEffect(() => {
+  //TODO:  this is causing delay, using react-split-grid might be better https://github.com/nathancahill/split
+  // but see this after trying, which will cause console error https://github.com/nathancahill/split/issues/573
+  useLayoutEffect(() => {
     setIsSplitLoaded(true)
   }, [])
 
