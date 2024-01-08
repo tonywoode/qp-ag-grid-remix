@@ -3,11 +3,11 @@ import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import type { CellClickedEvent, GridOptions, ColDef, ColGroupDef } from 'ag-grid-community'
 //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
-import { Outlet, useLoaderData, useParams } from '@remix-run/react'
+import { Outlet, useLoaderData, useParams, useNavigate } from '@remix-run/react'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/load_romdata.server'
 import { useState } from 'react'
-
+import Split from 'react-split'
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
@@ -25,11 +25,19 @@ const runGame = gameData => {
 export default function Grid() {
   const { romdata } = useLoaderData()
   const params = useParams()
+  const navigate = useNavigate()
   const [clickedCell, setClickedCell] = useState(null)
-
+  const [hasClicked, setHasClicked] = useState(false)
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     e => {
       console.log('single click')
+      if (!hasClicked) {
+        console.log(e.data)
+        const romname = e.data.name
+        setHasClicked(true)
+        console.log('hasClicked', hasClicked)
+        navigate(`${location.pathname}/${encodeURI(romname)}`)
+      }
       const { node: { rowIndex }, column: { colId }, api }: CellClickedEvent = e // prettier-ignore
       setClickedCell({ rowIndex, colKey: colId })
       api.startEditingCell({ rowIndex, colKey: colId })
@@ -70,12 +78,16 @@ export default function Grid() {
     onCellDoubleClicked: handleDoubleClick
   }
   return (
-    <>
-      <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
-        <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
-      </div>
-      <Outlet />
-    </>
+    <Split sizes={[50, 50]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+      {[
+        <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
+          <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
+        </div>,
+        <div>
+          <Outlet />
+        </div>
+      ]}
+    </Split>
   )
 }
 
