@@ -14,8 +14,8 @@ export async function loader({ params }) {
   return { romdata: romdataBlob.romdata }
 }
 
-const runGame = gameData => {
-  fetch('../runGame', {
+export const runGame = gameData => {
+  fetch('/runGame', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(gameData)
@@ -32,7 +32,7 @@ export default function Grid() {
       console.log('single click')
       console.log(e.data)
       const romname = e.data.name
-      navigate(`${encodeURI(romname)}`, { relative: 'route' })
+      navigate(`${encodeURI(romname)}`)
       const { node: { rowIndex }, column: { colId }, api }: CellClickedEvent = e // prettier-ignore
       setClickedCell({ rowIndex, colKey: colId })
       api.startEditingCell({ rowIndex, colKey: colId })
