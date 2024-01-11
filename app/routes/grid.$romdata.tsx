@@ -27,12 +27,16 @@ export default function Grid() {
   const params = useParams()
   const navigate = useNavigate()
   const [clickedCell, setClickedCell] = useState(null)
+  const [clickedYet, setClickedYet] = useState(false)
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     e => {
       console.log('single click')
       console.log(e.data)
       const romname = e.data.name
-      navigate(`${encodeURI(romname)}`)
+      if (clickedYet) {
+        navigate(`${encodeURI(romname)}`)
+        setClickedYet(true)
+      }
       const { node: { rowIndex }, column: { colId }, api }: CellClickedEvent = e // prettier-ignore
       setClickedCell({ rowIndex, colKey: colId })
       api.startEditingCell({ rowIndex, colKey: colId })
