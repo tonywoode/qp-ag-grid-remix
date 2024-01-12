@@ -23,6 +23,7 @@ export const runGame = gameData => {
 }
 
 export default function Grid() {
+  const [screenshotUrl, setScreenshotUrl] = useState(null)
   const { romdata } = useLoaderData()
   const params = useParams()
   const navigate = useNavigate()
@@ -33,10 +34,11 @@ export default function Grid() {
       console.log('single click')
       console.log(e.data)
       const romname = e.data.name
-      if (clickedYet) {
-        navigate(`${encodeURI(romname)}`)
-        setClickedYet(true)
-      }
+      setScreenshotUrl(romname)
+      // if (!clickedYet) {
+      //   navigate(`${encodeURI(romname)}`)
+      //   setClickedYet(true)
+      // }
       const { node: { rowIndex }, column: { colId }, api }: CellClickedEvent = e // prettier-ignore
       setClickedCell({ rowIndex, colKey: colId })
       api.startEditingCell({ rowIndex, colKey: colId })
@@ -83,7 +85,7 @@ export default function Grid() {
           <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
         </div>,
         <div>
-          <Outlet />
+          <div>{screenshotUrl}</div>
         </div>
       ]}
     </Split>
