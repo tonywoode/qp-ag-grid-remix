@@ -141,12 +141,12 @@ export default function App() {
           </div>
           {isSplitLoaded && (
             <>
-              <Split sizes={[18, 67, 15]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+              <Split sizes={[30, 70]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
                 <TreeView folderData={folderData} />
                 <div>
                   <Outlet />
                 </div>
-                <MediaPanel screenshots={screenshots} />
+                {/* <MediaPanel screenshots={screenshots} /> */}
               </Split>
               <h1 className="absolute m-2 text-xs font-mono underline">
                 Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}

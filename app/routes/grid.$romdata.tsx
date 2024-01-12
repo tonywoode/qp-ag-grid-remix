@@ -8,10 +8,14 @@ import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-preve
 import { loadRomdata } from '~/load_romdata.server'
 import { useState } from 'react'
 import Split from 'react-split'
+import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
+import { ScreenshotsTab } from '~/components/ScreenshotsTab'
+import { loadScreenshots } from '~/screenshots.server'
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
+  const { screenshots } = await loadScreenshots()
   const romdataBlob = await loadRomdata(romdataLink)
-  return { romdata: romdataBlob.romdata }
+  return { romdata: romdataBlob.romdata, screenshots }
 }
 
 export const runGame = gameData => {
@@ -22,9 +26,27 @@ export const runGame = gameData => {
   })
 }
 
+export function MediaPanel({ screenshots }) {
+  screenshots = screenshots ? screenshots : []
+  return (
+    <Tabs>
+      <TabList>
+        <Tab>Screenshots</Tab>
+        <Tab>Game Info</Tab>
+      </TabList>
+
+      <TabPanel>
+        <ScreenshotsTab screenshots={screenshots} />
+      </TabPanel>
+      <TabPanel>
+        <h2>Good Game, son</h2>
+      </TabPanel>
+    </Tabs>
+  )
+}
 export default function Grid() {
-  const [screenshotUrl, setScreenshotUrl] = useState(null)
-  const { romdata } = useLoaderData()
+  const [screenshotUrl, setScreenshotUrl] = useState('somewhere')
+  const { romdata, screenshots } = useLoaderData()
   const params = useParams()
   const navigate = useNavigate()
   const [clickedCell, setClickedCell] = useState(null)
@@ -67,7 +89,6 @@ export default function Grid() {
 
   console.log(`Creating these columns from romdata: ${params.romdata}`)
   console.table(columnDefs)
-
   const gridOptions: GridOptions = {
     columnDefs,
     defaultColDef: { flex: 1, minWidth: 150 },
@@ -79,13 +100,14 @@ export default function Grid() {
     onCellDoubleClicked: handleDoubleClick
   }
   return (
-    <Split sizes={[50, 50]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+    <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
       {[
         <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
           <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
         </div>,
         <div>
-          <div>{screenshotUrl}</div>
+          <MediaPanel screenshots={[screenshots]}>{screenshotUrl}</MediaPanel>
+          {/* <div>{screenshotUrl}</div> */}
         </div>
       ]}
     </Split>
