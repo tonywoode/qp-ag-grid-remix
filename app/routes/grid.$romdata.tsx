@@ -13,9 +13,9 @@ import { ScreenshotsTab } from '~/components/ScreenshotsTab'
 import { loadScreenshots } from '~/screenshots.server'
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
-  const { screenshots } = await loadScreenshots()
+  // let { screenshots } = await loadScreenshots()
   const romdataBlob = await loadRomdata(romdataLink)
-  return { romdata: romdataBlob.romdata, screenshots }
+  return { romdata: romdataBlob.romdata }
 }
 
 export const runGame = gameData => {
@@ -26,6 +26,13 @@ export const runGame = gameData => {
   })
 }
 
+export const getScreenshots = screenshots => {
+  return fetch('/getScreenshots', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(screenshots)
+  })
+}
 export function MediaPanel({ screenshots }) {
   screenshots = screenshots ? screenshots : []
   return (
@@ -45,17 +52,23 @@ export function MediaPanel({ screenshots }) {
   )
 }
 export default function Grid() {
+  const [base64Image, setBase64Image] = useState(null)
   const [screenshotUrl, setScreenshotUrl] = useState('somewhere')
-  const { romdata, screenshots } = useLoaderData()
+  let { romdata } = useLoaderData()
   const params = useParams()
   const navigate = useNavigate()
   const [clickedCell, setClickedCell] = useState(null)
   const [clickedYet, setClickedYet] = useState(false)
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
-    e => {
+    async e => {
       console.log('single click')
       console.log(e.data)
       const romname = e.data.name
+      const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
+      console.log('romname is' + romname)
+      const response = await getScreenshots(romnameNoParens)
+      const data = await response.json() // Parse the response body as JSON
+      setBase64Image(data.screenshots) // Update the base64 image when a row is clicked
       setScreenshotUrl(romname)
       // if (!clickedYet) {
       //   navigate(`${encodeURI(romname)}`)
@@ -106,7 +119,7 @@ export default function Grid() {
           <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
         </div>,
         <div>
-          <MediaPanel screenshots={[screenshots]}>{screenshotUrl}</MediaPanel>
+          <MediaPanel screenshots={[base64Image]}>{screenshotUrl}</MediaPanel>
           {/* <div>{screenshotUrl}</div> */}
         </div>
       ]}

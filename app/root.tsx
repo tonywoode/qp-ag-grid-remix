@@ -91,24 +91,6 @@ export function TreeView({ folderData }) {
   )
 }
 
-export function MediaPanel({ screenshots }) {
-  return (
-    <Tabs>
-      <TabList>
-        <Tab>Screenshots</Tab>
-        <Tab>Game Info</Tab>
-      </TabList>
-
-      <TabPanel>
-        <ScreenshotsTab screenshots={screenshots} />
-      </TabPanel>
-      <TabPanel>
-        <h2>Good Game, son</h2>
-      </TabPanel>
-    </Tabs>
-  )
-}
-
 export default function App() {
   const data = useLoaderData<typeof loader>()
   const folderData = data.folderData
@@ -141,7 +123,7 @@ export default function App() {
           </div>
           {isSplitLoaded && (
             <>
-              <Split sizes={[30, 70]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+              <Split sizes={[18, 82]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
                 <TreeView folderData={folderData} />
                 <div>
                   <Outlet />
