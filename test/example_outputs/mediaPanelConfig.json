@@ -1,11 +1,9 @@
 {
   "MediaSettings": {
-    "undefined": {
-      "AddEmuTab": "",
-      "AutoMove": "",
-      "TimePerTab": "",
-      "DefaultFolderImg": ""
-    }
+    "AddEmuTab": "1",
+    "AutoMove": "0",
+    "TimePerTab": "3",
+    "DefaultFolderImg": "1"
   },
   "3DO": {
     "CFG": {

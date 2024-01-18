@@ -38,20 +38,30 @@ const data = fs.readFileSync('./test/example_inputs/mediaPanelCfg.ini', 'utf-8')
 // Replace periods within square brackets with a different character and parse the INI file
 let parsedData = ini.parse(data.replace(/(\[[^\]]+\])/g, match => match.replace(/\./g, '___')))
 // Replace the character back in the keys
-parsedData = Object.fromEntries(Object.entries(parsedData).map(([key, value]) => [key.replace(/___/g, '.'), value]))
+
+parsedData = Object.fromEntries(
+  Object.entries(parsedData).map(([key, value]) => {
+    if (key === 'MediaSettings') {
+      return [key, value]
+    }
+    return [key.replace(/___/g, '.'), value]
+  })
+)
 
 // Decode the hex strings
 for (const key in parsedData) {
-  for (const subKey in parsedData[key]) {
-    if (subKey === 'ShowAddInfo') {
-      parsedData[key][subKey] = parseInt(parsedData[key][subKey])
-    } else if (typeof parsedData[key][subKey] === 'string' && /^[0-9a-fA-F]+$/.test(parsedData[key][subKey])) {
-      if (key.endsWith('-TABS')) {
-        parsedData[key][subKey] = decodeTabs(parsedData[key][subKey])
-      } else if (subKey === 'AddInfo') {
-        parsedData[key][subKey] = Buffer.from(parsedData[key][subKey], 'hex').toString('ascii')
-      } else {
-        parsedData[key][subKey] = decodeHex(parsedData[key][subKey])
+  if (key !== 'MediaSettings') {
+    for (const subKey in parsedData[key]) {
+      if (subKey === 'ShowAddInfo') {
+        parsedData[key][subKey] = parseInt(parsedData[key][subKey])
+      } else if (typeof parsedData[key][subKey] === 'string' && /^[0-9a-fA-F]+$/.test(parsedData[key][subKey])) {
+        if (key.endsWith('-TABS')) {
+          parsedData[key][subKey] = decodeTabs(parsedData[key][subKey])
+        } else if (subKey === 'AddInfo') {
+          parsedData[key][subKey] = Buffer.from(parsedData[key][subKey], 'hex').toString('ascii')
+        } else {
+          parsedData[key][subKey] = decodeHex(parsedData[key][subKey])
+        }
       }
     }
   }
@@ -60,12 +70,17 @@ for (const key in parsedData) {
 // Combine the -CFG and -TABS entries for each system
 const combinedData: any = {}
 for (const key in parsedData) {
-  const systemName = key.split('-')[0]
-  const entryType = key.split('-')[1]
-  if (!combinedData[systemName]) {
-    combinedData[systemName] = {}
+  if (key === 'MediaSettings') {
+    //TODO: this will doutbless cauuse problem later with mapping etc, this data shouldn't be in the config at this level
+    combinedData[key] = parsedData[key]
+  } else {
+    const systemName = key.split('-')[0]
+    const entryType = key.split('-')[1]
+    if (!combinedData[systemName]) {
+      combinedData[systemName] = {}
+    }
+    combinedData[systemName][entryType] = parsedData[key]
   }
-  combinedData[systemName][entryType] = parsedData[key]
 }
 
 // Write the output to a JSON file
