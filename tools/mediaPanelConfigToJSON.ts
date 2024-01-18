@@ -65,7 +65,7 @@ for (const key in parsedData) {
   if (key !== 'MediaSettings') {
     for (const subKey in parsedData[key]) {
       if (subKey === 'ShowAddInfo') {
-        parsedData[key][subKey] = parseInt(parsedData[key][subKey])
+        parsedData[key][subKey] = Boolean(parseInt(parsedData[key][subKey]))
       } else if (typeof parsedData[key][subKey] === 'string' && /^[0-9a-fA-F]+$/.test(parsedData[key][subKey])) {
         if (key.endsWith('-TABS')) {
           parsedData[key][subKey] = decodeTabs(parsedData[key][subKey])
