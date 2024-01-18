@@ -13,12 +13,20 @@ function decodeTabs(tabs: string): any {
   const version = Buffer.from(tabs.slice(0, 8), 'hex').readUInt32LE(0)
   const captionLength = Buffer.from(tabs.slice(8, 16), 'hex').readUInt32LE(0)
   const caption = Buffer.from(tabs.slice(16, 16 + captionLength * 2), 'hex').toString('ascii')
-  const enabled = Boolean(parseInt(tabs.slice(16 + captionLength * 2, 16 + captionLength * 2 + 2), 16))
+  //const enabled = Boolean(parseInt(tabs.slice(16 + captionLength * 2, 16 + captionLength * 2 + 2), 16))
+  const enabled = Boolean(
+    Buffer.from(tabs.slice(16 + captionLength * 2, 16 + captionLength * 2 + 2), 'hex').readUInt8(0)
+  )
+  //const mameUseParentForSrch = Boolean(parseInt(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 16))
+  const mameUseParentForSrch = Boolean(
+    Buffer.from(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 'hex').readUInt8(0)
+  )
 
-  const mameUseParentForSrch = Boolean(parseInt(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 16))
   const searchType = decodeHex(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 8))
-  const searchInRomPath = Boolean(parseInt(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 16))
-
+  //const searchInRomPath = Boolean(parseInt(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 16))
+  const searchInRomPath = Boolean(
+    Buffer.from(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 'hex').readUInt8(0)
+  )
   const pathLength = Buffer.from(
     tabs.slice(16 + captionLength * 2 + 10, 16 + captionLength * 2 + 18),
     'hex'
