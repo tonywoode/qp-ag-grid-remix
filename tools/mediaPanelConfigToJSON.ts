@@ -22,7 +22,8 @@ function decodeTabs(tabs: string): any {
     Buffer.from(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 'hex').readUInt8(0)
   )
 
-  const searchType = decodeHex(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 8))
+  //const searchType = decodeHex(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 8))
+  const searchType = Buffer.from(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 6), 'hex').readUInt8(0)
   //const searchInRomPath = Boolean(parseInt(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 16))
   const searchInRomPath = Boolean(
     Buffer.from(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 'hex').readUInt8(0)
