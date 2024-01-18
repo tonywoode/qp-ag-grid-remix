@@ -13,28 +13,12 @@ function decodeTabs(tabs: string): any {
   const version = Buffer.from(tabs.slice(0, 8), 'hex').readUInt32LE(0)
   const captionLength = Buffer.from(tabs.slice(8, 16), 'hex').readUInt32LE(0)
   const caption = Buffer.from(tabs.slice(16, 16 + captionLength * 2), 'hex').toString('ascii')
-  //const enabled = Boolean(parseInt(tabs.slice(16 + captionLength * 2, 16 + captionLength * 2 + 2), 16))
-  const enabled = Boolean(
-    Buffer.from(tabs.slice(16 + captionLength * 2, 16 + captionLength * 2 + 2), 'hex').readUInt8(0)
-  )
-  //const mameUseParentForSrch = Boolean(parseInt(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 16))
-  const mameUseParentForSrch = Boolean(
-    Buffer.from(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 'hex').readUInt8(0)
-  )
-
-  //const searchType = decodeHex(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 8))
-  const searchType = Buffer.from(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 6), 'hex').readUInt8(0)
-  //const searchInRomPath = Boolean(parseInt(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 16))
-  const searchInRomPath = Boolean(
-    Buffer.from(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 'hex').readUInt8(0)
-  )
-  const pathLength = Buffer.from(
-    tabs.slice(16 + captionLength * 2 + 10, 16 + captionLength * 2 + 18),
-    'hex'
-  ).readUInt32LE(0)
-  const path = Buffer.from(tabs.slice(16 + captionLength * 2 + 18, 16 + captionLength * 2 + 18 + pathLength * 2), 'hex')
-    .toString('ascii')
-    .split('\r\n')
+  const enabled = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2, 16 + captionLength * 2 + 2), 'hex').readUInt8(0)) // prettier-ignore
+  const mameUseParentForSrch = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 'hex').readUInt8(0)) // prettier-ignore
+  const searchType = Buffer.from(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 6), 'hex').readUInt8(0) // prettier-ignore
+  const searchInRomPath = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 'hex').readUInt8(0)) // prettier-ignore
+  const pathLength = Buffer.from(tabs.slice(16 + captionLength * 2 + 10, 16 + captionLength * 2 + 18), 'hex').readUInt32LE(0) // prettier-ignore
+  const path = Buffer.from(tabs.slice(16 + captionLength * 2 + 18, 16 + captionLength * 2 + 18 + pathLength * 2), 'hex').toString('ascii').split('\r\n') // prettier-ignore
 
   return {
     version,
@@ -50,8 +34,11 @@ function decodeTabs(tabs: string): any {
 // Read the INI file
 const data = fs.readFileSync('./test/example_inputs/mediaPanelCfg.ini', 'utf-8')
 
-// Parse the INI file
-let parsedData = ini.parse(data)
+// system names with periods will be corrupted by ini library, it'll try to use them as property access, this will affect following json too! Convert and then convert back after
+// Replace periods within square brackets with a different character and parse the INI file
+let parsedData = ini.parse(data.replace(/(\[[^\]]+\])/g, match => match.replace(/\./g, '___')))
+// Replace the character back in the keys
+parsedData = Object.fromEntries(Object.entries(parsedData).map(([key, value]) => [key.replace(/___/g, '.'), value]))
 
 // Decode the hex strings
 for (const key in parsedData) {
