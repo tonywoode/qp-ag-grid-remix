@@ -127,6 +127,11 @@ for (const systemName in combinedData) {
 
     // Replace the TABS property in the combinedData object with the newTabsData object
     combinedData[systemName].TABS = newTabsData
+
+    // If the newTabsData object is empty, delete the entire system from the combinedData object
+    if (Object.keys(newTabsData).length === 0) {
+      delete combinedData[systemName]
+    }
   }
 }
 

@@ -55,13 +55,6 @@
       }
     }
   },
-  "ACT Apricot PC": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\apricot.png"
-    },
-    "TABS": {}
-  },
   "APF Imagination Machine": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -1176,13 +1169,6 @@
         ]
       }
     }
-  },
-  "Apple I": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\apple1.png"
-    },
-    "TABS": {}
   },
   "Apple II": {
     "CFG": {
@@ -4303,13 +4289,6 @@
       "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\fm7.png"
     }
   },
-  "Fujitsu FM Towns": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\fmtowns.png"
-    },
-    "TABS": {}
-  },
   "Fujitsu Micro 7": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -4411,13 +4390,6 @@
         ]
       }
     }
-  },
-  "Galaksija": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\galaxy.png"
-    },
-    "TABS": {}
   },
   "Game Park Holdings GP32 GP2X": {
     "CFG": {
@@ -5092,14 +5064,6 @@
         ]
       }
     }
-  },
-  "Memotech MTX": {
-    "CFG": {
-      "ShowAddInfo": 1,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\mtx500.png",
-      "AddInfo": "i JUST DID 'RUN' AFTER A SNAPSHOT LOAD AND GOT A GAME AT SPLASH SCREEN\r\n---\r\nCurrently, MESS supports all the MTX variants \r\n* mtx512 [Memotech MTX 512]\r\n* mtx500 [Memotech MTX 500]\r\n* rs128 [Memotech RS 128]\r\n\r\nCassettes \r\nTo load and run a tape image, just type LOAD \"<image_name>\" at\r\n the Ready Prompt. To save a (BASIC) program, just type \r\nSAVE \"<image_name>\" at the Ready Prompt. The MTX cassette\r\n image is a flat binary with the first 18 bytes being the original MTX\r\n tape header and the rest being the file data. The image name can\r\n be found at offset 1 to 15 (starting at 0). MTX BASIC is pretty much \r\na standard dialect, so you should have no problems using it, but its \r\ngraphics and sound handling might be a bit esoteric. \r\n\r\nKeyboard \r\nThese systems require full keyboard emulation to work correctly. \r\nAt startup, full keyboard emulation mode is enabled by default.\r\n Whilst in full keyboard emulation mode, some key associated\r\n functionality may be disabled (like the ESC key for EXIT). The \r\nkeyboard emulation mode is toggled using the \"Scroll Lock\" key \r\n(by default). \r\n\r\nRAM options \r\nDifferent RAM configurations are possible for these systems in MESS.\r\nYou can switch between them, changing the -ramsize parameter. \r\nAt command line, you simply have to add ''-ramsize ram_value'', \r\nwhere //ram_value// can assume one of the following values \r\n[mtx500]\r\n32k (default) 64k 96k 128k \r\n[mtx512]\r\n64k (default) 96k 128k \r\n[mtx500]\r\n128k (default) Additionally, all the drivers supports the following //ram_value// options 160k 192k 224k 256k 288k 320k 352k 384k 416k 448k 480k 512k \r\n\r\nKnown Issues \r\nLimited Z80 CTC support (input channel connections are not emulated).\r\nNo cassette device support; old hack-ish implementation has been\r\n temporarily removed (it was not working since a long time anyway).\r\nNo support for: joysticks, additional ROMs, communications board \r\n(e.g. RS-232 connections), FDX/HDX system, Node/Ring system.\r\n"
-    },
-    "TABS": {}
   },
   "NEC PC Engine FX": {
     "CFG": {
@@ -5922,13 +5886,6 @@
       "SysImage": "P:\\SCREENSHOTS\\SYSTEM SHOTS\\Nintendo WII.jpg"
     }
   },
-  "Non Linear Systems Kaypro": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\kaypro2x.png"
-    },
-    "TABS": {}
-  },
   "Orion 128": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -6088,13 +6045,6 @@
         "searchInRomPath": false
       }
     }
-  },
-  "Research Machines Nimbus": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\nimbus.png"
-    },
-    "TABS": {}
   },
   "Retroarch Games": {
     "CFG": {
@@ -7354,13 +7304,6 @@
       }
     }
   },
-  "Sinclair ZX-80": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\zx80.png"
-    },
-    "TABS": {}
-  },
   "Sinclair ZX-81": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -7660,13 +7603,6 @@
       }
     }
   },
-  "Tangerine Microtan 65": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\microtan.png"
-    },
-    "TABS": {}
-  },
   "Tangerine Oric 1": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -7748,14 +7684,6 @@
       }
     }
   },
-  "Thomson MO5": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "",
-      "AddInfo": "\r\n"
-    },
-    "TABS": {}
-  },
   "Thomson MO6": {
     "CFG": {
       "ShowAddInfo": 0,
@@ -7773,22 +7701,6 @@
         ]
       }
     }
-  },
-  "Thomson TO7/TO9": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "",
-      "AddInfo": "=====================\r\nTo8\r\n=====================\r\n\r\n=Menu=\r\nFrom the startup menu, press SHIFT+1 for the BASIC 512, SHIFT+2 for the legacy BASIC 1.0, SHIFT+3 to set preferences (color palette and switch between lightpen and mouse), SHIFT+5 to get the graphical DOS. SHIFT+4 is a loader for special kinds of floppy software (CHG applications).\r\n\r\n=Cart=\r\ncan be started from the startup menu by pressing SHIFT+0.\r\nThe TO8 can run TO7 and TO7/70 cartridges, but not MO5 ones.\r\n\r\n=Cassette=\r\nThey have the same format as the TO7 and TO7/70 ones, and MESS recognizes the same image types (.wav and .k7).\r\nloaded with one of the two following BASIC commands: \r\n  RUN\"\" (for BASIC files),  \r\n  LOADM\"\",,R (for binary files).\r\nThanks to the backward compatibility, you should be able to run most TO7 and TO7/70 software, provided that you load them from the old BASIC 1.0 and not the BASIC 512. \r\nNote that to use cassettes with the BASIC 512, you must use the commands \r\n  RUN\"CASS:\" \r\nand \r\n  LOADM\"CASS:\",,R \r\nrespectively because the cassette device is no longer the default one.\r\n\r\n=Floppy=\r\nThe TO8 has a versatile internal floppy controller that allows plugging up to four 2\"8, 3\"1/2 or 5\"1/4 drives. MESS emulates all of this in devices -flop0 to -flop3. They accept .sap and .fd images (both can correspond to 160 KB 5\"1/4 or 320 KB 3\"1/2 floppies) as well as .qd images (50 KB 2\"8 floppies). \r\n\r\nThey are fully compatible with the TO7, TO7/70, MO5 and TO9 floppy images. The software they contain may, however, be incompatible. The TO8 can generally run all TO7, TO7/70 and TO9 software, but not software from the MO family (e.g., MO5).\r\nYou can exploit floppies from the BASIC 512 using the commands DIR, LOAD, RUN, SAVE and DSKINI0 (DIR\"1:\", LOAD\"1:\", ..., DSKINI1 for -flop1, and so on). Most game floppies are bootable; they are run using the B option in the startup menu.\r\nSome games are not bootable. You must start the regular BASIC 512 (SHIFT+3), then use DIR to see which programs are likely to be loaders, and launch them manually with a RUN\"XYZ.BAS\" or LOADM\"XYZ.BIN\",,R command.\r\nA few rare games are actually BASIC 1.0 boot disks, incompatible with the BASIC 512; they are run using the C command in the startup menu.\r\nthe SHIFT+4 option in the startup menu provides a special launcher for applications with the .CHG suffix (e.g., Multiplan, Paragraphe).\r\n\r\nAs for all Thomson, double-sided drives are considered as two one-sided drives (either -flop0 and -flop1, or -flop2 and -flop3). So, two-sided floppies must be split into two images and put into two MESS floppy devices.\r\nDrive number 4 corresponds to a virtual RAM disk that must first be setup using the SHIFT+3 option in the startup menu.\r\nThe graphical DOS (SHIFT+5, then select a drive) allows you to DIR, format or copy disks, but not to launch programs.\r\n\r\n=Control=\r\nA mouse is emulated. However, you cannot use both a mouse and a game-pad as they are connected to the same port. Use MESS's in-game configuration to select between the two. The startup menu automatically detects the presence of a mouse. It then disables the lightpen and uses the mouse as the pointer device instead. \r\nYou can revert to the lightpen using SHIFT+3 in the startup menu, and then SHIFT+2 (useful when you revert to game-pad in MESS's in-game configuration, or if a mouse was incorrectly detected when you actually moved a game-pad).\r\nThe white cross disappears when a mouse is emulated. Also, you can switch between a game-pad and a mouse dynamically, without resetting.\r\n Mouse and paddles: they cannot be used at the same time (not an emulation bug, the same problem exists on the real computer)\r\n \r\n=Video=\r\nAs for the TO9, you should switch to high-resolution video emulation in MESS's in-game menu if you intend to use software in 640x200. Otherwise, the low-resolution video emulation is sufficient and faster.\r\n\r\n=History and Trivia=\r\nSuccessor of the TO7/70 as a home-computer.Note that it is more recent than the TO9.\r\nWhile the TO9 was a high-end semi-professional computer, the TO8 was meant to replace the TO7/70 as a home computer.\r\nIt has a more compact Amiga-like look, no separate keyboard, and less extension slots. Also, it has no integrated floppy drive, and less application software in ROM.\r\nDespite this, it is considered much superior to the TO9.\r\nIt improves on the gate-array technology developed for the TO9 (the TO8 version is so mature that it will be reused unchanged on the TO9+ and MO6).\r\nIt allows a better and more flexible use of the address space (in particular, video page switching is now available in all video modes).\r\nThe TO8 has more RAM: 256 KB expandable up to 512 KB.\r\nThe integrated controller is very versatile (again, a custom Thomson gate-array that will be reused) and allows connecting any Thomson floppy drive (5\"1/4, 3\"1/2 and 2\"8).\r\nThe BASIC 128 has been replaced with a BASIC 512 that allows accessing the whole memory (but a part can still be devoted to a virtual RAM disk).\r\nThe two missing TO9 application software could still be bought on floppies; they have been substantially debugged.\r\nThe music extension and second generation game ports (allowing 2-button paddles and a mouse) are included.\r\nThe TO8 was very popular and became the de-facto gaming computer in the Thomson family.\r\nThe TO8D is simply a TO8 with an integrated 3\"1/2 floppy drive.\r\nAs MESS emulates up to four 3\"1/2, 5\"1/4 and 2\"8 floppy drives on the TO8 anyway, you won't see much difference between the TO8 and TO8D (except for the slightly different startup menu).\r\n\r\n\r\n\r\n==================\r\nTo7\r\n==================\r\n\r\n=Cart=\r\nYou really need a cartridge, the TO7 is almost unusable without it. They have a .m7 or .rom suffix and are loaded with the -cart option.\r\nA few software were distributed on cartridge. The most important one is the BASIC language that also serves as an OS and loader for many BASIC and binary software.\r\n\r\n=Menu=\r\nFrom one to three options are available on the startup menu. Only one means there's no cart present (it allows tuning the lightpen and is useless)\r\nThe first option allows starting the cart. If the cart software is able to read cassettes or floppies, there's an extra middle option that will automatically load the first cassette file or some specific floppy file (e.g., with the BASIC 1.0 software, it is equivalent to RUN\"\" on a cassette and RUN\"AUTO.BAT\" on a floppy).\r\nClick with the lightpen or use keys 1 to 3 to select an option\r\n\r\n=Cassette=\r\nMost games were distributed on cassettes which are loaded from the BASIC 1.0 cartridge. Thus, to get foo.k7 working, you need to use the both options \r\n  -cart basic.m7 -cass foo.k7 \r\nType 1 in the menu to get the BASIC prompt. Two cases may now arise:\r\nIf the game has a BASIC loader (.BAS, .BAT, .CMP files), type \r\n  RUN\"\".  \r\nIf it has a binary loader (.BIN, .ASM files), type\r\n  LOADM\"\",,R. \r\nUsing the wrong command will result in a BASIC error, try both (rewind between retries)\r\nAlso, if you have the BASIC DOS loaded (see below), you must now type respectively\r\n  RUN\"CASS:\" \r\nand \r\n  LOADM\"CASS:\",,R \r\nbecause the default device will be the floppy drive 0 instead of the cassette reader.\r\nThen, be patient. TO7 tapes are slow: 900 bauds (you can put throttling off).\r\nTwo cassette image formats are recognized: .k7 and .wav. The .wav format is simply the raw sound signal. .k7 have been preprocessed and decoded into the sequence of bytes the BIOS routines will output.\r\nFor now, you should prefer preprocessed .k7 files rather than .wav files, as the demodulation (done in hardware in the TO7) is not well emulated (except when the signal is very clean, such as the one output by the emulator when saving).\r\n\r\n=Floppy=\r\nTLDR: to7 -cart basic -flop1 bootdsk %ROMMAME%\r\nthen \r\nFirst, make sure the correct floppy controller is emulated. Using MESS's in-game configuration menu, you can select between three alternate controllers. \r\n  * The CD 90-351 controller is the most versatile: it accepts 5\"1/4, 3\"1/2 floppies (.sap or .fd suffix, 80 to 320 KB), as well as the 2\"8 so-called QuickDisk (.qd suffix, 50 KB). \r\n  * The CD 90-640 controller only accepts 5\"1/4 floppies, while the CQ 90-028 only accepts 2\"8 floppies.\r\nAfter changing the current controller, you must reset the TO7.\r\nUp to four floppy drives are emulated. They are named -flop0 to -flop3. The BASIC 1.0 cartridge is not able to exploit floppies by itself; you need a BASIC DOS extension in the form of a boot disk. Put the boot disk in the first drive (-flop0) as well as the BASIC 1.0 cartridge, and press 1. You should now be able to DIR, LOAD, SAVE. Use DIR\"1:\", DIR\"2:\" and DIR\"3:\" to access to\r\nfloppies in drives -flop1, -flop2 and -flop3. New floppies must be formatted using the DSKINI0 (for -flop0) to DSKINI3 (for -flop3) commands before being usable.\r\nTwo-sided drives are actually seen as two different drives. A two-sided disk must thus be split into two image files put into different slots (-flop0 and -flop1 for the first two-sided drive, -flop2 and -flop3 for the second two-sided drive).\r\nOther, non-BASIC cartridges either include their own DOS (e.g., Colorpaint) or require a specific DOS boot disk (e.g., Logo, Forth).\r\n\r\n=Lightpen=\r\nThe main pointing device is the lightpen. A white cross indicates its position (added by MESS because the TO7 does not generally provide any visual feedback).\r\nMove the white cross and click with the mouse button. The lightpen horizontal resolution is only 8-pixels.\r\n\r\n=History and Trivia=\r\nFirst computer commercialized by the French company Thomson.\r\nThe TO7 was quite expensive. Especially given that no BASIC cartridge was included and most peripherals (paddles, printers, floppy drives) required costly extensions.\r\nThe video system offers a 320x200 active windows with 8 fixed colors, but with peculiar constraints to save RAM space.\r\nEach line is split into 40 spans of 8-pixels and each span can only have two different colors (among 8).\r\nThis allows representing 8 pixels with 14 bits (two 3-bit palette entries, and 8 1-bit pixel entries) instead of 24 bits.\r\nThe TO7 was quickly replaced (in 1984) by its successor, the TO7/70 (more RAM, more colors). See the to770 driver.\r\nNot many TO7 software are available. Most were designed for the TO7/70 and do not work on the TO7.\r\nT9000 is the prototype for TO7. Apart form the different startup menu and the more buggy BIOS, it is internally similar to the TO7, and fully compatible. \r\nMany TO7 were actually distributed with the T9000 ROM and have a T9000 startup menu!\r\n\r\n===TO7/70===\r\nAn Enhanced TO7. Improved graphics features (16 colors instead of 8) and more RAM. Supports virtually all TO7 software, devices, and extensions (in particular, floppy and game controllers).\r\nWith the MO5, the TO7/70 was a very popular computer in France, despite its price. Although it is backward compatible with the TO7, the TO7/70 has some notable hardware changes. In particular, a lot of generic chips have been replaced with a custom gate-array from Thomson. The TO7/70 has a large library of games and educational software.\r\nPlease read below and the to7 -- http://mess.toseciso.org/sysinfo:to7 entry for specific usage notes about each device.\r\n\r\n=Cartridges, cassettes & floppy disks=\r\nThey have the exact same format and image formats as the TO7 ones: .k7 for byte-processed cassettes, .wav for raw cassettes, .sap or .fd for 80 KB or 160 KB 5\"1/4 and 320 KB 3\"1/2 floppies, .qd for 50 KB 2\"8 floppies, and .m7 and .rom for cartridge. Moreover, they are used in the exact same way. \r\nYou need a BASIC 1.0 cartridge to load most cassettes, and an extra BASIC DOS boot floppy to use floppies. The TO7/70 is backward compatible with the TO7.\r\nHowever, many TO7/70 software are designed to exploit the enhanced graphics capabilities and RAM space, and will not work on a TO7.\r\n\r\n=BASIC 128=\r\nOf particular interest is the BASIC 128 cartridge. Designed quite late, it allows exploiting the full memory of the TO7/70 and all 16 colors from the BASIC. It also provides its own DOS (no need for a DOS boot disk). \r\nHowever, many games were developed before the BASIC 128 appeared and are incompatible with it. \r\nThus, you should  stick to the BASIC 1.0 to play games (most are coded in machine code, and so, can access all colors and RAM this way).   \r\n\r\n===my old to7 notes====\r\nNOTE TO7 needs a basic rom to load. Note the 128k basic rom is bad in the tosec set, but the instructions below say to just use the old basic. So I had to unpack the basic rom and then have it as a prameter in quickplay's romdata for the system. I got asteroids on cassette loading fine that way\r\n\r\nhttps://www-apr.lip6.fr/~mine/mess/to7.html.en\r\n\r\n"
-    },
-    "TABS": {}
-  },
-  "Thomson TO8": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "",
-      "AddInfo": "Floppys in TOSEC set seem to all be .sap which loads with -floppydisk3. Most seem to autoboot, you need to just press B at startup menu (note its not obvious that there is an option to press B)\r\n\r\n---\r\n\r\nUsage\r\nMESS currently emulates both versions of \r\nTO8 to8 [Thomson TO8]\r\nto8d [Thomson TO8D] - a TO8 with an \r\nintegrated 3\"1/2 floppy drive For both \r\ndrivers, MESS supports the emulation with \r\na \"cassette\" (cass) device for tapes \r\nin .wav and .k7 format a \"cartridge\" \r\n(cart) device for .m7 and .rom files four \r\nfloppy drives, \"floppydisk0\" (flop0) to \r\n\"floppydisk3\" (flop3), for disk images \r\nin .fd, .qd and .sap format Also notice \r\nthat the \"printer\" (prin), the \"modem\" \r\n(modm) and the ports \"cc90232\" (c232) and \r\n\"rf57932\" (r232) are emulated as well. \r\nSee below for specific usage notes about \r\neach device. \r\n\r\nMenu\r\nFrom the startup menu, press SHIFT+1 for \r\nthe BASIC 512, SHIFT+2 for the legacy \r\nBASIC 1.0, SHIFT+3 to set preferences \r\n(color palette and switch between \r\nlightpen and mouse), SHIFT+5 to get the \r\ngraphical DOS. SHIFT+4 is a loader for \r\nspecial kinds of floppy software (CHG \r\napplications). \r\n\r\nCartridges\r\nAn optional cartridge can be inserted \r\nwith the -cart option. It can be started \r\nfrom the startup menu by pressing \r\nSHIFT+0. The TO8 can run TO7 and TO7/70 \r\ncartridges, but not MO5 ones. \r\n\r\nCassettes\r\nThey have the same format as the TO7 and \r\nTO7/70 ones, and MESS recognizes the same \r\nimage types (.wav and .k7). We recall \r\nthat cassettes are loaded with one of the \r\ntwo following BASIC commands: RUN\"\" (for \r\nBASIC files), LOADM\"\",,R (for binary \r\nfiles). Please see the to7 driver for \r\nmore informations. Thanks to the backward \r\ncompatibility, you should be able to run \r\nmost TO7 and TO7/70 software, provided \r\nthat you load them from the old BASIC 1.0 \r\nand not the BASIC 512. Note that to use \r\ncassettes with the BASIC 512, you must \r\nuse the commands RUN\"CASS:\" and \r\nLOADM\"CASS:\",,R respectively because the \r\ncassette device is no longer the default \r\none. \r\n\r\nFloppy Disks\r\nThe TO8 has a versatile internal floppy \r\ncontroller that allows plugging up to \r\nfour 2\"8, 3\"1/2 or 5\"1/4 drives. MESS \r\nemulates all of this in devices -flop0 to \r\n-flop3. They accept .sap and .fd images \r\n(both can correspond to 160 KB 5\"1/4 or \r\n320 KB 3\"1/2 floppies) as well as .qd \r\nimages (50 KB 2\"8 floppies). They are \r\nfully compatible with the TO7, TO7/70, \r\nMO5 and TO9 floppy images. The software \r\nthey contain may, however, be \r\nincompatible. The TO8 can generally run \r\nall TO7, TO7/70 and TO9 software, but not \r\nsoftware from the MO family (e.g., MO5). \r\nYou can exploit floppies from the BASIC \r\n512 using the commands DIR, LOAD, RUN, \r\nSAVE and DSKINI0 (DIR\"1:\", LOAD\"1:\", ..., \r\nDSKINI1 for -flop1, and so on). Most game \r\nfloppies are bootable; they are run using \r\nthe B option in the startup menu. Some \r\ngames are not bootable. You must start \r\nthe regular BASIC 512 (SHIFT+3), then use \r\nDIR to see which programs are likely to \r\nbe loaders, and launch them manually with \r\na RUN\"XYZ.BAS\" or LOADM\"XYZ.BIN\",,R \r\ncommand. A few rare games are actua lly \r\nBASIC 1.0 boot disks, incompatible with \r\nthe BASIC 512; they are run using the C \r\ncommand in the startup menu. Finally, the \r\nSHIFT+4 option in the startup menu \r\nprovides a special launcher for \r\napplications with the .CHG suffix (e.g., \r\nMultiplan, Paragraphe). As for all \r\nThomson, double-sided drives are \r\nconsidered as two one-sided drives \r\n(either -flop0 and -flop1, or -flop2 and \r\n-flop3). So, two-sided floppies must be \r\nsplit into two images and put into two \r\nMESS floppy devices. Drive number 4 \r\ncorresponds to a virtual RAM disk that \r\nmust first be setup using the SHIFT+3 \r\noption in the startup menu. The graphical \r\nDOS (SHIFT+5, then select a drive) allows \r\nyou to DIR, format or copy disks, but not \r\nto launch programs. \r\n\r\nKeyboard\r\nThese systems require full keyboard \r\nemulation to work correctly. At startup, \r\nfull keyboard emulation mode is enabled \r\nby default. Whilst in full keyboard \r\nemulation mode, some key associated \r\nfunctionality may be disabled (like the \r\nESC key for EXIT). The keyboard emulation \r\nmode is toggled using the \"Scroll Lock\" \r\nkey (by default). TO8 keyboard layout is \r\nexactly the same as the TO9 one. F1/F6 \r\nF2/F7 F3/F8 F4/F9 F5/F10 #@ *1 e2 \"3 '4 \r\n(5 _6 e7 !8 c9 a0 )B0 -\\ =+ ACC UP 7 8 9 \r\nSTOP A Z E R T Y U I O P ^\" $& ENTER LEFT \r\nRIGHT 4 5 6 CTRL [{ Q S D F G H J K L M \r\nu% ]} DOWN 1 2 3 CAPS SHIFT W X C V B N ,\r\n? ;. :/ >< SHIFT HOME INS DEL 0 . ENT \r\nSPACE \r\n\r\nMouse\r\nA mouse is emulated. However, you cannot \r\nuse both a mouse and a game-pad as they \r\nare connected to the same port. Use \r\nMESS's in-game configuration to select \r\nbetween the two. The startup menu \r\nautomatically detects the presence of a \r\nmouse. It then disables the lightpen and \r\nuses the mouse as the pointer device \r\ninstead. You can revert to the lightpen \r\nusing SHIFT+3 in the startup menu, and \r\nthen SHIFT+2 (useful when you revert to \r\ngame-pad in MESS's in-game configuration, \r\nor if a mouse was incorrectly detected \r\nwhen you actually moved a game-pad). The \r\nwhite cross disappears when a mouse is \r\nemulated. Also, you can switch between a \r\ngame-pad and a mouse dynamically, without \r\nresetting. \r\n\r\nVideo\r\nAs for the TO9, you should switch to \r\nhigh-resolution video emulation in MESS's \r\nin-game menu if you intend to use \r\nsoftware in 640x200. Otherwise, the \r\nlow-resolution video emulation is \r\nsufficient and faster. \r\n\r\nRAM options\r\nDifferent RAM configurations are possible \r\nfor to9 in MESS. You can switch between \r\nthem, changing the -ramsize parameter. At \r\ncommand line, you simply have to add \r\n''-ramsize ram_value'', where \r\n//ram_value// can assume one of the \r\nfollowing values 256k - base config 512k \r\n(default) - with 256KB extension \r\n\r\nKnown Issues\r\nKeyboard: the keyboard emulation is not \r\naccurate; in order to prevent the \r\nkeyboard from hanging the whole computer, \r\nundocumented hacks have been introduced; \r\nit seems usable for now Video: graphical \r\nglitches have been reported on games that \r\nuse hardware video page switching Mouse \r\nand paddles: they cannot be used at the \r\nsame time (not an emulation bug, the same \r\nproblem exists on the real computer)\r\n"
-    },
-    "TABS": {}
   },
   "Tiger Game.com": {
     "CFG": {
@@ -7863,13 +7775,6 @@
       }
     }
   },
-  "V-Tech V-Smile": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\vsmile.png"
-    },
-    "TABS": {}
-  },
   "VEB Mikroelektronik KC 85": {
     "CFG": {
       "ShowAddInfo": 0,
@@ -7902,13 +7807,6 @@
         "searchInRomPath": false
       }
     }
-  },
-  "Victor Business Products 9000": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\victor9k.png"
-    },
-    "TABS": {}
   },
   "Video Technology CreatiVision": {
     "CFG": {
@@ -7969,13 +7867,6 @@
       }
     }
   },
-  "VideoBrain Family Computer": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\vidbrain.png"
-    },
-    "TABS": {}
-  },
   "Vii": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -8002,9 +7893,6 @@
         ]
       }
     }
-  },
-  "Warnemunde NANOS": {
-    "TABS": {}
   },
   "Watara Supervision": {
     "CFG": {
@@ -8090,14 +7978,6 @@
       "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\pecom32.png",
       "AddInfo": "no idea.....can't be arsed\r\n"
     }
-  },
-  "Enterprise Computers Sixty Four": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "",
-      "AddInfo": "there are 3 softlist games on cassette these load via the mame cli but not from command line\r\nwhen you try and load airwolf it crashes, but i'm probably not loading it right.\r\n"
-    },
-    "TABS": {}
   },
   "HP Integral Personal Computer": {
     "CFG": {
@@ -8437,14 +8317,6 @@
       }
     }
   },
-  "Texas Instruments Compact Computer 40": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": "",
-      "AddInfo": "\r\n"
-    },
-    "TABS": {}
-  },
   "Voja Antonic /  Galaksija": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -8655,15 +8527,6 @@
       }
     }
   },
-  "Enterprise Computers One Two Eight": {
-    "TABS": {}
-  },
-  "Samsung SPC-1000": {
-    "TABS": {}
-  },
-  "Texas Instruments Speak & Read": {
-    "TABS": {}
-  },
   "Video Technology Socrates": {
     "TABS": {
       "0": {
@@ -8686,15 +8549,6 @@
       }
     }
   },
-  "3D Engine": {
-    "TABS": {}
-  },
-  "Amstrad NC100": {
-    "TABS": {}
-  },
-  "Apple III": {
-    "TABS": {}
-  },
   "Apple Macintosh": {
     "TABS": {
       "0": {
@@ -8708,12 +8562,6 @@
         ]
       }
     }
-  },
-  "Applied Technology Microbee": {
-    "TABS": {}
-  },
-  "Atari Portfolio": {
-    "TABS": {}
   },
   "Bandai Super Vision": {
     "TABS": {
@@ -8796,21 +8644,6 @@
       }
     }
   },
-  "Coleco Quiz Wiz Challenger": {
-    "TABS": {}
-  },
-  "Commodore 500/600/700": {
-    "TABS": {}
-  },
-  "Epson PX": {
-    "TABS": {}
-  },
-  "Forte II Games": {
-    "TABS": {}
-  },
-  "HomeLab Series Homelab": {
-    "TABS": {}
-  },
   "Koei Pasogo": {
     "TABS": {
       "0": {
@@ -8849,9 +8682,6 @@
         ]
       }
     }
-  },
-  "MGT SAM Coupe": {
-    "TABS": {}
   },
   "Microsoft Xbox": {
     "TABS": {
@@ -9095,9 +8925,6 @@
       }
     }
   },
-  "Pinball": {
-    "TABS": {}
-  },
   "Rockwell AIM 65": {
     "TABS": {
       "0": {
@@ -9119,9 +8946,6 @@
         ]
       }
     }
-  },
-  "Science of Cambridge MK-14": {
-    "TABS": {}
   },
   "Sony Playstation 2": {
     "TABS": {
@@ -9297,12 +9121,6 @@
         ]
       }
     }
-  },
-  "Tandy Video Information System": {
-    "TABS": {}
-  },
-  "Texas Instruments TI-95 PROCALC": {
-    "TABS": {}
   },
   "Video Technology V.Smile": {
     "TABS": {
