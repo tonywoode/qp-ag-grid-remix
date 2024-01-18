@@ -94,5 +94,28 @@ for (const key in parsedData) {
   }
 }
 
+// remove all TABS keys that are disabled: Iterate over the keys in the combinedData object
+for (const systemName in combinedData) {
+  // Check if the systemData has a TABS property
+  if (combinedData[systemName].TABS) {
+    const tabsData = combinedData[systemName].TABS
+    const newTabsData: any = {}
+    let newKey = 0
+
+    // Iterate over the keys in the tabsData object
+    for (const key in tabsData) {
+      // Check if the enabled property is true
+      if (tabsData[key].enabled) {
+        // Assign the value to the new key in the newTabsData object
+        newTabsData[newKey] = tabsData[key]
+        newKey++
+      }
+    }
+
+    // Replace the TABS property in the combinedData object with the newTabsData object
+    combinedData[systemName].TABS = newTabsData
+  }
+}
+
 // Write the output to a JSON file
 fs.writeFileSync('./test/example_outputs/mediaPanelConfig.json', JSON.stringify(combinedData, null, 2))
