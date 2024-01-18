@@ -869,12 +869,6 @@
       }
     }
   },
-  "Ampro Little Z80 Board": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "Amstrad CPC": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -1508,58 +1502,6 @@
       }
     }
   },
-  "Amstrad NC100": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Extras",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
   "Amstrad PC": {
     "CFG": {
       "ShowAddInfo": 0,
@@ -1823,58 +1765,6 @@
         "searchInRomPath": false,
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\apple2",
-          ""
-        ]
-      }
-    }
-  },
-  "Apple III": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Extras",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Manuals",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
           ""
         ]
       }
@@ -3942,49 +3832,6 @@
       }
     }
   },
-  "Bandai Super Vision": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\snap_SL\\sv8000",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\titles_SL\\sv8000",
-          ""
-        ]
-      }
-    }
-  },
   "Bandai WonderSwan": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -4101,22 +3948,6 @@
         "searchType": 0,
         "searchInRomPath": false,
         "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "CHIP": {
-    "8": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RetroArch\\CHIP-8",
           ""
         ]
       }
@@ -4493,58 +4324,6 @@
           "F:\\MAME\\EXTRAs\\titles_SL\\plus4_cass",
           "F:\\MAME\\EXTRAs\\titles_SL\\plus4_flop",
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Commodore - Plus-4\\Named_Titles",
-          ""
-        ]
-      }
-    }
-  },
-  "Commodore 500/600/700": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Extras",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
           ""
         ]
       }
@@ -6142,25 +5921,6 @@
       }
     }
   },
-  "Epson PX": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
   "Exidy Sorcerer": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -6319,36 +6079,6 @@
       }
     }
   },
-  "Forte II Games": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
   "Frontends": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -6487,12 +6217,6 @@
     "CFG": {
       "ShowAddInfo": 0,
       "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\fm7.png"
-    }
-  },
-  "Fujitsu FM": {
-    "8": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
     }
   },
   "Fujitsu FM Towns": {
@@ -6835,25 +6559,6 @@
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\gmaster",
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Hartung - Game Master\\Named_Titles",
-          ""
-        ]
-      }
-    }
-  },
-  "HomeLab Series Homelab": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
           ""
         ]
       }
@@ -7841,48 +7546,6 @@
       }
     }
   },
-  "Music": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "Flyers",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Nintendo SNES\\GoodSNES_314_GM_screens",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
   "NEC PC Engine FX": {
     "CFG": {
       "ShowAddInfo": 0,
@@ -8150,12 +7813,6 @@
           ""
         ]
       }
-    }
-  },
-  "NEC PC": {
-    "8201A": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
     }
   },
   "Nascom": {
@@ -9668,73 +9325,11 @@
       }
     }
   },
-  "PDF Reader": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\A",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\#",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\B",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\C",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\D",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\E",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\F",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\G",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\H",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\I",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\J",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\K",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\L",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\M",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\N",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\O",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\P",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\Q",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\R",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\S",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\T",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\U",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\V",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\W",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\X",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\Y",
-          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\Z",
-          "F:\\PSX-UTILITY\\COVERS\\PSX Covers - unsorted",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "MAME Info",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
   "PTC Sol": {
     "CFG": {
       "ShowAddInfo": 1,
       "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\sol20.png",
       "AddInfo": "=loading=\r\nXE (yes capitals) and start tape\r\n\r\n=controls=\r\nkeyboard must be emulated then cursors work. For a laugh i've set the joypad up for SPACE GAMES\r\n"
-    },
-    "20 Terminal Computer": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
     },
     "TABS": {
       "0": {
@@ -9855,25 +9450,6 @@
       "3": {
         "version": 1,
         "caption": "Titles",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Pinball": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
         "enabled": false,
         "mameUseParentForSrch": false,
         "searchType": 0,
@@ -10655,65 +10231,6 @@
         "version": 1,
         "caption": "System Info",
         "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Samsung SPC": {
-    "1000": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "System Info",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    },
-    "1500": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "CFG": {
-      "ShowAddInfo": 1,
-      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\spc1000.png",
-      "AddInfo": "(select Basic)\r\nLOAD\r\n(start tape)\r\nRUN\r\n\r\nOne joystick is already mapped correctly.\r\nWorks really good\r\nRambo is good fun\r\n"
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "System Info",
-        "enabled": true,
         "mameUseParentForSrch": false,
         "searchType": 0,
         "searchInRomPath": false,
@@ -12520,261 +12037,6 @@
       }
     }
   },
-  "Sony Playstation 2": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Snap",
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 2\\Named_Snaps",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Flyers",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Sony Playstation 2\\Advert",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Box",
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 2\\Named_Boxarts",
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 2\\Named_Titles",
-          ""
-        ]
-      },
-      "4": {
-        "version": 1,
-        "caption": "Advert",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Advert",
-          ""
-        ]
-      },
-      "5": {
-        "version": 1,
-        "caption": "Box3D",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Box_3D",
-          ""
-        ]
-      },
-      "6": {
-        "version": 1,
-        "caption": "CD",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\CD",
-          ""
-        ]
-      },
-      "7": {
-        "version": 1,
-        "caption": "Logo",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Logos",
-          ""
-        ]
-      },
-      "8": {
-        "version": 1,
-        "caption": "Manuals",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "9": {
-        "version": 1,
-        "caption": "Gamepad",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "10": {
-        "version": 1,
-        "caption": "Background",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "11": {
-        "version": 1,
-        "caption": "Banner",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Sony Playstation 3": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "Flyers",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Advert",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3\\Named_Boxarts",
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3 (Downloadable)\\Named_Boxarts",
-          "P:\\SCREENSHOTS\\Sony_PlayStation_3\\Box",
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Box3D",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Sony_PlayStation_3\\Box_3D",
-          ""
-        ]
-      },
-      "4": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3\\Named_Titles",
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3 (Downloadable)\\Named_Titles",
-          ""
-        ]
-      },
-      "5": {
-        "version": 1,
-        "caption": "Logo",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\Sony_PlayStation_3\\Logos",
-          ""
-        ]
-      },
-      "6": {
-        "version": 1,
-        "caption": "CD",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "7": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3\\Named_Snaps",
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3 (Downloadable)\\Named_Snaps",
-          ""
-        ]
-      }
-    }
-  },
   "Sony Playstation": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -13450,14 +12712,6 @@
     }
   },
   "Texas Instruments TI": {
-    "85": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "86": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
     "99": {
       "0": {
         "version": 1,
@@ -13539,10 +12793,6 @@
           ""
         ]
       }
-    },
-    "74 Basicalc": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
     }
   },
   "Thomson MO5": {
@@ -14176,10 +13426,6 @@
     }
   },
   "Warnemunde NANOS": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
     "TABS": {
       "0": {
         "version": 1,
@@ -14265,240 +13511,6 @@
       }
     }
   },
-  "3D Engine": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "Mame Story Dat",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Apollo 7 Squale": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Apple Macintosh": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\snap_SL\\mac_flop",
-          "F:\\MAME\\EXTRAs\\snap_SL\\mac_hdd",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Apple Macintosh XL": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Applied Technology Microbee": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Atari Portfolio": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Bandai Gundam RX": {
-    "78": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Bit Corp Gamate": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Bondwell": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\snap_SL\\bw2",
-          "F:\\MAME\\EXTRAs\\snap_SL\\bw12",
-          ""
-        ]
-      }
-    }
-  },
-  "Camputers Lynx": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Camputers Lynx 48k": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "CBR": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "CCE MC": {
-    "1000": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Central Data 2650": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Coleco Quiz Wiz Challenger": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Manuals",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Coleco Total Control 4": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "COMX 35": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Cybiko Classic": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "DAI Personal Computer": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -14517,30 +13529,6 @@
           ""
         ]
       }
-    }
-  },
-  "DEC PDP": {
-    "1": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "DEC Rainbow 100": {
-    "B": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "DEC VT240": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Dragon 128": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
     }
   },
   "Dragon 32": {
@@ -14590,59 +13578,6 @@
       "ShowAddInfo": 1,
       "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\pecom32.png",
       "AddInfo": "no idea.....can't be arsed\r\n"
-    }
-  },
-  "Electronics Today International ETI": {
-    "660": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "660 Learners' Microcomputer": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Elektor TV Games Computer": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Elektronika MC7105": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Elektronika MS 0515": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Ensoniq KT": {
-    "76": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Enterprise Computers One Two Eight": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
     }
   },
   "Enterprise Computers Sixty Four": {
@@ -14699,100 +13634,6 @@
       }
     }
   },
-  "Fidelity Electronics Chess Machines": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Fidelity Electronics Elite A/S Challenger": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Fidelity Electronics Elite Avant Garde": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Fidelity Electronics Elite Avant Garde 2100": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Fidelity Electronics Sensory Chess Challenger 12": {
-    "B": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Fidelity Electronics Sensory Chess Challenger 9": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Golden China China TV Game": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Hanimex Pencil II": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Hawthorne Technology TinyGiant": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Hewlett": {
-    "Packard 9845B": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "Packard 9845C": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "Packard 9845T": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "Packard HP": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "Packard HP 2641A": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "Packard HP 2645A": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "Packard HP 9825T": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "Packard Integral Personal Computer 9807A": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "HP 64000": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "HP Integral Personal Computer": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -14811,24 +13652,6 @@
           ""
         ]
       }
-    }
-  },
-  "Images": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Intel iSBC": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Intelligent Game": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
     }
   },
   "Interact Family Computer": {
@@ -14864,12 +13687,6 @@
       }
     }
   },
-  "ITMC MPT": {
-    "05": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "Kontiki 100": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -14890,185 +13707,6 @@
       }
     }
   },
-  "Luxor ABC": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\snap_SL\\abc80_cass",
-          "F:\\MAME\\EXTRAs\\snap_SL\\abc80_flop",
-          "F:\\MAME\\EXTRAs\\snap_SL\\abc800",
-          "F:\\MAME\\EXTRAs\\snap_SL\\abc806",
-          "F:\\MAME\\EXTRAs\\snap_SL\\abc1600",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "4": {
-        "version": 1,
-        "caption": "Manuals",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "MAME VGM player": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Micro Genius IQ": {
-    "501": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "502": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Microkey Primo": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Micronique Hector": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Microsoft Xbox": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Microsoft - Xbox\\Named_Boxarts",
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Microsoft Xbox 360": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Microsoft - Xbox 360\\Named_Boxarts",
-          ""
-        ]
-      }
-    }
-  },
-  "Mikro": {
-    "80": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "Mikroelektronika Pyldin": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -15087,18 +13725,6 @@
           ""
         ]
       }
-    }
-  },
-  "Myarc Geneve": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Netronics Elf II": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
     }
   },
   "Nintendo Famicom": {
@@ -15147,46 +13773,10 @@
       }
     }
   },
-  "NPO Microprocessor Elektronika": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "NPO Microprocessor Elektronika MS 1502": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "Nuova Z80NE": {
     "CFG": {
       "ShowAddInfo": 0,
       "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\z80ne.png"
-    }
-  },
-  "Orbit UVI Compu": {
-    "Game": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Ormatu 2001": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Osborne Vixen": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Otrona Attach�": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
     }
   },
   "PC/AT 486": {
@@ -15256,12 +13846,6 @@
       "AddInfo": "can't get the keyboard to do much\r\ndon't bother\r\n"
     }
   },
-  "Pulsar Little Big Board": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "Radofin 1292 Advanced Programmable Video System": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -15305,18 +13889,6 @@
       }
     }
   },
-  "Ravensburger Selbstbaucomputer": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Research Machines Z": {
-    "series": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "Rowtron Television Computer System": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -15337,26 +13909,8 @@
       }
     }
   },
-  "Salora Manager": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "San Bergmans & Izabella Malcolm SITCOM": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Sanyo MBC": {
-    "200": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Science of Cambridge MK": {
-    "14": {
+  "Samsung SPC": {
+    "1000": {
       "0": {
         "version": 1,
         "caption": "ScreenShots",
@@ -15370,7 +13924,18 @@
       },
       "1": {
         "version": 1,
-        "caption": "Box",
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "System Info",
         "enabled": false,
         "mameUseParentForSrch": false,
         "searchType": 0,
@@ -15379,30 +13944,24 @@
           ""
         ]
       }
-    }
-  },
-  "SMT Goupil": {
+    },
     "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "SMT Goupil G1": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "SMT Goupil G2": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "SOE OC Jeu Video TV Karvan": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
+      "ShowAddInfo": 1,
+      "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\spc1000.png",
+      "AddInfo": "(select Basic)\r\nLOAD\r\n(start tape)\r\nRUN\r\n\r\nOne joystick is already mapped correctly.\r\nWorks really good\r\nRambo is good fun\r\n"
+    },
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "System Info",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
     }
   },
   "Sony PSP": {
@@ -15537,60 +14096,6 @@
       }
     }
   },
-  "Tandy Video Information System": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "Manuals",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Telenova Compis": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Telercas Oy Telmac": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "TeleVideo 990": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "TeleVideo 995": {
-    "65": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "Tesla PMD": {
     "85.1": {
       "0": {
@@ -15646,85 +14151,6 @@
           ""
         ]
       }
-    }
-  },
-  "Texas Instruments Speak & Read": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "System Info",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Texas Instruments Speak & Spell": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Texas Instruments Speak & Spell Compact": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Texas Instruments TI Avigo": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Texas Instruments Touch & Tell": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "TRQ Video Computer H": {
-    "21": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Unicard BBC Bridge Companion": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Unisonic Champion 2711": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "USSR DVK KSM": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "USSR SM 7238": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Video": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
     }
   },
   "Voja Antonic /  Galaksija": {
@@ -15791,12 +14217,6 @@
       }
     }
   },
-  "Java J2ME": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
   "Nintendo 3DS": {
     "CFG": {
       "ShowAddInfo": 1,
@@ -15851,146 +14271,6 @@
         "searchType": 0,
         "searchInRomPath": false,
         "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Sega NAOMI": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Uzebox": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Casio Loopy": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\snap_SL\\casloopy",
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Casio - Loopy\\Named_Snaps",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Casio - Loopy\\Named_Boxarts",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Casio - Loopy\\Named_Titles",
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "4": {
-        "version": 1,
-        "caption": "Extras",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "5": {
-        "version": 1,
-        "caption": "Manuals",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Microsoft Xbox One": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Nintendo DSi": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DSi\\Named_Snaps",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DSi\\Named_Boxarts",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DSi\\Named_Titles",
           ""
         ]
       }
@@ -16077,432 +14357,6 @@
         "searchInRomPath": false,
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\switch",
-          ""
-        ]
-      }
-    }
-  },
-  "Nintendo Wii U": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii U\\Named_Snaps",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii U\\Named_Boxarts",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii U\\Named_Titles",
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "4": {
-        "version": 1,
-        "caption": "Gamepad",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Sony Playstation 4": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 4\\Named_Boxarts",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Philips Videopac+": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Philips - Videopac+\\Named_Snaps",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\Retroarch\\RetroArch\\thumbnails\\Philips - Videopac+\\Named_Titles",
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Philips - Videopac+\\Named_Titles",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Philips - Videopac+\\Named_Boxarts",
-          ""
-        ]
-      }
-    }
-  },
-  "Sony PS Vita": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation Vita\\Named_Snaps",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation Vita\\Named_Boxarts",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation Vita\\Named_Titles",
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Background",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "4": {
-        "version": 1,
-        "caption": "Banner",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "5": {
-        "version": 1,
-        "caption": "Box3D",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "6": {
-        "version": 1,
-        "caption": "Cart",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "7": {
-        "version": 1,
-        "caption": "Logo",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Video Technology V.Smile": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - V.Smile\\Named_Snaps",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - V.Smile\\Named_Boxarts",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": false,
-        "searchType": 2,
-        "searchInRomPath": false,
-        "path": [
-          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - V.Smile\\Named_Titles",
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Game History",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "4": {
-        "version": 1,
-        "caption": "System Info",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "VideoBrain": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\titles_SL\\vidbrain",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\snap_SL\\vidbrain",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Extras",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      }
-    }
-  },
-  "Rockwell AIM 65": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "TABS": {
-      "0": {
-        "version": 1,
-        "caption": "Manuals",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\manuals_SL\\aim65_cart",
-          ""
-        ]
-      },
-      "1": {
-        "version": 1,
-        "caption": "ScreenShots",
-        "enabled": true,
-        "mameUseParentForSrch": true,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          "F:\\MAME\\EXTRAs\\snap_SL\\aim65_cart",
-          ""
-        ]
-      },
-      "2": {
-        "version": 1,
-        "caption": "Titles",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
-          ""
-        ]
-      },
-      "3": {
-        "version": 1,
-        "caption": "Box",
-        "enabled": false,
-        "mameUseParentForSrch": false,
-        "searchType": 0,
-        "searchInRomPath": false,
-        "path": [
           ""
         ]
       }
@@ -16662,6 +14516,36 @@
       }
     }
   },
+  "Enterprise Computers One Two Eight": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Texas Instruments Speak & Read": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "System Info",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
   "Video Technology Socrates": {
     "TABS": {
       "0": {
@@ -16723,822 +14607,471 @@
       }
     }
   },
-  "Altos Computer Systems ACS8600": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Apple Macintosh 128k": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Applied Technology Microbee 16k Standard": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "AVE Micro Systems Auto Response Board": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Bit Corporation Bit90": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Cambridge Microprocessor Systems CMS 6502 Development System": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Candela Data AB CAN09": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Capital Radio Engineering Institute CREI 680": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Casio CTK": {
-    "551": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Central Data 2650 Computer System": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "China H Computer Company H": {
-    "01B": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "China Jiangmen Computer Equipment Factory H": {
-    "01 JCE": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "China State": {
-    "owned 830 Factory NF500A": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Consumenta Computer / Loproc Conchess": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "David Griffiths DG680 with DGOS": {
-    "Z80 1.4": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Didact AB mp68a": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "E&L Instruments Inc MMD": {
-    "1 Mini": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Ei Nis (Elektronska Industrija Nis) Pecom": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Elektor SC/MP": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Elwro 800": {
-    "3 Junior": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Entex Select": {
-    "A": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Ericsson Information System PC": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Fisher": {
-    "Price I Can Play Piano": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "generic RS": {
-    "232 DCE": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Gimix 6809 System": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Grant Searle Simple CP/M Machine": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "GRiD Computers Compass 1101": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Hack Inc. Sandbox PCI PC": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Heath Company Heathkit H8 Digital Computer": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Heath Company Heathkit Model ET": {
-    "3400 Microprocessor Trainer": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Hegener + Glaser Mephisto MM I": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Hegener + Glaser Mephisto MM II": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Hegener + Glaser Mephisto MM IV": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Hegener + Glaser Mephisto MM V": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Hegener + Glaser Mephisto Super Mondial II": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Institut Ivo Lola Ribar Lola 8A": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Intel INTELLEC 4/MOD 4": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Intel INTELLEC 4/MOD 40": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Intel MCS": {
-    "85 System Design Kit": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Interact Electronics Family Computer": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / 5000ft, Inc Disney Princess": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / 5000ft, Inc Disney Princesses": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Amaze Entertainment Dreamworks Movie Night": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Amaze Entertainment Star Wars ": {
-    " Original Trilogy": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Amaze Entertainment X": {
-    "Men ": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Backbone Entertainment Care Bears TV Games": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Backbone Entertainment Winnie the Pooh ": {
-    " Piglet's Special Day": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Capcom / HotGen Ltd Capcom 3": {
-    "in": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Digital Eclipse Fantastic Four": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Digital Eclipse Spider": {
-    "Man": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Griptonite Games Star Wars ": {
-    " Revenge of the Sith": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Handheld Games Dora the Explorer ": {
-    " Nursery Rhyme Adventure": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    " Race to Play Park": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Handheld Games Dragon Ball Z": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Handheld Games Nicktoons": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / HotGen Ltd Disney": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / HotGen Ltd Disney Friends": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / HotGen Ltd SpongeBob SquarePants ": {
-    " The Fry Cook Games": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / HotGen Ltd Wheel of Fortune": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / HotGen Ltd WWE": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Namco / HotGen Ltd Ms. Pac": {
-    "Man 5": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "JAKKS Pacific Inc / Taniko Justice League": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Jugend+Technik CompJU+TEr": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Jungle Soft / KenSingTon / Siatronics Vii": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "L.J.Technical Systems Emma II trainer": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "MAME Waveblaster": {
-    "based expander": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Matsushita MyBrain 3000": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Mera": {
-    "Elzab Meritum I": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Milton Bradley Microvision": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Mindset Corporation Personal Computer": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "MIPS Magnum R4000": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "MIPS RC2030": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "MIPS RS2030": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Motorola M6800 EXORciser": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Motorola MEK6802D3": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Motorola MEK6802D4": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Motorola MEK6802D5": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Motorola Micro Chroma 68": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Nanjing Computer Factory Zi Jin I": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "National Semiconductor DB32016": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "NCR Decision Mate V": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Non Linear Systems Kaypro 10 ": {
-    " 1983": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Non Linear Systems Kaypro 2x": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Novag Super Sensor IV": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Ohio Scientific Superboard II Model 600": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "PEL Varazdin Orao 103": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Philips P2000T": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Philips Videopac G7000": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Philips Videopac+ G7400": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Radio Shack TRS": {
-    "80 DT": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Saitek Kasparov Corona": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Saitek Kasparov Simultano": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "SCCH LLC": {
-    "2": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "SciSys / Intelligents Intelligent Chess": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "SciSys Kasparov Stratos": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "SciSys Kasparov Turbostar 432": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "SciSys Sensor Chess": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Shaanxi Province Computer Factory China Education Computer 2000": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Shaanxi Province Computer Factory China Education Computer E": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Shaanxi Province Computer Factory China Education Computer G": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Shaanxi Province Computer Factory China Education Computer I": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Shaanxi Province Computer Factory China Education Computer M": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Sharp PC": {
-    "E220": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    },
-    "G815": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Silicon Graphics Inc Indy": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Sinclair ZX Spectrum +2a": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Sinclair ZX Spectrum +3e": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Sinclair ZX Spectrum +3e 8bit IDE": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Sinclair ZX Spectrum +3e 8bit ZXATASP": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Sinclair ZX Spectrum +3e 8bit ZXCF": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Sony NWS": {
-    "3260": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Southwest Technical Products Corporation SWTPC 6800 Computer System": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Southwest Technical Products SWTPC 8212 Video Terminal": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Synertek Systems Corp. SYM": {
-    "1/SY": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Systemhuset / Loproc Conchess Plymate 5.5MHz": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Systemhuset / Loproc Conchess Plymate Victoria": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Takara / Konami / SSD Company LTD Dance Dance Revolution Family Mat": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Takara / SSD Company LTD Jumping Popira": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Takara / SSD Company LTD Popira": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Takara / SSD Company LTD Popira 2": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Tatung Einstein 256": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Tesla PMI": {
-    "80": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Tesla SAPI": {
-    "1 ZPS 1": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "The Open University Hektor II": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "The Open University Hektor III": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Tom Storey Z80 based, triple time zone clock": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Triumph": {
-    "Adler Alphatronic PC": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Unior": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "VEB Mikroelektronik \"Karl Marx\" Erfurt Chess": {
-    "Master Diamond": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "VEB Mikroelektronik \"Karl Marx\" Erfurt Lerncomputer LC 80": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "VEB Polytechnik Karl": {
-    "Marx": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Video Technology VTech IT Unlimited": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "VTech V.Smile": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Xerox 820": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Yamaha FB": {
-    "01 FM Sound Generator": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Yamaha PSR": {
-    "60 PortaSound": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
-    }
-  },
-  "Yamaha TX81Z FM Tone Generator": {
-    "CFG": {
-      "ShowAddInfo": 0,
-      "SysImage": ""
+  "3D Engine": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "Mame Story Dat",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Amstrad NC100": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Extras",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Apple III": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Extras",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Manuals",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Apple Macintosh": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\snap_SL\\mac_flop",
+          "F:\\MAME\\EXTRAs\\snap_SL\\mac_hdd",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Applied Technology Microbee": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Atari Portfolio": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Bandai Super Vision": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\snap_SL\\sv8000",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\titles_SL\\sv8000",
+          ""
+        ]
+      }
+    }
+  },
+  "Bondwell": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\snap_SL\\bw2",
+          "F:\\MAME\\EXTRAs\\snap_SL\\bw12",
+          ""
+        ]
+      }
+    }
+  },
+  "Casio Loopy": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\snap_SL\\casloopy",
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Casio - Loopy\\Named_Snaps",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Casio - Loopy\\Named_Boxarts",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Casio - Loopy\\Named_Titles",
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "4": {
+        "version": 1,
+        "caption": "Extras",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "5": {
+        "version": 1,
+        "caption": "Manuals",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "CHIP": {
+    "8": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RetroArch\\CHIP-8",
+          ""
+        ]
+      }
+    }
+  },
+  "Coleco Quiz Wiz Challenger": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Manuals",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Commodore 500/600/700": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Extras",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Epson PX": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Forte II Games": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "HomeLab Series Homelab": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
     }
   },
   "Koei Pasogo": {
@@ -17613,6 +15146,70 @@
       }
     }
   },
+  "Luxor ABC": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\snap_SL\\abc80_cass",
+          "F:\\MAME\\EXTRAs\\snap_SL\\abc80_flop",
+          "F:\\MAME\\EXTRAs\\snap_SL\\abc800",
+          "F:\\MAME\\EXTRAs\\snap_SL\\abc806",
+          "F:\\MAME\\EXTRAs\\snap_SL\\abc1600",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "4": {
+        "version": 1,
+        "caption": "Manuals",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
   "MGT SAM Coupe": {
     "TABS": {
       "0": {
@@ -17634,6 +15231,149 @@
         "searchType": 0,
         "searchInRomPath": false,
         "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Microsoft Xbox": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Microsoft - Xbox\\Named_Boxarts",
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Microsoft Xbox 360": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Microsoft - Xbox 360\\Named_Boxarts",
+          ""
+        ]
+      }
+    }
+  },
+  "Music": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "Flyers",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Nintendo SNES\\GoodSNES_314_GM_screens",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Nintendo DSi": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DSi\\Named_Snaps",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DSi\\Named_Boxarts",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DSi\\Named_Titles",
           ""
         ]
       }
@@ -17785,6 +15525,772 @@
       "12": {
         "version": 1,
         "caption": "CD",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Nintendo Wii U": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii U\\Named_Snaps",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii U\\Named_Boxarts",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii U\\Named_Titles",
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "4": {
+        "version": 1,
+        "caption": "Gamepad",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "PDF Reader": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\A",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\#",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\B",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\C",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\D",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\E",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\F",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\G",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\H",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\I",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\J",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\K",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\L",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\M",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\N",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\O",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\P",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\Q",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\R",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\S",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\T",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\U",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\V",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\W",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\X",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\Y",
+          "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\Z",
+          "F:\\PSX-UTILITY\\COVERS\\PSX Covers - unsorted",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "MAME Info",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Philips Videopac+": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Philips - Videopac+\\Named_Snaps",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\Retroarch\\RetroArch\\thumbnails\\Philips - Videopac+\\Named_Titles",
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Philips - Videopac+\\Named_Titles",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Philips - Videopac+\\Named_Boxarts",
+          ""
+        ]
+      }
+    }
+  },
+  "Pinball": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Rockwell AIM 65": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "Manuals",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\manuals_SL\\aim65_cart",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\snap_SL\\aim65_cart",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Science of Cambridge MK": {
+    "14": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Sony Playstation 2": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Snap",
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 2\\Named_Snaps",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Flyers",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Sony Playstation 2\\Advert",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Box",
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 2\\Named_Boxarts",
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 2\\Named_Titles",
+          ""
+        ]
+      },
+      "4": {
+        "version": 1,
+        "caption": "Advert",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Advert",
+          ""
+        ]
+      },
+      "5": {
+        "version": 1,
+        "caption": "Box3D",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Box_3D",
+          ""
+        ]
+      },
+      "6": {
+        "version": 1,
+        "caption": "CD",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\CD",
+          ""
+        ]
+      },
+      "7": {
+        "version": 1,
+        "caption": "Logo",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Logos",
+          ""
+        ]
+      },
+      "8": {
+        "version": 1,
+        "caption": "Manuals",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "9": {
+        "version": 1,
+        "caption": "Gamepad",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "10": {
+        "version": 1,
+        "caption": "Background",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "11": {
+        "version": 1,
+        "caption": "Banner",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Sony Playstation 3": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "Flyers",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Advert",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3\\Named_Boxarts",
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3 (Downloadable)\\Named_Boxarts",
+          "P:\\SCREENSHOTS\\Sony_PlayStation_3\\Box",
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Box3D",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Sony_PlayStation_3\\Box_3D",
+          ""
+        ]
+      },
+      "4": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3\\Named_Titles",
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3 (Downloadable)\\Named_Titles",
+          ""
+        ]
+      },
+      "5": {
+        "version": 1,
+        "caption": "Logo",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\Sony_PlayStation_3\\Logos",
+          ""
+        ]
+      },
+      "6": {
+        "version": 1,
+        "caption": "CD",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "7": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3\\Named_Snaps",
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3 (Downloadable)\\Named_Snaps",
+          ""
+        ]
+      }
+    }
+  },
+  "Sony Playstation 4": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 4\\Named_Boxarts",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Sony PS Vita": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation Vita\\Named_Snaps",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation Vita\\Named_Boxarts",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation Vita\\Named_Titles",
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Background",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "4": {
+        "version": 1,
+        "caption": "Banner",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "5": {
+        "version": 1,
+        "caption": "Box3D",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "6": {
+        "version": 1,
+        "caption": "Cart",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "7": {
+        "version": 1,
+        "caption": "Logo",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Tandy Video Information System": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "Manuals",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "Video Technology V.Smile": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - V.Smile\\Named_Snaps",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - V.Smile\\Named_Boxarts",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": false,
+        "searchType": 2,
+        "searchInRomPath": false,
+        "path": [
+          "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - V.Smile\\Named_Titles",
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Game History",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "4": {
+        "version": 1,
+        "caption": "System Info",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      }
+    }
+  },
+  "VideoBrain": {
+    "TABS": {
+      "0": {
+        "version": 1,
+        "caption": "Titles",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\titles_SL\\vidbrain",
+          ""
+        ]
+      },
+      "1": {
+        "version": 1,
+        "caption": "ScreenShots",
+        "enabled": true,
+        "mameUseParentForSrch": true,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          "F:\\MAME\\EXTRAs\\snap_SL\\vidbrain",
+          ""
+        ]
+      },
+      "2": {
+        "version": 1,
+        "caption": "Box",
+        "enabled": false,
+        "mameUseParentForSrch": false,
+        "searchType": 0,
+        "searchInRomPath": false,
+        "path": [
+          ""
+        ]
+      },
+      "3": {
+        "version": 1,
+        "caption": "Extras",
         "enabled": false,
         "mameUseParentForSrch": false,
         "searchType": 0,

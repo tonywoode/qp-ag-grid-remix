@@ -71,15 +71,21 @@ for (const key in parsedData) {
 const combinedData: any = {}
 for (const key in parsedData) {
   if (key === 'MediaSettings') {
-    //TODO: this will doutbless cauuse problem later with mapping etc, this data shouldn't be in the config at this level
     combinedData[key] = parsedData[key]
   } else {
     const systemName = key.split('-')[0]
     const entryType = key.split('-')[1]
+    const entryData = parsedData[key]
+
+    // Exclude entries where all keys have falsy values (were printing out a lot of "Altos Computer Systems ACS8600": { "CFG": { "ShowAddInfo": 0, "SysImage": "" } },)
+    if (Object.values(entryData).every(value => !value)) {
+      continue
+    }
+
     if (!combinedData[systemName]) {
       combinedData[systemName] = {}
     }
-    combinedData[systemName][entryType] = parsedData[key]
+    combinedData[systemName][entryType] = entryData
   }
 }
 
