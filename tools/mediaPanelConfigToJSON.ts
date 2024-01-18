@@ -8,6 +8,13 @@ function decodeHex(hex: string): string {
   return iconv.decode(buffer, 'utf16le')
 }
 
+const searchTypeMapping = {
+  0: 'ExactMatch',
+  1: 'StartsWith',
+  2: 'InString',
+  3: 'AllFilesInDir'
+}
+
 // Function to decode TABS entries
 function decodeTabs(tabs: string): any {
   const version = Buffer.from(tabs.slice(0, 8), 'hex').readUInt32LE(0)
@@ -15,14 +22,15 @@ function decodeTabs(tabs: string): any {
   const caption = Buffer.from(tabs.slice(16, 16 + captionLength * 2), 'hex').toString('ascii')
   const enabled = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2, 16 + captionLength * 2 + 2), 'hex').readUInt8(0)) // prettier-ignore
   const mameUseParentForSrch = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 'hex').readUInt8(0)) // prettier-ignore
-  const searchType = Buffer.from(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 6), 'hex').readUInt8(0) // prettier-ignore
+  const searchTypeNumber = Buffer.from(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 6), 'hex').readUInt8(0) // prettier-ignore
   const searchInRomPath = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 'hex').readUInt8(0)) // prettier-ignore
   const pathLength = Buffer.from(tabs.slice(16 + captionLength * 2 + 10, 16 + captionLength * 2 + 18), 'hex').readUInt32LE(0) // prettier-ignore
   const path = Buffer.from(tabs.slice(16 + captionLength * 2 + 18, 16 + captionLength * 2 + 18 + pathLength * 2), 'hex').toString('ascii').split('\r\n') // prettier-ignore
 
   // Filter out empty strings from the path array, else every path has an empty array
   const filteredPath = path.filter(p => p !== '')
-
+  // conert the searchType number into its string value
+  const searchType = searchTypeMapping[searchTypeNumber]
   return {
     // version, remove this key because there was only ever a v1
     caption,
