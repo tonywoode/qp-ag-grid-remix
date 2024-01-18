@@ -20,6 +20,9 @@ function decodeTabs(tabs: string): any {
   const pathLength = Buffer.from(tabs.slice(16 + captionLength * 2 + 10, 16 + captionLength * 2 + 18), 'hex').readUInt32LE(0) // prettier-ignore
   const path = Buffer.from(tabs.slice(16 + captionLength * 2 + 18, 16 + captionLength * 2 + 18 + pathLength * 2), 'hex').toString('ascii').split('\r\n') // prettier-ignore
 
+  // Filter out empty strings from the path array, else every path has an empty array
+  const filteredPath = path.filter(p => p !== '')
+
   return {
     version,
     caption,
@@ -27,7 +30,8 @@ function decodeTabs(tabs: string): any {
     mameUseParentForSrch,
     searchType,
     searchInRomPath,
-    path
+    // Add the path key only if the filteredPath array is not empty
+    ...(filteredPath.length > 0 ? { path: filteredPath } : {})
   }
 }
 
