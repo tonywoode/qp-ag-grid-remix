@@ -112,6 +112,11 @@ for (const systemName in combinedData) {
       }
     }
 
+    // Remove the enabled property from the tabs in the newTabsData object
+    for (const key in newTabsData) {
+      delete newTabsData[key].enabled
+    }
+
     // Replace the TABS property in the combinedData object with the newTabsData object
     combinedData[systemName].TABS = newTabsData
   }
