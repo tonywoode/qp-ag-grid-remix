@@ -64,8 +64,12 @@ parsedData = Object.fromEntries(
 for (const key in parsedData) {
   if (key !== 'MediaSettings') {
     for (const subKey in parsedData[key]) {
+      // Always remove 'ShowAddInfo'
       if (subKey === 'ShowAddInfo') {
-        parsedData[key][subKey] = Boolean(parseInt(parsedData[key][subKey]))
+        if (parsedData[key][subKey] === '0' && !parsedData[key].AddInfo) {
+          delete parsedData[key].AddInfo
+        }
+        delete parsedData[key][subKey] //TODO seems to also remove systems where all we have is a system image, but they're useless anyway
       } else if (typeof parsedData[key][subKey] === 'string' && /^[0-9a-fA-F]+$/.test(parsedData[key][subKey])) {
         if (key.endsWith('-TABS')) {
           parsedData[key][subKey] = decodeTabs(parsedData[key][subKey])
@@ -127,11 +131,6 @@ for (const systemName in combinedData) {
 
     // Replace the TABS property in the combinedData object with the newTabsData object
     combinedData[systemName].TABS = newTabsData
-
-    // If the newTabsData object is empty, delete the entire system from the combinedData object
-    if (Object.keys(newTabsData).length === 0) {
-      delete combinedData[systemName]
-    }
   }
 }
 
