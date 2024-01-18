@@ -24,7 +24,7 @@ function decodeTabs(tabs: string): any {
   const filteredPath = path.filter(p => p !== '')
 
   return {
-    version,
+    // version, remove this key because there was only ever a v1
     caption,
     enabled,
     mameUseParentForSrch,
@@ -77,11 +77,12 @@ for (const key in parsedData) {
   if (key === 'MediaSettings') {
     combinedData[key] = parsedData[key]
   } else {
-    const systemName = key.split('-')[0]
-    const entryType = key.split('-')[1]
+    const lastHyphenIndex = key.lastIndexOf('-')
+    const systemName = key.substring(0, lastHyphenIndex)
+    const entryType = key.substring(lastHyphenIndex + 1)
     const entryData = parsedData[key]
 
-    // Exclude entries where all keys have falsy values (were printing out a lot of "Altos Computer Systems ACS8600": { "CFG": { "ShowAddInfo": 0, "SysImage": "" } },)
+    // Exclude entries where all keys have falsy values
     if (Object.values(entryData).every(value => !value)) {
       continue
     }
