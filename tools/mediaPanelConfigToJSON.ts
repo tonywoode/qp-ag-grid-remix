@@ -117,7 +117,8 @@ for (const systemName in combinedData) {
   // Check if the systemData has a TABS property
   if (combinedData[systemName].TABS) {
     const tabsData = combinedData[systemName].TABS
-    const newTabsData: any = {}
+    const newTabsData: any = []
+    // Initialize newKey as 0
     let newKey = 0
 
     // Iterate over the keys in the tabsData object
@@ -125,7 +126,8 @@ for (const systemName in combinedData) {
       // Check if the enabled property is true
       if (tabsData[key].enabled) {
         // Assign the value to the new key in the newTabsData object
-        newTabsData[newKey] = tabsData[key]
+        newTabsData.push({ tabOrder: newKey, ...tabsData[key] })
+        // Increment newKey
         newKey++
       }
     }
