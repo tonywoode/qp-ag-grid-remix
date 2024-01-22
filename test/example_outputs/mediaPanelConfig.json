@@ -1,10 +1,4 @@
 {
-  "MediaSettings": {
-    "AddEmuTab": "1",
-    "AutoMove": "0",
-    "TimePerTab": "3",
-    "DefaultFolderImg": "1"
-  },
   "3DO": {
     "cfg": {
       "SysImage": "F:\\MAME\\EXTRAs\\cabinets\\3do.png"

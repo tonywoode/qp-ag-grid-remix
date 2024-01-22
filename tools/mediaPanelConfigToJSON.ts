@@ -165,5 +165,14 @@ for (const systemName in combinedData) {
   }
 }
 
+// Extract the MediaSettings key-value pair
+const mediaSettings = { MediaSettings: combinedData.MediaSettings };
+
+// Remove the MediaSettings key-value pair from the original data
+delete combinedData.MediaSettings;
+
 // Write the output to a JSON file
 fs.writeFileSync('./test/example_outputs/mediaPanelConfig.json', JSON.stringify(combinedData, null, 2))
+
+// Write the MediaSettings to a new file
+fs.writeFileSync('./test/example_outputs/mediaPanelSettings.json', JSON.stringify(mediaSettings, null, 2));
