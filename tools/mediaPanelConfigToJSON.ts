@@ -124,8 +124,19 @@ for (const systemName in combinedData) {
     for (const key in tabsData) {
       // Check if the enabled property is true
       if (tabsData[key].enabled) {
-        // Assign the value to the new key in the newTabsData object
-        newTabsData.push({ tabOrder: newKey, ...tabsData[key] })
+        // Prepare the new tab data
+        const newTabData = { tabOrder: newKey, ...tabsData[key] }
+
+        // Remove keys with value false
+        for (const tabKey in newTabData) {
+          if (newTabData[tabKey] === false) {
+            delete newTabData[tabKey]
+          }
+        }
+
+        // Push the new tab data to the newTabsData array
+        newTabsData.push(newTabData)
+
         // Increment newKey
         newKey++
       }
