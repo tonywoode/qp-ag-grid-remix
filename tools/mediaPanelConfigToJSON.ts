@@ -118,8 +118,7 @@ for (const systemName in combinedData) {
   if (combinedData[systemName].TABS) {
     const tabsData = combinedData[systemName].TABS
     const newTabsData: any = []
-    // Initialize newKey as 0
-    let newKey = 0
+    let newKey = 0 //we removed unused tabs, so the key numbering is effectively a sparse arrray, number again
 
     // Iterate over the keys in the tabsData object
     for (const key in tabsData) {
