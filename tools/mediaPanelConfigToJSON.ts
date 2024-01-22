@@ -69,7 +69,7 @@ for (const key in parsedData) {
         if (parsedData[key][subKey] === '0' && !parsedData[key].AddInfo) {
           delete parsedData[key].AddInfo
         }
-        delete parsedData[key][subKey] //TODO seems to also remove systems where all we have is a system image, but they're useless anyway
+        delete parsedData[key][subKey]
       } else if (typeof parsedData[key][subKey] === 'string' && /^[0-9a-fA-F]+$/.test(parsedData[key][subKey])) {
         if (key.endsWith('-TABS')) {
           parsedData[key][subKey] = decodeTabs(parsedData[key][subKey])
@@ -129,8 +129,14 @@ for (const systemName in combinedData) {
       delete newTabsData[key].enabled
     }
 
-    // Replace the TABS property in the combinedData object with the newTabsData object
-    combinedData[systemName].TABS = newTabsData
+    // Check if the newTabsData object is empty
+    if (Object.keys(newTabsData).length === 0) {
+      // Delete the TABS key from the system entry
+      delete combinedData[systemName].TABS
+    } else {
+      // Replace the TABS property in the combinedData object with the newTabsData object
+      combinedData[systemName].TABS = newTabsData
+    }
   }
 }
 
