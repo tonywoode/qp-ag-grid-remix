@@ -106,7 +106,7 @@ for (const key in parsedData) {
   }
 }
 
-// remove all TABS keys that are disabled: Iterate over the keys in the combinedData object
+// Iterate over the keys in the combinedData object
 for (const systemName in combinedData) {
   // Check if the systemData has a TABS property
   if (combinedData[systemName].TABS) {
@@ -137,6 +137,12 @@ for (const systemName in combinedData) {
       // Replace the TABS property in the combinedData object with the newTabsData object
       combinedData[systemName].TABS = newTabsData
     }
+  }
+
+  // Check if the system entry is empty
+  if (Object.keys(combinedData[systemName]).length === 0) {
+    // Delete the system entry from combinedData
+    delete combinedData[systemName]
   }
 }
 
