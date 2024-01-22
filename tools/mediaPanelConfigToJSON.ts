@@ -108,6 +108,12 @@ for (const key in parsedData) {
 
 // Iterate over the keys in the combinedData object
 for (const systemName in combinedData) {
+  // Check if the systemData has a CFG property
+  if (combinedData[systemName].CFG) {
+    combinedData[systemName].cfg = combinedData[systemName].CFG
+    delete combinedData[systemName].CFG
+  }
+
   // Check if the systemData has a TABS property
   if (combinedData[systemName].TABS) {
     const tabsData = combinedData[systemName].TABS
@@ -135,7 +141,8 @@ for (const systemName in combinedData) {
       delete combinedData[systemName].TABS
     } else {
       // Replace the TABS property in the combinedData object with the newTabsData object
-      combinedData[systemName].TABS = newTabsData
+      combinedData[systemName].tabs = newTabsData
+      delete combinedData[systemName].TABS
     }
   }
 
