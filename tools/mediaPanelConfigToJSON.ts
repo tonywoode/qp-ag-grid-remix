@@ -121,11 +121,17 @@ for (const key in parsedData) {
   }
 }
 
-// Iterate over the keys in the combinedData object
-for (const systemName in combinedData) {
+// Create a new object with the keys sorted
+const sortedCombinedData: any = {}
+Object.keys(combinedData).sort().forEach(key => {
+  sortedCombinedData[key] = combinedData[key]
+})
+
+// Iterate over the keys in the sortedCombinedData object
+for (const systemName in sortedCombinedData) {
   // Check if the systemData has a TABS property
-  if (combinedData[systemName].TABS) {
-    const tabsData = combinedData[systemName].TABS
+  if (sortedCombinedData[systemName].TABS) {
+    const tabsData = sortedCombinedData[systemName].TABS
     const newTabsData: any = []
     let newKey = 0 //we removed unused tabs, so the key numbering is effectively a sparse arrray, number again
 
@@ -159,31 +165,31 @@ for (const systemName in combinedData) {
     // Check if the newTabsData object is empty
     if (Object.keys(newTabsData).length === 0) {
       // Delete the TABS key from the system entry
-      delete combinedData[systemName].TABS
+      delete sortedCombinedData[systemName].TABS
     } else {
-      // Replace the TABS property in the combinedData object with the newTabsData object
-      combinedData[systemName].tabs = newTabsData
-      delete combinedData[systemName].TABS
+      // Replace the TABS property in the sortedCombinedData object with the newTabsData object
+      sortedCombinedData[systemName].tabs = newTabsData
+      delete sortedCombinedData[systemName].TABS
     }
   }
 }
 
 // Check if the system entry is empty
-for (const systemName in combinedData) {
-  if (Object.keys(combinedData[systemName]).length === 0) {
-    // Delete the system entry from combinedData
-    delete combinedData[systemName]
+for (const systemName in sortedCombinedData) {
+  if (Object.keys(sortedCombinedData[systemName]).length === 0) {
+    // Delete the system entry from sortedCombinedData
+    delete sortedCombinedData[systemName]
   }
 }
 
 // Extract the MediaSettings key-value pair
-const mediaSettings = { MediaSettings: combinedData.MediaSettings };
+const mediaSettings = { MediaSettings: sortedCombinedData.MediaSettings }
 
 // Remove the MediaSettings key-value pair from the original data
-delete combinedData.MediaSettings;
+delete sortedCombinedData.MediaSettings
 
 // Write the output to a JSON file
-fs.writeFileSync('./test/example_outputs/mediaPanelConfig.json', JSON.stringify(combinedData, null, 2))
+fs.writeFileSync('./test/example_outputs/mediaPanelConfig.json', JSON.stringify(sortedCombinedData, null, 2))
 
 // Write the MediaSettings to a new file
 fs.writeFileSync('./test/example_outputs/mediaPanelSettings.json', JSON.stringify(mediaSettings, null, 2));
