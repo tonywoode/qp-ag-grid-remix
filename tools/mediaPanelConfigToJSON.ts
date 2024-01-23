@@ -102,18 +102,16 @@ for (const key in parsedData) {
     if (!combinedData[systemName]) {
       combinedData[systemName] = {}
     }
-    combinedData[systemName][entryType] = entryData
+    if (entryType === 'CFG') {
+      combinedData[systemName] = { ...combinedData[systemName], ...entryData }
+    } else {
+      combinedData[systemName][entryType] = entryData
+    }
   }
 }
 
 // Iterate over the keys in the combinedData object
 for (const systemName in combinedData) {
-  // Check if the systemData has a CFG property
-  if (combinedData[systemName].CFG) {
-    combinedData[systemName].cfg = combinedData[systemName].CFG
-    delete combinedData[systemName].CFG
-  }
-
   // Check if the systemData has a TABS property
   if (combinedData[systemName].TABS) {
     const tabsData = combinedData[systemName].TABS
@@ -157,8 +155,10 @@ for (const systemName in combinedData) {
       delete combinedData[systemName].TABS
     }
   }
+}
 
-  // Check if the system entry is empty
+// Check if the system entry is empty
+for (const systemName in combinedData) {
   if (Object.keys(combinedData[systemName]).length === 0) {
     // Delete the system entry from combinedData
     delete combinedData[systemName]
