@@ -83,6 +83,11 @@ for (const key in parsedData) {
   }
 }
 
+// Function to convert a string from PascalCase to camelCase
+function toCamelCase(str: string): string {
+  return str[0].toLowerCase() + str.slice(1);
+}
+
 // Combine the -CFG and -TABS entries for each system
 const combinedData: any = {}
 for (const key in parsedData) {
@@ -92,12 +97,18 @@ for (const key in parsedData) {
     const lastHyphenIndex = key.lastIndexOf('-')
     const systemName = key.substring(0, lastHyphenIndex)
     const entryType = key.substring(lastHyphenIndex + 1)
-    const entryData = parsedData[key]
+    let entryData = parsedData[key]
 
     // Exclude entries where all keys have falsy values
     if (Object.values(entryData).every(value => !value)) {
       continue
     }
+
+    // Convert the keys of the entryData object to camelCase (sysImage / addInfo instead of SysImage / AddInfo)
+    entryData = Object.keys(entryData).reduce((result: { [key: string]: any }, key) => {
+      result[toCamelCase(key)] = entryData[key]
+      return result
+    }, {})
 
     if (!combinedData[systemName]) {
       combinedData[systemName] = {}
