@@ -6,7 +6,7 @@ import type { CellClickedEvent, GridOptions, ColDef, ColGroupDef } from 'ag-grid
 import { Outlet, useLoaderData, useParams, useNavigate } from '@remix-run/react'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/load_romdata.server'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Split from 'react-split'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
@@ -56,6 +56,12 @@ export default function Grid() {
   const [base64Image, setBase64Image] = useState(null)
   const [screenshotUrl, setScreenshotUrl] = useState()
   let { romdata } = useLoaderData()
+  //when we switch to a new romdata, reset the state
+  useEffect(() => {
+    // Reset isRomSelected and base64Image when romdata changes
+    setIsRomSelected(false)
+    setBase64Image(null)
+  }, [romdata])
   const params = useParams()
   const navigate = useNavigate()
   const [clickedCell, setClickedCell] = useState(null)
