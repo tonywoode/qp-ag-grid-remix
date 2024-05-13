@@ -18,8 +18,6 @@ import { Node } from '~/components/Node'
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
 import { useState, useEffect, useRef } from 'react'
-import { ScreenshotsTab } from '~/components/ScreenshotsTab'
-import { loadScreenshots } from './screenshots.server'
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
@@ -42,8 +40,7 @@ export const logger = createFeatureLogger(loggerConfig)
 
 export async function loader() {
   const folderData = await scanFolder('./data')
-  const { screenshots } = await loadScreenshots()
-  return json({ folderData, screenshots, userDataPath: electron.app.getPath('userData') })
+  return json({ folderData, userDataPath: electron.app.getPath('userData') })
   // romdata,
 }
 export const action = async () => {

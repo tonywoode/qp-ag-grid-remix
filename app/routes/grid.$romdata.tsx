@@ -52,8 +52,9 @@ export function MediaPanel({ screenshots }) {
   )
 }
 export default function Grid() {
+  const [isRomSelected, setIsRomSelected] = useState(false)
   const [base64Image, setBase64Image] = useState(null)
-  const [screenshotUrl, setScreenshotUrl] = useState('somewhere')
+  const [screenshotUrl, setScreenshotUrl] = useState()
   let { romdata } = useLoaderData()
   const params = useParams()
   const navigate = useNavigate()
@@ -63,6 +64,7 @@ export default function Grid() {
     async e => {
       console.log('single click')
       console.log(e.data)
+      setIsRomSelected(true)
       const romname = e.data.name
       const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
       console.log('romname is' + romname)
@@ -119,7 +121,7 @@ export default function Grid() {
           <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
         </div>,
         <div>
-          <MediaPanel screenshots={[base64Image]}>{screenshotUrl}</MediaPanel>
+          {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>}
           {/* <div>{screenshotUrl}</div> */}
         </div>
       ]}

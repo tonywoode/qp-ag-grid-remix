@@ -26,6 +26,9 @@ export async function scanFolder(folderPath) {
         const folderInfo = JSON.parse(await fsPromises.readFile(folderInfoPath, 'utf-8'))
         iconLink = path.join('Icons', folderInfo.folderInfo.iconLink)
         icon = await loadIconBase64(iconLink)
+        if (icon === undefined) {
+          throw new Error(`Icon not found for ${iconLink}`)
+        }
       } catch (err) {
         console.error(`Error reading folderInfo.json: ${err}`)
       }
