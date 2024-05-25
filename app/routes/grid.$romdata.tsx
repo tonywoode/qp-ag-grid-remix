@@ -118,7 +118,25 @@ export default function Grid() {
     enableGroupEdit: true,
     suppressClickEdit: true,
     onCellClicked: handleSingleClick,
-    onCellDoubleClicked: handleDoubleClick
+    onCellDoubleClicked: handleDoubleClick,
+    onCellFocused: function (event) {
+      if (event.api.getFocusedCell()) {
+        const focusedNode = event.api.getDisplayedRowAtIndex(event.api.getFocusedCell().rowIndex)
+        focusedNode.setSelected(true)
+      }
+    },
+    onRowSelected: async function (event) {
+      console.log('row selected')
+      if (event.node.selected) {
+        console.log('selected')
+        const romname = event.data.name
+        const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
+        const response = await getScreenshots(romnameNoParens)
+        const data = await response.json()
+        setBase64Image(data.screenshots)
+        setScreenshotUrl(romname)
+      }
+    }
   }
   return (
     <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
