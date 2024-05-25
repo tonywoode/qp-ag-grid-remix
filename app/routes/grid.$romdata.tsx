@@ -65,23 +65,10 @@ export default function Grid() {
   const params = useParams()
   const navigate = useNavigate()
   const [clickedCell, setClickedCell] = useState(null)
-  const [clickedYet, setClickedYet] = useState(false)
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async e => {
       console.log('single click')
       console.log(e.data)
-      // setIsRomSelected(true)
-      // const romname = e.data.name
-      // const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
-      // console.log('romname is' + romname)
-      // const response = await getScreenshots(romnameNoParens)
-      // const data = await response.json() // Parse the response body as JSON
-      // setBase64Image(data.screenshots) // Update the base64 image when a row is clicked
-      // setScreenshotUrl(romname)
-      // if (!clickedYet) {
-      //   navigate(`${encodeURI(romname)}`)
-      //   setClickedYet(true)
-      // }
       const { node: { rowIndex }, column: { colId }, api }: CellClickedEvent = e // prettier-ignore
       setClickedCell({ rowIndex, colKey: colId })
       api.startEditingCell({ rowIndex, colKey: colId })
@@ -120,10 +107,9 @@ export default function Grid() {
     onCellClicked: handleSingleClick,
     onCellDoubleClicked: handleDoubleClick,
     onCellKeyDown: function (event) {
-      // console.log(event)
       console.log('event.key is ' + event.event.key)
+      //don't multiple select when arrow keys used for navigation
       if (event.event.key === 'ArrowUp' || event.event.key === 'ArrowDown') {
-        // event.api.deselectAll()
         const focusedNode = event.api.getDisplayedRowAtIndex(event.api.getFocusedCell().rowIndex)
         event.api.forEachNode(node => {
           if (node !== focusedNode) {
@@ -136,7 +122,6 @@ export default function Grid() {
     onRowSelected: async function (event) {
       if (event.node.selected) {
         console.log(event)
-        // console.log(event.event.toString())
         console.log('row selected')
         setIsRomSelected(true)
         const romname = event.data.name
