@@ -96,16 +96,11 @@ export default function Grid() {
     valueGetter: field === 'path' ? removeGamesDirPrefix : undefined
   }))
 
-  //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir substitution is active
-  function removeGamesDirPrefix({ data: { path } }) {
-    return path.replace('{gamesDir}\\', '')
-  }
-
   console.log(`Creating these columns from romdata: ${params.romdata}`)
   console.table(columnDefs)
   const gridOptions: GridOptions = {
     columnDefs,
-    defaultColDef: { flex: 1, minWidth: 150 },
+    defaultColDef: { flex: 1, minWidth: 150, resizable: true, sortable: true },
     rowSelection: 'multiple',
     singleClickEdit: true,
     enableGroupEdit: true,
@@ -154,6 +149,11 @@ export default function Grid() {
       ]}
     </Split>
   )
+}
+
+//remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir substitution is active
+function removeGamesDirPrefix({ data: { path } }) {
+  return path.replace('{gamesDir}\\', '')
 }
 
 export function links() {
