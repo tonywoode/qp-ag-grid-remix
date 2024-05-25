@@ -70,14 +70,14 @@ export default function Grid() {
     async e => {
       console.log('single click')
       console.log(e.data)
-      setIsRomSelected(true)
-      const romname = e.data.name
-      const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
-      console.log('romname is' + romname)
-      const response = await getScreenshots(romnameNoParens)
-      const data = await response.json() // Parse the response body as JSON
-      setBase64Image(data.screenshots) // Update the base64 image when a row is clicked
-      setScreenshotUrl(romname)
+      // setIsRomSelected(true)
+      // const romname = e.data.name
+      // const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
+      // console.log('romname is' + romname)
+      // const response = await getScreenshots(romnameNoParens)
+      // const data = await response.json() // Parse the response body as JSON
+      // setBase64Image(data.screenshots) // Update the base64 image when a row is clicked
+      // setScreenshotUrl(romname)
       // if (!clickedYet) {
       //   navigate(`${encodeURI(romname)}`)
       //   setClickedYet(true)
@@ -119,16 +119,26 @@ export default function Grid() {
     suppressClickEdit: true,
     onCellClicked: handleSingleClick,
     onCellDoubleClicked: handleDoubleClick,
-    onCellFocused: function (event) {
-      if (event.api.getFocusedCell()) {
+    onCellKeyDown: function (event) {
+      // console.log(event)
+      console.log('event.key is ' + event.event.key)
+      if (event.event.key === 'ArrowUp' || event.event.key === 'ArrowDown') {
+        // event.api.deselectAll()
         const focusedNode = event.api.getDisplayedRowAtIndex(event.api.getFocusedCell().rowIndex)
+        event.api.forEachNode(node => {
+          if (node !== focusedNode) {
+            node.setSelected(false)
+          }
+        })
         focusedNode.setSelected(true)
       }
     },
     onRowSelected: async function (event) {
-      console.log('row selected')
       if (event.node.selected) {
-        console.log('selected')
+        console.log(event)
+        // console.log(event.event.toString())
+        console.log('row selected')
+        setIsRomSelected(true)
         const romname = event.data.name
         const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
         const response = await getScreenshots(romnameNoParens)
