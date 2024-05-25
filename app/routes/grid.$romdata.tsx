@@ -100,7 +100,7 @@ export default function Grid() {
   console.table(columnDefs)
   const gridOptions: GridOptions = {
     columnDefs,
-    defaultColDef: { flex: 1, minWidth: 150, resizable: true, sortable: true },
+    defaultColDef: { flex: 1, minWidth: 150, resizable: true, sortable: true, filter: true, floatingFilter: true },
     rowSelection: 'multiple',
     singleClickEdit: true,
     enableGroupEdit: true,
@@ -120,6 +120,9 @@ export default function Grid() {
         focusedNode.setSelected(true)
       } else if (e.event.key === 'Enter') {
         runGameWithRomdataFromEvent(e)
+        //prevent the 'i' key from entering field edit whilst trying to type a filter (no idea why it does this)
+      } else if (e.event.key === 'i') {
+        e.event.preventDefault()
       }
     },
     onRowSelected: async function (event) {
