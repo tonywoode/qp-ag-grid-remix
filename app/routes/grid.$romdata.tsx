@@ -123,10 +123,10 @@ export default function Grid() {
   return (
     <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
       {[
-        <div className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
+        <div key="grid" className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
           <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
         </div>,
-        <div>
+        <div key="mediaPanel">
           {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>}
           {/* <div>{screenshotUrl}</div> */}
         </div>
