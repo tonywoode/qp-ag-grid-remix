@@ -5,14 +5,14 @@ import styles from '~/styles/styles.css'
 import tailwindStyles from '~/styles/tailwind.css'
 import electron from '~/electron.server'
 import reactSplitStyles from '~/styles/react-split.css'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+// import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
 import { scanFolder } from '~/make_sidebar-data.server'
 import { Tree } from 'react-arborist'
-import { Resizable, ResizableBox } from 'react-resizable'
+// import { Resizable, ResizableBox } from 'react-resizable'
 import Split from 'react-split'
 import { Node } from '~/components/Node'
 //configure and export logging per-domain feature
@@ -34,11 +34,13 @@ export const links: LinksFunction = () => [
 const loggerConfig = [
   { feature: 'gridOperations', enabled: true },
   { feature: 'fileOperations', enabled: true },
-  { feature: 'goodMergeChoosing', enabled: true }
+  { feature: 'goodMergeChoosing', enabled: true },
+  { feature: 'screenshots', enabled: false }
 ]
 export const logger = createFeatureLogger(loggerConfig)
 
 export async function loader() {
+  console.log('in the root loader')
   const folderData = await scanFolder('./data')
   return json({ folderData, userDataPath: electron.app.getPath('userData') })
   // romdata,
@@ -101,7 +103,6 @@ export default function App() {
   useEffect(() => {
     setIsSplitLoaded(true)
   }, [])
-
   return (
     <html lang="en">
       <head>
