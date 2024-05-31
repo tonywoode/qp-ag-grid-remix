@@ -64,11 +64,11 @@ export default function Grid() {
   const [screenshotUrl, setScreenshotUrl] = useState()
   let { romdata } = useLoaderData()
   //when we switch to a new romdata, reset the state
-  useEffect(() => {
-    // Reset isRomSelected and base64Image when romdata changes
-    setIsRomSelected(false)
-    setBase64Image(null)
-  }, [romdata])
+  // useEffect(() => {
+  //   // Reset isRomSelected and base64Image when romdata changes
+  //   setIsRomSelected(false)
+  //   setBase64Image(null)
+  // }, [romdata])
   const params = useParams()
   const navigate = useNavigate()
   const [clickedCell, setClickedCell] = useState(null)
@@ -134,8 +134,9 @@ export default function Grid() {
         const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
         const response = await getScreenshots(romnameNoParens)
         const data = await response.json()
-        setBase64Image(data.screenshots)
-        setScreenshotUrl(romname)
+        // setBase64Image(data.screenshots)
+        // setScreenshotUrl(romname)
+        navigate(romname, { state: { romname } })
       }
     }
   }
@@ -146,7 +147,8 @@ export default function Grid() {
           <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
         </div>,
         <div key="mediaPanel">
-          {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>}
+          {isRomSelected && <Outlet />}
+          {/* {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>} */}
           {/* <div>{screenshotUrl}</div> */}
         </div>
       ]}

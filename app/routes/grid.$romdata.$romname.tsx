@@ -4,7 +4,9 @@ import Split from 'react-split'
 
 // export async function loader({ params }) {
 //   console.log('grid romdata romname loader')
-//   return {}
+//   const romname = params.romname
+//   console.log(romname)
+//   return { romname }
 // }
 
 // export const action = params => {
@@ -16,5 +18,5 @@ export default function gameFile() {
   const params = useParams()
   const romname = decodeURI(params.romname)
   console.log(`/mypath/${romname}`)
-  return <div>hello world </div>
+  return <div>{romname}</div>
 }
