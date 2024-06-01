@@ -8,7 +8,7 @@ import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-preve
 import { loadRomdata } from '~/load_romdata.server'
 import { useState } from 'react'
 import Split from 'react-split'
-import { runGame, rungame } from '~/runGame.server'
+import { runGame } from '~/runGame.server'
 
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
@@ -16,21 +16,21 @@ export async function loader({ params }) {
   return { romdata: romdataBlob.romdata }
 }
 
-// export const runGame = gameData => {
-//   fetch('/runGame', {
-//     method: 'POST',
-//     headers: { 'Content-Type': 'application/json' },
-//     body: JSON.stringify(gameData)
-//   })
-// }
+export const runGameViaFetch = gameData => {
+  fetch('/runGame', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(gameData)
+  })
+}
 
 export async function action({ request }) {
-  console.log(' you gone and called the action with' + request)
+  console.log('grid action called with' + request)
   // const formData = await request.formData()
-  const result = await request.json() //its json type, just call json
+  const result = await request.json()
   runGame(result)
   console.log(result)
-  return null
+  return {}
 }
 
 export default function Grid() {
@@ -56,8 +56,12 @@ export default function Grid() {
     const {
       data: { path, defaultGoodMerge, emulatorName }
     } = e
-    fetcher.submit({ gamePath: path, defaultGoodMerge, emulatorName }, { method: 'post', encType: 'application/json' }) //do note the json type here, nice!
-    // runGame({ gamePath: path, defaultGoodMerge, emulatorName })
+    // this is causing a scroll reset, losing my position in the grid, use fetch instead
+    // fetcher.submit(
+    //   { gamePath: path, defaultGoodMerge, emulatorName },
+    //   { method: 'post', encType: 'application/json' } //, preventScrollReset: true }
+    // )
+    runGameViaFetch({ gamePath: path, defaultGoodMerge, emulatorName })
   }
   const isEditable = ({ node: { rowIndex }, column: { colId } }) =>
     clickedCell && rowIndex === clickedCell.rowIndex && colId === clickedCell.colKey
