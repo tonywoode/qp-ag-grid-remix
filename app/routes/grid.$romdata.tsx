@@ -132,8 +132,8 @@ export default function Grid() {
         setIsRomSelected(true)
         const romname = event.data.name
         const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
-        const response = await getScreenshots(romnameNoParens)
-        const data = await response.json()
+        // const response = await getScreenshots(romnameNoParens)
+        // const data = await response.json()
         // setBase64Image(data.screenshots)
         // setScreenshotUrl(romname)
         navigate(romname, { state: { romname } })
