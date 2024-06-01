@@ -1,16 +1,7 @@
 import { useLoaderData } from '@remix-run/react'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
-import { useEffect, useState } from 'react'
-// import { loadScreenshots } from '~/screenshots.server'
-
-export const getScreenshots = screenshots => {
-  return fetch('/getScreenshots', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(screenshots)
-  })
-}
+import { loadScreenshots } from '~/screenshots.server'
 
 export async function loader({ params }) {
   console.log('grid romdata romname loader')
@@ -18,33 +9,17 @@ export async function loader({ params }) {
   console.log(params)
   console.log('in the loader romname is ' + romname)
   const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
-  return { romnameNoParens }
-  // const response = await getScreenshots(romnameNoParens)
-  // const data = await response.json()
-  return { data }
+  const gottenScreenshots = await loadScreenshots(romnameNoParens)
+  console.log('gottenScreenshots:')
+  console.table(gottenScreenshots)
+  const screenshots = gottenScreenshots.screenshots
+  return { screenshots }
 }
-
-// export const action = params => {
-//   console.log('grid romdata romname action')
-//   console.log(params)
-//   return { that: 'is a test' }
-// }
 
 export default function MediaPanel() {
   const data = useLoaderData()
-  const [screenshots, setScreenshots] = useState([])
+  const screenshots = data.screenshots
 
-  useEffect(() => {
-    async function fetchScreenshots() {
-      const response = await getScreenshots(data.romnameNoParens)
-      const gottenScreenshots = await response.json()
-      console.log('gottenScreenshots:')
-      console.table(gottenScreenshots)
-      setScreenshots(gottenScreenshots.screenshots || [])
-    }
-
-    fetchScreenshots()
-  }, [data])
   return (
     <Tabs>
       <TabList>
