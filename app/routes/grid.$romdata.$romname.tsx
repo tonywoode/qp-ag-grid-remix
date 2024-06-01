@@ -1,11 +1,12 @@
 import { useLoaderData } from '@remix-run/react'
+import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
 import { loadScreenshots } from '~/screenshots.server'
 
-export async function loader({ params }) {
+export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
-  const romname = params.romname
+  const romname = params.romname ?? ''
   console.log(params)
   console.log('in the loader romname is ' + romname)
   const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
