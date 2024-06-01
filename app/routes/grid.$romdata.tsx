@@ -2,37 +2,42 @@ import { AgGridReact } from 'ag-grid-react'
 import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupDef } from 'ag-grid-community'
-import { Outlet, useLoaderData, useParams, useNavigate } from '@remix-run/react'
+import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { loadRomdata } from '~/load_romdata.server'
 import { useState } from 'react'
 import Split from 'react-split'
+import { runGame, rungame } from '~/runGame.server'
+
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
   return { romdata: romdataBlob.romdata }
 }
 
-const runGameWithRomdataFromEvent = (e: CellClickedEvent) => {
-  const {
-    data: { path, defaultGoodMerge, emulatorName }
-  } = e
-  runGame({ gamePath: path, defaultGoodMerge, emulatorName })
-}
+// export const runGame = gameData => {
+//   fetch('/runGame', {
+//     method: 'POST',
+//     headers: { 'Content-Type': 'application/json' },
+//     body: JSON.stringify(gameData)
+//   })
+// }
 
-export const runGame = gameData => {
-  fetch('/runGame', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(gameData)
-  })
+export async function action({ request }) {
+  console.log(' you gone and called the action with' + request)
+  // const formData = await request.formData()
+  const result = await request.json() //its json type, just call json
+  runGame(result)
+  console.log(result)
+  return null
 }
 
 export default function Grid() {
   let { romdata } = useLoaderData()
   const params = useParams()
   const navigate = useNavigate()
+  const fetcher = useFetcher()
   const [clickedCell, setClickedCell] = useState(null)
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
@@ -47,7 +52,13 @@ export default function Grid() {
       runGameWithRomdataFromEvent(e)
     }
   )
-
+  const runGameWithRomdataFromEvent = (e: CellClickedEvent) => {
+    const {
+      data: { path, defaultGoodMerge, emulatorName }
+    } = e
+    fetcher.submit({ gamePath: path, defaultGoodMerge, emulatorName }, { method: 'post', encType: 'application/json' }) //do note the json type here, nice!
+    // runGame({ gamePath: path, defaultGoodMerge, emulatorName })
+  }
   const isEditable = ({ node: { rowIndex }, column: { colId } }) =>
     clickedCell && rowIndex === clickedCell.rowIndex && colId === clickedCell.colKey
 
