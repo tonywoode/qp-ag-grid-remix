@@ -10,8 +10,6 @@ export async function loader({ params }) {
   console.log('in the loader romname is ' + romname)
   const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
   const gottenScreenshots = await loadScreenshots(romnameNoParens)
-  console.log('gottenScreenshots:')
-  console.table(gottenScreenshots)
   const screenshots = gottenScreenshots.screenshots
   return { screenshots }
 }
@@ -36,12 +34,8 @@ export default function MediaPanel() {
     </Tabs>
   )
 }
-{
   /* {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>} */
-}
-{
   /* <div>{screenshotUrl}</div> */
-}
 
 // export default function gameFile() {
 // const params = useParams()

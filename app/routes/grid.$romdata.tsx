@@ -2,15 +2,14 @@ import { AgGridReact } from 'ag-grid-react'
 import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupDef } from 'ag-grid-community'
-//import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { Outlet, useLoaderData, useParams, useNavigate } from '@remix-run/react'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
+//import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { loadRomdata } from '~/load_romdata.server'
 import { useState } from 'react'
 import Split from 'react-split'
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
-  // let { screenshots } = await loadScreenshots()
   const romdataBlob = await loadRomdata(romdataLink)
   return { romdata: romdataBlob.romdata }
 }
