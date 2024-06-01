@@ -1,8 +1,7 @@
-import { useLoaderData, useParams } from '@remix-run/react'
-import { runGame } from './runGame'
-import Split from 'react-split'
-// import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
-// import { ScreenshotsTab } from '~/components/ScreenshotsTab'
+import { useLoaderData } from '@remix-run/react'
+import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
+import { ScreenshotsTab } from '~/components/ScreenshotsTab'
+import { useEffect, useState } from 'react'
 // import { loadScreenshots } from '~/screenshots.server'
 
 export const getScreenshots = screenshots => {
@@ -30,12 +29,6 @@ export async function loader({ params }) {
 //   console.log(params)
 //   return { that: 'is a test' }
 // }
-
-// MediaPanel.tsx
-import { Outlet } from '@remix-run/react'
-import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
-import { ScreenshotsTab } from '~/components/ScreenshotsTab'
-import { useEffect, useState } from 'react'
 
 export default function MediaPanel() {
   const data = useLoaderData()
