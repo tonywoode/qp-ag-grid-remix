@@ -6,11 +6,8 @@ import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupD
 import { Outlet, useLoaderData, useParams, useNavigate } from '@remix-run/react'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/load_romdata.server'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Split from 'react-split'
-import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
-import { ScreenshotsTab } from '~/components/ScreenshotsTab'
-import { loadScreenshots } from '~/screenshots.server'
 export async function loader({ params }) {
   const romdataLink = decodeURI(params.romdata)
   // let { screenshots } = await loadScreenshots()
@@ -33,42 +30,8 @@ export const runGame = gameData => {
   })
 }
 
-export const getScreenshots = screenshots => {
-  return fetch('/getScreenshots', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(screenshots)
-  })
-}
-export function MediaPanel({ screenshots }) {
-  screenshots = screenshots ? screenshots : []
-  return (
-    <Tabs>
-      <TabList>
-        <Tab>Screenshots</Tab>
-        <Tab>Game Info</Tab>
-      </TabList>
-
-      <TabPanel>
-        <ScreenshotsTab screenshots={screenshots} />
-      </TabPanel>
-      <TabPanel>
-        <h2>Good Game, son</h2>
-      </TabPanel>
-    </Tabs>
-  )
-}
 export default function Grid() {
-  const [isRomSelected, setIsRomSelected] = useState(false)
-  const [base64Image, setBase64Image] = useState(null)
-  const [screenshotUrl, setScreenshotUrl] = useState()
   let { romdata } = useLoaderData()
-  //when we switch to a new romdata, reset the state
-  // useEffect(() => {
-  //   // Reset isRomSelected and base64Image when romdata changes
-  //   setIsRomSelected(false)
-  //   setBase64Image(null)
-  // }, [romdata])
   const params = useParams()
   const navigate = useNavigate()
   const [clickedCell, setClickedCell] = useState(null)
@@ -129,13 +92,7 @@ export default function Grid() {
       if (event.node.selected) {
         console.log(event)
         console.log('row selected')
-        setIsRomSelected(true)
         const romname = event.data.name
-        const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
-        // const response = await getScreenshots(romnameNoParens)
-        // const data = await response.json()
-        // setBase64Image(data.screenshots)
-        // setScreenshotUrl(romname)
         navigate(romname, { state: { romname } })
       }
     }
@@ -146,11 +103,7 @@ export default function Grid() {
         <div key="grid" className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
           <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
         </div>,
-        <div key="mediaPanel">
-          {isRomSelected && <Outlet />}
-          {/* {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>} */}
-          {/* <div>{screenshotUrl}</div> */}
-        </div>
+        <div key="mediaPanel">{<Outlet />}</div>
       ]}
     </Split>
   )

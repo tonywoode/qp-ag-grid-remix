@@ -1,6 +1,9 @@
 import { useLoaderData, useParams } from '@remix-run/react'
 import { runGame } from './runGame'
 import Split from 'react-split'
+// import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
+// import { ScreenshotsTab } from '~/components/ScreenshotsTab'
+// import { loadScreenshots } from '~/screenshots.server'
 
 export const getScreenshots = screenshots => {
   return fetch('/getScreenshots', {
@@ -64,6 +67,12 @@ export default function MediaPanel() {
       </TabPanel>
     </Tabs>
   )
+}
+{
+  /* {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>} */
+}
+{
+  /* <div>{screenshotUrl}</div> */
 }
 
 // export default function gameFile() {
