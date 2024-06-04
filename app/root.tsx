@@ -17,7 +17,7 @@ import Split from 'react-split'
 import { Node } from '~/components/Node'
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
@@ -91,9 +91,10 @@ export function TreeView({ folderData }) {
 }
 
 export default function App() {
+  console.log('in the root component')
   const data = useLoaderData<typeof loader>()
-  const folderData = data.folderData
-  const screenshots = data.screenshots
+  const folderData = useMemo(() => data.folderData, [data.folderData])
+  // const screenshots = data.screenshots
   const matches = useMatches()
   let match = matches.find(match => 'romdata' in match.data)
   const [isSplitLoaded, setIsSplitLoaded] = useState(false)
@@ -103,6 +104,16 @@ export default function App() {
   useEffect(() => {
     setIsSplitLoaded(true)
   }, [])
+  useEffect(() => {
+    console.log('data changed', data)
+  }, [data])
+  useEffect(() => {
+    console.log('folderData changed', folderData)
+  }, [folderData])
+
+  useEffect(() => {
+    console.log('matches changed', matches)
+  }, [matches])
   return (
     <html lang="en">
       <head>

@@ -8,7 +8,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
   const romname = params.romname ?? ''
   console.log(params)
-  console.log('in the loader romname is ' + romname)
+  console.log('in the grid.$romdata.$romname loader romname is ' + romname)
   const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
   const gottenScreenshots = await loadScreenshots(romnameNoParens)
   const screenshots = gottenScreenshots.screenshots

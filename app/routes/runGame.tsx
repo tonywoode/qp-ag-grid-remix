@@ -1,12 +1,12 @@
 import { execSync } from 'child_process'
-import type { ActionArgs } from '@remix-run/node'
+import type { ActionFunctionArgs } from '@remix-run/node'
 import path from 'path'
 import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '../utils/createDirIfNotExist'
 import { logger } from '../root'
 import emulators from '~/../dats/emulators.json'
 
-export async function action({ request }: ActionArgs) {
+export async function action({ request }: ActionFunctionArgs) {
   //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const node7z = await import('node-7z-archive')
