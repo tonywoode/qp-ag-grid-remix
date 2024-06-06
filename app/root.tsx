@@ -1,23 +1,25 @@
 import { cssBundleHref } from '@remix-run/css-bundle'
 import { json, type LinksFunction, type MetaFunction } from '@remix-run/node'
-import { Form, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useFetcher, useLoaderData, useMatches } from '@remix-run/react' // prettier-ignore
-import styles from '~/styles/styles.css'
-import tailwindStyles from '~/styles/tailwind.css'
+import { Form, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches } from '@remix-run/react' // prettier-ignore
+import { useState, useEffect, useRef } from 'react'
 import electron from '~/electron.server'
-import reactSplitStyles from '~/styles/react-split.css'
-// import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
+import { Tree } from 'react-arborist'
+import Split from 'react-split'
+// import { Resizable, ResizableBox } from 'react-resizable'
+
+import tailwindStyles from '~/styles/tailwind.css'
+import reactSplitStyles from '~/styles/react-split.css'
+import styles from '~/styles/styles.css'
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
+
 import { scanFolder } from '~/make_sidebar-data.server'
-import { Tree } from 'react-arborist'
-// import { Resizable, ResizableBox } from 'react-resizable'
-import Split from 'react-split'
 import { Node } from '~/components/Node'
+
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
-import { useState, useEffect, useRef, useMemo } from 'react'
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
@@ -43,8 +45,8 @@ export async function loader() {
   console.log('in the root loader')
   const folderData = await scanFolder('./data')
   return json({ folderData, userDataPath: electron.app.getPath('userData') })
-  // romdata,
 }
+
 export const action = async () => {
   const result = await electron.dialog.showOpenDialog({
     title: 'select original QuickPlay data folder',
@@ -93,8 +95,7 @@ export function TreeView({ folderData }) {
 export default function App() {
   console.log('in the root component')
   const data = useLoaderData<typeof loader>()
-  const folderData = useMemo(() => data.folderData, [data.folderData])
-  // const screenshots = data.screenshots
+  const folderData = data.folderData
   const matches = useMatches()
   let match = matches.find(match => 'romdata' in match.data)
   const [isSplitLoaded, setIsSplitLoaded] = useState(false)
@@ -104,16 +105,7 @@ export default function App() {
   useEffect(() => {
     setIsSplitLoaded(true)
   }, [])
-  useEffect(() => {
-    console.log('data changed', data)
-  }, [data])
-  useEffect(() => {
-    console.log('folderData changed', folderData)
-  }, [folderData])
 
-  useEffect(() => {
-    console.log('matches changed', matches)
-  }, [matches])
   return (
     <html lang="en">
       <head>
@@ -137,7 +129,6 @@ export default function App() {
                 <div>
                   <Outlet />
                 </div>
-                {/* <MediaPanel screenshots={screenshots} /> */}
               </Split>
               <h1 className="absolute m-2 text-xs font-mono underline">
                 Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}

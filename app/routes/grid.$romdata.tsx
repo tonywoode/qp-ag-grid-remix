@@ -5,8 +5,7 @@ import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupD
 import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import type { ActionFunctionArgs, LoaderFunctionArgs } from '@remix-run/node'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
-//import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
-import { loadRomdata } from '~/load_romdata.server'
+import { loadRomdata } from '~/load_romdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { useState } from 'react'
 import Split from 'react-split'
 import { runGame } from '~/runGame.server'
@@ -35,7 +34,7 @@ export async function action({ request }: ActionFunctionArgs) {
 }
 
 export default function Grid() {
-  let { romdata } = useLoaderData()
+  let { romdata } = useLoaderData<typeof loader>()
   const params = useParams()
   const navigate = useNavigate()
   const fetcher = useFetcher()

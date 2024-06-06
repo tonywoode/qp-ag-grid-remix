@@ -16,7 +16,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
 }
 
 export default function MediaPanel() {
-  const data = useLoaderData()
+  const data = useLoaderData<typeof loader>()
   const screenshots = data.screenshots
 
   return (

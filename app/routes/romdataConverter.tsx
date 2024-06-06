@@ -1,6 +1,5 @@
 import { convertRomDataToJSON } from '~/utils/romdataToJSON'
 
-import { useLoaderData } from '@remix-run/react'
 export async function loader() {
   console.log('loading romdataConverter')
   return 'Romdata Converter'
