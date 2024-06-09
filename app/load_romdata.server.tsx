@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import emulators from '../dats/emulators.json'
 
 export function loadRomdata(romdataPathStarred) {
   //swap the * back to / for the path
@@ -10,5 +11,14 @@ export function loadRomdata(romdataPathStarred) {
   const romdataRaw = fs.readFileSync(romdataPathFull, 'utf8')
   // romdata is json, so parse it
   const romdata = JSON.parse(romdataRaw)
+
+  // Create a map from emulatorName to system
+  const emulatorToSystem = new Map(emulators.map(emulator => [emulator.emulatorName, emulator.system]))
+
+  // Add a system property to each row in romdata.romdata
+  romdata.romdata.forEach(row => {
+    row.system = emulatorToSystem.get(row.emulatorName) || 'Unknown'
+  })
+
   return romdata
 }

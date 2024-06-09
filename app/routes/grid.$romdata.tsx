@@ -24,20 +24,20 @@ export const runGameViaFetch = gameData => {
   })
 }
 
-export async function action({ request }: ActionFunctionArgs) {
-  console.log('grid action called with' + request)
-  // const formData = await request.formData()
-  const result = await request.json()
-  runGame(result)
-  console.log(result)
-  return {}
-}
+// export async function action({ request }: ActionFunctionArgs) {
+//   console.log('grid action called with' + request)
+//   // const formData = await request.formData()
+//   const result = await request.json()
+//   runGame(result)
+//   console.log(result)
+//   return {}
+// }
 
 export default function Grid() {
   let { romdata } = useLoaderData<typeof loader>()
   const params = useParams()
   const navigate = useNavigate()
-  const fetcher = useFetcher()
+  // const fetcher = useFetcher()
   const [clickedCell, setClickedCell] = useState(null)
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
