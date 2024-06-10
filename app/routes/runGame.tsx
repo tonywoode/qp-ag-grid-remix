@@ -5,6 +5,7 @@ import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '../utils/createDirIfNotExist'
 import { logger } from '../root'
 import emulators from '~/../dats/emulators.json'
+import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
 export async function action({ request }: ActionFunctionArgs) {
   //you can move the below above here once you upgrade remix, top level await will work
@@ -14,13 +15,14 @@ export async function action({ request }: ActionFunctionArgs) {
   const { gamePath, defaultGoodMerge, emulatorName } = await request.json()
   logger.log(`gridOperations`, `received from grid`, { gamePath, defaultGoodMerge, emulatorName })
 
-  const macOSGamesDirPath = '/Volumes/Untitled/Games'
-  const gamesDirReplacedPath = path.join(
-    //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
-    gamePath.replace(/^\{gamesDir\}/, macOSGamesDirPath)
-  )
-  const gamePathMacOS = path.normalize(gamesDirReplacedPath).replace(/\\/g, '/') //TODO: is the replace really required?
+  // const macOSGamesDirPath = '/Volumes/Untitled/Games'
+  // const gamesDirReplacedPath = path.join(
+  //   gamePath.replace(/^\{gamesDir\}/, macOSGamesDirPath)
+  // )
+  // const gamePathMacOS = path.normalize(gamesDirReplacedPath).replace(/\\/g, '/') //TODO: is the replace really required?
 
+  //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
+  const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
   // const gamePathMacOS = path.join(
   //   '/Volumes/Untitled/Games',
   //   gamePath.replace(/^[A-Z]:/, '').split('\\').join('/') // prettier-ignore
