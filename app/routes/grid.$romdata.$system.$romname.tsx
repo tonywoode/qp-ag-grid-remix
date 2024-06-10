@@ -4,6 +4,8 @@ import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
 import { loadScreenshots } from '~/screenshots.server'
+import { decodeString } from '~/utils/safeUrl'
+// import { runGame } from '~/runGame.server'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
@@ -11,10 +13,6 @@ export async function loader({ params }: LoaderFunctionArgs) {
   console.log(params)
   const romname = params.romname ? decodeString(params.romname).trim() : ''
   const system = params.system ? decodeString(params.system).trim() : ''
-  function decodeString(str) {
-    let decodedString = decodeURIComponent(str).replace(/~/g, '\\')
-    return decodedString
-  }
   console.log('in the grid.$romdata.$romname loader romname is ' + romname)
   // const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
   const gottenScreenshots = await loadScreenshots(romname, system)

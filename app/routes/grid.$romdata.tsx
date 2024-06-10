@@ -4,14 +4,14 @@ import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupDef } from 'ag-grid-community'
 import { Outlet, useLoaderData, useParams, useNavigate /*useFetcher*/ } from '@remix-run/react'
 import type { /*ActionFunctionArgs,*/ LoaderFunctionArgs } from '@remix-run/node'
-import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
-import { loadRomdata } from '~/load_romdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { useState } from 'react'
 import Split from 'react-split'
-// import { runGame } from '~/runGame.server'
+import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
+import { loadRomdata } from '~/load_romdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
+import { encodeString, decodeString } from '~/utils/safeUrl' // import { runGame } from '~/runGame.server'
 
 export async function loader({ params }: LoaderFunctionArgs) {
-  const romdataLink = decodeURI(params.romdata)
+  const romdataLink = decodeString(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
   return { romdata: romdataBlob.romdata }
 }
@@ -35,11 +35,6 @@ export const runGameViaFetch = gameData => {
 
 export default function Grid() {
   let { romdata } = useLoaderData<typeof loader>()
-  function encodeString(str) {
-    let replacedString = str.replace(/\\/g, '~') // replace backslashes with ~
-    let encodedString = encodeURIComponent(replacedString)
-    return encodedString
-  }
   const params = useParams()
   const navigate = useNavigate()
   // const fetcher = useFetcher()

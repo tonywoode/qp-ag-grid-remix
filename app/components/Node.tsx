@@ -17,9 +17,10 @@ export function Node({ node, style, dragHandle }) {
   }
 
   const [handleSingleClick, handlePreventedDoubleClick] = useClickPreventionOnDoubleClick(() => {
-    const romdataStars = node.data.romdataLink?.replace(/\//g, '*')
-    if (romdataStars && location.pathname !== `/grid/${encodeURI(romdataStars)}`) {
-      navigate(`/grid/${encodeURI(romdataStars)}`)
+    const romdata = node.data.romdataLink
+    const romdataEncoded = encodeURI(romdata)
+    if (romdata && location.pathname !== `/grid/${romdataEncoded}`) {
+      navigate(`/grid/${romdataEncoded}`)
     } else {
       toggleNode()
     }
