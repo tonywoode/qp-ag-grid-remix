@@ -1,4 +1,5 @@
-import { useLoaderData } from '@remix-run/react'
+import { useLoaderData, useRouteLoaderData } from '@remix-run/react'
+import { type loader as gridLoader } from 'grid.$romdata.tsx'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
@@ -6,17 +7,26 @@ import { loadScreenshots } from '~/screenshots.server'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
-  const romname = params.romname ?? ''
+  console.log('heres your params:')
   console.log(params)
+  const romname = params.romname ? decodeString(params.romname).trim() : ''
+  const system = params.system ? decodeString(params.system).trim() : ''
+  function decodeString(str) {
+    let decodedString = decodeURIComponent(str).replace(/~/g, '\\')
+    return decodedString
+  }
   console.log('in the grid.$romdata.$romname loader romname is ' + romname)
-  const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
-  const gottenScreenshots = await loadScreenshots(romnameNoParens)
+  // const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
+  const gottenScreenshots = await loadScreenshots(romname, system)
   const screenshots = gottenScreenshots.screenshots
   return { screenshots }
 }
 
 export default function MediaPanel() {
   const data = useLoaderData<typeof loader>()
+  const data2 = useRouteLoaderData<typeof gridLoader>('routes/grid.$romdata')
+  console.log('data2 is:')
+  console.log(data2)
   const screenshots = data.screenshots
 
   return (
@@ -35,8 +45,8 @@ export default function MediaPanel() {
     </Tabs>
   )
 }
-  /* {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>} */
-  /* <div>{screenshotUrl}</div> */
+/* {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>} */
+/* <div>{screenshotUrl}</div> */
 
 // export default function gameFile() {
 // const params = useParams()
