@@ -14,7 +14,17 @@ async function findScreenshotPaths(screenshotName: string, screenshotPaths: stri
       if (foundFile) {
         const filePath = path.join(macPath, foundFile)
         const file = await fs.promises.readFile(filePath)
-        const base64File = `data:image/png;base64,${file.toString('base64')}`
+        const ext = path.extname(foundFile).toLowerCase()
+        const mimeTypes: { [key: string]: string } = {
+          '.jpg': 'image/jpeg',
+          '.jpeg': 'image/jpeg',
+          '.png': 'image/png',
+          '.gif': 'image/gif',
+          '.bmp': 'image/bmp',
+          '.ico': 'image/x-icon'
+        }
+        const mimeType = mimeTypes[ext] || 'application/octet-stream'
+        const base64File = `data:${mimeType};base64,${file.toString('base64')}`
         foundFiles.push(base64File)
       }
     } catch (error) {
