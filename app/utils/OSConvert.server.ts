@@ -9,18 +9,20 @@ export function convertWindowsPathToMacPath(winPath: string) {
   winPath = winPath.replace(/^\{gamesDir\}/, macOSGamesDirPath)
 
   // Split the path into components
-  let components = winPath.split('/')
+  let components = winPath.split('\\')
 
+  console.log('Original Windows path:', winPath)
+  console.log('Split path components:', components)
   // Replace the drive letter with the appropriate root directory
-  if (components[0] === 'F:\\') {
+  if (components[0] === 'F:') {
     components[0] = macOSGamesDirPath
-  } else if (components[0] === 'P:\\') {
+  } else if (components[0] === 'P:') {
     components[0] = macOSemulatorsDirPath
   }
 
   // Join the components back together and normalize the path
   let macPath = path.join(...components)
-  macPath = '/' + path.normalize(macPath)
+  macPath = path.normalize(macPath)
 
   console.log('Converted Windows path:', macPath)
   return macPath
