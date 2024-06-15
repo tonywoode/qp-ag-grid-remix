@@ -15,7 +15,7 @@ import styles from '~/styles/styles.css'
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
 
-import { scanFolder } from '~/make_sidebar-data.server'
+import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
 
 //configure and export logging per-domain feature

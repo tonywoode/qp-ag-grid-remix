@@ -7,7 +7,7 @@ import type { /*ActionFunctionArgs,*/ LoaderFunctionArgs } from '@remix-run/node
 import { useState } from 'react'
 import Split from 'react-split'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
-import { loadRomdata } from '~/load_romdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
+import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { encodeString, decodeString } from '~/utils/safeUrl' // import { runGame } from '~/runGame.server'
 
 export async function loader({ params }: LoaderFunctionArgs) {

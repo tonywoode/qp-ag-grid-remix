@@ -35,7 +35,7 @@ async function findScreenshotPaths(screenshotName: string, screenshotPaths: stri
   return foundFiles
 }
 
-export async function loadScreenshots(screenshots: string, system: string) {
+export async function loadTabContents(screenshots: string, system: string) {
   console.log('load screenshosts server passed ' + system + ' ' + screenshots)
   const thisSystemsTabs = mediaPanelConfig?.[system]?.tabs
   console.log(thisSystemsTabs)

@@ -1,6 +1,6 @@
 import { promises as fsPromises } from 'fs'
 import path from 'path'
-import { loadIconBase64 } from './load_images.server'
+import { loadIconBase64 } from './loadImages.server'
 
 let idCounter = 1
 

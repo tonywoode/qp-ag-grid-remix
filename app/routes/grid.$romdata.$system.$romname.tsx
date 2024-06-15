@@ -1,9 +1,9 @@
-import { useLoaderData, useRouteLoaderData } from '@remix-run/react'
-import { type loader as gridLoader } from 'grid.$romdata.tsx'
+import { useLoaderData /*,useRouteLoaderData*/ } from '@remix-run/react'
+// import { type loader as gridLoader } from 'grid.$romdata.tsx'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
-import { loadScreenshots } from '~/screenshots.server'
+import { loadTabContents } from '~/tabContents.server'
 import { decodeString } from '~/utils/safeUrl'
 // import { runGame } from '~/runGame.server'
 
@@ -15,17 +15,17 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const system = params.system ? decodeString(params.system).trim() : ''
   console.log('in the grid.$romdata.$romname loader romname is ' + romname)
   // const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
-  const gottenScreenshots = await loadScreenshots(romname, system)
-  const screenshots = gottenScreenshots.screenshots
-  return { screenshots }
+  const tabContents = await loadTabContents(romname, system)
+  // const screenshots = tabContents.screenshots
+  return { tabContents }
 }
 
 export default function MediaPanel() {
-  const data = useLoaderData<typeof loader>()
-  const data2 = useRouteLoaderData<typeof gridLoader>('routes/grid.$romdata')
-  console.log('data2 is:')
-  console.log(data2)
-  const screenshots = data.screenshots
+  const { tabContents } = useLoaderData<typeof loader>()
+  // const data2 = useRouteLoaderData<typeof gridLoader>('routes/grid.$romdata')
+  // console.log('data2 is:')
+  // console.log(data2)
+  const screenshots = tabContents.screenshots
 
   return (
     <Tabs>
