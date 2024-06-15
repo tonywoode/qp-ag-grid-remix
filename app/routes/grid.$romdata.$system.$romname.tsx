@@ -19,7 +19,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const thisSystemsTabs = await loadTabData(system)
   const { screenshots } = await getTabImages(romname, thisSystemsTabs, system)
   // const screenshots = tabContents.screenshots
-  return { screenshots }
+  return { thisSystemsTabs, screenshots }
 }
 
 export default function MediaPanel() {
@@ -29,23 +29,27 @@ export default function MediaPanel() {
   // console.log(data2)
   // console.log('tabNames')
   // console.log(tabContents.tabNames)
+  const { thisSystemsTabs } = tabContents
   const screenshots = tabContents.screenshots
   console.log('screenshots is:')
   console.log(screenshots)
-
+  const tabs = thisSystemsTabs
+  tabs.sort((a, b) => a.tabOrder - b.tabOrder)
+  console.log('tabs is:')
+  console.log(tabs)
   return (
     <Tabs>
       <TabList>
-        <Tab>Screenshots</Tab>
-        <Tab>Game Info</Tab>
+        {tabs.map((tab, index) => (
+          <Tab key={index}>{tab.caption}</Tab>
+        ))}
       </TabList>
 
-      <TabPanel>
-        <ScreenshotsTab screenshots={screenshots} />
-      </TabPanel>
-      <TabPanel>
-        <h2>Good Game, son</h2>
-      </TabPanel>
+      {tabs.map((tab, index) => (
+        <TabPanel key={index}>
+          {tab.caption === 'ScreenShots' ? <ScreenshotsTab screenshots={screenshots} /> : <h2>Good Game, son</h2>}
+        </TabPanel>
+      ))}
     </Tabs>
   )
 }
