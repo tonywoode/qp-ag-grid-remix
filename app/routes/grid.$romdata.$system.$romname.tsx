@@ -3,7 +3,7 @@ import { useLoaderData /*,useRouteLoaderData*/ } from '@remix-run/react'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
-import { loadTabContents } from '~/tabContents.server'
+import { loadTabData } from '~/tabData.server'
 import { decodeString } from '~/utils/safeUrl'
 // import { runGame } from '~/runGame.server'
 
@@ -15,7 +15,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const system = params.system ? decodeString(params.system).trim() : ''
   console.log('in the grid.$romdata.$romname loader romname is ' + romname)
   // const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
-  const tabContents = await loadTabContents(romname, system)
+  const tabContents = await loadTabData(romname, system)
   // const screenshots = tabContents.screenshots
   return { tabContents }
 }
@@ -25,6 +25,8 @@ export default function MediaPanel() {
   // const data2 = useRouteLoaderData<typeof gridLoader>('routes/grid.$romdata')
   // console.log('data2 is:')
   // console.log(data2)
+  // console.log('tabNames')
+  // console.log(tabContents.tabNames)
   const screenshots = tabContents.screenshots
 
   return (
