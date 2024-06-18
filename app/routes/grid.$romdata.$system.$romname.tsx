@@ -37,6 +37,48 @@ export default function MediaPanel() {
   tabs.sort((a, b) => a.tabOrder - b.tabOrder)
   console.log('tabs is:')
   console.log(tabs)
+
+  /*
+here's the current values of tabs.caption in the data:
+[
+  'ScreenShots',    'Titles',
+  'Box',            'Flyers',
+  'System Info',    'Extras',
+  'Manuals',        'Game History',
+  'Samples',        'Marquees',
+  'Game Info',      'Mame Command dat',
+  'Mame Game Init', 'Mame Mess Info',
+  'Mame Story Dat', 'Mame Mess SysInfo',
+  'ArtPreview',     'Cabinets',
+  'Control Panels', 'Game Over',
+  'How To',         'Logo',
+  'pcb',            'Scores',
+  'Select',         'Versus',
+  'Gamepad',        'Cart',
+  'Background',     'Banner',
+  'Box3D',          'MAME Info',
+  'Advert',         'Box Back',
+  'CD'
+]
+remember in qp there are a number of types....what are they?
+well
+
+Items.Strings = (
+      'Images/Slideshow'
+      'Game info dat file'
+      'Game history dat file'
+      'Thumbnails'
+      'System'
+      'Rom Info'
+      'Mame Command dat file'
+      'Mame Game init file'
+      'Mame Mess info file'
+      'Mame Story file'
+      'Mame Mess sysInfo file')
+
+
+*/
+
   return (
     <Tabs>
       <TabList>
