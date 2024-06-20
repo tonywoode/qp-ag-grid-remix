@@ -1,11 +1,13 @@
-import { useLoaderData /*,useRouteLoaderData*/ } from '@remix-run/react'
+import { Link, useFetcher, useLoaderData /*,useRouteLoaderData*/ } from '@remix-run/react'
 // import { type loader as gridLoader } from 'grid.$romdata.tsx'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { ScreenshotsTab } from '~/components/ScreenshotsTab'
 import { loadTabData } from '~/tabData.server'
-import { getTabImages } from '~/getTabImages.server'
+// import { getTabImages } from '~/getTabImages.server'
 import { decodeString } from '~/utils/safeUrl'
+import { AiOutlineConsoleSql } from 'react-icons/ai'
+import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
 
 export async function loader({ params }: LoaderFunctionArgs) {
@@ -17,22 +19,22 @@ export async function loader({ params }: LoaderFunctionArgs) {
   console.log('in the grid.$romdata.$romname loader romname is ' + romname)
   // const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
   const thisSystemsTabs = await loadTabData(system)
-  const { screenshots } = await getTabImages(romname, thisSystemsTabs, system)
+  // const { screenshots } = await getTabImages(romname, thisSystemsTabs, system)
   // const screenshots = tabContents.screenshots
-  return { thisSystemsTabs, screenshots }
+  return { thisSystemsTabs, romname, system }
 }
 
 export default function MediaPanel() {
+  const fetcher = useFetcher()
   const tabContents = useLoaderData<typeof loader>()
   // const data2 = useRouteLoaderData<typeof gridLoader>('routes/grid.$romdata')
   // console.log('data2 is:')
   // console.log(data2)
   // console.log('tabNames')
   // console.log(tabContents.tabNames)
-  const { thisSystemsTabs } = tabContents
-  const screenshots = tabContents.screenshots
-  console.log('screenshots is:')
-  console.log(screenshots)
+  const { thisSystemsTabs, romname, system } = tabContents
+  // console.log('screenshots is:')
+  // console.log(screenshots)
   const tabs = thisSystemsTabs
   tabs.sort((a, b) => a.tabOrder - b.tabOrder)
   console.log('tabs is:')
@@ -78,6 +80,19 @@ Items.Strings = (
 
 
 */
+  const [data, setData] = useState(null)
+
+  useEffect(() => {
+    if (tabs.some(tab => tab.caption === 'ScreenShots')) {
+      fetch('/screenshots', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ romname, thisSystemsTabs, system })
+      })
+        .then(response => response.json())
+        .then(data => setData(data))
+    }
+  }, [tabs, romname, thisSystemsTabs, system])
 
   return (
     <Tabs>
@@ -89,7 +104,24 @@ Items.Strings = (
 
       {tabs.map((tab, index) => (
         <TabPanel key={index}>
-          {tab.caption === 'ScreenShots' ? <ScreenshotsTab screenshots={screenshots} /> : <h2>Good Game, son</h2>}
+          {tab.caption === 'ScreenShots' ? (
+            <div>
+              {data &&
+                data.screenshots &&
+                data.screenshots.map((screenshot, index) => <img key={index} src={`${screenshot}`} alt="Screenshot" />)}
+            </div>
+          ) : (
+            // fetcher.submit(
+            //   { romname, thisSystemsTabs, system },
+            //   {
+            //     action: `/screenshots`,
+            //     method: 'post',
+            //     encType: 'application/json'
+            //   }
+            // )
+            // <h2> hello </h2>
+            <h2>Good Game, son</h2>
+          )}
         </TabPanel>
       ))}
     </Tabs>
