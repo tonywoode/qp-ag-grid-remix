@@ -2,13 +2,14 @@ import { AgGridReact } from 'ag-grid-react'
 import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupDef } from 'ag-grid-community'
-import { Outlet, useLoaderData, useParams, useNavigate /*useFetcher*/ } from '@remix-run/react'
+import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import type { /*ActionFunctionArgs,*/ LoaderFunctionArgs } from '@remix-run/node'
 import { useState } from 'react'
 import Split from 'react-split'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { encodeString, decodeString } from '~/utils/safeUrl' // import { runGame } from '~/runGame.server'
+import type { action as runGameAction } from './runGame'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
@@ -37,7 +38,7 @@ export default function Grid() {
   let { romdata } = useLoaderData<typeof loader>()
   const params = useParams()
   const navigate = useNavigate()
-  // const fetcher = useFetcher()
+  const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState(null)
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
@@ -59,7 +60,7 @@ export default function Grid() {
     // this is causing a scroll reset, losing my position in the grid, use fetch instead
     // fetcher.submit(
     //   { gamePath: path, defaultGoodMerge, emulatorName },
-    //   { method: 'post', encType: 'application/json' } //, preventScrollReset: true }
+    //   { action: '/runGame', method: 'post', encType: 'application/json' } //, preventScrollReset: true }
     // )
     runGameViaFetch({ gamePath: path, defaultGoodMerge, emulatorName })
   }
