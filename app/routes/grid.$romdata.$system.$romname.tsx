@@ -2,11 +2,9 @@ import { Link, useFetcher, useLoaderData /*,useRouteLoaderData*/ } from '@remix-
 // import { type loader as gridLoader } from 'grid.$romdata.tsx'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
-import { ScreenshotsTab } from '~/components/ScreenshotsTab'
 import { loadTabData } from '~/tabData.server'
 // import { getTabImages } from '~/getTabImages.server'
 import { decodeString } from '~/utils/safeUrl'
-import { AiOutlineConsoleSql } from 'react-icons/ai'
 import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
 
@@ -96,11 +94,20 @@ export default function MediaPanel() {
       {thisSystemsTabs.map((tab, index) => (
         <TabPanel key={index}>
           {tab.caption === 'ScreenShots' && tabData ? (
-            <div>
-              {tabData.screenshots.map((screenshot, index) => (
-                <img key={index} src={screenshot} alt="Screenshot" />
-              ))}
-            </div>
+            tabData.screenshots && tabData.screenshots.length > 0 ? (
+              <div>
+                {tabData.screenshots.map((screenshot, index) => (
+                  <img
+                    key={index}
+                    src={screenshot}
+                    alt={`Screenshot ${index}`}
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div>Image not found</div>
+            )
           ) : (
             <h2>Tab content for {tab.caption}</h2>
           )}
