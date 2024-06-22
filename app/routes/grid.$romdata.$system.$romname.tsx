@@ -24,23 +24,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
   return { thisSystemsTabs, romname, system }
 }
 
-export default function MediaPanel() {
-  const fetcher = useFetcher()
-  const tabContents = useLoaderData<typeof loader>()
-  // const data2 = useRouteLoaderData<typeof gridLoader>('routes/grid.$romdata')
-  // console.log('data2 is:')
-  // console.log(data2)
-  // console.log('tabNames')
-  // console.log(tabContents.tabNames)
-  const { thisSystemsTabs, romname, system } = tabContents
-  // console.log('screenshots is:')
-  // console.log(screenshots)
-  const tabs = thisSystemsTabs
-  tabs.sort((a, b) => a.tabOrder - b.tabOrder)
-  console.log('tabs is:')
-  console.log(tabs)
-
-  /*
+/*
 here's the current values of tabs.caption in the data:
 [
   'ScreenShots',    'Titles',
@@ -80,37 +64,52 @@ Items.Strings = (
 
 
 */
-  const [data, setData] = useState(null)
+export default function MediaPanel() {
+  const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
+  const [selectedTabIndex, setSelectedTabIndex] = useState(0)
+  const [tabData, setTabData] = useState(null)
 
   useEffect(() => {
-    if (tabs.some(tab => tab.caption === 'ScreenShots')) {
+    const selectedTabCaption = thisSystemsTabs[selectedTabIndex]?.caption
+    if (selectedTabCaption === 'ScreenShots') {
       fetch('/screenshots', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ romname, thisSystemsTabs, system })
       })
         .then(response => response.json())
-        .then(data => setData(data))
+        .then(data => setTabData(data))
+    } else {
+      // Reset or handle other tabs differently
+      setTabData(null)
     }
-  }, [tabs, romname, thisSystemsTabs, system])
+  }, [selectedTabIndex, romname, system, thisSystemsTabs])
 
   return (
-    <Tabs>
+    <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
       <TabList>
-        {tabs.map((tab, index) => (
+        {thisSystemsTabs.map((tab, index) => (
           <Tab key={index}>{tab.caption}</Tab>
         ))}
       </TabList>
 
-      {tabs.map((tab, index) => (
+      {thisSystemsTabs.map((tab, index) => (
         <TabPanel key={index}>
-          {tab.caption === 'ScreenShots' ? (
+          {tab.caption === 'ScreenShots' && tabData ? (
             <div>
-              {data &&
-                data.screenshots &&
-                data.screenshots.map((screenshot, index) => <img key={index} src={`${screenshot}`} alt="Screenshot" />)}
+              {tabData.screenshots.map((screenshot, index) => (
+                <img key={index} src={screenshot} alt="Screenshot" />
+              ))}
             </div>
           ) : (
+            <h2>Tab content for {tab.caption}</h2>
+          )}
+        </TabPanel>
+      ))}
+    </Tabs>
+  )
+}
+
             // fetcher.submit(
             //   { romname, thisSystemsTabs, system },
             //   {
@@ -120,13 +119,8 @@ Items.Strings = (
             //   }
             // )
             // <h2> hello </h2>
-            <h2>Good Game, son</h2>
-          )}
-        </TabPanel>
-      ))}
-    </Tabs>
-  )
-}
+
+
 /* {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>} */
 /* <div>{screenshotUrl}</div> */
 
