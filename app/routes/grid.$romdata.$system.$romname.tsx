@@ -73,7 +73,7 @@ export default function MediaPanel() {
     const selectedTab = thisSystemsTabs[selectedTabIndex]
     console.log('selectedTab')
     console.log(selectedTab)
-    const isCurrentTabImage = ['ScreenShots', 'Box'].includes(selectedTabCaption)
+    const isCurrentTabImage = ['ScreenShots', 'Box', 'Titles'].includes(selectedTabCaption)
     setIsImageTab(isCurrentTabImage)
 
     if (isCurrentTabImage) {
