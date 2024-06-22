@@ -65,15 +65,22 @@ Items.Strings = (
 export default function MediaPanel() {
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
-  const [tabData, setTabData] = useState(null)
+  const [tabData, setTabData] = useState<{ screenshots?: string[] } | null>(null)
+  const [isImageTab, setIsImageTab] = useState(false)
 
   useEffect(() => {
     const selectedTabCaption = thisSystemsTabs[selectedTabIndex]?.caption
-    if (selectedTabCaption === 'ScreenShots') {
+    const selectedTab = thisSystemsTabs[selectedTabIndex]
+    console.log('selectedTab')
+    console.log(selectedTab)
+    const isCurrentTabImage = ['ScreenShots', 'Box'].includes(selectedTabCaption)
+    setIsImageTab(isCurrentTabImage)
+
+    if (isCurrentTabImage) {
       fetch('/screenshots', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ romname, thisSystemsTabs, system })
+        body: JSON.stringify({ romname, selectedTab, system })
       })
         .then(response => response.json())
         .then(data => setTabData(data))
@@ -93,14 +100,14 @@ export default function MediaPanel() {
 
       {thisSystemsTabs.map((tab, index) => (
         <TabPanel key={index}>
-          {tab.caption === 'ScreenShots' && tabData ? (
+          {isImageTab && tabData ? (
             tabData.screenshots && tabData.screenshots.length > 0 ? (
               <div>
                 {tabData.screenshots.map((screenshot, index) => (
                   <img
                     key={index}
                     src={screenshot}
-                    alt={`Screenshot ${index}`}
+                    alt={`${tab.caption} ${index}`}
                     style={{ width: '100%', height: 'auto' }}
                   />
                 ))}

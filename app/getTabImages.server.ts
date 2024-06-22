@@ -34,8 +34,8 @@ async function findScreenshotPaths(screenshotName: string, screenshotPaths: stri
   return foundFiles
 }
 
-export async function getTabImages(romname, thisSystemsTabs, system) {
-  const screenshotTab = thisSystemsTabs?.find(tab => tab.caption === 'ScreenShots')
+export async function getTabImages(romname, thisSystemsTab, system) {
+  const screenshotTab = thisSystemsTab
   console.log(screenshotTab)
   const screenshotPath = screenshotTab ? screenshotTab.path : null
   console.log('screenshot path is ' + screenshotPath)
