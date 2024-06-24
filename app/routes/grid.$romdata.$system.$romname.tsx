@@ -44,21 +44,22 @@ here's the current values of tabs.caption in the data:
   'Advert',         'Box Back',
   'CD'
 ]
-remember in qp there are a number of types....what are they?
-
-Items.Strings = (
-      'Images/Slideshow'
-      'Game info dat file'
-      'Game history dat file'
-      'Thumbnails'
-      'System'
-      'Rom Info'
-      'Mame Command dat file'
-      'Mame Game init file'
-      'Mame Mess info file'
-      'Mame Story file'
-      'Mame Mess sysInfo file')
-*/
+remember in qp there are a number of types....what are they? Here's from mediPanelConfigToJSON annotated with what they're acually called in orig qp frontend (so note this is undry its delcared there atm)
+const searchTabTypeMapping: { [key: number]: string } = {
+  0: 'Images', // 'Images/Slideshow'
+  1: 'MameInfo', // 'Game info dat file'
+  2: 'MameHistory', // 'Game history dat file'
+  3: 'Thumbnail', // 'Thumbnails'
+  4: 'System', // 'System'
+  5: 'RomInfo', // 'Rom Info'
+  // Original note: whilst it isn't terribly sensible to create these new types that all call the same imp but with different string config vars, the alternative is to rewrite a lot of the way media panel options work eg: linking to files not folders and a new form specifically for creating mame dat types that will let you choose the call
+  6: 'MameCommand', // 'Mame Command dat file'
+  7: 'MameGameInit', // 'Mame Game init file'
+  8: 'MameMessInfo', // 'Mame Mess info file'
+  9: 'MameStory', // 'Mame Story file'
+  10: 'MameSysinfo' // 'Mame Mess sysInfo file')
+}
+  */
 
 export default function MediaPanel() {
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
