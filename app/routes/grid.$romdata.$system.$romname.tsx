@@ -68,11 +68,10 @@ export default function MediaPanel() {
   const [isImageTab, setIsImageTab] = useState(false)
 
   useEffect(() => {
-    const selectedTabCaption = thisSystemsTabs[selectedTabIndex]?.caption
     const selectedTab = thisSystemsTabs[selectedTabIndex]
     console.log('selectedTab')
     console.log(selectedTab)
-    const isCurrentTabImage = ['ScreenShots', 'Box', 'Titles'].includes(selectedTabCaption)
+    const isCurrentTabImage = ['Images', 'Thumbnail'].includes(selectedTab?.tabType)
     setIsImageTab(isCurrentTabImage)
 
     if (isCurrentTabImage) {
