@@ -45,7 +45,6 @@ here's the current values of tabs.caption in the data:
   'CD'
 ]
 remember in qp there are a number of types....what are they?
-well
 
 Items.Strings = (
       'Images/Slideshow'
@@ -59,9 +58,8 @@ Items.Strings = (
       'Mame Mess info file'
       'Mame Story file'
       'Mame Mess sysInfo file')
-
-
 */
+
 export default function MediaPanel() {
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
