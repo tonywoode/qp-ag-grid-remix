@@ -86,7 +86,13 @@ export default function MediaPanel() {
         .then(response => response.json())
         .then(data => setTabData(data))
     } else if (isCurrentTabMameHistory) {
-      setTabData(selectedTab)
+      fetch('/mameHistory', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ romname, selectedTab, system })
+      })
+        .then(response => response.json())
+        .then(data => setTabData(data))
     } else {
       // Reset or handle other tabs differently
       setTabData(null)
@@ -118,9 +124,9 @@ export default function MediaPanel() {
             ) : (
               <div>Image not found</div>
             )
-          ) : isMameHistoryTab && tabData ? (
+          ) : isMameHistoryTab && tabData && tabData.history ? (
             <div>
-              <pre>{JSON.stringify(tabData, null, 2)}</pre>
+              <pre>{tabData.history}</pre>
             </div>
           ) : (
             <h2>Tab content for {tab.caption}</h2>
