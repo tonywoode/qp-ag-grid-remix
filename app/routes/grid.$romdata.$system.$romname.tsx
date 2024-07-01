@@ -66,13 +66,16 @@ export default function MediaPanel() {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
   const [tabData, setTabData] = useState<{ screenshots?: string[] } | null>(null)
   const [isImageTab, setIsImageTab] = useState(false)
+  const [isMameHistoryTab, setIsMameHistoryTab] = useState(false)
 
   useEffect(() => {
     const selectedTab = thisSystemsTabs[selectedTabIndex]
     console.log('selectedTab')
     console.log(selectedTab)
     const isCurrentTabImage = ['Images', 'Thumbnail'].includes(selectedTab?.tabType)
+    const isCurrentTabMameHistory = ['MameHistory'].includes(selectedTab?.tabType)
     setIsImageTab(isCurrentTabImage)
+    setIsMameHistoryTab(isCurrentTabMameHistory)
 
     if (isCurrentTabImage) {
       fetch('/screenshots', {
@@ -82,6 +85,8 @@ export default function MediaPanel() {
       })
         .then(response => response.json())
         .then(data => setTabData(data))
+    } else if (isCurrentTabMameHistory) {
+      setTabData(selectedTab)
     } else {
       // Reset or handle other tabs differently
       setTabData(null)
@@ -98,8 +103,8 @@ export default function MediaPanel() {
 
       {thisSystemsTabs.map((tab, index) => (
         <TabPanel key={index}>
-          {isImageTab && tabData ? (
-            tabData.screenshots && tabData.screenshots.length > 0 ? (
+          {isImageTab && tabData && tabData.screenshots ? (
+            tabData.screenshots.length > 0 ? (
               <div>
                 {tabData.screenshots.map((screenshot, index) => (
                   <img
@@ -113,6 +118,10 @@ export default function MediaPanel() {
             ) : (
               <div>Image not found</div>
             )
+          ) : isMameHistoryTab && tabData ? (
+            <div>
+              <pre>{JSON.stringify(tabData, null, 2)}</pre>
+            </div>
           ) : (
             <h2>Tab content for {tab.caption}</h2>
           )}
