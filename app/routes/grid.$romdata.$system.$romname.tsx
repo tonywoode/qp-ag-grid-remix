@@ -64,38 +64,35 @@ const searchTabTypeMapping: { [key: number]: string } = {
 export default function MediaPanel() {
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
-  const [tabData, setTabData] = useState<{ screenshots?: string[] } | null>(null)
-  const [isImageTab, setIsImageTab] = useState(false)
-  const [isMameHistoryTab, setIsMameHistoryTab] = useState(false)
+  const [tabData, setTabData] = useState<{ screenshots?: string[]; history?: string } | null>(null)
+  const [currentTabType, setCurrentTabType] = useState<string | null>(null)
 
   useEffect(() => {
     const selectedTab = thisSystemsTabs[selectedTabIndex]
-    console.log('selectedTab')
-    console.log(selectedTab)
-    const isCurrentTabImage = ['Images', 'Thumbnail'].includes(selectedTab?.tabType)
-    const isCurrentTabMameHistory = ['MameHistory'].includes(selectedTab?.tabType)
-    setIsImageTab(isCurrentTabImage)
-    setIsMameHistoryTab(isCurrentTabMameHistory)
+    const tabTypeMap: { [key: string]: string } = {
+      Images: 'screenshot',
+      Thumbnail: 'screenshot',
+      MameHistory: 'history'
+      // Add more mappings as needed
+    }
 
-    if (isCurrentTabImage) {
+    const tabType = tabTypeMap[selectedTab?.tabType]
+
+    // Reset state for all conditions
+    setTabData(null)
+    setCurrentTabType(tabType || null)
+
+    if (tabType) {
       fetch('/tabContent', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ tabtype: 'screenshot', romname, selectedTab, system })
-      })
-        .then(response => response.json())
-        .then(data => setTabData(data))
-    } else if (isCurrentTabMameHistory) {
-      fetch('/tabContent', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ tabtype: 'history', romname, selectedTab, system })
+        body: JSON.stringify({ tabtype: tabType, romname, selectedTab, system })
       })
         .then(response => response.json())
         .then(data => setTabData(data))
     } else {
-      // Reset or handle other tabs differently
-      setTabData(null)
+      // Handle the case where the tab type is not recognized
+      console.log('Tab type not handled:', selectedTab?.tabType)
     }
   }, [selectedTabIndex, romname, system, thisSystemsTabs])
 
@@ -109,7 +106,7 @@ export default function MediaPanel() {
 
       {thisSystemsTabs.map((tab, index) => (
         <TabPanel key={index}>
-          {isImageTab && tabData && tabData.screenshots ? (
+          {currentTabType === 'screenshot' && tabData && tabData.screenshots ? (
             tabData.screenshots.length > 0 ? (
               <div>
                 {tabData.screenshots.map((screenshot, index) => (
@@ -124,7 +121,7 @@ export default function MediaPanel() {
             ) : (
               <div>Image not found</div>
             )
-          ) : isMameHistoryTab && tabData && tabData.history ? (
+          ) : currentTabType === 'history' && tabData && tabData.history ? (
             <div>
               <pre>{tabData.history}</pre>
             </div>
