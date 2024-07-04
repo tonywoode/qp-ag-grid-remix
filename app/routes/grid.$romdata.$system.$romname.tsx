@@ -78,18 +78,18 @@ export default function MediaPanel() {
     setIsMameHistoryTab(isCurrentTabMameHistory)
 
     if (isCurrentTabImage) {
-      fetch('/screenshots', {
+      fetch('/tabContent', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ romname, selectedTab, system })
+        body: JSON.stringify({ tabtype: 'screenshot', romname, selectedTab, system })
       })
         .then(response => response.json())
         .then(data => setTabData(data))
     } else if (isCurrentTabMameHistory) {
-      fetch('/mameHistory', {
+      fetch('/tabContent', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ romname, selectedTab, system })
+        body: JSON.stringify({ tabtype: 'history', romname, selectedTab, system })
       })
         .then(response => response.json())
         .then(data => setTabData(data))
