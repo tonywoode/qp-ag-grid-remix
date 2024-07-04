@@ -64,37 +64,58 @@ const searchTabTypeMapping: { [key: number]: string } = {
 export default function MediaPanel() {
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
-  const [tabData, setTabData] = useState<{ screenshots?: string[]; history?: string } | null>(null)
-  const [currentTabType, setCurrentTabType] = useState<string | null>(null)
+  const [tabContent, setTabContent] = useState({ tabType: null, data: null })
 
   useEffect(() => {
-    const selectedTab = thisSystemsTabs[selectedTabIndex]
-    const tabTypeMap: { [key: string]: string } = {
-      Images: 'screenshot',
-      Thumbnail: 'screenshot',
-      MameHistory: 'history'
-      // Add more mappings as needed
+    const fetchTabContent = async () => {
+      const selectedTab = thisSystemsTabs[selectedTabIndex]
+      const tabTypeMap: { [key: string]: string } = {
+        Images: 'screenshot',
+        Thumbnail: 'screenshot',
+        MameHistory: 'history'
+        //add more!
+      }
+      const tabType = tabTypeMap[selectedTab?.tabType]
+
+      if (tabType) {
+        const response = await fetch('/tabContent', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ tabType, romname, selectedTab, system })
+        })
+        const data = await response.json()
+        setTabContent({ tabType, data })
+      } else {
+        console.log('Tab type not handled:', selectedTab?.tabType)
+        setTabContent({ tabType: null, data: null })
+      }
     }
-
-    const tabType = tabTypeMap[selectedTab?.tabType]
-
-    // Reset state for all conditions
-    setTabData(null)
-    setCurrentTabType(tabType || null)
-
-    if (tabType) {
-      fetch('/tabContent', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ tabtype: tabType, romname, selectedTab, system })
-      })
-        .then(response => response.json())
-        .then(data => setTabData(data))
-    } else {
-      // Handle the case where the tab type is not recognized
-      console.log('Tab type not handled:', selectedTab?.tabType)
-    }
+    fetchTabContent()
   }, [selectedTabIndex, romname, system, thisSystemsTabs])
+
+  const tabContentRenderers = {
+    screenshot: data => (
+      <div>
+        {data?.screenshots?.length > 0 ? (
+          data.screenshots.map((screenshot, index) => (
+            <img key={index} src={screenshot} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
+          ))
+        ) : (
+          <div>Image not found</div>
+        )}
+      </div>
+    ),
+    history: data => (
+      <div>
+        <pre>{data.history}</pre>
+      </div>
+    )
+  }
+
+  const renderTabContent = () => {
+    const renderFunction = tabContentRenderers[tabContent.tabType]
+    return renderFunction ? renderFunction(tabContent.data) : <h2>Tab content not available</h2>
+  }
 
   return (
     <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
@@ -103,32 +124,8 @@ export default function MediaPanel() {
           <Tab key={index}>{tab.caption}</Tab>
         ))}
       </TabList>
-
       {thisSystemsTabs.map((tab, index) => (
-        <TabPanel key={index}>
-          {currentTabType === 'screenshot' && tabData && tabData.screenshots ? (
-            tabData.screenshots.length > 0 ? (
-              <div>
-                {tabData.screenshots.map((screenshot, index) => (
-                  <img
-                    key={index}
-                    src={screenshot}
-                    alt={`${tab.caption} ${index}`}
-                    style={{ width: '100%', height: 'auto' }}
-                  />
-                ))}
-              </div>
-            ) : (
-              <div>Image not found</div>
-            )
-          ) : currentTabType === 'history' && tabData && tabData.history ? (
-            <div>
-              <pre>{tabData.history}</pre>
-            </div>
-          ) : (
-            <h2>Tab content for {tab.caption}</h2>
-          )}
-        </TabPanel>
+        <TabPanel key={index}>{renderTabContent()}</TabPanel>
       ))}
     </Tabs>
   )

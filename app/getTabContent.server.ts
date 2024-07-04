@@ -71,17 +71,17 @@ async function findScreenshotPaths(screenshotName: string, screenshotPaths: stri
   return foundFiles
 }
 
-export async function getTabContent(tabtype, romname, thisSystemsTab, system) {
+export async function getTabContent(tabType, romname, thisSystemsTab, system) {
   const tabData = thisSystemsTab
   console.log(tabData)
   const pathInTabData = tabData ? tabData.path : null
   console.log('Path in tabData is ' + pathInTabData)
   if (pathInTabData) {
-    if (tabtype === 'screenshot') {
+    if (tabType === 'screenshot') {
       const base64Files = await findScreenshotPaths(romname, pathInTabData)
       console.log('Found files:', base64Files)
       return { screenshots: base64Files }
-    } else if (tabtype === 'history') {
+    } else if (tabType === 'history') {
       const historyContent = await findHistoryDatContent(pathInTabData, romname)
       console.log('History.dat content:', historyContent)
       return { history: historyContent }
