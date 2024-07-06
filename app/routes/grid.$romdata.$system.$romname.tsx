@@ -109,9 +109,10 @@ export default function MediaPanel() {
     history: data =>
       data.history && !data.history.error ? (
         <div>
-          <h1>{data.history.title}</h1>
+          <h1 className="text-2xl font-bold my-4">{data.history.title}</h1>
           {parse(data.history.link)} {/* This will parse and render the <a> tag correctly */}
-          <p>{parse(data.history.content)}</p> {/* This will parse and render the content as HTML */}
+          <p className="whitespace-pre-wrap">{parse(data.history.content)}</p>{' '}
+          {/* This will parse and render the content as HTML */}
         </div>
       ) : (
         <div>{data.history.error}</div>
