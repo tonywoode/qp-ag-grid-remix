@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
-async function findHistoryDatContent(pathInTabData: string[], romname: string): Promise<string> {
+async function findHistoryDatContent(pathInTabData: string[], romname: string): Promise<any> {
   for (const p of pathInTabData) {
     const macPath = convertWindowsPathToMacPath(p)
     try {
@@ -12,23 +12,31 @@ async function findHistoryDatContent(pathInTabData: string[], romname: string): 
         .then(() => true)
         .catch(() => false)
       if (historyExists) {
-        console.log('History.dat exists in directory:', macPath)
         let historyContent = await fs.promises.readFile(historyDatPath, 'utf8')
-        // Find the index of the first $info marker
-        const firstInfoIndex = historyContent.indexOf('$info=')
-        // If $info marker is found, substring from this index
-        if (firstInfoIndex !== -1) {
-          historyContent = historyContent.substring(firstInfoIndex)
-        }
         const entries = historyContent.split('$end')
-        console.log('looking for ' + romname)
         for (const entry of entries) {
           if (entry.includes(`$info=${romname},`)) {
-            let processedEntry = entry.trim() // Trim the entry of whitespace
-            processedEntry = processedEntry.replace(/^\$info=/, '') // Remove $info= from the first line
-            processedEntry = processedEntry.replace(/^\$<a/m, '<a') // Remove $ from the start of the href line in a multiline string
-            processedEntry = processedEntry.replace(/\$bio\s*/, '') // Remove $bio from the third line
-            return processedEntry
+            // Extract the game title
+            const titleMatch = entry.match(/^\$info=([^,]+),?/m)
+            const title = titleMatch ? titleMatch[1] : 'Unknown Title'
+
+            // Correct and extract the link
+            const linkMatch = entry.match(/\$<a href="([^"]+)"/m)
+            const link = linkMatch ? linkMatch[1] : ''
+
+            // Extract the content
+            const bioIndex = entry.indexOf('$bio') + 4 // Start of content
+            const content = entry.substring(bioIndex).trim() // Corrected to extract until the actual end of the entry
+
+            // Construct the JSON object
+            const jsonContent = {
+              title,
+              link: `<a href="${link}">${link}</a>`, // Correcting the malformed link
+              content
+            }
+            console.log('jsonContent')
+            console.log(jsonContent)
+            return jsonContent
           }
         }
       }
@@ -36,7 +44,7 @@ async function findHistoryDatContent(pathInTabData: string[], romname: string): 
       console.error(`Error reading History.dat in directory ${macPath}: ${error}`)
     }
   }
-  return 'History entry not found for the provided ROM name.'
+  return { error: 'History entry not found for the provided ROM name.' }
 }
 
 async function findScreenshotPaths(screenshotName: string, screenshotPaths: string[]) {
@@ -82,9 +90,9 @@ export async function getTabContent(tabType, romname, thisSystemsTab, system) {
       console.log('Found files:', base64Files)
       return { screenshots: base64Files }
     } else if (tabType === 'history') {
-      const historyContent = await findHistoryDatContent(pathInTabData, romname)
-      console.log('History.dat content:', historyContent)
-      return { history: historyContent }
+      const history = await findHistoryDatContent(pathInTabData, romname)
+      console.log('History.dat content:', history)
+      return { history }
     } else {
       return {}
     }

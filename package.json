@@ -25,6 +25,7 @@
     "@szhsin/react-menu": "^4.1.0",
     "ag-grid-community": "^30.2.0",
     "ag-grid-react": "^30.2.0",
+    "html-react-parser": "^5.1.10",
     "ini": "^4.1.1",
     "isbot": "^3.7.0",
     "node-7z-archive": "github:tonywoode/node-7z-archive",

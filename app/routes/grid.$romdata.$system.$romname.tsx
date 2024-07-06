@@ -7,6 +7,7 @@ import { loadTabData } from '~/tabData.server'
 import { decodeString } from '~/utils/safeUrl'
 import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
+import parse from 'html-react-parser'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
@@ -105,11 +106,16 @@ export default function MediaPanel() {
         )}
       </div>
     ),
-    history: data => (
-      <div>
-        <pre>{data.history}</pre>
-      </div>
-    )
+    history: data =>
+      data.history && !data.history.error ? (
+        <div>
+          <h1>{data.history.title}</h1>
+          {parse(data.history.link)} {/* This will parse and render the <a> tag correctly */}
+          <p>{parse(data.history.content)}</p> {/* This will parse and render the content as HTML */}
+        </div>
+      ) : (
+        <div>{data.history.error}</div>
+      )
   }
 
   const renderTabContent = () => {

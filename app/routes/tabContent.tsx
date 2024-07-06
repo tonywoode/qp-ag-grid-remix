@@ -14,7 +14,7 @@ export async function action({ request }: ActionFunctionArgs) {
     const { history } = await getTabContent(tabType, romname, selectedTab, system)
     console.log('history')
     console.log(history)
-    return { history }
+    return { history } 
   } else {
     return {}
   }
