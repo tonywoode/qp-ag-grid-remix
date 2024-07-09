@@ -7,7 +7,7 @@ import { loadTabData } from '~/tabData.server'
 import { decodeString } from '~/utils/safeUrl'
 import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
-import parse from 'html-react-parser'
+import parse, { domToReact, Element } from 'html-react-parser'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
@@ -62,11 +62,30 @@ const searchTabTypeMapping: { [key: number]: string } = {
 }
   */
 
+const openInDefaultBrowser = url => {
+  window.open(url, '_blank', 'noopener,noreferrer')
+}
+
 export default function MediaPanel() {
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
   const [tabContent, setTabContent] = useState({ tabType: null, data: null })
-
+  const replaceLinks = node => {
+    if (node.type === 'tag' && node.name === 'a') {
+      const { href } = node.attribs
+      return (
+        <a
+          href={href}
+          onClick={e => {
+            e.preventDefault()
+            openInDefaultBrowser(href)
+          }}
+        >
+          {domToReact(node.children)}
+        </a>
+      )
+    }
+  }
   useEffect(() => {
     const fetchTabContent = async () => {
       const selectedTab = thisSystemsTabs[selectedTabIndex]
@@ -110,9 +129,8 @@ export default function MediaPanel() {
       data.history && !data.history.error ? (
         <div>
           <h1 className="text-2xl font-bold my-4">{data.history.title}</h1>
-          {parse(data.history.link)} {/* This will parse and render the <a> tag correctly */}
+          <div className="my-4 underline text-blue-500">{parse(data.history.link, { replace: replaceLinks })}</div>
           <p className="whitespace-pre-wrap">{parse(data.history.content)}</p>{' '}
-          {/* This will parse and render the content as HTML */}
         </div>
       ) : (
         <div>{data.history.error}</div>

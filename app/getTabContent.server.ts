@@ -20,18 +20,19 @@ async function findHistoryDatContent(pathInTabData: string[], romname: string): 
             const titleMatch = entry.match(/^\$info=([^,]+),?/m)
             const title = titleMatch ? titleMatch[1] : 'Unknown Title'
 
-            // Correct and extract the link
+            // Correct and extract the link, all the game history links are tagged but malformed
             const linkMatch = entry.match(/\$<a href="([^"]+)"/m)
             const link = linkMatch ? linkMatch[1] : ''
+            const httpsLink = link.replace('http://', 'https://') // Correcting the link
 
             // Extract the content
             const bioIndex = entry.indexOf('$bio') + 4 // Start of content
-            const content = entry.substring(bioIndex).trim() // Corrected to extract until the actual end of the entry
+            const content = entry.substring(bioIndex).trim().replace('http://', 'https://') // Corrected to extract until the actual end of the entry
 
             // Construct the JSON object
             const jsonContent = {
               title,
-              link: `<a href="${link}">${link}</a>`, // Correcting the malformed link
+              link: `<a href="${httpsLink}">${httpsLink}</a>`, // Correcting the malformed link
               content
             }
             console.log('jsonContent')
