@@ -12,7 +12,7 @@ async function findHistoryDatContent(pathInTabData: string[], romname: string): 
         .then(() => true)
         .catch(() => false)
       if (historyExists) {
-        let historyContent = await fs.promises.readFile(historyDatPath, 'utf8')
+        let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') //note latin1 for hitory.dats
         const entries = historyContent.split('$end')
         for (const entry of entries) {
           if (entry.includes(`$info=${romname},`)) {
