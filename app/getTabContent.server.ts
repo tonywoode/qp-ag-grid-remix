@@ -66,46 +66,77 @@ async function findHistoryDatContent(pathInTabData: string[], romname: string): 
   return { error: 'History entry not found for the provided ROM name.' }
 }
 
-async function findScreenshotPaths(screenshotName: string, screenshotPaths: string[]) {
+const mimeTypes: { [key: string]: string } = {
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.png': 'image/png',
+  '.gif': 'image/gif',
+  '.bmp': 'image/bmp',
+  '.ico': 'image/x-icon'
+}
+
+function getMimeType(ext: string): string {
+  return mimeTypes[ext] || null //'application/octet-stream' - uhuh - that'll return all files!
+}
+
+// TJSearchType = (jstExactMatch = 0,
+//   jstStartsWith = 1,
+//   jstInString = 2,
+//   jstAllFilesInDir = 3);
+function searchStrategies(file: string, screenshotName: string, searchType: string): boolean {
+  const fileNameWithoutExt = file.substring(0, file.lastIndexOf('.')) || file
+  const strategies = {
+    ExactMatch: (name: string) => name === screenshotName,
+    StartsWith: (name: string) => name.startsWith(screenshotName),
+    InString: (name: string) => name.includes(screenshotName),
+    AllFilesInDir: (name: string, ext: string) => Object.keys(mimeTypes).includes(ext)
+  }
+
+  const strategy = strategies[searchType]
+  return strategy ? strategy(fileNameWithoutExt, path.extname(file).toLowerCase()) : false
+}
+
+async function findScreenshotPaths(screenshotName: string, screenshotPaths: string[], searchType: string) {
+  console.log(`using searchType ${searchType}`)
   const foundFiles = []
 
   for (const p of screenshotPaths) {
     const macPath = convertWindowsPathToMacPath(p)
     try {
       const files = await fs.promises.readdir(macPath)
-      const foundFile = files.find(file => file.includes(screenshotName))
-      if (foundFile) {
-        const filePath = path.join(macPath, foundFile)
-        const file = await fs.promises.readFile(filePath)
-        const ext = path.extname(foundFile).toLowerCase()
-        const mimeTypes: { [key: string]: string } = {
-          '.jpg': 'image/jpeg',
-          '.jpeg': 'image/jpeg',
-          '.png': 'image/png',
-          '.gif': 'image/gif',
-          '.bmp': 'image/bmp',
-          '.ico': 'image/x-icon'
+      for (const file of files) {
+        if (searchStrategies(file, screenshotName, searchType)) {
+          const filePath = path.join(macPath, file)
+          const fileData = await fs.promises.readFile(filePath)
+          const ext = path.extname(file).toLowerCase()
+          const mimeType = getMimeType(ext)
+          if (mimeType !== null) {
+            const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
+            foundFiles.push(base64File)
+          }
         }
-        const mimeType = mimeTypes[ext] || 'application/octet-stream'
-        const base64File = `data:${mimeType};base64,${file.toString('base64')}`
-        foundFiles.push(base64File)
       }
     } catch (error) {
       console.error(`Error reading directory ${macPath}: ${error}`)
     }
   }
-
   return foundFiles
 }
 
-export async function getTabContent(tabType, romname, thisSystemsTab, system) {
+export async function getTabContent(
+  tabType: string,
+  searchType: string,
+  romname: string,
+  thisSystemsTab: string,
+  system: string
+) {
   const tabData = thisSystemsTab
   console.log(tabData)
   const pathInTabData = tabData ? tabData.path : null
   console.log('Path in tabData is ' + pathInTabData)
   if (pathInTabData) {
     if (tabType === 'screenshot') {
-      const base64Files = await findScreenshotPaths(romname, pathInTabData)
+      const base64Files = await findScreenshotPaths(romname, pathInTabData, searchType)
       console.log('Found files:', base64Files)
       return { screenshots: base64Files }
     } else if (tabType === 'history') {

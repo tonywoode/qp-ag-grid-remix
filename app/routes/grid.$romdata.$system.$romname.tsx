@@ -9,6 +9,13 @@ import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
 import parse, { domToReact, Element } from 'html-react-parser'
 
+const tabTypeMap: { [key: string]: string } = {
+  Images: 'screenshot',
+  Thumbnail: 'screenshot',
+  MameHistory: 'history'
+  //add more, should be Zod!
+}
+
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
   console.log('heres your params:')
@@ -89,19 +96,14 @@ export default function MediaPanel() {
   useEffect(() => {
     const fetchTabContent = async () => {
       const selectedTab = thisSystemsTabs[selectedTabIndex]
-      const tabTypeMap: { [key: string]: string } = {
-        Images: 'screenshot',
-        Thumbnail: 'screenshot',
-        MameHistory: 'history'
-        //add more!
-      }
-      const tabType = tabTypeMap[selectedTab?.tabType]
 
+      const tabType = tabTypeMap[selectedTab?.tabType]
+      const searchType = selectedTab?.searchType
       if (tabType) {
         const response = await fetch('/tabContent', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ tabType, romname, selectedTab, system })
+          body: JSON.stringify({ tabType, searchType, romname, selectedTab, system })
         })
         const data = await response.json()
         setTabContent({ tabType, data })
