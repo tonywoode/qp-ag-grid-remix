@@ -127,7 +127,7 @@ export default function MediaPanel() {
     ),
     history: data =>
       data.history && !data.history.error ? (
-        <div>
+        <div className="pl-3">
           <h1 className="text-2xl font-bold my-4">{data.history.title}</h1>
           <div className="my-4 underline text-blue-500">{parse(data.history.link, { replace: replaceLinks })}</div>
           <p className="whitespace-pre-wrap">{parse(data.history.content)}</p>{' '}

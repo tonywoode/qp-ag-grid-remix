@@ -12,10 +12,28 @@ async function findHistoryDatContent(pathInTabData: string[], romname: string): 
         .then(() => true)
         .catch(() => false)
       if (historyExists) {
-        let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') //note latin1 for hitory.dats
+        let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') // Note latin1 for history.dats
         const entries = historyContent.split('$end')
         for (const entry of entries) {
           if (entry.includes(`$info=${romname},`)) {
+            //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
+            let widthFixedContent
+            const splitIndex = entry.indexOf('- TECHNICAL -')
+            if (splitIndex !== -1) {
+              const firstPart = entry.substring(0, splitIndex).trim()
+              const secondPart = entry.substring(splitIndex) // Includes "- TECHNICAL -" and what follows
+              const processedFirstPart = firstPart
+                .split('\r\n\r\n')
+                .map(paragraph => paragraph.replace(/\r\n/g, '±±±')) //tag newlines
+                .map(paragraph => paragraph.replace(/±±± ±±±/g, '\r\n\r\n')) //restore the real para breaks before...
+                .map(paragraph => paragraph.replace(/±±±/g, '')) //...removing the unwanted ones
+                .join('\r\n\r\n')
+                .trim()
+              widthFixedContent = `${processedFirstPart}\r\n\r\n${secondPart}`
+            } else {
+              widthFixedContent = entry
+            }
+
             // Extract the game title
             const titleMatch = entry.match(/^\$info=([^,]+),?/m)
             const title = titleMatch ? titleMatch[1] : 'Unknown Title'
@@ -25,9 +43,9 @@ async function findHistoryDatContent(pathInTabData: string[], romname: string): 
             const link = linkMatch ? linkMatch[1] : ''
             const httpsLink = link.replace('http://', 'https://') // Correcting the link
 
-            // Extract the content
-            const bioIndex = entry.indexOf('$bio') + 4 // Start of content
-            const content = entry.substring(bioIndex).trim().replace('http://', 'https://') // Corrected to extract until the actual end of the entry
+            // Use the processed content
+            const bioIndex = widthFixedContent.indexOf('$bio') + 4 // Start of content
+            const content = widthFixedContent.substring(bioIndex).trim().replace('http://', 'https://') // Corrected to extract until the actual end of the entry
 
             // Construct the JSON object
             const jsonContent = {
@@ -42,7 +60,7 @@ async function findHistoryDatContent(pathInTabData: string[], romname: string): 
         }
       }
     } catch (error) {
-      console.error(`Error reading History.dat in directory ${macPath}: ${error}`)
+      console.error('Error processing history data:', error)
     }
   }
   return { error: 'History entry not found for the provided ROM name.' }
