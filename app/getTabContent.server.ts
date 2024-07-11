@@ -98,7 +98,7 @@ function searchStrategies(file: string, screenshotName: string, searchType: stri
 
 async function findScreenshotPaths(screenshotName: string, screenshotPaths: string[], searchType: string) {
   console.log(`using searchType ${searchType}`)
-  const foundFiles = []
+  const foundBase64Files = new Set() //we often pull the same-looking image from two path, but not sure what good this actually does as they aren't bit-identical
 
   for (const p of screenshotPaths) {
     const macPath = convertWindowsPathToMacPath(p)
@@ -112,7 +112,7 @@ async function findScreenshotPaths(screenshotName: string, screenshotPaths: stri
           const mimeType = getMimeType(ext)
           if (mimeType !== null) {
             const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
-            foundFiles.push(base64File)
+            foundBase64Files.add(base64File) //add will check if the bit-identical image is already there
           }
         }
       }
@@ -120,7 +120,7 @@ async function findScreenshotPaths(screenshotName: string, screenshotPaths: stri
       console.error(`Error reading directory ${macPath}: ${error}`)
     }
   }
-  return foundFiles
+  return [...foundBase64Files] //convert set to array (better to return a set?)
 }
 
 export async function getTabContent(
