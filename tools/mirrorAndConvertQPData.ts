@@ -40,8 +40,13 @@ function processDirectory(source, destination) {
       saveToJSONFile(folderInfo, folderInfoPath)
     } else if (item.toLowerCase() === 'romdata.dat') {
       const romdataJson = convertRomDataToJSON(sourcePath, gamesDirPathPrefix)
-      console.log(`Conversion complete. Output being saved to ${destPath.replace('.dat', '.json')}`)
-      saveToJSONFile(romdataJson, destPath.replace('.dat', '.json').toLowerCase())
+      if (romdataJson !== null) {
+        // Check if actual ROM data was found
+        console.log(`Conversion complete. Output being saved to ${destPath.replace('.dat', '.json')}`)
+        saveToJSONFile(romdataJson, destPath.replace('.dat', '.json').toLowerCase())
+      } else {
+        console.log(`No ROM data found in ${sourcePath}. Skipping file creation.`)
+      }
     }
   }
 }

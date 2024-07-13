@@ -68,6 +68,12 @@ export function convertRomDataToJSON(filename, gamesDirPathPrefix) {
   const data = fs.readFileSync(filename, 'latin1')
   const lines = data.split('\n').filter(Boolean)
 
+  // Check if there's actual ROM data beyond the version line, I had this!
+  if (lines.length <= 1) {
+    console.log('No ROM data found.')
+    return null
+  }
+
   const romdata = lines.slice(1).map(line => parseRomDataLine(line, gamesDirPathPrefix))
 
   return {
