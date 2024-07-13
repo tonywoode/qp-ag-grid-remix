@@ -113,15 +113,8 @@ export default function Grid() {
         //include mamenames as query params if they exist
         const mameName = event.data.mameName ?? undefined
         const parentName = event.data.parentName ?? undefined
-        const queryString =
-          mameName && parentName
-            ? `?mameName=${mameName}&parentName=${parentName}`
-            : mameName
-              ? `?mameName=${mameName}`
-              : parentName
-                ? `?parentName=${parentName}`
-                : undefined
-        navigate(`${encodeString(system)}/${encodeString(romname)}${queryString ? queryString : ''}`)
+        const mameNames = `mameName=${encodeString(mameName)}&parentName=${encodeString(parentName)}` //encode, in case..
+        navigate(`${encodeString(system)}/${encodeString(romname)}/${mameNames}`)
       }
     }
   }
