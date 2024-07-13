@@ -110,7 +110,18 @@ export default function Grid() {
         const eventData = event.data
         const romname = event.data.name
         const system = eventData.system
-        navigate(`${encodeString(system)}/${encodeString(romname)}`)
+        //include mamenames as query params if they exist
+        const mameName = event.data.mameName ?? undefined
+        const parentName = event.data.parentName ?? undefined
+        const queryString =
+          mameName && parentName
+            ? `?mameName=${mameName}&parentName=${parentName}`
+            : mameName
+              ? `?mameName=${mameName}`
+              : parentName
+                ? `?parentName=${parentName}`
+                : undefined
+        navigate(`${encodeString(system)}/${encodeString(romname)}${queryString ? queryString : ''}`)
       }
     }
   }
