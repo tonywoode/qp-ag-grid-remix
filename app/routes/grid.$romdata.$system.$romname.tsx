@@ -79,7 +79,8 @@ export default function MediaPanel() {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
   const [tabContent, setTabContent] = useState({ tabType: null, data: null })
   const { mameName, parentName } = location.state || {}
-  console.log('MameNames:', location.state)
+  const mameNames = { mameName, parentName }
+  console.log('MameNames:', mameNames)
   const replaceLinks = node => {
     if (node.type === 'tag' && node.name === 'a') {
       const { href } = node.attribs
@@ -102,11 +103,12 @@ export default function MediaPanel() {
 
       const tabType = tabTypeMap[selectedTab?.tabType]
       const searchType = selectedTab?.searchType
+      const mameUseParentForSrch = selectedTab?.mameUseParentForSrch
       if (tabType) {
         const response = await fetch('/tabContent', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ tabType, searchType, romname, selectedTab, system })
+          body: JSON.stringify({ tabType, searchType, romname, selectedTab, system, mameNames, mameUseParentForSrch })
         })
         const data = await response.json()
         setTabContent({ tabType, data })

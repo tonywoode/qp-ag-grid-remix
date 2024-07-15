@@ -2,7 +2,12 @@ import fs from 'fs'
 import path from 'path'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
-async function findHistoryDatContent(pathInTabData: string[], romname: string): Promise<any> {
+async function findHistoryDatContent(
+  pathInTabData: string[],
+  romname: string,
+  mameNames: object,
+  mameUseParentForSrch: boolean
+): Promise<any> {
   for (const p of pathInTabData) {
     const macPath = convertWindowsPathToMacPath(p)
     try {
@@ -83,36 +88,54 @@ function getMimeType(ext: string): string {
 //   jstStartsWith = 1,
 //   jstInString = 2,
 //   jstAllFilesInDir = 3);
-function searchStrategies(file: string, screenshotName: string, searchType: string): boolean {
-  const fileNameWithoutExt = file.substring(0, file.lastIndexOf('.')) || file
-  const strategies = {
-    ExactMatch: (name: string) => name === screenshotName,
-    StartsWith: (name: string) => name.startsWith(screenshotName),
-    InString: (name: string) => name.includes(screenshotName),
-    AllFilesInDir: (name: string, ext: string) => Object.keys(mimeTypes).includes(ext)
-  }
-
-  const strategy = strategies[searchType]
-  return strategy ? strategy(fileNameWithoutExt, path.extname(file).toLowerCase()) : false
-}
-
-async function findScreenshotPaths(screenshotName: string, screenshotPaths: string[], searchType: string) {
+async function findScreenshotPaths(
+  romname: string,
+  pathInTabData: string[],
+  searchType: string,
+  mameNames: { mameName?: string; parentName?: string },
+  mameUseParentForSrch: boolean
+) {
   console.log(`using searchType ${searchType}`)
-  const foundBase64Files = new Set() //we often pull the same-looking image from two path, but not sure what good this actually does as they aren't bit-identical
+  const foundBase64Files = new Set()
 
-  for (const p of screenshotPaths) {
+  for (const p of pathInTabData) {
+    console.log('mameNames.parentName:')
+    console.log(mameNames.parentName)
+    console.log('mameUseParentForSrch:')
+    console.log(mameUseParentForSrch)
     const macPath = convertWindowsPathToMacPath(p)
+    let matchFound = false // Flag to indicate a match has been found
     try {
       const files = await fs.promises.readdir(macPath)
       for (const file of files) {
-        if (searchStrategies(file, screenshotName, searchType)) {
-          const filePath = path.join(macPath, file)
-          const fileData = await fs.promises.readFile(filePath)
-          const ext = path.extname(file).toLowerCase()
-          const mimeType = getMimeType(ext)
-          if (mimeType !== null) {
-            const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
-            foundBase64Files.add(base64File) //add will check if the bit-identical image is already there
+        if (matchFound) break // Exit the loop if a match has been found
+        let searchTerms = [romname] // Default search term is romname
+
+        // If mameName is present, prioritize it
+        if (mameNames.mameName) {
+          searchTerms.unshift(mameNames.mameName)
+        }
+
+        // If mameParent should be used and is present, add it to the search terms
+        if (mameUseParentForSrch && mameNames.parentName) {
+          searchTerms.push(mameNames.parentName)
+        }
+
+        // Attempt search with each term, breaking on the first success
+        for (const searchTerm of searchTerms) {
+          if (searchStrategies(file, searchTerm, searchType)) {
+            const filePath = path.join(macPath, file)
+            console.log('match found')
+            console.log(filePath)
+            const fileData = await fs.promises.readFile(filePath)
+            const ext = path.extname(file).toLowerCase()
+            const mimeType = getMimeType(ext)
+            if (mimeType !== null) {
+              const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
+              foundBase64Files.add(base64File)
+              matchFound = true // Set the flag to true as a match has been found
+              break // Found a match, no need to continue with other search terms
+            }
           }
         }
       }
@@ -120,7 +143,20 @@ async function findScreenshotPaths(screenshotName: string, screenshotPaths: stri
       console.error(`Error reading directory ${macPath}: ${error}`)
     }
   }
-  return [...foundBase64Files] //convert set to array (better to return a set?)
+  return [...foundBase64Files]
+}
+
+function searchStrategies(file: string, romname: string, searchType: string): boolean {
+  const fileNameWithoutExt = file.substring(0, file.lastIndexOf('.')) || file
+  const strategies = {
+    ExactMatch: (name: string) => name === romname,
+    StartsWith: (name: string) => name.startsWith(romname),
+    InString: (name: string) => name.includes(romname),
+    AllFilesInDir: (name: string, ext: string) => Object.keys(mimeTypes).includes(ext)
+  }
+
+  const strategy = strategies[searchType]
+  return strategy ? strategy(fileNameWithoutExt, path.extname(file).toLowerCase()) : false
 }
 
 export async function getTabContent(
@@ -128,7 +164,9 @@ export async function getTabContent(
   searchType: string,
   romname: string,
   thisSystemsTab: string,
-  system: string
+  system: string,
+  mameNames: Object,
+  mameUseParentForSrch: boolean
 ) {
   const tabData = thisSystemsTab
   console.log(tabData)
@@ -136,11 +174,11 @@ export async function getTabContent(
   console.log('Path in tabData is ' + pathInTabData)
   if (pathInTabData) {
     if (tabType === 'screenshot') {
-      const base64Files = await findScreenshotPaths(romname, pathInTabData, searchType)
+      const base64Files = await findScreenshotPaths(romname, pathInTabData, searchType, mameNames, mameUseParentForSrch)
       console.log('Found files:', base64Files)
       return { screenshots: base64Files }
     } else if (tabType === 'history') {
-      const history = await findHistoryDatContent(pathInTabData, romname)
+      const history = await findHistoryDatContent(pathInTabData, romname, mameNames, mameUseParentForSrch)
       console.log('History.dat content:', history)
       return { history }
     } else {
