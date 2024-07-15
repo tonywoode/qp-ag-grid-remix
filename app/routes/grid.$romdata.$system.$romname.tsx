@@ -1,4 +1,4 @@
-import { Link, useFetcher, useLoaderData /*,useRouteLoaderData*/ } from '@remix-run/react'
+import { Link, useFetcher, useLoaderData /*,useRouteLoaderData*/, useLocation } from '@remix-run/react'
 // import { type loader as gridLoader } from 'grid.$romdata.tsx'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
@@ -74,9 +74,12 @@ const openInDefaultBrowser = url => {
 }
 
 export default function MediaPanel() {
+  const location = useLocation()
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
   const [tabContent, setTabContent] = useState({ tabType: null, data: null })
+  const { mameName, parentName } = location.state || {}
+  console.log('MameNames:', location.state)
   const replaceLinks = node => {
     if (node.type === 'tag' && node.name === 'a') {
       const { href } = node.attribs
@@ -158,16 +161,15 @@ export default function MediaPanel() {
   )
 }
 
-            // fetcher.submit(
-            //   { romname, thisSystemsTabs, system },
-            //   {
-            //     action: `/screenshots`,
-            //     method: 'post',
-            //     encType: 'application/json'
-            //   }
-            // )
-            // <h2> hello </h2>
-
+// fetcher.submit(
+//   { romname, thisSystemsTabs, system },
+//   {
+//     action: `/screenshots`,
+//     method: 'post',
+//     encType: 'application/json'
+//   }
+// )
+// <h2> hello </h2>
 
 /* {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>} */
 /* <div>{screenshotUrl}</div> */

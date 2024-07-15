@@ -110,11 +110,13 @@ export default function Grid() {
         const eventData = event.data
         const romname = event.data.name
         const system = eventData.system
-        //include mamenames as query params if they exist
-        const mameName = event.data.mameName ?? undefined
-        const parentName = event.data.parentName ?? undefined
-        const mameNames = `mameName=${encodeString(mameName)}&parentName=${encodeString(parentName)}` //encode, in case..
-        navigate(`${encodeString(system)}/${encodeString(romname)}/${mameNames}`)
+        //include mamenames as locacation state if they exist
+        navigate(`${encodeString(system)}/${encodeString(romname)}`, {
+          state: {
+            ...(event.data.mameName != null && { mameName: event.data.mameName }),
+            ...(event.data.parentName != null && { parentName: event.data.parentName })
+          }
+        })
       }
     }
   }
