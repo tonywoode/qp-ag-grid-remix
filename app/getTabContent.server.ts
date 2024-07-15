@@ -5,62 +5,80 @@ import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 async function findHistoryDatContent(
   pathInTabData: string[],
   romname: string,
-  mameNames: object,
+  mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean
 ): Promise<any> {
   for (const p of pathInTabData) {
     const macPath = convertWindowsPathToMacPath(p)
     try {
       const historyDatPath = path.join(macPath, 'History.dat')
-      const historyExists = await fs.promises
+      const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
         .stat(historyDatPath)
         .then(() => true)
         .catch(() => false)
       if (historyExists) {
         let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') // Note latin1 for history.dats
         const entries = historyContent.split('$end')
+        let matchFound = false // Flag to indicate a match has been found
         for (const entry of entries) {
-          if (entry.includes(`$info=${romname},`)) {
-            //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
-            let widthFixedContent
-            const splitIndex = entry.indexOf('- TECHNICAL -')
-            if (splitIndex !== -1) {
-              const firstPart = entry.substring(0, splitIndex).trim()
-              const secondPart = entry.substring(splitIndex) // Includes "- TECHNICAL -" and what follows
-              const processedFirstPart = firstPart
-                .split('\r\n\r\n')
-                .map(paragraph => paragraph.replace(/\r\n/g, '±±±')) //tag newlines
-                .map(paragraph => paragraph.replace(/±±± ±±±/g, '\r\n\r\n')) //restore the real para breaks before...
-                .map(paragraph => paragraph.replace(/±±±/g, '')) //...removing the unwanted ones
-                .join('\r\n\r\n')
-                .trim()
-              widthFixedContent = `${processedFirstPart}\r\n\r\n${secondPart}`
-            } else {
-              widthFixedContent = entry
+          if (matchFound) break
+          //unlike screenshots, we're searching in the found file for a spcefic entry
+          let searchTerms = [romname] // Default search term is romname
+
+          // If mameName is present, prioritize it
+          if (mameNames.mameName) {
+            searchTerms.unshift(mameNames.mameName)
+          }
+
+          // If mameParent should be used and is present, add it to the search terms
+          if (mameUseParentForSrch && mameNames.parentName) {
+            searchTerms.push(mameNames.parentName)
+          }
+
+          for (const searchTerm of searchTerms) {
+            if (entry.includes(`$info=${searchTerm},`)) {
+              matchFound = true
+              //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
+              let widthFixedContent
+              const splitIndex = entry.indexOf('- TECHNICAL -')
+              if (splitIndex !== -1) {
+                const firstPart = entry.substring(0, splitIndex).trim()
+                const secondPart = entry.substring(splitIndex) // Includes "- TECHNICAL -" and what follows
+                const processedFirstPart = firstPart
+                  .split('\r\n\r\n')
+                  .map(paragraph => paragraph.replace(/\r\n/g, '±±±')) //tag newlines
+                  .map(paragraph => paragraph.replace(/±±± ±±±/g, '\r\n\r\n')) //restore the real para breaks before...
+                  .map(paragraph => paragraph.replace(/±±±/g, '')) //...removing the unwanted ones
+                  .join('\r\n\r\n')
+                  .trim()
+                widthFixedContent = `${processedFirstPart}\r\n\r\n${secondPart}`
+              } else {
+                widthFixedContent = entry
+              }
+
+              // Extract the game title
+              const titleMatch = entry.match(/^\$info=([^,]+),?/m)
+              const title = titleMatch ? titleMatch[1] : 'Unknown Title'
+
+              // Correct and extract the link, all the game history links are tagged but malformed
+              const linkMatch = entry.match(/\$<a href="([^"]+)"/m)
+              const link = linkMatch ? linkMatch[1] : ''
+              const httpsLink = link.replace('http://', 'https://') // Correcting the link
+
+              // Use the processed content
+              const bioIndex = widthFixedContent.indexOf('$bio') + 4 // Start of content
+              const content = widthFixedContent.substring(bioIndex).trim().replace('http://', 'https://') // Corrected to extract until the actual end of the entry
+
+              // Construct the JSON object
+              const jsonContent = {
+                title,
+                link: `<a href="${httpsLink}">${httpsLink}</a>`, // Correcting the malformed link
+                content
+              }
+              console.log('jsonContent')
+              console.log(jsonContent)
+              return jsonContent
             }
-
-            // Extract the game title
-            const titleMatch = entry.match(/^\$info=([^,]+),?/m)
-            const title = titleMatch ? titleMatch[1] : 'Unknown Title'
-
-            // Correct and extract the link, all the game history links are tagged but malformed
-            const linkMatch = entry.match(/\$<a href="([^"]+)"/m)
-            const link = linkMatch ? linkMatch[1] : ''
-            const httpsLink = link.replace('http://', 'https://') // Correcting the link
-
-            // Use the processed content
-            const bioIndex = widthFixedContent.indexOf('$bio') + 4 // Start of content
-            const content = widthFixedContent.substring(bioIndex).trim().replace('http://', 'https://') // Corrected to extract until the actual end of the entry
-
-            // Construct the JSON object
-            const jsonContent = {
-              title,
-              link: `<a href="${httpsLink}">${httpsLink}</a>`, // Correcting the malformed link
-              content
-            }
-            console.log('jsonContent')
-            console.log(jsonContent)
-            return jsonContent
           }
         }
       }
