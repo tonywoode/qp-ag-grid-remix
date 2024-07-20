@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
-async function findHistoryDatContent(
+async function findHistoryContent(
   pathInTabData: string[],
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
@@ -12,86 +12,107 @@ async function findHistoryDatContent(
   for (const p of pathInTabData) {
     const macPath = convertWindowsPathToMacPath(p)
     console.log('this systems tab type is: ', thisSystemsTab.tabType)
+    const historyDatPath =
+      thisSystemsTab.tabType === 'MameHistory' //TODO: mamehistory also contains info about mess consoles!
+        ? path.join(macPath, 'History.dat')
+        : path.join(macPath, 'mameinfo.dat')
+    console.log('historyDatPath')
+    console.log(historyDatPath)
     try {
-      const historyDatPath =
-        thisSystemsTab.tabType === 'MameHistory' //TODO: mamehistory also contains info about mess consoles!
-          ? path.join(macPath, 'History.dat')
-          : path.join(macPath, 'mameinfo.dat')
-      console.log('historyDatPath')
-      console.log(historyDatPath)
-      const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
-        .stat(historyDatPath)
-        .then(() => true)
-        .catch(() => false)
-      if (historyExists) {
-        let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') // Note latin1 for history.dats
-        // console.log(historyContent)
-        const entries = historyContent.split('$end')
-        let matchFound = false // Flag to indicate a match has been found
-        for (const entry of entries) {
-          if (matchFound) break
-          //unlike screenshots, we're searching in the found file for a spcefic entry
-          let searchTerms = [romname] // Default search term is romname
-
-          // If mameName is present, prioritize it
-          if (mameNames.mameName) {
-            searchTerms.unshift(mameNames.mameName)
-          }
-
-          // If mameParent should be used and is present, add it to the search terms
-          if (mameUseParentForSrch && mameNames.parentName) {
-            searchTerms.push(mameNames.parentName)
-          }
-
-          for (const searchTerm of searchTerms) {
-            if (entry.includes(`$info=${searchTerm},`)) {
-              matchFound = true
-              //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
-              let widthFixedContent
-              const splitIndex = entry.indexOf('- TECHNICAL -')
-              if (splitIndex !== -1) {
-                const firstPart = entry.substring(0, splitIndex).trim()
-                const secondPart = entry.substring(splitIndex) // Includes "- TECHNICAL -" and what follows
-                const processedFirstPart = firstPart
-                  .split('\r\n\r\n')
-                  .map(paragraph => paragraph.replace(/\r\n/g, '±±±')) //tag newlines
-                  .map(paragraph => paragraph.replace(/±±± ±±±/g, '\r\n\r\n')) //restore the real para breaks before...
-                  .map(paragraph => paragraph.replace(/±±±/g, '')) //...removing the unwanted ones
-                  .join('\r\n\r\n')
-                  .trim()
-                widthFixedContent = `${processedFirstPart}\r\n\r\n${secondPart}`
-              } else {
-                widthFixedContent = entry
-              }
-
-              // Extract the game title
-              const titleMatch = entry.match(/^\$info=([^,]+),?/m)
-              const title = titleMatch ? titleMatch[1] : 'Unknown Title'
-
-              // Correct and extract the link, all the game history links are tagged but malformed
-              const linkMatch = entry.match(/\$<a href="([^"]+)"/m)
-              const link = linkMatch ? linkMatch[1] : ''
-              const httpsLink = link.replace('http://', 'https://') // Correcting the link
-
-              // Use the processed content
-              const bioIndex = widthFixedContent.indexOf('$bio') + 4 // Start of content
-              const content = widthFixedContent.substring(bioIndex).trim().replace('http://', 'https://') // Corrected to extract until the actual end of the entry
-
-              // Construct the JSON object
-              const jsonContent = {
-                title,
-                link: `<a href="${httpsLink}">${httpsLink}</a>`, // Correcting the malformed link
-                content
-              }
-              console.log('jsonContent')
-              console.log(jsonContent)
-              return jsonContent
-            }
-          }
-        }
-      }
+      return findHistoryDatContent(
+        pathInTabData,
+        romname,
+        mameNames,
+        mameUseParentForSrch,
+        thisSystemsTab,
+        macPath,
+        historyDatPath
+      )
     } catch (error) {
       console.error('Error processing history data:', error)
+    }
+  }
+  return { error: 'History entry not found for the provided ROM name.' }
+}
+
+async function findHistoryDatContent(
+  pathInTabData: string[],
+  romname: string,
+  mameNames: { mameName?: string; parentName?: string },
+  mameUseParentForSrch: boolean,
+  thisSystemsTab: string,
+  macPath: string,
+  historyDatPath: string
+): Promise<any> {
+  const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
+    .stat(historyDatPath)
+    .then(() => true)
+    .catch(() => false)
+  if (historyExists) {
+    let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') // Note latin1 for history.dats
+    // console.log(historyContent)
+    const entries = historyContent.split('$end')
+    let matchFound = false // Flag to indicate a match has been found
+    for (const entry of entries) {
+      if (matchFound) break
+      //unlike screenshots, we're searching in the found file for a spcefic entry
+      let searchTerms = [romname] // Default search term is romname
+
+      // If mameName is present, prioritize it
+      if (mameNames.mameName) {
+        searchTerms.unshift(mameNames.mameName)
+      }
+
+      // If mameParent should be used and is present, add it to the search terms
+      if (mameUseParentForSrch && mameNames.parentName) {
+        searchTerms.push(mameNames.parentName)
+      }
+
+      for (const searchTerm of searchTerms) {
+        if (entry.includes(`$info=${searchTerm},`)) {
+          matchFound = true
+          //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
+          let widthFixedContent
+          const splitIndex = entry.indexOf('- TECHNICAL -')
+          if (splitIndex !== -1) {
+            const firstPart = entry.substring(0, splitIndex).trim()
+            const secondPart = entry.substring(splitIndex) // Includes "- TECHNICAL -" and what follows
+            const processedFirstPart = firstPart
+              .split('\r\n\r\n')
+              .map(paragraph => paragraph.replace(/\r\n/g, '±±±')) //tag newlines
+              .map(paragraph => paragraph.replace(/±±± ±±±/g, '\r\n\r\n')) //restore the real para breaks before...
+              .map(paragraph => paragraph.replace(/±±±/g, '')) //...removing the unwanted ones
+              .join('\r\n\r\n')
+              .trim()
+            widthFixedContent = `${processedFirstPart}\r\n\r\n${secondPart}`
+          } else {
+            widthFixedContent = entry
+          }
+
+          // Extract the game title
+          const titleMatch = entry.match(/^\$info=([^,]+),?/m)
+          const title = titleMatch ? titleMatch[1] : 'Unknown Title'
+
+          // Correct and extract the link, all the game history links are tagged but malformed
+          const linkMatch = entry.match(/\$<a href="([^"]+)"/m)
+          const link = linkMatch ? linkMatch[1] : ''
+          const httpsLink = link.replace('http://', 'https://') // Correcting the link
+
+          // Use the processed content
+          const bioIndex = widthFixedContent.indexOf('$bio') + 4 // Start of content
+          const content = widthFixedContent.substring(bioIndex).trim().replace('http://', 'https://') // Corrected to extract until the actual end of the entry
+
+          // Construct the JSON object
+          const jsonContent = {
+            title,
+            link: `<a href="${httpsLink}">${httpsLink}</a>`, // Correcting the malformed link
+            content
+          }
+          console.log('jsonContent')
+          console.log(jsonContent)
+          return jsonContent
+        }
+      }
     }
   }
   return { error: 'History entry not found for the provided ROM name.' }
@@ -204,13 +225,7 @@ export async function getTabContent(
       console.log('Found files:', base64Files)
       return { screenshots: base64Files }
     } else if (tabClass === 'history') {
-      const history = await findHistoryDatContent(
-        pathInTabData,
-        romname,
-        mameNames,
-        mameUseParentForSrch,
-        thisSystemsTab
-      )
+      const history = await findHistoryContent(pathInTabData, romname, mameNames, mameUseParentForSrch, thisSystemsTab)
       console.log('History.dat content:', history)
       return { history }
     } else {
