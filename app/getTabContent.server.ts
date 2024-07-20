@@ -6,18 +6,26 @@ async function findHistoryDatContent(
   pathInTabData: string[],
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
-  mameUseParentForSrch: boolean
+  mameUseParentForSrch: boolean,
+  thisSystemsTab: string
 ): Promise<any> {
   for (const p of pathInTabData) {
     const macPath = convertWindowsPathToMacPath(p)
+    console.log('this systems tab type is: ', thisSystemsTab.tabType)
     try {
-      const historyDatPath = path.join(macPath, 'History.dat')
+      const historyDatPath =
+        thisSystemsTab.tabType === 'MameHistory' //TODO: mamehistory also contains info about mess consoles!
+          ? path.join(macPath, 'History.dat')
+          : path.join(macPath, 'mameinfo.dat')
+      console.log('historyDatPath')
+      console.log(historyDatPath)
       const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
         .stat(historyDatPath)
         .then(() => true)
         .catch(() => false)
       if (historyExists) {
         let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') // Note latin1 for history.dats
+        // console.log(historyContent)
         const entries = historyContent.split('$end')
         let matchFound = false // Flag to indicate a match has been found
         for (const entry of entries) {
@@ -178,7 +186,7 @@ function searchStrategies(file: string, romname: string, searchType: string): bo
 }
 
 export async function getTabContent(
-  tabType: string,
+  tabClass: string,
   searchType: string,
   romname: string,
   thisSystemsTab: string,
@@ -191,12 +199,18 @@ export async function getTabContent(
   const pathInTabData = tabData ? tabData.path : null
   console.log('Path in tabData is ' + pathInTabData)
   if (pathInTabData) {
-    if (tabType === 'screenshot') {
+    if (tabClass === 'screenshot') {
       const base64Files = await findScreenshotPaths(romname, pathInTabData, searchType, mameNames, mameUseParentForSrch)
       console.log('Found files:', base64Files)
       return { screenshots: base64Files }
-    } else if (tabType === 'history') {
-      const history = await findHistoryDatContent(pathInTabData, romname, mameNames, mameUseParentForSrch)
+    } else if (tabClass === 'history') {
+      const history = await findHistoryDatContent(
+        pathInTabData,
+        romname,
+        mameNames,
+        mameUseParentForSrch,
+        thisSystemsTab
+      )
       console.log('History.dat content:', history)
       return { history }
     } else {

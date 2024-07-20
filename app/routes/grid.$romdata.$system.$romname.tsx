@@ -9,10 +9,12 @@ import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
 import parse, { domToReact, Element } from 'html-react-parser'
 
-const tabTypeMap: { [key: string]: string } = {
+const tabClassMap: { [key: string]: string } = {
   Images: 'screenshot',
   Thumbnail: 'screenshot',
-  MameHistory: 'history'
+  MameHistory: 'history',
+  MameInfo: 'history'
+
   //add more, should be Zod!
 }
 
@@ -77,7 +79,9 @@ export default function MediaPanel() {
   const location = useLocation()
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
-  const [tabContent, setTabContent] = useState({ tabType: null, data: null })
+  const [tabContent, setTabContent] = useState({ tabClass: null, data: null })
+  console.log('tab content')
+  console.log(tabContent)
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   console.log('MameNames:', mameNames)
@@ -101,20 +105,28 @@ export default function MediaPanel() {
     const fetchTabContent = async () => {
       const selectedTab = thisSystemsTabs[selectedTabIndex]
 
-      const tabType = tabTypeMap[selectedTab?.tabType]
+      const tabClass = tabClassMap[selectedTab?.tabType]
       const searchType = selectedTab?.searchType
       const mameUseParentForSrch = selectedTab?.mameUseParentForSrch
-      if (tabType) {
+      if (tabClass) {
         const response = await fetch('/tabContent', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ tabType, searchType, romname, selectedTab, system, mameNames, mameUseParentForSrch })
+          body: JSON.stringify({
+            tabClass,
+            searchType,
+            romname,
+            selectedTab,
+            system,
+            mameNames,
+            mameUseParentForSrch
+          })
         })
         const data = await response.json()
-        setTabContent({ tabType, data })
+        setTabContent({ tabClass, data })
       } else {
         console.log('Tab type not handled:', selectedTab?.tabType)
-        setTabContent({ tabType: null, data: null })
+        setTabContent({ tabClass: null, data: null })
       }
     }
     fetchTabContent()
@@ -145,7 +157,7 @@ export default function MediaPanel() {
   }
 
   const renderTabContent = () => {
-    const renderFunction = tabContentRenderers[tabContent.tabType]
+    const renderFunction = tabContentRenderers[tabContent.tabClass]
     return renderFunction ? renderFunction(tabContent.data) : <h2>Tab content not available</h2>
   }
 
