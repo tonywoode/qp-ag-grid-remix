@@ -2,6 +2,16 @@ import fs from 'fs'
 import path from 'path'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
+//TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+function getLeafFilenameForTabType(tabType: string): string {
+  const tabTypeToFileMap: { [key: string]: string } = {
+    MameHistory: 'History.dat',
+    MameInfo: 'mameinfo.dat',
+    // Add new tabType and filename pairs here as needed
+  }
+  return tabTypeToFileMap[tabType] //TODO: no case?
+}
+
 async function findHistoryContent(
   pathInTabData: string[],
   romname: string,
@@ -12,10 +22,12 @@ async function findHistoryContent(
   for (const p of pathInTabData) {
     const macPath = convertWindowsPathToMacPath(p)
     console.log('this systems tab type is: ', thisSystemsTab.tabType)
-    const historyDatPath =
-      thisSystemsTab.tabType === 'MameHistory' //TODO: mamehistory also contains info about mess consoles!
-        ? path.join(macPath, 'History.dat')
-        : path.join(macPath, 'mameinfo.dat')
+    const leafNameForHistoryType = getLeafFilenameForTabType(thisSystemsTab.tabType)
+    if (!leafNameForHistoryType) {
+      console.log(`No matching filename found for tabType: ${thisSystemsTab.tabType}`)
+      return { error: `No matching filename found for tabType: ${thisSystemsTab.tabType}` } //TODO: throw?
+    }
+    const historyDatPath = path.join(macPath, leafNameForHistoryType)
     console.log('historyDatPath')
     console.log(historyDatPath)
     try {
@@ -25,7 +37,6 @@ async function findHistoryContent(
         mameNames,
         mameUseParentForSrch,
         thisSystemsTab,
-        macPath,
         historyDatPath
       )
     } catch (error) {
@@ -41,7 +52,6 @@ async function findHistoryDatContent(
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
   thisSystemsTab: string,
-  macPath: string,
   historyDatPath: string
 ): Promise<any> {
   const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
