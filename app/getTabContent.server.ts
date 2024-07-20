@@ -30,15 +30,13 @@ async function findHistoryContent(
     const historyDatPath = path.join(macPath, leafNameForHistoryType)
     console.log('historyDatPath')
     console.log(historyDatPath)
+    const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
+      .stat(historyDatPath)
+      .then(() => true)
+      .catch(() => false)
+    
     try {
-      return findHistoryDatContent(
-        pathInTabData,
-        romname,
-        mameNames,
-        mameUseParentForSrch,
-        thisSystemsTab,
-        historyDatPath
-      )
+      return findHistoryDatContent(romname, mameNames, mameUseParentForSrch, historyDatPath, historyExists)
     } catch (error) {
       console.error('Error processing history data:', error)
     }
@@ -47,17 +45,12 @@ async function findHistoryContent(
 }
 
 async function findHistoryDatContent(
-  pathInTabData: string[],
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
-  thisSystemsTab: string,
-  historyDatPath: string
+  historyDatPath: string,
+  historyExists: boolean
 ): Promise<any> {
-  const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
-    .stat(historyDatPath)
-    .then(() => true)
-    .catch(() => false)
   if (historyExists) {
     let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') // Note latin1 for history.dats
     // console.log(historyContent)
