@@ -218,8 +218,13 @@ async function findHistoryDatContent(
       searchTerms.push(mameNames.parentName)
     }
     for (const searchTerm of searchTerms) {
-      //TODO: the comma here suggests the mamenames can be an array - check data:
-      if (entry.includes(`$info=${searchTerm},`)) {
+      //mame history entries are array like eg: $info=1944,1944d,
+      //game history entries are the common-lanugage name of the game, not mamenames
+      if (
+        isGameHistory
+          ? entry.includes(`$info=${searchTerm},`)
+          : new RegExp(`\\$info=.*\\b${searchTerm}\\b,`).test(entry)
+      ) {
         //fix game history issues, but not in real mame files!
         const { widthFixedContent, gameHistoryLink } = isGameHistory
           ? fixGameHistoryDatIssues(entry)
