@@ -162,17 +162,19 @@ async function findMameInfoContent(
 
 //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
 function fixGameHistoryDatIssues(entry: string): { widthFixedContent: string; gameHistoryLink: string } {
+  // This regex looks for a newline, followed by a space, and then another newline
+  const entryWithUnSpacedNewlines = entry.replace(/ \n/g, '\n')
   //first fix the broken anchors
   // Correct and extract the link, all the game history links are tagged but malformed
-  const linkMatch = entry.match(/\$<a href="([^"]+)"/m)
+  const linkMatch = entryWithUnSpacedNewlines.match(/\$<a href="([^"]+)"/m)
   const originalLink = linkMatch ? linkMatch[1] : ''
   const httpsLink = originalLink.replace('http://', 'https://') // Correcting the link
   const gameHistoryLink = `<a href="${httpsLink}">${httpsLink}</a>` // Correcting the malformed link
   let widthFixedContent: string
-  const splitIndex = entry.indexOf('- TECHNICAL -')
+  const splitIndex = entryWithUnSpacedNewlines.indexOf('- TECHNICAL -')
   if (splitIndex !== -1) {
-    const firstPart = entry.substring(0, splitIndex).trim()
-    const secondPart = entry.substring(splitIndex) // Includes "- TECHNICAL -" and what follows
+    const firstPart = entryWithUnSpacedNewlines.substring(0, splitIndex).trim()
+    const secondPart = entryWithUnSpacedNewlines.substring(splitIndex) // Includes "- TECHNICAL -" and what follows
     const processedFirstPart = firstPart
       .split('\r\n\r\n')
       .map(paragraph => paragraph.replace(/\r\n/g, '±±±')) // Tag newlines
@@ -182,7 +184,7 @@ function fixGameHistoryDatIssues(entry: string): { widthFixedContent: string; ga
       .trim()
     widthFixedContent = `${processedFirstPart}\r\n\r\n${secondPart}`
   } else {
-    widthFixedContent = entry
+    widthFixedContent = entryWithUnSpacedNewlines
   }
   return { widthFixedContent, gameHistoryLink }
 }
@@ -207,17 +209,14 @@ async function findHistoryDatContent(
     if (matchFound) break
     //unlike screenshots, we're searching in the found file for a spcefic entry
     let searchTerms = [romname] // Default search term is romname
-
     // If mameName is present, prioritize it
     if (mameNames.mameName) {
       searchTerms.unshift(mameNames.mameName)
     }
-
     // If mameParent should be used and is present, add it to the search terms
     if (mameUseParentForSrch && mameNames.parentName) {
       searchTerms.push(mameNames.parentName)
     }
-
     for (const searchTerm of searchTerms) {
       //TODO: the comma here suggests the mamenames can be an array - check data:
       if (entry.includes(`$info=${searchTerm},`)) {
@@ -226,15 +225,19 @@ async function findHistoryDatContent(
           ? fixGameHistoryDatIssues(entry)
           : { widthFixedContent: entry, gameHistoryLink: null }
         matchFound = true
-
-        // Extract the game title
-        const titleMatch = entry.match(/^\$info=([^,]+),?/m)
-        const title = titleMatch ? titleMatch[1] : 'Unknown Title'
-
-        // Use the processed content
-        const bioIndex = widthFixedContent.indexOf('$bio') + 4 // Start of content
+        // Find the index of `$bio` and then the title after the next newline
+        const bioIndex = widthFixedContent.indexOf('$bio') + 4
+        console.log('widthedFixedContent')
+        console.log({ widthFixedContent })
+        let titleStartIndex = widthFixedContent.indexOf('\n', bioIndex) + 1 // Start of the title
+        //game history entries have 2 lines of whitespace before the title
+        while (widthFixedContent[titleStartIndex] === '\n') {
+          titleStartIndex++
+        }
+        let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex) // End of the title
+        if (titleEndIndex === -1) titleEndIndex = widthFixedContent.length // In case there's no double newline
+        const title = widthFixedContent.substring(titleStartIndex, titleEndIndex).trim()
         const content = widthFixedContent.substring(bioIndex).trim()
-
         // Construct the JSON object
         const jsonContent = {
           title,
