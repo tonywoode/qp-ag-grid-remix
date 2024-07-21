@@ -63,6 +63,67 @@ async function findMameDatContent(
   return { error: 'Associated Mame-dat-style file not found for the provided ROM name' }
 }
 
+
+function cleanMameInfoContent(content: string): string {
+  const lines = content.split(/\r?\n/)
+  const cleanedLines = []
+  let isSectionHeader = false
+  let inList = false // Track if we are currently processing list items
+  let listItems = [] // Temporarily store list items
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i]
+    const isBlankLine = line.trim() === ''
+    isSectionHeader =
+      /^[A-Z].*:$/.test(line) ||
+      line.startsWith('WIP') ||
+      line.startsWith('LEVELS') ||
+      line.startsWith('Other Emulators') ||
+      line.startsWith('Artwork available') ||
+      line.startsWith('Romset') ||
+      line.startsWith('Recommended Games')
+
+    if (isBlankLine) {
+      continue
+    }
+
+    if (isSectionHeader && cleanedLines.length > 0) {
+      // If exiting a list, close the <ul> tag before adding a section header
+      if (inList) {
+        cleanedLines.push(`<ul className="list-disc pl-4">${listItems.join('')}</ul>`)
+        listItems = []
+        inList = false
+      }
+      cleanedLines.push('')
+    }
+
+    if (isSectionHeader) {
+      cleanedLines.push(`<strong>${line}</strong>`)
+    } else if (line.startsWith('- ')) {
+      // If the line starts with "- ", we're in a list
+      if (!inList) {
+        inList = true // Mark that we've started a list
+      }
+      listItems.push(`<li>${line.substring(2)}</li>`) // Add item to temporary list storage
+    } else {
+      // If exiting a list, close the <ul> tag before adding regular content
+      if (inList) {
+        cleanedLines.push(`<ul className="list-disc pl-4">${listItems.join('')}</ul>`)
+        listItems = []
+        inList = false
+      }
+      cleanedLines.push(line)
+    }
+  }
+
+  // If there are any remaining list items after the loop, close the <ul> tag
+  if (inList) {
+    cleanedLines.push(`<ul>${listItems.join('')}</ul>`)
+  }
+
+  return cleanedLines.join('\n')
+}
+
 async function findMameInfoContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
@@ -92,7 +153,8 @@ async function findMameInfoContent(
         matchFound = true
         const title = searchTerm
         const mameIndex = entry.indexOf('$mame') + 6
-        const content = entry.substring(mameIndex).trim()
+        const rawContent = entry.substring(mameIndex).trim()
+        const content = cleanMameInfoContent(rawContent)
         const jsonContent = {
           title,
           content
