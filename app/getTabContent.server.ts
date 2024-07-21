@@ -3,14 +3,37 @@ import path from 'path'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
 //TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-function getLeafFilenameForTabType(tabType: string): string {
-  const tabTypeToFileMap: { [key: string]: string } = {
-    MameHistory: 'history.dat',
-    MameInfo: 'mameinfo.dat'
-    // Add new tabType and filename pairs here as needed
+
+// function getTabTypeStrategy(tabType: string): string {
+//   const tabTypeToFileMap: { [key: string]: string } = {
+//     MameHistory: 'history.dat',
+//     MameInfo: 'mameinfo.dat'
+//     // Add new tabType and filename pairs here as needed
+//   }
+//   return tabTypeToFileMap[tabType] //TODO: no case?
+// }
+
+const tabTypeStrategy: { [key: string]: TabStrategy } = {
+  MameHistory: {
+    filename: 'history.dat',
+    contentFinder: findHistoryDatContent,
+  },
+  MameInfo: {
+    filename: 'mameinfo.dat',
+    contentFinder: findMameInfoContent,
+  },
+  // Add new tabType and strategy pairs here as needed
+};
+
+function getTabTypeStrategy(tabType: string): TabStrategy | null {
+  const strategy = tabTypeStrategy[tabType];
+  if (!strategy) {
+    console.warn(`No strategy found for tabType: ${tabType}`);
+    return null; // TODO: what's the correct thing to do here?
   }
-  return tabTypeToFileMap[tabType] //TODO: no case?
+  return strategy
 }
+
 
 async function findHistoryContent(
   pathInTabData: string[],
@@ -24,11 +47,16 @@ async function findHistoryContent(
     //Do we have >1 path in for mame dats? We'll only return the first?
     const macPath = convertWindowsPathToMacPath(p)
     console.log('this systems tab type is: ', thisSystemsTab.tabType)
-    const leafNameForHistoryType = getLeafFilenameForTabType(thisSystemsTab.tabType)
-    if (!leafNameForHistoryType) {
+
+    const strategy = getTabTypeStrategy(thisSystemsTab.tabType)
+    if (!strategy) {
       console.log(`No matching filename found for tabType: ${thisSystemsTab.tabType}`)
       return { error: `No matching filename found for tabType: ${thisSystemsTab.tabType}` } //TODO: throw?
     }
+    const { filename, contentFinder } = strategy
+
+    const leafNameForHistoryType = filename
+
     const historyDatPath = path.join(macPath, leafNameForHistoryType)
     console.log('historyDatPath', historyDatPath)
     const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
@@ -38,7 +66,7 @@ async function findHistoryContent(
     if (historyExists) {
       let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') // Note latin1 for history.dats
       try {
-        return findHistoryDatContent(romname, mameNames, mameUseParentForSrch, historyDatPath, historyContent)
+        return contentFinder(romname, mameNames, mameUseParentForSrch, historyDatPath, historyContent)
         // return findHistoryDatContent(romname, mameNames, mameUseParentForSrch, historyDatPath, historyContent)
       } catch (error) {
         console.error('Error processing history data:', error)
