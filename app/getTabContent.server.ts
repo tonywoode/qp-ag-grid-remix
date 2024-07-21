@@ -63,8 +63,47 @@ async function findMameDatContent(
   return { error: 'Associated Mame-dat-style file not found for the provided ROM name' }
 }
 
-async function findMameInfoContent() {
-  return { error: 'not yet implemented' }
+async function findMameInfoContent(
+  romname: string,
+  mameNames: { mameName?: string; parentName?: string },
+  mameUseParentForSrch: boolean,
+  mameDatContent: string
+): Promise<any> {
+  // Step 1 & 2: Split the content into lines and find the end of the comments section
+  const lines = mameDatContent.split(/\r?\n/)
+  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
+  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
+  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
+
+  // Proceed with the trimmed content
+  const entries = trimmedContent.split('$end')
+  let matchFound = false // Flag to indicate a match has been found
+  for (const entry of entries) {
+    if (matchFound) break
+    let searchTerms = [romname] // Default search term is romname
+    if (mameNames.mameName) {
+      searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
+    }
+    if (mameUseParentForSrch && mameNames.parentName) {
+      searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
+    }
+    for (const searchTerm of searchTerms) {
+      if (entry.includes(`$info=${searchTerm}`)) {
+        matchFound = true
+        const title = searchTerm
+        const mameIndex = entry.indexOf('$mame') + 6
+        const content = entry.substring(mameIndex).trim()
+        const jsonContent = {
+          title,
+          content
+        }
+        console.log('jsonContent')
+        console.log(jsonContent)
+        return jsonContent
+      }
+    }
+  }
+  return { error: 'History entry not found for the provided ROM name' }
 }
 
 //TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -93,6 +132,7 @@ async function findHistoryDatContent(
     }
 
     for (const searchTerm of searchTerms) {
+      //TODO: the comma here suggests the mamenames can be an array - check data:
       if (entry.includes(`$info=${searchTerm},`)) {
         matchFound = true
         //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
