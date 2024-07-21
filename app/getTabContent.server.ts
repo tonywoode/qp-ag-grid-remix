@@ -237,7 +237,9 @@ async function findHistoryDatContent(
         let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex) // End of the title
         if (titleEndIndex === -1) titleEndIndex = widthFixedContent.length // In case there's no double newline
         const title = widthFixedContent.substring(titleStartIndex, titleEndIndex).trim()
-        const content = widthFixedContent.substring(bioIndex).trim()
+        // Adjust content to start after the title's end, ensuring it doesn't repeat the title
+        const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
+        const content = widthFixedContent.substring(contentStartIndex).trim()
         // Construct the JSON object
         const jsonContent = {
           title,
