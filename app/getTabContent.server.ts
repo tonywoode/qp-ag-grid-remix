@@ -19,7 +19,9 @@ async function findHistoryContent(
   mameUseParentForSrch: boolean,
   thisSystemsTab: string
 ): Promise<any> {
+  console.log(pathInTabData)
   for (const p of pathInTabData) {
+    //Do we have >1 path in for mame dats? We'll only return the first?
     const macPath = convertWindowsPathToMacPath(p)
     console.log('this systems tab type is: ', thisSystemsTab.tabType)
     const leafNameForHistoryType = getLeafFilenameForTabType(thisSystemsTab.tabType)
@@ -28,8 +30,7 @@ async function findHistoryContent(
       return { error: `No matching filename found for tabType: ${thisSystemsTab.tabType}` } //TODO: throw?
     }
     const historyDatPath = path.join(macPath, leafNameForHistoryType)
-    console.log('historyDatPath')
-    console.log(historyDatPath)
+    console.log('historyDatPath', historyDatPath)
     const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
       .stat(historyDatPath)
       .then(() => true)
@@ -38,6 +39,7 @@ async function findHistoryContent(
       let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') // Note latin1 for history.dats
       try {
         return findHistoryDatContent(romname, mameNames, mameUseParentForSrch, historyDatPath, historyContent)
+        // return findHistoryDatContent(romname, mameNames, mameUseParentForSrch, historyDatPath, historyContent)
       } catch (error) {
         console.error('Error processing history data:', error)
       }
@@ -46,6 +48,11 @@ async function findHistoryContent(
   return { error: 'Associated Mame-dat-style file not found for the provided ROM name' }
 }
 
+async function findMameInfoContent (){
+  return { error: 'not yet implemented'}
+}
+
+//TODO: this is GAME history logic, we don't want to do so much munging for Mame history: we don't want to continue these non-isomporhic transformations, we lose list formattings etc
 async function findHistoryDatContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
