@@ -160,6 +160,33 @@ async function findMameInfoContent(
   return { error: 'History entry not found for the provided ROM name' }
 }
 
+//original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
+function fixGameHistoryDatIssues(entry: string): { widthFixedContent: string; gameHistoryLink: string } {
+  //first fix the broken anchors
+  // Correct and extract the link, all the game history links are tagged but malformed
+  const linkMatch = entry.match(/\$<a href="([^"]+)"/m)
+  const originalLink = linkMatch ? linkMatch[1] : ''
+  const httpsLink = originalLink.replace('http://', 'https://') // Correcting the link
+  const gameHistoryLink = `<a href="${httpsLink}">${httpsLink}</a>` // Correcting the malformed link
+  let widthFixedContent: string
+  const splitIndex = entry.indexOf('- TECHNICAL -')
+  if (splitIndex !== -1) {
+    const firstPart = entry.substring(0, splitIndex).trim()
+    const secondPart = entry.substring(splitIndex) // Includes "- TECHNICAL -" and what follows
+    const processedFirstPart = firstPart
+      .split('\r\n\r\n')
+      .map(paragraph => paragraph.replace(/\r\n/g, '±±±')) // Tag newlines
+      .map(paragraph => paragraph.replace(/±±± ±±±/g, '\r\n\r\n')) // Restore the real paragraph breaks before...
+      .map(paragraph => paragraph.replace(/±±±/g, '')) // ...removing the unwanted ones
+      .join('\r\n\r\n')
+      .trim()
+    widthFixedContent = `${processedFirstPart}\r\n\r\n${secondPart}`
+  } else {
+    widthFixedContent = entry
+  }
+  return { widthFixedContent, gameHistoryLink }
+}
+
 //TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //TODO: this is GAME History logic, we don't want to do so much munging for Mame history: we don't want to continue these non-isomporhic transformations, we lose list formattings etc
 async function findHistoryDatContent(
@@ -172,6 +199,7 @@ async function findHistoryDatContent(
   const lines = mameDatContent.split(/\r?\n/)
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
   const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
+  const isGameHistory = fileHeader.includes('Matt McLemore') //is it a mame file or is it a game history file?
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
   const entries = trimmedContent.split('$end')
   let matchFound = false // Flag to indicate a match has been found
@@ -193,42 +221,24 @@ async function findHistoryDatContent(
     for (const searchTerm of searchTerms) {
       //TODO: the comma here suggests the mamenames can be an array - check data:
       if (entry.includes(`$info=${searchTerm},`)) {
+        //fix game history issues, but not in real mame files!
+        const { widthFixedContent, gameHistoryLink } = isGameHistory
+          ? fixGameHistoryDatIssues(entry)
+          : { widthFixedContent: entry, gameHistoryLink: null }
         matchFound = true
-        //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
-        let widthFixedContent
-        const splitIndex = entry.indexOf('- TECHNICAL -')
-        if (splitIndex !== -1) {
-          const firstPart = entry.substring(0, splitIndex).trim()
-          const secondPart = entry.substring(splitIndex) // Includes "- TECHNICAL -" and what follows
-          const processedFirstPart = firstPart
-            .split('\r\n\r\n')
-            .map(paragraph => paragraph.replace(/\r\n/g, '±±±')) //tag newlines
-            .map(paragraph => paragraph.replace(/±±± ±±±/g, '\r\n\r\n')) //restore the real para breaks before...
-            .map(paragraph => paragraph.replace(/±±±/g, '')) //...removing the unwanted ones
-            .join('\r\n\r\n')
-            .trim()
-          widthFixedContent = `${processedFirstPart}\r\n\r\n${secondPart}`
-        } else {
-          widthFixedContent = entry
-        }
 
         // Extract the game title
         const titleMatch = entry.match(/^\$info=([^,]+),?/m)
         const title = titleMatch ? titleMatch[1] : 'Unknown Title'
 
-        // Correct and extract the link, all the game history links are tagged but malformed
-        const linkMatch = entry.match(/\$<a href="([^"]+)"/m)
-        const link = linkMatch ? linkMatch[1] : ''
-        const httpsLink = link.replace('http://', 'https://') // Correcting the link
-
         // Use the processed content
         const bioIndex = widthFixedContent.indexOf('$bio') + 4 // Start of content
-        const content = widthFixedContent.substring(bioIndex).trim().replace('http://', 'https://') // Corrected to extract until the actual end of the entry
+        const content = widthFixedContent.substring(bioIndex).trim()
 
         // Construct the JSON object
         const jsonContent = {
           title,
-          link: `<a href="${httpsLink}">${httpsLink}</a>`, // Correcting the malformed link
+          gameHistoryLink,
           content
         }
         console.log('jsonContent')

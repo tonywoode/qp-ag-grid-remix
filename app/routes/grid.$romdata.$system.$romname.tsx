@@ -148,8 +148,10 @@ export default function MediaPanel() {
       data.mameDat && !data.mameDat.error ? (
         <div className="pl-3">
           <h1 className="text-2xl font-bold my-4">{data.mameDat.title}</h1>
-          {data.mameDat.link && (
-            <div className="my-4 underline text-blue-500">{parse(data.mameDat.link, { replace: replaceLinks })}</div>
+          {data.mameDat.gameHistoryLink && (
+            <div className="my-4 underline text-blue-500">
+              {parse(data.mameDat.gameHistoryLink, { replace: replaceLinks })}
+            </div>
           )}
           <div className="whitespace-pre-wrap">{parse(data.mameDat.content)}</div>{' '}
         </div>
