@@ -10,8 +10,7 @@ const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameInfo: {
     datLeafFilename: 'mameinfo.dat',
     contentFinder: findMameInfoContent
-  }
-  // Add new tabType and strategy pairs here as needed
+  } // Add new tabType and strategy pairs here as needed
 }
 
 function getTabTypeStrategy(tabType: string): TabStrategy | null {
@@ -48,7 +47,7 @@ async function findMameDatContent(
     try {
       await fs.promises.stat(mameDatPath) // Check if mameDat exists
       //TODO: we're assuming this has been set to searchType: 'ExactMatch', which it should, is it always? if so the data needs fixing not the code
-      let mameDatContent = await fs.promises.readFile(mameDatPath, 'latin1')
+      let mameDatContent = await fs.promises.readFile(mameDatPath, 'utf8')
       return contentFinder(romname, mameNames, mameUseParentForSrch, mameDatContent)
     } catch (error) {
       if (error.code === 'ENOENT') {
@@ -63,14 +62,12 @@ async function findMameDatContent(
   return { error: 'Associated Mame-dat-style file not found for the provided ROM name' }
 }
 
-
 function cleanMameInfoContent(content: string): string {
   const lines = content.split(/\r?\n/)
   const cleanedLines = []
   let isSectionHeader = false
   let inList = false // Track if we are currently processing list items
   let listItems = [] // Temporarily store list items
-
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i]
     const isBlankLine = line.trim() === ''
@@ -82,11 +79,9 @@ function cleanMameInfoContent(content: string): string {
       line.startsWith('Artwork available') ||
       line.startsWith('Romset') ||
       line.startsWith('Recommended Games')
-
     if (isBlankLine) {
       continue
     }
-
     if (isSectionHeader && cleanedLines.length > 0) {
       // If exiting a list, close the <ul> tag before adding a section header
       if (inList) {
@@ -96,7 +91,6 @@ function cleanMameInfoContent(content: string): string {
       }
       cleanedLines.push('')
     }
-
     if (isSectionHeader) {
       cleanedLines.push(`<strong>${line}</strong>`)
     } else if (line.startsWith('- ')) {
@@ -115,12 +109,10 @@ function cleanMameInfoContent(content: string): string {
       cleanedLines.push(line)
     }
   }
-
   // If there are any remaining list items after the loop, close the <ul> tag
   if (inList) {
     cleanedLines.push(`<ul>${listItems.join('')}</ul>`)
   }
-
   return cleanedLines.join('\n')
 }
 
@@ -176,7 +168,12 @@ async function findHistoryDatContent(
   mameUseParentForSrch: boolean,
   mameDatContent: string
 ): Promise<any> {
-  const entries = mameDatContent.split('$end')
+  // Step 1 & 2: Split the content into lines and find the end of the comments section
+  const lines = mameDatContent.split(/\r?\n/)
+  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
+  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
+  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
+  const entries = trimmedContent.split('$end')
   let matchFound = false // Flag to indicate a match has been found
   for (const entry of entries) {
     if (matchFound) break
