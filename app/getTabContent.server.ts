@@ -4,36 +4,26 @@ import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
 //TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-// function getTabTypeStrategy(tabType: string): string {
-//   const tabTypeToFileMap: { [key: string]: string } = {
-//     MameHistory: 'history.dat',
-//     MameInfo: 'mameinfo.dat'
-//     // Add new tabType and filename pairs here as needed
-//   }
-//   return tabTypeToFileMap[tabType] //TODO: no case?
-// }
-
 const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameHistory: {
-    filename: 'history.dat',
-    contentFinder: findHistoryDatContent,
+    datLeafFilename: 'history.dat',
+    contentFinder: findHistoryDatContent
   },
   MameInfo: {
-    filename: 'mameinfo.dat',
-    contentFinder: findMameInfoContent,
-  },
+    datLeafFilename: 'mameinfo.dat',
+    contentFinder: findMameInfoContent
+  }
   // Add new tabType and strategy pairs here as needed
-};
+}
 
 function getTabTypeStrategy(tabType: string): TabStrategy | null {
-  const strategy = tabTypeStrategy[tabType];
+  const strategy = tabTypeStrategy[tabType]
   if (!strategy) {
-    console.warn(`No strategy found for tabType: ${tabType}`);
-    return null; // TODO: what's the correct thing to do here?
+    console.warn(`No strategy found for tabType: ${tabType}`)
+    return null // TODO: what's the correct thing to do here?
   }
   return strategy
 }
-
 
 async function findHistoryContent(
   pathInTabData: string[],
@@ -43,33 +33,32 @@ async function findHistoryContent(
   thisSystemsTab: string
 ): Promise<any> {
   console.log(pathInTabData)
+  const tabType = thisSystemsTab.tabType
+  //TODO: Do we ever have >1 path in for mame dats? What will happen if there's >1? does the code need fixing or the data?
   for (const p of pathInTabData) {
-    //Do we have >1 path in for mame dats? We'll only return the first?
     const macPath = convertWindowsPathToMacPath(p)
-    console.log('this systems tab type is: ', thisSystemsTab.tabType)
-
-    const strategy = getTabTypeStrategy(thisSystemsTab.tabType)
+    console.log('this systems tab type is: ', tabType)
+    const strategy = getTabTypeStrategy(tabType)
     if (!strategy) {
-      console.log(`No matching filename found for tabType: ${thisSystemsTab.tabType}`)
-      return { error: `No matching filename found for tabType: ${thisSystemsTab.tabType}` } //TODO: throw?
+      const msg = `Unknown tabType sent to mediaPanel: ${tabType}`
+      console.log(msg)
+      return { error: msg } //TODO: throw?
     }
-    const { filename, contentFinder } = strategy
-
-    const leafNameForHistoryType = filename
-
-    const historyDatPath = path.join(macPath, leafNameForHistoryType)
+    const { datLeafFilename, contentFinder } = strategy
+    const historyDatPath = path.join(macPath, datLeafFilename)
     console.log('historyDatPath', historyDatPath)
-    const historyExists = await fs.promises //we're assuming this has been set to searchType: 'ExactMatch', which it should
-      .stat(historyDatPath)
-      .then(() => true)
-      .catch(() => false)
-    if (historyExists) {
-      let historyContent = await fs.promises.readFile(historyDatPath, 'latin1') // Note latin1 for history.dats
-      try {
-        return contentFinder(romname, mameNames, mameUseParentForSrch, historyDatPath, historyContent)
-        // return findHistoryDatContent(romname, mameNames, mameUseParentForSrch, historyDatPath, historyContent)
-      } catch (error) {
+    try {
+      await fs.promises.stat(historyDatPath) // Check if history.dat exists
+      //TODO: we're assuming this has been set to searchType: 'ExactMatch', which it should, is it always? if so the data needs fixing not the code
+      let historyContent = await fs.promises.readFile(historyDatPath, 'latin1')
+      return contentFinder(romname, mameNames, mameUseParentForSrch, historyDatPath, historyContent)
+    } catch (error) {
+      if (error.code === 'ENOENT') {
+        console.log('History file does not exist:', historyDatPath)
+        continue //to the next dat in the array if the current dat doesn't exist or any error occurs
+      } else {
         console.error('Error processing history data:', error)
+        return { error: 'Error processing history data' }
       }
     }
   }
