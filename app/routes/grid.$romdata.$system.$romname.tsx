@@ -12,8 +12,8 @@ import parse, { domToReact, Element } from 'html-react-parser'
 const tabClassMap: { [key: string]: string } = {
   Images: 'screenshot',
   Thumbnail: 'screenshot',
-  MameHistory: 'history',
-  MameInfo: 'history'
+  MameHistory: 'mameDat',
+  MameInfo: 'mameDat'
 
   //add more, should be Zod!
 }
@@ -144,15 +144,15 @@ export default function MediaPanel() {
         )}
       </div>
     ),
-    history: data =>
-      data.history && !data.history.error ? (
+    mameDat: data =>
+      data.mameDat && !data.mameDat.error ? (
         <div className="pl-3">
-          <h1 className="text-2xl font-bold my-4">{data.history.title}</h1>
-          <div className="my-4 underline text-blue-500">{parse(data.history.link, { replace: replaceLinks })}</div>
-          <p className="whitespace-pre-wrap">{parse(data.history.content)}</p>{' '}
+          <h1 className="text-2xl font-bold my-4">{data.mameDat.title}</h1>
+          <div className="my-4 underline text-blue-500">{parse(data.mameDat.link, { replace: replaceLinks })}</div>
+          <p className="whitespace-pre-wrap">{parse(data.mameDat.content)}</p>{' '}
         </div>
       ) : (
-        <div>{data.history.error}</div>
+        <div>{data.mameDat.error}</div>
       )
   }
 

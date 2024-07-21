@@ -2,8 +2,6 @@ import fs from 'fs'
 import path from 'path'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
-//TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameHistory: {
     datLeafFilename: 'history.dat',
@@ -25,7 +23,7 @@ function getTabTypeStrategy(tabType: string): TabStrategy | null {
   return strategy
 }
 
-async function findHistoryContent(
+async function findMameDatContent(
   pathInTabData: string[],
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
@@ -45,39 +43,39 @@ async function findHistoryContent(
       return { error: msg } //TODO: throw?
     }
     const { datLeafFilename, contentFinder } = strategy
-    const historyDatPath = path.join(macPath, datLeafFilename)
-    console.log('historyDatPath', historyDatPath)
+    const mameDatPath = path.join(macPath, datLeafFilename)
+    console.log('mameDatPath', mameDatPath)
     try {
-      await fs.promises.stat(historyDatPath) // Check if history.dat exists
+      await fs.promises.stat(mameDatPath) // Check if mameDat exists
       //TODO: we're assuming this has been set to searchType: 'ExactMatch', which it should, is it always? if so the data needs fixing not the code
-      let historyContent = await fs.promises.readFile(historyDatPath, 'latin1')
-      return contentFinder(romname, mameNames, mameUseParentForSrch, historyDatPath, historyContent)
+      let mameDatContent = await fs.promises.readFile(mameDatPath, 'latin1')
+      return contentFinder(romname, mameNames, mameUseParentForSrch, mameDatContent)
     } catch (error) {
       if (error.code === 'ENOENT') {
-        console.log('History file does not exist:', historyDatPath)
+        console.log('Mame Dat file does not exist:', mameDatPath)
         continue //to the next dat in the array if the current dat doesn't exist or any error occurs
       } else {
-        console.error('Error processing history data:', error)
-        return { error: 'Error processing history data' }
+        console.error('Error processing Mame Dat data:', error)
+        return { error: 'Error processing Mame Dat data' }
       }
     }
   }
   return { error: 'Associated Mame-dat-style file not found for the provided ROM name' }
 }
 
-async function findMameInfoContent (){
-  return { error: 'not yet implemented'}
+async function findMameInfoContent() {
+  return { error: 'not yet implemented' }
 }
 
-//TODO: this is GAME history logic, we don't want to do so much munging for Mame history: we don't want to continue these non-isomporhic transformations, we lose list formattings etc
+//TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//TODO: this is GAME History logic, we don't want to do so much munging for Mame history: we don't want to continue these non-isomporhic transformations, we lose list formattings etc
 async function findHistoryDatContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
-  historyDatPath: string,
-  historyContent: string
+  mameDatContent: string
 ): Promise<any> {
-  const entries = historyContent.split('$end')
+  const entries = mameDatContent.split('$end')
   let matchFound = false // Flag to indicate a match has been found
   for (const entry of entries) {
     if (matchFound) break
@@ -249,10 +247,10 @@ export async function getTabContent(
       const base64Files = await findScreenshotPaths(romname, pathInTabData, searchType, mameNames, mameUseParentForSrch)
       console.log('Found files:', base64Files)
       return { screenshots: base64Files }
-    } else if (tabClass === 'history') {
-      const history = await findHistoryContent(pathInTabData, romname, mameNames, mameUseParentForSrch, thisSystemsTab)
-      console.log('History.dat content:', history)
-      return { history }
+    } else if (tabClass === 'mameDat') {
+      const mameDat = await findMameDatContent(pathInTabData, romname, mameNames, mameUseParentForSrch, thisSystemsTab)
+      console.log('mameDat content:', mameDat)
+      return { mameDat }
     } else {
       return {}
     }

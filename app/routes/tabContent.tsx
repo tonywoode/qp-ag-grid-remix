@@ -18,8 +18,8 @@ export async function action({ request }: ActionFunctionArgs) {
     console.log('screenshots')
     console.log(screenshots)
     return { screenshots }
-  } else if (tabClass === 'history') {
-    const { history } = await getTabContent(
+  } else if (tabClass === 'mameDat') {
+    const { mameDat } = await getTabContent(
       tabClass,
       searchType,
       romname,
@@ -28,9 +28,9 @@ export async function action({ request }: ActionFunctionArgs) {
       mameNames,
       mameUseParentForSrch
     )
-    console.log('history')
-    console.log(history)
-    return { history }
+    console.log('mameDat')
+    console.log(mameDat)
+    return { mameDat }
   } else {
     return {}
   }
