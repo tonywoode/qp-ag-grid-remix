@@ -151,7 +151,7 @@ export default function MediaPanel() {
           {data.mameDat.link && (
             <div className="my-4 underline text-blue-500">{parse(data.mameDat.link, { replace: replaceLinks })}</div>
           )}
-          <p className="whitespace-pre-wrap">{parse(data.mameDat.content)}</p>{' '}
+          <div className="whitespace-pre-wrap">{parse(data.mameDat.content)}</div>{' '}
         </div>
       ) : (
         <div>{data.mameDat.error}</div>
