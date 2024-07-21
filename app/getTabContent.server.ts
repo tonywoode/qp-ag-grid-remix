@@ -182,7 +182,11 @@ function fixGameHistoryDatIssues(entry: string): { widthFixedContent: string; ga
       .map(paragraph => paragraph.replace(/±±±/g, '')) // ...removing the unwanted ones
       .join('\r\n\r\n')
       .trim()
-    widthFixedContent = `${processedFirstPart}\r\n\r\n${secondPart}`
+    // Step 1: Wrap section keys in <b> tags
+    let formattedSecondPart = secondPart.replace(/^(.+?)\s*:/gm, '<b>$1</b>:')
+    // Step 2: Specifically replace "SOURCE:" with "Source:"
+    formattedSecondPart = formattedSecondPart.replace('<b>SOURCE</b>:', '<b>Source</b>:')
+    widthFixedContent = `${processedFirstPart}\r\n\r\n${formattedSecondPart}`
   } else {
     widthFixedContent = entryWithUnSpacedNewlines
   }
@@ -232,19 +236,34 @@ async function findHistoryDatContent(
         matchFound = true
         // Find the index of `$bio` and then the title after the next newline
         const bioIndex = widthFixedContent.indexOf('$bio') + 4
-        console.log('widthedFixedContent')
-        console.log({ widthFixedContent })
         let titleStartIndex = widthFixedContent.indexOf('\n', bioIndex) + 1 // Start of the title
-        //game history entries have 2 lines of whitespace before the title
-        while (widthFixedContent[titleStartIndex] === '\n') {
+        // a lot of munging to try and separate the title from the section headings etc, mostly game-history specific problems (line endings may be \n\r etc)
+        // Skip initial line breaks
+        while (widthFixedContent[titleStartIndex] === '\n' || widthFixedContent[titleStartIndex] === '\r') {
           titleStartIndex++
         }
-        let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex) // End of the title
-        if (titleEndIndex === -1) titleEndIndex = widthFixedContent.length // In case there's no double newline
+        // Find the earliest of the double line break or "- TECHNICAL -"
+        let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex)
+        let technicalIndex = widthFixedContent.indexOf('- TECHNICAL -', titleStartIndex)
+        if (technicalIndex !== -1 && (technicalIndex < titleEndIndex || titleEndIndex === -1)) {
+          titleEndIndex = technicalIndex
+        } else if (titleEndIndex === -1) {
+          titleEndIndex = widthFixedContent.length // Fallback if no double line break is found
+        }
         const title = widthFixedContent.substring(titleStartIndex, titleEndIndex).trim()
         // Adjust content to start after the title's end, ensuring it doesn't repeat the title
         const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
-        const content = widthFixedContent.substring(contentStartIndex).trim()
+        //now change headings from the garish "- ALLCAPS -/n" to Strongs
+        const contentBeforeTagging = widthFixedContent.substring(contentStartIndex).trim()
+        const content = contentBeforeTagging.replace(/^- ([A-Z\s]+) -\n$/gm, (match, p1) => {
+          // Split the matched group into words, capitalize each, then join back together
+          const initialCaps = p1
+            .toLowerCase()
+            .split(/\s+/)
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ')
+          return `<strong>${initialCaps}</strong>`
+        })
         // Construct the JSON object
         const jsonContent = {
           title,
