@@ -305,45 +305,30 @@ async function findMameCommandContent(
       searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
     }
     for (const searchTerm of searchTerms) {
-      if (entry.includes(`$info=${searchTerm}`)) {
+      //info is array-like, but unlike history.dat we don't have trailing commas!
+      //the ? in this regex, combined with the \\b, may make it universally suitable (for game history also?)
+      if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
-        // const title = searchTerm
-        //these are the heading delims
+        //these are the heading delims - heading have these top (with newline after), and bottom
         const sectionPattern = /\*-{61}\*\n*(.*)\n*\*-{61}\*\n*/g
         const contentTypeIndex = entry.indexOf('$cmd') + 4
         let content = entry.substring(contentTypeIndex).trim()
-        // Replace headings with <strong> tags
-        // content = content.replace(/\*\-{61}\*\n*/g, '')
-        // content = content.replace(/«([^»]*)»\s*\n\s*/g, '\n<strong>$1</strong>\n\n')
-        // content = content.replace(/\*\-{61}\*\n/g, '')
-        // content = content.replace(/\*\-{61}\*/g, '')
-        // content = content.replace(/\*\-{61}\*\n\n«([^»]*)»\n\*\-{61}\*\n/g, '\n<strong>$1</strong>\n\n')
-        // Define the regex pattern
-        // Define patterns for start and end lines
-        // console.log('Initial content:', content)
-
-        // Regex pattern to match sections enclosed by asterisk-dash lines and capture the heading text
-        // const sectionPattern = /\*\-{61}\*\n([^*]+?)\n\*\-{61}\*/g
-
         // Process and replace each matched section
         content = content.replace(sectionPattern, (match, headingText) => {
           console.log('heading text')
           console.log(headingText)
           headingText = headingText.trim()
-
           // Check if the heading text is enclosed by guillemets
           if (headingText.startsWith('«') && headingText.endsWith('»')) {
-            // Replace guillemets with <strong> tags and return the processed section
+            // Replace guillermots with <strong> tags and return the processed section
             return `\n\n<strong>${headingText.slice(1, -1)}</strong>\n\n`
           } else {
-            // Wrap the heading text with <b> tags and return the processed section
+            // Wrap the heading text with <i> tags and return the processed section
             return `\n\n<i>${headingText}\n\n</i>`
           }
         })
-
         //remove leading and trailing star lines
         content = content.replace(/\*\-{61}\*/g, '')
-        // content = content.replace(/^\*-{61}\*\n*/g, '')
         //now we've removed those star lines, the title is the first populated line
         let titleStartIndex = content.indexOf('\n', contentTypeIndex) + 1
         while (content[titleStartIndex] === '\n' || content[titleStartIndex] === '\r') {
@@ -351,10 +336,8 @@ async function findMameCommandContent(
         }
         let titleEndIndex = content.indexOf('\n\n', titleStartIndex)
         const title = content.substring(titleStartIndex, titleEndIndex).trim()
-
         // Adjust content to start after the title's end, ensuring it doesn't repeat the title
         const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
-        //now change headings from the garish "- ALLCAPS -/n" to Strongs
         const contentAfterTitle = content.substring(contentStartIndex).trim()
         console.log('Processed content:', content)
         const jsonContent = {
