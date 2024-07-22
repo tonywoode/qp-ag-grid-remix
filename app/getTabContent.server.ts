@@ -22,6 +22,10 @@ const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameStory: {
     datLeafFilename: 'story.dat',
     contentFinder: findMameStoryContent
+  },
+  MameMessInfo: {
+    datLeafFilename: 'messinfo.dat',
+    contentFinder: findMameMessInfoContent
   }
   // Add new tabType and strategy pairs here as needed
 }
@@ -449,6 +453,59 @@ async function findMameStoryContent(
         let content = entry.substring(contentTypeIndex).trim()
         content = content.replace(/MAMESCORE records : (.*)\n/, `<strong>Mamescore Records: $1</strong>\n`)
         const title = searchTerm
+        const jsonContent = {
+          title,
+          content
+        }
+        console.log('jsonContent')
+        console.log(jsonContent)
+        return jsonContent
+      }
+    }
+  }
+  return { error: 'Mame Game Init entry not found for the provided ROM name' }
+}
+
+async function findMameMessInfoContent(
+  romname: string,
+  mameNames: { mameName?: string; parentName?: string },
+  mameUseParentForSrch: boolean,
+  mameDatContent: string
+): Promise<any> {
+  const lines = mameDatContent.split(/\r?\n/)
+  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
+  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
+  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
+  let searchTerms = [romname] // Default search term is romname
+  if (mameNames.mameName) {
+    searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
+  }
+  if (mameUseParentForSrch && mameNames.parentName) {
+    searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
+  }
+  const entries = trimmedContent.split('$end')
+  let matchFound = false
+  for (const searchTerm of searchTerms) {
+    if (matchFound) break
+    for (const entry of entries) {
+      console.log('searchTerm', searchTerm)
+      if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
+        matchFound = true
+        const contentTypeIndex = entry.indexOf('$mame') + 5
+        let content = entry.substring(contentTypeIndex).trim()
+        const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
+        //this one had just HEADINGS: surrounded by whitespace
+        const sectionPattern = /^\s*([A-Z ]+):\s*$/gm
+        content = content.replace(sectionPattern, (match, headingText) => {
+          // Split the heading text into words, capitalize the first letter of each word,
+          // convert the rest to lowercase, then join the words back together.
+          const capitalizedHeading = headingText
+            .trim()
+            .split(' ')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+            .join(' ')
+          return `\n<strong>${capitalizedHeading}</strong>` //note \n need it in this one?!?
+        })
         const jsonContent = {
           title,
           content

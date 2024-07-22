@@ -70,8 +70,8 @@ const tabClassMap: { [key: string]: string } = {
   MameInfo: 'mameDat',
   MameCommand: 'mameDat',
   MameGameInit: 'mameDat',
-  MameStory: 'mameDat'
-
+  MameStory: 'mameDat',
+  MameMessInfo: 'mameDat'
   //add more, should be Zod!
 }
 
@@ -109,6 +109,7 @@ export default function MediaPanel() {
     const fetchTabContent = async () => {
       const selectedTab = thisSystemsTabs[selectedTabIndex]
 
+      console.log(selectedTab)
       const tabClass = tabClassMap[selectedTab?.tabType]
       const searchType = selectedTab?.searchType
       const mameUseParentForSrch = selectedTab?.mameUseParentForSrch
