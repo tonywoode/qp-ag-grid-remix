@@ -438,53 +438,40 @@ async function findScreenshotPaths(
   romname: string,
   pathInTabData: string[],
   searchType: string,
-  mameNames: { mameName?: string; parentName?: string },
+  mameNames: { mameName?: string; parentName?: string } = {},
   mameUseParentForSrch: boolean
 ) {
   console.log(`using searchType ${searchType}`)
   const foundBase64Files = new Set()
-
-  for (const p of pathInTabData) {
-    console.log('mameNames.parentName:')
-    console.log(mameNames.parentName)
-    console.log('mameUseParentForSrch:')
-    console.log(mameUseParentForSrch)
-    const macPath = convertWindowsPathToMacPath(p)
-    let matchFound = false // Flag to indicate a match has been found
+  const macPaths = pathInTabData.map(p => convertWindowsPathToMacPath(p))
+  const mameNameSearchTerms = [mameNames.mameName, mameUseParentForSrch && mameNames.parentName].filter(Boolean)
+  const shouldSearchRomNameOnly = Object.keys(mameNames).length === 0 || (!mameNames.mameName && !mameNames.parentName)
+  for (const macPath of macPaths) {
     try {
       const files = await fs.promises.readdir(macPath)
-      for (const file of files) {
-        if (matchFound) break // Exit the loop if a match has been found
-        let searchTerms = [romname] // Default search term is romname
-
-        // If mameName is present, prioritize it
-        if (mameNames.mameName) {
-          searchTerms.unshift(mameNames.mameName)
-        }
-
-        // If mameParent should be used and is present, add it to the search terms
-        if (mameUseParentForSrch && mameNames.parentName) {
-          searchTerms.push(mameNames.parentName)
-        }
-
-        // Attempt search with each term, breaking on the first success
-        for (const searchTerm of searchTerms) {
-          if (searchStrategies(file, searchTerm, searchType)) {
-            const filePath = path.join(macPath, file)
-            console.log('match found')
-            console.log(filePath)
-            const fileData = await fs.promises.readFile(filePath)
-            const ext = path.extname(file).toLowerCase()
-            const mimeType = getMimeType(ext)
-            if (mimeType !== null) {
-              const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
-              foundBase64Files.add(base64File)
-              matchFound = true // Set the flag to true as a match has been found
-              break // Found a match, no need to continue with other search terms
-            }
+      const fileProcessingPromises = files.map(async file => {
+        let matchFound = false
+        if (!shouldSearchRomNameOnly) {
+          for (const searchTerm of mameNameSearchTerms) {
+            if (searchStrategies(file, searchTerm, searchType)) matchFound = true
           }
         }
-      }
+        // Perform romname search if no mameNames exist or if neither search was successful
+        if (shouldSearchRomNameOnly || !matchFound) {
+          if (searchStrategies(file, romname, searchType)) matchFound = true
+        }
+        if (matchFound) {
+          const filePath = path.join(macPath, file)
+          const fileData = await fs.promises.readFile(filePath)
+          const ext = path.extname(file).toLowerCase()
+          const mimeType = getMimeType(ext)
+          if (mimeType !== null) {
+            const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
+            foundBase64Files.add(base64File)
+          }
+        }
+      })
+      await Promise.all(fileProcessingPromises)
     } catch (error) {
       console.error(`Error reading directory ${macPath}: ${error}`)
     }
