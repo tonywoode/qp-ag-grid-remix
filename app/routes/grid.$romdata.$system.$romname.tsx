@@ -69,7 +69,8 @@ const tabClassMap: { [key: string]: string } = {
   MameHistory: 'mameDat',
   MameInfo: 'mameDat',
   MameCommand: 'mameDat',
-  MameGameInit: 'mameDat'
+  MameGameInit: 'mameDat',
+  MameStory: 'mameDat'
 
   //add more, should be Zod!
 }

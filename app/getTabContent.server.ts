@@ -18,6 +18,10 @@ const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameGameInit: {
     datLeafFilename: 'gameinit.dat',
     contentFinder: findMameGameInitContent
+  },
+  MameStory: {
+    datLeafFilename: 'story.dat',
+    contentFinder: findMameStoryContent
   }
   // Add new tabType and strategy pairs here as needed
 }
@@ -404,6 +408,47 @@ async function findMameGameInitContent(
             .join(' ')
           return `<strong>${capitalizedHeading}</strong>`
         })
+        const jsonContent = {
+          title,
+          content
+        }
+        console.log('jsonContent')
+        console.log(jsonContent)
+        return jsonContent
+      }
+    }
+  }
+  return { error: 'Mame Game Init entry not found for the provided ROM name' }
+}
+
+async function findMameStoryContent(
+  romname: string,
+  mameNames: { mameName?: string; parentName?: string },
+  mameUseParentForSrch: boolean,
+  mameDatContent: string
+): Promise<any> {
+  const lines = mameDatContent.split(/\r?\n/)
+  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
+  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
+  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
+  const entries = trimmedContent.split('$end')
+  let matchFound = false
+  for (const entry of entries) {
+    if (matchFound) break
+    let searchTerms = [romname] // Default search term is romname
+    if (mameNames.mameName) {
+      searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
+    }
+    if (mameUseParentForSrch && mameNames.parentName) {
+      searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
+    }
+    for (const searchTerm of searchTerms) {
+      if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
+        matchFound = true
+        const contentTypeIndex = entry.indexOf('$story') + 6
+        let content = entry.substring(contentTypeIndex).trim()
+        content = content.replace(/MAMESCORE records : (.*)\n/, `<strong>Mamescore Records: $1</strong>\n`)
+        const title = searchTerm
         const jsonContent = {
           title,
           content
