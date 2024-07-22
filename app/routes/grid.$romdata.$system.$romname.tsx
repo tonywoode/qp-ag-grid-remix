@@ -13,7 +13,8 @@ const tabClassMap: { [key: string]: string } = {
   Images: 'screenshot',
   Thumbnail: 'screenshot',
   MameHistory: 'mameDat',
-  MameInfo: 'mameDat'
+  MameInfo: 'mameDat',
+  MameCommand: 'mameDat'
 
   //add more, should be Zod!
 }

@@ -10,7 +10,13 @@ const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameInfo: {
     datLeafFilename: 'mameinfo.dat',
     contentFinder: findMameInfoContent
-  } // Add new tabType and strategy pairs here as needed
+  },
+  MameCommand: {
+    datLeafFilename: 'command.dat',
+    contentFinder: findMameCommandContent
+  }
+
+  // Add new tabType and strategy pairs here as needed
 }
 
 function getTabTypeStrategy(tabType: string): TabStrategy | null {
@@ -127,8 +133,6 @@ async function findMameInfoContent(
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
   const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-
-  // Proceed with the trimmed content
   const entries = trimmedContent.split('$end')
   let matchFound = false // Flag to indicate a match has been found
   for (const entry of entries) {
@@ -269,6 +273,93 @@ async function findHistoryDatContent(
           title,
           gameHistoryLink,
           content
+        }
+        console.log('jsonContent')
+        console.log(jsonContent)
+        return jsonContent
+      }
+    }
+  }
+  return { error: 'History entry not found for the provided ROM name' }
+}
+
+async function findMameCommandContent(
+  romname: string,
+  mameNames: { mameName?: string; parentName?: string },
+  mameUseParentForSrch: boolean,
+  mameDatContent: string
+): Promise<any> {
+  const lines = mameDatContent.split(/\r?\n/)
+  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
+  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
+  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
+  const entries = trimmedContent.split('$end')
+  let matchFound = false
+  for (const entry of entries) {
+    if (matchFound) break
+    let searchTerms = [romname] // Default search term is romname
+    if (mameNames.mameName) {
+      searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
+    }
+    if (mameUseParentForSrch && mameNames.parentName) {
+      searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
+    }
+    for (const searchTerm of searchTerms) {
+      if (entry.includes(`$info=${searchTerm}`)) {
+        matchFound = true
+        // const title = searchTerm
+        //these are the heading delims
+        const sectionPattern = /\*-{61}\*\n*(.*)\n*\*-{61}\*\n*/g
+        const contentTypeIndex = entry.indexOf('$cmd') + 4
+        let content = entry.substring(contentTypeIndex).trim()
+        // Replace headings with <strong> tags
+        // content = content.replace(/\*\-{61}\*\n*/g, '')
+        // content = content.replace(/«([^»]*)»\s*\n\s*/g, '\n<strong>$1</strong>\n\n')
+        // content = content.replace(/\*\-{61}\*\n/g, '')
+        // content = content.replace(/\*\-{61}\*/g, '')
+        // content = content.replace(/\*\-{61}\*\n\n«([^»]*)»\n\*\-{61}\*\n/g, '\n<strong>$1</strong>\n\n')
+        // Define the regex pattern
+        // Define patterns for start and end lines
+        // console.log('Initial content:', content)
+
+        // Regex pattern to match sections enclosed by asterisk-dash lines and capture the heading text
+        // const sectionPattern = /\*\-{61}\*\n([^*]+?)\n\*\-{61}\*/g
+
+        // Process and replace each matched section
+        content = content.replace(sectionPattern, (match, headingText) => {
+          console.log('heading text')
+          console.log(headingText)
+          headingText = headingText.trim()
+
+          // Check if the heading text is enclosed by guillemets
+          if (headingText.startsWith('«') && headingText.endsWith('»')) {
+            // Replace guillemets with <strong> tags and return the processed section
+            return `\n\n<strong>${headingText.slice(1, -1)}</strong>\n\n`
+          } else {
+            // Wrap the heading text with <b> tags and return the processed section
+            return `\n\n<i>${headingText}\n\n</i>`
+          }
+        })
+
+        //remove leading and trailing star lines
+        content = content.replace(/\*\-{61}\*/g, '')
+        // content = content.replace(/^\*-{61}\*\n*/g, '')
+        //now we've removed those star lines, the title is the first populated line
+        let titleStartIndex = content.indexOf('\n', contentTypeIndex) + 1
+        while (content[titleStartIndex] === '\n' || content[titleStartIndex] === '\r') {
+          titleStartIndex++
+        }
+        let titleEndIndex = content.indexOf('\n\n', titleStartIndex)
+        const title = content.substring(titleStartIndex, titleEndIndex).trim()
+
+        // Adjust content to start after the title's end, ensuring it doesn't repeat the title
+        const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
+        //now change headings from the garish "- ALLCAPS -/n" to Strongs
+        const contentAfterTitle = content.substring(contentStartIndex).trim()
+        console.log('Processed content:', content)
+        const jsonContent = {
+          title,
+          content: contentAfterTitle
         }
         console.log('jsonContent')
         console.log(jsonContent)
