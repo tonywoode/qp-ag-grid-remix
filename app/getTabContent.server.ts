@@ -317,28 +317,30 @@ async function findMameCommandContent(
       //the ? in this regex, combined with the \\b, may make it universally suitable
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
-        //these are the heading delims - heading have these top (with newline after), and bottom
+        //these are the heading delims - headings have these top (with newline after), and bottom
         const sectionPattern = /\*-{61}\*\n*(.*)\n*\*-{61}\*\n*/g
         const contentTypeIndex = entry.indexOf('$cmd') + 4
         let content = entry.substring(contentTypeIndex).trim()
         // Process and replace each matched section
         content = content.replace(sectionPattern, (match, headingText) => {
-          console.log('heading text')
-          console.log(headingText)
           headingText = headingText.trim()
           // Check if the heading text is enclosed by guillemets
           if (headingText.startsWith('«') && headingText.endsWith('»')) {
             // Replace guillermots with <strong> tags and return the processed section
-            return `\n\n<strong>${headingText.slice(1, -1)}</strong>\n\n`
+            return `\n<strong>${headingText.slice(1, -1)}</strong>\n`
           } else {
             // Wrap the heading text with <i> tags and return the processed section
-            return `\n\n<i>${headingText}\n\n</i>`
+            return `\n<u>${headingText}\n</u>`
           }
         })
-        //remove leading and trailing star lines
-        content = content.replace(/\*\-{61}\*/g, '')
-        //now we've removed those star lines, the title is the first populated line
-        let titleStartIndex = content.indexOf('\n', contentTypeIndex) + 1
+        const newHeadingPattern = /:(.*?):\n/g
+        content = content.replace(newHeadingPattern, (match, headingText) => {
+          return `<i>${headingText.trim()}</i>\n`
+        })
+        //now its safe to remove the trailing star line. Don't reuse any previous index now as content's changed (could just cut the last line off the content instead)
+        content = content.replace(/\*-{61}\*/g, '').trim()
+        //now we've removed those star lines, the title's the first populated line
+        let titleStartIndex = 0
         while (content[titleStartIndex] === '\n' || content[titleStartIndex] === '\r') {
           titleStartIndex++
         }
@@ -346,11 +348,10 @@ async function findMameCommandContent(
         const title = content.substring(titleStartIndex, titleEndIndex).trim()
         // Adjust content to start after the title's end, ensuring it doesn't repeat the title
         const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
-        const contentAfterTitle = content.substring(contentStartIndex).trim()
-        console.log('Processed content:', content)
+        content = content.substring(contentStartIndex).trim()
         const jsonContent = {
           title,
-          content: contentAfterTitle
+          content
         }
         console.log('jsonContent')
         console.log(jsonContent)
