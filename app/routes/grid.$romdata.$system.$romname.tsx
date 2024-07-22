@@ -9,15 +9,6 @@ import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
 import parse, { domToReact, Element } from 'html-react-parser'
 
-const tabClassMap: { [key: string]: string } = {
-  Images: 'screenshot',
-  Thumbnail: 'screenshot',
-  MameHistory: 'mameDat',
-  MameInfo: 'mameDat',
-  MameCommand: 'mameDat'
-
-  //add more, should be Zod!
-}
 
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
@@ -71,6 +62,17 @@ const searchTabTypeMapping: { [key: number]: string } = {
   10: 'MameSysinfo' // 'Mame Mess sysInfo file')
 }
   */
+
+const tabClassMap: { [key: string]: string } = {
+  Images: 'screenshot',
+  Thumbnail: 'screenshot',
+  MameHistory: 'mameDat',
+  MameInfo: 'mameDat',
+  MameCommand: 'mameDat',
+  MameGameInit: 'mameDat'
+
+  //add more, should be Zod!
+}
 
 const openInDefaultBrowser = url => {
   window.open(url, '_blank', 'noopener,noreferrer')
