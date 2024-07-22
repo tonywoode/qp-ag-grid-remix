@@ -225,13 +225,21 @@ async function findHistoryDatContent(
     if (mameUseParentForSrch && mameNames.parentName) {
       searchTerms.push(mameNames.parentName)
     }
+    // If isGameHistory, add a version of the game name with anything in brackets removed
+    // TODO: add similar to other search types e.g.: screenshots
+    if (isGameHistory) {
+      const searchTermWithoutBrackets = romname.replace(/\s*\([^)]*\)/g, '').trim()
+      searchTerms.push(searchTermWithoutBrackets)
+    }
     for (const searchTerm of searchTerms) {
       //mame history entries are array like eg: $info=1944,1944d,
       //game history entries are the common-lanugage name of the game, not mamenames
+      //added the '?' in the regex here, its not needed for history.dats as they always have trailing commas but command.dats do not
+      //but even with that addition, the mame history regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
       if (
         isGameHistory
           ? entry.includes(`$info=${searchTerm},`)
-          : new RegExp(`\\$info=.*\\b${searchTerm}\\b,`).test(entry)
+          : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
       ) {
         //fix game history issues, but not in real mame files!
         const { widthFixedContent, gameHistoryLink } = isGameHistory
@@ -306,7 +314,7 @@ async function findMameCommandContent(
     }
     for (const searchTerm of searchTerms) {
       //info is array-like, but unlike history.dat we don't have trailing commas!
-      //the ? in this regex, combined with the \\b, may make it universally suitable (for game history also?)
+      //the ? in this regex, combined with the \\b, may make it universally suitable
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
         //these are the heading delims - heading have these top (with newline after), and bottom
