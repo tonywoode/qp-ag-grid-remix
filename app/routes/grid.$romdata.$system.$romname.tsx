@@ -147,18 +147,18 @@ export default function MediaPanel() {
     ),
     mameDat: data =>
       data.mameDat && !data.mameDat.error ? (
-        <div className="pl-3">
-          <h1 className="text-2xl font-bold my-4" style={{ whiteSpace: 'pre-wrap' }}>
-            {/* pre-wrap to preserve linespaces (some mame titles are in Japenese first with English below) */}
+        <div className="pl-3 bg-gray-800 text-white rounded-lg">
+          <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
+            {/* pre-wrap to preserve linespaces (some mame titles are in Japanese first with English below) */}
             {data.mameDat.title}
           </h1>
           {data.mameDat.gameHistoryLink && (
-            <div className="my-4 underline text-blue-500">
+            <div className="my-4 underline text-blue-300 hover:text-blue-500">
               {parse(data.mameDat.gameHistoryLink, { replace: replaceLinks })}
               {/* replaceLinks to make them clickable, open in electron window */}
             </div>
           )}
-          <div className="whitespace-pre-wrap">{parse(data.mameDat.content)}</div>{' '}
+          <div className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">{parse(data.mameDat.content)}</div>
         </div>
       ) : (
         <div>{data.mameDat.error}</div>
