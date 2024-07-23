@@ -28,8 +28,8 @@ export async function action({ request }: ActionFunctionArgs) {
       mameNames,
       mameUseParentForSrch
     )
-    console.log('mameDat')
-    console.log(mameDat)
+    // console.log('mameDat')
+    // console.log(mameDat)
     return { mameDat }
   } else {
     return {}

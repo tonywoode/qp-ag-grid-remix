@@ -534,19 +534,13 @@ async function findMameSysInfoContent(
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
   const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  let searchTerms = [romname] // Default search term is romname
-  if (mameNames.mameName) {
-    searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
-  }
-  if (mameUseParentForSrch && mameNames.parentName) {
-    searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
-  }
+  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
   const entries = trimmedContent.split('$end')
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
     for (const entry of entries) {
-      console.log('searchTerm', searchTerm)
+      console.log('searchTerm', searchTerm, entry.substring(entry.indexOf('$info'), entry.indexOf('$bio')))
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
         const contentTypeIndex = entry.indexOf('$bio') + 4
@@ -576,8 +570,8 @@ async function findMameSysInfoContent(
           title,
           content
         }
-        console.log('jsonContent')
-        console.log(jsonContent)
+        // console.log('jsonContent')
+        // console.log(jsonContent)
         return jsonContent
       }
     }
@@ -585,7 +579,19 @@ async function findMameSysInfoContent(
   return { error: 'Mame Game Init entry not found for the provided ROM name' }
 }
 
-
+function getSearchTerms(
+  mameNames: { mameName: string; parentName?: string },
+  mameUseParentForSrch: boolean,
+  romname: string
+): string[] {
+  let searchTerms = [mameNames.mameName, mameUseParentForSrch && mameNames.parentName].filter(Boolean)
+  // a choice either
+  //* if either of these are present, we won't search for the romname, if neither are present, we will, so replace the array with just romname
+  // if (searchTerms.length === 0) searchTerms = [romname]
+  // or just add romnames to the end
+  searchTerms.push(romname)
+  return searchTerms
+}
 
 
 const mimeTypes: { [key: string]: string } = {
