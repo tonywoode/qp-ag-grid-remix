@@ -26,6 +26,11 @@ const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameMessInfo: {
     datLeafFilename: 'messinfo.dat',
     contentFinder: findMameMessInfoContent
+  },
+  MameSysinfo: {
+    //caps mistake in original qp
+    datLeafFilename: 'sysinfo.dat',
+    contentFinder: findMameSysInfoContent
   }
   // Add new tabType and strategy pairs here as needed
 }
@@ -518,6 +523,70 @@ async function findMameMessInfoContent(
   }
   return { error: 'Mame Game Init entry not found for the provided ROM name' }
 }
+
+async function findMameSysInfoContent(
+  romname: string,
+  mameNames: { mameName?: string; parentName?: string },
+  mameUseParentForSrch: boolean,
+  mameDatContent: string
+): Promise<any> {
+  const lines = mameDatContent.split(/\r?\n/)
+  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
+  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
+  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
+  let searchTerms = [romname] // Default search term is romname
+  if (mameNames.mameName) {
+    searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
+  }
+  if (mameUseParentForSrch && mameNames.parentName) {
+    searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
+  }
+  const entries = trimmedContent.split('$end')
+  let matchFound = false
+  for (const searchTerm of searchTerms) {
+    if (matchFound) break
+    for (const entry of entries) {
+      console.log('searchTerm', searchTerm)
+      if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
+        matchFound = true
+        const contentTypeIndex = entry.indexOf('$bio') + 4
+        let content = entry.substring(contentTypeIndex).trim()
+        const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
+        //this one had just HEADINGS: surrounded by whitespace
+        const sectionPattern = /^\s*=+ (.+) =+\s*$/gm
+        content = content.replace(sectionPattern, (match, headingText) => {
+          // Split the heading text into words, capitalize the first letter of each word,
+          // convert the rest to lowercase, then join the words back together.
+          const capitalizedHeading = headingText
+            .trim()
+            .split(' ')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+            .join(' ')
+          return `\n<strong>${capitalizedHeading}</strong>` //note \n need it in this one?!?
+        })
+        content = content.trim()
+        //this one benefits from simply having all double lines turned to single
+        //we need to specify the \n without space at the end or we remove wanted space
+        content = content.replace(/(\n\s*){2,}\n/g, '\n\n')
+        //now lists stand out as they have blank line separators
+        const listWhitespaceRegex = /(\* .+)\n\s*\n(\s*\*)/g
+        //this regex needs running twice as .replace scanning won't pick up each second instance of the pattern
+        content = content.replace(listWhitespaceRegex, '$1\n$2').replace(listWhitespaceRegex, '$1\n$2')
+        const jsonContent = {
+          title,
+          content
+        }
+        console.log('jsonContent')
+        console.log(jsonContent)
+        return jsonContent
+      }
+    }
+  }
+  return { error: 'Mame Game Init entry not found for the provided ROM name' }
+}
+
+
+
 
 const mimeTypes: { [key: string]: string } = {
   '.jpg': 'image/jpeg',
