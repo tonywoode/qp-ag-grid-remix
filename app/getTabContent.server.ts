@@ -221,6 +221,7 @@ async function findHistoryDatContent(
   mameUseParentForSrch: boolean,
   mameDatContent: string
 ): Promise<any> {
+  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
   // Step 1 & 2: Split the content into lines and find the end of the comments section
   const lines = mameDatContent.split(/\r?\n/)
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
@@ -232,15 +233,6 @@ async function findHistoryDatContent(
   for (const entry of entries) {
     if (matchFound) break
     //unlike screenshots, we're searching in the found file for a spcefic entry
-    let searchTerms = [romname] // Default search term is romname
-    // If mameName is present, prioritize it
-    if (mameNames.mameName) {
-      searchTerms.unshift(mameNames.mameName)
-    }
-    // If mameParent should be used and is present, add it to the search terms
-    if (mameUseParentForSrch && mameNames.parentName) {
-      searchTerms.push(mameNames.parentName)
-    }
     // If isGameHistory, add a version of the game name with anything in brackets removed
     // TODO: add similar to other search types e.g.: screenshots
     if (isGameHistory) {
@@ -313,6 +305,7 @@ async function findMameCommandContent(
   mameUseParentForSrch: boolean,
   mameDatContent: string
 ): Promise<any> {
+  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
   const lines = mameDatContent.split(/\r?\n/)
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
   const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
@@ -321,13 +314,6 @@ async function findMameCommandContent(
   let matchFound = false
   for (const entry of entries) {
     if (matchFound) break
-    let searchTerms = [romname] // Default search term is romname
-    if (mameNames.mameName) {
-      searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
-    }
-    if (mameUseParentForSrch && mameNames.parentName) {
-      searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
-    }
     for (const searchTerm of searchTerms) {
       //info is array-like, but unlike history.dat we don't have trailing commas!
       //the ? in this regex, combined with the \\b, may make it universally suitable
@@ -384,6 +370,7 @@ async function findMameGameInitContent(
   mameUseParentForSrch: boolean,
   mameDatContent: string
 ): Promise<any> {
+  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
   const lines = mameDatContent.split(/\r?\n/)
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
   const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
@@ -392,13 +379,6 @@ async function findMameGameInitContent(
   let matchFound = false
   for (const entry of entries) {
     if (matchFound) break
-    let searchTerms = [romname] // Default search term is romname
-    if (mameNames.mameName) {
-      searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
-    }
-    if (mameUseParentForSrch && mameNames.parentName) {
-      searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
-    }
     for (const searchTerm of searchTerms) {
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
@@ -436,6 +416,7 @@ async function findMameStoryContent(
   mameUseParentForSrch: boolean,
   mameDatContent: string
 ): Promise<any> {
+  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
   const lines = mameDatContent.split(/\r?\n/)
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
   const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
@@ -444,13 +425,6 @@ async function findMameStoryContent(
   let matchFound = false
   for (const entry of entries) {
     if (matchFound) break
-    let searchTerms = [romname] // Default search term is romname
-    if (mameNames.mameName) {
-      searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
-    }
-    if (mameUseParentForSrch && mameNames.parentName) {
-      searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
-    }
     for (const searchTerm of searchTerms) {
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
@@ -477,17 +451,11 @@ async function findMameMessInfoContent(
   mameUseParentForSrch: boolean,
   mameDatContent: string
 ): Promise<any> {
+  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
   const lines = mameDatContent.split(/\r?\n/)
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
   const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  let searchTerms = [romname] // Default search term is romname
-  if (mameNames.mameName) {
-    searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
-  }
-  if (mameUseParentForSrch && mameNames.parentName) {
-    searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
-  }
   const entries = trimmedContent.split('$end')
   let matchFound = false
   for (const searchTerm of searchTerms) {
@@ -530,17 +498,17 @@ async function findMameSysInfoContent(
   mameUseParentForSrch: boolean,
   mameDatContent: string
 ): Promise<any> {
+  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
   const lines = mameDatContent.split(/\r?\n/)
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
   const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
   const entries = trimmedContent.split('$end')
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
     for (const entry of entries) {
-      console.log('searchTerm', searchTerm, entry.substring(entry.indexOf('$info'), entry.indexOf('$bio')))
+      // console.log('searchTerm', searchTerm, entry.substring(entry.indexOf('$info'), entry.indexOf('$bio')))
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
         const contentTypeIndex = entry.indexOf('$bio') + 4
@@ -580,7 +548,7 @@ async function findMameSysInfoContent(
 }
 
 function getSearchTerms(
-  mameNames: { mameName: string; parentName?: string },
+  mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
   romname: string
 ): string[] {
