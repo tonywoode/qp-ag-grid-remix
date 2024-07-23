@@ -221,7 +221,7 @@ async function findHistoryDatContent(
   mameUseParentForSrch: boolean,
   mameDatContent: string
 ): Promise<any> {
-  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
+  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname) //BUUUTTT see below....
   // Step 1 & 2: Split the content into lines and find the end of the comments section
   const lines = mameDatContent.split(/\r?\n/)
   const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
@@ -230,7 +230,7 @@ async function findHistoryDatContent(
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
   const entries = trimmedContent.split('$end')
   let matchFound = false // Flag to indicate a match has been found
-  for (const entry of entries) {
+  for (const searchTerm of searchTerms) {
     if (matchFound) break
     //unlike screenshots, we're searching in the found file for a spcefic entry
     // If isGameHistory, add a version of the game name with anything in brackets removed
@@ -239,62 +239,60 @@ async function findHistoryDatContent(
       const searchTermWithoutBrackets = romname.replace(/\s*\([^)]*\)/g, '').trim()
       searchTerms.push(searchTermWithoutBrackets)
     }
-    for (const searchTerm of searchTerms) {
-      //mame history entries are array like eg: $info=1944,1944d,
-      //game history entries are the common-lanugage name of the game, not mamenames
-      //added the '?' in the regex here, its not needed for history.dats as they always have trailing commas but command.dats do not
-      //but even with that addition, the mame history regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
-      if (
-        isGameHistory
-          ? entry.includes(`$info=${searchTerm},`)
-          : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
-      ) {
-        //fix game history issues, but not in real mame files!
-        const { widthFixedContent, gameHistoryLink } = isGameHistory
-          ? fixGameHistoryDatIssues(entry)
-          : { widthFixedContent: entry, gameHistoryLink: null }
-        matchFound = true
-        // Find the index of `$bio` and then the title after the next newline
-        const bioIndex = widthFixedContent.indexOf('$bio') + 4
-        let titleStartIndex = widthFixedContent.indexOf('\n', bioIndex) + 1 // Start of the title
-        // a lot of munging to try and separate the title from the section headings etc, mostly game-history specific problems (line endings may be \n\r etc)
-        // Skip initial line breaks
-        while (widthFixedContent[titleStartIndex] === '\n' || widthFixedContent[titleStartIndex] === '\r') {
-          titleStartIndex++
-        }
-        // Find the earliest of the double line break or "- TECHNICAL -"
-        let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex)
-        let technicalIndex = widthFixedContent.indexOf('- TECHNICAL -', titleStartIndex)
-        if (technicalIndex !== -1 && (technicalIndex < titleEndIndex || titleEndIndex === -1)) {
-          titleEndIndex = technicalIndex
-        } else if (titleEndIndex === -1) {
-          titleEndIndex = widthFixedContent.length // Fallback if no double line break is found
-        }
-        const title = widthFixedContent.substring(titleStartIndex, titleEndIndex).trim()
-        // Adjust content to start after the title's end, ensuring it doesn't repeat the title
-        const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
-        //now change headings from the garish "- ALLCAPS -/n" to Strongs
-        const contentBeforeTagging = widthFixedContent.substring(contentStartIndex).trim()
-        const content = contentBeforeTagging.replace(/^- ([A-Z\s]+) -\n$/gm, (match, p1) => {
-          // Split the matched group into words, capitalize each, then join back together
-          const initialCaps = p1
-            .toLowerCase()
-            .split(/\s+/)
-            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-            .join(' ')
-          return `<strong>${initialCaps}</strong>`
-        })
-        // Construct the JSON object
-        const jsonContent = {
-          title,
-          gameHistoryLink,
-          content
-        }
-        console.log('jsonContent')
-        console.log(jsonContent)
-        return jsonContent
+    for (const entry of entries) {
+    //mame history entries are array like eg: $info=1944,1944d,
+    //game history entries are the common-lanugage name of the game, not mamenames
+    //added the '?' in the regex here, its not needed for history.dats as they always have trailing commas but command.dats do not
+    //but even with that addition, the mame history regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
+    if (
+      isGameHistory ? entry.includes(`$info=${searchTerm},`) : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
+    ) {
+      //fix game history issues, but not in real mame files!
+      const { widthFixedContent, gameHistoryLink } = isGameHistory
+        ? fixGameHistoryDatIssues(entry)
+        : { widthFixedContent: entry, gameHistoryLink: null }
+      matchFound = true
+      // Find the index of `$bio` and then the title after the next newline
+      const bioIndex = widthFixedContent.indexOf('$bio') + 4
+      let titleStartIndex = widthFixedContent.indexOf('\n', bioIndex) + 1 // Start of the title
+      // a lot of munging to try and separate the title from the section headings etc, mostly game-history specific problems (line endings may be \n\r etc)
+      // Skip initial line breaks
+      while (widthFixedContent[titleStartIndex] === '\n' || widthFixedContent[titleStartIndex] === '\r') {
+        titleStartIndex++
       }
+      // Find the earliest of the double line break or "- TECHNICAL -"
+      let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex)
+      let technicalIndex = widthFixedContent.indexOf('- TECHNICAL -', titleStartIndex)
+      if (technicalIndex !== -1 && (technicalIndex < titleEndIndex || titleEndIndex === -1)) {
+        titleEndIndex = technicalIndex
+      } else if (titleEndIndex === -1) {
+        titleEndIndex = widthFixedContent.length // Fallback if no double line break is found
+      }
+      const title = widthFixedContent.substring(titleStartIndex, titleEndIndex).trim()
+      // Adjust content to start after the title's end, ensuring it doesn't repeat the title
+      const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
+      //now change headings from the garish "- ALLCAPS -/n" to Strongs
+      const contentBeforeTagging = widthFixedContent.substring(contentStartIndex).trim()
+      const content = contentBeforeTagging.replace(/^- ([A-Z\s]+) -\n$/gm, (match, p1) => {
+        // Split the matched group into words, capitalize each, then join back together
+        const initialCaps = p1
+          .toLowerCase()
+          .split(/\s+/)
+          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(' ')
+        return `<strong>${initialCaps}</strong>`
+      })
+      // Construct the JSON object
+      const jsonContent = {
+        title,
+        gameHistoryLink,
+        content
+      }
+      console.log('jsonContent')
+      console.log(jsonContent)
+      return jsonContent
     }
+  }
   }
   return { error: 'History entry not found for the provided ROM name' }
 }
@@ -312,9 +310,9 @@ async function findMameCommandContent(
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
   const entries = trimmedContent.split('$end')
   let matchFound = false
-  for (const entry of entries) {
+  for (const searchTerm of searchTerms) {
     if (matchFound) break
-    for (const searchTerm of searchTerms) {
+    for (const entry of entries) {
       //info is array-like, but unlike history.dat we don't have trailing commas!
       //the ? in this regex, combined with the \\b, may make it universally suitable
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
@@ -377,9 +375,9 @@ async function findMameGameInitContent(
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
   const entries = trimmedContent.split('$end')
   let matchFound = false
-  for (const entry of entries) {
+  for (const searchTerm of searchTerms) {
     if (matchFound) break
-    for (const searchTerm of searchTerms) {
+    for (const entry of entries) {
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
         const contentTypeIndex = entry.indexOf('$mame') + 5
@@ -423,9 +421,9 @@ async function findMameStoryContent(
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
   const entries = trimmedContent.split('$end')
   let matchFound = false
-  for (const entry of entries) {
+  for (const searchTerm of searchTerms) {
     if (matchFound) break
-    for (const searchTerm of searchTerms) {
+    for (const entry of entries) {
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
         const contentTypeIndex = entry.indexOf('$story') + 6
