@@ -77,10 +77,19 @@ async function findMameDatContent(
       const lines = mameDatContent.split(/\r?\n/)
       const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
       const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
+      const isGameHistory = fileHeader.includes('Matt McLemore') //JUST for history.dat - is it a mame file or is it a game history file?
       const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
       const entries = trimmedContent.split('$end')
 
-      const jsonContent = contentFinder(romname, mameNames, mameUseParentForSrch, mameDatContent, searchTerms, entries)
+      const jsonContent = contentFinder(
+        romname,
+        mameNames,
+        mameUseParentForSrch,
+        mameDatContent,
+        searchTerms,
+        entries,
+        isGameHistory
+      )
       console.log(jsonContent)
       return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
     } catch (error) {
@@ -150,18 +159,14 @@ function cleanMameInfoContent(content: string): string {
   return cleanedLines.join('\n')
 }
 
-async function findMameInfoContent(
+function findMameInfoContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
-  mameDatContent: string
-): Promise<any> {
-  // Step 1 & 2: Split the content into lines and find the end of the comments section
-  const lines = mameDatContent.split(/\r?\n/)
-  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
-  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
-  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  const entries = trimmedContent.split('$end')
+  mameDatContent: string,
+  searchTerms: [],
+  entries: []
+): object | undefined {
   let matchFound = false // Flag to indicate a match has been found
   for (const entry of entries) {
     if (matchFound) break
@@ -189,7 +194,6 @@ async function findMameInfoContent(
       }
     }
   }
-  return { error: 'History entry not found for the provided ROM name' }
 }
 
 //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
@@ -227,20 +231,15 @@ function fixGameHistoryDatIssues(entry: string): { widthFixedContent: string; ga
 
 //TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //TODO: this is GAME History logic, we don't want to do so much munging for Mame history: we don't want to continue these non-isomporhic transformations, we lose list formattings etc
-async function findHistoryDatContent(
+function findHistoryDatContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
-  mameDatContent: string
-): Promise<any> {
-  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname) //BUUUTTT see below....
-  // Step 1 & 2: Split the content into lines and find the end of the comments section
-  const lines = mameDatContent.split(/\r?\n/)
-  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
-  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
-  const isGameHistory = fileHeader.includes('Matt McLemore') //is it a mame file or is it a game history file?
-  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  const entries = trimmedContent.split('$end')
+  mameDatContent: string,
+  searchTerms: [],
+  entries: [],
+  isGameHistory: boolean
+): object | undefined {
   let matchFound = false // Flag to indicate a match has been found
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -301,7 +300,6 @@ async function findHistoryDatContent(
       }
     }
   }
-  return { error: 'History entry not found for the provided ROM name' }
 }
 
 function findMameCommandContent(
