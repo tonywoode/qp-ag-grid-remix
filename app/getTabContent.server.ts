@@ -81,6 +81,7 @@ async function findMameDatContent(
       const entries = trimmedContent.split('$end')
 
       const jsonContent = contentFinder(romname, mameNames, mameUseParentForSrch, mameDatContent, searchTerms, entries)
+      console.log(jsonContent)
       return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
     } catch (error) {
       if (error.code === 'ENOENT') {
@@ -303,18 +304,14 @@ async function findHistoryDatContent(
   return { error: 'History entry not found for the provided ROM name' }
 }
 
-async function findMameCommandContent(
+function findMameCommandContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
-  mameDatContent: string
-): Promise<any> {
-  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
-  const lines = mameDatContent.split(/\r?\n/)
-  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
-  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
-  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  const entries = trimmedContent.split('$end')
+  mameDatContent: string,
+  searchTerms: [],
+  entries: []
+): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -365,21 +362,16 @@ async function findMameCommandContent(
       }
     }
   }
-  return { error: 'History entry not found for the provided ROM name' }
 }
 
-async function findMameGameInitContent(
+function findMameGameInitContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
-  mameDatContent: string
-): Promise<any> {
-  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
-  const lines = mameDatContent.split(/\r?\n/)
-  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
-  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
-  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  const entries = trimmedContent.split('$end')
+  mameDatContent: string,
+  searchTerms: [],
+  entries: []
+): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -411,21 +403,16 @@ async function findMameGameInitContent(
       }
     }
   }
-  return { error: 'Mame Game Init entry not found for the provided ROM name' }
 }
 
-async function findMameStoryContent(
+function findMameStoryContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
-  mameDatContent: string
-): Promise<any> {
-  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
-  const lines = mameDatContent.split(/\r?\n/)
-  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
-  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
-  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  const entries = trimmedContent.split('$end')
+  mameDatContent: string,
+  searchTerms: [],
+  entries: []
+): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -446,21 +433,16 @@ async function findMameStoryContent(
       }
     }
   }
-  return { error: 'Mame Story entry not found for the provided ROM name' }
 }
 
-async function findMameMessInfoContent(
+function findMameMessInfoContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
-  mameDatContent: string
-): Promise<any> {
-  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
-  const lines = mameDatContent.split(/\r?\n/)
-  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
-  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
-  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  const entries = trimmedContent.split('$end')
+  mameDatContent: string,
+  searchTerms: [],
+  entries: []
+): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -483,17 +465,10 @@ async function findMameMessInfoContent(
             .join(' ')
           return `\n<strong>${capitalizedHeading}</strong>` //note \n need it in this one?!?
         })
-        const jsonContent = {
-          title,
-          content
-        }
-        console.log('jsonContent')
-        console.log(jsonContent)
-        return jsonContent
+        return { title, content }
       }
     }
   }
-  return { error: 'Mame Mess Info entry not found for the provided ROM name' }
 }
 
 async function OLDfindMameSysInfoContent(
@@ -520,7 +495,7 @@ function findMameSysInfoContent(
   mameDatContent,
   searchTerms: [],
   entries: []
-) {
+): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
