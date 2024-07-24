@@ -72,7 +72,8 @@ async function findMameDatContent(
       await fs.promises.stat(mameDatPath) // Check if mameDat exists
       //TODO: we're assuming this has been set to searchType: 'ExactMatch', which it should, is it always? if so the data needs fixing not the code
       let mameDatContent = await fs.promises.readFile(mameDatPath, 'utf8')
-      return contentFinder(romname, mameNames, mameUseParentForSrch, mameDatContent)
+
+      return contentFinder(romname, mameNames, mameUseParentForSrch, mameDatContent, datLeafFilename)
     } catch (error) {
       if (error.code === 'ENOENT') {
         console.log('Mame Dat file does not exist:', mameDatPath)
@@ -437,7 +438,7 @@ async function findMameStoryContent(
       }
     }
   }
-  return { error: 'Mame Game Init entry not found for the provided ROM name' }
+  return { error: 'Mame Story entry not found for the provided ROM name' }
 }
 
 async function findMameMessInfoContent(
@@ -484,14 +485,15 @@ async function findMameMessInfoContent(
       }
     }
   }
-  return { error: 'Mame Game Init entry not found for the provided ROM name' }
+  return { error: 'Mame Mess Info entry not found for the provided ROM name' }
 }
 
 async function findMameSysInfoContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
-  mameDatContent: string
+  mameDatContent: string,
+  datLeafFilename: string
 ): Promise<any> {
   const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
   const lines = mameDatContent.split(/\r?\n/)
@@ -499,6 +501,11 @@ async function findMameSysInfoContent(
   const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
   const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
   const entries = trimmedContent.split('$end')
+  const jsonContent = getMameSysInfoContent(searchTerms, entries)
+  return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
+}
+
+function getMameSysInfoContent(searchTerms: [], entries: []) {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -529,17 +536,10 @@ async function findMameSysInfoContent(
         const listWhitespaceRegex = /(\* .+)\n\s*\n(\s*\*)/g
         //this regex needs running twice as .replace scanning won't pick up each second instance of the pattern
         content = content.replace(listWhitespaceRegex, '$1\n$2').replace(listWhitespaceRegex, '$1\n$2')
-        const jsonContent = {
-          title,
-          content
-        }
-        // console.log('jsonContent')
-        // console.log(jsonContent)
-        return jsonContent
+        return { title, content }
       }
     }
   }
-  return { error: 'Mame Game Init entry not found for the provided ROM name' }
 }
 
 function getSearchTerms(
