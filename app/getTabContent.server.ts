@@ -73,7 +73,15 @@ async function findMameDatContent(
       //TODO: we're assuming this has been set to searchType: 'ExactMatch', which it should, is it always? if so the data needs fixing not the code
       let mameDatContent = await fs.promises.readFile(mameDatPath, 'utf8')
 
-      return contentFinder(romname, mameNames, mameUseParentForSrch, mameDatContent, datLeafFilename)
+      const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
+      const lines = mameDatContent.split(/\r?\n/)
+      const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
+      const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
+      const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
+      const entries = trimmedContent.split('$end')
+
+      const jsonContent = contentFinder(romname, mameNames, mameUseParentForSrch, mameDatContent, searchTerms, entries)
+      return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
     } catch (error) {
       if (error.code === 'ENOENT') {
         console.log('Mame Dat file does not exist:', mameDatPath)
@@ -488,7 +496,7 @@ async function findMameMessInfoContent(
   return { error: 'Mame Mess Info entry not found for the provided ROM name' }
 }
 
-async function findMameSysInfoContent(
+async function OLDfindMameSysInfoContent(
   romname: string,
   mameNames: { mameName?: string; parentName?: string },
   mameUseParentForSrch: boolean,
@@ -505,7 +513,14 @@ async function findMameSysInfoContent(
   return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
 }
 
-function getMameSysInfoContent(searchTerms: [], entries: []) {
+function findMameSysInfoContent(
+  romname,
+  mameNames,
+  mameUseParentForSrch,
+  mameDatContent,
+  searchTerms: [],
+  entries: []
+) {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
