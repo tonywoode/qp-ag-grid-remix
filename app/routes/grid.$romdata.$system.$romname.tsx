@@ -65,7 +65,7 @@ const searchTabTypeMapping: { [key: number]: string } = {
 
 const tabClassMap: { [key: string]: string } = {
   Images: 'screenshot',
-  Thumbnail: 'screenshot',
+  Thumbnail: 'screenshot', //for now: what is the purpose of this distinction?
   MameHistory: 'mameDat',
   MameInfo: 'mameDat',
   MameCommand: 'mameDat',

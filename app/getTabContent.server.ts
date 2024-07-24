@@ -1,5 +1,7 @@
 import fs from 'fs'
 import path from 'path'
+import mime from 'mime-types'
+
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
 const tabTypeStrategy: { [key: string]: TabStrategy } = {
@@ -240,59 +242,61 @@ async function findHistoryDatContent(
       searchTerms.push(searchTermWithoutBrackets)
     }
     for (const entry of entries) {
-    //mame history entries are array like eg: $info=1944,1944d,
-    //game history entries are the common-lanugage name of the game, not mamenames
-    //added the '?' in the regex here, its not needed for history.dats as they always have trailing commas but command.dats do not
-    //but even with that addition, the mame history regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
-    if (
-      isGameHistory ? entry.includes(`$info=${searchTerm},`) : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
-    ) {
-      //fix game history issues, but not in real mame files!
-      const { widthFixedContent, gameHistoryLink } = isGameHistory
-        ? fixGameHistoryDatIssues(entry)
-        : { widthFixedContent: entry, gameHistoryLink: null }
-      matchFound = true
-      // Find the index of `$bio` and then the title after the next newline
-      const bioIndex = widthFixedContent.indexOf('$bio') + 4
-      let titleStartIndex = widthFixedContent.indexOf('\n', bioIndex) + 1 // Start of the title
-      // a lot of munging to try and separate the title from the section headings etc, mostly game-history specific problems (line endings may be \n\r etc)
-      // Skip initial line breaks
-      while (widthFixedContent[titleStartIndex] === '\n' || widthFixedContent[titleStartIndex] === '\r') {
-        titleStartIndex++
+      //mame history entries are array like eg: $info=1944,1944d,
+      //game history entries are the common-lanugage name of the game, not mamenames
+      //added the '?' in the regex here, its not needed for history.dats as they always have trailing commas but command.dats do not
+      //but even with that addition, the mame history regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
+      if (
+        isGameHistory
+          ? entry.includes(`$info=${searchTerm},`)
+          : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
+      ) {
+        //fix game history issues, but not in real mame files!
+        const { widthFixedContent, gameHistoryLink } = isGameHistory
+          ? fixGameHistoryDatIssues(entry)
+          : { widthFixedContent: entry, gameHistoryLink: null }
+        matchFound = true
+        // Find the index of `$bio` and then the title after the next newline
+        const bioIndex = widthFixedContent.indexOf('$bio') + 4
+        let titleStartIndex = widthFixedContent.indexOf('\n', bioIndex) + 1 // Start of the title
+        // a lot of munging to try and separate the title from the section headings etc, mostly game-history specific problems (line endings may be \n\r etc)
+        // Skip initial line breaks
+        while (widthFixedContent[titleStartIndex] === '\n' || widthFixedContent[titleStartIndex] === '\r') {
+          titleStartIndex++
+        }
+        // Find the earliest of the double line break or "- TECHNICAL -"
+        let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex)
+        let technicalIndex = widthFixedContent.indexOf('- TECHNICAL -', titleStartIndex)
+        if (technicalIndex !== -1 && (technicalIndex < titleEndIndex || titleEndIndex === -1)) {
+          titleEndIndex = technicalIndex
+        } else if (titleEndIndex === -1) {
+          titleEndIndex = widthFixedContent.length // Fallback if no double line break is found
+        }
+        const title = widthFixedContent.substring(titleStartIndex, titleEndIndex).trim()
+        // Adjust content to start after the title's end, ensuring it doesn't repeat the title
+        const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
+        //now change headings from the garish "- ALLCAPS -/n" to Strongs
+        const contentBeforeTagging = widthFixedContent.substring(contentStartIndex).trim()
+        const content = contentBeforeTagging.replace(/^- ([A-Z\s]+) -\n$/gm, (match, p1) => {
+          // Split the matched group into words, capitalize each, then join back together
+          const initialCaps = p1
+            .toLowerCase()
+            .split(/\s+/)
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ')
+          return `<strong>${initialCaps}</strong>`
+        })
+        // Construct the JSON object
+        const jsonContent = {
+          title,
+          gameHistoryLink,
+          content
+        }
+        console.log('jsonContent')
+        console.log(jsonContent)
+        return jsonContent
       }
-      // Find the earliest of the double line break or "- TECHNICAL -"
-      let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex)
-      let technicalIndex = widthFixedContent.indexOf('- TECHNICAL -', titleStartIndex)
-      if (technicalIndex !== -1 && (technicalIndex < titleEndIndex || titleEndIndex === -1)) {
-        titleEndIndex = technicalIndex
-      } else if (titleEndIndex === -1) {
-        titleEndIndex = widthFixedContent.length // Fallback if no double line break is found
-      }
-      const title = widthFixedContent.substring(titleStartIndex, titleEndIndex).trim()
-      // Adjust content to start after the title's end, ensuring it doesn't repeat the title
-      const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
-      //now change headings from the garish "- ALLCAPS -/n" to Strongs
-      const contentBeforeTagging = widthFixedContent.substring(contentStartIndex).trim()
-      const content = contentBeforeTagging.replace(/^- ([A-Z\s]+) -\n$/gm, (match, p1) => {
-        // Split the matched group into words, capitalize each, then join back together
-        const initialCaps = p1
-          .toLowerCase()
-          .split(/\s+/)
-          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(' ')
-        return `<strong>${initialCaps}</strong>`
-      })
-      // Construct the JSON object
-      const jsonContent = {
-        title,
-        gameHistoryLink,
-        content
-      }
-      console.log('jsonContent')
-      console.log(jsonContent)
-      return jsonContent
     }
-  }
   }
   return { error: 'History entry not found for the provided ROM name' }
 }
@@ -559,20 +563,6 @@ function getSearchTerms(
   return searchTerms
 }
 
-
-const mimeTypes: { [key: string]: string } = {
-  '.jpg': 'image/jpeg',
-  '.jpeg': 'image/jpeg',
-  '.png': 'image/png',
-  '.gif': 'image/gif',
-  '.bmp': 'image/bmp',
-  '.ico': 'image/x-icon'
-}
-
-function getMimeType(ext: string): string {
-  return mimeTypes[ext] || null //'application/octet-stream' - uhuh - that'll return all files!
-}
-
 // TJSearchType = (jstExactMatch = 0,
 //   jstStartsWith = 1,
 //   jstInString = 2,
@@ -604,10 +594,11 @@ async function findScreenshotPaths(
           if (searchStrategies(file, romname, searchType)) matchFound = true
         }
         if (matchFound) {
+          console.log('screenshot match found', file)
+          const mimeType = mime.lookup(file)
           const filePath = path.join(macPath, file)
           const fileData = await fs.promises.readFile(filePath)
-          const ext = path.extname(file).toLowerCase()
-          const mimeType = getMimeType(ext)
+          console.log(`mimeType of ${file} is: ${mimeType}`)
           if (mimeType !== null) {
             const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
             foundBase64Files.add(base64File)
@@ -619,7 +610,8 @@ async function findScreenshotPaths(
       console.error(`Error reading directory ${macPath}: ${error}`)
     }
   }
-  return [...foundBase64Files]
+  const screenshots = [...foundBase64Files]
+  return { screenshots }
 }
 
 function searchStrategies(file: string, romname: string, searchType: string): boolean {
@@ -650,9 +642,14 @@ export async function getTabContent(
   console.log('Path in tabData is ' + pathInTabData)
   if (pathInTabData) {
     if (tabClass === 'screenshot') {
-      const base64Files = await findScreenshotPaths(romname, pathInTabData, searchType, mameNames, mameUseParentForSrch)
-      console.log('Found files:', base64Files)
-      return { screenshots: base64Files }
+      const { screenshots } = await findScreenshotPaths(
+        romname,
+        pathInTabData,
+        searchType,
+        mameNames,
+        mameUseParentForSrch
+      )
+      return { screenshots }
     } else if (tabClass === 'mameDat') {
       const mameDat = await findMameDatContent(pathInTabData, romname, mameNames, mameUseParentForSrch, thisSystemsTab)
       console.log('mameDat content:', mameDat)
