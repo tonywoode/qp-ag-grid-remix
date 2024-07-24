@@ -234,13 +234,6 @@ async function findHistoryDatContent(
   let matchFound = false // Flag to indicate a match has been found
   for (const searchTerm of searchTerms) {
     if (matchFound) break
-    //unlike screenshots, we're searching in the found file for a spcefic entry
-    // If isGameHistory, add a version of the game name with anything in brackets removed
-    // TODO: add similar to other search types e.g.: screenshots
-    if (isGameHistory) {
-      const searchTermWithoutBrackets = romname.replace(/\s*\([^)]*\)/g, '').trim()
-      searchTerms.push(searchTermWithoutBrackets)
-    }
     for (const entry of entries) {
       //mame history entries are array like eg: $info=1944,1944d,
       //game history entries are the common-lanugage name of the game, not mamenames
@@ -560,6 +553,12 @@ function getSearchTerms(
   // if (searchTerms.length === 0) searchTerms = [romname]
   // or just add romnames to the end
   searchTerms.push(romname)
+  // and seeing as we've decided that, now consider we also want to look for the lack of brackets in a gamename
+  // as such we have to make sure we only attempt this one if no with-brackets files are found, which is fine and good
+  //how does the search-type impact on this though? This feels more like a search-type than a default, but we NEED it in datHistory to fix some gamename errors found (atari 7800?)
+  const searchTermWithoutBrackets = romname.replace(/\s*\([^)]*\)/g, '').trim()
+  searchTerms.push(searchTermWithoutBrackets)
+  // TODO: add this to screenshot logic ****
   return searchTerms
 }
 
