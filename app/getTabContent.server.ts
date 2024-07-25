@@ -55,25 +55,24 @@ async function findMameDatContent(
 ): Promise<any> {
   console.log(pathInTabData)
   const tabType = thisSystemsTab.tabType
+  console.log('this systems tab type is: ', tabType)
+  const strategy = getTabTypeStrategy(tabType)
+  if (!strategy) {
+    //TODO: fix error handling
+    const msg = `Unknown tabType sent to mediaPanel: ${tabType}`
+    console.error(msg)
+    return { error: msg } //throw?
+  }
+  const { datLeafFilename, contentFinder } = strategy
   //TODO: Do we ever have >1 path in for mame dats? What will happen if there's >1? does the code need fixing or the data?
   for (const p of pathInTabData) {
     const macPath = convertWindowsPathToMacPath(p)
-    console.log('this systems tab type is: ', tabType)
-    const strategy = getTabTypeStrategy(tabType)
-    if (!strategy) {
-      //TODO: fix error handling
-      const msg = `Unknown tabType sent to mediaPanel: ${tabType}`
-      console.error(msg)
-      return { error: msg } //throw?
-    }
-    const { datLeafFilename, contentFinder } = strategy
     const mameDatPath = path.join(macPath, datLeafFilename)
     console.log('mameDatPath', mameDatPath)
     try {
       await fs.promises.stat(mameDatPath) // Check if mameDat exists
       //TODO: we're assuming this has been set to searchType: 'ExactMatch', which it should, is it always? if so the data needs fixing not the code
       let mameDatContent = await fs.promises.readFile(mameDatPath, 'utf8')
-
       const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
       const lines = mameDatContent.split(/\r?\n/)
       const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
@@ -81,7 +80,6 @@ async function findMameDatContent(
       const isGameHistory = fileHeader.includes('Matt McLemore') //JUST for history.dat - is it a mame file or is it a game history file?
       const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
       const entries = trimmedContent.split('$end')
-
       let matchFound = false
       for (const searchTerm of searchTerms) {
         if (matchFound) break
@@ -96,28 +94,33 @@ async function findMameDatContent(
               : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
           ) {
             matchFound = true
-
-            const jsonContent = contentFinder(entry, searchTerm, isGameHistory)
-            console.log(jsonContent)
-            return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
+            return (
+              contentFinder(entry, searchTerm, isGameHistory) || {
+                error: `${datLeafFilename} entry not found for the provided ROM name`
+              }
+            )
           }
         }
       }
     } catch (error) {
       if (error.code === 'ENOENT') {
-        console.log('Mame Dat file does not exist:', mameDatPath)
+        console.log(`${datLeafFilename} file does not exist:`, mameDatPath)
         continue //to the next dat in the array if the current dat doesn't exist or any error occurs
       } else {
-        console.error('Error processing Mame Dat data:', error)
-        return { error: 'Error processing Mame Dat data' }
+        console.error(`Error processing ${datLeafFilename} Mame Dat data:`, error)
+        return { error: `Error processing ${datLeafFilename} Mame Dat data` }
       }
     }
   }
-  return { error: 'Associated Mame-dat-style file not found for the provided ROM name' }
+  return { error: `${datLeafFilename} not found for the provided ROM name` }
 }
 
-function cleanMameInfoContent(content: string): string {
-  const lines = content.split(/\r?\n/)
+function findMameInfoContent(entry: string, searchTerm: string): object | undefined {
+  const contentTypeMarker = '$mame'
+  const contentTypeIndex = entry.indexOf(contentTypeMarker) + contentTypeMarker.length
+  const title = searchTerm
+  const rawContent = entry.substring(contentTypeIndex).trim()
+  const lines = rawContent.split(/\r?\n/)
   const cleanedLines = []
   let isSectionHeader = false
   let inList = false // Track if we are currently processing list items
@@ -167,14 +170,7 @@ function cleanMameInfoContent(content: string): string {
   if (inList) {
     cleanedLines.push(`<ul>${listItems.join('')}</ul>`)
   }
-  return cleanedLines.join('\n')
-}
-
-function findMameInfoContent(entry: string, searchTerm: string): object | undefined {
-  const title = searchTerm
-  const mameIndex = entry.indexOf('$mame') + 6
-  const rawContent = entry.substring(mameIndex).trim()
-  const content = cleanMameInfoContent(rawContent)
+  const content = cleanedLines.join('\n')
   return { title, content }
 }
 
@@ -254,9 +250,10 @@ function findHistoryDatContent(entry: string, searchTerm: string, isGameHistory:
 }
 
 function findMameCommandContent(entry: string, searchTerm: string): object | undefined {
+  const contentTypeMarker = '$cmd'
+  const contentTypeIndex = entry.indexOf(contentTypeMarker) + contentTypeMarker.length
   //these are the heading delims - headings have these top (with newline after), and bottom
   const sectionPattern = /\*-{61}\*\n*(.*)\n*\*-{61}\*\n*/g
-  const contentTypeIndex = entry.indexOf('$cmd') + 4
   let content = entry.substring(contentTypeIndex).trim()
   // Process and replace each matched section
   content = content.replace(sectionPattern, (match, headingText) => {
@@ -290,7 +287,8 @@ function findMameCommandContent(entry: string, searchTerm: string): object | und
 }
 
 function findMameGameInitContent(entry: string, searchTerm: string): object | undefined {
-  const contentTypeIndex = entry.indexOf('$mame') + 5
+  const contentTypeMarker = '$mame'
+  const contentTypeIndex = entry.indexOf(contentTypeMarker) + contentTypeMarker.length
   let content = entry.substring(contentTypeIndex).trim()
   const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
   //this one had just HEADINGS: surrounded by whitespace
@@ -309,7 +307,8 @@ function findMameGameInitContent(entry: string, searchTerm: string): object | un
 }
 
 function findMameStoryContent(entry: string, searchTerm: string): object | undefined {
-  const contentTypeIndex = entry.indexOf('$story') + 6
+  const contentTypeMarker = '$story'
+  const contentTypeIndex = entry.indexOf(contentTypeMarker) + contentTypeMarker.length
   let content = entry.substring(contentTypeIndex).trim()
   content = content.replace(/MAMESCORE records : (.*)\n/, `<strong>Mamescore Records: $1</strong>\n`)
   const title = searchTerm
@@ -317,7 +316,8 @@ function findMameStoryContent(entry: string, searchTerm: string): object | undef
 }
 
 function findMameMessInfoContent(entry: string, searchTerm: string): object | undefined {
-  const contentTypeIndex = entry.indexOf('$mame') + 5
+  const contentTypeMarker = '$mame'
+  const contentTypeIndex = entry.indexOf(contentTypeMarker) + contentTypeMarker.length
   let content = entry.substring(contentTypeIndex).trim()
   const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
   //this one had just HEADINGS: surrounded by whitespace
@@ -334,27 +334,6 @@ function findMameMessInfoContent(entry: string, searchTerm: string): object | un
   })
   return { title, content }
 }
-
-// function findMameSysInfoContent(searchTerms: [], entries: [], isGameHistory: boolean): object | undefined {
-//   let matchFound = false
-//   for (const searchTerm of searchTerms) {
-//     if (matchFound) break
-//     for (const entry of entries) {
-//       //$info= can be array-like, history.dat has trailing commas (e.g.: $info=1944,1944d,) but others (e.g.: command.dat) don't!
-//       //the ? in this regex, combined with the \\b, makes it universally suitable
-//       //however, for historyDats, game history entries are the common-lanugage name of the game, not mamenames
-//       //iand the mame dat regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
-//       if (
-//         isGameHistory
-//           ? entry.includes(`$info=${searchTerm},`)
-//           : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
-//       ) {
-//         matchFound = true
-//         return getMameSysInfoContent(entry, searchTerm, isGameHistory)
-//       }
-//     }
-//   }
-// }
 
 function findMameSysInfoContent(entry: string, searchTerm: string) {
   const contentTypeMarker = '$bio'
