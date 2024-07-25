@@ -61,9 +61,10 @@ async function findMameDatContent(
     console.log('this systems tab type is: ', tabType)
     const strategy = getTabTypeStrategy(tabType)
     if (!strategy) {
+      //TODO: fix error handling
       const msg = `Unknown tabType sent to mediaPanel: ${tabType}`
-      console.log(msg)
-      return { error: msg } //TODO: throw?
+      console.error(msg)
+      return { error: msg } //throw?
     }
     const { datLeafFilename, contentFinder } = strategy
     const mameDatPath = path.join(macPath, datLeafFilename)
@@ -204,7 +205,7 @@ function fixGameHistoryDatIssues(entry: string): { widthFixedContent: string; ga
 //TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //TODO: this is GAME History logic, we don't want to do so much munging for Mame history: we don't want to continue these non-isomporhic transformations, we lose list formattings etc
 function findHistoryDatContent(searchTerms: [], entries: [], isGameHistory: boolean): object | undefined {
-  let matchFound = false // Flag to indicate a match has been found
+  let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
     for (const entry of entries) {
@@ -217,14 +218,15 @@ function findHistoryDatContent(searchTerms: [], entries: [], isGameHistory: bool
           ? entry.includes(`$info=${searchTerm},`)
           : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
       ) {
+        matchFound = true
         //fix game history issues, but not in real mame files!
         const { widthFixedContent, gameHistoryLink } = isGameHistory
           ? fixGameHistoryDatIssues(entry)
           : { widthFixedContent: entry, gameHistoryLink: null }
-        matchFound = true
         // Find the index of `$bio` and then the title after the next newline
-        const bioIndex = widthFixedContent.indexOf('$bio') + 4
-        let titleStartIndex = widthFixedContent.indexOf('\n', bioIndex) + 1 // Start of the title
+        const contentTypeMarker = '$bio'
+        const contentTypeIndex = widthFixedContent.indexOf(contentTypeMarker) + contentTypeMarker.length
+        let titleStartIndex = widthFixedContent.indexOf('\n', contentTypeIndex) + 1 // Start of the title
         // a lot of munging to try and separate the title from the section headings etc, mostly game-history specific problems (line endings may be \n\r etc)
         // Skip initial line breaks
         while (widthFixedContent[titleStartIndex] === '\n' || widthFixedContent[titleStartIndex] === '\r') {
@@ -356,7 +358,6 @@ function findMameMessInfoContent(searchTerms: [], entries: []): object | undefin
   for (const searchTerm of searchTerms) {
     if (matchFound) break
     for (const entry of entries) {
-      console.log('searchTerm', searchTerm)
       if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
         matchFound = true
         const contentTypeIndex = entry.indexOf('$mame') + 5
@@ -380,41 +381,53 @@ function findMameMessInfoContent(searchTerms: [], entries: []): object | undefin
   }
 }
 
-function findMameSysInfoContent(searchTerms: [], entries: []): object | undefined {
+function findMameSysInfoContent(searchTerms: [], entries: [], isGameHistory: boolean): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
     for (const entry of entries) {
-      // console.log('searchTerm', searchTerm, entry.substring(entry.indexOf('$info'), entry.indexOf('$bio')))
-      if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
+      //$info= can be array-like, history.dat has trailing commas (e.g.: $info=1944,1944d,) but others (e.g.: command.dat) don't!
+      //the ? in this regex, combined with the \\b, makes it universally suitable
+      //however, for historyDats, game history entries are the common-lanugage name of the game, not mamenames
+      //iand the mame dat regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
+      if (
+        isGameHistory
+          ? entry.includes(`$info=${searchTerm},`)
+          : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
+      ) {
         matchFound = true
-        const contentTypeIndex = entry.indexOf('$bio') + 4
-        let content = entry.substring(contentTypeIndex).trim()
-        const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
-        //this one had just HEADINGS: surrounded by whitespace
-        const sectionPattern = /^\s*=+ (.+) =+\s*$/gm
-        content = content.replace(sectionPattern, (match, headingText) => {
-          // Split the heading text into words, capitalize the first letter of each word,
-          // convert the rest to lowercase, then join the words back together.
-          const capitalizedHeading = headingText
-            .trim()
-            .split(' ')
-            .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-            .join(' ')
-          return `\n<strong>${capitalizedHeading}</strong>` //note \n need it in this one?!?
-        })
-        content = content.trim()
-        //this one benefits from simply having all double lines turned to single
-        //we need to specify the \n without space at the end or we remove wanted space
-        content = content.replace(/(\n\s*){2,}\n/g, '\n\n')
-        //now lists stand out as they have blank line separators
-        const listWhitespaceRegex = /(\* .+)\n\s*\n(\s*\*)/g
-        //this regex needs running twice as .replace scanning won't pick up each second instance of the pattern
-        content = content.replace(listWhitespaceRegex, '$1\n$2').replace(listWhitespaceRegex, '$1\n$2')
-        return { title, content }
+        return getMameSysInfoContent(entry, searchTerm, isGameHistory)
       }
     }
   }
+}
+
+function getMameSysInfoContent(entry: string, searchTerm: string) {
+  const contentTypeMarker = '$bio'
+  const contentTypeIndex = entry.indexOf(contentTypeMarker) + contentTypeMarker.length
+  const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
+  let content = entry.substring(contentTypeIndex).trim()
+  //this one had just HEADINGS: surrounded by whitespace
+  const sectionPattern = /^\s*=+ (.+) =+\s*$/gm
+  content = content.replace(sectionPattern, (match, headingText) => {
+    // Split the heading text into words, capitalize the first letter of each word,
+    // convert the rest to lowercase, then join the words back together.
+    const capitalizedHeading = headingText
+      .trim()
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(' ')
+    return `\n<strong>${capitalizedHeading}</strong>` //note \n need it in this one?!?
+  })
+  content = content.trim()
+  //this one benefits from simply having all double lines turned to single
+  //we need to specify the \n without space at the end or we remove wanted space
+  content = content.replace(/(\n\s*){2,}\n/g, '\n\n')
+  //now lists stand out as they have blank line separators
+  const listWhitespaceRegex = /(\* .+)\n\s*\n(\s*\*)/g
+  //this regex needs running twice as .replace scanning won't pick up each second instance of the pattern
+  content = content.replace(listWhitespaceRegex, '$1\n$2').replace(listWhitespaceRegex, '$1\n$2')
+  return { title, content }
 }
 
 function getSearchTerms(
