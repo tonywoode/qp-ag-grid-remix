@@ -81,15 +81,7 @@ async function findMameDatContent(
       const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
       const entries = trimmedContent.split('$end')
 
-      const jsonContent = contentFinder(
-        romname,
-        mameNames,
-        mameUseParentForSrch,
-        mameDatContent,
-        searchTerms,
-        entries,
-        isGameHistory
-      )
+      const jsonContent = contentFinder(searchTerms, entries, isGameHistory)
       console.log(jsonContent)
       return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
     } catch (error) {
@@ -159,38 +151,18 @@ function cleanMameInfoContent(content: string): string {
   return cleanedLines.join('\n')
 }
 
-function findMameInfoContent(
-  romname: string,
-  mameNames: { mameName?: string; parentName?: string },
-  mameUseParentForSrch: boolean,
-  mameDatContent: string,
-  searchTerms: [],
-  entries: []
-): object | undefined {
+function findMameInfoContent(searchTerms: [], entries: []): object | undefined {
   let matchFound = false // Flag to indicate a match has been found
-  for (const entry of entries) {
+  for (const searchTerm of searchTerms) {
     if (matchFound) break
-    let searchTerms = [romname] // Default search term is romname
-    if (mameNames.mameName) {
-      searchTerms.unshift(mameNames.mameName) // If mameName is present, prioritize it
-    }
-    if (mameUseParentForSrch && mameNames.parentName) {
-      searchTerms.push(mameNames.parentName) // If mameParent should be used and is present, add it
-    }
-    for (const searchTerm of searchTerms) {
+    for (const entry of entries) {
       if (entry.includes(`$info=${searchTerm}`)) {
         matchFound = true
         const title = searchTerm
         const mameIndex = entry.indexOf('$mame') + 6
         const rawContent = entry.substring(mameIndex).trim()
         const content = cleanMameInfoContent(rawContent)
-        const jsonContent = {
-          title,
-          content
-        }
-        console.log('jsonContent')
-        console.log(jsonContent)
-        return jsonContent
+        return { title, content }
       }
     }
   }
@@ -231,15 +203,7 @@ function fixGameHistoryDatIssues(entry: string): { widthFixedContent: string; ga
 
 //TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //TODO: this is GAME History logic, we don't want to do so much munging for Mame history: we don't want to continue these non-isomporhic transformations, we lose list formattings etc
-function findHistoryDatContent(
-  romname: string,
-  mameNames: { mameName?: string; parentName?: string },
-  mameUseParentForSrch: boolean,
-  mameDatContent: string,
-  searchTerms: [],
-  entries: [],
-  isGameHistory: boolean
-): object | undefined {
+function findHistoryDatContent(searchTerms: [], entries: [], isGameHistory: boolean): object | undefined {
   let matchFound = false // Flag to indicate a match has been found
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -284,32 +248,18 @@ function findHistoryDatContent(
           const initialCaps = p1
             .toLowerCase()
             .split(/\s+/)
-            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
             .join(' ')
           return `<strong>${initialCaps}</strong>`
         })
         // Construct the JSON object
-        const jsonContent = {
-          title,
-          gameHistoryLink,
-          content
-        }
-        console.log('jsonContent')
-        console.log(jsonContent)
-        return jsonContent
+        return { title, gameHistoryLink, content }
       }
     }
   }
 }
 
-function findMameCommandContent(
-  romname: string,
-  mameNames: { mameName?: string; parentName?: string },
-  mameUseParentForSrch: boolean,
-  mameDatContent: string,
-  searchTerms: [],
-  entries: []
-): object | undefined {
+function findMameCommandContent(searchTerms: [], entries: []): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -350,26 +300,13 @@ function findMameCommandContent(
         // Adjust content to start after the title's end, ensuring it doesn't repeat the title
         const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
         content = content.substring(contentStartIndex).trim()
-        const jsonContent = {
-          title,
-          content
-        }
-        console.log('jsonContent')
-        console.log(jsonContent)
-        return jsonContent
+        return { title, content }
       }
     }
   }
 }
 
-function findMameGameInitContent(
-  romname: string,
-  mameNames: { mameName?: string; parentName?: string },
-  mameUseParentForSrch: boolean,
-  mameDatContent: string,
-  searchTerms: [],
-  entries: []
-): object | undefined {
+function findMameGameInitContent(searchTerms: [], entries: []): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -391,26 +328,13 @@ function findMameGameInitContent(
             .join(' ')
           return `<strong>${capitalizedHeading}</strong>`
         })
-        const jsonContent = {
-          title,
-          content
-        }
-        console.log('jsonContent')
-        console.log(jsonContent)
-        return jsonContent
+        return { title, content }
       }
     }
   }
 }
 
-function findMameStoryContent(
-  romname: string,
-  mameNames: { mameName?: string; parentName?: string },
-  mameUseParentForSrch: boolean,
-  mameDatContent: string,
-  searchTerms: [],
-  entries: []
-): object | undefined {
+function findMameStoryContent(searchTerms: [], entries: []): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -421,26 +345,13 @@ function findMameStoryContent(
         let content = entry.substring(contentTypeIndex).trim()
         content = content.replace(/MAMESCORE records : (.*)\n/, `<strong>Mamescore Records: $1</strong>\n`)
         const title = searchTerm
-        const jsonContent = {
-          title,
-          content
-        }
-        console.log('jsonContent')
-        console.log(jsonContent)
-        return jsonContent
+        return { title, content }
       }
     }
   }
 }
 
-function findMameMessInfoContent(
-  romname: string,
-  mameNames: { mameName?: string; parentName?: string },
-  mameUseParentForSrch: boolean,
-  mameDatContent: string,
-  searchTerms: [],
-  entries: []
-): object | undefined {
+function findMameMessInfoContent(searchTerms: [], entries: []): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
@@ -469,31 +380,7 @@ function findMameMessInfoContent(
   }
 }
 
-async function OLDfindMameSysInfoContent(
-  romname: string,
-  mameNames: { mameName?: string; parentName?: string },
-  mameUseParentForSrch: boolean,
-  mameDatContent: string,
-  datLeafFilename: string
-): Promise<any> {
-  const searchTerms = getSearchTerms(mameNames, mameUseParentForSrch, romname)
-  const lines = mameDatContent.split(/\r?\n/)
-  const firstInfoIndex = lines.findIndex(line => line.startsWith('$info='))
-  const fileHeader = lines.slice(0, firstInfoIndex).join('\n') // Isolate 'fileHeader'
-  const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
-  const entries = trimmedContent.split('$end')
-  const jsonContent = getMameSysInfoContent(searchTerms, entries)
-  return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
-}
-
-function findMameSysInfoContent(
-  romname,
-  mameNames,
-  mameUseParentForSrch,
-  mameDatContent,
-  searchTerms: [],
-  entries: []
-): object | undefined {
+function findMameSysInfoContent(searchTerms: [], entries: []): object | undefined {
   let matchFound = false
   for (const searchTerm of searchTerms) {
     if (matchFound) break
