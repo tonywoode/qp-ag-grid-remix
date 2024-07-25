@@ -82,9 +82,27 @@ async function findMameDatContent(
       const trimmedContent = lines.slice(firstInfoIndex).join('\n') // Trim 'fileHeader' from content
       const entries = trimmedContent.split('$end')
 
-      const jsonContent = contentFinder(searchTerms, entries, isGameHistory)
-      console.log(jsonContent)
-      return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
+      let matchFound = false
+      for (const searchTerm of searchTerms) {
+        if (matchFound) break
+        for (const entry of entries) {
+          //$info= can be array-like, history.dat has trailing commas (e.g.: $info=1944,1944d,) but others (e.g.: command.dat) don't!
+          //the ? in this regex, combined with the \\b, makes it universally suitable
+          //however, for historyDats, game history entries are the common-lanugage name of the game, not mamenames
+          //iand the mame dat regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
+          if (
+            isGameHistory
+              ? entry.includes(`$info=${searchTerm},`)
+              : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
+          ) {
+            matchFound = true
+
+            const jsonContent = contentFinder(entry, searchTerm, isGameHistory)
+            console.log(jsonContent)
+            return jsonContent ? jsonContent : { error: `${datLeafFilename} entry not found for the provided ROM name` }
+          }
+        }
+      }
     } catch (error) {
       if (error.code === 'ENOENT') {
         console.log('Mame Dat file does not exist:', mameDatPath)
@@ -152,21 +170,12 @@ function cleanMameInfoContent(content: string): string {
   return cleanedLines.join('\n')
 }
 
-function findMameInfoContent(searchTerms: [], entries: []): object | undefined {
-  let matchFound = false // Flag to indicate a match has been found
-  for (const searchTerm of searchTerms) {
-    if (matchFound) break
-    for (const entry of entries) {
-      if (entry.includes(`$info=${searchTerm}`)) {
-        matchFound = true
-        const title = searchTerm
-        const mameIndex = entry.indexOf('$mame') + 6
-        const rawContent = entry.substring(mameIndex).trim()
-        const content = cleanMameInfoContent(rawContent)
-        return { title, content }
-      }
-    }
-  }
+function findMameInfoContent(entry: string, searchTerm: string): object | undefined {
+  const title = searchTerm
+  const mameIndex = entry.indexOf('$mame') + 6
+  const rawContent = entry.substring(mameIndex).trim()
+  const content = cleanMameInfoContent(rawContent)
+  return { title, content }
 }
 
 //original game history entries text bodies are line-width-separated, my fault! Remove unnecessary breaks keep real ones
@@ -204,205 +213,150 @@ function fixGameHistoryDatIssues(entry: string): { widthFixedContent: string; ga
 
 //TODO: mamehistory also contains info about mess consoles!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //TODO: this is GAME History logic, we don't want to do so much munging for Mame history: we don't want to continue these non-isomporhic transformations, we lose list formattings etc
-function findHistoryDatContent(searchTerms: [], entries: [], isGameHistory: boolean): object | undefined {
-  let matchFound = false
-  for (const searchTerm of searchTerms) {
-    if (matchFound) break
-    for (const entry of entries) {
-      //mame history entries are array like eg: $info=1944,1944d,
-      //game history entries are the common-lanugage name of the game, not mamenames
-      //added the '?' in the regex here, its not needed for history.dats as they always have trailing commas but command.dats do not
-      //but even with that addition, the mame history regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
-      if (
-        isGameHistory
-          ? entry.includes(`$info=${searchTerm},`)
-          : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
-      ) {
-        matchFound = true
-        //fix game history issues, but not in real mame files!
-        const { widthFixedContent, gameHistoryLink } = isGameHistory
-          ? fixGameHistoryDatIssues(entry)
-          : { widthFixedContent: entry, gameHistoryLink: null }
-        // Find the index of `$bio` and then the title after the next newline
-        const contentTypeMarker = '$bio'
-        const contentTypeIndex = widthFixedContent.indexOf(contentTypeMarker) + contentTypeMarker.length
-        let titleStartIndex = widthFixedContent.indexOf('\n', contentTypeIndex) + 1 // Start of the title
-        // a lot of munging to try and separate the title from the section headings etc, mostly game-history specific problems (line endings may be \n\r etc)
-        // Skip initial line breaks
-        while (widthFixedContent[titleStartIndex] === '\n' || widthFixedContent[titleStartIndex] === '\r') {
-          titleStartIndex++
-        }
-        // Find the earliest of the double line break or "- TECHNICAL -"
-        let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex)
-        let technicalIndex = widthFixedContent.indexOf('- TECHNICAL -', titleStartIndex)
-        if (technicalIndex !== -1 && (technicalIndex < titleEndIndex || titleEndIndex === -1)) {
-          titleEndIndex = technicalIndex
-        } else if (titleEndIndex === -1) {
-          titleEndIndex = widthFixedContent.length // Fallback if no double line break is found
-        }
-        const title = widthFixedContent.substring(titleStartIndex, titleEndIndex).trim()
-        // Adjust content to start after the title's end, ensuring it doesn't repeat the title
-        const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
-        //now change headings from the garish "- ALLCAPS -/n" to Strongs
-        const contentBeforeTagging = widthFixedContent.substring(contentStartIndex).trim()
-        const content = contentBeforeTagging.replace(/^- ([A-Z\s]+) -\n$/gm, (match, p1) => {
-          // Split the matched group into words, capitalize each, then join back together
-          const initialCaps = p1
-            .toLowerCase()
-            .split(/\s+/)
-            .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
-            .join(' ')
-          return `<strong>${initialCaps}</strong>`
-        })
-        // Construct the JSON object
-        return { title, gameHistoryLink, content }
-      }
-    }
+function findHistoryDatContent(entry: string, searchTerm: string, isGameHistory: boolean): object | undefined {
+  //fix game history issues, but not in real mame files!
+  const { widthFixedContent, gameHistoryLink } = isGameHistory
+    ? fixGameHistoryDatIssues(entry)
+    : { widthFixedContent: entry, gameHistoryLink: null }
+  // Find the index of `$bio` and then the title after the next newline
+  const contentTypeMarker = '$bio'
+  const contentTypeIndex = widthFixedContent.indexOf(contentTypeMarker) + contentTypeMarker.length
+  let titleStartIndex = widthFixedContent.indexOf('\n', contentTypeIndex) + 1 // Start of the title
+  // a lot of munging to try and separate the title from the section headings etc, mostly game-history specific problems (line endings may be \n\r etc)
+  // Skip initial line breaks
+  while (widthFixedContent[titleStartIndex] === '\n' || widthFixedContent[titleStartIndex] === '\r') {
+    titleStartIndex++
   }
+  // Find the earliest of the double line break or "- TECHNICAL -"
+  let titleEndIndex = widthFixedContent.indexOf('\n\n', titleStartIndex)
+  let technicalIndex = widthFixedContent.indexOf('- TECHNICAL -', titleStartIndex)
+  if (technicalIndex !== -1 && (technicalIndex < titleEndIndex || titleEndIndex === -1)) {
+    titleEndIndex = technicalIndex
+  } else if (titleEndIndex === -1) {
+    titleEndIndex = widthFixedContent.length // Fallback if no double line break is found
+  }
+  const title = widthFixedContent.substring(titleStartIndex, titleEndIndex).trim()
+  // Adjust content to start after the title's end, ensuring it doesn't repeat the title
+  const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
+  //now change headings from the garish "- ALLCAPS -/n" to Strongs
+  const contentBeforeTagging = widthFixedContent.substring(contentStartIndex).trim()
+  const content = contentBeforeTagging.replace(/^- ([A-Z\s]+) -\n$/gm, (match, p1) => {
+    // Split the matched group into words, capitalize each, then join back together
+    const initialCaps = p1
+      .toLowerCase()
+      .split(/\s+/)
+      .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ')
+    return `<strong>${initialCaps}</strong>`
+  })
+  // Construct the JSON object
+  return { title, gameHistoryLink, content }
 }
 
-function findMameCommandContent(searchTerms: [], entries: []): object | undefined {
-  let matchFound = false
-  for (const searchTerm of searchTerms) {
-    if (matchFound) break
-    for (const entry of entries) {
-      //info is array-like, but unlike history.dat we don't have trailing commas!
-      //the ? in this regex, combined with the \\b, may make it universally suitable
-      if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
-        matchFound = true
-        //these are the heading delims - headings have these top (with newline after), and bottom
-        const sectionPattern = /\*-{61}\*\n*(.*)\n*\*-{61}\*\n*/g
-        const contentTypeIndex = entry.indexOf('$cmd') + 4
-        let content = entry.substring(contentTypeIndex).trim()
-        // Process and replace each matched section
-        content = content.replace(sectionPattern, (match, headingText) => {
-          headingText = headingText.trim()
-          // Check if the heading text is enclosed by guillemets
-          if (headingText.startsWith('«') && headingText.endsWith('»')) {
-            // Replace guillermots with <strong> tags and return the processed section
-            return `\n<strong>${headingText.slice(1, -1)}</strong>\n`
-          } else {
-            // Wrap the heading text with <i> tags and return the processed section
-            return `\n<u>${headingText}\n</u>`
-          }
-        })
-        const newHeadingPattern = /:(.*?):\n/g
-        content = content.replace(newHeadingPattern, (match, headingText) => {
-          return `<i>${headingText.trim()}</i>\n`
-        })
-        //now its safe to remove the trailing star line. Don't reuse any previous index now as content's changed (could just cut the last line off the content instead)
-        content = content.replace(/\*-{61}\*/g, '').trim()
-        //now we've removed those star lines, the title's the first populated line
-        let titleStartIndex = 0
-        while (content[titleStartIndex] === '\n' || content[titleStartIndex] === '\r') {
-          titleStartIndex++
-        }
-        let titleEndIndex = content.indexOf('\n\n', titleStartIndex)
-        const title = content.substring(titleStartIndex, titleEndIndex).trim()
-        // Adjust content to start after the title's end, ensuring it doesn't repeat the title
-        const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
-        content = content.substring(contentStartIndex).trim()
-        return { title, content }
-      }
+function findMameCommandContent(entry: string, searchTerm: string): object | undefined {
+  //these are the heading delims - headings have these top (with newline after), and bottom
+  const sectionPattern = /\*-{61}\*\n*(.*)\n*\*-{61}\*\n*/g
+  const contentTypeIndex = entry.indexOf('$cmd') + 4
+  let content = entry.substring(contentTypeIndex).trim()
+  // Process and replace each matched section
+  content = content.replace(sectionPattern, (match, headingText) => {
+    headingText = headingText.trim()
+    // Check if the heading text is enclosed by guillemets
+    if (headingText.startsWith('«') && headingText.endsWith('»')) {
+      // Replace guillermots with <strong> tags and return the processed section
+      return `\n<strong>${headingText.slice(1, -1)}</strong>\n`
+    } else {
+      // Wrap the heading text with <i> tags and return the processed section
+      return `\n<u>${headingText}\n</u>`
     }
+  })
+  const newHeadingPattern = /:(.*?):\n/g
+  content = content.replace(newHeadingPattern, (match, headingText) => {
+    return `<i>${headingText.trim()}</i>\n`
+  })
+  //now its safe to remove the trailing star line. Don't reuse any previous index now as content's changed (could just cut the last line off the content instead)
+  content = content.replace(/\*-{61}\*/g, '').trim()
+  //now we've removed those star lines, the title's the first populated line
+  let titleStartIndex = 0
+  while (content[titleStartIndex] === '\n' || content[titleStartIndex] === '\r') {
+    titleStartIndex++
   }
+  let titleEndIndex = content.indexOf('\n\n', titleStartIndex)
+  const title = content.substring(titleStartIndex, titleEndIndex).trim()
+  // Adjust content to start after the title's end, ensuring it doesn't repeat the title
+  const contentStartIndex = titleEndIndex + 2 // Skip the double newline after the title
+  content = content.substring(contentStartIndex).trim()
+  return { title, content }
 }
 
-function findMameGameInitContent(searchTerms: [], entries: []): object | undefined {
-  let matchFound = false
-  for (const searchTerm of searchTerms) {
-    if (matchFound) break
-    for (const entry of entries) {
-      if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
-        matchFound = true
-        const contentTypeIndex = entry.indexOf('$mame') + 5
-        let content = entry.substring(contentTypeIndex).trim()
-        const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
-        //this one had just HEADINGS: surrounded by whitespace
-        const sectionPattern = /^\s*([A-Z ]+):\s*$/gm
-        content = content.replace(sectionPattern, (match, headingText) => {
-          // Split the heading text into words, capitalize the first letter of each word,
-          // convert the rest to lowercase, then join the words back together.
-          const capitalizedHeading = headingText
-            .trim()
-            .split(' ')
-            .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-            .join(' ')
-          return `<strong>${capitalizedHeading}</strong>`
-        })
-        return { title, content }
-      }
-    }
-  }
+function findMameGameInitContent(entry: string, searchTerm: string): object | undefined {
+  const contentTypeIndex = entry.indexOf('$mame') + 5
+  let content = entry.substring(contentTypeIndex).trim()
+  const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
+  //this one had just HEADINGS: surrounded by whitespace
+  const sectionPattern = /^\s*([A-Z ]+):\s*$/gm
+  content = content.replace(sectionPattern, (match, headingText) => {
+    // Split the heading text into words, capitalize the first letter of each word,
+    // convert the rest to lowercase, then join the words back together.
+    const capitalizedHeading = headingText
+      .trim()
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(' ')
+    return `<strong>${capitalizedHeading}</strong>`
+  })
+  return { title, content }
 }
 
-function findMameStoryContent(searchTerms: [], entries: []): object | undefined {
-  let matchFound = false
-  for (const searchTerm of searchTerms) {
-    if (matchFound) break
-    for (const entry of entries) {
-      if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
-        matchFound = true
-        const contentTypeIndex = entry.indexOf('$story') + 6
-        let content = entry.substring(contentTypeIndex).trim()
-        content = content.replace(/MAMESCORE records : (.*)\n/, `<strong>Mamescore Records: $1</strong>\n`)
-        const title = searchTerm
-        return { title, content }
-      }
-    }
-  }
+function findMameStoryContent(entry: string, searchTerm: string): object | undefined {
+  const contentTypeIndex = entry.indexOf('$story') + 6
+  let content = entry.substring(contentTypeIndex).trim()
+  content = content.replace(/MAMESCORE records : (.*)\n/, `<strong>Mamescore Records: $1</strong>\n`)
+  const title = searchTerm
+  return { title, content }
 }
 
-function findMameMessInfoContent(searchTerms: [], entries: []): object | undefined {
-  let matchFound = false
-  for (const searchTerm of searchTerms) {
-    if (matchFound) break
-    for (const entry of entries) {
-      if (new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)) {
-        matchFound = true
-        const contentTypeIndex = entry.indexOf('$mame') + 5
-        let content = entry.substring(contentTypeIndex).trim()
-        const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
-        //this one had just HEADINGS: surrounded by whitespace
-        const sectionPattern = /^\s*([A-Z ]+):\s*$/gm
-        content = content.replace(sectionPattern, (match, headingText) => {
-          // Split the heading text into words, capitalize the first letter of each word,
-          // convert the rest to lowercase, then join the words back together.
-          const capitalizedHeading = headingText
-            .trim()
-            .split(' ')
-            .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-            .join(' ')
-          return `\n<strong>${capitalizedHeading}</strong>` //note \n need it in this one?!?
-        })
-        return { title, content }
-      }
-    }
-  }
+function findMameMessInfoContent(entry: string, searchTerm: string): object | undefined {
+  const contentTypeIndex = entry.indexOf('$mame') + 5
+  let content = entry.substring(contentTypeIndex).trim()
+  const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
+  //this one had just HEADINGS: surrounded by whitespace
+  const sectionPattern = /^\s*([A-Z ]+):\s*$/gm
+  content = content.replace(sectionPattern, (match, headingText) => {
+    // Split the heading text into words, capitalize the first letter of each word,
+    // convert the rest to lowercase, then join the words back together.
+    const capitalizedHeading = headingText
+      .trim()
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(' ')
+    return `\n<strong>${capitalizedHeading}</strong>` //note \n need it in this one?!?
+  })
+  return { title, content }
 }
 
-function findMameSysInfoContent(searchTerms: [], entries: [], isGameHistory: boolean): object | undefined {
-  let matchFound = false
-  for (const searchTerm of searchTerms) {
-    if (matchFound) break
-    for (const entry of entries) {
-      //$info= can be array-like, history.dat has trailing commas (e.g.: $info=1944,1944d,) but others (e.g.: command.dat) don't!
-      //the ? in this regex, combined with the \\b, makes it universally suitable
-      //however, for historyDats, game history entries are the common-lanugage name of the game, not mamenames
-      //iand the mame dat regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
-      if (
-        isGameHistory
-          ? entry.includes(`$info=${searchTerm},`)
-          : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
-      ) {
-        matchFound = true
-        return getMameSysInfoContent(entry, searchTerm, isGameHistory)
-      }
-    }
-  }
-}
+// function findMameSysInfoContent(searchTerms: [], entries: [], isGameHistory: boolean): object | undefined {
+//   let matchFound = false
+//   for (const searchTerm of searchTerms) {
+//     if (matchFound) break
+//     for (const entry of entries) {
+//       //$info= can be array-like, history.dat has trailing commas (e.g.: $info=1944,1944d,) but others (e.g.: command.dat) don't!
+//       //the ? in this regex, combined with the \\b, makes it universally suitable
+//       //however, for historyDats, game history entries are the common-lanugage name of the game, not mamenames
+//       //iand the mame dat regex still isn't suitable for gamehistory eg the ! in: Frogger 2 - Threedeep! (1984) (Parker Bros)
+//       if (
+//         isGameHistory
+//           ? entry.includes(`$info=${searchTerm},`)
+//           : new RegExp(`\\$info=.*\\b${searchTerm}\\b,?`).test(entry)
+//       ) {
+//         matchFound = true
+//         return getMameSysInfoContent(entry, searchTerm, isGameHistory)
+//       }
+//     }
+//   }
+// }
 
-function getMameSysInfoContent(entry: string, searchTerm: string) {
+function findMameSysInfoContent(entry: string, searchTerm: string) {
   const contentTypeMarker = '$bio'
   const contentTypeIndex = entry.indexOf(contentTypeMarker) + contentTypeMarker.length
   const title = searchTerm //note: this dat has specific instructions per machine, so if we return a parent's result, it may not be valid, hence use the mamename to show which mame rom we're talking about
