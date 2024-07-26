@@ -174,6 +174,14 @@ export default function MediaPanel() {
       console.error('Error playing video:', event)
     }
 
+    const handleAudioError = event => {
+      console.error('Error playing audio:', event)
+    }
+
+    const handlePDFError = event => {
+      console.error('Error embedding PDF:', event)
+    }
+
     if (mimeType === 'text/plain') {
       return <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />
     }
@@ -191,10 +199,19 @@ export default function MediaPanel() {
     if (mimeType.startsWith('audio')) {
       return (
         <div key={index}>
-          <audio controls style={{ width: '100%', height: 'auto' }}>
+          <audio controls style={{ width: '100%', height: 'auto' }} onError={handleAudioError}>
             <source src={screenshot} type={mimeType} />
             Your browser does not support the audio tag.
           </audio>
+        </div>
+      )
+    }
+
+    //now pdfs
+    if (mimeType === 'application/pdf') {
+      return (
+        <div key={index}>
+          <embed src={screenshot} type={mimeType} style={{ width: '100%', height: 'auto' }} onError={handlePDFError} />
         </div>
       )
     }
