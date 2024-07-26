@@ -138,13 +138,32 @@ export default function MediaPanel() {
     fetchTabContent()
   }, [selectedTabIndex, romname, system, thisSystemsTabs])
 
+  function mediaTagRenderer(index, screenshot) {
+    const base64String = screenshot
+    const [mimeInfo, base64Data] = base64String.split(',')
+    const mimeType = mimeInfo.match(/:(.*?);/)[1]
+    console.log('mimeType')
+    console.log(mimeType)
+    if (mimeType === 'text/plain') {
+      return (
+        <div className="pl-3 bg-gray-800 text-white rounded-lg">
+          <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
+            {romname}
+          </h1>
+          <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
+            {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
+          </pre>
+        </div>
+      )
+    }
+    return <img key={index} src={screenshot} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
+  }
+
   const tabContentRenderers = {
     screenshot: data => (
       <div>
         {data?.screenshots?.length > 0 ? (
-          data.screenshots.map((screenshot, index) => (
-            <img key={index} src={screenshot} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
-          ))
+          data.screenshots.map((screenshot, index) => mediaTagRenderer(index, screenshot))
         ) : (
           <div>Image not found</div>
         )}
