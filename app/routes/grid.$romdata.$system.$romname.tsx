@@ -80,6 +80,30 @@ const openInDefaultBrowser = url => {
   window.open(url, '_blank', 'noopener,noreferrer')
 }
 
+const TextFileRenderer = ({ index, romname, base64Data }) => {
+  const [isExpanded, setIsExpanded] = useState(false)
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded)
+  }
+
+  return (
+    <div className="pl-3 bg-gray-800 text-white rounded-lg">
+      <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
+        {romname} Text File {index}
+      </h1>
+      <button onClick={toggleExpand} className="text-blue-500 underline">
+        {isExpanded ? 'Collapse' : 'Expand'}
+      </button>
+      {isExpanded && (
+        <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
+          {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
+        </pre>
+      )}
+    </div>
+  )
+}
+
 export default function MediaPanel() {
   const location = useLocation()
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
@@ -146,37 +170,31 @@ export default function MediaPanel() {
     console.log('mimeType')
     console.log(mimeType)
 
-    const toggleExpand = () => {
-      setIsExpanded(!isExpanded)
-    }
     const handleVideoError = event => {
       console.error('Error playing video:', event)
     }
 
     if (mimeType === 'text/plain') {
-      return (
-        <div className="pl-3 bg-gray-800 text-white rounded-lg">
-          <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
-            {romname} Text File {index}
-          </h1>
-          <button onClick={toggleExpand} className="text-blue-500 underline">
-            {isExpanded ? 'Collapse' : 'Expand'}
-          </button>
-          {isExpanded && (
-            <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
-              {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
-            </pre>
-          )}
-        </div>
-      )
+      return <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />
     }
-    if (mimeType.includes('video')) {
+    if (mimeType.startsWith('video')) {
       return (
-        <div key={index} style={{ position: 'relative', zIndex: 10 }}>
+        <div key={index}>
           <video controls style={{ width: '100%', height: 'auto' }} onError={handleVideoError}>
             <source src={screenshot} type={mimeType} />
             Your browser does not support the video tag.
           </video>
+        </div>
+      )
+    }
+
+    if (mimeType.startsWith('audio')) {
+      return (
+        <div key={index}>
+          <audio controls style={{ width: '100%', height: 'auto' }}>
+            <source src={screenshot} type={mimeType} />
+            Your browser does not support the audio tag.
+          </audio>
         </div>
       )
     }
