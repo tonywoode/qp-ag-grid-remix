@@ -149,6 +149,9 @@ export default function MediaPanel() {
     const toggleExpand = () => {
       setIsExpanded(!isExpanded)
     }
+    const handleVideoError = event => {
+      console.error('Error playing video:', event)
+    }
 
     if (mimeType === 'text/plain') {
       return (
@@ -167,6 +170,17 @@ export default function MediaPanel() {
         </div>
       )
     }
+    if (mimeType.includes('video')) {
+      return (
+        <div key={index} style={{ position: 'relative', zIndex: 10 }}>
+          <video controls style={{ width: '100%', height: 'auto' }} onError={handleVideoError}>
+            <source src={screenshot} type={mimeType} />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      )
+    }
+
     return <img key={index} src={screenshot} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
   }
 
