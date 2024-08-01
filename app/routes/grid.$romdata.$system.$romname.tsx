@@ -8,7 +8,7 @@ import { decodeString } from '~/utils/safeUrl'
 import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
 import parse, { domToReact, Element } from 'html-react-parser'
-
+import SimplePDFViewer from '~/components/pdfViewer.client'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
@@ -209,11 +209,29 @@ export default function MediaPanel() {
 
     //now pdfs
     if (mimeType === 'application/pdf') {
-      return (
-        <div key={index}>
-          <embed src={screenshot} type={mimeType} style={{ width: '100%', height: 'auto' }} onError={handlePDFError} />
-        </div>
-      )
+      try {
+        // Remove the base64 prefix if it exists
+        const base64String = screenshot.split(',')[1] || screenshot
+
+        // Decode base64 string to ArrayBuffer
+        const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
+        const len = binaryString.length
+        const bytes = new Uint8Array(len)
+        for (let i = 0; i < len; i++) {
+          bytes[i] = binaryString.charCodeAt(i)
+        }
+        const arrayBuffer = bytes.buffer
+
+        return (
+          <div key={index}>
+            <SimplePDFViewer pdfFilePath={arrayBuffer} />
+            {/* <embed src={screenshot} type={mimeType} style={{ width: '100%', height: 'auto' }} onError={handlePDFError} /> */}
+          </div>
+        )
+      } catch (error) {
+        console.error('Failed to decode base64 string:', error)
+        return <div key={index}>Failed to load PDF</div>
+      }
     }
 
     return <img key={index} src={screenshot} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
