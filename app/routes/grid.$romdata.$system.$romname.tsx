@@ -9,7 +9,11 @@ import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
 import parse, { domToReact, Element } from 'html-react-parser'
 import SimplePDFViewer from '~/components/pdfViewer.client'
+import pdfSlickCSS from '@pdfslick/react/dist/pdf_viewer.css' //TODO import this in pdf-specific route
 
+export function links() {
+  return [{ rel: 'stylesheet', href: pdfSlickCSS }]
+}
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
   console.log('heres your params:')

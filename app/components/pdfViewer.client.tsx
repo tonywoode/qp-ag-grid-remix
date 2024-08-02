@@ -1,6 +1,6 @@
 import { usePDFSlick } from '@pdfslick/react'
 // import PDFNavigation from "./PDFNavigation";
-// import '@pdfslick/react/dist/pdf_viewer.css'
+
 
 // TODO: better way to resolve the pdf.worker for pdfjs - (currently copying it during bootstrapping in desktop/index.js
 //  pdf.js wants to resolve it from a relative route, so currently copying it into public/build
@@ -30,5 +30,4 @@ const SimplePDFViewer = ({ pdfFilePath }: PDFViewerAppProps) => {
     </div>
   )
 }
-
 export default SimplePDFViewer
