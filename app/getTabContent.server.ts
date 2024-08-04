@@ -419,7 +419,14 @@ async function findScreenshotPaths(
           const filePath = path.join(macPath, file)
           const fileData = await fs.promises.readFile(filePath)
           console.log(`mimeType of ${file} is: ${mimeType}`)
-          if (mimeType !== null) {
+          //exclude some mimetypes that in experience I found colocated with actual assets but we don't want to try to render them
+          //TODO: how to deal with zips, which commonly we might want to unpack for the assets within, but which could prove calamitous on unintended zips - filesize limit?
+          const excludedMimeTypeStrings = ['javascript', 'json', 'xml']
+          const checkMimeTypeAllowed = (mimeType: string): boolean | void =>
+            excludedMimeTypeStrings.some(excluded => mimeType.includes(excluded))
+              ? console.log(`Excluded MIME type found: ${mimeType}`)
+              : true
+          if (mimeType !== null && checkMimeTypeAllowed(mimeType)) {
             const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
             foundBase64Files.add(base64File)
           }
@@ -440,7 +447,7 @@ function searchStrategies(file: string, romname: string, searchType: string): bo
     ExactMatch: (name: string) => name === romname,
     StartsWith: (name: string) => name.startsWith(romname),
     InString: (name: string) => name.includes(romname),
-    AllFilesInDir: (name: string, ext: string) => Object.keys(mimeTypes).includes(ext)
+    AllFilesInDir: (name: string, ext: string) => !!mime.lookup(file) //note returns any mimetype, see exclusion list above
   }
 
   const strategy = strategies[searchType]

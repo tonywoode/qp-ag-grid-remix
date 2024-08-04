@@ -238,8 +238,23 @@ export default function MediaPanel() {
       }
     }
 
-    return <img key={index} src={screenshot} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
+    if (mimeType.startsWith('image')) {
+      return <img key={index} src={screenshot} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
+    }
+
+    //TODO: do a mime lookup on the filename, if its renderable, try to render it in iframe, we exclude some types we don't want to render in the backend
+    else {
+      return (
+        <iframe
+          key={index}
+          src={screenshot}
+          alt={`Random Mimetype ${index}`}
+          style={{ width: '100%', height: 'auto' }}
+        />
+      )
+    }
   }
+
 
   const tabContentRenderers = {
     screenshot: data => (
