@@ -1,19 +1,6 @@
 import { usePDFSlick } from '@pdfslick/react'
 // import PDFNavigation from "./PDFNavigation";
 
-// TODO: better way to resolve the pdf.worker for pdfjs - (currently copying it during bootstrapping in desktop/index.js
-//  pdf.js wants to resolve it from a relative route, so currently copying it into public/build
-// https://github.com/wojtekmaj/react-pdf?tab=readme-ov-file#import-worker-recommended
-// import pdfjs from 'pdfjs-dist'
-// import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.js'
-// console.log('pdfjs is empty here?')
-// console.log(pdfjs)
-// pdfjs.GlobalWorkerOptions.workerSrc = new URL('pdfjs-dist/build/pdf.worker.js', import.meta.url).toString()
-
-// import { PDFSlick } from '@pdfslick/core'
-
-// PDFSlick.GlobalWorkerOptions.workerSrc = new URL('pdfjs-dist/build/pdf.worker.min.js', import.meta.url).toString()
-
 type PDFViewerAppProps = {
   pdfFilePath: ArrayBuffer
 }

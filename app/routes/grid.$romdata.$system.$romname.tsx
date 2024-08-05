@@ -9,12 +9,6 @@ import { useEffect, useState } from 'react'
 // import { runGame } from '~/runGame.server'
 import parse, { domToReact, Element } from 'html-react-parser'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry' //we must import then use pdfjs's worker file to get it in the frontend build for pdfslick (or any pdf lib based on pdfjs) client will still warn 'setting up fake worker' but it will work
-// console.log('pdfWorker')
-// console.log(pdfjsWorker)
-// import * as thing from '~/public/pdf.worker.js'
-// import { GlobalWorkerOptions } from 'pdfjs-dist'
-// GlobalWorkerOptions.workerSrc = '~/routes/pdfjs-dist/build/pdf.worker.js'
-
 import SimplePDFViewer from '~/components/pdfViewer.client'
 import pdfSlickCSS from '@pdfslick/react/dist/pdf_viewer.css' //TODO import this in pdf-specific route
 export function links() {
