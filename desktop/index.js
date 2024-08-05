@@ -6,10 +6,10 @@ const fs = require('node:fs')
 //nasty business due to pdfjs's worker requirement, a recurring issue for all pdf modules that use it
 // here's the problem for react-pdf https://github.com/wojtekmaj/react-pdf?tab=readme-ov-file#copy-worker-to-public-directory
 // we're currently using pdfslick, problem's the same
-const pdfjsDistPath = path.dirname(require.resolve('pdfjs-dist/package.json'))
-const pdfWorkerPath = path.join(pdfjsDistPath, 'build', 'pdf.worker.js')
+// const pdfjsDistPath = path.dirname(require.resolve('pdfjs-dist/package.json'))
+// const pdfWorkerPath = path.join(pdfjsDistPath, 'build', 'pdf.worker.js')
 
-fs.cpSync(pdfWorkerPath, 'public/build/routes/pdfjs-dist/build/pdf.worker.js', { recursive: true })
+// fs.cpSync(pdfWorkerPath, 'public/build/routes/pdfjs-dist/build/pdf.worker.js', { recursive: true })
 
 /** @type {BrowserWindow | undefined} */
 let win
