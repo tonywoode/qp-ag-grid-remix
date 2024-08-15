@@ -1,6 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import mime from 'mime-types'
+import WordExtractor from 'word-extractor'
+const extractor = new WordExtractor()
 
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
@@ -383,6 +385,22 @@ function getSearchTerms(
   return searchTerms
 }
 
+async function convertDocToText(filePath: string): Promise<string> {
+  console.log('Extracting text from .doc', filePath)
+
+  try {
+    // Extract text from .doc file
+    const extracted = await extractor.extract(filePath)
+    const text = extracted.getBody()
+
+    console.log('Text extracted successfully')
+    return text
+  } catch (error) {
+    console.error('Error during text extraction:', error)
+    throw error
+  }
+}
+
 // TJSearchType = (jstExactMatch = 0,
 //   jstStartsWith = 1,
 //   jstInString = 2,
@@ -415,18 +433,22 @@ async function findScreenshotPaths(
         }
         if (matchFound) {
           console.log('screenshot match found', file)
-          const mimeType = mime.lookup(file)
+          let mimeType = mime.lookup(file)
           const filePath = path.join(macPath, file)
-          const fileData = await fs.promises.readFile(filePath)
+          let fileData = await fs.promises.readFile(filePath)
           console.log(`mimeType of ${file} is: ${mimeType}`)
-          //exclude some mimetypes that in experience I found colocated with actual assets but we don't want to try to render them
-          //TODO: how to deal with zips, which commonly we might want to unpack for the assets within, but which could prove calamitous on unintended zips - filesize limit?
+          // Exclude some mimetypes that in experience I found colocated with actual assets but we don't want to try to render them
           const excludedMimeTypeStrings = ['javascript', 'json', 'xml']
           const checkMimeTypeAllowed = (mimeType: string): boolean | void =>
             excludedMimeTypeStrings.some(excluded => mimeType.includes(excluded))
               ? console.log(`Excluded MIME type found: ${mimeType}`)
               : true
           if (mimeType !== null && checkMimeTypeAllowed(mimeType)) {
+            if (mimeType === 'application/msword') {
+              // Convert .doc to .pdf
+              fileData = await convertDocToText(filePath)
+              mimeType = 'text/plain'
+            }
             const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
             foundBase64Files.add(base64File)
           }
