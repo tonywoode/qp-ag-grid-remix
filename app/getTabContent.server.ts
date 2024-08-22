@@ -394,6 +394,7 @@ async function convertDocToText(filePath: string): Promise<string> {
     const text = extracted.getBody()
 
     console.log('Text extracted successfully')
+    console.log(text)
     return text
   } catch (error) {
     console.error('Error during text extraction:', error)
@@ -446,7 +447,8 @@ async function findScreenshotPaths(
           if (mimeType !== null && checkMimeTypeAllowed(mimeType)) {
             if (mimeType === 'application/msword') {
               // Convert .doc to .pdf
-              fileData = await convertDocToText(filePath)
+              const textData = await convertDocToText(filePath)
+              fileData = Buffer.from(textData, 'utf8')
               mimeType = 'text/plain'
             }
             const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
