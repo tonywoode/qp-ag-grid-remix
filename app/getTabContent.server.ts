@@ -2,8 +2,6 @@ import fs from 'fs'
 import path from 'path'
 import mime from 'mime-types'
 import WordExtractor from 'word-extractor'
-const extractor = new WordExtractor()
-
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
 const tabTypeStrategy: { [key: string]: TabStrategy } = {
@@ -381,20 +379,19 @@ function getSearchTerms(
   //how does the search-type impact on this though? This feels more like a search-type than a default, but we NEED it in datHistory to fix some gamename errors found (atari 7800?)
   const searchTermWithoutBrackets = romname.replace(/\s*\([^)]*\)/g, '').trim()
   searchTerms.push(searchTermWithoutBrackets)
-  // TODO: add this to screenshot logic ****
+  // TODO: add this to mediaItem logic ****
   return searchTerms
 }
 
 async function convertDocToText(filePath: string): Promise<string> {
   console.log('Extracting text from .doc', filePath)
-
+  const extractor = new WordExtractor()
   try {
     // Extract text from .doc file
     const extracted = await extractor.extract(filePath)
     const text = extracted.getBody()
 
     console.log('Text extracted successfully')
-    console.log(text)
     return text
   } catch (error) {
     console.error('Error during text extraction:', error)
@@ -406,7 +403,7 @@ async function convertDocToText(filePath: string): Promise<string> {
 //   jstStartsWith = 1,
 //   jstInString = 2,
 //   jstAllFilesInDir = 3);
-async function findScreenshotPaths(
+async function finMediaItemPaths(
   romname: string,
   pathInTabData: string[],
   searchType: string,
@@ -433,7 +430,7 @@ async function findScreenshotPaths(
           if (searchStrategies(file, romname, searchType)) matchFound = true
         }
         if (matchFound) {
-          console.log('screenshot match found', file)
+          console.log('mediaItem match found', file)
           let mimeType = mime.lookup(file)
           const filePath = path.join(macPath, file)
           let fileData = await fs.promises.readFile(filePath)
@@ -461,8 +458,8 @@ async function findScreenshotPaths(
       console.error(`Error reading directory ${macPath}: ${error}`)
     }
   }
-  const screenshots = [...foundBase64Files]
-  return { screenshots }
+  const mediaItems = [...foundBase64Files]
+  return { mediaItems }
 }
 
 function searchStrategies(file: string, romname: string, searchType: string): boolean {
@@ -492,15 +489,15 @@ export async function getTabContent(
   const pathInTabData = tabData ? tabData.path : null
   console.log('Path in tabData is ' + pathInTabData)
   if (pathInTabData) {
-    if (tabClass === 'screenshot') {
-      const { screenshots } = await findScreenshotPaths(
+    if (tabClass === 'mediaItem') {
+      const { mediaItems } = await finMediaItemPaths(
         romname,
         pathInTabData,
         searchType,
         mameNames,
         mameUseParentForSrch
       )
-      return { screenshots }
+      return { mediaItems }
     } else if (tabClass === 'mameDat') {
       const mameDat = await findMameDatContent(pathInTabData, romname, mameNames, mameUseParentForSrch, thisSystemsTab)
       console.log('mameDat content:', mameDat)
@@ -509,7 +506,7 @@ export async function getTabContent(
       return {}
     }
   } else {
-    console.error(`Error: Screenshot path is not defined for system: ${system}`)
+    console.error(`Error: MediaItem path is not defined for system: ${system}`)
     return {}
   }
 }

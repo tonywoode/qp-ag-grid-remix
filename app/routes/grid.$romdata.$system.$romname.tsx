@@ -21,10 +21,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const romname = params.romname ? decodeString(params.romname).trim() : ''
   const system = params.system ? decodeString(params.system).trim() : ''
   console.log('in the grid.$romdata.$romname loader romname is ' + romname)
-  // const romnameNoParens = romname.replace(/\(.*\)/g, '').trim()
   const thisSystemsTabs = await loadTabData(system)
-  // const { screenshots } = await getTabImages(romname, thisSystemsTabs, system)
-  // const screenshots = tabContents.screenshots
   return { thisSystemsTabs, romname, system }
 }
 
@@ -68,8 +65,10 @@ const searchTabTypeMapping: { [key: number]: string } = {
   */
 
 const tabClassMap: { [key: string]: string } = {
-  Images: 'screenshot',
-  Thumbnail: 'screenshot', //for now: what is the purpose of this distinction?
+  //PROBLEM: in QP, the extras tab for instance has been described as 'Thumnails' and originally we called that 'Screenshots' here, but they can be any mime type!
+  //(original QP of course would only display screenshots out of the found extras files, doubtless my fault)
+  Images: 'mediaItem',
+  Thumbnail: 'mediaItem', //for now: what is the purpose of this distinction?
   MameHistory: 'mameDat',
   MameInfo: 'mameDat',
   MameCommand: 'mameDat',
@@ -110,12 +109,11 @@ const TextFileRenderer = ({ index, romname, base64Data }) => {
 
 export default function MediaPanel() {
   console.log('pdfWorker needs using')
-  console.log(pdfjsWorker) //we must USE it here to get it to load
+  console.log(pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!?
   const location = useLocation()
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
   const [tabContent, setTabContent] = useState({ tabClass: null, data: null })
-  const [isExpanded, setIsExpanded] = useState(false)
   console.log('tab content')
   console.log(tabContent)
   const { mameName, parentName } = location.state || {}
@@ -140,7 +138,6 @@ export default function MediaPanel() {
   useEffect(() => {
     const fetchTabContent = async () => {
       const selectedTab = thisSystemsTabs[selectedTabIndex]
-
       console.log(selectedTab)
       const tabClass = tabClassMap[selectedTab?.tabType]
       const searchType = selectedTab?.searchType
@@ -169,8 +166,8 @@ export default function MediaPanel() {
     fetchTabContent()
   }, [selectedTabIndex, romname, system, thisSystemsTabs])
 
-  function mediaTagRenderer(index, screenshot, romname) {
-    const base64String = screenshot
+  function mediaTagRenderer(index, mediaItem, romname) {
+    const base64String = mediaItem
     const [mimeInfo, base64Data] = base64String.split(',')
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
     console.log('mimeType')
@@ -195,7 +192,7 @@ export default function MediaPanel() {
       return (
         <div key={index}>
           <video controls style={{ width: '100%', height: 'auto' }} onError={handleVideoError}>
-            <source src={screenshot} type={mimeType} />
+            <source src={mediaItem} type={mimeType} />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -206,7 +203,7 @@ export default function MediaPanel() {
       return (
         <div key={index}>
           <audio controls style={{ width: '100%', height: 'auto' }} onError={handleAudioError}>
-            <source src={screenshot} type={mimeType} />
+            <source src={mediaItem} type={mimeType} />
             Your browser does not support the audio tag.
           </audio>
         </div>
@@ -217,7 +214,7 @@ export default function MediaPanel() {
     if (mimeType === 'application/pdf') {
       try {
         // Remove the base64 prefix if it exists
-        const base64String = screenshot.split(',')[1] || screenshot
+        const base64String = mediaItem.split(',')[1] || mediaItem
 
         // Decode base64 string to ArrayBuffer
         const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
@@ -231,7 +228,7 @@ export default function MediaPanel() {
         return (
           <div key={index}>
             <SimplePDFViewer pdfFilePath={arrayBuffer} />
-            {/* <embed src={screenshot} type={mimeType} style={{ width: '100%', height: 'auto' }} onError={handlePDFError} /> */}
+            {/* <embed src={mediaItem} type={mimeType} style={{ width: '100%', height: 'auto' }} onError={handlePDFError} /> */}
           </div>
         )
       } catch (error) {
@@ -241,7 +238,7 @@ export default function MediaPanel() {
     }
 
     if (mimeType.startsWith('image')) {
-      return <img key={index} src={screenshot} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
+      return <img key={index} src={mediaItem} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
     }
 
     //TODO: do a mime lookup on the filename, if its renderable, try to render it in iframe, we exclude some types we don't want to render in the backend
@@ -249,7 +246,7 @@ export default function MediaPanel() {
       return (
         <iframe
           key={index}
-          src={screenshot}
+          src={mediaItem}
           alt={`Random Mimetype ${index}`}
           style={{ width: '100%', height: 'auto' }}
         />
@@ -258,10 +255,10 @@ export default function MediaPanel() {
   }
 
   const tabContentRenderers = {
-    screenshot: data => (
+    mediaItem: data => (
       <div>
-        {data?.screenshots?.length > 0 ? (
-          data.screenshots.map((screenshot, index) => mediaTagRenderer(index, screenshot, romname))
+        {data?.mediaItems?.length > 0 ? (
+          data.mediaItems.map((mediaItem, index) => mediaTagRenderer(index, mediaItem, romname))
         ) : (
           <div>Image not found</div>
         )}
