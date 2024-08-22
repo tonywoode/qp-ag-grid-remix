@@ -414,7 +414,7 @@ async function finMediaItemPaths(
   const foundBase64Files = new Set()
   const macPaths = pathInTabData.map(p => convertWindowsPathToMacPath(p))
   const mameNameSearchTerms = [mameNames.mameName, mameUseParentForSrch && mameNames.parentName].filter(Boolean)
-  const shouldSearchRomNameOnly = Object.keys(mameNames).length === 0 || (!mameNames.mameName && !mameNames.parentName)
+  const shouldSearchRomNameOnly = Object.keys(mameNames).length === 0 || !(mameNames.mameName || mameNames.parentName)
   for (const macPath of macPaths) {
     try {
       const files = await fs.promises.readdir(macPath)
