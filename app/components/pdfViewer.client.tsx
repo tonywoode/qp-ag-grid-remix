@@ -1,5 +1,5 @@
 import { usePDFSlick } from '@pdfslick/react'
-// import PDFNavigation from "./PDFNavigation";
+import PDFNavigation from './PDFNavigation'
 
 type PDFViewerAppProps = {
   pdfFilePath: ArrayBuffer
@@ -15,7 +15,7 @@ const SimplePDFViewer = ({ pdfFilePath }: PDFViewerAppProps) => {
     <div className="absolute inset-0 bg-slate-200/70 pdfSlick">
       <div className="flex-1 relative h-full">
         <PDFSlickViewer {...{ viewerRef, usePDFSlickStore }} />
-        {/* <PDFNavigation {...{ usePDFSlickStore }} /> */}
+        <PDFNavigation {...{ usePDFSlickStore }} />
       </div>
     </div>
   )
