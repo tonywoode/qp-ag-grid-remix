@@ -12,7 +12,8 @@ const SimplePDFViewer = ({ pdfFilePath }: PDFViewerAppProps) => {
   })
 
   return (
-    <div className="absolute inset-0 bg-slate-200/70 pdfSlick">
+    <div className="relative w-full h-full bg-slate-200/70">
+      {/* why dont we need this prop on prev line prev there: pdfSlick"> */}
       <div className="flex-1 relative h-full">
         <PDFSlickViewer {...{ viewerRef, usePDFSlickStore }} />
         <PDFNavigation {...{ usePDFSlickStore }} />

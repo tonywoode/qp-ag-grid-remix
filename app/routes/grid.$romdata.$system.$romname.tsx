@@ -226,7 +226,7 @@ export default function MediaPanel() {
         const arrayBuffer = bytes.buffer
 
         return (
-          <div key={index}>
+          <div key={index} className="relative h-96">
             <SimplePDFViewer pdfFilePath={arrayBuffer} />
             {/* <embed src={mediaItem} type={mimeType} style={{ width: '100%', height: 'auto' }} onError={handlePDFError} /> */}
           </div>
