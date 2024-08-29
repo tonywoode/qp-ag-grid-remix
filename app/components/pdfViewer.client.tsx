@@ -12,13 +12,10 @@ const SimplePDFViewer = ({ pdfFilePath }: PDFViewerAppProps) => {
   })
 
   return (
-    <div className="relative w-full h-full bg-slate-200/70">
-      {/* why dont we need this prop on prev line prev there: pdfSlick"> */}
-      <div className="flex-1 relative h-full">
-        <PDFSlickViewer {...{ viewerRef, usePDFSlickStore }} />
-        <PDFNavigation {...{ usePDFSlickStore }} />
-      </div>
-    </div>
+    <>
+      <PDFSlickViewer {...{ viewerRef, usePDFSlickStore }} />
+      <PDFNavigation {...{ usePDFSlickStore }} />
+    </>
   )
 }
 export default SimplePDFViewer
