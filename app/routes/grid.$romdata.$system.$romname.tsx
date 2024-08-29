@@ -260,7 +260,7 @@ export default function MediaPanel() {
         {data?.mediaItems?.length > 0 ? (
           data.mediaItems.map((mediaItem, index) => mediaTagRenderer(index, mediaItem, romname))
         ) : (
-          <div>Image not found</div>
+          <div>No media found</div>
         )}
       </div>
     ),
