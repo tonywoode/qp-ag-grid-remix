@@ -226,7 +226,7 @@ export default function MediaPanel() {
         const arrayBuffer = bytes.buffer
 
         return (
-          <div key={index} className="relative h-full w-full min-h-screen">
+          <div key={index} className="relative min-h-screen">
             <SimplePDFViewer pdfFilePath={arrayBuffer} />
             {/* <embed src={mediaItem} type={mimeType} style={{ width: '100%', height: 'auto' }} onError={handlePDFError} /> */}
           </div>
@@ -290,16 +290,24 @@ export default function MediaPanel() {
   }
 
   return (
-    <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
-      <TabList>
+    <div className="flex flex-col h-full">
+      <Tabs
+        selectedIndex={selectedTabIndex}
+        onSelect={index => setSelectedTabIndex(index)}
+        className="flex-1 flex flex-col"
+      >
+        <TabList>
+          {thisSystemsTabs.map((tab, index) => (
+            <Tab key={index}>{tab.caption}</Tab>
+          ))}
+        </TabList>
         {thisSystemsTabs.map((tab, index) => (
-          <Tab key={index}>{tab.caption}</Tab>
+          <TabPanel key={index} className="flex-1 flex">
+            {selectedTabIndex === index && renderTabContent(tab)}
+          </TabPanel>
         ))}
-      </TabList>
-      {thisSystemsTabs.map((tab, index) => (
-        <TabPanel key={index}>{renderTabContent()}</TabPanel>
-      ))}
-    </Tabs>
+      </Tabs>
+    </div>
   )
 }
 
