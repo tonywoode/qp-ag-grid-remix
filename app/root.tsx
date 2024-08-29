@@ -124,13 +124,14 @@ export default function App() {
           </div>
           {isSplitLoaded && (
             <>
-              <Split sizes={[18, 82]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+              <Split sizes={[18, 82]} className="flex overflow-hidden" style={{ height: 'calc(100vh - 7em)' }}>
+                {' '}
                 <TreeView folderData={folderData} />
-                <div>
+                <div className="h-full overflow-auto">
                   <Outlet />
                 </div>
               </Split>
-              <h1 className="absolute m-2 text-xs font-mono underline">
+              <h1 className="fixed bottom-0 left-0 m-2 text-xs font-mono underline w-full bg-white">
                 Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
                 {process.env.NODE_ENV === 'development' && ` : Current URL: ${window.location.href}`}
               </h1>
