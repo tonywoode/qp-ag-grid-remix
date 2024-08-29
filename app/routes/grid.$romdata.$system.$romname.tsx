@@ -289,26 +289,18 @@ export default function MediaPanel() {
     return renderFunction ? renderFunction(tabContent.data) : <h2>Tab content not available</h2>
   }
 
-  return (
-    <div className="flex flex-col h-full">
-      <Tabs
-        selectedIndex={selectedTabIndex}
-        onSelect={index => setSelectedTabIndex(index)}
-        className="flex-1 flex flex-col"
-      >
+    return (
+      <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
         <TabList>
           {thisSystemsTabs.map((tab, index) => (
             <Tab key={index}>{tab.caption}</Tab>
           ))}
         </TabList>
         {thisSystemsTabs.map((tab, index) => (
-          <TabPanel key={index} className="flex-1 flex">
-            {selectedTabIndex === index && renderTabContent(tab)}
-          </TabPanel>
+          <TabPanel key={index}>{renderTabContent()}</TabPanel>
         ))}
       </Tabs>
-    </div>
-  )
+    )
 }
 
 // fetcher.submit(
