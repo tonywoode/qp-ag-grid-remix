@@ -291,14 +291,16 @@ export default function MediaPanel() {
 
     return (
       <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
-        <TabList>
+        <TabList className="sticky top-0 bg-white z-10">
           {thisSystemsTabs.map((tab, index) => (
             <Tab key={index}>{tab.caption}</Tab>
           ))}
         </TabList>
-        {thisSystemsTabs.map((tab, index) => (
-          <TabPanel key={index}>{renderTabContent()}</TabPanel>
-        ))}
+        <div className="overflow-auto h-full">
+          {thisSystemsTabs.map((tab, index) => (
+            <TabPanel key={index}>{renderTabContent()}</TabPanel>
+          ))}
+        </div>
       </Tabs>
     )
 }

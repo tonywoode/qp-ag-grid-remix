@@ -126,7 +126,9 @@ export default function Grid() {
         <div key="grid" className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
           <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
         </div>,
-        <div key="mediaPanel">{<Outlet />}</div>
+        <div key="mediaPanel" className="h-full overflow-auto">
+          {<Outlet />}
+        </div>
       ]}
     </Split>
   )
