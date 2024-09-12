@@ -179,7 +179,11 @@ export default function MediaPanel() {
     setIsLightboxOpen(true)
   }
 
-  const closeLightbox = () => {
+  const closeLightbox = event => {
+    // Check if the click target is a clickable element, don't clobber e.g.: pdf pagination
+    if (event.target.closest('button, a, input, select, textarea')) {
+      return
+    }
     setIsLightboxOpen(false)
     setLightboxContent(null)
   }
