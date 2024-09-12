@@ -116,6 +116,7 @@ export default function App() {
       </head>
       <body>
         <>
+          <div id="root"></div> {/* Set the app element for react-modal */}
           <div className="flex flex-row">
             {menu()}
             <Form method="post">

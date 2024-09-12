@@ -1,5 +1,6 @@
 import { Link, useFetcher, useLoaderData /*,useRouteLoaderData*/, useLocation } from '@remix-run/react'
 // import { type loader as gridLoader } from 'grid.$romdata.tsx'
+import { FaFilePdf, FaFileAlt } from 'react-icons/fa'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { loadTabData } from '~/tabData.server'
@@ -11,6 +12,7 @@ import parse, { domToReact, Element } from 'html-react-parser'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry' //we must import then use pdfjs's worker file to get it in the frontend build for pdfslick (or any pdf lib based on pdfjs) client will still warn 'setting up fake worker' but it will work
 import SimplePDFViewer from '~/components/pdfViewer.client'
 import pdfSlickCSS from '@pdfslick/react/dist/pdf_viewer.css' //TODO import this in pdf-specific route
+import Modal from 'react-modal'
 export function links() {
   return [{ rel: 'stylesheet', href: pdfSlickCSS }]
 }
@@ -116,6 +118,8 @@ export default function MediaPanel() {
   const [tabContent, setTabContent] = useState({ tabClass: null, data: null })
   console.log('tab content')
   console.log(tabContent)
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false)
+  const [lightboxContent, setLightboxContent] = useState(null)
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   console.log('MameNames:', mameNames)
@@ -166,6 +170,20 @@ export default function MediaPanel() {
     fetchTabContent()
   }, [selectedTabIndex, romname, system, thisSystemsTabs])
 
+  useEffect(() => {
+    Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
+  }, [])
+
+  const openLightbox = content => {
+    setLightboxContent(content)
+    setIsLightboxOpen(true)
+  }
+
+  const closeLightbox = () => {
+    setIsLightboxOpen(false)
+    setLightboxContent(null)
+  }
+
   function mediaTagRenderer(index, mediaItem, romname) {
     const base64String = mediaItem
     const [mimeInfo, base64Data] = base64String.split(',')
@@ -186,12 +204,22 @@ export default function MediaPanel() {
     }
 
     if (mimeType === 'text/plain') {
-      return <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />
+      return (
+        <div
+          key={index}
+          className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
+          onClick={() => openLightbox(<TextFileRenderer index={index} romname={romname} base64Data={base64Data} />)}
+          style={{ flexBasis: '20%' }}
+        >
+          <FaFileAlt className="w-full h-full" />
+        </div>
+      )
     }
+
     if (mimeType.startsWith('video')) {
       return (
-        <div key={index}>
-          <video controls style={{ width: '100%', height: 'auto' }} onError={handleVideoError}>
+        <div key={index} className="flex-grow" style={{ flexBasis: '20%' }}>
+          <video controls className="w-full h-auto" onError={handleVideoError}>
             <source src={mediaItem} type={mimeType} />
             Your browser does not support the video tag.
           </video>
@@ -201,8 +229,8 @@ export default function MediaPanel() {
 
     if (mimeType.startsWith('audio')) {
       return (
-        <div key={index}>
-          <audio controls style={{ width: '100%', height: 'auto' }} onError={handleAudioError}>
+        <div key={index} className="flex-grow" style={{ flexBasis: '20%' }}>
+          <audio controls className="w-full h-auto" onError={handleAudioError}>
             <source src={mediaItem} type={mimeType} />
             Your browser does not support the audio tag.
           </audio>
@@ -226,8 +254,13 @@ export default function MediaPanel() {
         const arrayBuffer = bytes.buffer
 
         return (
-          <div key={index} className="relative min-h-screen">
-            <SimplePDFViewer pdfFilePath={arrayBuffer} />
+          <div
+            key={index}
+            className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
+            onClick={() => openLightbox(<SimplePDFViewer pdfFilePath={arrayBuffer} />)}
+            style={{ flexBasis: '20%' }}
+          >
+            <FaFilePdf className="w-full h-full" />
             {/* <embed src={mediaItem} type={mimeType} style={{ width: '100%', height: 'auto' }} onError={handlePDFError} /> */}
           </div>
         )
@@ -238,7 +271,15 @@ export default function MediaPanel() {
     }
 
     if (mimeType.startsWith('image')) {
-      return <img key={index} src={mediaItem} alt={`Screenshot ${index}`} style={{ width: '100%', height: 'auto' }} />
+      return (
+        <img
+          key={index}
+          src={mediaItem}
+          alt={`Screenshot ${index}`}
+          className="w-full h-auto flex-grow"
+          style={{ flexBasis: '20%' }}
+        />
+      )
     }
 
     //TODO: do a mime lookup on the filename, if its renderable, try to render it in iframe, we exclude some types we don't want to render in the backend
@@ -248,7 +289,8 @@ export default function MediaPanel() {
           key={index}
           src={mediaItem}
           alt={`Random Mimetype ${index}`}
-          style={{ width: '100%', height: 'auto' }}
+          className="w-full h-auto flex-grow"
+          style={{ flexBasis: '20%' }}
         />
       )
     }
@@ -256,7 +298,7 @@ export default function MediaPanel() {
 
   const tabContentRenderers = {
     mediaItem: data => (
-      <div>
+      <div className="flex flex-wrap gap-4 justify-center">
         {data?.mediaItems?.length > 0 ? (
           data.mediaItems.map((mediaItem, index) => mediaTagRenderer(index, mediaItem, romname))
         ) : (
@@ -289,7 +331,8 @@ export default function MediaPanel() {
     return renderFunction ? renderFunction(tabContent.data) : <h2>Tab content not available</h2>
   }
 
-    return (
+  return (
+    <div>
       <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
         <TabList className="sticky top-0 bg-white z-10">
           {thisSystemsTabs.map((tab, index) => (
@@ -302,7 +345,28 @@ export default function MediaPanel() {
           ))}
         </div>
       </Tabs>
-    )
+      <Modal
+        isOpen={isLightboxOpen}
+        onRequestClose={closeLightbox}
+        style={{
+          content: {
+            top: '50%',
+            left: '50%',
+            right: 'auto',
+            bottom: 'auto',
+            marginRight: '-50%',
+            transform: 'translate(-50%, -50%)',
+            width: '80%',
+            height: '80%'
+          }
+        }}
+      >
+        <div onClick={closeLightbox} style={{ width: '100%', height: '100%' }}>
+          {lightboxContent}
+        </div>
+      </Modal>
+    </div>
+  )
 }
 
 // fetcher.submit(
