@@ -86,25 +86,14 @@ const openInDefaultBrowser = url => {
 }
 
 const TextFileRenderer = ({ index, romname, base64Data }) => {
-  const [isExpanded, setIsExpanded] = useState(false)
-
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded)
-  }
-
   return (
     <div className="pl-3 bg-gray-800 text-white rounded-lg">
       <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
         {romname} Text File {index}
       </h1>
-      <button onClick={toggleExpand} className="text-blue-500 underline">
-        {isExpanded ? 'Collapse' : 'Expand'}
-      </button>
-      {isExpanded && (
-        <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
-          {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
-        </pre>
-      )}
+      <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
+        {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
+      </pre>
     </div>
   )
 }
