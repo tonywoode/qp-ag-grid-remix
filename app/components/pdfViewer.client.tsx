@@ -7,8 +7,8 @@ type PDFViewerAppProps = {
 
 const SimplePDFViewer = ({ pdfFilePath }: PDFViewerAppProps) => {
   const { viewerRef, usePDFSlickStore, PDFSlickViewer } = usePDFSlick(pdfFilePath, {
-    singlePageViewer: true,
-    scaleValue: 'page-fit'
+    // singlePageViewer: true,
+    scaleValue: 'page-width' //page-width/page-fit/auto - fit vs width doesn't seems to make a difference with 50%/100% container ratio?
   })
 
   return (
