@@ -16,6 +16,8 @@ export function links() {
   return [{ rel: 'stylesheet', href: pdfSlickCSS }]
 }
 import Modal from 'react-modal'
+import ImageNavigation from '~/Components/ImageNavigation'
+
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
   console.log('heres your params:')
@@ -179,7 +181,7 @@ export default function MediaPanel() {
     setLightboxContent(null)
   }
 
-  function mediaTagRenderer(index, mediaItem, romname) {
+  function mediaTagRenderer(index, mediaItem, romname, mediaItems) {
     const base64String = mediaItem
     const [mimeInfo, base64Data] = base64String.split(',')
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
@@ -197,14 +199,13 @@ export default function MediaPanel() {
     const handlePDFError = event => {
       console.error('Error embedding PDF:', event)
     }
-
     if (mimeType === 'text/plain') {
       return (
         <div
           key={index}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
           onClick={() =>
-            openLightbox(<TextFileRenderer index={index} romname={romname} base64Data={base64Data} />, 'text')
+            openLightbox(<TextFileRenderer index={index} romname={romname} base64Data={base64Data} />, mimeType)
           }
           style={{ flexBasis: '20%' }}
         >
@@ -254,7 +255,7 @@ export default function MediaPanel() {
           <div
             key={index}
             className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
-            onClick={() => openLightbox(<SimplePDFViewer pdfFilePath={arrayBuffer} />)}
+            onClick={() => openLightbox(<SimplePDFViewer pdfFilePath={arrayBuffer} />, mimeType)}
             style={{ flexBasis: '20%' }}
           >
             <FaFilePdf className="w-full h-full" />
@@ -273,8 +274,14 @@ export default function MediaPanel() {
           key={index}
           src={mediaItem}
           alt={`Screenshot ${index}`}
-          className="w-full h-auto flex-grow"
+          className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
+          onClick={() =>
+            openLightbox(
+              <ImageNavigation images={mediaItems} currentIndex={index} onClose={() => setIsLightboxOpen(false)} />,
+              mimeType
+            )
+          }
         />
       )
     }
@@ -297,7 +304,7 @@ export default function MediaPanel() {
     mediaItem: data => (
       <div className="flex flex-wrap gap-4 justify-center">
         {data?.mediaItems?.length > 0 ? (
-          data.mediaItems.map((mediaItem, index) => mediaTagRenderer(index, mediaItem, romname))
+          data.mediaItems.map((mediaItem, index) => mediaTagRenderer(index, mediaItem, romname, data.mediaItems))
         ) : (
           <div>No media found</div>
         )}
@@ -354,14 +361,23 @@ export default function MediaPanel() {
             marginRight: '-50%',
             transform: 'translate(-50%, -50%)',
             //for pdfs set the width and height to fullscreen and ratio to avoid container height problem
-            width: '50%',
-            height: '100%',
+            ...(contentType === 'application/pdf' && {
+              width: '50%',
+              height: '100%'
+            }),
             ...(contentType === 'text' && {
               width: 'auto',
               height: 'auto',
               maxWidth: '80%',
               maxHeight: '80%',
               overflow: 'auto'
+            }),
+            ...(contentType?.startsWith('image') && {
+              width: '80%',
+              height: '80%',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center'
             })
           }
         }}
