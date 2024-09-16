@@ -29,6 +29,23 @@ export async function loader({ params }: LoaderFunctionArgs) {
   return { thisSystemsTabs, romname, system }
 }
 
+const calculateImageDimensions = (src, callback) => {
+  const img = new Image()
+  img.src = src
+  img.onload = () => {
+    const screenWidth = window.innerWidth
+    const screenHeight = window.innerHeight
+    const imgWidth = img.width
+    const imgHeight = img.height
+    const widthScale = (screenWidth * 0.8) / imgWidth
+    const heightScale = (screenHeight * 0.8) / imgHeight
+    const scale = Math.min(widthScale, heightScale)
+    callback({
+      width: imgWidth * scale,
+      height: imgHeight * scale
+    })
+  }
+}
 /*
 here's the current values of tabs.caption in the data:
 [
@@ -111,6 +128,7 @@ export default function MediaPanel() {
   console.log(tabContent)
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)
   const [lightboxContent, setLightboxContent] = useState(null)
+  const [lightboxDimensions, setLightboxDimensions] = useState({ width: 'auto', height: 'auto' })
   const [contentType, setContentType] = useState(null) //for the lightbox pdf issue
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
@@ -166,10 +184,17 @@ export default function MediaPanel() {
     Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
   }, [])
 
-  const openLightbox = (content, contentType) => {
-    setLightboxContent(content)
-    setContentType(contentType) // Set the content type
-    setIsLightboxOpen(true)
+  const openLightbox = (content, type, src) => {
+    if (type.startsWith('image')) {
+      calculateImageDimensions(src, dimensions => {
+        setLightboxDimensions(dimensions)
+        setLightboxContent(content)
+        setIsLightboxOpen(true)
+      })
+    } else {
+      setLightboxContent(content)
+      setIsLightboxOpen(true)
+    }
   }
 
   const closeLightbox = event => {
@@ -279,7 +304,8 @@ export default function MediaPanel() {
           onClick={() =>
             openLightbox(
               <ImageNavigation images={mediaItems} currentIndex={index} onClose={() => setIsLightboxOpen(false)} />,
-              mimeType
+              'image',
+              mediaItem
             )
           }
         />
@@ -360,25 +386,14 @@ export default function MediaPanel() {
             bottom: 'auto',
             marginRight: '-50%',
             transform: 'translate(-50%, -50%)',
-            //for pdfs set the width and height to fullscreen and ratio to avoid container height problem
-            ...(contentType === 'application/pdf' && {
-              width: '50%',
-              height: '100%'
-            }),
-            ...(contentType === 'text' && {
-              width: 'auto',
-              height: 'auto',
-              maxWidth: '80%',
-              maxHeight: '80%',
-              overflow: 'auto'
-            }),
-            ...(contentType?.startsWith('image') && {
-              width: '80%',
-              height: '80%',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center'
-            })
+            width: lightboxDimensions.width,
+            height: lightboxDimensions.height,
+            maxWidth: '80%',
+            maxHeight: '80%',
+            overflow: 'auto',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
           }
         }}
       >
