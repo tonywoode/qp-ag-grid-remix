@@ -191,7 +191,13 @@ export default function MediaPanel() {
         setLightboxContent(content)
         setIsLightboxOpen(true)
       })
+    } else if (type === 'text/plain') {
+      setLightboxDimensions({ width: 'auto', height: 'auto' })
+      setLightboxContent(content)
+      setContentType(type)
+      setIsLightboxOpen(true)
     } else {
+      setLightboxDimensions({ width: '80%', height: '80%' })
       setLightboxContent(content)
       setIsLightboxOpen(true)
     }
@@ -230,7 +236,11 @@ export default function MediaPanel() {
           key={index}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
           onClick={() =>
-            openLightbox(<TextFileRenderer index={index} romname={romname} base64Data={base64Data} />, mimeType)
+            openLightbox(
+              <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />,
+              mimeType,
+              base64Data
+            )
           }
           style={{ flexBasis: '20%' }}
         >
@@ -393,13 +403,14 @@ export default function MediaPanel() {
             overflow: 'auto',
             display: 'flex',
             justifyContent: 'center',
-            alignItems: 'center'
+            alignItems: 'center',
+            ...(contentType === 'text/plain' && {
+              alignItems: 'flex-start'
+            })
           }
         }}
       >
-        <div onClick={closeLightbox} style={{ width: '100%', height: '100%' }}>
-          {lightboxContent}
-        </div>
+        <div onClick={closeLightbox}>{lightboxContent}</div>
       </Modal>
     </div>
   )
