@@ -5,6 +5,7 @@ const ImageNavigation = ({ images, currentIndex, onClose }) => {
   const [index, setIndex] = useState(currentIndex)
   const [scale, setScale] = useState(1)
   const [loading, setLoading] = useState(true)
+  const [imageDimensions, setImageDimensions] = useState({ width: 0, height: 0 })
 
   useEffect(() => {
     setLoading(true)
@@ -18,6 +19,7 @@ const ImageNavigation = ({ images, currentIndex, onClose }) => {
       const widthScale = (screenWidth * 0.8) / imgWidth
       const heightScale = (screenHeight * 0.8) / imgHeight
       setScale(Math.min(widthScale, heightScale))
+      setImageDimensions({ width: imgWidth, height: imgHeight })
       setLoading(false)
     }
   }, [index, images])
@@ -29,13 +31,9 @@ const ImageNavigation = ({ images, currentIndex, onClose }) => {
 
   return (
     !loading && (
-      <div className="fixed w-full h-full top-0 left-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+      <div className="fixed w-auto h-auto top-0 left-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
         <div className="relative">
-          <img
-            src={images[index]}
-            alt={`${index + 1}`}
-            style={{ transform: `scale(${scale})`, maxWidth: '80vw', maxHeight: '80vh' }}
-          />
+          <img src={images[index]} alt={`${index + 1}`} style={{ minHeight: `${imageDimensions.height * scale}px` }} />
           <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
             <button onClick={prevImage} disabled={index === 0} className="p-2">
               <VscChevronLeft className="h-5 w-5" />
