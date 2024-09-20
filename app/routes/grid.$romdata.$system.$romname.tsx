@@ -129,7 +129,7 @@ export default function MediaPanel() {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)
   const [lightboxContent, setLightboxContent] = useState(null)
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: 'auto', height: 'auto' })
-  const [contentType, setContentType] = useState(null) //for the lightbox pdf issue
+  const [contentType, setContentType] = useState('') //for the lightbox pdf issue
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   console.log('MameNames:', mameNames)
@@ -210,6 +210,10 @@ export default function MediaPanel() {
     }
     setIsLightboxOpen(false)
     setLightboxContent(null)
+  }
+
+  const updateLightboxDimensions = dimensions => {
+    setLightboxDimensions(dimensions)
   }
 
   function mediaTagRenderer(index, mediaItem, romname, mediaItems) {
@@ -313,7 +317,12 @@ export default function MediaPanel() {
           style={{ flexBasis: '20%' }}
           onClick={() =>
             openLightbox(
-              <ImageNavigation images={mediaItems} currentIndex={index} onClose={() => setIsLightboxOpen(false)} />,
+              <ImageNavigation
+                images={mediaItems}
+                currentIndex={index}
+                onClose={() => setIsLightboxOpen(false)}
+                updateDimensions={updateLightboxDimensions}
+              />,
               'image',
               mediaItem
             )

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { VscChevronLeft, VscChevronRight, VscZoomIn, VscZoomOut } from 'react-icons/vsc'
 
-const ImageNavigation = ({ images, currentIndex, onClose }) => {
+const ImageNavigation = ({ images, currentIndex, onClose, updateDimensions }) => {
   const [index, setIndex] = useState(currentIndex)
   const [scale, setScale] = useState(1)
   const [loading, setLoading] = useState(true)
@@ -18,11 +18,13 @@ const ImageNavigation = ({ images, currentIndex, onClose }) => {
       const imgHeight = img.height
       const widthScale = (screenWidth * 0.8) / imgWidth
       const heightScale = (screenHeight * 0.8) / imgHeight
-      setScale(Math.min(widthScale, heightScale))
+      const scale = Math.min(widthScale, heightScale)
+      setScale(scale)
       setImageDimensions({ width: imgWidth, height: imgHeight })
+      updateDimensions({ width: `${imgWidth * scale}px`, height: `${imgHeight * scale}px` })
       setLoading(false)
     }
-  }, [index, images])
+  }, [index, images, updateDimensions])
 
   const zoomIn = () => setScale(prev => Math.min(prev + 0.25, 5))
   const zoomOut = () => setScale(prev => Math.max(prev - 0.25, 0.25))
@@ -31,9 +33,17 @@ const ImageNavigation = ({ images, currentIndex, onClose }) => {
 
   return (
     !loading && (
-      <div className="fixed w-auto h-auto top-0 left-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
-        <div className="relative">
-          <img src={images[index]} alt={`${index + 1}`} style={{ minHeight: `${imageDimensions.height * scale}px` }} />
+      <div className="fixed top-0 left-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+        <div className="relative" style={{ width: 'auto', height: 'auto' }}>
+          <img
+            src={images[index]}
+            alt={`${index + 1}`}
+            style={{
+              width: `${imageDimensions.width * scale}px`,
+              height: `${imageDimensions.height * scale}px`,
+              objectFit: 'contain'
+            }}
+          />
           <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
             <button onClick={prevImage} disabled={index === 0} className="p-2">
               <VscChevronLeft className="h-5 w-5" />
