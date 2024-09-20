@@ -413,6 +413,7 @@ export default function MediaPanel() {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
+            transition: 'width 0.3s ease-in-out, height 0.3s ease-in-out', // Added transition
             ...(contentType === 'text/plain' && {
               alignItems: 'flex-start'
             })

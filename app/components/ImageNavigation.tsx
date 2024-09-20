@@ -22,7 +22,7 @@ const ImageNavigation = ({ images, currentIndex, onClose, updateDimensions }) =>
       setScale(scale)
       setImageDimensions({ width: imgWidth, height: imgHeight })
       updateDimensions({ width: `${imgWidth * scale}px`, height: `${imgHeight * scale}px` })
-      setLoading(false)
+      setLoading(false) // Set loading to false after updating dimensions
     }
   }, [index, images, updateDimensions])
 
@@ -32,35 +32,36 @@ const ImageNavigation = ({ images, currentIndex, onClose, updateDimensions }) =>
   const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
 
   return (
-    !loading && (
-      <div className="fixed top-0 left-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
-        <div className="relative" style={{ width: 'auto', height: 'auto' }}>
+    <div className="fixed top-0 left-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+      <div className="relative" style={{ width: 'auto', height: 'auto' }}>
+        {!loading && (
           <img
             src={images[index]}
             alt={`${index + 1}`}
             style={{
               width: `${imageDimensions.width * scale}px`,
               height: `${imageDimensions.height * scale}px`,
-              objectFit: 'contain'
+              objectFit: 'contain',
+              transition: 'opacity 0.3s ease-in-out'
             }}
           />
-          <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
-            <button onClick={prevImage} disabled={index === 0} className="p-2">
-              <VscChevronLeft className="h-5 w-5" />
-            </button>
-            <button onClick={zoomOut} disabled={scale <= 0.25} className="p-2">
-              <VscZoomOut className="h-5 w-5" />
-            </button>
-            <button onClick={zoomIn} disabled={scale >= 5} className="p-2">
-              <VscZoomIn className="h-5 w-5" />
-            </button>
-            <button onClick={nextImage} disabled={index === images.length - 1} className="p-2">
-              <VscChevronRight className="h-5 w-5" />
-            </button>
-          </div>
+        )}
+        <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
+          <button onClick={prevImage} disabled={index === 0} className="p-2">
+            <VscChevronLeft className="h-5 w-5" />
+          </button>
+          <button onClick={zoomOut} disabled={scale <= 0.25} className="p-2">
+            <VscZoomOut className="h-5 w-5" />
+          </button>
+          <button onClick={zoomIn} disabled={scale >= 5} className="p-2">
+            <VscZoomIn className="h-5 w-5" />
+          </button>
+          <button onClick={nextImage} disabled={index === images.length - 1} className="p-2">
+            <VscChevronRight className="h-5 w-5" />
+          </button>
         </div>
       </div>
-    )
+    </div>
   )
 }
 
