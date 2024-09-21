@@ -16,7 +16,8 @@ export function links() {
   return [{ rel: 'stylesheet', href: pdfSlickCSS }]
 }
 import Modal from 'react-modal'
-import ImageNavigation from '~/Components/ImageNavigation'
+// import ImageNavigation from '~/Components/ImageNavigation'
+import { VscChevronLeft, VscChevronRight, VscZoomIn, VscZoomOut } from 'react-icons/vsc'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
@@ -29,23 +30,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
   return { thisSystemsTabs, romname, system }
 }
 
-const calculateImageDimensions = (src, callback) => {
-  const img = new Image()
-  img.src = src
-  img.onload = () => {
-    const screenWidth = window.innerWidth
-    const screenHeight = window.innerHeight
-    const imgWidth = img.width
-    const imgHeight = img.height
-    const widthScale = (screenWidth * 0.8) / imgWidth
-    const heightScale = (screenHeight * 0.8) / imgHeight
-    const scale = Math.min(widthScale, heightScale)
-    callback({
-      width: imgWidth * scale,
-      height: imgHeight * scale
-    })
-  }
-}
+
 /*
 here's the current values of tabs.caption in the data:
 [
@@ -102,6 +87,24 @@ const tabClassMap: { [key: string]: string } = {
 
 const openInDefaultBrowser = url => {
   window.open(url, '_blank', 'noopener,noreferrer')
+}
+
+const calculateImageDimensions = (src, callback) => {
+  const img = new Image()
+  img.src = src
+  img.onload = () => {
+    const screenWidth = window.innerWidth
+    const screenHeight = window.innerHeight
+    const imgWidth = img.width
+    const imgHeight = img.height
+    const widthScale = (screenWidth * 0.8) / imgWidth
+    const heightScale = (screenHeight * 0.8) / imgHeight
+    const scale = Math.min(widthScale, heightScale)
+    callback({
+      width: imgWidth * scale,
+      height: imgHeight * scale
+    })
+  }
 }
 
 const TextFileRenderer = ({ index, romname, base64Data }) => {
@@ -194,7 +197,11 @@ export default function MediaPanel() {
     } else if (type === 'text/plain') {
       setLightboxDimensions({ width: 'auto', height: 'auto' })
       setLightboxContent(content)
-      setContentType(type)
+      setContentType(type) //this is needed, triggers css on modal to change! why are we only setting it in this case?
+      setIsLightboxOpen(true)
+    } else if (type === 'application/pdf') {
+      setLightboxDimensions({ width: '50%', height: '100%' })
+      setLightboxContent(content)
       setIsLightboxOpen(true)
     } else {
       setLightboxDimensions({ width: '80%', height: '80%' })
@@ -212,10 +219,60 @@ export default function MediaPanel() {
     setLightboxContent(null)
   }
 
-  const updateLightboxDimensions = dimensions => {
-    setLightboxDimensions(dimensions)
-  }
+  const ImageNavigation = ({ images, currentIndex, onClose, imageDimensions }) => {
+    const [index, setIndex] = useState(currentIndex)
+    const [scale, setScale] = useState(1)
+    const [loading, setLoading] = useState(true)
+    const [thisImageDimensions, setThisImageDimensions] = useState({ width: 0, height: 0 })
 
+    useEffect(() => {
+      setLoading(true)
+      calculateImageDimensions(images[index], dimensions => {
+        setScale(1)
+        setLightboxDimensions(dimensions)
+        setThisImageDimensions(dimensions)
+        setLoading(false)
+      })
+    }, [index, images])
+
+    const zoomIn = () => setScale(prev => Math.min(prev + 0.25, 5))
+    const zoomOut = () => setScale(prev => Math.max(prev - 0.25, 0.25))
+    const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
+    const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
+
+    return (
+      <div className="fixed top-0 left-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+        <div className="relative" style={{ width: 'auto', height: 'auto' }}>
+          {!loading && (
+            <img
+              src={images[index]}
+              alt={`${index + 1}`}
+              style={{
+                width: `${thisImageDimensions.width * scale}px`,
+                height: `${thisImageDimensions.height * scale}px`,
+                objectFit: 'contain',
+                transition: 'opacity 0.3s ease-in-out'
+              }}
+            />
+          )}
+          <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
+            <button onClick={prevImage} disabled={index === 0} className="p-2">
+              <VscChevronLeft className="h-5 w-5" />
+            </button>
+            <button onClick={zoomOut} disabled={scale <= 0.25} className="p-2">
+              <VscZoomOut className="h-5 w-5" />
+            </button>
+            <button onClick={zoomIn} disabled={scale >= 5} className="p-2">
+              <VscZoomIn className="h-5 w-5" />
+            </button>
+            <button onClick={nextImage} disabled={index === images.length - 1} className="p-2">
+              <VscChevronRight className="h-5 w-5" />
+            </button>
+          </div>
+        </div>
+      </div>
+    )
+  }
   function mediaTagRenderer(index, mediaItem, romname, mediaItems) {
     const base64String = mediaItem
     const [mimeInfo, base64Data] = base64String.split(',')
@@ -223,17 +280,10 @@ export default function MediaPanel() {
     console.log('mimeType')
     console.log(mimeType)
 
-    const handleVideoError = event => {
-      console.error('Error playing video:', event)
-    }
+    const handleVideoError = event => console.error('Error playing video:', event)
+    const handleAudioError = event => console.error('Error playing audio:', event)
+    const handlePDFError = event => console.error('Error embedding PDF:', event)
 
-    const handleAudioError = event => {
-      console.error('Error playing audio:', event)
-    }
-
-    const handlePDFError = event => {
-      console.error('Error embedding PDF:', event)
-    }
     if (mimeType === 'text/plain') {
       return (
         <div
@@ -275,12 +325,10 @@ export default function MediaPanel() {
       )
     }
 
-    //now pdfs
     if (mimeType === 'application/pdf') {
       try {
         // Remove the base64 prefix if it exists
         const base64String = mediaItem.split(',')[1] || mediaItem
-
         // Decode base64 string to ArrayBuffer
         const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
         const len = binaryString.length
@@ -321,7 +369,7 @@ export default function MediaPanel() {
                 images={mediaItems}
                 currentIndex={index}
                 onClose={() => setIsLightboxOpen(false)}
-                updateDimensions={updateLightboxDimensions}
+                imageDimensions={lightboxDimensions}
               />,
               'image',
               mediaItem
@@ -413,14 +461,14 @@ export default function MediaPanel() {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            transition: 'width 0.3s ease-in-out, height 0.3s ease-in-out', // Added transition
+            transition: 'width 0.3s ease-in-out, height 0.3s ease-in-out',
             ...(contentType === 'text/plain' && {
               alignItems: 'flex-start'
             })
           }
         }}
       >
-        <div onClick={closeLightbox}>{lightboxContent}</div>
+        {lightboxContent}
       </Modal>
     </div>
   )
