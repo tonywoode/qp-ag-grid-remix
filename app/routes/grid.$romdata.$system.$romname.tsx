@@ -11,13 +11,13 @@ import { useEffect, useState } from 'react'
 import parse, { domToReact, Element } from 'html-react-parser'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry' //we must import then use pdfjs's worker file to get it in the frontend build for pdfslick (or any pdf lib based on pdfjs) client will still warn 'setting up fake worker' but it will work
 import SimplePDFViewer from '~/components/pdfViewer.client'
-import pdfSlickCSS from '@pdfslick/react/dist/pdf_viewer.css' //TODO import this in pdf-specific route
+import Modal from 'react-modal'
+// import ImageNavigation from '~/Components/ImageNavigation'
+import pdfSlickCSS from '@pdfslick/react/dist/pdf_viewer.css'
+import { VscChevronLeft, VscChevronRight, VscZoomIn, VscZoomOut } from 'react-icons/vsc' //TODO import this in pdf-specific route
 export function links() {
   return [{ rel: 'stylesheet', href: pdfSlickCSS }]
 }
-import Modal from 'react-modal'
-// import ImageNavigation from '~/Components/ImageNavigation'
-import { VscChevronLeft, VscChevronRight, VscZoomIn, VscZoomOut } from 'react-icons/vsc'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
@@ -29,7 +29,6 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const thisSystemsTabs = await loadTabData(system)
   return { thisSystemsTabs, romname, system }
 }
-
 
 /*
 here's the current values of tabs.caption in the data:
@@ -121,14 +120,10 @@ const TextFileRenderer = ({ index, romname, base64Data }) => {
 }
 
 export default function MediaPanel() {
-  console.log('pdfWorker needs using')
-  console.log(pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!?
   const location = useLocation()
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
   const [tabContent, setTabContent] = useState({ tabClass: null, data: null })
-  console.log('tab content')
-  console.log(tabContent)
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)
   const [lightboxContent, setLightboxContent] = useState(null)
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: 'auto', height: 'auto' })
@@ -197,7 +192,7 @@ export default function MediaPanel() {
     } else if (type === 'text/plain') {
       setLightboxDimensions({ width: 'auto', height: 'auto' })
       setLightboxContent(content)
-      setContentType(type) //this is needed, triggers css on modal to change! why are we only setting it in this case?
+      setContentType(type) //triggers css on modal to change
       setIsLightboxOpen(true)
     } else if (type === 'application/pdf') {
       setLightboxDimensions({ width: '50%', height: '100%' })
@@ -249,9 +244,9 @@ export default function MediaPanel() {
               alt={`${index + 1}`}
               style={{
                 width: `${thisImageDimensions.width * scale}px`,
-                height: `${thisImageDimensions.height * scale}px`,
-                objectFit: 'contain',
-                transition: 'opacity 0.3s ease-in-out'
+                height: `${thisImageDimensions.height * scale}px`
+                // objectFit: 'contain',
+                // transition: 'opacity 0.3s ease-in-out'
               }}
             />
           )}
@@ -326,6 +321,7 @@ export default function MediaPanel() {
     }
 
     if (mimeType === 'application/pdf') {
+      console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!?
       try {
         // Remove the base64 prefix if it exists
         const base64String = mediaItem.split(',')[1] || mediaItem
@@ -371,7 +367,7 @@ export default function MediaPanel() {
                 onClose={() => setIsLightboxOpen(false)}
                 imageDimensions={lightboxDimensions}
               />,
-              'image',
+              mimeType,
               mediaItem
             )
           }
@@ -460,11 +456,8 @@ export default function MediaPanel() {
             overflow: 'auto',
             display: 'flex',
             justifyContent: 'center',
-            alignItems: 'center',
-            transition: 'width 0.3s ease-in-out, height 0.3s ease-in-out',
-            ...(contentType === 'text/plain' && {
-              alignItems: 'flex-start'
-            })
+            alignItems: contentType === 'text/plain' ? 'flex-start' : 'center'
+            // transition: 'width 0.1s ease-in-out, height 0.1s ease-in-out',
           }
         }}
       >
