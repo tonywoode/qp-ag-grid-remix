@@ -99,9 +99,14 @@ const calculateImageDimensions = (src, callback) => {
     const widthScale = (screenWidth * 0.8) / imgWidth
     const heightScale = (screenHeight * 0.8) / imgHeight
     const scale = Math.min(widthScale, heightScale)
+    console.log('Image dimensions:', imgWidth, imgHeight)
+    console.log('Screen dimensions:', screenWidth, screenHeight)
+    console.log('Scale:', scale)
+    console.log('Scaled dimensions:', imgWidth * scale, imgHeight * scale)
     callback({
       width: imgWidth * scale,
-      height: imgHeight * scale
+      height: imgHeight * scale,
+      scale: scale
     })
   }
 }
@@ -222,10 +227,11 @@ export default function MediaPanel() {
     const [scale, setScale] = useState(1)
     const [loading, setLoading] = useState(true)
     const [thisImageDimensions, setThisImageDimensions] = useState({ width: 0, height: 0 })
+
     useEffect(() => {
       setLoading(true)
       calculateImageDimensions(images[index], dimensions => {
-        setScale(1)
+        setScale(dimensions.scale)
         setLightboxDimensions(dimensions)
         setThisImageDimensions(dimensions)
         setLoading(false)
@@ -238,6 +244,10 @@ export default function MediaPanel() {
         width: prev.width * 1.25,
         height: prev.height * 1.25
       }))
+      setThisImageDimensions(prev => ({
+        width: prev.width * 1.25,
+        height: prev.height * 1.25
+      }))
     }
 
     const zoomOut = () => {
@@ -246,22 +256,26 @@ export default function MediaPanel() {
         width: prev.width * 0.75,
         height: prev.height * 0.75
       }))
+      setThisImageDimensions(prev => ({
+        width: prev.width * 0.75,
+        height: prev.height * 0.75
+      }))
     }
-
     const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
     const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
-
     return (
-      <div className="fixed top-0 left-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
-        <div className="relative" style={{ width: 'auto', height: 'auto' }}>
+      <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+        <div className="relative flex flex-col items-center justify-center">
           {!loading && (
             <img
               src={images[index]}
               alt={`${index + 1}`}
               className="transition-opacity duration-300 opacity-100"
               style={{
-                width: `${thisImageDimensions.width * scale}px`,
-                height: `${thisImageDimensions.height * scale}px`,
+                width: `${thisImageDimensions.width}px`,
+                height: `${thisImageDimensions.height}px`,
+                // maxWidth: '100%',
+                // maxHeight: '100%',
                 objectFit: 'contain'
               }}
             />
