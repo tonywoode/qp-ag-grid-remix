@@ -129,7 +129,7 @@ export default function MediaPanel() {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)
   const [lightboxContent, setLightboxContent] = useState(null)
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: 'auto', height: 'auto' })
-  const [contentType, setContentType] = useState('') //for the lightbox pdf issue
+  const [contentType, setContentType] = useState('')
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   console.log('MameNames:', mameNames)
@@ -184,24 +184,16 @@ export default function MediaPanel() {
     Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
   }, [])
 
-  const openLightbox = async (content, type, src) => {
-    const setLightbox = dimensions => {
-      setLightboxDimensions(dimensions)
-      setContentType(type) // triggers css on modal to change
-      setLightboxContent(content)
-      setIsLightboxOpen(true)
-    }
+  const openLightbox = async (content, mimeType, src) => {
     let dimensions
-    if (type.startsWith('image')) {
-      dimensions = await calculateImageDimensions(src)
-    } else if (type === 'text/plain') {
-      dimensions = { width: 'auto', height: 'auto' }
-    } else if (type === 'application/pdf') {
-      dimensions = { width: '50%', height: '100%' }
-    } else {
-      dimensions = { width: '80%', height: '80%' }
-    }
-    setLightbox(dimensions)
+    if (mimeType.startsWith('image')) dimensions = await calculateImageDimensions(src)
+    else if (mimeType === 'text/plain') dimensions = { width: 'auto', height: 'auto' }
+    else if (mimeType === 'application/pdf') dimensions = { width: '50%', height: '100%' }
+    else dimensions = { width: '80%', height: '80%' }
+    setLightboxDimensions(dimensions)
+    setContentType(mimeType) // triggers css on modal to change
+    setLightboxContent(content)
+    setIsLightboxOpen(true)
   }
 
   const closeLightbox = event => {
@@ -213,24 +205,21 @@ export default function MediaPanel() {
     setLightboxContent(null)
   }
 
-  const ImageNavigation = ({ images, currentIndex, onClose, lightboxDimensions, setLightboxDimensions }) => {
+  const ImageNavigation = ({ images, currentIndex, onClose }) => {
     const [index, setIndex] = useState(currentIndex)
-    const [scale, setScale] = useState(1)
     const [loading, setLoading] = useState(true)
     const [thisImageDimensions, setThisImageDimensions] = useState({ width: 0, height: 0 })
 
     useEffect(() => {
       setLoading(true)
       calculateImageDimensions(images[index]).then(dimensions => {
-        setScale(dimensions.scale)
         setLightboxDimensions(dimensions)
         setThisImageDimensions(dimensions)
         setLoading(false)
       })
-    }, [index, images, setLightboxDimensions])
+    }, [index, images])
 
     const zoomIn = () => {
-      setScale(prev => Math.min(prev + 0.25, 5))
       setLightboxDimensions(prev => ({
         width: prev.width * 1.25,
         height: prev.height * 1.25
@@ -242,7 +231,6 @@ export default function MediaPanel() {
     }
 
     const zoomOut = () => {
-      setScale(prev => Math.max(prev - 0.25, 0.25))
       setLightboxDimensions(prev => ({
         width: prev.width * 0.75,
         height: prev.height * 0.75
@@ -293,6 +281,7 @@ export default function MediaPanel() {
       </div>
     )
   }
+
   function mediaTagRenderer(index, mediaItem, romname, mediaItems) {
     const base64String = mediaItem
     const [mimeInfo, base64Data] = base64String.split(',')
@@ -386,13 +375,7 @@ export default function MediaPanel() {
           style={{ flexBasis: '20%' }}
           onClick={() =>
             openLightbox(
-              <ImageNavigation
-                images={mediaItems}
-                currentIndex={index}
-                onClose={() => setIsLightboxOpen(false)}
-                lightboxDimensions={lightboxDimensions}
-                setLightboxDimensions={setLightboxDimensions}
-              />,
+              <ImageNavigation images={mediaItems} currentIndex={index} onClose={() => setIsLightboxOpen(false)} />,
               mimeType,
               mediaItem
             )
