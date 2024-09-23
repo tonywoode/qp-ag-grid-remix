@@ -88,26 +88,23 @@ const openInDefaultBrowser = url => {
   window.open(url, '_blank', 'noopener,noreferrer')
 }
 
-const calculateImageDimensions = (src, callback) => {
+const calculateImageDimensions = async src => {
   const img = new Image()
   img.src = src
-  img.onload = () => {
-    const screenWidth = window.innerWidth
-    const screenHeight = window.innerHeight
-    const imgWidth = img.width
-    const imgHeight = img.height
-    const widthScale = (screenWidth * 0.8) / imgWidth
-    const heightScale = (screenHeight * 0.8) / imgHeight
-    const scale = Math.min(widthScale, heightScale)
-    console.log('Image dimensions:', imgWidth, imgHeight)
-    console.log('Screen dimensions:', screenWidth, screenHeight)
-    console.log('Scale:', scale)
-    console.log('Scaled dimensions:', imgWidth * scale, imgHeight * scale)
-    callback({
-      width: imgWidth * scale,
-      height: imgHeight * scale,
-      scale: scale
-    })
+  await new Promise(resolve => {
+    img.onload = resolve
+  })
+  const screenWidth = window.innerWidth
+  const screenHeight = window.innerHeight
+  const imgWidth = img.width
+  const imgHeight = img.height
+  const widthScale = (screenWidth * 0.8) / imgWidth
+  const heightScale = (screenHeight * 0.8) / imgHeight
+  const scale = Math.min(widthScale, heightScale)
+  return {
+    width: imgWidth * scale,
+    height: imgHeight * scale,
+    scale
   }
 }
 
@@ -187,30 +184,24 @@ export default function MediaPanel() {
     Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
   }, [])
 
-  const openLightbox = (content, type, src) => {
-    if (type.startsWith('image')) {
-      calculateImageDimensions(src, dimensions => {
-        setLightboxDimensions(dimensions)
-        setContentType(type) //triggers css on modal to change
-        setLightboxContent(content)
-        setIsLightboxOpen(true)
-      })
-    } else if (type === 'text/plain') {
-      setLightboxDimensions({ width: 'auto', height: 'auto' })
+  const openLightbox = async (content, type, src) => {
+    const setLightbox = dimensions => {
+      setLightboxDimensions(dimensions)
+      setContentType(type) // triggers css on modal to change
       setLightboxContent(content)
-      setContentType(type)
-      setIsLightboxOpen(true)
-    } else if (type === 'application/pdf') {
-      setLightboxDimensions({ width: '50%', height: '100%' })
-      setLightboxContent(content)
-      setContentType(type)
-      setIsLightboxOpen(true)
-    } else {
-      setLightboxDimensions({ width: '80%', height: '80%' })
-      setLightboxContent(content)
-      setContentType(type)
       setIsLightboxOpen(true)
     }
+    let dimensions
+    if (type.startsWith('image')) {
+      dimensions = await calculateImageDimensions(src)
+    } else if (type === 'text/plain') {
+      dimensions = { width: 'auto', height: 'auto' }
+    } else if (type === 'application/pdf') {
+      dimensions = { width: '50%', height: '100%' }
+    } else {
+      dimensions = { width: '80%', height: '80%' }
+    }
+    setLightbox(dimensions)
   }
 
   const closeLightbox = event => {
@@ -230,7 +221,7 @@ export default function MediaPanel() {
 
     useEffect(() => {
       setLoading(true)
-      calculateImageDimensions(images[index], dimensions => {
+      calculateImageDimensions(images[index]).then(dimensions => {
         setScale(dimensions.scale)
         setLightboxDimensions(dimensions)
         setThisImageDimensions(dimensions)
