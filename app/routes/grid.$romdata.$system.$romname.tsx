@@ -186,21 +186,24 @@ export default function MediaPanel() {
     if (type.startsWith('image')) {
       calculateImageDimensions(src, dimensions => {
         setLightboxDimensions(dimensions)
+        setContentType(type) //triggers css on modal to change
         setLightboxContent(content)
         setIsLightboxOpen(true)
       })
     } else if (type === 'text/plain') {
       setLightboxDimensions({ width: 'auto', height: 'auto' })
       setLightboxContent(content)
-      setContentType(type) //triggers css on modal to change
+      setContentType(type)
       setIsLightboxOpen(true)
     } else if (type === 'application/pdf') {
       setLightboxDimensions({ width: '50%', height: '100%' })
       setLightboxContent(content)
+      setContentType(type)
       setIsLightboxOpen(true)
     } else {
       setLightboxDimensions({ width: '80%', height: '80%' })
       setLightboxContent(content)
+      setContentType(type)
       setIsLightboxOpen(true)
     }
   }
@@ -214,12 +217,11 @@ export default function MediaPanel() {
     setLightboxContent(null)
   }
 
-  const ImageNavigation = ({ images, currentIndex, onClose, imageDimensions }) => {
+  const ImageNavigation = ({ images, currentIndex, onClose, lightboxDimensions, setLightboxDimensions }) => {
     const [index, setIndex] = useState(currentIndex)
     const [scale, setScale] = useState(1)
     const [loading, setLoading] = useState(true)
     const [thisImageDimensions, setThisImageDimensions] = useState({ width: 0, height: 0 })
-
     useEffect(() => {
       setLoading(true)
       calculateImageDimensions(images[index], dimensions => {
@@ -228,10 +230,24 @@ export default function MediaPanel() {
         setThisImageDimensions(dimensions)
         setLoading(false)
       })
-    }, [index, images])
+    }, [index, images, setLightboxDimensions])
 
-    const zoomIn = () => setScale(prev => Math.min(prev + 0.25, 5))
-    const zoomOut = () => setScale(prev => Math.max(prev - 0.25, 0.25))
+    const zoomIn = () => {
+      setScale(prev => Math.min(prev + 0.25, 5))
+      setLightboxDimensions(prev => ({
+        width: prev.width * 1.25,
+        height: prev.height * 1.25
+      }))
+    }
+
+    const zoomOut = () => {
+      setScale(prev => Math.max(prev - 0.25, 0.25))
+      setLightboxDimensions(prev => ({
+        width: prev.width * 0.75,
+        height: prev.height * 0.75
+      }))
+    }
+
     const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
     const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
 
@@ -242,11 +258,11 @@ export default function MediaPanel() {
             <img
               src={images[index]}
               alt={`${index + 1}`}
+              className="transition-opacity duration-300 opacity-100"
               style={{
                 width: `${thisImageDimensions.width * scale}px`,
-                height: `${thisImageDimensions.height * scale}px`
-                // objectFit: 'contain',
-                // transition: 'opacity 0.3s ease-in-out'
+                height: `${thisImageDimensions.height * scale}px`,
+                objectFit: 'contain'
               }}
             />
           )}
@@ -254,10 +270,14 @@ export default function MediaPanel() {
             <button onClick={prevImage} disabled={index === 0} className="p-2">
               <VscChevronLeft className="h-5 w-5" />
             </button>
-            <button onClick={zoomOut} disabled={scale <= 0.25} className="p-2">
+            <button
+              onClick={zoomOut}
+              disabled={lightboxDimensions.width <= 100 || lightboxDimensions.height <= 100}
+              className="p-2"
+            >
               <VscZoomOut className="h-5 w-5" />
             </button>
-            <button onClick={zoomIn} disabled={scale >= 5} className="p-2">
+            <button onClick={zoomIn} className="p-2">
               <VscZoomIn className="h-5 w-5" />
             </button>
             <button onClick={nextImage} disabled={index === images.length - 1} className="p-2">
@@ -365,7 +385,8 @@ export default function MediaPanel() {
                 images={mediaItems}
                 currentIndex={index}
                 onClose={() => setIsLightboxOpen(false)}
-                imageDimensions={lightboxDimensions}
+                lightboxDimensions={lightboxDimensions}
+                setLightboxDimensions={setLightboxDimensions}
               />,
               mimeType,
               mediaItem
@@ -451,13 +472,13 @@ export default function MediaPanel() {
             transform: 'translate(-50%, -50%)',
             width: lightboxDimensions.width,
             height: lightboxDimensions.height,
-            maxWidth: '80%',
-            maxHeight: '80%',
+            maxWidth: contentType === 'text/plain' ? '80%' : 'none',
+            maxHeight: contentType === 'text/plain' ? '80%' : 'none',
             overflow: 'auto',
             display: 'flex',
             justifyContent: 'center',
             alignItems: contentType === 'text/plain' ? 'flex-start' : 'center'
-            // transition: 'width 0.1s ease-in-out, height 0.1s ease-in-out',
+            // transition: 'width 0.1s ease-in-out, height 0.1s ease-in-out'
           }
         }}
       >
