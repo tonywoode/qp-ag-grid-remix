@@ -88,24 +88,28 @@ const openInDefaultBrowser = url => {
   window.open(url, '_blank', 'noopener,noreferrer')
 }
 
-const calculateImageDimensions = async src => {
-  const img = new Image()
-  img.src = src
-  await new Promise(resolve => {
-    img.onload = resolve
+const calculateImageDimensions = src => {
+  return new Promise((resolve, reject) => {
+    if (!src) return reject(new Error('Image source is required'))
+    const img = new Image()
+    img.src = src
+    img.onload = () => {
+      const screenWidth = window.innerWidth
+      const screenHeight = window.innerHeight
+      const imgWidth = img.width
+      const imgHeight = img.height
+
+      const widthScale = (screenWidth * 0.8) / imgWidth
+      const heightScale = (screenHeight * 0.8) / imgHeight
+      const scale = Math.min(widthScale, heightScale)
+      resolve({
+        width: imgWidth * scale,
+        height: imgHeight * scale,
+        scale
+      })
+    }
+    img.onerror = () => reject(new Error('Failed to load image'))
   })
-  const screenWidth = window.innerWidth
-  const screenHeight = window.innerHeight
-  const imgWidth = img.width
-  const imgHeight = img.height
-  const widthScale = (screenWidth * 0.8) / imgWidth
-  const heightScale = (screenHeight * 0.8) / imgHeight
-  const scale = Math.min(widthScale, heightScale)
-  return {
-    width: imgWidth * scale,
-    height: imgHeight * scale,
-    scale
-  }
 }
 
 const TextFileRenderer = ({ index, romname, base64Data }) => {
@@ -133,6 +137,7 @@ export default function MediaPanel() {
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   console.log('MameNames:', mameNames)
+  console.log('Rendering MediaPanel with lightboxDimensions:', lightboxDimensions)
   const replaceLinks = node => {
     if (node.type === 'tag' && node.name === 'a') {
       const { href } = node.attribs
@@ -185,19 +190,19 @@ export default function MediaPanel() {
   }, [])
 
   const openLightbox = async (content, mimeType, src) => {
-    let dimensions
-    if (mimeType.startsWith('image')) dimensions = await calculateImageDimensions(src)
-    else if (mimeType === 'text/plain') dimensions = { width: 'auto', height: 'auto' }
-    else if (mimeType === 'application/pdf') dimensions = { width: '50%', height: '100%' }
-    else dimensions = { width: '80%', height: '80%' }
-    setLightboxDimensions(dimensions)
+    if (mimeType.startsWith('image')) {
+      const dimensions = await calculateImageDimensions(src)
+      console.log('Setting lightboxDimensions in openLightbox:', dimensions)
+      setLightboxDimensions(dimensions)
+    } else if (mimeType === 'text/plain') setLightboxDimensions({ width: 'auto', height: 'auto' })
+    else if (mimeType === 'application/pdf') setLightboxDimensions({ width: '50%', height: '100%' })
+    else setLightboxDimensions({ width: '80%', height: '80%' })
     setContentType(mimeType) // triggers css on modal to change
     setLightboxContent(content)
     setIsLightboxOpen(true)
   }
 
   const closeLightbox = event => {
-    // Check if the click target is a clickable element, don't clobber e.g.: pdf pagination
     if (event.target.closest('button, a, input, select, textarea')) {
       return
     }
@@ -205,18 +210,22 @@ export default function MediaPanel() {
     setLightboxContent(null)
   }
 
-  const ImageNavigation = ({ images, currentIndex, onClose }) => {
+  const ImageNavigation = ({ images, currentIndex, imageDimensions, onClose }) => {
+    console.log('Rendering ImageNavigation with imageDimensions:', imageDimensions)
     const [index, setIndex] = useState(currentIndex)
     const [loading, setLoading] = useState(true)
-    const [thisImageDimensions, setThisImageDimensions] = useState({ width: 0, height: 0 })
+    const [thisImageDimensions, setThisImageDimensions] = useState(lightboxDimensions) //we should not need this
 
     useEffect(() => {
-      setLoading(true)
-      calculateImageDimensions(images[index]).then(dimensions => {
+      const fetchDimensions = async () => {
+        setLoading(true)
+        const dimensions = await calculateImageDimensions(images[index])
+        console.log('I set some new dimensions ' + dimensions.height + ' ' + dimensions.width)
         setLightboxDimensions(dimensions)
-        setThisImageDimensions(dimensions)
+        setThisImageDimensions(dimensions) //we should not need this
         setLoading(false)
-      })
+      }
+      fetchDimensions() //handle async
     }, [index, images])
 
     const zoomIn = () => {
@@ -224,6 +233,7 @@ export default function MediaPanel() {
         width: prev.width * 1.25,
         height: prev.height * 1.25
       }))
+      //we should not need this
       setThisImageDimensions(prev => ({
         width: prev.width * 1.25,
         height: prev.height * 1.25
@@ -235,6 +245,7 @@ export default function MediaPanel() {
         width: prev.width * 0.75,
         height: prev.height * 0.75
       }))
+      //we should not need this
       setThisImageDimensions(prev => ({
         width: prev.width * 0.75,
         height: prev.height * 0.75
@@ -251,8 +262,12 @@ export default function MediaPanel() {
               alt={`${index + 1}`}
               className="transition-opacity duration-300 opacity-100"
               style={{
-                width: `${thisImageDimensions.width}px`,
-                height: `${thisImageDimensions.height}px`,
+                //we should not need this
+                width: thisImageDimensions.width,
+                height: thisImageDimensions.height,
+                //it should be this:
+                // width: imageDimensions.width,
+                // height: imageDimensions.height,
                 // maxWidth: '100%',
                 // maxHeight: '100%',
                 objectFit: 'contain'
@@ -298,8 +313,8 @@ export default function MediaPanel() {
         <div
           key={index}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
-          onClick={() =>
-            openLightbox(
+          onClick={async () =>
+            await openLightbox(
               <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />,
               mimeType,
               base64Data
@@ -352,7 +367,7 @@ export default function MediaPanel() {
           <div
             key={index}
             className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
-            onClick={() => openLightbox(<SimplePDFViewer pdfFilePath={arrayBuffer} />, mimeType)}
+            onClick={async () => await openLightbox(<SimplePDFViewer pdfFilePath={arrayBuffer} />, mimeType, null)} //TODO: must we pass null here
             style={{ flexBasis: '20%' }}
           >
             <FaFilePdf className="w-full h-full" />
@@ -373,9 +388,14 @@ export default function MediaPanel() {
           alt={`Screenshot ${index}`}
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
-          onClick={() =>
-            openLightbox(
-              <ImageNavigation images={mediaItems} currentIndex={index} onClose={() => setIsLightboxOpen(false)} />,
+          onClick={async () =>
+            await openLightbox(
+              <ImageNavigation
+                images={mediaItems}
+                currentIndex={index}
+                imageDimensions={lightboxDimensions}
+                onClose={() => setIsLightboxOpen(false)}
+              />,
               mimeType,
               mediaItem
             )
