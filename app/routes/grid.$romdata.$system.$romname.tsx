@@ -467,7 +467,7 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
         />
       )}
       <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
-        <button onClick={prevImage} disabled={index === 0} className="p-2">
+        <button onClick={prevImage} className={`p-2 ${index === 0 ? 'invisible' : ''}`}>
           <VscChevronLeft className="h-5 w-5" />
         </button>
         <button
@@ -480,7 +480,11 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
         <button onClick={zoomIn} className="p-2">
           <VscZoomIn className="h-5 w-5" />
         </button>
-        <button onClick={nextImage} disabled={index === images.length - 1} className="p-2">
+        <button
+          onClick={nextImage}
+          disabled={index === images.length - 1}
+          className={`p-2 ${index === images.length - 1 ? 'invisible' : ''}`}
+        >
           <VscChevronRight className="h-5 w-5" />
         </button>
       </div>
