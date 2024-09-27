@@ -98,7 +98,6 @@ const calculateImageDimensions = src => {
       const screenHeight = window.innerHeight
       const imgWidth = img.width
       const imgHeight = img.height
-
       const widthScale = (screenWidth * 0.8) / imgWidth
       const heightScale = (screenHeight * 0.8) / imgHeight
       const scale = Math.min(widthScale, heightScale)
@@ -133,7 +132,7 @@ export default function MediaPanel() {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)
   const [lightboxContent, setLightboxContent] = useState(null)
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: 'auto', height: 'auto' })
-  const [contentType, setContentType] = useState('')
+  const [lightboxContentType, setLightboxContentType] = useState('')
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   console.log('MameNames:', mameNames)
@@ -189,15 +188,9 @@ export default function MediaPanel() {
     Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
   }, [])
 
-  const openLightbox = async (content, mimeType, src) => {
-    if (mimeType.startsWith('image')) {
-      const dimensions = await calculateImageDimensions(src)
-      console.log('Setting lightboxDimensions in openLightbox:', dimensions)
-      setLightboxDimensions(dimensions)
-    } else if (mimeType === 'text/plain') setLightboxDimensions({ width: 'auto', height: 'auto' })
-    else if (mimeType === 'application/pdf') setLightboxDimensions({ width: '50%', height: '100%' })
-    else setLightboxDimensions({ width: '80%', height: '80%' })
-    setContentType(mimeType) // triggers css on modal to change
+  const openLightbox = (content, mimeType, dimensions = { width: '80%', height: '80%' }) => {
+    setLightboxDimensions(dimensions)
+    setLightboxContentType(mimeType) // triggers css on modal to change
     setLightboxContent(content)
     setIsLightboxOpen(true)
   }
@@ -208,93 +201,6 @@ export default function MediaPanel() {
     }
     setIsLightboxOpen(false)
     setLightboxContent(null)
-  }
-
-  const ImageNavigation = ({ images, currentIndex, imageDimensions, onClose }) => {
-    console.log('Rendering ImageNavigation with imageDimensions:', imageDimensions)
-    const [index, setIndex] = useState(currentIndex)
-    const [loading, setLoading] = useState(true)
-    const [thisImageDimensions, setThisImageDimensions] = useState(lightboxDimensions) //we should not need this
-
-    useEffect(() => {
-      const fetchDimensions = async () => {
-        setLoading(true)
-        const dimensions = await calculateImageDimensions(images[index])
-        console.log('I set some new dimensions ' + dimensions.height + ' ' + dimensions.width)
-        setLightboxDimensions(dimensions)
-        setThisImageDimensions(dimensions) //we should not need this
-        setLoading(false)
-      }
-      fetchDimensions() //handle async
-    }, [index, images])
-
-    const zoomIn = () => {
-      setLightboxDimensions(prev => ({
-        width: prev.width * 1.25,
-        height: prev.height * 1.25
-      }))
-      //we should not need this
-      setThisImageDimensions(prev => ({
-        width: prev.width * 1.25,
-        height: prev.height * 1.25
-      }))
-    }
-
-    const zoomOut = () => {
-      setLightboxDimensions(prev => ({
-        width: prev.width * 0.75,
-        height: prev.height * 0.75
-      }))
-      //we should not need this
-      setThisImageDimensions(prev => ({
-        width: prev.width * 0.75,
-        height: prev.height * 0.75
-      }))
-    }
-    const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
-    const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
-    return (
-      <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
-        <div className="relative flex flex-col items-center justify-center">
-          {!loading && (
-            <img
-              src={images[index]}
-              alt={`${index + 1}`}
-              className="transition-opacity duration-300 opacity-100"
-              style={{
-                //we should not need this
-                width: thisImageDimensions.width,
-                height: thisImageDimensions.height,
-                //it should be this:
-                // width: imageDimensions.width,
-                // height: imageDimensions.height,
-                // maxWidth: '100%',
-                // maxHeight: '100%',
-                objectFit: 'contain'
-              }}
-            />
-          )}
-          <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
-            <button onClick={prevImage} disabled={index === 0} className="p-2">
-              <VscChevronLeft className="h-5 w-5" />
-            </button>
-            <button
-              onClick={zoomOut}
-              disabled={lightboxDimensions.width <= 100 || lightboxDimensions.height <= 100}
-              className="p-2"
-            >
-              <VscZoomOut className="h-5 w-5" />
-            </button>
-            <button onClick={zoomIn} className="p-2">
-              <VscZoomIn className="h-5 w-5" />
-            </button>
-            <button onClick={nextImage} disabled={index === images.length - 1} className="p-2">
-              <VscChevronRight className="h-5 w-5" />
-            </button>
-          </div>
-        </div>
-      </div>
-    )
   }
 
   function mediaTagRenderer(index, mediaItem, romname, mediaItems) {
@@ -313,13 +219,14 @@ export default function MediaPanel() {
         <div
           key={index}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
-          onClick={async () =>
-            await openLightbox(
+          onClick={() => {
+            const dimensions = { width: 'auto', height: 'auto' }
+            openLightbox(
               <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />,
               mimeType,
-              base64Data
+              dimensions
             )
-          }
+          }}
           style={{ flexBasis: '20%' }}
         >
           <FaFileAlt className="w-full h-full" />
@@ -350,7 +257,6 @@ export default function MediaPanel() {
     }
 
     if (mimeType === 'application/pdf') {
-      console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!?
       try {
         // Remove the base64 prefix if it exists
         const base64String = mediaItem.split(',')[1] || mediaItem
@@ -367,7 +273,11 @@ export default function MediaPanel() {
           <div
             key={index}
             className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
-            onClick={async () => await openLightbox(<SimplePDFViewer pdfFilePath={arrayBuffer} />, mimeType, null)} //TODO: must we pass null here
+            onClick={() => {
+              console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!
+              const dimensions = { width: '50%', height: '100%' }
+              openLightbox(<SimplePDFViewer pdfFilePath={arrayBuffer} />, mimeType, dimensions)
+            }}
             style={{ flexBasis: '20%' }}
           >
             <FaFilePdf className="w-full h-full" />
@@ -388,18 +298,20 @@ export default function MediaPanel() {
           alt={`Screenshot ${index}`}
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
-          onClick={async () =>
-            await openLightbox(
+          onClick={async () => {
+            const dimensions = await calculateImageDimensions(mediaItem)
+            setLightboxDimensions(dimensions)
+            openLightbox(
               <ImageNavigation
                 images={mediaItems}
                 currentIndex={index}
-                imageDimensions={lightboxDimensions}
-                onClose={() => setIsLightboxOpen(false)}
+                initialImageDimensions={dimensions}
+                setLightboxDimensions={setLightboxDimensions}
               />,
               mimeType,
-              mediaItem
+              dimensions
             )
-          }
+          }}
         />
       )
     }
@@ -448,11 +360,6 @@ export default function MediaPanel() {
       )
   }
 
-  const renderTabContent = () => {
-    const renderFunction = tabContentRenderers[tabContent.tabClass]
-    return renderFunction ? renderFunction(tabContent.data) : <h2>Tab content not available</h2>
-  }
-
   return (
     <div>
       <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
@@ -462,9 +369,14 @@ export default function MediaPanel() {
           ))}
         </TabList>
         <div className="overflow-auto h-full">
-          {thisSystemsTabs.map((tab, index) => (
-            <TabPanel key={index}>{renderTabContent()}</TabPanel>
-          ))}
+          {thisSystemsTabs.map((tab, index) => {
+            const selectedTab = thisSystemsTabs[selectedTabIndex]
+            return (
+              <TabPanel key={index}>
+                {tabContentRenderers[tabContent.tabClass]?.(tabContent.data) ?? <h2>Tab content not available</h2>}
+              </TabPanel>
+            )
+          })}
         </div>
       </Tabs>
       <Modal
@@ -480,13 +392,13 @@ export default function MediaPanel() {
             transform: 'translate(-50%, -50%)',
             width: lightboxDimensions.width,
             height: lightboxDimensions.height,
-            maxWidth: contentType === 'text/plain' ? '80%' : 'none',
-            maxHeight: contentType === 'text/plain' ? '80%' : 'none',
+            maxWidth: lightboxContentType === 'text/plain' ? '80%' : 'none',
+            maxHeight: lightboxContentType === 'text/plain' ? '80%' : 'none',
             overflow: 'auto',
             display: 'flex',
             justifyContent: 'center',
-            alignItems: contentType === 'text/plain' ? 'flex-start' : 'center'
-            // transition: 'width 0.1s ease-in-out, height 0.1s ease-in-out'
+            alignItems: lightboxContentType === 'text/plain' ? 'flex-start' : 'center'
+            // transition: 'width 0.05s ease-in-out, height 0.05s ease-in-out'
           }
         }}
       >
@@ -496,6 +408,86 @@ export default function MediaPanel() {
   )
 }
 
+function ImageNavigation({ images, currentIndex, initialImageDimensions, setLightboxDimensions }) {
+  const [index, setIndex] = useState(currentIndex)
+  const [loading, setLoading] = useState(true)
+  const [thisImageDimensions, setThisImageDimensions] = useState({ height: 0, width: 0 })
+
+  console.log('image dimensions passed to ImageNavigation ', initialImageDimensions)
+  useEffect(() => {
+    const fetchDimensions = async () => {
+      setLoading(true)
+      const dimensions = await calculateImageDimensions(images[index])
+      console.log('I set some new dimensions ' + dimensions.height + ' ' + dimensions.width)
+      setLightboxDimensions(dimensions)
+      setThisImageDimensions(dimensions)
+      setLoading(false)
+    }
+    fetchDimensions() //handle async
+  }, [index, images])
+
+  const zoomIn = () => {
+    setLightboxDimensions(prev => ({
+      width: prev.width * 1.25,
+      height: prev.height * 1.25
+    }))
+    setThisImageDimensions(prev => ({
+      width: prev.width * 1.25,
+      height: prev.height * 1.25
+    }))
+  }
+
+  const zoomOut = () => {
+    setLightboxDimensions(prev => ({
+      width: prev.width * 0.75,
+      height: prev.height * 0.75
+    }))
+    setThisImageDimensions(prev => ({
+      width: prev.width * 0.75,
+      height: prev.height * 0.75
+    }))
+  }
+  const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
+  const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
+  return (
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+      <div className="relative flex flex-col items-center justify-center">
+        {!loading && (
+          <img
+            src={images[index]}
+            alt={`${index + 1}`}
+            className="transition-opacity duration-300 opacity-100"
+            style={{
+              width: thisImageDimensions.width,
+              height: thisImageDimensions.height,
+              // maxWidth: '100%',
+              // maxHeight: '100%',
+              objectFit: 'contain'
+            }}
+          />
+        )}
+        <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
+          <button onClick={prevImage} disabled={index === 0} className="p-2">
+            <VscChevronLeft className="h-5 w-5" />
+          </button>
+          <button
+            onClick={zoomOut}
+            disabled={thisImageDimensions.width <= 100 || thisImageDimensions.height <= 100}
+            className="p-2"
+          >
+            <VscZoomOut className="h-5 w-5" />
+          </button>
+          <button onClick={zoomIn} className="p-2">
+            <VscZoomIn className="h-5 w-5" />
+          </button>
+          <button onClick={nextImage} disabled={index === images.length - 1} className="p-2">
+            <VscChevronRight className="h-5 w-5" />
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
 // fetcher.submit(
 //   { romname, thisSystemsTabs, system },
 //   {
