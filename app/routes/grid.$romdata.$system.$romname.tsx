@@ -363,7 +363,7 @@ export default function MediaPanel() {
   return (
     <div>
       <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
-        <TabList className="sticky top-0 bg-white z-10">
+        <TabList className="sticky top-0 bg-white z-2">
           {thisSystemsTabs.map((tab, index) => (
             <Tab key={index}>{tab.caption}</Tab>
           ))}
@@ -383,6 +383,7 @@ export default function MediaPanel() {
         isOpen={isLightboxOpen}
         onRequestClose={closeLightbox}
         style={{
+          overlay: { zIndex: 3 },
           content: {
             top: '50%',
             left: '50%',
@@ -392,9 +393,9 @@ export default function MediaPanel() {
             transform: 'translate(-50%, -50%)',
             width: lightboxDimensions.width,
             height: lightboxDimensions.height,
-            maxWidth: lightboxContentType === 'text/plain' ? '80%' : 'none',
-            maxHeight: lightboxContentType === 'text/plain' ? '80%' : 'none',
-            overflow: 'auto',
+            maxWidth: lightboxContentType === 'text/plain' ? '80%' : '100%',
+            maxHeight: lightboxContentType === 'text/plain' ? '80%' : '100%',
+            overflow: 'hidden',
             display: 'flex',
             justifyContent: 'center',
             alignItems: lightboxContentType === 'text/plain' ? 'flex-start' : 'center'
@@ -450,40 +451,38 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
   const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
   const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
-      <div className="relative flex flex-col items-center justify-center">
-        {!loading && (
-          <img
-            src={images[index]}
-            alt={`${index + 1}`}
-            className="transition-opacity duration-300 opacity-100"
-            style={{
-              width: thisImageDimensions.width,
-              height: thisImageDimensions.height,
-              // maxWidth: '100%',
-              // maxHeight: '100%',
-              objectFit: 'contain'
-            }}
-          />
-        )}
-        <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
-          <button onClick={prevImage} disabled={index === 0} className="p-2">
-            <VscChevronLeft className="h-5 w-5" />
-          </button>
-          <button
-            onClick={zoomOut}
-            disabled={thisImageDimensions.width <= 100 || thisImageDimensions.height <= 100}
-            className="p-2"
-          >
-            <VscZoomOut className="h-5 w-5" />
-          </button>
-          <button onClick={zoomIn} className="p-2">
-            <VscZoomIn className="h-5 w-5" />
-          </button>
-          <button onClick={nextImage} disabled={index === images.length - 1} className="p-2">
-            <VscChevronRight className="h-5 w-5" />
-          </button>
-        </div>
+    <div className="fixed inset-0 left-0 flex items-center justify-center max-w-full max-h-full">
+      {!loading && (
+        <img
+          src={images[index]}
+          alt={`${index + 1}`}
+          // className="transition-opacity duration-300 opacity-100"
+          style={{
+            width: thisImageDimensions.width,
+            height: thisImageDimensions.height,
+            // maxWidth: '80%',
+            // maxHeight: '80%',
+            objectFit: 'contain'
+          }}
+        />
+      )}
+      <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
+        <button onClick={prevImage} disabled={index === 0} className="p-2">
+          <VscChevronLeft className="h-5 w-5" />
+        </button>
+        <button
+          onClick={zoomOut}
+          disabled={thisImageDimensions.width <= 100 || thisImageDimensions.height <= 100}
+          className="p-2"
+        >
+          <VscZoomOut className="h-5 w-5" />
+        </button>
+        <button onClick={zoomIn} className="p-2">
+          <VscZoomIn className="h-5 w-5" />
+        </button>
+        <button onClick={nextImage} disabled={index === images.length - 1} className="p-2">
+          <VscChevronRight className="h-5 w-5" />
+        </button>
       </div>
     </div>
   )
