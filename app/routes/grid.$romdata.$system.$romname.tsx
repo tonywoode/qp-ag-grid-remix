@@ -113,7 +113,7 @@ const calculateImageDimensions = src => {
 
 const TextFileRenderer = ({ index, romname, base64Data }) => {
   return (
-    <div className="pl-3 bg-gray-800 text-white rounded-lg">
+    <div className="p-3 bg-gray-800 text-white rounded-lg">
       <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
         {romname} Text File {index}
       </h1>
@@ -342,7 +342,7 @@ export default function MediaPanel() {
     ),
     mameDat: data =>
       data.mameDat && !data.mameDat.error ? (
-        <div className="pl-3 bg-gray-800 text-white rounded-lg">
+        <div className="p-3 bg-gray-800 text-white rounded-lg">
           <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
             {/* pre-wrap to preserve linespaces (some mame titles are in Japanese first with English below) */}
             {data.mameDat.title}
@@ -412,7 +412,7 @@ export default function MediaPanel() {
 function ImageNavigation({ images, currentIndex, initialImageDimensions, setLightboxDimensions }) {
   const [index, setIndex] = useState(currentIndex)
   const [loading, setLoading] = useState(true)
-  const [thisImageDimensions, setThisImageDimensions] = useState({ height: 0, width: 0 })
+  const [thisImageDimensions, setThisImageDimensions] = useState(initialImageDimensions)
 
   console.log('image dimensions passed to ImageNavigation ', initialImageDimensions)
   useEffect(() => {
