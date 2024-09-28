@@ -389,7 +389,6 @@ export default function MediaPanel() {
             left: '50%',
             right: 'auto',
             bottom: 'auto',
-            marginRight: '-50%',
             transform: 'translate(-50%, -50%)',
             width: lightboxDimensions.width,
             height: lightboxDimensions.height,
@@ -398,7 +397,8 @@ export default function MediaPanel() {
             overflow: lightboxContentType === 'text/plain' ? 'auto' : 'hidden',
             display: 'flex',
             justifyContent: 'center',
-            alignItems: lightboxContentType === 'text/plain' ? 'flex-start' : 'center'
+            alignItems: lightboxContentType === 'text/plain' ? 'flex-start' : 'center',
+            border: 'none'
             // transition: 'width 0.05s ease-in-out, height 0.05s ease-in-out'
           }
         }}
@@ -411,18 +411,15 @@ export default function MediaPanel() {
 
 function ImageNavigation({ images, currentIndex, initialImageDimensions, setLightboxDimensions }) {
   const [index, setIndex] = useState(currentIndex)
-  const [loading, setLoading] = useState(true)
   const [thisImageDimensions, setThisImageDimensions] = useState(initialImageDimensions)
 
   console.log('image dimensions passed to ImageNavigation ', initialImageDimensions)
   useEffect(() => {
     const fetchDimensions = async () => {
-      setLoading(true)
       const dimensions = await calculateImageDimensions(images[index])
       console.log('I set some new dimensions ' + dimensions.height + ' ' + dimensions.width)
       setLightboxDimensions(dimensions)
       setThisImageDimensions(dimensions)
-      setLoading(false)
     }
     fetchDimensions() //handle async
   }, [index, images])
@@ -452,41 +449,41 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
   const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
   return (
     <div className="fixed inset-0 left-0 flex items-center justify-center max-w-full max-h-full">
-      {!loading && (
+      <div className="m-3 ">
         <img
           src={images[index]}
           alt={`${index + 1}`}
-          // className="transition-opacity duration-300 opacity-100"
           style={{
             width: thisImageDimensions.width,
             height: thisImageDimensions.height,
             // maxWidth: '80%',
             // maxHeight: '80%',
-            objectFit: 'contain'
+            objectFit: 'contain',
+            borderRadius: '1.5rem'
           }}
         />
-      )}
-      <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75 select-none">
-        <button onClick={prevImage} className={`p-2 ${index === 0 ? 'invisible' : ''}`}>
-          <VscChevronLeft className="h-5 w-5" />
-        </button>
-        <button
-          onClick={zoomOut}
-          disabled={thisImageDimensions.width <= 100 || thisImageDimensions.height <= 100}
-          className="p-2"
-        >
-          <VscZoomOut className="h-5 w-5" />
-        </button>
-        <button onClick={zoomIn} className="p-2">
-          <VscZoomIn className="h-5 w-5" />
-        </button>
-        <button
-          onClick={nextImage}
-          disabled={index === images.length - 1}
-          className={`p-2 ${index === images.length - 1 ? 'invisible' : ''}`}
-        >
-          <VscChevronRight className="h-5 w-5" />
-        </button>
+        <div className="absolute bottom-2 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75 select-none">
+          <button onClick={prevImage} className={`p-2 ${index === 0 ? 'invisible' : ''}`}>
+            <VscChevronLeft className="h-5 w-5" />
+          </button>
+          <button
+            onClick={zoomOut}
+            disabled={thisImageDimensions.width <= 100 || thisImageDimensions.height <= 100}
+            className="p-2"
+          >
+            <VscZoomOut className="h-5 w-5" />
+          </button>
+          <button onClick={zoomIn} className="p-2">
+            <VscZoomIn className="h-5 w-5" />
+          </button>
+          <button
+            onClick={nextImage}
+            disabled={index === images.length - 1}
+            className={`p-2 ${index === images.length - 1 ? 'invisible' : ''}`}
+          >
+            <VscChevronRight className="h-5 w-5" />
+          </button>
+        </div>
       </div>
     </div>
   )
