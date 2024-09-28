@@ -395,7 +395,7 @@ export default function MediaPanel() {
             height: lightboxDimensions.height,
             maxWidth: lightboxContentType === 'text/plain' ? '80%' : '100%',
             maxHeight: lightboxContentType === 'text/plain' ? '80%' : '100%',
-            overflow: 'hidden',
+            overflow: lightboxContentType === 'text/plain' ? 'auto' : 'hidden',
             display: 'flex',
             justifyContent: 'center',
             alignItems: lightboxContentType === 'text/plain' ? 'flex-start' : 'center'
@@ -466,7 +466,7 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
           }}
         />
       )}
-      <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75">
+      <div className="absolute bottom-0 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75 select-none">
         <button onClick={prevImage} className={`p-2 ${index === 0 ? 'invisible' : ''}`}>
           <VscChevronLeft className="h-5 w-5" />
         </button>
