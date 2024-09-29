@@ -14,7 +14,7 @@ import SimplePDFViewer from '~/components/pdfViewer.client'
 import Modal from 'react-modal'
 // import ImageNavigation from '~/Components/ImageNavigation'
 import pdfSlickCSS from '@pdfslick/react/dist/pdf_viewer.css'
-import { VscChevronLeft, VscChevronRight, VscZoomIn, VscZoomOut } from 'react-icons/vsc' //TODO import this in pdf-specific route
+import { VscChevronLeft, VscChevronRight, VscSearch } from 'react-icons/vsc'
 export function links() {
   return [{ rel: 'stylesheet', href: pdfSlickCSS }]
 }
@@ -412,43 +412,41 @@ export default function MediaPanel() {
 function ImageNavigation({ images, currentIndex, initialImageDimensions, setLightboxDimensions }) {
   const [index, setIndex] = useState(currentIndex)
   const [thisImageDimensions, setThisImageDimensions] = useState(initialImageDimensions)
+  const [zoomLevel, setZoomLevel] = useState(1)
+  const [isSliderActive, setIsSliderActive] = useState(false)
 
-  console.log('image dimensions passed to ImageNavigation ', initialImageDimensions)
   useEffect(() => {
     const fetchDimensions = async () => {
       const dimensions = await calculateImageDimensions(images[index])
-      console.log('I set some new dimensions ' + dimensions.height + ' ' + dimensions.width)
-      setLightboxDimensions(dimensions)
-      setThisImageDimensions(dimensions)
+      const newDimensions = {
+        width: dimensions.width * zoomLevel,
+        height: dimensions.height * zoomLevel
+      }
+      setLightboxDimensions(newDimensions)
+      setThisImageDimensions(newDimensions)
     }
     fetchDimensions() //handle async
-  }, [index, images])
+  }, [index, images, zoomLevel, setLightboxDimensions])
 
-  const zoomIn = () => {
-    setLightboxDimensions(prev => ({
-      width: prev.width * 1.25,
-      height: prev.height * 1.25
-    }))
-    setThisImageDimensions(prev => ({
-      width: prev.width * 1.25,
-      height: prev.height * 1.25
-    }))
+  const handleZoomChange = event => {
+    const newZoomLevel = parseFloat(event.target.value)
+    setZoomLevel(newZoomLevel)
+    updateImageDimensions(newZoomLevel)
   }
 
-  const zoomOut = () => {
-    setLightboxDimensions(prev => ({
-      width: prev.width * 0.75,
-      height: prev.height * 0.75
-    }))
-    setThisImageDimensions(prev => ({
-      width: prev.width * 0.75,
-      height: prev.height * 0.75
-    }))
+  const updateImageDimensions = zoom => {
+    const newDimensions = {
+      width: initialImageDimensions.width * zoom,
+      height: initialImageDimensions.height * zoom
+    }
+    setThisImageDimensions(newDimensions)
+    setLightboxDimensions(newDimensions)
   }
+
   const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
   const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
   return (
-    <div className="fixed inset-0 left-0 flex items-center justify-center max-w-full max-h-full">
+    <div className="fixed inset-0 flex items-center justify-center max-w-full max-h-full">
       <div className="m-3 relative">
         <img
           src={images[index]}
@@ -462,25 +460,31 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
             borderRadius: '1.5rem'
           }}
         />
-        <div className="absolute bottom-0 left-0 w-full flex justify-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
+        <div className="absolute bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
           <button onClick={prevImage} className={`p-2 ${index === 0 ? 'invisible' : ''}`}>
             <VscChevronLeft className="h-5 w-5" />
           </button>
-          <button
-            onClick={zoomOut}
-            disabled={thisImageDimensions.width <= 100 || thisImageDimensions.height <= 100}
-            className="p-2"
+          <div
+            className="relative flex items-center justify-center"
+            onMouseEnter={() => setIsSliderActive(true)}
+            onMouseLeave={() => setIsSliderActive(false)}
           >
-            <VscZoomOut className="h-5 w-5" />
-          </button>
-          <button onClick={zoomIn} className="p-2">
-            <VscZoomIn className="h-5 w-5" />
-          </button>
-          <button
-            onClick={nextImage}
-            disabled={index === images.length - 1}
-            className={`p-2 ${index === images.length - 1 ? 'invisible' : ''}`}
-          >
+            <VscSearch className={`h-5 w-5 ${isSliderActive ? 'hidden' : 'block'}`} />
+            {isSliderActive && (
+              <div className="absolute bottom-full mb-8 flex flex-col items-center">
+                <input
+                  type="range"
+                  min="1"
+                  max="1.25"
+                  step="0.01"
+                  value={zoomLevel}
+                  onChange={handleZoomChange}
+                  className="w-20 h-4 appearance-none bg-gray-300 rounded-full cursor-pointer transform -rotate-90"
+                />
+              </div>
+            )}
+          </div>
+          <button onClick={nextImage} className={`p-2 ${index === images.length - 1 ? 'invisible' : ''}`}>
             <VscChevronRight className="h-5 w-5" />
           </button>
         </div>
