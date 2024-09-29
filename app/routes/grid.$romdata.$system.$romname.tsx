@@ -449,7 +449,7 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
   const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
   return (
     <div className="fixed inset-0 left-0 flex items-center justify-center max-w-full max-h-full">
-      <div className="m-3 ">
+      <div className="m-3 relative">
         <img
           src={images[index]}
           alt={`${index + 1}`}
@@ -462,7 +462,7 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
             borderRadius: '1.5rem'
           }}
         />
-        <div className="absolute bottom-2 w-full flex justify-center space-x-2 p-2 bg-white bg-opacity-75 select-none">
+        <div className="absolute bottom-0 left-0 w-full flex justify-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
           <button onClick={prevImage} className={`p-2 ${index === 0 ? 'invisible' : ''}`}>
             <VscChevronLeft className="h-5 w-5" />
           </button>
