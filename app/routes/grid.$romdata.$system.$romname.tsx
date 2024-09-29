@@ -443,8 +443,17 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
     setLightboxDimensions(newDimensions)
   }
 
-  const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
-  const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
+  // const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
+  // const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
+
+  const prevImage = () => {
+    setIndex(prev => (prev === 0 ? images.length - 1 : prev - 1))
+  }
+
+  const nextImage = () => {
+    setIndex(prev => (prev === images.length - 1 ? 0 : prev + 1))
+  }
+
   return (
     <div className="fixed inset-0 flex items-center justify-center max-w-full max-h-full">
       <div className="m-3 relative">
@@ -461,7 +470,7 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
           }}
         />
         <div className="absolute bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
-          <button onClick={prevImage} className={`p-2 ${index === 0 ? 'invisible' : ''}`}>
+          <button onClick={prevImage} className={`p-2`}>
             <VscChevronLeft className="h-5 w-5" />
           </button>
           <div
@@ -484,7 +493,7 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
               </div>
             )}
           </div>
-          <button onClick={nextImage} className={`p-2 ${index === images.length - 1 ? 'invisible' : ''}`}>
+          <button onClick={nextImage} className={`p-2 `}>
             <VscChevronRight className="h-5 w-5" />
           </button>
         </div>
