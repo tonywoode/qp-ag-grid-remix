@@ -442,7 +442,27 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
     setThisImageDimensions(newDimensions)
     setLightboxDimensions(newDimensions)
   }
+ const zoomIn = () => {
+   setLightboxDimensions(prev => ({
+     width: prev.width * 1.25,
+     height: prev.height * 1.25
+   }))
+   setThisImageDimensions(prev => ({
+     width: prev.width * 1.25,
+     height: prev.height * 1.25
+   }))
+ }
 
+ const zoomOut = () => {
+   setLightboxDimensions(prev => ({
+     width: prev.width * 0.75,
+     height: prev.height * 0.75
+   }))
+   setThisImageDimensions(prev => ({
+     width: prev.width * 0.75,
+     height: prev.height * 0.75
+   }))
+ }
   // const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
   // const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
 
@@ -453,6 +473,25 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
   const nextImage = () => {
     setIndex(prev => (prev === images.length - 1 ? 0 : prev + 1))
   }
+
+  useEffect(() => {
+    const handleKeyDown = event => {
+      if (event.key === 'ArrowLeft') {
+        prevImage()
+      } else if (event.key === 'ArrowRight') {
+        nextImage()
+      } else if (event.key === 'ArrowUp') {
+        zoomIn()
+      } else if (event.key === 'ArrowDown') {
+        zoomOut()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [])
 
   return (
     <div className="fixed inset-0 flex items-center justify-center max-w-full max-h-full">
