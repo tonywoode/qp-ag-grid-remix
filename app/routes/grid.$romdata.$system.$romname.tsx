@@ -89,18 +89,7 @@ const openInDefaultBrowser = url => {
 }
 
 
-const TextFileRenderer = ({ index, romname, base64Data }) => {
-  return (
-    <div className="p-3 bg-gray-800 text-white rounded-lg">
-      <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
-        {romname} Text File {index}
-      </h1>
-      <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
-        {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
-      </pre>
-    </div>
-  )
-}
+
 
 export default function MediaPanel() {
   const location = useLocation()
@@ -196,12 +185,17 @@ export default function MediaPanel() {
           key={index}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
           onClick={() => {
-            const dimensions = { width: 'auto', height: 'auto' }
             openLightbox(
-              <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />,
-              mimeType,
-              dimensions
+              <MediaNavigation
+                textIndex={index}
+                romname={romname}
+                base64Data={base64Data}
+                lightboxContentType={mimeType}
+              />,
+              mimeType
             )
+            // const dimensions = { width: 'auto', height: 'auto' }  //TODO: This needs to be set in the MediaNavigation component!!!
+            // openLightbox(<TextFileRenderer index={index} romname={romname} base64Data={base64Data} />, mimeType)
           }}
           style={{ flexBasis: '20%' }}
         >
@@ -276,11 +270,12 @@ export default function MediaPanel() {
           style={{ flexBasis: '20%' }}
           onClick={async () => {
             openLightbox(
-              <ImageNavigation
+              <MediaNavigation
                 images={mediaItems}
                 currentIndex={index}
                 isLightboxOpen={isLightboxOpen}
                 closeLightbox={closeLightbox}
+                lightboxContentType={mimeType}
               />,
               mimeType
             )
@@ -357,7 +352,16 @@ export default function MediaPanel() {
   )
 }
 
-function ImageNavigation({ images, currentIndex, isLightboxOpen, closeLightbox }) {
+function MediaNavigation({
+  images,
+  currentIndex,
+  isLightboxOpen,
+  closeLightbox,
+  lightboxContentType,
+  textIndex,
+  romname,
+  base64Data
+}) {
   const [index, setIndex] = useState(currentIndex)
   const [thisImageDimensions, setThisImageDimensions] = useState({ width: 'auto', height: 'auto' })
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: '80%', height: '80%' })
@@ -367,7 +371,45 @@ function ImageNavigation({ images, currentIndex, isLightboxOpen, closeLightbox }
   const [isDragging, setIsDragging] = useState(false)
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 })
-
+  if (lightboxContentType === 'text/plain') {
+    return <TextFileRenderer textIndex={textIndex} romname={romname} base64Data={base64Data} />
+  }
+  function TextFileRenderer({ textIndex, romname, base64Data }) {
+    return (
+      <Modal
+        isOpen={true} // {isLightboxOpen} damn
+        onRequestClose={closeLightbox}
+        style={{
+          overlay: { zIndex: 3 },
+          content: {
+            top: '50%',
+            left: '50%',
+            right: 'auto',
+            bottom: 'auto',
+            transform: 'translate(-50%, -50%)',
+            width: thisImageDimensions.width,
+            height: thisImageDimensions.height,
+            maxWidth: '100%',
+            maxHeight: '100%',
+            overflow: 'auto',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            border: 'none'
+          }
+        }}
+      >
+        <div className="p-3 bg-gray-800 text-white rounded-lg">
+          <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
+            {romname} Text File {textIndex}
+          </h1>
+          <pre key={textIndex} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
+            {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
+          </pre>
+        </div>
+      </Modal>
+    )
+  }
   const calculateImageDimensions = src => {
     return new Promise((resolve, reject) => {
       if (!src) return reject(new Error('Image source is required'))
