@@ -552,10 +552,10 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
             onMouseEnter={() => setIsSliderActive(true)}
             onMouseLeave={() => setIsSliderActive(false)}
           >
-            <VscSearch className={`h-5 w-5 ${isSliderActive ? 'hidden' : 'block'}`} />
+            <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
             {console.log('zoom level is ' + zoomLevel) ||
               (isSliderActive && (
-                <div className="absolute bottom-full mb-16 flex flex-col items-center">
+                <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
                   <input
                     type="range"
                     min="1"
@@ -563,33 +563,22 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
                     step="0.01"
                     value={zoomLevel <= 1 ? 1 : Math.min(zoomLevel, 1.25)}
                     onChange={handleZoomChange}
-                    className="w-40 h-8 appearance-none rounded-full cursor-pointer transform -rotate-90 bg-opacity-20 backdrop-blur"
+                    className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
                     style={{
-                      background: 'rgba(255, 255, 255, 0.2)',
-                      backdropFilter: 'blur(10px)',
-                      outline: 'none',
-                      WebkitAppearance: 'none',
-                      appearance: 'none'
+                      background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
                     }}
                   />
                   <style jsx>{`
                     input[type='range']::-webkit-slider-thumb {
-                      width: 1.5rem;
-                      height: 1.5rem;
-                      background: #ffffff;
-                      border: 0.2rem solid #ff0000;
-                      border-radius: 50%;
+                      width: 1rem;
+                      height: 1rem;
+                      background: rgba(255, 255, 255, 0.75);
+                      border: 0.1rem solid rgba(1, 1, 1, 1);
+                      border-radius: 100%;
+                      opacity: 0.35;
                       cursor: pointer;
                       webkitappearance: none;
                       appearance: none;
-                    }
-                    input[type='range']::-moz-range-thumb {
-                      width: 1.5rem;
-                      height: 1.5rem;
-                      background: #ffffff;
-                      border: 0.2rem solid #ff0000;
-                      border-radius: 50%;
-                      cursor: pointer;
                     }
                   `}</style>
                 </div>
