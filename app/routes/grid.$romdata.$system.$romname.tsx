@@ -88,9 +88,6 @@ const openInDefaultBrowser = url => {
   window.open(url, '_blank', 'noopener,noreferrer')
 }
 
-
-
-
 export default function MediaPanel() {
   const location = useLocation()
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
@@ -154,12 +151,6 @@ export default function MediaPanel() {
     Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
   }, [])
 
-  const openLightbox = (content, mimeType) => {
-    setLightboxContentType(mimeType) // triggers css on modal to change
-    setLightboxContent(content)
-    setIsLightboxOpen(true)
-  }
-
   const closeLightbox = event => {
     if (event.target.closest('button, a, input, select, textarea')) {
       return
@@ -185,15 +176,19 @@ export default function MediaPanel() {
           key={index}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
           onClick={() => {
-            openLightbox(
+            setLightboxContentType(mimeType) // triggers css on modal to change
+            setLightboxContent(
+              //this fn can just return this - no need to set state?
               <MediaNavigation
                 textIndex={index}
                 romname={romname}
                 base64Data={base64Data}
-                lightboxContentType={mimeType}
-              />,
-              mimeType
+                lightboxContentType={mimeType} //should be lightboxContentType does it need to be dynamic?
+                isLightboxOpen={isLightboxOpen}
+                closeLightbox={closeLightbox}
+              />
             )
+            setIsLightboxOpen(true)
             // const dimensions = { width: 'auto', height: 'auto' }  //TODO: This needs to be set in the MediaNavigation component!!!
             // openLightbox(<TextFileRenderer index={index} romname={romname} base64Data={base64Data} />, mimeType)
           }}
@@ -245,8 +240,11 @@ export default function MediaPanel() {
             className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
             onClick={() => {
               console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!
-              const dimensions = { width: '50%', height: '100%' }
-              openLightbox(<SimplePDFViewer pdfFilePath={arrayBuffer} />, mimeType, dimensions)
+              setLightboxContentType(mimeType) // triggers css on modal to change
+              setLightboxContent(<SimplePDFViewer pdfFilePath={arrayBuffer} />)
+              setIsLightboxOpen(true)
+              const dimensions = { width: '50%', height: '100%' } //TODO: needd setting, somewhere!!!!
+              // return <SimplePDFViewer pdfFilePath={arrayBuffer} /> //THIS should be happening
             }}
             style={{ flexBasis: '20%' }}
           >
@@ -269,16 +267,17 @@ export default function MediaPanel() {
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
           onClick={async () => {
-            openLightbox(
+            setLightboxContentType(mimeType) // triggers css on modal to change
+            setLightboxContent(
               <MediaNavigation
                 images={mediaItems}
                 currentIndex={index}
                 isLightboxOpen={isLightboxOpen}
                 closeLightbox={closeLightbox}
                 lightboxContentType={mimeType}
-              />,
-              mimeType
+              />
             )
+            setIsLightboxOpen(true)
           }}
         />
       )
