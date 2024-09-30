@@ -6,7 +6,7 @@ import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { loadTabData } from '~/tabData.server'
 // import { getTabImages } from '~/getTabImages.server'
 import { decodeString } from '~/utils/safeUrl'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 // import { runGame } from '~/runGame.server'
 import parse, { domToReact, Element } from 'html-react-parser'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry' //we must import then use pdfjs's worker file to get it in the frontend build for pdfslick (or any pdf lib based on pdfjs) client will still warn 'setting up fake worker' but it will work
@@ -414,6 +414,7 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
   const [thisImageDimensions, setThisImageDimensions] = useState(initialImageDimensions)
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
+  const initialTouchDistanceRef = useRef(0)
 
   useEffect(() => {
     const fetchDimensions = async () => {
@@ -429,7 +430,8 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
   }, [index, images, zoomLevel, setLightboxDimensions])
 
   const handleZoomChange = event => {
-    const newZoomLevel = parseFloat(event.target.value)
+    const sliderValue = parseFloat(event.target.value)
+    const newZoomLevel = sliderValue
     setZoomLevel(newZoomLevel)
     updateImageDimensions(newZoomLevel)
   }
@@ -442,27 +444,20 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
     setThisImageDimensions(newDimensions)
     setLightboxDimensions(newDimensions)
   }
- const zoomIn = () => {
-   setLightboxDimensions(prev => ({
-     width: prev.width * 1.25,
-     height: prev.height * 1.25
-   }))
-   setThisImageDimensions(prev => ({
-     width: prev.width * 1.25,
-     height: prev.height * 1.25
-   }))
- }
 
- const zoomOut = () => {
-   setLightboxDimensions(prev => ({
-     width: prev.width * 0.75,
-     height: prev.height * 0.75
-   }))
-   setThisImageDimensions(prev => ({
-     width: prev.width * 0.75,
-     height: prev.height * 0.75
-   }))
- }
+  const zoomIn = () => {
+    const newZoomLevel = Math.min(zoomLevel + 0.25, 3) // Allow zooming up to 300%
+    setZoomLevel(newZoomLevel)
+    updateImageDimensions(newZoomLevel)
+    console.log('zoomLevel:', newZoomLevel)
+  }
+
+  const zoomOut = () => {
+    const newZoomLevel = Math.max(zoomLevel - 0.25, 0.5) // Allow zooming down to 50%
+    setZoomLevel(newZoomLevel)
+    updateImageDimensions(newZoomLevel)
+    console.log('zoomLevel:', newZoomLevel)
+  }
   // const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
   // const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
 
@@ -474,6 +469,31 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
     setIndex(prev => (prev === images.length - 1 ? 0 : prev + 1))
   }
 
+  const handleTouchStart = e => {
+    if (e.touches.length === 2) {
+      // Store initial touch positions and distance
+      const [touch1, touch2] = e.touches
+      initialTouchDistanceRef.current = Math.hypot(touch2.pageX - touch1.pageX, touch2.pageY - touch1.pageY)
+    }
+  }
+
+  const handleTouchMove = e => {
+    if (e.touches.length === 2) {
+      // Calculate new distance between touches
+      const [touch1, touch2] = e.touches
+      const newTouchDistance = Math.hypot(touch2.pageX - touch1.pageX, touch2.pageY - touch1.pageY)
+
+      // Determine zoom direction
+      if (newTouchDistance > initialTouchDistanceRef.current) {
+        zoomIn()
+      } else {
+        zoomOut()
+      }
+
+      // Update initial touch distance
+      initialTouchDistanceRef.current = newTouchDistance
+    }
+  }
   useEffect(() => {
     const handleKeyDown = event => {
       if (event.key === 'ArrowLeft') {
@@ -494,7 +514,22 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
   }, [])
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center max-w-full max-h-full">
+    <div
+      className="fixed inset-0 flex items-center justify-center max-w-full max-h-full"
+      //TODO: this needs testing somehow....
+      onWheel={e => {
+        // if (e.ctrlKey || e.metaKey || e.shiftKey) {
+        // Check if the pinch gesture or middle mouse wheel is used
+        if (e.deltaY < 0) {
+          zoomIn()
+        } else {
+          zoomOut()
+        }
+        // }
+      }}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+    >
       <div className="m-3 relative">
         <img
           src={images[index]}
@@ -518,19 +553,47 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
             onMouseLeave={() => setIsSliderActive(false)}
           >
             <VscSearch className={`h-5 w-5 ${isSliderActive ? 'hidden' : 'block'}`} />
-            {isSliderActive && (
-              <div className="absolute bottom-full mb-8 flex flex-col items-center">
-                <input
-                  type="range"
-                  min="1"
-                  max="1.25"
-                  step="0.01"
-                  value={zoomLevel}
-                  onChange={handleZoomChange}
-                  className="w-20 h-4 appearance-none bg-gray-300 rounded-full cursor-pointer transform -rotate-90"
-                />
-              </div>
-            )}
+            {console.log('zoom level is ' + zoomLevel) ||
+              (isSliderActive && (
+                <div className="absolute bottom-full mb-16 flex flex-col items-center">
+                  <input
+                    type="range"
+                    min="1"
+                    max="1.25"
+                    step="0.01"
+                    value={zoomLevel <= 1 ? 1 : Math.min(zoomLevel, 1.25)}
+                    onChange={handleZoomChange}
+                    className="w-40 h-8 appearance-none rounded-full cursor-pointer transform -rotate-90 bg-opacity-20 backdrop-blur"
+                    style={{
+                      background: 'rgba(255, 255, 255, 0.2)',
+                      backdropFilter: 'blur(10px)',
+                      outline: 'none',
+                      WebkitAppearance: 'none',
+                      appearance: 'none'
+                    }}
+                  />
+                  <style jsx>{`
+                    input[type='range']::-webkit-slider-thumb {
+                      width: 1.5rem;
+                      height: 1.5rem;
+                      background: #ffffff;
+                      border: 0.2rem solid #ff0000;
+                      border-radius: 50%;
+                      cursor: pointer;
+                      webkitappearance: none;
+                      appearance: none;
+                    }
+                    input[type='range']::-moz-range-thumb {
+                      width: 1.5rem;
+                      height: 1.5rem;
+                      background: #ffffff;
+                      border: 0.2rem solid #ff0000;
+                      border-radius: 50%;
+                      cursor: pointer;
+                    }
+                  `}</style>
+                </div>
+              ))}
           </div>
           <button onClick={nextImage} className={`p-2 `}>
             <VscChevronRight className="h-5 w-5" />
