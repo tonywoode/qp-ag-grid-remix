@@ -88,28 +88,6 @@ const openInDefaultBrowser = url => {
   window.open(url, '_blank', 'noopener,noreferrer')
 }
 
-const calculateImageDimensions = src => {
-  return new Promise((resolve, reject) => {
-    if (!src) return reject(new Error('Image source is required'))
-    const img = new Image()
-    img.src = src
-    img.onload = () => {
-      const screenWidth = window.innerWidth
-      const screenHeight = window.innerHeight
-      const imgWidth = img.width
-      const imgHeight = img.height
-      const widthScale = (screenWidth * 0.8) / imgWidth
-      const heightScale = (screenHeight * 0.8) / imgHeight
-      const scale = Math.min(widthScale, heightScale)
-      resolve({
-        width: imgWidth * scale,
-        height: imgHeight * scale,
-        scale
-      })
-    }
-    img.onerror = () => reject(new Error('Failed to load image'))
-  })
-}
 
 const TextFileRenderer = ({ index, romname, base64Data }) => {
   return (
@@ -131,12 +109,11 @@ export default function MediaPanel() {
   const [tabContent, setTabContent] = useState({ tabClass: null, data: null })
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)
   const [lightboxContent, setLightboxContent] = useState(null)
-  const [lightboxDimensions, setLightboxDimensions] = useState({ width: 'auto', height: 'auto' })
+
   const [lightboxContentType, setLightboxContentType] = useState('')
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   console.log('MameNames:', mameNames)
-  console.log('Rendering MediaPanel with lightboxDimensions:', lightboxDimensions)
   const replaceLinks = node => {
     if (node.type === 'tag' && node.name === 'a') {
       const { href } = node.attribs
@@ -188,8 +165,7 @@ export default function MediaPanel() {
     Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
   }, [])
 
-  const openLightbox = (content, mimeType, dimensions = { width: '80%', height: '80%' }) => {
-    setLightboxDimensions(dimensions)
+  const openLightbox = (content, mimeType) => {
     setLightboxContentType(mimeType) // triggers css on modal to change
     setLightboxContent(content)
     setIsLightboxOpen(true)
@@ -299,18 +275,14 @@ export default function MediaPanel() {
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
           onClick={async () => {
-            const dimensions = await calculateImageDimensions(mediaItem)
-            setLightboxDimensions(dimensions)
             openLightbox(
               <ImageNavigation
                 images={mediaItems}
                 currentIndex={index}
-                initialImageDimensions={dimensions}
-                setLightboxDimensions={setLightboxDimensions}
+                isLightboxOpen={isLightboxOpen}
                 closeLightbox={closeLightbox}
               />,
-              mimeType,
-              dimensions
+              mimeType
             )
           }}
         />
@@ -385,15 +357,39 @@ export default function MediaPanel() {
   )
 }
 
-function ImageNavigation({ images, currentIndex, initialImageDimensions, setLightboxDimensions, closeLightbox }) {
+function ImageNavigation({ images, currentIndex, isLightboxOpen, closeLightbox }) {
   const [index, setIndex] = useState(currentIndex)
-  const [thisImageDimensions, setThisImageDimensions] = useState(initialImageDimensions)
+  const [thisImageDimensions, setThisImageDimensions] = useState({ width: 'auto', height: 'auto' })
+  const [lightboxDimensions, setLightboxDimensions] = useState({ width: '80%', height: '80%' })
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
   const initialTouchDistanceRef = useRef(0)
   const [isDragging, setIsDragging] = useState(false)
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 })
+
+  const calculateImageDimensions = src => {
+    return new Promise((resolve, reject) => {
+      if (!src) return reject(new Error('Image source is required'))
+      const img = new Image()
+      img.src = src
+      img.onload = () => {
+        const screenWidth = window.innerWidth
+        const screenHeight = window.innerHeight
+        const imgWidth = img.width
+        const imgHeight = img.height
+        const widthScale = (screenWidth * 0.8) / imgWidth
+        const heightScale = (screenHeight * 0.8) / imgHeight
+        const scale = Math.min(widthScale, heightScale)
+        resolve({
+          width: imgWidth * scale,
+          height: imgHeight * scale,
+          scale
+        })
+      }
+      img.onerror = () => reject(new Error('Failed to load image'))
+    })
+  }
 
   useEffect(() => {
     const fetchDimensions = async () => {
@@ -436,8 +432,8 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
 
   const updateImageDimensions = zoom => {
     const newDimensions = {
-      width: initialImageDimensions.width * zoom,
-      height: initialImageDimensions.height * zoom
+      width: lightboxDimensions.width * zoom,
+      height: lightboxDimensions.height * zoom
     }
     setThisImageDimensions(newDimensions)
     setLightboxDimensions(newDimensions)
@@ -513,7 +509,7 @@ function ImageNavigation({ images, currentIndex, initialImageDimensions, setLigh
 
   return (
     <Modal
-      isOpen={true}
+      isOpen={true} // {isLightboxOpen} damn
       onRequestClose={closeLightbox}
       style={{
         overlay: { zIndex: 3 },
