@@ -95,8 +95,6 @@ export default function MediaPanel() {
   const [tabContent, setTabContent] = useState({ tabClass: null, data: null })
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)
   const [lightboxContent, setLightboxContent] = useState(null)
-
-  const [lightboxContentType, setLightboxContentType] = useState('')
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   console.log('MameNames:', mameNames)
@@ -176,14 +174,13 @@ export default function MediaPanel() {
           key={index}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
           onClick={() => {
-            setLightboxContentType(mimeType) // triggers css on modal to change
             setLightboxContent(
               //this fn can just return this - no need to set state?
               <MediaNavigation
                 textIndex={index}
                 romname={romname}
                 base64Data={base64Data}
-                lightboxContentType={mimeType} //should be lightboxContentType does it need to be dynamic?
+                mimeType={mimeType}
                 isLightboxOpen={isLightboxOpen}
                 closeLightbox={closeLightbox}
               />
@@ -240,7 +237,6 @@ export default function MediaPanel() {
             className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
             onClick={() => {
               console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!
-              setLightboxContentType(mimeType) // triggers css on modal to change
               setLightboxContent(<SimplePDFViewer pdfFilePath={arrayBuffer} />)
               setIsLightboxOpen(true)
               const dimensions = { width: '50%', height: '100%' } //TODO: needd setting, somewhere!!!!
@@ -267,14 +263,13 @@ export default function MediaPanel() {
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
           onClick={async () => {
-            setLightboxContentType(mimeType) // triggers css on modal to change
             setLightboxContent(
               <MediaNavigation
                 images={mediaItems}
                 currentIndex={index}
                 isLightboxOpen={isLightboxOpen}
                 closeLightbox={closeLightbox}
-                lightboxContentType={mimeType}
+                mimeType={mimeType}
               />
             )
             setIsLightboxOpen(true)
@@ -356,7 +351,7 @@ function MediaNavigation({
   currentIndex,
   isLightboxOpen,
   closeLightbox,
-  lightboxContentType,
+  mimeType,
   textIndex,
   romname,
   base64Data
@@ -370,7 +365,7 @@ function MediaNavigation({
   const [isDragging, setIsDragging] = useState(false)
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 })
-  if (lightboxContentType === 'text/plain') {
+  if (mimeType === 'text/plain') {
     return <TextFileRenderer textIndex={textIndex} romname={romname} base64Data={base64Data} />
   }
   function TextFileRenderer({ textIndex, romname, base64Data }) {
