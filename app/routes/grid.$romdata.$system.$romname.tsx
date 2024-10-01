@@ -400,47 +400,6 @@ function MediaNavigation({ images, currentIndex, isLightboxOpen, closeLightbox, 
 
   const handleMouseUp = () => setIsDragging(false)
 
-  function TextFileRenderer({ index, romname, base64Data }) {
-    return (
-      <Modal
-        isOpen={isLightboxOpen}
-        onRequestClose={closeLightbox}
-        style={{
-          overlay: { zIndex: 3 },
-          content: {
-            top: '50%',
-            left: '50%',
-            right: 'auto',
-            bottom: 'auto',
-            transform: 'translate(-50%, -50%)',
-            width: thisImageDimensions.width,
-            height: thisImageDimensions.height,
-            maxWidth: '100%',
-            maxHeight: '100%',
-            overflow: 'auto',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            border: 'none'
-          }
-        }}
-      >
-        <div className="p-3 bg-gray-800 text-white rounded-lg">
-          <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
-            {romname} Text File {index}
-          </h1>
-          <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
-            {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
-          </pre>
-        </div>
-      </Modal>
-    )
-  }
-
-  if (mimeType === 'text/plain') {
-    return <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />
-  }
-
   const handleZoomChange = event => {
     const sliderValue = parseFloat(event.target.value)
     const newZoomLevel = sliderValue
@@ -499,22 +458,65 @@ function MediaNavigation({ images, currentIndex, isLightboxOpen, closeLightbox, 
     }
   }
   useEffect(() => {
-    const handleKeyDown = event => {
-      if (event.key === 'ArrowLeft') {
-        prevImage()
-      } else if (event.key === 'ArrowRight') {
-        nextImage()
-      } else if (event.key === 'ArrowUp') {
-        zoomIn()
-      } else if (event.key === 'ArrowDown') {
-        zoomOut()
+    if (mimeType.startsWith('image')) {
+      const handleKeyDown = event => {
+        if (event.key === 'ArrowLeft') {
+          prevImage()
+        } else if (event.key === 'ArrowRight') {
+          nextImage()
+        } else if (event.key === 'ArrowUp') {
+          zoomIn()
+        } else if (event.key === 'ArrowDown') {
+          zoomOut()
+        }
+      }
+      window.addEventListener('keydown', handleKeyDown)
+      return () => {
+        window.removeEventListener('keydown', handleKeyDown)
       }
     }
-    window.addEventListener('keydown', handleKeyDown)
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown)
-    }
-  }, [])
+  }, [mimeType])
+
+  if (mimeType === 'text/plain') {
+    return <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />
+  }
+
+  function TextFileRenderer({ index, romname, base64Data }) {
+    return (
+      <Modal
+        isOpen={isLightboxOpen}
+        onRequestClose={closeLightbox}
+        style={{
+          overlay: { zIndex: 3 },
+          content: {
+            top: '50%',
+            left: '50%',
+            right: 'auto',
+            bottom: 'auto',
+            transform: 'translate(-50%, -50%)',
+            width: thisImageDimensions.width,
+            height: thisImageDimensions.height,
+            maxWidth: '100%',
+            maxHeight: '100%',
+            overflow: 'auto',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            border: 'none'
+          }
+        }}
+      >
+        <div className="p-3 bg-gray-800 text-white rounded-lg">
+          <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
+            {romname} Text File {index}
+          </h1>
+          <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
+            {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
+          </pre>
+        </div>
+      </Modal>
+    )
+  }
 
   return (
     <Modal
