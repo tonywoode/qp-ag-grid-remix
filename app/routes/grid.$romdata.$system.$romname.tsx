@@ -173,17 +173,12 @@ export default function MediaPanel() {
           key={index}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
           onClick={() => {
-            setLightboxContent(
-              //this fn can just return this - no need to set state?
-              <MediaNavigation
-                textIndex={index}
-                romname={romname}
-                base64Data={base64Data}
-                mimeType={mimeType}
-                isLightboxOpen={isLightboxOpen}
-                closeLightbox={closeLightbox}
-              />
-            )
+            setLightboxContent({
+              currentIndex: index,
+              romname,
+              base64Data,
+              mimeType
+            })
             setIsLightboxOpen(true)
             // const dimensions = { width: 'auto', height: 'auto' }  //TODO: This needs to be set in the MediaNavigation component!!!
             // openLightbox(<TextFileRenderer index={index} romname={romname} base64Data={base64Data} />, mimeType)
@@ -343,16 +338,7 @@ export default function MediaPanel() {
   )
 }
 
-function MediaNavigation({
-  images,
-  currentIndex,
-  isLightboxOpen,
-  closeLightbox,
-  mimeType,
-  textIndex,
-  romname,
-  base64Data
-}) {
+function MediaNavigation({ images, currentIndex, isLightboxOpen, closeLightbox, mimeType, romname, base64Data }) {
   const [index, setIndex] = useState(currentIndex)
   const [thisImageDimensions, setThisImageDimensions] = useState({ width: 'auto', height: 'auto' })
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: '80%', height: '80%' })
@@ -363,7 +349,7 @@ function MediaNavigation({
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 })
   if (mimeType === 'text/plain') {
-    return <TextFileRenderer textIndex={textIndex} romname={romname} base64Data={base64Data} />
+    return <TextFileRenderer textIndex={index} romname={romname} base64Data={base64Data} />
   }
   function TextFileRenderer({ textIndex, romname, base64Data }) {
     return (
@@ -442,9 +428,7 @@ function MediaNavigation({
     setDragStart({ x: e.clientX - imagePosition.x, y: e.clientY - imagePosition.y })
   }
 
-  const handleDragStart = e => {
-    e.preventDefault()
-  }
+  const handleDragStart = e => e.preventDefault()
 
   const handleMouseMove = e => {
     if (isDragging) {
@@ -452,9 +436,7 @@ function MediaNavigation({
     }
   }
 
-  const handleMouseUp = () => {
-    setIsDragging(false)
-  }
+  const handleMouseUp = () => setIsDragging(false)
 
   const handleZoomChange = event => {
     const sliderValue = parseFloat(event.target.value)
@@ -487,14 +469,8 @@ function MediaNavigation({
   }
   // const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
   // const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
-
-  const prevImage = () => {
-    setIndex(prev => (prev === 0 ? images.length - 1 : prev - 1))
-  }
-
-  const nextImage = () => {
-    setIndex(prev => (prev === images.length - 1 ? 0 : prev + 1))
-  }
+  const prevImage = () => setIndex(prev => (prev === 0 ? images.length - 1 : prev - 1))
+  const nextImage = () => setIndex(prev => (prev === images.length - 1 ? 0 : prev + 1))
 
   const handleTouchStart = e => {
     if (e.touches.length === 2) {
@@ -509,14 +485,12 @@ function MediaNavigation({
       // Calculate new distance between touches
       const [touch1, touch2] = e.touches
       const newTouchDistance = Math.hypot(touch2.pageX - touch1.pageX, touch2.pageY - touch1.pageY)
-
       // Determine zoom direction
       if (newTouchDistance > initialTouchDistanceRef.current) {
         zoomIn()
       } else {
         zoomOut()
       }
-
       // Update initial touch distance
       initialTouchDistanceRef.current = newTouchDistance
     }
@@ -533,7 +507,6 @@ function MediaNavigation({
         zoomOut()
       }
     }
-
     window.addEventListener('keydown', handleKeyDown)
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
