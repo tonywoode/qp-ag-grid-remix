@@ -12,7 +12,6 @@ import parse, { domToReact, Element } from 'html-react-parser'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry' //we must import then use pdfjs's worker file to get it in the frontend build for pdfslick (or any pdf lib based on pdfjs) client will still warn 'setting up fake worker' but it will work
 import SimplePDFViewer from '~/components/pdfViewer.client'
 import Modal from 'react-modal'
-// import ImageNavigation from '~/Components/ImageNavigation'
 import pdfSlickCSS from '@pdfslick/react/dist/pdf_viewer.css'
 import { VscChevronLeft, VscChevronRight, VscSearch } from 'react-icons/vsc'
 export function links() {
@@ -262,17 +261,13 @@ export default function MediaPanel() {
           alt={`Screenshot ${index}`}
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
-          onClick={async () => {
-            setLightboxContent(
-              <MediaNavigation
-                images={mediaItems}
-                currentIndex={index}
-                isLightboxOpen={isLightboxOpen}
-                closeLightbox={closeLightbox}
-                mimeType={mimeType}
-              />
-            )
+          onClick={() => {
             setIsLightboxOpen(true)
+            setLightboxContent({
+              images: mediaItems,
+              currentIndex: index,
+              mimeType: mimeType
+            })
           }}
         />
       )
@@ -341,7 +336,9 @@ export default function MediaPanel() {
           })}
         </div>
       </Tabs>
-      {lightboxContent}
+      {lightboxContent && (
+        <MediaNavigation {...lightboxContent} isLightboxOpen={isLightboxOpen} closeLightbox={closeLightbox} />
+      )}
     </div>
   )
 }
@@ -371,7 +368,7 @@ function MediaNavigation({
   function TextFileRenderer({ textIndex, romname, base64Data }) {
     return (
       <Modal
-        isOpen={true} // {isLightboxOpen} damn
+        isOpen={isLightboxOpen}
         onRequestClose={closeLightbox}
         style={{
           overlay: { zIndex: 3 },
@@ -545,7 +542,7 @@ function MediaNavigation({
 
   return (
     <Modal
-      isOpen={true} // {isLightboxOpen} damn
+      isOpen={isLightboxOpen}
       onRequestClose={closeLightbox}
       style={{
         overlay: { zIndex: 3 },
