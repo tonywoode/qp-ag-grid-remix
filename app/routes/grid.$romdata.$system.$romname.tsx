@@ -190,6 +190,7 @@ export default function MediaPanel() {
       )
     }
 
+    //TODO: convert/handle
     if (mimeType.startsWith('video')) {
       return (
         <div key={index} className="flex-grow" style={{ flexBasis: '20%' }}>
@@ -201,6 +202,7 @@ export default function MediaPanel() {
       )
     }
 
+    //TODO: convert/handle
     if (mimeType.startsWith('audio')) {
       return (
         <div key={index} className="flex-grow" style={{ flexBasis: '20%' }}>
@@ -231,10 +233,10 @@ export default function MediaPanel() {
             className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
             onClick={() => {
               console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!
-              setLightboxContent(<SimplePDFViewer pdfFilePath={arrayBuffer} />)
+              // setLightboxContent(<SimplePDFViewer pdfFilePath={arrayBuffer} />)
+              setLightboxContent({ pdfFilePath: arrayBuffer, currentIndex: index, mimeType })
               setIsLightboxOpen(true)
-              const dimensions = { width: '50%', height: '100%' } //TODO: needd setting, somewhere!!!!
-              // return <SimplePDFViewer pdfFilePath={arrayBuffer} /> //THIS should be happening
+              // const dimensions = { width: '50%', height: '100%' } //handle properly (see imagedimensions in media nav!!!!
             }}
             style={{ flexBasis: '20%' }}
           >
@@ -257,18 +259,19 @@ export default function MediaPanel() {
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
           onClick={() => {
-            setIsLightboxOpen(true)
             setLightboxContent({
               images: mediaItems,
               currentIndex: index,
               mimeType: mimeType
             })
+            setIsLightboxOpen(true)
           }}
         />
       )
     }
 
     //TODO: do a mime lookup on the filename, if its renderable, try to render it in iframe, we exclude some types we don't want to render in the backend
+    //TODO: lightbox? mediaItem would now hit image handling.....
     else {
       return (
         <iframe
@@ -338,9 +341,21 @@ export default function MediaPanel() {
   )
 }
 
-function MediaNavigation({ images, currentIndex, isLightboxOpen, closeLightbox, mimeType, romname, base64Data }) {
+function MediaNavigation({
+  images,
+  currentIndex,
+  isLightboxOpen,
+  closeLightbox,
+  mimeType,
+  romname,
+  base64Data,
+  pdfFilePath
+}) {
   const [index, setIndex] = useState(currentIndex)
-  const [thisImageDimensions, setThisImageDimensions] = useState({ width: 'auto', height: 'auto' })
+  // TODO: below is a temporary fix for mimetype dimensions to get pdf working
+  const startingImageDimensions =
+    mimeType === 'application/pdf' ? { width: '50%', height: '100%' } : { width: 'auto', height: 'auto' }
+  const [thisImageDimensions, setThisImageDimensions] = useState(startingImageDimensions)
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: '80%', height: '80%' })
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
@@ -510,6 +525,8 @@ function MediaNavigation({ images, currentIndex, isLightboxOpen, closeLightbox, 
             {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
           </pre>
         </div>
+      ) : mimeType === 'application/pdf' ? (
+        <SimplePDFViewer pdfFilePath={pdfFilePath} />
       ) : (
         <div
           className="fixed inset-0 flex items-center justify-center max-w-full max-h-full overflow-auto"
