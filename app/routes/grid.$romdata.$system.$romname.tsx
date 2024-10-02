@@ -477,47 +477,6 @@ function MediaNavigation({ images, currentIndex, isLightboxOpen, closeLightbox, 
     }
   }, [mimeType])
 
-  if (mimeType === 'text/plain') {
-    return <TextFileRenderer index={index} romname={romname} base64Data={base64Data} />
-  }
-
-  function TextFileRenderer({ index, romname, base64Data }) {
-    return (
-      <Modal
-        isOpen={isLightboxOpen}
-        onRequestClose={closeLightbox}
-        style={{
-          overlay: { zIndex: 3 },
-          content: {
-            top: '50%',
-            left: '50%',
-            right: 'auto',
-            bottom: 'auto',
-            transform: 'translate(-50%, -50%)',
-            width: thisImageDimensions.width,
-            height: thisImageDimensions.height,
-            maxWidth: '100%',
-            maxHeight: '100%',
-            overflow: 'auto',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            border: 'none'
-          }
-        }}
-      >
-        <div className="p-3 bg-gray-800 text-white rounded-lg">
-          <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
-            {romname} Text File {index}
-          </h1>
-          <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
-            {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
-          </pre>
-        </div>
-      </Modal>
-    )
-  }
-
   return (
     <Modal
       isOpen={isLightboxOpen}
@@ -542,91 +501,103 @@ function MediaNavigation({ images, currentIndex, isLightboxOpen, closeLightbox, 
         }
       }}
     >
-      <div
-        className="fixed inset-0 flex items-center justify-center max-w-full max-h-full overflow-auto"
-        //TODO: this needs testing somehow....
-        onWheel={e => {
-          // if (e.ctrlKey || e.metaKey || e.shiftKey) {
-          // Check if the pinch gesture or middle mouse wheel is used
-          if (e.deltaY < 0) {
-            zoomIn()
-          } else {
-            zoomOut()
-          }
-        }}
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
-        onMouseDown={handleMouseDown}
-        onMouseMove={handleMouseMove}
-        onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseUp}
-      >
-        <div className="m-3 relative">
-          <img
-            src={images[index]}
-            alt={`${index + 1}`}
-            onDragStart={handleDragStart}
-            style={{
-              width: thisImageDimensions.width,
-              height: thisImageDimensions.height,
-              // maxWidth: '80%',
-              // maxHeight: '80%',
-              objectFit: 'contain',
-              borderRadius: '1.5rem',
-              transform: `translate(${imagePosition.x}px, ${imagePosition.y}px)`,
-              cursor: isDragging ? 'grabbing' : 'grab'
-            }}
-          />
-          <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
-            <button onClick={prevImage} className={`p-2`}>
-              <VscChevronLeft className="h-5 w-5" />
-            </button>
-            <div
-              className="relative flex items-center justify-center"
-              onMouseEnter={() => setIsSliderActive(true)}
-              onMouseLeave={() => setIsSliderActive(false)}
-            >
-              <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
-              {console.log('zoom level is ' + zoomLevel) ||
-                (isSliderActive && (
-                  <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
-                    <input
-                      type="range"
-                      min="1"
-                      max="3"
-                      step="0.01"
-                      value={zoomLevel}
-                      onChange={handleZoomChange}
-                      className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
-                      style={{
-                        background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
-                      }}
-                    />
-                    <style jsx>{`
-                      input[type='range']::-webkit-slider-thumb {
-                        width: 1rem;
-                        height: 1rem;
-                        background: rgba(255, 255, 255, 0.75);
-                        border: 0.1rem solid rgba(1, 1, 1, 1);
-                        border-radius: 100%;
-                        opacity: 0.35;
-                        cursor: pointer;
-                        webkitappearance: none;
-                        appearance: none;
-                      }
-                    `}</style>
-                  </div>
-                ))}
+      {mimeType === 'text/plain' ? (
+        <div className="p-3 bg-gray-800 text-white rounded-lg">
+          <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
+            {romname} Text File {index}
+          </h1>
+          <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
+            {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
+          </pre>
+        </div>
+      ) : (
+        <div
+          className="fixed inset-0 flex items-center justify-center max-w-full max-h-full overflow-auto"
+          //TODO: this needs testing somehow....
+          onWheel={e => {
+            // if (e.ctrlKey || e.metaKey || e.shiftKey) {
+            // Check if the pinch gesture or middle mouse wheel is used
+            if (e.deltaY < 0) {
+              zoomIn()
+            } else {
+              zoomOut()
+            }
+          }}
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onMouseDown={handleMouseDown}
+          onMouseMove={handleMouseMove}
+          onMouseUp={handleMouseUp}
+          onMouseLeave={handleMouseUp}
+        >
+          <div className="m-3 relative">
+            <img
+              src={images[index]}
+              alt={`${index + 1}`}
+              onDragStart={handleDragStart}
+              style={{
+                width: thisImageDimensions.width,
+                height: thisImageDimensions.height,
+                // maxWidth: '80%',
+                // maxHeight: '80%',
+                objectFit: 'contain',
+                borderRadius: '1.5rem',
+                transform: `translate(${imagePosition.x}px, ${imagePosition.y}px)`,
+                cursor: isDragging ? 'grabbing' : 'grab'
+              }}
+            />
+            <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
+              <button onClick={prevImage} className={`p-2`}>
+                <VscChevronLeft className="h-5 w-5" />
+              </button>
+              <div
+                className="relative flex items-center justify-center"
+                onMouseEnter={() => setIsSliderActive(true)}
+                onMouseLeave={() => setIsSliderActive(false)}
+              >
+                <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
+                {console.log('zoom level is ' + zoomLevel) ||
+                  (isSliderActive && (
+                    <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
+                      <input
+                        type="range"
+                        min="1"
+                        max="3"
+                        step="0.01"
+                        value={zoomLevel}
+                        onChange={handleZoomChange}
+                        className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
+                        style={{
+                          background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
+                        }}
+                      />
+                      <style jsx>{`
+                        input[type='range']::-webkit-slider-thumb {
+                          width: 1rem;
+                          height: 1rem;
+                          background: rgba(255, 255, 255, 0.75);
+                          border: 0.1rem solid rgba(1, 1, 1, 1);
+                          border-radius: 100%;
+                          opacity: 0.35;
+                          cursor: pointer;
+                          webkitappearance: none;
+                          appearance: none;
+                        }
+                      `}</style>
+                    </div>
+                  ))}
+              </div>
+              <button onClick={nextImage} className={'p-2'}>
+                <VscChevronRight className="h-5 w-5" />
+              </button>
             </div>
-            <button onClick={nextImage} className={'p-2'}>
-              <VscChevronRight className="h-5 w-5" />
-            </button>
           </div>
         </div>
-      </div>
+      )}
     </Modal>
   )
 }
+
 // fetcher.submit(
 //   { romname, thisSystemsTabs, system },
 //   {
