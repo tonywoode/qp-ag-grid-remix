@@ -506,13 +506,14 @@ function MediaNavigation({
           transform: 'translate(-50%, -50%)',
           width: thisImageDimensions.width,
           height: thisImageDimensions.height,
-          maxWidth: '100%',
-          maxHeight: '100%',
-          overflow: 'auto',
+          maxWidth: mimeType === 'text/plain' ? '80%' : '100%',
+          maxHeight: mimeType === 'text/plain' ? '80%' : '100%',
+          overflow: mimeType === 'text/plain' ? 'auto' : 'hidden',
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'center',
+          alignItems: mimeType === 'text/plain' ? 'flex-start' : 'center',
           border: 'none'
+          // transition: 'width 0.05s ease-in-out, height 0.05s ease-in-out'
         }
       }}
     >
