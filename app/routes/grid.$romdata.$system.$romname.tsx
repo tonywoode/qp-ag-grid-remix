@@ -177,7 +177,8 @@ export default function MediaPanel() {
               currentIndex: index,
               romname,
               base64Data,
-              mimeType
+              mimeType,
+              mediaItems
             })
             setIsLightboxOpen(true)
             // const dimensions = { width: 'auto', height: 'auto' }  //TODO: This needs to be set in the MediaNavigation component!!!
@@ -260,9 +261,9 @@ export default function MediaPanel() {
           style={{ flexBasis: '20%' }}
           onClick={() => {
             setLightboxContent({
-              images: mediaItems,
+              mediaItems,
               currentIndex: index,
-              mimeType: mimeType
+              mimeType
             })
             setIsLightboxOpen(true)
           }}
@@ -341,16 +342,30 @@ export default function MediaPanel() {
   )
 }
 
+type MediaContent =
+  | {
+      mimeType: 'text/plain'
+      base64Data: string
+      romname: string
+      mediaItems: string[]
+    }
+  | {
+      mimeType: 'application/pdf'
+      pdfFilePath: string
+      romname: string
+    }
+  | {
+      mimeType: 'image/jpeg' | 'image/png'
+      mediaItems: string[]
+      currentIndex: number
+    }
+
 function MediaNavigation({
-  images,
-  currentIndex,
   isLightboxOpen,
   closeLightbox,
-  mimeType,
-  romname,
-  base64Data,
-  pdfFilePath
-}) {
+  ...mediaContent
+}: MediaContent & { isLightboxOpen: boolean; closeLightbox: () => void }) {
+  const { mimeType, base64Data, romname, pdfFilePath, mediaItems, currentIndex } = mediaContent
   const [index, setIndex] = useState(currentIndex)
   // TODO: below is a temporary fix for mimetype dimensions to get pdf working
   const startingImageDimensions =
@@ -389,7 +404,7 @@ function MediaNavigation({
 
   useEffect(() => {
     const fetchDimensions = async () => {
-      const dimensions = await calculateImageDimensions(images[index])
+      const dimensions = await calculateImageDimensions(mediaItems[index])
       const newDimensions = {
         width: dimensions.width * zoomLevel,
         height: dimensions.height * zoomLevel
@@ -397,8 +412,8 @@ function MediaNavigation({
       setLightboxDimensions(newDimensions)
       setThisImageDimensions(newDimensions)
     }
-    if (images) fetchDimensions() //handle async
-  }, [index, images, zoomLevel, setLightboxDimensions])
+    if (mimeType.startsWith('image')) fetchDimensions() //handle async
+  }, [index, mediaItems, zoomLevel, setLightboxDimensions])
 
   const handleMouseDown = e => {
     setIsDragging(true)
@@ -446,8 +461,8 @@ function MediaNavigation({
   }
   // const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
   // const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
-  const prevImage = () => setIndex(prev => (prev === 0 ? images.length - 1 : prev - 1))
-  const nextImage = () => setIndex(prev => (prev === images.length - 1 ? 0 : prev + 1))
+  const prevImage = () => setIndex(prev => (prev === 0 ? mediaItems.length - 1 : prev - 1))
+  const nextImage = () => setIndex(prev => (prev === mediaItems.length - 1 ? 0 : prev + 1))
 
   const handleTouchStart = e => {
     if (e.touches.length === 2) {
@@ -550,7 +565,7 @@ function MediaNavigation({
         >
           <div className="m-3 relative">
             <img
-              src={images[index]}
+              src={mediaItems[index]}
               alt={`${index + 1}`}
               onDragStart={handleDragStart}
               style={{
