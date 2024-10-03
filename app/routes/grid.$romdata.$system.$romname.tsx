@@ -97,6 +97,7 @@ export default function MediaPanel() {
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   console.log('MameNames:', mameNames)
+
   const replaceLinks = node => {
     if (node.type === 'tag' && node.name === 'a') {
       const { href } = node.attribs
@@ -177,8 +178,6 @@ export default function MediaPanel() {
             setLightboxContent({
               currentIndex,
               romname,
-              base64Data,
-              mimeType,
               mediaItems
             })
             setIsLightboxOpen(true)
@@ -261,11 +260,7 @@ export default function MediaPanel() {
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
           onClick={() => {
-            setLightboxContent({
-              mediaItems,
-              currentIndex: currentIndex,
-              mimeType
-            })
+            setLightboxContent({ mediaItems, currentIndex })
             setIsLightboxOpen(true)
           }}
         />
@@ -345,18 +340,14 @@ export default function MediaPanel() {
 
 type MediaContent =
   | {
-      mimeType: 'text/plain'
-      base64Data: string
       romname: string
       mediaItems: string[]
     }
   | {
-      mimeType: 'application/pdf'
       pdfFilePath: string
       romname: string
     }
   | {
-      mimeType: 'image/jpeg' | 'image/png'
       mediaItems: string[]
       currentIndex: number
     }
@@ -366,11 +357,19 @@ function MediaNavigation({
   closeLightbox,
   ...mediaContent
 }: MediaContent & { isLightboxOpen: boolean; closeLightbox: () => void }) {
-  const { mimeType, base64Data, romname, pdfFilePath, mediaItems, currentIndex } = mediaContent
+  const { romname, pdfFilePath, mediaItems, currentIndex } = mediaContent
+  // const [thisMimeType, setThisMimeType] = useState('')
   const [index, setIndex] = useState(currentIndex)
+  const [currentItemBase64, setCurrentItemBase64] = useState(mediaItems[currentIndex])
+  useEffect(() => {
+    setCurrentItemBase64(mediaItems[index])
+  }, [index])
+  const [mimeInfo, base64Data] = currentItemBase64?.split(',')
+  const mimeType = mimeInfo.match(/:(.*?);/)[1]
+  const thisMimeType = mimeType
   // TODO: below is a temporary fix for mimetype dimensions to get pdf working
   const startingImageDimensions =
-    mimeType === 'application/pdf' ? { width: '50%', height: '100%' } : { width: 'auto', height: 'auto' }
+    thisMimeType === 'application/pdf' ? { width: '50%', height: '100%' } : { width: 'auto', height: 'auto' }
   const [thisImageDimensions, setThisImageDimensions] = useState(startingImageDimensions)
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: '80%', height: '80%' })
   const [zoomLevel, setZoomLevel] = useState(1)
@@ -413,7 +412,7 @@ function MediaNavigation({
       setLightboxDimensions(newDimensions)
       setThisImageDimensions(newDimensions)
     }
-    if (mimeType.startsWith('image')) fetchDimensions() //handle async
+    if (thisMimeType.startsWith('image')) fetchDimensions() //handle async
   }, [index, mediaItems, zoomLevel, setLightboxDimensions])
 
   const handleMouseDown = e => {
@@ -489,7 +488,7 @@ function MediaNavigation({
     }
   }
   useEffect(() => {
-    if (mimeType.startsWith('image')) {
+    if (thisMimeType.startsWith('image')) {
       const handleKeyDown = event => {
         if (event.key === 'ArrowLeft') {
           prevImage()
@@ -506,7 +505,7 @@ function MediaNavigation({
         window.removeEventListener('keydown', handleKeyDown)
       }
     }
-  }, [mimeType])
+  }, [thisMimeType])
 
   return (
     <Modal
@@ -522,18 +521,18 @@ function MediaNavigation({
           transform: 'translate(-50%, -50%)',
           width: thisImageDimensions.width,
           height: thisImageDimensions.height,
-          maxWidth: mimeType === 'text/plain' ? '80%' : '100%',
-          maxHeight: mimeType === 'text/plain' ? '80%' : '100%',
-          overflow: mimeType === 'text/plain' ? 'auto' : 'hidden',
+          maxWidth: thisMimeType === 'text/plain' ? '80%' : '100%',
+          maxHeight: thisMimeType === 'text/plain' ? '80%' : '100%',
+          overflow: thisMimeType === 'text/plain' ? 'auto' : 'hidden',
           display: 'flex',
           justifyContent: 'center',
-          alignItems: mimeType === 'text/plain' ? 'flex-start' : 'center',
+          alignItems: thisMimeType === 'text/plain' ? 'flex-start' : 'center',
           border: 'none'
           // transition: 'width 0.05s ease-in-out, height 0.05s ease-in-out'
         }
       }}
     >
-      {mimeType === 'text/plain' ? (
+      {thisMimeType === 'text/plain' ? (
         <div className="p-3 bg-gray-800 text-white rounded-lg">
           <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
             {romname} Text File {index}
@@ -542,7 +541,7 @@ function MediaNavigation({
             {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
           </pre>
         </div>
-      ) : mimeType === 'application/pdf' ? (
+      ) : thisMimeType === 'application/pdf' ? (
         <SimplePDFViewer pdfFilePath={pdfFilePath} />
       ) : (
         <div
