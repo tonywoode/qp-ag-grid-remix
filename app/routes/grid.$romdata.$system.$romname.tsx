@@ -156,9 +156,10 @@ export default function MediaPanel() {
     setLightboxContent(null)
   }
 
-  function mediaTagRenderer(index, mediaItem, romname, mediaItems) {
+  function mediaTagRenderer({ index, romname, mediaItems }) {
+    const mediaItem = mediaItems[index]
     const base64String = mediaItem
-    const [mimeInfo, base64Data] = base64String.split(',')
+    const [mimeInfo, base64Data] = base64String?.split(',')
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
     console.log('mimeType')
     console.log(mimeType)
@@ -290,7 +291,7 @@ export default function MediaPanel() {
     mediaItem: data => (
       <div className="flex flex-wrap gap-4 justify-center">
         {data?.mediaItems?.length > 0 ? (
-          data.mediaItems.map((mediaItem, index) => mediaTagRenderer(index, mediaItem, romname, data.mediaItems))
+          data.mediaItems.map((_, index, mediaItems) => mediaTagRenderer({ index, romname, mediaItems }))
         ) : (
           <div>No media found</div>
         )}
