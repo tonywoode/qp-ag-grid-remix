@@ -156,8 +156,8 @@ export default function MediaPanel() {
     setLightboxContent(null)
   }
 
-  function mediaTagRenderer({ index, romname, mediaItems }) {
-    const mediaItem = mediaItems[index]
+  function mediaTagRenderer({ currentIndex, romname, mediaItems }) {
+    const mediaItem = mediaItems[currentIndex]
     const base64String = mediaItem
     const [mimeInfo, base64Data] = base64String?.split(',')
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
@@ -171,11 +171,11 @@ export default function MediaPanel() {
     if (mimeType === 'text/plain') {
       return (
         <div
-          key={index}
+          key={currentIndex}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
           onClick={() => {
             setLightboxContent({
-              currentIndex: index,
+              currentIndex,
               romname,
               base64Data,
               mimeType,
@@ -195,7 +195,7 @@ export default function MediaPanel() {
     //TODO: convert/handle
     if (mimeType.startsWith('video')) {
       return (
-        <div key={index} className="flex-grow" style={{ flexBasis: '20%' }}>
+        <div key={currentIndex} className="flex-grow" style={{ flexBasis: '20%' }}>
           <video controls className="w-full h-auto" onError={handleVideoError}>
             <source src={mediaItem} type={mimeType} />
             Your browser does not support the video tag.
@@ -207,7 +207,7 @@ export default function MediaPanel() {
     //TODO: convert/handle
     if (mimeType.startsWith('audio')) {
       return (
-        <div key={index} className="flex-grow" style={{ flexBasis: '20%' }}>
+        <div key={currentIndex} className="flex-grow" style={{ flexBasis: '20%' }}>
           <audio controls className="w-full h-auto" onError={handleAudioError}>
             <source src={mediaItem} type={mimeType} />
             Your browser does not support the audio tag.
@@ -231,12 +231,12 @@ export default function MediaPanel() {
 
         return (
           <div
-            key={index}
+            key={currentIndex}
             className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
             onClick={() => {
               console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!
               // setLightboxContent(<SimplePDFViewer pdfFilePath={arrayBuffer} />)
-              setLightboxContent({ pdfFilePath: arrayBuffer, currentIndex: index, mimeType })
+              setLightboxContent({ pdfFilePath: arrayBuffer, currentIndex: currentIndex, mimeType })
               setIsLightboxOpen(true)
               // const dimensions = { width: '50%', height: '100%' } //handle properly (see imagedimensions in media nav!!!!
             }}
@@ -248,22 +248,22 @@ export default function MediaPanel() {
         )
       } catch (error) {
         console.error('Failed to decode base64 string:', error)
-        return <div key={index}>Failed to load PDF</div>
+        return <div key={currentIndex}>Failed to load PDF</div>
       }
     }
 
     if (mimeType.startsWith('image')) {
       return (
         <img
-          key={index}
+          key={currentIndex}
           src={mediaItem}
-          alt={`Screenshot ${index}`}
+          alt={`Screenshot ${currentIndex}`}
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
           onClick={() => {
             setLightboxContent({
               mediaItems,
-              currentIndex: index,
+              currentIndex: currentIndex,
               mimeType
             })
             setIsLightboxOpen(true)
@@ -277,9 +277,9 @@ export default function MediaPanel() {
     else {
       return (
         <iframe
-          key={index}
+          key={currentIndex}
           src={mediaItem}
-          alt={`Random Mimetype ${index}`}
+          alt={`Random Mimetype ${currentIndex}`}
           className="w-full h-auto flex-grow"
           style={{ flexBasis: '20%' }}
         />
@@ -291,7 +291,7 @@ export default function MediaPanel() {
     mediaItem: data => (
       <div className="flex flex-wrap gap-4 justify-center">
         {data?.mediaItems?.length > 0 ? (
-          data.mediaItems.map((_, index, mediaItems) => mediaTagRenderer({ index, romname, mediaItems }))
+          data.mediaItems.map((_, currentIndex, mediaItems) => mediaTagRenderer({ currentIndex, romname, mediaItems }))
         ) : (
           <div>No media found</div>
         )}
