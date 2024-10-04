@@ -233,9 +233,9 @@ export default function MediaPanel() {
             key={currentIndex}
             className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
             onClick={() => {
-              console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!
+              // console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!
               // setLightboxContent(<SimplePDFViewer pdfFilePath={arrayBuffer} />)
-              setLightboxContent({ pdfFilePath: arrayBuffer, currentIndex: currentIndex, mimeType })
+              setLightboxContent({ mediaItems, currentIndex, pdfFilePath: arrayBuffer })
               setIsLightboxOpen(true)
               // const dimensions = { width: '50%', height: '100%' } //handle properly (see imagedimensions in media nav!!!!
             }}
@@ -338,19 +338,12 @@ export default function MediaPanel() {
   )
 }
 
-type MediaContent =
-  | {
-      romname: string
-      mediaItems: string[]
-    }
-  | {
-      pdfFilePath: string
-      romname: string
-    }
-  | {
-      mediaItems: string[]
-      currentIndex: number
-    }
+type MediaContent = {
+  romname: string
+  mediaItems: string[]
+  currentIndex: number
+  pdfFilePath?: string
+}
 
 function MediaNavigation({
   isLightboxOpen,
@@ -361,6 +354,28 @@ function MediaNavigation({
   const [index, setIndex] = useState(currentIndex)
   const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
+  console.log('the mime type is ' + mimeType)
+  let pdfFilePath2 = null
+  if (mimeType === 'application/pdf') {
+    //Get the pdf file path from the item
+    // try {
+    // Remove the base64 prefix if it exists
+    const base64String = mediaItems[index].split(',')[1] || mediaItems[index]
+    // Decode base64 string to ArrayBuffer
+    const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
+    const len = binaryString.length
+    const bytes = new Uint8Array(len)
+    for (let i = 0; i < len; i++) {
+      bytes[i] = binaryString.charCodeAt(i)
+    }
+    const arrayBuffer = bytes.buffer
+    pdfFilePath2 = arrayBuffer
+    // } catch (error) {
+    //   console.error('Failed to decode base64 string:', error)
+    //   return <div key={currentIndex}>Failed to load PDF</div>
+    // }
+  }
+
   // TODO: below is a temporary fix for mimetype dimensions to get pdf working
   const startingImageDimensions =
     mimeType === 'application/pdf' ? { width: '50%', height: '100%' } : { width: 'auto', height: 'auto' }
@@ -409,6 +424,10 @@ function MediaNavigation({
     if (mimeType.startsWith('image')) fetchDimensions() //handle async
     if (mimeType.startsWith('text')) {
       setThisImageDimensions({ width: 'auto', height: 'auto' })
+      setLightboxDimensions({ width: '80%', height: '80%' })
+    }
+    if (mimeType === 'application/pdf') {
+      setThisImageDimensions({ width: '50%', height: '100%' })
       setLightboxDimensions({ width: '80%', height: '80%' })
     }
   }, [index, mediaItems, zoomLevel, setLightboxDimensions])
@@ -486,23 +505,23 @@ function MediaNavigation({
     }
   }
   useEffect(() => {
-    if (mimeType.startsWith('image')) {
-      const handleKeyDown = event => {
-        if (event.key === 'ArrowLeft') {
-          prevImage()
-        } else if (event.key === 'ArrowRight') {
-          nextImage()
-        } else if (event.key === 'ArrowUp') {
-          zoomIn()
-        } else if (event.key === 'ArrowDown') {
-          zoomOut()
-        }
-      }
-      window.addEventListener('keydown', handleKeyDown)
-      return () => {
-        window.removeEventListener('keydown', handleKeyDown)
+    // if (mimeType.startsWith('image')) {
+    const handleKeyDown = event => {
+      if (event.key === 'ArrowLeft') {
+        prevImage()
+      } else if (event.key === 'ArrowRight') {
+        nextImage()
+      } else if (event.key === 'ArrowUp') {
+        zoomIn()
+      } else if (event.key === 'ArrowDown') {
+        zoomOut()
       }
     }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+    // }
   }, [mimeType])
 
   return (
@@ -540,7 +559,9 @@ function MediaNavigation({
           </pre>
         </div>
       ) : mimeType === 'application/pdf' ? (
-        <SimplePDFViewer pdfFilePath={pdfFilePath} />
+        console.log('pdfWorker needs using', pdfjsWorker) || ( //we must USE it here to get it to load, it prints an empty object?!
+          <SimplePDFViewer pdfFilePath={pdfFilePath ? pdfFilePath : pdfFilePath2} /> //TODO: if we rid ourselves of pdfFilePath(1) here (which we should do) the pdf dimensions are wrong if a pdf is directly clicked-on?
+        )
       ) : (
         <div
           className="fixed inset-0 flex items-center justify-center max-w-full max-h-full overflow-auto"
