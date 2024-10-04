@@ -358,18 +358,12 @@ function MediaNavigation({
   ...mediaContent
 }: MediaContent & { isLightboxOpen: boolean; closeLightbox: () => void }) {
   const { romname, pdfFilePath, mediaItems, currentIndex } = mediaContent
-  // const [thisMimeType, setThisMimeType] = useState('')
   const [index, setIndex] = useState(currentIndex)
-  const [currentItemBase64, setCurrentItemBase64] = useState(mediaItems[currentIndex])
-  useEffect(() => {
-    setCurrentItemBase64(mediaItems[index])
-  }, [index])
-  const [mimeInfo, base64Data] = currentItemBase64?.split(',')
+  const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
-  const thisMimeType = mimeType
   // TODO: below is a temporary fix for mimetype dimensions to get pdf working
   const startingImageDimensions =
-    thisMimeType === 'application/pdf' ? { width: '50%', height: '100%' } : { width: 'auto', height: 'auto' }
+    mimeType === 'application/pdf' ? { width: '50%', height: '100%' } : { width: 'auto', height: 'auto' }
   const [thisImageDimensions, setThisImageDimensions] = useState(startingImageDimensions)
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: '80%', height: '80%' })
   const [zoomLevel, setZoomLevel] = useState(1)
@@ -412,7 +406,11 @@ function MediaNavigation({
       setLightboxDimensions(newDimensions)
       setThisImageDimensions(newDimensions)
     }
-    if (thisMimeType.startsWith('image')) fetchDimensions() //handle async
+    if (mimeType.startsWith('image')) fetchDimensions() //handle async
+    if (mimeType.startsWith('text')) {
+      setThisImageDimensions({ width: 'auto', height: 'auto' })
+      setLightboxDimensions({ width: '80%', height: '80%' })
+    }
   }, [index, mediaItems, zoomLevel, setLightboxDimensions])
 
   const handleMouseDown = e => {
@@ -488,7 +486,7 @@ function MediaNavigation({
     }
   }
   useEffect(() => {
-    if (thisMimeType.startsWith('image')) {
+    if (mimeType.startsWith('image')) {
       const handleKeyDown = event => {
         if (event.key === 'ArrowLeft') {
           prevImage()
@@ -505,7 +503,7 @@ function MediaNavigation({
         window.removeEventListener('keydown', handleKeyDown)
       }
     }
-  }, [thisMimeType])
+  }, [mimeType])
 
   return (
     <Modal
@@ -521,18 +519,18 @@ function MediaNavigation({
           transform: 'translate(-50%, -50%)',
           width: thisImageDimensions.width,
           height: thisImageDimensions.height,
-          maxWidth: thisMimeType === 'text/plain' ? '80%' : '100%',
-          maxHeight: thisMimeType === 'text/plain' ? '80%' : '100%',
-          overflow: thisMimeType === 'text/plain' ? 'auto' : 'hidden',
+          maxWidth: mimeType === 'text/plain' ? '80%' : '100%',
+          maxHeight: mimeType === 'text/plain' ? '80%' : '100%',
+          overflow: mimeType === 'text/plain' ? 'auto' : 'hidden',
           display: 'flex',
           justifyContent: 'center',
-          alignItems: thisMimeType === 'text/plain' ? 'flex-start' : 'center',
+          alignItems: mimeType === 'text/plain' ? 'flex-start' : 'center',
           border: 'none'
           // transition: 'width 0.05s ease-in-out, height 0.05s ease-in-out'
         }
       }}
     >
-      {thisMimeType === 'text/plain' ? (
+      {mimeType === 'text/plain' ? (
         <div className="p-3 bg-gray-800 text-white rounded-lg">
           <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
             {romname} Text File {index}
@@ -541,7 +539,7 @@ function MediaNavigation({
             {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
           </pre>
         </div>
-      ) : thisMimeType === 'application/pdf' ? (
+      ) : mimeType === 'application/pdf' ? (
         <SimplePDFViewer pdfFilePath={pdfFilePath} />
       ) : (
         <div
