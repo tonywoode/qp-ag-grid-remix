@@ -241,17 +241,18 @@ export default function MediaPanel() {
 
     //TODO: do a mime lookup on the filename, if its renderable, try to render it in iframe, we exclude some types we don't want to render in the backend
     //TODO: lightbox? mediaItem would now hit image handling.....
-    else {
-      return (
-        <iframe
-          key={currentIndex}
-          src={mediaItem}
-          alt={`Random Mimetype ${currentIndex}`}
-          className="w-full h-auto flex-grow"
-          style={{ flexBasis: '20%' }}
-        />
-      )
-    }
+    //no mimetype handling potentially considered harmful, off for now!
+    // else {
+    //   return (
+    //     <iframe
+    //       key={currentIndex}
+    //       src={mediaItem}
+    //       alt={`Random Mimetype ${currentIndex}`}
+    //       className="w-full h-auto flex-grow"
+    //       style={{ flexBasis: '20%' }}
+    //     />
+    //   )
+    // }
   }
 
   const tabContentRenderers = {
