@@ -138,7 +138,7 @@ export default function MediaPanel() {
         const data = await response.json()
         setTabContent({ tabClass, data })
       } else {
-        console.log('Tab type not handled:', selectedTab?.tabType)
+        console.error('Tab type not handled:', selectedTab?.tabType)
         setTabContent({ tabClass: null, data: null })
       }
     }
@@ -328,16 +328,12 @@ function MediaNavigation({
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
   const pdfFilePath = useMemo(() => {
     if (mimeType === 'application/pdf') {
+      const iHaveToDoThisOnce = pdfjsWorker // we must USE it here to get it to load, it prints an empty object?!
       try {
         const base64String = mediaItems[index].split(',')[1] || mediaItems[index]
         const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
-        const len = binaryString.length
-        const bytes = new Uint8Array(len)
-        for (let i = 0; i < len; i++) {
-          bytes[i] = binaryString.charCodeAt(i)
-        }
-        const arrayBuffer = bytes.buffer
-        return arrayBuffer
+        const bytes = Uint8Array.from(binaryString, char => char.charCodeAt(0))
+        return bytes.buffer
       } catch (error) {
         console.error('Failed to decode base64 string:', error)
         return null
@@ -346,12 +342,8 @@ function MediaNavigation({
     return null
   }, [index, mediaItems, mimeType])
 
-  // TODO: odd behaviour, set the pdf starting dimensions and a directly loaded pdf ends up at the wrong scale??!?
-  // const startingImageDimensions =
-  //   mimeType === 'application/pdf' ? { width: '50%', height: '100%' } : { width: 'auto', height: 'auto' }
-  const startingImageDimensions = { width: 'auto', height: 'auto' }
-  const [lightboxDimensions, setLightboxDimensions] = useState({ width: '80%', height: '80%' })
-  const [thisImageDimensions, setThisImageDimensions] = useState(startingImageDimensions)
+  const [lightboxDimensions, setLightboxDimensions] = useState({ width: 'auto', height: 'auto' })
+  const [thisImageDimensions, setThisImageDimensions] = useState({ width: 'auto', height: 'auto' }) //don't worry about starting dimensions
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
   const initialTouchDistanceRef = useRef(0)
@@ -382,23 +374,24 @@ function MediaNavigation({
     })
   }
 
-  useEffect(() => {
-    const fetchDimensions = async () => {
-      const dimensions = await calculateImageDimensions(mediaItems[index])
-      const newDimensions = {
-        width: dimensions.width * zoomLevel,
-        height: dimensions.height * zoomLevel
-      }
-      setLightboxDimensions(newDimensions)
-      setThisImageDimensions(newDimensions)
+  const fetchDimensions = async () => {
+    const dimensions = await calculateImageDimensions(mediaItems[index])
+    const newDimensions = {
+      width: dimensions.width * zoomLevel,
+      height: dimensions.height * zoomLevel
     }
+    setLightboxDimensions(newDimensions)
+    setThisImageDimensions(newDimensions)
+  }
+
+  useEffect(() => {
     if (mimeType.startsWith('image')) fetchDimensions() //handle async
     if (mimeType.startsWith('text')) {
       setThisImageDimensions({ width: 'auto', height: 'auto' })
       setLightboxDimensions({ width: '80%', height: '80%' })
     }
     if (mimeType === 'application/pdf') {
-      setThisImageDimensions({ width: '50%', height: '100%' }) //seems if its here having an initial also messes it up!
+      setThisImageDimensions({ width: '50%', height: '100%' })
       setLightboxDimensions({ width: '80%', height: '80%' })
     }
   }, [index, mediaItems, zoomLevel, setLightboxDimensions])
@@ -424,7 +417,6 @@ function MediaNavigation({
     setZoomLevel(newZoomLevel)
     updateImageDimensions(newZoomLevel)
   }
-
   const updateImageDimensions = zoom => {
     const newDimensions = {
       width: lightboxDimensions.width * zoom,
@@ -447,8 +439,6 @@ function MediaNavigation({
     updateImageDimensions(newZoomLevel)
     console.log('zoomLevel:', newZoomLevel)
   }
-  // const nextImage = () => setIndex(prev => Math.min(prev + 1, images.length - 1))
-  // const prevImage = () => setIndex(prev => Math.max(prev - 1, 0))
   const prevImage = () => setIndex(prev => (prev === 0 ? mediaItems.length - 1 : prev - 1))
   const nextImage = () => setIndex(prev => (prev === mediaItems.length - 1 ? 0 : prev + 1))
 
@@ -476,7 +466,6 @@ function MediaNavigation({
     }
   }
   useEffect(() => {
-    // if (mimeType.startsWith('image')) {
     const handleKeyDown = event => {
       if (event.key === 'ArrowLeft') {
         prevImage()
@@ -492,7 +481,6 @@ function MediaNavigation({
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
     }
-    // }
   }, [mimeType])
 
   return (
@@ -530,9 +518,7 @@ function MediaNavigation({
           </pre>
         </div>
       ) : mimeType === 'application/pdf' ? (
-        console.log('pdfWorker needs using', pdfjsWorker) || ( //we must USE it here to get it to load, it prints an empty object?!
-          <SimplePDFViewer pdfFilePath={pdfFilePath} /> //TODO: if we rid ourselves of pdfFilePath(1) here (which we should do) the pdf dimensions are wrong if a pdf is directly clicked-on?
-        )
+        <SimplePDFViewer pdfFilePath={pdfFilePath} /> //TODO: if we rid ourselves of pdfFilePath(1) here (which we should do) the pdf dimensions are wrong if a pdf is directly clicked-on?
       ) : (
         //image
         <div
