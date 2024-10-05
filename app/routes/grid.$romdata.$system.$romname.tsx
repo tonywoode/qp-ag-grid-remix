@@ -419,25 +419,27 @@ function MediaNavigation({
   }
   const updateImageDimensions = zoom => {
     const newDimensions = {
-      width: lightboxDimensions.width * zoom,
-      height: lightboxDimensions.height * zoom
+      width: thisImageDimensions.width * zoom,
+      height: thisImageDimensions.height * zoom
     }
     setThisImageDimensions(newDimensions)
     setLightboxDimensions(newDimensions)
   }
 
   const zoomIn = () => {
-    const newZoomLevel = Math.min(zoomLevel + 0.25, 3) // Allow zooming up to 300%
-    setZoomLevel(newZoomLevel)
-    updateImageDimensions(newZoomLevel)
-    console.log('zoomLevel:', newZoomLevel)
+    setZoomLevel(prev => {
+      const newZoomLevel = Math.min(prev + 0.25, 5) // Allow zooming up to 500%
+      updateImageDimensions(newZoomLevel)
+      return newZoomLevel
+    })
   }
 
   const zoomOut = () => {
-    const newZoomLevel = Math.max(zoomLevel - 0.25, 0.5) // Allow zooming down to 50%
-    setZoomLevel(newZoomLevel)
-    updateImageDimensions(newZoomLevel)
-    console.log('zoomLevel:', newZoomLevel)
+    setZoomLevel(prev => {
+      const newZoomLevel = Math.max(prev - 0.25, 0.25) // Allow zooming down to 25%
+      updateImageDimensions(newZoomLevel)
+      return newZoomLevel
+    })
   }
   const prevImage = () => setIndex(prev => (prev === 0 ? mediaItems.length - 1 : prev - 1))
   const nextImage = () => setIndex(prev => (prev === mediaItems.length - 1 ? 0 : prev + 1))
