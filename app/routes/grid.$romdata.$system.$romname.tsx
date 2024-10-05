@@ -6,7 +6,7 @@ import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { loadTabData } from '~/tabData.server'
 // import { getTabImages } from '~/getTabImages.server'
 import { decodeString } from '~/utils/safeUrl'
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState, useRef, useMemo } from 'react'
 // import { runGame } from '~/runGame.server'
 import parse, { domToReact, Element } from 'html-react-parser'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry' //we must import then use pdfjs's worker file to get it in the frontend build for pdfslick (or any pdf lib based on pdfjs) client will still warn 'setting up fake worker' but it will work
@@ -326,27 +326,25 @@ function MediaNavigation({
   const [index, setIndex] = useState(currentIndex)
   const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
-  console.log('the mime type is ' + mimeType)
-  let pdfFilePath = null
-  if (mimeType === 'application/pdf') {
-    //Get the pdf file path from the item
-    try {
-      //Remove the base64 prefix if it exists
-      const base64String = mediaItems[index].split(',')[1] || mediaItems[index]
-      // Decode base64 string to ArrayBuffer
-      const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
-      const len = binaryString.length
-      const bytes = new Uint8Array(len)
-      for (let i = 0; i < len; i++) {
-        bytes[i] = binaryString.charCodeAt(i)
+  const pdfFilePath = useMemo(() => {
+    if (mimeType === 'application/pdf') {
+      try {
+        const base64String = mediaItems[index].split(',')[1] || mediaItems[index]
+        const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
+        const len = binaryString.length
+        const bytes = new Uint8Array(len)
+        for (let i = 0; i < len; i++) {
+          bytes[i] = binaryString.charCodeAt(i)
+        }
+        const arrayBuffer = bytes.buffer
+        return arrayBuffer
+      } catch (error) {
+        console.error('Failed to decode base64 string:', error)
+        return null
       }
-      const arrayBuffer = bytes.buffer
-      pdfFilePath = arrayBuffer
-    } catch (error) {
-      console.error('Failed to decode base64 string:', error)
-      return <div key={currentIndex}>Failed to load PDF</div>
     }
-  }
+    return null
+  }, [index, mediaItems, mimeType])
 
   // TODO: odd behaviour, set the pdf starting dimensions and a directly loaded pdf ends up at the wrong scale??!?
   // const startingImageDimensions =
