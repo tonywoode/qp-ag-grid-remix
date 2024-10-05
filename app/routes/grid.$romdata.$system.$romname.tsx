@@ -164,25 +164,17 @@ export default function MediaPanel() {
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
     console.log('mimeType')
     console.log(mimeType)
-
     const handleVideoError = event => console.error('Error playing video:', event)
     const handleAudioError = event => console.error('Error playing audio:', event)
-    const handlePDFError = event => console.error('Error embedding PDF:', event)
 
-    if (mimeType === 'text/plain') {
+    if (mimeType.startsWith('text')) {
       return (
         <div
           key={currentIndex}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
           onClick={() => {
-            setLightboxContent({
-              currentIndex,
-              romname,
-              mediaItems
-            })
+            setLightboxContent({ currentIndex, romname, mediaItems })
             setIsLightboxOpen(true)
-            // const dimensions = { width: 'auto', height: 'auto' }  //TODO: This needs to be set in the MediaNavigation component!!!
-            // openLightbox(<TextFileRenderer index={index} romname={romname} base64Data={base64Data} />, mimeType)
           }}
           style={{ flexBasis: '20%' }}
         >
@@ -216,39 +208,19 @@ export default function MediaPanel() {
     }
 
     if (mimeType === 'application/pdf') {
-      try {
-        // Remove the base64 prefix if it exists
-        const base64String = mediaItem.split(',')[1] || mediaItem
-        // Decode base64 string to ArrayBuffer
-        const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
-        const len = binaryString.length
-        const bytes = new Uint8Array(len)
-        for (let i = 0; i < len; i++) {
-          bytes[i] = binaryString.charCodeAt(i)
-        }
-        const arrayBuffer = bytes.buffer
-
-        return (
-          <div
-            key={currentIndex}
-            className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
-            onClick={() => {
-              // console.log('pdfWorker needs using', pdfjsWorker) //we must USE it here to get it to load, it prints an empty object?!
-              // setLightboxContent(<SimplePDFViewer pdfFilePath={arrayBuffer} />)
-              setLightboxContent({ mediaItems, currentIndex, pdfFilePath: arrayBuffer })
-              setIsLightboxOpen(true)
-              // const dimensions = { width: '50%', height: '100%' } //handle properly (see imagedimensions in media nav!!!!
-            }}
-            style={{ flexBasis: '20%' }}
-          >
-            <FaFilePdf className="w-full h-full" />
-            {/* <embed src={mediaItem} type={mimeType} style={{ width: '100%', height: 'auto' }} onError={handlePDFError} /> */}
-          </div>
-        )
-      } catch (error) {
-        console.error('Failed to decode base64 string:', error)
-        return <div key={currentIndex}>Failed to load PDF</div>
-      }
+      return (
+        <div
+          key={currentIndex}
+          className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
+          onClick={() => {
+            setLightboxContent({ mediaItems, currentIndex })
+            setIsLightboxOpen(true)
+          }}
+          style={{ flexBasis: '20%' }}
+        >
+          <FaFilePdf className="w-full h-full" />
+        </div>
+      )
     }
 
     if (mimeType.startsWith('image')) {
@@ -342,7 +314,6 @@ type MediaContent = {
   romname: string
   mediaItems: string[]
   currentIndex: number
-  pdfFilePath?: string
 }
 
 function MediaNavigation({
@@ -350,37 +321,38 @@ function MediaNavigation({
   closeLightbox,
   ...mediaContent
 }: MediaContent & { isLightboxOpen: boolean; closeLightbox: () => void }) {
-  const { romname, pdfFilePath, mediaItems, currentIndex } = mediaContent
+  const { romname, mediaItems, currentIndex } = mediaContent
   const [index, setIndex] = useState(currentIndex)
   const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
   console.log('the mime type is ' + mimeType)
-  let pdfFilePath2 = null
+  let pdfFilePath = null
   if (mimeType === 'application/pdf') {
     //Get the pdf file path from the item
-    // try {
-    // Remove the base64 prefix if it exists
-    const base64String = mediaItems[index].split(',')[1] || mediaItems[index]
-    // Decode base64 string to ArrayBuffer
-    const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
-    const len = binaryString.length
-    const bytes = new Uint8Array(len)
-    for (let i = 0; i < len; i++) {
-      bytes[i] = binaryString.charCodeAt(i)
+    try {
+      //Remove the base64 prefix if it exists
+      const base64String = mediaItems[index].split(',')[1] || mediaItems[index]
+      // Decode base64 string to ArrayBuffer
+      const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
+      const len = binaryString.length
+      const bytes = new Uint8Array(len)
+      for (let i = 0; i < len; i++) {
+        bytes[i] = binaryString.charCodeAt(i)
+      }
+      const arrayBuffer = bytes.buffer
+      pdfFilePath = arrayBuffer
+    } catch (error) {
+      console.error('Failed to decode base64 string:', error)
+      return <div key={currentIndex}>Failed to load PDF</div>
     }
-    const arrayBuffer = bytes.buffer
-    pdfFilePath2 = arrayBuffer
-    // } catch (error) {
-    //   console.error('Failed to decode base64 string:', error)
-    //   return <div key={currentIndex}>Failed to load PDF</div>
-    // }
   }
 
-  // TODO: below is a temporary fix for mimetype dimensions to get pdf working
-  const startingImageDimensions =
-    mimeType === 'application/pdf' ? { width: '50%', height: '100%' } : { width: 'auto', height: 'auto' }
-  const [thisImageDimensions, setThisImageDimensions] = useState(startingImageDimensions)
+  // TODO: odd behaviour, set the pdf starting dimensions and a directly loaded pdf ends up at the wrong scale??!?
+  // const startingImageDimensions =
+  //   mimeType === 'application/pdf' ? { width: '50%', height: '100%' } : { width: 'auto', height: 'auto' }
+  const startingImageDimensions = { width: 'auto', height: 'auto' }
   const [lightboxDimensions, setLightboxDimensions] = useState({ width: '80%', height: '80%' })
+  const [thisImageDimensions, setThisImageDimensions] = useState(startingImageDimensions)
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
   const initialTouchDistanceRef = useRef(0)
@@ -427,7 +399,7 @@ function MediaNavigation({
       setLightboxDimensions({ width: '80%', height: '80%' })
     }
     if (mimeType === 'application/pdf') {
-      setThisImageDimensions({ width: '50%', height: '100%' })
+      setThisImageDimensions({ width: '50%', height: '100%' }) //seems if its here having an initial also messes it up!
       setLightboxDimensions({ width: '80%', height: '80%' })
     }
   }, [index, mediaItems, zoomLevel, setLightboxDimensions])
@@ -538,18 +510,18 @@ function MediaNavigation({
           transform: 'translate(-50%, -50%)',
           width: thisImageDimensions.width,
           height: thisImageDimensions.height,
-          maxWidth: mimeType === 'text/plain' ? '80%' : '100%',
-          maxHeight: mimeType === 'text/plain' ? '80%' : '100%',
-          overflow: mimeType === 'text/plain' ? 'auto' : 'hidden',
+          maxWidth: mimeType.startsWith('text') ? '80%' : '100%',
+          maxHeight: mimeType.startsWith('text') ? '80%' : '100%',
+          overflow: mimeType.startsWith('text') ? 'auto' : 'hidden',
           display: 'flex',
           justifyContent: 'center',
-          alignItems: mimeType === 'text/plain' ? 'flex-start' : 'center',
+          alignItems: mimeType.startsWith('text') ? 'flex-start' : 'center',
           border: 'none'
           // transition: 'width 0.05s ease-in-out, height 0.05s ease-in-out'
         }
       }}
     >
-      {mimeType === 'text/plain' ? (
+      {mimeType.startsWith('text') ? (
         <div className="p-3 bg-gray-800 text-white rounded-lg">
           <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
             {romname} Text File {index}
@@ -560,9 +532,10 @@ function MediaNavigation({
         </div>
       ) : mimeType === 'application/pdf' ? (
         console.log('pdfWorker needs using', pdfjsWorker) || ( //we must USE it here to get it to load, it prints an empty object?!
-          <SimplePDFViewer pdfFilePath={pdfFilePath ? pdfFilePath : pdfFilePath2} /> //TODO: if we rid ourselves of pdfFilePath(1) here (which we should do) the pdf dimensions are wrong if a pdf is directly clicked-on?
+          <SimplePDFViewer pdfFilePath={pdfFilePath} /> //TODO: if we rid ourselves of pdfFilePath(1) here (which we should do) the pdf dimensions are wrong if a pdf is directly clicked-on?
         )
       ) : (
+        //image
         <div
           className="fixed inset-0 flex items-center justify-center max-w-full max-h-full overflow-auto"
           //TODO: this needs testing somehow....
