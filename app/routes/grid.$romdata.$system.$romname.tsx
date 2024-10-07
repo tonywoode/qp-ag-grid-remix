@@ -572,7 +572,7 @@ function MediaNavigation({
                   type="range"
                   min="1"
                   max="2"
-                  step="0.01"
+                  step="0.05"
                   value={zoomLevel}
                   onChange={handleZoomChange}
                   className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
