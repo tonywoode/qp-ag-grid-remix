@@ -453,8 +453,21 @@ function MediaNavigation({
       return newZoomLevel
     })
   }
-  const prevImage = () => setIndex(prev => (prev === 0 ? mediaItems.length - 1 : prev - 1))
-  const nextImage = () => setIndex(prev => (prev === mediaItems.length - 1 ? 0 : prev + 1))
+  const prevImage = () => {
+    setIndex(prev => {
+      const newIndex = prev === 0 ? mediaItems.length - 1 : prev - 1
+      setImagePosition({ x: 0, y: 0 }) // Reset drag position
+      return newIndex
+    })
+  }
+
+  const nextImage = () => {
+    setIndex(prev => {
+      const newIndex = prev === mediaItems.length - 1 ? 0 : prev + 1
+      setImagePosition({ x: 0, y: 0 }) // Reset drag position
+      return newIndex
+    })
+  }
 
   const handleTouchStart = e => {
     if (e.touches.length === 2) {
