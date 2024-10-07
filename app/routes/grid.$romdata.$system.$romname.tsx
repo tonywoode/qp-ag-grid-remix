@@ -342,7 +342,6 @@ function MediaNavigation({
     return null
   }, [index, mediaItems, mimeType])
 
-  const [lightboxDimensions, setLightboxDimensions] = useState({ width: 'auto', height: 'auto' })
   const [thisImageDimensions, setThisImageDimensions] = useState({ width: 'auto', height: 'auto' }) //don't worry about starting dimensions
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
@@ -350,6 +349,11 @@ function MediaNavigation({
   const [isDragging, setIsDragging] = useState(false)
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 })
+
+  //TODO: log mode!
+  useEffect(() => {
+    console.log('This Image Dimensions:', thisImageDimensions)
+  }, [thisImageDimensions])
 
   const calculateImageDimensions = src => {
     return new Promise((resolve, reject) => {
@@ -380,7 +384,6 @@ function MediaNavigation({
       width: dimensions.width * zoomLevel,
       height: dimensions.height * zoomLevel
     }
-    setLightboxDimensions(newDimensions)
     setThisImageDimensions(newDimensions)
   }
 
@@ -388,13 +391,11 @@ function MediaNavigation({
     if (mimeType.startsWith('image')) fetchDimensions() //handle async
     if (mimeType.startsWith('text')) {
       setThisImageDimensions({ width: 'auto', height: 'auto' })
-      setLightboxDimensions({ width: '80%', height: '80%' })
     }
     if (mimeType === 'application/pdf') {
       setThisImageDimensions({ width: '50%', height: '100%' })
-      setLightboxDimensions({ width: '80%', height: '80%' })
     }
-  }, [index, mediaItems, zoomLevel, setLightboxDimensions])
+  }, [index, mediaItems, zoomLevel])
 
   const handleMouseDown = e => {
     setIsDragging(true)
@@ -417,13 +418,14 @@ function MediaNavigation({
     setZoomLevel(newZoomLevel)
     updateImageDimensions(newZoomLevel)
   }
+
+  //here we can't use the prev fn form of state update, jaggy....
   const updateImageDimensions = zoom => {
     const newDimensions = {
       width: thisImageDimensions.width * zoom,
       height: thisImageDimensions.height * zoom
     }
     setThisImageDimensions(newDimensions)
-    setLightboxDimensions(newDimensions)
   }
 
   const zoomIn = () => {
