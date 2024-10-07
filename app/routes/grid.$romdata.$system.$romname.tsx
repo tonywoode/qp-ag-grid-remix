@@ -487,129 +487,140 @@ function MediaNavigation({
     }
   }, [mimeType])
 
-  return (
-    <Modal
-      isOpen={isLightboxOpen}
-      onRequestClose={closeLightbox}
-      style={{
-        overlay: { zIndex: 3 },
-        content: {
-          top: '50%',
-          left: '50%',
-          right: 'auto',
-          bottom: 'auto',
-          transform: 'translate(-50%, -50%)',
+
+const renderTextContent = () => (
+  <div className="p-3 bg-gray-800 text-white rounded-lg">
+    <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
+      {romname} Text File {index}
+    </h1>
+    <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
+      {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
+    </pre>
+  </div>
+)
+
+const renderPDFContent = () => (
+  <SimplePDFViewer pdfFilePath={pdfFilePath} /> //TODO: if we rid ourselves of pdfFilePath(1) here (which we should do) the pdf dimensions are wrong if a pdf is directly clicked-on?
+)
+
+const renderImageContent = () => (
+  <div
+    className="fixed inset-0 flex items-center justify-center max-w-full max-h-full overflow-auto"
+    onWheel={e => {
+      if (e.deltaY < 0) {
+        zoomIn()
+      } else {
+        zoomOut()
+      }
+    }}
+    onTouchStart={handleTouchStart}
+    onTouchMove={handleTouchMove}
+    onMouseDown={handleMouseDown}
+    onMouseMove={handleMouseMove}
+    onMouseUp={handleMouseUp}
+    onMouseLeave={handleMouseUp}
+  >
+    <div className="m-3 relative">
+      <img
+        src={mediaItems[index]}
+        alt={`${index + 1}`}
+        onDragStart={handleDragStart}
+        style={{
           width: thisImageDimensions.width,
           height: thisImageDimensions.height,
-          maxWidth: mimeType.startsWith('text') ? '80%' : '100%',
-          maxHeight: mimeType.startsWith('text') ? '80%' : '100%',
-          overflow: mimeType.startsWith('text') ? 'auto' : 'hidden',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: mimeType.startsWith('text') ? 'flex-start' : 'center',
-          border: 'none'
-          // transition: 'width 0.05s ease-in-out, height 0.05s ease-in-out'
-        }
-      }}
-    >
-      {mimeType.startsWith('text') ? (
-        <div className="p-3 bg-gray-800 text-white rounded-lg">
-          <h1 className="text-2xl font-bold my-4 text-yellow-300" style={{ whiteSpace: 'pre-wrap' }}>
-            {romname} Text File {index}
-          </h1>
-          <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
-            {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
-          </pre>
-        </div>
-      ) : mimeType === 'application/pdf' ? (
-        <SimplePDFViewer pdfFilePath={pdfFilePath} /> //TODO: if we rid ourselves of pdfFilePath(1) here (which we should do) the pdf dimensions are wrong if a pdf is directly clicked-on?
-      ) : (
-        //image
+          objectFit: 'contain',
+          borderRadius: '1.5rem',
+          transform: `translate(${imagePosition.x}px, ${imagePosition.y}px)`,
+          cursor: isDragging ? 'grabbing' : 'grab'
+        }}
+      />
+      <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
+        <button onClick={prevImage} className="p-2">
+          <VscChevronLeft className="h-5 w-5" />
+        </button>
         <div
-          className="fixed inset-0 flex items-center justify-center max-w-full max-h-full overflow-auto"
-          //TODO: this needs testing somehow....
-          onWheel={e => {
-            // if (e.ctrlKey || e.metaKey || e.shiftKey) {
-            // Check if the pinch gesture or middle mouse wheel is used
-            if (e.deltaY < 0) {
-              zoomIn()
-            } else {
-              zoomOut()
-            }
-          }}
-          onTouchStart={handleTouchStart}
-          onTouchMove={handleTouchMove}
-          onMouseDown={handleMouseDown}
-          onMouseMove={handleMouseMove}
-          onMouseUp={handleMouseUp}
-          onMouseLeave={handleMouseUp}
+          className="relative flex items-center justify-center"
+          onMouseEnter={() => setIsSliderActive(true)}
+          onMouseLeave={() => setIsSliderActive(false)}
         >
-          <div className="m-3 relative">
-            <img
-              src={mediaItems[index]}
-              alt={`${index + 1}`}
-              onDragStart={handleDragStart}
-              style={{
-                width: thisImageDimensions.width,
-                height: thisImageDimensions.height,
-                // maxWidth: '80%',
-                // maxHeight: '80%',
-                objectFit: 'contain',
-                borderRadius: '1.5rem',
-                transform: `translate(${imagePosition.x}px, ${imagePosition.y}px)`,
-                cursor: isDragging ? 'grabbing' : 'grab'
-              }}
-            />
-            <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
-              <button onClick={prevImage} className={`p-2`}>
-                <VscChevronLeft className="h-5 w-5" />
-              </button>
-              <div
-                className="relative flex items-center justify-center"
-                onMouseEnter={() => setIsSliderActive(true)}
-                onMouseLeave={() => setIsSliderActive(false)}
-              >
-                <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
-                {console.log('zoom level is ' + zoomLevel) ||
-                  (isSliderActive && (
-                    <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
-                      <input
-                        type="range"
-                        min="1"
-                        max="3"
-                        step="0.01"
-                        value={zoomLevel}
-                        onChange={handleZoomChange}
-                        className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
-                        style={{
-                          background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
-                        }}
-                      />
-                      <style jsx>{`
-                        input[type='range']::-webkit-slider-thumb {
-                          width: 1rem;
-                          height: 1rem;
-                          background: rgba(255, 255, 255, 0.75);
-                          border: 0.1rem solid rgba(1, 1, 1, 1);
-                          border-radius: 100%;
-                          opacity: 0.35;
-                          cursor: pointer;
-                          webkitappearance: none;
-                          appearance: none;
-                        }
-                      `}</style>
-                    </div>
-                  ))}
-              </div>
-              <button onClick={nextImage} className={'p-2'}>
-                <VscChevronRight className="h-5 w-5" />
-              </button>
+          <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
+          {isSliderActive && (
+            <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
+              <input
+                type="range"
+                min="1"
+                max="3"
+                step="0.01"
+                value={zoomLevel}
+                onChange={handleZoomChange}
+                className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
+                style={{
+                  background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
+                }}
+              />
+              <style jsx>{`
+                input[type='range']::-webkit-slider-thumb {
+                  width: 1rem;
+                  height: 1rem;
+                  background: rgba(255, 255, 255, 0.75);
+                  border: 0.1rem solid rgba(1, 1, 1, 1);
+                  border-radius: 100%;
+                  opacity: 0.35;
+                  cursor: pointer;
+                  webkitappearance: none;
+                  appearance: none;
+                }
+              `}</style>
             </div>
-          </div>
+          )}
         </div>
-      )}
-    </Modal>
-  )
+        <button onClick={nextImage} className="p-2">
+          <VscChevronRight className="h-5 w-5" />
+        </button>
+      </div>
+    </div>
+  </div>
+)
+
+const renderContent = () => {
+  if (mimeType.startsWith('text')) {
+    return renderTextContent()
+  } else if (mimeType === 'application/pdf') {
+    return renderPDFContent()
+  } else if (mimeType.startsWith('image')) {
+    return renderImageContent()
+  } else {
+    return <div>Unsupported MIME type</div>
+  }
+}
+
+return (
+  <Modal
+    isOpen={isLightboxOpen}
+    onRequestClose={closeLightbox}
+    style={{
+      overlay: { zIndex: 3 },
+      content: {
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        transform: 'translate(-50%, -50%)',
+        width: thisImageDimensions.width,
+        height: thisImageDimensions.height,
+        maxWidth: mimeType.startsWith('text') ? '80%' : '100%',
+        maxHeight: mimeType.startsWith('text') ? '80%' : '100%',
+        overflow: mimeType.startsWith('text') ? 'auto' : 'hidden',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: mimeType.startsWith('text') ? 'flex-start' : 'center',
+        border: 'none'
+      }
+    }}
+  >
+    {renderContent()}
+  </Modal>
+)
 }
 
 // fetcher.submit(
