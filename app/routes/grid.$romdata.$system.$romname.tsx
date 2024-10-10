@@ -402,14 +402,18 @@ function MediaNavigation({
   const handleMouseDown = e => {
     if (!isSliderActive) {
       setIsDragging(true)
-      setDragStart({ x: e.clientX - imagePosition.x, y: e.clientY - imagePosition.y })
+      setDragStart({ x: e.clientX, y: e.clientY })
     }
   }
   const handleDragStart = e => e.preventDefault()
 
   const handleMouseMove = e => {
     if (isDragging && !isSliderActive) {
-      setImagePosition({ x: e.clientX - dragStart.x, y: e.clientY - dragStart.y })
+      const scrollContainer = e.target.closest('.scroll-container')
+      if (scrollContainer) {
+        scrollContainer.scrollLeft -= e.movementX
+        scrollContainer.scrollTop -= e.movementY
+      }
     }
   }
 
@@ -420,7 +424,7 @@ function MediaNavigation({
   }
 
   const handleZoomChange = event => {
-    const sliderValue = parseFloat(event.target.value)
+    const sliderValue = Math.max(1, Math.min(parseFloat(event.target.value), 5)) // Constrain between 1 and 5
     setZoomLevel(sliderValue)
     const newDimensions = {
       width: originalDimensions.width * sliderValue,
@@ -441,15 +445,15 @@ function MediaNavigation({
   const zoomIn = () => {
     setZoomLevel(prev => {
       const newZoomLevel = Math.min(prev + 0.25, 5) // Allow zooming up to 500%
-      updateImageDimensions(newZoomLevel)
+      updateImageDimensions(newZoomLevel / prev)
       return newZoomLevel
     })
   }
 
   const zoomOut = () => {
     setZoomLevel(prev => {
-      const newZoomLevel = Math.max(prev - 0.25, 0.25) // Allow zooming down to 25%
-      updateImageDimensions(newZoomLevel)
+      const newZoomLevel = Math.max(prev - 0.25, 0.25) // Allow zooming down to 25
+      updateImageDimensions(newZoomLevel / prev)
       return newZoomLevel
     })
   }
@@ -477,17 +481,30 @@ function MediaNavigation({
     }
   }
 
+  const handleWheel = e => {
+    e.preventDefault() // Prevent default scrolling behavior
+    if (e.deltaY < 0) {
+      zoomIn()
+    } else {
+      zoomOut()
+    }
+  }
+
   const handleTouchMove = e => {
+    e.preventDefault() // Prevent default scrolling behavior
     if (e.touches.length === 2) {
       // Calculate new distance between touches
       const [touch1, touch2] = e.touches
       const newTouchDistance = Math.hypot(touch2.pageX - touch1.pageX, touch2.pageY - touch1.pageY)
       // Determine zoom direction
-      if (newTouchDistance > initialTouchDistanceRef.current) {
-        zoomIn()
-      } else {
-        zoomOut()
+      const zoomFactor = newTouchDistance / initialTouchDistanceRef.current
+      const newZoomLevel = Math.max(1, Math.min(zoomLevel * zoomFactor, 5)) // Constrain between 1 and 5
+      setZoomLevel(newZoomLevel)
+      const newDimensions = {
+        width: originalDimensions.width * newZoomLevel,
+        height: originalDimensions.height * newZoomLevel
       }
+      setThisImageDimensions(newDimensions)
       // Update initial touch distance
       initialTouchDistanceRef.current = newTouchDistance
     }
@@ -527,14 +544,8 @@ function MediaNavigation({
 
   const renderImageContent = () => (
     <div
-      className="fixed inset-0 flex items-center justify-center max-w-full max-h-full overflow-auto"
-      onWheel={e => {
-        if (e.deltaY < 0) {
-          zoomIn()
-        } else {
-          zoomOut()
-        }
-      }}
+      className="fixed inset-0 flex items-center justify-center max-w-full max-h-full overflow-auto touch-none scroll-container"
+      onWheel={handleWheel}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onMouseDown={handleMouseDown}
@@ -542,17 +553,18 @@ function MediaNavigation({
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseUp}
     >
-      <div className="m-3 relative">
+      <div className="relative">
         <img
           src={mediaItems[index]}
           alt={`${index + 1}`}
           onDragStart={handleDragStart}
+          className="object-contain rounded-lg"
           style={{
             width: thisImageDimensions.width,
             height: thisImageDimensions.height,
-            objectFit: 'contain',
+            maxWidth: 'none', // Allow image to exceed container width
+            maxHeight: 'none', // Allow image to exceed container height
             borderRadius: '1.5rem',
-            transform: `translate(${imagePosition.x}px, ${imagePosition.y}px)`,
             cursor: isDragging ? 'grabbing' : 'grab'
           }}
         />
