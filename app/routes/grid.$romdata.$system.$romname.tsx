@@ -484,7 +484,6 @@ function MediaNavigation({
   }
 
   const handleWheel = e => {
-    e.preventDefault() // Prevent default scrolling behavior
     if (e.deltaY < 0) {
       zoomIn()
     } else {
@@ -519,7 +518,7 @@ function MediaNavigation({
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
     }
-  }, [mimeType])
+  }, [mimeType, nextImage, prevImage, zoomIn, zoomOut])
 
   const renderTextContent = () => (
     <div className="p-3 bg-gray-800 text-white rounded-lg">
@@ -539,7 +538,7 @@ function MediaNavigation({
   const renderImageContent = () => (
     <div
       ref={scrollContainerRef}
-      className="fixed inset-0 overflow-auto touch-none scroll-container"
+      className="fixed inset-0 overflow-auto touch-none"
       onWheel={handleWheel}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
@@ -548,70 +547,65 @@ function MediaNavigation({
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseUp}
     >
-      <div
-        className="relative"
-        style={{ width: `${thisImageDimensions.width}px`, height: `${thisImageDimensions.height}px` }}
-      >
-        <img
-          src={mediaItems[index]}
-          alt={`${index + 1}`}
-          onDragStart={handleDragStart}
-          className="object-contain rounded-lg"
-          style={{
-            width: '100%',
-            height: '100%',
-            maxWidth: 'none', // Allow image to exceed container width
-            maxHeight: 'none', // Allow image to exceed container height
-            borderRadius: '1.5rem',
-            cursor: isDragging ? 'grabbing' : 'grab'
-          }}
-        />
-        <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
-          <button onClick={prevImage} className="p-2">
-            <VscChevronLeft className="h-5 w-5" />
-          </button>
-          <div
-            className="relative flex items-center justify-center"
-            onMouseEnter={() => setIsSliderActive(true)}
-            onMouseLeave={() => setIsSliderActive(false)}
-          >
-            <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
-            {isSliderActive && (
-              <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
-                <input
-                  type="range"
-                  min="1"
-                  max="2"
-                  step="0.05"
-                  value={zoomLevel}
-                  onChange={handleZoomChange}
-                  className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
-                  style={{
-                    background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
-                  }}
-                  onMouseDown={() => setIsSliderActive(true)}
-                  onMouseUp={() => setIsSliderActive(false)}
-                />
-                <style jsx>{`
-                  input[type='range']::-webkit-slider-thumb {
-                    width: 1rem;
-                    height: 1rem;
-                    background: rgba(255, 255, 255, 0.75);
-                    border: 0.1rem solid rgba(1, 1, 1, 1);
-                    border-radius: 100%;
-                    opacity: 0.35;
-                    cursor: pointer;
-                    webkitappearance: none;
-                    appearance: none;
-                  }
-                `}</style>
-              </div>
-            )}
-          </div>
-          <button onClick={nextImage} className="p-2">
-            <VscChevronRight className="h-5 w-5" />
-          </button>
+      <img
+        src={mediaItems[index]}
+        alt={`${index + 1}`}
+        onDragStart={handleDragStart}
+        className="object-contain rounded-lg"
+        style={{
+          maxWidth: 'none', // Allow image to exceed container width
+          maxHeight: 'none', // Allow image to exceed container height
+          borderRadius: '1.5rem',
+          cursor: isDragging ? 'grabbing' : 'grab',
+          width: `${thisImageDimensions.width}px`,
+          height: `${thisImageDimensions.height}px`
+        }}
+      />
+      <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
+        <button onClick={prevImage} className="p-2">
+          <VscChevronLeft className="h-5 w-5" />
+        </button>
+        <div
+          className="relative flex items-center justify-center"
+          onMouseEnter={() => setIsSliderActive(true)}
+          onMouseLeave={() => setIsSliderActive(false)}
+        >
+          <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
+          {isSliderActive && (
+            <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
+              <input
+                type="range"
+                min="1"
+                max="2"
+                step="0.05"
+                value={zoomLevel}
+                onChange={handleZoomChange}
+                className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
+                style={{
+                  background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
+                }}
+                onMouseDown={() => setIsSliderActive(true)}
+                onMouseUp={() => setIsSliderActive(false)}
+              />
+              <style jsx>{`
+                input[type='range']::-webkit-slider-thumb {
+                  width: 1rem;
+                  height: 1rem;
+                  background: rgba(255, 255, 255, 0.75);
+                  border: 0.1rem solid rgba(1, 1, 1, 1);
+                  border-radius: 100%;
+                  opacity: 0.35;
+                  cursor: pointer;
+                  webkitappearance: none;
+                  appearance: none;
+                }
+              `}</style>
+            </div>
+          )}
         </div>
+        <button onClick={nextImage} className="p-2">
+          <VscChevronRight className="h-5 w-5" />
+        </button>
       </div>
     </div>
   )
