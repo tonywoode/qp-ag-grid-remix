@@ -447,7 +447,8 @@ function MediaNavigation({
   const zoomIn = () => {
     setZoomLevel(prev => {
       const newZoomLevel = Math.min(prev + 0.25, 5) // Allow zooming up to 500%
-      updateImageDimensions(newZoomLevel / prev)
+      // updateImageDimensions(newZoomLevel / prev)
+      setZoomLevel(newZoomLevel)
       return newZoomLevel
     })
   }
@@ -455,7 +456,8 @@ function MediaNavigation({
   const zoomOut = () => {
     setZoomLevel(prev => {
       const newZoomLevel = Math.max(prev - 0.25, 0.25) // Allow zooming down to 25
-      updateImageDimensions(newZoomLevel / prev)
+      // updateImageDimensions(newZoomLevel / prev)
+      setZoomLevel(newZoomLevel)
       return newZoomLevel
     })
   }
@@ -567,12 +569,16 @@ function MediaNavigation({
     // >
     <img
       onDragStart={handleDragStart}
-      // className="object-contain rounded-lg"
       src={mediaItems[index]}
       alt={`${index + 1}`}
+      className="object-contain rounded-lg"
       style={{
         width: `${thisImageDimensions.width}px`,
-        height: `${thisImageDimensions.height}px`
+        height: `${thisImageDimensions.height}px`,
+        maxWidth: 'none', // Allow image to exceed container width
+        maxHeight: 'none', // Allow image to exceed container height
+        borderRadius: '1.5rem',
+        cursor: isDragging ? 'grabbing' : 'grab'
       }}
     />
     // </div>
@@ -595,7 +601,7 @@ function MediaNavigation({
       isOpen={isLightboxOpen}
       onRequestClose={closeLightbox}
       ref={scrollContainerRef}
-      className="fixed inset-0 overflow-auto"
+      className="fixed inset-0 overflow-auto touch-none flex justify-center items-center"
       onWheel={handleWheel}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
@@ -618,7 +624,7 @@ function MediaNavigation({
           overflow: mimeType.startsWith('text') ? 'auto' : 'hidden',
           // overflow: 'scroll',
           // display: 'flex',
-          // justifyContent: 'center',
+          justifyContent: 'center',
           alignItems: mimeType.startsWith('text') ? 'flex-start' : 'center',
           border: 'none',
           borderRadius: '1.5rem',
