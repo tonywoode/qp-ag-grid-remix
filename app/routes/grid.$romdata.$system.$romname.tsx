@@ -629,7 +629,8 @@ function MediaNavigation({
           border: 'none',
           borderRadius: '1.5rem',
           cursor: isDragging ? 'grabbing' : 'grab',
-          transform: `translate(-50%, -50%) scale(${zoomLevel}) `
+          // transform: `translate(-50%, -50%)` // scale(${zoomLevel}) `,
+          transform: mimeType.startsWith('text') ? `translate(-50%, -50%) scale(${zoomLevel})` : 'translate(-50%, -50%)'
           // transformOrigin: 'center'
         }
       }}
