@@ -536,9 +536,66 @@ function MediaNavigation({
   )
 
   const renderImageContent = () => (
-    <div
+    // <div
+    // ref={scrollContainerRef}
+    // className="fixed inset-0 overflow-auto touch-none"
+    // // style={{
+    // //   scrollSnapType: 'y mandatory',
+    // //   scrollPaddingTop: '200vh',
+    // //   overflowY: 'scroll',
+    // //   transformOrigin: 'center'
+    // // }}
+    // onWheel={handleWheel}
+    // onTouchStart={handleTouchStart}
+    // onTouchMove={handleTouchMove}
+    // onMouseDown={handleMouseDown}
+    // onMouseMove={handleMouseMove}
+    // onMouseUp={handleMouseUp}
+    // onMouseLeave={handleMouseUp}
+    // style={{
+    //   // maxWidth: 'none', // Allow image to exceed container width
+    //   // maxHeight: 'none', // Allow image to exceed container height
+    //   borderRadius: '1.5rem',
+    //   cursor: isDragging ? 'grabbing' : 'grab',
+    //   transform: `scale(${zoomLevel})`,
+    //   transformOrigin: 'center'
+    // width: `${originalDimensions.width}px`,
+    // height: `${originalDimensions.height}px`
+    // scrollPaddingTop: '200vh',
+    // overflow: 'scroll'
+    // }}
+    // >
+    <img
+      onDragStart={handleDragStart}
+      // className="object-contain rounded-lg"
+      src={mediaItems[index]}
+      alt={`${index + 1}`}
+      style={{
+        width: `${thisImageDimensions.width}px`,
+        height: `${thisImageDimensions.height}px`
+      }}
+    />
+    // </div>
+  )
+
+  const renderContent = () => {
+    if (mimeType.startsWith('text')) {
+      return renderTextContent()
+    } else if (mimeType === 'application/pdf') {
+      return renderPDFContent()
+    } else if (mimeType.startsWith('image')) {
+      return renderImageContent()
+    } else {
+      return <div>Unsupported MIME type</div>
+    }
+  }
+
+  return (
+    <Modal
+      isOpen={isLightboxOpen}
+      onRequestClose={closeLightbox}
       ref={scrollContainerRef}
-      className="fixed inset-0 overflow-auto touch-none"
+      className="fixed inset-0 overflow-auto"
       onWheel={handleWheel}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
@@ -546,21 +603,32 @@ function MediaNavigation({
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseUp}
-    >
-      <img
-        src={mediaItems[index]}
-        alt={`${index + 1}`}
-        onDragStart={handleDragStart}
-        className="object-contain rounded-lg"
-        style={{
-          maxWidth: 'none', // Allow image to exceed container width
-          maxHeight: 'none', // Allow image to exceed container height
+      style={{
+        overlay: { zIndex: 3 },
+        content: {
+          top: '50%',
+          left: '50%',
+          right: 'auto',
+          bottom: 'auto',
+          // transform: 'translate(-50%, -50%)',
+          width: 'auto',
+          height: 'auto',
+          maxWidth: mimeType.startsWith('text') ? '80%' : '100%',
+          maxHeight: mimeType.startsWith('text') ? '80%' : '100%',
+          overflow: mimeType.startsWith('text') ? 'auto' : 'hidden',
+          // overflow: 'scroll',
+          // display: 'flex',
+          // justifyContent: 'center',
+          alignItems: mimeType.startsWith('text') ? 'flex-start' : 'center',
+          border: 'none',
           borderRadius: '1.5rem',
           cursor: isDragging ? 'grabbing' : 'grab',
-          width: `${thisImageDimensions.width}px`,
-          height: `${thisImageDimensions.height}px`
-        }}
-      />
+          transform: `translate(-50%, -50%) scale(${zoomLevel}) `
+          // transformOrigin: 'center'
+        }
+      }}
+    >
+      {renderContent()}
       <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
         <button onClick={prevImage} className="p-2">
           <VscChevronLeft className="h-5 w-5" />
@@ -607,46 +675,6 @@ function MediaNavigation({
           <VscChevronRight className="h-5 w-5" />
         </button>
       </div>
-    </div>
-  )
-
-  const renderContent = () => {
-    if (mimeType.startsWith('text')) {
-      return renderTextContent()
-    } else if (mimeType === 'application/pdf') {
-      return renderPDFContent()
-    } else if (mimeType.startsWith('image')) {
-      return renderImageContent()
-    } else {
-      return <div>Unsupported MIME type</div>
-    }
-  }
-
-  return (
-    <Modal
-      isOpen={isLightboxOpen}
-      onRequestClose={closeLightbox}
-      style={{
-        overlay: { zIndex: 3 },
-        content: {
-          top: '50%',
-          left: '50%',
-          right: 'auto',
-          bottom: 'auto',
-          transform: 'translate(-50%, -50%)',
-          width: thisImageDimensions.width,
-          height: thisImageDimensions.height,
-          maxWidth: mimeType.startsWith('text') ? '80%' : '100%',
-          maxHeight: mimeType.startsWith('text') ? '80%' : '100%',
-          overflow: mimeType.startsWith('text') ? 'auto' : 'hidden',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: mimeType.startsWith('text') ? 'flex-start' : 'center',
-          border: 'none'
-        }
-      }}
-    >
-      {renderContent()}
     </Modal>
   )
 }
