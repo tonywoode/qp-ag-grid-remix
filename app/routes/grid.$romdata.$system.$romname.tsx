@@ -326,6 +326,10 @@ function MediaNavigation({
   const [index, setIndex] = useState(currentIndex)
   const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
+  const [zoomLevel, setZoomLevel] = useState(1)
+  const [isSliderActive, setIsSliderActive] = useState(false)
+  const contentRef = useRef(null)
+
   const pdfFilePath = useMemo(() => {
     if (mimeType === 'application/pdf') {
       ;(() => pdfjsWorker)() // we must USE it here to get pdfs to load (common problem with pdfjs libs!)
@@ -342,257 +346,65 @@ function MediaNavigation({
     return null
   }, [index, mediaItems, mimeType])
 
-  const [thisImageDimensions, setThisImageDimensions] = useState({ width: 'auto', height: 'auto' }) //don't worry about starting dimensions
-  const [zoomLevel, setZoomLevel] = useState(1)
-  const [isSliderActive, setIsSliderActive] = useState(false)
-  const initialTouchDistanceRef = useRef(0)
-  const [isDragging, setIsDragging] = useState(false)
-  const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
-  const [imagePosition, setImagePosition] = useState({ x: 0, y: 0 })
-  const [originalDimensions, setOriginalDimensions] = useState({ width: 0, height: 0 })
-  const scrollContainerRef = useRef(null)
-  const lastTouchPositionRef = useRef({ x: 0, y: 0 })
-
-  //TODO: log mode!
   useEffect(() => {
-    console.log('This Image Dimensions:', thisImageDimensions)
-  }, [thisImageDimensions])
-
-  const calculateImageDimensions = src => {
-    return new Promise((resolve, reject) => {
-      if (!src) return reject(new Error('Image source is required'))
-      const img = new Image()
-      img.src = src
-      img.onload = () => {
-        const screenWidth = window.innerWidth
-        const screenHeight = window.innerHeight
-        const imgWidth = img.width
-        const imgHeight = img.height
-        const widthScale = (screenWidth * 0.8) / imgWidth
-        const heightScale = (screenHeight * 0.8) / imgHeight
-        const scale = Math.min(widthScale, heightScale)
-        resolve({
-          width: imgWidth * scale,
-          height: imgHeight * scale,
-          scale
-        })
-      }
-      img.onerror = () => reject(new Error('Failed to load image'))
-    })
-  }
-
-  const fetchDimensions = async () => {
-    const dimensions = await calculateImageDimensions(mediaItems[index])
-    setOriginalDimensions({ width: dimensions.width, height: dimensions.height })
-    const newDimensions = {
-      width: dimensions.width * zoomLevel,
-      height: dimensions.height * zoomLevel
-    }
-    setThisImageDimensions(newDimensions)
-  }
-
-  useEffect(() => {
-    if (mimeType.startsWith('image')) fetchDimensions() //handle async
-    if (mimeType.startsWith('text')) {
-      setThisImageDimensions({ width: 'auto', height: 'auto' })
-    }
-    if (mimeType === 'application/pdf') {
-      setThisImageDimensions({ width: '50%', height: '100%' })
-    }
-  }, [index, mediaItems, zoomLevel])
-
-  const handleMouseDown = e => {
-    if (!isSliderActive) {
-      setIsDragging(true)
-      setDragStart({ x: e.clientX, y: e.clientY })
-    }
-  }
-  const handleDragStart = e => e.preventDefault()
-
-  const handleMouseMove = e => {
-    if (isDragging && !isSliderActive) {
-      const scrollContainer = scrollContainerRef.current
-      if (scrollContainer) {
-        scrollContainer.scrollLeft -= e.movementX
-        scrollContainer.scrollTop -= e.movementY
-      }
-    }
-  }
-
-  const handleMouseUp = () => {
-    if (!isSliderActive) {
-      setIsDragging(false)
-    }
-  }
+    // Reset zoom level when changing items
+    setZoomLevel(1)
+  }, [index])
 
   const handleZoomChange = event => {
-    const sliderValue = Math.max(1, Math.min(parseFloat(event.target.value), 5)) // Constrain between 1 and 5
+    const sliderValue = Math.max(1, Math.min(parseFloat(event.target.value), 5))
     setZoomLevel(sliderValue)
-    const newDimensions = {
-      width: originalDimensions.width * sliderValue,
-      height: originalDimensions.height * sliderValue
-    }
-    setThisImageDimensions(newDimensions)
   }
 
-  //here we can't use the prev fn form of state update, jaggy....
-  const updateImageDimensions = zoom => {
-    const newDimensions = {
-      width: thisImageDimensions.width * zoom,
-      height: thisImageDimensions.height * zoom
-    }
-    setThisImageDimensions(newDimensions)
-  }
-
-  const zoomIn = () => {
-    setZoomLevel(prev => {
-      const newZoomLevel = Math.min(prev + 0.25, 5) // Allow zooming up to 500%
-      // updateImageDimensions(newZoomLevel / prev)
-      setZoomLevel(newZoomLevel)
-      return newZoomLevel
-    })
-  }
-
-  const zoomOut = () => {
-    setZoomLevel(prev => {
-      const newZoomLevel = Math.max(prev - 0.25, 0.25) // Allow zooming down to 25
-      // updateImageDimensions(newZoomLevel / prev)
-      setZoomLevel(newZoomLevel)
-      return newZoomLevel
-    })
-  }
-  const prevImage = () => {
-    setIndex(prev => {
-      const newIndex = prev === 0 ? mediaItems.length - 1 : prev - 1
-      setImagePosition({ x: 0, y: 0 }) // Reset drag position
-      return newIndex
-    })
-  }
-
-  const nextImage = () => {
-    setIndex(prev => {
-      const newIndex = prev === mediaItems.length - 1 ? 0 : prev + 1
-      setImagePosition({ x: 0, y: 0 }) // Reset drag position
-      return newIndex
-    })
-  }
-
-  const handleTouchStart = e => {
-    if (e.touches.length === 2) {
-      // Store initial touch positions and distance
-      const [touch1, touch2] = e.touches
-      initialTouchDistanceRef.current = Math.hypot(touch2.pageX - touch1.pageX, touch2.pageY - touch1.pageY)
-    }
-  }
+  const zoomIn = () => setZoomLevel(prev => Math.min(prev + 0.25, 5))
+  const zoomOut = () => setZoomLevel(prev => Math.max(prev - 0.25, 1))
+  const prevImage = () => setIndex(prev => (prev === 0 ? mediaItems.length - 1 : prev - 1))
+  const nextImage = () => setIndex(prev => (prev === mediaItems.length - 1 ? 0 : prev + 1))
 
   const handleWheel = e => {
-    if (e.deltaY < 0) {
-      zoomIn()
-    } else {
-      zoomOut()
-    }
+    if (e.deltaY < 0) zoomIn()
+    else zoomOut()
   }
 
-  const handleTouchMove = e => {
-    if (isDragging && !isSliderActive) {
-      const scrollContainer = scrollContainerRef.current
-      if (scrollContainer) {
-        const touch = e.touches[0]
-        scrollContainer.scrollLeft -= touch.clientX - lastTouchPositionRef.current.x
-        scrollContainer.scrollTop -= touch.clientY - lastTouchPositionRef.current.y
-        lastTouchPositionRef.current = { x: touch.clientX, y: touch.clientY }
-      }
-    }
-  }
   useEffect(() => {
     const handleKeyDown = event => {
-      if (event.key === 'ArrowLeft') {
-        prevImage()
-      } else if (event.key === 'ArrowRight') {
-        nextImage()
-      } else if (event.key === 'ArrowUp') {
-        zoomIn()
-      } else if (event.key === 'ArrowDown') {
-        zoomOut()
-      }
+      if (event.key === 'ArrowLeft') prevImage()
+      else if (event.key === 'ArrowRight') nextImage()
+      else if (event.key === 'ArrowUp') zoomIn()
+      else if (event.key === 'ArrowDown') zoomOut()
     }
     window.addEventListener('keydown', handleKeyDown)
-    return () => {
-      window.removeEventListener('keydown', handleKeyDown)
-    }
-  }, [mimeType, nextImage, prevImage, zoomIn, zoomOut])
-
-  const renderTextContent = () => (
-    <div className="p-3 bg-gray-800 text-white rounded-lg">
-      <h1 className="text-2xl font-bold my-4 text-yellow-300 whitespace-pre-wrap">
-        {romname} Text File {index}
-      </h1>
-      <pre key={index} className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">
-        {atob(base64Data)} {/* note parse used in mameDats below, blows up here? */}
-      </pre>
-    </div>
-  )
-
-  const renderPDFContent = () => (
-    <SimplePDFViewer pdfFilePath={pdfFilePath} /> //TODO: if we rid ourselves of pdfFilePath(1) here (which we should do) the pdf dimensions are wrong if a pdf is directly clicked-on?
-  )
-
-  const renderImageContent = () => (
-    // <div
-    // ref={scrollContainerRef}
-    // className="fixed inset-0 overflow-auto touch-none"
-    // // style={{
-    // //   scrollSnapType: 'y mandatory',
-    // //   scrollPaddingTop: '200vh',
-    // //   overflowY: 'scroll',
-    // //   transformOrigin: 'center'
-    // // }}
-    // onWheel={handleWheel}
-    // onTouchStart={handleTouchStart}
-    // onTouchMove={handleTouchMove}
-    // onMouseDown={handleMouseDown}
-    // onMouseMove={handleMouseMove}
-    // onMouseUp={handleMouseUp}
-    // onMouseLeave={handleMouseUp}
-    // style={{
-    //   // maxWidth: 'none', // Allow image to exceed container width
-    //   // maxHeight: 'none', // Allow image to exceed container height
-    //   borderRadius: '1.5rem',
-    //   cursor: isDragging ? 'grabbing' : 'grab',
-    //   transform: `scale(${zoomLevel})`,
-    //   transformOrigin: 'center'
-    // width: `${originalDimensions.width}px`,
-    // height: `${originalDimensions.height}px`
-    // scrollPaddingTop: '200vh',
-    // overflow: 'scroll'
-    // }}
-    // >
-    <img
-      onDragStart={handleDragStart}
-      src={mediaItems[index]}
-      alt={`${index + 1}`}
-      className="object-contain rounded-lg"
-      style={{
-        width: `${thisImageDimensions.width}px`,
-        height: `${thisImageDimensions.height}px`,
-        maxWidth: 'none', // Allow image to exceed container width
-        maxHeight: 'none', // Allow image to exceed container height
-        borderRadius: '1.5rem',
-        cursor: isDragging ? 'grabbing' : 'grab'
-      }}
-    />
-    // </div>
-  )
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [])
 
   const renderContent = () => {
-    if (mimeType.startsWith('text')) {
-      return renderTextContent()
-    } else if (mimeType === 'application/pdf') {
-      return renderPDFContent()
-    } else if (mimeType.startsWith('image')) {
-      return renderImageContent()
-    } else {
-      return <div>Unsupported MIME type</div>
+    switch (true) {
+      case mimeType.startsWith('text'):
+        return (
+          <div className="p-3 bg-gray-800 text-white rounded-lg">
+            <h1 className="text-2xl font-bold my-4 text-yellow-300 whitespace-pre-wrap">
+              {romname} Text File {index + 1}
+            </h1>
+            <pre className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">{atob(base64Data)}</pre>
+          </div>
+        )
+      case mimeType === 'application/pdf':
+        return <SimplePDFViewer pdfFilePath={pdfFilePath} />
+      case mimeType.startsWith('image'):
+        return (
+          <img
+            src={mediaItems[index]}
+            alt={`${index + 1}`}
+            className="object-contain rounded-lg"
+            style={{
+              maxWidth: '100%',
+              maxHeight: '100%',
+              objectFit: 'contain'
+            }}
+          />
+        )
+      default:
+        return <div>Unsupported MIME type</div>
     }
   }
 
@@ -600,43 +412,34 @@ function MediaNavigation({
     <Modal
       isOpen={isLightboxOpen}
       onRequestClose={closeLightbox}
-      ref={scrollContainerRef}
-      className="fixed inset-0 overflow-auto touch-none flex justify-center items-center"
-      onWheel={handleWheel}
-      onTouchStart={handleTouchStart}
-      onTouchMove={handleTouchMove}
-      onMouseDown={handleMouseDown}
-      onMouseMove={handleMouseMove}
-      onMouseUp={handleMouseUp}
-      onMouseLeave={handleMouseUp}
+      className="fixed inset-0 flex flex-col justify-center items-center bg-black bg-opacity-75"
+      overlayClassName="fixed inset-0 z-50"
       style={{
-        overlay: { zIndex: 3 },
         content: {
-          top: '50%',
-          left: '50%',
-          right: 'auto',
-          bottom: 'auto',
-          // transform: 'translate(-50%, -50%)',
-          width: 'auto',
-          height: 'auto',
-          maxWidth: mimeType.startsWith('text') ? '80%' : '100%',
-          maxHeight: mimeType.startsWith('text') ? '80%' : '100%',
-          overflow: mimeType.startsWith('text') ? 'auto' : 'hidden',
-          // overflow: 'scroll',
-          // display: 'flex',
-          justifyContent: 'center',
-          alignItems: mimeType.startsWith('text') ? 'flex-start' : 'center',
+          position: 'relative',
           border: 'none',
-          borderRadius: '1.5rem',
-          cursor: isDragging ? 'grabbing' : 'grab',
-          // transform: `translate(-50%, -50%)` // scale(${zoomLevel}) `,
-          transform: mimeType.startsWith('text') ? `translate(-50%, -50%) scale(${zoomLevel})` : 'translate(-50%, -50%)'
-          // transformOrigin: 'center'
+          background: 'none',
+          overflow: 'hidden',
+          WebkitOverflowScrolling: 'touch',
+          borderRadius: '4px',
+          outline: 'none',
+          padding: '20px'
         }
       }}
     >
-      {renderContent()}
-      <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
+      <div className="relative w-full h-full overflow-auto flex justify-center items-center" onWheel={handleWheel}>
+        <div
+          ref={contentRef}
+          style={{
+            transform: `scale(${zoomLevel})`,
+            transformOrigin: 'center',
+            transition: 'transform 0.2s ease-out'
+          }}
+        >
+          {renderContent()}
+        </div>
+      </div>
+      <div className="absolute bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
         <button onClick={prevImage} className="p-2">
           <VscChevronLeft className="h-5 w-5" />
         </button>
@@ -647,34 +450,19 @@ function MediaNavigation({
         >
           <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
           {isSliderActive && (
-            <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
+            <div className="absolute bottom-full mb-2 flex flex-col items-center">
               <input
                 type="range"
                 min="1"
-                max="2"
+                max="5"
                 step="0.05"
                 value={zoomLevel}
                 onChange={handleZoomChange}
-                className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
+                className="w-32 h-2 appearance-none rounded-full cursor-pointer outline-none"
                 style={{
-                  background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
+                  background: 'linear-gradient(to right, rgba(255,255,255,0.65), rgba(255,255,255,0))'
                 }}
-                onMouseDown={() => setIsSliderActive(true)}
-                onMouseUp={() => setIsSliderActive(false)}
               />
-              <style jsx>{`
-                input[type='range']::-webkit-slider-thumb {
-                  width: 1rem;
-                  height: 1rem;
-                  background: rgba(255, 255, 255, 0.75);
-                  border: 0.1rem solid rgba(1, 1, 1, 1);
-                  border-radius: 100%;
-                  opacity: 0.35;
-                  cursor: pointer;
-                  webkitappearance: none;
-                  appearance: none;
-                }
-              `}</style>
             </div>
           )}
         </div>
