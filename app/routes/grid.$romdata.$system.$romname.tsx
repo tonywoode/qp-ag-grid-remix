@@ -352,12 +352,12 @@ function MediaNavigation({
   }, [index])
 
   const handleZoomChange = event => {
-    const sliderValue = Math.max(1, Math.min(parseFloat(event.target.value), 5))
+    const sliderValue = Math.max(1, Math.min(parseFloat(event.target.value), 10))
     setZoomLevel(sliderValue)
   }
 
-  const zoomIn = () => setZoomLevel(prev => Math.min(prev + 0.25, 5))
-  const zoomOut = () => setZoomLevel(prev => Math.max(prev - 0.25, 1))
+  const zoomIn = () => setZoomLevel(prev => Math.min(prev + 0.25, 20))
+  const zoomOut = () => setZoomLevel(prev => Math.max(prev - 0.25, 0.25))
   const prevImage = () => setIndex(prev => (prev === 0 ? mediaItems.length - 1 : prev - 1))
   const nextImage = () => setIndex(prev => (prev === mediaItems.length - 1 ? 0 : prev + 1))
 
@@ -395,18 +395,7 @@ function MediaNavigation({
       case mimeType === 'application/pdf':
         return <SimplePDFViewer pdfFilePath={pdfFilePath} />
       case mimeType.startsWith('image'):
-        return (
-          <img
-            src={mediaItems[index]}
-            alt={`${index + 1}`}
-            className="object-contain rounded-lg"
-            style={{
-              maxWidth: '100%',
-              maxHeight: '80vh', // Adjusts modal height based on image
-              objectFit: 'contain'
-            }}
-          />
-        )
+        return <img src={mediaItems[index]} alt={`${index + 1}`} />
       default:
         return <div>Unsupported MIME type</div>
     }
@@ -421,59 +410,66 @@ function MediaNavigation({
       overlayClassName="fixed inset-0  bg-opacity-75 z-50 flex justify-center items-center"
       style={{
         content: {
-          position: 'relative',
-          border: 'none',
-          background: 'transparent',
-          padding: '0',
-          inset: 'auto',
-          overflow: 'visible',
           transform: `scale(${zoomLevel})`,
           transformOrigin: 'center',
-          transition: 'transform 0.2s ease-out'
+          transition: 'transform 0.2s ease-out',
+          overflow: 'auto',
+          maxWidth: '100vw',
+          maxHeight: '100vh',
+          width: 'auto',
+          height: 'auto'
         }
       }}
     >
+      {renderContent()}
       <div
-        className="overflow-auto w-full h-full"
-        ref={contentRef}
-        style={{
-          transform: `scale(${zoomLevel})`,
-          transformOrigin: 'center',
-          transition: 'transform 0.2s ease-out'
-        }}
+        className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none"
+        style={{ maxHeight: '50px', transform: 'scale(1)' }} //stop the nav bar from scaling with the content as much as poss
       >
-        {renderContent()}
-        <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
-          <button onClick={prevImage} className="p-2">
-            <VscChevronLeft className="h-5 w-5" />
-          </button>
-          <div
-            className="relative flex items-center justify-center"
-            onMouseEnter={() => setIsSliderActive(true)}
-            onMouseLeave={() => setIsSliderActive(false)}
-          >
-            <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
-            {isSliderActive && (
-              <div className="absolute bottom-full mb-2 flex flex-col items-center">
-                <input
-                  type="range"
-                  min="1"
-                  max="5"
-                  step="0.05"
-                  value={zoomLevel}
-                  onChange={handleZoomChange}
-                  className="w-32 h-2 appearance-none rounded-full cursor-pointer outline-none"
-                  style={{
-                    background: 'linear-gradient(to right, rgba(255,255,255,0.65), rgba(255,255,255,0))'
-                  }}
-                />
-              </div>
-            )}
-          </div>
-          <button onClick={nextImage} className="p-2">
-            <VscChevronRight className="h-5 w-5" />
-          </button>
+        <button onClick={prevImage} className="p-2">
+          <VscChevronLeft className="h-5 w-5" />
+        </button>
+        <div
+          className="relative flex items-center justify-center"
+          onMouseEnter={() => setIsSliderActive(true)}
+          onMouseLeave={() => setIsSliderActive(false)}
+        >
+          <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
+          {isSliderActive && (
+            <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
+              <input
+                type="range"
+                min="1"
+                max="2"
+                step="0.05"
+                value={zoomLevel}
+                onChange={handleZoomChange}
+                className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
+                style={{
+                  background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
+                }}
+                onMouseDown={() => setIsSliderActive(true)}
+                onMouseUp={() => setIsSliderActive(false)}
+              />
+              <style jsx>{`
+                input[type='range']::-webkit-slider-thumb {
+                  width: 1rem;
+                  height: 1rem;
+                  background: rgba(255, 255, 255, 0.75);
+                  border: 0.1rem solid rgba(1, 1, 1, 1);
+                  border-radius: 100%;
+                  opacity: 0.35;
+                  cursor: pointer;
+                  webkitappearance: none;
+                  appearance: none;
+                }
+              `}</style>
+            </div>
+          )}
         </div>
+        <button onClick={nextImage} className="p-2">
+          <VscChevronRight className="h-5 w-5" />
+        </button>
       </div>
     </Modal>
   )
