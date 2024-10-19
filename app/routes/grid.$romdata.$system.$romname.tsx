@@ -416,8 +416,8 @@ function MediaNavigation({
           overflow: 'auto',
           maxWidth: '100vw',
           maxHeight: '100vh',
-          width: 'auto',
-          height: 'auto'
+          width: mimeType === 'application/pdf' ? '50%' : 'auto',
+          height: mimeType === 'application/pdf' ? '100%' : 'auto'
         }
       }}
     >
