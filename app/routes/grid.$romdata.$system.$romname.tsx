@@ -346,8 +346,8 @@ function MediaNavigation({
     return null
   }, [index, mediaItems, mimeType])
 
+  // Reset zoom level when changing items
   useEffect(() => {
-    // Reset zoom level when changing items
     setZoomLevel(1)
   }, [index])
 
@@ -398,7 +398,7 @@ function MediaNavigation({
             className="object-contain rounded-lg"
             style={{
               maxWidth: '100%',
-              maxHeight: '100%',
+              maxHeight: '80vh', // Adjusts modal height based on image
               objectFit: 'contain'
             }}
           />
@@ -412,64 +412,68 @@ function MediaNavigation({
     <Modal
       isOpen={isLightboxOpen}
       onRequestClose={closeLightbox}
-      className="fixed inset-0 flex flex-col justify-center items-center bg-black bg-opacity-75"
-      overlayClassName="fixed inset-0 z-50"
+      contentLabel="Media Lightbox"
+      className="flex justify-center items-center"
+      overlayClassName="fixed inset-0  bg-opacity-75 z-50 flex justify-center items-center"
       style={{
         content: {
           position: 'relative',
           border: 'none',
-          background: 'none',
-          overflow: 'hidden',
-          WebkitOverflowScrolling: 'touch',
-          borderRadius: '4px',
-          outline: 'none',
-          padding: '20px'
+          background: 'transparent',
+          padding: '0',
+          inset: 'auto',
+          overflow: 'visible',
+          transform: `scale(${zoomLevel})`,
+          transformOrigin: 'center',
+          transition: 'transform 0.2s ease-out'
         }
       }}
     >
-      <div className="relative w-full h-full overflow-auto flex justify-center items-center" onWheel={handleWheel}>
-        <div
-          ref={contentRef}
-          style={{
-            transform: `scale(${zoomLevel})`,
-            transformOrigin: 'center',
-            transition: 'transform 0.2s ease-out'
-          }}
-        >
-          {renderContent()}
+      {/* <div className="flex flex-col items-center"> */}
+      <div
+        ref={contentRef}
+        style={{
+          transform: `scale(${zoomLevel})`,
+          transformOrigin: 'center',
+          transition: 'transform 0.2s ease-out'
+        }}
+      >
+        {renderContent()}
+        <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
+          {/* <div className="mt-4 flex justify-center items-center space-x-2 select-none"> */}
+          {/* Nav-bar buttons */}
+          <button onClick={prevImage} className="p-2">
+            <VscChevronLeft className="h-5 w-5" />
+          </button>
+          <div
+            className="relative flex items-center justify-center"
+            onMouseEnter={() => setIsSliderActive(true)}
+            onMouseLeave={() => setIsSliderActive(false)}
+          >
+            <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
+            {isSliderActive && (
+              <div className="absolute bottom-full mb-2 flex flex-col items-center">
+                <input
+                  type="range"
+                  min="1"
+                  max="5"
+                  step="0.05"
+                  value={zoomLevel}
+                  onChange={handleZoomChange}
+                  className="w-32 h-2 appearance-none rounded-full cursor-pointer outline-none"
+                  style={{
+                    background: 'linear-gradient(to right, rgba(255,255,255,0.65), rgba(255,255,255,0))'
+                  }}
+                />
+              </div>
+            )}
+          </div>
+          <button onClick={nextImage} className="p-2">
+            <VscChevronRight className="h-5 w-5" />
+          </button>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
-        <button onClick={prevImage} className="p-2">
-          <VscChevronLeft className="h-5 w-5" />
-        </button>
-        <div
-          className="relative flex items-center justify-center"
-          onMouseEnter={() => setIsSliderActive(true)}
-          onMouseLeave={() => setIsSliderActive(false)}
-        >
-          <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
-          {isSliderActive && (
-            <div className="absolute bottom-full mb-2 flex flex-col items-center">
-              <input
-                type="range"
-                min="1"
-                max="5"
-                step="0.05"
-                value={zoomLevel}
-                onChange={handleZoomChange}
-                className="w-32 h-2 appearance-none rounded-full cursor-pointer outline-none"
-                style={{
-                  background: 'linear-gradient(to right, rgba(255,255,255,0.65), rgba(255,255,255,0))'
-                }}
-              />
-            </div>
-          )}
-        </div>
-        <button onClick={nextImage} className="p-2">
-          <VscChevronRight className="h-5 w-5" />
-        </button>
-      </div>
+      {/* </div> */}
     </Modal>
   )
 }
