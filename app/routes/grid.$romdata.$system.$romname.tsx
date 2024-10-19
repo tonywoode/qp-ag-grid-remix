@@ -382,7 +382,10 @@ function MediaNavigation({
       case mimeType.startsWith('text'):
         return (
           //Note stye here the specificity of which wins against modal (prev we were switching modal on this)
-          <div className="p-3 bg-gray-800 text-white rounded-lg" style={{ maxHeight: '80vh', overflow: 'auto' }}>
+          <div
+            className="p-3 bg-gray-800 text-white rounded-lg"
+            style={{ maxHeight: '80vh', maxWidth: '80vh', overflow: 'auto' }}
+          >
             <h1 className="text-2xl font-bold my-4 text-yellow-300 whitespace-pre-wrap">
               {romname} Text File {index + 1}
             </h1>
@@ -424,8 +427,6 @@ function MediaNavigation({
           padding: '0',
           inset: 'auto',
           overflow: 'visible',
-          maxWidth: '90vw',
-          maxHeight: '90vh',
           transform: `scale(${zoomLevel})`,
           transformOrigin: 'center',
           transition: 'transform 0.2s ease-out'
@@ -436,46 +437,43 @@ function MediaNavigation({
         className="overflow-auto w-full h-full"
         ref={contentRef}
         style={{
-          maxWidth: '80vh',
           transform: `scale(${zoomLevel})`,
           transformOrigin: 'center',
           transition: 'transform 0.2s ease-out'
         }}
       >
         {renderContent()}
-        {isLightboxOpen && (
-          <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none z-50">
-            <button onClick={prevImage} className="p-2">
-              <VscChevronLeft className="h-5 w-5" />
-            </button>
-            <div
-              className="relative flex items-center justify-center"
-              onMouseEnter={() => setIsSliderActive(true)}
-              onMouseLeave={() => setIsSliderActive(false)}
-            >
-              <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
-              {isSliderActive && (
-                <div className="absolute bottom-full mb-2 flex flex-col items-center">
-                  <input
-                    type="range"
-                    min="1"
-                    max="5"
-                    step="0.05"
-                    value={zoomLevel}
-                    onChange={handleZoomChange}
-                    className="w-32 h-2 appearance-none rounded-full cursor-pointer outline-none"
-                    style={{
-                      background: 'linear-gradient(to right, rgba(255,255,255,0.65), rgba(255,255,255,0))'
-                    }}
-                  />
-                </div>
-              )}
-            </div>
-            <button onClick={nextImage} className="p-2">
-              <VscChevronRight className="h-5 w-5" />
-            </button>
+        <div className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none">
+          <button onClick={prevImage} className="p-2">
+            <VscChevronLeft className="h-5 w-5" />
+          </button>
+          <div
+            className="relative flex items-center justify-center"
+            onMouseEnter={() => setIsSliderActive(true)}
+            onMouseLeave={() => setIsSliderActive(false)}
+          >
+            <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
+            {isSliderActive && (
+              <div className="absolute bottom-full mb-2 flex flex-col items-center">
+                <input
+                  type="range"
+                  min="1"
+                  max="5"
+                  step="0.05"
+                  value={zoomLevel}
+                  onChange={handleZoomChange}
+                  className="w-32 h-2 appearance-none rounded-full cursor-pointer outline-none"
+                  style={{
+                    background: 'linear-gradient(to right, rgba(255,255,255,0.65), rgba(255,255,255,0))'
+                  }}
+                />
+              </div>
+            )}
           </div>
-        )}
+          <button onClick={nextImage} className="p-2">
+            <VscChevronRight className="h-5 w-5" />
+          </button>
+        </div>
       </div>
     </Modal>
   )
