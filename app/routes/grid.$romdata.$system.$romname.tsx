@@ -423,53 +423,64 @@ function MediaNavigation({
     >
       {renderContent()}
       <div
-        className="fixed bottom-0 left-0 w-full flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none"
-        style={{ maxHeight: '50px', transform: 'scale(1)' }} //stop the nav bar from scaling with the content as much as poss
+        className="absolute bottom-0  w-full" // flex justify-center items-center"
+        style={{
+          transform: zoomLevel >= 1 ? `scale(${1 / zoomLevel})` : 'scale(1)',
+          transformOrigin: 'bottom',
+          transition: 'transform 0.2s ease-out'
+        }}
       >
-        <button onClick={prevImage} className="p-2">
-          <VscChevronLeft className="h-5 w-5" />
-        </button>
         <div
-          className="relative flex items-center justify-center"
-          onMouseEnter={() => setIsSliderActive(true)}
-          onMouseLeave={() => setIsSliderActive(false)}
+          className="flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none"
+          style={{
+            maxHeight: '50px'
+          }}
         >
-          <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
-          {isSliderActive && (
-            <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
-              <input
-                type="range"
-                min="1"
-                max="2"
-                step="0.05"
-                value={zoomLevel}
-                onChange={handleZoomChange}
-                className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
-                style={{
-                  background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
-                }}
-                onMouseDown={() => setIsSliderActive(true)}
-                onMouseUp={() => setIsSliderActive(false)}
-              />
-              <style jsx>{`
-                input[type='range']::-webkit-slider-thumb {
-                  width: 1rem;
-                  height: 1rem;
-                  background: rgba(255, 255, 255, 0.75);
-                  border: 0.1rem solid rgba(1, 1, 1, 1);
-                  border-radius: 100%;
-                  opacity: 0.35;
-                  cursor: pointer;
-                  webkitappearance: none;
-                  appearance: none;
-                }
-              `}</style>
-            </div>
-          )}
+          <button onClick={prevImage} className="p-2">
+            <VscChevronLeft className="h-5 w-5" />
+          </button>
+          <div
+            className="relative flex items-center justify-center"
+            onMouseEnter={() => setIsSliderActive(true)}
+            onMouseLeave={() => setIsSliderActive(false)}
+          >
+            <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
+            {isSliderActive && (
+              <div className="absolute bottom-3/4 mb-32 flex flex-col items-center">
+                <input
+                  type="range"
+                  min="1"
+                  max="2"
+                  step="0.05"
+                  value={zoomLevel}
+                  onChange={handleZoomChange}
+                  className="w-80 h-12 appearance-none rounded-full cursor-pointer transform -rotate-90 outline-none backdrop-blur"
+                  style={{
+                    background: 'linear-gradient(to left, rgba(255,255,255, 0), rgba(255,255,255, 0.65))'
+                  }}
+                  onMouseDown={() => setIsSliderActive(true)}
+                  onMouseUp={() => setIsSliderActive(false)}
+                />
+                <style jsx>{`
+                  input[type='range']::-webkit-slider-thumb {
+                    width: 1rem;
+                    height: 1rem;
+                    background: rgba(255, 255, 255, 0.75);
+                    border: 0.1rem solid rgba(1, 1, 1, 1);
+                    border-radius: 100%;
+                    opacity: 0.35;
+                    cursor: pointer;
+                    webkitappearance: none;
+                    appearance: none;
+                  }
+                `}</style>
+              </div>
+            )}
+          </div>
+          <button onClick={nextImage} className="p-2">
+            <VscChevronRight className="h-5 w-5" />
+          </button>
         </div>
-        <button onClick={nextImage} className="p-2">
-          <VscChevronRight className="h-5 w-5" />
-        </button>
       </div>
     </Modal>
   )
