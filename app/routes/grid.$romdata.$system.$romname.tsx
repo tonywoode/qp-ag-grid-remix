@@ -427,7 +427,8 @@ function MediaNavigation({
         style={{
           transform: zoomLevel >= 1 ? `scale(${1 / zoomLevel})` : 'scale(1)',
           transformOrigin: 'bottom',
-          transition: 'transform 0.2s ease-out'
+          // transition: 'transform 0.2s ease-out',
+          width: zoomLevel >= 1 ? `${zoomLevel}` * 100 + '%' : '100%'
         }}
       >
         <div
