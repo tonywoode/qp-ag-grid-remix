@@ -395,7 +395,7 @@ function MediaNavigation({
       case mimeType === 'application/pdf':
         return <SimplePDFViewer pdfFilePath={pdfFilePath} />
       case mimeType.startsWith('image'):
-        return <img src={mediaItems[index]} alt={`${index + 1}`} />
+        return <img src={mediaItems[index]} alt={`${index + 1}`} style={{ minWidth: '80vh' }} />
       default:
         return <div>Unsupported MIME type</div>
     }
