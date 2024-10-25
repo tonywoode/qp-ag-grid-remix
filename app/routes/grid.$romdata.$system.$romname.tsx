@@ -328,8 +328,8 @@ function MediaNavigation({
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
-  const contentRef = useRef(null)
 
+  console.log('zoom level' + zoomLevel)
   const pdfFilePath = useMemo(() => {
     if (mimeType === 'application/pdf') {
       ;(() => pdfjsWorker)() // we must USE it here to get pdfs to load (common problem with pdfjs libs!)
@@ -347,7 +347,7 @@ function MediaNavigation({
   }, [index, mediaItems, mimeType])
 
   // Reset zoom level when changing items
-  useEffect(() => {
+  useMemo(() => {
     setZoomLevel(1)
   }, [index])
 
@@ -411,11 +411,8 @@ function MediaNavigation({
       style={{
         content: {
           transform: `scale(${zoomLevel})`,
-          transformOrigin: 'center',
-          transition: 'transform 0.2s ease-out',
-          overflow: 'auto',
-          maxWidth: '100vw',
-          maxHeight: '100vh',
+          // transformOrigin: 'top',
+          transition: 'transform 0.1s ease-out',
           width: mimeType === 'application/pdf' ? '50%' : 'auto',
           height: mimeType === 'application/pdf' ? '100%' : 'auto'
         }
@@ -423,11 +420,10 @@ function MediaNavigation({
     >
       {renderContent()}
       <div
-        className="absolute bottom-0  w-full" // flex justify-center items-center"
+        className="absolute bottom-0 " // flex justify-center items-center"
         style={{
           transform: zoomLevel >= 1 ? `scale(${1 / zoomLevel})` : 'scale(1)',
           transformOrigin: 'bottom',
-          // transition: 'transform 0.2s ease-out',
           width: zoomLevel >= 1 ? `${zoomLevel}` * 100 + '%' : '100%'
         }}
       >
