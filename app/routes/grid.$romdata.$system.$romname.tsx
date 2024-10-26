@@ -395,13 +395,7 @@ function MediaNavigation({
       case mimeType === 'application/pdf':
         return <SimplePDFViewer pdfFilePath={pdfFilePath} />
       case mimeType.startsWith('image'):
-        return (
-          <img
-            src={mediaItems[index]}
-            alt={`${index + 1}`}
-            style={{ minWidth: '80vh', maxHeight: '80vh', objectFit: 'contain' }} //images won't start offscreen nor lose their aspect ratio
-          />
-        )
+        return <img src={mediaItems[index]} alt={`${index + 1}`} className="w-full h-auto" />
       default:
         return <div>Unsupported MIME type</div>
     }
@@ -416,13 +410,11 @@ function MediaNavigation({
       overlayClassName="fixed inset-0  bg-opacity-75 z-50 flex justify-center items-center"
       style={{
         content: {
-          transform: `scale(${zoomLevel})`, // translate(-50%, -50%)`,
-          // transformOrigin: 'center',
-          transition: 'transform 0.1s ease-out',
-          width: mimeType === 'application/pdf' ? '50%' : 'auto',
-          height: mimeType === 'application/pdf' ? '100%' : 'auto'
-          // maxHeight: '100vh',
-          // maxWidth: '100vw'
+          position: 'relative',
+          transition: 'width 0.2s ease-out',
+          width: `${40 * zoomLevel}vw`, // Base width is 80% of viewport width
+          height: 'auto',
+          maxHeight: '100vh'
         }
       }}
     >
@@ -430,7 +422,7 @@ function MediaNavigation({
       <div
         className="absolute bottom-0 " // flex justify-center items-center"
         style={{
-          transform: zoomLevel >= 1 ? `scale(${1 / zoomLevel})` : 'scale(1)',
+          transform: zoomLevel >= 1 ? `scale(${1 / zoomLevel}, 1)` : 'scale(1)',
           transformOrigin: 'bottom',
           width: zoomLevel >= 1 ? `${zoomLevel}` * 100 + '%' : '100%'
         }}
