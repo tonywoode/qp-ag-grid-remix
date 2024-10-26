@@ -412,7 +412,7 @@ function MediaNavigation({
         content: {
           position: 'relative',
           transition: 'width 0.2s ease-out',
-          width: `${40 * zoomLevel}vw`, // Base width is 80% of viewport width
+          width: `${40 * zoomLevel}vw`, //base width
           height: 'auto',
           maxHeight: '100vh'
         }
@@ -420,7 +420,7 @@ function MediaNavigation({
     >
       {renderContent()}
       <div
-        className="absolute bottom-0 " // flex justify-center items-center"
+        className="absolute bottom-0 w-full"
         style={{
           transform: zoomLevel >= 1 ? `scale(${1 / zoomLevel}, 1)` : 'scale(1)',
           transformOrigin: 'bottom',
@@ -428,18 +428,27 @@ function MediaNavigation({
         }}
       >
         <div
-          className="flex justify-center items-center space-x-2 p-4 bg-white bg-opacity-75 select-none"
+          className="flex justify-center items-center  p-4 bg-white bg-opacity-75 select-none"
           style={{
             maxHeight: '50px'
           }}
         >
-          <button onClick={prevImage} className="p-2">
+          <button
+            onClick={prevImage}
+            className="p-2"
+            style={{
+              transform: zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
+            }}
+          >
             <VscChevronLeft className="h-5 w-5" />
           </button>
           <div
             className="relative flex items-center justify-center"
             onMouseEnter={() => setIsSliderActive(true)}
             onMouseLeave={() => setIsSliderActive(false)}
+            style={{
+              transform: zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
+            }}
           >
             <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
             {isSliderActive && (
@@ -474,7 +483,13 @@ function MediaNavigation({
               </div>
             )}
           </div>
-          <button onClick={nextImage} className="p-2">
+          <button
+            onClick={nextImage}
+            className="p-2"
+            style={{
+              transform: zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
+            }}
+          >
             <VscChevronRight className="h-5 w-5" />
           </button>
         </div>
