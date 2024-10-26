@@ -384,7 +384,12 @@ function MediaNavigation({
           //Note stye here the specificity of which wins against modal (prev we were switching modal on this)
           <div
             className="p-3 bg-gray-800 text-white rounded-lg"
-            style={{ maxHeight: '80vh', maxWidth: '80vh', overflow: 'auto' }}
+            style={{
+              maxHeight: '100vh',
+              overflow: 'auto',
+              fontSize: `${zoomLevel}rem`,
+              transition: 'font-size 0.2s ease-out'
+            }}
           >
             <h1 className="text-2xl font-bold my-4 text-yellow-300 whitespace-pre-wrap">
               {romname} Text File {index + 1}
