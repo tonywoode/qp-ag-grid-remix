@@ -401,6 +401,9 @@ function MediaNavigation({
     }
   }
 
+  const counteractZoomForIconSizing = zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
+  const counteractZoomForIconSpacing = zoomLevel >= 1 ? `${zoomLevel ** 1.25}rem` : '1rem'
+  console.log(counteractZoomForIconSpacing)
   return (
     <Modal
       isOpen={isLightboxOpen}
@@ -437,7 +440,8 @@ function MediaNavigation({
             onClick={prevImage}
             className="p-2"
             style={{
-              transform: zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
+              transform: counteractZoomForIconSizing,
+              margin: counteractZoomForIconSpacing
             }}
           >
             <VscChevronLeft className="h-5 w-5" />
@@ -447,7 +451,8 @@ function MediaNavigation({
             onMouseEnter={() => setIsSliderActive(true)}
             onMouseLeave={() => setIsSliderActive(false)}
             style={{
-              transform: zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
+              transform: counteractZoomForIconSizing,
+              margin: counteractZoomForIconSpacing
             }}
           >
             <VscSearch className={`h-5 w-5 ${isSliderActive ? 'invisible' : 'block'}`} />
@@ -487,7 +492,8 @@ function MediaNavigation({
             onClick={nextImage}
             className="p-2"
             style={{
-              transform: zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
+              transform: counteractZoomForIconSizing,
+              margin: counteractZoomForIconSpacing
             }}
           >
             <VscChevronRight className="h-5 w-5" />
