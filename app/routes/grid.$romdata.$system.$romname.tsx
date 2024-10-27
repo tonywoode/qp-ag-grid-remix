@@ -414,7 +414,11 @@ function MediaNavigation({
 
   // const widthForModal = `${zoomLevel * 40}vw`
   // const widthForModal = `auto`
-  const widthForModal = mimeType.startsWith('text') ? 'auto' : `min(${zoomLevel * 40}vw, 100%)`
+  const widthForModal = mimeType.startsWith('text')
+    ? 'auto'
+    : mimeType == 'application/pdf'
+      ? '50%'
+      : `min(${zoomLevel * 40}vw, 100%)`
   const counteractZoomForIconSizing = zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
   const widthForBar = zoomLevel >= 1 ? zoomLevel * 100 + '%' : '100%'
   console.log(widthForBar)
@@ -431,14 +435,16 @@ function MediaNavigation({
           transition: 'width 0.2s ease-out',
           // minWidth: '40vw',
           width: widthForModal, //`${zoomLevel * 40}vw`, //`${40 * zoomLevel}vw`, //base width
-          height: 'auto',
+          height: mimeType === 'application/pdf' ? `100%` : 'auto',
           maxHeight: '100vh'
+          // transform: `scale(${zoomLevel}, ${zoomLevel})`
         }
       }}
     >
       {renderContent()}
+      {/* the zindex is for pdf */}
       <div
-        className="absolute bottom-0 w-full"
+        className="absolute bottom-0 w-full z-50"
         style={{
           transform: zoomLevel >= 1 ? `scale(${1 / zoomLevel}, 1)` : 'scale(1)',
           transformOrigin: 'bottom',

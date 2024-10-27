@@ -12,7 +12,7 @@ export default function PDFNavigation({ usePDFSlickStore }: PDFNavigationProps) 
   const pdfSlick = usePDFSlickStore(s => s.pdfSlick)
   const scale = usePDFSlickStore(s => s.scale)
   return (
-    <div className="fixed w-full h-12 bottom-0 right-0 z-50 pointer-events-none">
+    <div className="fixed w-full h-12 bottom-8 right-0 z-50 pointer-events-none">
       <div className="flex justify-center">
         <div
           className={clsx(
