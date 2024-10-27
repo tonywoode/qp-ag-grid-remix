@@ -417,7 +417,7 @@ function MediaNavigation({
   const widthForModal = mimeType.startsWith('text')
     ? 'auto'
     : mimeType == 'application/pdf'
-      ? '50%'
+      ? `${50 * zoomLevel}%`
       : `min(${zoomLevel * 40}vw, 100%)`
   const counteractZoomForIconSizing = zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
   const widthForBar = zoomLevel >= 1 ? zoomLevel * 100 + '%' : '100%'
