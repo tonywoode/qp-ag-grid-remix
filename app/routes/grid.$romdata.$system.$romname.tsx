@@ -387,8 +387,9 @@ function MediaNavigation({
           <div
             className="p-3 bg-gray-800 text-white rounded-lg"
             style={{
+              // width: 'auto',
               maxHeight: '80vh',
-              maxWidth: '80%',
+              // maxWidth: '80%',
               overflow: 'auto',
               fontSize: fontSize,
               transition: 'font-size 0.2s ease-out'
@@ -397,7 +398,9 @@ function MediaNavigation({
             <h1 className="text-2xl font-bold my-4 text-yellow-300 whitespace-pre-wrap">
               {romname} Text File {index + 1}
             </h1>
-            <pre className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md">{atob(base64Data)} </pre>
+            <pre className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md max-w-[80vw]">
+              {atob(base64Data)}{' '}
+            </pre>
           </div>
         )
       case mimeType === 'application/pdf':
@@ -410,7 +413,8 @@ function MediaNavigation({
   }
 
   // const widthForModal = `${zoomLevel * 40}vw`
-  const widthForModal = `min(${zoomLevel * 40}vw, 100%)`
+  // const widthForModal = `auto`
+  const widthForModal = mimeType.startsWith('text') ? 'auto' : `min(${zoomLevel * 40}vw, 100%)`
   const counteractZoomForIconSizing = zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
   const widthForBar = zoomLevel >= 1 ? zoomLevel * 100 + '%' : '100%'
   console.log(widthForBar)
