@@ -156,10 +156,17 @@ export default function MediaPanel() {
     setIsLightboxOpen(false)
     setLightboxContent(null)
   }
+  type MediaItem = {
+    base64Blob: string
+    mediaPath: string
+  }
 
   function mediaTagRenderer({ currentIndex, romname, mediaItems }) {
-    const mediaItem = mediaItems[currentIndex]
-    const base64String = mediaItem
+    const mediaItem : MediaItem = mediaItems[currentIndex]
+    const { base64Blob, mediaPath } = mediaItem
+    console.log( base64Blob)
+    console.log( mediaPath)
+    const base64String = base64Blob
     const [mimeInfo, base64Data] = base64String?.split(',')
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
     console.log('mimeType')
@@ -227,7 +234,7 @@ export default function MediaPanel() {
       return (
         <img
           key={currentIndex}
-          src={mediaItem}
+          src={mediaItem.base64Blob}
           alt={`Screenshot ${currentIndex}`}
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
@@ -324,7 +331,16 @@ function MediaNavigation({
 }: MediaContent & { isLightboxOpen: boolean; closeLightbox: () => void }) {
   const { romname, mediaItems, currentIndex } = mediaContent
   const [index, setIndex] = useState(currentIndex)
-  const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
+  //TODO: duplicated code from mediaTagRenderer
+  const mediaItem : MediaItem = mediaItems[index]
+  const { base64Blob, mediaPath } = mediaItem
+  const base64String = base64Blob
+  const [mimeInfo, base64Data] = base64String?.split(',')
+  console.log('in the modal renderer') 
+  console.log(mimeInfo)
+  console.log(base64Data)
+  
+    // const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
@@ -334,8 +350,15 @@ function MediaNavigation({
     if (mimeType === 'application/pdf') {
       ;(() => pdfjsWorker)() // we must USE it here to get pdfs to load (common problem with pdfjs libs!)
       try {
-        const base64String = mediaItems[index].split(',')[1] || mediaItems[index]
-        const binaryString = atob(base64String.replace(/-/g, '+').replace(/_/g, '/'))
+        //TODO: duppplicated code, three times now (mediaTagRenderer)
+        const mediaItem : MediaItem = mediaItems[index]
+        const { base64Blob, mediaPath } = mediaItem
+        const base64String = base64Blob
+        const [mimeInfo, base64Data] = base64String?.split(',') 
+        
+        
+        // const base64Data = mediaItems[index].split(',')[1] || mediaItems[index]
+        const binaryString = atob(base64Data.replace(/-/g, '+').replace(/_/g, '/'))
         const bytes = Uint8Array.from(binaryString, char => char.charCodeAt(0))
         return bytes.buffer
       } catch (error) {
@@ -406,7 +429,7 @@ function MediaNavigation({
       case mimeType === 'application/pdf':
         return <SimplePDFViewer pdfFilePath={pdfFilePath} />
       case mimeType.startsWith('image'):
-        return <img src={mediaItems[index]} alt={`${index + 1}`} className="w-full h-auto" />
+        return <img src={mediaItems[index].base64Blob} alt={`${index + 1}`} className="w-full h-auto" />
       default:
         return <div>Unsupported MIME type</div>
     }

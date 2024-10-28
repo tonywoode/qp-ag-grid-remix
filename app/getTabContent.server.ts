@@ -398,7 +398,10 @@ async function convertDocToText(filePath: string): Promise<string> {
     throw error
   }
 }
-
+type MediaItem = {
+  base64Blob: string
+  mediaPath: string
+}
 // TJSearchType = (jstExactMatch = 0,
 //   jstStartsWith = 1,
 //   jstInString = 2,
@@ -411,7 +414,7 @@ async function finMediaItemPaths(
   mameUseParentForSrch: boolean
 ) {
   console.log(`using searchType ${searchType}`)
-  const foundBase64Files = new Set()
+  const foundBase64DataAndFiles = new Set<MediaItem>()
   const macPaths = pathInTabData.map(p => convertWindowsPathToMacPath(p))
   const mameNameSearchTerms = [mameNames.mameName, mameUseParentForSrch && mameNames.parentName].filter(Boolean)
   const shouldSearchRomNameOnly = Object.keys(mameNames).length === 0 || !(mameNames.mameName || mameNames.parentName)
@@ -432,8 +435,8 @@ async function finMediaItemPaths(
         if (matchFound) {
           console.log('mediaItem match found', file)
           let mimeType = mime.lookup(file)
-          const filePath = path.join(macPath, file)
-          let fileData = await fs.promises.readFile(filePath)
+          const mediaPath = path.join(macPath, file)
+          let fileData = await fs.promises.readFile(mediaPath)
           console.log(`mimeType of ${file} is: ${mimeType}`)
           // Exclude some mimetypes that in experience I found colocated with actual assets but we don't want to try to render them
           const excludedMimeTypeStrings = ['javascript', 'json', 'xml']
@@ -444,12 +447,13 @@ async function finMediaItemPaths(
           if (mimeType !== null && checkMimeTypeAllowed(mimeType)) {
             if (mimeType === 'application/msword') {
               // Convert .doc to .pdf
-              const textData = await convertDocToText(filePath)
+              const textData = await convertDocToText(mediaPath)
               fileData = Buffer.from(textData, 'utf8')
               mimeType = 'text/plain'
             }
-            const base64File = `data:${mimeType};base64,${fileData.toString('base64')}`
-            foundBase64Files.add(base64File)
+            const base64Blob = `data:${mimeType};base64,${fileData.toString('base64')}`
+            const fileDataAndPath: MediaItem = { base64Blob, mediaPath }
+            foundBase64DataAndFiles.add(fileDataAndPath)
           }
         }
       })
@@ -458,10 +462,9 @@ async function finMediaItemPaths(
       console.error(`Error reading directory ${macPath}: ${error}`)
     }
   }
-  const mediaItems = [...foundBase64Files]
+  const mediaItems: MediaItem[] = Array.from(foundBase64DataAndFiles)
   return { mediaItems }
 }
-
 function searchStrategies(file: string, romname: string, searchType: string): boolean {
   const fileNameWithoutExt = file.substring(0, file.lastIndexOf('.')) || file
   const strategies = {
