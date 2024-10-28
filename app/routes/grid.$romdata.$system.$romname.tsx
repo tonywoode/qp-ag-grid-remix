@@ -356,7 +356,7 @@ function MediaNavigation({
     setZoomLevel(sliderValue)
   }
 
-  const zoomIn = () => setZoomLevel(prev => Math.min(prev + 0.25, 20))
+  const zoomIn = () => setZoomLevel(prev => Math.min(prev + 0.25, 5))
   const zoomOut = () => setZoomLevel(prev => Math.max(prev - 0.25, 0.25))
   const prevImage = () => setIndex(prev => (prev === 0 ? mediaItems.length - 1 : prev - 1))
   const nextImage = () => setIndex(prev => (prev === mediaItems.length - 1 ? 0 : prev + 1))
@@ -378,7 +378,7 @@ function MediaNavigation({
   }, [])
 
   const renderContent = () => {
-    const fontSize = zoomLevel >= 1 ? `${1 + (zoomLevel - 1) / 6}rem` : '1rem'
+    const fontSize = `max(${1 + (zoomLevel - 1)}rem, 0.75rem)`
     console.log(fontSize)
     switch (true) {
       case mimeType.startsWith('text'):
@@ -412,8 +412,6 @@ function MediaNavigation({
     }
   }
 
-  // const widthForModal = `${zoomLevel * 40}vw`
-  // const widthForModal = `auto`
   const widthForModal = mimeType.startsWith('text')
     ? 'auto'
     : mimeType == 'application/pdf'
