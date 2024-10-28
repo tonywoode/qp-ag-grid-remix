@@ -164,6 +164,8 @@ export default function MediaPanel() {
   function mediaTagRenderer({ currentIndex, romname, mediaItems }) {
     const mediaItem : MediaItem = mediaItems[currentIndex]
     const { base64Blob, mediaPath } = mediaItem
+    //duplicate code
+    const mediaFileNameAndExt = mediaPath.substring(mediaPath.lastIndexOf('/') + 1)
     const base64String = base64Blob
     const [mimeInfo, base64Data] = base64String?.split(',')
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
@@ -183,7 +185,8 @@ export default function MediaPanel() {
           }}
           style={{ flexBasis: '20%' }}
         >
-          <FaFileAlt className="w-full h-full" />
+          {/* duplicate code to get path here */}
+          <FaFileAlt className="w-full h-full" /> {mediaFileNameAndExt}
         </div>
       )
     }
@@ -223,13 +226,14 @@ export default function MediaPanel() {
           }}
           style={{ flexBasis: '20%' }}
         >
-          <FaFilePdf className="w-full h-full" />
+          <FaFilePdf className="w-full h-full" />{mediaFileNameAndExt}
         </div>
       )
     }
 
     if (mimeType.startsWith('image')) {
       return (
+        <div>
         <img
           key={currentIndex}
           src={mediaItem.base64Blob}
@@ -240,7 +244,7 @@ export default function MediaPanel() {
             setLightboxContent({ mediaItems, currentIndex })
             setIsLightboxOpen(true)
           }}
-        />
+        /> {mediaFileNameAndExt}</div>
       )
     }
 
