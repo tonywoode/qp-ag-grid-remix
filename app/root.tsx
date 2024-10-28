@@ -126,7 +126,6 @@ export default function App() {
           {isSplitLoaded && (
             <>
               <Split sizes={[18, 82]} className="flex overflow-hidden" style={{ height: 'calc(100vh - 7em)' }}>
-                {' '}
                 <TreeView folderData={folderData} />
                 <div className="h-full overflow-auto">
                   <Outlet />
