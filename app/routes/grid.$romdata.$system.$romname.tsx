@@ -233,7 +233,6 @@ export default function MediaPanel() {
 
     if (mimeType.startsWith('image')) {
       return (
-        <div>
         <img
           key={currentIndex}
           src={mediaItem.base64Blob}
@@ -244,9 +243,10 @@ export default function MediaPanel() {
             setLightboxContent({ mediaItems, currentIndex })
             setIsLightboxOpen(true)
           }}
-        /> {mediaFileNameAndExt}</div>
+          />
       )
     }
+    
 
     //TODO: do a mime lookup on the filename, if its renderable, try to render it in iframe, we exclude some types we don't want to render in the backend
     //TODO: lightbox? mediaItem would now hit image handling.....
