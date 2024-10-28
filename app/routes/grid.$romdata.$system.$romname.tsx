@@ -432,7 +432,7 @@ function MediaNavigation({
       style={{
         content: {
           position: 'relative',
-          transition: 'width 0.2s ease-out',
+          transition: mimeType == 'application/pdf' ? 'width 0.044s' : 'width 0.2s ease-out',
           // minWidth: '40vw',
           width: widthForModal, //`${zoomLevel * 40}vw`, //`${40 * zoomLevel}vw`, //base width
           height: mimeType === 'application/pdf' ? `100%` : 'auto',
