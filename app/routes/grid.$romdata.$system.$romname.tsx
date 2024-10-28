@@ -164,8 +164,6 @@ export default function MediaPanel() {
   function mediaTagRenderer({ currentIndex, romname, mediaItems }) {
     const mediaItem : MediaItem = mediaItems[currentIndex]
     const { base64Blob, mediaPath } = mediaItem
-    console.log( base64Blob)
-    console.log( mediaPath)
     const base64String = base64Blob
     const [mimeInfo, base64Data] = base64String?.split(',')
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
@@ -334,11 +332,9 @@ function MediaNavigation({
   //TODO: duplicated code from mediaTagRenderer
   const mediaItem : MediaItem = mediaItems[index]
   const { base64Blob, mediaPath } = mediaItem
+  const filenameWithExt = mediaPath.substring(mediaPath.lastIndexOf('/') + 1)
   const base64String = base64Blob
   const [mimeInfo, base64Data] = base64String?.split(',')
-  console.log('in the modal renderer') 
-  console.log(mimeInfo)
-  console.log(base64Data)
   
     // const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
@@ -355,9 +351,6 @@ function MediaNavigation({
         const { base64Blob, mediaPath } = mediaItem
         const base64String = base64Blob
         const [mimeInfo, base64Data] = base64String?.split(',') 
-        
-        
-        // const base64Data = mediaItems[index].split(',')[1] || mediaItems[index]
         const binaryString = atob(base64Data.replace(/-/g, '+').replace(/_/g, '/'))
         const bytes = Uint8Array.from(binaryString, char => char.charCodeAt(0))
         return bytes.buffer
@@ -410,16 +403,14 @@ function MediaNavigation({
           <div
             className="p-3 bg-gray-800 text-white rounded-lg"
             style={{
-              // width: 'auto',
               maxHeight: '80vh',
-              // maxWidth: '80%',
               overflow: 'auto',
               fontSize: fontSize,
               transition: 'font-size 0.2s ease-out'
             }}
           >
             <h1 className="text-2xl font-bold my-4 text-yellow-300 whitespace-pre-wrap">
-              {romname} Text File {index + 1}
+              <span className="font-extrabold text-4xl">{romname}</span> - {filenameWithExt}
             </h1>
             <pre className="whitespace-pre-wrap font-mono p-4 bg-gray-700 rounded-md max-w-[80vw]">
               {atob(base64Data)}{' '}
@@ -429,7 +420,7 @@ function MediaNavigation({
       case mimeType === 'application/pdf':
         return <SimplePDFViewer pdfFilePath={pdfFilePath} />
       case mimeType.startsWith('image'):
-        return <img src={mediaItems[index].base64Blob} alt={`${index + 1}`} className="w-full h-auto" />
+        return <img src={mediaItems[index].base64Blob} alt={`${filenameWithExt}`} className="w-full h-auto" />
       default:
         return <div>Unsupported MIME type</div>
     }
