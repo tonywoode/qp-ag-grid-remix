@@ -1,6 +1,6 @@
 import { Link, useFetcher, useLoaderData /*,useRouteLoaderData*/, useLocation } from '@remix-run/react'
 // import { type loader as gridLoader } from 'grid.$romdata.tsx'
-import { FaFilePdf, FaFileAlt } from 'react-icons/fa'
+import { FaFilePdf, FaFileAlt, FaFileWord } from 'react-icons/fa'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 import { loadTabData } from '~/tabData.server'
@@ -162,10 +162,12 @@ export default function MediaPanel() {
   }
 
   function panelMediaRenderer({ currentIndex, romname, mediaItems }) {
-    const mediaItem : MediaItem = mediaItems[currentIndex]
+    const mediaItem: MediaItem = mediaItems[currentIndex]
     const { base64Blob, mediaPath } = mediaItem
     //duplicate code
     const mediaFileNameAndExt = mediaPath.substring(mediaPath.lastIndexOf('/') + 1)
+    const dotIndex = mediaFileNameAndExt.lastIndexOf('.')
+    const mediaFileExtension = dotIndex === -1 ? '' : mediaFileNameAndExt.substring(dotIndex + 1)
     const base64String = base64Blob
     const [mimeInfo, base64Data] = base64String?.split(',')
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
@@ -188,7 +190,12 @@ export default function MediaPanel() {
           style={{ flexBasis: '20%' }}
         >
           {/* duplicate code to get path here */}
-          <FaFileAlt className="w-full h-full" /> {mediaFileNameAndExt}
+          {mediaFileExtension === 'doc' ? (
+            <FaFileWord className="w-full h-full" />
+          ) : (
+            <FaFileAlt className="w-full h-full" />
+          )}{' '}
+          {mediaFileNameAndExt}
         </div>
       )
     }
@@ -225,7 +232,8 @@ export default function MediaPanel() {
           onClick={handleMediaOnClick}
           style={{ flexBasis: '20%' }}
         >
-          <FaFilePdf className="w-full h-full" />{mediaFileNameAndExt}
+          <FaFilePdf className="w-full h-full" />
+          {mediaFileNameAndExt}
         </div>
       )
     }
@@ -239,10 +247,9 @@ export default function MediaPanel() {
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
           onClick={handleMediaOnClick}
-          />
+        />
       )
     }
-    
 
     //TODO: do a mime lookup on the filename, if its renderable, try to render it in iframe, we exclude some types we don't want to render in the backend
     //TODO: lightbox? mediaItem would now hit image handling.....
@@ -264,7 +271,9 @@ export default function MediaPanel() {
     mediaItem: data => (
       <div className="flex flex-wrap gap-4 justify-center">
         {data?.mediaItems?.length > 0 ? (
-          data.mediaItems.map((_, currentIndex, mediaItems) => panelMediaRenderer({ currentIndex, romname, mediaItems }))
+          data.mediaItems.map((_, currentIndex, mediaItems) =>
+            panelMediaRenderer({ currentIndex, romname, mediaItems })
+          )
         ) : (
           <div>No media found</div>
         )}
@@ -330,14 +339,15 @@ function MediaNavigation({
   const { romname, mediaItems, currentIndex } = mediaContent
   const [index, setIndex] = useState(currentIndex)
   //TODO: duplicated code from panelMediaRenderer
-
-  const mediaItem : MediaItem = mediaItems[index]
+  const mediaItem: MediaItem = mediaItems[index]
   const { base64Blob, mediaPath } = mediaItem
   const filenameWithExt = mediaPath.substring(mediaPath.lastIndexOf('/') + 1)
+  const dotIndex = filenameWithExt.lastIndexOf('.')
+  const fileExtension = dotIndex === -1 ? '' : filenameWithExt.substring(dotIndex + 1)
   const base64String = base64Blob
   const [mimeInfo, base64Data] = base64String?.split(',')
-  
-    // const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
+
+  // const [mimeInfo, base64Data] = mediaItems[index]?.split(',')
   const mimeType = mimeInfo.match(/:(.*?);/)[1]
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
@@ -348,10 +358,10 @@ function MediaNavigation({
       ;(() => pdfjsWorker)() // we must USE it here to get pdfs to load (common problem with pdfjs libs!)
       try {
         //TODO: duplicated code, three times now (mediaTagRenderer)
-        const mediaItem : MediaItem = mediaItems[index]
+        const mediaItem: MediaItem = mediaItems[index]
         const { base64Blob, mediaPath } = mediaItem
         const base64String = base64Blob
-        const [mimeInfo, base64Data] = base64String?.split(',') 
+        const [mimeInfo, base64Data] = base64String?.split(',')
         const binaryString = atob(base64Data.replace(/-/g, '+').replace(/_/g, '/'))
         const bytes = Uint8Array.from(binaryString, char => char.charCodeAt(0))
         return bytes.buffer
@@ -399,8 +409,49 @@ function MediaNavigation({
     console.log(fontSize)
     switch (true) {
       case mimeType.startsWith('text'):
+        //Note stye here the specificity of which wins against modal (prev we were switching modal on this)
+        if (fileExtension === 'doc') {
+          return (
+            <div className="relative border border-gray-300">
+              <div className="bg-[#1752b0] p-2 flex items-center justify-between">
+                <span className="text-white/90 text-sm ml-2">{filenameWithExt} - Microsoft Word</span>
+                <div className="flex gap-1 mr-1">
+                  {['_', '□', '×'].map(symbol => (
+                    <div
+                      key={symbol}
+                      className="w-6 h-5 border border-white/40 text-white/90 text-xs flex items-center justify-center"
+                    >
+                      {symbol}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div
+                className="bg-white text-black rounded-lg rounded-t-none"
+                style={{
+                  maxHeight: '80vh',
+                  overflow: 'auto',
+                  fontSize,
+                  padding: '2rem',
+                  lineHeight: '1.5',
+                  transition: 'all 0.2s ease-out',
+                  backgroundImage: 'linear-gradient(#fff 95%, #f8f9fa 100%)'
+                }}
+              >
+                <div className="border-b border-gray-200 mb-6 pb-4">
+                  <span className="text-[2em] text-[#1752b0]">{romname}</span>
+                  <span className="text-gray-600"> - {filenameWithExt}</span>
+                </div>
+                <div className="whitespace-pre-wrap font-mono max-w-[80vw] text-black">{atob(base64Data)}</div>
+                <div className="mt-8 pt-4 border-t border-gray-200 flex items-center justify-between text-sm text-gray-600">
+                  <div>Microsoft Word - Windows</div>
+                  <div>Words: {atob(base64Data).split(/\s+/).length}</div>
+                </div>
+              </div>
+            </div>
+          )
+        }
         return (
-          //Note stye here the specificity of which wins against modal (prev we were switching modal on this)
           <div
             className="p-3 bg-gray-800 text-white rounded-lg"
             style={{
