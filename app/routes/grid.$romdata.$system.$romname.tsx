@@ -161,7 +161,7 @@ export default function MediaPanel() {
     mediaPath: string
   }
 
-  function mediaTagRenderer({ currentIndex, romname, mediaItems }) {
+  function panelMediaRenderer({ currentIndex, romname, mediaItems }) {
     const mediaItem : MediaItem = mediaItems[currentIndex]
     const { base64Blob, mediaPath } = mediaItem
     //duplicate code
@@ -174,15 +174,17 @@ export default function MediaPanel() {
     const handleVideoError = event => console.error('Error playing video:', event)
     const handleAudioError = event => console.error('Error playing audio:', event)
 
+    const handleMediaOnClick = () => {
+      setLightboxContent({ currentIndex, romname, mediaItems })
+      setIsLightboxOpen(true)
+    }
+
     if (mimeType.startsWith('text')) {
       return (
         <div
           key={currentIndex}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
-          onClick={() => {
-            setLightboxContent({ currentIndex, romname, mediaItems })
-            setIsLightboxOpen(true)
-          }}
+          onClick={handleMediaOnClick}
           style={{ flexBasis: '20%' }}
         >
           {/* duplicate code to get path here */}
@@ -220,10 +222,7 @@ export default function MediaPanel() {
         <div
           key={currentIndex}
           className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
-          onClick={() => {
-            setLightboxContent({ mediaItems, currentIndex })
-            setIsLightboxOpen(true)
-          }}
+          onClick={handleMediaOnClick}
           style={{ flexBasis: '20%' }}
         >
           <FaFilePdf className="w-full h-full" />{mediaFileNameAndExt}
@@ -239,10 +238,7 @@ export default function MediaPanel() {
           alt={`Screenshot ${currentIndex}`}
           className="w-full h-auto flex-grow cursor-pointer"
           style={{ flexBasis: '20%' }}
-          onClick={() => {
-            setLightboxContent({ mediaItems, currentIndex })
-            setIsLightboxOpen(true)
-          }}
+          onClick={handleMediaOnClick}
           />
       )
     }
@@ -268,7 +264,7 @@ export default function MediaPanel() {
     mediaItem: data => (
       <div className="flex flex-wrap gap-4 justify-center">
         {data?.mediaItems?.length > 0 ? (
-          data.mediaItems.map((_, currentIndex, mediaItems) => mediaTagRenderer({ currentIndex, romname, mediaItems }))
+          data.mediaItems.map((_, currentIndex, mediaItems) => panelMediaRenderer({ currentIndex, romname, mediaItems }))
         ) : (
           <div>No media found</div>
         )}
@@ -333,7 +329,8 @@ function MediaNavigation({
 }: MediaContent & { isLightboxOpen: boolean; closeLightbox: () => void }) {
   const { romname, mediaItems, currentIndex } = mediaContent
   const [index, setIndex] = useState(currentIndex)
-  //TODO: duplicated code from mediaTagRenderer
+  //TODO: duplicated code from panelMediaRenderer
+
   const mediaItem : MediaItem = mediaItems[index]
   const { base64Blob, mediaPath } = mediaItem
   const filenameWithExt = mediaPath.substring(mediaPath.lastIndexOf('/') + 1)
@@ -350,7 +347,7 @@ function MediaNavigation({
     if (mimeType === 'application/pdf') {
       ;(() => pdfjsWorker)() // we must USE it here to get pdfs to load (common problem with pdfjs libs!)
       try {
-        //TODO: duppplicated code, three times now (mediaTagRenderer)
+        //TODO: duplicated code, three times now (mediaTagRenderer)
         const mediaItem : MediaItem = mediaItems[index]
         const { base64Blob, mediaPath } = mediaItem
         const base64String = base64Blob
