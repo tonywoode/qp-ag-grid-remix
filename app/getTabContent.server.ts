@@ -3,6 +3,8 @@ import path from 'path'
 import mime from 'mime-types'
 import WordExtractor from 'word-extractor'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
+import { logger } from './root'
+import tmp from 'tmp'
 
 const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameHistory: {
@@ -398,6 +400,47 @@ async function convertDocToText(filePath: string): Promise<string> {
     throw error
   }
 }
+import { createDirIfNotExist } from './utils/createDirIfNotExist'
+
+/*Plan:
+ * list the archive files
+ * check for media files
+ * extract media files to temp dir
+ * read them again and send them to the fe
+ * if there's non-media files, send the zip to the fe as well as the listing of media files
+ */
+async function unzipMediaFiles(mediaFilePath) {
+  //todo: all copied from runGame.server.tsx
+  const node7z = await import('node-7z-archive')
+  const { onlyArchive, listArchive, fullArchive } = node7z
+  // const tempDir = path.join(process.cwd(), 'temp') //with node-7z we have no choice but to extract and read again. TODO: unlike roms, we don't want these hanging around
+  // createDirIfNotExist(tempDir)
+  // const randomNum = Math.floor(Math.random() * 1000) //we need to read this dirs contents (or: we could wipe it before writing!)
+  // const tempZipDir = path.join(tempDir, `${'tempZip' + randomNum}`)
+  // const outputDirectory = tempZipDir
+  listArchive(mediaFilePath) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
+    .progress(async (files: string[]) => {
+      const filenames = files.map(file => file.name)
+      logger.log(`fileOperations`, `7z listing: `, filenames) //todo: this still a file operation? (copied from src)
+      //check the files are all media files, and if so, extract them
+      //maybe if there's files that aren't media files, we should just send the zip up to the fe AS WELL AS the ones that are media files?
+      //trust tmp to remove its own temp dir when we're done
+      //todo: check if and when tmp is cleaning up these, latest is /var/folders/pc/ygkx3nz131x6r_lk5ql5ctnc0000gn/T/tmp-77043-o4EFzOa77368
+      const tempZipDir = tmp.dirSync({ unsafeCleanup: true })
+      console.log('tmps temporary Dir: ', tempZipDir.name)
+      await fullArchive(mediaFilePath, tempZipDir.name)
+        .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
+        .catch(err => console.error(err))
+
+      return filenames
+    })
+    //don't forget we need to carry the original filelocation to the fe, and delete this temp file
+    .then(archivePathsSpec => logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec))
+    .catch(err => console.error('error listing archive: ', err))
+
+  //otherwise we just send the zip (and put an exclusion for zip files in the catch all so you have to click it to send it to downloads)
+}
+
 type MediaItem = {
   base64Blob: string
   mediaPath: string
@@ -450,6 +493,14 @@ async function finMediaItemPaths(
               const textData = await convertDocToText(mediaPath)
               fileData = Buffer.from(textData, 'utf8')
               mimeType = 'text/plain'
+            }
+            if (
+              //we'll consider zip, 7z and rar as valid zip formats
+              mimeType === 'application/vnd.rar' ||
+              mimeType === 'application/x-7z-compressed' ||
+              mimeType === 'application/zip'
+            ) {
+              await unzipMediaFiles(mediaPath)
             }
             const base64Blob = `data:${mimeType};base64,${fileData.toString('base64')}`
             const fileDataAndPath: MediaItem = { base64Blob, mediaPath }

@@ -253,18 +253,17 @@ export default function MediaPanel() {
 
     //TODO: do a mime lookup on the filename, if its renderable, try to render it in iframe, we exclude some types we don't want to render in the backend
     //TODO: lightbox? mediaItem would now hit image handling.....
-    //no mimetype handling potentially considered harmful, off for now!
-    // else {
-    //   return (
-    //     <iframe
-    //       key={currentIndex}
-    //       src={mediaItem}
-    //       alt={`Random Mimetype ${currentIndex}`}
-    //       className="w-full h-auto flex-grow"
-    //       style={{ flexBasis: '20%' }}
-    //     />
-    //   )
-    // }
+    else {
+      return (
+        <iframe
+          key={currentIndex}
+          src={mediaItem.base64Blob}
+          alt={`Random Mimetype ${currentIndex}`}
+          className="w-full h-auto flex-grow"
+          style={{ flexBasis: '20%' }}
+        />
+      )
+    }
   }
 
   const tabContentRenderers = {
@@ -410,47 +409,47 @@ function MediaNavigation({
     switch (true) {
       case mimeType.startsWith('text'):
         //Note stye here the specificity of which wins against modal (prev we were switching modal on this)
-        if (fileExtension === 'doc') {
-          return (
-            <div className="relative border border-gray-300">
-              <div className="bg-[#1752b0] p-2 flex items-center justify-between">
-                <span className="text-white/90 text-sm ml-2">{filenameWithExt} - Microsoft Word</span>
-                <div className="flex gap-1 mr-1">
-                  {['_', '□', '×'].map(symbol => (
-                    <div
-                      key={symbol}
-                      className="w-6 h-5 border border-white/40 text-white/90 text-xs flex items-center justify-center"
-                    >
-                      {symbol}
-                    </div>
-                  ))}
-                </div>
-              </div>
-              <div
-                className="bg-white text-black rounded-lg rounded-t-none"
-                style={{
-                  maxHeight: '80vh',
-                  overflow: 'auto',
-                  fontSize,
-                  padding: '2rem',
-                  lineHeight: '1.5',
-                  transition: 'all 0.2s ease-out',
-                  backgroundImage: 'linear-gradient(#fff 95%, #f8f9fa 100%)'
-                }}
-              >
-                <div className="border-b border-gray-200 mb-6 pb-4">
-                  <span className="text-[2em] text-[#1752b0]">{romname}</span>
-                  <span className="text-gray-600"> - {filenameWithExt}</span>
-                </div>
-                <div className="whitespace-pre-wrap font-mono max-w-[80vw] text-black">{atob(base64Data)}</div>
-                <div className="mt-8 pt-4 border-t border-gray-200 flex items-center justify-between text-sm text-gray-600">
-                  <div>Microsoft Word - Windows</div>
-                  <div>Words: {atob(base64Data).split(/\s+/).length}</div>
-                </div>
-              </div>
-            </div>
-          )
-        }
+           if (fileExtension === 'doc' || fileExtension === 'DOC') {
+             return (
+               <div className="relative border border-gray-300">
+                 <div className="bg-[#1752b0] p-2 flex items-center justify-between">
+                   <span className="text-white/90 text-sm ml-2">{filenameWithExt} - Microsoft Word</span>
+                   <div className="flex gap-1 mr-1">
+                     {['_', '□', '×'].map(symbol => (
+                       <div
+                         key={symbol}
+                         className="w-6 h-5 border border-white/40 text-white/90 text-xs flex items-center justify-center"
+                       >
+                         {symbol}
+                       </div>
+                     ))}
+                   </div>
+                 </div>
+                 <div
+                   className="bg-white text-black rounded-lg rounded-t-none"
+                   style={{
+                     maxHeight: '80vh',
+                     overflow: 'auto',
+                     fontSize,
+                     padding: '2rem',
+                     lineHeight: '1.5',
+                     transition: 'all 0.2s ease-out',
+                     backgroundImage: 'linear-gradient(#fff 95%, #f8f9fa 100%)'
+                   }}
+                 >
+                   <div className="border-b border-gray-200 mb-6 pb-4">
+                     <span className="text-[2em] text-[#1752b0]">{romname}</span>
+                     <span className="text-gray-600"> - {filenameWithExt}</span>
+                   </div>
+                   <div className="whitespace-pre-wrap font-mono max-w-[80vw] text-black">{atob(base64Data)}</div>
+                   <div className="mt-8 pt-4 border-t border-gray-200 flex items-center justify-between text-sm text-gray-600">
+                     <div>Microsoft Word - Windows</div>
+                     <div>Words: {atob(base64Data).split(/\s+/).length}</div>
+                   </div>
+                 </div>
+               </div>
+             )
+           }
         return (
           <div
             className="p-3 bg-gray-800 text-white rounded-lg"
