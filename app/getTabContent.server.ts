@@ -400,7 +400,22 @@ async function convertDocToText(filePath: string): Promise<string> {
     throw error
   }
 }
-import { createDirIfNotExist } from './utils/createDirIfNotExist'
+
+
+function getValidMimetype(file: string): string | null {
+  let mimeType = mime.lookup(file)
+  console.log(`mimeType of ${file} is: ${mimeType}`)
+  // Exclude some mimetypes that in experience I found colocated with actual assets but we don't want to try to render them
+  const excludedMimeTypeStrings = ['javascript', 'json', 'xml']
+  if (mimeType === null) {
+    return null
+  }
+  if (excludedMimeTypeStrings.some(excluded => mimeType.includes(excluded))) {
+    console.log(`Excluded MIME type found: ${mimeType}`)
+    return null
+  }
+  return mimeType
+}
 
 /*Plan:
  * list the archive files
@@ -409,36 +424,48 @@ import { createDirIfNotExist } from './utils/createDirIfNotExist'
  * read them again and send them to the fe
  * if there's non-media files, send the zip to the fe as well as the listing of media files
  */
-async function unzipMediaFiles(mediaFilePath) {
+async function unzipMediaFiles(mediaFilePath, foundBase64DataAndFiles) {
   //todo: all copied from runGame.server.tsx
   const node7z = await import('node-7z-archive')
   const { onlyArchive, listArchive, fullArchive } = node7z
-  // const tempDir = path.join(process.cwd(), 'temp') //with node-7z we have no choice but to extract and read again. TODO: unlike roms, we don't want these hanging around
-  // createDirIfNotExist(tempDir)
-  // const randomNum = Math.floor(Math.random() * 1000) //we need to read this dirs contents (or: we could wipe it before writing!)
-  // const tempZipDir = path.join(tempDir, `${'tempZip' + randomNum}`)
-  // const outputDirectory = tempZipDir
-  listArchive(mediaFilePath) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
-    .progress(async (files: string[]) => {
-      const filenames = files.map(file => file.name)
-      logger.log(`fileOperations`, `7z listing: `, filenames) //todo: this still a file operation? (copied from src)
-      //check the files are all media files, and if so, extract them
-      //maybe if there's files that aren't media files, we should just send the zip up to the fe AS WELL AS the ones that are media files?
-      //trust tmp to remove its own temp dir when we're done
-      //todo: check if and when tmp is cleaning up these, latest is /var/folders/pc/ygkx3nz131x6r_lk5ql5ctnc0000gn/T/tmp-77043-o4EFzOa77368
-      const tempZipDir = tmp.dirSync({ unsafeCleanup: true })
-      console.log('tmps temporary Dir: ', tempZipDir.name)
-      await fullArchive(mediaFilePath, tempZipDir.name)
-        .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
-        .catch(err => console.error(err))
+  return new Promise((resolve, reject) => {
+    const filenames = []
 
-      return filenames
-    })
-    //don't forget we need to carry the original filelocation to the fe, and delete this temp file
-    .then(archivePathsSpec => logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec))
-    .catch(err => console.error('error listing archive: ', err))
+    listArchive(mediaFilePath)
+      .progress(files => {
+        filenames.push(...files.map(file => file.name))
+      })
+      .then(async () => {
+        logger.log(`fileOperations`, `7z listing: `, filenames)
 
-  //otherwise we just send the zip (and put an exclusion for zip files in the catch all so you have to click it to send it to downloads)
+        const tempZipDir = tmp.dirSync({ unsafeCleanup: true })
+        console.log('tmps temporary Dir: ', tempZipDir.name)
+
+        await fullArchive(mediaFilePath, tempZipDir.name)
+          .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
+          .catch(err => console.error(err))
+
+        const validMediaFiles = filenames.map(async file => {
+          const mimetype = getValidMimetype(file)
+          console.log('the mimetype of unzipped file ', file, ' is: ', mimetype)
+          if (mimetype !== null) {
+            const mediaPath = path.join(tempZipDir.name, file)
+            const fileData = await fs.promises.readFile(mediaPath)
+            const base64Blob = `data:${mimetype};base64,${fileData.toString('base64')}`
+            const fileDataAndPath: MediaItem = { base64Blob, mediaPath }
+            foundBase64DataAndFiles.add(fileDataAndPath)
+          }
+        })
+
+        await Promise.all(validMediaFiles)
+        // console.log(foundBase64DataAndFiles)
+        resolve(foundBase64DataAndFiles)
+      })
+      .catch(err => {
+        console.error('error listing archive: ', err)
+        reject(err)
+      })
+  })
 }
 
 type MediaItem = {
@@ -449,7 +476,7 @@ type MediaItem = {
 //   jstStartsWith = 1,
 //   jstInString = 2,
 //   jstAllFilesInDir = 3);
-async function finMediaItemPaths(
+async function findMediaItemPaths(
   romname: string,
   pathInTabData: string[],
   searchType: string,
@@ -457,7 +484,7 @@ async function finMediaItemPaths(
   mameUseParentForSrch: boolean
 ) {
   console.log(`using searchType ${searchType}`)
-  const foundBase64DataAndFiles = new Set<MediaItem>()
+  let foundBase64DataAndFiles = new Set<MediaItem>()
   const macPaths = pathInTabData.map(p => convertWindowsPathToMacPath(p))
   const mameNameSearchTerms = [mameNames.mameName, mameUseParentForSrch && mameNames.parentName].filter(Boolean)
   const shouldSearchRomNameOnly = Object.keys(mameNames).length === 0 || !(mameNames.mameName || mameNames.parentName)
@@ -477,17 +504,10 @@ async function finMediaItemPaths(
         }
         if (matchFound) {
           console.log('mediaItem match found', file)
-          let mimeType = mime.lookup(file)
           const mediaPath = path.join(macPath, file)
           let fileData = await fs.promises.readFile(mediaPath)
-          console.log(`mimeType of ${file} is: ${mimeType}`)
-          // Exclude some mimetypes that in experience I found colocated with actual assets but we don't want to try to render them
-          const excludedMimeTypeStrings = ['javascript', 'json', 'xml']
-          const checkMimeTypeAllowed = (mimeType: string): boolean | void =>
-            excludedMimeTypeStrings.some(excluded => mimeType.includes(excluded))
-              ? console.log(`Excluded MIME type found: ${mimeType}`)
-              : true
-          if (mimeType !== null && checkMimeTypeAllowed(mimeType)) {
+          let mimeType = getValidMimetype(file)
+          if (mimeType !== null) {
             if (mimeType === 'application/msword') {
               // Convert .doc to .pdf
               const textData = await convertDocToText(mediaPath)
@@ -500,11 +520,13 @@ async function finMediaItemPaths(
               mimeType === 'application/x-7z-compressed' ||
               mimeType === 'application/zip'
             ) {
-              await unzipMediaFiles(mediaPath)
+              foundBase64DataAndFiles = await unzipMediaFiles(mediaPath, foundBase64DataAndFiles)
+              console.log(foundBase64DataAndFiles)
+            } else {
+              const base64Blob = `data:${mimeType};base64,${fileData.toString('base64')}`
+              const fileDataAndPath: MediaItem = { base64Blob, mediaPath }
+              foundBase64DataAndFiles.add(fileDataAndPath)
             }
-            const base64Blob = `data:${mimeType};base64,${fileData.toString('base64')}`
-            const fileDataAndPath: MediaItem = { base64Blob, mediaPath }
-            foundBase64DataAndFiles.add(fileDataAndPath)
           }
         }
       })
@@ -513,6 +535,7 @@ async function finMediaItemPaths(
       console.error(`Error reading directory ${macPath}: ${error}`)
     }
   }
+  console.log(foundBase64DataAndFiles) //check this has the unzipped files in it
   const mediaItems: MediaItem[] = Array.from(foundBase64DataAndFiles)
   return { mediaItems }
 }
@@ -544,7 +567,7 @@ export async function getTabContent(
   console.log('Path in tabData is ' + pathInTabData)
   if (pathInTabData) {
     if (tabClass === 'mediaItem') {
-      const { mediaItems } = await finMediaItemPaths(
+      const { mediaItems } = await findMediaItemPaths(
         romname,
         pathInTabData,
         searchType,
