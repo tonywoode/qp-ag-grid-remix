@@ -205,7 +205,7 @@ export default function MediaPanel() {
       return (
         <div key={currentIndex} className="flex-grow" style={{ flexBasis: '20%' }}>
           <video controls className="w-full h-auto" onError={handleVideoError}>
-            <source src={mediaItem} type={mimeType} />
+            <source src={mediaItem.base64Blob} type={mimeType} />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -216,8 +216,8 @@ export default function MediaPanel() {
     if (mimeType.startsWith('audio')) {
       return (
         <div key={currentIndex} className="flex-grow" style={{ flexBasis: '20%' }}>
-          <audio controls className="w-full h-auto" onError={handleAudioError}>
-            <source src={mediaItem} type={mimeType} />
+          <audio controls onError={handleAudioError}>
+            <source src={mediaItem.base64Blob} type={mimeType} />
             Your browser does not support the audio tag.
           </audio>
         </div>

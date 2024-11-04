@@ -3,8 +3,11 @@ import path from 'path'
 import mime from 'mime-types'
 import WordExtractor from 'word-extractor'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
+import ffmpeg from 'fluent-ffmpeg'
+import ffmpegPath from 'ffmpeg-static'
 import { logger } from './root'
 import tmp from 'tmp'
+import stream from 'node:stream'
 
 const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameHistory: {
@@ -401,7 +404,6 @@ async function convertDocToText(filePath: string): Promise<string> {
   }
 }
 
-
 function getValidMimetype(file: string): string | null {
   let mimeType = mime.lookup(file)
   console.log(`mimeType of ${file} is: ${mimeType}`)
@@ -417,6 +419,40 @@ function getValidMimetype(file: string): string | null {
   return mimeType
 }
 
+async function transcodeAudioToBuffer(audioPath: string): Promise<Buffer> {
+  // Create a buffer to collect chunks
+  const chunks: Buffer[] = []
+  ffmpeg.setFfmpegPath(ffmpegPath)
+  return new Promise((resolve, reject) => {
+    const passThrough = new stream.PassThrough()
+
+    // Set up ffmpeg command with error handling
+    const command = ffmpeg(audioPath)
+      .toFormat('webm')
+      .audioCodec('libopus')
+      .audioBitrate('128k')
+      .on('error', err => {
+        reject(new Error(`FFmpeg transcoding failed: ${err.message}`))
+      })
+      .on('end', () => {
+        // Combine all chunks into final buffer
+        const finalBuffer = Buffer.concat(chunks)
+        resolve(finalBuffer)
+      })
+
+    // Pipe to our PassThrough stream
+    command.pipe(passThrough)
+
+    // Collect data chunks
+    passThrough.on('data', chunk => {
+      chunks.push(Buffer.from(chunk))
+    })
+
+    passThrough.on('error', err => {
+      reject(new Error(`Stream processing failed: ${err.message}`))
+    })
+  })
+}
 /*Plan:
  * list the archive files
  * check for media files
@@ -424,48 +460,72 @@ function getValidMimetype(file: string): string | null {
  * read them again and send them to the fe
  * if there's non-media files, send the zip to the fe as well as the listing of media files
  */
-async function unzipMediaFiles(mediaFilePath, foundBase64DataAndFiles) {
-  //todo: all copied from runGame.server.tsx
+async function unzipMediaFiles(
+  mediaFilePath: string,
+  foundBase64DataAndFiles: Set<MediaItem>
+): Promise<Set<MediaItem>> {
   const node7z = await import('node-7z-archive')
-  const { onlyArchive, listArchive, fullArchive } = node7z
-  return new Promise((resolve, reject) => {
-    const filenames = []
+  const { listArchive, fullArchive } = node7z
 
-    listArchive(mediaFilePath)
-      .progress(files => {
-        filenames.push(...files.map(file => file.name))
-      })
-      .then(async () => {
-        logger.log(`fileOperations`, `7z listing: `, filenames)
-
-        const tempZipDir = tmp.dirSync({ unsafeCleanup: true })
-        console.log('tmps temporary Dir: ', tempZipDir.name)
-
-        await fullArchive(mediaFilePath, tempZipDir.name)
-          .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
-          .catch(err => console.error(err))
-
-        const validMediaFiles = filenames.map(async file => {
-          const mimetype = getValidMimetype(file)
-          console.log('the mimetype of unzipped file ', file, ' is: ', mimetype)
-          if (mimetype !== null) {
-            const mediaPath = path.join(tempZipDir.name, file)
-            const fileData = await fs.promises.readFile(mediaPath)
-            const base64Blob = `data:${mimetype};base64,${fileData.toString('base64')}`
-            const fileDataAndPath: MediaItem = { base64Blob, mediaPath }
-            foundBase64DataAndFiles.add(fileDataAndPath)
-          }
+  // Create temporary directory
+  const tempZipDir = tmp.dirSync({ unsafeCleanup: true })
+  console.log('temporary Dir: ', tempZipDir.name)
+  try {
+    // Get list of files in archive
+    const filenames: string[] = []
+    await new Promise<void>((resolve, reject) => {
+      listArchive(mediaFilePath)
+        .progress(files => {
+          filenames.push(...files.map(file => file.name))
         })
+        .then(() => resolve())
+        .catch(reject)
+    })
 
-        await Promise.all(validMediaFiles)
-        // console.log(foundBase64DataAndFiles)
-        resolve(foundBase64DataAndFiles)
+    logger.log('fileOperations', '7z listing: ', filenames)
+    // Extract archive
+    await fullArchive(mediaFilePath, tempZipDir.name)
+
+    // Process each file
+    await Promise.all(
+      filenames.map(async file => {
+        const mimetype = getValidMimetype(file)
+
+        if (mimetype?.startsWith('audio/')) {
+          const mediaPath = path.join(tempZipDir.name, file)
+
+          try {
+            // Transcode audio file
+            const fileData = await transcodeAudioToBuffer(mediaPath)
+
+            if (fileData && fileData.length > 0) {
+              const base64Blob = `data:audio/webm;base64,${fileData.toString('base64')}`
+              foundBase64DataAndFiles.add({
+                base64Blob,
+                mediaPath
+              })
+            } else {
+              console.warn(`Transcoding produced empty buffer for ${file}`)
+            }
+          } catch (error) {
+            console.error(`Failed to transcode ${file}:`, error)
+          }
+        }
       })
-      .catch(err => {
-        console.error('error listing archive: ', err)
-        reject(err)
-      })
-  })
+    )
+
+    return foundBase64DataAndFiles
+  } catch (error) {
+    console.error('Error processing archive:', error)
+    throw error
+  } finally {
+    // Make sure to clean up temp directory - TODO: required?
+    try {
+      tempZipDir?.cleanup()
+    } catch (error) {
+      console.error('Error cleaning up temp directory:', error)
+    }
+  }
 }
 
 type MediaItem = {
@@ -535,7 +595,7 @@ async function findMediaItemPaths(
       console.error(`Error reading directory ${macPath}: ${error}`)
     }
   }
-  console.log(foundBase64DataAndFiles) //check this has the unzipped files in it
+  // console.log(foundBase64DataAndFiles) //check this has the unzipped files in it
   const mediaItems: MediaItem[] = Array.from(foundBase64DataAndFiles)
   return { mediaItems }
 }
