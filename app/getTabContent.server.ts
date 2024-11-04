@@ -459,15 +459,10 @@ async function transcodeVideoToBuffer(videoPath: string): Promise<Buffer> {
         const finalBuffer = Buffer.concat(chunks)
         resolve(finalBuffer)
       })
-
-    // Pipe to our PassThrough stream
     command.pipe(passThrough)
-
-    // Collect data chunks
     passThrough.on('data', chunk => {
       chunks.push(Buffer.from(chunk))
     })
-
     passThrough.on('error', err => {
       reject(new Error(`Stream processing failed: ${err.message}`))
     })
@@ -475,13 +470,10 @@ async function transcodeVideoToBuffer(videoPath: string): Promise<Buffer> {
 }
 
 async function transcodeAudioToBuffer(audioPath: string): Promise<Buffer> {
-  // Create a buffer to collect chunks
   const chunks: Buffer[] = []
   ffmpeg.setFfmpegPath(ffmpegPath)
   return new Promise((resolve, reject) => {
     const passThrough = new stream.PassThrough()
-
-    // Set up ffmpeg command with error handling
     const command = ffmpeg(audioPath)
       .toFormat('webm')
       .audioCodec('libopus')
@@ -490,19 +482,13 @@ async function transcodeAudioToBuffer(audioPath: string): Promise<Buffer> {
         reject(new Error(`FFmpeg transcoding failed: ${err.message}`))
       })
       .on('end', () => {
-        // Combine all chunks into final buffer
         const finalBuffer = Buffer.concat(chunks)
         resolve(finalBuffer)
       })
-
-    // Pipe to our PassThrough stream
     command.pipe(passThrough)
-
-    // Collect data chunks
     passThrough.on('data', chunk => {
       chunks.push(Buffer.from(chunk))
     })
-
     passThrough.on('error', err => {
       reject(new Error(`Stream processing failed: ${err.message}`))
     })
@@ -647,12 +633,23 @@ async function findMediaItemPaths(
             ) {
               foundBase64DataAndFiles = await unzipMediaFiles(mediaPath, foundBase64DataAndFiles)
               console.log(foundBase64DataAndFiles)
-            }
-            if (mimeType.startsWith('video')) {
+            } else if (mimeType.startsWith('video')) {
               try {
                 const fileData = await transcodeVideoToBuffer(mediaPath)
                 if (fileData && fileData.length > 0) {
                   const base64Blob = `data:video/webm;base64,${fileData.toString('base64')}`
+                  foundBase64DataAndFiles.add({ base64Blob, mediaPath })
+                } else {
+                  console.warn(`Transcoding produced empty buffer for ${mediaPath}`)
+                }
+              } catch (error) {
+                console.error(`Failed to transcode ${mediaPath}:`, error)
+              }
+            } else if (mimeType.startsWith('audio')) {
+              try {
+                const fileData = await transcodeAudioToBuffer(mediaPath)
+                if (fileData && fileData.length > 0) {
+                  const base64Blob = `data:audio/webm;base64,${fileData.toString('base64')}`
                   foundBase64DataAndFiles.add({ base64Blob, mediaPath })
                 } else {
                   console.warn(`Transcoding produced empty buffer for ${mediaPath}`)
