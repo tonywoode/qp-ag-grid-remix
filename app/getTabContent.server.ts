@@ -459,6 +459,14 @@ async function transcodeAudioToBuffer(audioPath: string): Promise<Buffer> {
  * extract media files to temp dir
  * read them again and send them to the fe
  * if there's non-media files, send the zip to the fe as well as the listing of media files
+ * TODO:
+ *  * we should only be extracting the found files using extractOnly from node7z
+ *  * get the Original filepath of the zip to pass as a tag to each audio player (add the filename in zip), else surround all audio players with a zip icon
+ *  * size audio players with tab resizing
+ *  * tmp's temporary dir - manual or automatic?
+ *  * this is made for MAME samples, we'll get other zipped archives with valid and invalid mimetypes, test the cases
+ *  * we'll get audio files that aren't zipped
+ *  * cross platform support when using electron builder with ffmpeg
  */
 async function unzipMediaFiles(
   mediaFilePath: string,
