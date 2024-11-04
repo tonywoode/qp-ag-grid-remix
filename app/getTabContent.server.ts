@@ -418,6 +418,57 @@ function getValidMimetype(file: string): string | null {
   }
   return mimeType
 }
+async function transcodeVideoToBuffer(videoPath: string): Promise<Buffer> {
+  const chunks: Buffer[] = []
+  ffmpeg.setFfmpegPath(ffmpegPath)
+
+  return new Promise((resolve, reject) => {
+    const passThrough = new stream.PassThrough()
+
+    const command = ffmpeg(videoPath)
+      .toFormat('webm')
+      .videoCodec('libvpx-vp9') // Using VP9 codec for WebM
+      .audioCodec('libopus') // Using Opus audio codec
+      // Add video parameters
+      .addOptions([
+        '-b:v 300k', // Video bitrate
+        '-cpu-used 8', // CPU usage preset (0-8, higher = faster)
+        '-vf scale=-2:480', // Scale to 780p, maintain aspect ratio
+        '-deadline realtime', // Faster encoding
+        '-row-mt 1' // Enable row-based multithreading
+      ])
+      // Add audio parameters
+      .audioBitrate('48k')
+      // Progress monitoring
+      .on('progress', progress => {
+        console.log(`Processing: ${progress.percent}% done`) //done't work  undef
+      })
+      .on('start', commandLine => {
+        console.log('FFmpeg process started:', commandLine)
+      })
+      .on('error', (err, stdout, stderr) => {
+        console.error('FFmpeg stderr:', stderr)
+        reject(new Error(`FFmpeg transcoding failed: ${err.message}\nStderr: ${stderr}`))
+      })
+      .on('end', () => {
+        console.log('FFmpeg processing finished')
+        const finalBuffer = Buffer.concat(chunks)
+        resolve(finalBuffer)
+      })
+
+    // Pipe to our PassThrough stream
+    command.pipe(passThrough)
+
+    // Collect data chunks
+    passThrough.on('data', chunk => {
+      chunks.push(Buffer.from(chunk))
+    })
+
+    passThrough.on('error', err => {
+      reject(new Error(`Stream processing failed: ${err.message}`))
+    })
+  })
+}
 
 async function transcodeAudioToBuffer(audioPath: string): Promise<Buffer> {
   // Create a buffer to collect chunks
@@ -467,6 +518,8 @@ async function transcodeAudioToBuffer(audioPath: string): Promise<Buffer> {
  *  * this is made for MAME samples, we'll get other zipped archives with valid and invalid mimetypes, test the cases
  *  * we'll get audio files that aren't zipped
  *  * cross platform support when using electron builder with ffmpeg
+ *  * the ridiculous passing imperative passing of the Set (and aren't we saving to the set twice?!?!)
+ *  * should it even be a Set?
  */
 async function unzipMediaFiles(
   mediaFilePath: string,
@@ -590,6 +643,27 @@ async function findMediaItemPaths(
             ) {
               foundBase64DataAndFiles = await unzipMediaFiles(mediaPath, foundBase64DataAndFiles)
               console.log(foundBase64DataAndFiles)
+            }
+            if (mimeType.startsWith('video')) {
+              console.log('its a video')
+              console.log('!!!!!!!!!!!!!!!!!!!!!')
+              console.log(mediaPath)
+              try {
+                // Transcode video file
+                const fileData = await transcodeVideoToBuffer(mediaPath)
+
+                if (fileData && fileData.length > 0) {
+                  const base64Blob = `data:video/webm;base64,${fileData.toString('base64')}`
+                  foundBase64DataAndFiles.add({
+                    base64Blob,
+                    mediaPath
+                  })
+                } else {
+                  console.warn(`Transcoding produced empty buffer for ${mediaPath}`)
+                }
+              } catch (error) {
+                console.error(`Failed to transcode ${mediaPath}:`, error)
+              }
             } else {
               const base64Blob = `data:${mimeType};base64,${fileData.toString('base64')}`
               const fileDataAndPath: MediaItem = { base64Blob, mediaPath }
