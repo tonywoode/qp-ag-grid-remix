@@ -431,11 +431,23 @@ async function transcodeVideoToBuffer(videoPath: string): Promise<Buffer> {
       .audioCodec('libopus') // Using Opus audio codec
       // Add video parameters
       .addOptions([
-        '-b:v 300k', // Video bitrate
-        '-cpu-used 8', // CPU usage preset (0-8, higher = faster)
-        '-vf scale=-2:480', // Scale to 780p, maintain aspect ratio
-        '-deadline realtime', // Faster encoding
-        '-row-mt 1' // Enable row-based multithreading
+        '-quality realtime', // Optimize for realtime encoding
+        '-cpu-used 8', // Maximum speed
+        '-deadline realtime',
+        '-row-mt 1', // Enable row-based multithreading
+        '-tile-columns 2', // Enable tile columns for parallel processing
+        '-frame-parallel 1', // Enable frame parallel processing
+        '-threads 0', // Use all available threads
+        '-static-thresh 0', // Reduce quality analysis
+        '-lag-in-frames 0', // Disable frame lagging
+        '-error-resilient 1', // Enable error resilience
+        // Tune for speed over quality
+        '-b:v 300k', // Fixed bitrate
+        '-minrate 150k', // Minimum bitrate
+        '-maxrate 450k', // Maximum bitrate
+        '-bufsize 600k', // Buffer size
+        // Scale video - adjust based on your needs
+        '-vf scale=-2:480'
       ])
       // Add audio parameters
       .audioBitrate('48k')
