@@ -421,15 +421,13 @@ function getValidMimetype(file: string): string | null {
 async function transcodeVideoToBuffer(videoPath: string): Promise<Buffer> {
   const chunks: Buffer[] = []
   ffmpeg.setFfmpegPath(ffmpegPath)
-
   return new Promise((resolve, reject) => {
     const passThrough = new stream.PassThrough()
-
+    const startTime = Date.now()
     const command = ffmpeg(videoPath)
       .toFormat('webm')
       .videoCodec('libvpx-vp9') // Using VP9 codec for WebM
       .audioCodec('libopus') // Using Opus audio codec
-      // Add video parameters
       .addOptions([
         '-quality realtime', // Optimize for realtime encoding
         '-cpu-used 8', // Maximum speed
@@ -446,15 +444,9 @@ async function transcodeVideoToBuffer(videoPath: string): Promise<Buffer> {
         '-minrate 150k', // Minimum bitrate
         '-maxrate 450k', // Maximum bitrate
         '-bufsize 600k', // Buffer size
-        // Scale video - adjust based on your needs
         '-vf scale=-2:480'
       ])
-      // Add audio parameters
       .audioBitrate('48k')
-      // Progress monitoring
-      .on('progress', progress => {
-        console.log(`Processing: ${progress.percent}% done`) //done't work  undef
-      })
       .on('start', commandLine => {
         console.log('FFmpeg process started:', commandLine)
       })
@@ -657,19 +649,11 @@ async function findMediaItemPaths(
               console.log(foundBase64DataAndFiles)
             }
             if (mimeType.startsWith('video')) {
-              console.log('its a video')
-              console.log('!!!!!!!!!!!!!!!!!!!!!')
-              console.log(mediaPath)
               try {
-                // Transcode video file
                 const fileData = await transcodeVideoToBuffer(mediaPath)
-
                 if (fileData && fileData.length > 0) {
                   const base64Blob = `data:video/webm;base64,${fileData.toString('base64')}`
-                  foundBase64DataAndFiles.add({
-                    base64Blob,
-                    mediaPath
-                  })
+                  foundBase64DataAndFiles.add({ base64Blob, mediaPath })
                 } else {
                   console.warn(`Transcoding produced empty buffer for ${mediaPath}`)
                 }
