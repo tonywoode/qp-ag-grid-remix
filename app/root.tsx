@@ -85,7 +85,13 @@ export function TreeView({ folderData }) {
 
   return (
     <div ref={containerRef} style={{ width: '100%', height: '100%' }}>
-      <Tree data={folderData} openByDefault={false} width={dimensions.width} height={dimensions.height} rowHeight={42}>
+      <Tree
+        initialData={folderData}
+        openByDefault={false}
+        width={dimensions.width}
+        height={dimensions.height}
+        rowHeight={42}
+      >
         {Node}
       </Tree>
     </div>
