@@ -64,12 +64,16 @@ export default function Grid() {
   const iconColumn = {
     headerName: 'Icon',
     field: 'icon',
-    minWidth: 80,
+    minWidth: 65,
+    autoHeight: true,
     filter: false,
     suppressSizeToFit: true,
     cellRenderer: ({ data }) => (
-      <div className="w-6 h-6" title={`${data.mameName || ''}\n${data.parentName || ''}`.trim()}>
-        <img src={data.iconBase64} alt="ROM Icon" className="w-6 h-6" />
+      <div
+        className="w-full h-full flex items-center justify-center"
+        title={`${data.mameName || ''}\n${data.parentName || ''}`.trim()}
+      >
+        <img src={data.iconBase64} alt="ROM Icon" className="max-w-full max-h-full" />
       </div>
     )
   }
