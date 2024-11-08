@@ -38,24 +38,23 @@ export function Node({ node, style, dragHandle }) {
             (node.isOpen ? <FaMinusSquare size={12} color="silver" /> : <FaPlusSquare size={12} color="silver" />)}
         </span>
         <span
-          className="file-folder-icon"
-          style={{ marginRight: '6px', cursor: node.data.romdataLink ? 'pointer' : 'default' }}
+          className={`flex items-center ${node.isSelected && node.data.romdataLink ? 'bg-blue-300 text-white' : ''}`}
+          style={{
+            borderRadius: '4px',
+            paddingRight: '2cm',
+            cursor: node.data.romdataLink ? 'pointer' : 'default'
+          }}
           onClick={handleSingleClick}
           onDoubleClick={handlePreventedDoubleClick}
         >
-          {node.data.iconLink ? (
-            <img src={node.data.icon} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
-          ) : (
-            <AiFillFolder color={node.isLeaf ? '#6bc7f6' : '#f6cf60'} />
-          )}
-        </span>
-        <span
-          className="node-text"
-          style={{ cursor: node.data.romdataLink ? 'pointer' : 'default' }}
-          onClick={handleSingleClick}
-          onDoubleClick={handlePreventedDoubleClick}
-        >
-          {node.data.name}
+          <span className="file-folder-icon" style={{ marginRight: '6px' }}>
+            {node.data.iconLink ? (
+              <img src={node.data.icon} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
+            ) : (
+              <AiFillFolder color={node.isLeaf ? '#6bc7f6' : '#f6cf60'} />
+            )}
+          </span>
+          <span className="node-text">{node.data.name}</span>
         </span>
       </div>
     </div>
