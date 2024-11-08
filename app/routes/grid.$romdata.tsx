@@ -64,7 +64,8 @@ export default function Grid() {
   const iconColumn = {
     headerName: 'Icon',
     field: 'icon',
-    width: 50,
+    minWidth: 80,
+    filter: false,
     suppressSizeToFit: true,
     cellRenderer: ({ data }) => (
       <div className="w-6 h-6" title={`${data.mameName || ''}\n${data.parentName || ''}`.trim()}>
