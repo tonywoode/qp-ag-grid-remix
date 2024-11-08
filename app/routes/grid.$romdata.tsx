@@ -9,11 +9,25 @@ import Split from 'react-split'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { encodeString, decodeString } from '~/utils/safeUrl'
+import { loadMameIconBase64 } from '~/loadMameIcons.server'
+import { loadIconBase64 } from '~/loadImages.server'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
-  return { romdata: romdataBlob.romdata }
+  const romdata = romdataBlob.romdata
+  const defaultIconBase64 = await loadIconBase64('rom.ico') //default icon
+
+  // Preload icons and tooltips
+  const romdataWithIcons = await Promise.all(
+    romdata.map(async item => {
+      const iconBase64 = await loadMameIconBase64(item.mameName, item.parentName)
+      // const tooltip = `${item.mameName || ''} ${item.parentName || ''}`.trim()
+      return { ...item, iconBase64: iconBase64 || defaultIconBase64 }
+    })
+  )
+
+  return { romdata: romdataWithIcons }
 }
 
 export default function Grid() {
@@ -47,12 +61,29 @@ export default function Grid() {
   const isEditable = ({ node: { rowIndex }, column: { colId } }) =>
     clickedCell && rowIndex === clickedCell.rowIndex && colId === clickedCell.colKey
 
+  const iconColumn = {
+    headerName: 'Icon',
+    field: 'icon',
+    width: 50,
+    suppressSizeToFit: true,
+    cellRenderer: ({ data }) => (
+      <div className="w-6 h-6" title={`${data.mameName || ''}\n${data.parentName || ''}`.trim()}>
+        <img src={data.iconBase64} alt="ROM Icon" className="w-6 h-6" />
+      </div>
+    )
+  }
+
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
-  const columnDefs: (ColDef | ColGroupDef)[] = [...new Set(romdata.flatMap(Object.keys))].map(field => ({
-    field,
-    editable: isEditable,
-    valueGetter: field === 'path' ? removeGamesDirPrefix : undefined
-  }))
+  const columnDefs: (ColDef | ColGroupDef)[] = [
+    iconColumn,
+    ...[...new Set(romdata.flatMap(Object.keys))]
+      .filter(field => field !== 'iconBase64') // Exclude 'iconBase64'
+      .map(field => ({
+        field,
+        editable: isEditable,
+        valueGetter: field === 'path' ? removeGamesDirPrefix : undefined
+      }))
+  ]
 
   console.log(`Creating these columns from romdata: ${params.romdata}`)
   console.table(columnDefs)
