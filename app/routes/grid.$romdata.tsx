@@ -78,8 +78,33 @@ export default function Grid() {
     )
   }
 
+  //TODO: what if either an individual entry, or the whole list, don't like to a compressed file?
+  const zipColumn = {
+    headerName: 'Zip',
+    field: 'zip',
+    minWidth: 50,
+    filter: false,
+    suppressSizeToFit: true,
+    cellRenderer: ({ data }) => (
+      <div className="w-full h-full flex items-center justify-center">
+        <button
+          className="text-blue-500"
+          onClick={async () => {
+            const response = await fetch(`/listZip?path=${encodeURIComponent(data.path)}`)
+            const fileList = await response.json()
+            console.log(fileList)
+            // Handle the file list response here
+          }}
+        >
+          +
+        </button>
+      </div>
+    )
+  }
+
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs: (ColDef | ColGroupDef)[] = [
+    zipColumn,
     iconColumn,
     ...[...new Set(romdata.flatMap(Object.keys))]
       .filter(field => field !== 'iconBase64') // Exclude 'iconBase64'
