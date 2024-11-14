@@ -93,16 +93,25 @@ export default function Grid() {
           className="text-blue-500 hover:text-blue-700"
           onClick={async () => {
             const rowId = data.id || node.rowIndex
+            const expandedRowId = `${rowId}-expanded`
+            console.log('expandedRowId', expandedRowId)
+            console.log('expandedRows', expandedRows)
+            console.log('expandedRows.has(rowId)', expandedRows.has(rowId))
             if (expandedRows.has(rowId)) {
-              // Remove expanded row
-              setExpandedRows(prev => {
-                const next = new Set(prev)
-                next.delete(rowId)
-                return next
-              })
-              api.applyTransaction({
-                remove: [{ id: `${rowId}-expanded` }]
-              })
+              console.log('api is', api)
+              console.log('api.getRowNode is ', api.getRowNode)
+              const rowToRemove = api.getRowNode(expandedRowId.replace('-expanded', ''))
+              console.log('rowToRemove', rowToRemove)
+              if (rowToRemove) {
+                setExpandedRows(prev => {
+                  const next = new Set(prev)
+                  next.delete(rowId)
+                  return next
+                })
+                api.applyTransaction({
+                  remove: [rowToRemove.data]
+                })
+              }
             } else {
               // Fetch zip contents if not already fetched
               if (!zipContents[rowId]) {
@@ -122,18 +131,19 @@ export default function Grid() {
                 }
               }
 
-              // Add expanded row
               setExpandedRows(prev => {
                 const next = new Set(prev)
                 next.add(rowId)
                 return next
               })
+
               api.applyTransaction({
                 add: [
                   {
-                    id: `${rowId}-expanded`,
+                    id: expandedRowId,
                     fullWidth: true,
-                    parentId: rowId
+                    parentId: rowId,
+                    ...data
                   }
                 ],
                 addIndex: node.rowIndex + 1
