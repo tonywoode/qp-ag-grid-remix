@@ -32,6 +32,8 @@ export async function loader({ params }: LoaderFunctionArgs) {
 
 export default function Grid() {
   let { romdata } = useLoaderData<typeof loader>()
+  const [expandedRows, setExpandedRows] = useState(new Set())
+  const [zipContents, setZipContents] = useState<{ [key: string]: string[] }>({})
   const params = useParams()
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
@@ -85,21 +87,86 @@ export default function Grid() {
     minWidth: 50,
     filter: false,
     suppressSizeToFit: true,
-    cellRenderer: ({ data }) => (
+    cellRenderer: ({ data, api, node }) => (
       <div className="w-full h-full flex items-center justify-center">
         <button
-          className="text-blue-500"
+          className="text-blue-500 hover:text-blue-700"
           onClick={async () => {
-            const response = await fetch(`/listZip?path=${encodeURIComponent(data.path)}`)
-            const fileList = await response.json()
-            console.log(fileList)
-            // Handle the file list response here
+            const rowId = data.id || node.rowIndex
+            if (expandedRows.has(rowId)) {
+              // Remove expanded row
+              setExpandedRows(prev => {
+                const next = new Set(prev)
+                next.delete(rowId)
+                return next
+              })
+              api.applyTransaction({
+                remove: [{ id: `${rowId}-expanded` }]
+              })
+            } else {
+              // Fetch zip contents if not already fetched
+              if (!zipContents[rowId]) {
+                try {
+                  const response = await fetch(`/listZip?path=${encodeURIComponent(data.path)}`)
+                  const files = await response.json()
+                  setZipContents(prev => ({
+                    ...prev,
+                    [rowId]: files
+                  }))
+                } catch (error) {
+                  console.error('Failed to fetch zip contents:', error)
+                  setZipContents(prev => ({
+                    ...prev,
+                    [rowId]: ['Error loading zip contents']
+                  }))
+                }
+              }
+
+              // Add expanded row
+              setExpandedRows(prev => {
+                const next = new Set(prev)
+                next.add(rowId)
+                return next
+              })
+              api.applyTransaction({
+                add: [
+                  {
+                    id: `${rowId}-expanded`,
+                    fullWidth: true,
+                    parentId: rowId
+                  }
+                ],
+                addIndex: node.rowIndex + 1
+              })
+            }
           }}
         >
-          +
+          {expandedRows.has(data.id || node.rowIndex) ? '−' : '+'}
         </button>
       </div>
     )
+  }
+
+  const fullWidthCellRenderer = params => {
+    const parentId = params.data.parentId
+    const files = zipContents[parentId] || ['Loading...']
+
+    return (
+      <div className="p-4 bg-gray-50">
+        <div className="max-h-48 overflow-y-auto">
+          {files.map((file, index) => (
+            <div key={index} className="py-1 hover:bg-gray-100">
+              {file}
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  const handleFileClick = file => {
+    console.log(`File clicked: ${file}`)
+    // Handle file click event here
   }
 
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
@@ -111,7 +178,8 @@ export default function Grid() {
       .map(field => ({
         field,
         editable: isEditable,
-        valueGetter: field === 'path' ? removeGamesDirPrefix : undefined
+        valueGetter: field === 'path' ? removeGamesDirPrefix : undefined,
+        fullWidthRow: false
       }))
   ]
 
@@ -124,6 +192,8 @@ export default function Grid() {
     singleClickEdit: true,
     enableGroupEdit: true,
     suppressClickEdit: true,
+    isFullWidthRow: params => params.rowNode.data?.fullWidth === true,
+    fullWidthCellRenderer,
     onCellClicked: handleSingleClick,
     onCellDoubleClicked: handleDoubleClick,
     onCellKeyDown: function (e: CellKeyDownEvent) {
@@ -161,6 +231,7 @@ export default function Grid() {
       }
     }
   }
+
   return (
     <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
       {[
