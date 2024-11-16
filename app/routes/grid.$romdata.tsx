@@ -4,7 +4,7 @@ import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupDef } from 'ag-grid-community'
 import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import type { LoaderFunctionArgs } from '@remix-run/node'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Split from 'react-split'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
@@ -16,13 +16,11 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
   const romdata = romdataBlob.romdata
-  const defaultIconBase64 = await loadIconBase64('rom.ico') //default icon
+  const defaultIconBase64 = await loadIconBase64('rom.ico')
 
-  // Preload icons and tooltips
   const romdataWithIcons = await Promise.all(
     romdata.map(async item => {
       const iconBase64 = await loadMameIconBase64(item.mameName, item.parentName)
-      // const tooltip = `${item.mameName || ''} ${item.parentName || ''}`.trim()
       return { ...item, iconBase64: iconBase64 || defaultIconBase64 }
     })
   )
@@ -31,17 +29,21 @@ export async function loader({ params }: LoaderFunctionArgs) {
 }
 
 export default function Grid() {
-  let { romdata } = useLoaderData<typeof loader>()
+  const { romdata } = useLoaderData<typeof loader>()
   const [expandedRows, setExpandedRows] = useState(new Set())
   const [zipContents, setZipContents] = useState<{ [key: string]: string[] }>({})
   const params = useParams()
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState(null)
-  console.log('zipContents in the root of Grid')
-  console.log(zipContents)
-  console.log('expandedRows in the root of Grid')
-  console.log(expandedRows)
+  const [contextMenu, setContextMenu] = useState<{ x: number; y: number } | null>(null) // New state
+  const closeContextMenu = () => setContextMenu(null)
+  useEffect(() => {
+    const handleClickOutside = () => closeContextMenu()
+    document.addEventListener('click', handleClickOutside)
+    return () => document.removeEventListener('click', handleClickOutside)
+  }, [])
+
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
       console.log('single click')
@@ -55,6 +57,13 @@ export default function Grid() {
       runGameWithRomdataFromEvent(e)
     }
   )
+
+  const handleContextMenu = (e: React.MouseEvent, file: string) => {
+    e.preventDefault()
+    setContextMenu({ x: e.clientX, y: e.clientY })
+    console.log(`Right-clicked on: ${file}`)
+  }
+
   const runGameWithRomdataFromEvent = (e: CellClickedEvent) => {
     const {
       data: { path, defaultGoodMerge, emulatorName }
@@ -100,7 +109,7 @@ export default function Grid() {
             onClick={async () => {
               const rowId = data.id || node.rowIndex
               if (expandedRows.has(rowId)) {
-                const rowToRemove = api.getRowNode(expandedRowId) //.replace('-expanded', ''))
+                const rowToRemove = api.getRowNode(rowId) //.replace('-expanded', ''))
                 // Remove expanded row
                 setExpandedRows(prev => {
                   const next = new Set(prev)
@@ -179,7 +188,7 @@ export default function Grid() {
               key={index}
               className="py-1 hover:bg-gray-100"
               onClick={() => console.log('you clicked on ' + file)}
-              onContextMenu={() => console.log('you right-clicked on archived file' + file)}
+              onContextMenu={e => handleContextMenu(e, file)}
             >
               {file}
             </div>
@@ -255,23 +264,51 @@ export default function Grid() {
         })
       }
     },
-    onCellContextMenu(event) {
-      event.node.setSelected()
-      console.log('you right-clicked on row ' + event.data.name)
+    onCellContextMenu: e => {
+      e.event.preventDefault() // Prevent the default context menu
+      setContextMenu({ x: e.event.clientX, y: e.event.clientY }) // Set the position of the custom context menu
+      e.node.setSelected(true) // Optionally select the row
+      console.log('you right-clicked on row ' + e.data.name)
     }
   }
 
   return (
-    <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
-      {[
-        <div key="grid" className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
-          <AgGridReact rowData={romdata} columnDefs={columnDefs} gridOptions={gridOptions} />
-        </div>,
-        <div key="mediaPanel" className="h-full overflow-auto">
-          {<Outlet />}
+    <>
+      <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+        {[
+          <div key="grid" className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
+            <AgGridReact
+              rowData={romdata}
+              columnDefs={columnDefs}
+              gridOptions={gridOptions}
+              onGridClick={closeContextMenu} // Close menu on grid click
+            />
+          </div>,
+          <Outlet key="outlet" />
+        ]}
+      </Split>
+      {contextMenu && (
+        <div
+          className="absolute bg-white shadow-md border rounded"
+          style={{
+            top: contextMenu.y,
+            left: contextMenu.x,
+            zIndex: 1000,
+            minWidth: '150px'
+          }}
+          onClick={closeContextMenu} // Close menu on any click inside
+        >
+          <ul>
+            <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Action 1')}>
+              Action 1
+            </li>
+            <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Action 2')}>
+              Action 2
+            </li>
+          </ul>
         </div>
-      ]}
-    </Split>
+      )}
+    </>
   )
 }
 
