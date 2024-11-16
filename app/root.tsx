@@ -100,7 +100,7 @@ export function TreeView({ folderData }) {
 }
 
 export default function App() {
-  console.log('in the root component')
+  // console.log('in the root component')
   const data = useLoaderData<typeof loader>()
   const folderData = data.folderData
   const matches = useMatches()

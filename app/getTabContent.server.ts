@@ -374,17 +374,13 @@ function getSearchTerms(
   romname: string
 ): string[] {
   let searchTerms = [mameNames.mameName, mameUseParentForSrch && mameNames.parentName].filter(Boolean)
-  // a choice either
-  //* if either of these are present, we won't search for the romname, if neither are present, we will, so replace the array with just romname
-  // if (searchTerms.length === 0) searchTerms = [romname]
-  // or just add romnames to the end
   searchTerms.push(romname)
-  // and seeing as we've decided that, now consider we also want to look for the lack of brackets in a gamename
-  // as such we have to make sure we only attempt this one if no with-brackets files are found, which is fine and good
-  //how does the search-type impact on this though? This feels more like a search-type than a default, but we NEED it in datHistory to fix some gamename errors found (atari 7800?)
-  const searchTermWithoutBrackets = romname.replace(/\s*\([^)]*\)/g, '').trim()
-  searchTerms.push(searchTermWithoutBrackets)
-  // TODO: add this to mediaItem logic ****
+
+  if (romname) {
+    const searchTermWithoutBrackets = romname.replace(/\s*\([^)]*\)/g, '').trim()
+    searchTerms.push(searchTermWithoutBrackets)
+  }
+  
   return searchTerms
 }
 

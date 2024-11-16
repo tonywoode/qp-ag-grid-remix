@@ -38,6 +38,10 @@ export default function Grid() {
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState(null)
+  console.log('zipContents in the root of Grid')
+  console.log(zipContents)
+  console.log('expandedRows in the root of Grid')
+  console.log(expandedRows)
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
       console.log('single click')
@@ -93,25 +97,17 @@ export default function Grid() {
           className="text-blue-500 hover:text-blue-700"
           onClick={async () => {
             const rowId = data.id || node.rowIndex
-            const expandedRowId = `${rowId}-expanded`
-            console.log('expandedRowId', expandedRowId)
-            console.log('expandedRows', expandedRows)
-            console.log('expandedRows.has(rowId)', expandedRows.has(rowId))
             if (expandedRows.has(rowId)) {
-              console.log('api is', api)
-              console.log('api.getRowNode is ', api.getRowNode)
-              const rowToRemove = api.getRowNode(expandedRowId.replace('-expanded', ''))
-              console.log('rowToRemove', rowToRemove)
-              if (rowToRemove) {
-                setExpandedRows(prev => {
-                  const next = new Set(prev)
-                  next.delete(rowId)
-                  return next
-                })
-                api.applyTransaction({
-                  remove: [rowToRemove.data]
-                })
-              }
+              const rowToRemove = api.getRowNode(expandedRowId) //.replace('-expanded', ''))
+              // Remove expanded row
+              setExpandedRows(prev => {
+                const next = new Set(prev)
+                next.delete(rowId)
+                return next
+              })
+              api.applyTransaction({
+                remove: [rowToRemove]
+              })
             } else {
               // Fetch zip contents if not already fetched
               if (!zipContents[rowId]) {
@@ -131,19 +127,18 @@ export default function Grid() {
                 }
               }
 
+              // Add expanded row
               setExpandedRows(prev => {
                 const next = new Set(prev)
                 next.add(rowId)
                 return next
               })
-
               api.applyTransaction({
                 add: [
                   {
-                    id: expandedRowId,
+                    id: `${rowId}-expanded`,
                     fullWidth: true,
-                    parentId: rowId,
-                    ...data
+                    parentId: rowId
                   }
                 ],
                 addIndex: node.rowIndex + 1
@@ -158,6 +153,10 @@ export default function Grid() {
   }
 
   const fullWidthCellRenderer = params => {
+    console.log('zip contents in the full width cell renderer')
+    console.log(zipContents)
+    console.log('expanded rows in the full width cell renderer')
+    console.log(expandedRows)
     const parentId = params.data.parentId
     const files = zipContents[parentId] || ['Loading...']
 
@@ -174,11 +173,6 @@ export default function Grid() {
     )
   }
 
-  const handleFileClick = file => {
-    console.log(`File clicked: ${file}`)
-    // Handle file click event here
-  }
-
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs: (ColDef | ColGroupDef)[] = [
     zipColumn,
@@ -188,8 +182,8 @@ export default function Grid() {
       .map(field => ({
         field,
         editable: isEditable,
-        valueGetter: field === 'path' ? removeGamesDirPrefix : undefined,
-        fullWidthRow: false
+        valueGetter: field === 'path' ? removeGamesDirPrefix : undefined
+        // fullWidth: false
       }))
   ]
 
