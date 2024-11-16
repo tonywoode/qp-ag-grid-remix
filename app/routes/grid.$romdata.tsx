@@ -135,13 +135,20 @@ export default function Grid() {
                   next.add(rowId)
                   return next
                 })
+                console.log('font size')
+                const element = document.documentElement
+                const style = window.getComputedStyle(element)
+                const fontSize = style.getPropertyValue('--ag-font-size')
+                console.log(fontSize)
+                console.log(node.rowHeight)
                 api.applyTransaction({
                   add: [
                     {
                       id: `${rowId}-expanded`,
                       fullWidth: true,
                       parentId: rowId,
-                      files
+                      files,
+                      rowHeight: (node.rowHeight / 2) * (files.length + 1)
                     }
                   ],
                   addIndex: node.rowIndex + 1
@@ -177,6 +184,10 @@ export default function Grid() {
     )
   }
 
+  function getRowHeight(params: RowHeightParams): number | undefined | null {
+    return params.data.rowHeight
+  }
+
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs: (ColDef | ColGroupDef)[] = [
     zipColumn,
@@ -200,6 +211,7 @@ export default function Grid() {
     singleClickEdit: true,
     enableGroupEdit: true,
     suppressClickEdit: true,
+    getRowHeight,
     isFullWidthRow: params => params.rowNode.data?.fullWidth === true,
     fullWidthCellRenderer,
     onCellClicked: handleSingleClick,
