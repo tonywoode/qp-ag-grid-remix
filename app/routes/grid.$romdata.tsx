@@ -175,7 +175,12 @@ export default function Grid() {
       <div className="p-4 bg-gray-50">
         <div className="max-h-48 overflow-y-auto">
           {files.map((file, index) => (
-            <div key={index} className="py-1 hover:bg-gray-100" onClick={() => console.log('you clicked on ' + file)}>
+            <div
+              key={index}
+              className="py-1 hover:bg-gray-100"
+              onClick={() => console.log('you clicked on ' + file)}
+              onContextMenu={() => console.log('you right-clicked on ' + file)}
+            >
               {file}
             </div>
           ))}
