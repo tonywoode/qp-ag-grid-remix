@@ -179,7 +179,7 @@ export default function Grid() {
               key={index}
               className="py-1 hover:bg-gray-100"
               onClick={() => console.log('you clicked on ' + file)}
-              onContextMenu={() => console.log('you right-clicked on ' + file)}
+              onContextMenu={() => console.log('you right-clicked on archived file' + file)}
             >
               {file}
             </div>
@@ -254,6 +254,10 @@ export default function Grid() {
           }
         })
       }
+    },
+    onCellContextMenu(event) {
+      event.node.setSelected()
+      console.log('you right-clicked on row ' + event.data.name)
     }
   }
 
