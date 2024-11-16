@@ -265,10 +265,13 @@ export default function Grid() {
       }
     },
     onCellContextMenu: e => {
-      e.event.preventDefault() // Prevent the default context menu
-      setContextMenu({ x: e.event.clientX, y: e.event.clientY }) // Set the position of the custom context menu
+      e.event.preventDefault() // Prevent default context menu
+      setContextMenu({
+        x: e.event.clientX,
+        y: e.event.clientY,
+        fullWidth: e.node.data.fullWidth // Store the property directly
+      })
       e.node.setSelected(true) // Optionally select the row
-      console.log('you right-clicked on row ' + e.data.name)
     }
   }
 
@@ -296,15 +299,23 @@ export default function Grid() {
             zIndex: 1000,
             minWidth: '150px'
           }}
-          onClick={closeContextMenu} // Close menu on any click inside
+          onClick={() => setContextMenu(null)} // Close menu on click
         >
           <ul>
-            <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Action 1')}>
-              Action 1
-            </li>
-            <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Action 2')}>
-              Action 2
-            </li>
+            {!('fullWidth' in contextMenu) ? (
+              <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Set as Default')}>
+                Set as Default
+              </li>
+            ) : (
+              <>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Action 1')}>
+                  Action 1
+                </li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Action 2')}>
+                  Action 2
+                </li>
+              </>
+            )}
           </ul>
         </div>
       )}
