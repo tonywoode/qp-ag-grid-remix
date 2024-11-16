@@ -91,65 +91,69 @@ export default function Grid() {
     minWidth: 50,
     filter: false,
     suppressSizeToFit: true,
-    cellRenderer: ({ data, api, node }) => (
-      <div className="w-full h-full flex items-center justify-center">
-        <button
-          className="text-blue-500 hover:text-blue-700"
-          onClick={async () => {
-            const rowId = data.id || node.rowIndex
-            if (expandedRows.has(rowId)) {
-              const rowToRemove = api.getRowNode(expandedRowId) //.replace('-expanded', ''))
-              // Remove expanded row
-              setExpandedRows(prev => {
-                const next = new Set(prev)
-                next.delete(rowId)
-                return next
-              })
-              api.applyTransaction({
-                remove: [rowToRemove]
-              })
-            } else {
-              // Fetch zip contents if not already fetched
-              if (!zipContents[rowId]) {
-                try {
-                  const response = await fetch(`/listZip?path=${encodeURIComponent(data.path)}`)
-                  const files = await response.json()
-                  setZipContents(prev => ({
-                    ...prev,
-                    [rowId]: files
-                  }))
-                } catch (error) {
-                  console.error('Failed to fetch zip contents:', error)
-                  setZipContents(prev => ({
-                    ...prev,
-                    [rowId]: ['Error loading zip contents']
-                  }))
-                }
-              }
-
-              // Add expanded row
-              setExpandedRows(prev => {
-                const next = new Set(prev)
-                next.add(rowId)
-                return next
-              })
-              api.applyTransaction({
-                add: [
-                  {
-                    id: `${rowId}-expanded`,
-                    fullWidth: true,
-                    parentId: rowId
+    cellRenderer: ({ data, api, node }) => {
+      let files = {}
+      return (
+        <div className="w-full h-full flex items-center justify-center">
+          <button
+            className="text-blue-500 hover:text-blue-700"
+            onClick={async () => {
+              const rowId = data.id || node.rowIndex
+              if (expandedRows.has(rowId)) {
+                const rowToRemove = api.getRowNode(expandedRowId) //.replace('-expanded', ''))
+                // Remove expanded row
+                setExpandedRows(prev => {
+                  const next = new Set(prev)
+                  next.delete(rowId)
+                  return next
+                })
+                api.applyTransaction({
+                  remove: [rowToRemove]
+                })
+              } else {
+                // Fetch zip contents if not already fetched
+                if (!zipContents[rowId]) {
+                  try {
+                    const response = await fetch(`/listZip?path=${encodeURIComponent(data.path)}`)
+                    files = await response.json()
+                    setZipContents(prev => ({
+                      ...prev,
+                      [rowId]: files
+                    }))
+                  } catch (error) {
+                    console.error('Failed to fetch zip contents:', error)
+                    setZipContents(prev => ({
+                      ...prev,
+                      [rowId]: ['Error loading zip contents']
+                    }))
                   }
-                ],
-                addIndex: node.rowIndex + 1
-              })
-            }
-          }}
-        >
-          {expandedRows.has(data.id || node.rowIndex) ? '−' : '+'}
-        </button>
-      </div>
-    )
+                }
+
+                // Add expanded row
+                setExpandedRows(prev => {
+                  const next = new Set(prev)
+                  next.add(rowId)
+                  return next
+                })
+                api.applyTransaction({
+                  add: [
+                    {
+                      id: `${rowId}-expanded`,
+                      fullWidth: true,
+                      parentId: rowId,
+                      files
+                    }
+                  ],
+                  addIndex: node.rowIndex + 1
+                })
+              }
+            }}
+          >
+            {expandedRows.has(data.id || node.rowIndex) ? '−' : '+'}
+          </button>
+        </div>
+      )
+    }
   }
 
   const fullWidthCellRenderer = params => {
@@ -158,8 +162,8 @@ export default function Grid() {
     console.log('expanded rows in the full width cell renderer')
     console.log(expandedRows)
     const parentId = params.data.parentId
-    const files = zipContents[parentId] || ['Loading...']
-
+    // const files = zipContents[parentId] || ['Loading...']
+    const files = params.data.files
     return (
       <div className="p-4 bg-gray-50">
         <div className="max-h-48 overflow-y-auto">
