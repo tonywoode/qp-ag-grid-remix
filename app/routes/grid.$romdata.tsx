@@ -297,7 +297,9 @@ export default function Grid() {
               // onGridClick={closeContextMenu} // if only we could close menu on grid click
             />
           </div>,
-          <Outlet key="outlet" />
+          <div key="mediaPanel" className="h-full overflow-auto">
+            <Outlet key="outlet" />
+          </div>
         ]}
       </Split>
       {contextMenu && (
