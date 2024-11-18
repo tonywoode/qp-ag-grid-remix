@@ -38,6 +38,7 @@ export default function Grid() {
   const [clickedCell, setClickedCell] = useState(null)
   const [contextMenu, setContextMenu] = useState<{ x: number; y: number } | null>(null) // New state
   const closeContextMenu = () => setContextMenu(null)
+  //this because onGridClick doesn't exist
   useEffect(() => {
     const handleClickOutside = () => closeContextMenu()
     document.addEventListener('click', handleClickOutside)
@@ -58,10 +59,10 @@ export default function Grid() {
     }
   )
 
-  const handleContextMenu = (e: React.MouseEvent, file: string) => {
+  const handleZipContentsContextMenu = (e: React.MouseEvent, file: string) => {
     e.preventDefault()
-    setContextMenu({ x: e.clientX, y: e.clientY })
-    console.log(`Right-clicked on: ${file}`)
+    setContextMenu({ x: e.clientX, y: e.clientY, fileInZip: file })
+    console.log(`right-clicked on archive file: ${file}`)
   }
 
   const runGameWithRomdataFromEvent = (e: CellClickedEvent) => {
@@ -188,7 +189,7 @@ export default function Grid() {
               key={index}
               className="py-1 hover:bg-gray-100"
               onClick={() => console.log('you clicked on ' + file)}
-              onContextMenu={e => handleContextMenu(e, file)}
+              onContextMenu={e => handleZipContentsContextMenu(e, file)}
             >
               {file}
             </div>
@@ -264,12 +265,16 @@ export default function Grid() {
         })
       }
     },
-    onCellContextMenu: e => {
-      e.event.preventDefault() // Prevent default context menu
+    //this event carries the ROW context menu firing, compare with onContextMenu in the full-width cell renderer
+    onCellContextMenu: (e: CellClickedEvent) => {
+      e.event?.preventDefault() // Prevent default context menu
+      console.log('data')
+      console.log(e.node.data)
+      console.log('right-clicked on rom: ' + e.data.name)
       setContextMenu({
-        x: e.event.clientX,
-        y: e.event.clientY,
-        fullWidth: e.node.data.fullWidth // Store the property directly
+        x: e.event?.clientX,
+        y: e.event?.clientY
+        // fullWidth: e.node.data.fullWidth // Store the property directly
       })
       e.node.setSelected(true) // Optionally select the row
     }
@@ -302,7 +307,7 @@ export default function Grid() {
           onClick={() => setContextMenu(null)} // Close menu on click
         >
           <ul>
-            {!('fullWidth' in contextMenu) ? (
+            {'fileInZip' in contextMenu ? (
               <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Set as Default')}>
                 Set as Default
               </li>
