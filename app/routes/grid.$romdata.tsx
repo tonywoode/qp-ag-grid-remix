@@ -203,6 +203,17 @@ export default function Grid() {
     return params.data.rowHeight
   }
 
+  //multiple select is not desired until its desired, however how do we determine when a multiple selection is intentional
+  function preventMultipleSelect(api) {
+    const focusedNode = api.getDisplayedRowAtIndex(api.getFocusedCell().rowIndex)
+    api.forEachNode(node => {
+      if (node !== focusedNode) {
+        node.setSelected(false)
+      }
+    })
+    focusedNode.setSelected(true)
+  }
+
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs: (ColDef | ColGroupDef)[] = [
     zipColumn,
@@ -235,13 +246,7 @@ export default function Grid() {
       console.log('event.key is ' + e.event.key)
       //don't multiple select when arrow keys used for navigation
       if (e.event.key === 'ArrowUp' || e.event.key === 'ArrowDown') {
-        const focusedNode = e.api.getDisplayedRowAtIndex(e.api.getFocusedCell().rowIndex)
-        e.api.forEachNode(node => {
-          if (node !== focusedNode) {
-            node.setSelected(false)
-          }
-        })
-        focusedNode.setSelected(true)
+        preventMultipleSelect(e.api)
       } else if (e.event.key === 'Enter') {
         runGameWithRomdataFromEvent(e)
         //prevent the 'i' key from entering field edit whilst trying to type a filter (no idea why it does this)
@@ -274,9 +279,9 @@ export default function Grid() {
       setContextMenu({
         x: e.event?.clientX,
         y: e.event?.clientY
-        // fullWidth: e.node.data.fullWidth // Store the property directly
       })
-      e.node.setSelected(true) // Optionally select the row
+      //select the cell's row, and deselect other rows (later, however, how do we determine an intentional multiple selection is intentional, and what different rules apply to roms and files in zipped roms)
+      preventMultipleSelect(e.api) // e.node.setSelected(true)
     }
   }
 
