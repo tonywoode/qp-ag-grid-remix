@@ -38,7 +38,7 @@ export default function Grid() {
   const [clickedCell, setClickedCell] = useState(null)
   const [contextMenu, setContextMenu] = useState<{ x: number; y: number } | null>(null) // New state
   const closeContextMenu = () => setContextMenu(null)
-  //this because onGridClick doesn't exist
+  //this because onGridClick doesn't exist (althought we also want the menu to disappear on clicking anywhere else in the app)
   useEffect(() => {
     const handleClickOutside = () => closeContextMenu()
     document.addEventListener('click', handleClickOutside)
@@ -289,7 +289,7 @@ export default function Grid() {
               rowData={romdata}
               columnDefs={columnDefs}
               gridOptions={gridOptions}
-              onGridClick={closeContextMenu} // Close menu on grid click
+              // onGridClick={closeContextMenu} // if only we could close menu on grid click
             />
           </div>,
           <Outlet key="outlet" />
@@ -313,8 +313,14 @@ export default function Grid() {
               </li>
             ) : (
               <>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Action 1')}>
-                  Action 1
+                <li
+                  className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                  onClick={() => {
+                    console.log('Run Rom selected for ' + romdata[clickedCell.rowIndex].name)
+                    runGameWithRomdataFromEvent({ data: romdata[clickedCell.rowIndex] })
+                  }}
+                >
+                  Run Rom
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Action 2')}>
                   Action 2
