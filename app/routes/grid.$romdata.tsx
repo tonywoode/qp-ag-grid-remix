@@ -279,6 +279,7 @@ export default function Grid() {
       setContextMenu({
         x: e.event?.clientX,
         y: e.event?.clientY
+        //TODO: really should set a corresponding type here to distinguish between right-click zip menu
       })
       //select the cell's row, and deselect other rows (later, however, how do we determine an intentional multiple selection is intentional, and what different rules apply to roms and files in zipped roms)
       preventMultipleSelect(e.api) // e.node.setSelected(true)
@@ -315,7 +316,18 @@ export default function Grid() {
         >
           <ul>
             {'fileInZip' in contextMenu ? (
-              <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Set as Default')}>
+              <li
+                className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                onClick={() => {
+                  console.log('Set as Default')
+                  //get the parent row we came from
+                  const rowIdx = clickedCell.rowIndex
+                  console.log('row index', rowIdx)
+                  const thisRomdata = romdata[clickedCell.rowIndex]
+                  const currentDefaultGoodMerge = thisRomdata?.defaultGoodMerge
+                  console.log('current goodmerge:', currentDefaultGoodMerge)
+                }}
+              >
                 Set as Default
               </li>
             ) : (
