@@ -19,9 +19,10 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const defaultIconBase64 = await loadIconBase64('rom.ico')
 
   const romdataWithIcons = await Promise.all(
-    romdata.map(async item => {
+    //we save the index to give each item a unique id, to try and keep parents and children together
+    romdata.map(async (item, index) => {
       const iconBase64 = await loadMameIconBase64(item.mameName, item.parentName)
-      return { ...item, iconBase64: iconBase64 || defaultIconBase64 }
+      return { ...item, id: index, iconBase64: iconBase64 || defaultIconBase64 }
     })
   )
 
@@ -30,8 +31,6 @@ export async function loader({ params }: LoaderFunctionArgs) {
 
 export default function Grid() {
   const { romdata } = useLoaderData<typeof loader>()
-  const [expandedRows, setExpandedRows] = useState(new Set())
-  const [zipContents, setZipContents] = useState<{ [key: string]: string[] }>({})
   const params = useParams()
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
@@ -93,8 +92,50 @@ export default function Grid() {
       </div>
     )
   }
-
   //TODO: what if either an individual entry, or the whole list, don't like to a compressed file?
+  // Leave commented code as is, only modify toggleExpandedRow:
+  const toggleExpandedRow = async (rowId: string, api: any, node: any) => {
+    const expandedNode = api.getRowNode(`${rowId}-expanded`)
+    if (expandedNode) {
+      // Collapse row
+      api.applyTransaction({
+        remove: [expandedNode.data]
+      })
+    } else {
+      // Expand row
+      try {
+        // Always fetch fresh content when expanding
+        const response = await fetch(`/listZip?path=${encodeURIComponent(node.data.path)}`)
+        const files = await response.json()
+        api.applyTransaction({
+          add: [
+            {
+              id: `${rowId}-expanded`,
+              fullWidth: true,
+              parentId: rowId,
+              files: files,
+              rowHeight: (node.rowHeight / 2) * (files.length + 1)
+            }
+          ],
+          addIndex: node.rowIndex + 1
+        })
+      } catch {
+        // Handle error case
+        api.applyTransaction({
+          add: [
+            {
+              id: `${rowId}-expanded`,
+              fullWidth: true,
+              parentId: rowId,
+              files: ['Error loading contents']
+            }
+          ],
+          addIndex: node.rowIndex + 1
+        })
+      }
+    }
+  }
+
   const zipColumn = {
     headerName: 'Zip',
     field: 'zip',
@@ -102,71 +143,14 @@ export default function Grid() {
     filter: false,
     suppressSizeToFit: true,
     cellRenderer: ({ data, api, node }) => {
-      let files = {}
+      const isExpanded = Boolean(api.getRowNode(`${data.id}-expanded`))
       return (
         <div className="w-full h-full flex items-center justify-center">
           <button
             className="text-blue-500 hover:text-blue-700"
-            onClick={async () => {
-              const rowId = data.id || node.rowIndex
-              if (expandedRows.has(rowId)) {
-                const rowToRemove = api.getRowNode(rowId) //.replace('-expanded', ''))
-                // Remove expanded row
-                setExpandedRows(prev => {
-                  const next = new Set(prev)
-                  next.delete(rowId)
-                  return next
-                })
-                api.applyTransaction({
-                  remove: [rowToRemove]
-                })
-              } else {
-                // Fetch zip contents if not already fetched
-                if (!zipContents[rowId]) {
-                  try {
-                    const response = await fetch(`/listZip?path=${encodeURIComponent(data.path)}`)
-                    files = await response.json()
-                    setZipContents(prev => ({
-                      ...prev,
-                      [rowId]: files
-                    }))
-                  } catch (error) {
-                    console.error('Failed to fetch zip contents:', error)
-                    setZipContents(prev => ({
-                      ...prev,
-                      [rowId]: ['Error loading zip contents']
-                    }))
-                  }
-                }
-
-                // Add expanded row
-                setExpandedRows(prev => {
-                  const next = new Set(prev)
-                  next.add(rowId)
-                  return next
-                })
-                console.log('font size')
-                const element = document.documentElement
-                const style = window.getComputedStyle(element)
-                const fontSize = style.getPropertyValue('--ag-font-size')
-                console.log(fontSize)
-                console.log(node.rowHeight)
-                api.applyTransaction({
-                  add: [
-                    {
-                      id: `${rowId}-expanded`,
-                      fullWidth: true,
-                      parentId: rowId,
-                      files,
-                      rowHeight: (node.rowHeight / 2) * (files.length + 1)
-                    }
-                  ],
-                  addIndex: node.rowIndex + 1
-                })
-              }
-            }}
+            onClick={async () => toggleExpandedRow(data.id, api, node)}
           >
-            {expandedRows.has(data.id || node.rowIndex) ? '−' : '+'}
+            {isExpanded ? '−' : '+'}
           </button>
         </div>
       )
@@ -174,12 +158,6 @@ export default function Grid() {
   }
 
   const fullWidthCellRenderer = params => {
-    console.log('zip contents in the full width cell renderer')
-    console.log(zipContents)
-    console.log('expanded rows in the full width cell renderer')
-    console.log(expandedRows)
-    const parentId = params.data.parentId
-    // const files = zipContents[parentId] || ['Loading...']
     const files = params.data.files
     return (
       <div className="p-4 bg-gray-50">
@@ -207,9 +185,7 @@ export default function Grid() {
   function preventMultipleSelect(api) {
     const focusedNode = api.getDisplayedRowAtIndex(api.getFocusedCell().rowIndex)
     api.forEachNode(node => {
-      if (node !== focusedNode) {
-        node.setSelected(false)
-      }
+      if (node !== focusedNode) node.setSelected(false)
     })
     focusedNode.setSelected(true)
   }
@@ -283,7 +259,11 @@ export default function Grid() {
       })
       //select the cell's row, and deselect other rows (later, however, how do we determine an intentional multiple selection is intentional, and what different rules apply to roms and files in zipped roms)
       preventMultipleSelect(e.api) // e.node.setSelected(true)
-    }
+    },
+    getRowId: params =>
+      params.data.fullWidth ? params.data.parentId + '-expanded' : params.data.id || params.data.name
+    // onSortChanged: updateRowData,
+    // onFilterChanged: updateRowData
   }
 
   return (
