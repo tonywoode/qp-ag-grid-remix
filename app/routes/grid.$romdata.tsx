@@ -31,6 +31,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
 
 export default function Grid() {
   const { romdata } = useLoaderData<typeof loader>()
+  const [rowdata, setRowdata] = useState(romdata)
   const params = useParams()
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
@@ -43,6 +44,10 @@ export default function Grid() {
     document.addEventListener('click', handleClickOutside)
     return () => document.removeEventListener('click', handleClickOutside)
   }, [])
+
+  useEffect(() => {
+    setRowdata(romdata)
+  }, [romdata])
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
@@ -93,46 +98,65 @@ export default function Grid() {
     )
   }
   //TODO: what if either an individual entry, or the whole list, don't like to a compressed file?
-  // Leave commented code as is, only modify toggleExpandedRow:
   const toggleExpandedRow = async (rowId: string, api: any, node: any) => {
+    console.log('so im a gonna put this one at index:' + (node.rowIndex + 1))
     const expandedNode = api.getRowNode(`${rowId}-expanded`)
+    console.log('expanded', expandedNode?.rowIndex)
     if (expandedNode) {
       // Collapse row
-      api.applyTransaction({
-        remove: [expandedNode.data]
-      })
+      const expandedIndex = expandedNode.rowIndex
+      rowdata.splice(expandedIndex, 1)
+      setRowdata([...rowdata])
+      // api.applyTransaction({
+      //   remove: [expandedNode.data]
+      // })
     } else {
       // Expand row
-      try {
-        // Always fetch fresh content when expanding
-        const response = await fetch(`/listZip?path=${encodeURIComponent(node.data.path)}`)
-        const files = await response.json()
-        api.applyTransaction({
-          add: [
-            {
-              id: `${rowId}-expanded`,
-              fullWidth: true,
-              parentId: rowId,
-              files: files,
-              rowHeight: (node.rowHeight / 2) * (files.length + 1)
-            }
-          ],
-          addIndex: node.rowIndex + 1
-        })
-      } catch {
-        // Handle error case
-        api.applyTransaction({
-          add: [
-            {
-              id: `${rowId}-expanded`,
-              fullWidth: true,
-              parentId: rowId,
-              files: ['Error loading contents']
-            }
-          ],
-          addIndex: node.rowIndex + 1
-        })
+      // try {
+      // Always fetch fresh content when expanding
+      const response = await fetch(`/listZip?path=${encodeURIComponent(node.data.path)}`)
+      const files = await response.json()
+      const expandedRowNode = {
+        id: `${rowId}-expanded`,
+        fullWidth: true,
+        parent: node,
+        parentId: rowId,
+        parentData: node.data, //fraid so, how else can we satisfy comparison
+        files: files,
+        rowHeight: (node.rowHeight / 2) * (files.length + 1)
       }
+
+      const desiredRowIndex = node.rowIndex + 1
+      rowdata.splice(desiredRowIndex, 0, expandedRowNode)
+      setRowdata([...rowdata])
+      //   api.applyTransaction({
+      //     add: [
+      //       {
+      //         id: `${rowId}-expanded`,
+      //         fullWidth: true,
+      //         parentId: rowId,
+      //         parentData: node.data, //fraid so, how else can we satisfy comparison
+      //         files: files,
+      //         rowHeight: (node.rowHeight / 2) * (files.length + 1)
+      //       }
+      //     ],
+      //     addIndex: node.rowIndex + 1
+      //   })
+      // } catch {
+      //   // Handle error case
+      //   api.applyTransaction({
+      //     add: [
+      //       {
+      //         id: `${rowId}-expanded`,
+      //         fullWidth: true,
+      //         parentId: rowId,
+      //         parentData: node.data,
+      //         files: ['Error loading contents']
+      //       }
+      //     ],
+      //     addIndex: node.rowIndex + 1
+      // })
+      // }
     }
   }
 
@@ -190,6 +214,29 @@ export default function Grid() {
     focusedNode.setSelected(true)
   }
 
+  //more ag-grid community workarounds: expanded rows are going to lose their order if we sort
+  const createComparator = (field: string) => {
+    return (valueA: any, valueB: any, nodeA: any, nodeB: any, isDescending: boolean) => {
+      // If one is a full-width row, compare based on parent
+      if (nodeA.data?.fullWidth || nodeB.data?.fullWidth) {
+        const parentAId = nodeA.data?.parentId
+        const parentBId = nodeB.data?.parentId
+        // If comparing an expanded row with its parent, keep them together
+        if (parentAId === nodeB.data?.id) return 1
+        if (parentBId === nodeA.data?.id) return -1
+        // Compare using parent values stored in the expanded row data
+        if (nodeA.data?.fullWidth) valueA = nodeA.data.parentData[field]
+        if (nodeB.data?.fullWidth) valueB = nodeB.data.parentData[field]
+      }
+      // Handle null/undefined
+      if (valueA === null || valueA === undefined) return 1
+      if (valueB === null || valueB === undefined) return -1
+
+      // Simple comparison - let AG Grid handle ascending/descending
+      return valueA > valueB ? 1 : valueA < valueB ? -1 : 0
+    }
+  }
+
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs: (ColDef | ColGroupDef)[] = [
     zipColumn,
@@ -199,7 +246,8 @@ export default function Grid() {
       .map(field => ({
         field,
         editable: isEditable,
-        valueGetter: field === 'path' ? removeGamesDirPrefix : undefined
+        valueGetter: field === 'path' ? removeGamesDirPrefix : undefined,
+        comparator: createComparator(field)
         // fullWidth: false
       }))
   ]
@@ -261,8 +309,9 @@ export default function Grid() {
       preventMultipleSelect(e.api) // e.node.setSelected(true)
     },
     getRowId: params =>
-      params.data.fullWidth ? params.data.parentId + '-expanded' : params.data.id || params.data.name
+      params.data.fullWidth ? params.data.parentId + '-expanded' : params.data.id || params.data.name,
     // onSortChanged: updateRowData,
+    animateRows: true //needs getRowId to be set see https://www.youtube.com/watch?v=_V5qFr62uhY
     // onFilterChanged: updateRowData
   }
 
@@ -272,7 +321,7 @@ export default function Grid() {
         {[
           <div key="grid" className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
             <AgGridReact
-              rowData={romdata}
+              rowData={rowdata}
               columnDefs={columnDefs}
               gridOptions={gridOptions}
               // onGridClick={closeContextMenu} // if only we could close menu on grid click
