@@ -22,7 +22,12 @@ export async function loader({ params }: LoaderFunctionArgs) {
     //we save the index to give each item a unique id, to try and keep parents and children together
     romdata.map(async (item, index) => {
       const iconBase64 = await loadMameIconBase64(item.mameName, item.parentName)
-      return { ...item, id: index, iconBase64: iconBase64 || defaultIconBase64 }
+      return {
+        ...item,
+        id: index,
+        originalIndex: index,
+        iconBase64: iconBase64 || defaultIconBase64
+      }
     })
   )
 
@@ -99,23 +104,34 @@ export default function Grid() {
   }
   //TODO: what if either an individual entry, or the whole list, don't like to a compressed file?
   const toggleExpandedRow = async (rowId: string, api: any, node: any) => {
-    console.log('so im a gonna put this one at index:' + (node.rowIndex + 1))
     const expandedNode = api.getRowNode(`${rowId}-expanded`)
-    console.log('expanded', expandedNode?.rowIndex)
+
     if (expandedNode) {
-      // Collapse row
-      const expandedIndex = expandedNode.rowIndex
-      rowdata.splice(expandedIndex, 1)
-      setRowdata([...rowdata])
-      // api.applyTransaction({
-      //   remove: [expandedNode.data]
-      // })
+      // Find current position of expanded row
+      let currentIndex = -1
+      api.forEachNode((node, index) => {
+        if (node.data?.id === `${rowId}-expanded`) {
+          currentIndex = index
+        }
+      })
+      //collapse row
+      if (currentIndex !== -1) {
+        rowdata.splice(currentIndex, 1)
+        setRowdata([...rowdata])
+      }
     } else {
-      // Expand row
-      // try {
-      // Always fetch fresh content when expanding
+      //todo see prev commits for a try catch need to handle lookup failure
       const response = await fetch(`/listZip?path=${encodeURIComponent(node.data.path)}`)
       const files = await response.json()
+
+      // Find current position of parent
+      let parentIndex = -1
+      api.forEachNode((n, index) => {
+        if (n.data?.id === rowId) {
+          parentIndex = index
+        }
+      })
+
       const expandedRowNode = {
         id: `${rowId}-expanded`,
         fullWidth: true,
@@ -126,37 +142,11 @@ export default function Grid() {
         rowHeight: (node.rowHeight / 2) * (files.length + 1)
       }
 
-      const desiredRowIndex = node.rowIndex + 1
-      rowdata.splice(desiredRowIndex, 0, expandedRowNode)
-      setRowdata([...rowdata])
-      //   api.applyTransaction({
-      //     add: [
-      //       {
-      //         id: `${rowId}-expanded`,
-      //         fullWidth: true,
-      //         parentId: rowId,
-      //         parentData: node.data, //fraid so, how else can we satisfy comparison
-      //         files: files,
-      //         rowHeight: (node.rowHeight / 2) * (files.length + 1)
-      //       }
-      //     ],
-      //     addIndex: node.rowIndex + 1
-      //   })
-      // } catch {
-      //   // Handle error case
-      //   api.applyTransaction({
-      //     add: [
-      //       {
-      //         id: `${rowId}-expanded`,
-      //         fullWidth: true,
-      //         parentId: rowId,
-      //         parentData: node.data,
-      //         files: ['Error loading contents']
-      //       }
-      //     ],
-      //     addIndex: node.rowIndex + 1
-      // })
-      // }
+      // Insert after current parent position
+      if (parentIndex !== -1) {
+        rowdata.splice(parentIndex + 1, 0, expandedRowNode)
+        setRowdata([...rowdata])
+      }
     }
   }
 
@@ -232,8 +222,13 @@ export default function Grid() {
       if (valueA === null || valueA === undefined) return 1
       if (valueB === null || valueB === undefined) return -1
 
-      // Simple comparison - let AG Grid handle ascending/descending
-      return valueA > valueB ? 1 : valueA < valueB ? -1 : 0
+      // Basic comparison with type handling, let AG Grdid handle ascending/descending
+      if (typeof valueA === 'string' && typeof valueB === 'string') {
+        return valueA.localeCompare(valueB)
+      }
+      if (valueA < valueB) return -1
+      if (valueA > valueB) return 1
+      return 0
     }
   }
 
