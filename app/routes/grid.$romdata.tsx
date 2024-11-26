@@ -41,7 +41,14 @@ export default function Grid() {
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState(null)
-  const [contextMenu, setContextMenu] = useState<{ x: number; y: number } | null>(null) // New state
+  const [contextMenu, setContextMenu] = useState<{
+    x: number
+    y: number
+    api?: any
+    fileInZip?: string
+    e: CellClickedEvent
+    parentNode: object
+  } | null>(null)
   const closeContextMenu = () => setContextMenu(null)
   //this because onGridClick doesn't exist (althought we also want the menu to disappear on clicking anywhere else in the app)
   useEffect(() => {
@@ -68,16 +75,17 @@ export default function Grid() {
     }
   )
 
-  const handleZipContentsContextMenu = (e: React.MouseEvent, file: string) => {
+  const handleZipContentsContextMenu = (e: React.MouseEvent, file: string, parentNode: object) => {
     e.preventDefault()
-    setContextMenu({ x: e.clientX, y: e.clientY, fileInZip: file })
+    setContextMenu({ x: e.clientX, y: e.clientY, fileInZip: file, parentNode })
     console.log(`right-clicked on archive file: ${file}`)
   }
 
   const runGameWithRomdataFromEvent = (e: CellClickedEvent) => {
+    console.log('Running game with data:', e.node.data) // Debug log
     const {
       data: { path, defaultGoodMerge, emulatorName }
-    } = e
+    } = e.node // Use node data directly instead of looking up by index
     fetcher.submit(
       { gamePath: path, defaultGoodMerge, emulatorName },
       { action: '/runGame', method: 'post', encType: 'application/json' }
@@ -172,6 +180,9 @@ export default function Grid() {
   }
 
   const fullWidthCellRenderer = params => {
+    //oooh its got a parent!!!!
+    console.log(params.data.parent)
+    const parentNode = params.data.parent
     const files = params.data.files
     return (
       <div className="p-4 bg-gray-50">
@@ -181,7 +192,7 @@ export default function Grid() {
               key={index}
               className="py-1 hover:bg-gray-100"
               onClick={() => console.log('you clicked on ' + file)}
-              onContextMenu={e => handleZipContentsContextMenu(e, file)}
+              onContextMenu={e => handleZipContentsContextMenu(e, file, parentNode)}
             >
               {file}
             </div>
@@ -297,8 +308,10 @@ export default function Grid() {
       console.log('right-clicked on rom: ' + e.data.name)
       setContextMenu({
         x: e.event?.clientX,
-        y: e.event?.clientY
+        y: e.event?.clientY,
         //TODO: really should set a corresponding type here to distinguish between right-click zip menu
+        api: e.api,
+        e
       })
       //select the cell's row, and deselect other rows (later, however, how do we determine an intentional multiple selection is intentional, and what different rules apply to roms and files in zipped roms)
       preventMultipleSelect(e.api) // e.node.setSelected(true)
@@ -344,12 +357,14 @@ export default function Grid() {
                 className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                 onClick={() => {
                   console.log('Set as Default')
-                  //get the parent row we came from
-                  const rowIdx = clickedCell.rowIndex
-                  console.log('row index', rowIdx)
-                  const thisRomdata = romdata[clickedCell.rowIndex]
-                  const currentDefaultGoodMerge = thisRomdata?.defaultGoodMerge
-                  console.log('current goodmerge:', currentDefaultGoodMerge)
+                  console.log(contextMenu)
+                  console.log(clickedCell)
+                  //get the parent row we came from, we may be in descending order or something so we need the grid to tell us the unsorted row
+                  // const selectedNode = contextMenu.api.getRowNode(clickedCell.id)
+                  // if (selectedNode) {
+                  const currentDefaultGoodMerge = contextMenu.parentNode.data?.defaultGoodMerge
+                  console.log('current goodmerge:', currentDefaultGoodMerge || 'none')
+                  // }
                 }}
               >
                 Set as Default
@@ -359,8 +374,26 @@ export default function Grid() {
                 <li
                   className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                   onClick={() => {
-                    console.log('Run Rom selected for ' + romdata[clickedCell.rowIndex].name)
-                    runGameWithRomdataFromEvent({ data: romdata[clickedCell.rowIndex] })
+                    console.log('Run Rom')
+                    console.log(contextMenu.e.data)
+                    runGameWithRomdataFromEvent(contextMenu.e)
+                    // console.log(contextMenu)
+                    // const selectedNode = contextMenu.api.getRowNode(clickedCell.id)
+                    // console.log(contextMenu.api.getRowNode(clickedCell))
+                    // if (selectedNode) {
+                    //   console.log('Run Rom selected for ' + selectedNode.data.name)
+                    //   runGameWithRomdataFromEvent({
+                    //     node: selectedNode,
+                    //     data: selectedNode.data,
+                    //     api: contextMenu.api,
+                    //     event: null,
+                    //     rowIndex: selectedNode.rowIndex,
+                    //     column: null,
+                    //     colDef: null,
+                    //     context: null,
+                    //     rowPinned: null
+                    //   } as CellClickedEvent)
+                    // }
                   }}
                 >
                   Run Rom
