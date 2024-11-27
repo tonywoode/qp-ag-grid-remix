@@ -218,33 +218,31 @@ export default function Grid() {
   //more ag-grid community workarounds: expanded rows are going to lose their order if we sort
   const createComparator = (field: string) => {
     return (valueA: any, valueB: any, nodeA: any, nodeB: any, isDescending: boolean) => {
+      const nodeAId = nodeA.data?.id 
+      const nodeBId = nodeB.data?.id 
+      const parentAId = nodeA.data?.parentId
+      const parentBId = nodeB.data?.parentId
+      const isNodeAFullWidth = nodeA.data?.fullWidth     
+      const isNodeBFullWidth = nodeB.data?.fullWidth     
       // If one is a full-width row, compare based on parent
-      if (nodeA.data?.fullWidth || nodeB.data?.fullWidth) {
-        // In descending order, check if this is an expanded row and its parent
+      if (isNodeAFullWidth || isNodeBFullWidth) {
+        // In descending order, check if this is an expanded row and its parent is below it
         if (isDescending) {
           // If nodeA is expanded row, check if nodeB is its parent
-          //TODO: I think we can actually rely on parentId in the fullwidth data, which is a number
-          if (nodeA.data?.fullWidth && String(nodeB.data?.id) === String(nodeA.data?.id).replace('-expanded', '')) {
+          if (isNodeAFullWidth && nodeBId === parentAId) {
             return -1  // Force expanded row after parent
           }
-          // If nodeB is expanded row, check if nodeA is its parent
-          if (nodeB.data?.fullWidth && String(nodeA.data?.id) === String(nodeB.data?.id).replace('-expanded', '')) {
+          // If nodeB is expanded row, check if nodeA is its parent - unnecessary?
+          if (isNodeBFullWidth && nodeAId === parentBId) {
             return 1 // Force parent before expanded row
           }
         }
-  
-        // Rest of comparison logic...
-        const parentAId = nodeA.data?.parentId
-        const parentBId = nodeB.data?.parentId
-        
-        if (parentAId === nodeB.data?.id) return 1
-        if (parentBId === nodeA.data?.id) return -1
-        
-        if (nodeA.data?.fullWidth) valueA = nodeA.data.parentData[field]
-        if (nodeB.data?.fullWidth) valueB = nodeB.data.parentData[field]
+        if (parentAId === nodeBId) return 1
+        if (parentBId === nodeAId) return -1
+        //use parents value for field compare if its a fullWidth (we saved parent data in expanded row  - TODO: can surely just get it from parent if ids match)
+        if (isNodeAFullWidth) valueA = nodeA.data.parentData[field]
+        if (isNodeBFullWidth) valueB = nodeB.data.parentData[field]
       }
-  
-      // Rest of comparison unchanged...
       if (valueA === null || valueA === undefined) return 1
       if (valueB === null || valueB === undefined) return -1
       if (typeof valueA === 'string' && typeof valueB === 'string') {
