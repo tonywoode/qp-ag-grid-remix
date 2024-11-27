@@ -232,14 +232,10 @@ export default function Grid() {
           if (isNodeAFullWidth && nodeBId === parentAId) {
             return -1  // Force expanded row after parent
           }
-          // If nodeB is expanded row, check if nodeA is its parent - unnecessary?
-          if (isNodeBFullWidth && nodeAId === parentBId) {
-            return 1 // Force parent before expanded row
-          }
         }
         if (parentAId === nodeBId) return 1
         if (parentBId === nodeAId) return -1
-        //use parents value for field compare if its a fullWidth (we saved parent data in expanded row  - TODO: can surely just get it from parent if ids match)
+        //use parents value for field compare if its a fullWidth (we saved parent data in expanded row, other node isn't necessarily its parent)
         if (isNodeAFullWidth) valueA = nodeA.data.parentData[field]
         if (isNodeBFullWidth) valueB = nodeB.data.parentData[field]
       }
