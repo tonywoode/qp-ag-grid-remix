@@ -220,20 +220,33 @@ export default function Grid() {
     return (valueA: any, valueB: any, nodeA: any, nodeB: any, isDescending: boolean) => {
       // If one is a full-width row, compare based on parent
       if (nodeA.data?.fullWidth || nodeB.data?.fullWidth) {
+        // In descending order, check if this is an expanded row and its parent
+        if (isDescending) {
+          // If nodeA is expanded row, check if nodeB is its parent
+          //TODO: I think we can actually rely on parentId in the fullwidth data, which is a number
+          if (nodeA.data?.fullWidth && String(nodeB.data?.id) === String(nodeA.data?.id).replace('-expanded', '')) {
+            return -1  // Force expanded row after parent
+          }
+          // If nodeB is expanded row, check if nodeA is its parent
+          if (nodeB.data?.fullWidth && String(nodeA.data?.id) === String(nodeB.data?.id).replace('-expanded', '')) {
+            return 1 // Force parent before expanded row
+          }
+        }
+  
+        // Rest of comparison logic...
         const parentAId = nodeA.data?.parentId
         const parentBId = nodeB.data?.parentId
-        // If comparing an expanded row with its parent, keep them together
+        
         if (parentAId === nodeB.data?.id) return 1
         if (parentBId === nodeA.data?.id) return -1
-        // Compare using parent values stored in the expanded row data
+        
         if (nodeA.data?.fullWidth) valueA = nodeA.data.parentData[field]
         if (nodeB.data?.fullWidth) valueB = nodeB.data.parentData[field]
       }
-      // Handle null/undefined
+  
+      // Rest of comparison unchanged...
       if (valueA === null || valueA === undefined) return 1
       if (valueB === null || valueB === undefined) return -1
-
-      // Basic comparison with type handling, let AG Grdid handle ascending/descending
       if (typeof valueA === 'string' && typeof valueB === 'string') {
         return valueA.localeCompare(valueB)
       }
