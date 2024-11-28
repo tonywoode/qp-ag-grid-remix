@@ -25,7 +25,6 @@ export async function loader({ params }: LoaderFunctionArgs) {
       return {
         ...item,
         id: index, //we save the index to give each item a unique id, to try and keep parents and children together
-        originalIndex: index,
         iconBase64: iconBase64 || defaultIconBase64
       }
     })
@@ -235,12 +234,15 @@ export default function Grid() {
     }
   }
 
+  //TODO: should be encapsulating actual data fields under a key
+  const ignoreFields = [ 'iconBase64', 'id', 'fullWidth', 'parentId', 'parentData', 'files', 'rowHeight', 'parent' ]
+
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const columnDefs: (ColDef | ColGroupDef)[] = [
     zipColumn,
     iconColumn,
     ...[...new Set(romdata.flatMap(Object.keys))]
-      .filter(field => field !== 'iconBase64') // Exclude 'iconBase64'
+    .filter(field => !ignoreFields.includes(field)) 
       .map(field => ({
         field,
         editable: isEditable,
