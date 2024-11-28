@@ -1,7 +1,7 @@
 import { AgGridReact } from 'ag-grid-react'
 import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
-import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupDef } from 'ag-grid-community'
+import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupDef, EditableCallbackParams } from 'ag-grid-community'
 import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { useEffect, useState } from 'react'
@@ -80,8 +80,8 @@ export default function Grid() {
       { action: '/runGame', method: 'post', encType: 'application/json' }
     )
   }
-  const isEditable = ({ node: { rowIndex }, column: { colId } }) =>
-    clickedCell && rowIndex === clickedCell.rowIndex && colId === clickedCell.colKey
+  const isEditable = (params: EditableCallbackParams) =>
+    !!(clickedCell && params.node.rowIndex === clickedCell.rowIndex && params.column.getColId() === clickedCell.colKey)
 
   const iconColumn = {
     headerName: 'Icon',
@@ -238,17 +238,18 @@ export default function Grid() {
   const ignoreFields = [ 'iconBase64', 'id', 'fullWidth', 'parentId', 'parentData', 'files', 'rowHeight', 'parent' ]
 
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
+  const fieldsInRomdata = [...new Set(romdata.flatMap(Object.keys))]
   const columnDefs: (ColDef | ColGroupDef)[] = [
     zipColumn,
     iconColumn,
-    ...[...new Set(romdata.flatMap(Object.keys))]
+    ...fieldsInRomdata
     .filter(field => !ignoreFields.includes(field)) 
       .map(field => ({
         field,
         editable: isEditable,
         valueGetter: field === 'path' ? removeGamesDirPrefix : undefined,
-        comparator: createComparator(field)
-        // fullWidth: false
+        comparator: createComparator(field),
+        fullWidth: false
       }))
   ]
 
