@@ -40,10 +40,20 @@ export default function Grid() {
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState<{ rowIndex: number; colKey: string } | null>(null)
-  type BaseContextMenu = { x: number, y: number }
-  type RomContextMenu = BaseContextMenu & { type: 'rom', e: CellClickedEvent }
-  type ZipContextMenu = BaseContextMenu & { type: 'zip', fileInZip: string, parentNode: object }
-  type ContextMenu = RomContextMenu | ZipContextMenu
+type BaseContextMenu = { x: number, y: number }
+type RomContextMenu = BaseContextMenu & { 
+  type: 'rom', 
+  path: string,
+  defaultGoodMerge: string,
+  emulatorName: string
+}
+type ZipContextMenu = BaseContextMenu & { 
+  type: 'zip', 
+  fileInZip: string, 
+  parentNode: object 
+}
+type ContextMenu = RomContextMenu | ZipContextMenu
+
   const [contextMenu, setContextMenu] = useState<ContextMenu | null>(null)
   useEffect(() => { //when right-click grid menus are opened, close them when clicking anywhere else in the app
     const handleClickOutside = () => setContextMenu(null)
@@ -299,7 +309,9 @@ export default function Grid() {
         type: 'rom',
         x: e.event?.clientX,
         y: e.event?.clientY,
-        e
+        path: e.node.data.path,
+        defaultGoodMerge: e.node.data.defaultGoodMerge,
+        emulatorName: e.node.data.emulatorName
       })
       preventMultipleSelect(e.api)
     },
@@ -358,7 +370,7 @@ export default function Grid() {
                   className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                   onClick={() => {
                     console.log('Run Rom')
-                    const { path, defaultGoodMerge, emulatorName } = contextMenu.e.data
+                    const { path, defaultGoodMerge, emulatorName } = contextMenu
                     runGame(path, defaultGoodMerge, emulatorName)
                   }}
                 >
