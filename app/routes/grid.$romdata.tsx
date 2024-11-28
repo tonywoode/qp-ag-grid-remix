@@ -25,7 +25,8 @@ export async function loader({ params }: LoaderFunctionArgs) {
       return {
         ...item,
         id: index, //we save the index to give each item a unique id, to try and keep parents and children together
-        iconBase64: iconBase64 || defaultIconBase64
+        iconBase64: iconBase64 || defaultIconBase64,
+        fullWidth: false 
       }
     })
   )
@@ -65,21 +66,18 @@ export default function Grid() {
       api.startEditingCell({ rowIndex, colKey: colId })
     },
     (e: CellClickedEvent) => {
-      console.log('double click')
-      runGameWithRomdataFromEvent(e)
+      const { path, defaultGoodMerge, emulatorName } = e.node.data
+  runGame(path, defaultGoodMerge, emulatorName)
     }
   )
 
-  const runGameWithRomdataFromEvent = (e: CellClickedEvent) => {
-    console.log('Running game with data:', e.node.data) // Debug log
-    const {
-      data: { path, defaultGoodMerge, emulatorName }
-    } = e.node // Use node data directly instead of looking up by index
+  const runGame = (gamePath: string, defaultGoodMerge: string, emulatorName: string) => {
     fetcher.submit(
-      { gamePath: path, defaultGoodMerge, emulatorName },
+      { gamePath, defaultGoodMerge, emulatorName },
       { action: '/runGame', method: 'post', encType: 'application/json' }
     )
   }
+
   const isEditable = (params: EditableCallbackParams) =>
     !!(clickedCell && params.node.rowIndex === clickedCell.rowIndex && params.column.getColId() === clickedCell.colKey)
 
@@ -249,7 +247,6 @@ export default function Grid() {
         editable: isEditable,
         valueGetter: field === 'path' ? removeGamesDirPrefix : undefined,
         comparator: createComparator(field),
-        fullWidth: false
       }))
   ]
 
@@ -272,7 +269,10 @@ export default function Grid() {
       console.log('event.key is ' + keyPressed)
       //don't multiple select when arrow keys used for navigation
       if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') preventMultipleSelect(e.api) 
-      else if (keyPressed === 'Enter') runGameWithRomdataFromEvent(e)
+        else if (keyPressed === 'Enter') {
+          const { path, defaultGoodMerge, emulatorName } = e.node.data
+          runGame(path, defaultGoodMerge, emulatorName)
+        }
         //prevent the 'i' key from entering field edit whilst trying to type a filter (no idea why it does this)
       else if (keyPressed === 'i') e.event.preventDefault()
     },
@@ -358,8 +358,8 @@ export default function Grid() {
                   className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                   onClick={() => {
                     console.log('Run Rom')
-                    console.log(contextMenu.e.data)
-                    runGameWithRomdataFromEvent(contextMenu.e)
+                    const { path, defaultGoodMerge, emulatorName } = contextMenu.e.data
+                    runGame(path, defaultGoodMerge, emulatorName)
                   }}
                 >
                   Run Rom
