@@ -36,11 +36,11 @@ export async function loader({ params }: LoaderFunctionArgs) {
 
 export default function Grid() {
   const { romdata } = useLoaderData<typeof loader>()
-  const [rowdata, setRowdata] = useState(romdata)
+  const [rowdata, setRowdata] = useState(romdata) //another option would have been to use grid-api rather than react state
   const params = useParams()
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
-  const [clickedCell, setClickedCell] = useState(null)
+  const [clickedCell, setClickedCell] = useState<{ rowIndex: number; colKey: string } | null>(null)
   const [contextMenu, setContextMenu] = useState<{
     x: number
     y: number
@@ -49,15 +49,13 @@ export default function Grid() {
     e: CellClickedEvent
     parentNode: object
   } | null>(null)
-  const closeContextMenu = () => setContextMenu(null)
-  //this because onGridClick doesn't exist (althought we also want the menu to disappear on clicking anywhere else in the app)
-  useEffect(() => {
-    const handleClickOutside = () => closeContextMenu()
+  useEffect(() => { //when right-click grid menus are opened, close them when clicking anywhere else in the app
+    const handleClickOutside = () => setContextMenu(null)
     document.addEventListener('click', handleClickOutside)
     return () => document.removeEventListener('click', handleClickOutside)
   }, [])
 
-  useEffect(() => {
+  useEffect(() => { //TODO: why is this required, since the loader should rerun when changing systems
     setRowdata(romdata)
   }, [romdata])
 
@@ -65,7 +63,9 @@ export default function Grid() {
     async (e: CellClickedEvent) => {
       console.log('single click')
       console.log(e.data)
-      const { node: { rowIndex }, column: { colId }, api }: CellClickedEvent = e // prettier-ignore
+      const { node, column, api }: CellClickedEvent = e // prettier-ignore
+      const rowIndex = node.rowIndex ?? 0
+      const colId = column.getColId()
       setClickedCell({ rowIndex, colKey: colId })
       api.startEditingCell({ rowIndex, colKey: colId })
     },
@@ -110,17 +110,14 @@ export default function Grid() {
       </div>
     )
   }
-  //TODO: what if either an individual entry, or the whole list, don't like to a compressed file?
+  //TODO: what if either an individual entry, or the whole list, don't link to a compressed file?
   const toggleExpandedRow = async (rowId: string, api: any, node: any) => {
     const expandedNode = api.getRowNode(`${rowId}-expanded`)
-
     if (expandedNode) {
       // Find current position of expanded row
       let currentIndex = -1
       api.forEachNode((node, index) => {
-        if (node.data?.id === `${rowId}-expanded`) {
-          currentIndex = index
-        }
+        if (node.data?.id === `${rowId}-expanded`) currentIndex = index 
       })
       //collapse row
       if (currentIndex !== -1) {
@@ -131,15 +128,11 @@ export default function Grid() {
       //todo see prev commits for a try catch need to handle lookup failure
       const response = await fetch(`/listZip?path=${encodeURIComponent(node.data.path)}`)
       const files = await response.json()
-
       // Find current position of parent
       let parentIndex = -1
       api.forEachNode((n, index) => {
-        if (n.data?.id === rowId) {
-          parentIndex = index
-        }
+        if (n.data?.id === rowId) parentIndex = index 
       })
-
       const expandedRowNode = {
         id: `${rowId}-expanded`,
         fullWidth: true,
@@ -149,7 +142,6 @@ export default function Grid() {
         files: files,
         rowHeight: (node.rowHeight / 2) * (files.length + 1)
       }
-
       // Insert after current parent position
       if (parentIndex !== -1) {
         rowdata.splice(parentIndex + 1, 0, expandedRowNode)
@@ -179,9 +171,8 @@ export default function Grid() {
     }
   }
 
+  //The zip contents menu accessible by clicking the + button in the zip column
   const fullWidthCellRenderer = params => {
-    //oooh its got a parent!!!!
-    console.log(params.data.parent)
     const parentNode = params.data.parent
     const files = params.data.files
     return (
@@ -200,10 +191,6 @@ export default function Grid() {
         </div>
       </div>
     )
-  }
-
-  function getRowHeight(params: RowHeightParams): number | undefined | null {
-    return params.data.rowHeight
   }
 
   //multiple select is not desired until its desired, however how do we determine when a multiple selection is intentional
@@ -274,22 +261,19 @@ export default function Grid() {
     singleClickEdit: true,
     enableGroupEdit: true,
     suppressClickEdit: true,
-    getRowHeight,
+    getRowHeight: (params): number | undefined | null => params.data.rowHeight, 
     isFullWidthRow: params => params.rowNode.data?.fullWidth === true,
     fullWidthCellRenderer,
     onCellClicked: handleSingleClick,
     onCellDoubleClicked: handleDoubleClick,
-    onCellKeyDown: function (e: CellKeyDownEvent) {
-      console.log('event.key is ' + e.event.key)
+    onCellKeyDown: (e: CellKeyDownEvent) => {
+      const keyPressed = e.event.key
+      console.log('event.key is ' + keyPressed)
       //don't multiple select when arrow keys used for navigation
-      if (e.event.key === 'ArrowUp' || e.event.key === 'ArrowDown') {
-        preventMultipleSelect(e.api)
-      } else if (e.event.key === 'Enter') {
-        runGameWithRomdataFromEvent(e)
+      if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') preventMultipleSelect(e.api) 
+      else if (keyPressed === 'Enter') runGameWithRomdataFromEvent(e)
         //prevent the 'i' key from entering field edit whilst trying to type a filter (no idea why it does this)
-      } else if (e.event.key === 'i') {
-        e.event.preventDefault()
-      }
+      else if (keyPressed === 'i') e.event.preventDefault()
     },
     onRowSelected: async function (event) {
       if (event.node.selected) {
@@ -298,7 +282,7 @@ export default function Grid() {
         const eventData = event.data
         const romname = event.data.name
         const system = eventData.system
-        //include mamenames as locacation state if they exist
+        //include mamenames as location state if they exist
         navigate(`${encodeString(system)}/${encodeString(romname)}`, {
           state: {
             ...(event.data.mameName != null && { mameName: event.data.mameName }),
