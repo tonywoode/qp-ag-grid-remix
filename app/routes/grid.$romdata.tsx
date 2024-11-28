@@ -12,6 +12,7 @@ import { encodeString, decodeString } from '~/utils/safeUrl'
 import { loadMameIconBase64 } from '~/loadMameIcons.server'
 import { loadIconBase64 } from '~/loadImages.server'
 
+
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
@@ -19,18 +20,16 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const defaultIconBase64 = await loadIconBase64('rom.ico')
 
   const romdataWithIcons = await Promise.all(
-    //we save the index to give each item a unique id, to try and keep parents and children together
     romdata.map(async (item, index) => {
       const iconBase64 = await loadMameIconBase64(item.mameName, item.parentName)
       return {
         ...item,
-        id: index,
+        id: index, //we save the index to give each item a unique id, to try and keep parents and children together
         originalIndex: index,
         iconBase64: iconBase64 || defaultIconBase64
       }
     })
   )
-
   return { romdata: romdataWithIcons }
 }
 
@@ -41,14 +40,11 @@ export default function Grid() {
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState<{ rowIndex: number; colKey: string } | null>(null)
-  const [contextMenu, setContextMenu] = useState<{
-    x: number
-    y: number
-    api?: any
-    fileInZip?: string
-    e: CellClickedEvent
-    parentNode: object
-  } | null>(null)
+  type BaseContextMenu = { x: number, y: number }
+  type RomContextMenu = BaseContextMenu & { type: 'rom', e: CellClickedEvent }
+  type ZipContextMenu = BaseContextMenu & { type: 'zip', fileInZip: string, parentNode: object }
+  type ContextMenu = RomContextMenu | ZipContextMenu
+  const [contextMenu, setContextMenu] = useState<ContextMenu | null>(null)
   useEffect(() => { //when right-click grid menus are opened, close them when clicking anywhere else in the app
     const handleClickOutside = () => setContextMenu(null)
     document.addEventListener('click', handleClickOutside)
@@ -74,12 +70,6 @@ export default function Grid() {
       runGameWithRomdataFromEvent(e)
     }
   )
-
-  const handleZipContentsContextMenu = (e: React.MouseEvent, file: string, parentNode: object) => {
-    e.preventDefault()
-    setContextMenu({ x: e.clientX, y: e.clientY, fileInZip: file, parentNode })
-    console.log(`right-clicked on archive file: ${file}`)
-  }
 
   const runGameWithRomdataFromEvent = (e: CellClickedEvent) => {
     console.log('Running game with data:', e.node.data) // Debug log
@@ -183,7 +173,15 @@ export default function Grid() {
               key={index}
               className="py-1 hover:bg-gray-100"
               onClick={() => console.log('you clicked on ' + file)}
-              onContextMenu={e => handleZipContentsContextMenu(e, file, parentNode)}
+              onContextMenu={(e: React.MouseEvent) => {
+                e.preventDefault()
+                setContextMenu({ 
+                  type: 'zip',
+                  x: e.clientX, 
+                  y: e.clientY, 
+                  fileInZip: file, 
+                  parentNode: parentNode 
+                })}}
             >
               {file}
             </div>
@@ -293,24 +291,19 @@ export default function Grid() {
     },
     //this event carries the ROW context menu firing, compare with onContextMenu in the full-width cell renderer
     onCellContextMenu: (e: CellClickedEvent) => {
-      e.event?.preventDefault() // Prevent default context menu
-      console.log('data')
-      console.log(e.node.data)
-      console.log('right-clicked on rom: ' + e.data.name)
+      e.event?.preventDefault()
       setContextMenu({
+        type: 'rom',
         x: e.event?.clientX,
         y: e.event?.clientY,
-        //TODO: really should set a corresponding type here to distinguish between right-click zip menu
-        api: e.api,
         e
       })
-      //select the cell's row, and deselect other rows (later, however, how do we determine an intentional multiple selection is intentional, and what different rules apply to roms and files in zipped roms)
-      preventMultipleSelect(e.api) // e.node.setSelected(true)
+      preventMultipleSelect(e.api)
     },
     getRowId: params =>
       params.data.fullWidth ? params.data.parentId + '-expanded' : params.data.id || params.data.name,
-    // onSortChanged: updateRowData,
     animateRows: true //needs getRowId to be set see https://www.youtube.com/watch?v=_V5qFr62uhY
+    // onSortChanged: updateRowData,
     // onFilterChanged: updateRowData
   }
 
@@ -323,7 +316,6 @@ export default function Grid() {
               rowData={rowdata}
               columnDefs={columnDefs}
               gridOptions={gridOptions}
-              // onGridClick={closeContextMenu} // if only we could close menu on grid click
             />
           </div>,
           <div key="mediaPanel" className="h-full overflow-auto">
@@ -343,16 +335,13 @@ export default function Grid() {
           onClick={() => setContextMenu(null)} // Close menu on click
         >
           <ul>
-            {'fileInZip' in contextMenu ? (
+            {contextMenu.type === 'zip' ? (
               <li
                 className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                 onClick={() => {
                   console.log('Set as Default')
                   console.log(contextMenu)
                   console.log(clickedCell)
-                  //get the parent row we came from, we may be in descending order or something so we need the grid to tell us the unsorted row
-                  // const selectedNode = contextMenu.api.getRowNode(clickedCell.id)
-                  // if (selectedNode) {
                   const currentDefaultGoodMerge = contextMenu.parentNode.data?.defaultGoodMerge
                   console.log('current goodmerge:', currentDefaultGoodMerge || 'none')
                   // }
@@ -360,7 +349,7 @@ export default function Grid() {
               >
                 Set as Default
               </li>
-            ) : (
+            ) : ( //contextMenu.type === 'rom'
               <>
                 <li
                   className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
@@ -368,23 +357,6 @@ export default function Grid() {
                     console.log('Run Rom')
                     console.log(contextMenu.e.data)
                     runGameWithRomdataFromEvent(contextMenu.e)
-                    // console.log(contextMenu)
-                    // const selectedNode = contextMenu.api.getRowNode(clickedCell.id)
-                    // console.log(contextMenu.api.getRowNode(clickedCell))
-                    // if (selectedNode) {
-                    //   console.log('Run Rom selected for ' + selectedNode.data.name)
-                    //   runGameWithRomdataFromEvent({
-                    //     node: selectedNode,
-                    //     data: selectedNode.data,
-                    //     api: contextMenu.api,
-                    //     event: null,
-                    //     rowIndex: selectedNode.rowIndex,
-                    //     column: null,
-                    //     colDef: null,
-                    //     context: null,
-                    //     rowPinned: null
-                    //   } as CellClickedEvent)
-                    // }
                   }}
                 >
                   Run Rom
