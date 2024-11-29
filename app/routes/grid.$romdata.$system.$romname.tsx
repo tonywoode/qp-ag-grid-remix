@@ -116,7 +116,7 @@ export default function MediaPanel() {
   }
   useEffect(() => {
     const fetchTabContent = async () => {
-      const selectedTab = thisSystemsTabs[selectedTabIndex]
+      const selectedTab = thisSystemsTabs? thisSystemsTabs[selectedTabIndex] : null
       console.log(selectedTab)
       const tabClass = tabClassMap[selectedTab?.tabType]
       const searchType = selectedTab?.searchType
@@ -302,13 +302,12 @@ export default function MediaPanel() {
     <div>
       <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
         <TabList className="sticky top-0 bg-white z-2">
-          {thisSystemsTabs.map((tab, index) => (
+          {thisSystemsTabs?.map((tab, index) => (
             <Tab key={index}>{tab.caption}</Tab>
           ))}
         </TabList>
         <div className="overflow-auto h-full">
-          {thisSystemsTabs.map((tab, index) => {
-            const selectedTab = thisSystemsTabs[selectedTabIndex]
+          {thisSystemsTabs?.map((tab, index) => {
             return (
               <TabPanel key={index}>
                 {tabContentRenderers[tabContent.tabClass]?.(tabContent.data) ?? <h2>Tab content not available</h2>}

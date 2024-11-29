@@ -40,19 +40,19 @@ export default function Grid() {
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState<{ rowIndex: number; colKey: string } | null>(null)
-type BaseContextMenu = { x: number, y: number }
-type RomContextMenu = BaseContextMenu & { 
-  type: 'rom', 
-  path: string,
-  defaultGoodMerge: string,
-  emulatorName: string
-}
-type ZipContextMenu = BaseContextMenu & { 
-  type: 'zip', 
-  fileInZip: string, 
-  parentNode: object 
-}
-type ContextMenu = RomContextMenu | ZipContextMenu
+  type BaseContextMenu = { x: number, y: number }
+  type RomContextMenu = BaseContextMenu & { 
+    type: 'rom', 
+    path: string,
+    defaultGoodMerge: string,
+    emulatorName: string
+  }
+  type ZipContextMenu = BaseContextMenu & { 
+    type: 'zip', 
+    fileInZip: string, 
+    parentNode: object 
+  }
+  type ContextMenu = RomContextMenu | ZipContextMenu
 
   const [contextMenu, setContextMenu] = useState<ContextMenu | null>(null)
   useEffect(() => { //when right-click grid menus are opened, close them when clicking anywhere else in the app
@@ -173,13 +173,19 @@ type ContextMenu = RomContextMenu | ZipContextMenu
     const parentNode = params.data.parent
     const files = params.data.files
     return (
-      <div className="p-4 bg-gray-50">
-        <div className="max-h-48 overflow-y-auto">
+      <div className="p-4 bg-gray-50 select-none">
+        <div className="max-h-48 overflow-y-auto pointer-events-auto">
           {files.map((file, index) => (
             <div
               key={index}
-              className="py-1 hover:bg-gray-100"
-              onClick={() => console.log('you clicked on ' + file)}
+              className="py-1 hover:bg-gray-100 cursor-pointer relative z-10"
+              onClick={(e) => {
+                e.preventDefault()
+                e.stopPropagation()
+                console.log('clicked on file in zip', file)
+              }}
+              onMouseDown={e => e.stopPropagation()}
+              style={{ pointerEvents: 'auto' }}
               onContextMenu={(e: React.MouseEvent) => {
                 e.preventDefault()
                 setContextMenu({ 
@@ -204,7 +210,7 @@ type ContextMenu = RomContextMenu | ZipContextMenu
     api.forEachNode(node => {
       if (node !== focusedNode) node.setSelected(false)
     })
-    focusedNode.setSelected(true)
+    if ( focusedNode.data.fullWidth !== true) focusedNode.setSelected(true) //TODO: is fullWidth check required/sensible?
   }
 
   //more ag-grid community workarounds: expanded rows are going to lose their order if we sort
@@ -287,7 +293,7 @@ type ContextMenu = RomContextMenu | ZipContextMenu
       else if (keyPressed === 'i') e.event.preventDefault()
     },
     onRowSelected: async function (event) {
-      if (event.node.selected) {
+      if (event.node.selected && event.node.data.fullWidth !== true) {
         console.log(event)
         console.log('row selected')
         const eventData = event.data
