@@ -125,6 +125,7 @@ export default function Grid() {
       //todo see prev commits for a try catch need to handle lookup failure
       const response = await fetch(`/listZip?path=${encodeURIComponent(node.data.path)}`)
       const files = await response.json()
+      console.log('there are ' + files.length + ' files in the zip')
       // Find current position of parent
       let parentIndex = -1
       api.forEachNode((n, index) => {
@@ -137,7 +138,7 @@ export default function Grid() {
         parentId: rowId,
         parentData: node.data, //fraid so, how else can we satisfy comparison
         files: files,
-        rowHeight: (node.rowHeight / 2) * (files.length + 1)
+        // rowHeight: (node.rowHeight / 2) * (files.length + 1)
       }
       // Insert after current parent position
       if (parentIndex !== -1) {
@@ -174,11 +175,11 @@ export default function Grid() {
     const files = params.data.files
     return (
       <div className="p-4">
-        <div className="max-h-48 overflow-y-auto">
+        <div> 
           {files.map((file, index) => (
             <div
               key={index}
-              className="py-1 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative"  //without relative, no selection! Stacking context issue
+              className="py-1 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative"
               onClick={(e: React.MouseEvent) => {
                 console.log('clicked on file in zip', file)
               }}
@@ -245,7 +246,7 @@ export default function Grid() {
   }
 
   //TODO: should be encapsulating actual data fields under a key
-  const ignoreFields = [ 'iconBase64', 'id', 'fullWidth', 'parentId', 'parentData', 'files', 'rowHeight', 'parent' ]
+  const ignoreFields = [ 'iconBase64', 'id', 'fullWidth', 'parentId', 'parentData', 'files', 'parent' ]
 
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const fieldsInRomdata = [...new Set(romdata.flatMap(Object.keys))]
@@ -271,7 +272,17 @@ export default function Grid() {
     singleClickEdit: true,
     enableGroupEdit: true,
     suppressClickEdit: true,
-    getRowHeight: (params): number | undefined | null => params.data.rowHeight, 
+    // getRowHeight: (params): number | undefined | null => params.data.rowHeight, 
+    getRowHeight: params => {
+      if (params.data.fullWidth) {
+        const lineHeight = 28; // py-1 + text height
+        const padding = 32; // p-4 on both sides
+        return (params.data.files.length * lineHeight) + padding;
+      }
+      return undefined; // Default height for normal rows
+    },
+    // fullWidthCellRendererParams: { suppressPadding: true },
+    // domLayout: 'autoHeight',
     isFullWidthRow: params => params.rowNode.data?.fullWidth === true,
     fullWidthCellRenderer,
     onCellClicked: handleSingleClick,
