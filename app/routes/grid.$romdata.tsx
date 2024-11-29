@@ -178,7 +178,7 @@ export default function Grid() {
           {files.map((file, index) => (
             <div
               key={index}
-              className="py-1 hover:bg-gray-100 cursor-pointer relative" //without relative, no selection! Stacking context issue
+              className="py-1 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative"  //without relative, no selection! Stacking context issue
               onClick={(e: React.MouseEvent) => {
                 console.log('clicked on file in zip', file)
               }}
@@ -190,6 +190,7 @@ export default function Grid() {
                   fileInZip: file, 
                   parentNode: parentNode 
                 })}}
+              tabIndex={0} //focusable for TW pseudo selectors to work
             >
               {file}
             </div>
