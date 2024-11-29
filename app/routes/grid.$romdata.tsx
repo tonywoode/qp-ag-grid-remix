@@ -173,7 +173,7 @@ export default function Grid() {
     const parentNode = params.data.parent
     const files = params.data.files
     return (
-      <div className="p-4 bg-gray-50">
+      <div className="p-4">
         <div className="max-h-48 overflow-y-auto">
           {files.map((file, index) => (
             <div
@@ -318,7 +318,9 @@ export default function Grid() {
     },
     getRowId: params =>
       params.data.fullWidth ? params.data.parentId + '-expanded' : params.data.id || params.data.name,
-    animateRows: true //needs getRowId to be set see https://www.youtube.com/watch?v=_V5qFr62uhY
+    animateRows: true, //needs getRowId to be set see https://www.youtube.com/watch?v=_V5qFr62uhY
+    //prevent the whole full-width row going blue on selection
+    getRowStyle: params =>  params.data.fullWidth && {'--ag-selected-row-background-color': 'white'}
     // onSortChanged: updateRowData,
     // onFilterChanged: updateRowData
   }
