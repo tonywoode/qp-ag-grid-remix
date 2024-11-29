@@ -173,21 +173,16 @@ export default function Grid() {
     const parentNode = params.data.parent
     const files = params.data.files
     return (
-      <div className="p-4 bg-gray-50 select-none">
-        <div className="max-h-48 overflow-y-auto pointer-events-auto">
+      <div className="p-4 bg-gray-50">
+        <div className="max-h-48 overflow-y-auto">
           {files.map((file, index) => (
             <div
               key={index}
-              className="py-1 hover:bg-gray-100 cursor-pointer relative z-10"
-              onClick={(e) => {
-                e.preventDefault()
-                e.stopPropagation()
+              className="py-1 hover:bg-gray-100 cursor-pointer relative" //without relative, no selection! Stacking context issue
+              onClick={(e: React.MouseEvent) => {
                 console.log('clicked on file in zip', file)
               }}
-              onMouseDown={e => e.stopPropagation()}
-              style={{ pointerEvents: 'auto' }}
               onContextMenu={(e: React.MouseEvent) => {
-                e.preventDefault()
                 setContextMenu({ 
                   type: 'zip',
                   x: e.clientX, 
