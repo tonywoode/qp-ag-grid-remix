@@ -173,6 +173,10 @@ export default function Grid() {
   const fullWidthCellRenderer = params => {
     const parentNode = params.data.parent
     const files = params.data.files
+    const [handleFileSingleClick, handleFileDoubleClick] = useClickPreventionOnDoubleClick(
+      (file: string) => { console.log('clicked on file in zip', file) },
+      (file: string) => { console.log('double clicked on file in zip', file) }
+    )
     return (
       <div className="p-4">
         <div> 
@@ -180,9 +184,8 @@ export default function Grid() {
             <div
               key={index}
               className="py-1 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative"
-              onClick={(e: React.MouseEvent) => {
-                console.log('clicked on file in zip', file)
-              }}
+              onClick={(e) => handleFileSingleClick(file)}
+              onDoubleClick={(e) => handleFileDoubleClick(file)}
               onContextMenu={(e: React.MouseEvent) => {
                 setContextMenu({ 
                   type: 'zip',
@@ -190,11 +193,10 @@ export default function Grid() {
                   y: e.clientY, 
                   fileInZip: file, 
                   parentNode: parentNode 
-                })}}
-              tabIndex={0} //focusable for TW pseudo selectors to work
-            >
-              {file}
-            </div>
+                })
+              }}
+              tabIndex={0}
+            >{file}</div>
           ))}
         </div>
       </div>
