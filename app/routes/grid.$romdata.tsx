@@ -184,9 +184,9 @@ export default function Grid() {
             <div
               key={index}
               className="py-1 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative"
-              onClick={(e) => handleFileSingleClick(file)}
-              onDoubleClick={(e) => handleFileDoubleClick(file)}
-              onContextMenu={(e: React.MouseEvent) => {
+              onClick={e => handleFileSingleClick(file)}
+              onDoubleClick={e => handleFileDoubleClick(file)}
+              onContextMenu={e => {
                 setContextMenu({ 
                   type: 'zip',
                   x: e.clientX, 
@@ -274,17 +274,21 @@ export default function Grid() {
     singleClickEdit: true,
     enableGroupEdit: true,
     suppressClickEdit: true,
+    rowHeight: 30,
+    headerHeight: 36,
+    floatingFiltersHeight: 28,
+    // cellHorizontalPadding: 12,
     // getRowHeight: (params): number | undefined | null => params.data.rowHeight, 
     getRowHeight: params => {
       if (params.data.fullWidth) {
-        const lineHeight = 28; // py-1 + text height
-        const padding = 32; // p-4 on both sides
-        return (params.data.files.length * lineHeight) + padding;
+        const baseRowHeight = 24  // Match --ag-row-height
+        const lineHeight = baseRowHeight * 1.2  // Match --ag-line-height
+        const padding = 32  // p-4 on both sides
+        return (params.data.files.length * lineHeight) + padding
       }
-      return undefined; // Default height for normal rows
+      return undefined
     },
     // fullWidthCellRendererParams: { suppressPadding: true },
-    // domLayout: 'autoHeight',
     isFullWidthRow: params => params.rowNode.data?.fullWidth === true,
     fullWidthCellRenderer,
     onCellClicked: handleSingleClick,
@@ -343,7 +347,13 @@ export default function Grid() {
     <>
       <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
         {[
-          <div key="grid" className="ag-theme-alpine" style={{ height: '100%', width: '100%' }}>
+          <div key="grid" className="ag-theme-alpine"   style={{ 
+            height: '100%', 
+            width: '100%',
+            //some props only workin in grid options, these only as styles: https://www.ag-grid.com/react-data-grid/global-style-customisation-compactness/
+            '--ag-font-size': '14px',
+            '--ag-grid-size': '5px',
+          }}>
             <AgGridReact
               rowData={rowdata}
               columnDefs={columnDefs}
