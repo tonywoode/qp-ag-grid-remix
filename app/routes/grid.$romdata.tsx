@@ -95,7 +95,7 @@ export default function Grid() {
     headerName: 'Icon',
     field: 'icon',
     minWidth: 65,
-    autoHeight: true,
+    // autoHeight: true, //in combination with (style) rowHeight, makes the grid all wobbly on scroll
     filter: false,
     suppressSizeToFit: true,
     cellRenderer: ({ data }) => (
@@ -178,7 +178,7 @@ export default function Grid() {
       (file: string) => { console.log('double clicked on file in zip', file) }
     )
     return (
-      <div className="p-4">
+      <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
         <div> 
           {files.map((file, index) => (
             <div
@@ -274,19 +274,19 @@ export default function Grid() {
     singleClickEdit: true,
     enableGroupEdit: true,
     suppressClickEdit: true,
-    rowHeight: 30,
+    rowHeight: 30, //this does not play well with auto-height in the zip cell renderer, try scrolling
     headerHeight: 36,
     floatingFiltersHeight: 28,
-    // cellHorizontalPadding: 12,
     // getRowHeight: (params): number | undefined | null => params.data.rowHeight, 
     getRowHeight: params => {
       if (params.data.fullWidth) {
-        const baseRowHeight = 24  // Match --ag-row-height
-        const lineHeight = baseRowHeight * 1.2  // Match --ag-line-height
-        const padding = 32  // p-4 on both sides
-        return (params.data.files.length * lineHeight) + padding
+        const gridSize = 5; // Example value for --ag-grid-size
+        const fontSize = 14; // Example value for --ag-font-size
+        const padding = gridSize + 8; // Assuming padding is 4 times the grid size (p-4 on both sides)
+        const rowHeight = fontSize * 1.82; // Assuming row height is 1.5 times the font size
+        return (params.data.files.length * rowHeight) + padding;
       }
-      return undefined
+      return undefined;
     },
     // fullWidthCellRendererParams: { suppressPadding: true },
     isFullWidthRow: params => params.rowNode.data?.fullWidth === true,
@@ -352,7 +352,8 @@ export default function Grid() {
             width: '100%',
             //some props only workin in grid options, these only as styles: https://www.ag-grid.com/react-data-grid/global-style-customisation-compactness/
             '--ag-font-size': '14px',
-            '--ag-grid-size': '5px',
+           '--ag-grid-size': '6px',
+            // '--ag-row-height': '30', //oddly this doesn't do the same as rowHeight in grid options, seems to just move each rows text uncomfortably to the top?
           }}>
             <AgGridReact
               rowData={rowdata}
