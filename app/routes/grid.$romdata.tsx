@@ -178,12 +178,12 @@ export default function Grid() {
       (file: string) => { console.log('double clicked on file in zip', file) }
     )
     return (
-      <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
+      <div className="overflow-y-auto h-full"> {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
         <div> 
           {files.map((file, index) => (
             <div
               key={index}
-              className="py-1 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative"
+              className="hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative"
               onClick={e => handleFileSingleClick(file)}
               onDoubleClick={e => handleFileDoubleClick(file)}
               onContextMenu={e => {
@@ -280,10 +280,13 @@ export default function Grid() {
     // getRowHeight: (params): number | undefined | null => params.data.rowHeight, 
     getRowHeight: params => {
       if (params.data.fullWidth) {
-        const gridSize = 5; // Example value for --ag-grid-size
+        const gridSize = 6; // Example value for --ag-grid-size
         const fontSize = 14; // Example value for --ag-font-size
-        const padding = gridSize + 8; // Assuming padding is 4 times the grid size (p-4 on both sides)
-        const rowHeight = fontSize * 1.82; // Assuming row height is 1.5 times the font size
+        const zoomLevel = window.devicePixelRatio;
+        console.log('zoom level: ', zoomLevel)
+        const actualFontSize = fontSize * zoomLevel;
+        const rowHeight = actualFontSize * 1.12; // Assuming row height is 1.2 times the font size
+        const padding = gridSize * 2 * zoomLevel; // Adjust padding based on zoom level
         return (params.data.files.length * rowHeight) + padding;
       }
       return undefined;
