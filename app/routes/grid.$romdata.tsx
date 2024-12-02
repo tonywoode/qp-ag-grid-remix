@@ -178,12 +178,12 @@ export default function Grid() {
       (file: string) => { console.log('double clicked on file in zip', file) }
     )
     return (
-      <div className="overflow-y-auto h-full"> {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
+      <div className="p-2 overflow-y-auto h-full"> {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
         <div> 
           {files.map((file, index) => (
             <div
               key={index}
-              className="hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative"
+              className="hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative py-1"
               onClick={e => handleFileSingleClick(file)}
               onDoubleClick={e => handleFileDoubleClick(file)}
               onContextMenu={e => {
@@ -195,7 +195,7 @@ export default function Grid() {
                   parentNode: parentNode 
                 })
               }}
-              tabIndex={0}
+              tabIndex={0} //TODO you lost the comment saying why we need this...
             >{file}</div>
           ))}
         </div>
@@ -280,14 +280,22 @@ export default function Grid() {
     // getRowHeight: (params): number | undefined | null => params.data.rowHeight, 
     getRowHeight: params => {
       if (params.data.fullWidth) {
-        const gridSize = 6; // Example value for --ag-grid-size
-        const fontSize = 14; // Example value for --ag-font-size
+        const maxItems = 150;
+        const maxHeight = 400;
+        const fontSize = 14;
         const zoomLevel = window.devicePixelRatio;
-        console.log('zoom level: ', zoomLevel)
-        const actualFontSize = fontSize * zoomLevel;
-        const rowHeight = actualFontSize * 1.12; // Assuming row height is 1.2 times the font size
-        const padding = gridSize * 2 * zoomLevel; // Adjust padding based on zoom level
-        return (params.data.files.length * rowHeight) + padding;
+        console.log('zoom level is ' + zoomLevel)
+        // Even slightly more aggressive dampening
+        const zoomMultiplier = Math.sqrt(zoomLevel) 
+        const actualFontSize = fontSize * zoomMultiplier
+        // Very slightly increased line height multiplier
+        const padding = 16 / zoomMultiplier;
+        const rowHeight = actualFontSize + padding;
+        
+        const itemCount = Math.min(params.data.files.length, maxItems);
+        const calculatedHeight = (itemCount * rowHeight) + padding;
+        
+        return Math.min(calculatedHeight, maxHeight);
       }
       return undefined;
     },
