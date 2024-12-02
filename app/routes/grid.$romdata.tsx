@@ -178,7 +178,7 @@ export default function Grid() {
       (file: string) => { console.log('double clicked on file in zip', file) }
     )
     return (
-      <div className="pt-5 overflow-y-auto h-full"> {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
+      <div className="pt-3.5 pl-3 overflow-y-auto h-full"> {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
         <div> 
           {files.map((file, index) => (
             <div
@@ -282,7 +282,7 @@ export default function Grid() {
       if (params.data.fullWidth) {
         const maxItems = 150;
         const maxHeight = 400;
-        const fontSize = 12;
+        const fontSize = 9;
         const zoomLevel = window.devicePixelRatio;
         console.log('zoom level is ' + zoomLevel)
         // Even slightly more aggressive dampening
