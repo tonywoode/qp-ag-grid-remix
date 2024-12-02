@@ -178,12 +178,12 @@ export default function Grid() {
       (file: string) => { console.log('double clicked on file in zip', file) }
     )
     return (
-      <div className="p-2 overflow-y-auto h-full"> {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
+      <div className="pt-5 overflow-y-auto h-full"> {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
         <div> 
           {files.map((file, index) => (
             <div
               key={index}
-              className="hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative py-1"
+              className="hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative py-1.5"
               onClick={e => handleFileSingleClick(file)}
               onDoubleClick={e => handleFileDoubleClick(file)}
               onContextMenu={e => {
@@ -282,14 +282,14 @@ export default function Grid() {
       if (params.data.fullWidth) {
         const maxItems = 150;
         const maxHeight = 400;
-        const fontSize = 14;
+        const fontSize = 12;
         const zoomLevel = window.devicePixelRatio;
         console.log('zoom level is ' + zoomLevel)
         // Even slightly more aggressive dampening
         const zoomMultiplier = Math.sqrt(zoomLevel) 
         const actualFontSize = fontSize * zoomMultiplier
         // Very slightly increased line height multiplier
-        const padding = 16 / zoomMultiplier;
+        const padding = 24 / zoomMultiplier;
         const rowHeight = actualFontSize + padding;
         
         const itemCount = Math.min(params.data.files.length, maxItems);
