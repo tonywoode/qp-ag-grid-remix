@@ -280,22 +280,25 @@ export default function Grid() {
     // getRowHeight: (params): number | undefined | null => params.data.rowHeight, 
     getRowHeight: params => {
       if (params.data.fullWidth) {
-        const maxItems = 150;
-        const maxHeight = 400;
-        const fontSize = 9;
-        const zoomLevel = window.devicePixelRatio;
-        console.log('zoom level is ' + zoomLevel)
-        // Even slightly more aggressive dampening
-        const zoomMultiplier = Math.sqrt(zoomLevel) 
-        const actualFontSize = fontSize * zoomMultiplier
-        // Very slightly increased line height multiplier
-        const padding = 24 / zoomMultiplier;
-        const rowHeight = actualFontSize + padding;
-        
-        const itemCount = Math.min(params.data.files.length, maxItems);
-        const calculatedHeight = (itemCount * rowHeight) + padding;
-        
-        return Math.min(calculatedHeight, maxHeight);
+        const gridSize = 6; // --ag-grid-size in px
+        const fontSize = 14; // --ag-font-size in px
+        const zoomLevel = 1.2678762674331665 
+    
+        const adjustedGridSize = gridSize * zoomLevel;
+        const adjustedFontSize = fontSize * zoomLevel;
+    
+        const paddingTop = adjustedGridSize * 3.5; // Convert to pixels
+        const paddingBetweenItems = adjustedGridSize * 1.5; // Convert to pixels
+        const rowHeight = adjustedFontSize + paddingBetweenItems;
+    
+        const maxItemsUntilScrolling = 150;
+        const itemCount = params.data.files.length;
+    
+        if (itemCount > maxItemsUntilScrolling) {
+          return (maxItemsUntilScrolling * rowHeight) + paddingTop;
+        } else {
+          return (itemCount * rowHeight) + paddingTop;
+        }
       }
       return undefined;
     },
