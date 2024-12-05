@@ -282,7 +282,8 @@ export default function Grid() {
       if (params.data.fullWidth) {
         const gridSize = 6; // --ag-grid-size in px
         const fontSize = 14; // --ag-font-size in px
-        const zoomLevel = 1.2678762674331665 
+        //magic number 1.2678 is my preferred zoom level, yet seems to work well on a variety of zoom levels and resolutions!
+        const zoomLevel = 1.283 //1.2678762674331665 
     
         const adjustedGridSize = gridSize * zoomLevel;
         const adjustedFontSize = fontSize * zoomLevel;
@@ -290,8 +291,8 @@ export default function Grid() {
         const paddingTop = adjustedGridSize * 3.5; // Convert to pixels
         const paddingBetweenItems = adjustedGridSize * 1.5; // Convert to pixels
         const rowHeight = adjustedFontSize + paddingBetweenItems;
-    
-        const maxItemsUntilScrolling = 150;
+
+        const maxItemsUntilScrolling = 15000000;
         const itemCount = params.data.files.length;
     
         if (itemCount > maxItemsUntilScrolling) {
