@@ -174,29 +174,37 @@ export default function Grid() {
     const parentNode = params.data.parent
     const files = params.data.files
     const [handleFileSingleClick, handleFileDoubleClick] = useClickPreventionOnDoubleClick(
-      (file: string) => { console.log('clicked on file in zip', file) },
-      (file: string) => { console.log('double clicked on file in zip', file) }
+      (file: string) => {
+        console.log('clicked on file in zip', file)
+      },
+      (file: string) => {
+        console.log('double clicked on file in zip', file)
+      }
     )
     return (
-      <div className="pt-3.5 pl-3 overflow-y-auto h-full"> {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
-        <div> 
+      <div className="pt-2 pl-3 overflow-y-auto h-full">
+        {' '}
+        {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
+        <div>
           {files.map((file, index) => (
             <div
               key={index}
-              className="hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative py-1.5"
+              className="hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative py-1"
               onClick={e => handleFileSingleClick(file)}
               onDoubleClick={e => handleFileDoubleClick(file)}
               onContextMenu={e => {
-                setContextMenu({ 
+                setContextMenu({
                   type: 'zip',
-                  x: e.clientX, 
-                  y: e.clientY, 
-                  fileInZip: file, 
-                  parentNode: parentNode 
+                  x: e.clientX,
+                  y: e.clientY,
+                  fileInZip: file,
+                  parentNode: parentNode
                 })
               }}
               tabIndex={0} //TODO you lost the comment saying why we need this...
-            >{file}</div>
+            >
+              {file}
+            </div>
           ))}
         </div>
       </div>
@@ -209,25 +217,25 @@ export default function Grid() {
     api.forEachNode(node => {
       if (node !== focusedNode) node.setSelected(false)
     })
-    if ( focusedNode.data.fullWidth !== true) focusedNode.setSelected(true) //TODO: is fullWidth check required/sensible?
+    if (focusedNode.data.fullWidth !== true) focusedNode.setSelected(true) //TODO: is fullWidth check required/sensible?
   }
 
   //more ag-grid community workarounds: expanded rows are going to lose their order if we sort
   const createComparator = (field: string) => {
     return (valueA: any, valueB: any, nodeA: any, nodeB: any, isDescending: boolean) => {
-      const nodeAId = nodeA.data?.id 
-      const nodeBId = nodeB.data?.id 
+      const nodeAId = nodeA.data?.id
+      const nodeBId = nodeB.data?.id
       const parentAId = nodeA.data?.parentId
       const parentBId = nodeB.data?.parentId
-      const isNodeAFullWidth = nodeA.data?.fullWidth     
-      const isNodeBFullWidth = nodeB.data?.fullWidth     
+      const isNodeAFullWidth = nodeA.data?.fullWidth
+      const isNodeBFullWidth = nodeB.data?.fullWidth
       // If one is a full-width row, compare based on parent
       if (isNodeAFullWidth || isNodeBFullWidth) {
         // In descending order, check if this is an expanded row and its parent is below it
         if (isDescending) {
           // If nodeA is expanded row, check if nodeB is its parent
           if (isNodeAFullWidth && nodeBId === parentAId) {
-            return -1  // Force expanded row after parent
+            return -1 // Force expanded row after parent
           }
         }
         if (parentAId === nodeBId) return 1
@@ -248,7 +256,7 @@ export default function Grid() {
   }
 
   //TODO: should be encapsulating actual data fields under a key
-  const ignoreFields = [ 'iconBase64', 'id', 'fullWidth', 'parentId', 'parentData', 'files', 'parent' ]
+  const ignoreFields = ['iconBase64', 'id', 'fullWidth', 'parentId', 'parentData', 'files', 'parent']
 
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const fieldsInRomdata = [...new Set(romdata.flatMap(Object.keys))]
@@ -256,12 +264,12 @@ export default function Grid() {
     zipColumn,
     iconColumn,
     ...fieldsInRomdata
-    .filter(field => !ignoreFields.includes(field)) 
+      .filter(field => !ignoreFields.includes(field))
       .map(field => ({
         field,
         editable: isEditable,
         valueGetter: field === 'path' ? removeGamesDirPrefix : undefined,
-        comparator: createComparator(field),
+        comparator: createComparator(field)
       }))
   ]
 
@@ -277,31 +285,27 @@ export default function Grid() {
     rowHeight: 30, //this does not play well with auto-height in the zip cell renderer, try scrolling
     headerHeight: 36,
     floatingFiltersHeight: 28,
-    // getRowHeight: (params): number | undefined | null => params.data.rowHeight, 
+    // getRowHeight: (params): number | undefined | null => params.data.rowHeight,
     getRowHeight: params => {
       if (params.data.fullWidth) {
-        const gridSize = 6; // --ag-grid-size in px
-        const fontSize = 14; // --ag-font-size in px
-        //magic number 1.2678 is my preferred zoom level, yet seems to work well on a variety of zoom levels and resolutions!
-        const zoomLevel = 1.283 //1.2678762674331665 
-    
-        const adjustedGridSize = gridSize * zoomLevel;
-        const adjustedFontSize = fontSize * zoomLevel;
-    
-        const paddingTop = adjustedGridSize * 3.5; // Convert to pixels
-        const paddingBetweenItems = adjustedGridSize * 1.5; // Convert to pixels
-        const rowHeight = adjustedFontSize + paddingBetweenItems;
-
-        const maxItemsUntilScrolling = 15000000;
-        const itemCount = params.data.files.length;
-    
+        const gridSize = 6 // --ag-grid-size in px
+        const fontSize = 14 // --ag-font-size in px
+        //this magic is one of the zoom levels, on grid-size 6 it worked well at all zoom levels and allow padding to be varied
+        const internalPaddingScale = 1.267876267433166 // Scaling factor accounting for internal grid padding
+        const adjustedGridSize = gridSize * internalPaddingScale
+        const adjustedFontSize = fontSize * internalPaddingScale
+        const paddingTop = adjustedGridSize * 2 // Convert to pixels
+        const paddingBetweenItems = adjustedGridSize * 1 // Convert to pixels
+        const rowHeight = adjustedFontSize + paddingBetweenItems
+        const maxItemsUntilScrolling = 150
+        const itemCount = params.data.files.length
         if (itemCount > maxItemsUntilScrolling) {
-          return (maxItemsUntilScrolling * rowHeight) + paddingTop;
+          return maxItemsUntilScrolling * rowHeight + paddingTop
         } else {
-          return (itemCount * rowHeight) + paddingTop;
+          return itemCount * rowHeight + paddingTop
         }
       }
-      return undefined;
+      return undefined
     },
     // fullWidthCellRendererParams: { suppressPadding: true },
     isFullWidthRow: params => params.rowNode.data?.fullWidth === true,
@@ -312,12 +316,12 @@ export default function Grid() {
       const keyPressed = e.event.key
       console.log('event.key is ' + keyPressed)
       //don't multiple select when arrow keys used for navigation
-      if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') preventMultipleSelect(e.api) 
-        else if (keyPressed === 'Enter') {
-          const { path, defaultGoodMerge, emulatorName } = e.node.data
-          runGame(path, defaultGoodMerge, emulatorName)
-        }
-        //prevent the 'i' key from entering field edit whilst trying to type a filter (no idea why it does this)
+      if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') preventMultipleSelect(e.api)
+      else if (keyPressed === 'Enter') {
+        const { path, defaultGoodMerge, emulatorName } = e.node.data
+        runGame(path, defaultGoodMerge, emulatorName)
+      }
+      //prevent the 'i' key from entering field edit whilst trying to type a filter (no idea why it does this)
       else if (keyPressed === 'i') e.event.preventDefault()
     },
     onRowSelected: async function (event) {
@@ -353,7 +357,7 @@ export default function Grid() {
       params.data.fullWidth ? params.data.parentId + '-expanded' : params.data.id || params.data.name,
     animateRows: true, //needs getRowId to be set see https://www.youtube.com/watch?v=_V5qFr62uhY
     //prevent the whole full-width row going blue on selection
-    getRowStyle: params =>  params.data.fullWidth && {'--ag-selected-row-background-color': 'white'}
+    getRowStyle: params => params.data.fullWidth && { '--ag-selected-row-background-color': 'white' }
     // onSortChanged: updateRowData,
     // onFilterChanged: updateRowData
   }
