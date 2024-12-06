@@ -14,7 +14,6 @@ import { loadIconBase64 } from '~/loadImages.server'
 
 
 export async function loader({ params }: LoaderFunctionArgs) {
-  console.log('the loader reran')
   const romdataLink = decodeString(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
   const romdata = romdataBlob.romdata
@@ -27,7 +26,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
         ...item,
         id: index, //we save the index to give each item a unique id, to try and keep parents and children together
         iconBase64: iconBase64 || defaultIconBase64,
-        fullWidth: false 
+        fullWidth: false
       }
     })
   )
@@ -35,6 +34,8 @@ export async function loader({ params }: LoaderFunctionArgs) {
 }
 
 export default function Grid() {
+  const gridSize = 6 // --ag-grid-size in px
+  const fontSize = 14 // --ag-font-size in px
   const { romdata } = useLoaderData<typeof loader>()
   const [rowdata, setRowdata] = useState(romdata) //another option would have been to use grid-api rather than react state
   const params = useParams()
@@ -111,6 +112,7 @@ export default function Grid() {
     )
   }
   //TODO: what if either an individual entry, or the whole list, don't link to a compressed file?
+  //AG-grid community doesn't support master/detail, so we have to fake it with full-width rows
   const toggleExpandedRow = async (rowId: string, api: any, node: any) => {
     const expandedNode = api.getRowNode(`${rowId}-expanded`)
     if (expandedNode) {
@@ -141,7 +143,6 @@ export default function Grid() {
         parentId: rowId,
         parentData: node.data, //fraid so, how else can we satisfy comparison
         files: files
-        // rowHeight: (node.rowHeight / 2) * (files.length + 1)
       }
       // Insert after current parent position
       if (parentIndex !== -1) {
@@ -202,7 +203,7 @@ export default function Grid() {
                   parentNode: parentNode
                 })
               }}
-              tabIndex={0} //TODO you lost the comment saying why we need this...
+              tabIndex={0} //focusable for TW pseudo selectors to work
             >
               {file}
             </div>
@@ -221,7 +222,7 @@ export default function Grid() {
     if (focusedNode.data.fullWidth !== true) focusedNode.setSelected(true) //TODO: is fullWidth check required/sensible?
   }
 
-  //more ag-grid community workarounds: expanded rows are going to lose their order if we sort
+  //more ag-grid community workarounds: we can't use master/detail, so expanded rows are going to lose their order if we sort
   const createComparator = (field: string) => {
     return (valueA: any, valueB: any, nodeA: any, nodeB: any, isDescending: boolean) => {
       const nodeAId = nodeA.data?.id
@@ -286,15 +287,15 @@ export default function Grid() {
     rowHeight: 30, //this does not play well with auto-height in the zip cell renderer, try scrolling
     headerHeight: 36,
     floatingFiltersHeight: 28,
-    // getRowHeight: (params): number | undefined | null => params.data.rowHeight,
+    //can't use master/detail in a-g grid community, so we have to work out height ourselves. If the gridSize is changed, the magic numbers here may have to be ascertained from console, and changed
     getRowHeight: params => {
       if (params.data.fullWidth) {
-        const effectiveFontSize = 16 // --ag-font-size + the 1px alpine theme adds, plus 1px for? 
-        const paddingTop = effectiveFontSize / 2 //8px at 16 fontSize: py1 on full-height container ie: 4px top and bottom
+        const effectiveFontSize = fontSize + 2 // ag-grid alpine-theme adds 1px, something else adds another 1px?
+        const paddingTop = effectiveFontSize / 2 //8px at 16 effectiveFontSize matches py1 on full-height container ie: 4px top and bottom
         const effectiveOuterPadding = paddingTop + 1 //ag-grid adds 1px padding somewhere: theres still some scroll without it!
-        const paddingBetweenItems = effectiveFontSize / 2  //py1 on each item
+        const paddingBetweenItems = effectiveFontSize / 2 //py1 on each item
         const textPadding = 1.5 //from console, text elements are 17.5px tall on effectiveFontSize 16, assume ag-grids adding this somewhere
-        const rowItemHeight = effectiveFontSize + textPadding + paddingBetweenItems //25.5 on fontSize 16 
+        const rowItemHeight = effectiveFontSize + textPadding + paddingBetweenItems //25.5 on fontSize 16
         const maxItemsUntilScrolling = 15 //dont scroll for days if there are many full-width items, v.offputting!
         const itemCount = params.data.files.length
         return itemCount > maxItemsUntilScrolling
@@ -302,9 +303,9 @@ export default function Grid() {
           : itemCount * rowItemHeight + effectiveOuterPadding
       }
     },
-    // fullWidthCellRendererParams: { suppressPadding: true },
     isFullWidthRow: params => params.rowNode.data?.fullWidth === true,
     fullWidthCellRenderer,
+    // fullWidthCellRendererParams: { suppressPadding: true },
     onCellClicked: handleSingleClick,
     onCellDoubleClicked: handleDoubleClick,
     onCellKeyDown: (e: CellKeyDownEvent) => {
@@ -367,9 +368,9 @@ export default function Grid() {
             style={{
               height: '100%',
               width: '100%',
-              //some props only workin in grid options, these only as styles: https://www.ag-grid.com/react-data-grid/global-style-customisation-compactness/
-              '--ag-font-size': '14px',
-              '--ag-grid-size': '6px'
+              //some props only work in in grid options, these only as styles: https://www.ag-grid.com/react-data-grid/global-style-customisation-compactness/
+              '--ag-font-size': `${fontSize}px`,
+              '--ag-grid-size': `${gridSize}px`
               // '--ag-row-height': '30', //oddly this doesn't do the same as rowHeight in grid options, seems to just move each rows text uncomfortably to the top?
             }}
           >
