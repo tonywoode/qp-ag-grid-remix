@@ -14,6 +14,7 @@ import { loadIconBase64 } from '~/loadImages.server'
 
 
 export async function loader({ params }: LoaderFunctionArgs) {
+  console.log('the loader reran')
   const romdataLink = decodeString(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
   const romdata = romdataBlob.romdata
@@ -40,28 +41,30 @@ export default function Grid() {
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState<{ rowIndex: number; colKey: string } | null>(null)
-  type BaseContextMenu = { x: number, y: number }
-  type RomContextMenu = BaseContextMenu & { 
-    type: 'rom', 
-    path: string,
-    defaultGoodMerge: string,
+  type BaseContextMenu = { x: number; y: number }
+  type RomContextMenu = BaseContextMenu & {
+    type: 'rom'
+    path: string
+    defaultGoodMerge: string
     emulatorName: string
   }
-  type ZipContextMenu = BaseContextMenu & { 
-    type: 'zip', 
-    fileInZip: string, 
-    parentNode: object 
+  type ZipContextMenu = BaseContextMenu & {
+    type: 'zip'
+    fileInZip: string
+    parentNode: object
   }
   type ContextMenu = RomContextMenu | ZipContextMenu
 
   const [contextMenu, setContextMenu] = useState<ContextMenu | null>(null)
-  useEffect(() => { //when right-click grid menus are opened, close them when clicking anywhere else in the app
+  useEffect(() => {
+    //when right-click grid menus are opened, close them when clicking anywhere else in the app
     const handleClickOutside = () => setContextMenu(null)
     document.addEventListener('click', handleClickOutside)
     return () => document.removeEventListener('click', handleClickOutside)
   }, [])
 
-  useEffect(() => { //TODO: why is this required, since the loader should rerun when changing systems
+  useEffect(() => {
+    //TODO: why is this required, since the loader should rerun when changing systems
     setRowdata(romdata)
   }, [romdata])
 
@@ -77,7 +80,7 @@ export default function Grid() {
     },
     (e: CellClickedEvent) => {
       const { path, defaultGoodMerge, emulatorName } = e.node.data
-  runGame(path, defaultGoodMerge, emulatorName)
+      runGame(path, defaultGoodMerge, emulatorName)
     }
   )
 
@@ -114,7 +117,7 @@ export default function Grid() {
       // Find current position of expanded row
       let currentIndex = -1
       api.forEachNode((node, index) => {
-        if (node.data?.id === `${rowId}-expanded`) currentIndex = index 
+        if (node.data?.id === `${rowId}-expanded`) currentIndex = index
       })
       //collapse row
       if (currentIndex !== -1) {
@@ -129,7 +132,7 @@ export default function Grid() {
       // Find current position of parent
       let parentIndex = -1
       api.forEachNode((n, index) => {
-        if (n.data?.id === rowId) parentIndex = index 
+        if (n.data?.id === rowId) parentIndex = index
       })
       const expandedRowNode = {
         id: `${rowId}-expanded`,
@@ -137,7 +140,7 @@ export default function Grid() {
         parent: node,
         parentId: rowId,
         parentData: node.data, //fraid so, how else can we satisfy comparison
-        files: files,
+        files: files
         // rowHeight: (node.rowHeight / 2) * (files.length + 1)
       }
       // Insert after current parent position
@@ -182,14 +185,12 @@ export default function Grid() {
       }
     )
     return (
-      <div className="pt-2 pl-3 overflow-y-auto h-full">
-        {' '}
-        {/* <div style={{padding: '4px'}}> {/*basing this on rem is prob a bad idea, we need pixel accuracy*/}
+      <div className={`py-1 pl-3 overflow-y-auto h-full`}>
         <div>
           {files.map((file, index) => (
             <div
               key={index}
-              className="hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative py-1"
+              className={`hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative py-1`}
               onClick={e => handleFileSingleClick(file)}
               onDoubleClick={e => handleFileDoubleClick(file)}
               onContextMenu={e => {
@@ -288,24 +289,18 @@ export default function Grid() {
     // getRowHeight: (params): number | undefined | null => params.data.rowHeight,
     getRowHeight: params => {
       if (params.data.fullWidth) {
-        const gridSize = 6 // --ag-grid-size in px
-        const fontSize = 14 // --ag-font-size in px
-        //this magic is one of the zoom levels, on grid-size 6 it worked well at all zoom levels and allow padding to be varied
-        const internalPaddingScale = 1.267876267433166 // Scaling factor accounting for internal grid padding
-        const adjustedGridSize = gridSize * internalPaddingScale
-        const adjustedFontSize = fontSize * internalPaddingScale
-        const paddingTop = adjustedGridSize * 2 // Convert to pixels
-        const paddingBetweenItems = adjustedGridSize * 1 // Convert to pixels
-        const rowHeight = adjustedFontSize + paddingBetweenItems
-        const maxItemsUntilScrolling = 150
+        const effectiveFontSize = 16 // --ag-font-size + the 1px alpine theme adds, plus 1px for? 
+        const paddingTop = effectiveFontSize / 2 //8px at 16 fontSize: py1 on full-height container ie: 4px top and bottom
+        const effectiveOuterPadding = paddingTop + 1 //ag-grid adds 1px padding somewhere: theres still some scroll without it!
+        const paddingBetweenItems = effectiveFontSize / 2  //py1 on each item
+        const textPadding = 1.5 //from console, text elements are 17.5px tall on effectiveFontSize 16, assume ag-grids adding this somewhere
+        const rowItemHeight = effectiveFontSize + textPadding + paddingBetweenItems //25.5 on fontSize 16 
+        const maxItemsUntilScrolling = 15 //dont scroll for days if there are many full-width items, v.offputting!
         const itemCount = params.data.files.length
-        if (itemCount > maxItemsUntilScrolling) {
-          return maxItemsUntilScrolling * rowHeight + paddingTop
-        } else {
-          return itemCount * rowHeight + paddingTop
-        }
+        return itemCount > maxItemsUntilScrolling
+          ? maxItemsUntilScrolling * rowItemHeight + effectiveOuterPadding
+          : itemCount * rowItemHeight + effectiveOuterPadding
       }
-      return undefined
     },
     // fullWidthCellRendererParams: { suppressPadding: true },
     isFullWidthRow: params => params.rowNode.data?.fullWidth === true,
@@ -366,19 +361,19 @@ export default function Grid() {
     <>
       <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
         {[
-          <div key="grid" className="ag-theme-alpine"   style={{ 
-            height: '100%', 
-            width: '100%',
-            //some props only workin in grid options, these only as styles: https://www.ag-grid.com/react-data-grid/global-style-customisation-compactness/
-            '--ag-font-size': '14px',
-           '--ag-grid-size': '6px',
-            // '--ag-row-height': '30', //oddly this doesn't do the same as rowHeight in grid options, seems to just move each rows text uncomfortably to the top?
-          }}>
-            <AgGridReact
-              rowData={rowdata}
-              columnDefs={columnDefs}
-              gridOptions={gridOptions}
-            />
+          <div
+            key="grid"
+            className="ag-theme-alpine"
+            style={{
+              height: '100%',
+              width: '100%',
+              //some props only workin in grid options, these only as styles: https://www.ag-grid.com/react-data-grid/global-style-customisation-compactness/
+              '--ag-font-size': '14px',
+              '--ag-grid-size': '6px'
+              // '--ag-row-height': '30', //oddly this doesn't do the same as rowHeight in grid options, seems to just move each rows text uncomfortably to the top?
+            }}
+          >
+            <AgGridReact rowData={rowdata} columnDefs={columnDefs} gridOptions={gridOptions} />
           </div>,
           <div key="mediaPanel" className="h-full overflow-auto">
             <Outlet key="outlet" />
@@ -411,7 +406,8 @@ export default function Grid() {
               >
                 Set as Default
               </li>
-            ) : ( //contextMenu.type === 'rom'
+            ) : (
+              //contextMenu.type === 'rom'
               <>
                 <li
                   className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
