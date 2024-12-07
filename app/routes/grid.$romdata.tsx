@@ -42,6 +42,7 @@ export default function Grid() {
   const navigate = useNavigate()
   const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState<{ rowIndex: number; colKey: string } | null>(null)
+  const [gridKey, setGridKey] = useState(0) //force re-render of grid when romdata changes, no react reconciliation (else icons don't refresh properly)
   type BaseContextMenu = { x: number; y: number }
   type RomContextMenu = BaseContextMenu & {
     type: 'rom'
@@ -65,8 +66,10 @@ export default function Grid() {
   }, [])
 
   useEffect(() => {
-    //TODO: why is this required, since the loader should rerun when changing systems
+    // Update the row data in the grid
     setRowdata(romdata)
+    // Increment the key to force re-render
+    setGridKey(prevKey => prevKey + 1)
   }, [romdata])
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
@@ -374,7 +377,7 @@ export default function Grid() {
               // '--ag-row-height': '30', //oddly this doesn't do the same as rowHeight in grid options, seems to just move each rows text uncomfortably to the top?
             }}
           >
-            <AgGridReact rowData={rowdata} columnDefs={columnDefs} gridOptions={gridOptions} />
+            <AgGridReact key={gridKey} rowData={rowdata} columnDefs={columnDefs} gridOptions={gridOptions} />
           </div>,
           <div key="mediaPanel" className="h-full overflow-auto">
             <Outlet key="outlet" />
