@@ -4,14 +4,13 @@ import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
 import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupDef, EditableCallbackParams } from 'ag-grid-community'
 import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import type { LoaderFunctionArgs } from '@remix-run/node'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Split from 'react-split'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
 import { encodeString, decodeString } from '~/utils/safeUrl'
 import { loadMameIconBase64 } from '~/loadMameIcons.server'
 import { loadIconBase64 } from '~/loadImages.server'
-
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
@@ -43,6 +42,9 @@ export default function Grid() {
   const fetcher = useFetcher<typeof runGameAction>()
   const [clickedCell, setClickedCell] = useState<{ rowIndex: number; colKey: string } | null>(null)
   const [gridKey, setGridKey] = useState(0) //force re-render of grid when romdata changes, no react reconciliation (else icons don't refresh properly)
+  const searchTextRef = useRef('')
+  const lastKeyPressTimeRef = useRef(0)
+  const searchTimeoutRef = useRef<number | null>(null)
   type BaseContextMenu = { x: number; y: number }
   type RomContextMenu = BaseContextMenu & {
     type: 'rom'
@@ -315,15 +317,45 @@ export default function Grid() {
     onCellDoubleClicked: handleDoubleClick,
     onCellKeyDown: (e: CellKeyDownEvent) => {
       const keyPressed = e.event.key
-      console.log('event.key is ' + keyPressed)
-      //don't multiple select when arrow keys used for navigation
-      if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') preventMultipleSelect(e.api)
-      else if (keyPressed === 'Enter') {
+      const timestamp = e.event.timeStamp
+      //check if key is a character key
+      if (keyPressed.length === 1 && keyPressed.match(/\S/)) {
+        e.event.preventDefault()
+        //compute time since last key press
+        const timeSinceLastKeyPress = timestamp - lastKeyPressTimeRef.current
+        //compute new search text
+        let newSearchText = ''
+        if (timeSinceLastKeyPress > 400) newSearchText = keyPressed
+        else newSearchText = searchTextRef.current + keyPressed
+        searchTextRef.current = newSearchText
+        lastKeyPressTimeRef.current = timestamp
+        //clear any existing timeout
+        if (searchTimeoutRef.current) clearTimeout(searchTimeoutRef.current)
+        //reset search text after 1 sec of inactivity
+        searchTimeoutRef.current = window.setTimeout(() => (searchTextRef.current = ''), 1000)
+        //perform search and navigate to matching row using newSearchText
+        const api = e.api
+        let startIndex = e.node.rowIndex + 1
+        const rowCount = api.getDisplayedRowCount()
+        for (let i = 0; i < rowCount; i++) {
+          const rowIndex = (startIndex + i) % rowCount
+          const node = api.getDisplayedRowAtIndex(rowIndex)
+          const data = node.data
+          if (data.fullWidth) continue // Skip fullWidth rows
+          const cellValue = data.name?.toString().toLowerCase()
+          if (cellValue && cellValue.startsWith(newSearchText.toLowerCase())) {
+            api.ensureIndexVisible(rowIndex, 'middle')
+            api.setFocusedCell(rowIndex, 'name')
+            node.setSelected(true, true) //select the row
+            break
+          }
+        }
+      } else if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') {
+        preventMultipleSelect(e.api)
+      } else if (keyPressed === 'Enter') {
         const { path, defaultGoodMerge, emulatorName } = e.node.data
         runGame(path, defaultGoodMerge, emulatorName)
       }
-      //prevent the 'i' key from entering field edit whilst trying to type a filter (no idea why it does this)
-      else if (keyPressed === 'i') e.event.preventDefault()
     },
     onRowSelected: async function (event) {
       if (event.node.selected && event.node.data.fullWidth !== true) {
