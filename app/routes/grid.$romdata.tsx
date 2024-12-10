@@ -154,11 +154,14 @@ export default function Grid() {
         parentData: node.data, //fraid so, how else can we satisfy comparison - TODO: now we put the props directly in the expanded row, this needs removal/reworking
         files: files
       }
-      // Insert after current parent position
+      //insert after current parent position
       if (parentIndex !== -1) {
         rowdata.splice(parentIndex + 1, 0, expandedRowNode)
         setRowdata([...rowdata])
       }
+      //restore focus to the grid (keyboard navigation stops if you expand a row, until you click on a row again)
+      //a stretch goal might be to keyboard-navigate the expanded rows, and have some way to exit that back to the grid....
+      setTimeout(() => api.setFocusedCell(node.rowIndex, 'name'), 0)
     }
   }
 
