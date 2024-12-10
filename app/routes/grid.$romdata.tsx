@@ -286,7 +286,21 @@ export default function Grid() {
   console.table(columnDefs)
   const gridOptions: GridOptions = {
     columnDefs,
-    defaultColDef: { flex: 1, minWidth: 150, resizable: true, sortable: true, filter: true, floatingFilter: true },
+    defaultColDef: {
+      flex: 1,
+      minWidth: 150,
+      resizable: true,
+      sortable: true,
+      filter: true,
+      floatingFilter: true,
+      //if a printable char's pressed, and we're not editing, suppress the default editing behavior (don't start editing when we're trying to navigate to a romname)
+      suppressKeyboardEvent: params => {
+        const { event, editing } = params
+        const key = event.key
+        if (!editing && key.length === 1 && key.match(/\S/)) return true
+        return false
+      }
+    },
     rowSelection: 'multiple',
     singleClickEdit: true,
     enableGroupEdit: true,
