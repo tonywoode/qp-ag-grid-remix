@@ -95,6 +95,9 @@ export default function Grid() {
     )
   }
 
+  //TODO: should be encapsulating actual data fields under a key, this is now required both for grid creation and filtering
+  const ignoreFields = ['iconBase64', 'id', 'fullWidth', 'parentId', 'parentData', 'files', 'parent']
+
   const isEditable = (params: EditableCallbackParams) =>
     !!(clickedCell && params.node.rowIndex === clickedCell.rowIndex && params.column.getColId() === clickedCell.colKey)
 
@@ -140,11 +143,13 @@ export default function Grid() {
         if (n.data?.id === rowId) parentIndex = index
       })
       const expandedRowNode = {
+        //put the parents DOMAIN props in the expanded row, so that filtering filters the expanded rows too, obv this goes first in the props!
+        ...Object.fromEntries(Object.entries(node.data).filter(([key]) => !ignoreFields.includes(key))),
         id: `${rowId}-expanded`,
         fullWidth: true,
         parent: node,
         parentId: rowId,
-        parentData: node.data, //fraid so, how else can we satisfy comparison
+        parentData: node.data, //fraid so, how else can we satisfy comparison - TODO: now we put the props directly in the expanded row, this needs removal/reworking
         files: files
       }
       // Insert after current parent position
@@ -259,9 +264,6 @@ export default function Grid() {
       return 0
     }
   }
-
-  //TODO: should be encapsulating actual data fields under a key
-  const ignoreFields = ['iconBase64', 'id', 'fullWidth', 'parentId', 'parentData', 'files', 'parent']
 
   // get ALL keys from all objects, use a set and iterate, then map to ag-grid columnDef fields
   const fieldsInRomdata = [...new Set(romdata.flatMap(Object.keys))]
