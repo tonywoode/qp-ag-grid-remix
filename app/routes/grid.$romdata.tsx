@@ -193,20 +193,42 @@ export default function Grid() {
     const [handleFileSingleClick, handleFileDoubleClick] = useClickPreventionOnDoubleClick(
       (file: string) => {
         console.log('clicked on file in zip', file)
+        //if we aren't on the parent's media panel data (v.important we aren't or the grid will reset), navigate to the parent ROM's url
+        //TODO: duping logic in onRowSelected, plus a bad way of composing/checking the url
+        const { system, name, mameName, parentName } = parentNode.data
+        const basePath = window.location.pathname.split('/').slice(0, -2).join('/')
+        const targetUrl = `${basePath}/${encodeString(system)}/${encodeString(name)}`
+        const currentUrl = `${window.location.pathname}${window.location.search}`
+        console.log('targetUrl', targetUrl)
+        console.log('currentUrl', currentUrl)
+        console.log('does current url match target?', currentUrl === targetUrl)
+        if (currentUrl !== targetUrl) {
+          navigate(targetUrl, {
+            state: {
+              ...(mameName != null && { mameName }),
+              ...(parentName != null && { parentName })
+            }
+          })
+        }
       },
       (file: string) => {
         console.log('double clicked on file in zip', file)
       }
     )
+
     return (
-      <div className={`py-1 pl-3 overflow-y-auto h-full`}>
+      <div className="py-1 pl-3 overflow-y-auto h-full">
         <div>
           {files.map((file, index) => (
             <div
               key={index}
-              className={`hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative py-1`}
-              onClick={e => handleFileSingleClick(file)}
-              onDoubleClick={e => handleFileDoubleClick(file)}
+              className="hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-100 cursor-pointer relative py-1"
+              onClick={e => {
+                handleFileSingleClick(file)
+              }}
+              onDoubleClick={e => {
+                handleFileDoubleClick(file)
+              }}
               onContextMenu={e => {
                 setContextMenu({
                   type: 'zip',
@@ -216,7 +238,7 @@ export default function Grid() {
                   parentNode: parentNode
                 })
               }}
-              tabIndex={0} //focusable for TW pseudo selectors to work
+              tabIndex={0} // focusable for TW pseudo selectors to work
             >
               {file}
             </div>
