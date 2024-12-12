@@ -322,7 +322,7 @@ export default function Grid() {
       suppressKeyboardEvent: params => {
         const { event, editing } = params
         const key = event.key
-        if (!editing && key.length === 1 && key.match(/\S/)) return true
+        if (!editing && key.length === 1 && key.match(/\S/) && key !== 'Enter') return true
         return false
       }
     },
@@ -357,9 +357,12 @@ export default function Grid() {
     onCellKeyDown: (e: CellKeyDownEvent) => {
       const keyPressed = e.event.key
       const timestamp = e.event.timeStamp
+      const editing = e.api
+        .getEditingCells()
+        .some(cell => cell.rowIndex === e.node.rowIndex && cell.column.getId() === e.column.getId())
+      console.log('editing is', editing)
       //check if key is a character key
-      if (keyPressed.length === 1 && keyPressed.match(/\S/)) {
-        e.event.preventDefault()
+      if (!editing && keyPressed.length === 1 && keyPressed.match(/\S/)) {
         //compute time since last key press
         const timeSinceLastKeyPress = timestamp - lastKeyPressTimeRef.current
         //compute new search text
@@ -391,7 +394,7 @@ export default function Grid() {
         }
       } else if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') {
         preventMultipleSelect(e.api)
-      } else if (keyPressed === 'Enter') {
+      } else if (keyPressed === 'Enter' && !editing) {
         const { path, defaultGoodMerge, emulatorName } = e.node.data
         runGame(path, defaultGoodMerge, emulatorName)
       }
