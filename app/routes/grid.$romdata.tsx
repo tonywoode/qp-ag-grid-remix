@@ -357,10 +357,11 @@ export default function Grid() {
     onCellKeyDown: (e: CellKeyDownEvent) => {
       const keyPressed = e.event.key
       const timestamp = e.event.timeStamp
-      const editing = e.api
-        .getEditingCells()
-        .some(cell => cell.rowIndex === e.node.rowIndex && cell.column.getId() === e.column.getId())
+      const editing = e.api.getEditingCells().length > 0
+      // .some(cell => cell.rowIndex === e.node.rowIndex && cell.column.getId() === e.column.getId())
       console.log('editing is', editing)
+      console.log('key pressed is', keyPressed)
+      console.log(e.api.getEditingCells())
       //check if key is a character key
       if (!editing && keyPressed.length === 1 && keyPressed.match(/\S/)) {
         //compute time since last key press
@@ -395,6 +396,7 @@ export default function Grid() {
       } else if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') {
         preventMultipleSelect(e.api)
       } else if (keyPressed === 'Enter' && !editing) {
+        console.log('Enter pressed, we are in here because editing is false')
         const { path, defaultGoodMerge, emulatorName } = e.node.data
         runGame(path, defaultGoodMerge, emulatorName)
       }
