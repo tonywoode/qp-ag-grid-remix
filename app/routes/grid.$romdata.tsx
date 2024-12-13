@@ -318,11 +318,11 @@ export default function Grid() {
       sortable: true,
       filter: true,
       floatingFilter: true,
-      //if a printable char's pressed, and we're not editing, suppress the default editing behavior (don't start editing when we're trying to navigate to a romname)
+      //don't enter edit mode on the cell if we press enter anywhere - we're trying to launch the game
       suppressKeyboardEvent: params => {
         const { event, editing } = params
         const key = event.key
-        if (!editing && key.length === 1 && key.match(/\S/) && key !== 'Enter') return true
+        if (!editing && key === 'Enter') return true
         return false
       }
     },
@@ -395,7 +395,8 @@ export default function Grid() {
         }
       } else if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') {
         preventMultipleSelect(e.api)
-      } else if (keyPressed === 'Enter' && !editing) {
+        //a !editing check won't work here, we'll always have ended editing on enter
+      } else if (keyPressed === 'Enter') {
         console.log('Enter pressed, we are in here because editing is false')
         const { path, defaultGoodMerge, emulatorName } = e.node.data
         runGame(path, defaultGoodMerge, emulatorName)
