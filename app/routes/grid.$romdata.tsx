@@ -318,13 +318,9 @@ export default function Grid() {
       sortable: true,
       filter: true,
       floatingFilter: true,
-      //don't enter edit mode on the cell if we press enter anywhere - we're trying to launch the game
-      suppressKeyboardEvent: params => {
-        const { event, editing } = params
-        const key = event.key
-        if (!editing && key === 'Enter') return true
-        return false
-      }
+      //don't enter edit mode on the cell if we press enter anywhere when not editing - we're trying to launch the game
+      //but also, 'enter' will always quit editing and the game will always run on pressing it, instead: we stop editing manually onKeyDown
+      suppressKeyboardEvent: params => params.event.key === 'Enter'
     },
     rowSelection: 'multiple',
     singleClickEdit: true,
@@ -357,7 +353,7 @@ export default function Grid() {
     onCellKeyDown: (e: CellKeyDownEvent) => {
       const keyPressed = e.event.key
       const timestamp = e.event.timeStamp
-      const editing = e.api.getEditingCells().length > 0
+      let editing = e.api.getEditingCells().length > 0
       // .some(cell => cell.rowIndex === e.node.rowIndex && cell.column.getId() === e.column.getId())
       console.log('editing is', editing)
       console.log('key pressed is', keyPressed)
@@ -395,11 +391,11 @@ export default function Grid() {
         }
       } else if (keyPressed === 'ArrowUp' || keyPressed === 'ArrowDown') {
         preventMultipleSelect(e.api)
-        //a !editing check won't work here, we'll always have ended editing on enter
+        //a !editing check won't work here, we'd always have !editing if enter's been pressed
       } else if (keyPressed === 'Enter') {
-        console.log('Enter pressed, we are in here because editing is false')
         const { path, defaultGoodMerge, emulatorName } = e.node.data
-        runGame(path, defaultGoodMerge, emulatorName)
+        if (editing) e.api.stopEditing() // Manually stop editing THEN run the game
+        else runGame(path, defaultGoodMerge, emulatorName)
       }
     },
     onRowSelected: async function (event) {
