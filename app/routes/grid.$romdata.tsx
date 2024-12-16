@@ -72,7 +72,7 @@ export default function Grid() {
     setRowdata(romdata)
     // Increment the key to force re-render
     setGridKey(prevKey => prevKey + 1)
-  }, [romdata])
+  }, [params.romdata]) //don't trigger on romdata alone, will reload when e.g.: you run a game
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
