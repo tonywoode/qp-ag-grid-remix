@@ -21,6 +21,7 @@ import { Node } from '~/components/Node'
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
 const loggerConfig = [
+  { feature: 'remixRoutes', enabled: false },
   { feature: 'gridOperations', enabled: false },
   { feature: 'fileOperations', enabled: false },
   { feature: 'goodMergeChoosing', enabled: false },
@@ -44,7 +45,7 @@ export const links: LinksFunction = () => [
 ]
 
 export async function loader() {
-  console.log('in the root loader')
+  logger.log('remixRoutes', 'in the root loader')
   const folderData = await scanFolder('./data')
   return json({ folderData, userDataPath: electron.app.getPath('userData') })
 }
@@ -101,7 +102,7 @@ export function TreeView({ folderData }) {
 }
 
 export default function App() {
-  // console.log('in the root component')
+  logger.log('remixRoutes', 'in the root component')
   const data = useLoaderData<typeof loader>()
   const folderData = data.folderData
   const matches = useMatches()

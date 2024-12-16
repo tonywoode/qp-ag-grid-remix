@@ -20,11 +20,9 @@ export function links() {
 }
 
 export async function loader({ params }: LoaderFunctionArgs) {
-  console.log('grid romdata romname loader')
-  logger.log('tabContent', 'romname loader - params passed are:', params)
+  logger.log('tabContent', 'in the grid.$romdata.$romname loader - params passed are:', params)
   const romname = params.romname ? decodeString(params.romname).trim() : ''
   const system = params.system ? decodeString(params.system).trim() : ''
-  console.log('in the grid.$romdata.$romname loader romname is ' + romname)
   const thisSystemsTabs = await loadTabData(system)
   return { thisSystemsTabs, romname, system }
 }
