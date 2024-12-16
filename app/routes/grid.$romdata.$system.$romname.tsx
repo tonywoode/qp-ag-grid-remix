@@ -14,14 +14,14 @@ import SimplePDFViewer from '~/components/pdfViewer.client'
 import Modal from 'react-modal'
 import pdfSlickCSS from '@pdfslick/react/dist/pdf_viewer.css'
 import { VscChevronLeft, VscChevronRight, VscSearch } from 'react-icons/vsc'
+import { logger } from '~/root'
 export function links() {
   return [{ rel: 'stylesheet', href: pdfSlickCSS }]
 }
 
 export async function loader({ params }: LoaderFunctionArgs) {
   console.log('grid romdata romname loader')
-  console.log('heres your params:')
-  console.log(params)
+  logger.log('tabContent', 'romname loader - params passed are:', params)
   const romname = params.romname ? decodeString(params.romname).trim() : ''
   const system = params.system ? decodeString(params.system).trim() : ''
   console.log('in the grid.$romdata.$romname loader romname is ' + romname)

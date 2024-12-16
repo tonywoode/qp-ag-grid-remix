@@ -6,7 +6,7 @@ export const loadMameIconBase64 = async (mameName, parentName) => {
   const iconPaths = [`./${mameName}.ico`, `./${parentName}.ico`]
 
   for (const iconPath of iconPaths) {
-    console.log('lets try to load icon', iconPath)
+    logger.log('icons', 'lets try to load icon', iconPath)
     const filePath = path.resolve(__dirname, '/Volumes/Untitled/Games/MAME/EXTRAs/icons/', iconPath)
     try {
       if (fs.existsSync(filePath)) {
@@ -16,7 +16,7 @@ export const loadMameIconBase64 = async (mameName, parentName) => {
         logger.log('icons', `Error: Icon file does not exist: ${filePath}`)
       }
     } catch (error) {
-      logger.log('icons', `Error: Failed to load icon: ${iconPath}`, error)
+      console.error('icons', `Error: Failed to load icon: ${iconPath}`, error)
     }
   }
 

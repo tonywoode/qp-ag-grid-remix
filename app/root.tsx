@@ -38,7 +38,7 @@ const loggerConfig = [
   { feature: 'fileOperations', enabled: false },
   { feature: 'goodMergeChoosing', enabled: false },
   { feature: 'screenshots', enabled: false },
-  { feature: 'tabContent', enabled: true },
+  { feature: 'tabContent', enabled: false },
   { feature: 'icons', enabled: false }
 ]
 export const logger = createFeatureLogger(loggerConfig)

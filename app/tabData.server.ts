@@ -1,8 +1,9 @@
 import mediaPanelConfig from '~/../dats/mediaPanelConfig.json'
+import { logger } from '~/root'
 
 export async function loadTabData(system: string) {
-  console.log('load screenshosts server passed ' + system)
+  logger.log('tabContent', 'loadTabData.server passed ' + system)
   const thisSystemsTabs = mediaPanelConfig?.[system]?.tabs
-  console.log(thisSystemsTabs)
+  logger.log('tabContent', 'loadTabData.server passed this systems tabs:', thisSystemsTabs)
   return thisSystemsTabs
 }
