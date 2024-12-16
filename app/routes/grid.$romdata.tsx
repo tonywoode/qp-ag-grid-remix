@@ -11,6 +11,7 @@ import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/
 import { encodeString, decodeString } from '~/utils/safeUrl'
 import { loadMameIconBase64 } from '~/loadMameIcons.server'
 import { loadIconBase64 } from '~/loadImages.server'
+import { logger } from '~/root'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
@@ -67,17 +68,10 @@ export default function Grid() {
     return () => document.removeEventListener('click', handleClickOutside)
   }, [])
 
-  useEffect(() => {
-    // Update the row data in the grid
-    setRowdata(romdata)
-    // Increment the key to force re-render
-    setGridKey(prevKey => prevKey + 1)
-  }, [params.romdata]) //don't trigger on romdata alone, will reload when e.g.: you run a game
-
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
-      console.log('single click')
-      console.log(e.data)
+      logger.log('gridOperations', 'single click')
+      logger.log('gridOperations', e.data)
       const { node, column, api }: CellClickedEvent = e // prettier-ignore
       const rowIndex = node.rowIndex ?? 0
       const colId = column.getColId()
@@ -138,7 +132,7 @@ export default function Grid() {
       //todo see prev commits for a try catch need to handle lookup failure
       const response = await fetch(`/listZip?path=${encodeURIComponent(node.data.path)}`)
       const files = await response.json()
-      console.log('there are ' + files.length + ' files in the zip')
+      logger.log('gridOperations', 'there are ' + files.length + ' files in the zip')
       // Find current position of parent
       let parentIndex = -1
       api.forEachNode((n, index) => {
@@ -192,16 +186,16 @@ export default function Grid() {
     const files = params.data.files
     const [handleFileSingleClick, handleFileDoubleClick] = useClickPreventionOnDoubleClick(
       (file: string) => {
-        console.log('clicked on file in zip', file)
+        logger.log('gridOperations', 'clicked on file in zip', file)
         //if we aren't on the parent's media panel data (v.important we aren't or the grid will reset), navigate to the parent ROM's url
         //TODO: duping logic in onRowSelected, plus a bad way of composing/checking the url
         const { system, name, mameName, parentName } = parentNode.data
         const basePath = window.location.pathname.split('/').slice(0, -2).join('/')
         const targetUrl = `${basePath}/${encodeString(system)}/${encodeString(name)}`
         const currentUrl = `${window.location.pathname}${window.location.search}`
-        console.log('targetUrl', targetUrl)
-        console.log('currentUrl', currentUrl)
-        console.log('does current url match target?', currentUrl === targetUrl)
+        logger.log('gridOperations', 'targetUrl', targetUrl)
+        logger.log('gridOperations', 'currentUrl', currentUrl)
+        logger.log('gridOperations', 'does current url match target?', currentUrl === targetUrl)
         if (currentUrl !== targetUrl) {
           navigate(targetUrl, {
             state: {
@@ -212,7 +206,7 @@ export default function Grid() {
         }
       },
       (file: string) => {
-        console.log('double clicked on file in zip', file)
+        logger.log('gridOperations', 'double clicked on file in zip', file)
       }
     )
 
@@ -306,9 +300,16 @@ export default function Grid() {
         comparator: createComparator(field)
       }))
   ]
+  //we want to print the grid when romdata changes, so this has to go here
+  useEffect(() => {
+    // Update the row data in the grid
+    setRowdata(romdata)
+    // Increment the key to force re-render
+    setGridKey(prevKey => prevKey + 1)
+    logger.log('gridOperations', `Creating these columns from romdata: ${params.romdata}`)
+    console.table(columnDefs)
+  }, [params.romdata]) //don't trigger on romdata alone, will reload when e.g.: you run a game
 
-  console.log(`Creating these columns from romdata: ${params.romdata}`)
-  console.table(columnDefs)
   const gridOptions: GridOptions = {
     columnDefs,
     defaultColDef: {
@@ -357,9 +358,9 @@ export default function Grid() {
       const timestamp = e.event.timeStamp
       let editing = e.api.getEditingCells().length > 0
       // .some(cell => cell.rowIndex === e.node.rowIndex && cell.column.getId() === e.column.getId())
-      console.log('editing is', editing)
-      console.log('key pressed is', keyPressed)
-      console.log(e.api.getEditingCells())
+      logger.log('gridOperations', 'editing is', editing)
+      logger.log('gridOperations', 'key pressed is', keyPressed)
+      // logger.log('gridOperations', e.api.getEditingCells())
       //check if key is a character key
       if (!editing && keyPressed.length === 1 && keyPressed.match(/\S/)) {
         //compute time since last key press
@@ -402,8 +403,7 @@ export default function Grid() {
     },
     onRowSelected: async function (event) {
       if (event.node.selected && event.node.data.fullWidth !== true) {
-        console.log(event)
-        console.log('row selected')
+        logger.log('gridOperations', 'row selected: ', event.rowIndex, event.data)
         const eventData = event.data
         const romname = event.data.name
         const system = eventData.system
@@ -477,11 +477,11 @@ export default function Grid() {
               <li
                 className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                 onClick={() => {
-                  console.log('Set as Default')
-                  console.log(contextMenu)
-                  console.log(clickedCell)
+                  logger.log('gridOperations', 'Set as Default')
+                  logger.log('gridOperations', contextMenu)
+                  logger.log('gridOperations', clickedCell)
                   const currentDefaultGoodMerge = contextMenu.parentNode.data?.defaultGoodMerge
-                  console.log('current goodmerge:', currentDefaultGoodMerge || 'none')
+                  logger.log('gridOperations', 'current goodmerge:', currentDefaultGoodMerge || 'none')
                   // }
                 }}
               >
@@ -493,14 +493,17 @@ export default function Grid() {
                 <li
                   className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                   onClick={() => {
-                    console.log('Run Rom')
+                    logger.log('gridOperations', 'Run Rom')
                     const { path, defaultGoodMerge, emulatorName } = contextMenu
                     runGame(path, defaultGoodMerge, emulatorName)
                   }}
                 >
                   Run Rom
                 </li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer" onClick={() => console.log('Action 2')}>
+                <li
+                  className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                  onClick={() => logger.log('gridOperations', 'Action 2')}
+                >
                   Action 2
                 </li>
               </>

@@ -17,8 +17,6 @@
  * logger.log('romChoosing', 'Entering romChoosing logic')
  */
 
-import util from 'util'
-
 const colorOptions = [
   '\x1b[38;2;0;0;255m', // Blue
   '\x1b[38;2;255;255;0m', // Yellow
@@ -34,29 +32,51 @@ const colorOptions = [
   '\x1b[38;2;0;255;0m' // Green
 ]
 
+const cssColorOptions = [
+  'darkblue',
+  'goldenrod',
+  'darkmagenta',
+  'darkcyan',
+  'darkorange',
+  'indigo',
+  'hotpink',
+  'saddlebrown',
+  'seagreen',
+  'steelblue',
+  'firebrick',
+  'forestgreen'
+]
+
 export function createFeatureLogger(config) {
   const enabledFeatures = config.reduce((acc, { feature, enabled }, index) => {
     acc[feature] = {
       enabled,
-      color: colorOptions[index % colorOptions.length]
+      color: colorOptions[index % colorOptions.length],
+      cssColor: cssColorOptions[index % cssColorOptions.length]
     }
     return acc
   }, {})
 
+  const isBrowser = typeof window !== 'undefined'
+  let util
+  if (!isBrowser) import('node:util').then(module => (util = module))
+
   return {
     log: (feature, ...args) => {
-      if (enabledFeatures[feature].enabled) {
+      if (enabledFeatures[feature]?.enabled) {
         const color = enabledFeatures[feature].color
+        const cssColor = enabledFeatures[feature].cssColor
         const resetColor = '\x1b[0m'
-
-        const formattedArgs = args.map(arg => {
-          const serializedArg = typeof arg === 'object' ? util.inspect(arg, false, null, true) : arg
-          return `${color}${serializedArg}${resetColor}`
-        })
-
-        const formattedFeature = `${color}[${feature}]${resetColor}`
-
-        console.log(formattedFeature, ...formattedArgs)
+        const featureLabel = `[${feature}]`
+        if (isBrowser) console.log(`%c${featureLabel}`, `color: ${cssColor}; font-weight: bold;`, ...args)
+        else {
+          // Node.js environment
+          const formattedArgs = args.map(arg => {
+            if (typeof arg === 'object' && arg !== null) return util.inspect(arg, { colors: true, depth: null })
+            else return `${color}${arg}${resetColor}`
+          })
+          console.log(`${color}${featureLabel}${resetColor}`, ...formattedArgs)
+        }
       }
     }
   }

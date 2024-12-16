@@ -21,14 +21,14 @@ import { Node } from '~/components/Node'
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
 const loggerConfig = [
-  { feature: 'remixRoutes', enabled: false },
-  { feature: 'gridOperations', enabled: false },
-  { feature: 'fileOperations', enabled: false },
-  { feature: 'goodMergeChoosing', enabled: false },
-  { feature: 'screenshots', enabled: false },
-  { feature: 'tabContent', enabled: false },
-  { feature: 'icons', enabled: false },
-  { feature: 'pathConversion', enabled: false }
+  { feature: 'remixRoutes', enabled: true },
+  { feature: 'gridOperations', enabled: true },
+  { feature: 'fileOperations', enabled: true },
+  { feature: 'goodMergeChoosing', enabled: true },
+  { feature: 'screenshots', enabled: true },
+  { feature: 'tabContent', enabled: true },
+  { feature: 'icons', enabled: true },
+  { feature: 'pathConversion', enabled: true }
 ]
 export const logger = createFeatureLogger(loggerConfig)
 
