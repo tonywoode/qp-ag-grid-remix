@@ -34,10 +34,11 @@ export const links: LinksFunction = () => [
 ]
 
 const loggerConfig = [
-  { feature: 'gridOperations', enabled: true },
-  { feature: 'fileOperations', enabled: true },
-  { feature: 'goodMergeChoosing', enabled: true },
+  { feature: 'gridOperations', enabled: false },
+  { feature: 'fileOperations', enabled: false },
+  { feature: 'goodMergeChoosing', enabled: false },
   { feature: 'screenshots', enabled: false },
+  { feature: 'tabContent', enabled: true },
   { feature: 'icons', enabled: false }
 ]
 export const logger = createFeatureLogger(loggerConfig)

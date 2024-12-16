@@ -58,9 +58,9 @@ async function findMameDatContent(
   mameUseParentForSrch: boolean,
   thisSystemsTab: string
 ): Promise<any> {
-  console.log(pathInTabData)
+  logger.log('tabContent', pathInTabData)
   const tabType = thisSystemsTab.tabType
-  console.log('this systems tab type is: ', tabType)
+  logger.log('tabContent', 'this systems tab type is: ', tabType)
   const strategy = getTabTypeStrategy(tabType)
   if (!strategy) {
     //TODO: fix error handling
@@ -73,7 +73,7 @@ async function findMameDatContent(
   for (const p of pathInTabData) {
     const macPath = convertWindowsPathToMacPath(p)
     const mameDatPath = path.join(macPath, datLeafFilename)
-    console.log('mameDatPath', mameDatPath)
+    logger.log('tabContent', 'mameDatPath', mameDatPath)
     try {
       await fs.promises.stat(mameDatPath) // Check if mameDat exists
       //TODO: we're assuming this has been set to searchType: 'ExactMatch', which it should, is it always? if so the data needs fixing not the code
@@ -109,7 +109,7 @@ async function findMameDatContent(
       }
     } catch (error) {
       if (error.code === 'ENOENT') {
-        console.log(`${datLeafFilename} file does not exist:`, mameDatPath)
+        logger.log('tabContent', `${datLeafFilename} file does not exist:`, mameDatPath)
         continue //to the next dat in the array if the current dat doesn't exist or any error occurs
       } else {
         console.error(`Error processing ${datLeafFilename} Mame Dat data:`, error)
@@ -380,19 +380,19 @@ function getSearchTerms(
     const searchTermWithoutBrackets = romname.replace(/\s*\([^)]*\)/g, '').trim()
     searchTerms.push(searchTermWithoutBrackets)
   }
-  
+
   return searchTerms
 }
 
 async function convertDocToText(filePath: string): Promise<string> {
-  console.log('Extracting text from .doc', filePath)
+  logger.log('tabContent', 'Extracting text from .doc', filePath)
   const extractor = new WordExtractor()
   try {
     // Extract text from .doc file
     const extracted = await extractor.extract(filePath)
     const text = extracted.getBody()
 
-    console.log('Text extracted successfully')
+    logger.log('tabContent', 'Text extracted successfully')
     return text
   } catch (error) {
     console.error('Error during text extraction:', error)
@@ -402,14 +402,14 @@ async function convertDocToText(filePath: string): Promise<string> {
 
 function getValidMimetype(file: string): string | null {
   let mimeType = mime.lookup(file)
-  console.log(`mimeType of ${file} is: ${mimeType}`)
+  logger.log('tabContent', `mimeType of ${file} is: ${mimeType}`)
   // Exclude some mimetypes that in experience I found colocated with actual assets but we don't want to try to render them
   const excludedMimeTypeStrings = ['javascript', 'json', 'xml']
   if (mimeType === null) {
     return null
   }
   if (excludedMimeTypeStrings.some(excluded => mimeType.includes(excluded))) {
-    console.log(`Excluded MIME type found: ${mimeType}`)
+    logger.log('tabContent', `Excluded MIME type found: ${mimeType}`)
     return null
   }
   return mimeType
@@ -444,14 +444,14 @@ async function transcodeVideoToBuffer(videoPath: string): Promise<Buffer> {
       ])
       .audioBitrate('48k')
       .on('start', commandLine => {
-        console.log('FFmpeg process started:', commandLine)
+        logger.log('tabContent', 'FFmpeg process started:', commandLine)
       })
       .on('error', (err, stdout, stderr) => {
         console.error('FFmpeg stderr:', stderr)
         reject(new Error(`FFmpeg transcoding failed: ${err.message}\nStderr: ${stderr}`))
       })
       .on('end', () => {
-        console.log('FFmpeg processing finished')
+        logger.log('tabContent', 'FFmpeg processing finished')
         const finalBuffer = Buffer.concat(chunks)
         resolve(finalBuffer)
       })
@@ -516,7 +516,7 @@ async function unzipMediaFiles(
 
   // Create temporary directory
   const tempZipDir = tmp.dirSync({ unsafeCleanup: true })
-  console.log('temporary Dir: ', tempZipDir.name)
+  logger.log('tabContent', 'temporary Dir: ', tempZipDir.name)
   try {
     // Get list of files in archive
     const filenames: string[] = []
@@ -590,7 +590,7 @@ async function findMediaItemPaths(
   mameNames: { mameName?: string; parentName?: string } = {},
   mameUseParentForSrch: boolean
 ) {
-  console.log(`using searchType ${searchType}`)
+  logger.log('tabContent', `using searchType ${searchType}`)
   let foundBase64DataAndFiles = new Set<MediaItem>()
   const macPaths = pathInTabData.map(p => convertWindowsPathToMacPath(p))
   const mameNameSearchTerms = [mameNames.mameName, mameUseParentForSrch && mameNames.parentName].filter(Boolean)
@@ -610,7 +610,7 @@ async function findMediaItemPaths(
           if (searchStrategies(file, romname, searchType)) matchFound = true
         }
         if (matchFound) {
-          console.log('mediaItem match found', file)
+          logger.log('tabContent', 'mediaItem match found', file)
           const mediaPath = path.join(macPath, file)
           let fileData = await fs.promises.readFile(mediaPath)
           let mimeType = getValidMimetype(file)
@@ -628,7 +628,7 @@ async function findMediaItemPaths(
               mimeType === 'application/zip'
             ) {
               foundBase64DataAndFiles = await unzipMediaFiles(mediaPath, foundBase64DataAndFiles)
-              console.log(foundBase64DataAndFiles)
+              logger.log('tabContent', foundBase64DataAndFiles)
             } else if (mimeType.startsWith('video')) {
               try {
                 const fileData = await transcodeVideoToBuffer(mediaPath)
@@ -693,9 +693,9 @@ export async function getTabContent(
   mameUseParentForSrch: boolean
 ) {
   const tabData = thisSystemsTab
-  console.log(tabData)
+  logger.log('tabContent', tabData)
   const pathInTabData = tabData ? tabData.path : null
-  console.log('Path in tabData is ' + pathInTabData)
+  logger.log('tabContent', 'Path in tabData is ' + pathInTabData)
   if (pathInTabData) {
     if (tabClass === 'mediaItem') {
       const { mediaItems } = await findMediaItemPaths(
@@ -708,7 +708,7 @@ export async function getTabContent(
       return { mediaItems }
     } else if (tabClass === 'mameDat') {
       const mameDat = await findMameDatContent(pathInTabData, romname, mameNames, mameUseParentForSrch, thisSystemsTab)
-      console.log('mameDat content:', mameDat)
+      logger.log('tabContent', 'mameDat content:', mameDat)
       return { mameDat }
     } else {
       return {}
