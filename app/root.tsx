@@ -20,6 +20,16 @@ import { Node } from '~/components/Node'
 
 //configure and export logging per-domain feature
 import { createFeatureLogger } from '~/utils/featureLogger'
+const loggerConfig = [
+  { feature: 'gridOperations', enabled: false },
+  { feature: 'fileOperations', enabled: false },
+  { feature: 'goodMergeChoosing', enabled: false },
+  { feature: 'screenshots', enabled: false },
+  { feature: 'tabContent', enabled: false },
+  { feature: 'icons', enabled: false },
+  { feature: 'pathConversion', enabled: false }
+]
+export const logger = createFeatureLogger(loggerConfig)
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
@@ -32,16 +42,6 @@ export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: reactMenuStyles },
   { rel: 'stylesheet', href: reactMenuTransitionStyles }
 ]
-
-const loggerConfig = [
-  { feature: 'gridOperations', enabled: false },
-  { feature: 'fileOperations', enabled: false },
-  { feature: 'goodMergeChoosing', enabled: false },
-  { feature: 'screenshots', enabled: false },
-  { feature: 'tabContent', enabled: false },
-  { feature: 'icons', enabled: false }
-]
-export const logger = createFeatureLogger(loggerConfig)
 
 export async function loader() {
   console.log('in the root loader')
