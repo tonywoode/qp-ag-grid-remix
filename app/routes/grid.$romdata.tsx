@@ -322,6 +322,8 @@ export default function Grid() {
       //but also, 'enter' will always quit editing and the game will always run on pressing it, instead: we stop editing manually onKeyDown
       suppressKeyboardEvent: params => params.event.key === 'Enter'
     },
+    //because we complete the edit elsewhere, we need to set focus back to the edited cell here, else we'll lose focus
+    onCellEditingStopped: e => e.api.setFocusedCell(e.rowIndex, e.column.getId()),
     rowSelection: 'multiple',
     singleClickEdit: true,
     enableGroupEdit: true,
