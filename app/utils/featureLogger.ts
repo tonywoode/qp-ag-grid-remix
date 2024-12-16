@@ -44,7 +44,7 @@ export function createFeatureLogger(config) {
   }, {})
 
   return {
-    log: (feature, message, ...args) => {
+    log: (feature, ...args) => {
       if (enabledFeatures[feature].enabled) {
         const color = enabledFeatures[feature].color
         const resetColor = '\x1b[0m'
@@ -54,11 +54,9 @@ export function createFeatureLogger(config) {
           return `${color}${serializedArg}${resetColor}`
         })
 
-        const formattedMessage = `${color}[${feature}] ${message}${resetColor}`
+        const formattedFeature = `${color}[${feature}]${resetColor}`
 
-        formattedMessage.split('\n').forEach(line => {
-          console.log(line, ...formattedArgs)
-        })
+        console.log(formattedFeature, ...formattedArgs)
       }
     }
   }
