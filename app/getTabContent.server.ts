@@ -695,7 +695,7 @@ export async function getTabContent(
   const tabData = thisSystemsTab
   logger.log('tabContent', tabData)
   const pathInTabData = tabData ? tabData.path : null
-  logger.log('tabContent', 'Path in tabData is ' + pathInTabData)
+  logger.log('tabContent', 'Path in tabData is ', pathInTabData)
   if (pathInTabData) {
     if (tabClass === 'mediaItem') {
       const { mediaItems } = await findMediaItemPaths(

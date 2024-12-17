@@ -13,7 +13,7 @@ export async function action({ request }: ActionFunctionArgs) {
   const node7z = await import('node-7z-archive')
   const { onlyArchive, listArchive } = node7z
   const { gamePath, defaultGoodMerge, emulatorName } = await request.json()
-  logger.log(`gridOperations`, `received from grid`, { gamePath, defaultGoodMerge, emulatorName })
+  logger.log(`fileOperations`, `runGame received from grid`, { gamePath, defaultGoodMerge, emulatorName })
 
   // const macOSGamesDirPath = '/Volumes/Untitled/Games'
   // const gamesDirReplacedPath = path.join(
@@ -48,7 +48,7 @@ export async function action({ request }: ActionFunctionArgs) {
       const outputFile = path.join(outputDirectory, defaultGoodMerge)
       runGame(outputFile)
     } else {
-      console.log('listing archive', gamePathMacOS)
+      logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
       listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
         .progress(async (files: string[]) => {
           const filenames = files.map(file => file.name)
@@ -107,7 +107,7 @@ export async function action({ request }: ActionFunctionArgs) {
     const matchedEmulator = matchEmulatorName(emulatorName, emulators)
     if (matchedEmulator) {
       const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
-      console.log('Retroarch Command Line:', retroarchCommandLine)
+      logger.log(`fileOperations`, 'Retroarch Command Line:', retroarchCommandLine)
       //sigh a problem with the data here: "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
       const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
       const libretroCore = `/Users/twoode/Library/Application Support/RetroArch/${retroarchCommandLine}`
@@ -115,12 +115,12 @@ export async function action({ request }: ActionFunctionArgs) {
       const command = `"${retroarchExe}" "${outputFile}" -L "${libretroCore}" ${flagsToEmu}`
       try {
         const output = await execSync(command) // Execute synchronously, remember spawnSync too
-        console.log(`Output: ${output}`)
+        logger.log(`fileOperations`, `Output: ${output}`)
       } catch (error) {
         console.error(`Error executing command: ${error}`)
       }
     } else {
-      console.log('Emulator not found')
+      logger.log(`fileOperations`, 'Emulator not found')
     }
   }
 
@@ -133,9 +133,9 @@ export async function action({ request }: ActionFunctionArgs) {
     const libretroCoreMatch = parameters.match(/cores[^ ]+/)
 
     if (libretroCoreMatch) {
-      console.log('libretroCoreMatch', libretroCoreMatch)
+      logger.log(`fileOperations`, 'libretroCoreMatch', libretroCoreMatch)
       const libretroCorePath = libretroCoreMatch[0].replace(/\\/g, '/').replace(/"/g, '') //TODO: try loading a GC game without the " removal!
-      console.log('libretroCorePath', libretroCorePath)
+      logger.log(`fileOperations`, 'libretroCorePath', libretroCorePath)
       return libretroCorePath.replace(/\.dll$/, '.dylib')
     } else {
       return 'No libretro core found in parameters string' //TODO: don't return a string as an error

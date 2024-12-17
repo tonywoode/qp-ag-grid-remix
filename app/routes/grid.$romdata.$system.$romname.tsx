@@ -95,7 +95,7 @@ export default function MediaPanel() {
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
   //if either of mameName OR parentName is truthy, log it
-  if (mameName || parentName) logger.log('tabContent', 'MediaPanel: MameNames:', mameNames)
+  if (mameName || parentName) logger.log('tabContent', 'MediaPanel - MameNames:', mameNames)
   const replaceLinks = node => {
     if (node.type === 'tag' && node.name === 'a') {
       const { href } = node.attribs
@@ -169,8 +169,7 @@ export default function MediaPanel() {
     const base64String = base64Blob
     const [mimeInfo, base64Data] = base64String?.split(',')
     const mimeType = mimeInfo.match(/:(.*?);/)[1]
-    // console.log('mimeType')
-    // console.log(mimeType)
+    // console.log('mimeType', mimeType)
     const handleVideoError = event => console.error('Error playing video:', event)
     const handleAudioError = event => console.error('Error playing audio:', event)
 

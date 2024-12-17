@@ -1,10 +1,11 @@
 import { json, type LoaderFunctionArgs } from '@remix-run/node'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
+import { logger } from '~/root'
 
 export async function loader({ request }: LoaderFunctionArgs) {
   const url = new URL(request.url)
   const filePath = url.searchParams.get('path')
-  console.log(filePath)
+  logger.log('fileOperations', 'filePath passed to listZip loader', filePath)
   const gamePathMacOS = convertWindowsPathToMacPath(filePath)
   if (!filePath) {
     return json({ error: 'Path is required' }, { status: 400 })
