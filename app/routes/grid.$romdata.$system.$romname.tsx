@@ -20,7 +20,7 @@ export function links() {
 }
 
 export async function loader({ params }: LoaderFunctionArgs) {
-  logger.log('tabContent', 'in the grid.$romdata.$romname loader - params passed are:', params)
+  logger.log('tabContent', 'Meida Panel loader - params passed are:', params)
   const romname = params.romname ? decodeString(params.romname).trim() : ''
   const system = params.system ? decodeString(params.system).trim() : ''
   const thisSystemsTabs = await loadTabData(system)
@@ -94,8 +94,8 @@ export default function MediaPanel() {
   const [lightboxContent, setLightboxContent] = useState(null)
   const { mameName, parentName } = location.state || {}
   const mameNames = { mameName, parentName }
-  console.log('MameNames:', mameNames)
-
+  //if either of mameName OR parentName is truthy, log it
+  if (mameName || parentName) logger.log('tabContent', 'MediaPanel: MameNames:', mameNames)
   const replaceLinks = node => {
     if (node.type === 'tag' && node.name === 'a') {
       const { href } = node.attribs
@@ -114,8 +114,8 @@ export default function MediaPanel() {
   }
   useEffect(() => {
     const fetchTabContent = async () => {
-      const selectedTab = thisSystemsTabs? thisSystemsTabs[selectedTabIndex] : null
-      console.log(selectedTab)
+      const selectedTab = thisSystemsTabs ? thisSystemsTabs[selectedTabIndex] : null
+      logger.log('tabContent', 'MediaPanel useEffect, selected tab: ', selectedTab)
       const tabClass = tabClassMap[selectedTab?.tabType]
       const searchType = selectedTab?.searchType
       const mameUseParentForSrch = selectedTab?.mameUseParentForSrch
@@ -300,9 +300,7 @@ export default function MediaPanel() {
     <div>
       <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
         <TabList className="sticky top-0 bg-white z-2">
-          {thisSystemsTabs?.map((tab, index) => (
-            <Tab key={index}>{tab.caption}</Tab>
-          ))}
+          {thisSystemsTabs?.map((tab, index) => <Tab key={index}>{tab.caption}</Tab>)}
         </TabList>
         <div className="overflow-auto h-full">
           {thisSystemsTabs?.map((tab, index) => {
@@ -348,7 +346,7 @@ function MediaNavigation({
   const [zoomLevel, setZoomLevel] = useState(1)
   const [isSliderActive, setIsSliderActive] = useState(false)
 
-  console.log('zoom level' + zoomLevel)
+  logger.log('lightbox', 'zoom level' + zoomLevel)
   const pdfFilePath = useMemo(() => {
     if (mimeType === 'application/pdf') {
       ;(() => pdfjsWorker)() // we must USE it here to get pdfs to load (common problem with pdfjs libs!)
@@ -402,51 +400,51 @@ function MediaNavigation({
 
   const renderContent = () => {
     const fontSize = `max(${1 + (zoomLevel - 1)}rem, 0.75rem)`
-    console.log(fontSize)
+    logger.log('lightbox', 'fontsize', fontSize)
     switch (true) {
       case mimeType.startsWith('text'):
         //Note stye here the specificity of which wins against modal (prev we were switching modal on this)
-           if (fileExtension === 'doc' || fileExtension === 'DOC') {
-             return (
-               <div className="relative border border-gray-300">
-                 <div className="bg-[#1752b0] p-2 flex items-center justify-between">
-                   <span className="text-white/90 text-sm ml-2">{filenameWithExt} - Microsoft Word</span>
-                   <div className="flex gap-1 mr-1">
-                     {['_', '□', '×'].map(symbol => (
-                       <div
-                         key={symbol}
-                         className="w-6 h-5 border border-white/40 text-white/90 text-xs flex items-center justify-center"
-                       >
-                         {symbol}
-                       </div>
-                     ))}
-                   </div>
-                 </div>
-                 <div
-                   className="bg-white text-black rounded-lg rounded-t-none"
-                   style={{
-                     maxHeight: '80vh',
-                     overflow: 'auto',
-                     fontSize,
-                     padding: '2rem',
-                     lineHeight: '1.5',
-                     transition: 'all 0.2s ease-out',
-                     backgroundImage: 'linear-gradient(#fff 95%, #f8f9fa 100%)'
-                   }}
-                 >
-                   <div className="border-b border-gray-200 mb-6 pb-4">
-                     <span className="text-[2em] text-[#1752b0]">{romname}</span>
-                     <span className="text-gray-600"> - {filenameWithExt}</span>
-                   </div>
-                   <div className="whitespace-pre-wrap font-mono max-w-[80vw] text-black">{atob(base64Data)}</div>
-                   <div className="mt-8 pt-4 border-t border-gray-200 flex items-center justify-between text-sm text-gray-600">
-                     <div>Microsoft Word - Windows</div>
-                     <div>Words: {atob(base64Data).split(/\s+/).length}</div>
-                   </div>
-                 </div>
-               </div>
-             )
-           }
+        if (fileExtension === 'doc' || fileExtension === 'DOC') {
+          return (
+            <div className="relative border border-gray-300">
+              <div className="bg-[#1752b0] p-2 flex items-center justify-between">
+                <span className="text-white/90 text-sm ml-2">{filenameWithExt} - Microsoft Word</span>
+                <div className="flex gap-1 mr-1">
+                  {['_', '□', '×'].map(symbol => (
+                    <div
+                      key={symbol}
+                      className="w-6 h-5 border border-white/40 text-white/90 text-xs flex items-center justify-center"
+                    >
+                      {symbol}
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div
+                className="bg-white text-black rounded-lg rounded-t-none"
+                style={{
+                  maxHeight: '80vh',
+                  overflow: 'auto',
+                  fontSize,
+                  padding: '2rem',
+                  lineHeight: '1.5',
+                  transition: 'all 0.2s ease-out',
+                  backgroundImage: 'linear-gradient(#fff 95%, #f8f9fa 100%)'
+                }}
+              >
+                <div className="border-b border-gray-200 mb-6 pb-4">
+                  <span className="text-[2em] text-[#1752b0]">{romname}</span>
+                  <span className="text-gray-600"> - {filenameWithExt}</span>
+                </div>
+                <div className="whitespace-pre-wrap font-mono max-w-[80vw] text-black">{atob(base64Data)}</div>
+                <div className="mt-8 pt-4 border-t border-gray-200 flex items-center justify-between text-sm text-gray-600">
+                  <div>Microsoft Word - Windows</div>
+                  <div>Words: {atob(base64Data).split(/\s+/).length}</div>
+                </div>
+              </div>
+            </div>
+          )
+        }
         return (
           <div
             className="p-3 bg-gray-800 text-white rounded-lg"
@@ -481,7 +479,7 @@ function MediaNavigation({
       : `min(${zoomLevel * 40}vw, 100%)`
   const counteractZoomForIconSizing = zoomLevel >= 1 ? `scale(${zoomLevel}, 1)` : 'scale(1)'
   const widthForBar = zoomLevel >= 1 ? zoomLevel * 100 + '%' : '100%'
-  console.log(widthForBar)
+  logger.log('lightbox', 'widthForBar', widthForBar)
   return (
     <Modal
       isOpen={isLightboxOpen}

@@ -19,6 +19,7 @@ import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
 
 //configure and export logging per-domain feature
+//todo: user-enablable - split out to json/global flag?)
 import { createFeatureLogger } from '~/utils/featureLogger'
 const loggerConfig = [
   { feature: 'remixRoutes', enabled: true },
@@ -28,7 +29,8 @@ const loggerConfig = [
   { feature: 'screenshots', enabled: true },
   { feature: 'tabContent', enabled: true },
   { feature: 'icons', enabled: true },
-  { feature: 'pathConversion', enabled: true }
+  { feature: 'pathConversion', enabled: true },
+  { feature: 'lightbox', enabled: true }
 ]
 export const logger = createFeatureLogger(loggerConfig)
 
