@@ -100,10 +100,11 @@ export default function Grid() {
   const iconColumn = {
     headerName: 'Icon',
     field: 'icon',
-    minWidth: 65,
-    // autoHeight: true, //in combination with (style) rowHeight, makes the grid all wobbly on scroll
+    minWidth: 66,
+    maxWidth: 66,
+    //autoHeight: true, //in combination with (style) rowHeight, makes the grid all wobbly on scroll
     filter: false,
-    suppressSizeToFit: true,
+    suppressSizeToFit: true, //TODO: make icon (and later potentially logo) autosize with rowheight/width changes
     cellRenderer: ({ data }) => (
       <div
         className="w-full h-full flex items-center justify-center"
@@ -162,7 +163,8 @@ export default function Grid() {
   const zipColumn = {
     headerName: 'Zip',
     field: 'zip',
-    minWidth: 50,
+    minWidth: 60, //TODO: annoying as its a bit too wide, however the header text doesn't git otherwise - header padding?
+    maxWidth: 60,
     filter: false,
     suppressSizeToFit: true,
     cellRenderer: ({ data, api, node }) => {
