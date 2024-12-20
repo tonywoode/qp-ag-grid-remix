@@ -485,7 +485,7 @@ function MediaNavigation({
       onRequestClose={closeLightbox}
       contentLabel="Media Lightbox"
       className="flex justify-center items-center"
-      overlayClassName="fixed inset-0  bg-opacity-75 z-50 flex justify-center items-center"
+      overlayClassName="fixed inset-0  bg-opacity-20 bg-white backdrop-blur-[1.2px] z-50 flex justify-center items-center"
       style={{
         content: {
           position: 'relative',
