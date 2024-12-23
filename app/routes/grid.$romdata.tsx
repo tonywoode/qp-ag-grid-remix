@@ -195,9 +195,7 @@ export default function Grid() {
         const basePath = window.location.pathname.split('/').slice(0, -2).join('/')
         const targetUrl = `${basePath}/${encodeString(system)}/${encodeString(name)}`
         const currentUrl = `${window.location.pathname}${window.location.search}`
-        logger.log('gridOperations', 'targetUrl', targetUrl)
-        logger.log('gridOperations', 'currentUrl', currentUrl)
-        logger.log('gridOperations', 'does current url match target?', currentUrl === targetUrl)
+        logger.log('gridOperations', 'current url matches target?', currentUrl === targetUrl, ', current:', currentUrl)
         if (currentUrl !== targetUrl) {
           navigate(targetUrl, {
             state: {
@@ -209,6 +207,8 @@ export default function Grid() {
       },
       (file: string) => {
         logger.log('gridOperations', 'double clicked on file in zip', file)
+        const { path, emulatorName } = params.data //runGame but use file instead of defaultGoodMerge
+        runGame(path, file, emulatorName)
       }
     )
 
