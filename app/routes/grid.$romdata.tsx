@@ -1,7 +1,15 @@
 import { AgGridReact } from 'ag-grid-react'
 import AgGridStyles from 'ag-grid-community/styles/ag-grid.css'
 import AgThemeAlpineStyles from 'ag-grid-community/styles/ag-theme-alpine.css'
-import type { CellKeyDownEvent, CellClickedEvent, GridOptions, ColDef, ColGroupDef, EditableCallbackParams } from 'ag-grid-community'
+import type {
+  CellKeyDownEvent,
+  CellClickedEvent,
+  GridOptions,
+  ColDef,
+  ColGroupDef,
+  EditableCallbackParams,
+  GridApi
+} from 'ag-grid-community'
 import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { useEffect, useRef, useState } from 'react'
@@ -57,6 +65,7 @@ export default function Grid() {
     type: 'zip'
     fileInZip: string
     parentNode: object
+    api: GridApi
   }
   type ContextMenu = RomContextMenu | ZipContextMenu
 
@@ -71,7 +80,7 @@ export default function Grid() {
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
       logger.log('gridOperations', 'single click')
-      logger.log('gridOperations', e.data)
+      logger.log('gridOperations', 'data:', e.data)
       const { node, column, api }: CellClickedEvent = e // prettier-ignore
       const rowIndex = node.rowIndex ?? 0
       const colId = column.getColId()
@@ -116,7 +125,7 @@ export default function Grid() {
   }
   //TODO: what if either an individual entry, or the whole list, don't link to a compressed file?
   //AG-grid community doesn't support master/detail, so we have to fake it with full-width rows
-  const toggleExpandedRow = async (rowId: string, api: any, node: any) => {
+  const toggleExpandedRow = async (rowId: string, api: GridApi, node: any) => {
     const expandedNode = api.getRowNode(`${rowId}-expanded`)
     if (expandedNode) {
       // Find current position of expanded row
@@ -232,7 +241,8 @@ export default function Grid() {
                   x: e.clientX,
                   y: e.clientY,
                   fileInZip: file,
-                  parentNode: parentNode
+                  parentNode: parentNode,
+                  api: params.api
                 })
               }}
               tabIndex={0} // focusable for TW pseudo selectors to work
@@ -493,11 +503,22 @@ export default function Grid() {
                 className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                 onClick={() => {
                   logger.log('gridOperations', 'Set as Default')
-                  logger.log('gridOperations', contextMenu)
-                  logger.log('gridOperations', clickedCell)
+                  logger.log('gridOperations', 'context menu', contextMenu)
+                  logger.log('gridOperations', 'clicked cell', clickedCell)
                   const currentDefaultGoodMerge = contextMenu.parentNode.data?.defaultGoodMerge
-                  logger.log('gridOperations', 'current goodmerge:', currentDefaultGoodMerge || 'none')
-                  // }
+                  logger.log(
+                    'gridOperations',
+                    'current goodmerge:',
+                    currentDefaultGoodMerge || 'none',
+                    ', setting new goodmerge: ',
+                    contextMenu.fileInZip
+                  )
+                  // Update the currentDefaultGoodMerge cell in the row
+                  const api = contextMenu.api
+                  const rowNode = api.getRowNode(contextMenu.parentNode.id)
+                  if (rowNode) {
+                    rowNode.setDataValue('defaultGoodMerge', contextMenu.fileInZip)
+                  }
                 }}
               >
                 Set as Default
