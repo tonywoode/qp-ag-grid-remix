@@ -301,7 +301,19 @@ export default function Grid() {
         editable: isEditable,
         valueGetter: field === 'path' ? removeGamesDirPrefix : undefined,
         comparator: createComparator(field)
-      }))
+      })),
+    {
+      //dummy column to allow the final column's cells to be expanded to the right (to read their contents)
+      headerName: '',
+      field: 'dummy',
+      minWidth: 0,
+      maxWidth: 0,
+      resizable: false,
+      filter: false,
+      suppressMovable: true,
+      suppressSizeToFit: true,
+      cellRenderer: () => null
+    }
   ]
   //we want to print the grid when romdata changes, so this has to go here
   useEffect(() => {
