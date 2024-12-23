@@ -84,9 +84,9 @@ export default function Grid() {
     }
   )
 
-  const runGame = (gamePath: string, defaultGoodMerge: string, emulatorName: string) => {
+  const runGame = (gamePath: string, fileInZipToRun: string, emulatorName: string) => {
     fetcher.submit(
-      { gamePath, defaultGoodMerge, emulatorName },
+      { gamePath, fileInZipToRun, emulatorName },
       { action: '/runGame', method: 'post', encType: 'application/json' }
     )
   }
@@ -188,6 +188,7 @@ export default function Grid() {
     const files = params.data.files
     const [handleFileSingleClick, handleFileDoubleClick] = useClickPreventionOnDoubleClick(
       (file: string) => {
+        //prettier-ignore (keeps wanting a semi at the front!)
         logger.log('gridOperations', 'clicked on file in zip', file)
         //if we aren't on the parent's media panel data (v.important we aren't or the grid will reset), navigate to the parent ROM's url
         //TODO: duping logic in onRowSelected, plus a bad way of composing/checking the url

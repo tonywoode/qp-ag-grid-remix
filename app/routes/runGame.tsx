@@ -12,8 +12,8 @@ export async function action({ request }: ActionFunctionArgs) {
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const node7z = await import('node-7z-archive')
   const { onlyArchive, listArchive } = node7z
-  const { gamePath, defaultGoodMerge, emulatorName } = await request.json()
-  logger.log(`fileOperations`, `runGame received from grid`, { gamePath, defaultGoodMerge, emulatorName })
+  const { gamePath, fileInZipToRun, emulatorName } = await request.json()
+  logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
 
   // const macOSGamesDirPath = '/Volumes/Untitled/Games'
   // const gamesDirReplacedPath = path.join(
@@ -36,16 +36,16 @@ export async function action({ request }: ActionFunctionArgs) {
   const gameExtension = path.extname(gamePathMacOS)
   if (gameExtension === '.7z') {
     //TODO: sadly this isn't good enough, look at saturn games
-    await examine7z(gamePathMacOS, outputDirectory, defaultGoodMerge, emulatorName)
+    await examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName)
   } else {
     await runGame(gamePathMacOS)
   }
 
-  async function examine7z(gamePathMacOS, outputDirectory, defaultGoodMerge, emulatorName) {
-    if (defaultGoodMerge) {
+  async function examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName) {
+    if (fileInZipToRun) {
       //meaning row in the grid contains a pre-selected preferred rom to extract
-      await extractRom(gamePathMacOS, outputDirectory, defaultGoodMerge, logger)
-      const outputFile = path.join(outputDirectory, defaultGoodMerge)
+      await extractRom(gamePathMacOS, outputDirectory, fileInZipToRun, logger)
+      const outputFile = path.join(outputDirectory, fileInZipToRun)
       runGame(outputFile)
     } else {
       logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
