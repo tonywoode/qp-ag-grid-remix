@@ -223,7 +223,7 @@ export default function Grid() {
     )
 
     return (
-      <div className="py-1 pl-3 overflow-y-auto h-full">
+      <div className="py-1 pl-36 overflow-y-auto h-full">
         <div>
           {files.map((file, index) => (
             <div
