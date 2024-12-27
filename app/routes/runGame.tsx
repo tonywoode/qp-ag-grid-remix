@@ -10,10 +10,6 @@ import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 export async function action({ request }: ActionFunctionArgs) {
   const { gamePath, fileInZipToRun, emulatorName } = await request.json()
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
-  //you can move the below above here once you upgrade remix, top level await will work
-  //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
-  const node7z = await import('node-7z-archive')
-  const { onlyArchive, listArchive } = node7z
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
   const outputDirectory = setTempDir()
@@ -21,17 +17,20 @@ export async function action({ request }: ActionFunctionArgs) {
   if (gameExtension === '.7z') {
     //TODO: sadly this isn't good enough, look at saturn games
     //But it IS a good shortcut, we DO know if its not a 7z that we don't have a goodmerge set, so we can skip checking, but we can't just run a game, what if its some other file that needs uncompressing
-    await examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName, listArchive, onlyArchive)
+    await examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName)
   } else {
     await runGame(gamePathMacOS, emulatorName)
   }
   return null
 }
 
-async function examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName, listArchive, onlyArchive) {
+async function examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName) {
+  //you can move the below above here once you upgrade remix, top level await will work
+  //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
+  const { onlyArchive, listArchive } = await import('node-7z-archive')
   if (fileInZipToRun) {
     //meaning row in the grid contains a pre-selected preferred rom to extract
-    await extractRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
+    await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
     const outputFile = path.join(outputDirectory, fileInZipToRun)
     runGame(outputFile, emulatorName)
   } else {
@@ -43,39 +42,10 @@ async function examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulato
 
         const filenames = files.map(file => file.name)
         logger.log(`fileOperations`, `7z listing: `, filenames)
-        const fallbackCountryCodes = new Map([
-          // would rather get these than wrong language TODO: think the fallback codes are Genesis-specific?
-          ['PD', 1],
-          ['Unl', 2],
-          ['Unk', 3]
-        ])
-        const countryCodePrefs = new Map([
-          ['B', 4],
-          ['A', 5],
-          ['4', 6],
-          ['U', 7],
-          ['W', 8], //world actually prob means there's only one country code in the rom?
-          ['E', 9],
-          ['UK', 10] //highest priority
-        ])
-        const countryCodes = new Map([...fallbackCountryCodes, ...countryCodePrefs])
-        const priorityCodes = new Map([
-          ['h', 1],
-          ['p', 2],
-          ['a', 3],
-          ['f', 4],
-          ['!', 5] //highest priority
-        ])
-        logger.log(
-          `goodMergeChoosing`,
-          `sending goodMerge country and priority choices to GoodMerge chooser`,
-          countryCodes,
-          priorityCodes
-        )
-        const pickedRom = chooseGoodMergeRom(filenames, countryCodes, priorityCodes, logger)
+        const pickedRom = setupChooseGoodMergeRom(filenames, logger)
         logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
 
-        await extractRom(gamePathMacOS, outputDirectory, pickedRom, onlyArchive, logger)
+        await extractSingleRom(gamePathMacOS, outputDirectory, pickedRom, onlyArchive, logger)
         const outputFile = path.join(outputDirectory, pickedRom)
         await runGame(outputFile, emulatorName)
 
@@ -86,7 +56,40 @@ async function examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulato
   }
 }
 
-async function extractRom(gamePath, outputDirectory, romInArchive, onlyArchive, logger) {
+function setupChooseGoodMergeRom(filenames: string[], logger) {
+  const fallbackCountryCodes = new Map([
+    // would rather get these than wrong language TODO: think the fallback codes are Genesis-specific?
+    ['PD', 1],
+    ['Unl', 2],
+    ['Unk', 3]
+  ])
+  const countryCodePrefs = new Map([
+    ['B', 4],
+    ['A', 5],
+    ['4', 6],
+    ['U', 7],
+    ['W', 8], //world actually prob means there's only one country code in the rom?
+    ['E', 9],
+    ['UK', 10] //highest priority
+  ])
+  const countryCodes = new Map([...fallbackCountryCodes, ...countryCodePrefs])
+  const priorityCodes = new Map([
+    ['h', 1],
+    ['p', 2],
+    ['a', 3],
+    ['f', 4],
+    ['!', 5] //highest priority
+  ])
+  logger.log(
+    `goodMergeChoosing`,
+    `sending goodMerge country and priority choices to GoodMerge chooser`,
+    countryCodes,
+    priorityCodes
+  )
+  return chooseGoodMergeRom(filenames, countryCodes, priorityCodes, logger)
+}
+
+async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArchive, logger) {
   await onlyArchive(gamePath, outputDirectory, romInArchive)
     .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
     .catch(err => console.error(err))
