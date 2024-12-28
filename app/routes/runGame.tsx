@@ -7,7 +7,10 @@ import { logger } from '../root'
 import emulators from '~/../dats/emulators.json'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
-//unordered list of archive filetypes from sevenZips homepage that we'll support (don't extract iso etc - which it also supports!)
+//ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
+const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
+
+//unordered list of archive filetypes (from 7Zips homepage) that we'll support (don't extract iso etc - which it also supports!)
 const sevenZipSupportedExtensions = [
   '.7z',
   '.bzip2',
@@ -49,39 +52,49 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
     runGame(outputFile, emulatorName)
   } else {
     logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
-    listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
+    //this await here seems to serve no function
+    await listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
       .progress(async (files: { name: string }[]) => {
-        //if its a disk image type, we know we need to extract the whole thing, and pick the right runnable file to pass to the emu
-        const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
-        //first look for ANY of these files, if any are found, treat it as an image, THEN look in order for runnable files, extract all and then pass RUNNABLE file to emu
-        console.log('files', files)
-        const diskImageFiles = files.filter(file => diskImageExtensions.includes(path.extname(file.name)))
-        if (diskImageFiles.length > 0) {
-          logger.log(`fileOperations`, `found disk image files in 7z archive`, diskImageFiles)
-          const pickedRom = diskImageExtensions
-            .map(ext => diskImageFiles.find(file => path.extname(file.name) === ext))
-            .find(file => file)?.name // pick the first matching file based on the order of diskImageExtensions
-          logger.log(`fileOperations`, `picked this disk image:`, pickedRom)
-          await extractFullArchive(gamePathMacOS, outputDirectory, fullArchive, logger)
+        const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
+        if (pickedRom) {
           const outputFile = path.join(outputDirectory, pickedRom)
           await runGame(outputFile, emulatorName)
-          return files //this seems to have no effect see
+          return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
+        } else {
+          const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
+          const outputFile = path.join(outputDirectory, pickedRom)
+          await runGame(outputFile, emulatorName)
+          return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
         }
-        //if its not a disk image, we can just pick the best runnable file to pass to the emu
-        const filenames = files.map(file => file.name)
-        logger.log(`fileOperations`, `7z listing: `, filenames)
-        const pickedRom = setupChooseGoodMergeRom(filenames, logger)
-        logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
-
-        await extractSingleRom(gamePathMacOS, outputDirectory, pickedRom, onlyArchive, logger)
-        const outputFile = path.join(outputDirectory, pickedRom)
-        await runGame(outputFile, emulatorName)
-
-        return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
       })
       .then(archivePathsSpec => logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec))
       .catch(err => console.error('error listing archive: ', err))
   }
+}
+
+//first look for ANY of the files from the image list, if any are found, treat it as an image, THEN look in order for runnable files, extract all and then pass RUNNABLE file to emu
+async function handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive) {
+  logger.log('fileOperations', `checking for disk images in files`, files)
+  const diskImageFiles = files.filter(file => diskImageExtensions.includes(path.extname(file.name)))
+  if (diskImageFiles.length > 0) {
+    logger.log(`fileOperations`, `found disk image files in archive`, diskImageFiles)
+    await extractFullArchive(gamePathMacOS, outputDirectory, fullArchive, logger)
+    const pickedRom = diskImageExtensions
+      .map(ext => diskImageFiles.find(file => path.extname(file.name) === ext))
+      .find(file => file)?.name // pick the first matching file based on the order of diskImageExtensions
+    return pickedRom
+  }
+  return null
+}
+
+async function handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive) {
+  //if its not a disk image, we can just pick the best runnable file to pass to the emu
+  const filenames = files.map(file => file.name)
+  logger.log(`fileOperations`, `7z listing: `, filenames)
+  const pickedRom = setupChooseGoodMergeRom(filenames, logger)
+  logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
+  await extractSingleRom(gamePathMacOS, outputDirectory, pickedRom, onlyArchive, logger)
+  return pickedRom
 }
 
 function setupChooseGoodMergeRom(filenames: string[], logger) {
@@ -119,13 +132,13 @@ function setupChooseGoodMergeRom(filenames: string[], logger) {
 
 async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArchive, logger) {
   await onlyArchive(gamePath, outputDirectory, romInArchive)
-    .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
+    .then(result => logger.log(`fileOperations`, `extracting single file with 7z:`, result))
     .catch(err => console.error(err))
 }
 
 async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger) {
   await fullArchive(gamePath, outputDirectory)
-    .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
+    .then(result => logger.log(`fileOperations`, `extracting all files with 7z:`, result))
     .catch(err => console.error(err))
 }
 
