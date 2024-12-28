@@ -27,7 +27,7 @@ export async function action({ request }: ActionFunctionArgs) {
 async function examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName) {
   //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
-  const { onlyArchive, listArchive } = await import('node-7z-archive')
+  const { onlyArchive, listArchive, fullArchive } = await import('node-7z-archive')
   if (fileInZipToRun) {
     //meaning row in the grid contains a pre-selected preferred rom to extract
     await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
@@ -36,10 +36,24 @@ async function examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulato
   } else {
     logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
     listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
-      .progress(async (files: string[]) => {
+      .progress(async (files: { name: string }[]) => {
         //if its a disk image type, we know we need to extract the whole thing, and pick the right runnable file to pass to the emu
-        const diskImageExtensions = ['.iso', '.bin', '.cue', '.ccd', '.img', '.mdf', '.nrg', '.chd']
-
+        const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
+        //first look for ANY of these files, if any are found, treat it as an image, THEN look in order for runnable files, extract all and then pass RUNNABLE file to emu
+        console.log('files', files)
+        const diskImageFiles = files.filter(file => diskImageExtensions.includes(path.extname(file.name)))
+        if (diskImageFiles.length > 0) {
+          logger.log(`fileOperations`, `found disk image files in 7z archive`, diskImageFiles)
+          const pickedRom = diskImageExtensions
+            .map(ext => diskImageFiles.find(file => path.extname(file.name) === ext))
+            .find(file => file)?.name // pick the first matching file based on the order of diskImageExtensions
+          logger.log(`fileOperations`, `picked this disk image:`, pickedRom)
+          await extractFullArchive(gamePathMacOS, outputDirectory, fullArchive, logger)
+          const outputFile = path.join(outputDirectory, pickedRom)
+          await runGame(outputFile, emulatorName)
+          return files //this seems to have no effect see
+        }
+        //if its not a disk image, we can just pick the best runnable file to pass to the emu
         const filenames = files.map(file => file.name)
         logger.log(`fileOperations`, `7z listing: `, filenames)
         const pickedRom = setupChooseGoodMergeRom(filenames, logger)
@@ -91,6 +105,12 @@ function setupChooseGoodMergeRom(filenames: string[], logger) {
 
 async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArchive, logger) {
   await onlyArchive(gamePath, outputDirectory, romInArchive)
+    .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
+    .catch(err => console.error(err))
+}
+
+async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger) {
+  await fullArchive(gamePath, outputDirectory)
     .then(result => logger.log(`fileOperations`, `extracting with 7z:`, result))
     .catch(err => console.error(err))
 }
