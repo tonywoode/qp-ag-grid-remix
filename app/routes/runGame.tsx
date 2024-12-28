@@ -7,24 +7,38 @@ import { logger } from '../root'
 import emulators from '~/../dats/emulators.json'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 
+//unordered list of archive filetypes from sevenZips homepage that we'll support (don't extract iso etc - which it also supports!)
+const sevenZipSupportedExtensions = [
+  '.7z',
+  '.bzip2',
+  '.dmg',
+  '.gzip',
+  '.lzma',
+  '.rar',
+  '.rar5',
+  '.tar',
+  '.xar',
+  '.zip',
+  '.zipx'
+]
+
 export async function action({ request }: ActionFunctionArgs) {
   const { gamePath, fileInZipToRun, emulatorName } = await request.json()
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
   const outputDirectory = setTempDir()
-  const gameExtension = path.extname(gamePathMacOS)
-  if (gameExtension === '.7z') {
-    //TODO: sadly this isn't good enough, look at saturn games
-    //But it IS a good shortcut, we DO know if its not a 7z that we don't have a goodmerge set, so we can skip checking, but we can't just run a game, what if its some other file that needs uncompressing
-    await examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName)
+  const gameExtension = path.extname(gamePathMacOS).toLowerCase()
+  //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
+  if (sevenZipSupportedExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)) {
+    await examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName)
   } else {
     await runGame(gamePathMacOS, emulatorName)
   }
   return null
 }
 
-async function examine7z(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName) {
+async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName) {
   //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const { onlyArchive, listArchive, fullArchive } = await import('node-7z-archive')
