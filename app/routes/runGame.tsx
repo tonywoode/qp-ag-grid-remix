@@ -1,4 +1,4 @@
-import { execSync } from 'child_process'
+import { spawn } from 'child_process'
 import type { ActionFunctionArgs } from '@remix-run/node'
 import path from 'path'
 import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
@@ -147,17 +147,22 @@ async function runGame(outputFile: string, emulatorName: string) {
   if (matchedEmulator) {
     const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
     logger.log(`fileOperations`, 'Retroarch Command Line:', retroarchCommandLine)
-    //sigh a problem with the data here: "emulatorName": "RetroArch Nintendo Gamecube Multiloader (Dolphin)",
     const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
     const libretroCore = `/Users/twoode/Library/Application Support/RetroArch/${retroarchCommandLine}`
     const flagsToEmu = '-v -f'
-    const command = `"${retroarchExe}" "${outputFile}" -L "${libretroCore}" ${flagsToEmu}`
-    try {
-      const output = await execSync(command) // Execute synchronously, remember spawnSync too
-      logger.log(`fileOperations`, `Output: ${output}`)
-    } catch (error) {
-      console.error(`Error executing command: ${error}`)
-    }
+    const process = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
+    process.stdout.on('data', data => {
+      logger.log(`fileOperations`, `Output: ${data}`)
+      //todo: send data to SSE stream
+    })
+    process.stderr.on('data', data => {
+      logger.log(`fileOperations`, `Error: ${data}`)
+      //todo: send data to SSE stream
+    })
+    process.on('close', code => {
+      logger.log(`fileOperations`, `Process exited with code ${code}`)
+      //todo: notify SSE stream process has ended
+    })
   } else {
     logger.log(`fileOperations`, 'Emulator not found')
   }
