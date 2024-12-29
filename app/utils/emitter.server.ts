@@ -1,26 +1,4 @@
 import { EventEmitter } from 'events'
-
-// Create a singleton emitter
 const emitter = new EventEmitter()
-
+//using kcd's remember causes complaints about controller already being closed...
 export { emitter }
-// import { EventEmitter } from 'events'
-// // import { remember } from '@epic-web/remember'
-// // import { EventEmitter } from "events";
-// // import { remember } from "@epic-web/remember";
-
-// // export const emitter = remember("emitter", () => new EventEmitter());
-
-// //instead, awful hacks to get around cjs, move to ESM and remove
-// async function initializeRemember() {
-//   const { remember } = await import('@epic-web/remember')
-//   return remember('emitter', () => new EventEmitter())
-// }
-
-// let emitter: EventEmitter
-
-// initializeRemember().then(result => {
-//   emitter = result
-// })
-
-// export { emitter }
