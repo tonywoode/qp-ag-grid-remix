@@ -6,6 +6,7 @@ import { createDirIfNotExist } from '../utils/createDirIfNotExist'
 import { logger } from '../root'
 import emulators from '~/../dats/emulators.json'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
+import { emitter } from '~/utils/emitter.server'
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
@@ -28,6 +29,7 @@ const sevenZipSupportedExtensions = [
 export async function action({ request }: ActionFunctionArgs) {
   const { gamePath, fileInZipToRun, emulatorName } = await request.json()
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
+  // emitter.emit('runGameEvent', 'runGameEvent')
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
   const outputDirectory = setTempDir()
@@ -153,15 +155,17 @@ async function runGame(outputFile: string, emulatorName: string) {
     const process = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
     process.stdout.on('data', data => {
       logger.log(`fileOperations`, `Output: ${data}`)
-      //todo: send data to SSE stream
+      emitter.emit('runGameEvent', { type: 'output', data: data.toString() })
     })
+
     process.stderr.on('data', data => {
       logger.log(`fileOperations`, `Error: ${data}`)
-      //todo: send data to SSE stream
+      emitter.emit('runGameEvent', { type: 'error', data: data.toString() })
     })
+
     process.on('close', code => {
       logger.log(`fileOperations`, `Process exited with code ${code}`)
-      //todo: notify SSE stream process has ended
+      emitter.emit('runGameEvent', { type: 'close', data: `Process exited with code ${code}` })
     })
   } else {
     logger.log(`fileOperations`, 'Emulator not found')

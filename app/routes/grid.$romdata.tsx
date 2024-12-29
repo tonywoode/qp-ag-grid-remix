@@ -20,6 +20,8 @@ import { encodeString, decodeString } from '~/utils/safeUrl'
 import { loadMameIconBase64 } from '~/loadMameIcons.server'
 import { loadIconBase64 } from '~/loadImages.server'
 import { logger } from '~/root'
+// import { useLiveLoader } from '~/utils/useLiveLoader'
+import { useEventSource } from 'remix-utils/sse/react'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
@@ -76,6 +78,14 @@ export default function Grid() {
     document.addEventListener('click', handleClickOutside)
     return () => document.removeEventListener('click', handleClickOutside)
   }, [])
+
+  // let yup = useLiveLoader<typeof loader>()
+  // console.log(yup)
+  // console.log('runGameEvent')
+  // console.log(runGameEvent, data)
+
+  let time = useEventSource('/stream', { event: 'runGameEvent' })
+  console.log(time)
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
@@ -485,6 +495,7 @@ export default function Grid() {
             <Outlet key="outlet" />
           </div>
         ]}
+        <EmulatorOutput />
       </Split>
       {contextMenu && (
         <div
@@ -548,6 +559,28 @@ export default function Grid() {
         </div>
       )}
     </>
+  )
+}
+
+function EmulatorOutput() {
+  const [logs, setLogs] = useState<Array<{ type: string; message: string }>>([])
+  const eventData = useEventSource('/stream', { event: 'runGameEvent' })
+
+  useEffect(() => {
+    if (eventData) {
+      const data = JSON.parse(eventData)
+      setLogs(prev => [...prev, { type: data.type, message: data.data }])
+    }
+  }, [eventData])
+
+  return (
+    <div className="fixed bottom-0 right-0 w-96 h-64 bg-black bg-opacity-90 text-white p-4 overflow-auto">
+      {logs.map((log, i) => (
+        <div key={i} className={`${log.type === 'error' ? 'text-red-500' : 'text-green-500'}`}>
+          {log.message}
+        </div>
+      ))}
+    </div>
   )
 }
 
