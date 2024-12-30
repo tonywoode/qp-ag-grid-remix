@@ -13,6 +13,7 @@ import type {
 import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { useEffect, useRef, useState } from 'react'
+import { useEventSource } from 'remix-utils/sse/react'
 import Split from 'react-split'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
@@ -20,7 +21,7 @@ import { encodeString, decodeString } from '~/utils/safeUrl'
 import { loadMameIconBase64 } from '~/loadMameIcons.server'
 import { loadIconBase64 } from '~/loadImages.server'
 import { logger } from '~/root'
-import { useEventSource } from 'remix-utils/sse/react'
+import { GameProgressModal } from '~/components/GameProgressModal'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
@@ -55,6 +56,13 @@ export default function Grid() {
   const searchTextRef = useRef('')
   const lastKeyPressTimeRef = useRef(0)
   const searchTimeoutRef = useRef<number | null>(null)
+  const [gameProgress, setGameProgress] = useState<{
+    isRunning: boolean
+    name: string
+    path: string
+    status: string
+    logs: string[]
+  } | null>(null)
   type BaseContextMenu = { x: number; y: number }
   type RomContextMenu = BaseContextMenu & {
     type: 'rom'
@@ -94,7 +102,18 @@ export default function Grid() {
     }
   )
 
-  const runGame = (gamePath: string, fileInZipToRun: string, emulatorName: string) => {
+  function runGame(gamePath: string, fileInZipToRun: string, emulatorName: string) {
+    function getBaseName(p: string) {
+      return p.substring(Math.max(p.lastIndexOf('\\'), p.lastIndexOf('/')) + 1)
+    }
+    setGameProgress({
+      isRunning: true,
+      name: getBaseName(gamePath),
+      path: gamePath,
+      status: 'Starting...',
+      logs: [] // Reset logs at the start of each run
+    })
+
     fetcher.submit(
       { gamePath, fileInZipToRun, emulatorName },
       { action: '/runGame', method: 'post', encType: 'application/json' }
@@ -483,7 +502,6 @@ export default function Grid() {
           <Outlet key="outlet" />
         </div>
       </Split>
-      <EmulatorOutput />
       {contextMenu && (
         <div
           className="absolute bg-white shadow-md border rounded"
@@ -545,40 +563,15 @@ export default function Grid() {
           </ul>
         </div>
       )}
+      <GameProgressModal
+        isOpen={!!gameProgress?.isRunning}
+        onClose={() => {
+          setGameProgress(null)
+          // TODO: Add logic to cancel game process
+        }}
+        gameDetails={gameProgress || { name: '', path: '', status: '', logs: [] }}
+      />
     </>
-  )
-}
-
-function EmulatorOutput() {
-  const [logs, setLogs] = useState<Array<{ type: string; message: string }>>([])
-  const eventData = useEventSource('/stream', { event: 'runGameEvent' })
-  const containerRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    if (eventData) {
-      const data = JSON.parse(eventData)
-      logger.log('gridOperations', 'runGame event:', data)
-      setLogs(prev => [...prev, { type: data.type, message: data.data }])
-    }
-  }, [eventData])
-
-  useEffect(() => {
-    if (containerRef.current) {
-      containerRef.current.scrollTop = containerRef.current.scrollHeight
-    }
-  }, [logs])
-
-  return (
-    <div
-      ref={containerRef}
-      className="fixed bottom-0 right-0 w-96 h-64 bg-black bg-opacity-90 text-white p-4 overflow-auto"
-    >
-      {logs.map((log, i) => (
-        <div key={i} className={`${log.type === 'error' ? 'text-red-500' : 'text-green-500'}`}>
-          {log.message}
-        </div>
-      ))}
-    </div>
   )
 }
 
