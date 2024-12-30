@@ -467,27 +467,23 @@ export default function Grid() {
   return (
     <>
       <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
-        {[
-          <div
-            key="grid"
-            className="ag-theme-alpine"
-            style={{
-              height: '100%',
-              width: '100%',
-              //some props only work in in grid options, these only as styles: https://www.ag-grid.com/react-data-grid/global-style-customisation-compactness/
-              '--ag-font-size': `${fontSize}px`,
-              '--ag-grid-size': `${gridSize}px`
-              // '--ag-row-height': '30', //oddly this doesn't do the same as rowHeight in grid options, seems to just move each rows text uncomfortably to the top?
-            }}
-          >
-            <AgGridReact key={gridKey} rowData={rowdata} columnDefs={columnDefs} gridOptions={gridOptions} />
-          </div>,
-          <div key="mediaPanel" className="h-full overflow-auto">
-            <Outlet key="outlet" />
-          </div>
-        ]}
-        <EmulatorOutput />
+        <div
+          key="grid"
+          className="ag-theme-alpine"
+          style={{
+            height: '100%',
+            width: '100%',
+            '--ag-font-size': `${fontSize}px`,
+            '--ag-grid-size': `${gridSize}px`
+          }}
+        >
+          <AgGridReact key={gridKey} rowData={rowdata} columnDefs={columnDefs} gridOptions={gridOptions} />
+        </div>
+        <div key="mediaPanel" className="h-full overflow-auto">
+          <Outlet key="outlet" />
+        </div>
       </Split>
+      <EmulatorOutput />
       {contextMenu && (
         <div
           className="absolute bg-white shadow-md border rounded"
