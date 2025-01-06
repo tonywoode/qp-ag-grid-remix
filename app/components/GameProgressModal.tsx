@@ -46,10 +46,12 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
       isOpen={isOpen}
       onRequestClose={onClose}
       contentLabel="Game Progress"
-      className="fixed inset-0 z-10 flex items-center justify-center"
-      overlayClassName="fixed inset-0 bg-white bg-opacity-50"
+      className="inline-flex w-1/2 h-1/2"
+      overlayClassName="fixed w-full h-screen top-0 left-0 z-[1000] backdrop-blur-sm flex justify-center items-center"
+      shouldCloseOnOverlayClick={true}
+      preventScroll={true}
     >
-      <div className="relative bg-white rounded max-w-4xl w-full mx-auto p-6">
+      <div className="relative bg-white rounded w-full h-full mx-auto p-6 overflow-hidden">
         {/* Header with summaries */}
         <div className="flex items-center justify-between p-3 border-b border-gray-200">
           <div className="flex items-center space-x-4">
@@ -69,16 +71,10 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
               </div>
             </div>
           </div>
-          <div className="flex space-x-2">
-            <button className="text-gray-500 hover:text-gray-700 px-2"></button>
-            <button onClick={onClose} className="text-gray-500 hover:text-gray-700 px-2">
-              ×
-            </button>
-          </div>
         </div>
 
         {/* Console Output */}
-        <div ref={containerRef} className="mt-4 h-64 overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap">
+        <div ref={containerRef} className="mt-4 overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap h-3/4">
           {logs.map((log, i) => (
             <div key={i}>
               {
@@ -96,7 +92,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
           ))}
         </div>
         <div className="mt-4 flex justify-end">
-          <button className="px-4 py-2 bg-blue-500 text-white rounded" onClick={onClose}>
+          <button className="px-4 py-1 bg-blue-500 text-white rounded" onClick={onClose}>
             Close
           </button>
         </div>
