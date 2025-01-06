@@ -13,7 +13,6 @@ import type {
 import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import type { LoaderFunctionArgs } from '@remix-run/node'
 import { useEffect, useRef, useState } from 'react'
-import { useEventSource } from 'remix-utils/sse/react'
 import Split from 'react-split'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring

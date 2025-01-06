@@ -17,7 +17,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const containerRef = useRef<HTMLDivElement>(null)
   const [logs, setLogs] = useState<string[]>(gameDetails.logs)
   const [status, setStatus] = useState<string>(gameDetails.status)
-  const hasError = logs.some(log => log.includes('Error'))
+  const hasError = logs.some(log => log.toLowerCase().includes('error'))
   const eventData = useEventSource('/stream', { event: 'runGameEvent' })
 
   useEffect(() => {
@@ -29,6 +29,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
     }
   }, [eventData])
 
+  //terminal like scroll to latest message
   useEffect(() => {
     if (containerRef.current) {
       containerRef.current.scrollTop = containerRef.current.scrollHeight
@@ -79,8 +80,18 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
         {/* Console Output */}
         <div ref={containerRef} className="mt-4 h-64 overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap">
           {logs.map((log, i) => (
-            <div key={i} className={`${log.includes('Error') ? 'text-red-500' : 'text-green-500'}`}>
-              {log}
+            <div key={i}>
+              {
+                //an event can have multiple log lines, we only want to colour the error lines in red (works well for retroarch)
+                log.split('\n').map((line, j) => (
+                  <div
+                    key={j}
+                    className={`${line.toLowerCase().includes('error') ? 'text-red-500' : 'text-green-500'}`}
+                  >
+                    {line}
+                  </div>
+                ))
+              }
             </div>
           ))}
         </div>
