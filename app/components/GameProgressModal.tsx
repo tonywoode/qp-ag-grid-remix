@@ -17,6 +17,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const containerRef = useRef<HTMLDivElement>(null)
   const [logs, setLogs] = useState<string[]>(gameDetails.logs)
   const [status, setStatus] = useState<string>(gameDetails.status)
+  const hasError = logs.some(log => log.includes('Error'))
   const eventData = useEventSource('/stream', { event: 'runGameEvent' })
 
   useEffect(() => {
@@ -48,8 +49,34 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
       overlayClassName="fixed inset-0 bg-white bg-opacity-50"
     >
       <div className="relative bg-white rounded max-w-4xl w-full mx-auto p-6">
-        <h2 className="text-lg font-medium">Running {gameDetails.name}</h2>
-        <p className="mt-2 text-sm text-gray-500">{status}</p>
+        {/* Header with summaries */}
+        <div className="flex items-center justify-between p-3 border-b border-gray-200">
+          <div className="flex items-center space-x-4">
+            <span className="font-medium text-gray-800">{gameDetails.name}</span>
+            <div className="flex items-center space-x-2">
+              <div className="flex items-center">
+                <span className="mr-2 text-sm text-gray-600">Unzip:</span>
+                {hasError ? <span className="text-red-500">✗</span> : <span className="text-green-500">✓</span>}
+              </div>
+              <div className="flex items-center">
+                <span className="mr-2 text-sm text-gray-600">Launch:</span>
+                {status === 'running' ? (
+                  <span className="text-green-500">✓</span>
+                ) : (
+                  <span className="text-gray-400">○</span>
+                )}
+              </div>
+            </div>
+          </div>
+          <div className="flex space-x-2">
+            <button className="text-gray-500 hover:text-gray-700 px-2"></button>
+            <button onClick={onClose} className="text-gray-500 hover:text-gray-700 px-2">
+              ×
+            </button>
+          </div>
+        </div>
+
+        {/* Console Output */}
         <div ref={containerRef} className="mt-4 h-64 overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap">
           {logs.map((log, i) => (
             <div key={i} className={`${log.includes('Error') ? 'text-red-500' : 'text-green-500'}`}>
