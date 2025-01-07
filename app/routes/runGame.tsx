@@ -27,7 +27,12 @@ const sevenZipSupportedExtensions = [
 ]
 
 export async function action({ request }: ActionFunctionArgs) {
-  const { gamePath, fileInZipToRun, emulatorName } = await request.json()
+  const { gamePath, fileInZipToRun, emulatorName, clearProcess } = await request.json()
+  if (clearProcess) {
+    currentProcess = null
+    currentGameDetails = null
+    return null
+  }
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
   // emitter.emit('runGameEvent', 'runGameEvent')
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)

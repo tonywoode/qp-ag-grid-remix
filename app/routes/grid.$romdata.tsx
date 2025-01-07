@@ -105,6 +105,12 @@ export default function Grid() {
     function getBaseName(p: string) {
       return p.substring(Math.max(p.lastIndexOf('\\'), p.lastIndexOf('/')) + 1)
     }
+
+    if (gameProgress?.isRunning) {
+      const confirmRun = confirm(`Game ${gameProgress.name} is still running. Are you sure you want to run a new game?`)
+      if (!confirmRun) return
+    }
+
     setGameProgress({
       isRunning: true,
       name: getBaseName(gamePath),
