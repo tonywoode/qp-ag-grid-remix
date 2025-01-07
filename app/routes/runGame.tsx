@@ -146,11 +146,16 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
 
 //only one game can be run by me at a time
 let currentProcess = null
+let currentGameDetails = null
 
 async function runGame(outputFile: string, emulatorName: string) {
   if (currentProcess) {
-    currentProcess.kill()
-    currentProcess = null
+    logger.log(`fileOperations`, 'An emulator is already running. Please close it before launching a new game.')
+    emitter.emit('runGameEvent', {
+      type: 'onlyOneEmu',
+      data: `An emulator is already running: ${currentGameDetails.name} with ${currentGameDetails.emulatorName}. Please close it before launching a new game.`
+    })
+    return
   }
 
   const matchedEmulator = matchEmulatorName(emulatorName, emulators)
@@ -161,6 +166,7 @@ async function runGame(outputFile: string, emulatorName: string) {
     const libretroCore = `/Users/twoode/Library/Application Support/RetroArch/${retroarchCommandLine}`
     const flagsToEmu = '-v -f'
     currentProcess = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
+    currentGameDetails = { name: outputFile, emulatorName }
 
     currentProcess.stdout.on('data', data => {
       logger.log(`fileOperations`, `Output: ${data}`)
@@ -176,6 +182,7 @@ async function runGame(outputFile: string, emulatorName: string) {
       logger.log(`fileOperations`, `Process exited with code ${code}`)
       emitter.emit('runGameEvent', { type: 'close', data: `Process exited with code ${code}` })
       currentProcess = null
+      currentGameDetails = null
     })
   } else {
     logger.log(`fileOperations`, 'Emulator not found')
