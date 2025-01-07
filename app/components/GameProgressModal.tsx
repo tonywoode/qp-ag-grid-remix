@@ -28,7 +28,9 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
       const data = JSON.parse(eventData)
       console.log('runGame event:', data)
       setLogs(prevLogs => [...prevLogs, data.data])
-      setStatus(data.data)
+      if (data.type === 'status') {
+        setStatus(data.data)
+      }
       if (data.type === 'onlyOneEmu') {
         alert(data.data)
       }
