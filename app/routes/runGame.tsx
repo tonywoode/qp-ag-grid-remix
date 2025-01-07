@@ -144,7 +144,15 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
     .catch(err => console.error(err))
 }
 
+//only one game can be run by me at a time
+let currentProcess = null
+
 async function runGame(outputFile: string, emulatorName: string) {
+  if (currentProcess) {
+    currentProcess.kill()
+    currentProcess = null
+  }
+
   const matchedEmulator = matchEmulatorName(emulatorName, emulators)
   if (matchedEmulator) {
     const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
@@ -152,20 +160,22 @@ async function runGame(outputFile: string, emulatorName: string) {
     const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
     const libretroCore = `/Users/twoode/Library/Application Support/RetroArch/${retroarchCommandLine}`
     const flagsToEmu = '-v -f'
-    const process = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
-    process.stdout.on('data', data => {
+    currentProcess = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
+
+    currentProcess.stdout.on('data', data => {
       logger.log(`fileOperations`, `Output: ${data}`)
       emitter.emit('runGameEvent', { type: 'output', data: data.toString() })
     })
 
-    process.stderr.on('data', data => {
+    currentProcess.stderr.on('data', data => {
       logger.log(`fileOperations`, `Error: ${data}`)
       emitter.emit('runGameEvent', { type: 'error', data: data.toString() })
     })
 
-    process.on('close', code => {
+    currentProcess.on('close', code => {
       logger.log(`fileOperations`, `Process exited with code ${code}`)
       emitter.emit('runGameEvent', { type: 'close', data: `Process exited with code ${code}` })
+      currentProcess = null
     })
   } else {
     logger.log(`fileOperations`, 'Emulator not found')
