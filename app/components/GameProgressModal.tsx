@@ -24,12 +24,17 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const eventData = useEventSource('/stream', { event: 'runGameEvent' })
 
   useEffect(() => {
+    console.log('the eventData useEffect ran')
     if (eventData) {
       const data = JSON.parse(eventData)
       console.log('runGame event:', data)
       setLogs(prevLogs => [...prevLogs, data.data])
       if (data.type === 'status') {
+        console.log('Setting status to:', data.data)
         setStatus(data.data)
+        if (data.data === 'closed') {
+          setIsMinimized(false)
+        }
       }
       if (data.type === 'onlyOneEmu') {
         alert(data.data)
@@ -47,10 +52,11 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   //stop printing the last message from the previous run as the first message in the next
   useEffect(() => {
     setLogs([])
+    setStatus('') // Reset status when modal opens
   }, [isOpen])
 
   const handleClose = () => {
-    if (gameDetails.status === 'running') {
+    if (status === 'running') {
       setIsMinimized(true)
     } else {
       onClose()
@@ -71,8 +77,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
         contentLabel="Game Progress"
         className="inline-flex w-1/2 h-1/2"
         overlayClassName="fixed w-full h-screen top-0 left-0 z-[1000] bg-opacity-20 bg-white backdrop-blur-[1.2px] flex justify-center items-center"
-        shouldCloseOnOverlayClick={true}
-        preventScroll={true}
+        shouldCloseOnEsc={false} //because esc exits emulators like retroarch, hold it down for 2ms too long and....
       >
         <div className="relative bg-white rounded w-full h-full mx-auto p-6 flex flex-col">
           {/* Header with summaries */}
@@ -116,8 +121,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
             ))}
           </div>
           <div className="flex justify-end mt-2">
-            <button className="px-4 py-1 bg-blue-500 text-white rounded" onClick={() => setIsMinimized(true)}>
-              Close
+            <button className="px-4 py-1 bg-blue-500 text-white rounded" onClick={handleClose}>
+              {status === 'running' ? 'Minimize' : 'Close'}
             </button>
           </div>
         </div>

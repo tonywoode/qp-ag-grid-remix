@@ -149,7 +149,7 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
     .catch(err => console.error(err))
 }
 
-//only one game can be run by me at a time
+//only one game can be run by me at a time - we don't want to use exec, we may want to be able to navigate qp for maps, walkthroughs, keybindings
 let currentProcess = null
 let currentGameDetails = null
 
@@ -172,7 +172,11 @@ async function runGame(outputFile: string, emulatorName: string) {
     const flagsToEmu = '-v -f'
     currentProcess = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
     currentGameDetails = { name: outputFile, emulatorName }
+    // Emit status when game starts - TODO: on success only
+    console.log('going to emit a running game status event')
+    emitter.emit('runGameEvent', { type: 'status', data: 'running' })
 
+    //TODO: don't think this ever gets run
     currentProcess.stdout.on('data', data => {
       logger.log(`fileOperations`, `Output: ${data}`)
       emitter.emit('runGameEvent', { type: 'output', data: data.toString() })
@@ -185,7 +189,10 @@ async function runGame(outputFile: string, emulatorName: string) {
 
     currentProcess.on('close', code => {
       logger.log(`fileOperations`, `Process exited with code ${code}`)
+      //TODO: on setting status - closed below this, this no longer gets logged?
       emitter.emit('runGameEvent', { type: 'close', data: `Process exited with code ${code}` })
+      // Emit status when game ends
+      emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
       currentProcess = null
       currentGameDetails = null
     })
