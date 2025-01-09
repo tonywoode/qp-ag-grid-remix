@@ -14,6 +14,12 @@ type ProgressModalProps = {
   }
 }
 
+const MINIMIZED_HEIGHT_REM = 20
+
+const DEFAULT_POSITIONS = {
+  minimized: { x: '1vw', y: `calc(99vh - ${MINIMIZED_HEIGHT_REM}rem)` },
+  maximized: { x: '50%', y: '50%' }
+}
 
 export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModalProps) {
   const fetcher = useFetcher()
@@ -21,8 +27,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const [logs, setLogs] = useState<string[]>(gameDetails.logs)
   const [status, setStatus] = useState<string>(gameDetails.status)
   const [isMinimized, setIsMinimized] = useState(false)
-  const [minimizedPosition, setMinimizedPosition] = useState({ x: '1vw', y: 'calc(99vh - 20rem)' })
-  const [maximizedPosition, setMaximizedPosition] = useState({ x: '50%', y: '50%' })
+  const [minimizedPosition, setMinimizedPosition] = useState(DEFAULT_POSITIONS.minimized)
+  const [maximizedPosition, setMaximizedPosition] = useState(DEFAULT_POSITIONS.maximized)
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
   const hasError = logs.some(log => log.toLowerCase().includes('error'))
@@ -60,21 +66,32 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
     setStatus('') // Reset status when modal opens
   }, [isOpen])
 
+  function resetAllPositions() {
+    setIsMinimized(false)
+    setMinimizedPosition(DEFAULT_POSITIONS.minimized)
+    setMaximizedPosition(DEFAULT_POSITIONS.maximized)
+  }
+
+  function updatePosition(mode: 'minimized' | 'maximized', pos: { x: number | string; y: number | string }) {
+    if (mode === 'minimized') {
+      setMinimizedPosition(pos)
+    } else {
+      setMaximizedPosition(pos)
+    }
+  }
+
   const handleClose = () => {
     if (status === 'running') {
       setIsMinimized(true)
     } else {
-      setMinimizedPosition({ x: '1vw', y: 'calc(99vh - 20rem)' }) // Reset position on close
-      setMaximizedPosition({ x: '50%', y: '50%' }) // Reset position on close
+      resetAllPositions()
       onClose()
     }
   }
 
   const handleConfirmClose = () => {
     fetcher.submit({ clearProcess: true }, { action: '/runGame', method: 'post', encType: 'application/json' })
-    setIsMinimized(false)
-    setMinimizedPosition({ x: '1vw', y: 'calc(99vh - 20rem)' }) // Reset position on close
-    setMaximizedPosition({ x: '50%', y: '50%' }) // Reset position on close
+    resetAllPositions()
     onClose()
   }
 
@@ -86,12 +103,13 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
     <Modal
       isOpen={isOpen}
       onRequestClose={handleClose}
+      shouldCloseOnOverlayClick={true}
       contentLabel="Game Progress"
       className={`inline-flex ${isMinimized ? 'fixed bottom-4 right-4 w-1/4 h-1/3' : 'w-1/2 h-1/2'}`}
       style={{
         overlay: {
-          backgroundColor: isMinimized ? 'transparent' : 'rgba(255, 255, 255, 0.2)',
-          pointerEvents: 'none' // Allow dragging through overlay
+          backgroundColor: !isMinimized ? 'rgba(255, 255, 255, 0.2)' : 'transparent',
+          pointerEvents: !isMinimized ? 'auto' : 'none'
         },
         content: {
           position: 'fixed',
@@ -100,7 +118,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
           transform: isMinimized ? 'none' : 'translate(-50%, -50%)',
           pointerEvents: 'auto',
           zIndex: 1001,
-          maxHeight: isMinimized ? '20rem' : '80vh',
+          maxHeight: isMinimized ? `${MINIMIZED_HEIGHT_REM}rem` : '80vh',
           overflow: 'auto'
         }
       }}
@@ -131,11 +149,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
             x: (e?.clientX ?? dragStart.x) - dragOffset.x,
             y: (e?.clientY ?? dragStart.y) - dragOffset.y
           }
-          if (isMinimized) {
-            setMinimizedPosition(newPosition)
-          } else {
-            setMaximizedPosition(newPosition)
-          }
+          const mode: 'minimized' | 'maximized' = isMinimized ? 'minimized' : 'maximized'
+          updatePosition(mode, newPosition)
         }}
       >
         {/* Header with summaries */}
