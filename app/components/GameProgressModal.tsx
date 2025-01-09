@@ -21,8 +21,11 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const [logs, setLogs] = useState<string[]>(gameDetails.logs)
   const [status, setStatus] = useState<string>(gameDetails.status)
   const [isMinimized, setIsMinimized] = useState(false)
-  const DEFAULT_MINIMISED_POSITION = { x: 16, y: window.innerHeight - 200 }
-  const [minimisedPosition, setMinimisedPosition] = useState(DEFAULT_MINIMISED_POSITION)
+  const DEFAULT_MINIMISED_POSITION = {
+    x: '1vw',
+    y: 'calc(99vh - 20rem)'
+  }
+  const [position, setPosition] = useState(DEFAULT_MINIMISED_POSITION)
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
   const hasError = logs.some(log => log.toLowerCase().includes('error'))
@@ -64,7 +67,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
     if (status === 'running') {
       setIsMinimized(true)
     } else {
-      setMinimisedPosition(DEFAULT_MINIMISED_POSITION) // Reset position on close
+      setPosition(DEFAULT_MINIMISED_POSITION) // Reset position on close
       onClose()
     }
   }
@@ -72,7 +75,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const handleConfirmClose = () => {
     fetcher.submit({ clearProcess: true }, { action: '/runGame', method: 'post', encType: 'application/json' })
     setIsMinimized(false)
-    setMinimisedPosition(DEFAULT_MINIMISED_POSITION) // Reset position on close
+    setPosition(DEFAULT_MINIMISED_POSITION) // Reset position on close
     onClose()
   }
 
@@ -81,120 +84,104 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   blankDragImage.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs='
 
   return (
-    <>
-      <Modal
-        isOpen={isOpen && !isMinimized}
-        onRequestClose={handleClose}
-        contentLabel="Game Progress"
-        className="inline-flex w-1/2 h-1/2"
-        overlayClassName="fixed w-full h-screen top-0 left-0 z-[1000] bg-opacity-20 bg-white backdrop-blur-[1.2px] flex justify-center items-center"
-        shouldCloseOnEsc={false} //because esc exits emulators like retroarch, hold it down for 2ms too long and....
+    <Modal
+      isOpen={isOpen}
+      onRequestClose={handleClose}
+      contentLabel="Game Progress"
+      className={`inline-flex ${isMinimized ? 'fixed bottom-4 right-4 w-1/4 h-1/3' : 'w-1/2 h-1/2'}`}
+      style={{
+        overlay: {
+          backgroundColor: isMinimized ? 'transparent' : 'rgba(255, 255, 255, 0.2)',
+          pointerEvents: isMinimized ? 'none' : 'auto'
+        },
+        content: {
+          position: 'fixed',
+          left: isMinimized ? position.x : '50%',
+          top: isMinimized ? position.y : '50%',
+          transform: isMinimized ? 'none' : 'translate(-50%, -50%)',
+          pointerEvents: 'auto',
+          zIndex: 1001,
+          maxHeight: isMinimized ? '20rem' : '80vh',
+          overflow: 'auto'
+        }
+      }}
+      overlayClassName={`fixed w-full h-screen top-0 left-0 z-[1000] ${
+        isMinimized ? '' : 'backdrop-blur-[1.2px]'
+      } flex justify-center items-center`}
+      shouldCloseOnEsc={false} //because esc exits emulators like retroarch, hold it down for 2ms too long and....
+    >
+      <div
+        className="relative bg-white rounded w-full h-full mx-auto p-6 flex flex-col"
+        draggable={isMinimized}
+        //dragging the modal by the header
+        onMouseDown={e => {
+          if (!isMinimized) return
+          const rect = e.currentTarget.getBoundingClientRect()
+          //without a drag offset, the cursor jumps to top left of modal when dragged, janking the window with it
+          //its a pity coz the drag offset logic makes this seem more complex than it is
+          setDragOffset({ x: e.clientX - rect.left, y: e.clientY - rect.top })
+          setDragStart({ x: e.clientX, y: e.clientY })
+        }}
+        onDragStart={e => {
+          if (!isMinimized) return
+          e.dataTransfer.setData('text', '') //required for Firefox
+          e.dataTransfer.effectAllowed = 'move'
+          e.dataTransfer.setDragImage(blankDragImage, 0, 0) //might as well be 0,0
+        }}
+        onDrag={e => {
+          if (!isMinimized || (e.clientX === 0 && e.clientY === 0)) return
+          setPosition({
+            x: (e?.clientX ?? dragStart.x) - dragOffset.x,
+            y: (e?.clientY ?? dragStart.y) - dragOffset.y
+          })
+        }}
       >
-        <div className="relative bg-white rounded w-full h-full mx-auto p-6 flex flex-col">
-          {/* Header with summaries */}
-          <div className="flex flex-col p-3 border-b border-gray-200">
-            <span className="font-medium text-gray-800">{gameDetails.name}</span>
-            <div className="flex items-center space-x-2 mt-2">
-              <div className="flex items-center">
-                <span className="mr-2 text-sm text-gray-600">Unzip:</span>
-                {hasError ? <span className="text-red-500">✗</span> : <span className="text-green-500">✓</span>}
-              </div>
-              <div className="flex items-center">
-                <span className="mr-2 text-sm text-gray-600">Launch:</span>
-                {status === 'running' ? (
-                  <span className="text-green-500">✓</span>
-                ) : (
-                  <span className="text-gray-400">○</span>
-                )}
-              </div>
+        {/* Header with summaries */}
+        <div className="flex flex-col p-3 border-b border-gray-200 cursor-move">
+          <span className="font-medium text-gray-800">{gameDetails.name}</span>
+          <div className="flex items-center space-x-2 mt-2">
+            <div className="flex items-center">
+              <span className="mr-2 text-sm text-gray-600">Unzip:</span>
+              {hasError ? <span className="text-red-500">✗</span> : <span className="text-green-500">✓</span>}
+            </div>
+            <div className="flex items-center">
+              <span className="mr-2 text-sm text-gray-600">Launch:</span>
+              {status === 'running' ? (
+                <span className="text-green-500">✓</span>
+              ) : (
+                <span className="text-gray-400">○</span>
+              )}
             </div>
           </div>
+        </div>
 
-          {/* Console Output */}
-          <div
-            ref={containerRef}
-            className="flex-grow overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap"
-          >
-            {logs.map((log, i) => (
-              <div key={i}>
-                {
-                  //an event can have multiple log lines, we only want to colour the error lines in red (works well for retroarch)
-                  log.split('\n').map((line, j) => (
-                    <div
-                      key={j}
-                      className={`${line.toLowerCase().includes('error') ? 'text-red-500' : 'text-green-500'}`}
-                    >
-                      {line}
-                    </div>
-                  ))
-                }
-              </div>
-            ))}
-          </div>
-          <div className="flex justify-end mt-2">
-            <button className="px-4 py-1 bg-blue-500 text-white rounded" onClick={handleClose}>
-              {status === 'running' ? 'Minimize' : 'Close'}
-            </button>
-          </div>
+        {/* Console Output */}
+        <div ref={containerRef} className="flex-grow overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap">
+          {logs.map((log, i) => (
+            <div key={i}>
+              {
+                //an event can have multiple log lines, we only want to colour the error lines in red (works well for retroarch)
+                log.split('\n').map((line, j) => (
+                  <div
+                    key={j}
+                    className={`${line.toLowerCase().includes('error') ? 'text-red-500' : 'text-green-500'}`}
+                  >
+                    {line}
+                  </div>
+                ))
+              }
+            </div>
+          ))}
         </div>
-      </Modal>
-      {isMinimized && (
-        <div
-          className="fixed bg-white border border-gray-300 rounded shadow-lg p-4 flex flex-col"
-          style={{
-            left: minimisedPosition.x,
-            top: minimisedPosition.y,
-            width: '25%',
-            height: '25%',
-            zIndex: 1001
-          }}
-        >
-          <div
-            className="flex justify-between items-center cursor-move"
-            draggable="true"
-            //without a drag offset, the cursor jumps to top left of modal when dragged, janking the window with it
-            //its a pity coz the drag offset logic makes this seem more complex than it is
-            onMouseDown={e => {
-              const rect = e.currentTarget.getBoundingClientRect()
-              setDragOffset({ x: e.clientX - rect.left, y: e.clientY - rect.top })
-              setDragStart({ x: e.clientX, y: e.clientY })
-            }}
-            onDragStart={e => {
-              e.dataTransfer.setData('text', '') // Required for Firefox
-              e.dataTransfer.effectAllowed = 'move'
-              e.dataTransfer.setDragImage(blankDragImage, dragOffset.x, dragOffset.y) //might as well be 0,0
-            }}
-            onDrag={e => {
-              setMinimisedPosition({
-                x: (e?.clientX ?? dragStart.x) - dragOffset.x,
-                y: (e?.clientY ?? dragStart.y) - dragOffset.y
-              })
-            }}
+        <div className="flex justify-end mt-2">
+          <button
+            className={`px-4 py-1 ${isMinimized ? 'bg-red-500' : 'bg-blue-500'} text-white rounded`}
+            onClick={isMinimized ? handleConfirmClose : handleClose}
           >
-            <span className="font-medium text-gray-800">{gameDetails.name}</span>
-            <button className="px-2 py-1 bg-red-500 text-white rounded" onClick={handleConfirmClose}>
-              Emu still running, sure?
-            </button>
-          </div>
-          <div className="flex-grow overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap mt-2">
-            {logs.map((log, i) => (
-              <div key={i}>
-                {
-                  //an event can have multiple log lines, we only want to colour the error lines in red (works well for retroarch)
-                  log.split('\n').map((line, j) => (
-                    <div
-                      key={j}
-                      className={`${line.toLowerCase().includes('error') ? 'text-red-500' : 'text-green-500'}`}
-                    >
-                      {line}
-                    </div>
-                  ))
-                }
-              </div>
-            ))}
-          </div>
+            {isMinimized ? 'Emu still running, sure?' : status === 'running' ? 'Minimize' : 'Close'}
+          </button>
         </div>
-      )}
-    </>
+      </div>
+    </Modal>
   )
 }
