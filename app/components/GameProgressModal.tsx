@@ -21,11 +21,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const [logs, setLogs] = useState<string[]>(gameDetails.logs)
   const [status, setStatus] = useState<string>(gameDetails.status)
   const [isMinimized, setIsMinimized] = useState(false)
-  const DEFAULT_MINIMISED_POSITION = {
-    x: '1vw',
-    y: 'calc(99vh - 20rem)'
-  }
-  const [position, setPosition] = useState(DEFAULT_MINIMISED_POSITION)
+  const [minimizedPosition, setMinimizedPosition] = useState({ x: '1vw', y: 'calc(99vh - 20rem)' })
+  const [maximizedPosition, setMaximizedPosition] = useState({ x: '50%', y: '50%' })
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
   const hasError = logs.some(log => log.toLowerCase().includes('error'))
@@ -67,7 +64,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
     if (status === 'running') {
       setIsMinimized(true)
     } else {
-      setPosition(DEFAULT_MINIMISED_POSITION) // Reset position on close
+      setMinimizedPosition({ x: '1vw', y: 'calc(99vh - 20rem)' }) // Reset position on close
+      setMaximizedPosition({ x: '50%', y: '50%' }) // Reset position on close
       onClose()
     }
   }
@@ -75,7 +73,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const handleConfirmClose = () => {
     fetcher.submit({ clearProcess: true }, { action: '/runGame', method: 'post', encType: 'application/json' })
     setIsMinimized(false)
-    setPosition(DEFAULT_MINIMISED_POSITION) // Reset position on close
+    setMinimizedPosition({ x: '1vw', y: 'calc(99vh - 20rem)' }) // Reset position on close
+    setMaximizedPosition({ x: '50%', y: '50%' }) // Reset position on close
     onClose()
   }
 
@@ -92,12 +91,12 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
       style={{
         overlay: {
           backgroundColor: isMinimized ? 'transparent' : 'rgba(255, 255, 255, 0.2)',
-          pointerEvents: isMinimized ? 'none' : 'auto'
+          pointerEvents: 'none' // Allow dragging through overlay
         },
         content: {
           position: 'fixed',
-          left: isMinimized ? position.x : '50%',
-          top: isMinimized ? position.y : '50%',
+          left: isMinimized ? minimizedPosition.x : maximizedPosition.x,
+          top: isMinimized ? minimizedPosition.y : maximizedPosition.y,
           transform: isMinimized ? 'none' : 'translate(-50%, -50%)',
           pointerEvents: 'auto',
           zIndex: 1001,
@@ -112,28 +111,31 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
     >
       <div
         className="relative bg-white rounded w-full h-full mx-auto p-6 flex flex-col"
-        draggable={isMinimized}
-        //dragging the modal by the header
+        draggable="true"
         onMouseDown={e => {
-          if (!isMinimized) return
           const rect = e.currentTarget.getBoundingClientRect()
-          //without a drag offset, the cursor jumps to top left of modal when dragged, janking the window with it
-          //its a pity coz the drag offset logic makes this seem more complex than it is
-          setDragOffset({ x: e.clientX - rect.left, y: e.clientY - rect.top })
+          const offsetX = isMinimized ? e.clientX - rect.left : e.clientX - (rect.left + rect.width / 2)
+          const offsetY = isMinimized ? e.clientY - rect.top : e.clientY - (rect.top + rect.height / 2)
+
+          setDragOffset({ x: offsetX, y: offsetY })
           setDragStart({ x: e.clientX, y: e.clientY })
         }}
         onDragStart={e => {
-          if (!isMinimized) return
           e.dataTransfer.setData('text', '') //required for Firefox
           e.dataTransfer.effectAllowed = 'move'
           e.dataTransfer.setDragImage(blankDragImage, 0, 0) //might as well be 0,0
         }}
         onDrag={e => {
-          if (!isMinimized || (e.clientX === 0 && e.clientY === 0)) return
-          setPosition({
+          if (e.clientX === 0 && e.clientY === 0) return
+          const newPosition = {
             x: (e?.clientX ?? dragStart.x) - dragOffset.x,
             y: (e?.clientY ?? dragStart.y) - dragOffset.y
-          })
+          }
+          if (isMinimized) {
+            setMinimizedPosition(newPosition)
+          } else {
+            setMaximizedPosition(newPosition)
+          }
         }}
       >
         {/* Header with summaries */}
