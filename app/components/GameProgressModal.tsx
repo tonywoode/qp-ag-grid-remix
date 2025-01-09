@@ -23,6 +23,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const [isMinimized, setIsMinimized] = useState(false)
   const DEFAULT_MINIMISED_POSITION = { x: 16, y: window.innerHeight - 200 }
   const [minimisedPosition, setMinimisedPosition] = useState(DEFAULT_MINIMISED_POSITION)
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
+  const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
   const hasError = logs.some(log => log.toLowerCase().includes('error'))
   const eventData = useEventSource('/stream', { event: 'runGameEvent' })
 
@@ -150,15 +152,23 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
           <div
             className="flex justify-between items-center cursor-move"
             draggable="true"
+            //without a drag offset, the cursor jumps to top left of modal when dragged, janking the window with it
+            //its a pity coz the drag offset logic makes this seem more complex than it is
+            onMouseDown={e => {
+              const rect = e.currentTarget.getBoundingClientRect()
+              setDragOffset({ x: e.clientX - rect.left, y: e.clientY - rect.top })
+              setDragStart({ x: e.clientX, y: e.clientY })
+            }}
             onDragStart={e => {
               e.dataTransfer.setData('text', '') // Required for Firefox
               e.dataTransfer.effectAllowed = 'move'
-              e.dataTransfer.setDragImage(blankDragImage, 0, 0)
+              e.dataTransfer.setDragImage(blankDragImage, dragOffset.x, dragOffset.y) //might as well be 0,0
             }}
             onDrag={e => {
-              if (e.clientX && e.clientY) {
-                setMinimisedPosition({ x: e.clientX, y: e.clientY })
-              }
+              setMinimisedPosition({
+                x: (e?.clientX ?? dragStart.x) - dragOffset.x,
+                y: (e?.clientY ?? dragStart.y) - dragOffset.y
+              })
             }}
           >
             <span className="font-medium text-gray-800">{gameDetails.name}</span>
