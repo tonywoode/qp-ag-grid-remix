@@ -20,6 +20,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const [logs, setLogs] = useState<string[]>(gameDetails.logs)
   const [status, setStatus] = useState<string>(gameDetails.status)
   const [isMinimized, setIsMinimized] = useState(false)
+  const [position, setPosition] = useState({ x: 16, y: window.innerHeight - 200 })
   const hasError = logs.some(log => log.toLowerCase().includes('error'))
   const eventData = useEventSource('/stream', { event: 'runGameEvent' })
 
@@ -68,6 +69,10 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
     setIsMinimized(false)
     onClose()
   }
+
+  //only way to lose the drag and drop 'drag-image': pre-load a tranparent nothing
+  const blankDragImage = new Image()
+  blankDragImage.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs='
 
   return (
     <>
@@ -128,8 +133,30 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
         </div>
       </Modal>
       {isMinimized && (
-        <div className="fixed bottom-4 right-4 w-1/4 h-1/4 z-[1001] bg-white border border-gray-300 rounded shadow-lg p-4 flex flex-col">
-          <div className="flex justify-between items-center">
+        <div
+          className="fixed bg-white border border-gray-300 rounded shadow-lg p-4 flex flex-col"
+          style={{
+            left: position.x,
+            top: position.y,
+            width: '25%',
+            height: '25%',
+            zIndex: 1001
+          }}
+        >
+          <div
+            className="flex justify-between items-center cursor-move"
+            draggable="true"
+            onDragStart={e => {
+              e.dataTransfer.setData('text', '') // Required for Firefox
+              e.dataTransfer.effectAllowed = 'move'
+              e.dataTransfer.setDragImage(blankDragImage, 0, 0)
+            }}
+            onDrag={e => {
+              if (e.clientX && e.clientY) {
+                setPosition({ x: e.clientX, y: e.clientY })
+              }
+            }}
+          >
             <span className="font-medium text-gray-800">{gameDetails.name}</span>
             <button className="px-2 py-1 bg-red-500 text-white rounded" onClick={handleConfirmClose}>
               Emu still running, sure?
