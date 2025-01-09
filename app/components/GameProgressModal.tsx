@@ -14,13 +14,15 @@ type ProgressModalProps = {
   }
 }
 
+
 export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModalProps) {
   const fetcher = useFetcher()
   const containerRef = useRef<HTMLDivElement>(null)
   const [logs, setLogs] = useState<string[]>(gameDetails.logs)
   const [status, setStatus] = useState<string>(gameDetails.status)
   const [isMinimized, setIsMinimized] = useState(false)
-  const [position, setPosition] = useState({ x: 16, y: window.innerHeight - 200 })
+  const DEFAULT_MINIMISED_POSITION = { x: 16, y: window.innerHeight - 200 }
+  const [minimisedPosition, setMinimisedPosition] = useState(DEFAULT_MINIMISED_POSITION)
   const hasError = logs.some(log => log.toLowerCase().includes('error'))
   const eventData = useEventSource('/stream', { event: 'runGameEvent' })
 
@@ -60,6 +62,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
     if (status === 'running') {
       setIsMinimized(true)
     } else {
+      setMinimisedPosition(DEFAULT_MINIMISED_POSITION) // Reset position on close
       onClose()
     }
   }
@@ -67,6 +70,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const handleConfirmClose = () => {
     fetcher.submit({ clearProcess: true }, { action: '/runGame', method: 'post', encType: 'application/json' })
     setIsMinimized(false)
+    setMinimisedPosition(DEFAULT_MINIMISED_POSITION) // Reset position on close
     onClose()
   }
 
@@ -136,8 +140,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
         <div
           className="fixed bg-white border border-gray-300 rounded shadow-lg p-4 flex flex-col"
           style={{
-            left: position.x,
-            top: position.y,
+            left: minimisedPosition.x,
+            top: minimisedPosition.y,
             width: '25%',
             height: '25%',
             zIndex: 1001
@@ -153,7 +157,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
             }}
             onDrag={e => {
               if (e.clientX && e.clientY) {
-                setPosition({ x: e.clientX, y: e.clientY })
+                setMinimisedPosition({ x: e.clientX, y: e.clientY })
               }
             }}
           >
