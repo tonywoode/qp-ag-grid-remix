@@ -11,13 +11,30 @@ type ProgressModalProps = {
     status: string
     logs: string[]
   }
+  eventData: string | null // SSE data comes as string or null if no event
 }
 
 const MINIMIZED_HEIGHT_REM = 20
 
+type Position = {
+  x: string
+  y: string
+  /**
+   * centered: uses percentage positioning with transform for centered modal
+   * pixels: uses exact pixel coordinates, needed during/after drag
+   *
+   * why two types? we need percentage+transform for initial centered modal,
+   * but must switch to pixels when dragging starts because:
+   * 1. transform interferes with drag position calculations
+   * 2. percentage position would make the modal jump when dragging starts
+   * 3. exact pixel positions ensure smooth drag movement
+   */
+  type: 'centered' | 'pixels'
+}
+
 const DEFAULT_POSITIONS = {
-  minimized: { x: '1vw', y: `calc(99vh - ${MINIMIZED_HEIGHT_REM}rem)` },
-  maximized: { x: '50%', y: '50%' }
+  minimized: { x: '1vw', y: `calc(99vh - ${MINIMIZED_HEIGHT_REM}rem)`, type: 'pixels' } as Position,
+  maximized: { x: '50%', y: '50%', type: 'centered' } as Position
 }
 
 export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: ProgressModalProps) {
@@ -26,15 +43,14 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
   const [logs, setLogs] = useState<string[]>(gameDetails.logs)
   const [status, setStatus] = useState<string>(gameDetails.status)
   const [isMinimized, setIsMinimized] = useState(false)
-  const [minimizedPosition, setMinimizedPosition] = useState(DEFAULT_POSITIONS.minimized)
-  const [maximizedPosition, setMaximizedPosition] = useState(DEFAULT_POSITIONS.maximized)
-  const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
+  const [minimizedPosition, setMinimizedPosition] = useState<Position>(DEFAULT_POSITIONS.minimized)
+  const [maximizedPosition, setMaximizedPosition] = useState<Position>(DEFAULT_POSITIONS.maximized)
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
   const hasError = logs.some(log => log.toLowerCase().includes('error'))
   useEffect(() => {
     console.log('the eventData useEffect ran')
     if (eventData) {
-      const data = JSON.parse(eventData)
+      const data = JSON.parse(eventData) as { type: string; data: string }
       console.log('runGame event:', data)
       setLogs(prevLogs => [...prevLogs, data.data])
       if (data.type === 'status') {
@@ -44,9 +60,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
           setIsMinimized(false)
         }
       }
-      if (data.type === 'onlyOneEmu') {
-        alert(data.data)
-      }
+      if (data.type === 'onlyOneEmu') alert(data.data)
     }
   }, [eventData])
 
@@ -69,17 +83,22 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
     setMaximizedPosition(DEFAULT_POSITIONS.maximized)
   }
 
-  function updatePosition(mode: 'minimized' | 'maximized', pos: { x: number | string; y: number | string }) {
-    if (mode === 'minimized') {
-      setMinimizedPosition(pos)
-    } else {
-      setMaximizedPosition(pos)
-    }
+  function updatePosition(mode: 'minimized' | 'maximized', pos: Position) {
+    //ensure we never accidentally mix position types - centered is only valid for initial maximized state
+    if (mode === 'minimized' && pos.type === 'centered') console.warn('minimized position should always use pixels')
+    if (mode === 'minimized') setMinimizedPosition(pos)
+    else setMaximizedPosition(pos)
   }
 
   const handleClose = () => {
     if (status === 'running') {
       setIsMinimized(true)
+      //scroll to bottom when minimizing, timeout to ensure we catch any logs added - necessary?
+      setTimeout(() => {
+        if (containerRef.current) {
+          containerRef.current.scrollTop = containerRef.current.scrollHeight
+        }
+      }, 0)
     } else {
       resetAllPositions()
       onClose()
@@ -112,11 +131,12 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
           position: 'fixed',
           left: isMinimized ? minimizedPosition.x : maximizedPosition.x,
           top: isMinimized ? minimizedPosition.y : maximizedPosition.y,
-          transform: isMinimized ? 'none' : maximizedPosition.x === '50%' ? 'translate(-50%, -50%)' : 'none',
+          transform: isMinimized || maximizedPosition.type === 'pixels' ? 'none' : 'translate(-50%, -50%)',
           pointerEvents: 'auto',
           zIndex: 1001,
           maxHeight: isMinimized ? `${MINIMIZED_HEIGHT_REM}rem` : '80vh',
-          overflow: 'auto'
+          overflow: 'auto',
+          padding: 0 // Remove default Modal padding - necessary?
         }
       }}
       overlayClassName={`fixed w-full h-screen top-0 left-0 z-[1000] ${
@@ -124,36 +144,33 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
       } flex justify-center items-center`}
       shouldCloseOnEsc={false} //because esc exits emulators like retroarch, hold it down for 2ms too long and....
     >
-      <div className="relative bg-white rounded w-full h-full mx-auto p-6 flex flex-col">
+      <div className="relative bg-white rounded w-full h-full mx-auto flex flex-col px-4">
         {/* Header with summaries */}
         <div
-          className="flex flex-col p-3 border-b border-gray-200 cursor-move select-none"
+          //Added negative margin (?!?) and padding to header to maintain full width while keeping content aligned
+          className="flex flex-col p-3 border-b border-gray-200 cursor-move select-none bg-gray-50 -mx-4 px-4"
           draggable="true"
           onMouseDown={e => {
             const rect = e.currentTarget.getBoundingClientRect()
-            const offsetX = e.clientX - rect.left
-            const offsetY = e.clientY - rect.top
-            setDragOffset({ x: offsetX, y: offsetY })
-            setDragStart({ x: e.clientX, y: e.clientY })
+            setDragOffset({ x: e.clientX - rect.left, y: e.clientY - rect.top })
           }}
           onDragStart={e => {
             const rect = e.currentTarget.parentElement?.getBoundingClientRect()
             if (!rect) return
-
-            //only convert to pixels if we're starting from centered position
-            if (maximizedPosition.x === '50%') {
-              setMaximizedPosition({ x: `${rect.left}px`, y: `${rect.top}px` })
+            //convert centered position to pixels on first drag
+            if (maximizedPosition.type === 'centered') {
+              setMaximizedPosition({ x: `${rect.left}px`, y: `${rect.top}px`, type: 'pixels' })
             }
-
-            e.dataTransfer.setData('text', '')
+            e.dataTransfer.setData('text', '') //needed for firefox
             e.dataTransfer.effectAllowed = 'move'
             e.dataTransfer.setDragImage(blankDragImage, 0, 0)
           }}
           onDrag={e => {
             if (e.clientX === 0 && e.clientY === 0) return
-            const newPosition = {
-              x: `${(e?.clientX ?? dragStart.x) - dragOffset.x}px`,
-              y: `${(e?.clientY ?? dragStart.y) - dragOffset.y}px`
+            const newPosition: Position = {
+              x: `${e.clientX - dragOffset.x}px`,
+              y: `${e.clientY - dragOffset.y}px`,
+              type: 'pixels'
             }
             updatePosition(isMinimized ? 'minimized' : 'maximized', newPosition)
           }}
@@ -174,11 +191,10 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
             </div>
           </div>
         </div>
-
         {/* Console Output */}
         <div
           ref={containerRef}
-          className="flex-grow overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap select-text"
+          className="flex-grow overflow-auto bg-black text-white p-4 rounded my-4 whitespace-pre-wrap select-text"
         >
           {logs.map((log, i) => (
             <div key={i}>
@@ -196,7 +212,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
             </div>
           ))}
         </div>
-        <div className="flex justify-end mt-2">
+        <div className="flex justify-end pb-3">
           <button
             className={`px-4 py-1 ${isMinimized ? 'bg-red-500' : 'bg-blue-500'} text-white rounded`}
             onClick={isMinimized ? handleConfirmClose : handleClose}
