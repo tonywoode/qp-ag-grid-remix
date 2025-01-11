@@ -21,7 +21,7 @@ const DEFAULT_POSITIONS = {
   maximized: { x: '50%', y: '50%' }
 }
 
-export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModalProps) {
+export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: ProgressModalProps) {
   const fetcher = useFetcher()
   const containerRef = useRef<HTMLDivElement>(null)
   const [logs, setLogs] = useState<string[]>(gameDetails.logs)
@@ -32,8 +32,6 @@ export function GameProgressModal({ isOpen, onClose, gameDetails }: ProgressModa
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
   const hasError = logs.some(log => log.toLowerCase().includes('error'))
-  const eventData = useEventSource('/stream', { event: 'runGameEvent' })
-
   useEffect(() => {
     console.log('the eventData useEffect ran')
     if (eventData) {

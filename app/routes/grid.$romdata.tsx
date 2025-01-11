@@ -21,6 +21,7 @@ import { loadMameIconBase64 } from '~/loadMameIcons.server'
 import { loadIconBase64 } from '~/loadImages.server'
 import { logger } from '~/root'
 import { GameProgressModal } from '~/components/GameProgressModal'
+import { useEventSource } from 'remix-utils/sse/react'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
@@ -55,6 +56,8 @@ export default function Grid() {
   const searchTextRef = useRef('')
   const lastKeyPressTimeRef = useRef(0)
   const searchTimeoutRef = useRef<number | null>(null)
+  //separate the modal's SSE connection from its invocation: modal can then have a key, SEE more stable
+  const eventData = useEventSource('/stream', { event: 'runGameEvent' })
   const [gameProgress, setGameProgress] = useState<{
     isRunning: boolean
     name: string
@@ -570,11 +573,14 @@ export default function Grid() {
       )}
       <GameProgressModal
         isOpen={!!gameProgress?.isRunning}
+        //make a unique key for each invocation, it can't be the game name, maybe the time?
+        key={gameProgress?.path}
         onClose={() => {
           setGameProgress(null)
           // TODO: Add logic to cancel game process
         }}
         gameDetails={gameProgress || { name: '', path: '', status: '', logs: [] }}
+        eventData={eventData}
       />
     </>
   )

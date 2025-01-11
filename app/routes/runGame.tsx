@@ -34,6 +34,7 @@ export async function action({ request }: ActionFunctionArgs) {
     return null
   }
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
+  emitter.emit('runGameEvent', { type: 'RequestToRun', data: 'you asked me to run ' + gamePath })
   // emitter.emit('runGameEvent', 'runGameEvent')
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
@@ -190,7 +191,7 @@ async function runGame(outputFile: string, emulatorName: string) {
     currentProcess.on('close', code => {
       logger.log(`fileOperations`, `Process exited with code ${code}`)
       //TODO: on setting status - closed below this, this no longer gets logged?
-      emitter.emit('runGameEvent', { type: 'close', data: `Process exited with code ${code}` })
+      emitter.emit('someOtherEvent', { type: 'close', data: `Process exited with code ${code}` })
       // Emit status when game ends
       emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
       currentProcess = null
