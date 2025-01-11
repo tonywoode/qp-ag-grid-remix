@@ -1,6 +1,5 @@
 import Modal from 'react-modal'
 import { useEffect, useRef, useState } from 'react'
-import { useEventSource } from 'remix-utils/sse/react'
 import { useFetcher } from '@remix-run/react'
 
 type ProgressModalProps = {
@@ -113,7 +112,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
           position: 'fixed',
           left: isMinimized ? minimizedPosition.x : maximizedPosition.x,
           top: isMinimized ? minimizedPosition.y : maximizedPosition.y,
-          transform: isMinimized ? 'none' : 'translate(-50%, -50%)',
+          transform: isMinimized ? 'none' : maximizedPosition.x === '50%' ? 'translate(-50%, -50%)' : 'none',
           pointerEvents: 'auto',
           zIndex: 1001,
           maxHeight: isMinimized ? `${MINIMIZED_HEIGHT_REM}rem` : '80vh',
@@ -125,34 +124,40 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
       } flex justify-center items-center`}
       shouldCloseOnEsc={false} //because esc exits emulators like retroarch, hold it down for 2ms too long and....
     >
-      <div
-        className="relative bg-white rounded w-full h-full mx-auto p-6 flex flex-col"
-        draggable="true"
-        onMouseDown={e => {
-          const rect = e.currentTarget.getBoundingClientRect()
-          const offsetX = isMinimized ? e.clientX - rect.left : e.clientX - (rect.left + rect.width / 2)
-          const offsetY = isMinimized ? e.clientY - rect.top : e.clientY - (rect.top + rect.height / 2)
-
-          setDragOffset({ x: offsetX, y: offsetY })
-          setDragStart({ x: e.clientX, y: e.clientY })
-        }}
-        onDragStart={e => {
-          e.dataTransfer.setData('text', '') //required for Firefox
-          e.dataTransfer.effectAllowed = 'move'
-          e.dataTransfer.setDragImage(blankDragImage, 0, 0) //might as well be 0,0
-        }}
-        onDrag={e => {
-          if (e.clientX === 0 && e.clientY === 0) return
-          const newPosition = {
-            x: (e?.clientX ?? dragStart.x) - dragOffset.x,
-            y: (e?.clientY ?? dragStart.y) - dragOffset.y
-          }
-          const mode: 'minimized' | 'maximized' = isMinimized ? 'minimized' : 'maximized'
-          updatePosition(mode, newPosition)
-        }}
-      >
+      <div className="relative bg-white rounded w-full h-full mx-auto p-6 flex flex-col">
         {/* Header with summaries */}
-        <div className="flex flex-col p-3 border-b border-gray-200 cursor-move">
+        <div
+          className="flex flex-col p-3 border-b border-gray-200 cursor-move select-none"
+          draggable="true"
+          onMouseDown={e => {
+            const rect = e.currentTarget.getBoundingClientRect()
+            const offsetX = e.clientX - rect.left
+            const offsetY = e.clientY - rect.top
+            setDragOffset({ x: offsetX, y: offsetY })
+            setDragStart({ x: e.clientX, y: e.clientY })
+          }}
+          onDragStart={e => {
+            const rect = e.currentTarget.parentElement?.getBoundingClientRect()
+            if (!rect) return
+
+            //only convert to pixels if we're starting from centered position
+            if (maximizedPosition.x === '50%') {
+              setMaximizedPosition({ x: `${rect.left}px`, y: `${rect.top}px` })
+            }
+
+            e.dataTransfer.setData('text', '')
+            e.dataTransfer.effectAllowed = 'move'
+            e.dataTransfer.setDragImage(blankDragImage, 0, 0)
+          }}
+          onDrag={e => {
+            if (e.clientX === 0 && e.clientY === 0) return
+            const newPosition = {
+              x: `${(e?.clientX ?? dragStart.x) - dragOffset.x}px`,
+              y: `${(e?.clientY ?? dragStart.y) - dragOffset.y}px`
+            }
+            updatePosition(isMinimized ? 'minimized' : 'maximized', newPosition)
+          }}
+        >
           <span className="font-medium text-gray-800">{gameDetails.name}</span>
           <div className="flex items-center space-x-2 mt-2">
             <div className="flex items-center">
@@ -171,7 +176,10 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
         </div>
 
         {/* Console Output */}
-        <div ref={containerRef} className="flex-grow overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap">
+        <div
+          ref={containerRef}
+          className="flex-grow overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap select-text"
+        >
           {logs.map((log, i) => (
             <div key={i}>
               {
