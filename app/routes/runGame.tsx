@@ -8,6 +8,11 @@ import emulators from '~/../dats/emulators.json'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 import { emitter } from '~/utils/emitter.server'
 
+// unordered list of archive filetypes (from 7Zips homepage) that we'll support
+const sevenZipSupportedExtensions = ['.7z', '.bzip2', '.dmg', '.gzip', '.lzma', '.rar', '.rar5', '.tar', '.xar', '.zip', '.zipx']
+// ordered list of disk image filetypes
+const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
+
 //only one game can be run by me at a time - we don't want to use exec, we may want to be able to navigate qp for maps, walkthroughs, keybindings
 let currentProcess = null
 let currentGameDetails = null
@@ -19,10 +24,8 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
 }
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
-const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
 
 //unordered list of archive filetypes (from 7Zips homepage) that we'll support (don't extract iso etc - which it also supports!)
-const sevenZipSupportedExtensions = ['.7z', '.bzip2', '.dmg', '.gzip', '.lzma', '.rar', '.rar5', '.tar', '.xar', '.zip', '.zipx'] //prettier-ignore
 
 export async function action({ request }: ActionFunctionArgs) {
   const { gamePath, fileInZipToRun, emulatorName, clearProcess } = await request.json()
@@ -38,8 +41,11 @@ export async function action({ request }: ActionFunctionArgs) {
   const outputDirectory = setTempDir()
   const gameExtension = path.extname(gamePathMacOS).toLowerCase()
   //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
-  if (sevenZipSupportedExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)) {
+  const isZip = sevenZipSupportedExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
+
+  if (isZip) {
     await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathMacOS })
+    await emitEvent({ type: 'status', data: 'isZip' }) // Add this line to emit zip status
     await examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName)
   } else {
     await emitEvent({ type: 'QPBackend', data: 'Game File detected, directly running ' + gamePathMacOS })

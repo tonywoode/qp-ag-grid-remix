@@ -13,6 +13,7 @@ type ProgressModalProps = {
     path: string
     status: string
     logs: string[]
+    isZip: boolean
   }
   eventData: string | null //SSE data comes as string or null if no event
 }
@@ -50,6 +51,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
   const [maximizedPosition, setMaximizedPosition] = useState<Position>(DEFAULT_POSITIONS.maximized)
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
   const [zipStatus, setZipStatus] = useState<'pending' | 'success' | 'error'>('pending')
+  const [isZip, setIsZip] = useState(false)
   const hasError = logs.some(log => log.data.toLowerCase().includes('error'))
   useEffect(() => Modal.setAppElement('#root'), []) //set the app element for react-modal (else it complains in console about aria)
 
@@ -68,7 +70,9 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
         }
         if (eventContent.data === 'zip-success') setZipStatus('success')
         else if (eventContent.data.startsWith('zip-error')) setZipStatus('error')
-        // else if (eventContent.data === 'zip-error') setZipStatus('error')
+        if (eventContent.data === 'isZip') {
+          setIsZip(true)
+        }
       }
       if (eventContent.type === 'onlyOneEmu') alert(eventContent.data)
     }
@@ -188,16 +192,18 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
         >
           <span className="font-medium text-gray-800">{gameDetails.name}</span>
           <div className="flex items-center space-x-2 mt-2">
-            <div className="flex items-center">
-              <span className="mr-2 text-sm text-gray-600">Unzip:</span>
-              {zipStatus === 'success' ? (
-                <span className="text-green-500">✓</span>
-              ) : zipStatus === 'error' ? (
-                <span className="text-red-500">✗</span>
-              ) : (
-                <span className="animate-spin">○</span>
-              )}
-            </div>
+            {isZip && (
+              <div className="flex items-center">
+                <span className="mr-2 text-sm text-gray-600">Unzip:</span>
+                {zipStatus === 'success' ? (
+                  <span className="text-green-500">✓</span>
+                ) : zipStatus === 'error' ? (
+                  <span className="text-red-500">✗</span>
+                ) : (
+                  <span className="animate-spin">○</span>
+                )}
+              </div>
+            )}
             <div className="flex items-center">
               <span className="mr-2 text-sm text-gray-600">Launch:</span>
               {status === 'running' ? (
@@ -228,7 +234,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
                         {(type.startsWith('QPBackend') ||
                           type.startsWith('status') ||
                           type.startsWith('onlyOneEmu')) && <DiJsBadge className="mr-2 text-2xl" />}
-                        {type.startsWith('zip') && (
+                        {type.startsWith('zip') && isZip && (
                           <Si7Zip
                             className={`mr-2 text-2xl ${
                               zipStatus === 'success'
