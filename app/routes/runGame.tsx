@@ -61,34 +61,51 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
   } else {
     logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
     await emitEvent({ type: 'zip', data: 'listing archive to find runnable file ' + gamePathMacOS })
-    const result = await new Promise((resolve, reject) => {
-      listArchive(gamePathMacOS)
-        .progress(async (files: { name: string }[]) => {
-          await emitEvent({ type: 'zip', data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n') })
-          // emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' }) // Add success status
-          const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
-          if (pickedRom) {
-            const outputFile = path.join(outputDirectory, pickedRom)
-            await emitEvent({type: 'QPBackend', data: 'running runnable iso file' + outputFile}) //prettier-ignore
-            await runGame(outputFile, emulatorName)
-            return files
-          } else {
-            const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
-            const outputFile = path.join(outputDirectory, pickedRom)
-            await runGame(outputFile, emulatorName)
-            return files
-          }
-        })
-        .then(archivePathsSpec => {
-          logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec)
-          resolve(archivePathsSpec) //TODO: now we can populate the output
-        })
-        .catch(async err => {
-          console.error('error listing archive: ', err)
-          emitter.emit('runGameEvent', { type: 'status', data: 'zip-error' }) // Add error status
-          reject(err)
-        })
-    })
+    try {
+      const result = await new Promise((resolve, reject) => {
+        listArchive(gamePathMacOS)
+          .progress(async (files: { name: string }[]) => {
+            console.log('files is: ' + files)
+            if (files.length > 0) {
+              await emitEvent({
+                type: 'zip',
+                data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n')
+              })
+              // emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' }) // don't add success status if all we've done is list
+              const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
+              if (pickedRom) {
+                const outputFile = path.join(outputDirectory, pickedRom)
+                await emitEvent({type: 'QPBackend', data: 'running runnable iso file' + outputFile}) //prettier-ignore
+                await runGame(outputFile, emulatorName)
+                return files
+              } else {
+                const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
+                const outputFile = path.join(outputDirectory, pickedRom)
+                await runGame(outputFile, emulatorName)
+                return files
+              }
+            }
+            //else reject the promise
+            reject('no files found in archive')
+          })
+          .then(archivePathsSpec => {
+            if (archivePathsSpec) {
+              logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec)
+              resolve(archivePathsSpec) //TODO: now we can populate the output
+            }
+          })
+          .catch(err => {
+            console.error('error listing archive: ', err)
+            emitter.emit('runGameEvent', { type: 'status', data: 'zip-error ' + err }) // Add error status
+            reject(err)
+          })
+      })
+      return result // Only continue if listArchive succeeds
+      //TODO: valid? async Log error and return early, stopping the flow
+    } catch (error) {
+      logger.log('fileOperationss', 'Failed to process archive:', error)
+      return null
+    }
   }
 }
 
@@ -163,7 +180,7 @@ async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArc
       })
       .catch(err => {
         console.error(err)
-        emitter.emit('runGameEvent', { type: 'status', data: 'zip-error' })
+        emitter.emit('runGameEvent', { type: 'status', data: 'zip-error ' + err })
         reject(err)
       })
   })
@@ -182,7 +199,7 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
       })
       .catch(err => {
         console.error(err)
-        emitter.emit('runGameEvent', { type: 'status', data: 'zip-error' })
+        emitter.emit('runGameEvent', { type: 'status', data: 'zip-error ' + err })
         reject(err)
       })
   })

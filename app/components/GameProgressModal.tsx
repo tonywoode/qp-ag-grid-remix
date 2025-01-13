@@ -67,7 +67,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
           setIsMinimized(false)
         }
         if (eventContent.data === 'zip-success') setZipStatus('success')
-        else if (eventContent.data === 'zip-error') setZipStatus('error')
+        else if (eventContent.data.startsWith('zip-error')) setZipStatus('error')
+        // else if (eventContent.data === 'zip-error') setZipStatus('error')
       }
       if (eventContent.type === 'onlyOneEmu') alert(eventContent.data)
     }
@@ -84,6 +85,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
   useEffect(() => {
     setLogs([])
     setStatus('') // Reset status when modal opens
+    setZipStatus('pending')
   }, [isOpen])
 
   function resetAllPositions() {
