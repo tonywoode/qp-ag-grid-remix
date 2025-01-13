@@ -53,22 +53,26 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const { onlyArchive, listArchive, fullArchive } = await import('node-7z-archive')
   // emitter.emit('runGameEvent', { type: 'Examine 7z', data: 'examining 7z file ' + gamePathMacOS })
-  await emitEvent({ type: 'QPBackend', data: 'examining 7z file ' + gamePathMacOS })
+  // await emitEvent({ type: 'QPBackend', data: 'examining 7z file ' + gamePathMacOS })
   if (fileInZipToRun) {
-    await new Promise(resolve => setTimeout(resolve, 100))
-    emitter.emit('runGameEvent', { type: 'Unzip', data: 'unzipping with a running file specified ' + fileInZipToRun })
+    await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + fileInZipToRun })
+    // await new Promise(resolve => setTimeout(resolve, 100))
+    // emitter.emit('runGameEvent', { type: 'Unzip', data: 'unzipping with a running file specified ' + fileInZipToRun })
     //meaning row in the grid contains a pre-selected preferred rom to extract
     await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
     const outputFile = path.join(outputDirectory, fileInZipToRun)
     runGame(outputFile, emulatorName)
   } else {
     logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
+    await emitEvent({ type: 'zip', data: 'listing archive to find runnable file ' + gamePathMacOS })
     //this await here seems to serve no function
     await listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
       .progress(async (files: { name: string }[]) => {
+        await emitEvent({ type: 'zip', data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n') })
         const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
         if (pickedRom) {
           const outputFile = path.join(outputDirectory, pickedRom)
+          await emitEvent({type: 'QPBackend', data: 'running runnable iso file' + outputFile}) //prettier-ignore
           await runGame(outputFile, emulatorName)
           return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
         } else {
@@ -89,6 +93,7 @@ async function handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchi
   const diskImageFiles = files.filter(file => diskImageExtensions.includes(path.extname(file.name)))
   if (diskImageFiles.length > 0) {
     logger.log(`fileOperations`, `found disk image files in archive`, diskImageFiles)
+    await emitEvent({ type: 'QPBackend', data: 'found disk image file to run (extracting full archive)' })
     await extractFullArchive(gamePathMacOS, outputDirectory, fullArchive, logger)
     const pickedRom = diskImageExtensions
       .map(ext => diskImageFiles.find(file => path.extname(file.name) === ext))

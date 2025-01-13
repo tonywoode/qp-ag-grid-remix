@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 import { useFetcher } from '@remix-run/react'
 import { IoGameControllerOutline } from 'react-icons/io5'
 import { DiJsBadge } from 'react-icons/di'
+import { Si7Zip } from 'react-icons/si'
 
 type ProgressModalProps = {
   isOpen: boolean
@@ -212,10 +213,11 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
                   >
                     {data !== '' ? (
                       <div className="flex items-center">
-                        {type.startsWith('Emu') && <IoGameControllerOutline className="mr-2 text-xl" />}
+                        {type.startsWith('Emu') && <IoGameControllerOutline className="mr-2 text-2xl" />}
                         {(type.startsWith('QPBackend') || type.startsWith('status')) && (
-                          <DiJsBadge className="mr-2 text-xl" />
+                          <DiJsBadge className="mr-2 text-2xl" />
                         )}
+                        {type.startsWith('zip') && <Si7Zip className="mr-2 text-2xl" />}
                         {data}
                       </div>
                     ) : (
