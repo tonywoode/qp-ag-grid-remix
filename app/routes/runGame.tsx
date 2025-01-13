@@ -52,12 +52,8 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
   //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const { onlyArchive, listArchive, fullArchive } = await import('node-7z-archive')
-  // emitter.emit('runGameEvent', { type: 'Examine 7z', data: 'examining 7z file ' + gamePathMacOS })
-  // await emitEvent({ type: 'QPBackend', data: 'examining 7z file ' + gamePathMacOS })
   if (fileInZipToRun) {
     await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + fileInZipToRun })
-    // await new Promise(resolve => setTimeout(resolve, 100))
-    // emitter.emit('runGameEvent', { type: 'Unzip', data: 'unzipping with a running file specified ' + fileInZipToRun })
     //meaning row in the grid contains a pre-selected preferred rom to extract
     await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
     const outputFile = path.join(outputDirectory, fileInZipToRun)
@@ -194,7 +190,7 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
 async function runGame(outputFile: string, emulatorName: string) {
   if (currentProcess) {
     logger.log(`fileOperations`, 'An emulator is already running. Please close it before launching a new game.')
-    emitter.emit('runGameEvent', {
+    await emitEvent({
       type: 'onlyOneEmu',
       data: `An emulator is already running: ${currentGameDetails.name} with ${currentGameDetails.emulatorName}. Please close it before launching a new game.`
     })
@@ -210,11 +206,11 @@ async function runGame(outputFile: string, emulatorName: string) {
     const flagsToEmu = '-v -f'
     currentProcess = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
     currentGameDetails = { name: outputFile, emulatorName }
-    await new Promise(resolve => setTimeout(resolve, 100))
     // Emit status when game starts - TODO: on success only
-    emitter.emit('runGameEvent', { type: 'status', data: 'running' })
+    await emitEvent({ type: 'status', data: 'running' })
 
-    //TODO: don't think this ever gets run
+    //Changing these SSE emits to the async fn seems a bad idea, we start racing again....
+    //TODO: with retroarch, this ever gets run
     currentProcess.stdout.on('data', data => {
       logger.log(`fileOperations`, `Output: ${data}`)
       emitter.emit('runGameEvent', { type: 'EmuLog', data: data.toString() })
@@ -227,7 +223,7 @@ async function runGame(outputFile: string, emulatorName: string) {
 
     currentProcess.on('close', code => {
       logger.log(`fileOperations`, `Process exited with code ${code}`)
-      //TODO: on setting status - closed below this, this no longer gets logged?
+      //TODO: this won't get printed, but we can't make the fn async - try it we enter a whole new world of stdout race conditions
       emitter.emit('someOtherEvent', { type: 'close', data: `Process exited with code ${code}` })
       // Emit status when game ends
       emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
