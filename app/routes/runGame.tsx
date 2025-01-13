@@ -65,6 +65,7 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
       listArchive(gamePathMacOS)
         .progress(async (files: { name: string }[]) => {
           await emitEvent({ type: 'zip', data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n') })
+          // emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' }) // Add success status
           const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
           if (pickedRom) {
             const outputFile = path.join(outputDirectory, pickedRom)
@@ -82,8 +83,9 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
           logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec)
           resolve(archivePathsSpec) //TODO: now we can populate the output
         })
-        .catch(err => {
+        .catch(async err => {
           console.error('error listing archive: ', err)
+          emitter.emit('runGameEvent', { type: 'status', data: 'zip-error' }) // Add error status
           reject(err)
         })
     })
@@ -161,11 +163,13 @@ async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArc
       })
       .catch(err => {
         console.error(err)
+        emitter.emit('runGameEvent', { type: 'status', data: 'zip-error' })
         reject(err)
       })
   })
   // Now we can safely emit after archive completes
   await emitEvent({ type: 'zip', data: 'Extraction complete: ' + result })
+  emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' })
   return result
 }
 
@@ -178,6 +182,7 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
       })
       .catch(err => {
         console.error(err)
+        emitter.emit('runGameEvent', { type: 'status', data: 'zip-error' })
         reject(err)
       })
   })
@@ -185,6 +190,7 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
     type: 'zip',
     data: 'Archive extraction complete: ' + result
   })
+  emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' })
   return result
 }
 

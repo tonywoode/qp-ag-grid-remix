@@ -49,6 +49,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
   const [minimizedPosition, setMinimizedPosition] = useState<Position>(DEFAULT_POSITIONS.minimized)
   const [maximizedPosition, setMaximizedPosition] = useState<Position>(DEFAULT_POSITIONS.maximized)
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
+  const [zipStatus, setZipStatus] = useState<'pending' | 'success' | 'error'>('pending')
   const hasError = logs.some(log => log.data.toLowerCase().includes('error'))
   useEffect(() => Modal.setAppElement('#root'), []) //set the app element for react-modal (else it complains in console about aria)
 
@@ -65,6 +66,8 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
         if (eventContent.data === 'closed') {
           setIsMinimized(false)
         }
+        if (eventContent.data === 'zip-success') setZipStatus('success')
+        else if (eventContent.data === 'zip-error') setZipStatus('error')
       }
       if (eventContent.type === 'onlyOneEmu') alert(eventContent.data)
     }
@@ -185,7 +188,13 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
           <div className="flex items-center space-x-2 mt-2">
             <div className="flex items-center">
               <span className="mr-2 text-sm text-gray-600">Unzip:</span>
-              {hasError ? <span className="text-red-500">✗</span> : <span className="text-green-500">✓</span>}
+              {zipStatus === 'success' ? (
+                <span className="text-green-500">✓</span>
+              ) : zipStatus === 'error' ? (
+                <span className="text-red-500">✗</span>
+              ) : (
+                <span className="animate-spin">○</span>
+              )}
             </div>
             <div className="flex items-center">
               <span className="mr-2 text-sm text-gray-600">Launch:</span>
@@ -217,7 +226,17 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
                         {(type.startsWith('QPBackend') ||
                           type.startsWith('status') ||
                           type.startsWith('onlyOneEmu')) && <DiJsBadge className="mr-2 text-2xl" />}
-                        {type.startsWith('zip') && <Si7Zip className="mr-2 text-2xl" />}
+                        {type.startsWith('zip') && (
+                          <Si7Zip
+                            className={`mr-2 text-2xl ${
+                              zipStatus === 'success'
+                                ? 'text-green-500'
+                                : zipStatus === 'error'
+                                  ? 'text-red-500'
+                                  : 'animate-spin'
+                            }`}
+                          />
+                        )}
                         {data}
                       </div>
                     ) : (
