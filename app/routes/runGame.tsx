@@ -32,7 +32,7 @@ export async function action({ request }: ActionFunctionArgs) {
     return null
   }
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
-  await emitEvent({ type: 'QPBackend', data: 'you asked me to run ' + gamePath })
+  await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
   const outputDirectory = setTempDir()
@@ -147,17 +147,41 @@ function setupChooseGoodMergeRom(filenames: string[], logger) {
 }
 
 async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArchive, logger) {
-  await new Promise(resolve => setTimeout(resolve, 100))
-  emitter.emit('runGameEvent', { type: 'Unzipiped', data: 'unzipped the running file specified ' + gamePath })
-  await onlyArchive(gamePath, outputDirectory, romInArchive)
-    .then(result => logger.log(`fileOperations`, `extracting single file with 7z:`, result))
-    .catch(err => console.error(err))
+  await emitEvent({ type: 'zip', data: 'Starting extraction...' })
+  // Wrap old-style promise in async/await
+  const result = await new Promise((resolve, reject) => {
+    onlyArchive(gamePath, outputDirectory, romInArchive)
+      .then(result => {
+        logger.log(`fileOperations`, `extracting single file with 7z:`, result)
+        resolve(result)
+      })
+      .catch(err => {
+        console.error(err)
+        reject(err)
+      })
+  })
+  // Now we can safely emit after archive completes
+  await emitEvent({ type: 'zip', data: 'Extraction complete: ' + result })
+  return result
 }
 
 async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger) {
-  await fullArchive(gamePath, outputDirectory)
-    .then(result => logger.log(`fileOperations`, `extracting all files with 7z:`, result))
-    .catch(err => console.error(err))
+  const result = await new Promise((resolve, reject) => {
+    fullArchive(gamePath, outputDirectory)
+      .then(result => {
+        logger.log(`fileOperations`, `extracting all files with 7z:`, result)
+        resolve(result)
+      })
+      .catch(err => {
+        console.error(err)
+        reject(err)
+      })
+  })
+  await emitEvent({
+    type: 'zip',
+    data: 'Archive extraction complete: ' + result
+  })
+  return result
 }
 
 async function runGame(outputFile: string, emulatorName: string) {

@@ -214,9 +214,9 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
                     {data !== '' ? (
                       <div className="flex items-center">
                         {type.startsWith('Emu') && <IoGameControllerOutline className="mr-2 text-2xl" />}
-                        {(type.startsWith('QPBackend') || type.startsWith('status')) && (
-                          <DiJsBadge className="mr-2 text-2xl" />
-                        )}
+                        {(type.startsWith('QPBackend') ||
+                          type.startsWith('status') ||
+                          type.startsWith('onlyOneEmu')) && <DiJsBadge className="mr-2 text-2xl" />}
                         {type.startsWith('zip') && <Si7Zip className="mr-2 text-2xl" />}
                         {data}
                       </div>
