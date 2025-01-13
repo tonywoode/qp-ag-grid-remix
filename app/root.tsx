@@ -23,8 +23,8 @@ import { Node } from '~/components/Node'
 import { createFeatureLogger } from '~/utils/featureLogger'
 const loggerConfig = [
   { feature: 'remixRoutes', enabled: false },
-  { feature: 'gridOperations', enabled: true },
-  { feature: 'fileOperations', enabled: true },
+  { feature: 'gridOperations', enabled: false },
+  { feature: 'fileOperations', enabled: false },
   { feature: 'goodMergeChoosing', enabled: false },
   { feature: 'screenshots', enabled: false },
   { feature: 'tabContent', enabled: false },

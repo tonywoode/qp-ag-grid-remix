@@ -11,7 +11,7 @@ type ProgressModalProps = {
     status: string
     logs: string[]
   }
-  eventData: string | null // SSE data comes as string or null if no event
+  eventData: string | null //SSE data comes as string or null if no event
 }
 
 const MINIMIZED_HEIGHT_REM = 20
@@ -47,6 +47,11 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
   const [maximizedPosition, setMaximizedPosition] = useState<Position>(DEFAULT_POSITIONS.maximized)
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
   const hasError = logs.some(log => log.toLowerCase().includes('error'))
+
+  useEffect(() => {
+    Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
+  }, [])
+
   useEffect(() => {
     console.log('the eventData useEffect ran')
     if (eventData) {

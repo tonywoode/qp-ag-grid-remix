@@ -457,9 +457,9 @@ export default function Grid() {
     onRowSelected: async function (event) {
       if (event.node.selected && event.node.data.fullWidth !== true) {
         logger.log('gridOperations', 'row selected: ', event.rowIndex, event.data)
-        const eventData = event.data
+        const rowSelectedEventData = event.data
         const romname = event.data.name
-        const system = eventData.system
+        const system = rowSelectedEventData.system
         //include mamenames as location state if they exist
         navigate(`${encodeString(system)}/${encodeString(romname)}`, {
           state: {

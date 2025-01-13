@@ -8,6 +8,17 @@ import emulators from '~/../dats/emulators.json'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 import { emitter } from '~/utils/emitter.server'
 
+//only one game can be run by me at a time - we don't want to use exec, we may want to be able to navigate qp for maps, walkthroughs, keybindings
+let currentProcess = null
+let currentGameDetails = null
+
+
+//emit is sync - delay for two reasons: (1) events too close clobber each other (2) lack of await working sensibly for node-7z-archive operations
+async function emitEvent({type, data }) {
+  await new Promise(resolve => setTimeout(resolve, 100))
+  emitter.emit('runGameEvent', { type,  data })
+}
+
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
 
@@ -34,8 +45,8 @@ export async function action({ request }: ActionFunctionArgs) {
     return null
   }
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
-  emitter.emit('runGameEvent', { type: 'RequestToRun', data: 'you asked me to run ' + gamePath })
-  // emitter.emit('runGameEvent', 'runGameEvent')
+  // emitter.emit('zipEvent', { type: 'RequestToRun', data: 'you asked me to run ' + gamePath })
+  await emitEvent({ type: 'RequestToRun', data: 'you asked me to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
   const outputDirectory = setTempDir()
@@ -53,7 +64,10 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
   //you can move the below above here once you upgrade remix, top level await will work
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const { onlyArchive, listArchive, fullArchive } = await import('node-7z-archive')
+  // emitter.emit('runGameEvent', { type: 'Examine 7z', data: 'examining 7z file ' + gamePathMacOS })
   if (fileInZipToRun) {
+    await new Promise(resolve => setTimeout(resolve, 100))
+    emitter.emit('runGameEvent', { type: 'Unzip', data: 'unzipping with a running file specified ' + fileInZipToRun })
     //meaning row in the grid contains a pre-selected preferred rom to extract
     await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
     const outputFile = path.join(outputDirectory, fileInZipToRun)
@@ -139,6 +153,8 @@ function setupChooseGoodMergeRom(filenames: string[], logger) {
 }
 
 async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArchive, logger) {
+  await new Promise(resolve => setTimeout(resolve, 100))
+  emitter.emit('runGameEvent', { type: 'Unzipiped', data: 'unzipped the running file specified ' + gamePath })
   await onlyArchive(gamePath, outputDirectory, romInArchive)
     .then(result => logger.log(`fileOperations`, `extracting single file with 7z:`, result))
     .catch(err => console.error(err))
@@ -149,10 +165,6 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
     .then(result => logger.log(`fileOperations`, `extracting all files with 7z:`, result))
     .catch(err => console.error(err))
 }
-
-//only one game can be run by me at a time - we don't want to use exec, we may want to be able to navigate qp for maps, walkthroughs, keybindings
-let currentProcess = null
-let currentGameDetails = null
 
 async function runGame(outputFile: string, emulatorName: string) {
   if (currentProcess) {
@@ -173,8 +185,8 @@ async function runGame(outputFile: string, emulatorName: string) {
     const flagsToEmu = '-v -f'
     currentProcess = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
     currentGameDetails = { name: outputFile, emulatorName }
+    await new Promise(resolve => setTimeout(resolve, 100))
     // Emit status when game starts - TODO: on success only
-    console.log('going to emit a running game status event')
     emitter.emit('runGameEvent', { type: 'status', data: 'running' })
 
     //TODO: don't think this ever gets run
