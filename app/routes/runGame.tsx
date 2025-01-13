@@ -12,30 +12,17 @@ import { emitter } from '~/utils/emitter.server'
 let currentProcess = null
 let currentGameDetails = null
 
-
-//emit is sync - delay for two reasons: (1) events too close clobber each other (2) lack of await working sensibly for node-7z-archive operations
-async function emitEvent({type, data }) {
+//SSE: emit is sync - delay for two reasons: (1) events too close clobber each other (2) lack of await working sensibly for node-7z-archive operations
+async function emitEvent({ type, data }: { type: string; data: string }) {
   await new Promise(resolve => setTimeout(resolve, 100))
-  emitter.emit('runGameEvent', { type,  data })
+  emitter.emit('runGameEvent', { type, data })
 }
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
 
 //unordered list of archive filetypes (from 7Zips homepage) that we'll support (don't extract iso etc - which it also supports!)
-const sevenZipSupportedExtensions = [
-  '.7z',
-  '.bzip2',
-  '.dmg',
-  '.gzip',
-  '.lzma',
-  '.rar',
-  '.rar5',
-  '.tar',
-  '.xar',
-  '.zip',
-  '.zipx'
-]
+const sevenZipSupportedExtensions = ['.7z', '.bzip2', '.dmg', '.gzip', '.lzma', '.rar', '.rar5', '.tar', '.xar', '.zip', '.zipx'] //prettier-ignore
 
 export async function action({ request }: ActionFunctionArgs) {
   const { gamePath, fileInZipToRun, emulatorName, clearProcess } = await request.json()
@@ -45,15 +32,17 @@ export async function action({ request }: ActionFunctionArgs) {
     return null
   }
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
-  await emitEvent({ type: 'RequestToRun', data: 'you asked me to run ' + gamePath })
+  await emitEvent({ type: 'QPBackend', data: 'you asked me to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
   const outputDirectory = setTempDir()
   const gameExtension = path.extname(gamePathMacOS).toLowerCase()
   //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
   if (sevenZipSupportedExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)) {
+    await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathMacOS })
     await examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName)
   } else {
+    await emitEvent({ type: 'QPBackend', data: 'Game File detected, directly running ' + gamePathMacOS })
     await runGame(gamePathMacOS, emulatorName)
   }
   return null
@@ -64,7 +53,7 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const { onlyArchive, listArchive, fullArchive } = await import('node-7z-archive')
   // emitter.emit('runGameEvent', { type: 'Examine 7z', data: 'examining 7z file ' + gamePathMacOS })
-  await emitEvent({ type: 'Examine 7z', data: 'examining 7z file ' + gamePathMacOS })
+  await emitEvent({ type: 'QPBackend', data: 'examining 7z file ' + gamePathMacOS })
   if (fileInZipToRun) {
     await new Promise(resolve => setTimeout(resolve, 100))
     emitter.emit('runGameEvent', { type: 'Unzip', data: 'unzipping with a running file specified ' + fileInZipToRun })

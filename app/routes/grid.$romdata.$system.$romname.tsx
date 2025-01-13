@@ -81,9 +81,7 @@ const tabClassMap: { [key: string]: string } = {
   //add more, should be Zod!
 }
 
-const openInDefaultBrowser = url => {
-  window.open(url, '_blank', 'noopener,noreferrer')
-}
+const openInDefaultBrowser = url => window.open(url, '_blank', 'noopener,noreferrer')
 
 export default function MediaPanel() {
   const location = useLocation()
@@ -96,6 +94,9 @@ export default function MediaPanel() {
   const mameNames = { mameName, parentName }
   //if either of mameName OR parentName is truthy, log it
   if (mameName || parentName) logger.log('tabContent', 'MediaPanel - MameNames:', mameNames)
+
+  useEffect(() => Modal.setAppElement('#root'), []) // Set the app element for react-modal (else it complains in console about aria)
+
   const replaceLinks = node => {
     if (node.type === 'tag' && node.name === 'a') {
       const { href } = node.attribs
@@ -142,10 +143,6 @@ export default function MediaPanel() {
     }
     fetchTabContent()
   }, [selectedTabIndex, romname, system, thisSystemsTabs])
-
-  useEffect(() => {
-    Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
-  }, [])
 
   const closeLightbox = event => {
     if (event.target.closest('button, a, input, select, textarea')) {
