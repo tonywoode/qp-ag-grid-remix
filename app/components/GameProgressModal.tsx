@@ -1,6 +1,7 @@
 import Modal from 'react-modal'
 import { useEffect, useRef, useState } from 'react'
 import { useFetcher } from '@remix-run/react'
+import { IoGameControllerOutline } from 'react-icons/io5'
 
 type ProgressModalProps = {
   isOpen: boolean
@@ -40,32 +41,30 @@ const DEFAULT_POSITIONS = {
 export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: ProgressModalProps) {
   const fetcher = useFetcher()
   const containerRef = useRef<HTMLDivElement>(null)
-  const [logs, setLogs] = useState<string[]>(gameDetails.logs)
+  const [logs, setLogs] = useState<object[]>(gameDetails.logs)
   const [status, setStatus] = useState<string>(gameDetails.status)
   const [isMinimized, setIsMinimized] = useState(false)
   const [minimizedPosition, setMinimizedPosition] = useState<Position>(DEFAULT_POSITIONS.minimized)
   const [maximizedPosition, setMaximizedPosition] = useState<Position>(DEFAULT_POSITIONS.maximized)
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
-  const hasError = logs.some(log => log.toLowerCase().includes('error'))
-
-  useEffect(() => {
-    Modal.setAppElement('#root') // Set the app element for react-modal (else it complains in console about aria)
-  }, [])
+  const hasError = logs.some(log => log.data.toLowerCase().includes('error'))
+  useEffect(() => Modal.setAppElement('#root'), []) //set the app element for react-modal (else it complains in console about aria)
 
   useEffect(() => {
     console.log('the eventData useEffect ran')
     if (eventData) {
-      const data = JSON.parse(eventData) as { type: string; data: string }
-      console.log('runGame event:', data)
-      setLogs(prevLogs => [...prevLogs, data.data])
-      if (data.type === 'status') {
-        console.log('Setting status to:', data.data)
-        setStatus(data.data)
-        if (data.data === 'closed') {
+      const eventContent = JSON.parse(eventData) as { type: string; data: string }
+      console.log('runGame event:', eventContent)
+      // setLogs(prevLogs => [...prevLogs, `[${eventContent.type}] ${eventContent.data}`])
+      setLogs(prevLogs => [...prevLogs, eventContent])
+      if (eventContent.type === 'status') {
+        console.log('Setting status to:', eventContent.data)
+        setStatus(eventContent.data)
+        if (eventContent.data === 'closed') {
           setIsMinimized(false)
         }
       }
-      if (data.type === 'onlyOneEmu') alert(data.data)
+      if (eventContent.type === 'onlyOneEmu') alert(eventContent.data)
     }
   }, [eventData])
 
@@ -201,16 +200,23 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
           ref={containerRef}
           className="flex-grow overflow-auto bg-black text-white p-4 rounded my-4 whitespace-pre-wrap select-text"
         >
-          {logs.map((log, i) => (
+          {logs.map(({ type, data }, i) => (
             <div key={i}>
               {
                 //an event can have multiple log lines, we only want to colour the error lines in red (works well for retroarch)
-                log.split('\n').map((line, j) => (
+                data.split('\n').map((data, j) => (
                   <div
                     key={j}
-                    className={`${line.toLowerCase().includes('error') ? 'text-red-500' : 'text-green-500'}`}
+                    className={`${data.toLowerCase().includes('error') ? 'text-red-500' : 'text-green-500'}`}
                   >
-                    {line}
+                    {data !== '' ? (
+                      <div className="flex items-center">
+                        {type.startsWith('Emu') && <IoGameControllerOutline className="mr-2 text-xl" />}
+                        {data}
+                      </div>
+                    ) : (
+                      ''
+                    )}
                   </div>
                 ))
               }

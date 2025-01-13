@@ -45,7 +45,6 @@ export async function action({ request }: ActionFunctionArgs) {
     return null
   }
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
-  // emitter.emit('zipEvent', { type: 'RequestToRun', data: 'you asked me to run ' + gamePath })
   await emitEvent({ type: 'RequestToRun', data: 'you asked me to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
@@ -65,6 +64,7 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
   //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
   const { onlyArchive, listArchive, fullArchive } = await import('node-7z-archive')
   // emitter.emit('runGameEvent', { type: 'Examine 7z', data: 'examining 7z file ' + gamePathMacOS })
+  await emitEvent({ type: 'Examine 7z', data: 'examining 7z file ' + gamePathMacOS })
   if (fileInZipToRun) {
     await new Promise(resolve => setTimeout(resolve, 100))
     emitter.emit('runGameEvent', { type: 'Unzip', data: 'unzipping with a running file specified ' + fileInZipToRun })
@@ -192,12 +192,12 @@ async function runGame(outputFile: string, emulatorName: string) {
     //TODO: don't think this ever gets run
     currentProcess.stdout.on('data', data => {
       logger.log(`fileOperations`, `Output: ${data}`)
-      emitter.emit('runGameEvent', { type: 'output', data: data.toString() })
+      emitter.emit('runGameEvent', { type: 'EmuLog', data: data.toString() })
     })
 
     currentProcess.stderr.on('data', data => {
       logger.log(`fileOperations`, `Error: ${data}`)
-      emitter.emit('runGameEvent', { type: 'error', data: data.toString() })
+      emitter.emit('runGameEvent', { type: 'EmuErrLog', data: data.toString() })
     })
 
     currentProcess.on('close', code => {
