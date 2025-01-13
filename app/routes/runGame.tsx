@@ -112,6 +112,7 @@ async function handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyAr
   logger.log(`fileOperations`, `7z listing: `, filenames)
   const pickedRom = setupChooseGoodMergeRom(filenames, logger)
   logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
+  await emitEvent({ type: 'QPBackend', data: 'Goodmerge choosing chose this one for you: ' + pickedRom })
   await extractSingleRom(gamePathMacOS, outputDirectory, pickedRom, onlyArchive, logger)
   return pickedRom
 }
