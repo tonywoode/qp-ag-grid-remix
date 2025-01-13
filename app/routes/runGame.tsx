@@ -65,25 +65,32 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
   } else {
     logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
     await emitEvent({ type: 'zip', data: 'listing archive to find runnable file ' + gamePathMacOS })
-    //this await here seems to serve no function
-    await listArchive(gamePathMacOS) //todo: report progress - https://github.com/quentinrossetti/node-7z/issues/104
-      .progress(async (files: { name: string }[]) => {
-        await emitEvent({ type: 'zip', data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n') })
-        const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
-        if (pickedRom) {
-          const outputFile = path.join(outputDirectory, pickedRom)
-          await emitEvent({type: 'QPBackend', data: 'running runnable iso file' + outputFile}) //prettier-ignore
-          await runGame(outputFile, emulatorName)
-          return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
-        } else {
-          const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
-          const outputFile = path.join(outputDirectory, pickedRom)
-          await runGame(outputFile, emulatorName)
-          return files //this seems to have no effect see https://github.com/cujojs/when/blob/HEAD/docs/api.md#progress-events-are-deprecated
-        }
-      })
-      .then(archivePathsSpec => logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec))
-      .catch(err => console.error('error listing archive: ', err))
+    const result = await new Promise((resolve, reject) => {
+      listArchive(gamePathMacOS)
+        .progress(async (files: { name: string }[]) => {
+          await emitEvent({ type: 'zip', data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n') })
+          const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
+          if (pickedRom) {
+            const outputFile = path.join(outputDirectory, pickedRom)
+            await emitEvent({type: 'QPBackend', data: 'running runnable iso file' + outputFile}) //prettier-ignore
+            await runGame(outputFile, emulatorName)
+            return files
+          } else {
+            const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
+            const outputFile = path.join(outputDirectory, pickedRom)
+            await runGame(outputFile, emulatorName)
+            return files
+          }
+        })
+        .then(archivePathsSpec => {
+          logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec)
+          resolve(archivePathsSpec) //TODO: now we can populate the output
+        })
+        .catch(err => {
+          console.error('error listing archive: ', err)
+          reject(err)
+        })
+    })
   }
 }
 
