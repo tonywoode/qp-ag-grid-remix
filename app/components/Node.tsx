@@ -2,17 +2,36 @@ import React from 'react'
 import { useLocation, useNavigate } from '@remix-run/react'
 import { AiFillFolder } from 'react-icons/ai'
 import { FaPlusSquare, FaMinusSquare } from 'react-icons/fa'
+import { useRef } from 'react'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { encodeString } from '~/utils/safeUrl'
 export function Node({ node, style, dragHandle }) {
   const navigate = useNavigate()
   const location = useLocation()
+  const nodeRef = useRef(null)
+
+  const scrollIntoViewIfNeeded = () => {
+    if (nodeRef.current) {
+      const element = nodeRef.current
+      const rect = element.getBoundingClientRect()
+      const isNearBottom = rect.bottom > window.innerHeight - 100 // 100px buffer
+
+      if (isNearBottom) {
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        })
+      }
+    }
+  }
 
   const toggleNode = () => {
     if (node.isLeaf && node.parent) {
       node.parent.toggle()
     } else {
       node.toggle()
+      // Add small delay to allow DOM update
+      setTimeout(scrollIntoViewIfNeeded, 100)
     }
   }
 
@@ -33,6 +52,7 @@ export function Node({ node, style, dragHandle }) {
           className="arrow"
           style={{ marginRight: '2px', width: '16px' }}
           onClick={node.isLeaf ? undefined : toggleNode}
+          ref={nodeRef}
         >
           {!node.isLeaf &&
             (node.isOpen ? <FaMinusSquare size={12} color="silver" /> : <FaPlusSquare size={12} color="silver" />)}
