@@ -7,9 +7,8 @@ import { logger } from '../root'
 import emulators from '~/../dats/emulators.json'
 import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
 import { emitter } from '~/utils/emitter.server'
+import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 
-// unordered list of archive filetypes (from 7Zips homepage) that we'll support
-const sevenZipSupportedExtensions = ['.7z', '.bzip2', '.dmg', '.gzip', '.lzma', '.rar', '.rar5', '.tar', '.xar', '.zip', '.zipx']
 // ordered list of disk image filetypes
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
 
@@ -41,7 +40,7 @@ export async function action({ request }: ActionFunctionArgs) {
   const outputDirectory = setTempDir()
   const gameExtension = path.extname(gamePathMacOS).toLowerCase()
   //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
-  const isZip = sevenZipSupportedExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
+  const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
 
   if (isZip) {
     await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathMacOS })

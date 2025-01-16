@@ -22,6 +22,7 @@ import { loadIconBase64 } from '~/loadImages.server'
 import { logger } from '~/root'
 import { GameProgressModal } from '~/components/GameProgressModal'
 import { useEventSource } from 'remix-utils/sse/react'
+import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
@@ -107,7 +108,9 @@ export default function Grid() {
       }
     }
     checkFiles()
-    return () => { isCancelled = true }
+    return () => {
+      isCancelled = true
+    }
   }, [romdata])
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
@@ -224,6 +227,8 @@ export default function Grid() {
     }
   }
 
+  const getFileExtension = (filename: string) => filename.substring(filename.lastIndexOf('.'))
+
   const zipColumn = {
     headerName: 'Zip',
     field: 'zip',
@@ -232,20 +237,23 @@ export default function Grid() {
     filter: false,
     suppressSizeToFit: true,
     cellRenderer: ({ data, api, node }) => {
+      const isExpandable = sevenZipFileExtensions.includes(getFileExtension(data.path).toLowerCase())
       const exists = fileStatuses[data.id]
       const isExpanded = Boolean(api.getRowNode(`${data.id}-expanded`))
       return (
         <div className="w-full h-full flex items-center justify-center">
-          {!exists && (
-            <span className="text-red-600">✕</span>
-          )}
+          {!exists && <span className="text-red-600">✕</span>}
           {exists && (
-            <button
-              className="text-blue-500 hover:text-blue-700"
-              onClick={async () => toggleExpandedRow(data.id, api, node)}
-            >
-              {isExpanded ? '−' : '+'}
-            </button>
+            isExpandable ? (
+              <button
+                className="text-blue-500 hover:text-blue-700"
+                onClick={async () => toggleExpandedRow(data.id, api, node)}
+              >
+                {isExpanded ? '−' : '+'}
+              </button>
+            ) : (
+              <span className="text-green-500">✔️</span>
+            )
           )}
         </div>
       )
