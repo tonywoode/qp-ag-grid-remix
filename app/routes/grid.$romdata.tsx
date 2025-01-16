@@ -65,6 +65,7 @@ export default function Grid() {
     status: string
     logs: string[]
   } | null>(null)
+  const [fileStatuses, setFileStatuses] = useState<Record<string, boolean>>({})
   type BaseContextMenu = { x: number; y: number }
   type RomContextMenu = BaseContextMenu & {
     type: 'rom'
@@ -88,6 +89,21 @@ export default function Grid() {
     document.addEventListener('click', handleClickOutside)
     return () => document.removeEventListener('click', handleClickOutside)
   }, [])
+
+  useEffect(() => {
+    let isCancelled = false
+    async function checkFiles() {
+      for (const item of romdata) {
+        const resp = await fetch(`/fileExists?path=${encodeURIComponent(item.path)}`)
+        const data = await resp.json()
+        if (!isCancelled) {
+          setFileStatuses(prev => ({ ...prev, [item.id]: data.exists }))
+        }
+      }
+    }
+    checkFiles()
+    return () => { isCancelled = true }
+  }, [romdata])
 
   const [handleSingleClick, handleDoubleClick] = useClickPreventionOnDoubleClick(
     async (e: CellClickedEvent) => {
@@ -211,15 +227,21 @@ export default function Grid() {
     filter: false,
     suppressSizeToFit: true,
     cellRenderer: ({ data, api, node }) => {
+      const exists = fileStatuses[data.id]
       const isExpanded = Boolean(api.getRowNode(`${data.id}-expanded`))
       return (
         <div className="w-full h-full flex items-center justify-center">
-          <button
-            className="text-blue-500 hover:text-blue-700"
-            onClick={async () => toggleExpandedRow(data.id, api, node)}
-          >
-            {isExpanded ? '−' : '+'}
-          </button>
+          {!exists && (
+            <span className="text-red-600">✕</span>
+          )}
+          {exists && (
+            <button
+              className="text-blue-500 hover:text-blue-700"
+              onClick={async () => toggleExpandedRow(data.id, api, node)}
+            >
+              {isExpanded ? '−' : '+'}
+            </button>
+          )}
         </div>
       )
     }
