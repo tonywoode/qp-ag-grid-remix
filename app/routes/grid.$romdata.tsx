@@ -93,12 +93,17 @@ export default function Grid() {
   useEffect(() => {
     let isCancelled = false
     async function checkFiles() {
-      for (const item of romdata) {
-        const resp = await fetch(`/fileExists?path=${encodeURIComponent(item.path)}`)
-        const data = await resp.json()
-        if (!isCancelled) {
-          setFileStatuses(prev => ({ ...prev, [item.id]: data.exists }))
-        }
+      const paths = romdata.map(item => item.path)
+      const resp = await fetch('/fileExistsBatch', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ paths })
+      })
+      const { results } = await resp.json()
+      if (!isCancelled) {
+        romdata.forEach(item => {
+          setFileStatuses(prev => ({ ...prev, [item.id]: results[item.path] }))
+        })
       }
     }
     checkFiles()
