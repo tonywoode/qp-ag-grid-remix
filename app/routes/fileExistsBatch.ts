@@ -1,4 +1,3 @@
-
 import { json } from '@remix-run/node'
 import { fileExists } from '~/utils/fsAccess.server'
 import pathModule from 'path'
@@ -9,11 +8,16 @@ export async function action({ request }) {
   if (!Array.isArray(paths)) return json({}, { status: 400 })
 
   const results: Record<string, boolean> = {}
-  for await (const p of paths) {
+  const checks = paths.map(async p => {
     const macPath = convertWindowsPathToMacPath(p)
     const normalizedPath = pathModule.normalize(macPath)
     const exists = await fileExists(normalizedPath)
-    results[p] = exists
-  }
+    return { path: p, exists }
+  })
+
+  const resultsArr = await Promise.all(checks)
+  resultsArr.forEach(item => {
+    results[item.path] = item.exists
+  })
   return json({ results })
 }
