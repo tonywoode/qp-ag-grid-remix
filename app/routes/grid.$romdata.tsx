@@ -79,6 +79,7 @@ export default function Grid() {
     api: GridApi
   }
   type ContextMenu = RomContextMenu | ZipContextMenu
+  const gridRef = useRef<AgGridReact>(null)
 
   const [contextMenu, setContextMenu] = useState<ContextMenu | null>(null)
   useEffect(() => {
@@ -155,24 +156,22 @@ export default function Grid() {
   //AG-grid community doesn't support master/detail, so we have to fake it with full-width rows
   const toggleExpandedRow = async (rowId: string, api: GridApi, node: any) => {
     const expandedNode = api.getRowNode(`${rowId}-expanded`)
+    let currentIndex = -1
+    let parentIndex = -1
+
     if (expandedNode) {
-      // Find current position of expanded row
-      let currentIndex = -1
       api.forEachNode((node, index) => {
         if (node.data?.id === `${rowId}-expanded`) currentIndex = index
       })
-      //collapse row
       if (currentIndex !== -1) {
         rowdata.splice(currentIndex, 1)
         setRowdata([...rowdata])
       }
     } else {
-      //todo see prev commits for a try catch need to handle lookup failure
       const response = await fetch(`/listZip?path=${encodeURIComponent(node.data.path)}`)
       const files = await response.json()
       logger.log('gridOperations', 'there are ' + files.length + ' files in the zip')
-      // Find current position of parent
-      let parentIndex = -1
+
       api.forEachNode((n, index) => {
         if (n.data?.id === rowId) parentIndex = index
       })
@@ -190,6 +189,13 @@ export default function Grid() {
       if (parentIndex !== -1) {
         rowdata.splice(parentIndex + 1, 0, expandedRowNode)
         setRowdata([...rowdata])
+
+        //basic scroll into view - if the expanded row is offscreen, scroll the first item into view
+        setTimeout(() => {
+          if (gridRef.current && gridRef.current.api) {
+            gridRef.current.api.ensureIndexVisible(parentIndex + 1)
+          }
+        }, 0)
       }
       //restore focus to the grid (keyboard navigation stops if you expand a row, until you click on a row again)
       //a stretch goal might be to keyboard-navigate the expanded rows, and have some way to exit that back to the grid....
@@ -504,7 +510,13 @@ export default function Grid() {
             '--ag-grid-size': `${gridSize}px`
           }}
         >
-          <AgGridReact key={gridKey} rowData={rowdata} columnDefs={columnDefs} gridOptions={gridOptions} />
+          <AgGridReact
+            key={gridKey}
+            rowData={rowdata}
+            columnDefs={columnDefs}
+            gridOptions={gridOptions}
+            ref={gridRef}
+          />
         </div>
         <div key="mediaPanel" className="h-full overflow-auto">
           <Outlet key="outlet" />
