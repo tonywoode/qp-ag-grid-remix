@@ -260,9 +260,22 @@ export default function Grid() {
     suppressSizeToFit: true,
     sortable: true,
     comparator: (valueA, valueB, nodeA, nodeB) => {
-      const existsA = fileStatuses[nodeA.data.id] ? 1 : 0
-      const existsB = fileStatuses[nodeB.data.id] ? 1 : 0
-      return existsA - existsB
+      let existsA = fileStatuses[nodeA.data.id] ? 1 : 0
+      let existsB = fileStatuses[nodeB.data.id] ? 1 : 0
+      const parentAId = nodeA.data?.parentId
+      const parentBId = nodeB.data?.parentId
+      const isNodeAFullWidth = nodeA.data?.fullWidth
+      const isNodeBFullWidth = nodeB.data?.fullWidth
+
+      // If one is a full-width row, compare based on parent
+      if (isNodeAFullWidth || isNodeBFullWidth) {
+        if (parentAId === nodeB.data.id) return 1
+        if (parentBId === nodeA.data.id) return -1
+        if (isNodeAFullWidth) existsA = fileStatuses[nodeA.data.parentId] ? 1 : 0
+        if (isNodeBFullWidth) existsB = fileStatuses[nodeB.data.parentId] ? 1 : 0
+      }
+
+      return existsB - existsA // Invert the comparison to put expandable rows at the top
     },
     cellRenderer: ({ data, api, node }) => {
       const isExpandable = sevenZipFileExtensions.includes(getFileExtension(data.path).toLowerCase())
