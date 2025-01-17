@@ -259,24 +259,8 @@ export default function Grid() {
     filter: false,
     suppressSizeToFit: true,
     sortable: true,
-    comparator: (valueA, valueB, nodeA, nodeB) => {
-      let existsA = fileStatuses[nodeA.data.id] ? 1 : 0
-      let existsB = fileStatuses[nodeB.data.id] ? 1 : 0
-      const parentAId = nodeA.data?.parentId
-      const parentBId = nodeB.data?.parentId
-      const isNodeAFullWidth = nodeA.data?.fullWidth
-      const isNodeBFullWidth = nodeB.data?.fullWidth
-
-      // If one is a full-width row, compare based on parent
-      if (isNodeAFullWidth || isNodeBFullWidth) {
-        if (parentAId === nodeB.data.id) return 1
-        if (parentBId === nodeA.data.id) return -1
-        if (isNodeAFullWidth) existsA = fileStatuses[nodeA.data.parentId] ? 1 : 0
-        if (isNodeBFullWidth) existsB = fileStatuses[nodeB.data.parentId] ? 1 : 0
-      }
-
-      return existsB - existsA // Invert the comparison to put expandable rows at the top
-    },
+    //note custom logic for this field in generic comparator (else you'd have to duplicate full-width logic here)
+    comparator: createComparator('zip'),
     cellRenderer: ({ data, api, node }) => {
       const isExpandable = sevenZipFileExtensions.includes(getFileExtension(data.path).toLowerCase())
       const exists = fileStatuses[data.id]
@@ -380,7 +364,7 @@ export default function Grid() {
   }
 
   //more ag-grid community workarounds: we can't use master/detail, so expanded rows are going to lose their order if we sort
-  const createComparator = (field: string) => {
+  function createComparator(field: string) {
     return (valueA: any, valueB: any, nodeA: any, nodeB: any, isDescending: boolean) => {
       const nodeAId = nodeA.data?.id
       const nodeBId = nodeB.data?.id
@@ -388,6 +372,17 @@ export default function Grid() {
       const parentBId = nodeB.data?.parentId
       const isNodeAFullWidth = nodeA.data?.fullWidth
       const isNodeBFullWidth = nodeB.data?.fullWidth
+      //all we want is for this column to sort by exists, but full-width rows must also be considered
+      if (field === 'zip') {
+        let existsA = fileStatuses[nodeAId] ? 1 : 0
+        let existsB = fileStatuses[nodeBId] ? 1 : 0
+        //If one is a full-width row, compare based on parent
+        if (isNodeAFullWidth || isNodeBFullWidth) {
+          if (isNodeAFullWidth) existsA = fileStatuses[parentAId] ? 1 : 0
+          if (isNodeBFullWidth) existsB = fileStatuses[parentBId] ? 1 : 0
+        }
+        return existsB - existsA //invert this one - its rare you want the FIRST click to show missing files first
+      }
       // If one is a full-width row, compare based on parent
       if (isNodeAFullWidth || isNodeBFullWidth) {
         // In descending order, check if this is an expanded row and its parent is below it
