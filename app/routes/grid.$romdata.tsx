@@ -230,7 +230,6 @@ export default function Grid() {
         }, 0)
       }
       //restore focus to the grid (keyboard navigation stops if you expand a row, until you click on a row again)
-      //a stretch goal might be to keyboard-navigate the expanded rows, and have some way to exit that back to the grid....
       setTimeout(() => api.setFocusedCell(node.rowIndex, 'name'), 0)
     }
   }
@@ -259,6 +258,12 @@ export default function Grid() {
     maxWidth: 60,
     filter: false,
     suppressSizeToFit: true,
+    sortable: true,
+    comparator: (valueA, valueB, nodeA, nodeB) => {
+      const existsA = fileStatuses[nodeA.data.id] ? 1 : 0
+      const existsB = fileStatuses[nodeB.data.id] ? 1 : 0
+      return existsA - existsB
+    },
     cellRenderer: ({ data, api, node }) => {
       const isExpandable = sevenZipFileExtensions.includes(getFileExtension(data.path).toLowerCase())
       const exists = fileStatuses[data.id]
