@@ -23,7 +23,15 @@ import { logger } from '~/root'
 import { GameProgressModal } from '~/components/GameProgressModal'
 import { useEventSource } from 'remix-utils/sse/react'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
-
+// import { FaFile, FaFileAlt, FaFileArchive, FaCloudDownloadAlt, FaTimesCircle } from 'react-icons/fa'
+import {
+  FaFileCircleMinus,
+  FaFileZipper,
+  FaFileCirclePlus,
+  FaFileCircleXmark,
+  FaFileCircleCheck
+} from 'react-icons/fa6'
+import { CiCirclePlus, CiCircleMinus } from 'react-icons/ci'
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
@@ -229,6 +237,21 @@ export default function Grid() {
 
   const getFileExtension = (filename: string) => filename.substring(filename.lastIndexOf('.'))
 
+  function ZipStatusIcon({ isExpanded }) {
+    return (
+      <div className="relative inline-flex">
+        <FaFileZipper className="text-blue-500 text-2xl" />
+        <div className="absolute bottom-0 right-2 translate-x-3 translate-y-1 ">
+          {isExpanded ? (
+            <CiCircleMinus className="text-white text-lg stroke-2 filter backdrop-brightness-100" />
+          ) : (
+            <CiCirclePlus className="text-white text-lg stroke-2 filter backdrop-brightness-100" />
+          )}
+        </div>
+      </div>
+    )
+  }
+
   const zipColumn = {
     headerName: 'Zip',
     field: 'zip',
@@ -242,19 +265,24 @@ export default function Grid() {
       const isExpanded = Boolean(api.getRowNode(`${data.id}-expanded`))
       return (
         <div className="w-full h-full flex items-center justify-center">
-          {!exists && <span className="text-red-600">✕</span>}
-          {exists && (
-            isExpandable ? (
+          {!exists && (
+            <span className="text-red-600 text-2xl">
+              <FaFileCircleXmark />
+            </span>
+          )}
+          {exists &&
+            (isExpandable ? (
               <button
                 className="text-blue-500 hover:text-blue-700"
                 onClick={async () => toggleExpandedRow(data.id, api, node)}
               >
-                {isExpanded ? '−' : '+'}
+                <ZipStatusIcon isExpanded={isExpanded} />
               </button>
             ) : (
-              <span className="text-green-500">✔️</span>
-            )
-          )}
+              <span className="text-green-500 text-2xl">
+                <FaFileCircleCheck />
+              </span>
+            ))}
         </div>
       )
     }
