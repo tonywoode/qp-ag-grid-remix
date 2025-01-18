@@ -386,6 +386,8 @@ export default function Grid() {
 
   //more ag-grid community workarounds: we can't use master/detail, so expanded rows are going to lose their order if we sort
   function createComparator(field: string) {
+    const numericFields = ['Year', 'Rating', 'Times Played', 'Param Mode'].map(field => field.toLowerCase())
+
     return (valueA: any, valueB: any, nodeA: any, nodeB: any, isDescending: boolean) => {
       const nodeAId = nodeA.data?.id
       const nodeBId = nodeB.data?.id
@@ -419,14 +421,22 @@ export default function Grid() {
         if (isNodeAFullWidth) valueA = nodeA.data.parentData[field]
         if (isNodeBFullWidth) valueB = nodeB.data.parentData[field]
       }
+
+      if (numericFields.includes(field)) {
+        const numA = valueA === null || valueA === undefined ? -1 : Number(valueA)
+        const numB = valueB === null || valueB === undefined ? -1 : Number(valueB)
+
+        if (field === 'Rating' && (isNaN(numA) || isNaN(numB))) {
+          return String(valueA || '').localeCompare(String(valueB || ''))
+        }
+
+        return numB - numA // Default to descending sort for numeric fields
+      }
+
       if (valueA === null || valueA === undefined) return 1
       if (valueB === null || valueB === undefined) return -1
-      if (typeof valueA === 'string' && typeof valueB === 'string') {
-        return valueA.localeCompare(valueB)
-      }
-      if (valueA < valueB) return -1
-      if (valueA > valueB) return 1
-      return 0
+
+      return String(valueA).localeCompare(String(valueB))
     }
   }
 
