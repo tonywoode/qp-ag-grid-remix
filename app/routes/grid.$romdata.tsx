@@ -192,18 +192,21 @@ export default function Grid() {
     let parentIndex = -1
 
     if (expandedNode) {
+      // Find current position of expanded row
       api.forEachNode((node, index) => {
         if (node.data?.id === `${rowId}-expanded`) currentIndex = index
       })
+      //collapse row
       if (currentIndex !== -1) {
         rowdata.splice(currentIndex, 1)
         setRowdata([...rowdata])
       }
     } else {
+      //todo see prev commits for a try catch need to handle lookup failure
       const response = await fetch(`/listZip?path=${encodeURIComponent(node.data.path)}`)
       const files = await response.json()
       logger.log('gridOperations', 'there are ' + files.length + ' files in the zip')
-
+      // Find current position of parent
       api.forEachNode((n, index) => {
         if (n.data?.id === rowId) parentIndex = index
       })
@@ -223,13 +226,13 @@ export default function Grid() {
         setRowdata([...rowdata])
 
         //basic scroll into view - if the expanded row is offscreen, scroll the first item into view
-        setTimeout(() => {
-          if (gridRef.current && gridRef.current.api) {
-            gridRef.current.api.ensureIndexVisible(parentIndex + 1)
-          }
-        }, 0)
+        //BUT this causes a problem for for expanding when the filecheck column is sorted
+        if (gridRef.current && gridRef.current.api) {
+          gridRef.current.api.ensureIndexVisible(parentIndex + 1)
+        }
       }
       //restore focus to the grid (keyboard navigation stops if you expand a row, until you click on a row again)
+      //a stretch goal might be to keyboard-navigate the expanded rows, and have some way to exit that back to the grid....
       setTimeout(() => api.setFocusedCell(node.rowIndex, 'name'), 0)
     }
   }
