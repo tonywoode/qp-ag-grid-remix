@@ -55,6 +55,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
 export default function Grid() {
   const gridSize = 6 // --ag-grid-size in px
   const fontSize = 14 // --ag-font-size in px
+  const rowBuffer = 10 //10 is the default, but specify it as we use this in the calculation of visible rows
   const { romdata } = useLoaderData<typeof loader>()
   const [rowdata, setRowdata] = useState(romdata) //another option would have been to use grid-api rather than react state
   const params = useParams()
@@ -228,7 +229,7 @@ export default function Grid() {
         //fix for 'jumping' sorted expansions: scroll end-of-list expansions into view but only activate when absolutely necessary as causes sorted list to jank
         console.log('real (pre-sort) parent index', parentIndex)
         const postSortParentIndex = getPostSortIndex(api, rowId)
-        handleExpandedRowVisibility(api, parentIndex, postSortParentIndex, files)
+        handleExpandedRowVisibility(api, rowBuffer, parentIndex, postSortParentIndex, files)
       }
       //restore focus to the grid (keyboard navigation stops if you expand a row, until you click on a row again)
       setTimeout(() => api.setFocusedCell(node.rowIndex, 'name'), 0)
@@ -569,7 +570,8 @@ export default function Grid() {
       params.data.fullWidth ? params.data.parentId + '-expanded' : params.data.id || params.data.name,
     animateRows: true, //needs getRowId to be set see https://www.youtube.com/watch?v=_V5qFr62uhY
     //prevent the whole full-width row going blue on selection
-    getRowStyle: params => params.data.fullWidth && { '--ag-selected-row-background-color': 'white' }
+    getRowStyle: params => params.data.fullWidth && { '--ag-selected-row-background-color': 'white' },
+    rowBuffer
     // onSortChanged: updateRowData,
     // onFilterChanged: updateRowData
   }
@@ -690,33 +692,41 @@ function getPostSortIndex(api: GridApi, rowId: string) {
 }
 
 //more community-edition workarounds, we want to scroll last-visible rows into view if expanded, needs to work in sorted list, but janks so minimise WHEN to do so
-function handleExpandedRowVisibility(api: GridApi, parentIndex: number, postSortIndex: number, files: any[]) {
-  const { lastVisibleNoBuffer, lastVisibleWithBuffer, firstPossibleLastVisible } = calculateVisibleRowIndices(api)
-  const isInLast10 = firstPossibleLastVisible < lastVisibleWithBuffer
-  logger.log('gridOperations', 'postSortParentIndexIsLast10', isInLast10)
+function handleExpandedRowVisibility(
+  api: GridApi,
+  rowBuffer: number,
+  parentIndex: number,
+  postSortIndex: number,
+  files: any[]
+) {
+  const { lastVisibleNoBuffer, lastVisibleWithBuffer, firstPossibleLastVisible } = calculateVisibleRowIndices(
+    api,
+    rowBuffer
+  )
+  const isAtEndWithRowBuffer = firstPossibleLastVisible < lastVisibleWithBuffer
+  logger.log('gridOperations', 'postSortParentIndexIsLast10', isAtEndWithRowBuffer)
 
   //if we're not near the end of the list and our index is the last visible (-1 as we can't be pixel perfect)
-  if (!isInLast10 && postSortIndex >= lastVisibleNoBuffer - 1) {
+  if (!isAtEndWithRowBuffer && postSortIndex >= lastVisibleNoBuffer - 1) {
     logger.log('gridOperations', 'ensuring last visible row expansion (not at list end) is visible')
     const numRowsToExpand = 14 //real number is pix-height, so magic this is
     api.ensureIndexVisible(parentIndex + Math.min(files.length, numRowsToExpand), 'bottom')
   }
-  //if we are, the best we can do is always ensure last 10 visible (consider we may be scrolled such that the 3rd-last-to-end is lastVisible)
-  if (isInLast10 && postSortIndex > firstPossibleLastVisible) {
+  //if we are, the best we can do is always ensure last 10/row buffer visible (consider we may be scrolled such that the 3rd-last-to-end is lastVisible)
+  if (isAtEndWithRowBuffer && postSortIndex > firstPossibleLastVisible) {
     logger.log('gridOperations', 'ensuring last visible row expansion (at list end) is visible')
     api.ensureIndexVisible(Math.min(parentIndex + 1, files.length), 'bottom')
     //there is however a bug where on first-render attempt to expand the very last item in a fileAvailable sorted list, it doesn't expand
   }
 }
 
-function calculateVisibleRowIndices(api: GridApi) {
-  const buffer = 10 //TODO: that's ag-grid's default buffer, but we should get it from the grid
+function calculateVisibleRowIndices(api: GridApi, rowBuffer: number) {
   const totalRows = api.getDisplayedRowCount()
   //last visbile row includes ag-grid's scroll-performance row-buffer, so isn't really the last-visible at all
   const lastVisibleWithBuffer = api.getLastDisplayedRow()
-  const lastVisibleNoBuffer = lastVisibleWithBuffer - buffer
-  //its impossible to get the last visible row if its within 10 of the total rows, best we can do is operate if we're within the last 10
-  const firstPossibleLastVisible = totalRows - buffer
+  const lastVisibleNoBuffer = lastVisibleWithBuffer - rowBuffer
+  //its impossible to get the last visible row if its within 10 of the total rows, best we can do is operate if we're within the last 10/row buffer
+  const firstPossibleLastVisible = totalRows - rowBuffer
   logger.log('gridOperations', 'totalRows', totalRows)
   logger.log('gridOperations', 'lastVisibleRowWithBufferIndex', lastVisibleWithBuffer)
   logger.log('gridOperations', 'lastVisibleRowIndex_noBuffer', lastVisibleNoBuffer)
