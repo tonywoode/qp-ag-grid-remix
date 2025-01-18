@@ -225,78 +225,12 @@ export default function Grid() {
         rowdata.splice(parentIndex + 1, 0, expandedRowNode)
         setRowdata([...rowdata])
 
-        console.log('begin')
+        //fix for 'jumping' sorted expansions: scroll end-of-list expansions into view but only activate when absolutely necessary as causes sorted list to jank
         console.log('real (pre-sort) parent index', parentIndex)
-
-        // get the post-sort index separately
-        let postSortParentIndex = -1
-        api.forEachNodeAfterFilterAndSort((n, index) => {
-          if (n.data?.id === rowId) postSortParentIndex = index
-        })
-        console.log('postSortParentIndex', postSortParentIndex)
-
-        // ensure the expanded row is visible without causing a re-sort
-        const lastVisibleRowIndex_WithBuffer = api.getLastDisplayedRow()
-        console.log('lastVisibleRowWithBufferIndex', lastVisibleRowIndex_WithBuffer)
-        //thing is the last visible row isn't that at all,that's the last one PLUS the buffer UNLESS the buffer is bigger than the number of rows
-        //so if we're NOT near the end of the list, just subtract the buffer
-        const buffer = 10 //TODO: that's ag-grid's default buffer, but we should get it from the grid
-        const totalRows = api.getDisplayedRowCount()
-        console.log('totalRows', totalRows)
-        const lastVisibleRowIndex_noBuffer = lastVisibleRowIndex_WithBuffer - buffer
-        console.log('lastVisibleRowIndex_noBuffer', lastVisibleRowIndex_noBuffer)
-        //but we still have a problem: its impossible to get the last visible row if its within 10 of the total rows
-        //the best we can do is operate if we're within the last 10 in that case
-        const firstPossibleLastVisibleRowIndex = totalRows - buffer
-        console.log('firstPossibleLastVisibleRowIndex', firstPossibleLastVisibleRowIndex)
-        //so if the firstPossible is less than the lastVisible, we're in the last 10
-        const postSortParentIndexIsLast10 = firstPossibleLastVisibleRowIndex < lastVisibleRowIndex_WithBuffer
-        console.log('postSortParentIndexIsLast10', postSortParentIndexIsLast10)
-        //if we're not in the last 10, we can just subtract the buffer
-        // (pixel dependent: sometimes the parent is JUST one above the last visible)
-        // also full width rows mess this up so let's just say is the index is greater than last visible -1
-        // this does make us jump into the middle of the screen if we have lots of already-expanded rows, alternative is to count the num of expanded rows, but this is complex enough already!
-        if (!postSortParentIndexIsLast10 && postSortParentIndex >= lastVisibleRowIndex_noBuffer - 1) {
-          console.log('make this one, thats the last visible row, but not at the end of the list, visible')
-          const numOfExpandedRowsToExpandIfAtEndOfVisible = 14 //real number is pix-height
-          api.ensureIndexVisible(
-            parentIndex + Math.min(files.length, numOfExpandedRowsToExpandIfAtEndOfVisible),
-            'bottom'
-          )
-        }
-        //but if we're in the last 10, the best we can do is to say: is the post-sort index <= firstPossibleLastVisibleRowIndex (coz we may be scrolled such that the 3rd-last-to-end is lastVisible)
-        if (postSortParentIndexIsLast10 && postSortParentIndex > firstPossibleLastVisibleRowIndex) {
-          console.log('im gonna make this one visible, its in the last 10 from the end')
-          //this time we can only make ONE extra item visible as total items is pre-expanded value, somehow its always 1 more than last visible
-          api.ensureIndexVisible(Math.min(parentIndex + 1, files.length), 'bottom')
-          //there is however a bug where on first attempt to expand the very last item in a fileAvailable sorted list, it doesn't expand to view, but we get the 'jar' of the sorting behaviour to tell us something happened, so its bearable
-        }
-
-        // const lastVisibleRowIndex = postSortParentIndexIsLast10
-        //   ? lastVisibleRowIndex_WithBuffer
-        //   : lastVisibleRowIndex_noBuffer
-        // console.log('lastVisibleRowIndex', lastVisibleRowIndex)
-        // //but if we're in the last 10, the best we can do is to say: is the post-sort index <= firstPossibleLastVisibleRowIndex
-        // //if it is we'll make sure its visible, if not we'll just leave it
-        // if (postSortParentIndexIsLast10 && postSortParentIndex > firstPossibleLastVisibleRowIndex) {
-        //   console.log('im gonna make this one visible')
-        // }
-        // console.log('end')
-
-        // // const realLastVisibleRowIndex = Math.max(lastVisibleRowIndex_WithBuffer - buffer, totalRows)
-        // // console.log('realLastVisibleRowIndex', realLastVisibleRowIndex)
-        // // console.log('parentIndex', parentIndex)
-        // if (postSortParentIndex === lastVisibleRowIndex_WithBuffer) {
-        //   console.log('lets make it visible')
-        //   if (gridRef.current && gridRef.current.api) {
-        //     //we can't use the post-sort index here, no no, we must use the actual pre-sort index + the number of rows of the expansion (its the expansion we want to be visible)
-        //     //but remember we constrain the number of expanded rows to 15, so we can just add that
-        //     gridRef.current.api.ensureIndexVisible(parentIndex + 1) //Math.min(files.length, 14))
-        //   }
-        // }
+        const postSortParentIndex = getPostSortIndex(api, rowId)
+        handleExpandedRowVisibility(api, parentIndex, postSortParentIndex, files)
       }
       //restore focus to the grid (keyboard navigation stops if you expand a row, until you click on a row again)
-      //a stretch goal might be to keyboard-navigate the expanded rows, and have some way to exit that back to the grid....
       setTimeout(() => api.setFocusedCell(node.rowIndex, 'name'), 0)
     }
   }
@@ -744,6 +678,50 @@ export default function Grid() {
 //remove the string {GamesDir}\ from the start of all path fields TODO: should have a lit button showing gameDir substitution is active
 function removeGamesDirPrefix({ data: { path } }) {
   return path.replace('{gamesDir}\\', '')
+}
+
+function getPostSortIndex(api: GridApi, rowId: string) {
+  let postSortIndex = -1
+  api.forEachNodeAfterFilterAndSort((n, index) => {
+    if (n.data?.id === rowId) postSortIndex = index
+  })
+  console.log('postSortParentIndex', postSortIndex)
+  return postSortIndex
+}
+
+//more community-edition workarounds, we want to scroll last-visible rows into view if expanded, needs to work in sorted list, but janks so minimise WHEN to do so
+function handleExpandedRowVisibility(api: GridApi, parentIndex: number, postSortIndex: number, files: any[]) {
+  const { lastVisibleNoBuffer, lastVisibleWithBuffer, firstPossibleLastVisible } = calculateVisibleRowIndices(api)
+  const isInLast10 = firstPossibleLastVisible < lastVisibleWithBuffer
+  logger.log('gridOperations', 'postSortParentIndexIsLast10', isInLast10)
+
+  //if we're not near the end of the list and our index is the last visible (-1 as we can't be pixel perfect)
+  if (!isInLast10 && postSortIndex >= lastVisibleNoBuffer - 1) {
+    logger.log('gridOperations', 'ensuring last visible row expansion (not at list end) is visible')
+    const numRowsToExpand = 14 //real number is pix-height, so magic this is
+    api.ensureIndexVisible(parentIndex + Math.min(files.length, numRowsToExpand), 'bottom')
+  }
+  //if we are, the best we can do is always ensure last 10 visible (consider we may be scrolled such that the 3rd-last-to-end is lastVisible)
+  if (isInLast10 && postSortIndex > firstPossibleLastVisible) {
+    logger.log('gridOperations', 'ensuring last visible row expansion (at list end) is visible')
+    api.ensureIndexVisible(Math.min(parentIndex + 1, files.length), 'bottom')
+    //there is however a bug where on first-render attempt to expand the very last item in a fileAvailable sorted list, it doesn't expand
+  }
+}
+
+function calculateVisibleRowIndices(api: GridApi) {
+  const buffer = 10 //TODO: that's ag-grid's default buffer, but we should get it from the grid
+  const totalRows = api.getDisplayedRowCount()
+  //last visbile row includes ag-grid's scroll-performance row-buffer, so isn't really the last-visible at all
+  const lastVisibleWithBuffer = api.getLastDisplayedRow()
+  const lastVisibleNoBuffer = lastVisibleWithBuffer - buffer
+  //its impossible to get the last visible row if its within 10 of the total rows, best we can do is operate if we're within the last 10
+  const firstPossibleLastVisible = totalRows - buffer
+  logger.log('gridOperations', 'totalRows', totalRows)
+  logger.log('gridOperations', 'lastVisibleRowWithBufferIndex', lastVisibleWithBuffer)
+  logger.log('gridOperations', 'lastVisibleRowIndex_noBuffer', lastVisibleNoBuffer)
+  logger.log('gridOperations', 'firstPossibleLastVisibleRowIndex', firstPossibleLastVisible)
+  return { lastVisibleWithBuffer, lastVisibleNoBuffer, firstPossibleLastVisible }
 }
 
 export function links() {
