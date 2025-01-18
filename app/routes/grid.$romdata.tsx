@@ -12,7 +12,7 @@ import type {
 } from 'ag-grid-community'
 import { Outlet, useLoaderData, useParams, useNavigate, useFetcher } from '@remix-run/react'
 import type { LoaderFunctionArgs } from '@remix-run/node'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useCallback } from 'react'
 import Split from 'react-split'
 import useClickPreventionOnDoubleClick from '~/utils/doubleClick/use-click-prevention-on-double-click'
 import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/../data/Console/Nintendo 64/Goodmerge 3.21 RW/romdata.json' //note destructuring
@@ -32,6 +32,8 @@ import {
   FaFileCircleCheck
 } from 'react-icons/fa6'
 import { CiCirclePlus, CiCircleMinus } from 'react-icons/ci'
+import { throttle } from '~/utils/throttle'
+
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
@@ -456,6 +458,28 @@ export default function Grid() {
     console.table(columnDefs)
   }, [params.romdata]) //don't trigger on romdata alone, will reload when e.g.: you run a game
 
+  const throttledNavigate = useCallback(
+    throttle((system: string, romname: string, state: any) => {
+      navigate(`${encodeString(system)}/${encodeString(romname)}`, { state })
+    }, 400),
+    [navigate]
+  )
+
+  const onRowSelected = useCallback(
+    (event: RowSelectedEvent) => {
+      if (event.node.selected && !event.node.data.fullWidth) {
+        logger.log('gridOperations', 'row selected: ', event.rowIndex, event.data)
+        const { system, name: romname, mameName, parentName } = event.data
+        //include mamenames as location state if they exist
+        throttledNavigate(system, romname, {
+          ...(mameName != null && { mameName }),
+          ...(parentName != null && { parentName })
+        })
+      }
+    },
+    [throttledNavigate]
+  )
+
   const gridOptions: GridOptions = {
     columnDefs,
     defaultColDef: {
@@ -547,21 +571,8 @@ export default function Grid() {
         else runGame(path, defaultGoodMerge, emulatorName)
       }
     },
-    onRowSelected: async function (event) {
-      if (event.node.selected && event.node.data.fullWidth !== true) {
-        logger.log('gridOperations', 'row selected: ', event.rowIndex, event.data)
-        const rowSelectedEventData = event.data
-        const romname = event.data.name
-        const system = rowSelectedEventData.system
-        //include mamenames as location state if they exist
-        navigate(`${encodeString(system)}/${encodeString(romname)}`, {
-          state: {
-            ...(event.data.mameName != null && { mameName: event.data.mameName }),
-            ...(event.data.parentName != null && { parentName: event.data.parentName })
-          }
-        })
-      }
-    },
+    onRowSelected,
+    suppressRowDeselection: true, // Prevent deselection during scroll - speedup and helps 'the user aborted a request'
     //this event carries the ROW context menu firing, compare with onContextMenu in the full-width cell renderer
     onCellContextMenu: (e: CellClickedEvent) => {
       e.event?.preventDefault()
