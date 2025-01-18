@@ -12,6 +12,7 @@ type ProgressModalProps = {
     status: string
     logs: string[]
   }
+  eventData: string | null
 }
 
 const MINIMIZED_HEIGHT_REM = 20
