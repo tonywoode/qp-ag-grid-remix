@@ -253,9 +253,18 @@ export default function Grid() {
     )
   }
 
+  function ZipColumnHeader() {
+    return (
+      <div className="h-full flex items-center justify-center">
+        <FaFileZipper className="text-blue-500 text-lg" />
+      </div>
+    )
+  }
+
   const zipColumn = {
-    headerName: 'Zip',
+    headerName: '',
     field: 'zip',
+    headerComponent: ZipColumnHeader,
     minWidth: 60, //TODO: annoying as its a bit too wide, however the header text doesn't git otherwise - header padding?
     maxWidth: 60,
     filter: false,
