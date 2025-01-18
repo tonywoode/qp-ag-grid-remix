@@ -243,7 +243,7 @@ export default function Grid() {
   function ZipStatusIcon({ isExpanded }) {
     return (
       <div className="relative inline-flex">
-        <FaFileZipper className="text-blue-500 text-2xl" />
+        <FaFileZipper className="text-blue-500 text-3xl" />
         <div className="absolute bottom-0 right-2 translate-x-3 translate-y-1 ">
           {isExpanded ? (
             <CiCircleMinus className="text-white text-lg stroke-2 filter backdrop-brightness-100" />
@@ -255,18 +255,26 @@ export default function Grid() {
     )
   }
 
-  function ZipColumnHeader() {
-    return (
-      <div className="h-full flex items-center justify-center">
-        <FaFileZipper className="text-blue-500 text-lg" />
-      </div>
-    )
-  }
-
   const zipColumn = {
     headerName: '',
     field: 'zip',
-    headerComponent: ZipColumnHeader,
+    headerComponent: 'agColumnHeader',
+    //sadly the only way to get a sortable file header seems to be to recreate the svg
+    headerComponentParams: {
+      template: `
+        <div class="ag-cell-label-container" role="presentation">
+          <span ref="eMenu" class="ag-header-icon ag-header-cell-menu-button"></span>
+          <div ref="eLabel" class="ag-header-cell-label" role="presentation">
+            <svg class="text-blue-500 w-5 h-5" fill="currentColor" viewBox="0 0 512 512">
+              <path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0z"/>
+            </svg>
+            <span ref="eSortOrder" class="ag-header-cell-sorted-asc"></span>
+            <span ref="eSortAsc" class="ag-header-cell-sorted-desc"></span>
+            <span ref="eSortDesc" class="ag-header-cell-sorted-none"></span>
+          </div>
+        </div>
+      `
+    },
     minWidth: 60, //TODO: annoying as its a bit too wide, however the header text doesn't git otherwise - header padding?
     maxWidth: 60,
     filter: false,
@@ -281,7 +289,7 @@ export default function Grid() {
       return (
         <div className="w-full h-full flex items-center justify-center">
           {!exists && (
-            <span className="text-red-600 text-2xl">
+            <span className="text-red-600 text-3xl">
               <FaFileCircleXmark />
             </span>
           )}
@@ -294,7 +302,7 @@ export default function Grid() {
                 <ZipStatusIcon isExpanded={isExpanded} />
               </button>
             ) : (
-              <span className="text-green-500 text-2xl">
+              <span className="text-green-500 text-3xl">
                 <FaFileCircleCheck />
               </span>
             ))}
