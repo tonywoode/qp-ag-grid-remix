@@ -461,7 +461,7 @@ export default function Grid() {
   const throttledNavigate = useCallback(
     throttle((system: string, romname: string, state: any) => {
       navigate(`${encodeString(system)}/${encodeString(romname)}`, { state })
-    }, 400),
+    }, 0),
     [navigate]
   )
 
