@@ -386,9 +386,6 @@ export default function Grid() {
 
   //more ag-grid community workarounds: we can't use master/detail, so expanded rows are going to lose their order if we sort
   function createComparator(field: string) {
-    // console.log(field)
-    //TODO: casing in the data is all messed up: 'year', 'rating, 'timesPlayed' and 'ParamMode'
-    const numericFields = ['year', 'rating', 'timesPlayed', 'ParamMode']
     return (valueA: any, valueB: any, nodeA: any, nodeB: any, isDescending: boolean) => {
       const nodeAId = nodeA.data?.id
       const nodeBId = nodeB.data?.id
@@ -396,6 +393,7 @@ export default function Grid() {
       const parentBId = nodeB.data?.parentId
       const isNodeAFullWidth = nodeA.data?.fullWidth
       const isNodeBFullWidth = nodeB.data?.fullWidth
+
       //all we want is for this column to sort by exists, but full-width rows must also be considered
       if (field === 'zip') {
         let existsA = fileStatuses[nodeAId] ? 1 : 0
@@ -407,6 +405,7 @@ export default function Grid() {
         }
         return existsB - existsA //invert this one - its rare you want the FIRST click to show missing files first
       }
+
       // If one is a full-width row, compare based on parent
       if (isNodeAFullWidth || isNodeBFullWidth) {
         // In descending order, check if this is an expanded row and its parent is below it
@@ -422,6 +421,7 @@ export default function Grid() {
         if (isNodeAFullWidth) valueA = nodeA.data.parentData[field]
         if (isNodeBFullWidth) valueB = nodeB.data.parentData[field]
       }
+
       //empty values ALWAYS sort last, regardless of direction, note the returns above are for special cases
       const isEmptyA = valueA === null || valueA === undefined || valueA === ''
       const isEmptyB = valueB === null || valueB === undefined || valueB === ''
@@ -431,17 +431,16 @@ export default function Grid() {
       }
       //both empty, treat as equal
       if (isEmptyA && isEmptyB) return 0
-      //handle non-empty numeric fields
-      if (numericFields.includes(field)) {
-        const numA = Number(valueA)
-        const numB = Number(valueB)
-        //rating in data is sometimes a string sometimes number (do we want to check all columns like this instead of having exclusion coulumnns?)
-        if (field === 'Rating' && (isNaN(numA) || isNaN(numB))) {
-          return String(valueA).localeCompare(String(valueB))
-        }
+
+      //check if both values are valid numbers
+      //a benefit of number-comparing is we remove hard-coded field checks (remember 'Rating' in QP which can be numberic or not), a consideration now is game-name '10' will sort above gamename '100' - desired?
+      const numA = Number(valueA)
+      const numB = Number(valueB)
+      if (!isNaN(numA) && !isNaN(numB)) {
         return numA - numB // Let AG Grid handle direction
       }
-      //handle non-empty strings
+
+      //handle non-numeric values as strings
       return String(valueA).localeCompare(String(valueB))
     }
   }
