@@ -481,28 +481,6 @@ export default function Grid() {
     console.table(columnDefs)
   }, [params.romdata]) //don't trigger on romdata alone, will reload when e.g.: you run a game
 
-  const throttledNavigate = useCallback(
-    throttle((system: string, romname: string, state: any) => {
-      navigate(`${encodeString(system)}/${encodeString(romname)}`, { state })
-    }, 0),
-    [navigate]
-  )
-
-  const onRowSelected = useCallback(
-    (event: RowSelectedEvent) => {
-      if (event.node.selected && !event.node.data.fullWidth) {
-        logger.log('gridOperations', 'row selected: ', event.rowIndex, event.data)
-        const { system, name: romname, mameName, parentName } = event.data
-        //include mamenames as location state if they exist
-        throttledNavigate(system, romname, {
-          ...(mameName != null && { mameName }),
-          ...(parentName != null && { parentName })
-        })
-      }
-    },
-    [throttledNavigate]
-  )
-
   const gridOptions: GridOptions = {
     columnDefs,
     defaultColDef: {
@@ -594,8 +572,21 @@ export default function Grid() {
         else runGame(path, defaultGoodMerge, emulatorName)
       }
     },
-    onRowSelected,
-    suppressRowDeselection: true, // Prevent deselection during scroll - speedup and helps 'the user aborted a request'
+    onRowSelected: async function (event) {
+      if (event.node.selected && event.node.data.fullWidth !== true) {
+        logger.log('gridOperations', 'row selected: ', event.rowIndex, event.data)
+        const rowSelectedEventData = event.data
+        const romname = event.data.name
+        const system = rowSelectedEventData.system
+        //include mamenames as location state if they exist
+        navigate(`${encodeString(system)}/${encodeString(romname)}`, {
+          state: {
+            ...(event.data.mameName != null && { mameName: event.data.mameName }),
+            ...(event.data.parentName != null && { parentName: event.data.parentName })
+          }
+        })
+      }
+    },
     //this event carries the ROW context menu firing, compare with onContextMenu in the full-width cell renderer
     onCellContextMenu: (e: CellClickedEvent) => {
       e.event?.preventDefault()
