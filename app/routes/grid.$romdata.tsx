@@ -422,21 +422,26 @@ export default function Grid() {
         if (isNodeAFullWidth) valueA = nodeA.data.parentData[field]
         if (isNodeBFullWidth) valueB = nodeB.data.parentData[field]
       }
-
-      if (numericFields.includes(field)) {
-        const numA = valueA === null || valueA === undefined ? -1 : Number(valueA)
-        const numB = valueB === null || valueB === undefined ? -1 : Number(valueB)
-
-        if (field === 'Rating' && (isNaN(numA) || isNaN(numB))) {
-          return String(valueA || '').localeCompare(String(valueB || ''))
-        }
-
-        return numB - numA // Default to descending sort for numeric fields
+      //empty values ALWAYS sort last, regardless of direction, note the returns above are for special cases
+      const isEmptyA = valueA === null || valueA === undefined || valueA === ''
+      const isEmptyB = valueB === null || valueB === undefined || valueB === ''
+      if (isEmptyA !== isEmptyB) {
+        //flip return value based on sort direction to keep empties last
+        return isEmptyA ? (isDescending ? -1 : 1) : isDescending ? 1 : -1
       }
-
-      if (valueA === null || valueA === undefined) return 1
-      if (valueB === null || valueB === undefined) return -1
-
+      //both empty, treat as equal
+      if (isEmptyA && isEmptyB) return 0
+      //handle non-empty numeric fields
+      if (numericFields.includes(field)) {
+        const numA = Number(valueA)
+        const numB = Number(valueB)
+        //rating in data is sometimes a string sometimes number (do we want to check all columns like this instead of having exclusion coulumnns?)
+        if (field === 'Rating' && (isNaN(numA) || isNaN(numB))) {
+          return String(valueA).localeCompare(String(valueB))
+        }
+        return numA - numB // Let AG Grid handle direction
+      }
+      //handle non-empty strings
       return String(valueA).localeCompare(String(valueB))
     }
   }
