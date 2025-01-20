@@ -386,8 +386,9 @@ export default function Grid() {
 
   //more ag-grid community workarounds: we can't use master/detail, so expanded rows are going to lose their order if we sort
   function createComparator(field: string) {
-    const numericFields = ['Year', 'Rating', 'Times Played', 'Param Mode'].map(field => field.toLowerCase())
-
+    // console.log(field)
+    //TODO: casing in the data is all messed up: 'year', 'rating, 'timesPlayed' and 'ParamMode'
+    const numericFields = ['year', 'rating', 'timesPlayed', 'ParamMode']
     return (valueA: any, valueB: any, nodeA: any, nodeB: any, isDescending: boolean) => {
       const nodeAId = nodeA.data?.id
       const nodeBId = nodeB.data?.id
