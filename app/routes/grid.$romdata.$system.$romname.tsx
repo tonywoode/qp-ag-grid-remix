@@ -97,6 +97,18 @@ export default function MediaPanel() {
 
   useEffect(() => Modal.setAppElement('#root'), []) // Set the app element for react-modal (else it complains in console about aria)
 
+  //if user rapidly scrolls, js logs an unhandled from remix's navigate in the caller (which fires but doesn't return an abort-controlled promise)
+  useEffect(() => {
+    const handleUnhandledRejection = (event: PromiseRejectionEvent) => {
+      if (event.reason instanceof DOMException && event.reason.message === 'The user aborted a request.') {
+        event.preventDefault() //prevent it from always logging an unhandled
+        logger.log('tabContent', 'Navigation aborted due to rapid scroll (expected)', event.reason)
+      }
+    }
+    window.addEventListener('unhandledrejection', handleUnhandledRejection)
+    return () => window.removeEventListener('unhandledrejection', handleUnhandledRejection)
+  }, [])
+
   const replaceLinks = node => {
     if (node.type === 'tag' && node.name === 'a') {
       const { href } = node.attribs
