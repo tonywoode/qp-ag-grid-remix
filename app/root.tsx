@@ -125,7 +125,7 @@ export default function App() {
           <div className="flex flex-row">
             {menu()}
             <Link to="convert" className="box-border border-2 border-gray-500 px-2 m-3">
-              Convert Original QP Romdata
+              Import Original QP Data
             </Link>
           </div>
           {isSplitLoaded && (
