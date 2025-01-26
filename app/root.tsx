@@ -47,10 +47,7 @@ export const links: LinksFunction = () => [
 
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
-  console.log('reran the route loader')
   const folderData = await scanFolder('./data')
-  console.log('got folderdata again, the new folderdata is')
-  console.log(folderData.map(node => node.name))
   return json({ folderData, userDataPath: electron.app.getPath('userData') })
 }
 
@@ -108,8 +105,6 @@ export default function App() {
   logger.log('remixRoutes', 'in the root component')
   const data = useLoaderData<typeof loader>()
   const folderData = data.folderData
-  console.log('folderData in root component')
-  console.log(folderData.map(node => node.name))
   const matches = useMatches()
   let match = matches.find(match => match?.data && 'romdata' in match.data)
   const [isSplitLoaded, setIsSplitLoaded] = useState(false)
