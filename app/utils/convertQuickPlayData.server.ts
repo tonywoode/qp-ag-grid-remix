@@ -2,12 +2,13 @@ import * as fs from 'fs'
 import * as path from 'path'
 import * as ini from 'ini'
 import { convertRomDataToJSON, saveToJSONFile } from './romdataToJSON'
+import { BackupChoice, handleExistingData } from './safeDirectoryOps.server'
 
 //To enable cross-platform use, replace any path prefixes with '{gamesDir}'
 // we'll then set the appropriate gamesDrive prefix for the platform, this is optional
 const gamesDirPathPrefix = 'F:'
 
-export async function convertQuickPlayData(sourcePath: string, destinationPath: string = 'data2') {
+export async function convertQuickPlayData(sourcePath: string, destinationPath: string = 'data', choice?: BackupChoice) {
   if (!fs.existsSync(sourcePath)) {
     throw new Error('Source path does not exist')
   }
@@ -15,6 +16,14 @@ export async function convertQuickPlayData(sourcePath: string, destinationPath: 
   const dataFolderPath = path.join(sourcePath, 'data')
   if (!fs.existsSync(dataFolderPath)) {
     throw new Error('No QuickPlay data folder found in selected directory')
+  }
+
+  if (fs.existsSync(destinationPath) && fs.readdirSync(destinationPath).length > 0) {
+    if (!choice) {
+      throw new Error('EXISTING_DATA')
+    }
+    const result = await handleExistingData(destinationPath, choice)
+    if (!result.success) return null
   }
 
   fs.mkdirSync(destinationPath, { recursive: true })

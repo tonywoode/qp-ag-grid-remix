@@ -55,33 +55,51 @@ export async function loader() {
 
 export const action = async () => {
   const result = await electron.dialog.showOpenDialog({
-    message: "Select original QuickPlay install folder (should contain 'Data' and 'Dats' dirs)", // This should now work
-    properties: ['openDirectory'],
-    buttonLabel: 'Select Original QuickPlay dir' // Optional: you can also add a custom button label
+    message: "Select original QuickPlay install folder (should contain 'Data' and 'Dats' dirs)",
+    properties: ['openDirectory']
   })
 
   if (!result.canceled && result.filePaths.length > 0) {
     try {
-      const convertedFiles = await convertQuickPlayData(result.filePaths[0])
+      const convertedFiles = await convertQuickPlayData(result.filePaths[0], 'data')
       return json({
         success: true,
-        message: `Successfully converted ${convertedFiles} romdata files to data2 folder`
+        message: `Successfully converted ${convertedFiles} romdata files`
       })
     } catch (error) {
-      return json(
-        {
-          success: false,
-          message: error.message
-        },
-        { status: 400 }
-      )
+      if (error.message === 'EXISTING_DATA') {
+        const choice = await electron.dialog.showMessageBox({
+          type: 'warning',
+          message: 'Existing data found in destination',
+          detail: 'How would you like to proceed?',
+          buttons: ['Cancel', 'Backup existing and continue', 'Continue (overwrite)'],
+          defaultId: 0,
+          cancelId: 0
+        })
+
+        if (choice.response === 0) {
+          return json({ success: false, message: 'Operation cancelled' })
+        }
+
+        const backupChoice = choice.response === 1 ? 'backup' : 'overwrite'
+        const convertedFiles = await convertQuickPlayData(result.filePaths[0], 'data', backupChoice)
+        
+        if (!convertedFiles) {
+          return json({ success: false, message: 'Operation cancelled' })
+        }
+
+        const message = backupChoice === 'backup' 
+          ? `Successfully converted ${convertedFiles} romdata files (backup created)`
+          : `Successfully converted ${convertedFiles} romdata files`
+
+        return json({ success: true, message })
+      }
+
+      return json({ success: false, message: error.message }, { status: 400 })
     }
   }
 
-  return json({
-    success: false,
-    message: 'No folder selected'
-  })
+  return json({ success: false, message: 'No folder selected' })
 }
 
 const menu = () => (
