@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Form, useActionData, useNavigate, useNavigation, useRevalidator, useSubmit } from '@remix-run/react'
+import { Form, useActionData, useNavigate, useNavigation } from '@remix-run/react'
 import { json } from '@remix-run/node'
 import Modal from 'react-modal'
 import electron from '~/electron.server'
@@ -80,58 +80,52 @@ export const action = async ({ request }: { request: Request }) => {
 }
 
 export default function Convert() {
-  const [modalState, setModalState] = useState<ModalState>({ isOpen: true }) // Open by default in route
+  useEffect(() => Modal.setAppElement('#root'), []) // Set the app element for react-modal (else it complains in console about aria)
+  const [modalState, setModalState] = useState<ModalState>({ isOpen: true })
   const actionData = useActionData<typeof action>()
   const navigation = useNavigation()
   const navigate = useNavigate()
-  const submit = useSubmit()
-  const revalidator = useRevalidator()
 
+  // Simple effect to handle all state changes
   useEffect(() => {
-    if (actionData?.success && actionData?.complete) {
-      // First revalidate
-      revalidator.revalidate()
-      // Then set a small timeout before navigating away
-      const timer = setTimeout(() => {
-        setModalState({ isOpen: false })
-        navigate('/', { replace: true })
-      }, 500)
-      return () => clearTimeout(timer)
+    if (navigation.state === 'submitting') {
+      setModalState(prev => ({ ...prev, isConverting: true, error: undefined }))
     } else if (actionData) {
-      setModalState(prev => ({
-        ...prev,
-        isConverting: false,
-        selectedPath: actionData.path,
-        error: actionData.error,
-        result: {
-          success: actionData.success,
-          message: actionData.message
-        }
-      }))
+      if (actionData.complete && actionData.success) {
+        //on successful completion, show message briefly then close
+        setModalState(prev => ({
+          ...prev,
+          isConverting: false,
+          result: {
+            success: true,
+            message: actionData.message
+          }
+        }))
+        setTimeout(() => navigate('/'), 1500)
+      } else {
+        //handle all other states (directory selection, errors, etc)
+        setModalState(prev => ({
+          ...prev,
+          isConverting: false,
+          selectedPath: actionData.path,
+          error: actionData.error,
+          result: actionData.success
+            ? {
+                success: true,
+                message: actionData.message
+              }
+            : undefined
+        }))
+      }
     }
-  }, [actionData, navigate, revalidator])
-
-  // Add this to handle the close action
-  const handleClose = () => {
-    if (actionData?.success && actionData?.complete) {
-      // If we're closing after a successful conversion, revalidate first
-      revalidator.revalidate()
-      setTimeout(() => {
-        setModalState({ isOpen: false })
-        navigate('/', { replace: true })
-      }, 500)
-    } else {
-      setModalState({ isOpen: false })
-      navigate('/', { replace: true })
-    }
-  }
+  }, [navigation.state, actionData, navigate])
 
   return (
     <Modal
       isOpen={modalState.isOpen}
       onRequestClose={() => {
         if (!modalState.isConverting) {
-          handleClose()
+          navigate('/')
         }
       }}
       className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-lg shadow-lg"
@@ -143,78 +137,67 @@ export default function Convert() {
         {modalState.isConverting ? (
           <div className="flex items-center mb-4">
             <div className="animate-spin mr-3 h-5 w-5 border-2 border-gray-500 border-t-transparent rounded-full"></div>
-            <p>Processing...</p>
+            <p>
+              {modalState.selectedPath ? (
+                <>
+                  Converting files from: <span className="text-sm text-gray-600">{modalState.selectedPath}</span>
+                </>
+              ) : (
+                'Selecting folder...'
+              )}
+            </p>
           </div>
         ) : (
           <>
-            {actionData?.complete ? (
-              <div className="mb-4">
-                <p className="text-green-600 mb-2">{actionData.message}</p>
-                <button onClick={handleClose} className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
-                  Close
-                </button>
-              </div>
+            {!modalState.selectedPath ? (
+              <>
+                <Form method="post">
+                  <input type="hidden" name="intent" value="selectDirectory" />
+                  <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                    Select QuickPlay Folder
+                  </button>
+                </Form>
+                {modalState.error && <p className="mt-4 text-red-600">{modalState.error}</p>}
+              </>
             ) : (
               <>
-                {!modalState.selectedPath ? (
-                  <>
-                    {modalState.result?.success ? (
-                      <div className="mb-4">
-                        <p className="text-green-600 mb-2">{modalState.result.message}</p>
-                      </div>
-                    ) : (
-                      <>
-                        <Form method="post">
-                          <input type="hidden" name="intent" value="selectDirectory" />
-                          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                            Select QuickPlay Folder
-                          </button>
-                        </Form>
-                        {modalState.error && <p className="mt-4 text-red-600">{modalState.error}</p>}
-                      </>
-                    )}
-                  </>
-                ) : (
-                  <>
-                    <p className="mb-4 text-sm text-gray-600">Selected: {modalState.selectedPath}</p>
-                    <div className="flex gap-2">
-                      {actionData?.existingData ? (
-                        <>
-                          <Form method="post">
-                            <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
-                            <input type="hidden" name="action" value="backup" />
-                            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                              Backup & Continue
-                            </button>
-                          </Form>
-                          <Form method="post">
-                            <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
-                            <input type="hidden" name="action" value="overwrite" />
-                            <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
-                              Overwrite
-                            </button>
-                          </Form>
-                        </>
-                      ) : (
-                        <Form method="post">
-                          <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
-                          <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
-                            Convert
-                          </button>
-                        </Form>
-                      )}
-                    </div>
-                  </>
-                )}
-                <button
-                  onClick={handleClose}
-                  className="mt-4 bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600"
-                >
-                  Close
-                </button>
+                <div className="flex gap-2">
+                  {actionData?.existingData ? (
+                    <>
+                      <Form method="post">
+                        <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
+                        <input type="hidden" name="action" value="backup" />
+                        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                          Backup & Continue
+                        </button>
+                      </Form>
+                      <Form method="post">
+                        <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
+                        <input type="hidden" name="action" value="overwrite" />
+                        <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Overwrite</button>
+                      </Form>
+                    </>
+                  ) : (
+                    <Form method="post">
+                      <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
+                      <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Convert</button>
+                    </Form>
+                  )}
+                </div>
               </>
             )}
           </>
+        )}
+
+        {modalState.result?.success && <p className="mt-4 text-green-600">{modalState.result.message}</p>}
+
+        {!modalState.isConverting && (
+          <button
+            onClick={() => navigate('/')}
+            className="mt-4 bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600"
+          >
+            Close
+          </button>
         )}
       </div>
     </Modal>
