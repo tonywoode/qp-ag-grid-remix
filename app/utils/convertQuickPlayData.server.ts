@@ -8,15 +8,25 @@ import { BackupChoice, handleExistingData } from './safeDirectoryOps.server'
 // we'll then set the appropriate gamesDrive prefix for the platform, this is optional
 const gamesDirPathPrefix = 'F:'
 
-export async function convertQuickPlayData(sourcePath: string, destinationPath: string = 'data', choice?: BackupChoice) {
+export async function validateQuickPlayDirectory(sourcePath: string): Promise<{ dataFolderPath: string }> {
   if (!fs.existsSync(sourcePath)) {
     throw new Error('Source path does not exist')
   }
 
   const dataFolderPath = path.join(sourcePath, 'data')
   if (!fs.existsSync(dataFolderPath)) {
-    throw new Error('No QuickPlay data folder found in selected directory')
+    throw new Error('Selected folder must contain a "data" directory')
   }
+
+  return { dataFolderPath }
+}
+
+export async function convertQuickPlayData(
+  sourcePath: string,
+  destinationPath: string = 'data',
+  choice?: BackupChoice
+) {
+  const { dataFolderPath } = await validateQuickPlayDirectory(sourcePath)
 
   if (fs.existsSync(destinationPath) && fs.readdirSync(destinationPath).length > 0) {
     if (!choice) {
@@ -29,6 +39,7 @@ export async function convertQuickPlayData(sourcePath: string, destinationPath: 
   fs.mkdirSync(destinationPath, { recursive: true })
   return processDirectory(dataFolderPath, destinationPath)
 }
+
 /**
  * takes a directory of QuickPlay Frontend's data (preferably QuickPlay Frontend's data folder),
  * walks the folder tree, creating a mirror directory tree at dest, and converts all romdata.dat files to romdata.json at dest,
