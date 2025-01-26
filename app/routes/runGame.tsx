@@ -70,7 +70,6 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
       const result = await new Promise((resolve, reject) => {
         listArchive(gamePathMacOS)
           .progress(async (files: { name: string }[]) => {
-            console.log('files is: ' + files)
             if (files.length > 0) {
               await emitEvent({
                 type: 'zip',

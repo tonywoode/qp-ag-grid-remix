@@ -1,6 +1,6 @@
 import { cssBundleHref } from '@remix-run/css-bundle'
 import { json, type LinksFunction, type MetaFunction } from '@remix-run/node'
-import { Form, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches } from '@remix-run/react' // prettier-ignore
+import { Form, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, useActionData } from '@remix-run/react' // prettier-ignore
 import { useState, useEffect, useRef } from 'react'
 import electron from '~/electron.server'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
@@ -17,6 +17,7 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
+import { convertQuickPlayData } from './utils/convertQuickPlayData.server'
 
 //configure and export logging per-domain feature
 //todo: user-enablable - split out to json/global flag?)
@@ -54,10 +55,33 @@ export async function loader() {
 
 export const action = async () => {
   const result = await electron.dialog.showOpenDialog({
-    title: 'select original QuickPlay data folder',
-    properties: ['openDirectory']
+    message: "Select original QuickPlay install folder (should contain 'Data' and 'Dats' dirs)", // This should now work
+    properties: ['openDirectory'],
+    buttonLabel: 'Select Original QuickPlay dir' // Optional: you can also add a custom button label
   })
-  return result
+
+  if (!result.canceled && result.filePaths.length > 0) {
+    try {
+      const convertedFiles = await convertQuickPlayData(result.filePaths[0])
+      return json({
+        success: true,
+        message: `Successfully converted ${convertedFiles} romdata files to data2 folder`
+      })
+    } catch (error) {
+      return json(
+        {
+          success: false,
+          message: error.message
+        },
+        { status: 400 }
+      )
+    }
+  }
+
+  return json({
+    success: false,
+    message: 'No folder selected'
+  })
 }
 
 const menu = () => (
@@ -110,6 +134,7 @@ export default function App() {
   const matches = useMatches()
   let match = matches.find(match => 'romdata' in match.data)
   const [isSplitLoaded, setIsSplitLoaded] = useState(false)
+  const actionData = useActionData<typeof action>()
   // sets isSplitLoaded after the initial render, to avoid flash of tabs while grid's rendering
   //TODO:  this is causing delay, using react-split-grid might be better https://github.com/nathancahill/split
   // but see this after trying, which will cause console error https://github.com/nathancahill/split/issues/573
@@ -131,7 +156,12 @@ export default function App() {
           <div className="flex flex-row">
             {menu()}
             <Form method="post">
-              <button className="box-border border-2 border-gray-500 px-2 m-3">Pick Original QP data folder</button>
+              <button className="box-border border-2 border-gray-500 px-2 m-3">Convert Original QP Romdata</button>
+              {actionData && (
+                <span className={`ml-2 ${actionData.success ? 'text-green-600' : 'text-red-600'}`}>
+                  {actionData.message}
+                </span>
+              )}
             </Form>
           </div>
           {isSplitLoaded && (
