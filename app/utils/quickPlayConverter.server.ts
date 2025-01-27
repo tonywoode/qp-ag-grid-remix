@@ -5,7 +5,6 @@ import { convertRomDataToJSON, saveToJSONFile } from './romdataToJSON'
 import { BackupChoice, handleExistingData } from './safeDirectoryOps.server'
 import { convertSystems, convertEmulators, convertMediaPanel } from './datConverters.server'
 
-// copy the types and interfaces from the previous implementation
 export type ConversionOptions = {
   convertRomdata?: boolean
   convertSystems?: boolean
@@ -25,7 +24,17 @@ export type ConversionResult = {
   }
 }
 
-// move the existing romdata conversion code
+// ROMDATA CONVERSION CODE
+
+//To enable cross-platform use, replace any path prefixes with '{gamesDir}'
+// we'll then set the appropriate gamesDrive prefix for the platform, this is optional
+const gamesDirPathPrefix = 'F:'
+/**
+ * takes a directory of QuickPlay Frontend's data (preferably QuickPlay Frontend's data folder),
+ * walks the folder tree, creating a mirror directory tree at dest, and converts all romdata.dat files to romdata.json at dest,
+ * also converting minimum data from all folders.ini and writing to folderInfo.json at dest
+ * Does not preserve empty keys
+ */
 function processRomdataDirectory(source: string, destination: string): number {
   const items = fs.readdirSync(source)
   let convertedFiles = 0
@@ -51,7 +60,7 @@ function processRomdataDirectory(source: string, destination: string): number {
       saveToJSONFile(folderInfo, folderInfoPath)
       convertedFiles++
     } else if (item.toLowerCase() === 'romdata.dat') {
-      const romdataJson = convertRomDataToJSON(sourcePath, 'F:') // Use the gamesDirPathPrefix
+      const romdataJson = convertRomDataToJSON(sourcePath, gamesDirPathPrefix)
       if (romdataJson !== null) {
         console.log(`Converting: ${sourcePath} to ${destPath.replace('.dat', '.json')}`)
         saveToJSONFile(romdataJson, destPath.replace('.dat', '.json').toLowerCase())
