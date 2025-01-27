@@ -28,6 +28,10 @@ export const action = async ({ request }: { request: Request }) => {
   const formData = await request.formData()
   const intent = formData.get('intent')
   console.log('Intent:', intent)
+  //loop through the formdata and print it to the console
+  for (let pair of formData.entries()) {
+    console.log(pair[0] + ', ' + pair[1])
+  }
 
   if (intent === 'selectDirectory') {
     console.log('Handling directory selection')

@@ -3,6 +3,46 @@ import * as ini from 'ini'
 import * as readline from 'readline'
 import * as iconv from 'iconv-lite'
 
+export async function convertSystems(inputPath: string, outputPath: string): Promise<boolean> {
+  const fileStream = fs.createReadStream(inputPath)
+  const rl = readline.createInterface({
+    input: fileStream,
+    crlfDelay: Infinity
+  })
+
+  const systems = []
+  for await (const line of rl) {
+    systems.push(line)
+  }
+
+  fs.writeFileSync(outputPath, JSON.stringify(systems, null, 2))
+  return true //TODO return false on error??
+}
+
+export async function convertEmulators(inputPath: string, outputPath: string): Promise<boolean> {
+  const data = fs.readFileSync(inputPath, 'utf-8') //TODO: and on error? And why sync?
+  // Parse the INI-like data
+  const sections = ini.parse(data)
+  // Convert the sections to the desired format
+  const emulators = Object.keys(sections).map(key => ({
+    emulatorName: key,
+    ...sections[key]
+  }))
+  // Filter out empty values
+  emulators.forEach(emulator => {
+    Object.keys(emulator).forEach(key => {
+      if (emulator[key] === '') {
+        delete emulator[key]
+      }
+    })
+  })
+
+  fs.writeFileSync(outputPath, JSON.stringify(emulators, null, 2)) //TODO: why sync, what on error?
+  return true //why?
+}
+
+//MEDIA PANEL CONVERT CODE
+
 // Function to decode hex strings
 function decodeHex(hex: string): string {
   const buffer = Buffer.from(hex, 'hex')
@@ -23,6 +63,7 @@ const searchTabTypeMapping: { [key: number]: string } = {
   3: 'Thumbnail',
   4: 'System',
   5: 'RomInfo',
+  // Original note: whilst it isn't terribly sensible to create these new types that all call the same imp but with different string config vars, the alternative is to rewrite a lot of the way media panel options work eg: linking to files not folders and a new form specifically for creating mame dat types that will let you choose the call
   6: 'MameCommand',
   7: 'MameGameInit',
   8: 'MameMessInfo',
@@ -45,74 +86,35 @@ function decodeTabs(tabs: string): any {
   ).readUInt8(0)
   const searchInRomPath = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 'hex').readUInt8(0)) // prettier-ignore
   const pathLength = Buffer.from(tabs.slice(16 + captionLength * 2 + 10, 16 + captionLength * 2 + 18), 'hex').readUInt32LE(0) // prettier-ignore
-  const path = Buffer.from(tabs.slice(16 + captionLength * 2 + 18, 16 + captionLength * 2 + 18 + pathLength * 2), 'hex')
-    .toString('ascii')
-    .split('\r\n')
+  const path = Buffer.from(tabs.slice(16 + captionLength * 2 + 18, 16 + captionLength * 2 + 18 + pathLength * 2), 'hex').toString('ascii').split('\r\n') // prettier-ignore
 
+  // Filter out empty strings from the path array, else every path has an empty array
   const filteredPath = path.filter(p => p !== '')
+  // convert the searchType number into its string value
   const searchType = searchTypeMapping[searchTypeNumber]
   const tabType = searchTabTypeMapping[tabTypeNumber]
-
-  // Include all properties in the return object
-  const tabData = {
+  return {
     caption,
     enabled,
-    mameUseParentForSrch, // Keep this regardless of value
+    mameUseParentForSrch,
     searchType,
-    searchInRomPath, // Keep this regardless of value
+    searchInRomPath,
     tabType,
+    // Add the path key only if the filteredPath array is not empty
     ...(filteredPath.length > 0 ? { path: filteredPath } : {})
   }
-
-  return tabData
-}
-
-function toCamelCase(str: string): string {
-  return str[0].toLowerCase() + str.slice(1)
-}
-
-export async function convertSystems(inputPath: string, outputPath: string): Promise<boolean> {
-  const fileStream = fs.createReadStream(inputPath)
-  const rl = readline.createInterface({
-    input: fileStream,
-    crlfDelay: Infinity
-  })
-
-  const systems = []
-  for await (const line of rl) {
-    systems.push(line)
-  }
-
-  fs.writeFileSync(outputPath, JSON.stringify(systems, null, 2))
-  return true
-}
-
-export async function convertEmulators(inputPath: string, outputPath: string): Promise<boolean> {
-  const data = fs.readFileSync(inputPath, 'utf-8')
-  const sections = ini.parse(data)
-
-  const emulators = Object.keys(sections).map(key => ({
-    emulatorName: key,
-    ...sections[key]
-  }))
-
-  emulators.forEach(emulator => {
-    Object.keys(emulator).forEach(key => {
-      if (emulator[key] === '') {
-        delete emulator[key]
-      }
-    })
-  })
-
-  fs.writeFileSync(outputPath, JSON.stringify(emulators, null, 2))
-  return true
 }
 
 export async function convertMediaPanel(inputPath: string, outputPath: string): Promise<boolean> {
+  // Read the INI file
   const data = fs.readFileSync(inputPath, 'utf-8')
+
+  // system names with periods will be corrupted by ini library, it'll try to use them as property access, this will affect following json too! Convert and then convert back after
+  // Replace periods within square brackets with a different character and parse the INI file
   let parsedData = ini.parse(data.replace(/(\[[^\]]+\])/g, match => match.replace(/\./g, '___')))
 
   // Replace the character back in the keys
+
   parsedData = Object.fromEntries(
     Object.entries(parsedData).map(([key, value]) => {
       if (key === 'MediaSettings') {
@@ -126,6 +128,7 @@ export async function convertMediaPanel(inputPath: string, outputPath: string): 
   for (const key in parsedData) {
     if (key !== 'MediaSettings') {
       for (const subKey in parsedData[key]) {
+        // Always remove 'ShowAddInfo'
         if (subKey === 'ShowAddInfo') {
           if (parsedData[key][subKey] === '0' && !parsedData[key].AddInfo) {
             delete parsedData[key].AddInfo
@@ -143,63 +146,44 @@ export async function convertMediaPanel(inputPath: string, outputPath: string): 
       }
     }
   }
-
-  // Combine the -CFG and -TABS entries
+  // Function to convert a string from PascalCase to camelCase
+  function toCamelCase(str: string): string {
+    return str[0].toLowerCase() + str.slice(1)
+  }
+  // Combine the -CFG and -TABS entries for each system
   const combinedData: any = {}
   for (const key in parsedData) {
     if (key === 'MediaSettings') {
       combinedData[key] = parsedData[key]
-      continue // Skip MediaSettings key for now
-    }
+    } else {
+      const lastHyphenIndex = key.lastIndexOf('-')
+      const systemName = key.substring(0, lastHyphenIndex)
+      const entryType = key.substring(lastHyphenIndex + 1)
+      let entryData = parsedData[key]
 
-    const lastHyphenIndex = key.lastIndexOf('-')
-    const systemName = key.substring(0, lastHyphenIndex)
-    const entryType = key.substring(lastHyphenIndex + 1)
-    let entryData = parsedData[key]
-
-    // Skip empty entries
-    if (Object.values(entryData).every(value => !value)) {
-      continue
-    }
-
-    // Convert keys to camelCase
-    entryData = Object.keys(entryData).reduce((result: { [key: string]: any }, key) => {
-      result[toCamelCase(key)] = entryData[key]
-      return result
-    }, {})
-
-    if (!combinedData[systemName]) {
-      combinedData[systemName] = {}
-    }
-
-    if (entryType === 'CFG') {
-      combinedData[systemName] = { ...combinedData[systemName], ...entryData }
-    } else if (entryType === 'TABS') {
-      // Ensure we keep the TABS key and process its contents
-      const processedTabs = []
-      let tabIndex = 0
-
-      for (const tabKey in entryData) {
-        const tabData = entryData[tabKey]
-        if (tabData.enabled) {
-          const newTabData = {
-            tabOrder: tabIndex,
-            ...tabData
-          }
-          delete newTabData.enabled // Remove enabled flag after checking it
-
-          processedTabs.push(newTabData)
-          tabIndex++
-        }
+      // Exclude entries where all keys have falsy values
+      if (Object.values(entryData).every(value => !value)) {
+        continue
       }
 
-      if (processedTabs.length > 0) {
-        combinedData[systemName].tabs = processedTabs
+      // Convert the keys of the entryData object to camelCase (sysImage / addInfo instead of SysImage / AddInfo)
+      entryData = Object.keys(entryData).reduce((result: { [key: string]: any }, key) => {
+        result[toCamelCase(key)] = entryData[key]
+        return result
+      }, {})
+
+      if (!combinedData[systemName]) {
+        combinedData[systemName] = {}
+      }
+      if (entryType === 'CFG') {
+        combinedData[systemName] = { ...combinedData[systemName], ...entryData }
+      } else {
+        combinedData[systemName][entryType] = entryData
       }
     }
   }
 
-  // Create sorted data
+  // Create a new object with the keys sorted
   const sortedCombinedData: any = {}
   Object.keys(combinedData)
     .sort()
@@ -207,23 +191,74 @@ export async function convertMediaPanel(inputPath: string, outputPath: string): 
       sortedCombinedData[key] = combinedData[key]
     })
 
-  // Remove empty system entries
+  // Iterate over the keys in the sortedCombinedData object
+  for (const systemName in sortedCombinedData) {
+    // Check if the systemData has a TABS property
+    if (sortedCombinedData[systemName].TABS) {
+      const tabsData = sortedCombinedData[systemName].TABS
+      const newTabsData: any = []
+      let newKey = 0 //we removed unused tabs, so the key numbering is effectively a sparse arrray, number again
+
+      // Iterate over the keys in the tabsData object
+      for (const key in tabsData) {
+        // Check if the enabled property is true
+        if (tabsData[key].enabled) {
+          // Prepare the new tab data
+          const newTabData = { tabOrder: newKey, ...tabsData[key] }
+
+          // Remove keys with value false
+          for (const tabKey in newTabData) {
+            if (newTabData[tabKey] === false) {
+              delete newTabData[tabKey]
+            }
+          }
+
+          // Push the new tab data to the newTabsData array
+          newTabsData.push(newTabData)
+
+          // Increment newKey
+          newKey++
+        }
+      }
+
+      // Remove the enabled property from the tabs in the newTabsData object
+      for (const key in newTabsData) {
+        delete newTabsData[key].enabled
+      }
+
+      // Check if the newTabsData object is empty
+      if (Object.keys(newTabsData).length === 0) {
+        // Delete the TABS key from the system entry
+        delete sortedCombinedData[systemName].TABS
+      } else {
+        // Replace the TABS property in the sortedCombinedData object with the newTabsData object
+        sortedCombinedData[systemName].tabs = newTabsData
+        delete sortedCombinedData[systemName].TABS
+      }
+    }
+  }
+  // Check if the system entry is empty
   for (const systemName in sortedCombinedData) {
     if (Object.keys(sortedCombinedData[systemName]).length === 0) {
+      // Delete the system entry from sortedCombinedData
       delete sortedCombinedData[systemName]
     }
   }
 
-  // Extract MediaSettings for separate file (this was intended in the original)
+  // Extract the MediaSettings key-value pair
   const mediaSettings = { MediaSettings: sortedCombinedData.MediaSettings }
+
+  // Remove the MediaSettings key-value pair from the original data
   delete sortedCombinedData.MediaSettings
 
-  // Write both files (this matches the original behavior)
+  // Write the output to a JSON file
   fs.writeFileSync(outputPath, JSON.stringify(sortedCombinedData, null, 2))
+
+  // Write the MediaSettings to a new file
   fs.writeFileSync(
     outputPath.replace('mediaPanelConfig.json', 'mediaPanelSettings.json'),
     JSON.stringify(mediaSettings, null, 2)
   )
 
-  return true
+  return true //why??
 }

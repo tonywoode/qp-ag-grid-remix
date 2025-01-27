@@ -7,7 +7,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\3DO\\Snap",
@@ -20,7 +19,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\3DO\\Title",
@@ -31,9 +29,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\3DO\\Box",
@@ -43,9 +39,7 @@
       {
         "tabOrder": 3,
         "caption": "Flyers",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\3DO\\Background",
@@ -66,7 +60,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\apfm1000"
@@ -77,7 +70,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\apfm1000"
@@ -86,9 +78,7 @@
       {
         "tabOrder": 2,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -100,9 +90,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Archimedes\\Archimedes\\Pics"
@@ -111,9 +99,7 @@
       {
         "tabOrder": 1,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Archimedes\\Archimedes\\Extras"
@@ -130,7 +116,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\atom_flop",
@@ -142,7 +127,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\atom_rom"
@@ -151,9 +135,7 @@
       {
         "tabOrder": 2,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -209,9 +191,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\BBC\\GB_Acornmania\\Extras\\Covers"
@@ -220,9 +200,7 @@
       {
         "tabOrder": 2,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\BBC\\GB_Acornmania\\Extras\\Adverts",
@@ -561,7 +539,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\bbcbc",
@@ -571,9 +548,7 @@
       {
         "tabOrder": 4,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -587,7 +562,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Amstrad CPC\\Amstrad CPC\\Pictures\\#",
@@ -654,9 +628,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Amstrad CPC"
@@ -665,9 +637,7 @@
       {
         "tabOrder": 2,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Amstrad CPC\\Amstrad CPC\\Extras\\Cartridge\\#",
@@ -1148,7 +1118,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\cpc_cass",
@@ -1160,9 +1129,7 @@
       {
         "tabOrder": 4,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Amstrad - CPC\\Named_Boxarts"
@@ -1171,9 +1138,7 @@
       {
         "tabOrder": 5,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -1186,7 +1151,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\pcw"
@@ -1206,7 +1170,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Apple2\\Apple2Mania_V2\\Screenshots\\0",
@@ -1245,7 +1208,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\apple2",
@@ -1255,9 +1217,7 @@
       {
         "tabOrder": 2,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Apple2\\Apple2Mania_V2\\Extras\\Help\\Hints",
@@ -1290,7 +1250,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\apple2"
@@ -1305,7 +1264,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\mac_flop",
@@ -1326,7 +1284,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Arcade\\SUPERSET_ASSETS\\Screens",
@@ -1342,7 +1299,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\FB Alpha - Arcade Games\\Named_Boxarts"
@@ -1353,7 +1309,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Arcade\\SUPERSET_ASSETS\\Titles",
@@ -1367,7 +1322,6 @@
         "caption": "Samples",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\samples"
@@ -1378,7 +1332,6 @@
         "caption": "Flyers",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Arcade\\FinalBurn_Alpha\\fba\\support\\flyers",
@@ -1390,7 +1343,6 @@
         "caption": "Marquees",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Arcade\\FinalBurn_Alpha\\fba\\support\\marquees",
@@ -1402,7 +1354,6 @@
         "caption": "Game History",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "F:\\MAME\\EXTRAs\\dats"
@@ -1413,7 +1364,6 @@
         "caption": "Game Info",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameInfo",
         "path": [
           "F:\\MAME\\EXTRAs\\dats"
@@ -1424,7 +1374,6 @@
         "caption": "Mame Command dat",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameCommand",
         "path": [
           "F:\\MAME\\EXTRAs\\dats"
@@ -1435,7 +1384,6 @@
         "caption": "Mame Game Init",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameGameInit",
         "path": [
           "F:\\MAME\\EXTRAs\\dats"
@@ -1446,7 +1394,6 @@
         "caption": "Mame Mess Info",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameMessInfo",
         "path": [
           "F:\\MAME\\EXTRAs\\dats"
@@ -1457,7 +1404,6 @@
         "caption": "Mame Story Dat",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameStory",
         "path": [
           "F:\\MAME\\EXTRAs\\dats"
@@ -1468,7 +1414,6 @@
         "caption": "Mame Mess SysInfo",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameSysinfo",
         "path": [
           "F:\\MAME\\EXTRAs\\dats"
@@ -1479,7 +1424,6 @@
         "caption": "ArtPreview",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\artpreview"
@@ -1490,7 +1434,6 @@
         "caption": "Cabinets",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\cabinets"
@@ -1501,7 +1444,6 @@
         "caption": "Control Panels",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\cpanel"
@@ -1512,7 +1454,6 @@
         "caption": "Game Over",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\gameover"
@@ -1523,7 +1464,6 @@
         "caption": "How To",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\howto"
@@ -1534,7 +1474,6 @@
         "caption": "Logo",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\logo"
@@ -1545,7 +1484,6 @@
         "caption": "pcb",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\pcb"
@@ -1556,7 +1494,6 @@
         "caption": "Scores",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\scores"
@@ -1567,7 +1504,6 @@
         "caption": "Select",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\select"
@@ -1578,7 +1514,6 @@
         "caption": "Versus",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\versus"
@@ -1589,7 +1524,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals"
@@ -1606,7 +1540,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Atari 2600\\Good2600_314_GM_Screens",
@@ -1618,9 +1551,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Atari 2600"
@@ -1631,7 +1562,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\RetroArch\\thumbnails\\Atari - 2600\\Named_Titles",
@@ -1644,7 +1574,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\a2600",
@@ -1657,7 +1586,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\a2600"
@@ -1674,7 +1602,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\GAMEBASE GAMES\\Atari800\\Atari 800\\screenshots\\0",
@@ -1713,9 +1640,7 @@
       {
         "tabOrder": 1,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Atari800\\Atari 800\\Extras\\Adverts",
@@ -2273,9 +2198,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Atari800\\Atari 800\\Extras\\Covers\\0",
@@ -2312,7 +2235,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\a800",
@@ -2331,7 +2253,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Atari 5200\\Good5200_201_GM_Screens",
@@ -2342,9 +2263,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Atari 5200"
@@ -2355,7 +2274,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\a5200",
@@ -2367,7 +2285,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\a5200",
@@ -2379,7 +2296,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\a5200"
@@ -2396,7 +2312,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Atari 7800\\Good7800_204_GM_Screens",
@@ -2407,9 +2322,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Atari 7800"
@@ -2420,7 +2333,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\a7800",
@@ -2432,7 +2344,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\a7800",
@@ -2444,7 +2355,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\a7800"
@@ -2461,7 +2371,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Atari Jaguar\\GoodJAG_201_GM_Screens",
@@ -2472,9 +2381,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Atari Jaguar"
@@ -2485,7 +2392,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\jaguar",
@@ -2497,7 +2403,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\jaguar",
@@ -2509,7 +2414,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\jaguar"
@@ -2526,7 +2430,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Atari Lynx\\GoodLYNX_201_GM_Screens",
@@ -2537,9 +2440,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Atari Lynx"
@@ -2550,7 +2451,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\lynx",
@@ -2562,7 +2462,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\lynx",
@@ -2574,7 +2473,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\lynx"
@@ -2589,9 +2487,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\GAMEBASE GAMES\\Atari ST\\Gamebase ST v3.1d\\Screenshots\\0",
@@ -2627,9 +2523,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Atari ST\\Gamebase ST v3.1d\\Extras\\Boxscans\\0",
@@ -2666,9 +2560,7 @@
       {
         "tabOrder": 2,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Atari ST\\Gamebase ST v3.1d\\Extras\\Adverts\\0",
@@ -2925,9 +2817,7 @@
       {
         "tabOrder": 3,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Atari - ST\\Named_Titles"
@@ -2943,7 +2833,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\astrocde"
@@ -2954,7 +2843,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\astrocde"
@@ -2969,7 +2857,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\sv8000"
@@ -2980,7 +2867,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\sv8000"
@@ -2997,7 +2883,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Bandai Wonderswan\\GoodWSx_314_GM_Screens",
@@ -3010,9 +2895,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Bandai Wonderswan"
@@ -3023,7 +2906,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\wscolor",
@@ -3037,7 +2919,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\wscolor",
@@ -3049,9 +2930,7 @@
       {
         "tabOrder": 4,
         "caption": "Gamepad",
-        "mameUseParentForSrch": false,
         "searchType": "AllFilesInDir",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\wonderswan"
@@ -3065,9 +2944,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "C:\\Emulators\\Scripts\\Dummy_Files\\BoR_Dummy_Files"
@@ -3082,7 +2959,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\bw2",
@@ -3096,9 +2972,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RetroArch\\CHIP-8"
@@ -3113,7 +2987,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\casloopy",
@@ -3123,9 +2996,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Casio - Loopy\\Named_Boxarts"
@@ -3134,9 +3005,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Casio - Loopy\\Named_Titles"
@@ -3152,7 +3021,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\pv1000",
@@ -3163,9 +3031,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Casio - PV-1000\\Named_Boxarts"
@@ -3176,7 +3042,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\pv1000",
@@ -3193,9 +3058,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\adam_cart",
@@ -3207,7 +3070,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\adam_cart",
@@ -3219,7 +3081,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\adam_cass"
@@ -3236,7 +3097,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Colecovision\\GoodCOL_314_GM_Screens",
@@ -3247,9 +3107,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\ColecoVision"
@@ -3260,7 +3118,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\coleco",
@@ -3272,7 +3129,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\coleco",
@@ -3284,7 +3140,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\coleco"
@@ -3301,7 +3156,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\GAMEBASE GAMES\\Commodore Plus4\\Plus4\\screen\\#",
@@ -3340,9 +3194,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Commodore Plus4\\Plus4\\Extras\\Covers\\#",
@@ -3379,9 +3231,7 @@
       {
         "tabOrder": 2,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Commodore Plus4\\Plus4\\Extras\\docs",
@@ -3394,7 +3244,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\plus4_cart",
@@ -3414,7 +3263,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Commodore 128\\C128\\SCREENSHOTS\\[D64]",
@@ -3457,9 +3305,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Commodore 64"
@@ -3468,9 +3314,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Commodore 64\\GbC_v09\\Extras\\Cover\\!",
@@ -3509,9 +3353,7 @@
       {
         "tabOrder": 3,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Commodore 64\\GbC_v09\\Extras\\Adverts\\A",
@@ -3875,7 +3717,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\c64_cart",
@@ -3887,7 +3728,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\c128_flop"
@@ -3896,9 +3736,7 @@
       {
         "tabOrder": 6,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -3912,7 +3750,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\GAMEBASE GAMES\\Commodore Amiga\\Gamebase Amiga\\Screenshots\\0",
@@ -3955,9 +3792,7 @@
       {
         "tabOrder": 1,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Commodore Amiga\\UAELOADER GAMEBASE\\Title",
@@ -3969,9 +3804,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Commodore Amiga\\Gamebase Amiga\\Extras\\Boxscans\\0",
@@ -4013,9 +3846,7 @@
       {
         "tabOrder": 3,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Commodore Amiga\\Gamebase Amiga\\Extras\\Hints, Tips, Cheats & Walkthroughs\\0",
@@ -4078,9 +3909,7 @@
       {
         "tabOrder": 4,
         "caption": "Gamepad",
-        "mameUseParentForSrch": false,
         "searchType": "AllFilesInDir",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\amiga"
@@ -4097,7 +3926,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Commodore CD32",
@@ -4109,7 +3937,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\cd32"
@@ -4120,7 +3947,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\cd32"
@@ -4131,7 +3957,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\cd32"
@@ -4147,7 +3972,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\vic10"
@@ -4162,9 +3986,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4178,7 +4000,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Commodore VIC20\\vic20_v02\\screenshots",
@@ -4189,9 +4010,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Commodore VIC20\\vic20_v02\\extras\\Cover\\Cart box\\Back",
@@ -4205,9 +4024,7 @@
       {
         "tabOrder": 2,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Commodore VIC20\\vic20_v02\\extras\\Cart",
@@ -4224,7 +4041,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\vic1001_cart",
@@ -4240,9 +4056,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4254,7 +4068,6 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
         "searchInRomPath": true,
         "tabType": "Images",
@@ -4266,9 +4079,7 @@
       {
         "tabOrder": 1,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\DOS\\Named_Titles",
@@ -4278,9 +4089,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\DOS\\Named_Boxarts",
@@ -4296,9 +4105,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4310,9 +4117,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4324,9 +4129,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4342,9 +4145,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4357,7 +4158,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Emerson Arcadia\\Arcadia 2001\\Screens",
@@ -4368,9 +4168,7 @@
       {
         "tabOrder": 1,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Emerson Arcadia\\Arcadia 2001\\Extras\\manual",
@@ -4383,7 +4181,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\arcadia",
@@ -4393,9 +4190,7 @@
       {
         "tabOrder": 3,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Emerson - Arcadia 2001\\Named_Boxarts"
@@ -4412,7 +4207,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\ep64_cart"
@@ -4432,7 +4226,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\advision",
@@ -4444,7 +4237,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\advision",
@@ -4456,7 +4248,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\advision",
@@ -4468,7 +4259,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\advision"
@@ -4484,7 +4274,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\gamepock"
@@ -4495,7 +4284,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\gamepock"
@@ -4512,7 +4300,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\scv",
@@ -4522,9 +4309,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Epoch - Super Cassette Vision\\Named_Boxarts"
@@ -4535,7 +4320,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\scv",
@@ -4553,7 +4337,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\sorcerer_cart"
@@ -4562,9 +4345,7 @@
       {
         "tabOrder": 1,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4578,7 +4359,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Fairchild ChannelF\\GoodCHAF_31415_GM_Screens",
@@ -4589,9 +4369,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Fairchild Channel F"
@@ -4602,7 +4380,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\channelf",
@@ -4612,9 +4389,7 @@
       {
         "tabOrder": 3,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Fairchild - Channel F\\Named_Titles"
@@ -4629,7 +4404,6 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
         "searchInRomPath": true,
         "tabType": "Images"
@@ -4649,9 +4423,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4664,7 +4436,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\supracan",
@@ -4676,7 +4447,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\supracan",
@@ -4686,9 +4456,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Funtech - Super Acan\\Named_Boxarts"
@@ -4705,7 +4473,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\GCE Vectrex\\GoodVECT_106_GM_Screens",
@@ -4717,9 +4484,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\GCE Vectrex"
@@ -4730,7 +4495,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\vectrex",
@@ -4741,9 +4505,7 @@
       {
         "tabOrder": 3,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\GCE - Vectrex\\Named_Boxarts"
@@ -4760,9 +4522,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\GamePark - GP32\\Named_Snaps"
@@ -4771,9 +4531,7 @@
       {
         "tabOrder": 1,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\GamePark - GP32\\Named_Titles"
@@ -4782,9 +4540,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\GamePark - GP32\\Named_Boxarts"
@@ -4798,9 +4554,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\SYSTEM SHOTS",
@@ -4810,9 +4564,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Handheld Electronic Game\\Named_Boxarts"
@@ -4827,9 +4579,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4840,9 +4590,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\GameMaster",
@@ -4853,9 +4601,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Hartung - Game Master\\Named_Boxarts"
@@ -4866,7 +4612,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\gmaster",
@@ -4882,9 +4627,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\ibm5140",
@@ -4897,7 +4640,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\ibmpcjr_cart",
@@ -4907,9 +4649,7 @@
       {
         "tabOrder": 2,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4923,7 +4663,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\interact"
@@ -4934,7 +4673,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\interact"
@@ -4951,7 +4689,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\cx3000tc",
@@ -4964,7 +4701,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\cx3000tc"
@@ -4979,9 +4715,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -4996,7 +4730,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\pasogo"
@@ -5007,7 +4740,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\pasogo"
@@ -5022,9 +4754,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -5039,9 +4769,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -5053,7 +4781,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\abc80_cass",
@@ -5120,7 +4847,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\msx1_cart",
@@ -5131,9 +4857,7 @@
       {
         "tabOrder": 2,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\MSX"
@@ -5142,9 +4866,7 @@
       {
         "tabOrder": 3,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\MSX\\MSX1\\extras\\CAS\\123",
@@ -5247,9 +4969,7 @@
       {
         "tabOrder": 4,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Microsoft - MSX\\Named_Boxarts"
@@ -5266,7 +4986,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\MSX2\\msx2\\Screenshots\\123",
@@ -5308,7 +5027,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\msx2_cart",
@@ -5320,9 +5038,7 @@
       {
         "tabOrder": 2,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\MSX 2"
@@ -5331,9 +5047,7 @@
       {
         "tabOrder": 3,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Microsoft - MSX2\\Named_Boxarts"
@@ -5349,7 +5063,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Magnavox Odyssey\\Odyssey2\\Screens",
@@ -5362,7 +5075,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Magnavox Odyssey\\Odyssey2\\Extras\\Boxes",
@@ -5373,9 +5085,7 @@
       {
         "tabOrder": 2,
         "caption": "Cart",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Magnavox Odyssey\\Odyssey2\\Extras\\Cart"
@@ -5384,9 +5094,7 @@
       {
         "tabOrder": 3,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Magnavox Odyssey\\Odyssey2\\Extras\\Manuals",
@@ -5396,9 +5104,7 @@
       {
         "tabOrder": 4,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Magnavox - Odyssey2\\Named_Titles"
@@ -5415,7 +5121,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\aquarius"
@@ -5426,7 +5131,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\aquarius"
@@ -5443,7 +5147,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Mattel Intellivision\\GoodINTV_203_GM_Screens",
@@ -5455,9 +5158,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Mattel Intellivision"
@@ -5468,7 +5169,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\intv",
@@ -5481,7 +5181,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\intv",
@@ -5494,7 +5193,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\intv",
@@ -5512,7 +5210,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\juicebox"
@@ -5523,7 +5220,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\juicebox"
@@ -5539,7 +5235,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\megaduck"
@@ -5550,7 +5245,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\megaduck"
@@ -5567,9 +5261,7 @@
       {
         "tabOrder": 0,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Microsoft - Xbox\\Named_Boxarts"
@@ -5582,9 +5274,7 @@
       {
         "tabOrder": 0,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Microsoft - Xbox 360\\Named_Boxarts"
@@ -5599,9 +5289,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -5611,9 +5299,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo SNES\\GoodSNES_314_GM_screens"
@@ -5627,9 +5313,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\NEC PC FX\\Snap",
@@ -5639,9 +5323,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\NEC PC FX\\Box",
@@ -5652,9 +5334,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\NEC - PC-FX\\Named_Titles"
@@ -5671,7 +5351,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\PC Engine\\TG16-PCE\\Screenshots\\123",
@@ -5718,9 +5397,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\NEC PC Engine"
@@ -5731,7 +5408,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\PC Engine\\TG16-PCE\\EXTRAS\\Turbo Grafx 16 - Boxes",
@@ -5745,9 +5421,7 @@
       {
         "tabOrder": 3,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\PC Engine\\TG16-PCE\\EXTRAS\\Manuals"
@@ -5758,7 +5432,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\pce",
@@ -5781,7 +5454,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\apc"
@@ -5800,7 +5472,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\myvision"
@@ -5811,7 +5482,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\myvision"
@@ -5826,9 +5496,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo 3DS\\Named_Snaps",
@@ -5838,9 +5506,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo 3DS\\Named_Boxarts",
@@ -5850,9 +5516,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo 3DS\\Named_Titles",
@@ -5870,7 +5534,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo N64\\GoodN64_314_GM_Screens",
@@ -5884,7 +5547,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\n64",
@@ -5895,9 +5557,7 @@
       {
         "tabOrder": 2,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Nintendo N64"
@@ -5908,7 +5568,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\n64",
@@ -5921,7 +5580,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\n64"
@@ -5930,9 +5588,7 @@
       {
         "tabOrder": 5,
         "caption": "Gamepad",
-        "mameUseParentForSrch": false,
         "searchType": "AllFilesInDir",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\n64"
@@ -5947,9 +5603,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo DS\\NO-INTRO_MERGED",
@@ -5960,9 +5614,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DS\\Named_Boxarts",
@@ -5972,9 +5624,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Nintendo Games\\Nintendo_DS\\NDS_SCREENS\\NO-INTRO_MERGED",
@@ -5984,9 +5634,7 @@
       {
         "tabOrder": 3,
         "caption": "Background",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo_DS\\Background"
@@ -5995,9 +5643,7 @@
       {
         "tabOrder": 4,
         "caption": "Banner",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo_DS\\Banner"
@@ -6006,9 +5652,7 @@
       {
         "tabOrder": 5,
         "caption": "Box3D",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo_DS\\Box_3D"
@@ -6017,9 +5661,7 @@
       {
         "tabOrder": 6,
         "caption": "Logo",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo_DS\\Logos"
@@ -6028,9 +5670,7 @@
       {
         "tabOrder": 7,
         "caption": "Marquees",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo_DS\\Marquee"
@@ -6043,9 +5683,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DSi\\Named_Snaps"
@@ -6054,9 +5692,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DSi\\Named_Boxarts"
@@ -6065,9 +5701,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Nintendo DSi\\Named_Titles"
@@ -6084,7 +5718,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\famicom_flop",
@@ -6094,9 +5727,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Family Computer Disk System\\Named_Boxarts"
@@ -6105,9 +5736,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Family Computer Disk System\\Named_Titles"
@@ -6124,7 +5753,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo Gameboy\\GoodGBx_314_GM_Screens",
@@ -6137,9 +5765,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Nintendo Gameboy"
@@ -6148,9 +5774,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Game Boy\\Named_Boxarts",
@@ -6162,7 +5786,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\gameboy",
@@ -6182,7 +5805,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo Gameboy Advance\\GoodGBA__314_GM_Screens",
@@ -6193,9 +5815,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Nintendo Gameboy Advance"
@@ -6206,7 +5826,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\gba",
@@ -6218,7 +5837,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\gba",
@@ -6234,9 +5852,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo Gamecube",
@@ -6246,9 +5862,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - GameCube\\Named_Boxarts"
@@ -6257,9 +5871,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - GameCube\\Named_Titles"
@@ -6268,9 +5880,7 @@
       {
         "tabOrder": 3,
         "caption": "Gamepad",
-        "mameUseParentForSrch": false,
         "searchType": "AllFilesInDir",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\gamecube"
@@ -6287,7 +5897,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Nintendo NES\\NES\\Screenshots\\0",
@@ -6327,7 +5936,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\nes",
@@ -6337,9 +5945,7 @@
       {
         "tabOrder": 2,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Nintendo NES"
@@ -6348,9 +5954,7 @@
       {
         "tabOrder": 3,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Nintendo NES\\NES\\Extras\\Adverts",
@@ -6383,7 +5987,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Nintendo NES\\NES\\Extras\\Box_scans",
@@ -6399,9 +6002,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\pokemini",
@@ -6411,9 +6012,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Pokemon Mini\\Named_Boxarts"
@@ -6424,7 +6023,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\pokemini",
@@ -6442,7 +6040,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\Nintendo SNES\\SNES USA\\Screenshots\\0",
@@ -6482,9 +6079,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Nintendo SNES"
@@ -6495,7 +6090,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\snes",
@@ -6507,9 +6101,7 @@
       {
         "tabOrder": 3,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\Nintendo SNES\\SNES USA\\Extras\\0",
@@ -6548,9 +6140,7 @@
       {
         "tabOrder": 4,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Sufami Turbo\\Named_Boxarts",
@@ -6565,9 +6155,7 @@
       {
         "tabOrder": 0,
         "caption": "Gamepad",
-        "mameUseParentForSrch": false,
         "searchType": "AllFilesInDir",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\switch"
@@ -6584,7 +6172,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo Virtual Boy\\GoodVBOY_31415_GM_Screens",
@@ -6595,9 +6182,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Nintendo Virtual Boy"
@@ -6606,9 +6191,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Virtual Boy\\Named_Boxarts"
@@ -6619,7 +6202,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\vboy",
@@ -6629,9 +6211,7 @@
       {
         "tabOrder": 4,
         "caption": "Gamepad",
-        "mameUseParentForSrch": false,
         "searchType": "AllFilesInDir",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\virtualboy"
@@ -6647,9 +6227,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii\\Named_Snaps",
@@ -6659,9 +6237,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii\\Named_Boxarts",
@@ -6671,9 +6247,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii\\Named_Titles"
@@ -6682,9 +6256,7 @@
       {
         "tabOrder": 3,
         "caption": "Box3D",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo_Wii\\Box_3D"
@@ -6693,9 +6265,7 @@
       {
         "tabOrder": 4,
         "caption": "Marquees",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo_Wii\\Marquee"
@@ -6704,9 +6274,7 @@
       {
         "tabOrder": 5,
         "caption": "Logo",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Nintendo_Wii\\Logos"
@@ -6715,9 +6283,7 @@
       {
         "tabOrder": 6,
         "caption": "Gamepad",
-        "mameUseParentForSrch": false,
         "searchType": "AllFilesInDir",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\Wii"
@@ -6730,9 +6296,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii U\\Named_Snaps"
@@ -6741,9 +6305,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii U\\Named_Boxarts"
@@ -6752,9 +6314,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Nintendo - Wii U\\Named_Titles"
@@ -6775,9 +6335,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -6788,9 +6346,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\PC Games",
@@ -6800,9 +6356,7 @@
       {
         "tabOrder": 1,
         "caption": "MAME Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameInfo",
         "path": [
           "P:\\QUICKPLAY\\Dummy_Files\\DUMMY_MAMEINFO_FILES\\PC GAMES"
@@ -6817,9 +6371,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -6829,9 +6381,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\PSX-UTILITY\\COVERS\\NTSC U PSX Front Covers Complete\\A",
@@ -6873,9 +6423,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -6887,9 +6435,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -6901,9 +6447,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -6915,9 +6459,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Phillips CD-I\\Snap"
@@ -6926,9 +6468,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Phillips CD-I\\Box"
@@ -6945,7 +6485,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\vg5k"
@@ -6958,9 +6497,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Philips - Videopac+\\Named_Snaps"
@@ -6969,9 +6506,7 @@
       {
         "tabOrder": 1,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\RetroArch\\thumbnails\\Philips - Videopac+\\Named_Titles",
@@ -6981,9 +6516,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Philips - Videopac+\\Named_Boxarts"
@@ -7007,7 +6540,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\studio2",
@@ -7017,9 +6549,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\RCA - Studio II\\Named_Boxarts"
@@ -7028,9 +6558,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\RCA - Studio II\\Named_Titles"
@@ -7045,9 +6573,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -7061,7 +6587,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\mpu1000"
@@ -7070,9 +6595,7 @@
       {
         "tabOrder": 1,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -7087,9 +6610,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RetroArch",
@@ -7114,9 +6635,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Bomberman Game Clone\\Named_Boxarts",
@@ -7139,9 +6658,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Bomberman Game Clone\\Named_Titles",
@@ -7172,9 +6689,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap\\z1013a2",
@@ -7191,7 +6706,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\aim65_cart"
@@ -7202,7 +6716,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\aim65_cart"
@@ -7217,9 +6730,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -7232,7 +6743,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\neogeo",
@@ -7244,7 +6754,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Arcade\\SCREENSHOTS\\Winkawaks_NONMAME_screenshots",
@@ -7257,7 +6766,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\RetroArch\\thumbnails\\SNK - Neo Geo\\Named_Boxarts",
@@ -7270,7 +6778,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\neogeo"
@@ -7286,7 +6793,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\SNK Neo Geo CD",
@@ -7299,7 +6805,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\neocd",
@@ -7311,7 +6816,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\neocd",
@@ -7329,7 +6833,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\ngp",
@@ -7342,7 +6845,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\SNK NEO GEO Pocket\\GoodNGPx_314_GM_Screens",
@@ -7355,9 +6857,7 @@
       {
         "tabOrder": 2,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\SNK NEO GEO Pocket"
@@ -7366,9 +6866,7 @@
       {
         "tabOrder": 3,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\SNK - Neo Geo Pocket\\Named_Boxarts",
@@ -7384,9 +6882,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -7398,9 +6894,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -7414,7 +6908,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\SEGA CD",
@@ -7428,7 +6921,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\megacd",
@@ -7441,7 +6933,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\segacd",
@@ -7453,7 +6944,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\segacd"
@@ -7468,9 +6958,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega Dreamcast",
@@ -7481,9 +6969,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sega - Dreamcast\\Named_Boxarts",
@@ -7493,9 +6979,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sega - Dreamcast\\Named_Titles",
@@ -7505,9 +6989,7 @@
       {
         "tabOrder": 3,
         "caption": "Gamepad",
-        "mameUseParentForSrch": false,
         "searchType": "AllFilesInDir",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\dreamcast"
@@ -7516,9 +6998,7 @@
       {
         "tabOrder": 4,
         "caption": "Advert",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Dreamcast\\Advert"
@@ -7527,9 +7007,7 @@
       {
         "tabOrder": 5,
         "caption": "Background",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Dreamcast\\Background"
@@ -7538,9 +7016,7 @@
       {
         "tabOrder": 6,
         "caption": "Banner",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Dreamcast\\Banner"
@@ -7549,9 +7025,7 @@
       {
         "tabOrder": 7,
         "caption": "Box3D",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Dreamcast\\Box_3D"
@@ -7560,9 +7034,7 @@
       {
         "tabOrder": 8,
         "caption": "Box Back",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Dreamcast\\BoxBack"
@@ -7571,9 +7043,7 @@
       {
         "tabOrder": 9,
         "caption": "CD",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Dreamcast\\Disc"
@@ -7582,9 +7052,7 @@
       {
         "tabOrder": 10,
         "caption": "Logo",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Dreamcast\\Logos"
@@ -7593,9 +7061,7 @@
       {
         "tabOrder": 11,
         "caption": "Marquees",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Dreamcast\\Marquee"
@@ -7612,7 +7078,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega GameGear\\GoodGG_313_GM_Screens",
@@ -7625,7 +7090,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\gamegear",
@@ -7635,9 +7099,7 @@
       {
         "tabOrder": 2,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Sega GameGear"
@@ -7648,7 +7110,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\gamegear",
@@ -7660,7 +7121,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\gamegear"
@@ -7677,7 +7137,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Screenshots\\#",
@@ -7717,9 +7176,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Sega Genesis"
@@ -7730,7 +7187,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\32x",
@@ -7742,9 +7198,7 @@
       {
         "tabOrder": 3,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\SEGA Megadrive\\Sega Genesis USA\\Extras\\a",
@@ -7780,7 +7234,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\32x",
@@ -7794,7 +7247,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\32x",
@@ -7812,7 +7264,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega Master System\\GoodSMS_313_GM_Screens",
@@ -7823,9 +7274,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Sega Master System"
@@ -7836,7 +7285,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\sms",
@@ -7848,7 +7296,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\sms",
@@ -7860,7 +7307,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\sms"
@@ -7877,7 +7323,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\SEGA MARKIII\\SMS\\screens\\GG\\#",
@@ -7949,7 +7394,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Sega Games\\HazeMD\\HazeMD\\titles\\titles.zip",
@@ -7959,9 +7403,7 @@
       {
         "tabOrder": 2,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\SEGA MARKIII\\SMS\\Extras"
@@ -7970,9 +7412,7 @@
       {
         "tabOrder": 3,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\Gamebase Games\\SEGA MARKIII\\SMS\\Extras\\Cover\\Brazil",
@@ -7992,9 +7432,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\pico",
@@ -8004,9 +7442,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\SEGA Pico"
@@ -8017,7 +7453,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\pico",
@@ -8029,7 +7464,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\pico"
@@ -8040,7 +7474,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\pico"
@@ -8057,7 +7490,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\sg1000",
@@ -8069,7 +7501,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\sg1000",
@@ -8081,7 +7512,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\sg1000",
@@ -8093,7 +7523,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\sg1000"
@@ -8110,7 +7539,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\saturn",
@@ -8123,7 +7551,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\saturn",
@@ -8136,7 +7563,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\saturn",
@@ -8149,7 +7575,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\saturn"
@@ -8158,9 +7583,7 @@
       {
         "tabOrder": 4,
         "caption": "Background",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Saturn\\Background"
@@ -8169,9 +7592,7 @@
       {
         "tabOrder": 5,
         "caption": "Banner",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Saturn\\Banner"
@@ -8180,9 +7601,7 @@
       {
         "tabOrder": 6,
         "caption": "Box3D",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Saturn\\Box_3D"
@@ -8191,9 +7610,7 @@
       {
         "tabOrder": 7,
         "caption": "Box Back",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Saturn\\BoxBack"
@@ -8202,9 +7619,7 @@
       {
         "tabOrder": 8,
         "caption": "CD",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Saturn\\CD"
@@ -8213,9 +7628,7 @@
       {
         "tabOrder": 9,
         "caption": "Logo",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sega_Saturn\\Logos"
@@ -8232,7 +7645,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\mz2500"
@@ -8249,7 +7661,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\x1_cass",
@@ -8261,7 +7672,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\x1_cass",
@@ -8277,9 +7687,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sharp - X68000\\Named_Snaps"
@@ -8288,17 +7696,13 @@
       {
         "tabOrder": 1,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       },
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sharp - X68000\\Named_Boxarts"
@@ -8307,9 +7711,7 @@
       {
         "tabOrder": 3,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sharp - X68000\\Named_Titles"
@@ -8329,7 +7731,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\GAMEBASE GAMES\\ZX Spectrum\\SpeccyMania\\Screens\\123",
@@ -8366,9 +7767,7 @@
       {
         "tabOrder": 1,
         "caption": "Extras",
-        "mameUseParentForSrch": false,
         "searchType": "StartsWith",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\Gamebase Games\\ZX Spectrum\\SpeccyMania\\extras\\Adverts\\DeusExMachina",
@@ -8469,9 +7868,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sinclair - ZX Spectrum\\Named_Boxarts"
@@ -8480,9 +7877,7 @@
       {
         "tabOrder": 3,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sinclair - ZX Spectrum\\Named_Titles"
@@ -8491,9 +7886,7 @@
       {
         "tabOrder": 4,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -8508,9 +7901,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sinclair - ZX 81\\Named_Snaps"
@@ -8519,9 +7910,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sinclair - ZX 81\\Named_Boxarts"
@@ -8530,9 +7919,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sinclair - ZX 81\\Named_Titles"
@@ -8545,9 +7932,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation Vita\\Named_Snaps"
@@ -8556,9 +7941,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation Vita\\Named_Boxarts"
@@ -8567,9 +7950,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation Vita\\Named_Titles"
@@ -8584,9 +7965,7 @@
       {
         "tabOrder": 0,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Box",
@@ -8596,9 +7975,7 @@
       {
         "tabOrder": 1,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Snap",
@@ -8608,9 +7985,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Title",
@@ -8620,9 +7995,7 @@
       {
         "tabOrder": 3,
         "caption": "Background",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Background"
@@ -8631,9 +8004,7 @@
       {
         "tabOrder": 4,
         "caption": "Banner",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Banner"
@@ -8642,9 +8013,7 @@
       {
         "tabOrder": 5,
         "caption": "Box3D",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Box_3D"
@@ -8653,9 +8022,7 @@
       {
         "tabOrder": 6,
         "caption": "Cart",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Cart"
@@ -8664,9 +8031,7 @@
       {
         "tabOrder": 7,
         "caption": "Logo",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Logos"
@@ -8675,9 +8040,7 @@
       {
         "tabOrder": 8,
         "caption": "CD",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Disc"
@@ -8686,9 +8049,7 @@
       {
         "tabOrder": 9,
         "caption": "Marquees",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PSP\\Marquee"
@@ -8705,7 +8066,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony Playstation",
@@ -8720,7 +8080,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\psx",
@@ -8733,7 +8092,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\psx",
@@ -8746,7 +8104,6 @@
         "caption": "Manuals",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Thumbnail",
         "path": [
           "F:\\MAME\\EXTRAs\\manuals_SL\\psx"
@@ -8755,9 +8112,7 @@
       {
         "tabOrder": 4,
         "caption": "Gamepad",
-        "mameUseParentForSrch": false,
         "searchType": "AllFilesInDir",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\Retroarch\\controllerpictures\\MyRetroarchSabrentMappingDiagrams\\ps1"
@@ -8766,9 +8121,7 @@
       {
         "tabOrder": 5,
         "caption": "Advert",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_Playstation\\Advert"
@@ -8777,9 +8130,7 @@
       {
         "tabOrder": 6,
         "caption": "Background",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_Playstation\\Background"
@@ -8788,9 +8139,7 @@
       {
         "tabOrder": 7,
         "caption": "Banner",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_Playstation\\Banner"
@@ -8799,9 +8148,7 @@
       {
         "tabOrder": 8,
         "caption": "Box3D",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_Playstation\\Box_3D"
@@ -8810,9 +8157,7 @@
       {
         "tabOrder": 9,
         "caption": "CD",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_Playstation\\CD"
@@ -8821,9 +8166,7 @@
       {
         "tabOrder": 10,
         "caption": "Logo",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_Playstation\\Logos"
@@ -8836,9 +8179,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Snap",
@@ -8848,9 +8189,7 @@
       {
         "tabOrder": 1,
         "caption": "Flyers",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony Playstation 2\\Advert"
@@ -8859,9 +8198,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Box",
@@ -8871,9 +8208,7 @@
       {
         "tabOrder": 3,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 2\\Named_Titles"
@@ -8882,9 +8217,7 @@
       {
         "tabOrder": 4,
         "caption": "Advert",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Advert"
@@ -8893,9 +8226,7 @@
       {
         "tabOrder": 5,
         "caption": "Box3D",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Box_3D"
@@ -8904,9 +8235,7 @@
       {
         "tabOrder": 6,
         "caption": "CD",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\CD"
@@ -8915,9 +8244,7 @@
       {
         "tabOrder": 7,
         "caption": "Logo",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony Playstation 2\\Sony_Playstation_2\\Logos"
@@ -8930,9 +8257,7 @@
       {
         "tabOrder": 0,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3\\Named_Boxarts",
@@ -8943,9 +8268,7 @@
       {
         "tabOrder": 1,
         "caption": "Box3D",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PlayStation_3\\Box_3D"
@@ -8954,9 +8277,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3\\Named_Titles",
@@ -8966,9 +8287,7 @@
       {
         "tabOrder": 3,
         "caption": "Logo",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Sony_PlayStation_3\\Logos"
@@ -8977,9 +8296,7 @@
       {
         "tabOrder": 4,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 3\\Named_Snaps",
@@ -8993,9 +8310,7 @@
       {
         "tabOrder": 0,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Sony - PlayStation 4\\Named_Boxarts"
@@ -9015,7 +8330,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\m5_cart"
@@ -9026,7 +8340,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\m5_cart"
@@ -9035,9 +8348,7 @@
       {
         "tabOrder": 2,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9049,9 +8360,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9065,7 +8374,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\svi318_cart"
@@ -9076,7 +8384,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\svi318_cart"
@@ -9085,9 +8392,7 @@
       {
         "tabOrder": 2,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9101,7 +8406,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap\\alice32",
@@ -9111,9 +8415,7 @@
       {
         "tabOrder": 1,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9127,7 +8429,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\alice32",
@@ -9140,7 +8441,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\coco_cart"
@@ -9149,9 +8449,7 @@
       {
         "tabOrder": 2,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9166,9 +8464,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap\\oric1"
@@ -9183,9 +8479,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9197,9 +8491,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9211,9 +8503,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9225,9 +8515,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9245,7 +8533,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MESS\\Mess\\snap\\tutor"
@@ -9264,9 +8551,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Thomson - MOTO\\Named_Snaps"
@@ -9275,17 +8560,13 @@
       {
         "tabOrder": 1,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       },
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Thomson - MOTO\\Named_Titles"
@@ -9294,9 +8575,7 @@
       {
         "tabOrder": 3,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Thomson - MOTO\\Named_Boxarts"
@@ -9311,9 +8590,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap\\mo6"
@@ -9330,7 +8607,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\to7_cart",
@@ -9343,7 +8619,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\to7_cart",
@@ -9354,17 +8629,13 @@
       {
         "tabOrder": 2,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       },
       {
         "tabOrder": 3,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Thomson - MOTO\\Named_Boxarts"
@@ -9386,9 +8657,7 @@
       {
         "tabOrder": 0,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Tiger GameCom"
@@ -9399,7 +8668,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "MameInfo",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\gamecom",
@@ -9411,7 +8679,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\gamecom",
@@ -9421,9 +8688,7 @@
       {
         "tabOrder": 3,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Tiger - Game.com\\Named_Boxarts"
@@ -9440,7 +8705,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\tutor"
@@ -9451,7 +8715,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\tutor"
@@ -9470,7 +8733,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MESS\\Mess\\snap\\kc_cart",
@@ -9486,9 +8748,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9505,7 +8765,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\crvision",
@@ -9517,7 +8776,6 @@
         "caption": "Box",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\covers_SL\\crvision",
@@ -9527,9 +8785,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - CreatiVision\\Named_Titles"
@@ -9538,9 +8794,7 @@
       {
         "tabOrder": 3,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9552,9 +8806,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9566,7 +8818,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\socrates"
@@ -9577,7 +8828,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\socrates"
@@ -9590,9 +8840,7 @@
       {
         "tabOrder": 0,
         "caption": "ScreenShots",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - V.Smile\\Named_Snaps"
@@ -9601,9 +8849,7 @@
       {
         "tabOrder": 1,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - V.Smile\\Named_Boxarts"
@@ -9612,9 +8858,7 @@
       {
         "tabOrder": 2,
         "caption": "Titles",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\VTech - V.Smile\\Named_Titles"
@@ -9629,7 +8873,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\vidbrain"
@@ -9640,7 +8883,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\vidbrain"
@@ -9660,7 +8902,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\vii"
@@ -9671,7 +8912,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\vii"
@@ -9686,9 +8926,7 @@
       {
         "tabOrder": 0,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9702,7 +8940,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\snap_SL\\database"
@@ -9713,7 +8950,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\database"
@@ -9722,9 +8958,7 @@
       {
         "tabOrder": 2,
         "caption": "System Info",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "System"
       }
     ]
@@ -9738,7 +8972,6 @@
         "caption": "ScreenShots",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\Watara Supervision\\GoodSV_314_GM_Screens",
@@ -9749,9 +8982,7 @@
       {
         "tabOrder": 1,
         "caption": "Game History",
-        "mameUseParentForSrch": false,
         "searchType": "ExactMatch",
-        "searchInRomPath": false,
         "tabType": "MameHistory",
         "path": [
           "P:\\QUICKPLAY\\QuickPlayFrontend\\qp\\tools\\Romdata Magician\\GoodMerge System Ini and History Files\\Watara Supervision"
@@ -9760,9 +8991,7 @@
       {
         "tabOrder": 2,
         "caption": "Box",
-        "mameUseParentForSrch": false,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "P:\\SCREENSHOTS\\RETROARCH THUMBNAIL PACKS\\Watara - Supervision\\Named_Boxarts"
@@ -9773,7 +9002,6 @@
         "caption": "Titles",
         "mameUseParentForSrch": true,
         "searchType": "InString",
-        "searchInRomPath": false,
         "tabType": "Images",
         "path": [
           "F:\\MAME\\EXTRAs\\titles_SL\\svision",
