@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import fs from 'fs'
 import { Form, useActionData, useNavigate, useNavigation } from '@remix-run/react'
 import { json } from '@remix-run/node'
 import Modal from 'react-modal'
@@ -24,17 +25,10 @@ export async function loader() {
 }
 
 export const action = async ({ request }: { request: Request }) => {
-  console.log('Convert route action called')
   const formData = await request.formData()
   const intent = formData.get('intent')
-  console.log('Intent:', intent)
-  //loop through the formdata and print it to the console
-  for (let pair of formData.entries()) {
-    console.log(pair[0] + ', ' + pair[1])
-  }
 
   if (intent === 'selectDirectory') {
-    console.log('Handling directory selection')
     const result = await electron.dialog.showOpenDialog({
       message: "Select original QuickPlay install folder (should contain 'Data' and 'Dats' dirs)",
       properties: ['openDirectory']
@@ -45,80 +39,58 @@ export const action = async ({ request }: { request: Request }) => {
     }
 
     const sourcePath = result.filePaths[0]
-    console.log('Selected directory:', sourcePath)
-
-    try {
-      // Try initial conversion without backup choice to trigger existing data check
-      const options = {
-        convertRomdata: formData.get('convertRomdata') !== 'false',
-        convertSystems: formData.get('convertSystems') !== 'false',
-        convertEmulators: formData.get('convertEmulators') !== 'false',
-        convertMediaPanel: formData.get('convertMediaPanel') !== 'false'
-      }
-      console.log('Attempting conversion with options:', options)
-
-      const result = await convertQuickPlayData(sourcePath, options)
-      console.log('Conversion attempt result:', result)
-
-      if (result?.error?.message === 'EXISTING_DATA') {
-        return json({
-          success: false,
-          path: sourcePath,
-          message: 'EXISTING_DATA',
-          existingData: true
-        })
-      }
-
-      return json({
-        success: true,
-        path: sourcePath,
-        message: `Selected: ${sourcePath}`
-      })
-    } catch (error) {
-      console.error('Error:', error)
-      return json({
-        success: false,
-        error: error.message
-      })
-    }
-  }
-
-  // Handle backup/overwrite choice
-  const sourcePath = formData.get('sourcePath')?.toString()
-  const backupChoice = formData.get('action')?.toString() as BackupChoice
-
-  if (!sourcePath) {
-    return json({ success: false, message: 'No path selected' })
-  }
-
-  console.log('Processing conversion with:', { sourcePath, backupChoice })
-
-  try {
     const options = {
-      convertRomdata: formData.get('convertRomdata') !== 'false',
-      convertSystems: formData.get('convertSystems') !== 'false',
-      convertEmulators: formData.get('convertEmulators') !== 'false',
-      convertMediaPanel: formData.get('convertMediaPanel') !== 'false'
+      convertRomdata: formData.get('convertRomdata') === 'true',
+      convertSystems: formData.get('convertSystems') === 'true',
+      convertEmulators: formData.get('convertEmulators') === 'true',
+      convertMediaPanel: formData.get('convertMediaPanel') === 'true'
     }
 
-    console.log('Conversion options:', options)
-    const result = await convertQuickPlayData(sourcePath, options, backupChoice)
-    console.log('Conversion result:', result)
-
-    if (!result?.success) {
+    // Check for existing directories before proceeding
+    if (options.convertRomdata && fs.existsSync('data')) {
       return json({
         success: false,
-        message: result?.error ? `${result.error.component}: ${result.error.message}` : 'Conversion failed'
+        path: sourcePath,
+        message: 'EXISTING_DATA',
+        existingData: true,
+        options
+      })
+    }
+
+    if ((options.convertSystems || options.convertEmulators || options.convertMediaPanel) && fs.existsSync('dats')) {
+      return json({
+        success: false,
+        path: sourcePath,
+        message: 'EXISTING_DATS',
+        existingData: true,
+        options
       })
     }
 
     return json({
       success: true,
-      message: `Successfully converted files`,
-      complete: true
+      path: sourcePath,
+      message: `Selected: ${sourcePath}`,
+      options
+    })
+  }
+
+  const sourcePath = formData.get('sourcePath')?.toString()
+  const backupChoice = formData.get('action')?.toString() as BackupChoice
+  const options = JSON.parse(formData.get('options') as string)
+
+  if (!sourcePath) {
+    return json({ success: false, message: 'No path selected' })
+  }
+
+  try {
+    const result = await convertQuickPlayData(sourcePath, options, backupChoice)
+    return json({
+      success: result.success,
+      message: result.success ? 'Successfully converted files' : result.error?.message,
+      complete: result.success
     })
   } catch (error) {
-    console.error('Conversion error:', error)
     return json({ success: false, message: error.message })
   }
 }
@@ -193,83 +165,61 @@ export default function Convert() {
         ) : (
           <>
             {!modalState.selectedPath ? (
-              <>
-                <Form method="post" className="space-y-4">
-                  <input type="hidden" name="intent" value="selectDirectory" />
-                  <div className="space-y-2">
-                    <label className="flex items-center">
+              <Form method="post" className="space-y-4">
+                <input type="hidden" name="intent" value="selectDirectory" />
+                <div className="space-y-2">
+                  {Object.entries(conversionOptions).map(([key, value]) => (
+                    <label key={key} className="flex items-center">
                       <input
                         type="checkbox"
-                        name="convertRomdata"
-                        checked={conversionOptions.convertRomdata}
-                        onChange={e => setConversionOptions(prev => ({ ...prev, convertRomdata: e.target.checked }))}
+                        name={key}
+                        checked={value}
+                        value="true"
+                        onChange={e =>
+                          setConversionOptions(prev => ({
+                            ...prev,
+                            [key]: e.target.checked
+                          }))
+                        }
                         className="mr-2"
                       />
-                      Convert ROM data files
+                      {key
+                        .replace(/convert/, '')
+                        .replace(/([A-Z])/g, ' $1')
+                        .trim()}{' '}
+                      data
                     </label>
-                    <label className="flex items-center">
-                      <input
-                        type="checkbox"
-                        name="convertSystems"
-                        checked={conversionOptions.convertSystems}
-                        onChange={e => setConversionOptions(prev => ({ ...prev, convertSystems: e.target.checked }))}
-                        className="mr-2"
-                      />
-                      Convert systems data
-                    </label>
-                    <label className="flex items-center">
-                      <input
-                        type="checkbox"
-                        name="convertEmulators"
-                        checked={conversionOptions.convertEmulators}
-                        onChange={e => setConversionOptions(prev => ({ ...prev, convertEmulators: e.target.checked }))}
-                        className="mr-2"
-                      />
-                      Convert emulators data
-                    </label>
-                    <label className="flex items-center">
-                      <input
-                        type="checkbox"
-                        name="convertMediaPanel"
-                        checked={conversionOptions.convertMediaPanel}
-                        onChange={e => setConversionOptions(prev => ({ ...prev, convertMediaPanel: e.target.checked }))}
-                        className="mr-2"
-                      />
-                      Convert media panel configuration
-                    </label>
-                  </div>
-                  <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                    Select QuickPlay Folder
-                  </button>
-                </Form>
-                {modalState.error && <p className="mt-4 text-red-600">{modalState.error}</p>}
-              </>
-            ) : (
-              <>
-                <div className="flex gap-2">
-                  {actionData?.existingData ? (
-                    <>
-                      <Form method="post">
-                        <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
-                        <input type="hidden" name="action" value="backup" />
-                        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                          Backup & Continue
-                        </button>
-                      </Form>
-                      <Form method="post">
-                        <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
-                        <input type="hidden" name="action" value="overwrite" />
-                        <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Overwrite</button>
-                      </Form>
-                    </>
-                  ) : (
-                    <Form method="post">
-                      <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
-                      <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Convert</button>
-                    </Form>
-                  )}
+                  ))}
                 </div>
-              </>
+                <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                  Select QuickPlay Folder
+                </button>
+              </Form>
+            ) : (
+              <Form method="post">
+                <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
+                <input type="hidden" name="options" value={JSON.stringify(actionData?.options)} />
+                {actionData?.existingData ? (
+                  <div className="flex gap-2">
+                    <button
+                      name="action"
+                      value="backup"
+                      className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                    >
+                      Backup & Continue
+                    </button>
+                    <button
+                      name="action"
+                      value="overwrite"
+                      className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+                    >
+                      Overwrite
+                    </button>
+                  </div>
+                ) : (
+                  <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Convert</button>
+                )}
+              </Form>
             )}
           </>
         )}
