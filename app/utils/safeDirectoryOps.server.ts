@@ -33,6 +33,46 @@ export async function backupDirectory(sourcePath: string): Promise<string> {
   return backupPath
 }
 
+export async function backupFile(sourcePath: string): Promise<string> {
+  const timestamp = new Date().toISOString().split('.')[0].replace(/[:]/g, '').replace('T', '-')
+  const backupPath = `${sourcePath}-backup-${timestamp}`
+  
+  await fs.promises.cp(sourcePath, backupPath)
+  return backupPath
+}
+
+export async function handleExistingFiles(
+  files: string[],
+  choice: BackupChoice
+): Promise<{ success: boolean; backupPaths?: string[] }> {
+  switch (choice) {
+    case 'cancel':
+      return { success: false }
+
+    case 'backup':
+      const backupPaths = []
+      for (const file of files) {
+        if (fs.existsSync(file)) {
+          const backupPath = await backupFile(file)
+          backupPaths.push(backupPath)
+          await fs.promises.unlink(file)
+        }
+      }
+      return { success: true, backupPaths }
+
+    case 'overwrite':
+      for (const file of files) {
+        if (fs.existsSync(file)) {
+          await fs.promises.unlink(file)
+        }
+      }
+      return { success: true }
+
+    default:
+      throw new Error('Invalid choice')
+  }
+}
+
 export async function handleExistingData(
   destPath: string,
   choice: BackupChoice

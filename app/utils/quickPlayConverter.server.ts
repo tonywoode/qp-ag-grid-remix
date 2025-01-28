@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 import * as ini from 'ini'
 import { convertRomDataToJSON, saveToJSONFile } from './romdataToJSON'
-import { BackupChoice, handleExistingData } from './safeDirectoryOps.server'
+import { BackupChoice, handleExistingData, handleExistingFiles } from './safeDirectoryOps.server'
 import { convertSystems, convertEmulators, convertMediaPanel } from './datConverters.server'
 
 export type ConversionOptions = {
@@ -82,27 +82,47 @@ export async function convertQuickPlayData(
   try {
     const { dataFolderPath, datsFolderPath } = await validateQuickPlayDirectory(sourcePath)
 
-    // Check for existing directories first
-    if (options.convertRomdata && fs.existsSync('data')) {
-      if (!backupChoice) throw new Error('EXISTING_DATA')
-      const dataResult = await handleExistingData('data', backupChoice)
-      if (!dataResult.success) return { success: false, error: { component: 'backup', message: 'Backup cancelled' } }
-    }
-
-    if ((options.convertSystems || options.convertEmulators || options.convertMediaPanel) && fs.existsSync('dats')) {
-      if (!backupChoice) throw new Error('EXISTING_DATS')
-      const datsResult = await handleExistingData('dats', backupChoice)
-      if (!datsResult.success) return { success: false, error: { component: 'backup', message: 'Backup cancelled' } }
-    }
-
-    // Create necessary directories
-    if (options.convertRomdata) {
+    // Create directories if they don't exist
+    if (options.convertRomdata && !fs.existsSync('data')) {
       fs.mkdirSync('data', { recursive: true })
     }
-    if (options.convertSystems || options.convertEmulators || options.convertMediaPanel) {
+    if ((options.convertSystems || options.convertEmulators || options.convertMediaPanel) && !fs.existsSync('dats')) {
       fs.mkdirSync('dats', { recursive: true })
     }
 
+    // Handle existing dat files if backup choice is provided
+    // (consider with data its a tree and we backup the whole folder, named, with dats its individual files we backup TO the existing dats folder)
+    if (backupChoice) {
+      const filesToHandle = []
+      if (options.convertSystems && fs.existsSync('dats/systems.json')) {
+        filesToHandle.push('dats/systems.json')
+      }
+      if (options.convertEmulators && fs.existsSync('dats/emulators.json')) {
+        filesToHandle.push('dats/emulators.json')
+      }
+      if (options.convertMediaPanel) {
+        if (fs.existsSync('dats/mediaPanelConfig.json')) {
+          filesToHandle.push('dats/mediaPanelConfig.json')
+        }
+        if (fs.existsSync('dats/mediaPanelSettings.json')) {
+          filesToHandle.push('dats/mediaPanelSettings.json')
+        }
+      }
+      if (options.convertRomdata && fs.existsSync('data')) {
+        const dataResult = await handleExistingData('data', backupChoice)
+        if (!dataResult.success) {
+          return { success: false, error: { component: 'backup', message: 'Backup cancelled' } }
+        }
+      }
+      if (filesToHandle.length > 0) {
+        const filesResult = await handleExistingFiles(filesToHandle, backupChoice)
+        if (!filesResult.success) {
+          return { success: false, error: { component: 'backup', message: 'Backup cancelled' } }
+        }
+      }
+    }
+
+    // Perform conversions
     const result: ConversionResult = { success: true }
 
     // Perform conversions
