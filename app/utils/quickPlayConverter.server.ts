@@ -77,39 +77,40 @@ function processRomdataDirectory(source: string, destination: string): number {
 export async function convertQuickPlayData(
   sourcePath: string,
   options: ConversionOptions,
-  backupChoice?: BackupChoice
+  backupChoice?: BackupChoice,
+  outputDir: string = '.' // Default to current directory (its for cli tool only)
 ): Promise<ConversionResult> {
   try {
     const { dataFolderPath, datsFolderPath } = await validateQuickPlayDirectory(sourcePath)
 
     // Create directories if they don't exist
-    if (options.convertRomdata && !fs.existsSync('data')) {
-      fs.mkdirSync('data', { recursive: true })
+    if (options.convertRomdata) {
+      fs.mkdirSync(path.join(outputDir, 'data'), { recursive: true })
     }
-    if ((options.convertSystems || options.convertEmulators || options.convertMediaPanel) && !fs.existsSync('dats')) {
-      fs.mkdirSync('dats', { recursive: true })
+    if (options.convertSystems || options.convertEmulators || options.convertMediaPanel) {
+      fs.mkdirSync(path.join(outputDir, 'dats'), { recursive: true })
     }
 
     // Handle existing dat files if backup choice is provided
     // (consider with data its a tree and we backup the whole folder, named, with dats its individual files we backup TO the existing dats folder)
     if (backupChoice) {
       const filesToHandle = []
-      if (options.convertSystems && fs.existsSync('dats/systems.json')) {
-        filesToHandle.push('dats/systems.json')
+      if (options.convertSystems && fs.existsSync(path.join(outputDir, 'dats', 'systems.json'))) {
+        filesToHandle.push(path.join(outputDir, 'dats', 'systems.json'))
       }
-      if (options.convertEmulators && fs.existsSync('dats/emulators.json')) {
-        filesToHandle.push('dats/emulators.json')
+      if (options.convertEmulators && fs.existsSync(path.join(outputDir, 'dats', 'emulators.json'))) {
+        filesToHandle.push(path.join(outputDir, 'dats', 'emulators.json'))
       }
       if (options.convertMediaPanel) {
-        if (fs.existsSync('dats/mediaPanelConfig.json')) {
-          filesToHandle.push('dats/mediaPanelConfig.json')
+        if (fs.existsSync(path.join(outputDir, 'dats', 'mediaPanelConfig.json'))) {
+          filesToHandle.push(path.join(outputDir, 'dats', 'mediaPanelConfig.json'))
         }
-        if (fs.existsSync('dats/mediaPanelSettings.json')) {
-          filesToHandle.push('dats/mediaPanelSettings.json')
+        if (fs.existsSync(path.join(outputDir, 'dats', 'mediaPanelSettings.json'))) {
+          filesToHandle.push(path.join(outputDir, 'dats', 'mediaPanelSettings.json'))
         }
       }
-      if (options.convertRomdata && fs.existsSync('data')) {
-        const dataResult = await handleExistingData('data', backupChoice)
+      if (options.convertRomdata && fs.existsSync(path.join(outputDir, 'data'))) {
+        const dataResult = await handleExistingData(path.join(outputDir, 'data'), backupChoice)
         if (!dataResult.success) {
           return { success: false, error: { component: 'backup', message: 'Backup cancelled' } }
         }
@@ -127,27 +128,27 @@ export async function convertQuickPlayData(
 
     // Perform conversions
     if (options.convertRomdata) {
-      result.romdataFiles = processRomdataDirectory(dataFolderPath, 'data')
+      result.romdataFiles = processRomdataDirectory(dataFolderPath, path.join(outputDir, 'data'))
     }
 
     if (options.convertSystems) {
       result.systemsConverted = await convertSystems(
         path.join(datsFolderPath, 'systems.dat'),
-        path.join('dats', 'systems.json')
+        path.join(outputDir, 'dats', 'systems.json')
       )
     }
 
     if (options.convertEmulators) {
       result.emulatorsConverted = await convertEmulators(
         path.join(datsFolderPath, 'emulators.ini'),
-        path.join('dats', 'emulators.json')
+        path.join(outputDir, 'dats', 'emulators.json')
       )
     }
 
     if (options.convertMediaPanel) {
       result.mediaPanelConverted = await convertMediaPanel(
         path.join(datsFolderPath, 'mediaPanelCfg.ini'),
-        path.join('dats', 'mediaPanelConfig.json')
+        path.join(outputDir, 'dats', 'mediaPanelConfig.json')
       )
     }
 
