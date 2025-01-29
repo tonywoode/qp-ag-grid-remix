@@ -4,7 +4,7 @@ import { Form, useActionData, useNavigate, useNavigation } from '@remix-run/reac
 import { json } from '@remix-run/node'
 import Modal from 'react-modal'
 import electron from '~/electron.server'
-import { convertQuickPlayData } from '~/utils/quickPlayConverter.server'
+import { convertQuickPlayData, validateQuickPlayDirectory } from '~/utils/quickPlayConverter.server'
 import type { ConversionOptions } from '~/utils/quickPlayConverter.server'
 import type { BackupChoice } from '~/utils/safeDirectoryOps.server'
 
@@ -16,6 +16,7 @@ type ModalState = {
   result?: {
     success: boolean
     message: string
+    details?: string[] //for conversion details
   }
 }
 
@@ -46,31 +47,42 @@ export const action = async ({ request }: { request: Request }) => {
       convertMediaPanel: formData.get('convertMediaPanel') === 'true'
     }
 
-    // Check for existing directories before proceeding
+    // First validate the directory
+    try {
+      await validateQuickPlayDirectory(sourcePath)
+    } catch (error) {
+      return json({
+        success: false,
+        message: error.message,
+        validationError: true,
+        path: sourcePath // Add path so we can try again
+      })
+    }
+
+    //then check for existing data
+    const existingConditions = []
     if (options.convertRomdata && fs.existsSync('data')) {
-      return json({
-        success: false,
-        path: sourcePath,
-        message: 'EXISTING_DATA',
-        existingData: true,
-        options
-      })
+      existingConditions.push('data directory')
     }
-
     if ((options.convertSystems || options.convertEmulators || options.convertMediaPanel) && fs.existsSync('dats')) {
+      existingConditions.push('dats directory')
+    }
+
+    if (existingConditions.length > 0) {
       return json({
         success: false,
         path: sourcePath,
-        message: 'EXISTING_DATS',
+        message: `Found existing ${existingConditions.join(' and ')}`,
         existingData: true,
         options
       })
     }
 
+    //if we get here, we have a valid directory and no existing data
     return json({
       success: true,
       path: sourcePath,
-      message: `Selected: ${sourcePath}`,
+      message: `Valid QuickPlay directory selected: ${sourcePath}`,
       options
     })
   }
@@ -85,9 +97,16 @@ export const action = async ({ request }: { request: Request }) => {
 
   try {
     const result = await convertQuickPlayData(sourcePath, options, backupChoice)
+    const details = []
+    if (result.romdataFiles) details.push(`Converted ${result.romdataFiles} ROM data files`)
+    if (result.systemsConverted) details.push('Converted systems data')
+    if (result.emulatorsConverted) details.push('Converted emulators data')
+    if (result.mediaPanelConverted) details.push('Converted media panel configuration')
+
     return json({
       success: result.success,
-      message: result.success ? 'Successfully converted files' : result.error?.message,
+      message: result.success ? 'Conversion completed successfully' : result.error?.message,
+      details: result.success ? details : undefined,
       complete: result.success
     })
   } catch (error) {
@@ -115,16 +134,15 @@ export default function Convert() {
       setModalState(prev => ({ ...prev, isConverting: true, error: undefined }))
     } else if (actionData) {
       if (actionData.complete && actionData.success) {
-        //on successful completion, show message briefly then close
         setModalState(prev => ({
           ...prev,
           isConverting: false,
           result: {
             success: true,
-            message: actionData.message
+            message: actionData.message,
+            details: actionData.details
           }
         }))
-        setTimeout(() => navigate('/'), 1500)
       } else {
         //handle all other states (directory selection, errors, etc)
         setModalState(prev => ({
@@ -196,35 +214,67 @@ export default function Convert() {
                 </button>
               </Form>
             ) : (
-              <Form method="post">
-                <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
-                <input type="hidden" name="options" value={JSON.stringify(actionData?.options)} />
-                {actionData?.existingData ? (
-                  <div className="flex gap-2">
+              <>
+                {actionData?.validationError ? (
+                  <div className="space-y-4">
+                    <p className="text-red-600">{actionData.message}</p>
                     <button
-                      name="action"
-                      value="backup"
+                      onClick={() => setModalState(prev => ({ ...prev, selectedPath: undefined }))}
                       className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
                     >
-                      Backup & Continue
-                    </button>
-                    <button
-                      name="action"
-                      value="overwrite"
-                      className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-                    >
-                      Overwrite
+                      Select Different Folder
                     </button>
                   </div>
                 ) : (
-                  <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Convert</button>
+                  <div className="space-y-4">
+                    <p className="text-green-600">
+                      {actionData?.message}: <span className="font-mono text-sm">{modalState.selectedPath}</span>
+                    </p>
+                    <Form method="post">
+                      <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
+                      <input type="hidden" name="options" value={JSON.stringify(actionData?.options)} />
+                      {actionData?.existingData ? (
+                        <div className="flex gap-2">
+                          <button
+                            name="action"
+                            value="backup"
+                            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                          >
+                            Backup & Continue
+                          </button>
+                          <button
+                            name="action"
+                            value="overwrite"
+                            className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+                          >
+                            Overwrite
+                          </button>
+                        </div>
+                      ) : (
+                        <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+                          Convert
+                        </button>
+                      )}
+                    </Form>
+                  </div>
                 )}
-              </Form>
+              </>
             )}
           </>
         )}
 
-        {modalState.result?.success && <p className="mt-4 text-green-600">{modalState.result.message}</p>}
+        {modalState.result?.success && (
+          <div className="mt-4 text-green-600 space-y-2">
+            <p>{modalState.result.message}</p>
+            {modalState.result.details && (
+              <ul className="list-disc list-inside">
+                {modalState.result.details.map((detail, index) => (
+                  <li key={index}>{detail}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
 
         {!modalState.isConverting && (
           <button
