@@ -1,12 +1,13 @@
 import { cssBundleHref } from '@remix-run/css-bundle'
 import { json, type LinksFunction, type MetaFunction } from '@remix-run/node'
-import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, Link } from '@remix-run/react' // prettier-ignore
+import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, Link, useNavigate } from '@remix-run/react' // prettier-ignore
 import React, { useState, useEffect, useRef } from 'react'
-import electron from '~/electron.server'
+import electron, { watchDir, fileWatchEmitter } from '~/electron.server'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
 import { Tree } from 'react-arborist'
 import Split from 'react-split'
+import { useEventSource } from 'remix-utils/sse/react'
 
 import tailwindStyles from '~/styles/tailwind.css'
 import reactSplitStyles from '~/styles/react-split.css'
@@ -47,6 +48,7 @@ export const links: LinksFunction = () => [
 
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
+  const watcher = watchDir('./data')
   const folderData = await scanFolder('./data')
   return json({ folderData, userDataPath: electron.app.getPath('userData') })
 }
@@ -74,6 +76,16 @@ export function TreeView({ folderData }) {
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
   const lastDataRef = useRef(null)
   const [treeKey, setTreeKey] = useState(0)
+  const navigate = useNavigate()
+
+  const fileChangeEvent = useEventSource('/stream', { event: 'directoryChange' })
+
+  useEffect(() => {
+    if (fileChangeEvent) {
+      logger.log('fileOperations', `Detected change in: ${fileChangeEvent}`)
+      navigate('.', { replace: true })
+    }
+  }, [fileChangeEvent, navigate])
 
   //if we use the romdata import, re-render the tree, otherwise don't (temporary solution)
   useEffect(() => {
