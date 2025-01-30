@@ -83,9 +83,9 @@ const menu = () => (
 export function TreeView({ folderData }) {
   const containerRef = useRef(null)
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
-  const lastDataRef = useRef(null)
-  const [treeKey, setTreeKey] = useState(0)
   const navigate = useNavigate()
+  const [treeKey, setTreeKey] = useState(0)
+  const prevFolderDataRef = useRef(folderData)
 
   const fileChangeEvent = useEventSource('/stream', { event: 'directoryChange' })
 
@@ -96,23 +96,10 @@ export function TreeView({ folderData }) {
     }
   }, [fileChangeEvent, navigate])
 
-  //if we use the romdata import, re-render the tree, otherwise don't (temporary solution)
+  // Update tree when folderData actually changes
   useEffect(() => {
-    // Function to get structural data (ignoring state)
-    const getStructure = data => {
-      return JSON.stringify(
-        data.map(item => ({
-          name: item.name,
-          romdataLink: item.romdataLink,
-          children: item.children?.map(c => ({ name: c.name, romdataLink: c.romdataLink }))
-        }))
-      )
-    }
-    const currentStructure = getStructure(folderData)
-    const lastStructure = lastDataRef.current ? getStructure(lastDataRef.current) : null
-    if (lastStructure !== currentStructure) {
-      console.log('detected actual folder structure change')
-      lastDataRef.current = folderData
+    if (JSON.stringify(folderData) !== JSON.stringify(prevFolderDataRef.current)) {
+      prevFolderDataRef.current = folderData
       setTreeKey(prev => prev + 1)
     }
   }, [folderData])
