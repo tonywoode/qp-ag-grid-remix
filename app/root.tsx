@@ -1,7 +1,7 @@
 import { cssBundleHref } from '@remix-run/css-bundle'
 import { json, type LinksFunction, type MetaFunction } from '@remix-run/node'
-import { Form, Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, Link } from '@remix-run/react' // prettier-ignore
-import { useState, useEffect, useRef } from 'react'
+import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, Link } from '@remix-run/react' // prettier-ignore
+import React, { useState, useEffect, useRef } from 'react'
 import electron from '~/electron.server'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
@@ -72,11 +72,28 @@ const menu = () => (
 export function TreeView({ folderData }) {
   const containerRef = useRef(null)
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
+  const lastDataRef = useRef(null)
   const [treeKey, setTreeKey] = useState(0)
 
+  //if we use the romdata import, re-render the tree, otherwise don't (temporary solution)
   useEffect(() => {
-    // Force tree to re-render when folderData changes
-    setTreeKey(prev => prev + 1)
+    // Function to get structural data (ignoring state)
+    const getStructure = data => {
+      return JSON.stringify(
+        data.map(item => ({
+          name: item.name,
+          romdataLink: item.romdataLink,
+          children: item.children?.map(c => ({ name: c.name, romdataLink: c.romdataLink }))
+        }))
+      )
+    }
+    const currentStructure = getStructure(folderData)
+    const lastStructure = lastDataRef.current ? getStructure(lastDataRef.current) : null
+    if (lastStructure !== currentStructure) {
+      console.log('detected actual folder structure change')
+      lastDataRef.current = folderData
+      setTreeKey(prev => prev + 1)
+    }
   }, [folderData])
 
   useEffect(() => {
