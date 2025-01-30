@@ -182,81 +182,85 @@ export default function Convert() {
           </div>
         ) : (
           <>
-            {!modalState.selectedPath ? (
-              <Form method="post" className="space-y-4">
-                <input type="hidden" name="intent" value="selectDirectory" />
-                <div className="space-y-2">
-                  {Object.entries(conversionOptions).map(([key, value]) => (
-                    <label key={key} className="flex items-center">
-                      <input
-                        type="checkbox"
-                        name={key}
-                        checked={value}
-                        value="true"
-                        onChange={e =>
-                          setConversionOptions(prev => ({
-                            ...prev,
-                            [key]: e.target.checked
-                          }))
-                        }
-                        className="mr-2"
-                      />
-                      {key
-                        .replace(/convert/, '')
-                        .replace(/([A-Z])/g, ' $1')
-                        .trim()}{' '}
-                      data
-                    </label>
-                  ))}
-                </div>
-                <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-                  Select QuickPlay Folder
-                </button>
-              </Form>
-            ) : (
+            {!modalState.result?.success && ( // Only show form if we haven't completed successfully (onn success we onnly show results!)
               <>
-                {actionData?.validationError ? (
-                  <div className="space-y-4">
-                    <p className="text-red-600">{actionData.message}</p>
-                    <button
-                      onClick={() => setModalState(prev => ({ ...prev, selectedPath: undefined }))}
-                      className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-                    >
-                      Select Different Folder
+                {!modalState.selectedPath ? (
+                  <Form method="post" className="space-y-4">
+                    <input type="hidden" name="intent" value="selectDirectory" />
+                    <div className="space-y-2">
+                      {Object.entries(conversionOptions).map(([key, value]) => (
+                        <label key={key} className="flex items-center">
+                          <input
+                            type="checkbox"
+                            name={key}
+                            checked={value}
+                            value="true"
+                            onChange={e =>
+                              setConversionOptions(prev => ({
+                                ...prev,
+                                [key]: e.target.checked
+                              }))
+                            }
+                            className="mr-2"
+                          />
+                          {key
+                            .replace(/convert/, '')
+                            .replace(/([A-Z])/g, ' $1')
+                            .trim()}{' '}
+                          data
+                        </label>
+                      ))}
+                    </div>
+                    <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                      Select QuickPlay Folder
                     </button>
-                  </div>
+                  </Form>
                 ) : (
-                  <div className="space-y-4">
-                    <p className="text-green-600">
-                      {actionData?.message}: <span className="font-mono text-sm">{modalState.selectedPath}</span>
-                    </p>
-                    <Form method="post">
-                      <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
-                      <input type="hidden" name="options" value={JSON.stringify(actionData?.options)} />
-                      {actionData?.existingData ? (
-                        <div className="flex gap-2">
-                          <button
-                            name="action"
-                            value="backup"
-                            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-                          >
-                            Backup & Continue
-                          </button>
-                          <button
-                            name="action"
-                            value="overwrite"
-                            className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
-                          >
-                            Overwrite
-                          </button>
-                        </div>
-                      ) : (
-                        <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
-                          Convert
+                  <>
+                    {actionData?.validationError ? (
+                      <div className="space-y-4">
+                        <p className="text-red-600">{actionData.message}</p>
+                        <button
+                          onClick={() => setModalState(prev => ({ ...prev, selectedPath: undefined }))}
+                          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                        >
+                          Select Different Folder
                         </button>
-                      )}
-                    </Form>
-                  </div>
+                      </div>
+                    ) : (
+                      <div className="space-y-4">
+                        <p className="text-green-600">
+                          {actionData?.message}: <span className="font-mono text-sm">{modalState.selectedPath}</span>
+                        </p>
+                        <Form method="post">
+                          <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
+                          <input type="hidden" name="options" value={JSON.stringify(actionData?.options)} />
+                          {actionData?.existingData ? (
+                            <div className="flex gap-2">
+                              <button
+                                name="action"
+                                value="backup"
+                                className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+                              >
+                                Backup & Continue
+                              </button>
+                              <button
+                                name="action"
+                                value="overwrite"
+                                className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+                              >
+                                Overwrite
+                              </button>
+                            </div>
+                          ) : (
+                            <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+                              Convert
+                            </button>
+                          )}
+                        </Form>
+                      </div>
+                    )}
+                  </>
                 )}
               </>
             )}
