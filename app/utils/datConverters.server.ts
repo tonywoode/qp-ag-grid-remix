@@ -3,42 +3,48 @@ import * as ini from 'ini'
 import * as readline from 'readline'
 import * as iconv from 'iconv-lite'
 
-export async function convertSystems(inputPath: string, outputPath: string): Promise<boolean> {
-  const fileStream = fs.createReadStream(inputPath)
-  const rl = readline.createInterface({
-    input: fileStream,
-    crlfDelay: Infinity
-  })
+export async function convertSystems(inputPath: string, outputPath: string): Promise<void> {
+  try {
+    const fileStream = fs.createReadStream(inputPath)
+    const rl = readline.createInterface({
+      input: fileStream,
+      crlfDelay: Infinity
+    })
 
-  const systems = []
-  for await (const line of rl) {
-    systems.push(line)
+    const systems = []
+    for await (const line of rl) {
+      systems.push(line)
+    }
+
+    await fs.promises.writeFile(outputPath, JSON.stringify(systems, null, 2))
+  } catch (error) {
+    throw new Error(`Failed to convert systems: ${error.message}`)
   }
-
-  fs.writeFileSync(outputPath, JSON.stringify(systems, null, 2))
-  return true //TODO return false on error??
 }
 
-export async function convertEmulators(inputPath: string, outputPath: string): Promise<boolean> {
-  const data = fs.readFileSync(inputPath, 'utf-8') //TODO: and on error? And why sync?
-  // Parse the INI-like data
-  const sections = ini.parse(data)
-  // Convert the sections to the desired format
-  const emulators = Object.keys(sections).map(key => ({
-    emulatorName: key,
-    ...sections[key]
-  }))
-  // Filter out empty values
-  emulators.forEach(emulator => {
-    Object.keys(emulator).forEach(key => {
-      if (emulator[key] === '') {
-        delete emulator[key]
-      }
+export async function convertEmulators(inputPath: string, outputPath: string): Promise<void> {
+  try {
+    const data = await fs.promises.readFile(inputPath, 'utf-8')
+    // Parse the INI-like data
+    const sections = ini.parse(data)
+    // Convert the sections to the desired format
+    const emulators = Object.keys(sections).map(key => ({
+      emulatorName: key,
+      ...sections[key]
+    }))
+    // Filter out empty values
+    emulators.forEach(emulator => {
+      Object.keys(emulator).forEach(key => {
+        if (emulator[key] === '') {
+          delete emulator[key]
+        }
+      })
     })
-  })
 
-  fs.writeFileSync(outputPath, JSON.stringify(emulators, null, 2)) //TODO: why sync, what on error?
-  return true //why?
+    await fs.promises.writeFile(outputPath, JSON.stringify(emulators, null, 2))
+  } catch (error) {
+    throw new Error(`Failed to convert emulators: ${error.message}`)
+  }
 }
 
 //MEDIA PANEL CONVERT CODE
@@ -105,160 +111,162 @@ function decodeTabs(tabs: string): any {
   }
 }
 
-export async function convertMediaPanel(inputPath: string, outputPath: string): Promise<boolean> {
-  // Read the INI file
-  const data = fs.readFileSync(inputPath, 'utf-8')
+export async function convertMediaPanel(inputPath: string, outputPath: string): Promise<void> {
+  try {
+    // Read the INI file
+    const data = await fs.promises.readFile(inputPath, 'utf-8')
 
-  // system names with periods will be corrupted by ini library, it'll try to use them as property access, this will affect following json too! Convert and then convert back after
-  // Replace periods within square brackets with a different character and parse the INI file
-  let parsedData = ini.parse(data.replace(/(\[[^\]]+\])/g, match => match.replace(/\./g, '___')))
+    // system names with periods will be corrupted by ini library, it'll try to use them as property access, this will affect following json too! Convert and then convert back after
+    // Replace periods within square brackets with a different character and parse the INI file
+    let parsedData = ini.parse(data.replace(/(\[[^\]]+\])/g, match => match.replace(/\./g, '___')))
 
-  // Replace the character back in the keys
+    // Replace the character back in the keys
 
-  parsedData = Object.fromEntries(
-    Object.entries(parsedData).map(([key, value]) => {
-      if (key === 'MediaSettings') {
-        return [key, value]
-      }
-      return [key.replace(/___/g, '.'), value]
-    })
-  )
-
-  // Decode the hex strings
-  for (const key in parsedData) {
-    if (key !== 'MediaSettings') {
-      for (const subKey in parsedData[key]) {
-        // Always remove 'ShowAddInfo'
-        if (subKey === 'ShowAddInfo') {
-          if (parsedData[key][subKey] === '0' && !parsedData[key].AddInfo) {
-            delete parsedData[key].AddInfo
-          }
-          delete parsedData[key][subKey]
-        } else if (typeof parsedData[key][subKey] === 'string' && /^[0-9a-fA-F]+$/.test(parsedData[key][subKey])) {
-          if (key.endsWith('-TABS')) {
-            parsedData[key][subKey] = decodeTabs(parsedData[key][subKey])
-          } else if (subKey === 'AddInfo') {
-            parsedData[key][subKey] = Buffer.from(parsedData[key][subKey], 'hex').toString('ascii')
-          } else {
-            parsedData[key][subKey] = decodeHex(parsedData[key][subKey])
-          }
+    parsedData = Object.fromEntries(
+      Object.entries(parsedData).map(([key, value]) => {
+        if (key === 'MediaSettings') {
+          return [key, value]
         }
-      }
-    }
-  }
-  // Function to convert a string from PascalCase to camelCase
-  function toCamelCase(str: string): string {
-    return str[0].toLowerCase() + str.slice(1)
-  }
-  // Combine the -CFG and -TABS entries for each system
-  const combinedData: any = {}
-  for (const key in parsedData) {
-    if (key === 'MediaSettings') {
-      combinedData[key] = parsedData[key]
-    } else {
-      const lastHyphenIndex = key.lastIndexOf('-')
-      const systemName = key.substring(0, lastHyphenIndex)
-      const entryType = key.substring(lastHyphenIndex + 1)
-      let entryData = parsedData[key]
+        return [key.replace(/___/g, '.'), value]
+      })
+    )
 
-      // Exclude entries where all keys have falsy values
-      if (Object.values(entryData).every(value => !value)) {
-        continue
-      }
-
-      // Convert the keys of the entryData object to camelCase (sysImage / addInfo instead of SysImage / AddInfo)
-      entryData = Object.keys(entryData).reduce((result: { [key: string]: any }, key) => {
-        result[toCamelCase(key)] = entryData[key]
-        return result
-      }, {})
-
-      if (!combinedData[systemName]) {
-        combinedData[systemName] = {}
-      }
-      if (entryType === 'CFG') {
-        combinedData[systemName] = { ...combinedData[systemName], ...entryData }
-      } else {
-        combinedData[systemName][entryType] = entryData
-      }
-    }
-  }
-
-  // Create a new object with the keys sorted
-  const sortedCombinedData: any = {}
-  Object.keys(combinedData)
-    .sort()
-    .forEach(key => {
-      sortedCombinedData[key] = combinedData[key]
-    })
-
-  // Iterate over the keys in the sortedCombinedData object
-  for (const systemName in sortedCombinedData) {
-    // Check if the systemData has a TABS property
-    if (sortedCombinedData[systemName].TABS) {
-      const tabsData = sortedCombinedData[systemName].TABS
-      const newTabsData: any = []
-      let newKey = 0 //we removed unused tabs, so the key numbering is effectively a sparse arrray, number again
-
-      // Iterate over the keys in the tabsData object
-      for (const key in tabsData) {
-        // Check if the enabled property is true
-        if (tabsData[key].enabled) {
-          // Prepare the new tab data
-          const newTabData = { tabOrder: newKey, ...tabsData[key] }
-
-          // Remove keys with value false
-          for (const tabKey in newTabData) {
-            if (newTabData[tabKey] === false) {
-              delete newTabData[tabKey]
+    // Decode the hex strings
+    for (const key in parsedData) {
+      if (key !== 'MediaSettings') {
+        for (const subKey in parsedData[key]) {
+          // Always remove 'ShowAddInfo'
+          if (subKey === 'ShowAddInfo') {
+            if (parsedData[key][subKey] === '0' && !parsedData[key].AddInfo) {
+              delete parsedData[key].AddInfo
+            }
+            delete parsedData[key][subKey]
+          } else if (typeof parsedData[key][subKey] === 'string' && /^[0-9a-fA-F]+$/.test(parsedData[key][subKey])) {
+            if (key.endsWith('-TABS')) {
+              parsedData[key][subKey] = decodeTabs(parsedData[key][subKey])
+            } else if (subKey === 'AddInfo') {
+              parsedData[key][subKey] = Buffer.from(parsedData[key][subKey], 'hex').toString('ascii')
+            } else {
+              parsedData[key][subKey] = decodeHex(parsedData[key][subKey])
             }
           }
-
-          // Push the new tab data to the newTabsData array
-          newTabsData.push(newTabData)
-
-          // Increment newKey
-          newKey++
         }
       }
-
-      // Remove the enabled property from the tabs in the newTabsData object
-      for (const key in newTabsData) {
-        delete newTabsData[key].enabled
-      }
-
-      // Check if the newTabsData object is empty
-      if (Object.keys(newTabsData).length === 0) {
-        // Delete the TABS key from the system entry
-        delete sortedCombinedData[systemName].TABS
+    }
+    // Function to convert a string from PascalCase to camelCase
+    function toCamelCase(str: string): string {
+      return str[0].toLowerCase() + str.slice(1)
+    }
+    // Combine the -CFG and -TABS entries for each system
+    const combinedData: any = {}
+    for (const key in parsedData) {
+      if (key === 'MediaSettings') {
+        combinedData[key] = parsedData[key]
       } else {
-        // Replace the TABS property in the sortedCombinedData object with the newTabsData object
-        sortedCombinedData[systemName].tabs = newTabsData
-        delete sortedCombinedData[systemName].TABS
+        const lastHyphenIndex = key.lastIndexOf('-')
+        const systemName = key.substring(0, lastHyphenIndex)
+        const entryType = key.substring(lastHyphenIndex + 1)
+        let entryData = parsedData[key]
+
+        // Exclude entries where all keys have falsy values
+        if (Object.values(entryData).every(value => !value)) {
+          continue
+        }
+
+        // Convert the keys of the entryData object to camelCase (sysImage / addInfo instead of SysImage / AddInfo)
+        entryData = Object.keys(entryData).reduce((result: { [key: string]: any }, key) => {
+          result[toCamelCase(key)] = entryData[key]
+          return result
+        }, {})
+
+        if (!combinedData[systemName]) {
+          combinedData[systemName] = {}
+        }
+        if (entryType === 'CFG') {
+          combinedData[systemName] = { ...combinedData[systemName], ...entryData }
+        } else {
+          combinedData[systemName][entryType] = entryData
+        }
       }
     }
-  }
-  // Check if the system entry is empty
-  for (const systemName in sortedCombinedData) {
-    if (Object.keys(sortedCombinedData[systemName]).length === 0) {
-      // Delete the system entry from sortedCombinedData
-      delete sortedCombinedData[systemName]
+
+    // Create a new object with the keys sorted
+    const sortedCombinedData: any = {}
+    Object.keys(combinedData)
+      .sort()
+      .forEach(key => {
+        sortedCombinedData[key] = combinedData[key]
+      })
+
+    // Iterate over the keys in the sortedCombinedData object
+    for (const systemName in sortedCombinedData) {
+      // Check if the systemData has a TABS property
+      if (sortedCombinedData[systemName].TABS) {
+        const tabsData = sortedCombinedData[systemName].TABS
+        const newTabsData: any = []
+        let newKey = 0 //we removed unused tabs, so the key numbering is effectively a sparse arrray, number again
+
+        // Iterate over the keys in the tabsData object
+        for (const key in tabsData) {
+          // Check if the enabled property is true
+          if (tabsData[key].enabled) {
+            // Prepare the new tab data
+            const newTabData = { tabOrder: newKey, ...tabsData[key] }
+
+            // Remove keys with value false
+            for (const tabKey in newTabData) {
+              if (newTabData[tabKey] === false) {
+                delete newTabData[tabKey]
+              }
+            }
+
+            // Push the new tab data to the newTabsData array
+            newTabsData.push(newTabData)
+
+            // Increment newKey
+            newKey++
+          }
+        }
+
+        // Remove the enabled property from the tabs in the newTabsData object
+        for (const key in newTabsData) {
+          delete newTabsData[key].enabled
+        }
+
+        // Check if the newTabsData object is empty
+        if (Object.keys(newTabsData).length === 0) {
+          // Delete the TABS key from the system entry
+          delete sortedCombinedData[systemName].TABS
+        } else {
+          // Replace the TABS property in the sortedCombinedData object with the newTabsData object
+          sortedCombinedData[systemName].tabs = newTabsData
+          delete sortedCombinedData[systemName].TABS
+        }
+      }
     }
+    // Check if the system entry is empty
+    for (const systemName in sortedCombinedData) {
+      if (Object.keys(sortedCombinedData[systemName]).length === 0) {
+        // Delete the system entry from sortedCombinedData
+        delete sortedCombinedData[systemName]
+      }
+    }
+
+    // Extract the MediaSettings key-value pair
+    const mediaSettings = { MediaSettings: sortedCombinedData.MediaSettings }
+
+    // Remove the MediaSettings key-value pair from the original data
+    delete sortedCombinedData.MediaSettings
+
+    // Write the output to a JSON file
+    await fs.promises.writeFile(outputPath, JSON.stringify(sortedCombinedData, null, 2))
+
+    // Write the MediaSettings to a new file
+    await fs.promises.writeFile(
+      outputPath.replace('mediaPanelConfig.json', 'mediaPanelSettings.json'),
+      JSON.stringify(mediaSettings, null, 2)
+    )
+  } catch (error) {
+    throw new Error(`Failed to convert media panel: ${error.message}`)
   }
-
-  // Extract the MediaSettings key-value pair
-  const mediaSettings = { MediaSettings: sortedCombinedData.MediaSettings }
-
-  // Remove the MediaSettings key-value pair from the original data
-  delete sortedCombinedData.MediaSettings
-
-  // Write the output to a JSON file
-  fs.writeFileSync(outputPath, JSON.stringify(sortedCombinedData, null, 2))
-
-  // Write the MediaSettings to a new file
-  fs.writeFileSync(
-    outputPath.replace('mediaPanelConfig.json', 'mediaPanelSettings.json'),
-    JSON.stringify(mediaSettings, null, 2)
-  )
-
-  return true //why??
 }

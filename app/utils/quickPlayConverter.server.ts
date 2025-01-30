@@ -128,18 +128,35 @@ export async function convertQuickPlayData(
 
     // Perform conversions
     const result: ConversionResult = { success: true }
-    if (options.convertRomdata) result.romdataFiles = processRomdataDirectory(inputDataDir, outputDataDir)
-    if (options.convertSystems) result.systemsConverted = await convertSystems(inputDatsSystems, outputDatsSystems)
-    if (options.convertEmulators) {
-      result.emulatorsConverted = await convertEmulators(inputDatsEmulators, outputDatsEmulators)
+
+    if (options.convertRomdata) {
+      result.romdataFiles = processRomdataDirectory(inputDataDir, outputDataDir)
     }
+
+    if (options.convertSystems) {
+      await convertSystems(inputDatsSystems, outputDatsSystems)
+      result.systemsConverted = true
+    }
+
+    if (options.convertEmulators) {
+      await convertEmulators(inputDatsEmulators, outputDatsEmulators)
+      result.emulatorsConverted = true
+    }
+
     if (options.convertMediaPanel) {
-      result.mediaPanelConverted = await convertMediaPanel(inputDatsMediaPanelConfig, outputDatsMediaPanelConfig)
+      await convertMediaPanel(inputDatsMediaPanelConfig, outputDatsMediaPanelConfig)
+      result.mediaPanelConverted = true
     }
 
     return result
   } catch (error) {
-    return { success: false, error: { component: 'conversion', message: error.message } }
+    return {
+      success: false,
+      error: {
+        component: 'conversion',
+        message: error.message
+      }
+    }
   }
 }
 
