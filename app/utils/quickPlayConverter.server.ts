@@ -4,6 +4,7 @@ import * as ini from 'ini'
 import { convertRomDataToJSON, saveToJSONFile } from './romdataToJSON'
 import { type BackupChoice, handleExistingData, handleExistingFiles } from './safeDirectoryOps.server'
 import { convertSystems, convertEmulators, convertMediaPanel } from './datConverters.server'
+import { pauseWatcher, resumeWatcher } from '~/electron.server'
 
 export type ConversionOptions = {
   convertRomdata?: boolean
@@ -81,6 +82,9 @@ export async function convertQuickPlayData(
   outputDir: string = '.' // Default to current directory (its for cli tool only)
 ): Promise<ConversionResult> {
   try {
+    // Pause the watcher before conversion
+    pauseWatcher()
+
     const { dataFolderPath, datsFolderPath } = await validateQuickPlayDirectory(sourcePath)
 
     // Setup input paths
@@ -148,8 +152,13 @@ export async function convertQuickPlayData(
       result.mediaPanelConverted = true
     }
 
+    // Resume the watcher after conversion
+    resumeWatcher()
+    
     return result
   } catch (error) {
+    // Resume the watcher even if there's an error
+    resumeWatcher()
     return {
       success: false,
       error: {

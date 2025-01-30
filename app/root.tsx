@@ -2,7 +2,7 @@ import { cssBundleHref } from '@remix-run/css-bundle'
 import { json, type LinksFunction, type MetaFunction } from '@remix-run/node'
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, Link, useNavigate } from '@remix-run/react' // prettier-ignore
 import React, { useState, useEffect, useRef } from 'react'
-import electron, { watchDir, fileWatchEmitter } from '~/electron.server'
+import electron, { watchDir, fileWatchEmitter, closeWatcher } from '~/electron.server'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
 import { Tree } from 'react-arborist'
@@ -48,9 +48,18 @@ export const links: LinksFunction = () => [
 
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
+  
+  // Close any existing watcher before creating a new one
+  closeWatcher()
+  
   const watcher = watchDir('./data')
   const folderData = await scanFolder('./data')
-  return json({ folderData, userDataPath: electron.app.getPath('userData') })
+  
+  return json({ 
+    folderData, 
+    userDataPath: electron.app.getPath('userData'),
+    watcherActive: !!watcher 
+  })
 }
 
 const menu = () => (

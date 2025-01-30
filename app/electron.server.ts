@@ -2,26 +2,66 @@ import electron from 'electron'
 import chokidar from 'chokidar'
 import { emitter } from '~/utils/emitter.server'
 
-let currentWatcher: any = null
+let currentWatcher: chokidar.FSWatcher | null = null
+let watcherReady = false
 
 function watchDir(dirPath: string) {
-  if (currentWatcher) {
-    currentWatcher.close()
+  try {
+    if (currentWatcher) {
+      currentWatcher.close()
+      currentWatcher = null
+      watcherReady = false
+    }
+
+    // Don't start watching if directory doesn't exist
+    if (!require('fs').existsSync(dirPath)) {
+      return null
+    }
+
+    currentWatcher = chokidar.watch(dirPath, {
+      ignored: /(^|[\/\\])\../,
+      persistent: true,
+      ignoreInitial: true,
+      depth: 4,
+      awaitWriteFinish: {
+        stabilityThreshold: 2000,
+        pollInterval: 100
+      }
+    })
+    
+    currentWatcher.on('ready', () => {
+      watcherReady = true
+      if (currentWatcher) {
+        currentWatcher
+          .on('add', path => watcherReady && emitter.emit('directoryChange', { path }))
+          .on('unlink', path => watcherReady && emitter.emit('directoryChange', { path }))
+          .on('change', path => watcherReady && emitter.emit('directoryChange', { path }))
+      }
+    })
+
+    return currentWatcher
+  } catch (error) {
+    console.error('Error setting up watcher:', error)
+    return null
   }
-
-  currentWatcher = chokidar.watch(dirPath, {
-    ignored: /(^|[\/\\])\../, // ignore dotfiles
-    persistent: true,
-    ignoreInitial: true,
-    depth: 4 // limit depth to avoid excessive scanning
-  })
-  
-  currentWatcher.on('add', path => emitter.emit('directoryChange', { path }))
-  currentWatcher.on('unlink', path => emitter.emit('directoryChange', { path }))
-  currentWatcher.on('change', path => emitter.emit('directoryChange', { path }))
-
-  return currentWatcher
 }
 
-export { watchDir }
+function closeWatcher() {
+  if (currentWatcher) {
+    watcherReady = false
+    currentWatcher.close()
+    currentWatcher = null
+  }
+}
+
+// Add pause/resume functionality
+function pauseWatcher() {
+  watcherReady = false
+}
+
+function resumeWatcher() {
+  watcherReady = true
+}
+
+export { watchDir, closeWatcher, pauseWatcher, resumeWatcher }
 export default electron
