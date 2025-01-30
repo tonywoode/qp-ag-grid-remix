@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 import * as ini from 'ini'
 import { convertRomDataToJSON, saveToJSONFile } from './romdataToJSON'
-import { BackupChoice, handleExistingData, handleExistingFiles } from './safeDirectoryOps.server'
+import { type BackupChoice, handleExistingData, handleExistingFiles } from './safeDirectoryOps.server'
 import { convertSystems, convertEmulators, convertMediaPanel } from './datConverters.server'
 
 export type ConversionOptions = {
@@ -83,34 +83,37 @@ export async function convertQuickPlayData(
   try {
     const { dataFolderPath, datsFolderPath } = await validateQuickPlayDirectory(sourcePath)
 
+    // Setup input paths
+    const inputDataDir = dataFolderPath
+    const inputDatsSystems = path.join(datsFolderPath, 'systems.dat')
+    const inputDatsEmulators = path.join(datsFolderPath, 'emulators.ini')
+    const inputDatsMediaPanelConfig = path.join(datsFolderPath, 'mediaPanelCfg.ini')
+    // Setup output paths
+    const outputDataDir = path.join(outputDir, 'data')
+    const outputDatsDir = path.join(outputDir, 'dats')
+    const outputDatsSystems = path.join(outputDatsDir, 'systems.json')
+    const outputDatsEmulators = path.join(outputDatsDir, 'emulators.json')
+    const outputDatsMediaPanelConfig = path.join(outputDatsDir, 'mediaPanelConfig.json')
+    const outputDatsMediaPanelSettings = path.join(outputDatsDir, 'mediaPanelSettings.json')
+
     // Create directories if they don't exist
-    if (options.convertRomdata) {
-      fs.mkdirSync(path.join(outputDir, 'data'), { recursive: true })
-    }
+    if (options.convertRomdata) fs.mkdirSync(outputDataDir, { recursive: true })
     if (options.convertSystems || options.convertEmulators || options.convertMediaPanel) {
-      fs.mkdirSync(path.join(outputDir, 'dats'), { recursive: true })
+      fs.mkdirSync(outputDatsDir, { recursive: true })
     }
 
     // Handle existing dat files if backup choice is provided
     // (consider with data its a tree and we backup the whole folder, named, with dats its individual files we backup TO the existing dats folder)
     if (backupChoice) {
       const filesToHandle = []
-      if (options.convertSystems && fs.existsSync(path.join(outputDir, 'dats', 'systems.json'))) {
-        filesToHandle.push(path.join(outputDir, 'dats', 'systems.json'))
-      }
-      if (options.convertEmulators && fs.existsSync(path.join(outputDir, 'dats', 'emulators.json'))) {
-        filesToHandle.push(path.join(outputDir, 'dats', 'emulators.json'))
-      }
+      if (options.convertSystems && fs.existsSync(outputDatsSystems)) filesToHandle.push(outputDatsSystems)
+      if (options.convertEmulators && fs.existsSync(outputDatsEmulators)) filesToHandle.push(outputDatsEmulators)
       if (options.convertMediaPanel) {
-        if (fs.existsSync(path.join(outputDir, 'dats', 'mediaPanelConfig.json'))) {
-          filesToHandle.push(path.join(outputDir, 'dats', 'mediaPanelConfig.json'))
-        }
-        if (fs.existsSync(path.join(outputDir, 'dats', 'mediaPanelSettings.json'))) {
-          filesToHandle.push(path.join(outputDir, 'dats', 'mediaPanelSettings.json'))
-        }
+        if (fs.existsSync(outputDatsMediaPanelConfig)) filesToHandle.push(outputDatsMediaPanelConfig)
+        if (fs.existsSync(outputDatsMediaPanelSettings)) filesToHandle.push(outputDatsMediaPanelSettings)
       }
-      if (options.convertRomdata && fs.existsSync(path.join(outputDir, 'data'))) {
-        const dataResult = await handleExistingData(path.join(outputDir, 'data'), backupChoice)
+      if (options.convertRomdata && fs.existsSync(outputDataDir)) {
+        const dataResult = await handleExistingData(outputDataDir, backupChoice)
         if (!dataResult.success) {
           return { success: false, error: { component: 'backup', message: 'Backup cancelled' } }
         }
@@ -125,42 +128,18 @@ export async function convertQuickPlayData(
 
     // Perform conversions
     const result: ConversionResult = { success: true }
-
-    // Perform conversions
-    if (options.convertRomdata) {
-      result.romdataFiles = processRomdataDirectory(dataFolderPath, path.join(outputDir, 'data'))
-    }
-
-    if (options.convertSystems) {
-      result.systemsConverted = await convertSystems(
-        path.join(datsFolderPath, 'systems.dat'),
-        path.join(outputDir, 'dats', 'systems.json')
-      )
-    }
-
+    if (options.convertRomdata) result.romdataFiles = processRomdataDirectory(inputDataDir, outputDataDir)
+    if (options.convertSystems) result.systemsConverted = await convertSystems(inputDatsSystems, outputDatsSystems)
     if (options.convertEmulators) {
-      result.emulatorsConverted = await convertEmulators(
-        path.join(datsFolderPath, 'emulators.ini'),
-        path.join(outputDir, 'dats', 'emulators.json')
-      )
+      result.emulatorsConverted = await convertEmulators(inputDatsEmulators, outputDatsEmulators)
     }
-
     if (options.convertMediaPanel) {
-      result.mediaPanelConverted = await convertMediaPanel(
-        path.join(datsFolderPath, 'mediaPanelCfg.ini'),
-        path.join(outputDir, 'dats', 'mediaPanelConfig.json')
-      )
+      result.mediaPanelConverted = await convertMediaPanel(inputDatsMediaPanelConfig, outputDatsMediaPanelConfig)
     }
 
     return result
   } catch (error) {
-    return {
-      success: false,
-      error: {
-        component: 'conversion',
-        message: error.message
-      }
-    }
+    return { success: false, error: { component: 'conversion', message: error.message } }
   }
 }
 
@@ -170,16 +149,10 @@ export async function validateQuickPlayDirectory(
   if (!fs.existsSync(sourcePath)) {
     throw new Error('Source path does not exist')
   }
-
   const dataFolderPath = path.join(sourcePath, 'data')
   const datsFolderPath = path.join(sourcePath, 'dats')
-
-  if (!fs.existsSync(dataFolderPath)) {
-    throw new Error('Selected folder must contain a "data" directory')
-  }
-  if (!fs.existsSync(datsFolderPath)) {
-    throw new Error('Selected folder must contain a "dats" directory')
-  }
+  if (!fs.existsSync(dataFolderPath)) throw new Error('Selected folder must contain a "data" directory')
+  if (!fs.existsSync(datsFolderPath)) throw new Error('Selected folder must contain a "dats" directory')
 
   return { dataFolderPath, datsFolderPath }
 }
