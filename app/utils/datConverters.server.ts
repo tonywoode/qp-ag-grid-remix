@@ -47,73 +47,70 @@ export async function convertEmulators(inputPath: string, outputPath: string): P
   }
 }
 
-//MEDIA PANEL CONVERT CODE
-
-// Function to decode hex strings
-function decodeHex(hex: string): string {
-  const buffer = Buffer.from(hex, 'hex')
-  return iconv.decode(buffer, 'utf16le')
-}
-
-const searchTypeMapping: { [key: number]: string } = {
-  0: 'ExactMatch',
-  1: 'StartsWith',
-  2: 'InString',
-  3: 'AllFilesInDir'
-}
-
-const searchTabTypeMapping: { [key: number]: string } = {
-  0: 'Images',
-  1: 'MameInfo',
-  2: 'MameHistory',
-  3: 'Thumbnail',
-  4: 'System',
-  5: 'RomInfo',
-  // Original note: whilst it isn't terribly sensible to create these new types that all call the same imp but with different string config vars, the alternative is to rewrite a lot of the way media panel options work eg: linking to files not folders and a new form specifically for creating mame dat types that will let you choose the call
-  6: 'MameCommand',
-  7: 'MameGameInit',
-  8: 'MameMessInfo',
-  9: 'MameStory',
-  10: 'MameSysinfo'
-}
-
-// Function to decode TABS entries
-function decodeTabs(tabs: string): any {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const _version = Buffer.from(tabs.slice(0, 8), 'hex').readUInt32LE(0) //ignore this key because there was only ever a v1
-  const captionLength = Buffer.from(tabs.slice(8, 16), 'hex').readUInt32LE(0)
-  const caption = Buffer.from(tabs.slice(16, 16 + captionLength * 2), 'hex').toString('ascii')
-  const enabled = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2, 16 + captionLength * 2 + 2), 'hex').readUInt8(0)) // prettier-ignore
-  const mameUseParentForSrch = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 'hex').readUInt8(0)) // prettier-ignore
-  const searchTypeNumber = Buffer.from(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 6), 'hex').readUInt8(0) // prettier-ignore
-  const tabTypeNumber = Buffer.from(
-    tabs.slice(16 + captionLength * 2 + 6, 16 + captionLength * 2 + 8),
-    'hex'
-  ).readUInt8(0)
-  const searchInRomPath = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 'hex').readUInt8(0)) // prettier-ignore
-  const pathLength = Buffer.from(tabs.slice(16 + captionLength * 2 + 10, 16 + captionLength * 2 + 18), 'hex').readUInt32LE(0) // prettier-ignore
-  const path = Buffer.from(tabs.slice(16 + captionLength * 2 + 18, 16 + captionLength * 2 + 18 + pathLength * 2), 'hex').toString('ascii').split('\r\n') // prettier-ignore
-
-  // Filter out empty strings from the path array, else every path has an empty array
-  const filteredPath = path.filter(p => p !== '')
-  // convert the searchType number into its string value
-  const searchType = searchTypeMapping[searchTypeNumber]
-  const tabType = searchTabTypeMapping[tabTypeNumber]
-  return {
-    caption,
-    enabled,
-    mameUseParentForSrch,
-    searchType,
-    searchInRomPath,
-    tabType,
-    // Add the path key only if the filteredPath array is not empty
-    ...(filteredPath.length > 0 ? { path: filteredPath } : {})
-  }
-}
-
 export async function convertMediaPanel(inputPath: string, outputPath: string): Promise<void> {
   try {
-    // Read the INI file
+    // Helper functions for media panel conversion
+    function decodeHex(hex: string): string {
+      const buffer = Buffer.from(hex, 'hex')
+      return iconv.decode(buffer, 'utf16le')
+    }
+
+    const searchTypeMapping: { [key: number]: string } = {
+      0: 'ExactMatch',
+      1: 'StartsWith',
+      2: 'InString',
+      3: 'AllFilesInDir'
+    }
+
+    const searchTabTypeMapping: { [key: number]: string } = {
+      0: 'Images',
+      1: 'MameInfo',
+      2: 'MameHistory',
+      3: 'Thumbnail',
+      4: 'System',
+      5: 'RomInfo',
+      // Original note: whilst it isn't terribly sensible to create these new types that all call the same imp but with different string config vars, the alternative is to rewrite a lot of the way media panel options work eg: linking to files not folders and a new form specifically for creating mame dat types that will let you choose the call
+      6: 'MameCommand',
+      7: 'MameGameInit',
+      8: 'MameMessInfo',
+      9: 'MameStory',
+      10: 'MameSysinfo'
+    }
+
+    function decodeTabs(tabs: string): any {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const _version = Buffer.from(tabs.slice(0, 8), 'hex').readUInt32LE(0) //ignore this key because there was only ever a v1
+      const captionLength = Buffer.from(tabs.slice(8, 16), 'hex').readUInt32LE(0)
+      const caption = Buffer.from(tabs.slice(16, 16 + captionLength * 2), 'hex').toString('ascii')
+      const enabled = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2, 16 + captionLength * 2 + 2), 'hex').readUInt8(0)) // prettier-ignore
+      const mameUseParentForSrch = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2 + 2, 16 + captionLength * 2 + 4), 'hex').readUInt8(0)) // prettier-ignore
+      const searchTypeNumber = Buffer.from(tabs.slice(16 + captionLength * 2 + 4, 16 + captionLength * 2 + 6), 'hex').readUInt8(0) // prettier-ignore
+      const tabTypeNumber = Buffer.from(
+        tabs.slice(16 + captionLength * 2 + 6, 16 + captionLength * 2 + 8),
+        'hex'
+      ).readUInt8(0)
+      const searchInRomPath = Boolean(Buffer.from(tabs.slice(16 + captionLength * 2 + 8, 16 + captionLength * 2 + 10), 'hex').readUInt8(0)) // prettier-ignore
+      const pathLength = Buffer.from(tabs.slice(16 + captionLength * 2 + 10, 16 + captionLength * 2 + 18), 'hex').readUInt32LE(0) // prettier-ignore
+      const path = Buffer.from(tabs.slice(16 + captionLength * 2 + 18, 16 + captionLength * 2 + 18 + pathLength * 2), 'hex').toString('ascii').split('\r\n') // prettier-ignore
+
+      // Filter out empty strings from the path array, else every path has an empty array
+      const filteredPath = path.filter(p => p !== '')
+      // convert the searchType number into its string value
+      const searchType = searchTypeMapping[searchTypeNumber]
+      const tabType = searchTabTypeMapping[tabTypeNumber]
+      return {
+        caption,
+        enabled,
+        mameUseParentForSrch,
+        searchType,
+        searchInRomPath,
+        tabType,
+        // Add the path key only if the filteredPath array is not empty
+        ...(filteredPath.length > 0 ? { path: filteredPath } : {})
+      }
+    }
+
+    // Main conversion logic
     const data = await fs.promises.readFile(inputPath, 'utf-8')
 
     // system names with periods will be corrupted by ini library, it'll try to use them as property access, this will affect following json too! Convert and then convert back after
