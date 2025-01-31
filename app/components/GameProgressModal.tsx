@@ -2,6 +2,9 @@ import Modal from 'react-modal'
 import { useEffect, useRef, useState } from 'react'
 import { useEventSource } from 'remix-utils/sse/react'
 import { useFetcher } from '@remix-run/react'
+import { IoGameControllerOutline } from 'react-icons/io5'
+import { DiJsBadge } from 'react-icons/di'
+import { Si7Zip } from 'react-icons/si'
 
 type ProgressModalProps = {
   isOpen: boolean
@@ -25,25 +28,32 @@ const DEFAULT_POSITIONS = {
 export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: ProgressModalProps) {
   const fetcher = useFetcher()
   const containerRef = useRef<HTMLDivElement>(null)
-  const [logs, setLogs] = useState<string[]>(gameDetails.logs)
+  const [logs, setLogs] = useState<{ type: string; data: string }[]>(gameDetails.logs)
+  const [zipStatus, setZipStatus] = useState<'pending' | 'success' | 'error'>('pending')
+  const [isZip, setIsZip] = useState(false)
   const [status, setStatus] = useState<string>(gameDetails.status)
   const [isMinimized, setIsMinimized] = useState(false)
   const [minimizedPosition, setMinimizedPosition] = useState(DEFAULT_POSITIONS.minimized)
   const [maximizedPosition, setMaximizedPosition] = useState(DEFAULT_POSITIONS.maximized)
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 })
-  const hasError = logs.some(log => log.toLowerCase().includes('error'))
+  const hasError = logs.some(log => log.data.toLowerCase().includes('error'))
   useEffect(() => {
     console.log('the eventData useEffect ran')
     if (eventData) {
       const data = JSON.parse(eventData)
       console.log('runGame event:', data)
-      setLogs(prevLogs => [...prevLogs, data.data])
+      setLogs(prevLogs => [...prevLogs, data])
       if (data.type === 'status') {
         console.log('Setting status to:', data.data)
         setStatus(data.data)
         if (data.data === 'closed') {
           setIsMinimized(false)
+        }
+        if (data.data === 'zip-success') setZipStatus('success')
+        else if (data.data.startsWith('zip-error')) setZipStatus('error')
+        if (data.data === 'isZip') {
+          setIsZip(true)
         }
       }
       if (data.type === 'onlyOneEmu') {
@@ -173,16 +183,37 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
 
         {/* Console Output */}
         <div ref={containerRef} className="flex-grow overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap">
-          {logs.map((log, i) => (
+          {logs.map(({ type, data }, i) => (
             <div key={i}>
               {
                 //an event can have multiple log lines, we only want to colour the error lines in red (works well for retroarch)
-                log.split('\n').map((line, j) => (
+                data.split('\n').map((line, j) => (
                   <div
                     key={j}
                     className={`${line.toLowerCase().includes('error') ? 'text-red-500' : 'text-green-500'}`}
                   >
-                    {line}
+                    {line !== '' ? (
+                      <div className="flex items-center">
+                        {type.startsWith('Emu') && <IoGameControllerOutline className="mr-2 text-2xl" />}
+                        {(type.startsWith('QPBackend') ||
+                          type.startsWith('status') ||
+                          type.startsWith('onlyOneEmu')) && <DiJsBadge className="mr-2 text-2xl" />}
+                        {type.startsWith('zip') && isZip && (
+                          <Si7Zip
+                            className={`mr-2 text-2xl ${
+                              zipStatus === 'success'
+                                ? 'text-green-500'
+                                : zipStatus === 'error'
+                                  ? 'text-red-500'
+                                  : 'animate-spin'
+                            }`}
+                          />
+                        )}
+                        {line}
+                      </div>
+                    ) : (
+                      ''
+                    )}
                   </div>
                 ))
               }
