@@ -98,7 +98,27 @@ export function TreeView({ folderData }) {
 
   // Update tree when folderData actually changes
   useEffect(() => {
-    if (JSON.stringify(folderData) !== JSON.stringify(prevFolderDataRef.current)) {
+    // Function to get structural data (ignoring state)
+    const getStructure = data => {
+      // console.log(data)
+      // Recursive function to pick only 'name' and 'romdataLink' properties at all levels
+      const serialize = data => {
+        return data.map(item => ({
+          name: item.name,
+          // romdataLink: item.romdataLink,
+          children: item.children ? serialize(item.children) : undefined // Recursively serialize children
+        }))
+      }
+      const serialised = JSON.stringify(serialize(data))
+      // console.log(serialised)
+
+      return serialised
+    }
+    const currentStructure = getStructure(folderData)
+    const lastStructure = prevFolderDataRef.current ? getStructure(prevFolderDataRef.current) : null
+
+    if (lastStructure !== currentStructure) {
+      console.log('detected actual folder structure change')
       prevFolderDataRef.current = folderData
       setTreeKey(prev => prev + 1)
     }
