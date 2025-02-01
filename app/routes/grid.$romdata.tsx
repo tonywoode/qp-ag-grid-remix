@@ -32,7 +32,6 @@ import {
   FaFileCircleCheck
 } from 'react-icons/fa6'
 import { CiCirclePlus, CiCircleMinus } from 'react-icons/ci'
-import { throttle } from '~/utils/throttle'
 
 export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
