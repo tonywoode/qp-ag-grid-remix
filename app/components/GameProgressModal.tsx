@@ -1,6 +1,5 @@
 import Modal from 'react-modal'
 import { useEffect, useRef, useState } from 'react'
-import { useEventSource } from 'remix-utils/sse/react'
 import { useFetcher } from '@remix-run/react'
 import { IoGameControllerOutline } from 'react-icons/io5'
 import { DiJsBadge } from 'react-icons/di'
@@ -47,18 +46,12 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
       if (data.type === 'status') {
         console.log('Setting status to:', data.data)
         setStatus(data.data)
-        if (data.data === 'closed') {
-          setIsMinimized(false)
-        }
+        if (data.data === 'closed') setIsMinimized(false)
         if (data.data === 'zip-success') setZipStatus('success')
         else if (data.data.startsWith('zip-error')) setZipStatus('error')
-        if (data.data === 'isZip') {
-          setIsZip(true)
-        }
+        if (data.data === 'isZip') setIsZip(true)
       }
-      if (data.type === 'onlyOneEmu') {
-        alert(data.data)
-      }
+      if (data.type === 'onlyOneEmu') alert(data.data)
     }
   }, [eventData])
 
@@ -82,17 +75,13 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
   }
 
   function updatePosition(mode: 'minimized' | 'maximized', pos: { x: number | string; y: number | string }) {
-    if (mode === 'minimized') {
-      setMinimizedPosition(pos)
-    } else {
-      setMaximizedPosition(pos)
-    }
+    if (mode === 'minimized') setMinimizedPosition(pos)
+    else setMaximizedPosition(pos)
   }
 
   const handleClose = () => {
-    if (status === 'running') {
-      setIsMinimized(true)
-    } else {
+    if (status === 'running') setIsMinimized(true)
+    else {
       resetAllPositions()
       onClose()
     }
@@ -143,7 +132,6 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
           const rect = e.currentTarget.getBoundingClientRect()
           const offsetX = isMinimized ? e.clientX - rect.left : e.clientX - (rect.left + rect.width / 2)
           const offsetY = isMinimized ? e.clientY - rect.top : e.clientY - (rect.top + rect.height / 2)
-
           setDragOffset({ x: offsetX, y: offsetY })
           setDragStart({ x: e.clientX, y: e.clientY })
         }}
