@@ -22,7 +22,7 @@ function watchDir(dirPath: string) {
       ignored: /(^|[\/\\])\../,
       persistent: true,
       ignoreInitial: true,
-      depth: 4,
+      depth: 6,
       awaitWriteFinish: {
         stabilityThreshold: 2000,
         pollInterval: 100
