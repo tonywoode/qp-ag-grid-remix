@@ -5,11 +5,11 @@ import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '../utils/createDirIfNotExist'
 import { logger } from '../root'
 import emulators from '~/../dats/emulators.json'
-import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
+import { convertPathToOSPath } from '~/utils/OSConvert.server'
 import { emitter } from '~/utils/emitter.server'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 
-// ordered list of disk image filetypes
+//ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
 
 //only one game can be run by me at a time - we don't want to use exec, we may want to be able to navigate qp for maps, walkthroughs, keybindings
@@ -22,10 +22,6 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
   emitter.emit('runGameEvent', { type, data })
 }
 
-//ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
-
-//unordered list of archive filetypes (from 7Zips homepage) that we'll support (don't extract iso etc - which it also supports!)
-
 export async function action({ request }: ActionFunctionArgs) {
   const { gamePath, fileInZipToRun, emulatorName, clearProcess } = await request.json()
   if (clearProcess) {
@@ -36,7 +32,7 @@ export async function action({ request }: ActionFunctionArgs) {
   logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
   await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
-  const gamePathMacOS = convertWindowsPathToMacPath(gamePath)
+  const gamePathMacOS = convertPathToOSPath(gamePath)
   const outputDirectory = setTempDir()
   const gameExtension = path.extname(gamePathMacOS).toLowerCase()
   //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly

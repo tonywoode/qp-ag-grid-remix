@@ -1,7 +1,7 @@
 import { json } from '@remix-run/node'
 import { fileExists } from '~/utils/fsAccess.server'
 import pathModule from 'path'
-import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
+import { convertPathToOSPath } from '~/utils/OSConvert.server'
 
 export async function action({ request }) {
   const { paths } = await request.json()
@@ -9,8 +9,8 @@ export async function action({ request }) {
 
   const results: Record<string, boolean> = {}
   const checks = paths.map(async p => {
-    const macPath = convertWindowsPathToMacPath(p)
-    const normalizedPath = pathModule.normalize(macPath)
+    const OsMungedPath = convertPathToOSPath(p)
+    const normalizedPath = pathModule.normalize(OsMungedPath)
     const exists = await fileExists(normalizedPath)
     return { path: p, exists }
   })

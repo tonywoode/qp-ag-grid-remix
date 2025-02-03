@@ -1,17 +1,17 @@
 import { json, type LoaderFunctionArgs } from '@remix-run/node'
-import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
+import { convertPathToOSPath } from '~/utils/OSConvert.server'
 import { logger } from '~/root'
 
 export async function loader({ request }: LoaderFunctionArgs) {
   const url = new URL(request.url)
   const filePath = url.searchParams.get('path')
   logger.log('fileOperations', 'filePath passed to listZip loader', filePath)
-  const gamePathMacOS = convertWindowsPathToMacPath(filePath)
+  const OSMungedPath = convertPathToOSPath(filePath)
   if (!filePath) {
     return json({ error: 'Path is required' }, { status: 400 })
   }
   try {
-    const fileList = await getZipFileList(gamePathMacOS)
+    const fileList = await getZipFileList(OSMungedPath)
     return json(fileList)
   } catch (error) {
     console.error('Error unzipping file:', error)

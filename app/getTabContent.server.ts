@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import mime from 'mime-types'
 import WordExtractor from 'word-extractor'
-import { convertWindowsPathToMacPath } from '~/utils/OSConvert.server'
+import { convertPathToOSPath } from '~/utils/OSConvert.server'
 import ffmpeg from 'fluent-ffmpeg'
 import ffmpegPath from 'ffmpeg-static'
 import { logger } from './root'
@@ -71,8 +71,8 @@ async function findMameDatContent(
   const { datLeafFilename, contentFinder } = strategy
   //TODO: Do we ever have >1 path in for mame dats? What will happen if there's >1? does the code need fixing or the data?
   for (const p of pathInTabData) {
-    const macPath = convertWindowsPathToMacPath(p)
-    const mameDatPath = path.join(macPath, datLeafFilename)
+    const OSMungedPath = convertPathToOSPath(p)
+    const mameDatPath = path.join(OSMungedPath, datLeafFilename)
     logger.log('tabContent', 'mameDatPath', mameDatPath)
     try {
       await fs.promises.stat(mameDatPath) // Check if mameDat exists
@@ -592,12 +592,12 @@ async function findMediaItemPaths(
 ) {
   logger.log('tabContent', `using searchType ${searchType}`)
   let foundBase64DataAndFiles = new Set<MediaItem>()
-  const macPaths = pathInTabData.map(p => convertWindowsPathToMacPath(p))
+  const oSMungedPaths = pathInTabData.map(p => convertPathToOSPath(p))
   const mameNameSearchTerms = [mameNames.mameName, mameUseParentForSrch && mameNames.parentName].filter(Boolean)
   const shouldSearchRomNameOnly = Object.keys(mameNames).length === 0 || !(mameNames.mameName || mameNames.parentName)
-  for (const macPath of macPaths) {
+  for (const oSMungedPath of oSMungedPaths) {
     try {
-      const files = await fs.promises.readdir(macPath)
+      const files = await fs.promises.readdir(oSMungedPath)
       const fileProcessingPromises = files.map(async file => {
         let matchFound = false
         if (!shouldSearchRomNameOnly) {
@@ -611,7 +611,7 @@ async function findMediaItemPaths(
         }
         if (matchFound) {
           logger.log('tabContent', 'mediaItem match found', file)
-          const mediaPath = path.join(macPath, file)
+          const mediaPath = path.join(oSMungedPath, file)
           let fileData = await fs.promises.readFile(mediaPath)
           let mimeType = getValidMimetype(file)
           if (mimeType !== null) {
@@ -663,7 +663,7 @@ async function findMediaItemPaths(
       })
       await Promise.all(fileProcessingPromises)
     } catch (error) {
-      console.error(`Error reading directory ${macPath}: ${error}`)
+      console.error(`Error reading directory ${oSMungedPath}: ${error}`)
     }
   }
   // console.log(foundBase64DataAndFiles) //check this has the unzipped files in it
