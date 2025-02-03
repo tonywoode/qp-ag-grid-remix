@@ -1,13 +1,14 @@
 import fs from 'fs'
 import path from 'path'
 import { logger } from './root'
+import { systemPaths } from '~/config/gamePaths.server'
 
 export const loadMameIconBase64 = async (mameName, parentName) => {
   const iconPaths = [`./${mameName}.ico`, `./${parentName}.ico`]
 
   for (const iconPath of iconPaths) {
     logger.log('icons', 'lets try to load icon', iconPath)
-    const filePath = path.resolve(__dirname, '/Volumes/Untitled/Games/MAME/EXTRAs/icons/', iconPath)
+    const filePath = path.resolve(systemPaths.mameExtras, iconPath)
     try {
       if (fs.existsSync(filePath)) {
         const fileData = await fs.promises.readFile(filePath)

@@ -1,10 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { logger } from './root'
-
-// TODO: make these configurable via UI/env
-const externalIconsPath = '/Volumes/Untitled/Games/MAME/EXTRAs/icons'
-const internalIconsDir = 'Icons' // capital I for internal path
+import { systemPaths, internalPaths } from '~/config/gamePaths.server'
 
 async function fileExists(filePath: string): Promise<boolean> {
   try {
@@ -17,14 +14,12 @@ async function fileExists(filePath: string): Promise<boolean> {
 
 export const loadIconBase64 = async (iconName: string) => {
   try {
-    // First try internal path (with capital I)
-    const internalPath = path.resolve(__dirname, '../assets', internalIconsDir, iconName)
+    const internalPath = path.resolve(__dirname, '../assets', internalPaths.icons, iconName)
     let finalPath = internalPath
     let exists = await fileExists(internalPath)
 
-    // If not in internal path, try external path
     if (!exists) {
-      const externalPath = path.join(externalIconsPath, iconName)
+      const externalPath = path.join(systemPaths.mameExtras, iconName)
       exists = await fileExists(externalPath)
       if (exists) {
         finalPath = externalPath
