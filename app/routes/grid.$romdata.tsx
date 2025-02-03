@@ -37,7 +37,7 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const romdataLink = decodeString(params.romdata)
   const romdataBlob = await loadRomdata(romdataLink)
   const romdata = romdataBlob.romdata
-  const defaultIconBase64 = await loadIconBase64('rom.ico')
+  const defaultIconBase64 = await loadIconBase64('../rom.ico') //TODO: the .. isn't great, and can we do better than loading it each time the loader's invoked
 
   const romdataWithIcons = await Promise.all(
     romdata.map(async (item, index) => {
