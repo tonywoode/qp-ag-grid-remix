@@ -13,17 +13,17 @@ const macPaths = paths.darwin
 export function convertPathToOSPath(inputPath: string) {
   logger.log('pathConversion', `Converting path for OS: ${currentOS}`)
   logger.log('pathConversion', 'Input path:', inputPath)
-  const result = currentOS === 'win32' ? convertMacPathToWindowsPath(inputPath) : convertWindowsPathToMacPath(inputPath)
+  const result = currentOS === 'win32' ? convertPathToWindowsPath(inputPath) : convertPathToMacPath(inputPath)
   logger.log('pathConversion', 'Converted path:', result)
   return result
 }
 
 //TODO: still universally replacing the gamesDir placeholder, created at data import time: is this really ideal?
 //TODO: mac to win paths untested
-function convertMacPathToWindowsPath(macPath: string) {
+function convertPathToWindowsPath(incomingPath: string) {
   //replace games dir polaceholder with win root
-  macPath = macPath.replace(/^\{gamesDir\}/, winPaths.gamesRoot)
-  let components = macPath.split('/')
+  const unvirtualisedPath = incomingPath.replace(/^\{gamesDir\}/, winPaths.gamesRoot)
+  let components = unvirtualisedPath.split('/')
   //replace root directory with appropriate drive letter
   if (components[0] === macPaths.gamesRoot) components[0] = winPaths.gamesRoot
   else if (components[0] === macPaths.emulatorsRoot) components[0] = winPaths.emulatorsRoot
@@ -31,10 +31,10 @@ function convertMacPathToWindowsPath(macPath: string) {
   return winPath
 }
 
-function convertWindowsPathToMacPath(winPath: string) {
+function convertPathToMacPath(incomingPath: string) {
   //replace {gamesDir} with macOS games directory path
-  winPath = winPath.replace(/^\{gamesDir\}/, macPaths.gamesRoot)
-  let components = winPath.split('\\')
+  const unvirtualisedPath = incomingPath.replace(/^\{gamesDir\}/, macPaths.gamesRoot)
+  let components = unvirtualisedPath.split('\\')
   //replace drive letter with appropriate root directory
   if (components[0] === winPaths.gamesRoot) components[0] = macPaths.gamesRoot
   else if (components[0] === winPaths.emulatorsRoot) components[0] = macPaths.emulatorsRoot
