@@ -1,7 +1,7 @@
 import { platform } from 'os'
 
 //path mappings between operating systems
-const paths = {
+export const paths = {
   win32: {
     gamesRoot: 'F:',
     emulatorsRoot: 'P:',
