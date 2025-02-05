@@ -23,12 +23,12 @@ import { createFeatureLogger } from '~/utils/featureLogger'
 const loggerConfig = [
   { feature: 'remixRoutes', enabled: false },
   { feature: 'gridOperations', enabled: false },
-  { feature: 'fileOperations', enabled: true },
+  { feature: 'fileOperations', enabled: false },
+  { feature: 'pathConversion', enabled: false },
   { feature: 'goodMergeChoosing', enabled: false },
   { feature: 'screenshots', enabled: false },
   { feature: 'tabContent', enabled: false },
   { feature: 'icons', enabled: false },
-  { feature: 'pathConversion', enabled: true },
   { feature: 'lightbox', enabled: false }
 ]
 export const logger = createFeatureLogger(loggerConfig)

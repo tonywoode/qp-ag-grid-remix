@@ -8,6 +8,8 @@ import ffmpegPath from 'ffmpeg-static'
 import { logger } from './root'
 import tmp from 'tmp'
 import stream from 'node:stream'
+import electron from '~/electron.server'
+import { join } from 'path'
 
 const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameHistory: {
@@ -511,7 +513,10 @@ async function unzipMediaFiles(
   mediaFilePath: string,
   foundBase64DataAndFiles: Set<MediaItem>
 ): Promise<Set<MediaItem>> {
-  const node7z = await import('node-7z-archive')
+  const unpackedPath = electron.app.isPackaged
+    ? join(process.resourcesPath, 'app.asar.unpacked', 'node_modules', 'node-7z-archive', 'lib', 'index.js')
+    : 'node-7z-archive' // Use normal path in dev mode
+  const node7z = await import(unpackedPath)
   const { listArchive, fullArchive } = node7z
 
   // Create temporary directory
