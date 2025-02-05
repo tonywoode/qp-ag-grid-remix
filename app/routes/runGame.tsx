@@ -10,6 +10,7 @@ import { emitter } from '~/utils/emitter.server'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 import electron from '~/electron.server'
 import { join } from 'path'
+import { loadNode7z } from '~/utils/node7zLoader.server'
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
@@ -52,17 +53,10 @@ export async function action({ request }: ActionFunctionArgs) {
 }
 
 async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName) {
-  //you can move the below above here once you upgrade remix, top level await will work
-  //its an ESM module, use dynamic import inline here, don't try adding it to the serverDependenciesToBundle in remix.config.js, that won't work
-  const unpackedPath = electron.app.isPackaged
-    ? join(process.resourcesPath, 'app.asar.unpacked', 'node_modules', 'node-7z-archive', 'lib', 'index.js')
-    : 'node-7z-archive' // Use normal path in dev mode
-  // const node7z = await import(unpackedPath)
-
-  const { onlyArchive, listArchive, fullArchive } = await import(unpackedPath)
+  const { onlyArchive, listArchive, fullArchive } = await loadNode7z()
+  
   if (fileInZipToRun) {
     await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + fileInZipToRun })
-    //meaning row in the grid contains a pre-selected preferred rom to extract
     await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
     const outputFile = path.join(outputDirectory, fileInZipToRun)
     runGame(outputFile, emulatorName)

@@ -10,6 +10,7 @@ import tmp from 'tmp'
 import stream from 'node:stream'
 import electron from '~/electron.server'
 import { join } from 'path'
+import { loadNode7z } from '~/utils/node7zLoader.server'
 
 const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameHistory: {
@@ -513,11 +514,7 @@ async function unzipMediaFiles(
   mediaFilePath: string,
   foundBase64DataAndFiles: Set<MediaItem>
 ): Promise<Set<MediaItem>> {
-  const unpackedPath = electron.app.isPackaged
-    ? join(process.resourcesPath, 'app.asar.unpacked', 'node_modules', 'node-7z-archive', 'lib', 'index.js')
-    : 'node-7z-archive' // Use normal path in dev mode
-  const node7z = await import(unpackedPath)
-  const { listArchive, fullArchive } = node7z
+  const { listArchive, fullArchive } = await loadNode7z()
 
   // Create temporary directory
   const tempZipDir = tmp.dirSync({ unsafeCleanup: true })

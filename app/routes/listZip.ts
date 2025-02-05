@@ -3,6 +3,7 @@ import { convertPathToOSPath } from '~/utils/OSConvert.server'
 import { logger } from '~/root'
 import electron from '~/electron.server'
 import { join } from 'path'
+import { loadNode7z } from '~/utils/node7zLoader.server'
 
 export async function loader({ request }: LoaderFunctionArgs) {
   const url = new URL(request.url)
@@ -23,11 +24,7 @@ export async function loader({ request }: LoaderFunctionArgs) {
 
 //TODO: basically a straight copy of what's in getTabContent.server.ts
 export async function getZipFileList(filePath: string): Promise<string[]> {
-  const unpackedPath = electron.app.isPackaged
-    ? join(process.resourcesPath, 'app.asar.unpacked', 'node_modules', 'node-7z-archive', 'lib', 'index.js')
-    : 'node-7z-archive' // Use normal path in dev mode
-  const node7z = await import(unpackedPath)
-  const { listArchive } = node7z
+  const { listArchive } = await loadNode7z()
   const filenames: string[] = []
   await new Promise<void>((resolve, reject) => {
     listArchive(filePath)
