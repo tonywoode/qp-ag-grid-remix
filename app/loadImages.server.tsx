@@ -14,7 +14,7 @@ async function fileExists(filePath: string): Promise<boolean> {
 
 export const loadIconBase64 = async (iconName: string) => {
   try {
-    const internalPath = path.resolve(__dirname, '../assets', internalPaths.icons, iconName)
+    const internalPath = path.resolve('./assets', internalPaths.icons, iconName)
     let finalPath = internalPath
     let exists = await fileExists(internalPath)
 

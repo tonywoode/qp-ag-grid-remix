@@ -10,6 +10,7 @@
     "build": "chmod +r node_modules/node-unar/lsar node_modules/node-unar/unar && remix build && electron-builder",
     "start": "cross-env NODE_ENV=production electron ."
   },
+  "//": "isexe (and which - necessary?) included for fluent ffmpeg though note which is in its asar.unpacked?",
   "build": {
     "files": [
       "build",
@@ -25,9 +26,12 @@
       {
         "from": "dats",
         "to": "dats"
+      },
+      {
+        "from": "assets",
+        "to": "assets"
       }
     ],
-    "//": "isexe (and which - necessary?) included for fluent ffmpeg though note which is in its asar.unpacked?",
     "asarUnpack": [
       "node_modules/fluent-ffmpeg/**/*",
       "node_modules/ffmpeg-static/**/*",
