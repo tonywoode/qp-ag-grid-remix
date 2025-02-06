@@ -26,6 +26,13 @@
         "from": "dats",
         "to": "dats"
       }
+    ],
+    "//": "isexe (and which - necessary?) included for fluent ffmpeg though note which is in its asar.unpacked?",
+    "asarUnpack": [
+      "node_modules/fluent-ffmpeg/**/*",
+      "node_modules/ffmpeg-static/**/*",
+      "node_modules/isexe/**/*",
+      "node_modules/which/**/*"
     ]
   },
   "dependencies": {

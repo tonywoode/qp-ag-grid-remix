@@ -3,14 +3,16 @@ import path from 'path'
 import mime from 'mime-types'
 import WordExtractor from 'word-extractor'
 import { convertPathToOSPath } from '~/utils/OSConvert.server'
-import ffmpeg from 'fluent-ffmpeg'
-import ffmpegPath from 'ffmpeg-static'
+// import ffmpeg from 'fluent-ffmpeg'
+// import ffmpegPath from 'ffmpeg-static'
 import { logger } from './root'
 import tmp from 'tmp'
 import stream from 'node:stream'
-import electron from '~/electron.server'
-import { join } from 'path'
+//import electron from '~/electron.server'
+//import { join } from 'path'
 import { loadNode7z } from '~/utils/node7zLoader.server'
+import { loadFfmpeg } from '~/utils/ffmpegLoader.server'
+import { loadFfmpegPath } from '~/utils/ffmpegStaticLoader.server'
 
 const tabTypeStrategy: { [key: string]: TabStrategy } = {
   MameHistory: {
@@ -419,7 +421,9 @@ function getValidMimetype(file: string): string | null {
 }
 async function transcodeVideoToBuffer(videoPath: string): Promise<Buffer> {
   const chunks: Buffer[] = []
-  ffmpeg.setFfmpegPath(ffmpegPath)
+  const ffmpeg = await loadFfmpeg()
+  const ffmpegBinary = loadFfmpegPath()
+  ffmpeg.setFfmpegPath(ffmpegBinary) //originally ffmpeg.setFfmpegPath(ffmpegPath)
   return new Promise((resolve, reject) => {
     const passThrough = new stream.PassThrough()
     const startTime = Date.now()
@@ -470,7 +474,9 @@ async function transcodeVideoToBuffer(videoPath: string): Promise<Buffer> {
 
 async function transcodeAudioToBuffer(audioPath: string): Promise<Buffer> {
   const chunks: Buffer[] = []
-  ffmpeg.setFfmpegPath(ffmpegPath)
+  const ffmpeg = await loadFfmpeg()
+  const ffmpegBinary = loadFfmpegPath()
+  ffmpeg.setFfmpegPath(ffmpegBinary)
   return new Promise((resolve, reject) => {
     const passThrough = new stream.PassThrough()
     const command = ffmpeg(audioPath)
@@ -569,6 +575,7 @@ async function unzipMediaFiles(
     throw error
   } finally {
     // Make sure to clean up temp directory - TODO: required?
+    //TODO: cleanup() not a fn (recent or always?)
     try {
       tempZipDir?.cleanup()
     } catch (error) {
