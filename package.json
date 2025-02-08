@@ -9,7 +9,7 @@
     "dev": "cross-env NODE_ENV=development remix dev --command \"nodemon .\" --manual",
     "build": "chmod +r node_modules/node-unar/lsar node_modules/node-unar/unar && remix build && electron-builder",
     "start": "cross-env NODE_ENV=production electron .",
-    "buildWin": "chmod +r node_modules/node-unar/lsar node_modules/node-unar/unar && remix build && electron-builder --win --x64"
+    "buildWin": "npm run installAllBinaries --prefix ./node_modules/node-7z-archive && chmod +r node_modules/node-unar/lsar node_modules/node-unar/unar && remix build && electron-builder --win --x64"
   },
   "//": "isexe (and which - necessary?) included for fluent ffmpeg though note which is in its asar.unpacked?",
   "build": {
@@ -37,7 +37,17 @@
       "node_modules/fluent-ffmpeg/**/*",
       "node_modules/ffmpeg-static/**/*",
       "node_modules/isexe/**/*",
-      "node_modules/which/**/*"
+      "node_modules/which/**/*",
+      "node_modules/node-7z-archive/node_modules/**/*",
+      "node_modules/when/**/*",
+      "node_modules/fs-extra/**/*",
+      "node_modules/minimist/**/*",
+      "node_modules/node-sys/**/*",
+      "node_modules/node-unar/**/*",
+      "node_modules/node-wget-fetch/**/*",
+      "node_modules/universalify/**/*",
+      "node_modules/graceful-fs/**/*",
+      "node_modules/jsonfile/**/*"
     ]
   },
   "dependencies": {
