@@ -47,7 +47,7 @@ export const links: LinksFunction = () => [
 
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
-  const folderData = await scanFolder('./data')
+  const folderData = await scanFolder('./data') //TODO: that's a dangerous thing to presume
   return json({ folderData, userDataPath: electron.app.getPath('userData') })
 }
 
