@@ -5,7 +5,7 @@ export const paths = {
   win32: {
     gamesRoot: 'F:',
     emulatorsRoot: 'P:',
-    mameExtras: 'F:/Games/MAME/EXTRAS/icons'
+    mameExtras: 'F:/MAME/EXTRAS/icons'
   },
   darwin: {
     gamesRoot: '/Volumes/Untitled/Games',

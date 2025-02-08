@@ -134,12 +134,18 @@ export default function Grid() {
       api.startEditingCell({ rowIndex, colKey: colId })
     },
     (e: CellClickedEvent) => {
-      const { path, defaultGoodMerge, emulatorName } = e.node.data
-      runGame(path, defaultGoodMerge, emulatorName)
+      const { path, defaultGoodMerge, emulatorName, mameName, parentName } = e.node.data
+      runGame(path, defaultGoodMerge, emulatorName, mameName, parentName)
     }
   )
 
-  function runGame(gamePath: string, fileInZipToRun: string, emulatorName: string) {
+  function runGame(
+    gamePath: string,
+    fileInZipToRun: string,
+    emulatorName: string,
+    mameName?: string,
+    parentName?: string
+  ) {
     function getBaseName(p: string) {
       return p.substring(Math.max(p.lastIndexOf('\\'), p.lastIndexOf('/')) + 1)
     }
@@ -158,7 +164,7 @@ export default function Grid() {
     })
 
     fetcher.submit(
-      { gamePath, fileInZipToRun, emulatorName },
+      { gamePath, fileInZipToRun, emulatorName, mameName, parentName },
       { action: '/runGame', method: 'post', encType: 'application/json' }
     )
   }
@@ -566,9 +572,9 @@ export default function Grid() {
         preventMultipleSelect(e.api)
         //a !editing check won't work here, we'd always have !editing if enter's been pressed
       } else if (keyPressed === 'Enter') {
-        const { path, defaultGoodMerge, emulatorName } = e.node.data
+        const { path, defaultGoodMerge, emulatorName, mameName, parentName } = e.node.data
         if (editing) e.api.stopEditing() // Manually stop editing THEN run the game
-        else runGame(path, defaultGoodMerge, emulatorName)
+        else runGame(path, defaultGoodMerge, emulatorName, mameName, parentName)
       }
     },
     onRowSelected: async function (event) {

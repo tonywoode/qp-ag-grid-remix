@@ -25,13 +25,19 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
 }
 
 export async function action({ request }: ActionFunctionArgs) {
-  const { gamePath, fileInZipToRun, emulatorName, clearProcess } = await request.json()
+  const { gamePath, fileInZipToRun, emulatorName, clearProcess, mameName, parentName } = await request.json()
   if (clearProcess) {
     currentProcess = null
     currentGameDetails = null
     return null
   }
-  logger.log(`fileOperations`, `runGame received from grid`, { gamePath, fileInZipToRun, emulatorName })
+  logger.log(`fileOperations`, `runGame received from grid`, {
+    gamePath,
+    fileInZipToRun,
+    emulatorName,
+    mameName,
+    parentName
+  })
   await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertPathToOSPath(gamePath)
@@ -43,22 +49,22 @@ export async function action({ request }: ActionFunctionArgs) {
   if (isZip) {
     await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathMacOS })
     await emitEvent({ type: 'status', data: 'isZip' }) // Add this line to emit zip status
-    await examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName)
+    await examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName, mameName, parentName)
   } else {
     await emitEvent({ type: 'QPBackend', data: 'Game File detected, directly running ' + gamePathMacOS })
-    await runGame(gamePathMacOS, emulatorName)
+    await runGame(gamePathMacOS, emulatorName, mameName, parentName)
   }
   return null
 }
 
-async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName) {
+async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName, mameName, parentName) {
   const { onlyArchive, listArchive, fullArchive } = await loadNode7z()
-  
+
   if (fileInZipToRun) {
     await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + fileInZipToRun })
     await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
     const outputFile = path.join(outputDirectory, fileInZipToRun)
-    runGame(outputFile, emulatorName)
+    runGame(outputFile, emulatorName, mameName, parentName)
   } else {
     logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
     await emitEvent({ type: 'zip', data: 'listing archive to find runnable file ' + gamePathMacOS })
@@ -72,17 +78,34 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
                 data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n')
               })
               // emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' }) // don't add success status if all we've done is list
-              const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
-              if (pickedRom) {
-                const outputFile = path.join(outputDirectory, pickedRom)
-                await emitEvent({type: 'QPBackend', data: 'running runnable iso file' + outputFile}) //prettier-ignore
-                await runGame(outputFile, emulatorName)
+              const matchedEmulator = matchEmulatorName(emulatorName, emulators)
+              //temporary fix: it isn't QUITE good enough to say a rom is mame if we call ROMMAME, otherGameNames etc...so also this:
+              const isMameEmulator =
+                matchedEmulator?.emulatorName.startsWith('MAME') || matchedEmulator?.emulatorName.endsWith('(MAME)')
+              const find = (str, start, end) => str?.match(new RegExp(`${start}(.*?)${end}`))[1]
+              const namedOutputType = find(matchedEmulator?.parameters, '%', '%')
+              const isMameRom = namedOutputType === 'ROMMAME'
+
+              if (isMameEmulator || isMameRom) {
+                await emitEvent({ type: 'QPBackend', data: 'MAME game detected, running directly' })
+                await runGame(gamePathMacOS, emulatorName, mameName, parentName)
                 return files
               } else {
-                const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
-                const outputFile = path.join(outputDirectory, pickedRom)
-                await runGame(outputFile, emulatorName)
-                return files
+                const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
+                if (pickedRom) {
+                  const outputFile = path.join(outputDirectory, pickedRom)
+                  await emitEvent({
+                    type: 'QPBackend',
+                    data: 'running runnable iso file' + outputFile
+                  }) //prettier-ignore
+                  await runGame(outputFile, emulatorName, mameName, parentName)
+                  return files
+                } else {
+                  const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
+                  const outputFile = path.join(outputDirectory, pickedRom)
+                  await runGame(outputFile, emulatorName, mameName, parentName)
+                  return files
+                }
               }
             }
             //else reject the promise
@@ -211,7 +234,8 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
   return result
 }
 
-async function runGame(outputFile: string, emulatorName: string) {
+async function runGame(outputFile: string, emulatorName: string, mameName?: string, parentName?: string) {
+  console.log('runGame received these args:', outputFile, emulatorName, mameName, parentName)
   if (currentProcess) {
     logger.log(`fileOperations`, 'An emulator is already running. Please close it before launching a new game.')
     await emitEvent({
@@ -232,9 +256,9 @@ async function runGame(outputFile: string, emulatorName: string) {
       logger.log(`fileOperations`, 'Retroarch Command Line On Mac:', retroarchCommandLine)
       const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
       //get the retroarch core dir
-      const homeDir = os.homedir(); 
-      const retroarchDir = path.join(homeDir, 'Library', 'Application Support', 'RetroArch');
-      const libretroCore = path.join(retroarchDir, retroarchCommandLine);
+      const homeDir = os.homedir()
+      const retroarchDir = path.join(homeDir, 'Library', 'Application Support', 'RetroArch')
+      const libretroCore = path.join(retroarchDir, retroarchCommandLine)
       // const libretroCore = `/Users/twoode/Library/Application Support/RetroArch/${retroarchCommandLine}`
       const flagsToEmu = '-v -f'
       emuParams = [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')]
@@ -251,7 +275,7 @@ async function runGame(outputFile: string, emulatorName: string) {
       const placeholderParam = emuParams.find(param => param.includes(`%${namedOutputType}%`))
       if (placeholderParam) {
         const paramIndex = emuParams.indexOf(placeholderParam)
-        
+
         if (namedOutputType === 'ROM') {
           emuParams[paramIndex] = placeholderParam.replace(/%ROM%/g, outputFile)
         } else if (namedOutputType === 'ROMFILENAME') {
@@ -263,20 +287,28 @@ async function runGame(outputFile: string, emulatorName: string) {
           )
         } else if (namedOutputType === 'ROMMAME') {
           //TODO: we need to pass in the mamefilenames and run the child or if not available the parent
-          emuParams = null
+          // emuParams = null
+          if (mameName) {
+            emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, mameName)
+          } else if (parentName) {
+            emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, parentName)
+          } else {
+            console.warn('No mameName or parentName available')
+            emuParams = null // or handle the case where neither is available
+          }
         }
-        
+
         // After replacement, remove the outer quotes from the parameter - TODO: why? investigate emulators.json
         if (emuParams && emuParams[paramIndex]) {
           emuParams[paramIndex] = emuParams[paramIndex].replace(/^"(.*)"$/, '$1')
         }
       }
-      
+
       emuPath = matchedEmulator.path
     }
     logger.log(`fileOperations`, 'Running emulator:', emuPath, emuParams)
     currentProcess = spawn(emuPath, emuParams, {
-      cwd: path.dirname(emuPath)  // Set working directory to emulator's directory
+      cwd: path.dirname(emuPath) // Set working directory to emulator's directory
     })
     currentGameDetails = { name: outputFile, emulatorName }
     // Emit status when game starts - TODO: on success only
