@@ -1,6 +1,7 @@
 import { spawn } from 'child_process'
 import type { ActionFunctionArgs } from '@remix-run/node'
 import path from 'path'
+import os from 'os'
 import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '../utils/createDirIfNotExist'
 import { logger } from '../root'
@@ -8,8 +9,6 @@ import emulators from '~/../dats/emulators.json'
 import { convertPathToOSPath } from '~/utils/OSConvert.server'
 import { emitter } from '~/utils/emitter.server'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
-import electron from '~/electron.server'
-import { join } from 'path'
 import { loadNode7z } from '~/utils/node7zLoader.server'
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
@@ -223,13 +222,62 @@ async function runGame(outputFile: string, emulatorName: string) {
   }
 
   const matchedEmulator = matchEmulatorName(emulatorName, emulators)
+  logger.log(`fileOperations`, 'Matched Emulator:', matchedEmulator)
   if (matchedEmulator) {
-    const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
-    logger.log(`fileOperations`, 'Retroarch Command Line:', retroarchCommandLine)
-    const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
-    const libretroCore = `/Users/twoode/Library/Application Support/RetroArch/${retroarchCommandLine}`
-    const flagsToEmu = '-v -f'
-    currentProcess = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
+    let emuParams
+    let emuPath
+    if (process.platform !== 'win32') {
+      //only tested on mac, mac is only capable of retroarch loading, and from default install locations
+      const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
+      logger.log(`fileOperations`, 'Retroarch Command Line On Mac:', retroarchCommandLine)
+      const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
+      //get the retroarch core dir
+      const homeDir = os.homedir(); 
+      const retroarchDir = path.join(homeDir, 'Library', 'Application Support', 'RetroArch');
+      const libretroCore = path.join(retroarchDir, retroarchCommandLine);
+      // const libretroCore = `/Users/twoode/Library/Application Support/RetroArch/${retroarchCommandLine}`
+      const flagsToEmu = '-v -f'
+      emuParams = [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')]
+      emuPath = retroarchExe
+      // currentProcess = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
+    } else {
+      //platform is windows
+      //takes matchedEmultor.parameters, finds the word inside the two %% and returns the word
+      const find = (str, start, end) => str.match(new RegExp(`${start}(.*?)${end}`))[1]
+      const namedOutputType = find(matchedEmulator.parameters, '%', '%')
+      // Split parameters first
+      emuParams = matchedEmulator.parameters.split(' ')
+      // Find the parameter containing our placeholder
+      const placeholderParam = emuParams.find(param => param.includes(`%${namedOutputType}%`))
+      if (placeholderParam) {
+        const paramIndex = emuParams.indexOf(placeholderParam)
+        
+        if (namedOutputType === 'ROM') {
+          emuParams[paramIndex] = placeholderParam.replace(/%ROM%/g, outputFile)
+        } else if (namedOutputType === 'ROMFILENAME') {
+          emuParams[paramIndex] = placeholderParam.replace(/%ROMFILENAME%/g, path.basename(outputFile))
+        } else if (namedOutputType === 'ROMFILENAMENOEXT') {
+          emuParams[paramIndex] = placeholderParam.replace(
+            /%ROMFILENAMENOEXT%/g,
+            path.basename(outputFile).replace(/\.[^/.]+$/, '')
+          )
+        } else if (namedOutputType === 'ROMMAME') {
+          //TODO: we need to pass in the mamefilenames and run the child or if not available the parent
+          emuParams = null
+        }
+        
+        // After replacement, remove the outer quotes from the parameter - TODO: why? investigate emulators.json
+        if (emuParams && emuParams[paramIndex]) {
+          emuParams[paramIndex] = emuParams[paramIndex].replace(/^"(.*)"$/, '$1')
+        }
+      }
+      
+      emuPath = matchedEmulator.path
+    }
+    logger.log(`fileOperations`, 'Running emulator:', emuPath, emuParams)
+    currentProcess = spawn(emuPath, emuParams, {
+      cwd: path.dirname(emuPath)  // Set working directory to emulator's directory
+    })
     currentGameDetails = { name: outputFile, emulatorName }
     // Emit status when game starts - TODO: on success only
     await emitEvent({ type: 'status', data: 'running' })
