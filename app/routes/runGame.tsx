@@ -245,11 +245,24 @@ async function runGame(outputFile: string, emulatorName: string, mameName?: stri
     return
   }
 
+
+  const splitMultiloaderCMD = command => {
+    const args = []
+    const regex = /"([^"]*)"|(\S+)/g // Matches quoted strings or non-space sequences
+
+    let match
+    while ((match = regex.exec(command)) !== null) {
+      args.push(match[1] || match[2]) // Use captured group for quoted or unquoted
+    }
+    return args
+  }
+
   const matchedEmulator = matchEmulatorName(emulatorName, emulators)
   logger.log(`fileOperations`, 'Matched Emulator:', matchedEmulator)
   if (matchedEmulator) {
-    let emuParams
-    let emuPath
+    let emuParams: string[] | null = null
+    let emuPath: string
+
     if (process.platform !== 'win32') {
       //only tested on mac, mac is only capable of retroarch loading, and from default install locations
       const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
@@ -273,11 +286,28 @@ async function runGame(outputFile: string, emulatorName: string, mameName?: stri
       emuParams = matchedEmulator.parameters.split(' ')
       // Find the parameter containing our placeholder
       const placeholderParam = emuParams.find(param => param.includes(`%${namedOutputType}%`))
-      if (placeholderParam) {
-        const paramIndex = emuParams.indexOf(placeholderParam)
+      console.log(emuParams)
 
+      // Check for %tool:MULTILOADER% before other namedOutputType checks
+      if (matchedEmulator.parameters.includes('%Tool:MULTILOADER%')) {
+        let emulatorFlags: string[] = []
+        const multiloaderRealFlagIndex = 3 // Always use the fourth parameter in MULTILOADER case
+        const multiloaderParams = splitMultiloaderCMD(matchedEmulator.parameters)
+        console.log('multiloader params', multiloaderParams)
+        emulatorFlags = multiloaderParams[multiloaderRealFlagIndex]
+        console.log('emulator flags', emulatorFlags)
+        const emulatorFlagsArray = emulatorFlags.split(' ')
+        emuParams = [outputFile, ...emulatorFlagsArray] // Rom path followed by emulator flags
+        emuPath = matchedEmulator.path
+
+        logger.log(`fileOperations`, 'Running emulator with MULTILOADER tool:', emuPath, emuParams)
+      } else if (placeholderParam) {
+        let paramIndex = emuParams.indexOf(placeholderParam)
         if (namedOutputType === 'ROM') {
           emuParams[paramIndex] = placeholderParam.replace(/%ROM%/g, outputFile)
+        } else if (namedOutputType === 'SHORTROM') {
+          //lets forget this old max-filename 8:3 naming thing
+          emuParams[paramIndex] = placeholderParam.replace(/%SHORTROM%/g, outputFile)
         } else if (namedOutputType === 'ROMFILENAME') {
           emuParams[paramIndex] = placeholderParam.replace(/%ROMFILENAME%/g, path.basename(outputFile))
         } else if (namedOutputType === 'ROMFILENAMENOEXT') {
@@ -286,8 +316,7 @@ async function runGame(outputFile: string, emulatorName: string, mameName?: stri
             path.basename(outputFile).replace(/\.[^/.]+$/, '')
           )
         } else if (namedOutputType === 'ROMMAME') {
-          //TODO: we need to pass in the mamefilenames and run the child or if not available the parent
-          // emuParams = null
+          //pass in the mamefilenames and run the child or if not available the parent
           if (mameName) {
             emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, mameName)
           } else if (parentName) {

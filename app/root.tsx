@@ -21,15 +21,15 @@ import { Node } from '~/components/Node'
 //todo: user-enablable - split out to json/global flag?)
 import { createFeatureLogger } from '~/utils/featureLogger'
 const loggerConfig = [
-  { feature: 'remixRoutes', enabled: true },
-  { feature: 'gridOperations', enabled: true },
+  { feature: 'remixRoutes', enabled: false },
+  { feature: 'gridOperations', enabled: false },
   { feature: 'fileOperations', enabled: true },
-  { feature: 'pathConversion', enabled: true },
-  { feature: 'goodMergeChoosing', enabled: true },
-  { feature: 'screenshots', enabled: true },
-  { feature: 'tabContent', enabled: true },
-  { feature: 'icons', enabled: true },
-  { feature: 'lightbox', enabled: true }
+  { feature: 'pathConversion', enabled: false },
+  { feature: 'goodMergeChoosing', enabled: false },
+  { feature: 'screenshots', enabled: false },
+  { feature: 'tabContent', enabled: false },
+  { feature: 'icons', enabled: false },
+  { feature: 'lightbox', enabled: false }
 ]
 export const logger = createFeatureLogger(loggerConfig)
 
