@@ -134,8 +134,8 @@ export default function Grid() {
       api.startEditingCell({ rowIndex, colKey: colId })
     },
     (e: CellClickedEvent) => {
-      const { path, defaultGoodMerge, emulatorName, mameName, parentName } = e.node.data
-      runGame(path, defaultGoodMerge, emulatorName, mameName, parentName)
+      const { path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode } = e.node.data
+      runGame(path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode)
     }
   )
 
@@ -144,7 +144,9 @@ export default function Grid() {
     fileInZipToRun: string,
     emulatorName: string,
     mameName?: string,
-    parentName?: string
+    parentName?: string,
+    parameters?: string,
+    paramMode?: string //well a stringified int
   ) {
     function getBaseName(p: string) {
       return p.substring(Math.max(p.lastIndexOf('\\'), p.lastIndexOf('/')) + 1)
@@ -164,7 +166,7 @@ export default function Grid() {
     })
 
     fetcher.submit(
-      { gamePath, fileInZipToRun, emulatorName, mameName, parentName },
+      { gamePath, fileInZipToRun, emulatorName, mameName, parentName, parameters, paramMode },
       { action: '/runGame', method: 'post', encType: 'application/json' }
     )
   }

@@ -25,7 +25,8 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
 }
 
 export async function action({ request }: ActionFunctionArgs) {
-  const { gamePath, fileInZipToRun, emulatorName, clearProcess, mameName, parentName } = await request.json()
+  const { gamePath, fileInZipToRun, emulatorName, clearProcess, mameName, parentName, parameters, paramMode } =
+    await request.json()
   if (clearProcess) {
     currentProcess = null
     currentGameDetails = null
@@ -36,7 +37,9 @@ export async function action({ request }: ActionFunctionArgs) {
     fileInZipToRun,
     emulatorName,
     mameName,
-    parentName
+    parentName,
+    parameters,
+    paramMode
   })
   await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
@@ -49,22 +52,31 @@ export async function action({ request }: ActionFunctionArgs) {
   if (isZip) {
     await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathMacOS })
     await emitEvent({ type: 'status', data: 'isZip' }) // Add this line to emit zip status
-    await examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName, mameName, parentName)
+    await examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName, mameName, parentName, parameters, paramMode)
   } else {
     await emitEvent({ type: 'QPBackend', data: 'Game File detected, directly running ' + gamePathMacOS })
-    await runGame(gamePathMacOS, emulatorName, mameName, parentName)
+    await runGame(gamePathMacOS, emulatorName, mameName, parentName, parameters, paramMode)
   }
   return null
 }
 
-async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName, mameName, parentName) {
+async function examineZip(
+  gamePathMacOS,
+  outputDirectory,
+  fileInZipToRun,
+  emulatorName,
+  mameName,
+  parentName,
+  parameters,
+  paramMode
+) {
   const { onlyArchive, listArchive, fullArchive } = await loadNode7z()
 
   if (fileInZipToRun) {
     await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + fileInZipToRun })
     await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
     const outputFile = path.join(outputDirectory, fileInZipToRun)
-    runGame(outputFile, emulatorName, mameName, parentName)
+    runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
   } else {
     logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
     await emitEvent({ type: 'zip', data: 'listing archive to find runnable file ' + gamePathMacOS })
@@ -88,7 +100,7 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
 
               if (isMameEmulator || isMameRom) {
                 await emitEvent({ type: 'QPBackend', data: 'MAME game detected, running directly' })
-                await runGame(gamePathMacOS, emulatorName, mameName, parentName)
+                await runGame(gamePathMacOS, emulatorName, mameName, parentName, parameters, paramMode)
                 return files
               } else {
                 const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
@@ -98,12 +110,12 @@ async function examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulat
                     type: 'QPBackend',
                     data: 'running runnable iso file' + outputFile
                   }) //prettier-ignore
-                  await runGame(outputFile, emulatorName, mameName, parentName)
+                  await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
                   return files
                 } else {
                   const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
                   const outputFile = path.join(outputDirectory, pickedRom)
-                  await runGame(outputFile, emulatorName, mameName, parentName)
+                  await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
                   return files
                 }
               }
@@ -234,7 +246,14 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
   return result
 }
 
-async function runGame(outputFile: string, emulatorName: string, mameName?: string, parentName?: string) {
+async function runGame(
+  outputFile: string,
+  emulatorName: string,
+  mameName?: string,
+  parentName?: string,
+  parameters?: string,
+  paramMode?: string //well a stringified int
+) {
   console.log('runGame received these args:', outputFile, emulatorName, mameName, parentName)
   if (currentProcess) {
     logger.log(`fileOperations`, 'An emulator is already running. Please close it before launching a new game.')
@@ -245,8 +264,7 @@ async function runGame(outputFile: string, emulatorName: string, mameName?: stri
     return
   }
 
-
-  const splitMultiloaderCMD = command => {
+  const splitMultiloaderCMD = (command: string) => {
     const args = []
     const regex = /"([^"]*)"|(\S+)/g // Matches quoted strings or non-space sequences
 
@@ -282,8 +300,26 @@ async function runGame(outputFile: string, emulatorName: string, mameName?: stri
       //takes matchedEmultor.parameters, finds the word inside the two %% and returns the word
       const find = (str, start, end) => str.match(new RegExp(`${start}(.*?)${end}`))[1]
       const namedOutputType = find(matchedEmulator.parameters, '%', '%')
-      // Split parameters first
-      emuParams = matchedEmulator.parameters.split(' ')
+      let emuParamsStr = matchedEmulator.parameters.split(' ')
+      // Split parameters first, if we have 'parameters' in the romdata line use that instead of emu configs params
+      if (parameters) {
+        /*
+        //TROMParametersModeStr
+        0 = QP_ROM_PARAM_AFTER = 'After Emulators';
+        1 = QP_ROM_PARAM_OVERWRITE = 'Overwrite Emulators';
+        2 = QP_ROM_PARAM_BEFORE = 'Before Emulators';
+        3 = QP_ROM_PARAM_AFTER_NOSPACE = 'After Emulators with no space';
+        4 = QP_ROM_PARAM_BEFORE_NOSPACE = 'Before Emulators with no space';
+        */
+       const paramModeInt = paramMode? parseInt(paramMode) : NaN
+       if (paramModeInt == 0) { emuParamsStr = `${emuParamsStr} ${parameters}` }
+       if (paramModeInt == 1) { emuParamsStr = parameters}
+       if (paramModeInt == 2) { emuParamsStr = `${parameters} ${emuParamsStr}` }
+       if (paramModeInt == 3) { emuParamsStr = `${emuParamsStr}${parameters}` }
+       if (paramModeInt == 4) { emuParamsStr = `${parameters}${emuParamsStr}` }
+      }
+      //Now split the difference
+      emuParams = emuParamsStr.split(' ')
       // Find the parameter containing our placeholder
       const placeholderParam = emuParams.find(param => param.includes(`%${namedOutputType}%`))
       console.log(emuParams)
