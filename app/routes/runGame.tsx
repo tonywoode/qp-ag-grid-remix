@@ -301,7 +301,7 @@ async function runGame(
       const find = (str, start, end) => str.match(new RegExp(`${start}(.*?)${end}`))[1]
       const namedOutputType = find(matchedEmulator.parameters, '%', '%')
       let emuParamsStr = matchedEmulator.parameters.split(' ')
-      // Split parameters first, if we have 'parameters' in the romdata line use that instead of emu configs params
+      //if we have 'parameters' in the romdata line, incorporate it as specifed
       if (parameters) {
         /*
         //TROMParametersModeStr
@@ -318,7 +318,7 @@ async function runGame(
        if (paramModeInt == 3) { emuParamsStr = `${emuParamsStr}${parameters}` }
        if (paramModeInt == 4) { emuParamsStr = `${parameters}${emuParamsStr}` }
       }
-      //Now split the difference
+      //split the string to process
       emuParams = emuParamsStr.split(' ')
       // Find the parameter containing our placeholder
       const placeholderParam = emuParams.find(param => param.includes(`%${namedOutputType}%`))
