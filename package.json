@@ -25,7 +25,7 @@
       }
     ],
     "artifactName": "${productName}-${version}-${arch}.${ext}"
-  }
+  },
     "files": [
       "build",
       "desktop",
