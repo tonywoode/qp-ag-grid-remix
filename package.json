@@ -13,14 +13,19 @@
   },
   "//": "asarUnpacked: isexe included for fluent ffmpeg, rest required for node-7z-archive and its deps (node-7z-archive automatically included in asar_unpacked",
   "build": {
-    "mac": {
-      "target": {
-        "target": "default",
-        "arch": [
-          "x64"
-        ]
+   "mac": {
+    "target": [
+      {
+        "target": "zip",
+        "arch": ["x64"]
+      },
+      {
+        "target": "dmg",
+        "arch": ["x64"]
       }
-    },
+    ],
+    "artifactName": "${productName}-${version}-${arch}.${ext}"
+  }
     "files": [
       "build",
       "desktop",
