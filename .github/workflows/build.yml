@@ -23,17 +23,28 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Clear npm cache
-        run: npm cache clean --force
-
       - name: Install Dependencies
         run: npm ci
         timeout-minutes: 30
 
-      - name: Build/release Electron app
+      - name: Set electron-builder architecture for macOS
+        if: matrix.os == 'macos-latest'
+        run: |
+          echo "ELECTRON_BUILDER_ARCH=x64" >> $GITHUB_ENV
+
+      - name: Build/release Electron app for non-macOS
+        if: matrix.os != 'macos-latest'
         uses: Yan-Jobs/action-electron-builder@v1.7.0
         with:
           github_token: ${{ secrets.github_token }}
           release: ${{ startsWith(github.ref, 'refs/tags/v') }}
         env:
           CSC_IDENTITY_AUTO_DISCOVERY: false
+
+      - name: Build/release Electron app for macOS
+        if: matrix.os == 'macos-latest'
+        run: |
+          npx electron-builder --mac --x64 --publish=${{ startsWith(github.ref, 'refs/tags/v') && 'always' || 'never' }}
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: false
+          GH_TOKEN: ${{ secrets.github_token }}
