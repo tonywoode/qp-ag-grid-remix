@@ -18,11 +18,8 @@ jobs:
       - name: Install GTK+
         if: matrix.os == 'windows-latest'
         run: |
-          $url = "https://github.com/tschoonj/GTK/releases/download/gtk-2.24.33-x64/gtk-2.24.33-x64.7z"
-          $output = "gtk.7z"
-          Invoke-WebRequest -Uri $url -OutFile $output
-  
-          7z e $output -o"C:\GTK" -y
+          curl -L -o gtk.7z https://github.com/tschoonj/GTK/releases/download/gtk-2.24.33-x64/gtk-2.24.33-x64.7z
+          7z e gtk.7z -o"C:\GTK" -y
 
           # set environment variables
           [Environment]::SetEnvironmentVariable("GTK_HOME", "C:\GTK\bin", "User")
