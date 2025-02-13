@@ -23,10 +23,9 @@ jobs:
       - name: Update MSYS2 packages
         if: matrix.os == 'windows-latest'
         run: |
-          echo "::add-path::C:\\tools\\msys64\\usr\\bin"
           echo "C:\\tools\\msys64\\usr\\bin" >> $GITHUB_PATH
           C:\\tools\\msys64\\usr\\bin\\bash.exe -lc "pacman -Syu --noconfirm"
-  
+    
       - name: Install GTK+
         if: matrix.os == 'windows-latest'
         uses: nick-fields/retry@v2
@@ -34,8 +33,7 @@ jobs:
           timeout_minutes: 5
           max_attempts: 3
           command: |
-            echo "::add-path::C:\\tools\\msys64\\usr\\bin"
-             echo "C:\\tools\\msys64\\usr\\bin" >> $GITHUB_PATH
+            echo "C:\\tools\\msys64\\usr\\bin" >> $GITHUB_PATH
             C:\\tools\\msys64\\usr\\bin\\bash.exe -lc "pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm"
 
       - name: Cache node modules
