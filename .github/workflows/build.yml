@@ -5,26 +5,32 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+        os: [windows-latest]
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v1
 
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
+      - name: Clear npm cache
+        run: npm cache clean --force
+
+      - name: List npm cache contents before caching
+        run: ls -al ~/.npm
+
       - name: Cache node modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Clear npm cache
-        run: npm cache clean --force
+      - name: List npm cache contents after caching
+        run: ls -al ~/.npm
 
       - name: Retry failed step
         uses: nick-fields/retry@v2
