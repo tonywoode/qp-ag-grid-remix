@@ -18,13 +18,8 @@ jobs:
       - name: Install GTK+
         if: matrix.os == 'windows-latest'
         run: |
-          curl -L -o gtk.7z https://github.com/tschoonj/GTK/releases/download/gtk-2.24.33-x64/gtk-2.24.33-x64.7z
-          7z e gtk.7z -o"C:\GTK" -y
-
-          # set environment variables
-          [Environment]::SetEnvironmentVariable("GTK_HOME", "C:\GTK\bin", "User")
-          [Environment]::SetEnvironmentVariable("PATH", "$env:PATH;C:\GTK\bin", "User")
-        shell: pwsh
+          pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm
+        shell: msys2
 
       - name: Cache node modules
         uses: actions/cache@v4
