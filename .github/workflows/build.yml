@@ -1,4 +1,3 @@
-# filepath: /Users/twoode/CODE/Scripts/qp-ag-grid/qp-ag-grid-remix/qp-ag-grid-remix-electron/.github/workflows/build.yml
 name: Build/release
 on: push
 jobs:
@@ -23,6 +22,10 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+
+      - name: Clear npm cache
+        run: npm cache clean --force
+
       - name: Retry failed step
         uses: nick-fields/retry@v2
         with:
