@@ -24,9 +24,8 @@ jobs:
         if: matrix.os == 'windows-latest'
         run: |
           echo "::add-path::C:\\tools\\msys64\\usr\\bin"
-          C:\\tools\\msys64\\usr\\bin\\pacman -Syu --noconfirm
-        shell: C:\\tools\\msys64\\usr\\bin\\bash.exe
-  
+          C:\\tools\\msys64\\usr\\bin\\bash.exe -lc "pacman -Syu --noconfirm"
+    
       - name: Install GTK+
         if: matrix.os == 'windows-latest'
         uses: nick-fields/retry@v2
@@ -35,8 +34,7 @@ jobs:
           max_attempts: 3
           command: |
             echo "::add-path::C:\\tools\\msys64\\usr\\bin"
-            pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm
-          shell: C:\\tools\\msys64\\usr\\bin\\bash.exe
+            C:\\tools\\msys64\\usr\\bin\\bash.exe -lc "pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm"
 
       - name: Cache node modules
         uses: actions/cache@v4
