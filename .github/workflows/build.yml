@@ -15,16 +15,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Set bash on windows
-        if: matrix.os == 'windows-latest'
-        run: echo "Setting bash as default shell"
-        shell: bash
-
-      - name: List npm cache contents before caching
-        if: matrix.os == 'windows-latest'
-        run: ls -al ~/.npm
-        shell: bash
-
       - name: Cache node modules
         uses: actions/cache@v4
         with:
@@ -33,26 +23,24 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: List npm cache contents after caching
-        if: matrix.os == 'windows-latest'
-        run: ls -al ~/.npm
-        shell: bash
-
       - name: Retry failed step
         uses: nick-fields/retry@v2
         with:
           timeout_minutes: 5
           max_attempts: 3
-          command: npm ci
+          command: npm ci --verbose
+          shell: bash
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm ci --verbose
         timeout-minutes: 30
+        shell: bash
 
       - name: Set electron-builder architecture for macOS
         if: matrix.os == 'macos-latest'
         run: |
           echo "ELECTRON_BUILDER_ARCH=x64" >> $GITHUB_ENV
+        shell: bash
 
       - name: Build/release Electron app for non-macOS
         if: matrix.os != 'macos-latest'
@@ -68,6 +56,7 @@ jobs:
         run: |
           npx electron-builder --mac --x64 --publish=${{ startsWith(github.ref, 'refs/tags/v') && 'always' || 'never' }}
           chmod +r node_modules/node-unar/lsar node_modules/node-unar/unar
+        shell: bash
         env:
           CSC_IDENTITY_AUTO_DISCOVERY: false
           GH_TOKEN: ${{ secrets.github_token }}
