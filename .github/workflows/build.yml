@@ -25,7 +25,7 @@ jobs:
         run: |
           echo "::add-path::C:\\tools\\msys64\\usr\\bin"
           C:\\tools\\msys64\\usr\\bin\\pacman -Syu --noconfirm
-        shell: msys2
+        shell: C:\\tools\\msys64\\usr\\bin\\bash.exe
   
       - name: Install GTK+
         if: matrix.os == 'windows-latest'
@@ -36,7 +36,7 @@ jobs:
           command: |
             echo "::add-path::C:\\tools\\msys64\\usr\\bin"
             pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm
-          shell: msys2
+          shell: C:\\tools\\msys64\\usr\\bin\\bash.exe
 
       - name: Cache node modules
         uses: actions/cache@v4
