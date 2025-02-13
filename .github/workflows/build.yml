@@ -19,19 +19,24 @@ jobs:
         if: matrix.os == 'windows-latest'
         run: |
           choco install msys2 --confirm
-          refreshenv
             
       - name: Update MSYS2 packages
         if: matrix.os == 'windows-latest'
         run: |
+          echo "::add-path::C:\\tools\\msys64\\usr\\bin"
           pacman -Syu --noconfirm
         shell: msys2
   
       - name: Install GTK+
         if: matrix.os == 'windows-latest'
-        run: |
-          pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm
-        shell: msys2
+        uses: nick-fields/retry@v2
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          command: |
+            echo "::add-path::C:\\tools\\msys64\\usr\\bin"
+            pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm
+          shell: msys2
 
       - name: Cache node modules
         uses: actions/cache@v4
