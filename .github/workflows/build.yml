@@ -15,12 +15,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Windows Build Tools
-        if: matrix.os == 'windows-latest'
-        run: |
-          npm install --global windows-build-tools
-        shell: bash
-
       - name: Install GTK+
         if: matrix.os == 'windows-latest'
         run: |
