@@ -300,7 +300,7 @@ async function runGame(
       //takes matchedEmultor.parameters, finds the word inside the two %% and returns the word
       const find = (str, start, end) => str.match(new RegExp(`${start}(.*?)${end}`))[1]
       const namedOutputType = find(matchedEmulator.parameters, '%', '%')
-      let emuParamsStr = matchedEmulator.parameters.split(' ')
+      let emuParamsStr = matchedEmulator.parameters
       //if we have 'parameters' in the romdata line, incorporate it as specifed
       if (parameters) {
         /*
@@ -311,12 +311,22 @@ async function runGame(
         3 = QP_ROM_PARAM_AFTER_NOSPACE = 'After Emulators with no space';
         4 = QP_ROM_PARAM_BEFORE_NOSPACE = 'Before Emulators with no space';
         */
-       const paramModeInt = paramMode? parseInt(paramMode) : NaN
-       if (paramModeInt == 0) { emuParamsStr = `${emuParamsStr} ${parameters}` }
-       if (paramModeInt == 1) { emuParamsStr = parameters}
-       if (paramModeInt == 2) { emuParamsStr = `${parameters} ${emuParamsStr}` }
-       if (paramModeInt == 3) { emuParamsStr = `${emuParamsStr}${parameters}` }
-       if (paramModeInt == 4) { emuParamsStr = `${parameters}${emuParamsStr}` }
+        const paramModeInt = paramMode ? parseInt(paramMode) : NaN
+        if (paramModeInt == 0) {
+          emuParamsStr = `${emuParamsStr} ${parameters}`
+        }
+        if (paramModeInt == 1) {
+          emuParamsStr = parameters
+        }
+        if (paramModeInt == 2) {
+          emuParamsStr = `${parameters} ${emuParamsStr}`
+        }
+        if (paramModeInt == 3) {
+          emuParamsStr = `${emuParamsStr}${parameters}`
+        }
+        if (paramModeInt == 4) {
+          emuParamsStr = `${parameters}${emuParamsStr}`
+        }
       }
       //split the string to process
       emuParams = emuParamsStr.split(' ')
