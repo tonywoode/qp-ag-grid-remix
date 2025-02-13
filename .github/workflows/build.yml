@@ -15,11 +15,15 @@ jobs:
         with:
           node-version: 20
 
-      - name: Clear npm cache
-        run: npm cache clean --force
+      - name: Set bash on windows
+        if: matrix.os == 'windows-latest'
+        run: echo "Setting bash as default shell"
+        shell: bash
 
       - name: List npm cache contents before caching
+        if: matrix.os == 'windows-latest'
         run: ls -al ~/.npm
+        shell: bash
 
       - name: Cache node modules
         uses: actions/cache@v4
@@ -30,7 +34,9 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: List npm cache contents after caching
+        if: matrix.os == 'windows-latest'
         run: ls -al ~/.npm
+        shell: bash
 
       - name: Retry failed step
         uses: nick-fields/retry@v2
