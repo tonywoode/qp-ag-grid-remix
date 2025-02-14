@@ -55,14 +55,9 @@ jobs:
       #     max_attempts: 3
       #     command: npm i --verbose --no-optional
       #     shell: bash
-      - name: Change permissions of node_modules
-        if: matrix.os == 'windows-latest'
-        run: |
-          icacls node_modules /grant:r everyone:(oi)(ci)m
-        shell: cmd
 
       - name: Install Dependencies
-        run: npm i --verbose --omit=optional
+        run: npm i --verbose --omit=optional --no-package-lock
         timeout-minutes: 30
         shell: bash
 
