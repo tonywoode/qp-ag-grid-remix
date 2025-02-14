@@ -36,6 +36,10 @@ jobs:
             echo "C:\\tools\\msys64\\usr\\bin" >> $GITHUB_PATH
             C:\\tools\\msys64\\usr\\bin\\bash.exe -lc "pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm"
 
+      - name: Set GTK_HOME environment variable
+        if: matrix.os == 'windows-latest'
+        run: echo "GTK_HOME=C:\\tools\\msys64\\mingw64" >> $GITHUB_ENV
+
       - name: Cache node modules
         uses: actions/cache@v4
         with:
