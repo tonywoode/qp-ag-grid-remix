@@ -48,13 +48,13 @@ jobs:
       #     restore-keys: |
       #       ${{ runner.os }}-node-
 
-      - name: Retry failed step
-        uses: nick-fields/retry@v2
-        with:
-          timeout_minutes: 5
-          max_attempts: 3
-          command: npm i --verbose --no-optional
-          shell: bash
+      # - name: Retry failed step
+      #   uses: nick-fields/retry@v2
+      #   with:
+      #     timeout_minutes: 5
+      #     max_attempts: 3
+      #     command: npm i --verbose --no-optional
+      #     shell: bash
 
       - name: Install Dependencies
         run: npm  --verbose --no-optional
