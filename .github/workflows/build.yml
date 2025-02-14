@@ -57,7 +57,7 @@ jobs:
       #     shell: bash
 
       - name: Install Dependencies
-        run: yarn i --verbose --omit=optional --no-package-lock
+        run: yarn install --verbose --omit=optional --no-package-lock
         timeout-minutes: 30
         shell: bash
 
