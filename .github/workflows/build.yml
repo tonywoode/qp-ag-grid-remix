@@ -73,7 +73,7 @@ jobs:
 
       - name: Build/release Electron app for non-macOS
         if: matrix.os != 'macos-latest'
-        uses: johannesjo/action-electron-builder@v1.7.0
+        uses: johannesjo/action-electron-builder@v1
         with:
           skip_install: true
           github_token: ${{ secrets.github_token }}
