@@ -15,30 +15,30 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install MSYS2
-        if: matrix.os == 'windows-latest'
-        run: |
-          choco install msys2 --confirm
+      # - name: Install MSYS2
+      #   if: matrix.os == 'windows-latest'
+      #   run: |
+      #     choco install msys2 --confirm
             
-      - name: Update MSYS2 packages
-        if: matrix.os == 'windows-latest'
-        run: |
-          echo "C:\\tools\\msys64\\usr\\bin" >> $GITHUB_PATH
-          C:\\tools\\msys64\\usr\\bin\\bash.exe -lc "pacman -Syu --noconfirm"
+      # - name: Update MSYS2 packages
+      #   if: matrix.os == 'windows-latest'
+      #   run: |
+      #     echo "C:\\tools\\msys64\\usr\\bin" >> $GITHUB_PATH
+      #     C:\\tools\\msys64\\usr\\bin\\bash.exe -lc "pacman -Syu --noconfirm"
     
-      - name: Install GTK+
-        if: matrix.os == 'windows-latest'
-        uses: nick-fields/retry@v2
-        with:
-          timeout_minutes: 5
-          max_attempts: 3
-          command: |
-            echo "C:\\tools\\msys64\\usr\\bin" >> $GITHUB_PATH
-            C:\\tools\\msys64\\usr\\bin\\bash.exe -lc "pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm"
+      # - name: Install GTK+
+      #   if: matrix.os == 'windows-latest'
+      #   uses: nick-fields/retry@v2
+      #   with:
+      #     timeout_minutes: 5
+      #     max_attempts: 3
+      #     command: |
+      #       echo "C:\\tools\\msys64\\usr\\bin" >> $GITHUB_PATH
+      #       C:\\tools\\msys64\\usr\\bin\\bash.exe -lc "pacman -S mingw-w64-ucrt-x86_64-gtk3 --noconfirm"
 
-      - name: Set GTK_HOME environment variable
-        if: matrix.os == 'windows-latest'
-        run: echo "GTK_HOME=C:\\tools\\msys64\\mingw64" >> $GITHUB_ENV
+      # - name: Set GTK_HOME environment variable
+      #   if: matrix.os == 'windows-latest'
+      #   run: echo "GTK_HOME=C:\\tools\\msys64\\mingw64" >> $GITHUB_ENV
 
       - name: Cache node modules
         uses: actions/cache@v4
@@ -57,7 +57,7 @@ jobs:
           shell: bash
 
       - name: Install Dependencies
-        run: npm ci --verbose
+        run: npm ci --verbose --no-optional
         timeout-minutes: 30
         shell: bash
 
