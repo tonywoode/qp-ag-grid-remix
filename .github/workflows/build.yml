@@ -59,7 +59,7 @@ jobs:
         if: matrix.os == 'windows-latest'
         run: |
           icacls node_modules /grant:r everyone:(oi)(ci)m
-        shell: bash
+        shell: cmd
 
       - name: Install Dependencies
         run: npm i --verbose --omit=optional
