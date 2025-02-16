@@ -66,7 +66,7 @@ jobs:
         shell: bash
 
       - name: Install TSC
-        run: yarn install tsc
+        run: yarn add tsc
         timeout-minutes: 30
         shell: bash
 
