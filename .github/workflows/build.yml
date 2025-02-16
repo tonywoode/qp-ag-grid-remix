@@ -66,7 +66,7 @@ jobs:
         shell: bash
 
       - name: run build on node7z-archive
-        run: cd node_modules/node-7z-archive && yarn add tsc && yarn run build
+        run: cd node_modules/node-7z-archive && yarn add tsc && yarn run build node-7z-archive
         shell: bash
 
       - name: cd back to home
