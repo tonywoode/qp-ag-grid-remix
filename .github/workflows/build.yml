@@ -65,13 +65,8 @@ jobs:
         run: rm -rf node_modules/canvas
         shell: bash
 
-      - name: Install TSC
-        run: yarn add tsc
-        timeout-minutes: 30
-        shell: bash
-
       - name: run build on node7z-archive
-        run: cd node_modules/node-7z-archive && yarn run build
+        run: cd node_modules/node-7z-archive && yarn add tsc && yarn run build
         shell: bash
 
       - name: cd back to home
