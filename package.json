@@ -1,7 +1,7 @@
 {
   "name": "remix-electron-template",
   "description": "",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": true,
   "main": "desktop/index.js",
   "sideEffects": false,
@@ -13,37 +13,6 @@
   },
   "//": "asarUnpacked: isexe included for fluent ffmpeg, rest required for node-7z-archive and its deps (node-7z-archive automatically included in asar_unpacked",
   "build": {
-    "mac": {
-      "target": [
-        {
-          "target": "zip",
-          "arch": [
-            "x64"
-          ]
-        },
-        {
-          "target": "dmg",
-          "arch": [
-            "x64"
-          ]
-        }
-      ],
-      "artifactName": "${productName}-${version}-x64.${ext}",
-      "electronLanguages": [
-        "en"
-      ]
-    },
-    "win": {
-      "target": [
-        "portable"
-      ]
-    },
-    "portable": {
-      "artifactName": "theportableone.exe"
-    },
-    "electronDownload": {
-      "arch": "x64"
-    },
     "files": [
       "build",
       "desktop",
