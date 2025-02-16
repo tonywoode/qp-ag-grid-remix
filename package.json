@@ -1,7 +1,7 @@
 {
   "name": "remix-electron-template",
   "description": "",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "private": true,
   "main": "desktop/index.js",
   "sideEffects": false,
@@ -92,7 +92,7 @@
     "@types/react-resizable": "^3.0.6",
     "cross-env": "^7.0.3",
     "electron": "^34.2.0",
-    "electron-builder": "^24.6.4",
+    "electron-builder": "^25.1.8",
     "electron-devtools-installer": "^3.2.0",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
