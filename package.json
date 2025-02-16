@@ -28,18 +28,18 @@
           ]
         }
       ],
-      "win": {
-        "target": [
-          "portable"
-        ]
-      },
-      "portable": {
-        "artifactName": "theportableone.exe"
-      },
       "artifactName": "${productName}-${version}-x64.${ext}",
       "electronLanguages": [
         "en"
       ]
+    },
+    "win": {
+      "target": [
+        "portable"
+      ]
+    },
+    "portable": {
+      "artifactName": "theportableone.exe"
     },
     "electronDownload": {
       "arch": "x64"
