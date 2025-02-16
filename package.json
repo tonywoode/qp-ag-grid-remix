@@ -1,7 +1,7 @@
 {
   "name": "remix-electron-template",
   "description": "",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "private": true,
   "main": "desktop/index.js",
   "sideEffects": false,
@@ -46,7 +46,8 @@
       "node_modules/universalify/**/*",
       "node_modules/graceful-fs/**/*",
       "node_modules/jsonfile/**/*",
-      "node_modules/async/**/*"
+      "node_modules/async/**/*",
+      "node_modules/which/**/*"
     ]
   },
   "dependencies": {
