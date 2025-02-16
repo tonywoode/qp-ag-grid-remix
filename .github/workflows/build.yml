@@ -65,13 +65,13 @@ jobs:
         run: rm -rf node_modules/canvas
         shell: bash
 
-      # - name: run build on node7z-archive
-      #   run: cd node_modules/node-7z-archive && yarn add tsc && yarn run build
-      #   shell: bash
+      - name: run build on node7z-archive
+        run: cd node_modules/node-7z-archive && yarn add tsc && yarn run build
+        shell: bash
 
-      # - name: cd back to home
-      #   run: cd ../..
-      #   shell: bash
+      - name: cd back to home
+        run: cd ../..
+        shell: bash
 
       - name: Set electron-builder architecture for macOS
         if: matrix.os == 'macos-latest'
