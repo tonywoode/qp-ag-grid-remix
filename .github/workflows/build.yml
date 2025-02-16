@@ -76,7 +76,7 @@ jobs:
         uses: johannesjo/action-electron-builder@v1
         with:
           skip_install: true
-          args: '{"win": {"target": ["portable"]}}'
+          args: "--config.win.portable=true"
           github_token: ${{ secrets.github_token }}
           release: ${{ startsWith(github.ref, 'refs/tags/v') }}
         env:
