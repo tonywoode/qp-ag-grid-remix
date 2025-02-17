@@ -80,7 +80,7 @@ jobs:
       #   shell: bash
 
       - name: run build on node7z-archive
-        run: cd node_modules/node-7z-archive && npm run build node-7z-archive
+        run: cd node_modules/node-7z-archive && node installer.mjs
         shell: bash
 
       - name: cd back to home
