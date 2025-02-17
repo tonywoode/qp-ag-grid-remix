@@ -62,9 +62,9 @@ jobs:
         timeout-minutes: 30
         shell: bash
 
-      # - name: delete canvas
-      #   run: rm -rf node_modules/canvas
-      #   shell: bash
+      - name: delete canvas #https://github.com/mozilla/pdf.js/issues/15652
+        run: rm -rf node_modules/canvas
+        shell: bash
 
       # - name: run build on node7z-archive
       #   run: cd node_modules/node-7z-archive && yarn add tsc && yarn run build node-7z-archive
