@@ -1,7 +1,7 @@
 {
   "name": "remix-electron-template",
   "description": "",
-  "version": "0.0.24",
+  "version": "0.0.28",
   "private": true,
   "main": "desktop/index.js",
   "sideEffects": false,
@@ -58,6 +58,7 @@
     "@szhsin/react-menu": "^4.1.0",
     "ag-grid-community": "^30.2.0",
     "ag-grid-react": "^30.2.0",
+    "canvas": "^3.1.0",
     "clsx": "^2.1.1",
     "electron-log": "^5.3.0",
     "ffmpeg-static": "^5.2.0",
