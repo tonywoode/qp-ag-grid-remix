@@ -3,6 +3,7 @@ import { join } from 'path'
 import electron from '~/electron.server'
 import { pathToFileURL } from 'url'
 
+//TODO: this can prob be simplified to match ffmpegStaaticLoader.server
 export async function loadNode7z() {
   let unpackedPath = electron.app.isPackaged
     ? join(process.resourcesPath, 'app.asar.unpacked', 'node_modules', 'node-7z-archive', 'lib', 'index.js')
