@@ -11,6 +11,13 @@ import { emitter } from '~/utils/emitter.server'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 import { loadNode7z } from '~/utils/node7zLoader.server'
 
+//node-7z-archive is not fond of backslashes in paths, so make ALL paths forward slashes
+// Ensure paths use forward slashes
+function normalizePath(p: string) {
+  return p.split(path.sep).join('/')
+}
+
+
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
 
@@ -45,7 +52,7 @@ export async function action({ request }: ActionFunctionArgs) {
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertPathToOSPath(gamePath)
   const outputDirectory = setTempDir()
-  const gameExtension = path.extname(gamePathMacOS).toLowerCase()
+  const gameExtension = normalizePath(path.extname(gamePathMacOS).toLowerCase())
   //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
   const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
 
@@ -75,7 +82,7 @@ async function examineZip(
   if (fileInZipToRun) {
     await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + fileInZipToRun })
     await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
-    const outputFile = path.join(outputDirectory, fileInZipToRun)
+    const outputFile = normalizePath(path.join(outputDirectory, fileInZipToRun))
     runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
   } else {
     logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
@@ -105,7 +112,7 @@ async function examineZip(
               } else {
                 const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
                 if (pickedRom) {
-                  const outputFile = path.join(outputDirectory, pickedRom)
+                  const outputFile = normalizePath(path.join(outputDirectory, pickedRom))
                   await emitEvent({
                     type: 'QPBackend',
                     data: 'running runnable iso file' + outputFile
@@ -114,7 +121,7 @@ async function examineZip(
                   return files
                 } else {
                   const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
-                  const outputFile = path.join(outputDirectory, pickedRom)
+                  const outputFile = normalizePath(path.join(outputDirectory, pickedRom))
                   await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
                   return files
                 }
