@@ -1,0 +1,11 @@
+[
+  { "feature": "remixRoutes", "enabled": true },
+  { "feature": "gridOperations", "enabled": true },
+  { "feature": "fileOperations", "enabled": true },
+  { "feature": "pathConversion", "enabled": false },
+  { "feature": "goodMergeChoosing", "enabled": true },
+  { "feature": "screenshots", "enabled": false },
+  { "feature": "tabContent", "enabled": true },
+  { "feature": "icons", "enabled": false },
+  { "feature": "lightbox", "enabled": false }
+]

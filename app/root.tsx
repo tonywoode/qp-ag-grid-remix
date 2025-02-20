@@ -20,17 +20,7 @@ import { Node } from '~/components/Node'
 //configure and export logging per-domain feature
 //todo: user-enablable - split out to json/global flag?)
 import { createFeatureLogger } from '~/utils/featureLogger'
-const loggerConfig = [
-  { feature: 'remixRoutes', enabled: false },
-  { feature: 'gridOperations', enabled: false },
-  { feature: 'fileOperations', enabled: true },
-  { feature: 'pathConversion', enabled: false },
-  { feature: 'goodMergeChoosing', enabled: false },
-  { feature: 'screenshots', enabled: false },
-  { feature: 'tabContent', enabled: false },
-  { feature: 'icons', enabled: false },
-  { feature: 'lightbox', enabled: false }
-]
+import loggerConfig from '../loggerConfig.json'
 export const logger = createFeatureLogger(loggerConfig)
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
