@@ -50,7 +50,7 @@ export async function action({ request }: ActionFunctionArgs) {
   })
   await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
-  const gamePathMacOS = convertPathToOSPath(gamePath)
+  const gamePathMacOS = normalizePath(convertPathToOSPath(gamePath))
   const outputDirectory = setTempDir()
   const gameExtension = normalizePath(path.extname(gamePathMacOS).toLowerCase())
   //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
