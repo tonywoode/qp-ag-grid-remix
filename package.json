@@ -1,5 +1,5 @@
 {
-  "name": "remix-electron-template",
+  "name": "quickPlayJS-dogfood-edition",
   "description": "",
   "version": "0.0.0",
   "private": true,
@@ -9,7 +9,7 @@
     "dev": "cross-env NODE_ENV=development remix dev --command \"nodemon .\" --manual",
     "build": "chmod +r node_modules/node-unar/lsar node_modules/node-unar/unar && remix build",
     "buildLocal": "npm run build && electron-builder",
-    "buildLocalWin": "npm run build && electron-builder --win --x64",
+    "buildLocalWinOnOtherOS": "npm run installAllBinaries --prefix ./node_modules/node-7z-archive && npm run build && electron-builder --win --x64",
     "start": "cross-env NODE_ENV=production electron ."
   },
   "//": "asarUnpacked: isexe included for fluent ffmpeg, rest (including root fsextra install) required for node-7z-archive and its deps (node-7z-archive automatically included in asar_unpacked",
