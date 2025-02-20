@@ -1,0 +1,77 @@
+name: Build/release
+on: push
+jobs:
+  release:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest]
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v1
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # - name: Cache node modules
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: ~/.npm
+      #     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-node-
+
+      # - name: Retry failed step
+      #   uses: nick-fields/retry@v2
+      #   with:
+      #     timeout_minutes: 5
+      #     max_attempts: 3
+      #     command: npm i --verbose --no-optional
+      #     shell: bash
+
+      - name: Install Dependencies
+        run: npm install --verbose
+        timeout-minutes: 30
+        shell: bash
+
+     # introduce a delay to help nod7z-archive build (prob defunct as we manually install later)
+      - name: delay
+        run: sleep 10
+        shell: bash
+
+      - name: delete canvas #https://github.com/mozilla/pdf.js/issues/15652
+        run: rm -rf node_modules/canvas
+        shell: bash
+
+      - name: run build on node7z-archive
+        run: cd node_modules/node-7z-archive && node installer.mjs && cd ../..
+        shell: bash
+
+      - name: Set electron-builder architecture for macOS
+        if: matrix.os == 'macos-latest'
+        run: |
+          echo "ELECTRON_BUILDER_ARCH=x64" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Build/release Electron app for non-macOS
+        if: matrix.os != 'macos-latest'
+        uses: johannesjo/action-electron-builder@v1
+        with:
+          skip_install: true
+          # args: "--config.win.portable=true"
+          github_token: ${{ secrets.github_token }}
+          release: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: false
+
+      - name: Build/release Electron app for macOS
+        if: matrix.os == 'macos-latest'
+        run: |
+          npx electron-builder --mac --x64 --publish=${{ startsWith(github.ref, 'refs/tags/v') && 'always' || 'never' }}
+          chmod +r node_modules/node-unar/lsar node_modules/node-unar/unar
+        shell: bash
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: false
+          GH_TOKEN: ${{ secrets.github_token }}
