@@ -95,7 +95,7 @@ jobs:
         # behaviour of not overwriting the existing file named `ffmpeg`.
         run: |
           mv node_modules/ffmpeg-static/ffmpeg{,-arm64}
-          rm -f node_modules/ffmpeg-static/ffmpeg
+          # rm -f node_modules/ffmpeg-static/ffmpeg
           npm_config_arch=x64 npm rebuild --cpu x64 -f ffmpeg-static && mv node_modules/ffmpeg-static/ffmpeg{,-x64}
           # npm_config_arch=arm64 npm rebuild --cpu arm64 -f ffmpeg-static && mv node_modules/ffmpeg-static/ffmpeg{,-arm64}
           cd node_modules/ffmpeg-static
