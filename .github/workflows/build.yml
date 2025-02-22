@@ -94,6 +94,7 @@ jobs:
         # "build:ci" step, so we're relying on ffmpeg-static install.js's
         # behaviour of not overwriting the existing file named `ffmpeg`.
         run: |
+          ls -la node_modules/ffmpeg-static/ffmpeg
           mv node_modules/ffmpeg-static/ffmpeg{,-arm64}
           # rm -f node_modules/ffmpeg-static/ffmpeg
           npm_config_arch=x64 npm rebuild --cpu x64 -f ffmpeg-static && mv node_modules/ffmpeg-static/ffmpeg{,-x64}
