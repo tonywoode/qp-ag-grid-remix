@@ -7,7 +7,7 @@ jobs:
       matrix:
         #os: [macos-latest, ubuntu-latest, windows-latest]
         #os: [windows-latest]
-        os: [macos-latest]
+        os: [macos-latest] #we could use macos-13 here to get an x64 ffmpeg exe but see further....
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v1
@@ -77,6 +77,31 @@ jobs:
         env:
           CSC_IDENTITY_AUTO_DISCOVERY: false
           GH_TOKEN: ${{ secrets.github_token }}
+
+      # thanks https://github.com/eugeneware/ffmpeg-static/issues/35#issuecomment-2315640401
+      - name: Create universal ffmpeg binaries for macOS
+        if: startsWith(matrix.os, 'macos')
+        # Currently, the ffmpeg-static binaries are not universal (Not
+        # their fault, we thank them for their useful package, the issue
+        # is that there don't seem to be well known upstream sources that
+        # provide a universal binary).
+        #
+        # As a workaround, we invoke ffmpeg-static twice to download both
+        # the Intel and ARM binaries, and combine them into a single
+        # universal binary using lipo.
+        #
+        # Note that the yarn install will run again, as part of the
+        # "build:ci" step, so we're relying on ffmpeg-static install.js's
+        # behaviour of not overwriting the existing file named `ffmpeg`.
+        run: |
+          rm -f node_modules/ffmpeg-static/ffmpeg
+          npm_config_arch=arm64 yarn add --check-files ffmpeg-static
+          mv node_modules/ffmpeg-static/ffmpeg ffmpeg-arm64
+          npm_config_arch=x64 yarn add --check-files ffmpeg-static
+          mv node_modules/ffmpeg-static/ffmpeg ffmpeg-x64
+          lipo -create ffmpeg-arm64 ffmpeg-x64 -output node_modules/ffmpeg-static/ffmpeg
+          rm ffmpeg-arm64 ffmpeg-x64
+          file node_modules/ffmpeg-static/ffmpeg  # print what we ended up with
 
       - name: Build/release Electron app for macOS
         if: matrix.os == 'macos-latest'
