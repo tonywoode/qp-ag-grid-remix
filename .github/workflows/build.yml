@@ -96,11 +96,11 @@ jobs:
         run: |
           rm -f node_modules/ffmpeg-static
           npm_config_arch=arm64 npm install ffmpeg-static
-          mv node_modules/ffmpeg-static/ffmpeg ffmpeg-arm64
-          rm -f node_modules/ffmpeg-statics
+          mv node_modules/ffmpeg-static/ffmpeg node_modules/ffmpeg-arm64
+          rm -f node_modules/ffmpeg-static
           npm_config_arch=x64 yarn npm install ffmpeg-static
-          mv node_modules/ffmpeg-static/ffmpeg ffmpeg-x64
-          lipo -create ffmpeg-arm64 ffmpeg-x64 -output node_modules/ffmpeg-static/ffmpeg
+          mv node_modules/ffmpeg-static/ffmpeg node_modules/ffmpeg-x64
+          lipo -create node_modules/ffmpeg-arm64 node_modules/ffmpeg-x64 -output node_modules/ffmpeg-static/ffmpeg
           rm ffmpeg-arm64 ffmpeg-x64
           file node_modules/ffmpeg-static/ffmpeg  # print what we ended up with
 
