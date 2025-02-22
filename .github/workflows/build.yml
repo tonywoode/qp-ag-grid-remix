@@ -89,11 +89,12 @@ jobs:
         # so switch it out and back again instead
         run: |
           ls -la node_modules/ffmpeg-static/ffmpeg
-          cp node_modules/ffmpeg-static/ffmpeg /tmp/ffmpeg-arm64
-          # mv node_modules/ffmpeg-static/ffmpeg{,-arm64}
+          cp node_modules/ffmpeg-static/ffmpeg /tmp/ffmpeg-backup
+          mv node_modules/ffmpeg-static/ffmpeg{,-arm64}
           # rm -f node_modules/ffmpeg-static/ffmpeg
-          npm_config_arch=x64 npm rebuild -f ffmpeg-static && mv node_modules/ffmpeg-static/ffmpeg{,-x64}
-          cp /tmp/ffmpeg-arm64 node_modules/ffmpeg-static/ffmpeg-arm64
+          npm_config_arch=x64 npm rebuild --cpu x64 -f ffmpeg-static && mv node_modules/ffmpeg-static/ffmpeg{,-x64}
+          ls -la node_modules/ffmpeg-static
+          cp /tmp/ffmpeg-backup node_modules/ffmpeg-static/ffmpeg
           ls -la node_modules/ffmpeg-static/ffmpeg
           # npm_config_arch=arm64 npm rebuild --cpu arm64 -f ffmpeg-static && mv node_modules/ffmpeg-static/ffmpeg{,-arm64}
           cd node_modules/ffmpeg-static
