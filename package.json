@@ -33,6 +33,22 @@
         "from": "assets",
         "to": "assets"
       }
+    ],
+    "asarUnpack": [
+      "node_modules/fluent-ffmpeg/**/*",
+      "node_modules/ffmpeg-static/**/*",
+      "node_modules/isexe/**/*",
+      "node_modules/when/**/*",
+      "node_modules/fs-extra/**/*",
+      "node_modules/minimist/**/*",
+      "node_modules/node-sys/**/*",
+      "node_modules/node-unar/**/*",
+      "node_modules/node-wget-fetch/**/*",
+      "node_modules/universalify/**/*",
+      "node_modules/graceful-fs/**/*",
+      "node_modules/jsonfile/**/*",
+      "node_modules/async/**/*",
+      "node_modules/which/**/*"
     ]
   },
   "dependencies": {
