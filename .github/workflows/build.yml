@@ -94,9 +94,10 @@ jobs:
         # "build:ci" step, so we're relying on ffmpeg-static install.js's
         # behaviour of not overwriting the existing file named `ffmpeg`.
         run: |
-          rm -f node_modules/ffmpeg-static/ffmpeg
+          rm -f node_modules/ffmpeg-static
           npm_config_arch=arm64 npm install ffmpeg-static
           mv node_modules/ffmpeg-static/ffmpeg ffmpeg-arm64
+          rm -f node_modules/ffmpeg-statics
           npm_config_arch=x64 yarn npm install ffmpeg-static
           mv node_modules/ffmpeg-static/ffmpeg ffmpeg-x64
           lipo -create ffmpeg-arm64 ffmpeg-x64 -output node_modules/ffmpeg-static/ffmpeg
