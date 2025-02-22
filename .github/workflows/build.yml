@@ -98,7 +98,7 @@ jobs:
           npm_config_arch=arm64 npm install ffmpeg-static
           mv node_modules/ffmpeg-static/ffmpeg node_modules/ffmpeg-arm64
           rm -rf node_modules/ffmpeg-static
-          npm_config_arch=x64 yarn npm install ffmpeg-static
+          npm_config_arch=x64 npm install ffmpeg-static
           mv node_modules/ffmpeg-static/ffmpeg node_modules/ffmpeg-x64
           lipo -create node_modules/ffmpeg-arm64 node_modules/ffmpeg-x64 -output node_modules/ffmpeg-static/ffmpeg
           rm ffmpeg-arm64 ffmpeg-x64
