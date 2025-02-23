@@ -6,7 +6,6 @@ jobs:
     strategy:
       matrix:
         #os: [macos-latest, ubuntu-latest, windows-latest]
-        #os: [windows-latest]
         os: [macos-latest, windows-latest] #we could use macos-13 here to get an x64 ffmpeg exe but see further....
     steps:
       - name: Check out Git repository
@@ -22,6 +21,7 @@ jobs:
         timeout-minutes: 30
         shell: bash
 
+      #backend only, long overdue for removal, do NOT try and build with this, this is the easiest way to not fail the windows build 
       - name: delete canvas #https://github.com/mozilla/pdf.js/issues/15652
         run: rm -rf node_modules/canvas
         shell: bash
