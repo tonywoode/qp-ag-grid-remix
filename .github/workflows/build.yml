@@ -82,24 +82,15 @@ jobs:
       # so thanks https://github.com/eugeneware/ffmpeg-static/issues/35#issuecomment-2315640401
       - name: Create universal ffmpeg binaries for macOS
         if: startsWith(matrix.os, 'macos')
-        # Currently, the ffmpeg-static binaries are not universal, there don't seem to be well known upstream sources that provide a universal binary).
-        # As a workaround, invoke ffmpeg-static install again, after the arm binary has built, to build the x64 binary
-        # then combine them into a single universal binary using lipo.
-        # Manav's initial solution used yarn, which plays havoc with npm, using npm's rebuild step removes the arm binary with his soluition
-        # so switch it out and back again instead
+        # Currently, the ffmpeg-static binaries are not universal, there don't seem to be well known upstream sources that provide a universal binary
+        # As a workaround, invoke ffmpeg-static install again, after the arm binary has built, to build the x64 binary amd combine into universal binary using lipo
+        # Manav's initial solution used yarn, which plays havoc with npm, instead just rebuild once with npm
+        # this does make the ffmpeg binary much larger than it needs to be however, so are we making 2 builds or not?
         run: |
-          ls -la node_modules/ffmpeg-static/ffmpeg
-          #cp node_modules/ffmpeg-static/ffmpeg /tmp/ffmpeg-backup
           mv node_modules/ffmpeg-static/ffmpeg{,-arm64}
-          ls -la node_modules/ffmpeg-static
           npm_config_arch=x64 npm rebuild --cpu x64 -f ffmpeg-static && mv node_modules/ffmpeg-static/ffmpeg{,-x64}
-          #cp /tmp/ffmpeg-backup node_modules/ffmpeg-static/ffmpeg
-          #ls -la node_modules/ffmpeg-static/ffmpeg
-          # npm_config_arch=arm64 npm rebuild --cpu arm64 -f ffmpeg-static && mv node_modules/ffmpeg-static/ffmpeg{,-arm64}
           cd node_modules/ffmpeg-static
-          ls -la .
           lipo -create ffmpeg-arm64 ffmpeg-x64 -output ffmpeg
-          ls -la .
           rm ffmpeg-arm64 ffmpeg-x64
           file ffmpeg  # print what we ended up with
 
@@ -108,7 +99,6 @@ jobs:
         uses: johannesjo/action-electron-builder@v1
         with:
           skip_install: true
-          # args: "--config.win.portable=true"
           args: "--mac --x64"
           github_token: ${{ secrets.github_token }}
           release: ${{ startsWith(github.ref, 'refs/tags/v') }}
