@@ -7,7 +7,7 @@ jobs:
       matrix:
         #os: [macos-latest, ubuntu-latest, windows-latest]
         #os: [windows-latest]
-        os: [macos-latest] #we could use macos-13 here to get an x64 ffmpeg exe but see further....
+        os: [macos-latest, windows-latest] #we could use macos-13 here to get an x64 ffmpeg exe but see further....
     steps:
       - name: Check out Git repository
         uses: actions/checkout@v1
@@ -15,7 +15,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 20 #can you read this from the package.json or similar!
 
       # - name: Cache node modules
       #   uses: actions/cache@v4
