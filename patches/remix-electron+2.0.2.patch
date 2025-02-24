@@ -1,0 +1,14 @@
+diff --git a/node_modules/remix-electron/dist/index.js b/node_modules/remix-electron/dist/index.js
+index 975a13e..ff592bb 100644
+--- a/node_modules/remix-electron/dist/index.js
++++ b/node_modules/remix-electron/dist/index.js
+@@ -110,7 +110,8 @@ async function initRemix({
+   });
+   if ((mode ?? getDefaultMode()) !== "production" && typeof buildPath === "string") {
+     void (async () => {
+-      for await (const _event of (0, import_promises.watch)(buildPath)) {
++      let versionPath = import_node_path2.resolve(buildPath, "..", "version.txt");
++      for await (const _event of (0, import_promises.watch)(versionPath)) {
+         purgeRequireCache(buildPath);
+         serverBuild = require(buildPath);
+         await (0, import_node2.broadcastDevReady)(serverBuild);

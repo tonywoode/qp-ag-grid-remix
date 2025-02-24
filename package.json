@@ -6,6 +6,7 @@
   "main": "desktop/index.js",
   "sideEffects": false,
   "scripts": {
+    "postinstall": "patch-package",
     "dev": "cross-env NODE_ENV=development remix dev --command \"nodemon .\" --manual",
     "build": "chmod +r node_modules/node-unar/lsar node_modules/node-unar/unar && remix build",
     "buildLocal": "npm run build && electron-builder",
@@ -98,6 +99,7 @@
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "nodemon": "^3.0.1",
+    "patch-package": "^8.0.0",
     "prettier": "^3.1.0",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
