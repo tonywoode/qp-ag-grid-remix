@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import emulators from '../dats/emulators.json'
+import { emulators } from '~/root' // Import emulators from root
 
 export function loadRomdata(romdataPathStarred) {
   //swap the * back to / for the path

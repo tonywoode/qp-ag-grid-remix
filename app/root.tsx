@@ -16,12 +16,15 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
+import { emulators } from '~/dataLocations.server' // Import emulators from dataLocations.server
 
 //configure and export logging per-domain feature
 //todo: user-enablable - split out to json/global flag?)
 import { createFeatureLogger } from '~/utils/featureLogger'
 import loggerConfig from '../loggerConfig.json'
 export const logger = createFeatureLogger(loggerConfig)
+
+export { emulators }
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
