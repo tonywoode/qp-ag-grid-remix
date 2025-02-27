@@ -1,7 +1,7 @@
 {
   "name": "quickPlayJS-dogfood-edition",
   "description": "",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "private": true,
   "main": "desktop/index.js",
   "sideEffects": false,
@@ -15,6 +15,9 @@
   },
   "//": "asarUnpacked: isexe included for fluent ffmpeg, rest (including root fsextra install) required for node-7z-archive and its deps (node-7z-archive automatically included in asar_unpacked",
   "build": {
+    "win": {
+      "target": "zip"
+    },
     "files": [
       "build",
       "desktop",
