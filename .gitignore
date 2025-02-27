@@ -6,4 +6,6 @@ dist
 .env
 #qp specific dev-only folders
 data/
+data_real/
 dats/
+dats_real/

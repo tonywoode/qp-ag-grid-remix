@@ -24,6 +24,10 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const romname = params.romname ? decodeString(params.romname).trim() : ''
   const system = params.system ? decodeString(params.system).trim() : ''
   const thisSystemsTabs = await loadTabData(system)
+  if (thisSystemsTabs?.error) {
+    logger.log('tabContent', 'Media Panel loader - error:', thisSystemsTabs.error)
+    return { thisSystemsTabs, romname, system }
+  }
   return { thisSystemsTabs, romname, system }
 }
 
@@ -86,6 +90,10 @@ const openInDefaultBrowser = url => window.open(url, '_blank', 'noopener,norefer
 export default function MediaPanel() {
   const location = useLocation()
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
+  //send the altert to the user if thisSysrtemsTabs is an object with an error property
+  if (thisSystemsTabs?.error) {
+    return <div>{thisSystemsTabs.error}</div>
+  }
   const [selectedTabIndex, setSelectedTabIndex] = useState(0)
   const [tabContent, setTabContent] = useState({ tabClass: null, data: null })
   const [isLightboxOpen, setIsLightboxOpen] = useState(false)

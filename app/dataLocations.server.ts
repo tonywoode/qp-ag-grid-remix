@@ -11,4 +11,14 @@ try {
   emulators = [] // Ensure emulators is an empty array
 }
 
-export { emulators }
+// Load mediaPanelConfig.json or use an empty object as a default
+let mediaPanelConfig = {}
+try {
+  const mediaPanelConfigJson = fs.readFileSync(path.join(__dirname, '..', 'dats', 'mediaPanelConfig.json'), 'utf-8')
+  mediaPanelConfig = JSON.parse(mediaPanelConfigJson)
+} catch (error) {
+  console.warn('mediaPanelConfig.json not found or invalid. Using default empty object.')
+  mediaPanelConfig = {} // Ensure mediaPanelConfig is an empty object
+}
+
+export { emulators, mediaPanelConfig }
