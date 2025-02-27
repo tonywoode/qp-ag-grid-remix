@@ -27,6 +27,12 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
 export async function action({ request }: ActionFunctionArgs) {
   const { gamePath, fileInZipToRun, emulatorName, clearProcess, mameName, parentName, parameters, paramMode } =
     await request.json()
+  //popup an alert to the user that if emulators is [] they won't be able to run any games
+  if (emulators.length === 0) {
+    await emitEvent({ type: 'QPBackend', data: 'No emulators available, cannot run any games' })
+    return null
+  }
+
   if (clearProcess) {
     currentProcess = null
     currentGameDetails = null
@@ -52,7 +58,16 @@ export async function action({ request }: ActionFunctionArgs) {
   if (isZip) {
     await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathMacOS })
     await emitEvent({ type: 'status', data: 'isZip' }) // Add this line to emit zip status
-    await examineZip(gamePathMacOS, outputDirectory, fileInZipToRun, emulatorName, mameName, parentName, parameters, paramMode)
+    await examineZip(
+      gamePathMacOS,
+      outputDirectory,
+      fileInZipToRun,
+      emulatorName,
+      mameName,
+      parentName,
+      parameters,
+      paramMode
+    )
   } else {
     await emitEvent({ type: 'QPBackend', data: 'Game File detected, directly running ' + gamePathMacOS })
     await runGame(gamePathMacOS, emulatorName, mameName, parentName, parameters, paramMode)
