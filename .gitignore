@@ -4,3 +4,6 @@ build
 public/build
 dist
 .env
+#qp specific dev-only folders
+data/
+dats/
