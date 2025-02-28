@@ -33,4 +33,4 @@ const loadEmulators = () => {
   }
 }
 
-export { dataDirectory, dataDirectoryExists, datsDirectoryExists, loadMediaPanelConfig, loadEmulators }
+export { dataDirectory, dataDirectoryExists, datsDirectory, datsDirectoryExists, loadMediaPanelConfig, loadEmulators }

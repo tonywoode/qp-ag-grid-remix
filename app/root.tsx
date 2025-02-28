@@ -16,6 +16,7 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
+//TODO: you'd expect the root.tsx to want to know if the dats directory exists, but it delegates this entirely
 import { dataDirectory, dataDirectoryExists } from '~/dataLocations.server'
 
 //configure and export logging per-domain feature
@@ -23,8 +24,6 @@ import { dataDirectory, dataDirectoryExists } from '~/dataLocations.server'
 import { createFeatureLogger } from '~/utils/featureLogger'
 import loggerConfig from '../loggerConfig.json'
 export const logger = createFeatureLogger(loggerConfig)
-
-export { dataDirectory, dataDirectoryExists }
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 

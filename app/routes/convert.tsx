@@ -7,7 +7,7 @@ import electron from '~/electron.server'
 import { convertQuickPlayData, validateQuickPlayDirectory } from '~/utils/quickPlayConverter.server'
 import type { ConversionOptions } from '~/utils/quickPlayConverter.server'
 import type { BackupChoice } from '~/utils/safeDirectoryOps.server'
-import { dataDirectoryExists, datsDirectoryExists } from '~/dataLocations.server'
+import { dataDirectory, dataDirectoryExists, datsDirectory, datsDirectoryExists } from '~/dataLocations.server'
 
 type ModalState = {
   isOpen: boolean
@@ -100,7 +100,7 @@ export const action = async ({ request }: { request: Request }) => {
 
   try {
     //TODO: no error handling or freedback to user - what if OS runs out of disk space?
-    const result = await convertQuickPlayData(sourcePath, options, backupChoice)
+    const result = await convertQuickPlayData(sourcePath, options, backupChoice, dataDirectory, datsDirectory)
     const details = []
     if (result.romdataFiles) details.push(`Converted ${result.romdataFiles} ROM data files`)
     if (result.systemsConverted) details.push('Converted systems data')
