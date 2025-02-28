@@ -77,9 +77,9 @@ function processRomdataDirectory(source: string, destination: string): number {
 export async function convertQuickPlayData(
   sourcePath: string,
   options: ConversionOptions,
+  dataDirectory: string,
+  datsDirectory: string,
   backupChoice?: BackupChoice,
-  dataDirectory?: string,
-  datsDirectory?: string,
   outputDir: string = '.' // Default to current directory (its for cli tool only)
 ): Promise<ConversionResult> {
   try {
@@ -92,8 +92,8 @@ export async function convertQuickPlayData(
     const inputDatsMediaPanelConfig = path.join(datsFolderPath, 'mediaPanelCfg.ini')
 
     // Setup output paths
-    const outputDataDir = dataDirectory || path.join(outputDir, 'data')
-    const outputDatsDir = datsDirectory || path.join(outputDir, 'dats')
+    const outputDataDir = dataDirectory
+    const outputDatsDir = datsDirectory
     const outputDatsSystems = path.join(outputDatsDir, 'systems.json')
     const outputDatsEmulators = path.join(outputDatsDir, 'emulators.json')
     const outputDatsMediaPanelConfig = path.join(outputDatsDir, 'mediaPanelConfig.json')

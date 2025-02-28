@@ -62,11 +62,9 @@ export const action = async ({ request }: { request: Request }) => {
 
     //then check for existing data
     const existingConditions = []
-    //TODO: pass in the os-dependent data path instead
     if (options.convertRomdata && dataDirectoryExists()) {
       existingConditions.push('data directory')
     }
-    //TODO: pass in the os-dependent data path instead
     if ((options.convertSystems || options.convertEmulators || options.convertMediaPanel) && datsDirectoryExists()) {
       existingConditions.push('dats directory')
     }
@@ -100,7 +98,7 @@ export const action = async ({ request }: { request: Request }) => {
 
   try {
     //TODO: no error handling or freedback to user - what if OS runs out of disk space?
-    const result = await convertQuickPlayData(sourcePath, options, backupChoice, dataDirectory, datsDirectory)
+    const result = await convertQuickPlayData(sourcePath, options, dataDirectory, datsDirectory, backupChoice)
     const details = []
     if (result.romdataFiles) details.push(`Converted ${result.romdataFiles} ROM data files`)
     if (result.systemsConverted) details.push('Converted systems data')

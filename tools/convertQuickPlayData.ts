@@ -1,7 +1,9 @@
-//the CLI version of the QP data converter, note we pass it the root QP dir, not say the data subfolder
-//to run npx tsx tools/convertQuickPlayData.ts /path/to/quickplay [output-dir]
-// atm argv2 would be /Volumes/Untitled/Emulators/QUICKPLAY/QuickPlayFrontend/qp
-// and argv3 would be ./output (defaults to current directory)
+//the CLI version of the QP data converter
+//to run: npx tsx tools/convertQuickPlayData.ts /path/to/quickplay /path/to/output/data /path/to/output/dats
+//
+//This tool converts QuickPlay data to the format used by this application.
+//It requires the path to the QuickPlay installation directory (which should contain 'data' and 'dats' subdirectories)
+//followed by the full output paths for both the data and dats directories.
 //
 //flags available:
 //--no-romdata : skip ROM data conversion
@@ -13,18 +15,16 @@ import * as path from 'path'
 import { convertQuickPlayData, validateQuickPlayDirectory } from '../app/utils/quickPlayConverter.server'
 
 const sourcePath = process.argv[2]
-const outputDir = process.argv[3] || '.'
+const dataPath = process.argv[3]
+const datsPath = process.argv[4]
 
-if (!sourcePath) {
-  console.error('Usage: convertQuickPlayData.ts <sourcePath> [outputDir]')
-  console.error('Example: convertQuickPlayData.ts /path/to/quickplay ./output')
+if (!sourcePath || !dataPath || !datsPath) {
+  console.error('Usage: convertQuickPlayData.ts <sourcePath> <outputDataPath> <outputDatsPath>')
+  console.error('Example: convertQuickPlayData.ts /path/to/quickplay ./data ./dats')
   process.exit(1)
 }
 
 // Check output directories before proceeding
-const dataPath = path.join(outputDir, 'data')
-const datsPath = path.join(outputDir, 'dats')
-
 if (fs.existsSync(dataPath)) {
   console.error(`Warning: Data directory already exists at ${dataPath}`)
   process.exit(1)
@@ -39,7 +39,8 @@ if (fs.existsSync(datsPath)) {
 validateQuickPlayDirectory(sourcePath)
   .then(() => {
     console.log('Valid QuickPlay directory found')
-    console.log(`Output directory: ${outputDir}`)
+    console.log(`Output data directory: ${dataPath}`)
+    console.log(`Output dats directory: ${datsPath}`)
 
     return convertQuickPlayData(
       sourcePath,
@@ -49,8 +50,8 @@ validateQuickPlayDirectory(sourcePath)
         convertEmulators: !process.argv.includes('--no-emulators'),
         convertMediaPanel: !process.argv.includes('--no-media-panel')
       },
-      undefined, // No backup choice needed for CLI, ensure existing dirs are backed up yourself we wont overwrite data/dats dirs
-      outputDir
+      dataPath,
+      datsPath
     )
   })
   .then(result => {
