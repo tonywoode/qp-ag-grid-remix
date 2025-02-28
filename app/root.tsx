@@ -16,7 +16,7 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
-import { emulators, mediaPanelConfig, dataDirectory, dataDirectoryExists } from '~/dataLocations.server' // Import emulators and mediaPanelConfig from dataLocations.server
+import { emulators, dataDirectory, dataDirectoryExists, loadMediaPanelConfig } from '~/dataLocations.server' // Import emulators and mediaPanelConfig from dataLocations.server
 
 //configure and export logging per-domain feature
 //todo: user-enablable - split out to json/global flag?)
@@ -24,7 +24,7 @@ import { createFeatureLogger } from '~/utils/featureLogger'
 import loggerConfig from '../loggerConfig.json'
 export const logger = createFeatureLogger(loggerConfig)
 
-export { emulators, mediaPanelConfig, dataDirectory, dataDirectoryExists }
+export { emulators, dataDirectory, dataDirectoryExists }
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
@@ -41,10 +41,12 @@ export const links: LinksFunction = () => [
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
   const folderData = dataDirectoryExists() ? await scanFolder(dataDirectory) : []
+  const mediaPanelConfig = loadMediaPanelConfig()
   return json({
     folderData,
     userDataPath: electron.app.getPath('userData'),
-    dataDirectoryExists: dataDirectoryExists()
+    dataDirectoryExists: dataDirectoryExists(),
+    mediaPanelConfig
   })
 }
 

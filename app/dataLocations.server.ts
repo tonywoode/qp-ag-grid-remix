@@ -11,16 +11,6 @@ try {
   emulators = [] // Ensure emulators is an empty array
 }
 
-// Load mediaPanelConfig.json or use an empty object as a default
-let mediaPanelConfig = {}
-try {
-  const mediaPanelConfigJson = fs.readFileSync(path.join(__dirname, '..', 'dats', 'mediaPanelConfig.json'), 'utf-8')
-  mediaPanelConfig = JSON.parse(mediaPanelConfigJson)
-} catch (error) {
-  console.warn('mediaPanelConfig.json not found or invalid. Using default empty object.')
-  mediaPanelConfig = {} // Ensure mediaPanelConfig is an empty object
-}
-
 // Check if the data directory exists
 const dataDirectory = path.join(__dirname, '..', 'data')
 const dataDirectoryExists = () => {
@@ -33,4 +23,14 @@ const datsDirectoryExists = () => {
   return fs.existsSync(datsDirectory)
 }
 
-export { emulators, mediaPanelConfig, dataDirectory, dataDirectoryExists, datsDirectoryExists }
+const loadMediaPanelConfig = () => {
+  try {
+    const mediaPanelConfigJson = fs.readFileSync(path.join(__dirname, '..', 'dats', 'mediaPanelConfig.json'), 'utf-8')
+    return JSON.parse(mediaPanelConfigJson)
+  } catch (error) {
+    console.warn('mediaPanelConfig.json not found or invalid. Using default empty object.')
+    return {}
+  }
+}
+
+export { emulators, dataDirectory, dataDirectoryExists, datsDirectoryExists, loadMediaPanelConfig }

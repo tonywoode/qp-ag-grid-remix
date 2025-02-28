@@ -20,7 +20,7 @@ export function links() {
 }
 
 export async function loader({ params }: LoaderFunctionArgs) {
-  logger.log('tabContent', 'Meida Panel loader - params passed are:', params)
+  logger.log('tabContent', 'Media Panel loader - params passed are:', params)
   const romname = params.romname ? decodeString(params.romname).trim() : ''
   const system = params.system ? decodeString(params.system).trim() : ''
   const thisSystemsTabs = await loadTabData(system)
