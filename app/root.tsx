@@ -40,8 +40,12 @@ export const links: LinksFunction = () => [
 
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
-  const folderData = dataDirectoryExists ? await scanFolder(dataDirectory) : []
-  return json({ folderData, userDataPath: electron.app.getPath('userData'), dataDirectoryExists })
+  const folderData = dataDirectoryExists() ? await scanFolder(dataDirectory) : []
+  return json({
+    folderData,
+    userDataPath: electron.app.getPath('userData'),
+    dataDirectoryExists: dataDirectoryExists()
+  })
 }
 
 const menu = () => (

@@ -7,6 +7,7 @@ import electron from '~/electron.server'
 import { convertQuickPlayData, validateQuickPlayDirectory } from '~/utils/quickPlayConverter.server'
 import type { ConversionOptions } from '~/utils/quickPlayConverter.server'
 import type { BackupChoice } from '~/utils/safeDirectoryOps.server'
+import { dataDirectoryExists, datsDirectoryExists } from '~/dataLocations.server'
 
 type ModalState = {
   isOpen: boolean
@@ -62,11 +63,11 @@ export const action = async ({ request }: { request: Request }) => {
     //then check for existing data
     const existingConditions = []
     //TODO: pass in the os-dependent data path instead
-    if (options.convertRomdata && fs.existsSync('data')) {
+    if (options.convertRomdata && dataDirectoryExists()) {
       existingConditions.push('data directory')
     }
     //TODO: pass in the os-dependent data path instead
-    if ((options.convertSystems || options.convertEmulators || options.convertMediaPanel) && fs.existsSync('dats')) {
+    if ((options.convertSystems || options.convertEmulators || options.convertMediaPanel) && datsDirectoryExists()) {
       existingConditions.push('dats directory')
     }
 
@@ -98,6 +99,7 @@ export const action = async ({ request }: { request: Request }) => {
   }
 
   try {
+    //TODO: no error handling or freedback to user - what if OS runs out of disk space?
     const result = await convertQuickPlayData(sourcePath, options, backupChoice)
     const details = []
     if (result.romdataFiles) details.push(`Converted ${result.romdataFiles} ROM data files`)

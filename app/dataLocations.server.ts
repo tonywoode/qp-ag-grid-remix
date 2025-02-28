@@ -23,14 +23,14 @@ try {
 
 // Check if the data directory exists
 const dataDirectory = path.join(__dirname, '..', 'data')
-console.log('dataDirectory:', dataDirectory)
-let dataDirectoryExists = false
-try {
-  fs.accessSync(dataDirectory)
-  dataDirectoryExists = true
-} catch (error) {
-  console.warn('data directory not found.')
-  dataDirectoryExists = false
+const dataDirectoryExists = () => {
+  return fs.existsSync(dataDirectory)
 }
 
-export { emulators, mediaPanelConfig, dataDirectory, dataDirectoryExists }
+// Check if the dats directory exists
+const datsDirectory = path.join(__dirname, '..', 'dats')
+const datsDirectoryExists = () => {
+  return fs.existsSync(datsDirectory)
+}
+
+export { emulators, mediaPanelConfig, dataDirectory, dataDirectoryExists, datsDirectoryExists }
