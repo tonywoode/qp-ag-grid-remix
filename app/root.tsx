@@ -16,7 +16,7 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
-import { dataDirectory, dataDirectoryExists, loadMediaPanelConfig, loadEmulators } from '~/dataLocations.server' // Import emulators and mediaPanelConfig from dataLocations.server
+import { dataDirectory, dataDirectoryExists } from '~/dataLocations.server'
 
 //configure and export logging per-domain feature
 //todo: user-enablable - split out to json/global flag?)
@@ -41,14 +41,10 @@ export const links: LinksFunction = () => [
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
   const folderData = dataDirectoryExists() ? await scanFolder(dataDirectory) : []
-  const mediaPanelConfig = loadMediaPanelConfig()
-  const emulators = loadEmulators()
   return json({
     folderData,
     userDataPath: electron.app.getPath('userData'),
-    dataDirectoryExists: dataDirectoryExists(),
-    mediaPanelConfig,
-    emulators
+    dataDirectoryExists: dataDirectoryExists()
   })
 }
 
