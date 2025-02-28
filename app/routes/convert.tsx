@@ -61,9 +61,11 @@ export const action = async ({ request }: { request: Request }) => {
 
     //then check for existing data
     const existingConditions = []
+    //TODO: pass in the os-dependent data path instead
     if (options.convertRomdata && fs.existsSync('data')) {
       existingConditions.push('data directory')
     }
+    //TODO: pass in the os-dependent data path instead
     if ((options.convertSystems || options.convertEmulators || options.convertMediaPanel) && fs.existsSync('dats')) {
       existingConditions.push('dats directory')
     }
@@ -80,7 +82,7 @@ export const action = async ({ request }: { request: Request }) => {
 
     //if we get here, we have a valid directory and no existing data
     return json({
-      success: true,
+      success: false,
       path: sourcePath,
       message: `Valid QuickPlay directory selected: ${sourcePath}`,
       options
