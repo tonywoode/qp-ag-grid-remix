@@ -21,4 +21,16 @@ try {
   mediaPanelConfig = {} // Ensure mediaPanelConfig is an empty object
 }
 
-export { emulators, mediaPanelConfig }
+// Check if the data directory exists
+const dataDirectory = path.join(__dirname, '..', 'data')
+console.log('dataDirectory:', dataDirectory)
+let dataDirectoryExists = false
+try {
+  fs.accessSync(dataDirectory)
+  dataDirectoryExists = true
+} catch (error) {
+  console.warn('data directory not found.')
+  dataDirectoryExists = false
+}
+
+export { emulators, mediaPanelConfig, dataDirectory, dataDirectoryExists }

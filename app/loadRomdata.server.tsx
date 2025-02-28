@@ -5,10 +5,8 @@ import { emulators } from '~/root' // Import emulators from root
 export function loadRomdata(romdataPathStarred) {
   //swap the * back to / for the path
   const romdataPath = romdataPathStarred.replace(/\*/g, '/')
-  //add the cwd to the path
-  const romdataPathFull = path.join(process.cwd(), romdataPath)
   //use fs.readFileSync to load the path
-  const romdataRaw = fs.readFileSync(romdataPathFull, 'utf8')
+  const romdataRaw = fs.readFileSync(romdataPath, 'utf8')
   // romdata is json, so parse it
   const romdata = JSON.parse(romdataRaw)
 

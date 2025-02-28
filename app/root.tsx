@@ -16,7 +16,7 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
-import { emulators, mediaPanelConfig } from '~/dataLocations.server' // Import emulators and mediaPanelConfig from dataLocations.server
+import { emulators, mediaPanelConfig, dataDirectory, dataDirectoryExists } from '~/dataLocations.server' // Import emulators and mediaPanelConfig from dataLocations.server
 
 //configure and export logging per-domain feature
 //todo: user-enablable - split out to json/global flag?)
@@ -24,7 +24,7 @@ import { createFeatureLogger } from '~/utils/featureLogger'
 import loggerConfig from '../loggerConfig.json'
 export const logger = createFeatureLogger(loggerConfig)
 
-export { emulators, mediaPanelConfig }
+export { emulators, mediaPanelConfig, dataDirectory, dataDirectoryExists }
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
@@ -40,8 +40,8 @@ export const links: LinksFunction = () => [
 
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
-  const folderData = await scanFolder('./data') //TODO: that's a dangerous thing to presume
-  return json({ folderData, userDataPath: electron.app.getPath('userData') })
+  const folderData = dataDirectoryExists ? await scanFolder(dataDirectory) : []
+  return json({ folderData, userDataPath: electron.app.getPath('userData'), dataDirectoryExists })
 }
 
 const menu = () => (
@@ -143,7 +143,16 @@ export default function App() {
               <Split sizes={[18, 82]} className="flex overflow-hidden" style={{ height: 'calc(100vh - 7em)' }}>
                 <TreeView folderData={folderData} />
                 <div className="h-full overflow-auto">
-                  <Outlet />
+                  {data.dataDirectoryExists ? (
+                    <Outlet />
+                  ) : (
+                    <>
+                      <div className="flex items-center justify-center h-full">
+                        <h1 className="text-2xl font-bold">No romdata found. Please set up your romdata directory.</h1>
+                      </div>
+                      <Outlet />
+                    </>
+                  )}
                 </div>
               </Split>
               <h1 className="fixed bottom-0 left-0 m-2 text-xs font-mono underline w-full bg-white">

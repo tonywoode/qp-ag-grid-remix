@@ -9,6 +9,7 @@ export async function scanFolder(folderPath) {
 
   const folders = await Promise.all(
     items.map(async item => {
+      console.log(`Scanning ${item}`)
       const itemPath = path.join(folderPath, item)
       const stats = await fsPromises.stat(itemPath)
       if (!stats.isDirectory()) {

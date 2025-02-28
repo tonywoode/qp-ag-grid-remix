@@ -21,7 +21,7 @@ type ModalState = {
 }
 
 export async function loader() {
-  // Add empty romdata to match what root is looking for
+  // Add empty romdata to match what root is looking for - TODO? how exactly do we hit the action here, it requires outlet upstream?!?
   return json({ romdata: [] })
 }
 
