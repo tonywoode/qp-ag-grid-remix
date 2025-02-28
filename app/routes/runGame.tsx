@@ -9,7 +9,7 @@ import { convertPathToOSPath } from '~/utils/OSConvert.server'
 import { emitter } from '~/utils/emitter.server'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 import { loadNode7z } from '~/utils/node7zLoader.server'
-import { emulators } from '~/root' // Import emulators from root
+import { loadEmulators } from '~/dataLocations.server' // Import loadEmulators from dataLocations.server
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
@@ -28,6 +28,7 @@ export async function action({ request }: ActionFunctionArgs) {
   const { gamePath, fileInZipToRun, emulatorName, clearProcess, mameName, parentName, parameters, paramMode } =
     await request.json()
   //popup an alert to the user that if emulators is [] they won't be able to run any games
+  const emulators = loadEmulators()
   if (emulators.length === 0) {
     await emitEvent({ type: 'QPBackend', data: 'No emulators available, cannot run any games' })
     return null
@@ -105,7 +106,7 @@ async function examineZip(
                 data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n')
               })
               // emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' }) // don't add success status if all we've done is list
-              const matchedEmulator = matchEmulatorName(emulatorName, emulators)
+              const matchedEmulator = matchEmulatorName(emulatorName)
               //temporary fix: it isn't QUITE good enough to say a rom is mame if we call ROMMAME, otherGameNames etc...so also this:
               const isMameEmulator =
                 matchedEmulator?.emulatorName.startsWith('MAME') || matchedEmulator?.emulatorName.endsWith('(MAME)')
@@ -290,7 +291,7 @@ async function runGame(
     return args
   }
 
-  const matchedEmulator = matchEmulatorName(emulatorName, emulators)
+  const matchedEmulator = matchEmulatorName(emulatorName)
   logger.log(`fileOperations`, 'Matched Emulator:', matchedEmulator)
   if (matchedEmulator) {
     let emuParams: string[] | null = null
@@ -430,7 +431,9 @@ async function runGame(
   }
 }
 
-function matchEmulatorName(emulatorName, emulators) {
+//we load emulators dynamically in case its been altered (for instance in case we had NO emulators when app first loaded, and then they were imported)
+function matchEmulatorName(emulatorName) {
+  const emulators = loadEmulators()
   return emulators.find(emulator => emulator.emulatorName === emulatorName)
 }
 

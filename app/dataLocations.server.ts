@@ -1,16 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 
-// Load emulators.json or use an empty object as a default
-let emulators = []
-try {
-  const emulatorsJson = fs.readFileSync(path.join(__dirname, '..', 'dats', 'emulators.json'), 'utf-8') 
-  emulators = JSON.parse(emulatorsJson)
-} catch (error) {
-  console.warn('emulators.json not found or invalid. Using default empty object.')
-  emulators = [] // Ensure emulators is an empty array
-}
-
 // Check if the data directory exists
 const dataDirectory = path.join(__dirname, '..', 'data')
 const dataDirectoryExists = () => {
@@ -33,4 +23,14 @@ const loadMediaPanelConfig = () => {
   }
 }
 
-export { emulators, dataDirectory, dataDirectoryExists, datsDirectoryExists, loadMediaPanelConfig }
+const loadEmulators = () => {
+  try {
+    const emulatorsJson = fs.readFileSync(path.join(__dirname, '..', 'dats', 'emulators.json'), 'utf-8')
+    return JSON.parse(emulatorsJson)
+  } catch (error) {
+    console.warn('emulators.json not found or invalid. Using default empty array.')
+    return []
+  }
+}
+
+export { dataDirectory, dataDirectoryExists, datsDirectoryExists, loadMediaPanelConfig, loadEmulators }

@@ -1,5 +1,6 @@
 import fs from 'fs'
-import { emulators } from '~/root' // Import emulators from root
+import path from 'path'
+import { loadEmulators } from '~/dataLocations.server' // Import loadEmulators from dataLocations.server
 
 export function loadRomdata(romdataPathStarred) {
   //swap the * back to / for the path
@@ -8,6 +9,9 @@ export function loadRomdata(romdataPathStarred) {
   const romdataRaw = fs.readFileSync(romdataPath, 'utf8')
   // romdata is json, so parse it
   const romdata = JSON.parse(romdataRaw)
+
+  // Load emulators dynamically
+  const emulators = loadEmulators()
 
   // Create a map from emulatorName to system
   const emulatorToSystem = new Map(emulators.map(emulator => [emulator.emulatorName, emulator.system]))
