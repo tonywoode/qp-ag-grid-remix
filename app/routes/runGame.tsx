@@ -9,7 +9,7 @@ import { convertPathToOSPath } from '~/utils/OSConvert.server'
 import { emitter } from '~/utils/emitter.server'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 import { loadNode7z } from '~/utils/node7zLoader.server'
-import { loadEmulators } from '~/dataLocations.server' // Import loadEmulators from dataLocations.server
+import { loadEmulators, getTempDirectory } from '~/dataLocations.server' // Import loadEmulators and getTempDirectory from dataLocations.server
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
@@ -51,7 +51,7 @@ export async function action({ request }: ActionFunctionArgs) {
   await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertPathToOSPath(gamePath)
-  const outputDirectory = setTempDir()
+  const outputDirectory = await getAndEnsureTempDir()
   const gameExtension = path.extname(gamePathMacOS).toLowerCase()
   //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
   const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
@@ -451,10 +451,9 @@ function extractRetroarchCommandLine(emulatorJson) {
   }
 }
 
-//TODO: firstly a better way to determine app root! secondly a better process: consider that we MAY want to keep extracts hanging around for a few loads
-// e.g.: for the sitation where you multiply load the same game, we can check if its already extracted. This is what 'tmp' was designed for, ideally a fixed size for the cache if not date dependent
-function setTempDir() {
-  const tempDir = path.join(process.cwd(), 'temp')
-  createDirIfNotExist(tempDir)
+// Function to get temp dir path and ensure it exists
+async function getAndEnsureTempDir() {
+  const tempDir = getTempDirectory()
+  await createDirIfNotExist(tempDir)
   return tempDir
 }

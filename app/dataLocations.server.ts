@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import os from 'os'
 import electron from '~/electron.server'
 
 // Get the appropriate base directory depending on environment and platform
@@ -16,6 +17,23 @@ const getBaseDirectory = () => {
   } else {
     // On Windows and other platforms, use the directory containing the executable
     return path.dirname(electron.app.getPath('exe'))
+  }
+}
+
+// Define the temp directory location based on platform
+const getTempDirectory = () => {
+  if (process.env.NODE_ENV === 'development') {
+    // In development, use a local temp directory
+    return path.join(getBaseDirectory(), 'temp')
+  }
+  
+  if (process.platform === 'darwin') {
+    // On macOS, use ~/Library/Caches/[App Name]/temp
+    const homeDir = os.homedir()
+    return path.join(homeDir, 'Library', 'Caches', electron.app.getName(), 'temp')
+  } else {
+    // On Windows, keep temp next to the executable (as we had before)
+    return path.join(path.dirname(electron.app.getPath('exe')), 'temp')
   }
 }
 
@@ -63,4 +81,12 @@ const loadEmulators = () => {
   }
 }
 
-export { dataDirectory, dataDirectoryExists, datsDirectory, datsDirectoryExists, loadMediaPanelConfig, loadEmulators }
+export {
+  dataDirectory,
+  dataDirectoryExists,
+  datsDirectory,
+  datsDirectoryExists,
+  loadMediaPanelConfig,
+  loadEmulators,
+  getTempDirectory
+}
