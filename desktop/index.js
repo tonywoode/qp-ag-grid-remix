@@ -26,9 +26,9 @@ app.on('ready', () => {
       console.log = log.log
       console.error = log.error
 
-      log.info('App starting from:', process.cwd())
-      log.info('__dirname:', __dirname)
-      log.info('app.getAppPath():', app.getAppPath())
+      // log.info('App starting from:', process.cwd())
+      // log.info('__dirname:', __dirname)
+      // log.info('app.getAppPath():', app.getAppPath())
       //set working directory for packaged app
       if (app.isPackaged) {
         process.chdir(path.join(app.getAppPath(), '..'))

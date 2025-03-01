@@ -42,7 +42,6 @@ console.log('Platform:', process.platform)
 console.log('Environment:', process.env.NODE_ENV)
 console.log('__dirname:', __dirname)
 console.log('App executable path:', electron.app.getPath('exe'))
-console.log('User data path:', electron.app.getPath('userData'))
 console.log('Base directory for data:', getBaseDirectory())
 
 // Define data and dats directories based on the base directory
