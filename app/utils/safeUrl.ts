@@ -32,3 +32,8 @@ export function decodeString(str: string) {
     match => Object.entries(SPECIAL_CHARS_MAP).find(([_, v]) => v === match)?.[0] || match
   )
 }
+
+// Helper function that combines URL decoding with our custom decoding e.g.: for pretty printing
+export function decodeFullUrl(url: string) {
+  return decodeURIComponent(decodeString(url))
+}

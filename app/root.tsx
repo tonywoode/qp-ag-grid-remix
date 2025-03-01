@@ -23,6 +23,7 @@ import { dataDirectory, dataDirectoryExists, getTempDirectory } from '~/dataLoca
 //todo: user-enablable - split out to json/global flag?)
 import { createFeatureLogger } from '~/utils/featureLogger'
 import loggerConfig from '../loggerConfig.json'
+import { decodeString } from '~/utils/safeUrl' //for pretty printing
 export const logger = createFeatureLogger(loggerConfig)
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
@@ -189,9 +190,9 @@ export default function App() {
                   )}
                 </div>
               </Split>
-              
+
               {/* Improved footer with hover effect */}
-              <div 
+              <div
                 className="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 shadow-md transition-all duration-300 z-50"
                 style={{ height: showFooterDetails ? '100px' : '30px' }}
                 onMouseEnter={() => setShowFooterDetails(true)}
@@ -199,31 +200,47 @@ export default function App() {
               >
                 {/* Always visible minimal info */}
                 <div className="px-4 py-1 flex items-center justify-between">
-                  <div className="text-xs font-mono">
-                    Games in path: {match?.data?.romdata.length ?? 0}
-                  </div>
+                  <div className="text-xs font-mono">Games in path: {match?.data?.romdata.length ?? 0}</div>
                   <div className="text-xs opacity-50">Hover for details</div>
                 </div>
-                
+
                 {/* Expanded details section */}
-                <div className={`px-4 py-2 ${showFooterDetails ? 'opacity-100' : 'opacity-0 pointer-events-none'} transition-opacity duration-300`}>
+                <div
+                  className={`px-4 py-2 ${
+                    showFooterDetails ? 'opacity-100' : 'opacity-0 pointer-events-none'
+                  } transition-opacity duration-300`}
+                >
                   <div className="flex justify-between items-center">
                     <div className="space-y-1">
                       <div className="text-xs font-mono">User data path: {data.userDataPath}</div>
                       <div className="text-xs font-mono">Temp directory: {data.tempDirectory}</div>
                       {process.env.NODE_ENV === 'development' && (
-                        <div className="text-xs font-mono">Current URL: {window.location.href}</div>
+                        <div className="text-xs font-mono">
+                          Current URL:{' '}
+                          {typeof window !== 'undefined' ? decodeURIComponent(decodeString(window.location.href)) : ''}
+                        </div>
                       )}
                     </div>
-                    
+
                     <div>
                       <button
                         onClick={openTempDirectory}
                         className="px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none flex items-center"
                         title="Open temp directory where extracted game files are stored"
                       >
-                        <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"></path>
+                        <svg
+                          className="w-4 h-4 mr-1"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"
+                          ></path>
                         </svg>
                         Open Temp Dir
                       </button>
