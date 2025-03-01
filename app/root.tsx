@@ -218,7 +218,7 @@ export default function App() {
                       {process.env.NODE_ENV === 'development' && (
                         <div className="text-xs font-mono">
                           Current URL:{' '}
-                          {typeof window !== 'undefined' ? decodeURIComponent(decodeString(window.location.href)) : ''}
+                          {decodeURIComponent(decodeString(window.location.href)) }
                         </div>
                       )}
                     </div>
