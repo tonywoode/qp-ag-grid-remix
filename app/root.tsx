@@ -1,6 +1,6 @@
 import { cssBundleHref } from '@remix-run/css-bundle'
 import { json, type LinksFunction, type MetaFunction } from '@remix-run/node'
-import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, Link } from '@remix-run/react' // prettier-ignore
+import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, Link, useFetcher } from '@remix-run/react' // prettier-ignore
 import React, { useState, useEffect, useRef } from 'react'
 import electron from '~/electron.server'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
@@ -17,7 +17,7 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
 //TODO: you'd expect the root.tsx to want to know if the dats directory exists, but it delegates this entirely
-import { dataDirectory, dataDirectoryExists } from '~/dataLocations.server'
+import { dataDirectory, dataDirectoryExists, getTempDirectory } from '~/dataLocations.server'
 
 //configure and export logging per-domain feature
 //todo: user-enablable - split out to json/global flag?)
@@ -40,11 +40,32 @@ export const links: LinksFunction = () => [
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
   const folderData = dataDirectoryExists() ? await scanFolder(dataDirectory) : []
+  const tempDirectory = getTempDirectory()
   return json({
     folderData,
     userDataPath: electron.app.getPath('userData'),
+    tempDirectory,
     dataDirectoryExists: dataDirectoryExists()
   })
+}
+
+// Add an action to handle opening the temp directory
+export async function action({ request }: { request: Request }) {
+  const formData = await request.formData()
+  const intent = formData.get('intent')
+
+  if (intent === 'openTempDirectory') {
+    const pathToOpen = formData.get('path')?.toString() || ''
+    try {
+      await electron.shell.openPath(pathToOpen)
+      return json({ success: true })
+    } catch (error) {
+      console.error('Failed to open directory:', error)
+      return json({ success: false, error: error.message })
+    }
+  }
+
+  return json({ success: false, error: 'Unknown intent' })
 }
 
 const menu = () => (
@@ -121,8 +142,17 @@ export default function App() {
   const matches = useMatches()
   let match = matches.find(match => match?.data && 'romdata' in match.data)
   const [isSplitLoaded, setIsSplitLoaded] = useState(false)
+  const fetcher = useFetcher()
 
   useEffect(() => setIsSplitLoaded(true), [])
+
+  // Function to open the temp directory using the action
+  const openTempDirectory = () => {
+    const formData = new FormData()
+    formData.append('intent', 'openTempDirectory')
+    formData.append('path', data.tempDirectory) //we could just call getTempDir from the action
+    fetcher.submit(formData, { method: 'post' })
+  }
 
   return (
     <html lang="en">
@@ -160,6 +190,13 @@ export default function App() {
               </Split>
               <h1 className="fixed bottom-0 left-0 m-2 text-xs font-mono underline w-full bg-white">
                 Games in path: {match?.data?.romdata.length ?? 0} : User data path: {data.userDataPath}
+                <button
+                  onClick={openTempDirectory}
+                  className="ml-2 px-2 py-0.5 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none"
+                  title="Open temp directory where extracted game files are stored"
+                >
+                  Open Temp Dir
+                </button>
                 {process.env.NODE_ENV === 'development' && ` : Current URL: ${window.location.href}`}
               </h1>
             </>
