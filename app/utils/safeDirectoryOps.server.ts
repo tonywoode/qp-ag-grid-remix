@@ -106,3 +106,25 @@ export async function handleExistingData(
       throw new Error('Invalid choice')
   }
 }
+
+/**
+ * Creates a directory if it doesn't exist, with proper error handling
+ * Consider that some people remove all temp dirs on their system, either you can rename your extraction dir, or try this...
+ */
+export async function createDirIfNotExist(dirPath: string) {
+  const fnName = createDirIfNotExist.name
+  try {
+    const stats = await fs.promises.stat(dirPath)
+    if (stats.isDirectory()) console.log(`extraction Dir: ${dirPath}`)
+    else console.error(`${fnName}: ${dirPath} exists but is not a dir`)
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      try {
+        await fs.promises.mkdir(dirPath, { recursive: true })
+        console.log(`${fnName}: Dir ${dirPath} didn't preexist: created successfully`)
+      } catch (mkdirError) {
+        console.error(`${fnName}: Error creating dir: ${mkdirError}`)
+      }
+    } else console.error(`${fnName}: Error accessing dir: ${error}`)
+  }
+}
