@@ -16,8 +16,7 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
-//TODO: you'd expect the root.tsx to want to know if the dats directory exists, but it delegates this entirely
-import { dataDirectory, dataDirectoryExists, getTempDirectory } from '~/dataLocations.server'
+import { dataDirectory, dataDirectoryExists, datsDirectory, getTempDirectory } from '~/dataLocations.server'
 
 //configure and export logging per-domain feature
 //todo: user-enablable - split out to json/global flag?)
@@ -46,6 +45,8 @@ export async function loader() {
     folderData,
     userDataPath: electron.app.getPath('userData'),
     tempDirectory,
+    dataDirectory,
+    datsDirectory,
     dataDirectoryExists: dataDirectoryExists()
   })
 }
@@ -212,7 +213,7 @@ export default function App() {
                 >
                   <div className="flex justify-between items-center">
                     <div className="space-y-1">
-                      <div className="text-xs font-mono">User data path: {data.userDataPath}</div>
+                      <div className="text-xs font-mono">Data directory: {data.dataDirectory}: Dats directory: {data.datsDirectory}</div>
                       <div className="text-xs font-mono">Temp directory: {data.tempDirectory}</div>
                       {process.env.NODE_ENV === 'development' && (
                         <div className="text-xs font-mono">
