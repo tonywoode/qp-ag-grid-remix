@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import fs from 'fs'
+import * as path from 'path'
 import { Form, useActionData, useNavigate, useNavigation } from '@remix-run/react'
 import { json } from '@remix-run/node'
 import Modal from 'react-modal'
@@ -13,7 +14,11 @@ type ModalState = {
   isOpen: boolean
   selectedPath?: string
   isConverting?: boolean
-  error?: string
+  error?: {
+    title: string
+    message: string
+    details?: string
+  }
   result?: {
     success: boolean
     message: string
@@ -97,10 +102,36 @@ export const action = async ({ request }: { request: Request }) => {
   }
 
   try {
-    //TODO: no error handling or freedback to user - what if OS runs out of disk space?
-    //log out the current working directory
     console.log('Current working directory:', process.cwd())
     console.log(sourcePath, options, dataDirectory, datsDirectory, backupChoice)
+
+    // Check write permissions for data and dats directories before starting conversion
+    try {
+      if (options.convertRomdata) {
+        fs.mkdirSync(dataDirectory, { recursive: true })
+        const testFile = path.join(dataDirectory, '.write-test')
+        fs.writeFileSync(testFile, 'test')
+        fs.unlinkSync(testFile)
+      }
+
+      if (options.convertSystems || options.convertEmulators || options.convertMediaPanel) {
+        fs.mkdirSync(datsDirectory, { recursive: true })
+        const testFile = path.join(datsDirectory, '.write-test')
+        fs.writeFileSync(testFile, 'test')
+        fs.unlinkSync(testFile)
+      }
+    } catch (fsError) {
+      return json({
+        success: false,
+        error: {
+          title: 'Permission Error',
+          message: 'Cannot write to output directories. Please check permissions.',
+          details: fsError.message
+        }
+      })
+    }
+
+    // Start actual conversion
     const result = await convertQuickPlayData(sourcePath, options, dataDirectory, datsDirectory, backupChoice)
     const details = []
     if (result.romdataFiles) details.push(`Converted ${result.romdataFiles} ROM data files`)
@@ -112,10 +143,24 @@ export const action = async ({ request }: { request: Request }) => {
       success: result.success,
       message: result.success ? 'Conversion completed successfully' : result.error?.message,
       details: result.success ? details : undefined,
-      complete: result.success
+      complete: result.success,
+      error: !result.success
+        ? {
+            title: `Conversion Error: ${result.error?.component}`,
+            message: result.error?.message || 'Unknown error occurred'
+          }
+        : undefined
     })
   } catch (error) {
-    return json({ success: false, message: error.message })
+    console.error('Conversion error:', error)
+    return json({
+      success: false,
+      error: {
+        title: 'Unexpected Error',
+        message: 'An unexpected error occurred during conversion.',
+        details: error.message
+      }
+    })
   }
 }
 
@@ -133,7 +178,10 @@ export default function Convert() {
     convertMediaPanel: true
   })
 
-  // Simple effect to handle all state changes
+  // Store the validation message separately so we can preserve it
+  const [validationMessage, setValidationMessage] = useState<string>('')
+
+  // Modified effect to handle state changes and preserve messages
   useEffect(() => {
     if (navigation.state === 'submitting') {
       setModalState(prev => ({ ...prev, isConverting: true, error: undefined }))
@@ -148,13 +196,20 @@ export default function Convert() {
             details: actionData.details
           }
         }))
+      } else if (actionData.error) {
+        // Handle explicit error information
+        setModalState(prev => ({
+          ...prev,
+          isConverting: false,
+          error: actionData.error,
+          selectedPath: actionData.path || prev.selectedPath
+        }))
       } else {
-        //handle all other states (directory selection, errors, etc)
+        // Handle other states (directory selection, etc)
         setModalState(prev => ({
           ...prev,
           isConverting: false,
           selectedPath: actionData.path,
-          error: actionData.error,
           result: actionData.success
             ? {
                 success: true,
@@ -162,6 +217,11 @@ export default function Convert() {
               }
             : undefined
         }))
+
+        // Store validation message when a valid directory is selected
+        if (actionData.message && actionData.path) {
+          setValidationMessage(actionData.message)
+        }
       }
     }
   }, [navigation.state, actionData, navigate])
@@ -187,7 +247,32 @@ export default function Convert() {
           </div>
         ) : (
           <>
-            {!modalState.result?.success && ( // Only show form if we haven't completed successfully (onn success we onnly show results!)
+            {/* Display error messages with improved styling */}
+            {modalState.error && (
+              <div className="mb-4 p-3 bg-red-50 border border-red-300 rounded-md text-red-800">
+                <h3 className="font-bold">{modalState.error.title}</h3>
+                <p className="mb-2">{modalState.error.message}</p>
+                {modalState.error.details && (
+                  <details className="mt-1">
+                    <summary className="text-sm cursor-pointer">Technical details</summary>
+                    {/* Fixed scrollbar hiding text by adding padding-right */}
+                    <pre className="text-xs bg-red-100 p-2 pr-4 mt-1 rounded overflow-auto max-h-32">
+                      {modalState.error.details}
+                    </pre>
+                  </details>
+                )}
+                <div className="mt-3">
+                  <button
+                    onClick={() => setModalState(prev => ({ ...prev, error: undefined }))}
+                    className="text-sm bg-red-200 px-3 py-1 rounded hover:bg-red-300"
+                  >
+                    Try Again
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {!modalState.result?.success && !modalState.error && (
               <>
                 {!modalState.selectedPath ? (
                   <Form method="post" className="space-y-4">
@@ -234,9 +319,9 @@ export default function Convert() {
                       </div>
                     ) : (
                       <div className="space-y-4">
-                        <p className="text-green-600">
-                          {actionData?.message}: <span className="font-mono text-sm">{modalState.selectedPath}</span>
-                        </p>
+                        {/* Show the stored validation message instead of relying on actionData */}
+                        <p className="text-green-600">{validationMessage || actionData?.message}:</p>
+                        <div className="font-mono text-sm break-all">{modalState.selectedPath}</div>
                         <Form method="post">
                           <input type="hidden" name="sourcePath" value={modalState.selectedPath} />
                           <input type="hidden" name="options" value={JSON.stringify(actionData?.options)} />
@@ -269,29 +354,29 @@ export default function Convert() {
                 )}
               </>
             )}
-          </>
-        )}
 
-        {modalState.result?.success && (
-          <div className="mt-4 text-green-600 space-y-2">
-            <p>{modalState.result.message}</p>
-            {modalState.result.details && (
-              <ul className="list-disc list-inside">
-                {modalState.result.details.map((detail, index) => (
-                  <li key={index}>{detail}</li>
-                ))}
-              </ul>
+            {modalState.result?.success && (
+              <div className="mt-4 text-green-600 space-y-2">
+                <p>{modalState.result.message}</p>
+                {modalState.result.details && (
+                  <ul className="list-disc list-inside">
+                    {modalState.result.details.map((detail, index) => (
+                      <li key={index}>{detail}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
             )}
-          </div>
-        )}
 
-        {!modalState.isConverting && (
-          <button
-            onClick={() => navigate('/')}
-            className="mt-4 bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600"
-          >
-            Close
-          </button>
+            {!modalState.isConverting && (
+              <button
+                onClick={() => navigate('/')}
+                className="mt-4 bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600"
+              >
+                Close
+              </button>
+            )}
+          </>
         )}
       </div>
     </Modal>
