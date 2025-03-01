@@ -5,20 +5,32 @@
  */
 import * as fs from 'fs'
 import * as path from 'path'
+import { dataDirectory, datsDirectory } from '~/dataLocations.server'
 
 export type BackupChoice = 'cancel' | 'backup' | 'overwrite'
 
 export async function safeRemoveDirectory(dirPath: string): Promise<void> {
-  //ensure we're not dealing with a symlink
+  // Ensure we're not dealing with a symlink
   if (fs.lstatSync(dirPath).isSymbolicLink()) {
     throw new Error('Cannot remove symbolic links for safety reasons')
   }
 
-  //verify the path is within our app directory
-  const appDir = process.cwd()
+  // Get absolute paths for comparison
   const resolvedPath = path.resolve(dirPath)
-  if (!resolvedPath.startsWith(appDir)) {
-    throw new Error('Cannot remove directories outside the app directory')
+  const resolvedDataDir = path.resolve(dataDirectory)
+  const resolvedDatsDir = path.resolve(datsDirectory)
+
+  // Only allow removal if the directory is one of our known data directories
+  // or is a subdirectory of one of those directories
+  const isInDataDir = resolvedPath === resolvedDataDir || resolvedPath.startsWith(resolvedDataDir + path.sep)
+  const isInDatsDir = resolvedPath === resolvedDatsDir || resolvedPath.startsWith(resolvedDatsDir + path.sep)
+
+  if (!isInDataDir && !isInDatsDir) {
+    throw new Error(
+      `Cannot remove directory outside of allowed data locations. 
+      Path: ${resolvedPath}
+      Allowed locations: ${resolvedDataDir}, ${resolvedDatsDir}`
+    )
   }
 
   await fs.promises.rm(dirPath, { recursive: true, force: true })
