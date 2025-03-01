@@ -83,7 +83,7 @@ export const action = async ({ request }: { request: Request }) => {
     return json({
       success: false,
       path: sourcePath,
-      message: `Valid QuickPlay directory selected: ${sourcePath}`,
+      message: `Valid QuickPlay directory selected:`,
       options
     })
   }
@@ -98,6 +98,9 @@ export const action = async ({ request }: { request: Request }) => {
 
   try {
     //TODO: no error handling or freedback to user - what if OS runs out of disk space?
+    //log out the current working directory
+    console.log('Current working directory:', process.cwd())
+    console.log(sourcePath, options, dataDirectory, datsDirectory, backupChoice)
     const result = await convertQuickPlayData(sourcePath, options, dataDirectory, datsDirectory, backupChoice)
     const details = []
     if (result.romdataFiles) details.push(`Converted ${result.romdataFiles} ROM data files`)
