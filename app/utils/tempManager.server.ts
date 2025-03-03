@@ -5,8 +5,8 @@ import { createDirIfNotExist, safeRemoveDirectory } from '~/utils/safeDirectoryO
 import { logger } from '../root';
 
 // Settings that could eventually be user-configurable
-const DEFAULT_MAX_AGE_DAYS = 14; // Default: Delete after 2 weeks of no use
-const DEFAULT_MAX_TEMP_SIZE_MB = 10000; // Default: 10GB max temp size
+const DEFAULT_MAX_AGE_DAYS = 14 // Default: Delete after 2 weeks of no use
+const DEFAULT_MAX_TEMP_SIZE_MB = 10000 // Default: 10GB max temp size - better never get a game bigger than this!
 
 /**
  * Get archive-specific extraction directory path.

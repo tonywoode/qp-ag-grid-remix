@@ -17,6 +17,8 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
 import { dataDirectory, dataDirectoryExists, datsDirectory, getTempDirectory } from '~/dataLocations.server'
+import { cleanupTempDirectories } from '~/utils/tempManager.server'
+import { CleanupButton } from '~/components/CleanupButton'
 
 //configure and export logging per-domain feature
 //todo: user-enablable - split out to json/global flag?)
@@ -39,6 +41,20 @@ export const links: LinksFunction = () => [
 
 export async function loader() {
   logger.log('remixRoutes', 'in the root loader')
+
+  // Run temp directory cleanup on app startup
+  try {
+    const cleanup = await cleanupTempDirectories()
+    if (cleanup.deletedFolders > 0) {
+      logger.log(
+        'fileOperations',
+        `Startup cleanup: removed ${cleanup.deletedFolders} folders (${cleanup.freedSpaceMB} MB)`
+      )
+    }
+  } catch (err) {
+    logger.log('fileOperations', `Startup cleanup failed: ${err}`)
+    // Continue with normal startup even if cleanup fails
+  }
   const folderData = dataDirectoryExists() ? await scanFolder(dataDirectory) : []
   const tempDirectory = getTempDirectory()
   return json({
@@ -213,17 +229,18 @@ export default function App() {
                 >
                   <div className="flex justify-between items-center">
                     <div className="space-y-1">
-                      <div className="text-xs font-mono">Data directory: {data.dataDirectory}: Dats directory: {data.datsDirectory}</div>
+                      <div className="text-xs font-mono">
+                        Data directory: {data.dataDirectory}: Dats directory: {data.datsDirectory}
+                      </div>
                       <div className="text-xs font-mono">Temp directory: {data.tempDirectory}</div>
                       {process.env.NODE_ENV === 'development' && (
                         <div className="text-xs font-mono">
-                          Current URL:{' '}
-                          {decodeURIComponent(decodeString(window.location.href)) }
+                          Current URL: {decodeURIComponent(decodeString(window.location.href))}
                         </div>
                       )}
                     </div>
 
-                    <div>
+                    <div className="flex items-center space-x-3">
                       <button
                         onClick={openTempDirectory}
                         className="px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none flex items-center"
@@ -245,6 +262,7 @@ export default function App() {
                         </svg>
                         Open Temp Dir
                       </button>
+                      <CleanupButton />
                     </div>
                   </div>
                 </div>

@@ -5,7 +5,7 @@
  */
 import * as fs from 'fs'
 import * as path from 'path'
-import { dataDirectory, datsDirectory } from '~/dataLocations.server'
+import { dataDirectory, datsDirectory, getTempDirectory } from '~/dataLocations.server'
 
 export type BackupChoice = 'cancel' | 'backup' | 'overwrite'
 
@@ -19,17 +19,19 @@ export async function safeRemoveDirectory(dirPath: string): Promise<void> {
   const resolvedPath = path.resolve(dirPath)
   const resolvedDataDir = path.resolve(dataDirectory)
   const resolvedDatsDir = path.resolve(datsDirectory)
+  const resolvedTempDir = path.resolve(getTempDirectory())
 
-  // Only allow removal if the directory is one of our known data directories
+  // Only allow removal if the directory is one of our known directories
   // or is a subdirectory of one of those directories
   const isInDataDir = resolvedPath === resolvedDataDir || resolvedPath.startsWith(resolvedDataDir + path.sep)
   const isInDatsDir = resolvedPath === resolvedDatsDir || resolvedPath.startsWith(resolvedDatsDir + path.sep)
+  const isInTempDir = resolvedPath === resolvedTempDir || resolvedPath.startsWith(resolvedTempDir + path.sep)
 
-  if (!isInDataDir && !isInDatsDir) {
+  if (!isInDataDir && !isInDatsDir && !isInTempDir) {
     throw new Error(
       `Cannot remove directory outside of allowed data locations. 
       Path: ${resolvedPath}
-      Allowed locations: ${resolvedDataDir}, ${resolvedDatsDir}`
+      Allowed locations: ${resolvedDataDir}, ${resolvedDatsDir}, ${resolvedTempDir}`
     )
   }
 
