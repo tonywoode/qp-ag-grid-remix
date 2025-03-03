@@ -226,6 +226,7 @@ async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArc
   await emitEvent({ type: 'zip', data: 'Starting extraction...' })
 
   // Check if the file is already extracted
+  // We pass just the filename when extracting a single ROM
   const isAlreadyExtracted = await verifyExtraction(outputDirectory, romInArchive)
   if (isAlreadyExtracted) {
     logger.log(`fileOperations`, `File already extracted, reusing: ${romInArchive}`)
@@ -255,7 +256,31 @@ async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArc
 }
 
 async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger) {
-  const isAlreadyExtracted = await verifyExtraction(outputDirectory)
+  // To verify a full archive extraction, we need the list of files
+  // We'll need to get this from the listArchive function first
+  let fileList = null
+
+  try {
+    const { listArchive } = await loadNode7z()
+    // Get the file list with sizes first
+    const filesInArchive = await new Promise((resolve, reject) => {
+      let files = []
+      listArchive(gamePath)
+        .progress(items => {
+          files = items // This contains {name: string, size: number}
+        })
+        .then(() => resolve(files))
+        .catch(err => reject(err))
+    })
+
+    fileList = filesInArchive
+  } catch (err) {
+    logger.log('fileOperations', `Couldn't get archive file list: ${err}`)
+    // Continue with basic verification if we can't get the list
+  }
+
+  // Now verify with the file list if we have it
+  const isAlreadyExtracted = await verifyExtraction(outputDirectory, fileList)
   if (isAlreadyExtracted) {
     logger.log(`fileOperations`, `Archive already extracted, reusing contents`)
     await emitEvent({ type: 'zip', data: 'Using previously extracted files' })

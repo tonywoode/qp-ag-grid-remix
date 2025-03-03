@@ -23,7 +23,7 @@ export async function getArchiveExtractionDir(archivePath: string, system: strin
 
   // Use the filename WITHOUT extension as the extraction folder name
   const archiveBasename = path.basename(archivePath, path.extname(archivePath))
-  // Replace any invalid characters in the folder name
+  // Replace any invalid characters in the folder name - this shouldnt be necessary its always a filename?
   const safeFolderName = archiveBasename.replace(/[<>:"/\\|?*]/g, '_')
 
   const extractionDir = path.join(systemDir, safeFolderName)
@@ -48,18 +48,52 @@ export function touchExtractionDir(dirPath: string): void {
 
 /**
  * Check if an extraction already exists and is valid
+ * @param extractionDir - The directory where files should be extracted
+ * @param expectedFiles - Either a single filename or an array of file info objects with name and size
  */
-export async function verifyExtraction(extractionDir: string, expectedFile: string | null = null): Promise<boolean> {
+export async function verifyExtraction(
+  extractionDir: string,
+  expectedFiles: string | { name: string; size: number }[] | null = null
+): Promise<boolean> {
   try {
     // Check if directory exists
     if (!fs.existsSync(extractionDir)) return false
 
-    // If we're looking for a specific file, check if it exists
-    if (expectedFile) {
-      const filePath = path.join(extractionDir, expectedFile)
+    // Check for a specific file (string case)
+    if (typeof expectedFiles === 'string') {
+      const filePath = path.join(extractionDir, expectedFiles)
       if (!fs.existsSync(filePath)) return false
+    } 
+    // Check for multiple files with size verification
+    else if (Array.isArray(expectedFiles) && expectedFiles.length > 0) {
+      // Check that all expected files exist and have the correct size
+      for (const fileInfo of expectedFiles) {
+        const filePath = path.join(extractionDir, fileInfo.name)
+        
+        // File doesn't exist
+        if (!fs.existsSync(filePath)) {
+          logger.log('fileOperations', `Missing file during verification: ${fileInfo.name}`)
+          return false
+        }
+        
+        // Get actual file size
+        const stats = fs.statSync(filePath)
+        
+        // Allow for a small tolerance in file size comparison (to handle potential differences
+        // between how 7z reports sizes vs actual filesystem sizes)
+        const sizeTolerance = 128  // bytes of tolerance
+        const sizeDifference = Math.abs(stats.size - fileInfo.size)
+        
+        if (sizeDifference > sizeTolerance) {
+          logger.log(
+            'fileOperations', 
+            `Size mismatch for ${fileInfo.name}: expected ${fileInfo.size}, got ${stats.size}`
+          )
+          return false
+        }
+      }
     } else {
-      // Otherwise make sure directory isn't empty
+      // Otherwise make sure directory isn't empty (fallback case)
       const files = fs.readdirSync(extractionDir)
       if (files.length === 0) return false
     }
