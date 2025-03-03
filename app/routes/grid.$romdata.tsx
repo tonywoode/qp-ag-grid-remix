@@ -83,6 +83,11 @@ export default function Grid() {
     path: string
     defaultGoodMerge: string
     emulatorName: string
+    mameName: string
+    parentName: string
+    parameters: string
+    paramMode: string
+    system: string
   }
   type ZipContextMenu = BaseContextMenu & {
     type: 'zip'
@@ -134,8 +139,8 @@ export default function Grid() {
       api.startEditingCell({ rowIndex, colKey: colId })
     },
     (e: CellClickedEvent) => {
-      const { path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode } = e.node.data
-      runGame(path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode)
+      const { path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system } = e.node.data
+      runGame(path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system)
     }
   )
 
@@ -146,7 +151,8 @@ export default function Grid() {
     mameName?: string,
     parentName?: string,
     parameters?: string,
-    paramMode?: string //well a stringified int
+    paramMode?: string, //well a stringified int
+    system?: string
   ) {
     function getBaseName(p: string) {
       return p.substring(Math.max(p.lastIndexOf('\\'), p.lastIndexOf('/')) + 1)
@@ -166,7 +172,7 @@ export default function Grid() {
     })
 
     fetcher.submit(
-      { gamePath, fileInZipToRun, emulatorName, mameName, parentName, parameters, paramMode },
+      { gamePath, fileInZipToRun, emulatorName, mameName, parentName, parameters, paramMode, system },
       { action: '/runGame', method: 'post', encType: 'application/json' }
     )
   }
@@ -344,8 +350,8 @@ export default function Grid() {
       },
       (file: string) => {
         logger.log('gridOperations', 'double clicked on file in zip', file)
-        const { path, emulatorName } = params.data //runGame but use file instead of defaultGoodMerge
-        runGame(path, file, emulatorName)
+        const { path, emulatorName, mameName, parentName, parameters, paramMode, system } = params.data //runGame but use file instead of defaultGoodMerge
+        runGame(path, file, emulatorName, mameName, parentName, parameters, paramMode, system)
       }
     )
 
@@ -574,9 +580,10 @@ export default function Grid() {
         preventMultipleSelect(e.api)
         //a !editing check won't work here, we'd always have !editing if enter's been pressed
       } else if (keyPressed === 'Enter') {
-        const { path, defaultGoodMerge, emulatorName, mameName, parentName } = e.node.data
+        const { path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system } =
+          e.node.data
         if (editing) e.api.stopEditing() // Manually stop editing THEN run the game
-        else runGame(path, defaultGoodMerge, emulatorName, mameName, parentName)
+        else runGame(path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system)
       }
     },
     onRowSelected: async function (event) {
@@ -603,7 +610,12 @@ export default function Grid() {
         y: e.event?.clientY,
         path: e.node.data.path,
         defaultGoodMerge: e.node.data.defaultGoodMerge,
-        emulatorName: e.node.data.emulatorName
+        emulatorName: e.node.data.emulatorName,
+        mameName: e.node.data.mameName,
+        parentName: e.node.data.parentName,
+        parameters: e.node.data.parameters,
+        paramMode: e.node.data.paramMode,
+        system: e.node.data.system
       })
       preventMultipleSelect(e.api)
     },
@@ -686,8 +698,17 @@ export default function Grid() {
                   className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                   onClick={() => {
                     logger.log('gridOperations', 'Run Rom')
-                    const { path, defaultGoodMerge, emulatorName } = contextMenu
-                    runGame(path, defaultGoodMerge, emulatorName)
+                    const {
+                      path,
+                      defaultGoodMerge,
+                      emulatorName,
+                      mameName,
+                      parentName,
+                      parameters,
+                      paramMode,
+                      system
+                    } = contextMenu
+                    runGame(path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system)
                   }}
                 >
                   Run Rom

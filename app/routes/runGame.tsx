@@ -26,7 +26,7 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
 }
 
 export async function action({ request }: ActionFunctionArgs) {
-  const { gamePath, fileInZipToRun, emulatorName, clearProcess, mameName, parentName, parameters, paramMode } =
+  const { gamePath, fileInZipToRun, emulatorName, clearProcess, mameName, parentName, parameters, paramMode, system } =
     await request.json()
   //popup an alert to the user that if emulators is [] they won't be able to run any games
   const emulators = loadEmulators()
@@ -58,7 +58,7 @@ export async function action({ request }: ActionFunctionArgs) {
 
   if (isZip) {
     // Create archive-specific extraction directory
-    const outputDirectory = await getAndEnsureTempDir(gamePathMacOS)
+    const outputDirectory = await getAndEnsureTempDir(gamePathMacOS, system)
     await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathMacOS })
     await emitEvent({ type: 'status', data: 'isZip' }) // Add this line to emit zip status
     await examineZip(
@@ -474,9 +474,9 @@ function extractRetroarchCommandLine(emulatorJson) {
 }
 
 // Function to get temp dir path and ensure it exists
-async function getAndEnsureTempDir(archivePath = null) {
+async function getAndEnsureTempDir(archivePath = null, system = 'Unknown') {
   if (archivePath) {
-    return getArchiveExtractionDir(archivePath)
+    return getArchiveExtractionDir(archivePath, system)
   } else {
     // Fall back to original behavior if no archive path provided
     const tempDir = getTempDirectory()
