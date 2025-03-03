@@ -10,6 +10,7 @@ import { emitter } from '~/utils/emitter.server'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 import { loadNode7z } from '~/utils/node7zLoader.server'
 import { loadEmulators, getTempDirectory } from '~/dataLocations.server' // Import loadEmulators and getTempDirectory from dataLocations.server
+import { getArchiveExtractionDir, verifyExtraction, touchExtractionDir } from '~/utils/tempManager.server'
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
@@ -51,12 +52,13 @@ export async function action({ request }: ActionFunctionArgs) {
   await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathMacOS = convertPathToOSPath(gamePath)
-  const outputDirectory = await getAndEnsureTempDir()
   const gameExtension = path.extname(gamePathMacOS).toLowerCase()
   //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
   const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
 
   if (isZip) {
+    // Create archive-specific extraction directory
+    const outputDirectory = await getAndEnsureTempDir(gamePathMacOS)
     await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathMacOS })
     await emitEvent({ type: 'status', data: 'isZip' }) // Add this line to emit zip status
     await examineZip(
@@ -222,11 +224,22 @@ function setupChooseGoodMergeRom(filenames: string[], logger) {
 
 async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArchive, logger) {
   await emitEvent({ type: 'zip', data: 'Starting extraction...' })
+
+  // Check if the file is already extracted
+  const isAlreadyExtracted = await verifyExtraction(outputDirectory, romInArchive)
+  if (isAlreadyExtracted) {
+    logger.log(`fileOperations`, `File already extracted, reusing: ${romInArchive}`)
+    // emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' })
+    await emitEvent({ type: 'zip', data: 'Using previously extracted file' })
+    return outputDirectory
+  }
+
   // Wrap old-style promise in async/await
   const result = await new Promise((resolve, reject) => {
     onlyArchive(gamePath, outputDirectory, romInArchive)
       .then(result => {
         logger.log(`fileOperations`, `extracting single file with 7z:`, result)
+        touchExtractionDir(outputDirectory) // Update timestamp
         resolve(result)
       })
       .catch(err => {
@@ -242,10 +255,19 @@ async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArc
 }
 
 async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger) {
+  const isAlreadyExtracted = await verifyExtraction(outputDirectory)
+  if (isAlreadyExtracted) {
+    logger.log(`fileOperations`, `Archive already extracted, reusing contents`)
+    await emitEvent({ type: 'zip', data: 'Using previously extracted files' })
+    emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' })
+    return outputDirectory
+  }
+
   const result = await new Promise((resolve, reject) => {
     fullArchive(gamePath, outputDirectory)
       .then(result => {
         logger.log(`fileOperations`, `extracting all files with 7z:`, result)
+        touchExtractionDir(outputDirectory) // Update timestamp
         resolve(result)
       })
       .catch(err => {
@@ -452,8 +474,13 @@ function extractRetroarchCommandLine(emulatorJson) {
 }
 
 // Function to get temp dir path and ensure it exists
-async function getAndEnsureTempDir() {
-  const tempDir = getTempDirectory()
-  await createDirIfNotExist(tempDir)
-  return tempDir
+async function getAndEnsureTempDir(archivePath = null) {
+  if (archivePath) {
+    return getArchiveExtractionDir(archivePath)
+  } else {
+    // Fall back to original behavior if no archive path provided
+    const tempDir = getTempDirectory()
+    await createDirIfNotExist(tempDir)
+    return tempDir
+  }
 }
