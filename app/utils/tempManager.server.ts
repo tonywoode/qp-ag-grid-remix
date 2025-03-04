@@ -124,8 +124,12 @@ export async function cleanupTempDirectories(
   let freedSpaceMB = 0
 
   try {
-    // Skip if temp dir doesn't exist
-    if (!fs.existsSync(tempDir)) {
+    // Create temp dir if it doesn't exist (instead of returning early with error)
+    await createDirIfNotExist(tempDir)
+
+    // If directory is empty or just created, nothing to clean
+    const dirContents = fs.readdirSync(tempDir)
+    if (dirContents.length === 0) {
       return { deletedFolders: 0, freedSpaceMB: 0, totalSizeMB: 0 }
     }
 
