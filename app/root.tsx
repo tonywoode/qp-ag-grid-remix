@@ -7,6 +7,7 @@ import reactTabsStyles from 'react-tabs/style/react-tabs.css'
 import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-menu'
 import { Tree } from 'react-arborist'
 import Split from 'react-split'
+import { platform } from 'os'
 
 import tailwindStyles from '~/styles/tailwind.css'
 import reactSplitStyles from '~/styles/react-split.css'
@@ -57,13 +58,23 @@ export async function loader() {
   }
   const folderData = dataDirectoryExists() ? await scanFolder(dataDirectory) : []
   const tempDirectory = getTempDirectory()
+
+  // Add platform detection here in the server-side code - idea is on windows we can perhaps remive the nav bar and use the menu bar?
+  const currentPlatform = platform()
+  const isWindows = currentPlatform === 'win32'
+  const isMacOS = currentPlatform === 'darwin'
+  const isLinux = currentPlatform === 'linux'
+
   return json({
     folderData,
     userDataPath: electron.app.getPath('userData'),
     tempDirectory,
     dataDirectory,
     datsDirectory,
-    dataDirectoryExists: dataDirectoryExists()
+    dataDirectoryExists: dataDirectoryExists(),
+    isWindows,
+    isMacOS,
+    isLinux
   })
 }
 
@@ -86,23 +97,94 @@ export async function action({ request }: { request: Request }) {
   return json({ success: false, error: 'Unknown intent' })
 }
 
-const menu = () => (
-  <Menu menuButton={<MenuButton className="box-border border-2 border-gray-500 rounded px-2 m-3">Menu</MenuButton>}>
-    <MenuItem>New File</MenuItem>
-    <SubMenu label="Edit">
-      <MenuItem>Cut</MenuItem>
-      <MenuItem>Copy</MenuItem>
-      <MenuItem>Paste</MenuItem>
-      <SubMenu label="Find">
-        <MenuItem>Find...</MenuItem>
-        <MenuItem>Find Next</MenuItem>
-        <MenuItem>Find Previous</MenuItem>
-      </SubMenu>
-    </SubMenu>
-    <MenuDivider className="h-px bg-gray-200 mx-2.5 my-1.5" />
-    <MenuItem>Print...</MenuItem>
-  </Menu>
-)
+const ActionBar = ({ isWindows, isMacOS, isLinux }) => {
+  return (
+    <div className="fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 h-10">
+      <div className="px-4 py-1 flex items-center justify-between h-full">
+        {/* Left side - Logo and primary navigation */}
+        <div className="flex items-center space-x-2">
+          <span className="text-sm font-medium mr-3">QuickPlay</span>
+
+          <button className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center">
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+              />
+            </svg>
+            Home
+          </button>
+          <button className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center">
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+              />
+            </svg>
+            Games
+          </button>
+          <button className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center">
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+              />
+            </svg>
+            Systems
+          </button>
+        </div>
+
+        {/* Right side - action buttons */}
+        <div className="flex items-center space-x-1">
+          <Link
+            to="convert"
+            className="px-2 py-1 text-sm bg-blue-500 text-white rounded hover:bg-blue-600 flex items-center"
+          >
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+              />
+            </svg>
+            Import
+          </Link>
+
+          <button className="px-2 py-1 text-sm bg-gray-200 rounded hover:bg-gray-300 flex items-center">
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+              />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            Settings
+          </button>
+
+          <button className="p-1 rounded hover:bg-gray-200" title="Search">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 export function TreeView({ folderData }) {
   const containerRef = useRef(null)
@@ -138,7 +220,7 @@ export function TreeView({ folderData }) {
   }, [])
 
   return (
-    <div ref={containerRef} style={{ width: '100%', height: '100%' }}>
+    <div ref={containerRef} className="py-1.5" style={{ width: '100%', height: '100%' }}>
       <Tree
         key={treeKey}
         initialData={folderData}
@@ -163,6 +245,10 @@ export default function App() {
   const fetcher = useFetcher()
   const [showFooterDetails, setShowFooterDetails] = useState(false)
 
+  const isWindows = data.isWindows
+  const isMacOS = data.isMacOS
+  const isLinux = data.isLinux
+
   useEffect(() => setIsSplitLoaded(true), [])
 
   // Function to open the temp directory using the action
@@ -184,15 +270,21 @@ export default function App() {
       <body>
         <>
           <div id="root"></div> {/* Set the app element for react-modal */}
-          <div className="flex flex-row">
-            {menu()}
-            <Link to="convert" className="box-border border-2 border-gray-500 px-2 m-3">
-              Import Original QP Data
-            </Link>
-          </div>
+          {ActionBar({
+            isWindows,
+            isMacOS,
+            isLinux
+          })}
           {isSplitLoaded && (
             <>
-              <Split sizes={[18, 82]} className="flex overflow-hidden" style={{ height: 'calc(100vh - 7em)' }}>
+              <Split
+                sizes={[18, 82]}
+                className="flex overflow-hidden"
+                style={{
+                  height: 'calc(100vh - 40px - 30px)', // 40px header height and 30px footer
+                  marginTop: '23px' // Match the actual header height exactly
+                }}
+              >
                 <TreeView folderData={folderData} />
                 <div className="h-full overflow-auto">
                   {data.dataDirectoryExists ? (

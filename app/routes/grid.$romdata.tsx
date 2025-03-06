@@ -631,7 +631,7 @@ export default function Grid() {
 
   return (
     <>
-      <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 7em)', display: 'flex' }}>
+      <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 70px)', display: 'flex' }}>
         <div
           key="grid"
           className="ag-theme-alpine"
