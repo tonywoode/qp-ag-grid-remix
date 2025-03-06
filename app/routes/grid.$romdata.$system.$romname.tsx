@@ -510,7 +510,7 @@ function MediaNavigation({
       isOpen={isLightboxOpen}
       onRequestClose={closeLightbox}
       contentLabel="Media Lightbox"
-      className="flex justify-center items-center"
+      className="flex justify-center items-center overflow-hidden"
       overlayClassName="fixed inset-0  bg-opacity-20 bg-white backdrop-blur-[1.2px] z-50 flex justify-center items-center"
       style={{
         content: {
@@ -519,10 +519,15 @@ function MediaNavigation({
           // minWidth: '40vw',
           width: widthForModal, //`${zoomLevel * 40}vw`, //`${40 * zoomLevel}vw`, //base width
           height: mimeType === 'application/pdf' ? `100%` : 'auto',
-          maxHeight: '100vh'
-          // transform: `scale(${zoomLevel}, ${zoomLevel})`
+          maxHeight: 'calc(100vh - 20px)', // Subtract a bit to avoid triggering scrollbars
+          overflow: 'hidden'
+        },
+        overlay: {
+          overflow: 'hidden'
         }
       }}
+      bodyOpenClassName="overflow-hidden"
+      htmlOpenClassName="overflow-hidden"
     >
       {renderContent()}
       {/* the zindex is for pdf */}
@@ -589,23 +594,3 @@ function MediaNavigation({
     </Modal>
   )
 }
-
-// fetcher.submit(
-//   { romname, thisSystemsTabs, system },
-//   {
-//     action: `/screenshots`,
-//     method: 'post',
-//     encType: 'application/json'
-//   }
-// )
-// <h2> hello </h2>
-
-/* {isRomSelected && <MediaPanel screenshots={base64Image ? [base64Image] : []}>{screenshotUrl}</MediaPanel>} */
-/* <div>{screenshotUrl}</div> */
-
-// export default function gameFile() {
-// const params = useParams()
-// const romname = decodeURI(params.romname)
-// console.log(`/mypath/${romname}`)
-// return <div>{romname}</div>
-// }
