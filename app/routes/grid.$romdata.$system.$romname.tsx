@@ -90,7 +90,7 @@ const openInDefaultBrowser = url => window.open(url, '_blank', 'noopener,norefer
 export default function MediaPanel() {
   const location = useLocation()
   const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
-  //send the altert to the user if thisSysrtemsTabs is an object with an error property
+  //send the altert to the user if thisSystemsTabs is an object with an error property
   if (thisSystemsTabs?.error) {
     return <div>{thisSystemsTabs.error}</div>
   }
@@ -282,7 +282,7 @@ export default function MediaPanel() {
 
   const tabContentRenderers = {
     mediaItem: data => (
-      <div className="flex flex-wrap gap-4 justify-center">
+      <div className="flex flex-wrap gap-4 justify-center p-5">
         {data?.mediaItems?.length > 0 ? (
           data.mediaItems.map((_, currentIndex, mediaItems) =>
             panelMediaRenderer({ currentIndex, romname, mediaItems })
@@ -405,10 +405,19 @@ function MediaNavigation({
 
   useEffect(() => {
     const handleKeyDown = event => {
-      if (event.key === 'ArrowLeft') prevImage()
-      else if (event.key === 'ArrowRight') nextImage()
-      else if (event.key === 'ArrowUp') zoomIn()
-      else if (event.key === 'ArrowDown') zoomOut()
+      if (
+        event.key === 'ArrowLeft' ||
+        event.key === 'ArrowRight' ||
+        event.key === 'ArrowUp' ||
+        event.key === 'ArrowDown'
+      ) {
+        event.preventDefault() // don't scroll the whole browser (causes subtle leftward move on reversing paging direction)
+
+        if (event.key === 'ArrowLeft') prevImage()
+        else if (event.key === 'ArrowRight') nextImage()
+        else if (event.key === 'ArrowUp') zoomIn()
+        else if (event.key === 'ArrowDown') zoomOut()
+      }
     }
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)

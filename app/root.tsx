@@ -260,14 +260,14 @@ export default function App() {
   }
 
   return (
-    <html lang="en">
+    <html lang="en" className="w-full h-full">
       <head>
         <meta charSet="utf8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="w-full h-full m-2 p-2">
         <>
           <div id="root"></div> {/* Set the app element for react-modal */}
           {ActionBar({
