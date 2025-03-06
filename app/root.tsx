@@ -1,6 +1,6 @@
 import { cssBundleHref } from '@remix-run/css-bundle'
 import { json, type LinksFunction, type MetaFunction } from '@remix-run/node'
-import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, Link, useFetcher } from '@remix-run/react' // prettier-ignore
+import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useLoaderData, useMatches, Link, useFetcher, useRouteError, useNavigate } from '@remix-run/react' // prettier-ignore
 import React, { useState, useEffect, useRef } from 'react'
 import electron from '~/electron.server'
 import reactTabsStyles from 'react-tabs/style/react-tabs.css'
@@ -365,6 +365,137 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         {process.env.NODE_ENV === 'development' && <LiveReload />}
+      </body>
+    </html>
+  )
+}
+
+export function ErrorBoundary() {
+  const error = useRouteError()
+  const navigate = useNavigate()
+  const matches = useMatches()
+  console.error(error)
+
+  // Inline decoding functions - making the error boundary self-contained
+  function internalDecodeString(str) {
+    if (!str) return ''
+    // simplified version of decoder that handles most common tokens
+    const SPECIAL_CHARS_MAP = {
+      '\\': '__BSLASH__',
+      '%': '__PERCENT__',
+      '~': '__TILDE__',
+      '#': '__HASH__',
+      '?': '__QMARK__',
+      '/': '__FSLASH__',
+      ':': '__COLON__'
+    }
+    return str.replace(/__BSLASH__|__PERCENT__|__TILDE__|__HASH__|__QMARK__|__FSLASH__|__COLON__/g, match => {
+      for (const [char, token] of Object.entries(SPECIAL_CHARS_MAP)) {
+        if (token === match) return char
+      }
+      return match
+    })
+  }
+  function internalDecodeFullUrl(url) {
+    try {
+      return decodeURIComponent(internalDecodeString(url))
+    } catch (e) {
+      return url // Fallback to original if decoding fails
+    }
+  }
+  // ensure we have a proper error object with stack
+  const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred'
+  const errorStack = error instanceof Error ? error.stack : JSON.stringify(error, null, 2)
+  const timestamp = new Date().toISOString()
+  // Get additional diagnostic information
+  const currentUrl = typeof window !== 'undefined' ? window.location.href : 'Server-side error'
+  const currentRoute = matches.length > 0 ? matches[matches.length - 1]?.pathname : 'Unknown route'
+  const userAgent = typeof navigator !== 'undefined' ? navigator.userAgent : 'Server-side error'
+  const platformInfo = typeof navigator !== 'undefined' ? navigator.platform : 'Server-side error'
+  const goBack = () => navigate(-1)
+  const goHome = () => navigate('/')
+  return (
+    <html lang="en" className="w-full h-full">
+      <head>
+        <meta charSet="utf8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <Meta />
+        <Links />
+        <title>Error | QuickPlay</title>
+      </head>
+      <body className="w-full h-full bg-gray-50">
+        <div className="p-4 md:p-8 max-w-full mx-auto">
+          {' '}
+          {/* Made wider */}
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden max-w-full">
+            <div className="p-6 bg-red-500 text-white">
+              <h1 className="text-2xl font-bold">Application Error - if you want it to not happen, report it to us!</h1>
+              <p className="mt-2 text-red-100">{errorMessage}</p>
+              <div className="mt-2 opacity-75 text-xs font-mono">{timestamp}</div>
+            </div>
+
+            <div className="p-6">
+              <div className="mb-6 flex space-x-4">
+                <button
+                  onClick={goBack}
+                  className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                >
+                  ← Go Back
+                </button>
+                <button
+                  onClick={goHome}
+                  className="px-4 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300 transition-colors"
+                >
+                  Go Home
+                </button>
+              </div>
+
+              {/* Diagnostic Information Section */}
+              <div className="mb-6 border-b border-gray-200 pb-4">
+                <h2 className="text-lg font-semibold mb-2">Diagnostic Information</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                  <div>
+                    <span className="font-semibold">URL:</span>{' '}
+                    <span className="font-mono break-all">
+                      {typeof currentUrl === 'string' ? internalDecodeFullUrl(currentUrl) : currentUrl}
+                    </span>
+                  </div>
+                  <div>
+                    <span className="font-semibold">Route:</span>{' '}
+                    <span className="font-mono">
+                      {typeof currentRoute === 'string' ? internalDecodeFullUrl(currentRoute) : currentRoute}
+                    </span>
+                  </div>
+                  <div>
+                    <span className="font-semibold">Time:</span> <span className="font-mono">{timestamp}</span>
+                  </div>
+                  <div>
+                    <span className="font-semibold">Platform:</span> <span className="font-mono">{platformInfo}</span>
+                  </div>
+                  <div className="col-span-full">
+                    <span className="font-semibold">User Agent:</span>{' '}
+                    <span className="font-mono break-all">{userAgent}</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-6">
+                <h2 className="text-lg font-semibold mb-2">Error Details</h2>
+                <pre className="bg-gray-100 p-4 rounded overflow-auto text-xs max-h-[50vh]">{errorStack}</pre>
+              </div>
+              <details className="mt-4">
+                <summary className="cursor-pointer text-sm text-gray-500">View raw error object</summary>
+                <pre className="text-xs mt-2 p-2 bg-gray-900 text-gray-100 rounded overflow-auto">
+                  {typeof error === 'object' && error !== null && Object.keys(error).length > 0
+                    ? JSON.stringify(error, null, 2)
+                    : 'Error object is empty or not available'}
+                </pre>
+              </details>
+            </div>
+          </div>
+        </div>
+        <ScrollRestoration />
+        <Scripts />
       </body>
     </html>
   )
