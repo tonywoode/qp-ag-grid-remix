@@ -315,7 +315,7 @@ export default function MediaPanel() {
   return (
     <div>
       <Tabs selectedIndex={selectedTabIndex} onSelect={index => setSelectedTabIndex(index)}>
-        <TabList className="sticky top-0 bg-white z-2">
+        <TabList className="sticky top-0 bg-white z-10 pb-2">
           {thisSystemsTabs?.map((tab, index) => <Tab key={index}>{tab.caption}</Tab>)}
         </TabList>
         <div className="overflow-auto h-full">
