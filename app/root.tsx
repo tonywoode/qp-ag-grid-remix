@@ -220,7 +220,7 @@ export function TreeView({ folderData }) {
   }, [])
 
   return (
-    <div ref={containerRef} className="py-1.5" style={{ width: '100%', height: '100%' }}>
+    <div ref={containerRef} className="py-1.5 px-3" style={{ width: '100%', height: '100%' }}>
       <Tree
         key={treeKey}
         initialData={folderData}
@@ -267,7 +267,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="w-full h-full m-2 p-2">
+      <body className="w-full h-full m-0 p-0 overflow-hidden">
         <>
           <div id="root"></div> {/* Set the app element for react-modal */}
           {ActionBar({
@@ -282,7 +282,7 @@ export default function App() {
                 className="flex overflow-hidden"
                 style={{
                   height: 'calc(100vh - 40px - 30px)', // 40px header height and 30px footer
-                  marginTop: '23px' // Match the actual header height exactly
+                  marginTop: '40px' // Match the actual header height exactly
                 }}
               >
                 <TreeView folderData={folderData} />

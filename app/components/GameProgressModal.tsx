@@ -213,7 +213,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
             className={`px-4 py-1 ${isMinimized ? 'bg-red-500' : 'bg-blue-500'} text-white rounded`}
             onClick={isMinimized ? handleConfirmClose : handleClose}
           >
-            {isMinimized ? 'Emu still running, sure?' : status === 'running' ? 'Minimize' : 'Close'}
+            {isMinimized ? 'Emu still running, really disconnect?' : status === 'running' ? 'Minimize' : 'Close'}
           </button>
         </div>
       </div>
