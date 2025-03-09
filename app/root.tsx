@@ -97,7 +97,13 @@ export async function action({ request }: { request: Request }) {
   return json({ success: false, error: 'Unknown intent' })
 }
 
-const ActionBar = ({ isWindows, isMacOS, isLinux }) => {
+const ActionBar = ({ 
+  isWindows, 
+  isMacOS, 
+  isLinux, 
+  isMenuExpanded, 
+  onExpandChange 
+}) => {
   const [isFullScreen, setIsFullScreen] = useState(false)
 
   useEffect(() => {
@@ -155,13 +161,28 @@ const ActionBar = ({ isWindows, isMacOS, isLinux }) => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 ${
-        isFullScreen ? 'h-0 hover:h-10 overflow-hidden transition-all duration-300' : 'h-10'
+      className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 transition-all duration-300 ${
+        isFullScreen ? 'h-0 hover:h-10 overflow-hidden' : isMenuExpanded ? 'h-10' : 'h-6'
       }`}
-      style={{ WebkitAppRegion: isWindows ? 'drag' : 'no-drag' }} // Make draggable on Windows
+      onMouseEnter={() => onExpandChange(true)}
+      onMouseLeave={() => onExpandChange(false)}
+      style={{ WebkitAppRegion: isWindows ? 'drag' : 'no-drag' }}
     >
-      <div className="px-4 py-1 flex items-center justify-between h-full">
-        {/* Left side content stays mostly the same */}
+      {/* Collapsed view - only shows when menu is not expanded */}
+      <div className={`px-4 py-1 flex items-center justify-between ${isMenuExpanded ? 'hidden' : 'block'}`}>
+        <div className="flex items-center">
+          <span className="text-sm font-medium">QuickPlay</span>
+          <span className="text-xs text-gray-400 ml-2">hover for menu</span>
+        </div>
+      </div>
+
+      {/* Expanded view - shows all buttons and controls */}
+      <div
+        className={`px-4 py-1 flex items-center justify-between h-full ${
+          isMenuExpanded ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        } transition-opacity duration-300`}
+      >
+        {/* Left side content */}
         <div className="flex items-center space-x-2" style={{ WebkitAppRegion: 'no-drag' }}>
           <span className="text-sm font-medium mr-3">QuickPlay</span>
           <button className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center">
@@ -376,6 +397,7 @@ export default function App() {
   const [isSplitLoaded, setIsSplitLoaded] = useState(false)
   const fetcher = useFetcher()
   const [showFooterDetails, setShowFooterDetails] = useState(false)
+  const [isMenuExpanded, setIsMenuExpanded] = useState(false)
 
   const isWindows = data.isWindows
   const isMacOS = data.isMacOS
@@ -391,6 +413,21 @@ export default function App() {
     fetcher.submit(formData, { method: 'post' })
   }
 
+  // Calculate header height based on menu state
+  const headerHeight = isMenuExpanded ? 40 : 24; // 40px when expanded, 24px when collapsed
+  
+  // Pass state and setter to ActionBar
+  const handleMenuExpandChange = (expanded) => {
+    setIsMenuExpanded(expanded);
+    
+    // Dispatch a custom event that nested components can listen for
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('menuexpandchange', { 
+        detail: expanded 
+      }));
+    }
+  };
+
   return (
     <html lang="en" className="w-full h-full">
       <head>
@@ -402,19 +439,21 @@ export default function App() {
       <body className="w-full h-full m-0 p-0 overflow-hidden">
         <>
           <div id="root"></div> {/* Set the app element for react-modal */}
-          {ActionBar({
-            isWindows,
-            isMacOS,
-            isLinux
-          })}
+          <ActionBar
+            isWindows={isWindows}
+            isMacOS={isMacOS}
+            isLinux={isLinux}
+            onExpandChange={handleMenuExpandChange}
+            isMenuExpanded={isMenuExpanded}
+          />
           {isSplitLoaded && (
             <>
               <Split
                 sizes={[18, 82]}
-                className="flex overflow-hidden"
+                className="flex overflow-hidden transition-all duration-300"
                 style={{
-                  height: 'calc(100vh - 40px - 30px)', // 40px header height and 30px footer
-                  marginTop: '40px' // Match the actual header height exactly
+                  height: `calc(100vh - ${headerHeight}px - 30px)`, // Dynamic height based on header
+                  marginTop: `${headerHeight}px` // Dynamic margin based on header height
                 }}
               >
                 <TreeView folderData={folderData} />

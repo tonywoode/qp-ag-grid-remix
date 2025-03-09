@@ -77,6 +77,7 @@ export default function Grid() {
     logs: string[]
   } | null>(null)
   const [fileStatuses, setFileStatuses] = useState<Record<string, boolean>>({})
+  const [menuHeight, setMenuHeight] = useState(24)
   type BaseContextMenu = { x: number; y: number }
   type RomContextMenu = BaseContextMenu & {
     type: 'rom'
@@ -629,9 +630,19 @@ export default function Grid() {
     // onFilterChanged: updateRowData
   }
 
+  useEffect(() => {
+    const handleMenuExpandChange = event => {
+      // Update our local state based on the menu's expansion state
+      setMenuHeight(event.detail ? 40 : 24)
+    }
+
+    window.addEventListener('menuexpandchange', handleMenuExpandChange)
+    return () => window.removeEventListener('menuexpandchange', handleMenuExpandChange)
+  }, [])
+
   return (
     <>
-      <Split sizes={[70, 30]} style={{ height: 'calc(100vh - 70px)', display: 'flex' }}>
+      <Split sizes={[70, 30]} style={{ height: `calc(100vh - ${menuHeight}px - 30px)`, display: 'flex' }}>
         <div
           key="grid"
           className="ag-theme-alpine"
