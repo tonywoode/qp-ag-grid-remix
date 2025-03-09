@@ -9,7 +9,17 @@ let win
 
 /** @param {string} url */
 async function createWindow(url) {
-  win = new BrowserWindow({ show: false })
+  win = new BrowserWindow({
+    show: false,
+    // Make it frameless on Windows but keep native frame on macOS
+    frame: process.platform !== 'win32',
+    // This enables dragging and window controls
+    titleBarStyle: process.platform === 'win32' ? 'hidden' : 'default',
+    webPreferences: {
+      nodeIntegration: false,
+      contextIsolation: true
+    }
+  })
   win.maximize()
   await win.loadURL(url)
   win.show()
@@ -19,13 +29,40 @@ async function createWindow(url) {
   }
 }
 
-// the windows menu not only looks bad, it throws out all our css proportional positioning
-// let's remove it (alt'll prob still open it tho, throwing that css out again...)
+// Create application menu with shortcuts but don't display it on Windows
+const menuTemplate = [
+  {
+    label: 'File',
+    submenu: [
+      { role: 'quit' }
+    ]
+  },
+  {
+    label: 'View',
+    submenu: [
+      { role: 'reload' },
+      { role: 'forceReload' },
+      { type: 'separator' },
+      { role: 'resetZoom' },
+      { role: 'zoomIn', accelerator: 'CommandOrControl+=' }, // Ensure Ctrl+= works too
+      { role: 'zoomOut' },
+      { type: 'separator' },
+      { role: 'togglefullscreen' },
+      { type: 'separator' },
+      { role: 'toggleDevTools' }
+    ]
+  }
+];
+
+// Create menu from template
 if (process.platform === 'win32') {
-  Menu.setApplicationMenu(null)
-  // we can still create and attach a menu that's accessible via Alt
-  // const menu = Menu.buildFromTemplate([...your menu items...])
-  // win.setMenu(menu)
+  const menu = Menu.buildFromTemplate(menuTemplate)
+  Menu.setApplicationMenu(menu)
+
+  // This sets up the app to have the menu functionality without showing it
+  app.on('browser-window-created', (_, browserWindow) => {
+    browserWindow.setMenuBarVisibility(false)
+  })
 }
 
 app.on('ready', () => {

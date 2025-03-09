@@ -9,4 +9,35 @@ const { app, BrowserWindow, ipcMain, shell } = electron
 ipcMain.on('openPath', (event, link) => {
    shell.openPath(link)
  })
+
+// Add window control handlers
+ipcMain.on('window-minimize', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) win.minimize()
+})
+
+ipcMain.on('window-maximize', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) {
+    if (win.isMaximized()) win.unmaximize()
+    else win.maximize()
+  }
+})
+
+ipcMain.on('window-close', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) win.close()
+})
+
+ipcMain.on('toggle-devtools', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) win.webContents.toggleDevTools()
+})
+
+// Add fullscreen handler
+ipcMain.on('toggle-fullscreen', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) win.setFullScreen(!win.isFullScreen())
+})
+
 export default electron

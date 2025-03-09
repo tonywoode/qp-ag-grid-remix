@@ -98,88 +98,151 @@ export async function action({ request }: { request: Request }) {
 }
 
 const ActionBar = ({ isWindows, isMacOS, isLinux }) => {
+  const [isFullScreen, setIsFullScreen] = useState(false)
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // Listen for fullscreen changes
+      const handleFullscreenChange = () => {
+        setIsFullScreen(!!document.fullscreenElement)
+      }
+
+      document.addEventListener('fullscreenchange', handleFullscreenChange)
+
+      // Check initial fullscreen state
+      try {
+        const isFullScreen = window.electron?.isFullScreen?.() || false
+        setIsFullScreen(isFullScreen)
+      } catch (e) {
+        // Ignore errors in case the API isn't available
+      }
+
+      return () => document.removeEventListener('fullscreenchange', handleFullscreenChange)
+    }
+  }, [])
+
+  // Window control functions
+  const minimizeWindow = () => {
+    // Using Remix-friendly approach to call electron
+    const formData = new FormData()
+    formData.append('intent', 'window-minimize')
+    fetch('/api/electron', { method: 'POST', body: formData })
+  }
+
+  const maximizeWindow = () => {
+    const formData = new FormData()
+    formData.append('intent', 'window-maximize')
+    fetch('/api/electron', { method: 'POST', body: formData })
+  }
+
+  const closeWindow = () => {
+    const formData = new FormData()
+    formData.append('intent', 'window-close')
+    fetch('/api/electron', { method: 'POST', body: formData })
+  }
+
+  const toggleFullScreen = () => {
+    const formData = new FormData()
+    formData.append('intent', 'toggle-fullscreen')
+    fetch('/api/electron', { method: 'POST', body: formData })
+  }
+
+  const toggleDevTools = () => {
+    const formData = new FormData()
+    formData.append('intent', 'toggle-devtools')
+    fetch('/api/electron', { method: 'POST', body: formData })
+  }
+
   return (
-    <div className="fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 h-10">
+    <div
+      className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 ${
+        isFullScreen ? 'h-0 hover:h-10 overflow-hidden transition-all duration-300' : 'h-10'
+      }`}
+      style={{ WebkitAppRegion: isWindows ? 'drag' : 'no-drag' }} // Make draggable on Windows
+    >
       <div className="px-4 py-1 flex items-center justify-between h-full">
-        {/* Left side - Logo and primary navigation */}
-        <div className="flex items-center space-x-2">
+        {/* Left side content stays mostly the same */}
+        <div className="flex items-center space-x-2" style={{ WebkitAppRegion: 'no-drag' }}>
           <span className="text-sm font-medium mr-3">QuickPlay</span>
+          {/* Existing buttons */}
 
-          <button className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center">
-            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-              />
-            </svg>
-            Home
+          {/* Add fullscreen toggle */}
+          <button
+            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
+            onClick={toggleFullScreen}
+            title="Toggle Fullscreen (F11)"
+          >
+            {isFullScreen ? (
+              <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
+                />
+              </svg>
+            ) : (
+              <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v-4m0 4h-4m4 0l-5-5"
+                />
+              </svg>
+            )}
+            Fullscreen
           </button>
-          <button className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center">
-            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-              />
-            </svg>
-            Games
-          </button>
-          <button className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center">
-            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-              />
-            </svg>
-            Systems
-          </button>
-        </div>
 
-        {/* Right side - action buttons */}
-        <div className="flex items-center space-x-1">
-          <Link
-            to="convert"
-            className="px-2 py-1 text-sm bg-blue-500 text-white rounded hover:bg-blue-600 flex items-center"
+          <button
+            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
+            onClick={toggleDevTools}
+            title="Developer Tools (F12)"
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
               />
             </svg>
-            Import
-          </Link>
-
-          <button className="px-2 py-1 text-sm bg-gray-200 rounded hover:bg-gray-300 flex items-center">
-            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
-              />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
-            Settings
+            Dev Tools
           </button>
+        </div>
 
-          <button className="p-1 rounded hover:bg-gray-200" title="Search">
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
-          </button>
+        {/* Right side with window controls for Windows */}
+        <div className="flex items-center space-x-1">
+          {/* Your existing buttons */}
+
+          {/* Add Windows window controls */}
+          {isWindows && (
+            <div className="flex items-center ml-4" style={{ WebkitAppRegion: 'no-drag' }}>
+              <button
+                onClick={minimizeWindow}
+                className="w-10 h-8 flex items-center justify-center hover:bg-gray-200 focus:outline-none"
+                title="Minimize"
+              >
+                <div className="w-3 h-0.5 bg-gray-600"></div>
+              </button>
+              <button
+                onClick={maximizeWindow}
+                className="w-10 h-8 flex items-center justify-center hover:bg-gray-200 focus:outline-none"
+                title="Maximize"
+              >
+                <div className="w-3 h-3 border border-gray-600"></div>
+              </button>
+              <button
+                onClick={closeWindow}
+                className="w-10 h-8 flex items-center justify-center hover:bg-red-500 hover:text-white focus:outline-none"
+                title="Close"
+              >
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
