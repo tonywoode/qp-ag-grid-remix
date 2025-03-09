@@ -115,13 +115,18 @@ const ActionBar = ({
 
       document.addEventListener('fullscreenchange', handleFullscreenChange)
 
-      // Check initial fullscreen state
-      try {
-        const isFullScreen = window.electron?.isFullScreen?.() || false
-        setIsFullScreen(isFullScreen)
-      } catch (e) {
-        // Ignore errors in case the API isn't available
+      // Check initial fullscreen state by fetching from our API
+      async function checkFullscreenState() {
+        try {
+          const response = await fetch('/api/electron')
+          const data = await response.json()
+          setIsFullScreen(data.isFullScreen)
+        } catch (e) {
+          console.error('Failed to get fullscreen state:', e)
+        }
       }
+
+      checkFullscreenState()
 
       return () => document.removeEventListener('fullscreenchange', handleFullscreenChange)
     }
