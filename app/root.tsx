@@ -178,9 +178,9 @@ const ActionBar = ({
 
       {/* Expanded view - shows all buttons and controls */}
       <div
-        className={`px-4 py-1 flex items-center justify-between h-full ${
-          isMenuExpanded ? 'opacity-100' : 'opacity-0 pointer-events-none'
-        } transition-opacity duration-300`}
+        className={`px-4 py-1 flex items-center justify-between absolute top-0 left-0 w-full ${
+          isMenuExpanded ? 'opacity-100 delay-150' : 'opacity-0 pointer-events-none'
+        } transition-opacity duration-200`}
       >
         {/* Left side content */}
         <div className="flex items-center space-x-2" style={{ WebkitAppRegion: 'no-drag' }}>
