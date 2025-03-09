@@ -33,11 +33,18 @@ export const action: ActionFunction = async ({ request }) => {
 
 // Add a new case to handle getting fullscreen state
 export const loader = async () => {
-  // Get the focused window and check its fullscreen state
-  const win = electron.BrowserWindow.getFocusedWindow();
-  const isFullScreen = win ? win.isFullScreen() : false;
-  
-  return json({ isFullScreen });
+  try {
+    // Get the focused window and check its fullscreen state
+    const win = electron.BrowserWindow.getFocusedWindow()
+    // Default to false if no window is available
+    const isFullScreen = win ? win.isFullScreen() : false
+
+    return json({ isFullScreen })
+  } catch (error) {
+    // Log the error but return a default state to prevent breaking the UI
+    console.error('Error getting fullscreen state:', error)
+    return json({ isFullScreen: false })
+  }
 }
 
 // Empty component since this is just an API route

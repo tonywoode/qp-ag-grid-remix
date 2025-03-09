@@ -37,7 +37,16 @@ ipcMain.on('toggle-devtools', () => {
 // Add fullscreen handler
 ipcMain.on('toggle-fullscreen', () => {
   const win = BrowserWindow.getFocusedWindow()
-  if (win) win.setFullScreen(!win.isFullScreen())
+  if (win) {
+    // Toggle the fullscreen state
+    const newState = !win.isFullScreen()
+    win.setFullScreen(newState)
+
+    // If we're exiting fullscreen, make sure we have the proper window frame settings
+    if (!newState && process.platform === 'win32') {
+      win.setMenuBarVisibility(false)
+    }
+  }
 })
 
 export default electron

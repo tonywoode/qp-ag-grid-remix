@@ -119,10 +119,19 @@ const ActionBar = ({
       async function checkFullscreenState() {
         try {
           const response = await fetch('/api/electron')
+
+          // Check if response is actually JSON before parsing
+          const contentType = response.headers.get('content-type')
+          if (!contentType || !contentType.includes('application/json')) {
+            console.warn('Expected JSON response but got:', contentType)
+            return
+          }
+
           const data = await response.json()
           setIsFullScreen(data.isFullScreen)
         } catch (e) {
           console.error('Failed to get fullscreen state:', e)
+          // Don't update state if there's an error
         }
       }
 

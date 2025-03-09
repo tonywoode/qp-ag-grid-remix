@@ -20,6 +20,10 @@ async function createWindow(url) {
       contextIsolation: true
     }
   })
+
+  // Explicitly ensure we're not in fullscreen
+  win.setFullScreen(false)
+
   win.maximize()
   await win.loadURL(url)
   win.show()
