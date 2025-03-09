@@ -1,5 +1,5 @@
 const { initRemix } = require('remix-electron')
-const { app, BrowserWindow, dialog } = require('electron')
+const { app, BrowserWindow, dialog, Menu } = require('electron')
 const path = require('node:path')
 const fs = require('node:fs')
 const log = require('electron-log')
@@ -17,6 +17,15 @@ async function createWindow(url) {
   if (process.env.NODE_ENV === 'development') {
     win.webContents.openDevTools()
   }
+}
+
+// the windows menu not only looks bad, it throws out all our css proportional positioning
+// let's remove it (alt'll prob still open it tho, throwing that css out again...)
+if (process.platform === 'win32') {
+  Menu.setApplicationMenu(null)
+  // we can still create and attach a menu that's accessible via Alt
+  // const menu = Menu.buildFromTemplate([...your menu items...])
+  // win.setMenu(menu)
 }
 
 app.on('ready', () => {
