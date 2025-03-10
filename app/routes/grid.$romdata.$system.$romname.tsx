@@ -199,15 +199,14 @@ export default function MediaPanel() {
       return (
         <div
           key={currentIndex}
-          className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
+          className="flex flex-col items-center justify-center p-4 cursor-pointer transition-all hover:bg-gray-100 rounded-lg hover:shadow-md flex-grow overflow-visible"
           onClick={handleMediaOnClick}
           style={{ flexBasis: '20%' }}
         >
-          {/* duplicate code to get path here */}
           {mediaFileExtension === 'doc' ? (
-            <FaFileWord className="w-full h-full" />
+            <FaFileWord className="w-full h-full transition-colors hover:text-blue-600" />
           ) : (
-            <FaFileAlt className="w-full h-full" />
+            <FaFileAlt className="w-full h-full transition-colors hover:text-amber-600" />
           )}{' '}
           {mediaFileNameAndExt}
         </div>
@@ -242,11 +241,11 @@ export default function MediaPanel() {
       return (
         <div
           key={currentIndex}
-          className="flex flex-col items-center justify-center p-4 cursor-pointer transition-transform transform hover:scale-110 flex-grow"
+          className="flex flex-col items-center justify-center p-4 cursor-pointer transition-all hover:bg-gray-100 rounded-lg hover:shadow-md flex-grow overflow-visible"
           onClick={handleMediaOnClick}
           style={{ flexBasis: '20%' }}
         >
-          <FaFilePdf className="w-full h-full" />
+          <FaFilePdf className="w-full h-full transition-colors hover:text-red-600" />
           {mediaFileNameAndExt}
         </div>
       )
