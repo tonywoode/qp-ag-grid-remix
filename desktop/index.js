@@ -11,10 +11,10 @@ let win
 async function createWindow(url) {
   win = new BrowserWindow({
     show: false,
-    // Make it frameless on Windows but keep native frame on macOS
-    frame: process.platform !== 'win32',
-    // This enables dragging and window controls
-    titleBarStyle: process.platform === 'win32' ? 'hidden' : 'default',
+    // Use standard framed windows on both platforms
+    frame: true,
+    // Use default titlebar style on all platforms
+    titleBarStyle: 'default',
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true
@@ -24,6 +24,7 @@ async function createWindow(url) {
   // Explicitly ensure we're not in fullscreen
   win.setFullScreen(false)
 
+  // Still maximize the window but now it will have proper chrome
   win.maximize()
   await win.loadURL(url)
   win.show()

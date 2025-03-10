@@ -41,11 +41,6 @@ ipcMain.on('toggle-fullscreen', () => {
     // Toggle the fullscreen state
     const newState = !win.isFullScreen()
     win.setFullScreen(newState)
-
-    // If we're exiting fullscreen, make sure we have the proper window frame settings
-    if (!newState && process.platform === 'win32') {
-      win.setMenuBarVisibility(false)
-    }
   }
 })
 
