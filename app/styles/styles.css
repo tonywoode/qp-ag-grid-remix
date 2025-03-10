@@ -9,3 +9,7 @@ body {
   height: calc(100% - 2rem);
   width: calc(100% - 2rem);
 }
+
+.ReactModal__Content {
+  outline: none !important;
+}
