@@ -9,23 +9,35 @@ export const action: ActionFunction = async ({ request }) => {
     case 'window-minimize':
       electron.ipcMain.emit('window-minimize')
       return json({ success: true })
-      
+
     case 'window-maximize':
       electron.ipcMain.emit('window-maximize')
       return json({ success: true })
-      
+
     case 'window-close':
       electron.ipcMain.emit('window-close')
       return json({ success: true })
-      
+
     case 'toggle-fullscreen':
       electron.ipcMain.emit('toggle-fullscreen')
       return json({ success: true })
-      
+
     case 'toggle-devtools':
       electron.ipcMain.emit('toggle-devtools')
       return json({ success: true })
-      
+
+    case 'zoom-in':
+      electron.ipcMain.emit('zoom-in')
+      return json({ success: true })
+
+    case 'zoom-out':
+      electron.ipcMain.emit('zoom-out')
+      return json({ success: true })
+
+    case 'zoom-reset':
+      electron.ipcMain.emit('zoom-reset')
+      return json({ success: true })
+
     default:
       return json({ success: false, error: 'Unknown intent' })
   }

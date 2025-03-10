@@ -44,4 +44,28 @@ ipcMain.on('toggle-fullscreen', () => {
   }
 })
 
+// Add zoom handlers
+ipcMain.on('zoom-in', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) {
+    const currentZoom = win.webContents.getZoomFactor()
+    win.webContents.setZoomFactor(currentZoom + 0.1)
+  }
+})
+
+ipcMain.on('zoom-out', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) {
+    const currentZoom = win.webContents.getZoomFactor()
+    win.webContents.setZoomFactor(Math.max(0.1, currentZoom - 0.1))
+  }
+})
+
+ipcMain.on('zoom-reset', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) {
+    win.webContents.setZoomFactor(1.0)
+  }
+})
+
 export default electron

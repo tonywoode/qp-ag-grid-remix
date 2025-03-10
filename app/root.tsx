@@ -173,6 +173,24 @@ const ActionBar = ({
     fetch('/api/electron', { method: 'POST', body: formData })
   }
 
+  const zoomIn = () => {
+    const formData = new FormData()
+    formData.append('intent', 'zoom-in')
+    fetch('/api/electron', { method: 'POST', body: formData })
+  }
+
+  const zoomOut = () => {
+    const formData = new FormData()
+    formData.append('intent', 'zoom-out')
+    fetch('/api/electron', { method: 'POST', body: formData })
+  }
+
+  const zoomReset = () => {
+    const formData = new FormData()
+    formData.append('intent', 'zoom-reset')
+    fetch('/api/electron', { method: 'POST', body: formData })
+  }
+
   return (
     <div
       className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 transition-all duration-300 ${
@@ -183,7 +201,7 @@ const ActionBar = ({
       style={{ WebkitAppRegion: isWindows ? 'drag' : 'no-drag' }}
     >
       {/* Collapsed view - make it fade out smoothly */}
-      <div 
+      <div
         className={`px-4 pt-0.5 flex items-center justify-between absolute top-0 left-0 w-full ${
           isMenuExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'
         } transition-opacity duration-150`}
@@ -279,6 +297,61 @@ const ActionBar = ({
               />
             </svg>
             Dev Tools
+          </button>
+
+          {/* Add zoom controls */}
+          <button
+            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
+            onClick={zoomIn}
+            title="Zoom In (Ctrl+=)"
+          >
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v4m0 0v4m0-4h4m-4 0H6"
+              />
+            </svg>
+            Zoom In
+          </button>
+
+          <button
+            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
+            onClick={zoomOut}
+            title="Zoom Out (Ctrl+-)"
+          >
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 13h4m-4 0H6"
+              />
+            </svg>
+            Zoom Out
+          </button>
+
+          <button
+            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
+            onClick={zoomReset}
+            title="Reset Zoom (Ctrl+0)"
+          >
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M10 10.3v.7l.7.7h2.6l.7-.7v-.7l-.7-.7h-2.6l-.7.7z"
+              />
+            </svg>
+            Reset Zoom
           </button>
         </div>
 
