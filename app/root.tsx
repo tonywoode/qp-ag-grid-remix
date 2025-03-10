@@ -182,19 +182,23 @@ const ActionBar = ({
       onMouseLeave={() => onExpandChange(false)}
       style={{ WebkitAppRegion: isWindows ? 'drag' : 'no-drag' }}
     >
-      {/* Collapsed view - only shows when menu is not expanded */}
-      <div className={`px-4 py-1 flex items-center justify-between ${isMenuExpanded ? 'hidden' : 'block'}`}>
+      {/* Collapsed view - make it fade out smoothly */}
+      <div 
+        className={`px-4 pt-0.5 flex items-center justify-between absolute top-0 left-0 w-full ${
+          isMenuExpanded ? 'opacity-0 pointer-events-none' : 'opacity-100'
+        } transition-opacity duration-150`}
+      >
         <div className="flex items-center">
           <span className="text-sm font-medium">QuickPlay</span>
           <span className="text-xs text-gray-400 ml-2">hover for menu</span>
         </div>
       </div>
 
-      {/* Expanded view - shows all buttons and controls */}
+      {/* Expanded view - remove the delay that's causing the flash */}
       <div
         className={`px-4 py-1 flex items-center justify-between absolute top-0 left-0 w-full ${
-          isMenuExpanded ? 'opacity-100 delay-150' : 'opacity-0 pointer-events-none'
-        } transition-opacity duration-200`}
+          isMenuExpanded ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        } transition-opacity duration-150`}
       >
         {/* Left side content */}
         <div className="flex items-center space-x-2" style={{ WebkitAppRegion: 'no-drag' }}>
@@ -341,8 +345,37 @@ const ActionBar = ({
                 className="w-10 h-8 flex items-center justify-center hover:bg-red-500 hover:text-white focus:outline-none"
                 title="Close"
               >
-                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          )}
+
+          {/* Add Windows window controls - only when in fullscreen */}
+          {isWindows && isFullScreen && (
+            <div className="flex items-center ml-4" style={{ WebkitAppRegion: 'no-drag' }}>
+              <button
+                onClick={minimizeWindow}
+                className="w-10 h-8 flex items-center justify-center hover:bg-gray-200 focus:outline-none"
+                title="Minimize"
+              >
+                <div className="w-3 h-0.5 bg-gray-600"></div>
+              </button>
+              <button
+                onClick={maximizeWindow}
+                className="w-10 h-8 flex items-center justify-center hover:bg-gray-200 focus:outline-none"
+                title="Maximize"
+              >
+                <div className="w-3 h-3 border border-gray-600"></div>
+              </button>
+              <button
+                onClick={closeWindow}
+                className="w-10 h-8 flex items-center justify-center hover:bg-red-500 hover:text-white focus:outline-none"
+                title="Close"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
             </div>
