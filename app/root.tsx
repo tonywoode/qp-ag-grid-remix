@@ -207,11 +207,22 @@ const ActionBar = ({
     fetch('/api/electron', { method: 'POST', body: formData })
   }
 
+  const reload = event => {
+    const formData = new FormData()
+    // Check if shift is pressed for force reload
+    if (event.shiftKey) {
+      formData.append('intent', 'force-reload')
+    } else {
+      formData.append('intent', 'reload')
+    }
+    fetch('/api/electron', { method: 'POST', body: formData })
+  }
+
   return (
     <div
-    className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 transition-all duration-300 ${
-      isFullScreen ? 'h-6 hover:h-10 overflow-hidden' : isMenuExpanded ? 'h-10' : 'h-6'
-    }`}
+      className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 transition-all duration-300 ${
+        isFullScreen ? 'h-6 hover:h-10 overflow-hidden' : isMenuExpanded ? 'h-10' : 'h-6'
+      }`}
       onMouseEnter={() => onExpandChange(true)}
       onMouseLeave={() => onExpandChange(false)}
       style={{ WebkitAppRegion: isWindows ? 'drag' : 'no-drag' }}
@@ -368,6 +379,22 @@ const ActionBar = ({
               />
             </svg>
             Reset Zoom
+          </button>
+
+          <button
+            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
+            onClick={reload}
+            title={`Reload (${isMacOS ? '⌘R' : 'Ctrl+R'}) - Hold Shift for Force Reload`}
+          >
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+              />
+            </svg>
+            Reload
           </button>
         </div>
 

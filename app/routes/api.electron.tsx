@@ -38,6 +38,14 @@ export const action: ActionFunction = async ({ request }) => {
       electron.ipcMain.emit('zoom-reset')
       return json({ success: true })
 
+    case 'reload':
+      electron.ipcMain.emit('reload')
+      return json({ success: true })
+
+    case 'force-reload':
+      electron.ipcMain.emit('force-reload')
+      return json({ success: true })
+
     default:
       return json({ success: false, error: 'Unknown intent' })
   }

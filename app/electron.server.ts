@@ -74,4 +74,15 @@ ipcMain.on('zoom-reset', () => {
   }
 })
 
+// Add reload handlers
+ipcMain.on('reload', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) win.webContents.reload()
+})
+
+ipcMain.on('force-reload', () => {
+  const win = BrowserWindow.getFocusedWindow()
+  if (win) win.webContents.reloadIgnoringCache()
+})
+
 export default electron
