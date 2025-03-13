@@ -286,7 +286,7 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={toggleFullScreen}
-            title="Toggle Fullscreen (F11)"
+            title={isMacOS ? "Toggle Fullscreen (⌃⌘F)" : "Toggle Fullscreen (F11)"}
           >
             {isFullScreen ? (
               <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -313,7 +313,11 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={toggleDevTools}
-            title="Developer Tools (F12)"
+            title={isMacOS 
+              ? "Developer Tools (⌥⌘I)" 
+              : isLinux 
+                ? "Developer Tools (F12 or Ctrl+Shift+I)" 
+                : "Developer Tools (F12)"}
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -330,7 +334,7 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={zoomIn}
-            title="Zoom In (Ctrl+=)"
+            title={isMacOS ? "Zoom In (⌘+)" : "Zoom In (Ctrl+)"}
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -346,7 +350,7 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={zoomOut}
-            title="Zoom Out (Ctrl+-)"
+            title={isMacOS ? "Zoom Out (⌘-)" : "Zoom Out (Ctrl+-)"}
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -362,7 +366,7 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={zoomReset}
-            title="Reset Zoom (Ctrl+0)"
+            title={isMacOS ? "Reset Zoom (⌘0)" : "Reset Zoom (Ctrl+0)"}
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -384,7 +388,9 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={reload}
-            title={`Reload (${isMacOS ? '⌘R' : 'Ctrl+R'}) - Hold Shift for Force Reload`}
+            title={isMacOS 
+              ? "Reload (⌘R) - Hold Shift for Force Reload (⇧⌘R)" 
+              : "Reload (Ctrl+R) - Hold Shift for Force Reload (Ctrl+Shift+R)"}
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
