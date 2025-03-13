@@ -247,7 +247,7 @@ export default function Grid() {
         //fix for 'jumping' sorted expansions: scroll end-of-list expansions into view but only activate when absolutely necessary as causes sorted list to jank
         console.log('real (pre-sort) parent index', parentIndex)
         const postSortParentIndex = getPostSortIndex(api, rowId)
-        handleExpandedRowVisibility(api, rowBuffer, parentIndex, postSortParentIndex, files)
+        handleExpandedRowVisibility(api, rowBuffer, parentIndex, postSortParentIndex, files, logger)
       }
       //restore focus to the grid (keyboard navigation stops if you expand a row, until you click on a row again)
       setTimeout(() => api.setFocusedCell(node.rowIndex, 'name'), 0)
@@ -772,11 +772,13 @@ function handleExpandedRowVisibility(
   rowBuffer: number,
   parentIndex: number,
   postSortIndex: number,
-  files: any[]
+  files: any[],
+  logger: Function
 ) {
   const { lastVisibleNoBuffer, lastVisibleWithBuffer, firstPossibleLastVisible } = calculateVisibleRowIndices(
     api,
-    rowBuffer
+    rowBuffer,
+    logger
   )
   const isAtEndWithRowBuffer = firstPossibleLastVisible < lastVisibleWithBuffer
   logger.log('gridOperations', 'postSortParentIndexIsLast10', isAtEndWithRowBuffer)
@@ -795,7 +797,7 @@ function handleExpandedRowVisibility(
   }
 }
 
-function calculateVisibleRowIndices(api: GridApi, rowBuffer: number) {
+function calculateVisibleRowIndices(api: GridApi, rowBuffer: number, logger: Function) {
   const totalRows = api.getDisplayedRowCount()
   //last visbile row includes ag-grid's scroll-performance row-buffer, so isn't really the last-visible at all
   const lastVisibleWithBuffer = api.getLastDisplayedRow()
