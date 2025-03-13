@@ -106,40 +106,40 @@ const ActionBar = ({
 }) => {
   const [isFullScreen, setIsFullScreen] = useState(false)
 
+  // Listen for fullscreen changes using the standard browser API
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      // Listen for fullscreen changes
-      const handleFullscreenChange = () => {
-        setIsFullScreen(!!document.fullscreenElement)
-      }
+    // Check initial fullscreen state
+    setIsFullScreen(!!document.fullscreenElement)
+    console.log('Initial fullscreen state:', !!document.fullscreenElement)
 
-      document.addEventListener('fullscreenchange', handleFullscreenChange)
+    // Handler for fullscreen change events
+    const handleFullscreenChange = () => {
+      setIsFullScreen(!!document.fullscreenElement)
+      console.log('Fullscreen change detected:', !!document.fullscreenElement)
+    }
 
-      // Check initial fullscreen state by fetching from our API
-      async function checkFullscreenState() {
-        try {
-          const response = await fetch('/api/electron')
+    // Handler for custom events from Electron
+    const handleElectronFullscreenChange = event => {
+      console.log('Electron fullscreen change:', event.detail)
+      setIsFullScreen(event.detail)
+    }
 
-          // Check if response is actually JSON before parsing
-          const contentType = response.headers.get('content-type')
-          if (!contentType || !contentType.includes('application/json')) {
-            console.warn('Expected JSON response but got:', contentType)
-            return
-          }
+    // Listen for both standard and vendor-prefixed fullscreen events
+    document.addEventListener('fullscreenchange', handleFullscreenChange)
+    document.addEventListener('webkitfullscreenchange', handleFullscreenChange)
+    window.addEventListener('electron-fullscreen-change', handleElectronFullscreenChange)
 
-          const data = await response.json()
-          setIsFullScreen(data.isFullScreen)
-        } catch (e) {
-          console.error('Failed to get fullscreen state:', e)
-          // Don't update state if there's an error
-        }
-      }
-
-      checkFullscreenState()
-
-      return () => document.removeEventListener('fullscreenchange', handleFullscreenChange)
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange)
+      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange)
+      window.removeEventListener('electron-fullscreen-change', handleElectronFullscreenChange)
     }
   }, [])
+
+  // Add a separate effect to log when isFullScreen actually changes
+  useEffect(() => {
+    console.log('fullscreen is now:', isFullScreen)
+  }, [isFullScreen])
 
   // Window control functions
   const minimizeWindow = () => {
@@ -162,6 +162,8 @@ const ActionBar = ({
   }
 
   const toggleFullScreen = () => {
+    // Just send the toggle request to Electron, let the event listeners
+    // handle updating our state
     const formData = new FormData()
     formData.append('intent', 'toggle-fullscreen')
     fetch('/api/electron', { method: 'POST', body: formData })
@@ -396,7 +398,7 @@ const ActionBar = ({
             </svg>
           </button>
 
-          {/* Add Windows window controls */}
+          {/* Add Windows window controls
           {isWindows && (
             <div className="flex items-center ml-4" style={{ WebkitAppRegion: 'no-drag' }}>
               <button
@@ -423,7 +425,7 @@ const ActionBar = ({
                 </svg>
               </button>
             </div>
-          )}
+          )} */}
 
           {/* Add Windows window controls - only when in fullscreen */}
           {isWindows && isFullScreen && (

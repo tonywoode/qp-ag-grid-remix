@@ -34,13 +34,19 @@ ipcMain.on('toggle-devtools', () => {
   if (win) win.webContents.toggleDevTools()
 })
 
-// Add fullscreen handler
+// Add fullscreen handler with event back to renderer
 ipcMain.on('toggle-fullscreen', () => {
   const win = BrowserWindow.getFocusedWindow()
   if (win) {
-    // Toggle the fullscreen state
     const newState = !win.isFullScreen()
     win.setFullScreen(newState)
+
+    // Send the new state back to the renderer
+    win.webContents.executeJavaScript(`
+      window.dispatchEvent(new CustomEvent('electron-fullscreen-change', { 
+        detail: ${newState}
+      }))
+    `)
   }
 })
 
