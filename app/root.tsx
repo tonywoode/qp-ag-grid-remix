@@ -362,21 +362,6 @@ const ActionBar = ({
           </button>
 
           {/* Add zoom controls */}
-          <button
-            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
-            onClick={zoomIn}
-            title={isMacOS ? "Zoom In (⌘+)" : "Zoom In (Ctrl+)"}
-          >
-            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v4m0 0v4m0-4h4m-4 0H6"
-              />
-            </svg>
-            Zoom In
-          </button>
 
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
@@ -393,6 +378,24 @@ const ActionBar = ({
             </svg>
             Zoom Out
           </button>
+
+          <button
+            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
+            onClick={zoomIn}
+            title={isMacOS ? "Zoom In (⌘+)" : "Zoom In (Ctrl+)"}
+          >
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v4m0 0v4m0-4h4m-4 0H6"
+              />
+            </svg>
+            Zoom In
+          </button>
+
+
 
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
@@ -475,35 +478,6 @@ const ActionBar = ({
               />
             </svg>
           </button>
-
-          {/* Add Windows window controls
-          {isWindows && (
-            <div className="flex items-center ml-4" style={{ WebkitAppRegion: 'no-drag' }}>
-              <button
-                onClick={minimizeWindow}
-                className="w-10 h-8 flex items-center justify-center hover:bg-gray-200 focus:outline-none"
-                title="Minimize"
-              >
-                <div className="w-3 h-0.5 bg-gray-600"></div>
-              </button>
-              <button
-                onClick={maximizeWindow}
-                className="w-10 h-8 flex items-center justify-center hover:bg-gray-200 focus:outline-none"
-                title="Maximize"
-              >
-                <div className="w-3 h-3 border border-gray-600"></div>
-              </button>
-              <button
-                onClick={closeWindow}
-                className="w-10 h-8 flex items-center justify-center hover:bg-red-500 hover:text-white focus:outline-none"
-                title="Close"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          )} */}
 
           {/* Add Windows window controls - only when in fullscreen */}
           {isWindows && isFullScreen && (
