@@ -105,6 +105,7 @@ const ActionBar = ({
   onExpandChange 
 }) => {
   const [isFullScreen, setIsFullScreen] = useState(false)
+  const isFirstDevToolsClick = useRef(true)
 
   // Listen for fullscreen changes using the standard browser API
   useEffect(() => {
@@ -172,7 +173,20 @@ const ActionBar = ({
   const toggleDevTools = () => {
     const formData = new FormData()
     formData.append('intent', 'toggle-devtools')
-    fetch('/api/electron', { method: 'POST', body: formData })
+    
+    // If this is the first click since loading the app
+    if (isFirstDevToolsClick.current) {
+      // Send two requests with a tiny delay between them
+      // The first "wakes up" the DevTools system, the second actually toggles it
+      fetch('/api/electron', { method: 'POST', body: formData })
+      setTimeout(() => {
+        fetch('/api/electron', { method: 'POST', body: formData })
+        isFirstDevToolsClick.current = false
+      }, 50)
+    } else {
+      // For all subsequent clicks, just send one request
+      fetch('/api/electron', { method: 'POST', body: formData })
+    }
   }
 
   const zoomIn = () => {
