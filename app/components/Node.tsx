@@ -61,7 +61,7 @@ export function Node({ node, style, dragHandle }) {
           className={`flex items-center ${node.isSelected && node.data.romdataLink ? 'bg-blue-300 text-white' : ''}`}
           style={{
             borderRadius: '4px',
-            paddingRight: '2cm',
+            paddingRight: '8px', // Much more reasonable padding
             cursor: node.data.romdataLink ? 'pointer' : 'default'
           }}
           onClick={handleSingleClick}

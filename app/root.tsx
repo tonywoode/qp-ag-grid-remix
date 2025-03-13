@@ -567,13 +567,19 @@ export function TreeView({ folderData }) {
   }, [folderData])
 
   useEffect(() => {
+  // Tree component needs explicit pixel dimensions to render correctly,
+  // ResizeObserver ensures it updates when container size changes
     const observer = new ResizeObserver(([entry]) => setDimensions(entry.contentRect))
     containerRef.current && observer.observe(containerRef.current)
     return () => observer.disconnect()
   }, [])
 
   return (
-    <div ref={containerRef} className="py-1.5 px-3" style={{ width: '100%', height: '100%' }}>
+    <div 
+      ref={containerRef} 
+      className="py-1.5 pl-3 h-full overflow-hidden" 
+      style={{ width: '100%' }}
+    >
       <Tree
         key={treeKey}
         initialData={folderData}
@@ -581,6 +587,7 @@ export function TreeView({ folderData }) {
         width={dimensions.width}
         height={dimensions.height}
         rowHeight={42}
+        indent={16} // Control indentation explicitly
       >
         {Node}
       </Tree>
