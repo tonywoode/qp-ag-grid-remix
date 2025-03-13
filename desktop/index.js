@@ -73,16 +73,65 @@ if (process.platform === 'win32') {
 app.on('ready', () => {
   void (async () => {
     try {
-      // redirect console to log file
-      console.log = log.log
-      console.error = log.error
+      // Setup electron-log but don't redirect console yet
+      // We'll do conditional console redirection after checking config
 
-      // log.info('App starting from:', process.cwd())
-      // log.info('__dirname:', __dirname)
-      // log.info('app.getAppPath():', app.getAppPath())
+      // Create a plain logger for startup messages
+      log.info('QuickPlay starting up')
+
       //set working directory for packaged app
       if (app.isPackaged) {
         process.chdir(path.join(app.getAppPath(), '..'))
+      }
+
+      // Check for logger config to see if disk logging is enabled
+      const configPath = path.join(getBaseDirectory(), 'loggerConfig.json')
+      let enableDiskLogging = false
+
+      try {
+        if (fs.existsSync(configPath)) {
+          const configData = fs.readFileSync(configPath, 'utf-8')
+          const config = JSON.parse(configData)
+          const diskLoggingConfig = config.find(item => item.feature === 'diskLogging')
+          enableDiskLogging = diskLoggingConfig?.enabled || false
+          log.info(`Disk logging enabled: ${enableDiskLogging}`)
+        }
+      } catch (err) {
+        log.error('Error reading logger config:', err)
+      }
+
+      // Only redirect console to log file if disk logging is enabled
+      if (enableDiskLogging) {
+        // Save original console methods
+        const originalConsoleLog = console.log
+        const originalConsoleError = console.error
+
+        // Create wrapper functions that strip ANSI color codes before logging to disk
+        console.log = (...args) => {
+          // Strip ANSI color codes if the argument is a string
+          const cleanArgs = args.map(arg => (typeof arg === 'string' ? arg.replace(/\x1b\[[0-9;]*m/g, '') : arg))
+
+          // Log to disk with clean args
+          log.log(...cleanArgs)
+
+          // Still log to console with original formatting
+          originalConsoleLog(...args)
+        }
+
+        console.error = (...args) => {
+          // Strip ANSI color codes if the argument is a string
+          const cleanArgs = args.map(arg => (typeof arg === 'string' ? arg.replace(/\x1b\[[0-9;]*m/g, '') : arg))
+
+          // Log to disk with clean args
+          log.error(...cleanArgs)
+
+          // Still log to console with original formatting
+          originalConsoleError(...args)
+        }
+
+        log.info('Console output redirected to log file')
+      } else {
+        log.info('Disk logging disabled - console output will not be saved')
       }
 
       if (process.env.NODE_ENV === 'development') {
@@ -103,6 +152,19 @@ app.on('ready', () => {
     }
   })()
 })
+
+// Helper function to get the base directory (mirroring your dataLocations.server.ts logic)
+function getBaseDirectory() {
+  if (process.env.NODE_ENV === 'development') {
+    return path.join(__dirname, '..')
+  }
+
+  if (process.platform === 'darwin') {
+    return app.getPath('userData')
+  } else {
+    return path.dirname(app.getPath('exe'))
+  }
+}
 
 /** @param {unknown} error */
 function getErrorStack(error) {
