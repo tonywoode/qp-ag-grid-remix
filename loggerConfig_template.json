@@ -1,11 +1,11 @@
 [
-  { "feature": "remixRoutes", "enabled": true },
-  { "feature": "gridOperations", "enabled": true },
-  { "feature": "fileOperations", "enabled": true },
+  { "feature": "remixRoutes", "enabled": false },
+  { "feature": "gridOperations", "enabled": false },
+  { "feature": "fileOperations", "enabled": false },
   { "feature": "pathConversion", "enabled": false },
-  { "feature": "goodMergeChoosing", "enabled": true },
+  { "feature": "goodMergeChoosing", "enabled": false },
   { "feature": "screenshots", "enabled": false },
-  { "feature": "tabContent", "enabled": true },
+  { "feature": "tabContent", "enabled": false },
   { "feature": "icons", "enabled": false },
   { "feature": "lightbox", "enabled": false }
 ]

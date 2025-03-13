@@ -87,26 +87,48 @@ const loggerConfigPath = path.join(getBaseDirectory(), 'loggerConfig.json')
 // Load or create the logger config
 const getLoggerConfig = () => {
   try {
+    // Alternative approach loading from template file
+    let templateConfig
+    try {
+      const templatePath = path.join(__dirname, '../loggerConfig_template.json')
+      const templateData = fs.readFileSync(templatePath, 'utf-8')
+      templateConfig = JSON.parse(templateData)
+      // Ensure all template values are set to false for new configs
+      templateConfig = templateConfig.map(item => ({ ...item, enabled: false }))
+    } catch (error) {
+      // This should never happen in production as the template should be bundled with the app
+      console.error('FATAL: Failed to load logger template:', error)
+      throw new Error(
+        `Logger template file missing or invalid. This indicates a problem with the application installation.`
+      )
+    }
+
     // Check if config file exists
     if (fs.existsSync(loggerConfigPath)) {
       console.log('Loading external logger config from:', loggerConfigPath)
       const configData = fs.readFileSync(loggerConfigPath, 'utf-8')
-      return JSON.parse(configData)
-    } else {
-      console.log('Creating default logger config at:', loggerConfigPath)
+      const userConfig = JSON.parse(configData)
 
-      // Default config based on the original - TODO: load from template instead
-      const defaultConfig = [
-        { feature: 'remixRoutes', enabled: true },
-        { feature: 'gridOperations', enabled: true },
-        { feature: 'fileOperations', enabled: true },
-        { feature: 'pathConversion', enabled: false },
-        { feature: 'goodMergeChoosing', enabled: true },
-        { feature: 'screenshots', enabled: false },
-        { feature: 'tabContent', enabled: true },
-        { feature: 'icons', enabled: false },
-        { feature: 'lightbox', enabled: false }
-      ]
+      // Check if all template features exist in user's config
+      const templateFeatures = new Set(templateConfig.map(item => item.feature))
+      const userFeatures = new Set(userConfig.map(item => item.feature))
+
+      // Simple check: are the sets the same size and does every template feature exist in user config?
+      const hasAllFeatures =
+        templateFeatures.size === userFeatures.size && [...templateFeatures].every(feature => userFeatures.has(feature))
+
+      if (hasAllFeatures) {
+        console.log('User config is up-to-date with all logging features')
+        return userConfig
+      } else {
+        console.log('User config is missing some logging features, replacing with default template')
+
+        // Write the default config to file (all features disabled)
+        fs.writeFileSync(loggerConfigPath, JSON.stringify(templateConfig, null, 2), 'utf-8')
+        return templateConfig
+      }
+    } else {
+      console.log('Creating new logger config at:', loggerConfigPath)
 
       // Make sure directory exists
       const dir = path.dirname(loggerConfigPath)
@@ -115,8 +137,8 @@ const getLoggerConfig = () => {
       }
 
       // Write default config to file
-      fs.writeFileSync(loggerConfigPath, JSON.stringify(defaultConfig, null, 2), 'utf-8')
-      return defaultConfig
+      fs.writeFileSync(loggerConfigPath, JSON.stringify(templateConfig, null, 2), 'utf-8')
+      return templateConfig
     }
   } catch (error) {
     console.error('Error loading/creating logger config:', error)
