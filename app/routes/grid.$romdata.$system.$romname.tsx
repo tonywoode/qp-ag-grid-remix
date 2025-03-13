@@ -14,7 +14,8 @@ import SimplePDFViewer from '~/components/pdfViewer.client'
 import Modal from 'react-modal'
 import pdfSlickCSS from '@pdfslick/react/dist/pdf_viewer.css'
 import { VscChevronLeft, VscChevronRight, VscSearch } from 'react-icons/vsc'
-import { logger } from '~/root'
+import { logger } from '~/dataLocations.server'
+import { createFrontendLogger } from '~/utils/featureLogger'
 export function links() {
   return [{ rel: 'stylesheet', href: pdfSlickCSS }]
 }
@@ -26,9 +27,9 @@ export async function loader({ params }: LoaderFunctionArgs) {
   const thisSystemsTabs = await loadTabData(system)
   if (thisSystemsTabs?.error) {
     logger.log('tabContent', 'Media Panel loader - error:', thisSystemsTabs.error)
-    return { thisSystemsTabs, romname, system }
+    return { thisSystemsTabs, romname, system, loggerConfig: logger.config }
   }
-  return { thisSystemsTabs, romname, system }
+  return { thisSystemsTabs, romname, system, loggerConfig: logger.config }
 }
 
 /*
@@ -89,7 +90,8 @@ const openInDefaultBrowser = url => window.open(url, '_blank', 'noopener,norefer
 
 export default function MediaPanel() {
   const location = useLocation()
-  const { thisSystemsTabs, romname, system } = useLoaderData<typeof loader>()
+  const { thisSystemsTabs, romname, system, loggerConfig } = useLoaderData<typeof loader>()
+  const logger = createFrontendLogger(loggerConfig)
   //send the altert to the user if thisSystemsTabs is an object with an error property
   if (thisSystemsTabs?.error) {
     return <div>{thisSystemsTabs.error}</div>
@@ -328,7 +330,12 @@ export default function MediaPanel() {
         </div>
       </Tabs>
       {lightboxContent && (
-        <MediaNavigation {...lightboxContent} isLightboxOpen={isLightboxOpen} closeLightbox={closeLightbox} />
+        <MediaNavigation
+          {...lightboxContent}
+          isLightboxOpen={isLightboxOpen}
+          closeLightbox={closeLightbox}
+          logger={logger}
+        />
       )}
     </div>
   )
@@ -341,6 +348,7 @@ type MediaContent = {
 }
 
 function MediaNavigation({
+  logger,
   isLightboxOpen,
   closeLightbox,
   ...mediaContent

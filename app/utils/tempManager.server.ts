@@ -1,8 +1,7 @@
-import fs from 'fs';
-import path from 'path';
-import { getTempDirectory } from '~/dataLocations.server';
+import fs from 'fs'
+import path from 'path'
+import { getTempDirectory, logger } from '~/dataLocations.server'
 import { createDirIfNotExist, safeRemoveDirectory } from '~/utils/safeDirectoryOps.server'
-import { logger } from '../root';
 
 // Settings that could eventually be user-configurable
 const DEFAULT_MAX_AGE_DAYS = 14 // Default: Delete after 2 weeks of no use
@@ -63,30 +62,30 @@ export async function verifyExtraction(
     if (typeof expectedFiles === 'string') {
       const filePath = path.join(extractionDir, expectedFiles)
       if (!fs.existsSync(filePath)) return false
-    } 
+    }
     // Check for multiple files with size verification
     else if (Array.isArray(expectedFiles) && expectedFiles.length > 0) {
       // Check that all expected files exist and have the correct size
       for (const fileInfo of expectedFiles) {
         const filePath = path.join(extractionDir, fileInfo.name)
-        
+
         // File doesn't exist
         if (!fs.existsSync(filePath)) {
           logger.log('fileOperations', `Missing file during verification: ${fileInfo.name}`)
           return false
         }
-        
+
         // Get actual file size
         const stats = fs.statSync(filePath)
-        
+
         // Allow for a small tolerance in file size comparison (to handle potential differences
         // between how 7z reports sizes vs actual filesystem sizes)
-        const sizeTolerance = 128  // bytes of tolerance
+        const sizeTolerance = 128 // bytes of tolerance
         const sizeDifference = Math.abs(stats.size - fileInfo.size)
-        
+
         if (sizeDifference > sizeTolerance) {
           logger.log(
-            'fileOperations', 
+            'fileOperations',
             `Size mismatch for ${fileInfo.name}: expected ${fileInfo.size}, got ${stats.size}`
           )
           return false

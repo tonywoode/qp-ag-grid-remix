@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { logger } from './root'
+import { logger } from '~/dataLocations.server'
 import { systemPaths } from '~/config/gamePaths.server'
 
 export const loadMameIconBase64 = async (mameName, parentName) => {

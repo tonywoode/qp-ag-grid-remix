@@ -47,7 +47,10 @@ const cssColorOptions = [
   'forestgreen'
 ]
 
-export function createFeatureLogger(config) {
+function createFeatureLogger(config) {
+  // Store a copy of the config to expose in the returned object
+  const configCopy = [...config]
+
   const enabledFeatures = config.reduce((acc, { feature, enabled }, index) => {
     acc[feature] = {
       enabled,
@@ -62,6 +65,7 @@ export function createFeatureLogger(config) {
   if (!isBrowser) import('node:util').then(module => (util = module))
 
   return {
+    config: configCopy, // Expose the configuration array
     log: (feature, ...args) => {
       if (enabledFeatures[feature]?.enabled) {
         const color = enabledFeatures[feature].color
@@ -78,6 +82,28 @@ export function createFeatureLogger(config) {
           console.log(`${color}${featureLabel}${resetColor}`, ...formattedArgs)
         }
       }
+    },
+
+    // Helper method to directly update a feature's enabled status
+    updateFeature: (feature, enabled) => {
+      const index = configCopy.findIndex(f => f.feature === feature)
+      if (index !== -1) {
+        configCopy[index].enabled = enabled
+        if (enabledFeatures[feature]) {
+          enabledFeatures[feature].enabled = enabled
+        }
+      }
     }
   }
 }
+
+//before we externalised the config file, frontend logging was easy, same import, now we must
+//in each route:
+//import { createFrontendLogger } from '~/utils/featureLogger'
+//in each route's loader (because we cannot serialise a function):
+// return json({
+//    loggerConfig: logger.config,
+//then in each component:
+//const logger = createFrontendLogger(data.loggerConfig)
+//hence this rename to signify intent
+export { createFeatureLogger, createFeatureLogger as createFrontendLogger }

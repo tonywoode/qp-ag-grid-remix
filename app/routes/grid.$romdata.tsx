@@ -19,7 +19,8 @@ import { loadRomdata } from '~/loadRomdata.server' //import { romdata } from '~/
 import { encodeString, decodeString } from '~/utils/safeUrl'
 import { loadMameIconBase64 } from '~/loadMameIcons.server'
 import { loadIconBase64 } from '~/loadImages.server'
-import { logger } from '~/root'
+import { logger } from '~/dataLocations.server'
+import { createFrontendLogger } from '~/utils/featureLogger'
 import { GameProgressModal } from '~/components/GameProgressModal'
 import { useEventSource } from 'remix-utils/sse/react'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
@@ -50,14 +51,15 @@ export async function loader({ params }: LoaderFunctionArgs) {
       }
     })
   )
-  return { romdata: romdataWithIcons }
+  return { romdata: romdataWithIcons, loggerConfig: logger.config }
 }
 
 export default function Grid() {
   const gridSize = 6 // --ag-grid-size in px
   const fontSize = 14 // --ag-font-size in px
   const rowBuffer = 10 //10 is the default, but specify it as we use this in the calculation of visible rows
-  const { romdata } = useLoaderData<typeof loader>()
+  const { romdata, loggerConfig } = useLoaderData<typeof loader>()
+  const logger = createFrontendLogger(loggerConfig)
   const [rowdata, setRowdata] = useState(romdata) //another option would have been to use grid-api rather than react state
   const params = useParams()
   const navigate = useNavigate()

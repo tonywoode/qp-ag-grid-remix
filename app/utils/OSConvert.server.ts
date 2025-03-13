@@ -1,6 +1,6 @@
 import path from 'path'
 import { platform } from 'os'
-import { logger } from '~/root'
+import { logger } from '~/dataLocations.server'
 import { paths } from '~/config/gamePaths.server'
 
 //TODO: Not production ready, these fns reflect me virtualising and/or partitioning a dual mac/win x64 system, hence the windows paths and the mac paths represent the SAME physical locations seen from different OSes

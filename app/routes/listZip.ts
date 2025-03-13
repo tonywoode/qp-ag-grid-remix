@@ -1,6 +1,6 @@
 import { json, type LoaderFunctionArgs } from '@remix-run/node'
 import { convertPathToOSPath } from '~/utils/OSConvert.server'
-import { logger } from '~/root'
+import { logger } from '~/dataLocations.server'
 import electron from '~/electron.server'
 import { join } from 'path'
 import { loadNode7z } from '~/utils/node7zLoader.server'

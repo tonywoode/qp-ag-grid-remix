@@ -1,5 +1,4 @@
-import { loadMediaPanelConfig } from '~/dataLocations.server' // Import loadMediaPanelConfig from dataLocations.server
-import { logger } from '~/root'
+import { loadMediaPanelConfig, logger } from '~/dataLocations.server' // Import loadMediaPanelConfig from dataLocations.server
 
 export async function loadTabData(system: string) {
   logger.log('tabContent', 'loadTabData.server passed ' + system)

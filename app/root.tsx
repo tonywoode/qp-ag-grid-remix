@@ -14,19 +14,15 @@ import reactSplitStyles from '~/styles/react-split.css'
 import styles from '~/styles/styles.css'
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
+import { createFrontendLogger } from '~/utils/featureLogger'
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
-import { dataDirectory, dataDirectoryExists, datsDirectory, getTempDirectory } from '~/dataLocations.server'
+import { dataDirectory, dataDirectoryExists, datsDirectory, getTempDirectory, logger } from '~/dataLocations.server'
 import { cleanupTempDirectories } from '~/utils/tempManager.server'
 import { CleanupButton } from '~/components/CleanupButton'
 
-//configure and export logging per-domain feature
-//todo: user-enablable - split out to json/global flag?)
-import { createFeatureLogger } from '~/utils/featureLogger'
-import loggerConfig from '../loggerConfig.json'
 import { decodeString } from '~/utils/safeUrl' //for pretty printing
-export const logger = createFeatureLogger(loggerConfig)
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
@@ -66,6 +62,7 @@ export async function loader() {
   const isLinux = currentPlatform === 'linux'
 
   return json({
+    loggerConfig: logger.config,
     folderData,
     userDataPath: electron.app.getPath('userData'),
     tempDirectory,
@@ -98,19 +95,13 @@ export async function action({ request }: { request: Request }) {
 }
 
 // use as the standard delay across the app
-const HOVER_DELAY_MS = 400;
+const HOVER_DELAY_MS = 400
 
-const ActionBar = ({ 
-  isWindows, 
-  isMacOS, 
-  isLinux, 
-  isMenuExpanded, 
-  onExpandChange 
-}) => {
+const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange }) => {
   const [isFullScreen, setIsFullScreen] = useState(false)
   const isFirstDevToolsClick = useRef(true)
   // Add ref for the menu hover timeout
-  const menuHoverTimeout = useRef(null);
+  const menuHoverTimeout = useRef(null)
 
   // Listen for fullscreen changes using the standard browser API
   useEffect(() => {
@@ -151,27 +142,27 @@ const ActionBar = ({
   useEffect(() => {
     return () => {
       if (menuHoverTimeout.current) {
-        clearTimeout(menuHoverTimeout.current);
+        clearTimeout(menuHoverTimeout.current)
       }
-    };
-  }, []);
+    }
+  }, [])
 
   // Create handler functions for mouse enter/leave
   const handleMouseEnter = () => {
     if (menuHoverTimeout.current) {
-      clearTimeout(menuHoverTimeout.current);
+      clearTimeout(menuHoverTimeout.current)
     }
     menuHoverTimeout.current = setTimeout(() => {
-      onExpandChange(true);
-    }, HOVER_DELAY_MS);
-  };
+      onExpandChange(true)
+    }, HOVER_DELAY_MS)
+  }
 
   const handleMouseLeave = () => {
     if (menuHoverTimeout.current) {
-      clearTimeout(menuHoverTimeout.current);
+      clearTimeout(menuHoverTimeout.current)
     }
-    onExpandChange(false);
-  };
+    onExpandChange(false)
+  }
 
   // Window control functions
   const minimizeWindow = () => {
@@ -204,7 +195,7 @@ const ActionBar = ({
   const toggleDevTools = () => {
     const formData = new FormData()
     formData.append('intent', 'toggle-devtools')
-    
+
     // If this is the first click since loading the app
     if (isFirstDevToolsClick.current) {
       // Send two requests with a tiny delay between them
@@ -317,7 +308,7 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={toggleFullScreen}
-            title={isMacOS ? "Toggle Fullscreen (⌃⌘F)" : "Toggle Fullscreen (F11)"}
+            title={isMacOS ? 'Toggle Fullscreen (⌃⌘F)' : 'Toggle Fullscreen (F11)'}
           >
             {isFullScreen ? (
               <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -344,11 +335,13 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={toggleDevTools}
-            title={isMacOS 
-              ? "Developer Tools (⌥⌘I)" 
-              : isLinux 
-                ? "Developer Tools (F12 or Ctrl+Shift+I)" 
-                : "Developer Tools (F12)"}
+            title={
+              isMacOS
+                ? 'Developer Tools (⌥⌘I)'
+                : isLinux
+                  ? 'Developer Tools (F12 or Ctrl+Shift+I)'
+                  : 'Developer Tools (F12)'
+            }
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -366,7 +359,7 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={zoomOut}
-            title={isMacOS ? "Zoom Out (⌘-)" : "Zoom Out (Ctrl+-)"}
+            title={isMacOS ? 'Zoom Out (⌘-)' : 'Zoom Out (Ctrl+-)'}
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -382,7 +375,7 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={zoomIn}
-            title={isMacOS ? "Zoom In (⌘+)" : "Zoom In (Ctrl+)"}
+            title={isMacOS ? 'Zoom In (⌘+)' : 'Zoom In (Ctrl+)'}
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -395,12 +388,10 @@ const ActionBar = ({
             Zoom In
           </button>
 
-
-
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={zoomReset}
-            title={isMacOS ? "Reset Zoom (⌘0)" : "Reset Zoom (Ctrl+0)"}
+            title={isMacOS ? 'Reset Zoom (⌘0)' : 'Reset Zoom (Ctrl+0)'}
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 24 24">
               <path
@@ -422,9 +413,11 @@ const ActionBar = ({
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={reload}
-            title={isMacOS 
-              ? "Reload (⌘R) - Hold Shift for Force Reload (⇧⌘R)" 
-              : "Reload (Ctrl+R) - Hold Shift for Force Reload (Ctrl+Shift+R)"}
+            title={
+              isMacOS
+                ? 'Reload (⌘R) - Hold Shift for Force Reload (⇧⌘R)'
+                : 'Reload (Ctrl+R) - Hold Shift for Force Reload (Ctrl+Shift+R)'
+            }
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -541,19 +534,15 @@ export function TreeView({ folderData }) {
   }, [folderData])
 
   useEffect(() => {
-  // Tree component needs explicit pixel dimensions to render correctly,
-  // ResizeObserver ensures it updates when container size changes
+    // Tree component needs explicit pixel dimensions to render correctly,
+    // ResizeObserver ensures it updates when container size changes
     const observer = new ResizeObserver(([entry]) => setDimensions(entry.contentRect))
     containerRef.current && observer.observe(containerRef.current)
     return () => observer.disconnect()
   }, [])
 
   return (
-    <div 
-      ref={containerRef} 
-      className="py-1.5 pl-3 h-full overflow-hidden" 
-      style={{ width: '100%' }}
-    >
+    <div ref={containerRef} className="py-1.5 pl-3 h-full overflow-hidden" style={{ width: '100%' }}>
       <Tree
         key={treeKey}
         initialData={folderData}
@@ -571,8 +560,9 @@ export function TreeView({ folderData }) {
 
 // In your App component, update the footer with proper hover delay handling
 export default function App() {
-  logger.log('remixRoutes', 'in the root component')
   const data = useLoaderData<typeof loader>()
+  const logger = createFrontendLogger(data.loggerConfig)
+  logger.log('remixRoutes', 'in the root component')
   const folderData = data.folderData
   const matches = useMatches()
   let match = matches.find(match => match?.data && 'romdata' in match.data)
@@ -581,7 +571,7 @@ export default function App() {
   const [showFooterDetails, setShowFooterDetails] = useState(false)
   const [isMenuExpanded, setIsMenuExpanded] = useState(false)
   // Add footer hover timeout ref
-  const footerHoverTimeout = useRef(null);
+  const footerHoverTimeout = useRef(null)
 
   const isWindows = data.isWindows
   const isMacOS = data.isMacOS
@@ -598,45 +588,43 @@ export default function App() {
   }
 
   // Calculate header height based on menu state
-  const headerHeight = isMenuExpanded ? 40 : 24; // 40px when expanded, 24px when collapsed
-  
+  const headerHeight = isMenuExpanded ? 40 : 24 // 40px when expanded, 24px when collapsed
+
   // Pass state and setter to ActionBar
-  const handleMenuExpandChange = (expanded) => {
-    setIsMenuExpanded(expanded);
-    
+  const handleMenuExpandChange = expanded => {
+    setIsMenuExpanded(expanded)
+
     // Dispatch a custom event that nested components can listen for
     if (typeof window !== 'undefined') {
-      window.dispatchEvent(new CustomEvent('menuexpandchange', { 
-        detail: expanded 
-      }));
+      window.dispatchEvent(
+        new CustomEvent('menuexpandchange', {
+          detail: expanded
+        })
+      )
     }
-  };
+  }
 
   // Add useEffect for cleanup
   useEffect(() => {
     return () => {
       if (footerHoverTimeout.current) {
-        clearTimeout(footerHoverTimeout.current);
+        clearTimeout(footerHoverTimeout.current)
       }
-    };
-  }, []);
+    }
+  }, [])
 
   // Add handler functions for footer mouse events
   const handleFooterMouseEnter = () => {
-    if (footerHoverTimeout.current) {
-      clearTimeout(footerHoverTimeout.current);
-    }
+    if (footerHoverTimeout.current) clearTimeout(footerHoverTimeout.current)
     footerHoverTimeout.current = setTimeout(() => {
-      setShowFooterDetails(true);
-    }, HOVER_DELAY_MS);
-  };
+      setShowFooterDetails(true)
+    }, HOVER_DELAY_MS)
+  }
 
   const handleFooterMouseLeave = () => {
-    if (footerHoverTimeout.current) {
-      clearTimeout(footerHoverTimeout.current);
-    }
-    setShowFooterDetails(false);
-  };
+    if (footerHoverTimeout.current) clearTimeout(footerHoverTimeout.current)
+    setShowFooterDetails(false)
+  }
 
   return (
     <html lang="en" className="w-full h-full">

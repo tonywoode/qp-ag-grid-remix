@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import os from 'os'
 import electron from '~/electron.server'
+import { createFeatureLogger } from '~/utils/featureLogger'
 
 // Get the appropriate base directory depending on environment and platform
 const getBaseDirectory = () => {
@@ -26,7 +27,7 @@ const getTempDirectory = () => {
     // In development, use a local temp directory
     return path.join(getBaseDirectory(), 'temp')
   }
-  
+
   if (process.platform === 'darwin') {
     // On macOS, use ~/Library/Caches/[App Name]/temp
     const homeDir = os.homedir()
@@ -80,6 +81,56 @@ const loadEmulators = () => {
   }
 }
 
+// Define logger config path based on the same base directory logic
+const loggerConfigPath = path.join(getBaseDirectory(), 'loggerConfig.json')
+
+// Load or create the logger config
+const getLoggerConfig = () => {
+  try {
+    // Check if config file exists
+    if (fs.existsSync(loggerConfigPath)) {
+      console.log('Loading external logger config from:', loggerConfigPath)
+      const configData = fs.readFileSync(loggerConfigPath, 'utf-8')
+      return JSON.parse(configData)
+    } else {
+      console.log('Creating default logger config at:', loggerConfigPath)
+
+      // Default config based on the original - TODO: load from template instead
+      const defaultConfig = [
+        { feature: 'remixRoutes', enabled: true },
+        { feature: 'gridOperations', enabled: true },
+        { feature: 'fileOperations', enabled: true },
+        { feature: 'pathConversion', enabled: false },
+        { feature: 'goodMergeChoosing', enabled: true },
+        { feature: 'screenshots', enabled: false },
+        { feature: 'tabContent', enabled: true },
+        { feature: 'icons', enabled: false },
+        { feature: 'lightbox', enabled: false }
+      ]
+
+      // Make sure directory exists
+      const dir = path.dirname(loggerConfigPath)
+      if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true })
+      }
+
+      // Write default config to file
+      fs.writeFileSync(loggerConfigPath, JSON.stringify(defaultConfig, null, 2), 'utf-8')
+      return defaultConfig
+    }
+  } catch (error) {
+    console.error('Error loading/creating logger config:', error)
+    // Return a minimal default if something goes wrong
+    return [
+      { feature: 'remixRoutes', enabled: true },
+      { feature: 'fileOperations', enabled: true }
+    ]
+  }
+}
+
+// Create and export the logger instance
+const serverLogger = createFeatureLogger(getLoggerConfig())
+
 export {
   dataDirectory,
   dataDirectoryExists,
@@ -87,5 +138,7 @@ export {
   datsDirectoryExists,
   loadMediaPanelConfig,
   loadEmulators,
-  getTempDirectory
+  getTempDirectory,
+  loggerConfigPath,
+  serverLogger as logger
 }

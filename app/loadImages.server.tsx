@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { logger } from './root'
+import { logger } from '~/dataLocations.server'
 import { systemPaths, internalPaths } from '~/config/gamePaths.server'
 
 async function fileExists(filePath: string): Promise<boolean> {
