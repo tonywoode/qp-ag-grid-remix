@@ -61,20 +61,20 @@ export function Node({ node, style, dragHandle }) {
           className={`flex items-center ${node.isSelected && node.data.romdataLink ? 'bg-blue-300 text-white' : ''}`}
           style={{
             borderRadius: '4px',
-            paddingRight: '8px', // Much more reasonable padding
+            paddingRight: '8px',
             cursor: node.data.romdataLink ? 'pointer' : 'default'
           }}
           onClick={handleSingleClick}
           onDoubleClick={handlePreventedDoubleClick}
         >
-          <span className="file-folder-icon" style={{ marginRight: '6px' }}>
+          <span className="file-folder-icon flex-shrink-0" style={{ marginRight: '6px' }}>
             {node.data.iconLink ? (
               <img src={node.data.icon} alt="folder-icon" style={{ width: '32px', height: '32px' }} />
             ) : (
               <AiFillFolder color={node.isLeaf ? '#6bc7f6' : '#f6cf60'} />
             )}
           </span>
-          <span className="node-text">{node.data.name}</span>
+          <span className="node-text truncate whitespace-nowrap">{node.data.name}</span>
         </span>
       </div>
     </div>
