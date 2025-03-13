@@ -195,9 +195,9 @@ const ActionBar = ({
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 transition-all duration-300 ${
-        isFullScreen ? 'h-0 hover:h-10 overflow-hidden' : isMenuExpanded ? 'h-10' : 'h-6'
-      }`}
+    className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 transition-all duration-300 ${
+      isFullScreen ? 'h-6 hover:h-10 overflow-hidden' : isMenuExpanded ? 'h-10' : 'h-6'
+    }`}
       onMouseEnter={() => onExpandChange(true)}
       onMouseLeave={() => onExpandChange(false)}
       style={{ WebkitAppRegion: isWindows ? 'drag' : 'no-drag' }}
