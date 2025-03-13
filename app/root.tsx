@@ -97,6 +97,9 @@ export async function action({ request }: { request: Request }) {
   return json({ success: false, error: 'Unknown intent' })
 }
 
+// use as the standard delay across the app
+const HOVER_DELAY_MS = 400;
+
 const ActionBar = ({ 
   isWindows, 
   isMacOS, 
@@ -106,6 +109,8 @@ const ActionBar = ({
 }) => {
   const [isFullScreen, setIsFullScreen] = useState(false)
   const isFirstDevToolsClick = useRef(true)
+  // Add ref for the menu hover timeout
+  const menuHoverTimeout = useRef(null);
 
   // Listen for fullscreen changes using the standard browser API
   useEffect(() => {
@@ -141,6 +146,32 @@ const ActionBar = ({
   useEffect(() => {
     console.log('fullscreen is now:', isFullScreen)
   }, [isFullScreen])
+
+  // Add a cleanup effect for the timeout
+  useEffect(() => {
+    return () => {
+      if (menuHoverTimeout.current) {
+        clearTimeout(menuHoverTimeout.current);
+      }
+    };
+  }, []);
+
+  // Create handler functions for mouse enter/leave
+  const handleMouseEnter = () => {
+    if (menuHoverTimeout.current) {
+      clearTimeout(menuHoverTimeout.current);
+    }
+    menuHoverTimeout.current = setTimeout(() => {
+      onExpandChange(true);
+    }, HOVER_DELAY_MS);
+  };
+
+  const handleMouseLeave = () => {
+    if (menuHoverTimeout.current) {
+      clearTimeout(menuHoverTimeout.current);
+    }
+    onExpandChange(false);
+  };
 
   // Window control functions
   const minimizeWindow = () => {
@@ -223,8 +254,8 @@ const ActionBar = ({
       className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 transition-all duration-300 ${
         isFullScreen ? 'h-6 hover:h-10 overflow-hidden' : isMenuExpanded ? 'h-10' : 'h-6'
       }`}
-      onMouseEnter={() => onExpandChange(true)}
-      onMouseLeave={() => onExpandChange(false)}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
       style={{ WebkitAppRegion: isWindows ? 'drag' : 'no-drag' }}
     >
       {/* Collapsed view - make it fade out smoothly */}
@@ -368,7 +399,7 @@ const ActionBar = ({
             onClick={zoomReset}
             title={isMacOS ? "Reset Zoom (⌘0)" : "Reset Zoom (Ctrl+0)"}
           >
-            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 24 24">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -557,6 +588,7 @@ export function TreeView({ folderData }) {
   )
 }
 
+// In your App component, update the footer with proper hover delay handling
 export default function App() {
   logger.log('remixRoutes', 'in the root component')
   const data = useLoaderData<typeof loader>()
@@ -567,6 +599,8 @@ export default function App() {
   const fetcher = useFetcher()
   const [showFooterDetails, setShowFooterDetails] = useState(false)
   const [isMenuExpanded, setIsMenuExpanded] = useState(false)
+  // Add footer hover timeout ref
+  const footerHoverTimeout = useRef(null);
 
   const isWindows = data.isWindows
   const isMacOS = data.isMacOS
@@ -595,6 +629,32 @@ export default function App() {
         detail: expanded 
       }));
     }
+  };
+
+  // Add useEffect for cleanup
+  useEffect(() => {
+    return () => {
+      if (footerHoverTimeout.current) {
+        clearTimeout(footerHoverTimeout.current);
+      }
+    };
+  }, []);
+
+  // Add handler functions for footer mouse events
+  const handleFooterMouseEnter = () => {
+    if (footerHoverTimeout.current) {
+      clearTimeout(footerHoverTimeout.current);
+    }
+    footerHoverTimeout.current = setTimeout(() => {
+      setShowFooterDetails(true);
+    }, HOVER_DELAY_MS);
+  };
+
+  const handleFooterMouseLeave = () => {
+    if (footerHoverTimeout.current) {
+      clearTimeout(footerHoverTimeout.current);
+    }
+    setShowFooterDetails(false);
   };
 
   return (
@@ -644,8 +704,8 @@ export default function App() {
               <div
                 className="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 shadow-md transition-all duration-300 z-50"
                 style={{ height: showFooterDetails ? '100px' : '30px' }}
-                onMouseEnter={() => setShowFooterDetails(true)}
-                onMouseLeave={() => setShowFooterDetails(false)}
+                onMouseEnter={handleFooterMouseEnter}
+                onMouseLeave={handleFooterMouseLeave}
               >
                 {/* Always visible minimal info */}
                 <div className="px-4 py-1 flex items-center justify-between">
