@@ -26,12 +26,8 @@
     ],
     "extraResources": [
       {
-        "from": "data",
-        "to": "data"
-      },
-      {
-        "from": "dats",
-        "to": "dats"
+        "from": "loggerConfig_template.json",
+        "to": "loggerConfig_template.json"
       },
       {
         "from": "assets",
