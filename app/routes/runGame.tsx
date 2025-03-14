@@ -51,18 +51,18 @@ export async function action({ request }: ActionFunctionArgs) {
   })
   await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
-  const gamePathMacOS = convertPathToOSPath(gamePath)
-  const gameExtension = path.extname(gamePathMacOS).toLowerCase()
+  const gamePathOS = convertPathToOSPath(gamePath)
+  const gameExtension = path.extname(gamePathOS).toLowerCase()
   //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
   const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
 
   if (isZip) {
     // Create archive-specific extraction directory
-    const outputDirectory = await getAndEnsureTempDir(gamePathMacOS, system)
-    await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathMacOS })
+    const outputDirectory = await getAndEnsureTempDir(gamePathOS, system)
+    await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathOS })
     await emitEvent({ type: 'status', data: 'isZip' }) // Add this line to emit zip status
     await examineZip(
-      gamePathMacOS,
+      gamePathOS,
       outputDirectory,
       fileInZipToRun,
       emulatorName,
@@ -72,14 +72,14 @@ export async function action({ request }: ActionFunctionArgs) {
       paramMode
     )
   } else {
-    await emitEvent({ type: 'QPBackend', data: 'Game File detected, directly running ' + gamePathMacOS })
-    await runGame(gamePathMacOS, emulatorName, mameName, parentName, parameters, paramMode)
+    await emitEvent({ type: 'QPBackend', data: 'Game File detected, directly running ' + gamePathOS })
+    await runGame(gamePathOS, emulatorName, mameName, parentName, parameters, paramMode)
   }
   return null
 }
 
 async function examineZip(
-  gamePathMacOS,
+  gamePathOS,
   outputDirectory,
   fileInZipToRun,
   emulatorName,
@@ -92,15 +92,15 @@ async function examineZip(
 
   if (fileInZipToRun) {
     await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + fileInZipToRun })
-    await extractSingleRom(gamePathMacOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
+    await extractSingleRom(gamePathOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
     const outputFile = path.join(outputDirectory, fileInZipToRun)
     runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
   } else {
-    logger.log(`fileOperations`, 'listing archive', gamePathMacOS)
-    await emitEvent({ type: 'zip', data: 'listing archive to find runnable file ' + gamePathMacOS })
+    logger.log(`fileOperations`, 'listing archive', gamePathOS)
+    await emitEvent({ type: 'zip', data: 'listing archive to find runnable file ' + gamePathOS })
     try {
       const result = await new Promise((resolve, reject) => {
-        listArchive(gamePathMacOS)
+        listArchive(gamePathOS)
           .progress(async (files: { name: string }[]) => {
             if (files.length > 0) {
               await emitEvent({
@@ -118,10 +118,10 @@ async function examineZip(
 
               if (isMameEmulator || isMameRom) {
                 await emitEvent({ type: 'QPBackend', data: 'MAME game detected, running directly' })
-                await runGame(gamePathMacOS, emulatorName, mameName, parentName, parameters, paramMode)
+                await runGame(gamePathOS, emulatorName, mameName, parentName, parameters, paramMode)
                 return files
               } else {
-                const pickedRom = await handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive)
+                const pickedRom = await handleDiskImages(files, gamePathOS, outputDirectory, fullArchive)
                 if (pickedRom) {
                   const outputFile = path.join(outputDirectory, pickedRom)
                   await emitEvent({
@@ -131,7 +131,7 @@ async function examineZip(
                   await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
                   return files
                 } else {
-                  const pickedRom = await handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive)
+                  const pickedRom = await handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchive)
                   const outputFile = path.join(outputDirectory, pickedRom)
                   await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
                   return files
@@ -163,13 +163,13 @@ async function examineZip(
 }
 
 //first look for ANY of the files from the image list, if any are found, treat it as an image, THEN look in order for runnable files, extract all and then pass RUNNABLE file to emu
-async function handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchive) {
+async function handleDiskImages(files, gamePathOS, outputDirectory, fullArchive) {
   logger.log('fileOperations', `checking for disk images in files`, files)
   const diskImageFiles = files.filter(file => diskImageExtensions.includes(path.extname(file.name)))
   if (diskImageFiles.length > 0) {
     logger.log(`fileOperations`, `found disk image files in archive`, diskImageFiles)
     await emitEvent({ type: 'QPBackend', data: 'found disk image file to run (extracting full archive)' })
-    await extractFullArchive(gamePathMacOS, outputDirectory, fullArchive, logger)
+    await extractFullArchive(gamePathOS, outputDirectory, fullArchive, logger)
     const pickedRom = diskImageExtensions
       .map(ext => diskImageFiles.find(file => path.extname(file.name) === ext))
       .find(file => file)?.name // pick the first matching file based on the order of diskImageExtensions
@@ -178,14 +178,14 @@ async function handleDiskImages(files, gamePathMacOS, outputDirectory, fullArchi
   return null
 }
 
-async function handleNonDiskImages(files, gamePathMacOS, outputDirectory, onlyArchive) {
+async function handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchive) {
   //if its not a disk image, we can just pick the best runnable file to pass to the emu
   const filenames = files.map(file => file.name)
   logger.log(`fileOperations`, `7z listing: `, filenames)
   const pickedRom = setupChooseGoodMergeRom(filenames, logger)
   logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
   await emitEvent({ type: 'QPBackend', data: 'Goodmerge choosing chose this one for you: ' + pickedRom })
-  await extractSingleRom(gamePathMacOS, outputDirectory, pickedRom, onlyArchive, logger)
+  await extractSingleRom(gamePathOS, outputDirectory, pickedRom, onlyArchive, logger)
   return pickedRom
 }
 
