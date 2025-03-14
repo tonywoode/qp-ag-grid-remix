@@ -63,7 +63,8 @@ function processRomdataDirectory(source: string, destination: string): number {
       const romdataJson = convertRomDataToJSON(sourcePath, gamesDirPathPrefix)
       if (romdataJson !== null) {
         console.log(`Converting: ${sourcePath} to ${destPath.replace('.dat', '.json')}`)
-        saveToJSONFile(romdataJson, destPath.replace('.dat', '.json').toLowerCase())
+        // Use case-insensitive regex to replace .dat or .DAT with .json
+        saveToJSONFile(romdataJson, destPath.replace(/\.dat$/i, '.json').toLowerCase())
         convertedFiles++
       } else {
         console.log(`No ROM data found in ${sourcePath}. Skipping file creation.`)
