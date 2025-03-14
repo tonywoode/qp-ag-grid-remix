@@ -4,12 +4,11 @@ import path from 'path'
 import os from 'os'
 import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '~/utils/safeDirectoryOps.server'
-import { logger } from '~/dataLocations.server'
 import { convertPathToOSPath } from '~/utils/OSConvert.server'
 import { emitter } from '~/utils/emitter.server'
 import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 import { loadNode7z } from '~/utils/node7zLoader.server'
-import { loadEmulators, getTempDirectory } from '~/dataLocations.server' // Import loadEmulators and getTempDirectory from dataLocations.server
+import { loadEmulators, getTempDirectory, logger } from '~/dataLocations.server'
 import { getArchiveExtractionDir, verifyExtraction, touchExtractionDir } from '~/utils/tempManager.server'
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
@@ -40,6 +39,7 @@ export async function action({ request }: ActionFunctionArgs) {
     currentGameDetails = null
     return null
   }
+
   logger.log(`fileOperations`, `runGame received from grid`, {
     gamePath,
     fileInZipToRun,
@@ -50,17 +50,25 @@ export async function action({ request }: ActionFunctionArgs) {
     paramMode
   })
   await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
+
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathOS = convertPathToOSPath(gamePath)
-  const gameExtension = path.extname(gamePathOS).toLowerCase()
-  //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
-  const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
 
+  //if we're mame, we don't want to extract (nor create an empty folder in extraction dir)
+  if (isMame(emulatorName)) {
+    await emitEvent({ type: 'QPBackend', data: 'MAME game detected, running directly' })
+    await runGame(gamePathOS, emulatorName, mameName, parentName, parameters, paramMode)
+    return null
+  }
+
+  //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
+  const gameExtension = path.extname(gamePathOS).toLowerCase()
+  const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
   if (isZip) {
     // Create archive-specific extraction directory
     const outputDirectory = await getAndEnsureTempDir(gamePathOS, system)
     await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathOS })
-    await emitEvent({ type: 'status', data: 'isZip' }) // Add this line to emit zip status
+    await emitEvent({ type: 'status', data: 'isZip' })
     await examineZip(
       gamePathOS,
       outputDirectory,
@@ -108,34 +116,20 @@ async function examineZip(
                 data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n')
               })
               // emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' }) // don't add success status if all we've done is list
-              const matchedEmulator = matchEmulatorName(emulatorName)
-              //temporary fix: it isn't QUITE good enough to say a rom is mame if we call ROMMAME, otherGameNames etc...so also this:
-              const isMameEmulator =
-                matchedEmulator?.emulatorName.startsWith('MAME') || matchedEmulator?.emulatorName.endsWith('(MAME)')
-              const find = (str, start, end) => str?.match(new RegExp(`${start}(.*?)${end}`))[1]
-              const namedOutputType = find(matchedEmulator?.parameters, '%', '%')
-              const isMameRom = namedOutputType === 'ROMMAME'
-
-              if (isMameEmulator || isMameRom) {
-                await emitEvent({ type: 'QPBackend', data: 'MAME game detected, running directly' })
-                await runGame(gamePathOS, emulatorName, mameName, parentName, parameters, paramMode)
-                return files
-              } else {
-                const pickedRom = await handleDiskImages(files, gamePathOS, outputDirectory, fullArchive)
-                if (pickedRom) {
-                  const outputFile = path.join(outputDirectory, pickedRom)
-                  await emitEvent({
+              const pickedRom = await handleDiskImages(files, gamePathOS, outputDirectory, fullArchive)
+              if (pickedRom) {
+                const outputFile = path.join(outputDirectory, pickedRom)
+                await emitEvent({
                     type: 'QPBackend',
                     data: 'running runnable iso file' + outputFile
                   }) //prettier-ignore
-                  await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
-                  return files
-                } else {
-                  const pickedRom = await handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchive)
-                  const outputFile = path.join(outputDirectory, pickedRom)
-                  await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
-                  return files
-                }
+                await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
+                return files
+              } else {
+                const pickedRom = await handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchive)
+                const outputFile = path.join(outputDirectory, pickedRom)
+                await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
+                return files
               }
             }
             //else reject the promise
@@ -344,7 +338,7 @@ async function runGame(
     let emuParams: string[] | null = null
     let emuPath: string
 
-    if (process.platform !== 'win32') {
+    if (process.platform === 'darwin') {
       //only tested on mac, mac is only capable of retroarch loading, and from default install locations
       const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
       logger.log(`fileOperations`, 'Retroarch Command Line On Mac:', retroarchCommandLine)
@@ -398,6 +392,7 @@ async function runGame(
       console.log(emuParams)
 
       // Check for %tool:MULTILOADER% before other namedOutputType checks
+      // we want to munge these back into standard emu calls, we ARE a multilloader!
       if (matchedEmulator.parameters.includes('%Tool:MULTILOADER%')) {
         let emulatorFlags: string[] = []
         const multiloaderRealFlagIndex = 3 // Always use the fourth parameter in MULTILOADER case
@@ -482,6 +477,17 @@ async function runGame(
 function matchEmulatorName(emulatorName) {
   const emulators = loadEmulators()
   return emulators.find(emulator => emulator.emulatorName === emulatorName)
+}
+
+function isMame(emulatorName) {
+  const matchedEmulator = matchEmulatorName(emulatorName)
+  //temporary fix: it isn't QUITE good enough to say a rom is mame if we call ROMMAME, otherGameNames etc...so also this:
+  const isMameEmulator =
+    matchedEmulator?.emulatorName.startsWith('MAME') || matchedEmulator?.emulatorName.endsWith('(MAME)')
+  const find = (str, start, end) => str?.match(new RegExp(`${start}(.*?)${end}`))[1]
+  const namedOutputType = find(matchedEmulator?.parameters, '%', '%')
+  const isMameRom = namedOutputType === 'ROMMAME'
+  return isMameEmulator || isMameRom
 }
 
 function extractRetroarchCommandLine(emulatorJson) {
