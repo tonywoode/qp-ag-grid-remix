@@ -108,7 +108,6 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
     // Check initial fullscreen state
     setIsFullScreen(!!document.fullscreenElement)
     console.log('Initial fullscreen state:', !!document.fullscreenElement)
-
     // Handler for fullscreen change events
     const handleFullscreenChange = () => {
       setIsFullScreen(!!document.fullscreenElement)
@@ -393,7 +392,7 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
             onClick={zoomReset}
             title={isMacOS ? 'Reset Zoom (⌘0)' : 'Reset Zoom (Ctrl+0)'}
           >
-            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 24 24">
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
