@@ -3,6 +3,7 @@ import path from 'path'
 import os from 'os'
 import electron from '~/electron.server'
 import { createFeatureLogger } from '~/utils/featureLogger'
+import { loadLoggerTemplate } from '~/utils/loggerTemplateLoader.server'
 
 // Get the appropriate base directory depending on environment and platform
 const getBaseDirectory = () => {
@@ -87,12 +88,10 @@ const loggerConfigPath = path.join(getBaseDirectory(), 'loggerConfig.json')
 // Load or create the logger config
 const getLoggerConfig = () => {
   try {
-    // Alternative approach loading from template file
+    // Use our dedicated loader to get the template
     let templateConfig
     try {
-      const templatePath = path.join(__dirname, '../loggerConfig_template.json')
-      const templateData = fs.readFileSync(templatePath, 'utf-8')
-      templateConfig = JSON.parse(templateData)
+      templateConfig = loadLoggerTemplate()
       // Ensure all template values are set to false for new configs
       templateConfig = templateConfig.map(item => ({ ...item, enabled: false }))
     } catch (error) {
