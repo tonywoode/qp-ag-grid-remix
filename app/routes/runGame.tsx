@@ -24,9 +24,20 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
   emitter.emit('runGameEvent', { type, data })
 }
 
+interface GameDetails {
+  gamePath: string
+  fileInZipToRun?: string
+  emulatorName: string
+  clearProcess?: boolean
+  mameName?: string
+  parentName?: string
+  parameters?: string
+  paramMode?: string
+  system?: string
+}
+
 export async function action({ request }: ActionFunctionArgs) {
-  const { gamePath, fileInZipToRun, emulatorName, clearProcess, mameName, parentName, parameters, paramMode, system } =
-    await request.json()
+  const gameDetails: GameDetails = await request.json()
   //popup an alert to the user that if emulators is [] they won't be able to run any games
   const emulators = loadEmulators()
   if (emulators.length === 0) {
@@ -34,30 +45,22 @@ export async function action({ request }: ActionFunctionArgs) {
     return null
   }
 
-  if (clearProcess) {
+  if (gameDetails.clearProcess) {
     currentProcess = null
     currentGameDetails = null
     return null
   }
 
-  logger.log(`fileOperations`, `runGame received from grid`, {
-    gamePath,
-    fileInZipToRun,
-    emulatorName,
-    mameName,
-    parentName,
-    parameters,
-    paramMode
-  })
-  await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gamePath })
+  logger.log(`fileOperations`, `runGame received from grid`, gameDetails)
+  await emitEvent({ type: 'QPBackend', data: 'Going to run ' + gameDetails.gamePath })
 
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
-  const gamePathOS = convertPathToOSPath(gamePath)
+  const gamePathOS = convertPathToOSPath(gameDetails.gamePath)
 
   //if we're mame, we don't want to extract (nor create an empty folder in extraction dir)
-  if (isMame(emulatorName)) {
+  if (isMame(gameDetails.emulatorName)) {
     await emitEvent({ type: 'QPBackend', data: 'MAME game detected, running directly' })
-    await runGame(gamePathOS, emulatorName, mameName, parentName, parameters, paramMode)
+    await runGame(gamePathOS, gameDetails)
     return null
   }
 
@@ -66,43 +69,25 @@ export async function action({ request }: ActionFunctionArgs) {
   const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
   if (isZip) {
     // Create archive-specific extraction directory
-    const outputDirectory = await getAndEnsureTempDir(gamePathOS, system)
+    const outputDirectory = await getAndEnsureTempDir(gamePathOS, gameDetails.system)
     await emitEvent({ type: 'QPBackend', data: 'Zip detected passing to 7z ' + gamePathOS })
     await emitEvent({ type: 'status', data: 'isZip' })
-    await examineZip(
-      gamePathOS,
-      outputDirectory,
-      fileInZipToRun,
-      emulatorName,
-      mameName,
-      parentName,
-      parameters,
-      paramMode
-    )
+    await examineZip(gamePathOS, outputDirectory, gameDetails)
   } else {
     await emitEvent({ type: 'QPBackend', data: 'Game File detected, directly running ' + gamePathOS })
-    await runGame(gamePathOS, emulatorName, mameName, parentName, parameters, paramMode)
+    await runGame(gamePathOS, gameDetails)
   }
   return null
 }
 
-async function examineZip(
-  gamePathOS,
-  outputDirectory,
-  fileInZipToRun,
-  emulatorName,
-  mameName,
-  parentName,
-  parameters,
-  paramMode
-) {
+async function examineZip(gamePathOS, outputDirectory, gameDetails: GameDetails) {
   const { onlyArchive, listArchive, fullArchive } = await loadNode7z()
 
-  if (fileInZipToRun) {
-    await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + fileInZipToRun })
-    await extractSingleRom(gamePathOS, outputDirectory, fileInZipToRun, onlyArchive, logger)
-    const outputFile = path.join(outputDirectory, fileInZipToRun)
-    runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
+  if (gameDetails.fileInZipToRun) {
+    await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + gameDetails.fileInZipToRun })
+    await extractSingleRom(gamePathOS, outputDirectory, gameDetails.fileInZipToRun, onlyArchive, logger)
+    const outputFile = path.join(outputDirectory, gameDetails.fileInZipToRun)
+    runGame(outputFile, gameDetails)
   } else {
     logger.log(`fileOperations`, 'listing archive', gamePathOS)
     await emitEvent({ type: 'zip', data: 'listing archive to find runnable file ' + gamePathOS })
@@ -123,12 +108,12 @@ async function examineZip(
                     type: 'QPBackend',
                     data: 'running runnable iso file' + outputFile
                   }) //prettier-ignore
-                await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
+                await runGame(outputFile, gameDetails)
                 return files
               } else {
                 const pickedRom = await handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchive)
                 const outputFile = path.join(outputDirectory, pickedRom)
-                await runGame(outputFile, emulatorName, mameName, parentName, parameters, paramMode)
+                await runGame(outputFile, gameDetails)
                 return files
               }
             }
@@ -303,15 +288,8 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
   return result
 }
 
-async function runGame(
-  outputFile: string,
-  emulatorName: string,
-  mameName?: string,
-  parentName?: string,
-  parameters?: string,
-  paramMode?: string //well a stringified int
-) {
-  console.log('runGame received these args:', outputFile, emulatorName, mameName, parentName)
+async function runGame(outputFile: string, gameDetails: GameDetails) {
+  console.log('runGame received these args:', outputFile, gameDetails.emulatorName, gameDetails.mameName, gameDetails.parentName)
   if (currentProcess) {
     logger.log(`fileOperations`, 'An emulator is already running. Please close it before launching a new game.')
     await emitEvent({
@@ -332,7 +310,7 @@ async function runGame(
     return args
   }
 
-  const matchedEmulator = matchEmulatorName(emulatorName)
+  const matchedEmulator = matchEmulatorName(gameDetails.emulatorName)
   logger.log(`fileOperations`, 'Matched Emulator:', matchedEmulator)
   if (matchedEmulator) {
     let emuParams: string[] | null = null
@@ -359,7 +337,7 @@ async function runGame(
       const namedOutputType = find(matchedEmulator.parameters, '%', '%')
       let emuParamsStr = matchedEmulator.parameters
       //if we have 'parameters' in the romdata line, incorporate it as specifed
-      if (parameters) {
+      if (gameDetails.parameters) {
         /*
         //TROMParametersModeStr
         0 = QP_ROM_PARAM_AFTER = 'After Emulators';
@@ -368,21 +346,21 @@ async function runGame(
         3 = QP_ROM_PARAM_AFTER_NOSPACE = 'After Emulators with no space';
         4 = QP_ROM_PARAM_BEFORE_NOSPACE = 'Before Emulators with no space';
         */
-        const paramModeInt = paramMode ? parseInt(paramMode) : NaN
+        const paramModeInt = gameDetails.paramMode ? parseInt(gameDetails.paramMode) : NaN
         if (paramModeInt == 0) {
-          emuParamsStr = `${emuParamsStr} ${parameters}`
+          emuParamsStr = `${emuParamsStr} ${gameDetails.parameters}`
         }
         if (paramModeInt == 1) {
-          emuParamsStr = parameters
+          emuParamsStr = gameDetails.parameters
         }
         if (paramModeInt == 2) {
-          emuParamsStr = `${parameters} ${emuParamsStr}`
+          emuParamsStr = `${gameDetails.parameters} ${emuParamsStr}`
         }
         if (paramModeInt == 3) {
-          emuParamsStr = `${emuParamsStr}${parameters}`
+          emuParamsStr = `${emuParamsStr}${gameDetails.parameters}`
         }
         if (paramModeInt == 4) {
-          emuParamsStr = `${parameters}${emuParamsStr}`
+          emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
         }
       }
       //split the string to process
@@ -421,10 +399,10 @@ async function runGame(
           )
         } else if (namedOutputType === 'ROMMAME') {
           //pass in the mamefilenames and run the child or if not available the parent
-          if (mameName) {
-            emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, mameName)
-          } else if (parentName) {
-            emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, parentName)
+          if (gameDetails.mameName) {
+            emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, gameDetails.mameName)
+          } else if (gameDetails.parentName) {
+            emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, gameDetails.parentName)
           } else {
             console.warn('No mameName or parentName available')
             emuParams = null // or handle the case where neither is available
@@ -443,7 +421,7 @@ async function runGame(
     currentProcess = spawn(emuPath, emuParams, {
       cwd: path.dirname(emuPath) // Set working directory to emulator's directory
     })
-    currentGameDetails = { name: outputFile, emulatorName }
+    currentGameDetails = { name: outputFile, emulatorName: gameDetails.emulatorName }
     // Emit status when game starts - TODO: on success only
     await emitEvent({ type: 'status', data: 'running' })
 
