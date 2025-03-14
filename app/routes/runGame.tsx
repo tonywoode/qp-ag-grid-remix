@@ -38,16 +38,17 @@ interface GameDetails {
 
 export async function action({ request }: ActionFunctionArgs) {
   const gameDetails: GameDetails = await request.json()
+
+  //method to reset the 'game already running' dialogs - needs work
+  if (gameDetails.clearProcess) {
+    currentProcess = null
+    currentGameDetails = null
+    return null
+  }
   //popup an alert to the user that if emulators is [] they won't be able to run any games
   const emulators = loadEmulators()
   if (emulators.length === 0) {
     await emitEvent({ type: 'QPBackend', data: 'No emulators available, cannot run any games' })
-    return null
-  }
-
-  if (gameDetails.clearProcess) {
-    currentProcess = null
-    currentGameDetails = null
     return null
   }
 
@@ -289,7 +290,13 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
 }
 
 async function runGame(outputFile: string, gameDetails: GameDetails) {
-  console.log('runGame received these args:', outputFile, gameDetails.emulatorName, gameDetails.mameName, gameDetails.parentName)
+  console.log(
+    'runGame received these args:',
+    outputFile,
+    gameDetails.emulatorName,
+    gameDetails.mameName,
+    gameDetails.parentName
+  )
   if (currentProcess) {
     logger.log(`fileOperations`, 'An emulator is already running. Please close it before launching a new game.')
     await emitEvent({
@@ -347,21 +354,11 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
         4 = QP_ROM_PARAM_BEFORE_NOSPACE = 'Before Emulators with no space';
         */
         const paramModeInt = gameDetails.paramMode ? parseInt(gameDetails.paramMode) : NaN
-        if (paramModeInt == 0) {
-          emuParamsStr = `${emuParamsStr} ${gameDetails.parameters}`
-        }
-        if (paramModeInt == 1) {
-          emuParamsStr = gameDetails.parameters
-        }
-        if (paramModeInt == 2) {
-          emuParamsStr = `${gameDetails.parameters} ${emuParamsStr}`
-        }
-        if (paramModeInt == 3) {
-          emuParamsStr = `${emuParamsStr}${gameDetails.parameters}`
-        }
-        if (paramModeInt == 4) {
-          emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
-        }
+        if (paramModeInt == 0) emuParamsStr = `${emuParamsStr} ${gameDetails.parameters}`
+        if (paramModeInt == 1) emuParamsStr = gameDetails.parameters
+        if (paramModeInt == 2) emuParamsStr = `${gameDetails.parameters} ${emuParamsStr}`
+        if (paramModeInt == 3) emuParamsStr = `${emuParamsStr}${gameDetails.parameters}`
+        if (paramModeInt == 4) emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
       }
       //split the string to process
       emuParams = emuParamsStr.split(' ')
