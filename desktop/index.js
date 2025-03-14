@@ -4,6 +4,30 @@ const path = require('node:path')
 const fs = require('node:fs')
 const log = require('electron-log')
 
+// Configure electron-log to use our OS-aware base directory
+log.transports.file.resolvePath = () => {
+  const baseDir = getBaseDirectory()
+  
+  // Create logs directory within our base directory
+  const logsDir = path.join(baseDir, 'logs')
+  
+  // Ensure the logs directory exists
+  if (!fs.existsSync(logsDir)) {
+    try {
+      fs.mkdirSync(logsDir, { recursive: true })
+    } catch (err) {
+      console.error('Failed to create logs directory:', err)
+    }
+  }
+  
+  // Return path to log directory, letting electron-log handle the file naming
+  return path.join(logsDir, 'main.log')
+}
+
+// We can still set some preferences that work with electron-log's rotation
+log.transports.file.maxSize = 10 * 1024 * 1024 // 10MB before rotation
+log.transports.file.format = '[{y}-{m}-{d} {h}:{i}:{s}.{ms}] [{level}] {text}'
+
 /** @type {BrowserWindow | undefined} */
 let win
 

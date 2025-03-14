@@ -11,3 +11,5 @@ dats/
 dats_real/
 #the logger config is a user file
 loggerConfig.json
+#log logs dir is a user file
+logs/
