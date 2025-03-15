@@ -39,14 +39,46 @@ const gamesDirPathPrefix = 'F:'
 function processRomdataDirectory(source: string, destination: string): number {
   const items = fs.readdirSync(source)
   let convertedFiles = 0
-  
+  // We need to track if this directory has GoodMergeCompat=1
+  let isGoodMerge = false
+
   // Only log directory processing at the higher levels to avoid excessive logging
-  const isTopLevel = !source.includes(path.sep + 'data' + path.sep);
+  const isTopLevel = !source.includes(path.sep + 'data' + path.sep)
   if (isTopLevel) {
-    logger.log('romdataConvert', `Processing directory: ${source}`);
+    logger.log('romdataConvert', `Processing directory: ${source}`)
   }
 
+  // First process the folders.ini to see if we have a GoodMerge collection
+  const foldersIniPath = path.join(source, 'folders.ini')
+  if (fs.existsSync(foldersIniPath)) {
+    try {
+      const iniData = ini.parse(fs.readFileSync(foldersIniPath, 'utf-8'))
+      isGoodMerge = iniData['GoodMerge'] && iniData['GoodMerge']['GoodMergeCompat'] === '1'
+
+      if (isGoodMerge && isTopLevel) {
+        logger.log('romdataConvert', `Found GoodMerge collection in: ${source}`)
+      }
+
+      const folderInfo = {
+        versionInfo: {
+          'Folder Info JSON Version': '1.0'
+        },
+        folderInfo: {
+          iconLink: iniData['Icon'] && iniData['Icon']['CmbIcon'] ? iniData['Icon']['CmbIcon'] : ''
+        }
+      }
+      const folderInfoPath = path.join(destination, 'folderInfo.json')
+      saveToJSONFile(folderInfo, folderInfoPath)
+      convertedFiles++
+    } catch (err) {
+      logger.log('romdataConvert', `Failed to process folders.ini at ${foldersIniPath}: ${err.message}`)
+    }
+  }
+
+  // Now process everything else, passing the isGoodMerge flag when processing romdata.dat
   for (const item of items) {
+    if (item === 'folders.ini') continue // Skip, we've already processed it
+
     const sourcePath = path.join(source, item)
     const destPath = path.join(destination, item)
 
@@ -55,47 +87,35 @@ function processRomdataDirectory(source: string, destination: string): number {
         fs.mkdirSync(destPath, { recursive: true })
         const filesConverted = processRomdataDirectory(sourcePath, destPath)
         convertedFiles += filesConverted
-        
+
         // Log summary for significant directories
         if (filesConverted > 0 && isTopLevel) {
-          logger.log('romdataConvert', `Converted ${filesConverted} files in ${sourcePath}`);
+          logger.log('romdataConvert', `Converted ${filesConverted} files in ${sourcePath}`)
         }
       } catch (err) {
-        logger.log('romdataConvert', `Failed to process directory ${sourcePath}: ${err.message}`);
-      }
-    } else if (item === 'folders.ini') {
-      try {
-        const iniData = ini.parse(fs.readFileSync(sourcePath, 'utf-8'))
-        const folderInfo = {
-          versionInfo: {
-            'Folder Info JSON Version': '1.0'
-          },
-          folderInfo: {
-            iconLink: iniData['Icon']['CmbIcon']
-          }
-        }
-        const folderInfoPath = path.join(destination, 'folderInfo.json')
-        saveToJSONFile(folderInfo, folderInfoPath)
-        convertedFiles++
-      } catch (err) {
-        logger.log('romdataConvert', `Failed to convert folders.ini at ${sourcePath}: ${err.message}`);
+        logger.log('romdataConvert', `Failed to process directory ${sourcePath}: ${err.message}`)
       }
     } else if (item.toLowerCase() === 'romdata.dat') {
       try {
-        const romdataJson = convertRomDataToJSON(sourcePath, gamesDirPathPrefix)
+        const romdataJson = convertRomDataToJSON(sourcePath, gamesDirPathPrefix, isGoodMerge)
         if (romdataJson !== null) {
           // Only log if it's a significant romdata file (containing many entries) or has issues
           if (romdataJson.romdata && romdataJson.romdata.length > 100) {
-            logger.log('romdataConvert', `Converting large romdata: ${sourcePath} (${romdataJson.romdata.length} entries)`);
+            logger.log(
+              'romdataConvert',
+              `Converting large romdata: ${sourcePath} (${romdataJson.romdata.length} entries${
+                isGoodMerge ? ', GoodMerge type' : ''
+              })`
+            )
           }
           // Use case-insensitive regex to replace .dat or .DAT with .json
           saveToJSONFile(romdataJson, destPath.replace(/\.dat$/i, '.json').toLowerCase())
           convertedFiles++
         } else {
-          logger.log('romdataConvert', `Empty romdata at ${sourcePath}. No file created.`);
+          logger.log('romdataConvert', `Empty romdata at ${sourcePath}. No file created.`)
         }
       } catch (err) {
-        logger.log('romdataConvert', `Failed to convert romdata at ${sourcePath}: ${err.message}`);
+        logger.log('romdataConvert', `Failed to convert romdata at ${sourcePath}: ${err.message}`)
       }
     }
   }

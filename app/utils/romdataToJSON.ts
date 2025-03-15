@@ -60,22 +60,29 @@ function parseRomDataLine(line, gamesDirPathPrefix) {
  * Read romdata file and convert to JSON,
  * @param {string} filename - path to romdata file
  * @param {string} gamesDirPathPrefix - path to game drive, used to convert romdata paths to absolute paths
+ * @param {boolean} isGoodMerge - whether this romdata belongs to a GoodMerge collection
  * @returns {object} - object with a versionInfo key and a romdata key
- * @example
- * const inputFile = 'test/example_inputs/Romdata.dat'
- * const outputFile = 'data/romdata.json'
  */
-export function convertRomDataToJSON(filename, gamesDirPathPrefix) {
+export function convertRomDataToJSON(filename, gamesDirPathPrefix, isGoodMerge = false) {
   const data = fs.readFileSync(filename, 'latin1')
   const lines = data.split('\n').filter(Boolean)
 
-  // Check if there's actual ROM data beyond the version line, I had this!
+  // Check if there's actual ROM data beyond the version line
   if (lines.length <= 1) {
     logger.log('romdataConvert', `No romdata found in ${filename}, its an empty romdata, not converting`)
     return null
   }
 
-  const romdata = lines.slice(1).map(line => parseRomDataLine(line, gamesDirPathPrefix))
+  const romdata = lines.slice(1).map(line => {
+    const romEntry = parseRomDataLine(line, gamesDirPathPrefix)
+
+    // Add the collectionType property if this is a GoodMerge collection
+    if (isGoodMerge) {
+      romEntry.collectionType = 'goodmerge'
+    }
+
+    return romEntry
+  })
 
   return {
     versionInfo: {
