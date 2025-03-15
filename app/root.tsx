@@ -17,16 +17,11 @@ import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
-import { dataDirectory, dataDirectoryExists, datsDirectory, getTempDirectory } from '~/dataLocations.server'
+import { dataDirectory, dataDirectoryExists, datsDirectory, getTempDirectory, logger } from '~/dataLocations.server'
 import { cleanupTempDirectories } from '~/utils/tempManager.server'
 import { CleanupButton } from '~/components/CleanupButton'
-
-//configure and export logging per-domain feature
-//todo: user-enablable - split out to json/global flag?)
-import { createFeatureLogger } from '~/utils/featureLogger'
-import loggerConfig from '../loggerConfig.json'
 import { decodeString } from '~/utils/safeUrl' //for pretty printing
-export const logger = createFeatureLogger(loggerConfig)
+import { createFrontendLogger } from '~/utils/featureLogger'
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
@@ -74,7 +69,8 @@ export async function loader() {
     dataDirectoryExists: dataDirectoryExists(),
     isWindows,
     isMacOS,
-    isLinux
+    isLinux,
+    loggerConfig: logger.config
   })
 }
 
@@ -503,8 +499,9 @@ export function TreeView({ folderData }) {
 }
 
 export default function App() {
-  logger.log('remixRoutes', 'in the root component')
   const data = useLoaderData<typeof loader>()
+  const logger = createFrontendLogger(data.loggerConfig)
+  logger.log('remixRoutes', 'in the root component')
   const folderData = data.folderData
   const matches = useMatches()
   let match = matches.find(match => match?.data && 'romdata' in match.data)
