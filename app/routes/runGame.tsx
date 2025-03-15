@@ -419,9 +419,48 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
 
   logger.log(`fileOperations`, ` ✅ Using command line for ${process.platform}:`, fullCommandLine)
 
-  currentProcess = spawn(emuPath, emuParams, {
-    cwd: path.dirname(emuPath) // Set working directory to emulator's directory
-  })
+  // Base spawn options
+  const spawnOptions = {
+    cwd: path.dirname(emuPath)
+  }
+
+  // On Windows, check if this is a console application
+  if (process.platform === 'win32') {
+    const isConsole = await isConsoleApplication(emuPath)
+
+    if (isConsole) {
+      Object.assign(spawnOptions, {
+        windowsHide: false, // Show the window
+        detached: true, // Detach from parent process
+        shell: true // Run in a shell
+      })
+      logger.log('fileOperations', `Detected console application, launching with visible console window`)
+    }
+  }
+
+  currentProcess = spawn(emuPath, emuParams, spawnOptions)
+
+  // For console applications on Windows, we might want to handle differently
+  if (process.platform === 'win32' && spawnOptions.shell) {
+    // Unref the child so Node doesn't wait for it to close
+    currentProcess.unref()
+
+    // Emit status and inform the user
+    await emitEvent({ type: 'status', data: 'running' })
+    await emitEvent({ type: 'QPBackend', data: 'Console application launched in separate window' })
+
+    // Still capture close event for cleanup
+    currentProcess.on('close', code => {
+      logger.log(`fileOperations`, `Console process exited with code ${code}`)
+      currentProcess = null
+      currentGameDetails = null
+      emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
+    })
+
+    return
+  }
+
+  // Original process handling for GUI applications
   currentGameDetails = { name: outputFile, emulatorName: gameDetails.emulatorName }
 
   // Emit status when game starts - TODO: on success only
@@ -596,5 +635,40 @@ async function getAndEnsureTempDir(archivePath = null, system = 'Unknown') {
     const tempDir = getTempDirectory()
     await createDirIfNotExist(tempDir)
     return tempDir
+  }
+}
+
+// Function to check if an executable is a console application (Windows only)
+async function isConsoleApplication(exePath) {
+  if (process.platform !== 'win32') return false;
+  
+  try {
+    // Read the first few bytes of the executable to access the PE header
+    const fs = require('fs').promises;
+    const buffer = Buffer.alloc(1024); // Should be enough for the PE header
+    const fileHandle = await fs.open(exePath, 'r');
+    await fileHandle.read(buffer, 0, buffer.length, 0);
+    await fileHandle.close();
+    
+    // Check for MZ header (first two bytes of a Windows executable)
+    if (buffer[0] !== 0x4D || buffer[1] !== 0x5A) return false;
+    
+    // Get the offset to the PE header
+    const peOffset = buffer.readUInt32LE(0x3C);
+    if (peOffset > buffer.length) return false;
+    
+    // Check for PE header signature
+    if (buffer.readUInt32LE(peOffset) !== 0x00004550) return false;
+    
+    // The subsystem value is at offset 0x5C from the PE header
+    const subsystemOffset = peOffset + 0x5C;
+    const subsystem = buffer.readUInt16LE(subsystemOffset);
+    
+    // Subsystem 3 is WINDOWS_CUI (Console), subsystem 2 is WINDOWS_GUI
+    logger.log('fileOperations', `Executable subsystem: ${subsystem === 3 ? 'Console' : 'GUI'}`);
+    return subsystem === 3;
+  } catch (err) {
+    logger.log('fileOperations', `Error checking executable type: ${err.message}`);
+    return false; // Default to GUI application if we can't determine
   }
 }
