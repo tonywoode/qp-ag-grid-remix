@@ -152,6 +152,21 @@ if (app) {
       setupIpcHandlers()
     })
   }
+
+  // Add these new handlers for built-in fullscreen events
+  app.on('browser-window-created', (_, browserWindow) => {
+    browserWindow.on('enter-full-screen', () => {
+      browserWindow.webContents.executeJavaScript(`
+        window.dispatchEvent(new CustomEvent('electron-fullscreen-change', { detail: true }))
+      `)
+    })
+
+    browserWindow.on('leave-full-screen', () => {
+      browserWindow.webContents.executeJavaScript(`
+        window.dispatchEvent(new CustomEvent('electron-fullscreen-change', { detail: false }))
+      `)
+    })
+  })
 }
 
 export default electron
