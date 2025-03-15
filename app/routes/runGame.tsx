@@ -74,62 +74,89 @@ export async function action({ request }: ActionFunctionArgs) {
 
 async function examineZip(gamePathOS, outputDirectory, gameDetails: GameDetails) {
   const { onlyArchive, listArchive, fullArchive } = await loadNode7z()
+  
+  logger.log(`fileOperations`, 'listing archive', gamePathOS)
+  await emitEvent({ type: 'zip', data: 'listing archive contents: ' + gamePathOS })
 
-  if (gameDetails.fileInZipToRun) {
-    await emitEvent({ type: 'zip', data: 'unzipping with a running file specified ' + gameDetails.fileInZipToRun })
-    await extractSingleRom(gamePathOS, outputDirectory, gameDetails.fileInZipToRun, onlyArchive, logger)
-    const outputFile = path.join(outputDirectory, gameDetails.fileInZipToRun)
-    runGame(outputFile, gameDetails)
-  } else {
-    logger.log(`fileOperations`, 'listing archive', gamePathOS)
-    await emitEvent({ type: 'zip', data: 'listing archive to find runnable file ' + gamePathOS })
-    try {
-      const result = await new Promise((resolve, reject) => {
-        listArchive(gamePathOS)
-          .progress(async (files: { name: string }[]) => {
-            if (files.length > 0) {
-              await emitEvent({
-                type: 'zip',
-                data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n')
-              })
-              // emitter.emit('runGameEvent', { type: 'status', data: 'zip-success' }) // don't add success status if all we've done is list
-              const pickedRom = await handleDiskImages(files, gamePathOS, outputDirectory, fullArchive)
-              if (pickedRom) {
-                const outputFile = path.join(outputDirectory, pickedRom)
-                await emitEvent({
-                  type: 'QPBackend',
-                  data: 'running runnable iso file' + outputFile
-                })
-                await runGame(outputFile, gameDetails)
-                return files
-              } else {
-                const pickedRom = await handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchive)
-                const outputFile = path.join(outputDirectory, pickedRom)
-                await runGame(outputFile, gameDetails)
-                return files
-              }
-            }
-            //else reject the promise
+  try {
+    const result = await new Promise((resolve, reject) => {
+      listArchive(gamePathOS)
+        .progress(async (files: { name: string }[]) => {
+          if (files.length === 0) {
             reject('no files found in archive')
+            return
+          }
+
+          // Log the archive contents
+          await emitEvent({
+            type: 'zip',
+            data: 'listed archive:\n' + files.map(file => `\t${file.name}`).join('\n')
           })
-          .then(archivePathsSpec => {
-            if (archivePathsSpec) {
-              logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec)
-              resolve(archivePathsSpec) //TODO: now we can populate the output
+
+          // Case 1: User specified a file to run - check if it exists
+          if (gameDetails.fileInZipToRun) {
+            const fileExists = files.some(file => file.name === gameDetails.fileInZipToRun)
+            if (fileExists) {
+              logger.log(`fileOperations`, `Found specified file in archive: ${gameDetails.fileInZipToRun}`)
+              await emitEvent({ type: 'zip', data: `Found specified file: ${gameDetails.fileInZipToRun}` })
+              await extractSingleRom(gamePathOS, outputDirectory, gameDetails.fileInZipToRun, onlyArchive, logger)
+              const outputFile = path.join(outputDirectory, gameDetails.fileInZipToRun)
+              await runGame(outputFile, gameDetails)
+            } else {
+              logger.log(`fileOperations`, `Warning: Specified file ${gameDetails.fileInZipToRun} not found in archive`)
+              await emitEvent({ type: 'zip', data: `Warning: Specified file not found: ${gameDetails.fileInZipToRun}` })
+              // Continue with normal processing since the specified file wasn't found
             }
-          })
-          .catch(err => {
-            console.error('error listing archive: ', err)
-            emitter.emit('runGameEvent', { type: 'status', data: 'zip-error ' + err }) // Add error status
-            reject(err)
-          })
-      })
-      return result // Only continue if listArchive succeeds
-      //TODO: valid? async Log error and return early, stopping the flow
-    } catch (error) {
-      logger.log('fileOperationss', 'Failed to process archive:', error)
-      return null
-    }
+          }
+
+          // Case 2: Only one file in the archive - extract and run it directly
+          else if (files.length === 1) {
+            const singleFileName = files[0].name
+            logger.log(`fileOperations`, `Archive contains only one file: ${singleFileName}, extracting directly`)
+            await emitEvent({ type: 'zip', data: `Single file archive, using: ${singleFileName}` })
+            await extractSingleRom(gamePathOS, outputDirectory, singleFileName, onlyArchive, logger)
+            const outputFile = path.join(outputDirectory, singleFileName)
+            await runGame(outputFile, gameDetails)
+          }
+
+          // Case 3: Multiple files - use existing logic for disk images or goodmerge
+          else {
+            // Check if this is a disk image collection
+            const pickedRom = await handleDiskImages(files, gamePathOS, outputDirectory, fullArchive)
+            if (pickedRom) {
+              const outputFile = path.join(outputDirectory, pickedRom)
+              await emitEvent({
+                type: 'QPBackend',
+                data: 'running runnable iso file' + outputFile
+              })
+              await runGame(outputFile, gameDetails)
+            }
+            // Handle based on collection type
+            else {
+              const pickedRom = await handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchive, gameDetails)
+              const outputFile = path.join(outputDirectory, pickedRom)
+              await runGame(outputFile, gameDetails)
+            }
+          }
+
+          resolve(files)
+        })
+        .then(archivePathsSpec => {
+          if (archivePathsSpec) {
+            logger.log(`fileOperations`, `listed this archive: `, archivePathsSpec)
+            resolve(archivePathsSpec)
+          }
+        })
+        .catch(err => {
+          console.error('error listing archive: ', err)
+          emitter.emit('runGameEvent', { type: 'status', data: 'zip-error ' + err })
+          reject(err)
+        })
+    })
+    return result
+  } catch (error) {
+    logger.log('fileOperations', 'Failed to process archive:', error)
+    return null
   }
 }
 
