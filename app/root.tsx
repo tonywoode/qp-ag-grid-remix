@@ -14,15 +14,19 @@ import reactSplitStyles from '~/styles/react-split.css'
 import styles from '~/styles/styles.css'
 import reactMenuStyles from '@szhsin/react-menu/dist/index.css'
 import reactMenuTransitionStyles from '@szhsin/react-menu/dist/transitions/slide.css'
-import { createFrontendLogger } from '~/utils/featureLogger'
 
 import { scanFolder } from '~/makeSidebarData.server'
 import { Node } from '~/components/Node'
-import { dataDirectory, dataDirectoryExists, datsDirectory, getTempDirectory, logger } from '~/dataLocations.server'
+import { dataDirectory, dataDirectoryExists, datsDirectory, getTempDirectory } from '~/dataLocations.server'
 import { cleanupTempDirectories } from '~/utils/tempManager.server'
 import { CleanupButton } from '~/components/CleanupButton'
 
+//configure and export logging per-domain feature
+//todo: user-enablable - split out to json/global flag?)
+import { createFeatureLogger } from '~/utils/featureLogger'
+import loggerConfig from '../loggerConfig.json'
 import { decodeString } from '~/utils/safeUrl' //for pretty printing
+export const logger = createFeatureLogger(loggerConfig)
 
 export const meta: MetaFunction = () => [{ title: 'QuickPlay Frontend' }]
 
@@ -62,7 +66,6 @@ export async function loader() {
   const isLinux = currentPlatform === 'linux'
 
   return json({
-    loggerConfig: logger.config,
     folderData,
     userDataPath: electron.app.getPath('userData'),
     tempDirectory,
@@ -94,74 +97,43 @@ export async function action({ request }: { request: Request }) {
   return json({ success: false, error: 'Unknown intent' })
 }
 
-// use as the standard delay across the app
-const HOVER_DELAY_MS = 400
-
 const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange }) => {
   const [isFullScreen, setIsFullScreen] = useState(false)
-  const isFirstDevToolsClick = useRef(true)
-  // Add ref for the menu hover timeout
-  const menuHoverTimeout = useRef(null)
 
-  // Listen for fullscreen changes using the standard browser API
   useEffect(() => {
-    // Check initial fullscreen state
-    setIsFullScreen(!!document.fullscreenElement)
-    console.log('Initial fullscreen state:', !!document.fullscreenElement)
-    // Handler for fullscreen change events
-    const handleFullscreenChange = () => {
-      setIsFullScreen(!!document.fullscreenElement)
-      console.log('Fullscreen change detected:', !!document.fullscreenElement)
-    }
-
-    // Handler for custom events from Electron
-    const handleElectronFullscreenChange = event => {
-      console.log('Electron fullscreen change:', event.detail)
-      setIsFullScreen(event.detail)
-    }
-
-    // Listen for both standard and vendor-prefixed fullscreen events
-    document.addEventListener('fullscreenchange', handleFullscreenChange)
-    document.addEventListener('webkitfullscreenchange', handleFullscreenChange)
-    window.addEventListener('electron-fullscreen-change', handleElectronFullscreenChange)
-
-    return () => {
-      document.removeEventListener('fullscreenchange', handleFullscreenChange)
-      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange)
-      window.removeEventListener('electron-fullscreen-change', handleElectronFullscreenChange)
-    }
-  }, [])
-
-  // Add a separate effect to log when isFullScreen actually changes
-  useEffect(() => {
-    console.log('fullscreen is now:', isFullScreen)
-  }, [isFullScreen])
-
-  // Add a cleanup effect for the timeout
-  useEffect(() => {
-    return () => {
-      if (menuHoverTimeout.current) {
-        clearTimeout(menuHoverTimeout.current)
+    if (typeof window !== 'undefined') {
+      // Listen for fullscreen changes
+      const handleFullscreenChange = () => {
+        setIsFullScreen(!!document.fullscreenElement)
       }
+
+      document.addEventListener('fullscreenchange', handleFullscreenChange)
+
+      // Check initial fullscreen state by fetching from our API
+      async function checkFullscreenState() {
+        try {
+          const response = await fetch('/api/electron')
+
+          // Check if response is actually JSON before parsing
+          const contentType = response.headers.get('content-type')
+          if (!contentType || !contentType.includes('application/json')) {
+            console.warn('Expected JSON response but got:', contentType)
+            return
+          }
+
+          const data = await response.json()
+          setIsFullScreen(data.isFullScreen)
+        } catch (e) {
+          console.error('Failed to get fullscreen state:', e)
+          // Don't update state if there's an error
+        }
+      }
+
+      checkFullscreenState()
+
+      return () => document.removeEventListener('fullscreenchange', handleFullscreenChange)
     }
   }, [])
-
-  // Create handler functions for mouse enter/leave
-  const handleMouseEnter = () => {
-    if (menuHoverTimeout.current) {
-      clearTimeout(menuHoverTimeout.current)
-    }
-    menuHoverTimeout.current = setTimeout(() => {
-      onExpandChange(true)
-    }, HOVER_DELAY_MS)
-  }
-
-  const handleMouseLeave = () => {
-    if (menuHoverTimeout.current) {
-      clearTimeout(menuHoverTimeout.current)
-    }
-    onExpandChange(false)
-  }
 
   // Window control functions
   const minimizeWindow = () => {
@@ -184,8 +156,6 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
   }
 
   const toggleFullScreen = () => {
-    // Just send the toggle request to Electron, let the event listeners
-    // handle updating our state
     const formData = new FormData()
     formData.append('intent', 'toggle-fullscreen')
     fetch('/api/electron', { method: 'POST', body: formData })
@@ -194,20 +164,7 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
   const toggleDevTools = () => {
     const formData = new FormData()
     formData.append('intent', 'toggle-devtools')
-
-    // If this is the first click since loading the app
-    if (isFirstDevToolsClick.current) {
-      // Send two requests with a tiny delay between them
-      // The first "wakes up" the DevTools system, the second actually toggles it
-      fetch('/api/electron', { method: 'POST', body: formData })
-      setTimeout(() => {
-        fetch('/api/electron', { method: 'POST', body: formData })
-        isFirstDevToolsClick.current = false
-      }, 50)
-    } else {
-      // For all subsequent clicks, just send one request
-      fetch('/api/electron', { method: 'POST', body: formData })
-    }
+    fetch('/api/electron', { method: 'POST', body: formData })
   }
 
   const zoomIn = () => {
@@ -228,24 +185,13 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
     fetch('/api/electron', { method: 'POST', body: formData })
   }
 
-  const reload = event => {
-    const formData = new FormData()
-    // Check if shift is pressed for force reload
-    if (event.shiftKey) {
-      formData.append('intent', 'force-reload')
-    } else {
-      formData.append('intent', 'reload')
-    }
-    fetch('/api/electron', { method: 'POST', body: formData })
-  }
-
   return (
     <div
       className={`fixed top-0 left-0 w-full bg-white border-b border-gray-300 shadow-sm z-50 transition-all duration-300 ${
-        isFullScreen ? 'h-6 hover:h-10 overflow-hidden' : isMenuExpanded ? 'h-10' : 'h-6'
+        isFullScreen ? 'h-0 hover:h-10 overflow-hidden' : isMenuExpanded ? 'h-10' : 'h-6'
       }`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      onMouseEnter={() => onExpandChange(true)}
+      onMouseLeave={() => onExpandChange(false)}
       style={{ WebkitAppRegion: isWindows ? 'drag' : 'no-drag' }}
     >
       {/* Collapsed view - make it fade out smoothly */}
@@ -307,7 +253,7 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={toggleFullScreen}
-            title={isMacOS ? 'Toggle Fullscreen (⌃⌘F)' : 'Toggle Fullscreen (F11)'}
+            title="Toggle Fullscreen (F11)"
           >
             {isFullScreen ? (
               <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -334,13 +280,7 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={toggleDevTools}
-            title={
-              isMacOS
-                ? 'Developer Tools (⌥⌘I)'
-                : isLinux
-                  ? 'Developer Tools (F12 or Ctrl+Shift+I)'
-                  : 'Developer Tools (F12)'
-            }
+            title="Developer Tools (F12)"
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -354,27 +294,10 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
           </button>
 
           {/* Add zoom controls */}
-
-          <button
-            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
-            onClick={zoomOut}
-            title={isMacOS ? 'Zoom Out (⌘-)' : 'Zoom Out (Ctrl+-)'}
-          >
-            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 13h4m-4 0H6"
-              />
-            </svg>
-            Zoom Out
-          </button>
-
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={zoomIn}
-            title={isMacOS ? 'Zoom In (⌘+)' : 'Zoom In (Ctrl+)'}
+            title="Zoom In (Ctrl+=)"
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -389,8 +312,24 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
 
           <button
             className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
+            onClick={zoomOut}
+            title="Zoom Out (Ctrl+-)"
+          >
+            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 13h4m-4 0H6"
+              />
+            </svg>
+            Zoom Out
+          </button>
+
+          <button
+            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
             onClick={zoomReset}
-            title={isMacOS ? 'Reset Zoom (⌘0)' : 'Reset Zoom (Ctrl+0)'}
+            title="Reset Zoom (Ctrl+0)"
           >
             <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -407,26 +346,6 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
               />
             </svg>
             Reset Zoom
-          </button>
-
-          <button
-            className="px-2 py-1 text-sm rounded hover:bg-gray-200 flex items-center"
-            onClick={reload}
-            title={
-              isMacOS
-                ? 'Reload (⌘R) - Hold Shift for Force Reload (⇧⌘R)'
-                : 'Reload (Ctrl+R) - Hold Shift for Force Reload (Ctrl+Shift+R)'
-            }
-          >
-            <svg className="w-3.5 h-3.5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-              />
-            </svg>
-            Reload
           </button>
         </div>
 
@@ -470,6 +389,35 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
               />
             </svg>
           </button>
+
+          {/* Add Windows window controls */}
+          {isWindows && (
+            <div className="flex items-center ml-4" style={{ WebkitAppRegion: 'no-drag' }}>
+              <button
+                onClick={minimizeWindow}
+                className="w-10 h-8 flex items-center justify-center hover:bg-gray-200 focus:outline-none"
+                title="Minimize"
+              >
+                <div className="w-3 h-0.5 bg-gray-600"></div>
+              </button>
+              <button
+                onClick={maximizeWindow}
+                className="w-10 h-8 flex items-center justify-center hover:bg-gray-200 focus:outline-none"
+                title="Maximize"
+              >
+                <div className="w-3 h-3 border border-gray-600"></div>
+              </button>
+              <button
+                onClick={closeWindow}
+                className="w-10 h-8 flex items-center justify-center hover:bg-red-500 hover:text-white focus:outline-none"
+                title="Close"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+          )}
 
           {/* Add Windows window controls - only when in fullscreen */}
           {isWindows && isFullScreen && (
@@ -533,15 +481,13 @@ export function TreeView({ folderData }) {
   }, [folderData])
 
   useEffect(() => {
-    // Tree component needs explicit pixel dimensions to render correctly,
-    // ResizeObserver ensures it updates when container size changes
     const observer = new ResizeObserver(([entry]) => setDimensions(entry.contentRect))
     containerRef.current && observer.observe(containerRef.current)
     return () => observer.disconnect()
   }, [])
 
   return (
-    <div ref={containerRef} className="py-1.5 pl-3 h-full overflow-hidden" style={{ width: '100%' }}>
+    <div ref={containerRef} className="py-1.5 px-3" style={{ width: '100%', height: '100%' }}>
       <Tree
         key={treeKey}
         initialData={folderData}
@@ -549,7 +495,6 @@ export function TreeView({ folderData }) {
         width={dimensions.width}
         height={dimensions.height}
         rowHeight={42}
-        indent={16} // Control indentation explicitly
       >
         {Node}
       </Tree>
@@ -557,11 +502,9 @@ export function TreeView({ folderData }) {
   )
 }
 
-// In your App component, update the footer with proper hover delay handling
 export default function App() {
-  const data = useLoaderData<typeof loader>()
-  const logger = createFrontendLogger(data.loggerConfig)
   logger.log('remixRoutes', 'in the root component')
+  const data = useLoaderData<typeof loader>()
   const folderData = data.folderData
   const matches = useMatches()
   let match = matches.find(match => match?.data && 'romdata' in match.data)
@@ -569,8 +512,6 @@ export default function App() {
   const fetcher = useFetcher()
   const [showFooterDetails, setShowFooterDetails] = useState(false)
   const [isMenuExpanded, setIsMenuExpanded] = useState(false)
-  // Add footer hover timeout ref
-  const footerHoverTimeout = useRef(null)
 
   const isWindows = data.isWindows
   const isMacOS = data.isMacOS
@@ -601,28 +542,6 @@ export default function App() {
         })
       )
     }
-  }
-
-  // Add useEffect for cleanup
-  useEffect(() => {
-    return () => {
-      if (footerHoverTimeout.current) {
-        clearTimeout(footerHoverTimeout.current)
-      }
-    }
-  }, [])
-
-  // Add handler functions for footer mouse events
-  const handleFooterMouseEnter = () => {
-    if (footerHoverTimeout.current) clearTimeout(footerHoverTimeout.current)
-    footerHoverTimeout.current = setTimeout(() => {
-      setShowFooterDetails(true)
-    }, HOVER_DELAY_MS)
-  }
-
-  const handleFooterMouseLeave = () => {
-    if (footerHoverTimeout.current) clearTimeout(footerHoverTimeout.current)
-    setShowFooterDetails(false)
   }
 
   return (
@@ -672,8 +591,8 @@ export default function App() {
               <div
                 className="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 shadow-md transition-all duration-300 z-50"
                 style={{ height: showFooterDetails ? '100px' : '30px' }}
-                onMouseEnter={handleFooterMouseEnter}
-                onMouseLeave={handleFooterMouseLeave}
+                onMouseEnter={() => setShowFooterDetails(true)}
+                onMouseLeave={() => setShowFooterDetails(false)}
               >
                 {/* Always visible minimal info */}
                 <div className="px-4 py-1 flex items-center justify-between">

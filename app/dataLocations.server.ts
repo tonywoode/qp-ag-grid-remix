@@ -149,6 +149,12 @@ const getLoggerConfig = () => {
   }
 }
 
+// Show the effective logger configuration that will be used by the app
+const activeLoggerConfig = getLoggerConfig().filter(item => item.enabled)
+console.log('Active logging features:', activeLoggerConfig.length === 0 
+  ? 'None (all logging disabled)' 
+  : activeLoggerConfig.map(item => item.feature).join(', ')
+)
 // Create and export the logger instance
 const serverLogger = createFeatureLogger(getLoggerConfig())
 

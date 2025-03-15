@@ -1,4 +1,5 @@
 import * as fs from 'fs'
+import { logger } from '~/dataLocations.server'
 
 // Function to parse a single romdata line
 function removeEmptyFields(obj) {
@@ -70,7 +71,7 @@ export function convertRomDataToJSON(filename, gamesDirPathPrefix) {
 
   // Check if there's actual ROM data beyond the version line, I had this!
   if (lines.length <= 1) {
-    console.log(`No ROM data found in ${filename}, its an empty romdata, not converting`)
+    logger.log('romdataConvert', `No romdata found in ${filename}, its an empty romdata, not converting`)
     return null
   }
 

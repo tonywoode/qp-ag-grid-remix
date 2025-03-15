@@ -4,6 +4,7 @@ import * as ini from 'ini'
 import { convertRomDataToJSON, saveToJSONFile } from './romdataToJSON'
 import { type BackupChoice, handleExistingData, handleExistingFiles } from './safeDirectoryOps.server'
 import { convertSystems, convertEmulators, convertMediaPanel } from './datConverters.server'
+import { logger } from '~/dataLocations.server'
 
 export type ConversionOptions = {
   convertRomdata?: boolean
@@ -38,36 +39,63 @@ const gamesDirPathPrefix = 'F:'
 function processRomdataDirectory(source: string, destination: string): number {
   const items = fs.readdirSync(source)
   let convertedFiles = 0
+  
+  // Only log directory processing at the higher levels to avoid excessive logging
+  const isTopLevel = !source.includes(path.sep + 'data' + path.sep);
+  if (isTopLevel) {
+    logger.log('romdataConvert', `Processing directory: ${source}`);
+  }
 
   for (const item of items) {
     const sourcePath = path.join(source, item)
     const destPath = path.join(destination, item)
 
     if (fs.lstatSync(sourcePath).isDirectory()) {
-      fs.mkdirSync(destPath, { recursive: true })
-      convertedFiles += processRomdataDirectory(sourcePath, destPath)
-    } else if (item === 'folders.ini') {
-      const iniData = ini.parse(fs.readFileSync(sourcePath, 'utf-8'))
-      const folderInfo = {
-        versionInfo: {
-          'Folder Info JSON Version': '1.0'
-        },
-        folderInfo: {
-          iconLink: iniData['Icon']['CmbIcon']
+      try {
+        fs.mkdirSync(destPath, { recursive: true })
+        const filesConverted = processRomdataDirectory(sourcePath, destPath)
+        convertedFiles += filesConverted
+        
+        // Log summary for significant directories
+        if (filesConverted > 0 && isTopLevel) {
+          logger.log('romdataConvert', `Converted ${filesConverted} files in ${sourcePath}`);
         }
+      } catch (err) {
+        logger.log('romdataConvert', `Failed to process directory ${sourcePath}: ${err.message}`);
       }
-      const folderInfoPath = path.join(destination, 'folderInfo.json')
-      saveToJSONFile(folderInfo, folderInfoPath)
-      convertedFiles++
-    } else if (item.toLowerCase() === 'romdata.dat') {
-      const romdataJson = convertRomDataToJSON(sourcePath, gamesDirPathPrefix)
-      if (romdataJson !== null) {
-        console.log(`Converting: ${sourcePath} to ${destPath.replace('.dat', '.json')}`)
-        // Use case-insensitive regex to replace .dat or .DAT with .json
-        saveToJSONFile(romdataJson, destPath.replace(/\.dat$/i, '.json').toLowerCase())
+    } else if (item === 'folders.ini') {
+      try {
+        const iniData = ini.parse(fs.readFileSync(sourcePath, 'utf-8'))
+        const folderInfo = {
+          versionInfo: {
+            'Folder Info JSON Version': '1.0'
+          },
+          folderInfo: {
+            iconLink: iniData['Icon']['CmbIcon']
+          }
+        }
+        const folderInfoPath = path.join(destination, 'folderInfo.json')
+        saveToJSONFile(folderInfo, folderInfoPath)
         convertedFiles++
-      } else {
-        console.log(`No ROM data found in ${sourcePath}. Skipping file creation.`)
+      } catch (err) {
+        logger.log('romdataConvert', `Failed to convert folders.ini at ${sourcePath}: ${err.message}`);
+      }
+    } else if (item.toLowerCase() === 'romdata.dat') {
+      try {
+        const romdataJson = convertRomDataToJSON(sourcePath, gamesDirPathPrefix)
+        if (romdataJson !== null) {
+          // Only log if it's a significant romdata file (containing many entries) or has issues
+          if (romdataJson.romdata && romdataJson.romdata.length > 100) {
+            logger.log('romdataConvert', `Converting large romdata: ${sourcePath} (${romdataJson.romdata.length} entries)`);
+          }
+          // Use case-insensitive regex to replace .dat or .DAT with .json
+          saveToJSONFile(romdataJson, destPath.replace(/\.dat$/i, '.json').toLowerCase())
+          convertedFiles++
+        } else {
+          logger.log('romdataConvert', `Empty romdata at ${sourcePath}. No file created.`);
+        }
+      } catch (err) {
+        logger.log('romdataConvert', `Failed to convert romdata at ${sourcePath}: ${err.message}`);
       }
     }
   }
@@ -83,8 +111,12 @@ export async function convertQuickPlayData(
   backupChoice?: BackupChoice,
   outputDir: string = '.' // Default to current directory (its for cli tool only)
 ): Promise<ConversionResult> {
+  logger.log('romdataConvert', `Starting QuickPlay data conversion from ${sourcePath}`);
+  logger.log('romdataConvert', `Options: ${JSON.stringify(options)}`);
+  
   try {
     const { dataFolderPath, datsFolderPath } = await validateQuickPlayDirectory(sourcePath)
+    logger.log('romdataConvert', `Validated QuickPlay directory structure at ${sourcePath}`);
 
     // Setup input paths
     const inputDataDirFull = dataFolderPath
@@ -101,13 +133,17 @@ export async function convertQuickPlayData(
     const outputDatsMediaPanelSettings = path.join(outputDatsDir, 'mediaPanelSettings.json')
 
     // Create directories if they don't exist
-    if (options.convertRomdata) fs.mkdirSync(outputDataDir, { recursive: true })
+    if (options.convertRomdata) {
+      fs.mkdirSync(outputDataDir, { recursive: true })
+      logger.log('romdataConvert', `Created output data directory: ${outputDataDir}`);
+    }
+    
     if (options.convertSystems || options.convertEmulators || options.convertMediaPanel) {
       fs.mkdirSync(outputDatsDir, { recursive: true })
+      logger.log('romdataConvert', `Created output dats directory: ${outputDatsDir}`);
     }
 
     // Handle existing dat files if backup choice is provided
-    // (consider with data its a tree and we backup the whole folder, named, with dats its individual files we backup TO the existing dats folder)
     if (backupChoice) {
       const filesToHandle = []
       if (options.convertSystems && fs.existsSync(outputDatsSystems)) filesToHandle.push(outputDatsSystems)
@@ -116,17 +152,28 @@ export async function convertQuickPlayData(
         if (fs.existsSync(outputDatsMediaPanelConfig)) filesToHandle.push(outputDatsMediaPanelConfig)
         if (fs.existsSync(outputDatsMediaPanelSettings)) filesToHandle.push(outputDatsMediaPanelSettings)
       }
+      
+      if (filesToHandle.length > 0) {
+        logger.log('romdataConvert', `Handling ${filesToHandle.length} existing dat files with choice: ${backupChoice}`);
+      }
+      
       if (options.convertRomdata && fs.existsSync(outputDataDir)) {
+        logger.log('romdataConvert', `Handling existing data directory with choice: ${backupChoice}`);
         const dataResult = await handleExistingData(outputDataDir, backupChoice)
         if (!dataResult.success) {
+          logger.log('romdataConvert', `Data directory backup operation cancelled or failed`);
           return { success: false, error: { component: 'backup', message: 'Backup cancelled' } }
         }
+        logger.log('romdataConvert', `Successfully handled existing data directory`);
       }
+      
       if (filesToHandle.length > 0) {
         const filesResult = await handleExistingFiles(filesToHandle, backupChoice)
         if (!filesResult.success) {
+          logger.log('romdataConvert', `Dat files backup operation cancelled or failed`);
           return { success: false, error: { component: 'backup', message: 'Backup cancelled' } }
         }
+        logger.log('romdataConvert', `Successfully handled existing dat files`);
       }
     }
 
@@ -134,26 +181,38 @@ export async function convertQuickPlayData(
     const result: ConversionResult = { success: true }
 
     if (options.convertRomdata) {
+      logger.log('romdataConvert', `Starting romdata conversion from ${inputDataDirFull} to ${outputDataDir}`);
+      const startTime = Date.now();
       result.romdataFiles = processRomdataDirectory(inputDataDirFull, outputDataDir)
+      const duration = (Date.now() - startTime) / 1000;
+      logger.log('romdataConvert', `Romdata conversion complete: ${result.romdataFiles} files converted in ${duration.toFixed(2)}s`);
     }
 
     if (options.convertSystems) {
+      logger.log('romdataConvert', `Converting systems.dat to JSON`);
       await convertSystems(inputDatsSystems, outputDatsSystems)
       result.systemsConverted = true
+      logger.log('romdataConvert', `Systems conversion complete`);
     }
 
     if (options.convertEmulators) {
+      logger.log('romdataConvert', `Converting emulators.ini to JSON`);
       await convertEmulators(inputDatsEmulators, outputDatsEmulators)
       result.emulatorsConverted = true
+      logger.log('romdataConvert', `Emulators conversion complete`);
     }
 
     if (options.convertMediaPanel) {
+      logger.log('romdataConvert', `Converting media panel configuration to JSON`);
       await convertMediaPanel(inputDatsMediaPanelConfig, outputDatsMediaPanelConfig)
       result.mediaPanelConverted = true
+      logger.log('romdataConvert', `Media panel conversion complete`);
     }
 
+    logger.log('romdataConvert', `QuickPlay data conversion completed successfully`);
     return result
   } catch (error) {
+    logger.log('romdataConvert', `Conversion error: ${error.message}`);
     return {
       success: false,
       error: {
