@@ -399,6 +399,82 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
     return
   }
 
+  const matchedEmulator = matchEmulatorName(gameDetails.emulatorName)
+  logger.log(`fileOperations`, 'Matched Emulator:', matchedEmulator)
+  if (!matchedEmulator) {
+    logger.log(`fileOperations`, 'Emulator not found')
+    return
+  }
+
+  // Generate both command lines for cross-platform development
+  const darwinCmd = generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails)
+  const windowsCmd = generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails)
+
+  // Log both command lines for development purposes
+  logger.log(`fileOperations`, '️🖥️ Windows command line would be:', windowsCmd.fullCommandLine)
+  logger.log(`fileOperations`, ' 🍎 macOS command line would be:', darwinCmd.fullCommandLine)
+
+  // Use the appropriate command for the current platform
+  const { emuPath, emuParams, fullCommandLine } = process.platform === 'darwin' ? darwinCmd : windowsCmd
+
+  logger.log(`fileOperations`, ` ✅ Using command line for ${process.platform}:`, fullCommandLine)
+
+  currentProcess = spawn(emuPath, emuParams, {
+    cwd: path.dirname(emuPath) // Set working directory to emulator's directory
+  })
+  currentGameDetails = { name: outputFile, emulatorName: gameDetails.emulatorName }
+
+  // Emit status when game starts - TODO: on success only
+  await emitEvent({ type: 'status', data: 'running' })
+
+  //Changing these SSE emits to the async fn seems a bad idea, we start racing again....
+  //TODO: with retroarch, this ever gets run
+  currentProcess.stdout.on('data', data => {
+    logger.log(`fileOperations`, `Output: ${data}`)
+    emitter.emit('runGameEvent', { type: 'EmuLog', data: data.toString() })
+  })
+
+  currentProcess.stderr.on('data', data => {
+    logger.log(`fileOperations`, `Error: ${data}`)
+    emitter.emit('runGameEvent', { type: 'EmuErrLog', data: data.toString() })
+  })
+
+  currentProcess.on('close', code => {
+    logger.log(`fileOperations`, `Process exited with code ${code}`)
+    //TODO: this won't get printed, but we can't make the fn async - try it we enter a whole new world of stdout race conditions
+    emitter.emit('someOtherEvent', { type: 'close', data: `Process exited with code ${code}` })
+    // Emit status when game ends
+    emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
+    currentProcess = null
+    currentGameDetails = null
+  })
+}
+
+// Function to generate macOS RetroArch command line
+function generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails) {
+  const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
+  logger.log(`fileOperations`, 'Retroarch Command Line On Mac:', retroarchCommandLine)
+  const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
+  //get the retroarch core dir
+  const homeDir = os.homedir()
+  const retroarchDir = path.join(homeDir, 'Library', 'Application Support', 'RetroArch')
+  const libretroCore = path.join(retroarchDir, retroarchCommandLine)
+  const flagsToEmu = '-v -f'
+  const emuParams = [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')]
+  const emuPath = retroarchExe
+
+  // Create the full command line for logging/debugging
+  const fullCommandLine = `${emuPath} ${
+    emuParams
+      ? emuParams.map(param => (param.includes(' ') && !param.startsWith('"') ? `"${param}"` : param)).join(' ')
+      : ''
+  }`
+
+  return { emuPath, emuParams, fullCommandLine }
+}
+
+// Function to generate Windows command line with various parameter substitutions
+function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
   const splitMultiloaderCMD = (command: string) => {
     const args = []
     const regex = /"([^"]*)"|(\S+)/g // Matches quoted strings or non-space sequences
@@ -410,150 +486,74 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
     return args
   }
 
-  const matchedEmulator = matchEmulatorName(gameDetails.emulatorName)
-  logger.log(`fileOperations`, 'Matched Emulator:', matchedEmulator)
-  if (matchedEmulator) {
-    let emuParams: string[] | null = null
-    let emuPath: string
+  const find = (str, start, end) => str.match(new RegExp(`${start}(.*?)${end}`))[1]
+  const namedOutputType = find(matchedEmulator.parameters, '%', '%')
+  let emuParamsStr = matchedEmulator.parameters
 
-    if (process.platform === 'darwin') {
-      //only tested on mac, mac is only capable of retroarch loading, and from default install locations
-      const retroarchCommandLine = extractRetroarchCommandLine(matchedEmulator)
-      logger.log(`fileOperations`, 'Retroarch Command Line On Mac:', retroarchCommandLine)
-      const retroarchExe = '/Applications/Retroarch.app/Contents/MacOS/RetroArch'
-      //get the retroarch core dir
-      const homeDir = os.homedir()
-      const retroarchDir = path.join(homeDir, 'Library', 'Application Support', 'RetroArch')
-      const libretroCore = path.join(retroarchDir, retroarchCommandLine)
-      // const libretroCore = `/Users/twoode/Library/Application Support/RetroArch/${retroarchCommandLine}`
-      const flagsToEmu = '-v -f'
-      emuParams = [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')]
-      emuPath = retroarchExe
-      // currentProcess = spawn(retroarchExe, [outputFile, '-L', libretroCore, ...flagsToEmu.split(' ')])
-    } else {
-      //platform is windows
-      //takes matchedEmultor.parameters, finds the word inside the two %% and returns the word
-      const find = (str, start, end) => str.match(new RegExp(`${start}(.*?)${end}`))[1]
-      const namedOutputType = find(matchedEmulator.parameters, '%', '%')
-      let emuParamsStr = matchedEmulator.parameters
-      //if we have 'parameters' in the romdata line, incorporate it as specifed
-      if (gameDetails.parameters) {
-        /*
-        //TROMParametersModeStr
-        0 = QP_ROM_PARAM_AFTER = 'After Emulators';
-        1 = QP_ROM_PARAM_OVERWRITE = 'Overwrite Emulators';
-        2 = QP_ROM_PARAM_BEFORE = 'Before Emulators';
-        3 = QP_ROM_PARAM_AFTER_NOSPACE = 'After Emulators with no space';
-        4 = QP_ROM_PARAM_BEFORE_NOSPACE = 'Before Emulators with no space';
-        */
-        const paramModeInt = gameDetails.paramMode ? parseInt(gameDetails.paramMode) : NaN
-        if (paramModeInt == 0) emuParamsStr = `${emuParamsStr} ${gameDetails.parameters}`
-        if (paramModeInt == 1) emuParamsStr = gameDetails.parameters
-        if (paramModeInt == 2) emuParamsStr = `${gameDetails.parameters} ${emuParamsStr}`
-        if (paramModeInt == 3) emuParamsStr = `${emuParamsStr}${gameDetails.parameters}`
-        if (paramModeInt == 4) emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
-      }
-      //split the string to process
-      emuParams = emuParamsStr.split(' ')
-      // Find the parameter containing our placeholder
-      const placeholderParam = emuParams.find(param => param.includes(`%${namedOutputType}%`))
-      console.log(emuParams)
-
-      // Check for %tool:MULTILOADER% before other namedOutputType checks
-      // we want to munge these back into standard emu calls, we ARE a multilloader!
-      if (matchedEmulator.parameters.includes('%Tool:MULTILOADER%')) {
-        let emulatorFlags: string[] = []
-        const multiloaderRealFlagIndex = 3 // Always use the fourth parameter in MULTILOADER case
-        const multiloaderParams = splitMultiloaderCMD(matchedEmulator.parameters)
-        console.log('multiloader params', multiloaderParams)
-        emulatorFlags = multiloaderParams[multiloaderRealFlagIndex]
-        console.log('emulator flags', emulatorFlags)
-        const emulatorFlagsArray = emulatorFlags.split(' ')
-        emuParams = [outputFile, ...emulatorFlagsArray] // Rom path followed by emulator flags
-        emuPath = matchedEmulator.path
-
-        logger.log(`fileOperations`, 'Running emulator with MULTILOADER tool:', emuPath, emuParams)
-      } else if (placeholderParam) {
-        let paramIndex = emuParams.indexOf(placeholderParam)
-        if (namedOutputType === 'ROM') {
-          emuParams[paramIndex] = placeholderParam.replace(/%ROM%/g, outputFile)
-        } else if (namedOutputType === 'SHORTROM') {
-          //lets forget this old max-filename 8:3 naming thing
-          emuParams[paramIndex] = placeholderParam.replace(/%SHORTROM%/g, outputFile)
-        } else if (namedOutputType === 'ROMFILENAME') {
-          emuParams[paramIndex] = placeholderParam.replace(/%ROMFILENAME%/g, path.basename(outputFile))
-        } else if (namedOutputType === 'ROMFILENAMENOEXT') {
-          emuParams[paramIndex] = placeholderParam.replace(
-            /%ROMFILENAMENOEXT%/g,
-            path.basename(outputFile).replace(/\.[^/.]+$/, '')
-          )
-        } else if (namedOutputType === 'ROMMAME') {
-          //pass in the mamefilenames and run the child or if not available the parent
-          if (gameDetails.mameName) {
-            emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, gameDetails.mameName)
-          } else if (gameDetails.parentName) {
-            emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, gameDetails.parentName)
-          } else {
-            console.warn('No mameName or parentName available')
-            emuParams = null // or handle the case where neither is available
-          }
-        }
-
-        // After replacement, remove the outer quotes from the parameter - TODO: why? investigate emulators.json
-        if (emuParams && emuParams[paramIndex]) {
-          emuParams[paramIndex] = emuParams[paramIndex].replace(/^"(.*)"$/, '$1')
-        }
-      }
-
-      emuPath = matchedEmulator.path
-    }
-    logger.log(`fileOperations`, 'Running emulator:', emuPath, emuParams)
-
-    // Add this just before the spawn call in runGame
-    // Construct and log the full command line for debugging
-    const fullCommandLine = `${emuPath} ${
-      emuParams
-        ? emuParams
-            .map(param => {
-              // Handle spaces in parameters by adding quotes if needed
-              return param.includes(' ') && !param.startsWith('"') ? `"${param}"` : param
-            })
-            .join(' ')
-        : ''
-    }`
-    logger.log(`fileOperations`, 'Full command line:', fullCommandLine)
-
-    currentProcess = spawn(emuPath, emuParams, {
-      cwd: path.dirname(emuPath) // Set working directory to emulator's directory
-    })
-    currentGameDetails = { name: outputFile, emulatorName: gameDetails.emulatorName }
-    // Emit status when game starts - TODO: on success only
-    await emitEvent({ type: 'status', data: 'running' })
-
-    //Changing these SSE emits to the async fn seems a bad idea, we start racing again....
-    //TODO: with retroarch, this ever gets run
-    currentProcess.stdout.on('data', data => {
-      logger.log(`fileOperations`, `Output: ${data}`)
-      emitter.emit('runGameEvent', { type: 'EmuLog', data: data.toString() })
-    })
-
-    currentProcess.stderr.on('data', data => {
-      logger.log(`fileOperations`, `Error: ${data}`)
-      emitter.emit('runGameEvent', { type: 'EmuErrLog', data: data.toString() })
-    })
-
-    currentProcess.on('close', code => {
-      logger.log(`fileOperations`, `Process exited with code ${code}`)
-      //TODO: this won't get printed, but we can't make the fn async - try it we enter a whole new world of stdout race conditions
-      emitter.emit('someOtherEvent', { type: 'close', data: `Process exited with code ${code}` })
-      // Emit status when game ends
-      emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
-      currentProcess = null
-      currentGameDetails = null
-    })
-  } else {
-    logger.log(`fileOperations`, 'Emulator not found')
+  // Handle parameters from romdata
+  if (gameDetails.parameters) {
+    const paramModeInt = gameDetails.paramMode ? parseInt(gameDetails.paramMode) : NaN
+    if (paramModeInt == 0) emuParamsStr = `${emuParamsStr} ${gameDetails.parameters}`
+    if (paramModeInt == 1) emuParamsStr = gameDetails.parameters
+    if (paramModeInt == 2) emuParamsStr = `${gameDetails.parameters} ${emuParamsStr}`
+    if (paramModeInt == 3) emuParamsStr = `${emuParamsStr}${gameDetails.parameters}`
+    if (paramModeInt == 4) emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
   }
+
+  let emuParams = emuParamsStr.split(' ')
+  const placeholderParam = emuParams.find(param => param.includes(`%${namedOutputType}%`))
+  let emuPath = matchedEmulator.path
+
+  // Handle MULTILOADER case
+  if (matchedEmulator.parameters.includes('%Tool:MULTILOADER%')) {
+    const multiloaderRealFlagIndex = 3 // Always use the fourth parameter in MULTILOADER case
+    const multiloaderParams = splitMultiloaderCMD(matchedEmulator.parameters)
+    console.log('multiloader params', multiloaderParams)
+    const emulatorFlags = multiloaderParams[multiloaderRealFlagIndex]
+    console.log('emulator flags', emulatorFlags)
+    const emulatorFlagsArray = emulatorFlags.split(' ')
+    emuParams = [outputFile, ...emulatorFlagsArray] // Rom path followed by emulator flags
+  }
+  // Handle placeholder parameters
+  else if (placeholderParam) {
+    let paramIndex = emuParams.indexOf(placeholderParam)
+
+    if (namedOutputType === 'ROM') {
+      emuParams[paramIndex] = placeholderParam.replace(/%ROM%/g, outputFile)
+    } else if (namedOutputType === 'SHORTROM') {
+      emuParams[paramIndex] = placeholderParam.replace(/%SHORTROM%/g, outputFile)
+    } else if (namedOutputType === 'ROMFILENAME') {
+      emuParams[paramIndex] = placeholderParam.replace(/%ROMFILENAME%/g, path.basename(outputFile))
+    } else if (namedOutputType === 'ROMFILENAMENOEXT') {
+      emuParams[paramIndex] = placeholderParam.replace(
+        /%ROMFILENAMENOEXT%/g,
+        path.basename(outputFile).replace(/\.[^/.]+$/, '')
+      )
+    } else if (namedOutputType === 'ROMMAME') {
+      if (gameDetails.mameName) {
+        emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, gameDetails.mameName)
+      } else if (gameDetails.parentName) {
+        emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, gameDetails.parentName)
+      } else {
+        console.warn('No mameName or parentName available')
+        emuParams = null
+      }
+    }
+
+    // Remove outer quotes
+    if (emuParams && emuParams[paramIndex]) {
+      emuParams[paramIndex] = emuParams[paramIndex].replace(/^"(.*)"$/, '$1')
+    }
+  }
+
+  // Create the full command line for logging/debugging
+  const fullCommandLine = `${emuPath} ${
+    emuParams
+      ? emuParams.map(param => (param.includes(' ') && !param.startsWith('"') ? `"${param}"` : param)).join(' ')
+      : ''
+  }`
+
+  return { emuPath, emuParams, fullCommandLine }
 }
 
 //we load emulators dynamically in case its been altered (for instance in case we had NO emulators when app first loaded, and then they were imported)
