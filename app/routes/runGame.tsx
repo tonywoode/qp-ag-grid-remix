@@ -508,6 +508,21 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
       emuPath = matchedEmulator.path
     }
     logger.log(`fileOperations`, 'Running emulator:', emuPath, emuParams)
+
+    // Add this just before the spawn call in runGame
+    // Construct and log the full command line for debugging
+    const fullCommandLine = `${emuPath} ${
+      emuParams
+        ? emuParams
+            .map(param => {
+              // Handle spaces in parameters by adding quotes if needed
+              return param.includes(' ') && !param.startsWith('"') ? `"${param}"` : param
+            })
+            .join(' ')
+        : ''
+    }`
+    logger.log(`fileOperations`, 'Full command line:', fullCommandLine)
+
     currentProcess = spawn(emuPath, emuParams, {
       cwd: path.dirname(emuPath) // Set working directory to emulator's directory
     })
