@@ -176,13 +176,27 @@ async function handleDiskImages(files, gamePathOS, outputDirectory, fullArchive)
   return null
 }
 
-async function handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchive) {
+async function handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchive, gameDetails: GameDetails) {
   //if its not a disk image, we can just pick the best runnable file to pass to the emu
   const filenames = files.map(file => file.name)
   logger.log(`fileOperations`, `7z listing: `, filenames)
-  const pickedRom = setupChooseGoodMergeRom(filenames, logger)
-  logger.log(`goodMergeChoosing`, `computer picked this rom:`, pickedRom)
-  await emitEvent({ type: 'QPBackend', data: 'Goodmerge choosing chose this one for you: ' + pickedRom })
+
+  let pickedRom
+
+  // Choose extraction method based on collection type
+  if (gameDetails.collectionType === 'goodmerge') {
+    logger.log(`fileOperations`, `Processing GoodMerge collection`)
+    await emitEvent({ type: 'QPBackend', data: 'GoodMerge collection detected, choosing best ROM version' })
+    pickedRom = setupChooseGoodMergeRom(filenames, logger)
+    logger.log(`fileOperations`, `GoodMerge algorithm picked this rom:`, pickedRom)
+    await emitEvent({ type: 'QPBackend', data: 'GoodMerge choosing selected: ' + pickedRom })
+  } else {
+    // For non-GoodMerge collections, for now just pick the first file
+    pickedRom = filenames[0]
+    logger.log(`fileOperations`, `Not a GoodMerge collection, using first file: ${pickedRom}`)
+    await emitEvent({ type: 'QPBackend', data: 'Using first available file: ' + pickedRom + 'choose a file to run to avoid this' })
+  }
+
   await extractSingleRom(gamePathOS, outputDirectory, pickedRom, onlyArchive, logger)
   return pickedRom
 }
@@ -236,8 +250,8 @@ async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArc
   // Wrap old-style promise in async/await
   const result = await new Promise((resolve, reject) => {
     onlyArchive(gamePath, outputDirectory, romInArchive)
-      .then(result => {
-        logger.log(`fileOperations`, `extracting single file with 7z:`, result)
+      .then(result => { //result is always undefined - expected?
+        logger.log(`fileOperations`, `extracting single file with 7z:`, gamePath)
         touchExtractionDir(outputDirectory) // Update timestamp
         resolve(result)
       })
