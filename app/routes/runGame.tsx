@@ -190,15 +190,76 @@ async function handleNonDiskImages(files, gamePathOS, outputDirectory, onlyArchi
     pickedRom = setupChooseGoodMergeRom(filenames, logger)
     logger.log(`fileOperations`, `GoodMerge algorithm picked this rom:`, pickedRom)
     await emitEvent({ type: 'QPBackend', data: 'GoodMerge choosing selected: ' + pickedRom })
+  } else if (filenames.length > 1) {
+    // For non-GoodMerge collections with multiple files, ask the user to choose
+    logger.log(`fileOperations`, `Multiple files in archive, prompting user to select`)
+    await emitEvent({ type: 'QPBackend', data: 'Multiple files found, waiting for file selection...' })
+
+    // Send the file list to the frontend and wait for user selection
+    pickedRom = await promptUserForFileSelection(filenames, gamePathOS)
+
+    if (!pickedRom) {
+      // User cancelled or something went wrong
+      logger.log(`fileOperations`, `File selection cancelled or failed`)
+      await emitEvent({ type: 'QPBackend', data: 'File selection cancelled' })
+      throw new Error('File selection cancelled')
+    }
+
+    logger.log(`fileOperations`, `User selected file: ${pickedRom}`)
+    await emitEvent({ type: 'QPBackend', data: 'Selected file: ' + pickedRom })
   } else {
-    // For non-GoodMerge collections, for now just pick the first file
+    // Only one file, use it directly
     pickedRom = filenames[0]
-    logger.log(`fileOperations`, `Not a GoodMerge collection, using first file: ${pickedRom}`)
-    await emitEvent({ type: 'QPBackend', data: 'Using first available file: ' + pickedRom + 'choose a file to run to avoid this' })
+    logger.log(`fileOperations`, `Only one file in archive, using: ${pickedRom}`)
+    await emitEvent({ type: 'QPBackend', data: 'Using only available file: ' + pickedRom })
   }
 
   await extractSingleRom(gamePathOS, outputDirectory, pickedRom, onlyArchive, logger)
   return pickedRom
+}
+
+// New function to prompt the user to select a file
+async function promptUserForFileSelection(files, archivePath) {
+  // Generate a unique request ID to match the response
+  const requestId = Date.now().toString()
+
+  // Create a promise that will be resolved when the user makes a selection
+  return new Promise((resolve, reject) => {
+    // Set up a one-time event listener for the file selection response
+    const responseHandler = response => {
+      if (response.requestId === requestId) {
+        // Clean up the listener
+        emitter.removeListener('fileSelectionResponse', responseHandler)
+
+        if (response.cancelled) {
+          reject(new Error('File selection cancelled'))
+        } else {
+          resolve(response.selectedFile)
+        }
+      }
+    }
+
+    // Listen for the response
+    emitter.on('fileSelectionResponse', responseHandler)
+
+    // Set a timeout in case the user never responds
+    const timeout = setTimeout(() => {
+      emitter.removeListener('fileSelectionResponse', responseHandler)
+      reject(new Error('File selection timed out'))
+    }, 60000) // 1 minute timeout
+
+    // Send the request to the frontend
+    emitter.emit('runGameEvent', {
+      type: 'fileSelection',
+      data: JSON.stringify({
+        requestId,
+        files,
+        archivePath
+      })
+    })
+
+    logger.log(`fileOperations`, `Sent file selection request to frontend, waiting for response...`)
+  })
 }
 
 function setupChooseGoodMergeRom(filenames: string[], logger) {
