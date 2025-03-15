@@ -54,6 +54,29 @@ export async function loader({ params }: LoaderFunctionArgs) {
   return { romdata: romdataWithIcons, loggerConfig: logger.config }
 }
 
+// Move the GameDetails interface here from runGame.tsx and extend it with all romdata properties
+export interface GameDetails {
+  // Required fields
+  gamePath: string
+  emulatorName: string
+  
+  // Optional fields
+  fileInZipToRun?: string
+  clearProcess?: boolean
+  mameName?: string
+  parentName?: string
+  parameters?: string
+  paramMode?: string
+  system?: string
+  name?: string
+  path?: string
+  defaultGoodMerge?: string
+  collectionType?: string
+  
+  // For any other fields in romdata that might exist
+  [key: string]: any
+}
+
 export default function Grid() {
   const gridSize = 6 // --ag-grid-size in px
   const fontSize = 14 // --ag-font-size in px
@@ -142,21 +165,22 @@ export default function Grid() {
       api.startEditingCell({ rowIndex, colKey: colId })
     },
     (e: CellClickedEvent) => {
-      const { path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system } = e.node.data
-      runGame(path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system)
+      const gameDetails: GameDetails = {
+        gamePath: e.node.data.path,
+        fileInZipToRun: e.node.data.defaultGoodMerge,
+        emulatorName: e.node.data.emulatorName,
+        mameName: e.node.data.mameName,
+        parentName: e.node.data.parentName,
+        parameters: e.node.data.parameters,
+        paramMode: e.node.data.paramMode,
+        system: e.node.data.system,
+        collectionType: e.node.data.collectionType
+      }
+      runGame(gameDetails)
     }
   )
 
-  function runGame(
-    gamePath: string,
-    fileInZipToRun: string,
-    emulatorName: string,
-    mameName?: string,
-    parentName?: string,
-    parameters?: string,
-    paramMode?: string, //well a stringified int
-    system?: string
-  ) {
+  function runGame(gameDetails: GameDetails) {
     function getBaseName(p: string) {
       return p.substring(Math.max(p.lastIndexOf('\\'), p.lastIndexOf('/')) + 1)
     }
@@ -166,18 +190,22 @@ export default function Grid() {
       if (!confirmRun) return
     }
 
+    //TODO: 'path' is qp origianl romdata nameing, yet we change this to 'gamePath' for rungame (which also uses node's path module)
+    // we should change this on import (same for defaultGoodMerge -> fileInZipToRun)
     setGameProgress({
       isRunning: true,
-      name: getBaseName(gamePath),
-      path: gamePath,
+      name: getBaseName(gameDetails.gamePath || gameDetails.path),
+      path: gameDetails.gamePath || gameDetails.path,
       status: 'Starting...',
       logs: [] // Reset logs at the start of each run
     })
 
-    fetcher.submit(
-      { gamePath, fileInZipToRun, emulatorName, mameName, parentName, parameters, paramMode, system },
-      { action: '/runGame', method: 'post', encType: 'application/json' }
-    )
+    // Make sure we have a consistent gamePath field for the backend
+    if (!gameDetails.gamePath && gameDetails.path) {
+      gameDetails.gamePath = gameDetails.path
+    }
+
+    fetcher.submit(gameDetails, { action: '/runGame', method: 'post', encType: 'application/json' })
   }
 
   //TODO: should be encapsulating actual data fields under a key, this is now required both for grid creation and filtering
@@ -353,8 +381,18 @@ export default function Grid() {
       },
       (file: string) => {
         logger.log('gridOperations', 'double clicked on file in zip', file)
-        const { path, emulatorName, mameName, parentName, parameters, paramMode, system } = params.data //runGame but use file instead of defaultGoodMerge
-        runGame(path, file, emulatorName, mameName, parentName, parameters, paramMode, system)
+        const gameDetails: GameDetails = {
+          gamePath: params.data.path,
+          fileInZipToRun: file, // Use selected file instead of defaultGoodMerge
+          emulatorName: params.data.emulatorName,
+          mameName: params.data.mameName,
+          parentName: params.data.parentName,
+          parameters: params.data.parameters,
+          paramMode: params.data.paramMode,
+          system: params.data.system,
+          collectionType: params.data.collectionType
+        }
+        runGame(gameDetails)
       }
     )
 
@@ -583,10 +621,32 @@ export default function Grid() {
         preventMultipleSelect(e.api)
         //a !editing check won't work here, we'd always have !editing if enter's been pressed
       } else if (keyPressed === 'Enter') {
-        const { path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system } =
-          e.node.data
+        const {
+          path,
+          defaultGoodMerge,
+          emulatorName,
+          mameName,
+          parentName,
+          parameters,
+          paramMode,
+          system,
+          collectionType
+        } = e.node.data
         if (editing) e.api.stopEditing() // Manually stop editing THEN run the game
-        else runGame(path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system)
+        else {
+          const gameDetails: GameDetails = {
+            gamePath: path,
+            fileInZipToRun: defaultGoodMerge,
+            emulatorName,
+            mameName,
+            parentName,
+            parameters,
+            paramMode,
+            system,
+            collectionType
+          }
+          runGame(gameDetails)
+        }
       }
     },
     onRowSelected: async function (event) {
@@ -711,17 +771,18 @@ export default function Grid() {
                   className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                   onClick={() => {
                     logger.log('gridOperations', 'Run Rom')
-                    const {
-                      path,
-                      defaultGoodMerge,
-                      emulatorName,
-                      mameName,
-                      parentName,
-                      parameters,
-                      paramMode,
-                      system
-                    } = contextMenu
-                    runGame(path, defaultGoodMerge, emulatorName, mameName, parentName, parameters, paramMode, system)
+                    const gameDetails: GameDetails = {
+                      gamePath: contextMenu.path,
+                      fileInZipToRun: contextMenu.defaultGoodMerge,
+                      emulatorName: contextMenu.emulatorName,
+                      mameName: contextMenu.mameName,
+                      parentName: contextMenu.parentName,
+                      parameters: contextMenu.parameters,
+                      paramMode: contextMenu.paramMode,
+                      system: contextMenu.system,
+                      collectionType: contextMenu.collectionType
+                    }
+                    runGame(gameDetails)
                   }}
                 >
                   Run Rom

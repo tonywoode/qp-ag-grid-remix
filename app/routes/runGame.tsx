@@ -10,6 +10,7 @@ import { sevenZipFileExtensions } from '~/utils/fileExtensions'
 import { loadNode7z } from '~/utils/node7zLoader.server'
 import { loadEmulators, getTempDirectory, logger } from '~/dataLocations.server'
 import { getArchiveExtractionDir, verifyExtraction, touchExtractionDir } from '~/utils/tempManager.server'
+import type { GameDetails } from './grid.$romdata'
 
 //ORDERED list of disk image filetypes we'll support extraction of (subtlety here is we must extract ALL the image files and find the RUNNABLE file)
 const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.bin', '.iso']
@@ -24,20 +25,9 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
   emitter.emit('runGameEvent', { type, data })
 }
 
-interface GameDetails {
-  gamePath: string
-  fileInZipToRun?: string
-  emulatorName: string
-  clearProcess?: boolean
-  mameName?: string
-  parentName?: string
-  parameters?: string
-  paramMode?: string
-  system?: string
-}
-
 export async function action({ request }: ActionFunctionArgs) {
   const gameDetails: GameDetails = await request.json()
+  console.dir(gameDetails)
 
   //method to reset the 'game already running' dialogs - needs work
   if (gameDetails.clearProcess) {
@@ -45,6 +35,7 @@ export async function action({ request }: ActionFunctionArgs) {
     currentGameDetails = null
     return null
   }
+
   //popup an alert to the user that if emulators is [] they won't be able to run any games
   const emulators = loadEmulators()
   if (emulators.length === 0) {
@@ -106,9 +97,9 @@ async function examineZip(gamePathOS, outputDirectory, gameDetails: GameDetails)
               if (pickedRom) {
                 const outputFile = path.join(outputDirectory, pickedRom)
                 await emitEvent({
-                    type: 'QPBackend',
-                    data: 'running runnable iso file' + outputFile
-                  }) //prettier-ignore
+                  type: 'QPBackend',
+                  data: 'running runnable iso file' + outputFile
+                })
                 await runGame(outputFile, gameDetails)
                 return files
               } else {
