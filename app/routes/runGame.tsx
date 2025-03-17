@@ -6,7 +6,7 @@ import { chooseGoodMergeRom } from '~/utils/goodMergeChooser'
 import { createDirIfNotExist } from '~/utils/safeDirectoryOps.server'
 import { convertPathToOSPath } from '~/utils/OSConvert.server'
 import { emitter } from '~/utils/emitter.server'
-import { sevenZipFileExtensions } from '~/utils/fileExtensions'
+import { decodeCompressionSupport, sevenZipFileExtensions } from '~/utils/fileExtensions'
 import { loadNode7z } from '~/utils/node7zLoader.server'
 import { loadEmulators, getTempDirectory, logger } from '~/dataLocations.server'
 import { getArchiveExtractionDir, verifyExtraction, touchExtractionDir } from '~/utils/tempManager.server'
@@ -41,6 +41,22 @@ export async function action({ request }: ActionFunctionArgs) {
   if (emulators.length === 0) {
     await emitEvent({ type: 'QPBackend', data: 'No emulators available, cannot run any games' })
     return null
+  }
+
+  // Find the selected emulator and check its compression support
+  const matchedEmulator = emulators.find(emulator => emulator.emulatorName === gameDetails.emulatorName)
+  if (matchedEmulator) {
+    const compressionSupport = decodeCompressionSupport(matchedEmulator.Compression)
+    logger.log(`fileOperations`, `Emulator compression support:`, compressionSupport)
+    await emitEvent({
+      type: 'QPBackend',
+      data: `Archive support: ${
+        Object.entries(compressionSupport)
+          .filter(([_, supported]) => supported)
+          .map(([format]) => format)
+          .join(', ') || 'None'
+      }`
+    })
   }
 
   logger.log(`fileOperations`, `runGame received from grid`, gameDetails)
