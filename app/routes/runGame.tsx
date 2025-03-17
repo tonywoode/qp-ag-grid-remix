@@ -65,13 +65,6 @@ export async function action({ request }: ActionFunctionArgs) {
   //TODO: should be an .env variable with a ui to set (or something on romdata conversation?)
   const gamePathOS = convertPathToOSPath(gameDetails.gamePath)
 
-  //if we're mame, we don't want to extract (nor create an empty folder in extraction dir)
-  if (isMame(gameDetails.emulatorName)) {
-    await emitEvent({ type: 'QPBackend', data: 'MAME game detected, running directly' })
-    await runGame(gamePathOS, gameDetails)
-    return null
-  }
-
   // Check if the emulator supports direct loading of this archive type
   const gameExtension = path.extname(gamePathOS).toLowerCase()
   const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
@@ -103,6 +96,14 @@ export async function action({ request }: ActionFunctionArgs) {
       return null
     }
   }
+
+  // //if we're mame, we don't want to extract (nor create an empty folder in extraction dir)
+  // //TODO: still required - I suspect we have non-goodmerge mame excluusions in the original qp code
+  // if (isMame(gameDetails.emulatorName)) {
+  //   await emitEvent({ type: 'QPBackend', data: 'MAME game detected, running directly' })
+  //   await runGame(gamePathOS, gameDetails)
+  //   return null
+  // }
 
   //archives could be both disk images or things like goodmerge sets.
   if (isZip) {
