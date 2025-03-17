@@ -521,9 +521,21 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
 
     let match
     while ((match = regex.exec(command)) !== null) {
-      // Properly unescape parameters - this is crucial
+      // Get the matched parameter (either quoted or unquoted)
       const param = match[1] || match[2]
-      args.push(param.replace(/\\"/g, '"').replace(/\\\\/g, '\\'))
+
+      // Handle special cases with embedded quotes like db="NES"
+      // Look for patterns like xxx="yyy" and extract the inner value
+      // This regex finds attribute=value pairs where value is quoted
+      const attributeValueMatch = param.match(/^([^=]+)="([^"]*)"$/)
+
+      if (attributeValueMatch) {
+        // For db="NES", this gives us db=NES but preserves the quotes around the value
+        args.push(`${attributeValueMatch[1]}="${attributeValueMatch[2]}"`)
+      } else {
+        // For normal parameters, just add them
+        args.push(param)
+      }
     }
     return args
   }
