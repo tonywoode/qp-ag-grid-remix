@@ -383,13 +383,7 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
 }
 
 async function runGame(outputFile: string, gameDetails: GameDetails) {
-  console.log(
-    'runGame received these args:',
-    outputFile,
-    gameDetails.emulatorName,
-    gameDetails.mameName,
-    gameDetails.parentName
-  )
+  // Early existing process check (keep existing code)
   if (currentProcess) {
     logger.log(`fileOperations`, 'An emulator is already running. Please close it before launching a new game.')
     await emitEvent({
@@ -399,6 +393,7 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
     return
   }
 
+  // Match emulator (keep existing code)
   const matchedEmulator = matchEmulatorName(gameDetails.emulatorName)
   logger.log(`fileOperations`, 'Matched Emulator:', matchedEmulator)
   if (!matchedEmulator) {
@@ -406,7 +401,7 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
     return
   }
 
-  // Generate both command lines for cross-platform development
+  // Generate platform-specific command lines for logging
   const darwinCmd = generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails)
   const windowsCmd = generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails)
 
@@ -414,69 +409,66 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
   logger.log(`fileOperations`, '️🖥️ Windows command line would be:', windowsCmd.fullCommandLine)
   logger.log(`fileOperations`, ' 🍎 macOS command line would be:', darwinCmd.fullCommandLine)
 
-  // Use the appropriate command for the current platform
-  const { emuPath, emuParams, fullCommandLine } = process.platform === 'darwin' ? darwinCmd : windowsCmd
+  // Platform-specific launching logic
+  if (process.platform === 'darwin') {
+    // Mac launch - use standard spawn with params
+    const { emuPath, emuParams, fullCommandLine } = darwinCmd
+    logger.log(`fileOperations`, ` ✅ Using macOS command: ${fullCommandLine}`)
 
-  logger.log(`fileOperations`, ` ✅ Using command line for ${process.platform}:`, fullCommandLine)
+    currentProcess = spawn(emuPath, emuParams, {
+      cwd: path.dirname(emuPath)
+    })
+  } else {
+    // Windows launch - determine if this is a console application
+    const { emuPath, fullCommandLine } = windowsCmd
+    logger.log(`fileOperations`, ` ✅ Using Windows command: ${fullCommandLine}`)
 
-  // Base spawn options
-  const spawnOptions = {
-    cwd: path.dirname(emuPath)
-  }
-
-  // On Windows, check if this is a console application
-  if (process.platform === 'win32') {
+    // Check if this is a console application
     const isConsole = await isConsoleApplication(emuPath)
 
+    // Create spawn options based on app type
+    const spawnOptions = {
+      cwd: path.dirname(emuPath),
+      shell: true, // Always use shell for Windows commands
+      windowsHide: isConsole ? false : true, // Only show window for console apps
+      detached: isConsole // Only detach for console apps
+    }
+
     if (isConsole) {
-      Object.assign(spawnOptions, {
-        windowsHide: false, // Show the window
-        detached: true, // Detach from parent process
-        shell: true // Run in a shell
-      })
       logger.log('fileOperations', `Detected console application, launching with visible console window`)
+    }
+
+    // Use the full command string for Windows
+    currentProcess = spawn(fullCommandLine, [], spawnOptions)
+
+    // Special handling for console applications
+    if (isConsole) {
+      // Unref the child so Node doesn't wait for it to close
+      currentProcess.unref()
+
+      // Emit status and inform the user
+      await emitEvent({ type: 'status', data: 'running' })
+      await emitEvent({ type: 'QPBackend', data: 'Console application launched in separate window' })
+
+      // Still capture close event for cleanup
+      currentProcess.on('close', code => {
+        logger.log(`fileOperations`, `Console process exited with code ${code}`)
+        currentProcess = null
+        currentGameDetails = null
+        emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
+      })
+
+      return
     }
   }
 
-  if (windowsCmd.useShell) {
-    // Use shell for complex commands
-    currentProcess = spawn(windowsCmd.fullCommandLine, [], {
-      cwd: path.dirname(emuPath),
-      shell: true
-    })
-  } else {
-    // Use normal spawn for standard commands
-    currentProcess = spawn(emuPath, emuParams, spawnOptions)
-  }
-
-  // For console applications on Windows, we might want to handle differently
-  if (process.platform === 'win32' && spawnOptions.shell) {
-    // Unref the child so Node doesn't wait for it to close
-    currentProcess.unref()
-
-    // Emit status and inform the user
-    await emitEvent({ type: 'status', data: 'running' })
-    await emitEvent({ type: 'QPBackend', data: 'Console application launched in separate window' })
-
-    // Still capture close event for cleanup
-    currentProcess.on('close', code => {
-      logger.log(`fileOperations`, `Console process exited with code ${code}`)
-      currentProcess = null
-      currentGameDetails = null
-      emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
-    })
-
-    return
-  }
-
-  // Original process handling for GUI applications
+  // Common handling for all non-console applications
   currentGameDetails = { name: outputFile, emulatorName: gameDetails.emulatorName }
 
-  // Emit status when game starts - TODO: on success only
+  // Emit status when game starts
   await emitEvent({ type: 'status', data: 'running' })
 
-  //Changing these SSE emits to the async fn seems a bad idea, we start racing again....
-  //TODO: with retroarch, this ever gets run
+  // Setup event handlers (keep existing code)
   currentProcess.stdout.on('data', data => {
     logger.log(`fileOperations`, `Output: ${data}`)
     emitter.emit('runGameEvent', { type: 'EmuLog', data: data.toString() })
@@ -556,16 +548,10 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
     }
   }
 
-  // For this special case, use shell: true and pass the full command as a string
+  // For Windows, simplify by just returning the full command string
   const emuPath = matchedEmulator.path
   const fullCommandLine = `${emuPath} ${emuParamsStr || ''}`
-
-  return {
-    emuPath,
-    emuParams: [],
-    fullCommandLine,
-    useShell: true
-  }
+  return { emuPath, fullCommandLine }
 }
 
 //we load emulators dynamically in case its been altered (for instance in case we had NO emulators when app first loaded, and then they were imported)
