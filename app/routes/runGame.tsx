@@ -518,6 +518,12 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
   let emuParamsStr = matchedEmulator.parameters
   const namedOutputType = emuParamsStr.match(/%([^%]+)%/)[1]
 
+  // Handle MULTILOADER case
+  if (emuParamsStr.includes('%Tool:MULTILOADER%')) {
+    const multiloaderRealFlagIndex = 3
+    emuParamsStr = [outputFile, ...emuParamsStr.slice(multiloaderRealFlagIndex)]
+  }
+
   // Handle parameters from romdata
   if (gameDetails.parameters) {
     const paramModeInt = gameDetails.paramMode ? parseInt(gameDetails.paramMode) : NaN
