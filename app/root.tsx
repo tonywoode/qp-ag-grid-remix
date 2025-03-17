@@ -655,8 +655,22 @@ export default function App() {
                     <Outlet />
                   ) : (
                     <>
-                      <div className="flex items-center justify-center h-full">
+                      <div className="flex flex-col items-center justify-center h-full space-y-8">
                         <h1 className="text-2xl font-bold">No romdata found. Please set up your romdata directory.</h1>
+                        <Link
+                          to="convert"
+                          className="px-6 py-3 text-lg bg-blue-500 text-white rounded-lg hover:bg-blue-600 flex items-center shadow-md transition-colors"
+                        >
+                          <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+                            />
+                          </svg>
+                          Import Data
+                        </Link>
                       </div>
                       <Outlet />
                     </>
