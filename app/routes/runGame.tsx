@@ -438,7 +438,16 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
     }
   }
 
-  currentProcess = spawn(emuPath, emuParams, spawnOptions)
+  if (windowsCmd.useShell) {
+    // Use shell for complex commands
+    currentProcess = spawn(windowsCmd.fullCommandLine, [], {
+      cwd: path.dirname(emuPath),
+      shell: true
+    })
+  } else {
+    // Use normal spawn for standard commands
+    currentProcess = spawn(emuPath, emuParams, spawnOptions)
+  }
 
   // For console applications on Windows, we might want to handle differently
   if (process.platform === 'win32' && spawnOptions.shell) {
@@ -514,32 +523,6 @@ function generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails) {
 
 // Function to generate Windows command line with various parameter substitutions
 function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
-  // Use this function to properly parse command line parameters respecting quotes
-  const splitCommandLine = command => {
-    const args = []
-    const regex = /"([^"]*)"|(\S+)/g // Matches quoted strings or non-space sequences
-
-    let match
-    while ((match = regex.exec(command)) !== null) {
-      // Get the matched parameter (either quoted or unquoted)
-      const param = match[1] || match[2]
-
-      // Handle special cases with embedded quotes like db="NES"
-      // Look for patterns like xxx="yyy" and extract the inner value
-      // This regex finds attribute=value pairs where value is quoted
-      const attributeValueMatch = param.match(/^([^=]+)="([^"]*)"$/)
-
-      if (attributeValueMatch) {
-        // For db="NES", this gives us db=NES but preserves the quotes around the value
-        args.push(`${attributeValueMatch[1]}="${attributeValueMatch[2]}"`)
-      } else {
-        // For normal parameters, just add them
-        args.push(param)
-      }
-    }
-    return args
-  }
-
   let emuParamsStr = matchedEmulator.parameters
   const namedOutputType = emuParamsStr.match(/%([^%]+)%/)[1]
 
@@ -553,54 +536,36 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
     if (paramModeInt == 4) emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
   }
 
-  // Use the proper command line splitter instead of simple space-splitting
-  let emuParams = splitCommandLine(emuParamsStr)
-  let emuPath = matchedEmulator.path
-
-  // Handle MULTILOADER case
-  if (emuParamsStr.includes('%Tool:MULTILOADER%')) {
-    const multiloaderRealFlagIndex = 3
-    emuParams = [outputFile, ...emuParams.slice(multiloaderRealFlagIndex)]
-  }
   // Handle placeholder parameters
-  else {
-    // Find which parameter contains the placeholder
-    const placeholderIndex = emuParams.findIndex(param => param.includes(`%${namedOutputType}%`))
-
-    if (placeholderIndex >= 0) {
-      let updatedParam = emuParams[placeholderIndex]
-
-      if (namedOutputType === 'ROM') {
-        updatedParam = updatedParam.replace(/%ROM%/g, outputFile)
-      } else if (namedOutputType === 'SHORTROM') {
-        updatedParam = updatedParam.replace(/%SHORTROM%/g, outputFile)
-      } else if (namedOutputType === 'ROMFILENAME') {
-        updatedParam = updatedParam.replace(/%ROMFILENAME%/g, path.basename(outputFile))
-      } else if (namedOutputType === 'ROMFILENAMENOEXT') {
-        updatedParam = updatedParam.replace(/%ROMFILENAMENOEXT%/g, path.basename(outputFile).replace(/\.[^/.]+$/, ''))
-      } else if (namedOutputType === 'ROMMAME') {
-        if (gameDetails.mameName) {
-          updatedParam = updatedParam.replace(/%ROMMAME%/g, gameDetails.mameName)
-        } else if (gameDetails.parentName) {
-          updatedParam = updatedParam.replace(/%ROMMAME%/g, gameDetails.parentName)
-        } else {
-          console.warn('No mameName or parentName available')
-          emuParams = null
-        }
-      }
-
-      emuParams[placeholderIndex] = updatedParam
+  if (namedOutputType === 'ROM') {
+    emuParamsStr = emuParamsStr.replace(/%ROM%/g, outputFile)
+  } else if (namedOutputType === 'SHORTROM') {
+    emuParamsStr = emuParamsStr.replace(/%SHORTROM%/g, outputFile)
+  } else if (namedOutputType === 'ROMFILENAME') {
+    emuParamsStr = emuParamsStr.replace(/%ROMFILENAME%/g, path.basename(outputFile))
+  } else if (namedOutputType === 'ROMFILENAMENOEXT') {
+    emuParamsStr = emuParamsStr.replace(/%ROMFILENAMENOEXT%/g, path.basename(outputFile).replace(/\.[^/.]+$/, ''))
+  } else if (namedOutputType === 'ROMMAME') {
+    if (gameDetails.mameName) {
+      emuParamsStr = emuParamsStr.replace(/%ROMMAME%/g, gameDetails.mameName)
+    } else if (gameDetails.parentName) {
+      emuParamsStr = emuParamsStr.replace(/%ROMMAME%/g, gameDetails.parentName)
+    } else {
+      console.warn('No mameName or parentName available')
+      emuParamsStr = null
     }
   }
 
-  // Create the full command line for logging/debugging
-  const fullCommandLine = `${emuPath} ${
-    emuParams
-      ? emuParams.map(param => (param.includes(' ') && !param.startsWith('"') ? `"${param}"` : param)).join(' ')
-      : ''
-  }`
+  // For this special case, use shell: true and pass the full command as a string
+  const emuPath = matchedEmulator.path
+  const fullCommandLine = `${emuPath} ${emuParamsStr || ''}`
 
-  return { emuPath, emuParams, fullCommandLine }
+  return {
+    emuPath,
+    emuParams: [],
+    fullCommandLine,
+    useShell: true
+  }
 }
 
 //we load emulators dynamically in case its been altered (for instance in case we had NO emulators when app first loaded, and then they were imported)
