@@ -518,6 +518,39 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
   let emuParamsStr = matchedEmulator.parameters
   const namedOutputType = emuParamsStr.match(/%([^%]+)%/)[1]
 
+  // Handle MULTILOADER case
+  if (emuParamsStr.includes('%Tool:MULTILOADER%')) {
+    // Use a regex to split the command line respecting quotes
+    const splitMultiloaderCMD = command => {
+      const args = []
+      const regex = /"([^"]*)"|(\S+)/g // Matches quoted strings or non-space sequences
+
+      let match
+      while ((match = regex.exec(command)) !== null) {
+        args.push(match[1] || match[2]) // Use captured group for quoted or unquoted
+      }
+      return args
+    }
+
+    const multiloaderParams = splitMultiloaderCMD(emuParamsStr)
+    logger.log('fileOperations', 'MULTILOADER params:', multiloaderParams)
+
+    const multiloaderRealFlagIndex = 3 // Always use the fourth parameter in MULTILOADER case
+
+    if (multiloaderParams.length > multiloaderRealFlagIndex) {
+      const emulatorFlags = multiloaderParams[multiloaderRealFlagIndex]
+
+      // Set parameters to output file followed by emulator flags
+      // This reconstructs a command line like: "C:\path\to\rom.iso" -L cores\dolphin_libretro.dll
+      emuParamsStr = `"${outputFile}" ${emulatorFlags}`
+
+      logger.log(`fileOperations`, `MULTILOADER: Using ${emulatorFlags} with ${outputFile}`)
+    } else {
+      logger.log(`fileOperations`, `Warning: MULTILOADER parameters incomplete: ${emuParamsStr}`)
+    }
+  }
+  // The rest of the function remains unchanged
+
   // Handle parameters from romdata
   if (gameDetails.parameters) {
     const paramModeInt = gameDetails.paramMode ? parseInt(gameDetails.paramMode) : NaN
