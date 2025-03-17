@@ -72,28 +72,43 @@ export async function action({ request }: ActionFunctionArgs) {
   // For emulators with archive support, we can pass the archive directly
   // unless it's a goodmerge collection which requires ROM selection
   if (isZip && matchedEmulator && gameDetails.collectionType !== 'goodmerge') {
-    const compressionSupport = decodeCompressionSupport(matchedEmulator.Compression)
-    const extensionWithoutDot = gameExtension.substring(1) // Remove leading dot
-
-    // Map common extensions to their key in compressionSupport
-    const extensionMap = {
-      zip: 'zip',
-      '7z': '7z',
-      rar: 'rar',
-      ace: 'ace'
-    }
-
-    const compressionKey = extensionMap[extensionWithoutDot]
-
-    // Check if this archive type is directly supported
-    if (compressionKey && compressionSupport[compressionKey]) {
-      logger.log(`fileOperations`, `Emulator supports ${gameExtension} archives directly, no extraction needed`)
+    // FIRST check if this is a MULTILOADER tool - these ALWAYS need extraction
+    // regardless of what their compression flags say - TODO: obv this is ALL a conversion-time problem
+    if (matchedEmulator.parameters && matchedEmulator.parameters.includes('%Tool:MULTILOADER%')) {
+      logger.log(
+        `fileOperations`,
+        `MULTILOADER tool detected - these always require extraction regardless of compression flags`
+      )
       await emitEvent({
         type: 'QPBackend',
-        data: `Running ${gameExtension} archive directly (supported by ${gameDetails.emulatorName})`
+        data: `MULTILOADER tool requires archive extraction`
       })
-      await runGame(gamePathOS, gameDetails)
-      return null
+      // Continue to normal extraction flow - don't return here
+    } else {
+      // Normal emulators - check actual compression support
+      const compressionSupport = decodeCompressionSupport(matchedEmulator.Compression)
+      const extensionWithoutDot = gameExtension.substring(1) // Remove leading dot
+
+      // Map common extensions to their key in compressionSupport
+      const extensionMap = {
+        zip: 'zip',
+        '7z': '7z',
+        rar: 'rar',
+        ace: 'ace'
+      }
+
+      const compressionKey = extensionMap[extensionWithoutDot]
+
+      // Check if this archive type is directly supported
+      if (compressionKey && compressionSupport[compressionKey]) {
+        logger.log(`fileOperations`, `Emulator supports ${gameExtension} archives directly, no extraction needed`)
+        await emitEvent({
+          type: 'QPBackend',
+          data: `Running ${gameExtension} archive directly (supported by ${gameDetails.emulatorName})`
+        })
+        await runGame(gamePathOS, gameDetails)
+        return null
+      }
     }
   }
 
