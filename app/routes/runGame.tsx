@@ -72,9 +72,39 @@ export async function action({ request }: ActionFunctionArgs) {
     return null
   }
 
-  //archives could be both disk images or things like goodmerge sets. TODO: some emulators can run zipped roms directly
+  // Check if the emulator supports direct loading of this archive type
   const gameExtension = path.extname(gamePathOS).toLowerCase()
   const isZip = sevenZipFileExtensions.map(ext => ext.toLowerCase()).includes(gameExtension)
+
+  // For emulators with archive support, we can pass the archive directly
+  // unless it's a goodmerge collection which requires ROM selection
+  if (isZip && matchedEmulator && gameDetails.collectionType !== 'goodmerge') {
+    const compressionSupport = decodeCompressionSupport(matchedEmulator.Compression)
+    const extensionWithoutDot = gameExtension.substring(1) // Remove leading dot
+
+    // Map common extensions to their key in compressionSupport
+    const extensionMap = {
+      zip: 'zip',
+      '7z': '7z',
+      rar: 'rar',
+      ace: 'ace'
+    }
+
+    const compressionKey = extensionMap[extensionWithoutDot]
+
+    // Check if this archive type is directly supported
+    if (compressionKey && compressionSupport[compressionKey]) {
+      logger.log(`fileOperations`, `Emulator supports ${gameExtension} archives directly, no extraction needed`)
+      await emitEvent({
+        type: 'QPBackend',
+        data: `Running ${gameExtension} archive directly (supported by ${gameDetails.emulatorName})`
+      })
+      await runGame(gamePathOS, gameDetails)
+      return null
+    }
+  }
+
+  //archives could be both disk images or things like goodmerge sets.
   if (isZip) {
     // Create archive-specific extraction directory
     const outputDirectory = await getAndEnsureTempDir(gamePathOS, gameDetails.system)
