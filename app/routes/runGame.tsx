@@ -514,20 +514,22 @@ function generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails) {
 
 // Function to generate Windows command line with various parameter substitutions
 function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
-  const splitMultiloaderCMD = (command: string) => {
+  // Use this function to properly parse command line parameters respecting quotes
+  const splitCommandLine = command => {
     const args = []
     const regex = /"([^"]*)"|(\S+)/g // Matches quoted strings or non-space sequences
 
     let match
     while ((match = regex.exec(command)) !== null) {
-      args.push(match[1] || match[2]) // Use captured group for quoted or unquoted
+      // Properly unescape parameters - this is crucial
+      const param = match[1] || match[2]
+      args.push(param.replace(/\\"/g, '"').replace(/\\\\/g, '\\'))
     }
     return args
   }
 
-  const find = (str, start, end) => str.match(new RegExp(`${start}(.*?)${end}`))[1]
-  const namedOutputType = find(matchedEmulator.parameters, '%', '%')
   let emuParamsStr = matchedEmulator.parameters
+  const namedOutputType = emuParamsStr.match(/%([^%]+)%/)[1]
 
   // Handle parameters from romdata
   if (gameDetails.parameters) {
@@ -539,49 +541,43 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
     if (paramModeInt == 4) emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
   }
 
-  let emuParams = emuParamsStr.split(' ')
-  const placeholderParam = emuParams.find(param => param.includes(`%${namedOutputType}%`))
+  // Use the proper command line splitter instead of simple space-splitting
+  let emuParams = splitCommandLine(emuParamsStr)
   let emuPath = matchedEmulator.path
 
   // Handle MULTILOADER case
-  if (matchedEmulator.parameters.includes('%Tool:MULTILOADER%')) {
-    const multiloaderRealFlagIndex = 3 // Always use the fourth parameter in MULTILOADER case
-    const multiloaderParams = splitMultiloaderCMD(matchedEmulator.parameters)
-    console.log('multiloader params', multiloaderParams)
-    const emulatorFlags = multiloaderParams[multiloaderRealFlagIndex]
-    console.log('emulator flags', emulatorFlags)
-    const emulatorFlagsArray = emulatorFlags.split(' ')
-    emuParams = [outputFile, ...emulatorFlagsArray] // Rom path followed by emulator flags
+  if (emuParamsStr.includes('%Tool:MULTILOADER%')) {
+    const multiloaderRealFlagIndex = 3
+    emuParams = [outputFile, ...emuParams.slice(multiloaderRealFlagIndex)]
   }
   // Handle placeholder parameters
-  else if (placeholderParam) {
-    let paramIndex = emuParams.indexOf(placeholderParam)
+  else {
+    // Find which parameter contains the placeholder
+    const placeholderIndex = emuParams.findIndex(param => param.includes(`%${namedOutputType}%`))
 
-    if (namedOutputType === 'ROM') {
-      emuParams[paramIndex] = placeholderParam.replace(/%ROM%/g, outputFile)
-    } else if (namedOutputType === 'SHORTROM') {
-      emuParams[paramIndex] = placeholderParam.replace(/%SHORTROM%/g, outputFile)
-    } else if (namedOutputType === 'ROMFILENAME') {
-      emuParams[paramIndex] = placeholderParam.replace(/%ROMFILENAME%/g, path.basename(outputFile))
-    } else if (namedOutputType === 'ROMFILENAMENOEXT') {
-      emuParams[paramIndex] = placeholderParam.replace(
-        /%ROMFILENAMENOEXT%/g,
-        path.basename(outputFile).replace(/\.[^/.]+$/, '')
-      )
-    } else if (namedOutputType === 'ROMMAME') {
-      if (gameDetails.mameName) {
-        emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, gameDetails.mameName)
-      } else if (gameDetails.parentName) {
-        emuParams[paramIndex] = placeholderParam.replace(/%ROMMAME%/g, gameDetails.parentName)
-      } else {
-        console.warn('No mameName or parentName available')
-        emuParams = null
+    if (placeholderIndex >= 0) {
+      let updatedParam = emuParams[placeholderIndex]
+
+      if (namedOutputType === 'ROM') {
+        updatedParam = updatedParam.replace(/%ROM%/g, outputFile)
+      } else if (namedOutputType === 'SHORTROM') {
+        updatedParam = updatedParam.replace(/%SHORTROM%/g, outputFile)
+      } else if (namedOutputType === 'ROMFILENAME') {
+        updatedParam = updatedParam.replace(/%ROMFILENAME%/g, path.basename(outputFile))
+      } else if (namedOutputType === 'ROMFILENAMENOEXT') {
+        updatedParam = updatedParam.replace(/%ROMFILENAMENOEXT%/g, path.basename(outputFile).replace(/\.[^/.]+$/, ''))
+      } else if (namedOutputType === 'ROMMAME') {
+        if (gameDetails.mameName) {
+          updatedParam = updatedParam.replace(/%ROMMAME%/g, gameDetails.mameName)
+        } else if (gameDetails.parentName) {
+          updatedParam = updatedParam.replace(/%ROMMAME%/g, gameDetails.parentName)
+        } else {
+          console.warn('No mameName or parentName available')
+          emuParams = null
+        }
       }
-    }
 
-    // Remove outer quotes
-    if (emuParams && emuParams[paramIndex]) {
-      emuParams[paramIndex] = emuParams[paramIndex].replace(/^"(.*)"$/, '$1')
+      emuParams[placeholderIndex] = updatedParam
     }
   }
 
