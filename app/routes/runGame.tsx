@@ -578,9 +578,8 @@ function generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails) {
 // Function to generate Windows command line with various parameter substitutions
 function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
   let emuParamsStr = matchedEmulator.parameters
-  const namedOutputType = emuParamsStr.match(/%([^%]+)%/)[1]
 
-  // Handle MULTILOADER case
+  // Handle MULTILOADER case first (this is special)
   if (emuParamsStr.includes('%Tool:MULTILOADER%')) {
     // Use a regex to split the command line respecting quotes
     const splitMultiloaderCMD = command => {
@@ -610,36 +609,48 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
     } else {
       logger.log(`fileOperations`, `Warning: MULTILOADER parameters incomplete: ${emuParamsStr}`)
     }
-  }
-  // The rest of the function remains unchanged
+  } else {
+    // For non-MULTILOADER case, handle all parameter replacements
 
-  // Handle parameters from romdata
-  if (gameDetails.parameters) {
-    const paramModeInt = gameDetails.paramMode ? parseInt(gameDetails.paramMode) : NaN
-    if (paramModeInt == 0) emuParamsStr = `${emuParamsStr} ${gameDetails.parameters}`
-    if (paramModeInt == 1) emuParamsStr = gameDetails.parameters
-    if (paramModeInt == 2) emuParamsStr = `${gameDetails.parameters} ${emuParamsStr}`
-    if (paramModeInt == 3) emuParamsStr = `${emuParamsStr}${gameDetails.parameters}`
-    if (paramModeInt == 4) emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
-  }
+    // Handle parameters from romdata first
+    if (gameDetails.parameters) {
+      const paramModeInt = gameDetails.paramMode ? parseInt(gameDetails.paramMode) : NaN
+      if (paramModeInt == 0) emuParamsStr = `${emuParamsStr} ${gameDetails.parameters}`
+      if (paramModeInt == 1) emuParamsStr = gameDetails.parameters
+      if (paramModeInt == 2) emuParamsStr = `${gameDetails.parameters} ${emuParamsStr}`
+      if (paramModeInt == 3) emuParamsStr = `${emuParamsStr}${gameDetails.parameters}`
+      if (paramModeInt == 4) emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
+    }
 
-  // Handle placeholder parameters
-  if (namedOutputType === 'ROM') {
-    emuParamsStr = emuParamsStr.replace(/%ROM%/g, outputFile)
-  } else if (namedOutputType === 'SHORTROM') {
-    emuParamsStr = emuParamsStr.replace(/%SHORTROM%/g, outputFile)
-  } else if (namedOutputType === 'ROMFILENAME') {
-    emuParamsStr = emuParamsStr.replace(/%ROMFILENAME%/g, path.basename(outputFile))
-  } else if (namedOutputType === 'ROMFILENAMENOEXT') {
-    emuParamsStr = emuParamsStr.replace(/%ROMFILENAMENOEXT%/g, path.basename(outputFile).replace(/\.[^/.]+$/, ''))
-  } else if (namedOutputType === 'ROMMAME') {
-    if (gameDetails.mameName) {
-      emuParamsStr = emuParamsStr.replace(/%ROMMAME%/g, gameDetails.mameName)
-    } else if (gameDetails.parentName) {
-      emuParamsStr = emuParamsStr.replace(/%ROMMAME%/g, gameDetails.parentName)
-    } else {
-      console.warn('No mameName or parentName available')
-      emuParamsStr = null
+    // Replace all placeholder patterns in a single pass
+    const replacements = [
+      { pattern: /%ROM%/g, value: outputFile },
+      { pattern: /%SHORTROM%/g, value: outputFile }, // This seems to be equivalent to ROM in the current code
+      { pattern: /%ROMFILENAME%/g, value: path.basename(outputFile) },
+      { pattern: /%ROMFILENAMENOEXT%/g, value: path.basename(outputFile).replace(/\.[^/.]+$/, '') },
+      { pattern: /%ROMDIR%/g, value: path.dirname(outputFile) },
+      // ROMMAME is special because it depends on gameDetails
+      {
+        pattern: /%ROMMAME%/g,
+        value: gameDetails.mameName || gameDetails.parentName || ''
+      }
+    ]
+
+    // Apply all replacements
+    replacements.forEach(({ pattern, value }) => {
+      if (value) {
+        // Only replace if we have a valid value
+        emuParamsStr = emuParamsStr.replace(pattern, value)
+      }
+    })
+
+    // Check if we missed any replacements and log a warning
+    const remainingPlaceholders = emuParamsStr.match(/%[^%]+%/g)
+    if (remainingPlaceholders) {
+      logger.log(
+        `fileOperations`,
+        `Warning: Unsupported placeholders in parameters: ${remainingPlaceholders.join(', ')}`
+      )
     }
   }
 
