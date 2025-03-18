@@ -601,11 +601,16 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
     if (multiloaderParams.length > multiloaderRealFlagIndex) {
       const emulatorFlags = multiloaderParams[multiloaderRealFlagIndex]
 
-      // Set parameters to output file followed by emulator flags
-      // This reconstructs a command line like: "C:\path\to\rom.iso" -L cores\dolphin_libretro.dll
-      emuParamsStr = `"${outputFile}" ${emulatorFlags}`
-
-      logger.log(`fileOperations`, `MULTILOADER: Using ${emulatorFlags} with ${outputFile}`)
+      // Handle the case where the flags might be empty string
+      if (emulatorFlags === '') {
+        // Just use the output file without additional flags
+        emuParamsStr = `"${outputFile}"`
+        logger.log(`fileOperations`, `MULTILOADER: Using no flags with ${outputFile} (empty parameter)`)
+      } else {
+        // Set parameters to output file followed by emulator flags
+        emuParamsStr = `"${outputFile}" ${emulatorFlags}`
+        logger.log(`fileOperations`, `MULTILOADER: Using ${emulatorFlags} with ${outputFile}`)
+      }
     } else {
       logger.log(`fileOperations`, `Warning: MULTILOADER parameters incomplete: ${emuParamsStr}`)
     }
