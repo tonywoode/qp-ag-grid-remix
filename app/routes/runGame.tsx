@@ -27,6 +27,61 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
 
 export async function action({ request }: ActionFunctionArgs) {
   const gameDetails: GameDetails = await request.json()
+  // Add immediately after loading gameDetails:
+
+  // Check for MULTILOADER preference early in the process
+  const matchedEmulator = emulators.find(emulator => emulator.emulatorName === gameDetails.emulatorName)
+  if (matchedEmulator && matchedEmulator.parameters && matchedEmulator.parameters.includes('%Tool:MULTILOADER%')) {
+    // Use the robust parser to split the command
+    const splitMultiloaderCMD = command => {
+      const args = []
+      let currentArg = ''
+      let inQuote = false
+
+      for (let i = 0; i < command.length; i++) {
+        const char = command[i]
+
+        if (char === '"') {
+          if (inQuote) {
+            args.push(currentArg)
+            currentArg = ''
+            inQuote = false
+          } else {
+            inQuote = true
+          }
+        } else if (char === ' ' && !inQuote) {
+          if (currentArg) {
+            args.push(currentArg)
+            currentArg = ''
+          }
+        } else {
+          currentArg += char
+        }
+      }
+
+      if (currentArg) {
+        args.push(currentArg)
+      }
+
+      return args
+    }
+
+    const multiloaderParams = splitMultiloaderCMD(matchedEmulator.parameters)
+
+    // Check if the last parameter is a disk image format specifier (3 chars)
+    if (multiloaderParams.length > 0) {
+      const lastParam = multiloaderParams[multiloaderParams.length - 1]
+      if (lastParam && lastParam.length === 3) {
+        const diskImageExt = diskImageExtensions.find(ext => ext.substring(1).toLowerCase() === lastParam.toLowerCase())
+        if (diskImageExt) {
+          gameDetails.preferredDiskImageExt = diskImageExt
+          logger.log(`fileOperations`, `Early detection: Will prefer ${diskImageExt} files from MULTILOADER params`)
+        }
+      }
+    }
+  }
+
+  // Then continue with existing code...
   console.dir(gameDetails)
 
   //method to reset the 'game already running' dialogs - needs work
@@ -226,13 +281,17 @@ async function examineZip(gamePathOS, outputDirectory, gameDetails: GameDetails)
 async function handleDiskImages(files, gamePathOS, outputDirectory, fullArchive, gameDetails) {
   logger.log('fileOperations', `checking for disk images in files`, files)
   const diskImageFiles = files.filter(file => diskImageExtensions.includes(path.extname(file.name).toLowerCase()))
-  
+
   if (diskImageFiles.length > 0) {
     logger.log(`fileOperations`, `found disk image files in archive`, diskImageFiles)
     await emitEvent({ type: 'QPBackend', data: 'found disk image file to run (extracting full archive)' })
     await extractFullArchive(gamePathOS, outputDirectory, fullArchive, logger)
 
     let pickedRom = null
+
+    // Add more detailed logging for debugging
+    logger.log(`fileOperations`, `Available disk image files: ${diskImageFiles.map(f => f.name).join(', ')}`)
+    logger.log(`fileOperations`, `Preferred disk image extension: ${gameDetails?.preferredDiskImageExt || 'None'}`)
 
     // Check if we have a preferred extension from MULTILOADER
     if (gameDetails?.preferredDiskImageExt) {
@@ -408,7 +467,8 @@ async function extractSingleRom(gamePath, outputDirectory, romInArchive, onlyArc
   // Wrap old-style promise in async/await
   const result = await new Promise((resolve, reject) => {
     onlyArchive(gamePath, outputDirectory, romInArchive)
-      .then(result => { //result is always undefined - expected?
+      .then(result => {
+        //result is always undefined - expected?
         logger.log(`fileOperations`, `extracting single file with 7z:`, gamePath)
         touchExtractionDir(outputDirectory) // Update timestamp
         resolve(result)
@@ -501,13 +561,6 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
   // Generate platform-specific command lines for logging
   const darwinCmd = generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails)
   const windowsCmd = generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails)
-
-  // Store preferred disk image extension if specified (last param in multliloader 'bin' 'iso' case)
-  if (windowsCmd.preferredDiskImageExt) {
-    // Store this in gameDetails so it's available when handling archives
-    gameDetails.preferredDiskImageExt = windowsCmd.preferredDiskImageExt
-    logger.log(`fileOperations`, `Will prefer ${windowsCmd.preferredDiskImageExt} files when extracting disk images`)
-  }
 
   // Log both command lines for development purposes
   logger.log(`fileOperations`, '️🖥️ Windows command line would be:', windowsCmd.fullCommandLine)
