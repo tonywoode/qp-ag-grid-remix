@@ -445,7 +445,7 @@ async function extractFullArchive(gamePath, outputDirectory, fullArchive, logger
 }
 
 async function runGame(outputFile: string, gameDetails: GameDetails) {
-  // Early existing process check (keep existing code)
+  // Early existing process check
   if (currentProcess) {
     logger.log(`fileOperations`, 'An emulator is already running. Please close it before launching a new game.')
     await emitEvent({
@@ -455,7 +455,7 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
     return
   }
 
-  // Match emulator (keep existing code)
+  // Match emulator
   const matchedEmulator = matchEmulatorName(gameDetails.emulatorName)
   logger.log(`fileOperations`, 'Matched Emulator:', matchedEmulator)
   if (!matchedEmulator) {

@@ -25,13 +25,24 @@ export async function convertSystems(inputPath: string, outputPath: string): Pro
 export async function convertEmulators(inputPath: string, outputPath: string): Promise<void> {
   try {
     const data = await fs.promises.readFile(inputPath, 'utf-8')
-    // Parse the INI-like data
-    const sections = ini.parse(data)
-    // Convert the sections to the desired format
-    const emulators = Object.keys(sections).map(key => ({
-      emulatorName: key,
-      ...sections[key]
-    }))
+
+    // Replace periods within square brackets with a placeholder -common issue with INI parsers:
+    // they often use dot notation to represent nested structures. Mirror the solution for this in the convertMediaPanel function
+    // convert to dunder and then back after
+    const modifiedData = data.replace(/(\[[^\]]+\])/g, match => match.replace(/\./g, '___'))
+
+    // Parse the modified INI-like data
+    const sections = ini.parse(modifiedData)
+
+    // Convert the sections to the desired format, restoring periods in keys
+    const emulators = Object.keys(sections).map(key => {
+      const restoredKey = key.replace(/___/g, '.')
+      return {
+        emulatorName: restoredKey,
+        ...sections[key]
+      }
+    })
+
     // Filter out empty values
     emulators.forEach(emulator => {
       Object.keys(emulator).forEach(key => {
