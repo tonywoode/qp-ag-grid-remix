@@ -231,29 +231,43 @@ async function handleDiskImages(files, gamePathOS, outputDirectory, fullArchive,
     logger.log(`fileOperations`, `found disk image files in archive`, diskImageFiles)
     await emitEvent({ type: 'QPBackend', data: 'found disk image file to run (extracting full archive)' })
     await extractFullArchive(gamePathOS, outputDirectory, fullArchive, logger)
-    
+
     let pickedRom = null
-    
-    // Check if we have a preferred extension from MULTILOADER (the pcsx2 'bin instead of cue' case - this needs real handling if still a thing)
+
+    // Check if we have a preferred extension from MULTILOADER
     if (gameDetails?.preferredDiskImageExt) {
-      const preferredFiles = diskImageFiles.filter(
-        file => path.extname(file.name).toLowerCase() === gameDetails.preferredDiskImageExt.toLowerCase()
-      )
-      if (preferredFiles.length > 0) {
-        pickedRom = preferredFiles[0].name
-        logger.log(`fileOperations`, `Using preferred disk image type ${gameDetails.preferredDiskImageExt}: ${pickedRom}`)
+      // Make sure we're comparing properly - ensure ext starts with '.'
+      const prefExt = gameDetails.preferredDiskImageExt.startsWith('.')
+        ? gameDetails.preferredDiskImageExt.toLowerCase()
+        : `.${gameDetails.preferredDiskImageExt.toLowerCase()}`
+
+      logger.log(`fileOperations`, `Looking for files with preferred extension: ${prefExt}`)
+
+      // More careful matching - make sure we're comparing the same things
+      for (const file of diskImageFiles) {
+        const fileExt = path.extname(file.name).toLowerCase()
+        logger.log(`fileOperations`, `Comparing ${fileExt} with ${prefExt}`)
+
+        if (fileExt === prefExt) {
+          pickedRom = file.name
+          logger.log(`fileOperations`, `Found matching preferred disk image: ${pickedRom}`)
+          break
+        }
       }
     }
-    
+
     // If no preferred file found, fall back to the default order
     if (!pickedRom) {
-      const orderedFile = diskImageExtensions
-        .map(ext => diskImageFiles.find(file => path.extname(file.name).toLowerCase() === ext))
-        .find(file => file)
-      
-      pickedRom = orderedFile?.name
+      for (const ext of diskImageExtensions) {
+        const matchingFile = diskImageFiles.find(file => path.extname(file.name).toLowerCase() === ext.toLowerCase())
+        if (matchingFile) {
+          pickedRom = matchingFile.name
+          logger.log(`fileOperations`, `Using file based on default disk image priority: ${pickedRom}`)
+          break
+        }
+      }
     }
-    
+
     return pickedRom
   }
   return null
@@ -612,13 +626,41 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
   if (emuParamsStr.includes('%Tool:MULTILOADER%')) {
     // Use a regex to split the command line respecting quotes
     const splitMultiloaderCMD = command => {
+      // Manual parsing approach that properly handles empty quoted strings
       const args = []
-      const regex = /"([^"]*)"|(\S+)/g // Matches quoted strings or non-space sequences
+      let currentArg = ''
+      let inQuote = false
 
-      let match
-      while ((match = regex.exec(command)) !== null) {
-        args.push(match[1] || match[2]) // Use captured group for quoted or unquoted
+      for (let i = 0; i < command.length; i++) {
+        const char = command[i]
+
+        if (char === '"') {
+          if (inQuote) {
+            // Closing quote - add the argument even if empty
+            args.push(currentArg)
+            currentArg = ''
+            inQuote = false
+          } else {
+            // Opening quote
+            inQuote = true
+          }
+        } else if (char === ' ' && !inQuote) {
+          // Space outside quotes - end of argument
+          if (currentArg) {
+            args.push(currentArg)
+            currentArg = ''
+          }
+        } else {
+          // Regular character - add to current argument
+          currentArg += char
+        }
       }
+
+      // Add the final argument if there is one
+      if (currentArg) {
+        args.push(currentArg)
+      }
+
       return args
     }
 
