@@ -184,7 +184,7 @@ async function examineZip(gamePathOS, outputDirectory, gameDetails: GameDetails)
           // Case 3: Multiple files - use existing logic for disk images or goodmerge
           else {
             // Check if this is a disk image collection
-            const pickedRom = await handleDiskImages(files, gamePathOS, outputDirectory, fullArchive)
+            const pickedRom = await handleDiskImages(files, gamePathOS, outputDirectory, fullArchive, gameDetails)
             if (pickedRom) {
               const outputFile = path.join(outputDirectory, pickedRom)
               await emitEvent({
@@ -223,16 +223,37 @@ async function examineZip(gamePathOS, outputDirectory, gameDetails: GameDetails)
 }
 
 //first look for ANY of the files from the image list, if any are found, treat it as an image, THEN look in order for runnable files, extract all and then pass RUNNABLE file to emu
-async function handleDiskImages(files, gamePathOS, outputDirectory, fullArchive) {
+async function handleDiskImages(files, gamePathOS, outputDirectory, fullArchive, gameDetails) {
   logger.log('fileOperations', `checking for disk images in files`, files)
-  const diskImageFiles = files.filter(file => diskImageExtensions.includes(path.extname(file.name)))
+  const diskImageFiles = files.filter(file => diskImageExtensions.includes(path.extname(file.name).toLowerCase()))
+  
   if (diskImageFiles.length > 0) {
     logger.log(`fileOperations`, `found disk image files in archive`, diskImageFiles)
     await emitEvent({ type: 'QPBackend', data: 'found disk image file to run (extracting full archive)' })
     await extractFullArchive(gamePathOS, outputDirectory, fullArchive, logger)
-    const pickedRom = diskImageExtensions
-      .map(ext => diskImageFiles.find(file => path.extname(file.name) === ext))
-      .find(file => file)?.name // pick the first matching file based on the order of diskImageExtensions
+    
+    let pickedRom = null
+    
+    // Check if we have a preferred extension from MULTILOADER (the pcsx2 'bin instead of cue' case - this needs real handling if still a thing)
+    if (gameDetails?.preferredDiskImageExt) {
+      const preferredFiles = diskImageFiles.filter(
+        file => path.extname(file.name).toLowerCase() === gameDetails.preferredDiskImageExt.toLowerCase()
+      )
+      if (preferredFiles.length > 0) {
+        pickedRom = preferredFiles[0].name
+        logger.log(`fileOperations`, `Using preferred disk image type ${gameDetails.preferredDiskImageExt}: ${pickedRom}`)
+      }
+    }
+    
+    // If no preferred file found, fall back to the default order
+    if (!pickedRom) {
+      const orderedFile = diskImageExtensions
+        .map(ext => diskImageFiles.find(file => path.extname(file.name).toLowerCase() === ext))
+        .find(file => file)
+      
+      pickedRom = orderedFile?.name
+    }
+    
     return pickedRom
   }
   return null
@@ -467,6 +488,13 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
   const darwinCmd = generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails)
   const windowsCmd = generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails)
 
+  // Store preferred disk image extension if specified (last param in multliloader 'bin' 'iso' case)
+  if (windowsCmd.preferredDiskImageExt) {
+    // Store this in gameDetails so it's available when handling archives
+    gameDetails.preferredDiskImageExt = windowsCmd.preferredDiskImageExt
+    logger.log(`fileOperations`, `Will prefer ${windowsCmd.preferredDiskImageExt} files when extracting disk images`)
+  }
+
   // Log both command lines for development purposes
   logger.log(`fileOperations`, '️🖥️ Windows command line would be:', windowsCmd.fullCommandLine)
   logger.log(`fileOperations`, ' 🍎 macOS command line would be:', darwinCmd.fullCommandLine)
@@ -578,6 +606,7 @@ function generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails) {
 // Function to generate Windows command line with various parameter substitutions
 function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
   let emuParamsStr = matchedEmulator.parameters
+  let preferredDiskImageExt = null // Track preferred disk image extension
 
   // Handle MULTILOADER case first (this is special)
   if (emuParamsStr.includes('%Tool:MULTILOADER%')) {
@@ -595,6 +624,20 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
 
     const multiloaderParams = splitMultiloaderCMD(emuParamsStr)
     logger.log('fileOperations', 'MULTILOADER params:', multiloaderParams)
+
+    // Check if the last parameter is a disk image format specifier (3 chars)
+    // This is the pcsxe 'bin instead of cue' case, which the multiloader tool handled - there's one more case of 'iso' for a very old cdi-emulator
+    if (multiloaderParams.length > 0) {
+      const lastParam = multiloaderParams[multiloaderParams.length - 1]
+      if (lastParam && lastParam.length === 3) {
+        // Check if it matches any of our supported disk image types (without the dot)
+        const matchingExt = diskImageExtensions.find(ext => ext.substring(1).toLowerCase() === lastParam.toLowerCase())
+        if (matchingExt) {
+          preferredDiskImageExt = matchingExt
+          logger.log(`fileOperations`, `MULTILOADER specified preferred disk image type: ${preferredDiskImageExt}`)
+        }
+      }
+    }
 
     const multiloaderRealFlagIndex = 3 // Always use the fourth parameter in MULTILOADER case
 
@@ -662,7 +705,7 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
   // For Windows, simplify by just returning the full command string
   const emuPath = matchedEmulator.path
   const fullCommandLine = `${emuPath} ${emuParamsStr || ''}`
-  return { emuPath, fullCommandLine }
+  return { emuPath, fullCommandLine, preferredDiskImageExt }
 }
 
 //we load emulators dynamically in case its been altered (for instance in case we had NO emulators when app first loaded, and then they were imported)
