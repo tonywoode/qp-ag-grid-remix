@@ -656,7 +656,7 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
   })
 }
 
-// Replace your emitSyncEvent with this smart-throttling version
+// Enhanced throttling with better batching for all event types
 function emitSyncEvent(type, data) {
   const now = Date.now()
 
@@ -664,32 +664,47 @@ function emitSyncEvent(type, data) {
   if (type === eventThrottleState.lastEventType) {
     eventThrottleState.consecutiveCount++
 
-    // For rapidly firing events of the same type (especially EmuErrLog),
-    // increase the delay for each consecutive event
+    // For rapidly firing events of the same type,
+    // use much more aggressive throttling
     const timeSinceLast = now - eventThrottleState.lastEventTime
 
-    // If events are coming in faster than 100ms apart, add increasing delays
-    if (timeSinceLast < 100) {
-      const dynamicDelay = Math.min(eventThrottleState.consecutiveCount * 10, 200) // Cap at 200ms
+    // If events are coming in faster than 150ms apart (increased from 100ms)
+    if (timeSinceLast < 150) {
+      // More aggressive throttling - increase both the multiplier and cap
+      const dynamicDelay = Math.min(eventThrottleState.consecutiveCount * 25, 350) // Increased from 15×250
 
-      // Use busy-wait for consistent timing
-      const start = Date.now()
-      while (Date.now() - start < dynamicDelay) {}
-
-      // For EmuErrLog events specifically, consider merging if they're coming too fast
-      if (type === 'EmuErrLog' && eventThrottleState.consecutiveCount > 3) {
-        // Don't process every single one - we can combine them
+      // For all event types, use more aggressive skipping
+      if (eventThrottleState.consecutiveCount > 2) {
+        // Decreased threshold from 3 to 2
+        // Skip every other event from the start
         if (eventThrottleState.consecutiveCount % 2 !== 0) {
+          console.log(`[PROCESS EVENT] Skipping burst event #${eventThrottleState.consecutiveCount} (type: ${type})`)
+          eventThrottleState.lastEventTime = now
+          return // Skip this event
+        }
+
+        // For longer bursts, be even more aggressive
+        if (eventThrottleState.consecutiveCount >= 8 && eventThrottleState.consecutiveCount % 3 !== 0) {
+          // Changed from 10→4 to 8→3
           console.log(
-            `[PROCESS EVENT] Skipping burst EmuErrLog #${eventThrottleState.consecutiveCount} due to throttling`
+            `[PROCESS EVENT] Skipping heavy burst event #${eventThrottleState.consecutiveCount} (type: ${type})`
           )
           eventThrottleState.lastEventTime = now
           return // Skip this event
         }
       }
+
+      // Use busy-wait for consistent timing
+      const start = Date.now()
+      while (Date.now() - start < dynamicDelay) {}
     }
   } else {
-    // Different event type, reset counter
+    // Different event type - add a longer pause when switching types
+    // This helps ensure the browser has processed all previous events
+    const start = Date.now()
+    while (Date.now() - start < 120) {} // Increased from 0 to 120ms
+
+    // Reset counter
     eventThrottleState.consecutiveCount = 1
   }
 
@@ -697,9 +712,9 @@ function emitSyncEvent(type, data) {
   eventThrottleState.lastEventType = type
   eventThrottleState.lastEventTime = now
 
-  // Add our standard minimal delay
+  // Add our standard minimal delay for all events
   const start = Date.now()
-  while (Date.now() - start < 10) {} // 10ms busy-wait
+  while (Date.now() - start < 20) {} // Increased from 10ms to 20ms
 
   console.log(`[PROCESS EVENT] Emitting ${type}: ${data.substring(0, 50)}${data.length > 50 ? '...' : ''}`)
   emitter.emit('runGameEvent', { type, data })
