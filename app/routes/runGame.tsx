@@ -37,7 +37,7 @@ export async function action({ request }: ActionFunctionArgs) {
 
   // Now check for MULTILOADER preference early in the process
   const matchedEmulator = emulators.find(emulator => emulator.emulatorName === gameDetails.emulatorName)
-  if (matchedEmulator && matchedEmulator.parameters && matchedEmulator.parameters.includes('%Tool:MULTILOADER%')) {
+  if (matchedEmulator && (matchedEmulator.parameters ?? '').includes('%Tool:MULTILOADER%')) {
     // Use the robust parser to split the command
     const splitMultiloaderCMD = command => {
       const args = []
@@ -86,7 +86,7 @@ export async function action({ request }: ActionFunctionArgs) {
       }
     }
   }
-  
+
   // Then continue with existing code...
   console.dir(gameDetails)
 
@@ -127,7 +127,7 @@ export async function action({ request }: ActionFunctionArgs) {
   if (isZip && matchedEmulator && gameDetails.collectionType !== 'goodmerge') {
     // FIRST check if this is a MULTILOADER tool - these ALWAYS need extraction
     // regardless of what their compression flags say - TODO: obv this is ALL a conversion-time problem
-    if (matchedEmulator.parameters && matchedEmulator.parameters.includes('%Tool:MULTILOADER%')) {
+    if ((matchedEmulator.parameters ?? '').includes('%Tool:MULTILOADER%')) {
       logger.log(
         `fileOperations`,
         `MULTILOADER tool detected - these always require extraction regardless of compression flags`
@@ -670,7 +670,9 @@ function generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails) {
 
 // Function to generate Windows command line with various parameter substitutions
 function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
-  let emuParamsStr = matchedEmulator.parameters
+  // Use nullish coalescing for safer property access
+  let emuParamsStr = matchedEmulator.parameters ?? ''
+
   let preferredDiskImageExt = null // Track preferred disk image extension
 
   // Handle MULTILOADER case first (this is special)
@@ -819,7 +821,8 @@ function isMame(emulatorName) {
 }
 
 function extractRetroarchCommandLine(emulatorJson) {
-  const { parameters } = emulatorJson
+  // Safely extract parameters with default empty string
+  const parameters = emulatorJson.parameters ?? ''
   const libretroCoreMatch = parameters.match(/cores[^ ]+/)
 
   if (libretroCoreMatch) {
