@@ -49,7 +49,12 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
     if (eventData) {
       const data = JSON.parse(eventData)
       console.log('runGame event:', data)
-      setLogs(prevLogs => [...prevLogs, data])
+
+      // Only add non-status events to logs (or special status events we want to show)
+      if (data.type !== 'status' || ['zip-success', 'zip-error', 'closed', 'running'].includes(data.data)) {
+        setLogs(prevLogs => [...prevLogs, data])
+      }
+
       if (data.type === 'status') {
         console.log('Setting status to:', data.data)
         setStatus(data.data)
@@ -58,6 +63,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
         else if (data.data.startsWith('zip-error')) setZipStatus('error')
         if (data.data === 'isZip') setIsZip(true)
       }
+
       if (data.type === 'onlyOneEmu') alert(data.data)
     }
   }, [eventData])

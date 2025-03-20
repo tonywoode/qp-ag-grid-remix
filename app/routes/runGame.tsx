@@ -578,6 +578,9 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
     const { emuPath, emuParams, fullCommandLine } = darwinCmd
     logger.log(`fileOperations`, ` ✅ Using macOS command: ${fullCommandLine}`)
 
+    // Send the command line to the UI
+    await emitEvent({ type: 'QPBackend', data: `Launching: ${fullCommandLine}` })
+
     currentProcess = spawn(emuPath, emuParams, {
       cwd: path.dirname(emuPath)
     })
@@ -585,6 +588,9 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
     // Windows launch - determine if this is a console application
     const { emuPath, fullCommandLine } = windowsCmd
     logger.log(`fileOperations`, ` ✅ Using Windows command: ${fullCommandLine}`)
+
+    // Send the command line to the UI
+    await emitEvent({ type: 'QPBackend', data: `Launching: ${fullCommandLine}` })
 
     // Check if this is a console application
     const isConsole = await isConsoleApplication(emuPath)
@@ -661,7 +667,7 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
   })
 }
 
-// Enhanced throttling with better batching for all event types
+ // Enhanced throttling with better batching for all event types
 function emitSyncEvent(type, data) {
   const now = Date.now()
 
