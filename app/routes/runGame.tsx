@@ -19,6 +19,13 @@ const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.b
 let currentProcess = null
 let currentGameDetails = null
 
+// Add this near the top of your file with the other global variables
+const eventThrottleState = {
+  lastEventType: null,
+  consecutiveCount: 0,
+  lastEventTime: 0
+}
+
 //SSE: emit is sync - delay for two reasons: (1) events too close clobber each other (2) lack of await working sensibly for node-7z-archive operations
 async function emitEvent({ type, data }: { type: string; data: string }) {
   await new Promise(resolve => setTimeout(resolve, 100))
@@ -649,9 +656,48 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
   })
 }
 
-// Add this helper function for direct process events
+// Replace your emitSyncEvent with this smart-throttling version
 function emitSyncEvent(type, data) {
-  // Add a forced minimal delay to prevent event clobbering
+  const now = Date.now()
+
+  // Check if this is the same type of event as the last one
+  if (type === eventThrottleState.lastEventType) {
+    eventThrottleState.consecutiveCount++
+
+    // For rapidly firing events of the same type (especially EmuErrLog),
+    // increase the delay for each consecutive event
+    const timeSinceLast = now - eventThrottleState.lastEventTime
+
+    // If events are coming in faster than 100ms apart, add increasing delays
+    if (timeSinceLast < 100) {
+      const dynamicDelay = Math.min(eventThrottleState.consecutiveCount * 10, 200) // Cap at 200ms
+
+      // Use busy-wait for consistent timing
+      const start = Date.now()
+      while (Date.now() - start < dynamicDelay) {}
+
+      // For EmuErrLog events specifically, consider merging if they're coming too fast
+      if (type === 'EmuErrLog' && eventThrottleState.consecutiveCount > 3) {
+        // Don't process every single one - we can combine them
+        if (eventThrottleState.consecutiveCount % 2 !== 0) {
+          console.log(
+            `[PROCESS EVENT] Skipping burst EmuErrLog #${eventThrottleState.consecutiveCount} due to throttling`
+          )
+          eventThrottleState.lastEventTime = now
+          return // Skip this event
+        }
+      }
+    }
+  } else {
+    // Different event type, reset counter
+    eventThrottleState.consecutiveCount = 1
+  }
+
+  // Update state for next time
+  eventThrottleState.lastEventType = type
+  eventThrottleState.lastEventTime = now
+
+  // Add our standard minimal delay
   const start = Date.now()
   while (Date.now() - start < 10) {} // 10ms busy-wait
 
