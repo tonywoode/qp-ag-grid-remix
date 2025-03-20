@@ -164,31 +164,35 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
       >
         <div
           className="relative bg-white rounded w-full h-full mx-auto p-6 flex flex-col"
-          draggable="true"
-          onMouseDown={e => {
-            const rect = e.currentTarget.getBoundingClientRect()
-            const offsetX = isMinimized ? e.clientX - rect.left : e.clientX - (rect.left + rect.width / 2)
-            const offsetY = isMinimized ? e.clientY - rect.top : e.clientY - (rect.top + rect.height / 2)
-            setDragOffset({ x: offsetX, y: offsetY })
-            setDragStart({ x: e.clientX, y: e.clientY })
-          }}
-          onDragStart={e => {
-            e.dataTransfer.setData('text', '') //required for Firefox
-            e.dataTransfer.effectAllowed = 'move'
-            e.dataTransfer.setDragImage(blankDragImage, 0, 0) //might as well be 0,0
-          }}
-          onDrag={e => {
-            if (e.clientX === 0 && e.clientY === 0) return
-            const newPosition = {
-              x: (e?.clientX ?? dragStart.x) - dragOffset.x,
-              y: (e?.clientY ?? dragStart.y) - dragOffset.y
-            }
-            const mode: 'minimized' | 'maximized' = isMinimized ? 'minimized' : 'maximized'
-            updatePosition(mode, newPosition)
-          }}
+          // Remove draggable from the entire container
         >
-          {/* Header with summaries */}
-          <div className="flex flex-col p-3 border-b border-gray-200 cursor-move">
+          {/* Header with summaries - make ONLY this part draggable */}
+          <div
+            className="flex flex-col p-3 border-b border-gray-200 cursor-move"
+            draggable="true"
+            onMouseDown={e => {
+              const rect = e.currentTarget.getBoundingClientRect()
+              const modalRect = e.currentTarget.parentElement.getBoundingClientRect()
+              const offsetX = isMinimized ? e.clientX - rect.left : e.clientX - (modalRect.left + modalRect.width / 2)
+              const offsetY = isMinimized ? e.clientY - rect.top : e.clientY - (modalRect.top + modalRect.height / 2)
+              setDragOffset({ x: offsetX, y: offsetY })
+              setDragStart({ x: e.clientX, y: e.clientY })
+            }}
+            onDragStart={e => {
+              e.dataTransfer.setData('text', '') //required for Firefox
+              e.dataTransfer.effectAllowed = 'move'
+              e.dataTransfer.setDragImage(blankDragImage, 0, 0) //might as well be 0,0
+            }}
+            onDrag={e => {
+              if (e.clientX === 0 && e.clientY === 0) return
+              const newPosition = {
+                x: (e?.clientX ?? dragStart.x) - dragOffset.x,
+                y: (e?.clientY ?? dragStart.y) - dragOffset.y
+              }
+              const mode: 'minimized' | 'maximized' = isMinimized ? 'minimized' : 'maximized'
+              updatePosition(mode, newPosition)
+            }}
+          >
             <span className="font-medium text-gray-800">{gameDetails.name}</span>
             <div className="flex items-center space-x-2 mt-2">
               <div className="flex items-center">
@@ -206,10 +210,10 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
             </div>
           </div>
 
-          {/* Console Output */}
+          {/* Console Output - make this explicitly selectable */}
           <div
             ref={containerRef}
-            className="flex-grow overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap"
+            className="flex-grow overflow-auto bg-black text-white p-4 rounded whitespace-pre-wrap select-text"
           >
             {logs.map(({ type, data }, i) => (
               <div key={i}>
