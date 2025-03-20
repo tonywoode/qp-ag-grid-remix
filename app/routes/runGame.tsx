@@ -858,6 +858,7 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
       { pattern: /%ROMFILENAME%/g, value: path.basename(outputFile) },
       { pattern: /%ROMFILENAMENOEXT%/g, value: path.basename(outputFile).replace(/\.[^/.]+$/, '') },
       { pattern: /%ROMDIR%/g, value: path.dirname(outputFile) },
+      { pattern: /%EXEDIR%/g, value: path.dirname(matchedEmulator.path) },
       // ROMMAME is special because it depends on gameDetails
       {
         pattern: /%ROMMAME%/g,
