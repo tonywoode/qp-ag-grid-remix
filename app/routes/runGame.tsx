@@ -647,12 +647,19 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
 
   currentProcess.on('close', code => {
     logger.log(`fileOperations`, `Process exited with code ${code}`)
-    // Fix the someOtherEvent issue by using runGameEvent consistently
+
+    // First emit the close event
     emitSyncEvent('close', `Process exited with code ${code}`)
-    // Emit status when game ends
-    emitSyncEvent('status', 'closed')
-    currentProcess = null
-    currentGameDetails = null
+
+    // Then wait a significant time before sending the status change
+    setTimeout(() => {
+      // Use emitSyncEvent instead of direct emit to keep throttling benefits
+      emitSyncEvent('status', 'closed')
+
+      // Clean up after the status is sent
+      currentProcess = null
+      currentGameDetails = null
+    }, 500) // Half second delay between these critical events
   })
 }
 
