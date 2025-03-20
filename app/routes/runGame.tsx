@@ -19,6 +19,12 @@ const diskImageExtensions = ['.chd', '.nrg', '.mdf', '.img', '.ccd', '.cue', '.b
 let currentProcess = null
 let currentGameDetails = null
 
+const eventThrottleState = {
+  lastEventType: null,
+  consecutiveCount: 0,
+  lastEventTime: 0
+}
+
 //SSE: emit is sync - delay for two reasons: (1) events too close clobber each other (2) lack of await working sensibly for node-7z-archive operations
 async function emitEvent({ type, data }: { type: string; data: string }) {
   await new Promise(resolve => setTimeout(resolve, 100))
@@ -27,7 +33,7 @@ async function emitEvent({ type, data }: { type: string; data: string }) {
 
 export async function action({ request }: ActionFunctionArgs) {
   const gameDetails: GameDetails = await request.json()
-  
+
   //popup an alert to the user that if emulators is [] they won't be able to run any games
   const emulators = loadEmulators()
   if (emulators.length === 0) {
@@ -189,7 +195,7 @@ export async function action({ request }: ActionFunctionArgs) {
 
 async function examineZip(gamePathOS, outputDirectory, gameDetails: GameDetails) {
   const { onlyArchive, listArchive, fullArchive } = await loadNode7z()
-  
+
   logger.log(`fileOperations`, 'listing archive', gamePathOS)
   await emitEvent({ type: 'zip', data: 'listing archive contents: ' + gamePathOS })
 
@@ -627,25 +633,97 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
 
   // Setup event handlers (keep existing code)
   currentProcess.stdout.on('data', data => {
-    logger.log(`fileOperations`, `Output: ${data}`)
-    emitter.emit('runGameEvent', { type: 'EmuLog', data: data.toString() })
+    const dataStr = data.toString()
+    logger.log(`fileOperations`, `Output: ${dataStr}`)
+    emitSyncEvent('EmuLog', dataStr)
   })
 
   currentProcess.stderr.on('data', data => {
-    logger.log(`fileOperations`, `Error: ${data}`)
-    emitter.emit('runGameEvent', { type: 'EmuErrLog', data: data.toString() })
+    const dataStr = data.toString()
+    logger.log(`fileOperations`, `Error: ${dataStr}`)
+    emitSyncEvent('EmuErrLog', dataStr)
   })
 
   currentProcess.on('close', code => {
     logger.log(`fileOperations`, `Process exited with code ${code}`)
-    //TODO: this won't get printed, but we can't make the fn async - try it we enter a whole new world of stdout race conditions
-    emitter.emit('someOtherEvent', { type: 'close', data: `Process exited with code ${code}` })
-    // Emit status when game ends
-    emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
-    currentProcess = null
-    currentGameDetails = null
+    // First emit the close event
+    emitSyncEvent('close', `Process exited with code ${code}`)
+
+    // Then wait a significant time before sending the status change
+    setTimeout(() => {
+      // Use emitSyncEvent instead of direct emit to keep throttling benefits
+      emitSyncEvent('status', 'closed')
+
+      // Clean up after the status is sent
+      currentProcess = null
+      currentGameDetails = null
+    }, 500) // Half second delay between these critical events
   })
 }
+
+// Enhanced throttling with better batching for all event types
+function emitSyncEvent(type, data) {
+  const now = Date.now()
+
+  // Check if this is the same type of event as the last one
+  if (type === eventThrottleState.lastEventType) {
+    eventThrottleState.consecutiveCount++
+
+    // For rapidly firing events of the same type,
+    // use much more aggressive throttling
+    const timeSinceLast = now - eventThrottleState.lastEventTime
+
+    // If events are coming in faster than 150ms apart (increased from 100ms)
+    if (timeSinceLast < 150) {
+      // More aggressive throttling - increase both the multiplier and cap
+      const dynamicDelay = Math.min(eventThrottleState.consecutiveCount * 25, 350) // Increased from 15×250
+
+      // For all event types, use more aggressive skipping
+      if (eventThrottleState.consecutiveCount > 2) {
+        // Decreased threshold from 3 to 2
+        // Skip every other event from the start
+        if (eventThrottleState.consecutiveCount % 2 !== 0) {
+          console.log(`[PROCESS EVENT] Skipping burst event #${eventThrottleState.consecutiveCount} (type: ${type})`)
+          eventThrottleState.lastEventTime = now
+          return // Skip this event
+        }
+
+        // For longer bursts, be even more aggressive
+        if (eventThrottleState.consecutiveCount >= 8 && eventThrottleState.consecutiveCount % 3 !== 0) {
+          // Changed from 10→4 to 8→3
+          console.log(
+            `[PROCESS EVENT] Skipping heavy burst event #${eventThrottleState.consecutiveCount} (type: ${type})`
+          )
+          eventThrottleState.lastEventTime = now
+          return // Skip this event
+        }
+      }
+
+      // Use busy-wait for consistent timing
+      const start = Date.now()
+      while (Date.now() - start < dynamicDelay) {}
+    }
+  } else {
+    // Different event type - add a longer pause when switching types
+    // This helps ensure the browser has processed all previous events
+    const start = Date.now()
+    while (Date.now() - start < 120) {} // Increased from 0 to 120ms
+
+    // Reset counter
+    eventThrottleState.consecutiveCount = 1
+  }
+
+  // Update state for next time
+  eventThrottleState.lastEventType = type
+  eventThrottleState.lastEventTime = now
+
+  // Add our standard minimal delay for all events
+  const start = Date.now()
+  while (Date.now() - start < 20) {} // Increased from 10ms to 20ms
+
+  console.log(`[PROCESS EVENT] Emitting ${type}: ${data.substring(0, 50)}${data.length > 50 ? '...' : ''}`)
+  emitter.emit('runGameEvent', { type, data })
+} 
 
 // Function to generate macOS RetroArch command line
 function generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails) {
