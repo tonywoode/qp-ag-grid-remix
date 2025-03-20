@@ -1,5 +1,5 @@
 import Modal from 'react-modal'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useCallback } from 'react'
 import { useFetcher } from '@remix-run/react'
 import { IoGameControllerOutline } from 'react-icons/io5'
 import { DiJsBadge } from 'react-icons/di'
@@ -43,47 +43,75 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
     requestId: '',
     archivePath: ''
   })
+  const [eventQueue, setEventQueue] = useState<string[]>([])
+  const processingRef = useRef(false)
   const hasError = logs.some(log => log.data.toLowerCase().includes('error'))
-  useEffect(() => {
-    console.log('the eventData useEffect ran')
-    if (eventData) {
-      const data = JSON.parse(eventData)
-      console.log('runGame event:', data)
-      setLogs(prevLogs => [...prevLogs, data])
-      if (data.type === 'status') {
-        console.log('Setting status to:', data.data)
-        setStatus(data.data)
-        if (data.data === 'closed') setIsMinimized(false)
-        if (data.data === 'zip-success') setZipStatus('success')
-        else if (data.data.startsWith('zip-error')) setZipStatus('error')
-        if (data.data === 'isZip') setIsZip(true)
-      }
-      if (data.type === 'onlyOneEmu') alert(data.data)
-    }
-  }, [eventData])
 
-  useEffect(() => {
-    if (eventData) {
+  //Don't trust useEffect to handle the events (randomly, events keep clobbering). Implement our own queue
+  const processNextEvent = useCallback(() => {
+    // Use a function to get the latest queue state
+    setEventQueue(currentQueue => {
+      if (currentQueue.length === 0) {
+        processingRef.current = false
+        return currentQueue
+      }
+
+      processingRef.current = true
+      const nextEvent = currentQueue[0]
+
       try {
-        const event = JSON.parse(eventData)
-
-        // Handle file selection events
-        if (event.type === 'fileSelection') {
-          const { requestId, files, archivePath } = JSON.parse(event.data)
-          setFileSelection({
-            isOpen: true,
-            files,
-            requestId,
-            archivePath
-          })
+        // Process the event
+        const data = JSON.parse(nextEvent)
+        console.log('Processing event from queue:', data)
+        // Update logs
+        setLogs(prevLogs => [...prevLogs, data])
+        if (data.type === 'status') {
+          console.log('Setting status to:', data.data)
+          setStatus(data.data)
+          if (data.data === 'closed') {
+            setIsMinimized(false)
+          }
+          if (data.data === 'zip-success') setZipStatus('success')
+          else if (data.data.startsWith('zip-error')) setZipStatus('error')
+          if (data.data === 'isZip') setIsZip(true)
         }
-
-        // Handle other event types...
-      } catch (e) {
-        console.error('Error parsing event data:', e)
+        if (data.type === 'fileSelection') {
+          try {
+            console.log('Received file selection request:', data.data)
+            const { requestId, files, archivePath } = JSON.parse(data.data)
+            console.log('Opening file selection modal with:', { files, requestId, archivePath })
+            setFileSelection({ isOpen: true, files, requestId, archivePath })
+          } catch (err) {
+            console.error('Error parsing fileSelection data:', err)
+          }
+        }
+        if (data.type === 'onlyOneEmu') alert(data.data)
+      } catch (err) {
+        console.error('Error processing event:', err, 'Raw data:', nextEvent)
       }
+      // Return the new queue without the processed event
+      const newQueue = currentQueue.slice(1)
+      // ALWAYS schedule the next processing, regardless of queue length (ensures we don't leave items in the queue)
+      setTimeout(processNextEvent, 50)
+      return newQueue
+    })
+  }, []) // No dependencies here!
+
+  useEffect(() => {
+    if (eventData) {
+      console.log('Received new eventData:', eventData.substring(0, 50)) //in case of really long events
+      setEventQueue(prev => {
+        const newQueue = [...prev, eventData]
+        console.log(`Queue now has ${newQueue.length} items`)
+        // If we're not already processing, start the process
+        if (!processingRef.current) {
+          console.log('Starting queue processing')
+          setTimeout(processNextEvent, 0)
+        }
+        return newQueue
+      })
     }
-  }, [eventData])
+  }, [eventData, processNextEvent])
 
   //terminal like scroll to latest message
   useEffect(() => {
@@ -242,6 +270,20 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
               </div>
             ))}
           </div>
+          {process.env.NODE_ENV === 'development' && (
+            <div className="absolute top-2 right-2 bg-gray-800 text-white px-3 py-1 rounded text-xs z-10">
+              <div>Queue size: {eventQueue.length}</div>
+              <div>Processing: {processingRef.current ? 'Yes' : 'No'}</div>
+              <div>Event count: {logs.length}</div>
+              <div
+                className={`font-bold ${
+                  status === 'closed' ? 'text-red-400' : status === 'running' ? 'text-green-400' : 'text-yellow-400'
+                }`}
+              >
+                Status: {status || 'none'}
+              </div>
+            </div>
+          )}
           <div className="flex justify-end mt-2">
             <button
               className={`px-4 py-1 ${isMinimized ? 'bg-red-500' : 'bg-blue-500'} text-white rounded`}
