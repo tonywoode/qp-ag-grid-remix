@@ -627,24 +627,36 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
 
   // Setup event handlers (keep existing code)
   currentProcess.stdout.on('data', data => {
-    logger.log(`fileOperations`, `Output: ${data}`)
-    emitter.emit('runGameEvent', { type: 'EmuLog', data: data.toString() })
+    const dataStr = data.toString()
+    logger.log(`fileOperations`, `Output: ${dataStr}`)
+    emitSyncEvent('EmuLog', dataStr)
   })
 
   currentProcess.stderr.on('data', data => {
-    logger.log(`fileOperations`, `Error: ${data}`)
-    emitter.emit('runGameEvent', { type: 'EmuErrLog', data: data.toString() })
+    const dataStr = data.toString()
+    logger.log(`fileOperations`, `Error: ${dataStr}`)
+    emitSyncEvent('EmuErrLog', dataStr)
   })
 
   currentProcess.on('close', code => {
     logger.log(`fileOperations`, `Process exited with code ${code}`)
-    //TODO: this won't get printed, but we can't make the fn async - try it we enter a whole new world of stdout race conditions
-    emitter.emit('someOtherEvent', { type: 'close', data: `Process exited with code ${code}` })
+    // Fix the someOtherEvent issue by using runGameEvent consistently
+    emitSyncEvent('close', `Process exited with code ${code}`)
     // Emit status when game ends
-    emitter.emit('runGameEvent', { type: 'status', data: 'closed' })
+    emitSyncEvent('status', 'closed')
     currentProcess = null
     currentGameDetails = null
   })
+}
+
+// Add this helper function for direct process events
+function emitSyncEvent(type, data) {
+  // Add a forced minimal delay to prevent event clobbering
+  const start = Date.now()
+  while (Date.now() - start < 10) {} // 10ms busy-wait
+
+  console.log(`[PROCESS EVENT] Emitting ${type}: ${data.substring(0, 50)}${data.length > 50 ? '...' : ''}`)
+  emitter.emit('runGameEvent', { type, data })
 }
 
 // Function to generate macOS RetroArch command line
