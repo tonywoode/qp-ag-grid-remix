@@ -1,4 +1,6 @@
 [
+  { "feature": "diskLogging", "enabled": false },
+  { "feature": "romdataConvert", "enabled": true },
   { "feature": "remixRoutes", "enabled": false },
   { "feature": "gridOperations", "enabled": false },
   { "feature": "fileOperations", "enabled": false },
@@ -7,7 +9,5 @@
   { "feature": "screenshots", "enabled": false },
   { "feature": "tabContent", "enabled": false },
   { "feature": "icons", "enabled": false },
-  { "feature": "lightbox", "enabled": false },
-  { "feature": "diskLogging", "enabled": false },
-  { "feature": "romdataConvert", "enabled": true }
+  { "feature": "lightbox", "enabled": false }
 ]
