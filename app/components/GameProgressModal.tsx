@@ -5,6 +5,7 @@ import { IoGameControllerOutline } from 'react-icons/io5'
 import { DiJsBadge } from 'react-icons/di'
 import { Si7Zip } from 'react-icons/si'
 import { FileSelectionModal } from '~/components/FileSelectionModal'
+import { createFeatureLogger } from '~/utils/featureLogger'
 
 type ProgressModalProps = {
   isOpen: boolean
@@ -16,6 +17,7 @@ type ProgressModalProps = {
     logs: string[]
   }
   eventData: string | null
+  loggerConfig: { feature: string; enabled: boolean }[]
 }
 
 const MINIMIZED_HEIGHT_REM = 20
@@ -25,7 +27,8 @@ const DEFAULT_POSITIONS = {
   maximized: { x: '50%', y: '50%' }
 }
 
-export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: ProgressModalProps) {
+export function GameProgressModal({ isOpen, onClose, gameDetails, eventData, loggerConfig }: ProgressModalProps) {
+  const logger = createFeatureLogger(loggerConfig)
   const fetcher = useFetcher()
   const containerRef = useRef<HTMLDivElement>(null)
   const [logs, setLogs] = useState<{ type: string; data: string }[]>(gameDetails.logs)
@@ -45,10 +48,9 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
   })
   const hasError = logs.some(log => log.data.toLowerCase().includes('error'))
   useEffect(() => {
-    console.log('the eventData useEffect ran')
     if (eventData) {
       const data = JSON.parse(eventData)
-      console.log('runGame event:', data)
+      logger.log('SSE', 'runGame event:', data)
 
       // Only add non-status events to logs (or special status events we want to show)
       if (data.type !== 'status' || ['zip-success', 'zip-error', 'closed', 'running'].includes(data.data)) {
@@ -56,7 +58,7 @@ export function GameProgressModal({ isOpen, onClose, gameDetails, eventData }: P
       }
 
       if (data.type === 'status') {
-        console.log('Setting status to:', data.data)
+        logger.log('SSE', 'Setting status to:', data.data)
         setStatus(data.data)
         if (data.data === 'closed') setIsMinimized(false)
         if (data.data === 'zip-success') setZipStatus('success')

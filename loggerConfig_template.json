@@ -1,10 +1,12 @@
 [
   { "feature": "diskLogging", "enabled": false },
   { "feature": "settings", "enabled": false },
+  { "feature": "treeview", "enabled": false },
   { "feature": "romdataConvert", "enabled": true },
   { "feature": "remixRoutes", "enabled": false },
   { "feature": "gridOperations", "enabled": false },
   { "feature": "fileOperations", "enabled": false },
+  { "feature": "SSE", "enabled": false },
   { "feature": "pathConversion", "enabled": false },
   { "feature": "goodMergeChoosing", "enabled": false },
   { "feature": "screenshots", "enabled": false },

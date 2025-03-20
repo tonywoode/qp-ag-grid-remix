@@ -504,7 +504,8 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
   )
 }
 
-export function TreeView({ folderData }) {
+export function TreeView({ folderData, loggerConfig }) {
+  const logger = createFrontendLogger(loggerConfig)
   const containerRef = useRef(null)
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
   const lastDataRef = useRef(null)
@@ -525,7 +526,7 @@ export function TreeView({ folderData }) {
     const currentStructure = getStructure(folderData)
     const lastStructure = lastDataRef.current ? getStructure(lastDataRef.current) : null
     if (lastStructure !== currentStructure) {
-      console.log('detected actual folder structure change')
+      logger.log('treeview', 'detected actual folder structure change')
       lastDataRef.current = folderData
       setTreeKey(prev => prev + 1)
     }
@@ -655,7 +656,7 @@ export default function App() {
                   marginTop: `${headerHeight}px` // Dynamic margin based on header height
                 }}
               >
-                <TreeView folderData={folderData} />
+                <TreeView folderData={folderData} loggerConfig={data.loggerConfig} />
                 <div className="h-full overflow-auto">
                   {data.dataDirectoryExists ? (
                     <Outlet />

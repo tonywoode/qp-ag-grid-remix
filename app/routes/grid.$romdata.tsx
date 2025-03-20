@@ -808,6 +808,7 @@ export default function Grid() {
         }}
         gameDetails={gameProgress || { name: '', path: '', status: '', logs: [] }}
         eventData={eventData}
+        loggerConfig={loggerConfig}
       />
     </>
   )

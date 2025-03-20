@@ -1,7 +1,7 @@
 {
   "name": "quickPlayJS-dogfood-edition",
   "description": "",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "private": true,
   "main": "desktop/index.js",
   "sideEffects": false,
