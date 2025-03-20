@@ -105,8 +105,6 @@ export default function MediaPanel() {
   //if either of mameName OR parentName is truthy, log it
   if (mameName || parentName) logger.log('tabContent', 'MediaPanel - MameNames:', mameNames)
 
-  useEffect(() => Modal.setAppElement('#root'), []) // Set the app element for react-modal (else it complains in console about aria)
-
   //if user rapidly scrolls, js logs an unhandled from remix's navigate in the caller (which fires but doesn't return an abort-controlled promise)
   useEffect(() => {
     const handleUnhandledRejection = (event: PromiseRejectionEvent) => {

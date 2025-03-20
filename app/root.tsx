@@ -8,6 +8,7 @@ import { Menu, MenuItem, MenuButton, SubMenu, MenuDivider } from '@szhsin/react-
 import { Tree } from 'react-arborist'
 import Split from 'react-split'
 import { platform } from 'os'
+import Modal from 'react-modal' //just to make it stop bleating about aria see below
 
 import tailwindStyles from '~/styles/tailwind.css'
 import reactSplitStyles from '~/styles/react-split.css'
@@ -620,6 +621,9 @@ export default function App() {
     if (footerHoverTimeout.current) clearTimeout(footerHoverTimeout.current)
     setShowFooterDetails(false)
   }
+
+  //outside of any component, stop every react-modal I make from aria "Warning: react-modal: App element is not defined"
+  if (typeof window !== 'undefined') Modal.setAppElement('#root')
 
   return (
     <html lang="en" className="w-full h-full">

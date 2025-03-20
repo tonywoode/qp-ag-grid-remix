@@ -165,7 +165,6 @@ export const action = async ({ request }: { request: Request }) => {
 }
 
 export default function Convert() {
-  useEffect(() => Modal.setAppElement('#root'), []) // Set the app element for react-modal (else it complains in console about aria)
   const [modalState, setModalState] = useState<ModalState>({ isOpen: true })
   const actionData = useActionData<typeof action>()
   const navigation = useNavigation()
