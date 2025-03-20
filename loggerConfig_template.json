@@ -1,5 +1,6 @@
 [
   { "feature": "diskLogging", "enabled": false },
+  { "feature": "settings", "enabled": false },
   { "feature": "romdataConvert", "enabled": true },
   { "feature": "remixRoutes", "enabled": false },
   { "feature": "gridOperations", "enabled": false },

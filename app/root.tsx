@@ -97,7 +97,8 @@ export async function action({ request }: { request: Request }) {
 // use as the standard delay across the app
 const HOVER_DELAY_MS = 400
 
-const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange }) => {
+const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange, loggerConfig }) => {
+  const logger = createFrontendLogger(loggerConfig)
   const [isFullScreen, setIsFullScreen] = useState(false)
   const isFirstDevToolsClick = useRef(true)
   // Add ref for the menu hover timeout
@@ -107,16 +108,16 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
   useEffect(() => {
     // Check initial fullscreen state
     setIsFullScreen(!!document.fullscreenElement)
-    console.log('Initial fullscreen state:', !!document.fullscreenElement)
+    logger.log('settings', 'Initial fullscreen state:', !!document.fullscreenElement)
     // Handler for fullscreen change events
     const handleFullscreenChange = () => {
       setIsFullScreen(!!document.fullscreenElement)
-      console.log('Fullscreen change detected:', !!document.fullscreenElement)
+      logger.log('settings', 'Fullscreen change detected:', !!document.fullscreenElement)
     }
 
     // Handler for custom events from Electron
     const handleElectronFullscreenChange = event => {
-      console.log('Electron fullscreen change:', event.detail)
+      logger.log('settings', 'Electron fullscreen change:', event.detail)
       setIsFullScreen(event.detail)
     }
 
@@ -134,7 +135,7 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
 
   // Add a separate effect to log when isFullScreen actually changes
   useEffect(() => {
-    console.log('fullscreen is now:', isFullScreen)
+    logger.log('settings', 'fullscreen is now:', isFullScreen)
   }, [isFullScreen])
 
   // Add a cleanup effect for the timeout
@@ -642,6 +643,7 @@ export default function App() {
             isLinux={isLinux}
             onExpandChange={handleMenuExpandChange}
             isMenuExpanded={isMenuExpanded}
+            loggerConfig={data.loggerConfig}
           />
           {isSplitLoaded && (
             <>
