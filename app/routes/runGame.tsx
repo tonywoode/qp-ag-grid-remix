@@ -543,7 +543,9 @@ async function runGame(outputFile: string, gameDetails: GameDetails) {
     logger.log(`fileOperations`, 'An emulator is already running. Please close it before launching a new game.')
     await emitEvent({
       type: 'onlyOneEmu',
-      data: `An emulator is already running: ${currentGameDetails.name} with ${currentGameDetails.emulatorName}. Please close it before launching a new game.`
+      data: `An emulator is already running: ${currentGameDetails?.name ?? 'Unknown'} with ${
+        currentGameDetails?.emulatorName ?? 'Unknown'
+      }. Please close it before launching a new game.`
     })
     return
   }
@@ -757,7 +759,7 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
 
     // Handle parameters from romdata first
     if (gameDetails.parameters) {
-      const paramModeInt = gameDetails.paramMode ? parseInt(gameDetails.paramMode) : NaN
+      const paramModeInt = gameDetails.paramMode != null ? parseInt(gameDetails.paramMode) : NaN
       if (paramModeInt == 0) emuParamsStr = `${emuParamsStr} ${gameDetails.parameters}`
       if (paramModeInt == 1) emuParamsStr = gameDetails.parameters
       if (paramModeInt == 2) emuParamsStr = `${gameDetails.parameters} ${emuParamsStr}`
@@ -775,7 +777,7 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
       // ROMMAME is special because it depends on gameDetails
       {
         pattern: /%ROMMAME%/g,
-        value: gameDetails.mameName || gameDetails.parentName || ''
+        value: gameDetails?.mameName || gameDetails?.parentName || ''
       }
     ]
 
@@ -813,8 +815,15 @@ function isMame(emulatorName) {
   const matchedEmulator = matchEmulatorName(emulatorName)
   //temporary fix: it isn't QUITE good enough to say a rom is mame if we call ROMMAME, otherGameNames etc...so also this:
   const isMameEmulator =
-    matchedEmulator?.emulatorName.startsWith('MAME') || matchedEmulator?.emulatorName.endsWith('(MAME)')
-  const find = (str, start, end) => str?.match(new RegExp(`${start}(.*?)${end}`))[1]
+    matchedEmulator?.emulatorName?.startsWith('MAME') || matchedEmulator?.emulatorName?.endsWith('(MAME)')
+
+  // More robust find function that handles all edge cases
+  const find = (str, start, end) => {
+    if (!str) return null // Handle undefined/null string
+    const match = str.match(new RegExp(`${start}(.*?)${end}`))
+    return match && match.length > 1 ? match[1] : null // Handle no match or no capture group
+  }
+
   const namedOutputType = find(matchedEmulator?.parameters, '%', '%')
   const isMameRom = namedOutputType === 'ROMMAME'
   return isMameEmulator || isMameRom
