@@ -851,14 +851,14 @@ function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
       if (paramModeInt == 4) emuParamsStr = `${gameDetails.parameters}${emuParamsStr}`
     }
 
-    // Replace all placeholder patterns in a single pass
+    // Replace all placeholder patterns in a single pass (not defensive: we know we have rom and exe)
     const replacements = [
       { pattern: /%ROM%/g, value: outputFile },
       { pattern: /%SHORTROM%/g, value: outputFile }, // This seems to be equivalent to ROM in the current code
       { pattern: /%ROMFILENAME%/g, value: path.basename(outputFile) },
       { pattern: /%ROMFILENAMENOEXT%/g, value: path.basename(outputFile).replace(/\.[^/.]+$/, '') },
       { pattern: /%ROMDIR%/g, value: path.dirname(outputFile) },
-      { pattern: /%EXEDIR%/g, value: path.dirname(matchedEmulator.path) },
+      { pattern: /%EXEDIR%/g, value: path.dirname(matchedEmulator.path) + path.sep }, //sep original qp behaviour
       // ROMMAME is special because it depends on gameDetails
       {
         pattern: /%ROMMAME%/g,
