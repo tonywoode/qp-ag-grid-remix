@@ -4,6 +4,9 @@ const path = require('node:path')
 const fs = require('node:fs')
 const log = require('electron-log')
 
+// Check for fullscreen command line argument
+const isFullScreenArg = process.argv.includes('--fullscreen')
+
 // Configure electron-log to use our OS-aware base directory
 log.transports.file.resolvePath = () => {
   const baseDir = getBaseDirectory()
@@ -45,13 +48,33 @@ async function createWindow(url) {
     }
   })
 
-  // Explicitly ensure we're not in fullscreen
-  win.setFullScreen(false)
+  // Check if we should start in fullscreen
+  if (isFullScreenArg) {
+    win.setFullScreen(true)
+    // Log that we're starting in fullscreen mode
+    log.info('Starting application in fullscreen mode due to --fullscreen flag')
+  } else {
+    // Explicitly ensure we're not in fullscreen if the flag isn't present
+    win.setFullScreen(false)
+  }
 
   // Still maximize the window but now it will have proper chrome
-  win.maximize()
+  // Only maximize if not in fullscreen mode
+  if (!isFullScreenArg) {
+    win.maximize()
+  }
+
   await win.loadURL(url)
   win.show()
+
+  // Notify the renderer process about fullscreen state on load
+  if (isFullScreenArg) {
+    win.webContents.executeJavaScript(`
+      window.dispatchEvent(new CustomEvent('electron-fullscreen-change', { 
+        detail: true 
+      }))
+    `)
+  }
 
   if (process.env.NODE_ENV === 'development') {
     win.webContents.openDevTools()
