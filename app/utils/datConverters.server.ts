@@ -37,10 +37,25 @@ export async function convertEmulators(inputPath: string, outputPath: string): P
     // Convert the sections to the desired format, restoring periods in keys
     const emulators = Object.keys(sections).map(key => {
       const restoredKey = key.replace(/___/g, '.')
-      return {
+      const emulator = {
         emulatorName: restoredKey,
         ...sections[key]
       }
+
+      // Special case for Windows Start Command
+      if (restoredKey === 'Windows Start Command (for .exe and shortcuts)') {
+        emulator.path = 'cmd'
+      }
+
+      // Special case for Windows Explorer
+      if (restoredKey === 'Windows Explorer (for shortcuts)') {
+        emulator.path = 'explorer'
+        if (emulator.parameters?.startsWith('explorer ')) {
+          emulator.parameters = emulator.parameters.replace('explorer ', '')
+        }
+      }
+
+      return emulator
     })
 
     // Filter out empty values
