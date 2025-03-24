@@ -25,7 +25,15 @@ const handleWindowMaximize = () => {
 
 const handleWindowClose = () => {
   const win = BrowserWindow.getFocusedWindow()
-  if (win) win.close()
+  if (win) {
+    win.close()
+
+    // If no windows remain, force quit the app
+    if (BrowserWindow.getAllWindows().length === 0) {
+      // Give a small timeout to allow the window to close properly
+      setTimeout(() => app.quit(), 100)
+    }
+  }
 }
 
 const handleToggleDevtools = () => {

@@ -117,6 +117,14 @@ if (process.platform === 'win32') {
   })
 }
 
+// Add this after your other app event handlers, before app.on('ready')
+
+// Quit the app when all windows are closed - quit on mac too!
+app.on('window-all-closed', () => {
+  // Force quit the app regardless of platform
+  app.quit()
+})
+
 app.on('ready', () => {
   void (async () => {
     try {
