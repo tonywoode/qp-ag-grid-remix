@@ -5,7 +5,7 @@
  */
 import * as fs from 'fs'
 import * as path from 'path'
-import { dataDirectory, datsDirectory, getTempDirectory } from '~/dataLocations.server'
+import { dataDirectory, datsDirectory, getTempDirectory, logger } from '~/dataLocations.server'
 
 export type BackupChoice = 'cancel' | 'backup' | 'overwrite'
 
@@ -50,7 +50,7 @@ export async function backupDirectory(sourcePath: string): Promise<string> {
 export async function backupFile(sourcePath: string): Promise<string> {
   const timestamp = new Date().toISOString().split('.')[0].replace(/[:]/g, '').replace('T', '-')
   const backupPath = `${sourcePath}-backup-${timestamp}`
-  
+
   await fs.promises.cp(sourcePath, backupPath)
   return backupPath
 }
@@ -114,19 +114,21 @@ export async function handleExistingData(
  * Consider that some people remove all temp dirs on their system, either you can rename your extraction dir, or try this...
  */
 export async function createDirIfNotExist(dirPath: string) {
-  const fnName = createDirIfNotExist.name
   try {
     const stats = await fs.promises.stat(dirPath)
-    if (stats.isDirectory()) console.log(`extraction Dir: ${dirPath}`)
-    else console.error(`${fnName}: ${dirPath} exists but is not a dir`)
+    if (!stats.isDirectory()) {
+      logger.log('fileOperations', `Warning: ${dirPath} exists but is not a directory`)
+    }
   } catch (error) {
     if (error.code === 'ENOENT') {
       try {
         await fs.promises.mkdir(dirPath, { recursive: true })
-        console.log(`${fnName}: Dir ${dirPath} didn't preexist: created successfully`)
+        logger.log('fileOperations', `Created directory: ${dirPath}`)
       } catch (mkdirError) {
-        console.error(`${fnName}: Error creating dir: ${mkdirError}`)
+        logger.log('fileOperations', `Error creating directory ${dirPath}: ${mkdirError}`)
       }
-    } else console.error(`${fnName}: Error accessing dir: ${error}`)
+    } else {
+      logger.log('fileOperations', `Error accessing directory ${dirPath}: ${error}`)
+    }
   }
 }
