@@ -103,6 +103,22 @@ const ActionBar = ({ isWindows, isMacOS, isLinux, isMenuExpanded, onExpandChange
   const isFirstDevToolsClick = useRef(true)
   // Add ref for the menu hover timeout
   const menuHoverTimeout = useRef(null)
+  // Add a fetcher to get the initial fullscreen state from our API
+  const fullscreenFetcher = useFetcher()
+
+  // Fetch initial fullscreen state when component mounts (electron often sets the state too late for component otherwise)
+  useEffect(() => {
+    // Get initial fullscreen state from the Electron API
+    fullscreenFetcher.load('/api/electron')
+  }, [])
+
+  // Update fullscreen state when the fetcher returns data
+  useEffect(() => {
+    if (fullscreenFetcher.data?.isFullScreen !== undefined) {
+      logger.log('settings', 'Initial fullscreen state from API:', fullscreenFetcher.data.isFullScreen)
+      setIsFullScreen(fullscreenFetcher.data.isFullScreen)
+    }
+  }, [fullscreenFetcher.data])
 
   // Listen for fullscreen changes using the standard browser API
   useEffect(() => {
