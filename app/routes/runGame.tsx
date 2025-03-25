@@ -755,6 +755,11 @@ function generateDarwinCommandLine(outputFile, matchedEmulator, gameDetails) {
 }
 
 // Function to generate Windows command line with various parameter substitutions
+// TODO: this probably isn't right given https://learn.microsoft.com/en-us/archive/blogs/twistylittlepassagesallalike/everyone-quotes-command-line-arguments-the-wrong-way
+// and even this isn't right see: https://lobste.rs/s/qjzd9y/everyone_quotes_command_line_arguments
+// e.g.: https://github.com/ziglang/zig/pull/19698 or https://kb.cert.org/vuls/id/123335
+
+//TODO: 8:3 if we go over the NTFS limit plus a setting (or some way to get the filesystem params)
 function generateWindowsCommandLine(outputFile, matchedEmulator, gameDetails) {
   // Use nullish coalescing for safer property access
   let emuParamsStr = matchedEmulator.parameters ?? ''
